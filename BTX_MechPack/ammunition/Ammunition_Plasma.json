@@ -1,0 +1,29 @@
+{
+  "Description": {
+    "Id": "Ammunition_Plasma",
+    "Name": "Plasma Ammo",
+    "Details": "Cartridges of plastic foam superheated into white-hot projectiles.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "Plasma",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "ProjectileScale": {
+    "x": 1,
+    "y": 1,
+    "z": 0.7
+  },
+  "AdditionalImpactVFX": "WFX_SPlasma",
+  "AdditionalImpactVFXScaleX": 1,
+  "AdditionalImpactVFXScaleY": 1,
+  "AdditionalImpactVFXScaleZ": 1
+}

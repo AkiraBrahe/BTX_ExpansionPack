@@ -1,0 +1,14 @@
+{
+  "TargetIDs": [
+    "chassisdef_annihilator_C-2"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 18
+      }
+    }
+  ]
+}

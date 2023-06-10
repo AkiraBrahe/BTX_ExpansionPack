@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_battlemaster_BLR-1G_RedCorsair",
+    "Name": "MovementCapabilitiesDef for BattleMaster BLR-1G (Red Corsair)",
+    "Details": "340 XL Fusion Engine - 5/8 movement",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 120.0,
+  "MaxSprintDistance": 200.0,
+  "WalkVelocity": 20.0,
+  "RunVelocity": 36.0,
+  "SprintVelocity": 40.0,
+  "LimpVelocity": 8.0,
+  "WalkAcceleration": 15.0,
+  "SprintAcceleration": 20.0,
+  "MaxRadialVelocity": 70.0,
+  "MaxRadialAcceleration": 210.0,
+  "MaxJumpVel": 30.0,
+  "MaxJumpAccel": 15.0,
+  "MaxJumpVerticalAccel": 30.0
+}

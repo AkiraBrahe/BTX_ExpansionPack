@@ -1,0 +1,227 @@
+{
+  "Description": {
+    "Cost": 3450000,
+    "Rarity": 3,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Centurion",
+    "Id": "chassisdef_centurion_CN9-YLW",
+    "Name": "Centurion",
+    "Details": "<color=#F79B26>The Yen-Lo-Wang, named after the Chinese god of death, is a well-known ArenaMech that has been modified and customized into a variety of different configurations over the years.</color>\n\nThe first configuration of the Yen-Lo-Wang is a Centurion CN9-A that has been modified to be more potent at close range. The Yen-Lo-Wang drops the LRM to upgrade the autocannon to an AC/20 with three tons of ammunition while keeping the two Medium Lasers in the center torso. Its most distinguishing feature was the titanium nails fixed to its left arm, which were eventually replaced by a proper Hatchet.",
+    "Icon": "uixTxrIcon_yenlowang"
+  },
+  "MovementCapDefID": "movedef_centurion_CN9-YLW",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_yenlowang1",
+  "PrefabIdentifier": "chrprfmech_yenlowang1base-001",
+  "PrefabBase": "yenlowang1",
+  "Tonnage": 50,
+  "InitialTonnage": 16.5,
+  "weightClass": "MEDIUM",
+  "Heatsinks": -6,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 70,
+  "MeleeInstability": 50,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 65,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 2
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 2
+    }
+  ],
+  "VariantName": "CN9-YLW",
+  "ChassisTags": {
+    "items": [
+      "mech_quirk_improvedtargetingshort",
+      "mech_quirk_nonstandardparts"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & General Assault",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_Corean_B-Tech",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Actuator_YenLoWang_Hatchet",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

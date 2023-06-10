@@ -1,0 +1,262 @@
+{
+  "Description": {
+    "Cost": 9820000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Hatamoto-Chi",
+    "Id": "chassisdef_hatamotochi_HTM-28T_Shin",
+    "Name": "Hatamoto-Chi",
+    "Details": "<color=#F79B26>The Hatamoto-Chi is one of the best Kuritan Assault 'Mechs, succeeding the underperforming Charger. The Hatamoto-Chi was born from an agreement with ComStar to send older SLDF BattleMechs stripped of their LosTech components, during which ComStar \"accidentally\" sent a few advanced Thugs that were used to quickly design the new BattleMech.</color>\n\nThe Hatamoto-Chi Shin, literally the \"True Guardian of the Banner\", is a complete rearmament of an HTM-28T, with only the C3 Slave remaining. A Gauss Rifle is fitted in the left arm, with three tons of ammunition in the left torso. The left torso also holds six Medium Pulse Lasers. The right arm carries a Large Sword, with Triple-Strength Myomer greatly increasing the damage done by the blade. Only ten double heat sinks are used, allowing the TSM to remain active.",
+    "Icon": "uixTxrIcon_hatamotochisam"
+  },
+  "MovementCapDefID": "movedef_hatamotochi_HTM-28T_Shin",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_hatamotochisam",
+  "PrefabIdentifier": "chrprfmech_hatamotochisam-001",
+  "PrefabBase": "hatamotochisam",
+  "Tonnage": 80,
+  "InitialTonnage": 25.56,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 6,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 110,
+  "MeleeInstability": 80,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 100,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 100,
+  "DFAInstability": 100,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 170,
+      "MaxRearArmor": 85,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 250,
+      "MaxRearArmor": 125,
+      "InternalStructure": 125
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 170,
+      "MaxRearArmor": 85,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "HTM-S",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_case_left",
+      "mech_case_right",
+      "chassis_CrossAssemblyAllowedWith_Hatamoto-Hi",
+      "chassis_CrossAssemblyAllowedWith_Hatamoto-Kaze",
+      "chassis_CrossAssemblyAllowedWith_Hatamoto-Mizo",
+      "chassis_CrossAssemblyAllowedWith_Hatamoto-Ku",
+      "mech_quirk_easytomaintain"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Brawler & Close Assault",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Earthwerks_VOL_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Triple_Strength_Myomer_6",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Actuator_Hatamoto_Katana",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "ID": "hardpointdatadef_atlas",
+  "HardpointData": [
+    {
+      "location": "centertorso",
+      "weapons": [
+        [
+          "chrPrfWeap_atlas_centertorso_flamer_eh1",
+          "chrPrfWeap_atlas_centertorso_laser_eh1"
+        ],
+        [
+          "chrPrfWeap_atlas_centertorso_flamer_eh2",
+          "chrPrfWeap_atlas_centertorso_laser_eh2"
+        ]
+      ],
+      "blanks": [
+        "chrPrfWeap_atlas_centertorso_blank_eh1",
+        "chrPrfWeap_atlas_centertorso_blank_eh2"
+      ],
+      "mountingPoints": []
+    },
+    {
+      "location": "leftarm",
+      "weapons": [
+        [
+          "chrPrfWeap_atlas_leftarm_flamer_eh1",
+          "chrPrfWeap_atlas_leftarm_laser_eh1",
+          "chrPrfWeap_atlas_leftarm_ppc_eh1"
+        ],
+        [
+          "chrPrfWeap_atlas_leftarm_flamer_eh2",
+          "chrPrfWeap_atlas_leftarm_laser_eh2",
+          "chrPrfWeap_atlas_leftarm_ppc_eh2"
+        ],
+        [
+          "chrPrfWeap_atlas_leftarm_flamer_eh3",
+          "chrPrfWeap_atlas_leftarm_laser_eh3"
+        ],
+        [
+          "chrPrfWeap_atlas_leftarm_ams_ah1"
+        ]
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "lefttorso",
+      "weapons": [
+        [
+          "chrPrfWeap_atlas_lefttorso_lrm10_mh1",
+          "chrPrfWeap_atlas_lefttorso_lrm5_mh1",
+          "chrPrfWeap_atlas_lefttorso_srm2_mh1",
+          "chrPrfWeap_atlas_lefttorso_srm4_mh1",
+          "chrPrfWeap_atlas_lefttorso_srm6_mh1"
+        ],
+        [
+          "chrPrfWeap_atlas_lefttorso_lrm5_mh2",
+          "chrPrfWeap_atlas_lefttorso_srm2_mh2",
+          "chrPrfWeap_atlas_lefttorso_srm4_mh2",
+          "chrPrfWeap_atlas_lefttorso_srm6_mh2"
+        ],
+        [
+          "chrPrfWeap_atlas_lefttorso_lrm5_mh3",
+          "chrPrfWeap_atlas_lefttorso_srm2_mh3",
+          "chrPrfWeap_atlas_lefttorso_srm4_mh3",
+          "chrPrfWeap_atlas_lefttorso_srm6_mh3"
+        ],
+        [
+          "chrPrfWeap_atlas_lefttorso_lrm5_mh4",
+          "chrPrfWeap_atlas_lefttorso_narc_mh4",
+          "chrPrfWeap_atlas_lefttorso_srm2_mh4",
+          "chrPrfWeap_atlas_lefttorso_srm4_mh4",
+          "chrPrfWeap_atlas_lefttorso_srm6_mh4"
+        ]
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rightarm",
+      "weapons": [
+        [
+          "chrPrfWeap_atlas_rightarm_flamer_eh1",
+          "chrPrfWeap_atlas_rightarm_laser_eh1",
+          "chrPrfWeap_atlas_rightarm_ppc_eh1"
+        ],
+        [
+          "chrPrfWeap_atlas_rightarm_flamer_eh2",
+          "chrPrfWeap_atlas_rightarm_laser_eh2",
+          "chrPrfWeap_atlas_rightarm_ppc_eh2"
+        ],
+        [
+          "chrPrfWeap_atlas_rightarm_flamer_eh3",
+          "chrPrfWeap_atlas_rightarm_laser_eh3"
+        ],
+        [
+          "chrPrfWeap_atlas_rightarm_ams_ah1"
+        ]
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "righttorso",
+      "weapons": [],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

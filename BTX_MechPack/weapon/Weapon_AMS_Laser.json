@@ -1,0 +1,122 @@
+{
+  "Category": "AntiPersonnel",
+  "Type": "Laser",
+  "WeaponSubType": "SmallLaserPulse",
+  "MinRange": 0,
+  "MaxRange": 90,
+  "RangeSplit": [
+    90,
+    90,
+    90
+  ],
+  "AmmoCategory": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 6,
+  "Damage": 35,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": -1,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 3,
+  "AttackRecoil": 0,
+  "Instability": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Small",
+  "Description": {
+    "Cost": 2250000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Laser Anti-Missile System",
+    "UIName": "Laser AMS",
+    "Id": "Weapon_AMS_Laser",
+    "Name": "Laser AMS",
+    "Details": "Laser Anti-Missile Systems (LAMS) are an advanced variation of the standard anti-missile systems; while the standard system uses a Machine Gun linked to specialized tracking systems, the LAMS uses a Small Pulse Laser, ensuring that the system never runs out of ammunition. The only disadvantage is that heat buildup is much more significant even when the strength of each laser pulse is reduced to the minimum required to destroy missiles.",
+    "Icon": "uixSvgIcon_weapon_Support"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AMS",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 1.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Modes": [
+    {
+      "Id": "LAMS_On",
+      "UIName": "On",
+      "Name": "LAMS Normal Mode",
+      "Description": "Fires 20 lasers at incoming missiles.",
+      "isBaseMode": true,
+      "IsAMS": true,
+      "AMSDamage": 2,
+      "ShotsWhenFired": 19,
+      "ProjectilesPerShot": -2,
+      "AMSHitChance": 0.75,
+      "AMSShootsEveryAttack": false,
+      "DamagePerShot": -35
+    },
+    {
+      "Id": "LAMS_Overload",
+      "UIName": "Overload",
+      "Name": "LAMS Overload Mode",
+      "Description": "Fires 30 lasers at every missiles in range. Chance to jam.",
+      "isBaseMode": false,
+      "IsAMS": true,
+      "IsAAMS": true,
+      "AMSDamage": 2,
+      "ShotsWhenFired": 29,
+      "ProjectilesPerShot": -2,
+      "AMSHitChance": 0.75,
+      "FlatJammingChance": 0.35,
+      "GunneryJammingMult": 0.04,
+      "GunneryJammingBase": 0,
+      "AMSShootsEveryAttack": false,
+      "DamagePerShot": -35,
+      "HeatGenerated": 4
+    },
+    {
+      "Id": "LAMS_Pulse",
+      "UIName": "SPL",
+      "Name": "LAMS Pulse Laser Mode",
+      "Description": "LAMS act as a Small Pulse Laser but won't shoot at incoming missiles until next activation.",
+      "isBaseMode": false,
+      "IsAMS": false,
+      "NotUseInMelee": false
+    }
+  ],
+  "Auras": [
+    {
+      "Id": "LAMS",
+      "Name": "Laser AMS",
+      "ReticleColor": "red",
+      "Range": 10,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": false,
+      "HideOnNotSelected": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": false
+    }
+  ]
+}

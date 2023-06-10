@@ -1,0 +1,208 @@
+{
+  "Description": {
+    "Cost": 5140000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Rifleman",
+    "Id": "chassisdef_rifleman_RFL-3N_Sneede",
+    "Name": "Rifleman",
+    "Details": "<color=#F79B26>The personal 'Mech of Cranston Snord's Irregulars member \"Shorty\" Sneede, his Rifleman is a FrankenMech with a Phoenix Hawk head, Warhammer right arm, and the left torso and arm from an Archer, with only the center and right torsos and both legs remaining from the parent design.</color>\n\nSneede's custom Rifleman is built around the 3N's standard 240-rated engine and retains many of its weapons. The FrankenMech is armed with a PPC, LRM-20 with two tons of ammo, and four Medium Lasers. It also has fourteen single heat sinks and nine tons of armor.",
+    "Icon": "uixTxrIcon_sneede"
+  },
+  "MovementCapDefID": "movedef_rifleman_RFL-3N_Sneede",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_sneedrfl",
+  "PrefabIdentifier": "chrprfmech_sneedrflbase-001",
+  "PrefabBase": "sneedrfl",
+  "Tonnage": 60,
+  "InitialTonnage": 22.5,
+  "weightClass": "HEAVY",
+  "Heatsinks": -3,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 80,
+  "MeleeInstability": 60,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0.5
+    },
+    {
+      "x": 4.5,
+      "y": 13,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 13,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0.5
+    },
+    {
+      "x": 4.5,
+      "y": 13,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 13,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 5,
+      "z": 1.25
+    },
+    {
+      "x": -2.5,
+      "y": 5,
+      "z": 1.25
+    }
+  ],
+  "VariantName": "RFL-SND",
+  "ChassisTags": {
+    "items": [
+      "mech_quirk_antiaircraft",
+      "mech_quirk_improvedcomm",
+      "mech_quirk_searchlight_LT",
+      "mech_quirk_searchlight_RT"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "FrankenMech",
+  "YangsThoughts": "",
+  "FixedEquipment": []
+}

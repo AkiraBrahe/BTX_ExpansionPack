@@ -1,0 +1,221 @@
+{
+  "Description": {
+    "Cost": 9250000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Coyotl",
+    "Id": "chassisdef_coyotl-PRIME",
+    "Name": "Coyotl",
+    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, is the first OmniMech. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThe Primary configuration of the Coyotl, built on an endo steel chassis and powered by a Pitban 280 XL engine, uses an ER PPC and LRM-10 as primary long-range weapons, while a Medium Pulse Laser and Streak SRM-4 provide short-range firepower. When combined with its powerful engine, this gives the 'Mech the ability to avoid enemy fire as well as dash about the battlefield while returning fire.",
+    "Icon": "uixTxrIcon_mercuryii"
+  },
+  "MovementCapDefID": "movedef_coyotl-PRIME",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_hellfire",
+  "PrefabIdentifier": "chrprfmech_hellfirebase-001",
+  "PrefabBase": "hellfire",
+  "Tonnage": 40,
+  "InitialTonnage": 16,
+  "weightClass": "MEDIUM",
+  "Heatsinks": 10,
+  "TopSpeed": 118.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 40,
+  "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 15
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 14
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 14
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 15
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 14
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 14
+    },
+    {
+      "x": 2.5,
+      "y": 6,
+      "z": 6
+    },
+    {
+      "x": -2.5,
+      "y": 6,
+      "z": 6
+    }
+  ],
+  "VariantName": "CYTL-PRIME",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.85-0.80-0.80",
+      "chassis_omni",
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_clan",
+      "mech_quirk_extendedtorsotwist",
+      "mech_quirk_extralargeengine"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Striker",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

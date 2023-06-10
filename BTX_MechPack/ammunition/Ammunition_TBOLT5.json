@@ -1,0 +1,29 @@
+{
+  "Description": {
+    "Id": "Ammunition_TBOLT5",
+    "Name": "TBolt-5 Ammo",
+    "Details": "Long range missile, capable of dealing damage equivalent to its LRM-5 counterpart. Vulnerable to anti-missile systems.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "TBOLT5",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "ProjectileScale": {
+    "x": 2.25,
+    "y": 2.25,
+    "z": 2.25
+  },
+  "AdditionalImpactVFX": "WFX_BESmaller",
+  "AdditionalImpactVFXScaleX": 2.25,
+  "AdditionalImpactVFXScaleY": 2.25,
+  "AdditionalImpactVFXScaleZ": 2.25
+}

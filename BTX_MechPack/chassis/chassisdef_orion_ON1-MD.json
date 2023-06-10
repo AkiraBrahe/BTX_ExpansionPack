@@ -1,0 +1,230 @@
+{
+  "Description": {
+    "Cost": 15510000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Orion",
+    "Id": "chassisdef_orion_ON1-MD",
+    "Name": "Orion",
+    "Details": "<color=#F79B26>The Orion, first true heavy BattleMech, is a dependable workhorse design that can handle almost any combat role thanks to its combination of long and short-range weaponry and respectable armoring.</color>\n\nThe Orion ON1-MD is a minor variant of the ON1-M that simply swaps out its LB-X Autocannon/10 for a Rotary Autocannon/5. The 'Mech retains the rest of its predecessor's loadout, which includes an LRM-20 launcher, two Medium Lasers, a single SRM-4, and a Narc missile beacon.",
+    "Icon": "uixTxrIcon_orion"
+  },
+  "MovementCapDefID": "movedef_orion_ON1-MD",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_orion",
+  "PrefabIdentifier": "chrPrfMech_orionBase-001",
+  "PrefabBase": "orion",
+  "Tonnage": 75,
+  "InitialTonnage": 25,
+  "weightClass": "HEAVY",
+  "Heatsinks": 16,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 90,
+  "MeleeInstability": 75,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 95,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 95,
+  "DFAInstability": 95,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 230,
+      "MaxRearArmor": 115,
+      "InternalStructure": 115
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 15,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "ON1-MD",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_case_centre",
+      "mech_case_left",
+      "mech_case_right",
+      "mech_quirk_antiaircraft",
+      "mech_quirk_easytomaintain",
+      "mech_quirk_rugged1"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Close Assault",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

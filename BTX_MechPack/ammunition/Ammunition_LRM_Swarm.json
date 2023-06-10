@@ -1,0 +1,27 @@
+{
+  "Description": {
+    "Id": "Ammunition_LRM_Swarm",
+    "Name": "Swarm LRM Ammo",
+    "Details": "Swarm missiles are designed to replicate the splash damage capability of artillery shells. Missiles from a Swarm salvo that miss their intended target may attempt to home in and strike any nearby targets, aiding in the breakup of enemy formations.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "LRM",
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "MinMissRadius": 10,
+  "MaxMissRadius": 60,
+  "DamageMultiplier": 0.5,
+  "SpreadRange": 60,
+  "AOECapable": true,
+  "AOERange": 30,
+  "AOEDamage": 2,
+  "AlwaysIndirectVisuals": true,
+  "CantHitUnaffecedByPathing": true
+}

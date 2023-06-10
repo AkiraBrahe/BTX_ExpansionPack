@@ -1,0 +1,24 @@
+{
+  "TargetIDs": [
+    "chassisdef_berserker_BRZ-A3",
+    "chassisdef_imp_IMP-4E",
+    "chassisdef_kingfisher-A",
+    "chassisdef_kingfisher-B",
+    "chassisdef_kingfisher-C",
+    "chassisdef_kingfisher-D",
+    "chassisdef_kingfisher-PRIME",
+    "chassisdef_mad_cat_mkii",
+    "chassisdef_pulverizer_PUL-2V",
+    "chassisdef_pulverizer_PUL-3R",
+    "chassisdef_pulverizer_PUL-C"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 54
+      }
+    }
+  ]
+}

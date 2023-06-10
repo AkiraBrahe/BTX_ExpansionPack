@@ -1,0 +1,35 @@
+{
+  "AmmoID": "Ammunition_Bomb_HE",
+  "Capacity": 1,
+  "Description": {
+    "Cost": 12500,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Bomb",
+    "UIName": "High-Explosive Bomb",
+    "Id": "Ammo_AmmunitionBox_Generic_Bomb_HE",
+    "Name": "High-Explosive Bomb",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nThis ammo bin contains a single High-Explosive Bomb capable of inflicting significant damage over a small area.",
+    "Icon": "uixSvgIcon_ammoBox_Missile"
+  },
+  "BonusValueA": "30/90 Dmg.",
+  "BonusValueB": "30m AoE",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "CanExplode": true,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

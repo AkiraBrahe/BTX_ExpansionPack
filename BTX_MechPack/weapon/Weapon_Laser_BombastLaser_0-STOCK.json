@@ -1,0 +1,111 @@
+{
+  "Category": "Energy",
+  "Type": "Laser",
+  "WeaponSubType": "LargeLaser",
+  "MinRange": 0,
+  "MaxRange": 450,
+  "RangeSplit": [
+    300,
+    300,
+    450
+  ],
+  "AmmoCategory": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 30,
+  "Damage": 60,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": -1,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
+  "Description": {
+    "Cost": 200000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Arcturan Arms",
+    "Model": "Maxell Maximum",
+    "UIName": "Bombast Laser",
+    "Id": "Weapon_Laser_BombastLaser_0-STOCK",
+    "Name": "Bombast Laser",
+    "Details": "Bombast Lasers are designed to be the pinnacle of laser weaponry. Unlike other laser weapons, the damage inflicted by the Bombast Laser can be adjusted, due mainly to a faulty power supply design. Because of this, power management in the field can be impractical and distracting, but the weapon itself remains popular for the unusual glow it emits as it builds up power.",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Laser",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 7,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_long"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Modes": [
+    {
+      "Id": "LASER_MIN",
+      "UIName": "Minimal",
+      "Name": "Minimal Power",
+      "Description": "Fires a laser with minimal power, comparable to a Large Laser.",
+      "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
+      "isBaseMode": false,
+      "HeatGenerated": -12,
+      "Damage": -24
+    },
+    {
+      "Id": "LASER_HALF",
+      "UIName": "Half",
+      "Name": "Half Power",
+      "Description": "Fires a laser at half power, generating more heat.",
+      "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
+      "isBaseMode": false,
+      "HeatGenerated": -6,
+      "Damage": -12,
+      "ColorsTable": [
+        {
+          "C": "Indigo",
+          "I": 5
+        }
+      ]
+    },
+    {
+      "Id": "LASER_FULL",
+      "UIName": "Full",
+      "Name": "Full Power",
+      "Description": "Fires a laser at full power, generating a lot of heat.",
+      "WeaponEffectID": "WeaponEffect-Weapon_COILS",
+      "preFireSFX":"ion_cannon_example",
+      "isBaseMode": true,
+      "HeatGenerated": 0,
+      "Damage": 0,
+      "CriticalChanceMultiplier": 1.5,
+      "AttackRecoil": 1,
+      "RefireModifier": 1,
+      "ColorsTable": [
+        {
+          "C": "Purple",
+          "I": 5
+        }
+      ]
+    }
+  ]
+}

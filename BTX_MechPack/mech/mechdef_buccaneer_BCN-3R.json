@@ -1,0 +1,172 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_medium",
+      "unit_role_brawler",
+      "unit_lance_assassin",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_hot",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_buccaneer_BCN-3R",
+  "Description": {
+    "Cost": 11660000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Buccaneer BCN-3R",
+    "Id": "mechdef_buccaneer_BCN-3R",
+    "Name": "Buccaneer",
+    "Details": "<color=#F79B26>The Buccaneer is the result of the Word of Blake's voracious appetite for military equipment in its first few years. Originally intended to be used by ComStar, it was modified to accommodate equipment available to the Word of Blake in their temporary home of the Free Worlds League.</color>\n\nDesigned primarily for close-range combat, the Buccaneer is powered by a lightweight 330 XL engine that allows it to carry an impressive ten tons of ferro-fibrous armor. Its most fearsome weapon is a Heavy Hatchet, which is supported by four Medium Lasers, a highly accurate Medium Pulse Laser, an SRM-6 with an Artemis IV guidance system, and a single ER Large Laser for long-range striking capability.",
+    "Icon": "uixTxrIcon_buccaneer"
+  },
+  "simGameMechPartCost": 1170000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 85,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 45,
+      "AssignedArmor": 85,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 95,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 95,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 135,
+      "CurrentRearArmor": 45,
+      "CurrentInternalStructure": 90,
+      "AssignedArmor": 135,
+      "AssignedRearArmor": 45
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 95,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 95,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 85,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 45,
+      "AssignedArmor": 85,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 125,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 125,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 125,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 125,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_SRM_ASRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

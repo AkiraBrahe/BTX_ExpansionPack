@@ -1,0 +1,35 @@
+{
+  "AmmoID": "Ammunition_Bomb_Inferno",
+  "Capacity": 1,
+  "Description": {
+    "Cost": 15000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Bomb",
+    "UIName": "Inferno Bomb",
+    "Id": "Ammo_AmmunitionBox_Generic_Bomb_Inferno",
+    "Name": "Inferno Bomb",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nThis ammo bin contains a single Inferno Bomb capable of spreading a burning gel over a moderate area.",
+    "Icon": "uixSvgIcon_ammoBox_Missile"
+  },
+  "BonusValueA": "15/30 Heat Dmg.",
+  "BonusValueB": "45m AoE",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "CanExplode": true,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

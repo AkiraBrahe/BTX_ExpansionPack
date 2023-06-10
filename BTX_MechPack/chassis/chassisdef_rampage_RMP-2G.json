@@ -1,0 +1,211 @@
+{
+  "Description": {
+    "Cost": 7020000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Rampage",
+    "Id": "chassisdef_rampage_RMP-2G",
+    "Name": "Rampage",
+    "Details": "<color=#F79B26>The Rampage is a BattleMech that was produced by the Rim Worlds Republic. The 'Mech was originally built and used as a standard line SLDF unit, but it was upgraded to a fast assault 'Mech following Stefan Amaris' successful coup.</color>\n\nThe original version of the Rampage was produced decades prior to introduction of the Star League-enhanced RMP-5G. The 'Mech is equipped with an Autocannon/10, LRM-10, two Medium Lasers, a Large Laser, one Flamer, and a Machine Gun with a full ton of ammo. This decidedly low-tech version uses twenty-three single heat sinks to keep the 2G quite cool despite lacking the weight-saving components found in the 5G.",
+    "Icon": "uixTxrIcon_rampage"
+  },
+  "MovementCapDefID": "movedef_rampage_RMP-2G",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_rampage",
+  "PrefabIdentifier": "chrprfmech_rampagebase-001",
+  "PrefabBase": "rampage",
+  "Tonnage": 85,
+  "InitialTonnage": 27.5,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 0,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 110,
+  "MeleeInstability": 85,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 105,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 105,
+  "DFAInstability": 105,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 270,
+      "MaxRearArmor": 135,
+      "InternalStructure": 135
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -3.5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -3.5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "RMP-2G",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.25-1.05-1.10",
+      "mech_quirk_vestigialhands",
+      "mech_quirk_badreputation"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut",
+  "YangsThoughts": "",
+  "FixedEquipment": []
+}

@@ -1,0 +1,170 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_medium",
+      "unit_role_brawler",
+      "unit_lance_tank",
+      "unit_range_short",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_centurion_CN9-YLW",
+  "Description": {
+    "Cost": 3450000,
+    "Rarity": 3,
+    "Purchasable": false,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Centurion CN9-YLW",
+    "Id": "mechdef_centurion_CN9-YLW",
+    "Name": "Yen-Lo-Wang",
+    "Details": "<color=#F79B26>The Yen-Lo-Wang, named after the Chinese god of death, is a well-known ArenaMech that has been modified and customized into a variety of different configurations over the years.</color>\n\nThe first configuration of the Yen-Lo-Wang is a Centurion CN9-A that has been modified to be more potent at close range. The Yen-Lo-Wang drops the LRM to upgrade the autocannon to an AC/20 with three tons of ammunition while keeping the two Medium Lasers in the center torso. Its most distinguishing feature was the titanium nails fixed to its left arm, which were eventually replaced by a proper Hatchet.",
+    "Icon": "uixTxrIcon_yenlowang"
+  },
+  "simGameMechPartCost": 350000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 70,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 70,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 70,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 60,
+      "AssignedArmor": 70,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": 35,
+      "CurrentInternalStructure": 80,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": 35
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 70,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 60,
+      "AssignedArmor": 70,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 60,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 60,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_2-ExoStar",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_2-ExoStar",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Autocannon_AC20_2-Federated",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

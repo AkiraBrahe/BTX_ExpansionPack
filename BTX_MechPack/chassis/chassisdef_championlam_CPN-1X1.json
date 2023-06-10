@@ -1,0 +1,290 @@
+{
+  "Description": {
+    "Cost": 5560000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Champion LAM",
+    "Id": "chassisdef_championlam_CPN-1X1",
+    "Name": "Champion LAM",
+    "Details": "<color=#F79B26>An attempt by Bergan Industries to push the limits of Land-Air 'Mech technology, the Champion LAM remains the heaviest LAM ever built.</color>\n\nThe Champion LAM, at 60 tons, carry a markedly lighter armament than its forebear, equipping three Medium Lasers backed up by an SRM-6 with an Artemis IV Fire Control System. To make room for the conversion equipment, the standard Champion's XL engine, endo steel skeleton, and ferro-fibrous armor also had to be removed.",
+    "Icon": "uixTxrIcon_championlam"
+  },
+  "MovementCapDefID": "movedef_championlam_CPN-1X1",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_champlam",
+  "PrefabIdentifier": "chrprfmech_champlambase-001",
+  "PrefabBase": "champlam",
+  "Tonnage": 60,
+  "InitialTonnage": 30,
+  "weightClass": "HEAVY",
+  "Heatsinks": 3,
+  "TopSpeed": 86.4,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 55,
+  "MeleeInstability": 60,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 75,
+  "CustomParts": {
+    "AlternateRepresentations": [
+      {
+        "HardpointDataDef": "hardpointdatadef_champlam",
+        "PrefabIdentifier": "chrprfmech_champlambase-001",
+        "PrefabBase": "champlam",
+        "AdditionalPrefabs": [],
+        "Type": "AirMech",
+        "additionalEncounterTags": [
+          "unit_vtol"
+        ],
+        "FlyHeight": 15.0,
+        "NoJumpjetsBlock": true,
+        "AirMechVerticalJets": [
+          {
+            "Prefab": "vf11lam_vjets_torso",
+            "Attach": "j_Spine2",
+            "JetsAttachPoints": [
+              "jetAttachPoint"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0.5
+    },
+    {
+      "x": 4.5,
+      "y": 13,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 13,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0.5
+    },
+    {
+      "x": 4.5,
+      "y": 13,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 13,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 5,
+      "z": 1.25
+    },
+    {
+      "x": -2.5,
+      "y": 5,
+      "z": 1.25
+    }
+  ],
+  "VariantName": "CPN-1X1",
+  "ChassisTags": {
+    "items": [
+      "mech_quirk_hardtopilot",
+      "mech_quirk_nominimalarms",
+      "mech_quirk_prototype",
+      "mech_quirk_largeengine",
+      "LandAirMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Harasser",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_LAM_Systems",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy_Idle",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy_Idle",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy_Idle",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

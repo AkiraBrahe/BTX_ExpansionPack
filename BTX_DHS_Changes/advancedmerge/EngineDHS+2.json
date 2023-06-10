@@ -1,0 +1,38 @@
+{
+  "TargetIDs": [
+    "chassisdef_annihilator_C",
+    "chassisdef_blackknight_BL-9-KNT",
+    "chassisdef_catapult_CPLT-K2K",
+    "chassisdef_centurion_CN9-D5",
+    "chassisdef_cerberus_MR-5M",
+    "chassisdef_daishi_dire_wolf-C",
+    "chassisdef_daishi_dire_wolf-S",
+    "chassisdef_grandtitan_T-IT-N11M",
+    "chassisdef_jagermechiii_JM6-D3",
+    "chassisdef_lancelot_LNC25-04",
+    "chassisdef_naga-A",
+    "chassisdef_naga-B",
+    "chassisdef_naga-C",
+    "chassisdef_naga-D",
+    "chassisdef_naga-PRIME",
+    "chassisdef_nightsky_NGS-5S",
+    "chassisdef_nightsky_NGS-5T",
+    "chassisdef_riflemanII_RFL-3N-2",
+    "chassisdef_schwerergustav_SG-1X_Jäger",
+    "chassisdef_stagii_ST-24G",
+    "chassisdef_stalker_STK-3Fb",
+    "chassisdef_thanatos_TNS-4T",
+    "chassisdef_thunderhawk_TDK-7KMA",
+    "chassisdef_toyama_TYM-1A",
+    "chassisdef_warhammer_WHM-6Rb"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 42
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "JumpCapacity": 1,
+    "MinTonnage" : 60,
+    "MaxTonnage" : 85,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Heavy",
+    "UIName": "LAM Jet (H)",
+    "Id": "Gear_JumpJet_LAMJet_Heavy_Idle",
+    "Name": "LAM Jet (H)",
+    "Details": "Specialized jet engines for use in a LandAirMech. Work as jump jets in Mech mode and as main propulsion jets otherwise.",
+    "Icon": "uixSvgIcon_action_jump"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "JumpJet",
+  "ComponentSubType": "Functionality",
+  "PrefabIdentifier": "JumpJet",
+  "InventorySize": 1,
+  "Tonnage": 2,
+  "AllowedLocations": "Torso, Legs",
+  "DisallowedLocations": "Head, Arms",
+  "CriticalComponent": false,
+  "statusEffects": [
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

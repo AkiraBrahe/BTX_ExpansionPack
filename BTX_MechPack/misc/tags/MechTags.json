@@ -1,0 +1,140 @@
+{
+  "items" : [
+
+    /* Type */
+      "unit_mech",
+      "unit_vehicle",
+      "unit_turret",
+  
+    /* Class */
+      "unit_light",
+      "unit_medium",
+      "unit_heavy",
+      "unit_assault",
+      "unit_weaponless",
+      "unit_noncombatant",
+  
+    /* Roles */
+      "unit_role_scout",
+      "unit_role_sniper",
+      "unit_role_brawler",
+      "unit_role_flanker",
+      "unit_role_ewe",
+  
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_lance_tank",
+      "unit_lance_assassin",
+  
+    /* Range */
+      "unit_range_long",
+      "unit_range_medium",
+      "unit_range_short",
+  
+    /* Armor */
+      "unit_armor_high",
+      "unit_armor_low",
+  
+    /* Speed */
+      "unit_speed_high",
+      "unit_speed_low",
+  
+    /* Special */
+      "unit_electronicWarfare",
+      "unit_hot",
+      "unit_indirectFire",
+      "unit_jumpOK",
+
+      "unit_wheels",
+      "unit_tracks",
+      "unit_urbie",
+
+      "unit_vehicle_apc",
+      "unit_vehicle_carrier",
+      "unit_vehicle_mobileHQ",
+  
+      "unit_common",
+      "unit_release",
+      "unit_LosTech",
+      "unit_clan",
+      
+      "BLACKLISTED",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Unused */
+      "unit_approval_Beta",
+  
+      "unit_bracket_skirmish",
+      "unit_bracket_low",
+      "unit_bracket_med",
+      "unit_bracket_high",
+  
+      "Marik",
+      "Liao",
+      "Steiner",
+      "Kurita",
+      "Davion",
+      "MagistracyOfCanopus",
+      "TaurianConcordat",
+      "NoFaction",
+      "AuriganDirectorate",
+      "AuriganRestoration",
+      "ComStar",
+      "MercenaryReviewBoard",
+      "AuriganPirates",
+      "AuriganMercenaries",
+  
+      "unit_ready",
+      "unit_release_ksbeta",
+      "unit_release_privatebeta",
+      "test",
+      "PlaceholderImpostorMaterial",
+      "{CUR_TEAM.Faction}",
+  
+      "unit_fallback",
+      "unit_hatchetman"
+  ],
+  "tagSetSourceFile": ""
+}

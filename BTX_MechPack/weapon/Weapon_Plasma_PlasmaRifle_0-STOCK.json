@@ -1,0 +1,75 @@
+{
+  "Category": "Energy",
+  "Type": "Flamer",
+  "WeaponSubType": "Flamer",
+  "MinRange": 0,
+  "MaxRange": 450,
+  "RangeSplit": [
+    300,
+    300,
+    450
+  ],
+  "AmmoCategory": "Plasma",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 22,
+  "Damage": 50,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 5,
+  "HeatDamage": 35,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 2,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 3,
+  "Instability": 15,
+  "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+  "Description": {
+    "Cost": 260000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Ceres Arms",
+    "Model": "Heat-Inducing Weapon",
+    "UIName": "Plasma Rifle",
+    "Id": "Weapon_Plasma_PlasmaRifle_0-STOCK",
+    "Name": "Plasma Rifle",
+    "Details": "The Plasma Rifle accelerates and superheats plastic foam cartridges before releasing them as plasma, creating a tremendous kinetic and thermal impact similar to that of a massive Flamer.",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "PPC",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 6,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_standard"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ImprovedBallistic": true,
+  "ProjectileSpeedMultiplier": 0.8,
+  "ColorChangeRule": "t0",
+  "ColorsTable": [
+    {
+      "C": "HotPink",
+      "I": 5
+    }
+  ],
+  "FireTerrainChance": 0.5,
+  "FireTerrainStrength": 1,
+  "FireOnSuccessHit": false
+}

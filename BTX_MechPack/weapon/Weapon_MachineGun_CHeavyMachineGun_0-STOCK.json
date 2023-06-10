@@ -1,0 +1,82 @@
+{
+  "Category": "AntiPersonnel",
+  "Type": "MachineGun",
+  "WeaponSubType": "MachineGun",
+  "MinRange": 0,
+  "MaxRange": 75,
+  "RangeSplit": [
+    75,
+    75,
+    75
+  ],
+  "ammoCategoryID": "MG",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 0,
+  "Damage": 6,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 1,
+  "CriticalChanceMultiplier": 2.0,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 5,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 0,
+  "Instability": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+  "Description": {
+    "Cost": 15000,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "Clans",
+    "Model": "Heavy Machine Gun",
+    "UIName": "Clan Heavy MG",
+    "Id": "Weapon_MachineGun_CHeavyMachineGun_0-STOCK",
+    "Name": "Clan Heavy MG",
+    "Details": "The Heavy Machine Gun is a larger version of the standard Machine Gun; it does twice as much damage and has a high chance of causing Criticals when hitting an unarmored target, but at the cost of being heavier and having an even more limited range.",
+    "Icon": "uixSvgIcon_weapon_Support"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "MachineGun",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Modes": [
+    {
+      "Id": "MG_Full",
+      "UIName": "x5",
+      "Name": "Full Salvo",
+      "Description": "Fires the Heavy MG at standard speed.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "MG_Double",
+      "UIName": "x10",
+      "Name": "Double Salvo",
+      "Description": "Fires the Heavy MG at twice the speed, reducing accuracy and increasing heat.",
+      "isBaseMode": false,
+      "AccuracyModifier": 4.0,
+      "ShotsWhenFired": 5,
+      "HeatGenerated": 5
+    }
+  ]
+}

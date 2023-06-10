@@ -1,0 +1,19 @@
+{
+  "TargetIDs": [
+    "chassisdef_berserker_BRZ-B3",
+    "chassisdef_phoenix_hawk_IIC-3",
+    "chassisdef_rakshasa_MDG-1A",
+    "chassisdef_rakshasa_MDG-1B",
+    "chassisdef_schwerergustav_SG-1X",
+    "chassisdef_thanatos_TNS-4S"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 60
+      }
+    }
+  ]
+}

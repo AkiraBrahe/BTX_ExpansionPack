@@ -1,0 +1,164 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_assault",
+      "unit_role_brawler",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_speed_high",
+      "unit_electronicWarfare",
+      "unit_indirectFire",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_schwerergustav_SG-1X",
+  "Description": {
+    "Cost": 32000000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Schwerer Gustav SG-1X",
+    "Id": "mechdef_schwerergustav_SG-1X",
+    "Name": "Schwerer Gustav",
+    "Details": "<color=#F79B26>Named after the heavy artillery platform from Terra's Second World War, the one-of-a-kind Schwerer Gustav is a FrankenMech hodgepodge of proven and prototype Inner Sphere and Clan technologies.</color>\n\nThe Schwerer Gustav is a hybrid of six different designs, primarily the Annihilator, Verfolger and Berserker. Underneath its strange exterior, the Gustav is outfitted with a hybrid standard and endo steel chassis and a 400-rated XL engine, giving the 'Mech surprising staying power and speed for its size. Intended as a command lance 'Mech, a Command Console and a Bloodhound Active Probe are also included. The primary weapon of the Schwerer Gustav is a massive Thumper Artillery Cannon capable of unleashing supporting fire from long distances, while the more direct firepower comes in the form of a Rotary AC/5 and a Binary Laser Cannon. Five tons of ammo shared between the Thumper Cannon and the RAC/5 give the Gustav good endurance in the field.",
+    "Icon": "uixTxrIcon_schwerergustav"
+  },
+  "simGameMechPartCost": 3200000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 105,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 85,
+      "AssignedArmor": 105,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 115,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 115,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 150,
+      "CurrentRearArmor": 45,
+      "CurrentInternalStructure": 155,
+      "AssignedArmor": 150,
+      "AssignedRearArmor": 45
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 115,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 115,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 105,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 85,
+      "AssignedArmor": 105,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 130,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 130,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 130,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 130,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_BinaryLaserCannon_1-Defiance",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thumper",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thumper",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

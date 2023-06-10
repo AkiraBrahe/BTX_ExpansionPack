@@ -1,0 +1,234 @@
+{
+  "Description": {
+    "Cost": 7380000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Assassin",
+    "Id": "chassisdef_assassin_ASN-99_Servitor",
+    "Name": "Assassin",
+    "Details": "<color=#F79B26>The Assassin is more of a political shambles than a powerful fighting machine, but it proves to be a formidable asset when facing light lances.</color>\n\nThe Servitor is a custom variant of the ASN-99 Assassin. The stealth armor and Guardian ECM suite are removed, and the head-mounted TAG is swapped for a Small Laser. Each arm has new weapons, with the left holding a small vibroblade and right mounting a Medium X-Pulse Laser, while the legs each carries a small X-Pulse Laser. The two SRM-2s of the ASN-99 are retained.",
+    "Icon": "uixTxrIcon_assassin"
+  },
+  "MovementCapDefID": "movedef_assassin_ASN-99_Servitor",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_assassin",
+  "PrefabIdentifier": "chrPrfMech_assassinBase-001",
+  "PrefabBase": "assassin",
+  "Tonnage": 40,
+  "InitialTonnage": 18,
+  "weightClass": "MEDIUM",
+  "Heatsinks": 10,
+  "TopSpeed": 118.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 7,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 50,
+  "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 13.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 12.5,
+      "z": -0.5
+    },
+    {
+      "x": -3,
+      "y": 12.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 13.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 12.5,
+      "z": -0.5
+    },
+    {
+      "x": -3,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": 1
+    }
+  ],
+  "VariantName": "ASN-SRV",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_quirk_easytomaintain",
+      "mech_quirk_crampedcockpit",
+      "mech_quirk_nonstandardparts",
+      "mech_quirk_poorlifesupport",
+      "mech_quirk_extralargeengine"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Hunter-Killer",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Actuator_Assassin_Vibroblade",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Intercept_System",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

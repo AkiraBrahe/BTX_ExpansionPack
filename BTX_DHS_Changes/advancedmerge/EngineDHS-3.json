@@ -1,0 +1,12 @@
+{
+  "TargetIDs": [],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 12
+      }
+    }
+  ]
+}

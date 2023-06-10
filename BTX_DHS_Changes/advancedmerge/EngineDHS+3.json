@@ -1,0 +1,20 @@
+{
+  "TargetIDs": [
+    "chassisdef_awesome_AWS-9M",
+    "chassisdef_awesome_AWS-9Ma",
+    "chassisdef_battlemaster_BLR-1G_RedCorsair",
+    "chassisdef_kraken_bane-3",
+    "chassisdef_ostwar_OWR-2Mb",
+    "chassisdef_rampage_RMP-5G",
+    "chassisdef_warhammer_WHM-7CS"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 48
+      }
+    }
+  ]
+}

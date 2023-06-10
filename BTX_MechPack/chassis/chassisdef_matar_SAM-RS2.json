@@ -1,0 +1,292 @@
+{
+  "Description": {
+    "Cost": 9680000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Matar",
+    "Id": "chassisdef_matar_SAM-RS2",
+    "Name": "Matar",
+    "Details": "<color=#F79B26>The Matar, known as \"Amaris' Folly\", was an attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar was unfortunately doomed when its leg actuators proved incapable of moving the massive machine.</color>\n\nWith an intended role of static defense, the Matar is built around long-range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units, the 'Mech is armed with a pair of Large Pulse Lasers and a single Medium Pulse Laser. The Matar also carries a pair of Flamers to roast opposing infantry alive and a Guardian ECM to guard against against long-range threats.",
+    "Icon": "uixTxrIcon_matar"
+  },
+  "MovementCapDefID": "movedef_matar_SAM-RS2",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_stonerhino",
+  "PrefabIdentifier": "chrprfmech_stonerhinobase-001",
+  "PrefabBase": "stonerhino",
+  "Tonnage": 110,
+  "InitialTonnage": 31.03,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 10,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 220,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 130,
+  "MeleeInstability": 110,
+  "MeleeToHitModifier": -2,
+  "DFADamage": 140,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 140,
+  "DFAInstability": 140,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 21
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 230,
+      "MaxRearArmor": 115,
+      "InternalStructure": 115
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 330,
+      "MaxRearArmor": 165,
+      "InternalStructure": 165
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 230,
+      "MaxRearArmor": 115,
+      "InternalStructure": 115
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 230,
+      "MaxRearArmor": -1,
+      "InternalStructure": 115
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 230,
+      "MaxRearArmor": -1,
+      "InternalStructure": 115
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": 5.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": -5.0,
+      "y": 16.0,
+      "z": 16.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": 5.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": -5.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 5.5
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 5.5
+    }
+  ],
+  "VariantName": "SAM-RS2",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_ferro",
+      "mech_quirk_barrelfist_la",
+      "mech_quirk_barrelfist_ra",
+      "mech_quirk_oversized",
+      "mech_quirk_poorperformance"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Superheavy Prototype",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_SensorCAC_Guardian",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

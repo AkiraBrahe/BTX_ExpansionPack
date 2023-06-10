@@ -1,0 +1,37 @@
+{
+  "TargetIDs": [
+    "chassisdef_archer_C-2",
+    "chassisdef_awesome_AWS-9Q",
+    "chassisdef_bullshark_BSK-LT",
+    "chassisdef_bullshark_BSK-MAZ",
+    "chassisdef_cataphract_CTF-3X",
+    "chassisdef_catapult_CPLT-K3",
+    "chassisdef_dragoon_AEM-01",
+    "chassisdef_fox_CS-C",
+    "chassisdef_gallowglas_GAL-1GLS",
+    "chassisdef_hauptmann_HA1-O",
+    "chassisdef_hauptmann_HA1-OA",
+    "chassisdef_hauptmann_HA1-OB",
+    "chassisdef_jagermech_JM7-F",
+    "chassisdef_marauder_MAD-5CS",
+    "chassisdef_nightsky_NGS-4S",
+    "chassisdef_nightsky_NGS-4T",
+    "chassisdef_orion_ON1-MD",
+    "chassisdef_rattlesnake_JR7-31",
+    "chassisdef_rattlesnake_JR7-31P",
+    "chassisdef_shadowhawk_SHD-2Hb",
+    "chassisdef_warhammer_C-2",
+    "chassisdef_warhammer_C-3",
+    "chassisdef_warhammer_WHM-7K",
+    "chassisdef_warthog-PRIME"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 36
+      }
+    }
+  ]
+}

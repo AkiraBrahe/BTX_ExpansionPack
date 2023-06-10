@@ -1,0 +1,65 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "MinRange" : 210,
+    "MaxRange" : 1000,
+    "RangeSplit" : [
+        450,
+        450,
+        1000
+    ],
+    "ammoCategoryID" : "RAILGUN",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 30,
+    "Damage" : 200,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 85,
+	"CanExplode" : true,
+    "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
+    "Description" : {
+        "Cost" : 12375000,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "SCI",
+        "Model" : "Magnetic Cannon",
+        "UIName" : "SLDF Rail Gun + +",
+        "Id" : "Weapon_Gauss_RailGun_2-BL",
+        "Name" : "SLDF Rail Gun + +",
+        "Details" : "A Star League era relic using lost technology, the Rail Gun electromagnetically hurls massive metal projectiles. Like Gauss Rifles, Rail Guns do not suffer recoil effects from firing and have a baseline bonus to accuracy.\r\n\r\nRail Guns explode if destroyed, taking the entire mounted location with them.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "- 3 Slots",
+    "BonusValueB" : "- 5 Tons",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Gauss",
+    "BattleValue" : 0,
+    "InventorySize" : 7,
+    "Tonnage" : 25,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "range_extreme",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

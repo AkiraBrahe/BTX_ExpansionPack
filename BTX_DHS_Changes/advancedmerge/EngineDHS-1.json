@@ -1,0 +1,21 @@
+{
+  "TargetIDs": [
+    "chassisdef_anvil_ANV-8M",
+    "chassisdef_bellerophon_BEL-2X",
+    "chassisdef_hatamotochi_HTM-28T_Shin",
+    "chassisdef_hatchetman_HCT-6D",
+    "chassisdef_hellfire-1",
+    "chassisdef_hermesii_HER-5C",
+    "chassisdef_hermesii_HER-6D",
+    "chassisdef_vulture_mad_dog-FURY"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 24
+      }
+    }
+  ]
+}

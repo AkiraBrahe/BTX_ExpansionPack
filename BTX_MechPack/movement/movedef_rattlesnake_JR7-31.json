@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_rattlesnake_JR7-31",
+    "Name": "MovementCapabilitiesDef for Rattlesnake JR7-31",
+    "Details": "245 XL Fusion Engine - 8/13 movement",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 190.0,
+  "MaxSprintDistance": 315.0,
+  "WalkVelocity": 22.0,
+  "RunVelocity": 28.0,
+  "SprintVelocity": 36.0,
+  "LimpVelocity": 8.0,
+  "WalkAcceleration": 25.0,
+  "SprintAcceleration": 40.0,
+  "MaxRadialVelocity": 480.0,
+  "MaxRadialAcceleration": 1600.0,
+  "MaxJumpVel": 80.0,
+  "MaxJumpAccel": 30.0,
+  "MaxJumpVerticalAccel": 60.0
+}

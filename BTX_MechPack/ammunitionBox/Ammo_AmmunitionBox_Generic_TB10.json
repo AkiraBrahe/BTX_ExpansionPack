@@ -1,0 +1,34 @@
+{
+  "AmmoID": "Ammunition_TBOLT10",
+  "Capacity": 6,
+  "Description": {
+    "Cost": 50000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Thunderbolt 10",
+    "UIName": "TBolt-10 Ammo",
+    "Id": "Ammo_AmmunitionBox_Generic_TB10",
+    "Name": "Thunderbolt 10 Ammo",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nThunderbolt 10 Ammo Bins each contain 6 rounds and may feed multiple weapons.",
+    "Icon": "uixSvgIcon_ammoBox_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "Description": {
+    "Cost": 500000,
+    "Rarity": 4,
+    "Purchasable": false,
+    "Manufacturer": "Garret",
+    "Model": "",
+    "UIName": "Targ. Computer Mk.1",
+    "Id": "Gear_TAC1",
+    "Name": "Targeting Computer",
+    "Details": "Targeting Computers are sophisticated pieces of electronics that, unlike normal targeting systems, physically help MechWarriors target their opponents. Recoil compensators and gyroscopic stabilizers are used to prevent normal weapon drift from factors such as recoil and movement while the computer accounts for atmospheric and other conditions to present an accurate lead on the target.",
+    "Icon": "UixSvgIcon_specialEquip_System"
+  },
+  "BonusValueA": "+ 1 Acc. Direct Fire",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "Legs",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-CTAC-ToHitBallistic",
+        "Name": "TARGETING COMPUTER",
+        "Details": "Ballistic weapon attacks have their hit improved by [AMT].",
+        "Icon": "uixSvgIcon_equipment_TTS"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Ballistic",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-CTAC-ToHitEnergy",
+        "Name": "TARGETING COMPUTER",
+        "Details": "Energy weapon attacks have their hit improved by [AMT].",
+        "Icon": "uixSvgIcon_equipment_TTS"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Energy",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

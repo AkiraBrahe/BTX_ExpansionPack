@@ -1,0 +1,16 @@
+{
+  "TargetIDs": [
+    "chassisdef_battlehawk_BH-K305",
+    "chassisdef_hammer_HMR-3C",
+    "chassisdef_hammer_HMR-3P"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 6
+      }
+    }
+  ]
+}

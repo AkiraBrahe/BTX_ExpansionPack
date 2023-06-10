@@ -1,0 +1,95 @@
+{
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM5",
+  "MinRange": 180,
+  "MaxRange": 540,
+  "RangeSplit": [
+    360,
+    360,
+    540
+  ],
+  "AmmoCategory": "TBOLT5",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 9,
+  "Damage": 20,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": true,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 15,
+
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+  "Description": {
+    "Cost": 50000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Solaris Arms",
+    "Model": "Thunderbolt Missile Launcher",
+    "UIName": "Thunderbolt 5",
+    "Id": "Weapon_LRM_Thunderbolt5_0-STOCK",
+    "Name": "Thunderbolt 5",
+    "Details": "The Thunderbolt Missile Launcher is an alternative to standard LRMs that fires a single, heavier missile rather than a swarm of small missiles. This, however, makes the projectile easily interceptable by anti-missile defense systems.",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "arrow",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 3,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_very-long"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Modes": [
+    {
+      "Id": "LRM_StdLoad",
+      "UIName": "STD",
+      "Name": "Standard",
+      "Description": "Fired missiles arm after they leave the launcher.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "LRM_HotLoad",
+      "UIName": "HL",
+      "Name": "Hot Load",
+      "Description": "Missiles are armed pre-launch inside the launcher, removing the minimum range but giving them a chance to jam.",
+      "isBaseMode": false,
+      "DamageOnJamming": true,
+      "AccuracyModifier": 1.0,
+      "FlatJammingChance": 0.5,
+      "GunneryJammingMult": 0.01,
+      "GunneryJammingBase": 0,
+      "MinRange": -180.0
+    }
+  ],
+  "ImprovedBallistic": true,
+  "AOEEffectsFalloff": true,
+  "MissileVolleySize": 1,
+  "ProjectileSpeedMultiplier": 1.2,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "HitGenerator": "Individual",
+  "MissileHealth": 5
+}

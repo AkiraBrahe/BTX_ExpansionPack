@@ -1,0 +1,29 @@
+{
+  "Description": {
+    "Id": "Ammunition_TBOLT15",
+    "Name": "TBolt-15 Ammo",
+    "Details": "Long range missile, capable of dealing damage equivalent to its LRM-15 counterpart. Vulnerable to anti-missile systems.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "TBOLT15",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "ProjectileScale": {
+    "x": 2.75,
+    "y": 2.75,
+    "z": 2.75
+  },
+  "AdditionalImpactVFX": "WFX_BESmaller",
+  "AdditionalImpactVFXScaleX": 2.75,
+  "AdditionalImpactVFXScaleY": 2.75,
+  "AdditionalImpactVFXScaleZ": 2.75
+}

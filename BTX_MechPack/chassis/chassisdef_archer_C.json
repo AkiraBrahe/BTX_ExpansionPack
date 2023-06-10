@@ -1,0 +1,211 @@
+{
+  "Description": {
+    "Cost": 6690000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Archer",
+    "Id": "chassisdef_archer_C",
+    "Name": "Archer",
+    "Details": "<color=#F79B26>The Archer is a heavy fire support BattleMech that was designed initially to be the most accurate BattleMech in existence, but that idea was dropped in favor of creating a sturdier, blockier, and more heavily armored frame that is still familiar today.</color>\n\nA Clan-tech retrofit of the ARC-2R Archer and intended for second-line and solahma troops, the Archer C replaces all Inner Sphere weaponry with their Clan counterparts and uses the weight savings to add ten more heat sinks. The Archer C mounts a pair of LRM-20s, capable of launching Swarm LRM munitions, and a quartet of ER Medium Lasers.",
+    "Icon": "uixTxrIcon_archerc"
+  },
+  "MovementCapDefID": "movedef_archer_C",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_archer",
+  "PrefabIdentifier": "chrPrfMech_archerBase-001",
+  "PrefabBase": "archer",
+  "Tonnage": 70,
+  "InitialTonnage": 30,
+  "weightClass": "HEAVY",
+  "Heatsinks": 3,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 100,
+  "MeleeInstability": 70,
+  "MeleeToHitModifier": -2,
+  "DFADamage": 90,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 90,
+  "DFAInstability": 90,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 220,
+      "MaxRearArmor": 110,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": -0.5
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": -0.5
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 5,
+      "z": 1
+    },
+    {
+      "x": -2.5,
+      "y": 5,
+      "z": 1
+    }
+  ],
+  "VariantName": "ARC-C",
+  "ChassisTags": {
+    "items": [
+      "mech_quirk_battlefists",
+      "mech_quirk_commandmech",
+      "mech_quirk_stable"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "YangsThoughts": "",
+  "StockRole": "Heavy Fire Support & Defender",
+  "FixedEquipment": []
+}

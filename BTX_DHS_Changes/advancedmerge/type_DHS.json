@@ -1,0 +1,15 @@
+{
+	"TargetIDs": [
+		"Gear_HeatSink_Generic_Double",
+		"Gear_HeatSink_Clan_Double"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"DissipationCapacity" : 6,
+			}
+		}
+	]
+}

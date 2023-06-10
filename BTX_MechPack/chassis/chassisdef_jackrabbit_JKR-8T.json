@@ -1,0 +1,269 @@
+{
+  "Description": {
+    "Cost": 1850000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Jackrabbit",
+    "Id": "chassisdef_jackrabbit_JKR-8T",
+    "Name": "Jackrabbit",
+    "Details": "<color=#F79B26>The Jackrabbit is a light BattleMech designed to provide long-range fire support to other light 'Mechs and infantry.</color>\n\nIt's equipped with an AC/2 and a single SRM-2 rack. While Class 2 Autocannons have a longer effective range than most weapons, they deal the same amount of damage as a Machine Gun at the expense of considerable weight that could be devoted to a larger engine or more armor, a tradeoff that ultimately doomed the Jackrabbit.",
+    "Icon": "uixTxrIcon_jackrabbit"
+  },
+  "MovementCapDefID": "movedef_jackrabbit_JKR-8T",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_jackrabbit",
+  "PrefabIdentifier": "chrPrfMech_jackrabbitBase-001",
+  "PrefabBase": "jackrabbit",
+  "Tonnage": 25,
+  "InitialTonnage": 8.04,
+  "weightClass": "LIGHT",
+  "Heatsinks": -12,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 30,
+  "MeleeInstability": 25,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 30,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 30,
+  "DFAInstability": 30,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "JKR-8T",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.70-0.70-0.70",
+      "chassis_endo",
+      "chassis_ferro"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Sniper & Scout",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

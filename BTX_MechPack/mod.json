@@ -1,0 +1,31 @@
+{
+    "Name": "BTX_MechPack",
+    "Enabled": true,
+    "Version": "0.3.95",
+
+    "Description": "Add new 'Mech variants and any new equipment they come with. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.",
+    "Author": "Kierk",
+
+    "ConflictsWith": [],
+    "DependsOn": [ "BTX_CAC_Compatibility" ],
+    "OptionallyDependsOn": [ "fps_TheBigDealBEXCE" ],
+    
+    "DataAddendumEntries":[ 
+        { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" }
+    ],
+    "Manifest": [
+        { "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
+        { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
+        { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "ItemCollectionDef", "Path": "itemcollection", "AddToDB": true },
+        { "Type": "JumpJetDef", "Path": "jumpjets", "AddToDB": true },
+        { "Type": "MechDef", "Path": "mech", "AddToDB": true },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
+        { "Type": "Sprite", "Path": "portraits" },
+        { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
+        { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
+      { "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
+      { "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" }
+    ]
+}

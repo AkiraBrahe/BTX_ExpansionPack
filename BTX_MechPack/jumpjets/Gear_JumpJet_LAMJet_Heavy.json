@@ -1,0 +1,82 @@
+{
+  "JumpCapacity": 1,
+    "MinTonnage" : 60,
+    "MaxTonnage" : 85,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Heavy",
+    "UIName": "LAM Jet (H)",
+    "Id": "Gear_JumpJet_LAMJet_Heavy",
+    "Name": "LAM Jet (H)",
+    "Details": "Specialized jet engines for use in a LandAirMech. Work as jump jets in Mech mode and as main propulsion jets otherwise.",
+    "Icon": "uixSvgIcon_action_jump"
+  },
+  "BonusValueA": "+ 10% Dmg. After Jump",
+  "BonusValueB": "",
+  "ComponentType": "JumpJet",
+  "ComponentSubType": "Functionality",
+  "PrefabIdentifier": "JumpJet",
+  "InventorySize": 1,
+  "Tonnage": 2,
+  "AllowedLocations": "Torso, Legs",
+  "DisallowedLocations": "Head, Arms",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Gear_JumpJet_LAMJet_DamageBoost",
+        "Name": "LAM Jet",
+        "Details": "Increases damage dealt after jumping by 20%.",
+        "Icon": "uixSvgIcon_action_jump"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "JumpingWeaponDamageModifier",
+        "operation": "Float_Add",
+        "modValue": "0.1",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
