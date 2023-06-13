@@ -10,7 +10,8 @@
       "unit_speed_high",
       "unit_electronicWarfare",
       "unit_indirectFire",
-      "unit_release"
+      "unit_release",
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },

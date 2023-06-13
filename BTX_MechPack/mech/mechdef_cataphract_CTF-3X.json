@@ -8,7 +8,8 @@
       "unit_range_medium",
       "unit_armor_high",
       "unit_speed_low",
-      "unit_release"
+      "unit_release",
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },

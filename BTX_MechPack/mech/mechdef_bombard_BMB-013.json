@@ -10,7 +10,8 @@
       "unit_speed_low",
       "unit_indirectFire",
       "unit_hot",
-      "unit_release"
+      "unit_release",
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },

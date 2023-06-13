@@ -11,7 +11,8 @@
       "unit_electronicWarfare",
       "unit_hot",
       "unit_jumpOK",
-      "unit_release"
+      "unit_release",
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },

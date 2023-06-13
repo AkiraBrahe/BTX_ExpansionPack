@@ -8,7 +8,8 @@
       "unit_lance_assassin",
       "unit_range_short",
       "unit_armor_high",
-      "unit_release"
+      "unit_release",
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },

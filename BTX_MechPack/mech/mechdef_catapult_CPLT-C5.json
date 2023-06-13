@@ -10,7 +10,8 @@
       "unit_hot",
       "unit_indirectFire",
       "unit_jumpOK",
-      "unit_release"
+      "unit_release",
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },
