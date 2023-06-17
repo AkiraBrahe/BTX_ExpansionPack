@@ -210,6 +210,7 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "chassis_TSM",
       "mech_case_left",
       "mech_case_right",
       "chassis_CrossAssemblyAllowedWith_Hatamoto-Hi",

@@ -8,7 +8,7 @@
     "UIName": "Arctic Wolf",
     "Id": "chassisdef_arctic_wolf-1",
     "Name": "Arctic Wolf",
-    "Details": "<color=#F79B26>The Arctic Wolf, originally conceived as a testbed for a future OmniMech, is designed to close quickly and unleash over 40 short-range missiles at an opponent before withdrawing just as quickly.</color>\n\nThe primary configuration is equipped with six SRM-6 launchers and two SRM-4 launchers. A Narc missile beacon aids in the accuracy of these missiles. The Arctic Wolf is protected by six tons of standard armor, and has ten double heat sinks which can be overwhelmed, but only if a MechWarrior insists on staying in the fight or going full tilt for long periods.",
+    "Details": "<color=#F79B26>The Arctic Wolf, originally conceived as a testbed for a future OmniMech, is designed to close quickly and unleash over 40 short-range missiles at an opponent before withdrawing just as quickly.</color>\n\nThe Primary configuration is equipped with six SRM-6 launchers and two SRM-4 launchers. A Narc missile beacon aids in the accuracy of these missiles. The Arctic Wolf is protected by six tons of standard armor, and has ten double heat sinks which can be overwhelmed, but only if a MechWarrior insists on staying in the fight or going full tilt for long periods.",
     "Icon": "uixTxrIcon_arcticwolf"
   },
   "MovementCapDefID": "movedef_arctic_wolf-1",

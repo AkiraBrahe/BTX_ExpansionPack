@@ -15,7 +15,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "chassisdef_raptor_RTX-OR",
+  "ChassisID": "chassisdef_raptor_RTX1-OR",
   "HeraldryID": null,
   "Description": {
     "Cost": 4840000,
@@ -24,7 +24,7 @@
     "Manufacturer": null,
     "Model": null,
     "UIName": "Raptor RTX1-OR",
-    "Id": "mechdef_raptor_RTX-OR",
+    "Id": "mechdef_raptor_RTX1-OR",
     "Name": "Raptor",
     "Details": "<color=#F79B26>The Raptor was the first Inner Sphere OmniMech built from salvaged OmniMechs from the Battle of Luthien. The resulting OmniMech is a great recon and fast strike unit.</color>\n\nThis configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It mounts an array of Clan-tech, utilizing an ER Large Laser and ER Medium Laser in each arm, as well as an ER Small Laser next to a C3 slave unit in the center torso.",
     "Icon": "uixTxrIcon_raptor"

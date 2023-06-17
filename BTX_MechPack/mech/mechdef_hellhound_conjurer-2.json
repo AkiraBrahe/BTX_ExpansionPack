@@ -24,7 +24,7 @@
     "UIName": "Hellhound 2",
     "Id": "mechdef_hellhound_conjurer-2",
     "Name": "Hellhound",
-    "Details": "<color=#F79B26>The Conjurer, code-named the Hellhound by the Inner Sphere, is a fast, inexpensive medium BattleMech that excels at medium to short range.</color>\n\nThe Conjurer 2 is a complete rebuild of the primary configuration, with an upgraded 350 XL fusion engine and an extra jump jet. To allow for maximum flexibility, the weapons are removed to make way for an ATM-9 with three tons of ammunition, completed by a pair of Medium Pulse Lasers linked to a Targeting Computer. A half-ton of armor increases the armor protection to the maximum that the 50-ton chassis can support.",
+    "Details": "<color=#F79B26>The Conjurer, code-named the Hellhound by the Inner Sphere, is a fast, inexpensive medium BattleMech that excels at medium to short range.</color>\n\nThe Conjurer 2 is a complete rebuild of the Primary configuration, with an upgraded 350 XL fusion engine and an extra jump jet. To allow for maximum flexibility, the weapons are removed to make way for an ATM-9 with three tons of ammunition, completed by a pair of Medium Pulse Lasers linked to a Targeting Computer. A half-ton of armor increases the armor protection to the maximum that the 50-ton chassis can support.",
     "Icon": "uixTxrIcon_hellhound"
   },
   "simGameMechPartCost": 1170000,

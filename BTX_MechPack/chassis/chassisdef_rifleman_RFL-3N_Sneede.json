@@ -204,5 +204,15 @@
   },
   "StockRole": "FrankenMech",
   "YangsThoughts": "",
-  "FixedEquipment": []
+  "FixedEquipment": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_General_Rangefinder_Suite",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
 }

@@ -6,12 +6,12 @@
     "Manufacturer": "",
     "Model": "",
     "UIName": "Raptor",
-    "Id": "chassisdef_raptor_RTX-OR",
+    "Id": "chassisdef_raptor_RTX1-OR",
     "Name": "Raptor",
     "Details": "<color=#F79B26>The Raptor was the first Inner Sphere OmniMech built from salvaged OmniMechs from the Battle of Luthien. The resulting OmniMech is a great recon and fast strike unit.</color>\n\nThis configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It mounts an array of Clan-tech, utilizing an ER Large Laser and ER Medium Laser in each arm, as well as an ER Small Laser next to a C3 slave unit in the center torso.",
     "Icon": "uixTxrIcon_raptor"
   },
-  "MovementCapDefID": "movedef_raptor_RTX-OR",
+  "MovementCapDefID": "movedef_raptor_RTX1-OR",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_raptor",
   "PrefabIdentifier": "chrprfmech_raptorbase-001",
@@ -76,7 +76,12 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 60,
@@ -86,10 +91,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -103,7 +104,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 60,
@@ -280,7 +286,16 @@
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "JumpJet",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,
       "DamageLevel": "Functional",
@@ -290,15 +305,6 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": true,
       "DamageLevel": "Functional",
