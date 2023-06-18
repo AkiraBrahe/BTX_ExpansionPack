@@ -5463,7 +5463,8 @@
         "chrprfmech_conjurerbase-001_50",
         "chrprfmech_hellfirebase-001_40",
         "chrprfmech_hermesbase-001_40",
-        "chrPrfMech_hellhoundBase-001_50"
+        "chrPrfMech_hellhoundBase-001_50",
+        "chrprfmech_ionphantombase-001_40"
       ],
       "affinityLevels": [
         {
@@ -7312,6 +7313,7 @@
     },
     {
       "chassisNames": [
+        "chrprfmech_prometheusbase-001_75",
         "chrprfmech_hellbringerbase-001_65",
         "chrprfmech_dragonfirebase-001_75"
       ],
@@ -9892,6 +9894,7 @@
       "chassisNames": [
         "chrprfmech_direwolfbase-001_100",
         "chrPrfMech_hauptmannbase-001_95",
+        "chrprfmech_ironcheetahbase-001_100",
         "chrprfmech_linebackerbase-001_95",
         "chrprfmech_madcatmkiibase-001_90",
         "chrprfmech_ionsunderbase-001_90"
@@ -14477,6 +14480,7 @@
     },
     {
       "chassisNames": [
+        "chrprfmech_lelialbatrossbase-001_95",
         "chrPrfMech_bullsharkBase-001_95",
         "chrprfmech_gargoylebase-001_80",
         "chrprfmech_rampagebase-001_85",
