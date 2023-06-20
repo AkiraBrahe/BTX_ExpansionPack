@@ -20,6 +20,8 @@
   "InitialTonnage": 44.01,
   "weightClass": "ASSAULT",
   "Heatsinks": 46,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 200,
   "StabilityDefenses": [
