@@ -13,20 +13,45 @@ Add new 'Mech variants and any new equipment they come with. All 'Mechs are port
 - Extract BTX_MechPack archive to the mods folder, overwriting when prompted
 - (Optional) Enable DHS Changes in the mod menu if you want all DHS in the engine to have 6 heatsinking.
 
-The new 'Mechs are fielded by the factions that should have them according to the lore. The Heavy Metal crate now contains one of the eight Hero 'Mechs added by the mod (see the list below). All 'Mechs can also be added through Fell Off A Cargo Ship or a save editor.
+The new 'Mechs are fielded by the factions that should have them according to the lore, while the Heavy Metal crate contains one of the eight Hero 'Mechs added by the mod. All 'Mechs can also be added through Fell Off A Cargo Ship or a save editor.
+
+## Mod Progress
+
+The mod currently includes 39 new BattleMechs and 119 new 'Mech variants. Once completed, the mod will feature at least 8 more BattleMechs that will be added in a future update.
+
+| Pack #1             | Pack #2          | Pack #3                 |
+| :------------------ | :--------------- | :---------------------- |
+| Bellerophon         | Arctic Wolf      | Albatross               |
+| Bombard             | Assassin II      | Anubis                  |
+| Buccaneer           | Battle Hawk      | ????????                |
+| Dragoon             | Blitzkrieg       | ????? ?????             |
+| Fox                 | Champion LAM     | ???? ??????             |
+| Hellfire            | Cossack          | ?????                   |
+| Jackrabbit          | Hammer           | Iron Cheetah            |
+| JagerMech III       | Hybrid Rifleman  | ??????                  |
+| Juggernaut          | Lao Hu           | Osiris                  |
+| Mercury II / Coyotl | Mad Cat Mk II    | ????????? (?????? ????) |
+| Pulverizer          | Matar            | Phantom                 |
+| Rampage             | Naga             | Prometheus              |
+| Schwerer Gustav     | Nightsky         | Sha Yu                  |
+| Screamer LAM        | Phoenix Hawk IIC | ???????                 |
+| Stag / Stag II      | Rattlesnake      | ??????                  |
+| Thanatos            | Warthog          |                         |
+| Titan               |                  |                         |
 
 ## Contents
 
 ### Mechs
 
-The mod currently includes 36 new BattleMechs and 115 new 'Mech variants.
-
-#### New Chassis
+<details>
+  <summary>New Chassis</summary>
 
 | Name                              |   Class    | Mass |  Tech Base   | Intro | Factions                                                                       |
 | :-------------------------------- | :--------: | :--: | :----------: | :---: | :----------------------------------------------------------------------------- |
-| Albatross ALB-3U                  | Assault    |  95  | Inner Sphere | 3053  | Marik                                                                          |
-| Albatross ALB-4U                  | Assault    |  95  | Inner Sphere | 3063  | Marik                                                                          |
+| Albatross ALB-3U                  |  Assault   |  95  | Inner Sphere | 3053  | Marik                                                                          |
+| Albatross ALB-4U                  |  Assault   |  95  | Inner Sphere | 3063  | Marik                                                                          |
+| Anubis ABS-3L                     |   Light    |  30  | Inner Sphere | 3063  | Liao, Canopus, Taurian                                                         |
+| Anubis ABS-3R                     |   Light    |  30  | Inner Sphere | 3064  | Liao, Canopus, Taurian                                                         |
 | Arctic Wolf 1                     |   Medium   |  40  |     Clan     | 3059  | Clan Wolf                                                                      |
 | Arctic Wolf 2                     |   Medium   |  40  |     Clan     | 3060  | Clan Wolf                                                                      |
 | Assassin II ASN-56                |   Medium   |  45  | Inner Sphere | 3060  | Davion                                                                         |
@@ -54,11 +79,11 @@ The mod currently includes 36 new BattleMechs and 115 new 'Mech variants.
 | Hammer HMR-3S 'Slammer'           |   Light    |  30  | Inner Sphere | 3054  | Marik, Word of Blake                                                           |
 | Hellfire 1                        |   Heavy    |  60  |     Clan     | 3058  | Clan Steel Viper                                                               |
 | Hybrid Rifleman RFL-SND 'Sneede'  |   Heavy    |  60  | Inner Sphere | 3025  | **Heavy Metal Crate**                                                          |
-| Iron Cheetah A                    | Assault    | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
-| Iron Cheetah B                    | Assault    | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
-| Iron Cheetah C                    | Assault    | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
-| Iron Cheetah D                    | Assault    | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
-| Iron Cheetah Prime                | Assault    | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
+| Iron Cheetah A                    |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
+| Iron Cheetah B                    |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
+| Iron Cheetah C                    |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
+| Iron Cheetah D                    |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
+| Iron Cheetah Prime                |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
 | Jackrabbit JKR-8T                 |   Light    |  25  | Inner Sphere | 2765  | ComStar                                                                        |
 | JagerMech III JM6-D3              |   Heavy    |  65  | Inner Sphere | 3058  | Davion                                                                         |
 | Juggernaut JG-R9T1                |  Assault   |  90  | Inner Sphere | 3053  | Steiner                                                                        |
@@ -77,16 +102,17 @@ The mod currently includes 36 new BattleMechs and 115 new 'Mech variants.
 | Nightsky NGS-4T                   |   Medium   |  50  | Inner Sphere | 3056  | Steiner-Davion                                                                 |
 | Nightsky NGS-5S                   |   Medium   |  50  | Inner Sphere | 3056  | Steiner-Davion                                                                 |
 | Nightsky NGS-5T                   |   Medium   |  50  | Inner Sphere | 3057  | Steiner-Davion                                                                 |
-| Phantom A                         | Medium     |  40  |     Clan     | 3052  | Clans                                                                          |
-| Phantom B                         | Medium     |  40  |     Clan     | 3052  | Clans                                                                          |
-| Phantom C                         | Medium     |  40  |     Clan     | 3052  | Clans                                                                          |
-| Phantom D                         | Medium     |  40  |     Clan     | 3052  | Clans                                                                          |
-| Phantom Prime                     | Medium     |  40  |     Clan     | 3052  | Clans                                                                          |
+| Osiris OSR-3D                     |   Light    |  30  | Inner Sphere | 3063  | Davion                                                                         |
+| Phantom A                         |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
+| Phantom B                         |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
+| Phantom C                         |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
+| Phantom D                         |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
+| Phantom Prime                     |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Phoenix Hawk IIC 1                |  Assault   |  80  |     Clan     | 2851  | Clans                                                                          |
 | Phoenix Hawk IIC 2                |  Assault   |  80  |     Clan     | 2852  | Clans                                                                          |
 | Phoenix Hawk IIC 3                |  Assault   |  80  |     Clan     | 3062  | Clans                                                                          |
 | Phoenix Hawk IIC 9                |  Assault   |  80  |     Clan     | 2853  | Clans                                                                          |
-| Prometheus (Standard)             | Heavy      |  75  |  Mixed-tech  | 3053  | Davion                                                                         |
+| Prometheus                        |   Heavy    |  75  |  Mixed-tech  | 3053  | Davion                                                                         |
 | Pulverizer PUL-2V                 |  Assault   |  90  |  Mixed-tech  | 2823  | Clan Ghost Bear                                                                |
 | Pulverizer PUL-3R                 |  Assault   |  90  |  Mixed-tech  | 2823  | Clan Ghost Bear                                                                |
 | Pulverizer PUL-C                  |  Assault   |  90  |     Clan     | 2845  | Clan Ghost Bear                                                                |
@@ -98,15 +124,17 @@ The mod currently includes 36 new BattleMechs and 115 new 'Mech variants.
 | Schwerer Gustav SG-1X             |  Assault   | 100  |  Mixed-tech  | 3073  | Marik (3063+)                                                                  |
 | Schwerer Gustav SJ-1X 'Jäger'     |  Assault   | 100  |  Mixed-tech  | 3073  | **Heavy Metal Crate**                                                          |
 | Screamer LAM SCR-1X-LAM           |   Medium   |  55  | Inner Sphere | 2774  | Snord's Irregulars                                                             |
+| Sha Yu SYU-2B                     |   Medium   |  40  | Inner Sphere | 3063  | Liao, Canopus                                                                  |
 | Stag ST-14G                       |   Medium   |  45  |  Mixed-tech  | 2823  | Clans (3052+)                                                                  |
 | Stag II ST-24G                    |   Medium   |  45  |  Mixed-tech  | 2823  | Clan Wolf (3052+)                                                              |
 | Thanatos TNS-4S                   |   Heavy    |  75  | Inner Sphere | 3061  | Steiner-Davion, Wolf's Dragoons                                                |
 | Thanatos TNS-4T                   |   Heavy    |  75  | Inner Sphere | 3062  | Steiner-Davion, Wolf's Dragoons                                                |
 | Titan TI-1A                       |  Assault   | 100  | Inner Sphere | 2765  | Davion                                                                         |
-| Warthog Prime                     |  Assault   |  95  |     Clan     | 3059  | Clans                                                                          |                                                               |
+| Warthog Prime                     |  Assault   |  95  |     Clan     | 3059  | Clans                                                                          |
+</details>
 
-
-#### Existing Chassis
+<details>
+  <summary>Existing Chassis</summary>
 
 | Name                              |   Class    | Mass |  Tech Base   | Intro | Factions                                                                       |
 | :-------------------------------- | :--------: | :--: | :----------: | :---: | :----------------------------------------------------------------------------- |
@@ -146,19 +174,18 @@ The mod currently includes 36 new BattleMechs and 115 new 'Mech variants.
 | Warhammer C                       |   Heavy    |  70  |  Mixed-tech  | 2825  | Clans (3051+)<br />Kurita, Steiner-Davion (3055+)                              |
 | Warhammer C 2                     |   Heavy    |  70  |  Mixed-tech  | 3052  | Clan Wolf<br />Kurita, Steiner-Davion (3055+)                                  |
 | Warhammer C 3                     |   Heavy    |  70  |     Clan     | 2862  | Wolf's Dragoons (3058+)                                                        |
+</details>
 
 ### Weapons / Upgrades
 
-New weapons and upgrades have also been added, with some exclusive to certain chassis, including:
-
-| Ballistic   | Energy        | Missile               | Melee/Support         | Upgrade                              |
-| :---------- | :------------ | :-------------------- | :-------------------- | :----------------------------------- |
-| Rotary AC/2 | Bombast Laser | Bomb Bay²             | Heavy Flamer          | Bloodhound Active Probe              |
-| Rotary AC/5 | Plasma Rifle  | Inferno-IV Missile    | Heavy Machine Gun     | Direct Neural Interface (Prometheus) |
-|             |               | Swarm LRMs (Archer C) | Katana (Hatamoto-Chi) | Hybrid Standard/Endo Steel           |
-|             |               | Thunderbolt 5         | Spikes (Bombard)      | Laser Anti-Missile System            |
-|             |               | Thunderbolt 10        | Vibroblade (Assassin) | Light Active Probe                   |
-|             |               | Thunderbolt 15        |                       |                                      |
-|             |               | Thunderbolt 20        |                       |                                      |
+| Ballistic   | Energy        | Missile               | Melee/Support         | Upgrade                    |
+| :---------- | :------------ | :-------------------- | :-------------------- | :------------------------- |
+| Rotary AC/2 | Bombast Laser | Bomb Bay²             | Heavy Flamer          | Bloodhound Active Probe    |
+| Rotary AC/5 | Plasma Rifle  | Inferno-IV Missile    | Heavy Machine Gun     | Direct Neural Interface    |
+|             |               | Swarm LRMs (Archer C) | Katana (Hatamoto-Chi) | Hybrid Standard/Endo Steel |
+|             |               | Thunderbolt 5         | Spikes (Bombard)      | Laser Anti-Missile System  |
+|             |               | Thunderbolt 10        | Vibroblade (Assassin) | Light Active Probe         |
+|             |               | Thunderbolt 15        |                       | Stealth Armor              |
+|             |               | Thunderbolt 20        |                       |                            |
 
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs

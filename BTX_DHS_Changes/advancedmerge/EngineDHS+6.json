@@ -1,0 +1,18 @@
+{
+  "TargetIDs": [
+    "chassisdef_iron_cheetah-A",
+    "chassisdef_iron_cheetah-B",
+    "chassisdef_iron_cheetah-C",
+    "chassisdef_iron_cheetah-D",
+    "chassisdef_iron_cheetah-PRIME"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Heatsinks": 66
+      }
+    }
+  ]
+}
