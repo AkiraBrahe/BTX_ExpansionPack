@@ -50,8 +50,8 @@ The mod currently includes 39 new BattleMechs and 119 new 'Mech variants. Once c
 | :-------------------------------- | :--------: | :--: | :----------: | :---: | :----------------------------------------------------------------------------- |
 | Albatross ALB-3U                  |  Assault   |  95  | Inner Sphere | 3053  | Marik                                                                          |
 | Albatross ALB-4U                  |  Assault   |  95  | Inner Sphere | 3063  | Marik                                                                          |
-| Anubis ABS-3L                     |   Light    |  30  | Inner Sphere | 3063  | Liao, Canopus, Taurian                                                         |
-| Anubis ABS-3R                     |   Light    |  30  | Inner Sphere | 3064  | Liao, Canopus, Taurian                                                         |
+| Anubis ABS-3L                     |   Light    |  30  | Inner Sphere | 3063  | Liao, Centrella, Calderon                                                      |
+| Anubis ABS-3R                     |   Light    |  30  | Inner Sphere | 3064  | Liao, Centrella, Calderon                                                      |
 | Arctic Wolf 1                     |   Medium   |  40  |     Clan     | 3059  | Clan Wolf                                                                      |
 | Arctic Wolf 2                     |   Medium   |  40  |     Clan     | 3060  | Clan Wolf                                                                      |
 | Assassin II ASN-56                |   Medium   |  45  | Inner Sphere | 3060  | Davion                                                                         |
@@ -124,7 +124,7 @@ The mod currently includes 39 new BattleMechs and 119 new 'Mech variants. Once c
 | Schwerer Gustav SG-1X             |  Assault   | 100  |  Mixed-tech  | 3073  | Marik (3063+)                                                                  |
 | Schwerer Gustav SJ-1X 'Jäger'     |  Assault   | 100  |  Mixed-tech  | 3073  | **Heavy Metal Crate**                                                          |
 | Screamer LAM SCR-1X-LAM           |   Medium   |  55  | Inner Sphere | 2774  | Snord's Irregulars                                                             |
-| Sha Yu SYU-2B                     |   Medium   |  40  | Inner Sphere | 3063  | Liao, Canopus                                                                  |
+| Sha Yu SYU-2B                     |   Medium   |  40  | Inner Sphere | 3063  | Liao, Centrella                                                                |
 | Stag ST-14G                       |   Medium   |  45  |  Mixed-tech  | 2823  | Clans (3052+)                                                                  |
 | Stag II ST-24G                    |   Medium   |  45  |  Mixed-tech  | 2823  | Clan Wolf (3052+)                                                              |
 | Thanatos TNS-4S                   |   Heavy    |  75  | Inner Sphere | 3061  | Steiner-Davion, Wolf's Dragoons                                                |
