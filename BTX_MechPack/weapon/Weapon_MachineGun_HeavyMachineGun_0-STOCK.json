@@ -9,7 +9,7 @@
     75,
     75
   ],
-  "ammoCategoryID": "MG",
+  "AmmoCategory": "MG",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 0,
   "Damage": 6,
@@ -19,7 +19,7 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 1,
-  "CriticalChanceMultiplier": 2.0,
+  "CriticalChanceMultiplier": 2,
   "AOECapable": false,
   "IndirectFireCapable": false,
   "RefireModifier": 0,

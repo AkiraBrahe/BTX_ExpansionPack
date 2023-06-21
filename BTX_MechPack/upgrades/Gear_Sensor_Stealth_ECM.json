@@ -14,7 +14,7 @@
     "Details": "Helm Core tech electronic countermeasures system, functional identical to StarLeague technology. Interferes with enemy targetings computers, sensors and comms. Decreasing accuracy against nearby allied forces and preventing most enemy comms.",
     "Icon": "UixSvgIcon_specialEquip_Sensors"
   },
-  "BonusValueA": "+ 180m ECM Field",
+  "BonusValueA": "+ 180m ECM Field, - 20% Detectability",
   "BonusValueB": "+ Stealth Mode",
   "ComponentType": "Upgrade",
   "ComponentSubType": "Prototype_ElectronicWarfare",

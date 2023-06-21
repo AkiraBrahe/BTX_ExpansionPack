@@ -62,8 +62,8 @@
     "items": [
       "component_type_stock",
       "range_extreme",
-      "BLACKLISTED",
-      "BUILT-IN"
+      "BUILT-IN",
+      "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
   },

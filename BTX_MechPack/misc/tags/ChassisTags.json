@@ -8,12 +8,19 @@
       "chassis_endo",
       "chassis_ferro",
       "chassis_stealth",
+      "chassis_reactive",
       "chassis_clan",
       "LandAirMech",
 
+    /* CASE */
       "mech_case_centre",
       "mech_case_left",
       "mech_case_right",
+    
+    /* Engine Quirks */
+      "mech_quirk_largeengine",
+      "mech_quirk_extralargeengine",
+      "mech_quirk_extremeengine",
     
     /* Mech Quirks */
       "mech_quirk_accurateweapon",
@@ -87,10 +94,6 @@
       "mech_quirk_weakheadarmor1",
       "mech_quirk_weakheadarmor2",
       "mech_quirk_weaklegs",
-
-      "mech_quirk_largeengine",
-      "mech_quirk_extralargeengine",
-      "mech_quirk_extremeengine",
   ],
   "tagSetSourceFile": ""
 }

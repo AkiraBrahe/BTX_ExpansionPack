@@ -9,7 +9,7 @@
     150,
     150
   ],
-  "ammoCategoryID": "NotSet",
+  "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 13,
   "Damage": 40,
@@ -40,8 +40,8 @@
     "Details": "X-Pulse Lasers were an attempt, started in 3055, by the Federated Commonwealth technicians to increase the range of pulse lasers. An improvement upon standard Small Lasers, Small X-Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Small X-Pulse Lasers enjoy a baseline accuracy bonus over other weapons but they will spread their damage across the target slightly.",
     "Icon": "uixSvgIcon_weapon_Support"
   },
-  "BonusValueA" : "+ 10 Dmg.",
-  "BonusValueB" : "",
+  "BonusValueA": "+ 10 Dmg.",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
