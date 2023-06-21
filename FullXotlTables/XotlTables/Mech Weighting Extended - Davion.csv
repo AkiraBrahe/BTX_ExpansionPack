@@ -40,6 +40,7 @@ mechdef_raven_RVN-2X,0,3030-01-01T00:00:00Z,4,,3,,3,,3
 mechdef_wolfhound_WLF-1,0,3028-01-15T00:00:00Z,10,,23,,23,,23
 mechdef_wolfhound_WLF-1A,0,3028-03-15T00:00:00Z,4,,4,,4,,4
 mechdef_wolfhound_WLF-1B,0,3028-03-15T00:00:00Z,4,,4,,4,,4
+mechdef_osiris_OSR-3D,0,,0,,0,,0,3063-01-01T00:00:00Z,6
 Mediums,,,,,,,,,
 mechdef_clint_CLNT-2-4T,3,,3,,3,,3,,3
 mechdef_vulcan_VL-2T,16,,16,,15,,15,,15

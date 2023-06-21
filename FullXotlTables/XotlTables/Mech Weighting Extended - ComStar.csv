@@ -54,6 +54,7 @@ mechdef_falconhawk_FNHK-9K1A,0,,0,,0,3057-01-01T00:00:00Z,12
 mechdef_stinger_STG-A5,28,,28,Jump:3052-05-20T00:00:00Z,19,,18
 mechdef_talon_TLN-5V,200,,200,Jump:3052-05-20T00:00:00Z,139,,131
 mechdef_spector_SPR-5F,0,,0,3053-01-01T00:00:00Z,15,,27
+mechdef_raptor_RTX1-OR,0,,0,,0,3059-01-01T00:00:00Z,4
 Mediums,,,,,,,
 mechdef_cicada_CDA-2A,23,,23,Jump:3052-05-20T00:00:00Z,16,,14
 mechdef_sentinel_STN-3L,57,,57,Jump:3052-05-20T00:00:00Z,40,,35
@@ -110,6 +111,7 @@ mechdef_griffin_GRF-3M,0,,0,3052-06-01T00:00:00Z,13,,20
 mechdef_chameleon_CLN-7Z,0,,0,,0,3058-01-01T00:00:00Z,8
 mechdef_phoenixhawk_PXH-HK2,23,,23,Jump:3052-05-20T00:00:00Z,16,,14
 mechdef_griffin_GRF-4N,114,,114,Jump:3052-05-20T00:00:00Z,79,,70
+mechdef_firestarter_FS9-OR,0,,0,,0,3059-01-01T00:00:00Z,1
 Heavies,,,,,,,
 mechdef_rifleman_RFL-5M,0,,0,3052-06-01T00:00:00Z,11,,19
 mechdef_ostroc_OSR-2C,21,,21,Jump:3052-05-20T00:00:00Z,15,,8

@@ -67,9 +67,11 @@ mechdef_falconhawk_FNHK-9K,0,,0,,0,,0,3057-01-01T00:00:00Z,3
 mechdef_falconhawk_FNHK-9K1A,0,,0,,0,,0,3057-01-01T00:00:00Z,3
 mechdef_wolfhound_WLF-2,0,,0,,0,3052-01-01T00:00:00Z,33,,42
 mechdef_javelin_JVN-11A,0,,0,,0,3053-01-01T00:00:00Z,17,,21
+mechdef_osiris_OSR-3D,0,,0,,0,,0,3063-01-01T00:00:00Z,22
 mechdef_garm_GRM-01C,0,,0,,0,,0,3062-01-01T00:00:00Z,8
 mechdef_spector_SPR-5F,0,,0,,0,3053-01-01T00:00:00Z,17,,21
 mechdef_rattlesnake_JR7-31P,0,,0,3043-01-01T00:00:00Z,3,,10,,22
+mechdef_raptor_RTX1-OR,0,,0,,0,,0,3059-01-01T00:00:00Z,1
 mechdef_rattlesnake_JR7-31,0,,0,3042-01-01T00:00:00Z,18,,60,,48
 Mediums,,,,,,,,,
 mechdef_clint_CLNT-2-4T,0,,0,,0,,0,,0
@@ -152,6 +154,7 @@ mechdef_blackjack_BJ2-OA,0,,0,,0,,0,3057-01-01T00:00:00Z,7
 mechdef_firestarter_FS9-OD,0,,0,,0,,0,3057-01-01T00:00:00Z,2
 mechdef_blackjack_BJ2-OB,0,,0,,0,,0,3057-01-01T00:00:00Z,1
 mechdef_centurion_CN9-D3,0,,0,,0,3052-01-01T00:00:00Z,15,,17
+mechdef_strider_SR1-OR,0,,0,,0,,0,3059-01-01T00:00:00Z,1
 mechdef_nightsky_NGS-5T,0,,0,,0,,0,3057-01-01T00:00:00Z,15
 mechdef_centurion_CN9-D3D,0,,0,,0,,0,3060-01-01T00:00:00Z,9
 mechdef_blackjack_BJ2-OD,0,,0,,0,,0,3057-01-01T00:00:00Z,7
@@ -162,6 +165,7 @@ mechdef_enforceriii_ENF-6M,0,,0,,0,,0,3059-01-01T00:00:00Z,15
 mechdef_chameleon_CLN-7Z,0,,0,,0,,0,3058-01-01T00:00:00Z,3
 mechdef_hatchetman_HCT-6D,0,,0,,0,,0,3062-01-01T00:00:00Z,34
 mechdef_lynx_LNX-9C,0,,0,,0,3056-12-01T00:00:00Z,5,,10
+mechdef_firestarter_FS9-OR,0,,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_centurion_CN9-D5,0,,0,,0,,0,3062-01-01T00:00:00Z,34
 mechdef_lynx_LNX-9R,0,,0,,0,3056-01-01T00:00:00Z,8,,20
 Heavies,,,,,,,,,
@@ -245,6 +249,7 @@ mechdef_thanatos_TNS-4S,0,,0,,0,,0,3061-01-01T00:00:00Z,21
 mechdef_gallowglas_GAL-2GLS,0,,0,,0,3055-01-01T00:00:00Z,6,,9
 mechdef_warhammer_C-2,0,,0,,0,3055-01-01T00:00:00Z,10,,4
 mechdef_falconer_FLC-8R,0,,0,,0,3053-01-01T00:00:00Z,22,,28
+mechdef_prometheus,0,,0,,0,3053-01-01T00:00:00Z,1,,1
 Assaults,,,,,,,,,
 mechdef_cyclops_CP-10-HQ,14,,14,,12,,20,,20
 mechdef_victor_VTR-9A,0,,0,,0,,13,,3
@@ -293,4 +298,5 @@ mechdef_sunder_SD1-OA,0,,0,,0,,0,3058-01-01T00:00:00Z,16
 mechdef_banshee_BNC-5S,0,,0,,0,3053-01-01T00:00:00Z,49,,63
 mechdef_marauderII_MAD-4A,3,,3,,3,,3,,3
 mechdef_devastator_DVS-3,0,,0,,0,,0,3058-01-01T00:00:00Z,18
+mechdef_sunder_SD1-OR,0,,0,,0,,0,3059-01-01T00:00:00Z,1
 mechdef_devastator_DVS-2,0,,0,3048-01-01T00:00:00Z,12,,71,,63

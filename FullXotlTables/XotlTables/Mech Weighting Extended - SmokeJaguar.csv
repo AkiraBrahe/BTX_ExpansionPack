@@ -181,12 +181,15 @@ mechdef_daishi_dire_wolf-X,0,,0,,0,3060-01-01T00:00:00Z,3
 mechdef_marauder_IIC,7,,52,,27,Jump:3059-07-01T00:00:00Z,87
 mechdef_manowar_gargoyle-A,61,,61,,61,,61
 mechdef_gladiator_executioner-D,7,,7,,7,,7
+mechdef_iron_cheetah-A,0,,0,3054-01-01T00:00:00Z,41,,68
 mechdef_daishi_dire_wolf-PRIME,134,,134,,134,,134
 mechdef_annihilator_C-2,0,Jump:3051-01-01T00:00:00Z,5,,3,,4
 mechdef_gladiator_executioner-C,13,,13,,13,,13
 mechdef_gladiator_executioner-PRIME,27,,27,,27,,27
 mechdef_supernova-1,2,,27,,20,Jump:3059-07-01T00:00:00Z,47
 mechdef_daishi_dire_wolf-A,87,,87,,87,,87
+mechdef_iron_cheetah-D,0,,0,3054-01-01T00:00:00Z,38,,63
+mechdef_iron_cheetah-C,0,,0,3054-01-01T00:00:00Z,25,,42
 mechdef_behemoth_stone_rhino-7,2,,2,,2,,2
 mechdef_gladiator_executioner-B,13,,13,,13,,13
 mechdef_highlander_IIC,2,,27,,13,Jump:3059-07-01T00:00:00Z,40
@@ -198,5 +201,7 @@ mechdef_masakari_warhawk-C,27,,27,,27,,27
 mechdef_behemoth_stone_rhino-1,3,,3,,3,,3
 mechdef_gladiator_executioner-H,0,,0,,0,3059-01-01T00:00:00Z,5
 mechdef_gladiator_executioner-A,7,,7,,7,,7
+mechdef_iron_cheetah-PRIME,0,,0,3054-01-01T00:00:00Z,94,,157
 mechdef_masakari_warhawk-PRIME,108,,108,,108,,108
+mechdef_iron_cheetah-B,0,,0,3054-01-01T00:00:00Z,12,,20
 mechdef_daishi_dire_wolf-C,0,,0,3054-01-01T00:00:00Z,3,,3

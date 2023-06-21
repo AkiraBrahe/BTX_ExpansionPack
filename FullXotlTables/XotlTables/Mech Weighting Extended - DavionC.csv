@@ -39,7 +39,8 @@ mechdef_wolfhound_WLF-1A,5,,5,,5
 mechdef_wolfhound_WLF-1B,5,,5,,5
 mechdef_nighthawk_NTK-2S,0,,0,3059-01-01T00:00:00Z,8
 mechdef_wolfhound_WLF-2,0,3052-01-01T00:00:00Z,20,,29
-mechdef_rattlesnake_JR7-31,0,,0,3042-01-01T00:00:00Z,8,,29,,23
+mechdef_osiris_OSR-3D,0,,0,3063-01-01T00:00:00Z,14
+mechdef_rattlesnake_JR7-31,8,,29,,23
 Mediums,,,,,
 mechdef_vulcan_VL-2T,17,,17,,17
 mechdef_cicada_CDA-2A,17,,17,,21

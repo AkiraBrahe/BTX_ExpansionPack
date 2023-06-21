@@ -56,10 +56,13 @@ mechdef_cougar-C,0,,0,,0,3058-01-01T00:00:00Z,6
 mechdef_vixen_incubus-2,11,,17,,11,Jump:3058-01-01T00:00:00Z,22
 mechdef_puma_adder-PRIME,79,,79,,79,,79
 Mediums,,,,,,,
+mechdef_phantom-B,0,3052-01-01T00:00:00Z,9,,21,,28
+mechdef_phantom-PRIME,0,3052-01-01T00:00:00Z,21,,45,,61
 mechdef_fenris_ice_ferret-C,12,,12,,12,,12
 mechdef_fenris_ice_ferret-A,37,,37,,37,,37
 mechdef_dragonfly_viper-C,24,,24,,24,,24
 mechdef_stag_ST-14G,0,3052-06-01T00:00:00Z,1,,1,,1
+mechdef_phantom-A,0,3052-01-01T00:00:00Z,15,,36,,49
 mechdef_black_hawk_nova-D,12,,12,,12,,12
 mechdef_dragonfly_viper-PRIME,61,,61,,61,,61
 mechdef_fenris_ice_ferret-B,37,,37,,37,,37
@@ -68,6 +71,8 @@ mechdef_fenris_ice_ferret-E,0,,0,3056-01-01T00:00:00Z,3,,5
 mechdef_black_hawk_nova-C,12,,12,,12,,12
 mechdef_black_hawk_nova-B,24,,24,,24,,24
 mechdef_dragonfly_viper-E,0,,0,3054-01-01T00:00:00Z,3,,5
+mechdef_phantom-D,0,3052-01-01T00:00:00Z,9,,21,,28
+mechdef_phantom-C,0,3052-01-01T00:00:00Z,9,,21,,28
 mechdef_griffin_IIC,12,,12,,12,Jump:3058-01-01T00:00:00Z,24
 mechdef_wyvern_IIC,12,,12,,12,Jump:3058-01-01T00:00:00Z,24
 mechdef_fenris_ice_ferret-D,24,,24,,24,,24

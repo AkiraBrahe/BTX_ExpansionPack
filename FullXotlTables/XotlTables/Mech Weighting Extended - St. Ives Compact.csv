@@ -75,6 +75,7 @@ mechdef_lineholder_KW1-LH2,0,,0,,0,3058-01-01T00:00:00Z,5
 mechdef_blackjack_BJ2-OA,0,,0,,0,3057-01-01T00:00:00Z,14
 mechdef_blackjack_BJ2-OD,0,,0,,0,3057-01-01T00:00:00Z,14
 mechdef_chameleon_CLN-7Z,0,,0,,0,3058-01-01T00:00:00Z,7
+mechdef_firestarter_FS9-OR,0,,0,,0,3059-01-01T00:00:00Z,1
 Heavies,,,,,,,
 mechdef_jagermech_JM6-S,42,,39,,38,,36
 mechdef_champion_CHP-2N,21,,20,,19,,18
@@ -117,6 +118,7 @@ mechdef_gallowglas_GAL-1GLS,0,,0,3055-01-01T00:00:00Z,4,,7
 mechdef_blackhawk-ku_BHKU-O,0,,0,3055-01-01T00:00:00Z,4,,7
 mechdef_wardog_WR-DG-02FC,0,,0,3052-01-01T00:00:00Z,7,,10
 mechdef_gallowglas_GAL-2GLS,0,,0,3055-01-01T00:00:00Z,4,,7
+mechdef_blackhawk-ku_BHKU-OR,0,,0,,0,3059-01-01T00:00:00Z,1
 Assaults,,,,,,,
 mechdef_cyclops_CP-10-HQ,5,,5,,4,,4
 mechdef_victor_VTR-9A,10,,9,,9,,9

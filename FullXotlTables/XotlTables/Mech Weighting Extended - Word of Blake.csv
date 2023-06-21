@@ -99,6 +99,7 @@ mechdef_grimreaper_GRM-R-PR29,0,,0,,0,3058-04-01T00:00:00Z,13
 mechdef_wraith_TR2,0,,0,,0,3057-01-01T00:00:00Z,13
 mechdef_griffin_GRF-3M,0,,0,3052-06-01T00:00:00Z,10,,24
 mechdef_chameleon_CLN-7Z,0,,0,,0,3058-01-01T00:00:00Z,9
+mechdef_firestarter_FS9-OR,0,,0,,0,3059-01-01T00:00:00Z,1
 mechdef_griffin_GRF-4N,114,,114,,63,,67
 Heavies,,,,,,,
 mechdef_championlam_CPN-1X1,3,,3,,3,,3
@@ -204,6 +205,7 @@ mechdef_atlas_AS7-D-DC,0,,9,,5,,5
 mechdef_awesome_AWS-9Q,0,,0,,0,3057-01-01T00:00:00Z,42
 mechdef_atlas_AS7-D,3,,3,,2,,5
 mechdef_kingcrab_KGC-000,10,,10,,6,,12
+mechdef_albatross_ALB-4U,0,,0,,0,3063-01-01T00:00:00Z,3
 mechdef_crockett_CRK-5003-1,36,,36,,20,,22
 mechdef_rampage_RMP-5G,7,,7,,5,,5
 mechdef_cerberus_MR-V2,0,,0,3054-01-01T00:00:00Z,5,,18

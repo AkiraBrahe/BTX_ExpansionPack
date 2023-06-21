@@ -37,6 +37,8 @@ mechdef_eagle_EGL-2M,0,,0,,0,,0,3058-01-01T00:00:00Z,27
 mechdef_raven_RVN-4X,0,3031-01-01T00:00:00Z,16,,46,,79,,84
 mechdef_javelin_JVN-10F,10,,10,,10,,4,,0
 mechdef_jackal_JA-KL-1532,0,,0,,0,3052-01-01T00:00:00Z,63,,92
+mechdef_anubis_ABS-3L,0,,0,,0,,0,3063-01-01T00:00:00Z,68
+mechdef_anubis_ABS-3R,0,,0,,0,,0,3064-01-01T00:00:00Z,15
 mechdef_falconhawk_FNHK-9K1A,0,,0,,0,,0,3057-01-01T00:00:00Z,22
 Mediums,,,,,,,,,
 mechdef_vulcan_VL-2T,0,,0,,0,,4,,0
@@ -77,6 +79,7 @@ mechdef_wraith_TR1,0,,0,,0,3055-01-01T00:00:00Z,21,,27
 mechdef_phoenixhawk_PXH-3M,0,,0,,0,3050-01-01T00:00:00Z,30,,34
 mechdef_cronus_CNS-3M,0,3031-01-01T00:00:00Z,10,,16,,12,,8
 mechdef_trebuchet_TBT-7M,0,,0,,0,3050-01-01T00:00:00Z,43,,34
+mechdef_shayu_SYU-2B,0,,0,,0,,0,3063-01-01T00:00:00Z,28
 mechdef_shadowhawk_SHD-5M,0,,0,,0,3050-01-01T00:00:00Z,43,,34
 mechdef_menshen_MS1-OC,0,,0,,0,,0,3060-01-01T00:00:00Z,14
 mechdef_menshen_MS1-OB,0,,0,,0,,0,3060-01-01T00:00:00Z,14
