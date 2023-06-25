@@ -40,7 +40,7 @@
   "PunchesWithLeftArm": false,
   "MeleeDamage": 115,
   "MeleeInstability": 95,
-  "MeleeToHitModifier": -1,
+  "MeleeToHitModifier": 0,
   "DFADamage": 120,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 120,

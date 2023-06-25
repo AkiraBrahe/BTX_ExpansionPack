@@ -12,8 +12,7 @@
       "unit_hot",
       "unit_indirectFire",
       "unit_release",
-      "unit_clan",
-      "unit_LosTech"
+      "unit_clan"
     ],
     "tagSetSourceFile": ""
   },

@@ -89,7 +89,7 @@ mechdef_phoenixhawk_PXH-3K,0,,0,3050-01-01T00:00:00Z,4,,8
 mechdef_starslayer_STY-3C,0,,0,3056-01-01T00:00:00Z,4,,8
 mechdef_chameleon_CLN-7Z,0,,0,,0,3058-01-01T00:00:00Z,4
 mechdef_komodo_KIM-2,0,,0,3053-01-01T00:00:00Z,8,,12
-mechdef_firestarter_FS9-OR,0,,0,,0,3059-01-01T00:00:00Z,2
+mechdef_firestarter_FS9-OR,0,,0,,0,3059-01-01T00:00:00Z,4
 Heavies,,,,,,,
 mechdef_hatchetman_HCT-5S,0,3049-01-01T00:00:00Z,4,,10,,17
 mechdef_champion_CHP-2N,5,,4,,3,,4
@@ -139,7 +139,7 @@ mechdef_blackhawk-ku_BHKU-O,0,,0,3055-01-01T00:00:00Z,4,,9
 mechdef_marauder_MAD-5S,0,,0,3051-01-01T00:00:00Z,14,,17
 mechdef_dragonfire_DGR-3F,0,,0,,0,3058-01-01T00:00:00Z,7
 mechdef_dragonfire_DGR-4F,0,,0,,0,3059-01-01T00:00:00Z,7
-mechdef_blackhawk-ku_BHKU-OR,0,,0,,0,3059-01-01T00:00:00Z,1
+mechdef_blackhawk-ku_BHKU-OR,0,,0,,0,3059-01-01T00:00:00Z,2
 Assaults,,,,,,,
 mechdef_cyclops_CP-10-HQ,9,,7,,6,,6
 mechdef_cyclops_CP-10-Z,54,,48,,38,,38

@@ -1,5 +1,4 @@
 {
-  "ChassisID": "chassisdef_phantom-B",
   "MechTags": {
     "items": [
       "unit_mech",
@@ -15,6 +14,7 @@
     ],
     "tagSetSourceFile": ""
   },
+  "ChassisID": "chassisdef_phantom-B",
   "Description": {
     "Cost": 11060000,
     "Rarity": 4,

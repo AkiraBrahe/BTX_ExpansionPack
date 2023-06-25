@@ -1,5 +1,4 @@
 {
-  "ChassisID": "chassisdef_iron_cheetah-D",
   "MechTags": {
     "items": [
       "unit_mech",
@@ -15,6 +14,7 @@
     ],
     "tagSetSourceFile": ""
   },
+  "ChassisID": "chassisdef_iron_cheetah-D",
   "Description": {
     "Cost": 37470000,
     "Rarity": 4,

@@ -7,15 +7,17 @@
       "chassis_TSM",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_stealth",
+      "chassis_composite",
       "chassis_reactive",
-      "chassis_clan",
+      "chassis_stealth",
+      "QuadMech",
       "LandAirMech",
 
     /* CASE */
       "mech_case_centre",
       "mech_case_left",
       "mech_case_right",
+      "chassis_clan",
     
     /* Engine Quirks */
       "mech_quirk_largeengine",

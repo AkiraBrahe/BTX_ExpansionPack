@@ -17,14 +17,14 @@ The new 'Mechs are fielded by the factions that should have them according to th
 
 ## Mod Progress
 
-The mod currently includes 39 new BattleMechs and 119 new 'Mech variants. Once completed, the mod will feature at least 8 more BattleMechs that will be added in a future update.
+The mod currently includes 42 new BattleMechs and 126 new 'Mech variants. Once completed, the mod will feature at least 5 more BattleMechs that will be added in a future update.
 
 | Pack #1             | Pack #2          | Pack #3                 |
 | :------------------ | :--------------- | :---------------------- |
 | Bellerophon         | Arctic Wolf      | Albatross               |
 | Bombard             | Assassin II      | Anubis                  |
 | Buccaneer           | Battle Hawk      | ????????                |
-| Dragoon             | Blitzkrieg       | ????? ?????             |
+| Dragoon             | Blitzkrieg       | Black Heart             |
 | Fox                 | Champion LAM     | ???? ??????             |
 | Hellfire            | Cossack          | ?????                   |
 | Jackrabbit          | Hammer           | Iron Cheetah            |
@@ -34,8 +34,8 @@ The mod currently includes 39 new BattleMechs and 119 new 'Mech variants. Once c
 | Pulverizer          | Matar            | Phantom                 |
 | Rampage             | Naga             | Prometheus              |
 | Schwerer Gustav     | Nightsky         | Sha Yu                  |
-| Screamer LAM        | Phoenix Hawk IIC | ???????                 |
-| Stag / Stag II      | Rattlesnake      | ??????                  |
+| Screamer LAM        | Phoenix Hawk IIC | Templar                 |
+| Stag / Stag II      | Rattlesnake      | Zeus-X                  |
 | Thanatos            | Warthog          |                         |
 | Titan               |                  |                         |
 
@@ -182,10 +182,10 @@ The mod currently includes 39 new BattleMechs and 119 new 'Mech variants. Once c
 | :---------- | :------------ | :-------------------- | :-------------------- | :------------------------- |
 | Rotary AC/2 | Bombast Laser | Bomb Bay²             | Heavy Flamer          | Bloodhound Active Probe    |
 | Rotary AC/5 | Plasma Rifle  | Inferno-IV Missile    | Heavy Machine Gun     | Direct Neural Interface    |
-|             |               | Swarm LRMs (Archer C) | Katana (Hatamoto-Chi) | Hybrid Standard/Endo Steel |
+|             |               | Swarm LRMs            | Katana (Hatamoto-Chi) | Hybrid Standard/Endo Steel |
 |             |               | Thunderbolt 5         | Spikes (Bombard)      | Laser Anti-Missile System  |
 |             |               | Thunderbolt 10        | Vibroblade (Assassin) | Light Active Probe         |
-|             |               | Thunderbolt 15        |                       | Stealth Armor              |
-|             |               | Thunderbolt 20        |                       |                            |
+|             |               | Thunderbolt 15        |                       | Reactive Armor             |
+|             |               | Thunderbolt 20        |                       | Stealth Armor              |
 
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs

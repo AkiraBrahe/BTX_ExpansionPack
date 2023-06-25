@@ -9,14 +9,15 @@
       "unit_range_medium",
       "unit_armor_high",
       "unit_speed_high",
-      "unit_release"
+      "unit_release",
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_bellerophon_BEL-2X",
   "Description": {
     "Cost": 5320000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,

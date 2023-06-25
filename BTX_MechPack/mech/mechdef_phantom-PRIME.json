@@ -1,5 +1,4 @@
 {
-  "ChassisID": "chassisdef_phantom-PRIME",
   "MechTags": {
     "items": [
       "unit_mech",
@@ -16,6 +15,7 @@
     ],
     "tagSetSourceFile": ""
   },
+  "ChassisID": "chassisdef_phantom-PRIME",
   "Description": {
     "Cost": 11200000,
     "Rarity": 4,

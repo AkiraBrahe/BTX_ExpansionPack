@@ -19,7 +19,7 @@
   "Description": {
     "Cost": 6780000,
     "Rarity": 4,
-    "Purchasable": false,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Marauder C",

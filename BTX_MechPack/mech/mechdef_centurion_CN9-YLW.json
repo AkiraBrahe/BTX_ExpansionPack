@@ -15,8 +15,8 @@
   "ChassisID": "chassisdef_centurion_CN9-YLW",
   "Description": {
     "Cost": 3450000,
-    "Rarity": 3,
-    "Purchasable": false,
+    "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Centurion CN9-YLW",

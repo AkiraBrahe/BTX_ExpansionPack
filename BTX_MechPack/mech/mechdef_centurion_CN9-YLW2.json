@@ -17,7 +17,7 @@
   "Description": {
     "Cost": 7670000,
     "Rarity": 4,
-    "Purchasable": false,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Centurion CN9-YLW2",

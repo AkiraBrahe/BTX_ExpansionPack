@@ -2,7 +2,7 @@
   "Description": {
     "Cost": 21560000,
     "Rarity": 4,
-    "Purchasable": false,
+    "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "BattleMaster",
