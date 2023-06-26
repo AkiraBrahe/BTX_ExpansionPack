@@ -1,0 +1,83 @@
+{
+  "Category": "AntiPersonnel",
+  "Type": "MachineGun",
+  "WeaponSubType": "MachineGun",
+  "MinRange": 0,
+  "MaxRange": 135,
+  "RangeSplit": [
+    135,
+    135,
+    135
+  ],
+  "AmmoCategory": "MG",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 0,
+  "Damage": 2,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1.5,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 5,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 0,
+  "Instability": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+  "Description": {
+    "Cost": 10000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Clans",
+    "Model": "Machine Gun",
+    "UIName": "Clan Light MG",
+    "Id": "Weapon_MachineGun_CLightMachineGun_0-STOCK",
+    "Name": "Clan Light MG",
+    "Details": "Light Machine Guns deal less damage but have a greater range and accuracy than the standard version. They still have a greatly increased chance to cause Criticals when they impact a target that has been stripped of its armor. Clan Light Machine Guns are lighter weight than their Inner Sphere counterparts.",
+    "Icon": "uixSvgIcon_weapon_Support"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "MachineGun",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.25,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_clan",
+      "component_type_lostech",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Modes": [
+    {
+      "Id": "MG_Full",
+      "UIName": "x5",
+      "Name": "Full Salvo",
+      "Description": "Fires the Light MG at standard speed.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "MG_Double",
+      "UIName": "x10",
+      "Name": "Double Salvo",
+      "Description": "Fires the Light MG at twice the speed, reducing accuracy and increasing heat.",
+      "isBaseMode": false,
+      "AccuracyModifier": 4.0,
+      "ShotsWhenFired": 5,
+      "HeatGenerated": 5
+    }
+  ]
+}

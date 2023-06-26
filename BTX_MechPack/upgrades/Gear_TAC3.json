@@ -2,7 +2,7 @@
   "Description": {
     "Cost": 300000,
     "Rarity": 4,
-    "Purchasable": false,
+    "Purchasable": true,
     "Manufacturer": "Garret",
     "Model": "",
     "UIName": "Targ. Computer Mk.3",
@@ -46,7 +46,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-CTAC-ToHitBallistic",
+        "Id": "StatusEffect-TAC-ToHitBallistic",
         "Name": "TARGETING COMPUTER",
         "Details": "Ballistic weapon attacks have their hit improved by [AMT].",
         "Icon": "uixSvgIcon_equipment_TTS"
@@ -97,7 +97,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-CTAC-ToHitEnergy",
+        "Id": "StatusEffect-TAC-ToHitEnergy",
         "Name": "TARGETING COMPUTER",
         "Details": "Energy weapon attacks have their hit improved by [AMT].",
         "Icon": "uixSvgIcon_equipment_TTS"
@@ -137,7 +137,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-CTAC-CalledShotBonus5",
+        "Id": "StatusEffect-TAC-CalledShotBonus5",
         "Name": "TARGETING COMPUTER",
         "Details": "Called Shots executed by this unit are more reliable.",
         "Icon": "UixSvgIcon_specialEquip_System"

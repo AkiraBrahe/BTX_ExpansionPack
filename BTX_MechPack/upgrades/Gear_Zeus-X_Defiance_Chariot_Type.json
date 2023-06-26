@@ -1,0 +1,282 @@
+{
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Defiance Industries",
+    "Model": "",
+    "UIName": "Chariot Ultralight Composite Chassis",
+    "Id": "Gear_Zeus-X_Defiance_Chariot_Type",
+    "Name": "Chariot Ultralight Composite Chassis",
+    "Details": "The Chariot Type line of chassis designed by Defiance Industries has hit and run attacks in mind, used amongst mechs such as the Hatchetman and the Zeus, albiet different versions of the same concept. What stands out about the chassis is their ability to aim and compensate for shooting at maximum speeds although accuracy when doing so is extremely compromised. The Ultralight Composite is a lightweight but extremely fragile version of the Chariot Type chassis.",
+    "Icon": "UixSvgIcon_specialEquip_System"
+  },
+  "BonusValueA": "Sprint and Shoot",
+  "BonusValueB": "-50% Structure",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "InventorySize": 2,
+  "Tonnage": 0,
+  "AllowedLocations": "CenterTorso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true,
+        "hideApplicationFloatie": false
+      },
+      "Description": {
+        "Id": "StatusEffect-CHARIOT-ShootandSprint",
+        "Name": "CHARIOT TYPE CHASSIS",
+        "Details": "This unit is able to shoot after sprinting.",
+        "Icon": "uixSvgIcon_run_n_gun"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "CanShootAfterSprinting",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "Description": {
+        "Id": "StatusEffect-COMPOSITE-InternalStructure",
+        "Name": "COMPOSITE CHASSIS",
+        "Details": "This unit takes twice as much structural damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "Head.Structure",
+        "operation": "Float_Add",
+        "modValue": "-6.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "Description": {
+        "Id": "StatusEffect-COMPOSITE-InternalStructure",
+        "Name": "COMPOSITE CHASSIS",
+        "Details": "This unit takes twice as much structural damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "CenterTorso.Structure",
+        "operation": "Float_Add",
+        "modValue": "-60.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "Description": {
+        "Id": "StatusEffect-COMPOSITE-InternalStructure",
+        "Name": "COMPOSITE CHASSIS",
+        "Details": "This unit takes twice as much structural damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "LeftTorso.Structure",
+        "operation": "Float_Add",
+        "modValue": "-40.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "Description": {
+        "Id": "StatusEffect-COMPOSITE-InternalStructure",
+        "Name": "COMPOSITE CHASSIS",
+        "Details": "This unit takes twice as much structural damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "RightTorso.Structure",
+        "operation": "Float_Add",
+        "modValue": "-40.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "Description": {
+        "Id": "StatusEffect-COMPOSITE-InternalStructure",
+        "Name": "COMPOSITE CHASSIS",
+        "Details": "This unit takes twice as much structural damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "LeftArm.Structure",
+        "operation": "Float_Add",
+        "modValue": "-30.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "Description": {
+        "Id": "StatusEffect-COMPOSITE-InternalStructure",
+        "Name": "COMPOSITE CHASSIS",
+        "Details": "This unit takes twice as much structural damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "RightArm.Structure",
+        "operation": "Float_Add",
+        "modValue": "-30.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "Description": {
+        "Id": "StatusEffect-COMPOSITE-InternalStructure",
+        "Name": "COMPOSITE CHASSIS",
+        "Details": "This unit takes twice as much structural damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "LeftLeg.Structure",
+        "operation": "Float_Add",
+        "modValue": "-40.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "Description": {
+        "Id": "StatusEffect-COMPOSITE-InternalStructure",
+        "Name": "COMPOSITE CHASSIS",
+        "Details": "This unit takes twice as much structural damage.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "RightLeg.Structure",
+        "operation": "Float_Add",
+        "modValue": "-40.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
