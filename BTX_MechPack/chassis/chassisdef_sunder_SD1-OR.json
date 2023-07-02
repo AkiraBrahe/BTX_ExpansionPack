@@ -208,8 +208,8 @@
   "VariantName": "SD1-OR",
   "ChassisTags": {
     "items": [
-      "chassis_DHS",
       "chassis_omni",
+      "chassis_DHS",
       "mech_quirk_extendedtorsotwist"
     ],
     "tagSetSourceFile": ""

@@ -8,7 +8,7 @@
 
     "ConflictsWith": [],
     "DependsOn": [ "BTX_CAC_Compatibility" ],
-    "OptionallyDependsOn": [ "fps_TheBigDealBEXCE" ],
+    "OptionallyDependsOn": [ "The_Big_Deal_Campaign_Add-on" ],
     
     "DataAddendumEntries":[ 
         { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" }
@@ -19,7 +19,8 @@
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
-        { "Type": "ItemCollectionDef", "Path": "itemcollection", "AddToDB": true },
+        { "Type": "ItemCollectionDef", "Path": "itemcollections" },
+        { "Type": "ItemCollectionDef", "Path": "itemcollectionsAppend", "ShouldAppendText": true },
         { "Type": "JumpJetDef", "Path": "jumpjets", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },

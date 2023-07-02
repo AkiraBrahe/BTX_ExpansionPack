@@ -36,7 +36,7 @@
     "Manufacturer": "SCI",
     "Model": "Magnetic Cannon",
     "UIName": "SLDF Rail Gun + +",
-    "Id": "Weapon_Gauss_RailGun_2-BL",
+    "Id": "Weapon_Gauss_RailGun_2-SCI",
     "Name": "SLDF Rail Gun + +",
     "Details": "A Star League era relic using lost technology, the Rail Gun electromagnetically hurls massive metal projectiles. Like Gauss Rifles, Rail Guns do not suffer recoil effects from firing and have a baseline bonus to accuracy.\r\n\r\nRail Guns explode if destroyed, taking the entire mounted location with them.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
@@ -58,8 +58,7 @@
       "component_type_variant",
       "component_type_variant2",
       "component_type_lostech",
-      "range_extreme",
-      "BLACKLISTED"
+      "range_extreme"
     ],
     "tagSetSourceFile": ""
   }

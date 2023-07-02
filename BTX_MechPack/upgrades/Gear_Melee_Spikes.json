@@ -4,9 +4,9 @@
   "AbsoluteModifier": 0,
   "Description": {
     "Cost": 25000,
-    "Rarity": 4,
+    "Rarity": 99,
     "Purchasable": false,
-    "Manufacturer": "Varied",
+    "Manufacturer": "Solaris Arms",
     "Model": "Melee Weapon",
     "UIName": "Spikes",
     "Id": "Gear_Melee_Spikes",
@@ -14,7 +14,7 @@
     "Details": "Spikes that have been reinforced and strengthened to deal close combat damage to enemy units. This experimental melee weapon proved its worth in the Solaris arenas, resulting in the Hatchet's development.",
     "Icon": "uixSvgIcon_equipment_ActuatorLeg"
   },
-  "BonusValueA": "+ 15 Melee Dmg.",
+  "BonusValueA": "<color=#FF0000>Dupe</color>",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",

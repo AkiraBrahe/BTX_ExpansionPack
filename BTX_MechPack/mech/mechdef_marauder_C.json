@@ -15,7 +15,6 @@
   },
   "ChassisID": "chassisdef_marauder_C",
   "prefabOverride": "chrPrfMech_marauder_BlackWidowBase-001",
-  "HeraldryID": null,
   "Description": {
     "Cost": 6780000,
     "Rarity": 4,

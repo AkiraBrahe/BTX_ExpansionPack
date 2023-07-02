@@ -12,7 +12,7 @@
   "AmmoCategory": "MG",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 0,
-  "Damage": 6,
+  "Damage": 5,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -37,7 +37,7 @@
     "UIName": "Clan Heavy MG",
     "Id": "Weapon_MachineGun_CHeavyMachineGun_0-STOCK",
     "Name": "Clan Heavy MG",
-    "Details": "The Heavy Machine Gun deal twice as much damage as a standard Machine Gun and have a higher chance of causing Criticals when hitting an unarmored target, but at the cost of being heavier and having an even more limited range.",
+    "Details": "The Heavy Machine Gun deal almost twice as much damage as a standard Machine Gun and have a higher chance of causing Criticals when hitting an unarmored target, but at the cost of being heavier and having an even more limited range.",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "BonusValueA": "",

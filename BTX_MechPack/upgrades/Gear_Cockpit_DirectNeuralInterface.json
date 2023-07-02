@@ -199,7 +199,6 @@
     "items": [
       "BUILT-IN",
       "BLACKLISTED",
-      "LootMagnetBlacklist",
       "cae_ai_offence",
       "cae_ai_defence"
     ],

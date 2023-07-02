@@ -233,24 +233,6 @@
   "YangsThoughts": "",
   "FixedEquipment": [
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_LAM_Systems",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy_Idle",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy",
       "ComponentDefType": "JumpJet",
@@ -261,6 +243,24 @@
     },
     {
       "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy_Idle",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_LAM_Systems",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy_Idle",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,

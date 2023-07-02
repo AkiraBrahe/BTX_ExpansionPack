@@ -170,7 +170,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Gauss_RailGun_2-BL",
+      "ComponentDefID": "Weapon_Gauss_RailGun_2-SCI",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

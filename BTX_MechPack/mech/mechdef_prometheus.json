@@ -16,7 +16,6 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_prometheus",
-  "HeraldryID": null,
   "Description": {
     "Cost": 20060000,
     "Rarity": 5,

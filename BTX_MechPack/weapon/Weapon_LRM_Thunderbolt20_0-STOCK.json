@@ -60,28 +60,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "Modes": [
-    {
-      "Id": "LRM_StdLoad",
-      "UIName": "STD",
-      "Name": "Standard",
-      "Description": "Fired missiles arm after they leave the launcher.",
-      "isBaseMode": true
-    },
-    {
-      "Id": "LRM_HotLoad",
-      "UIName": "HL",
-      "Name": "Hot Load",
-      "Description": "Missiles are armed pre-launch inside the launcher, removing the minimum range but giving them a chance to jam.",
-      "isBaseMode": false,
-      "DamageOnJamming": true,
-      "AccuracyModifier": 1.0,
-      "FlatJammingChance": 0.5,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 0,
-      "MinRange": -180.0
-    }
-  ],
+  "Modes": [],
   "ImprovedBallistic": true,
   "MissileVolleySize": 1,
   "ProjectileSpeedMultiplier": 1.2,

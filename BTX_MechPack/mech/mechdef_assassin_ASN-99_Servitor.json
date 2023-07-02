@@ -140,7 +140,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_SRM_DFSRM2_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_SRM2_2-Holly",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -188,7 +188,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_SRM_DFSRM2_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_SRM2_2-Holly",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

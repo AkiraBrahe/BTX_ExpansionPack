@@ -286,7 +286,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_Melee_Spikes",
+      "ComponentDefID": "Gear_Actuator_Spikes",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -294,7 +294,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_Melee_Spikes",
+      "ComponentDefID": "Gear_Actuator_Spikes",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

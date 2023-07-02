@@ -41,7 +41,7 @@
       "Description": {
         "Id": "StatusEffect-Large_Shield_DmgReduction",
         "Name": "LARGE SHIELD",
-        "Details": "Reduces damage taken by 20% (+20% Dmg. Reduction).",
+        "Details": "Reduces damage taken by 20%.",
         "Icon": "uixSvgIcon_ability_fortify"
       },
       "nature": "Buff",
@@ -107,7 +107,8 @@
   ],
   "ComponentTags": {
     "items": [
-      "BUILT-IN"
+      "BUILT-IN",
+      "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
   }
