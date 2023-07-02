@@ -1,0 +1,91 @@
+{
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM15",
+  "MinRange": 270,
+  "MaxRange": 945,
+  "RangeSplit": [
+    630,
+    630,
+    945
+  ],
+  "AmmoCategory": "LRM",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 24,
+  "Damage": 5,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": true,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 15,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 3,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM15",
+  "Description": {
+    "Cost": 440000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Coventry",
+    "Model": "Long-Range Missile Launcher",
+    "UIName": "Extended LRM15",
+    "Id": "Weapon_LRM_ELRM15_0-STOCK",
+    "Name": "Extended LRM15",
+    "Details": "Extended LRMs (ELRMs) were developed by the Federated Commonwealth to compensate for the incredible range advantage of most Clan weapons. The ELRM pairs a standard LRM to a booster system that gives the missile more fuel, and thus, more range. Offsetting the range advantage is the fact that the minimum range is increased by over 50% and a much heavier, bulkier launcher.",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm15",
+  "BattleValue": 0,
+  "InventorySize": 6,
+  "Tonnage": 12,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ImprovedBallistic": true,
+  "MissileVolleySize": 15,
+  "ProjectileSpeedMultiplier": 1.15,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "HitGenerator": "Cluster",
+  "AMSHitChance": 0.0,
+  "MissileHealth": 2,
+  "Modes": [
+    {
+      "Id": "ELRM_StdLoad",
+      "UIName": "STD",
+      "Name": "Standard",
+      "Description": "Fired missiles arm after they leave the launcher.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "ELRM_HotLoad",
+      "UIName": "HL",
+      "Name": "Hot Load",
+      "Description": "Missiles are armed pre-launch inside the launcher, halving the minimum range but leaving half of the missiles unable to arm.",
+      "isBaseMode": false,
+      "AccuracyModifier": 1.0,
+      "ShotsWhenFired": -2,
+      "MinRange": -135.0
+    }
+  ]
+}

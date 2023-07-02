@@ -1,0 +1,114 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 300000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Defiance",
+    "Model": "Large Shield",
+    "UIName": "Shield",
+    "Id": "Gear_Actuator_BlackKnight_Shield",
+    "Name": "Shield",
+    "Details": "The Shield is a movable armor piece that can be mounted on arm actuators. The shield was first introduced as a way to protect a MechWarrior fighting in Solaris' arenas. Shields are the primary defensive equipment used to protect a 'Mech from weapon and physical attacks.",
+    "Icon": "UixSvgIcon_specialEquip_Melee"
+  },
+  "BonusValueA": "Deflects Dmg.",
+  "BonusValueB": "Lowers Speed",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 7,
+  "Tonnage": 6,
+  "AllowedLocations": "Arms",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Large_Shield_DmgReduction",
+        "Name": "LARGE SHIELD",
+        "Details": "Reduces damage taken by 20% (+20% Dmg. Reduction).",
+        "Icon": "uixSvgIcon_ability_fortify"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": "0.80",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Large_Shield_WalkSpeed",
+        "Name": "LARGE SHIELD",
+        "Details": "Reduces movement speed by 15%.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "0.85",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Large_Shield_RunSpeed",
+        "Name": "LARGE SHIELD",
+        "Details": "Reduces movement speed by 15%.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "0.85",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

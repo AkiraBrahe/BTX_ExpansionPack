@@ -14,7 +14,7 @@
     "Details": "The Heavy Hatchet is a melee weapon equipped to the Buccaneer to apply force multiplication benefits in close combat. The Defience Type 3 model is affixed permanently to the 'Mech's left arm. It may be damaged and disabled, but it can be repaired.",
     "Icon": "UixSvgIcon_specialEquip_Melee"
   },
-  "BonusValueA": "+ 80 Melee Dmg.",
+  "BonusValueA": "+ 85 Melee Dmg.",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -50,7 +50,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "DamagePerShot",
         "operation": "Float_Add",
-        "modValue": "80.0",
+        "modValue": "85.0",
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",

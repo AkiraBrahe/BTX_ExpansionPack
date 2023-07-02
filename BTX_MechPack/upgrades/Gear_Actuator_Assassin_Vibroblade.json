@@ -39,7 +39,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Attack_DamageMelee-T6",
+        "Id": "StatusEffect-Attack_DamageMelee-T4",
         "Name": "MELEE DAMAGE INCREASED",
         "Details": "Melee attacks deal [AMT] more damage.",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"

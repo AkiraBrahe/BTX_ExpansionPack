@@ -3,7 +3,7 @@
   "Capacity": 1,
   "Description": {
     "Cost": 12500,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "Bomb",
@@ -28,7 +28,8 @@
   "statusEffects": [],
   "ComponentTags": {
     "items": [
-      "component_type_stock"
+      "component_type_variant",
+      "component_type_variant1"
     ],
     "tagSetSourceFile": ""
   }

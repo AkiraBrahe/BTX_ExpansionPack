@@ -125,6 +125,62 @@
       "FallbackUIColor": null,
       "Icon": "EnergyHardpointIcon",
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
+    },
+    {
+      "ID": 62,
+      "Name": "Magshot",
+      "FriendlyName": "Magshot",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
+    },
+    {
+      "ID": 63,
+      "Name": "HVAC2",
+      "FriendlyName": "HVAC/2",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC2"
+    },
+    {
+      "ID": 64,
+      "Name": "HVAC5",
+      "FriendlyName": "HVAC/5",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC5"
+    },
+    {
+      "ID": 65,
+      "Name": "HVAC10",
+      "FriendlyName": "HVAC/10",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC10"
     }
   ]
 }

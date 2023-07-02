@@ -2,8 +2,8 @@
   "AmmoID": "Ammunition_LRM_Swarm",
   "Capacity": 120,
   "Description": {
-    "Cost": 60000,
-    "Rarity": 1,
+    "Cost": 40000,
+    "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "LRM",
@@ -28,7 +28,9 @@
   "statusEffects": [],
   "ComponentTags": {
     "items": [
-      "component_type_stock"
+      "component_type_variant",
+      "component_type_variant1",
+      "component_type_lostech"
     ],
     "tagSetSourceFile": ""
   }

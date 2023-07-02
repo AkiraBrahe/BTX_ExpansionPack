@@ -74,7 +74,7 @@
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
+      "nature": "Debuff",
       "statisticData": {
         "effectsPersistAfterDestruction": false,
         "statName": "Head.Structure",
@@ -101,7 +101,7 @@
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
+      "nature": "Debuff",
       "statisticData": {
         "effectsPersistAfterDestruction": false,
         "statName": "CenterTorso.Structure",
@@ -128,7 +128,7 @@
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
+      "nature": "Debuff",
       "statisticData": {
         "effectsPersistAfterDestruction": false,
         "statName": "LeftTorso.Structure",
@@ -155,7 +155,7 @@
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
+      "nature": "Debuff",
       "statisticData": {
         "effectsPersistAfterDestruction": false,
         "statName": "RightTorso.Structure",
@@ -182,7 +182,7 @@
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
+      "nature": "Debuff",
       "statisticData": {
         "effectsPersistAfterDestruction": false,
         "statName": "LeftArm.Structure",
@@ -209,7 +209,7 @@
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
+      "nature": "Debuff",
       "statisticData": {
         "effectsPersistAfterDestruction": false,
         "statName": "RightArm.Structure",
@@ -236,7 +236,7 @@
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
+      "nature": "Debuff",
       "statisticData": {
         "effectsPersistAfterDestruction": false,
         "statName": "LeftLeg.Structure",
@@ -263,7 +263,7 @@
         "Icon": "UixSvgIcon_specialEquip_System"
       },
       "effectType": "StatisticEffect",
-      "nature": "Buff",
+      "nature": "Debuff",
       "statisticData": {
         "effectsPersistAfterDestruction": false,
         "statName": "RightLeg.Structure",

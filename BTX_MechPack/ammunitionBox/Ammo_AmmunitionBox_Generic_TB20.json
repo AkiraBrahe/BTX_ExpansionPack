@@ -3,7 +3,7 @@
   "Capacity": 3,
   "Description": {
     "Cost": 50000,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "Thunderbolt 20",
@@ -27,7 +27,8 @@
   "statusEffects": [],
   "ComponentTags": {
     "items": [
-      "component_type_stock"
+      "component_type_stock",
+      "component_type_lostech"
     ],
     "tagSetSourceFile": ""
   }

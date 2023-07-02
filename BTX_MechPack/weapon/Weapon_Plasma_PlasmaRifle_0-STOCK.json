@@ -62,14 +62,14 @@
   },
   "ImprovedBallistic": true,
   "ProjectileSpeedMultiplier": 0.8,
+  "FireTerrainChance": 0.5,
+  "FireTerrainStrength": 1,
+  "FireOnSuccessHit": false,
   "ColorChangeRule": "t0",
   "ColorsTable": [
     {
       "C": "HotPink",
       "I": 5
     }
-  ],
-  "FireTerrainChance": 0.5,
-  "FireTerrainStrength": 1,
-  "FireOnSuccessHit": false
+  ]
 }

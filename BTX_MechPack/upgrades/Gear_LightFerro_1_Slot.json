@@ -1,0 +1,36 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 12800,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "(Light Ferro-Fibrous Armor)",
+    "UIName": "Light Ferro",
+    "Id": "Gear_LightFerro_1_Slot",
+    "Name": "Light Ferro",
+    "Details": "Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, Ferro-Fibrous Armor provides a 12% increase in protection per ton over standard armor, but takes up more space on the 'Mech or vehicle. Light Ferro-Fibrous armor takes up less space, similar to what the Clans use, but provides less protection.",
+    "Icon": "uixSvgIcon_special_Equipment"
+  },
+  "BonusValueA": "Saves Weight",
+  "BonusValueB": "Takes Spaces",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

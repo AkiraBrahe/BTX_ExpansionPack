@@ -2,8 +2,8 @@
   "AmmoID": "Ammunition_RAC2",
   "Capacity": 45,
   "Description": {
-    "Cost": 15000,
-    "Rarity": 1,
+    "Cost": 30000,
+    "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "RAC/2",
@@ -28,7 +28,8 @@
   "statusEffects": [],
   "ComponentTags": {
     "items": [
-      "component_type_stock"
+      "component_type_stock",
+      "component_type_lostech"
     ],
     "tagSetSourceFile": ""
   }

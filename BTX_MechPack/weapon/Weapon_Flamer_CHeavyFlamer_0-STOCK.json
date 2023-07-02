@@ -32,7 +32,7 @@
   "Description": {
     "Cost": 30000,
     "Rarity": 0,
-    "Purchasable": true,
+    "Purchasable": false,
     "Manufacturer": "Clans",
     "Model": "Heat Damage Flamethrower",
     "UIName": "Clan Heavy Flamer",
@@ -65,13 +65,7 @@
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "specialRules": "NotSet",
         "effectTargetType": "NotSet",
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
         "showInTargetPreview": false,
         "showInStatusPanel": false
       },
@@ -89,13 +83,7 @@
         "operation": "Float_Multiply",
         "modValue": "0.98",
         "modType": "System.Single"
-      },
-      "tagData": null,
-      "floatieData": null,
-      "actorBurningData": null,
-      "vfxData": null,
-      "instantModData": null,
-      "poorlyMaintainedEffectData": null
+      }
     },
     {
       "durationData": {
@@ -109,13 +97,7 @@
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "specialRules": "NotSet",
         "effectTargetType": "NotSet",
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
         "showInTargetPreview": false,
         "showInStatusPanel": false,
         "hideApplicationFloatie": true
@@ -142,6 +124,8 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
+      "component_type_clan",
+      "component_type_lostech",
       "range_close"
     ],
     "tagSetSourceFile": ""

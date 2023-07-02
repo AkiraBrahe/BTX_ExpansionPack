@@ -39,7 +39,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Attack_DamageMelee-T1",
+        "Id": "StatusEffect-Attack_DamageMelee-T4",
         "Name": "MELEE DAMAGE INCREASED",
         "Details": "Melee attacks deal [AMT] more damage.",
         "Icon": "uixSvgIcon_equipment_ActuatorArm"
@@ -51,40 +51,6 @@
         "statName": "DamagePerShot",
         "operation": "Float_Add",
         "modValue": "20.0",
-        "modType": "System.Single",
-        "additionalRules": "NotSet",
-        "targetCollection": "Weapon",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "Melee"
-      }
-    },
-    {
-      "durationData": {
-        "duration": -1,
-        "stackLimit": 1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": false,
-        "showInStatusPanel": true
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "StatusEffect-Attack_ToHitMelee-T1",
-        "Name": "MELEE HIT CHANCE DECREASED",
-        "Details": "Melee attacks attempted have their hit decreased by [AMT].",
-        "Icon": "uixSvgIcon_equipment_Gyro"
-      },
-      "nature": "Buff",
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "AccuracyModifier",
-        "operation": "Float_Add",
-        "modValue": "1.0",
         "modType": "System.Single",
         "additionalRules": "NotSet",
         "targetCollection": "Weapon",

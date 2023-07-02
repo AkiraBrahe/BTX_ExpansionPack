@@ -31,7 +31,7 @@
   "Description": {
     "Cost": 175000,
     "Rarity": 99,
-    "Purchasable": true,
+    "Purchasable": false,
     "Manufacturer": "Clan Sea Fox",
     "Model": "Long-Range Missile Launcher",
     "UIName": "Improved LRM15",
@@ -55,8 +55,8 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
-      "component_type_lostech",
       "component_type_clan",
+      "component_type_lostech",
       "range_extreme",
       "BLACKLISTED"
     ],

@@ -1,0 +1,70 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 750000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Defiance",
+    "Model": "Large Sword",
+    "UIName": "Vibroblade",
+    "Id": "Gear_Actuator_BlackKnight_Vibroblade",
+    "Name": "Vibroblade",
+    "Details": "The Vibroblade is a melee weapon used by the Black Knight that cut through anything in its path when activated. It is affixed permanently to the 'Mech's left arm. It may be damaged and disabled, but it can be repaired.",
+    "Icon": "UixSvgIcon_specialEquip_Melee"
+  },
+  "BonusValueA": "+ 70 Melee Dmg.",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 7,
+  "AllowedLocations": "Arms",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Attack_DamageMelee-T6",
+        "Name": "MELEE DAMAGE INCREASED",
+        "Details": "Melee attacks deal [AMT] more damage.",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamagePerShot",
+        "operation": "Float_Add",
+        "modValue": "70.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "Melee"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

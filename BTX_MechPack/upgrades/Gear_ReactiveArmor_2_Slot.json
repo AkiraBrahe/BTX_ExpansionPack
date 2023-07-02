@@ -39,7 +39,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Reactive_MissileDmgReduction",
+        "Id": "StatusEffect-ReactiveArmor-MissileDmgReduction",
         "Name": "REACTIVE ARMOR",
         "Details": "Decreases the damage taken from explosive weapons like missiles and artillery by [AMT].",
         "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -65,7 +65,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Reactive_AoEDmgReduction",
+        "Id": "StatusEffect-ReactiveArmor-AoEDmgReduction",
         "Name": "REACTIVE ARMOR",
         "Details": "Decreases the damage taken from explosions by [AMT].",
         "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -91,7 +91,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Reactive_APProtection",
+        "Id": "StatusEffect-ReactiveArmor-APProtection",
         "Name": "REACTIVE ARMOR",
         "Details": "Protects against all types of armor-piercing damage where the armor is present.",
         "Icon": "uixSvgIcon_status_ECM-missileDef"

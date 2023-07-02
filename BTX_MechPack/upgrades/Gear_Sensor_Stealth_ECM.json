@@ -61,11 +61,7 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
             "effectTargetType": "AlliesWithinRange",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
             "showInTargetPreview": false,
             "showInStatusPanel": false
           },
@@ -76,13 +72,13 @@
             "Details": "",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "IndirectImmuneFloat",
             "operation": "Float_Add",
             "modValue": "1.0",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         },
         {
           "durationData": {
@@ -91,11 +87,7 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
             "effectTargetType": "AlliesWithinRange",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
             "showInTargetPreview": true,
             "showInStatusPanel": true
           },
@@ -106,13 +98,13 @@
             "Details": "Friendly units within an ECM field gain +4 Difficulty to attacks against them and immunity to Indirect Fire and Sensor Locks.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "DefendedByECM",
             "operation": "Float_Add",
             "modValue": "1.0",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         },
         {
           "durationData": {
@@ -121,11 +113,7 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
             "effectTargetType": "AlliesWithinRange",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
             "showInTargetPreview": false,
             "showInStatusPanel": false
           },
@@ -136,13 +124,13 @@
             "Details": "sens",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "SensorLockDefense",
             "operation": "Float_Add",
             "modValue": "1.0",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         }
       ]
     }
@@ -151,22 +139,11 @@
     {
       "durationData": {
         "duration": -1,
-        "ticksOnActivations": false,
-        "useActivationsOfTarget": false,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "stackLimit": -1,
-        "clearedWhenAttacked": false
+        "stackLimit": -1
       },
       "targetingData": {
         "effectTriggerType": "Passive",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "specialRules": "NotSet",
         "effectTargetType": "Creator",
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
         "showInTargetPreview": false,
         "showInStatusPanel": true
       },
@@ -184,20 +161,8 @@
         "statName": "SensorSignatureModifier",
         "operation": "Float_Multiply",
         "modValue": "-0.2",
-        "modType": "System.Single",
-        "additionalRules": "NotSet",
-        "targetCollection": "NotSet",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "NotSet"
-      },
-      "tagData": null,
-      "floatieData": null,
-      "actorBurningData": null,
-      "vfxData": null,
-      "instantModData": null,
-      "poorlyMaintainedEffectData": null
+        "modType": "System.Single"
+      }
     }
   ],
   "ComponentTags": {
@@ -227,11 +192,7 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
             "effectTargetType": "Creator",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
             "showInTargetPreview": true,
             "showInStatusPanel": true
           },
@@ -242,13 +203,13 @@
             "Details": "Units with active Stealth Armor gain +[AMT] Difficulty to attacks against them, immunity to Sensor Locks, halved detectability, but at the cost of 10 heat per round.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "ToHitThisActor",
             "operation": "Float_Add",
             "modValue": "2.0",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         },
         {
           "durationData": {
@@ -257,11 +218,7 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
             "effectTargetType": "Creator",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
             "showInTargetPreview": false,
             "showInStatusPanel": false
           },
@@ -272,13 +229,13 @@
             "Details": "sens",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "SensorLockDefense",
             "operation": "Float_Add",
             "modValue": "10.0",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         },
         {
           "durationData": {
@@ -287,11 +244,7 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
             "effectTargetType": "Creator",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
             "showInTargetPreview": false,
             "showInStatusPanel": false
           },
@@ -302,13 +255,13 @@
             "Details": "sens",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "SensorSignatureModifier",
             "operation": "Float_Multiply",
             "modValue": "-0.5",
             "modType": "System.Single"
-          },
-          "nature": "Buff"
+          }
         },
         {
           "durationData": {
@@ -317,11 +270,7 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
             "effectTargetType": "Creator",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": false,
             "showInTargetPreview": false,
             "showInStatusPanel": false
           },
@@ -332,13 +281,13 @@
             "Details": "sens",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "HeatSinkCapacity",
             "operation": "Int_Add",
             "modValue": "-10",
             "modType": "System.Int32"
-          },
-          "nature": "Buff"
+          }
         },
         {
           "durationData": {
@@ -347,9 +296,7 @@
           },
           "targetingData": {
             "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
             "effectTargetType": "Creator",
-            "range": 0.0,
             "forcePathRebuild": true,
             "forceVisRebuild": true,
             "showInTargetPreview": false,
@@ -362,13 +309,13 @@
             "Details": "sens",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
+          "nature": "Buff",
           "statisticData": {
             "statName": "GhostEffectStacks",
             "operation": "Int_Add",
             "modValue": "1",
             "modType": "System.Int32"
-          },
-          "nature": "Buff"
+          }
         }
       ]
     }

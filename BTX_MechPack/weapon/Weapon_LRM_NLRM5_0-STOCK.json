@@ -1,0 +1,93 @@
+{
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM5",
+  "MinRange": 90,
+  "MaxRange": 630,
+  "RangeSplit": [
+    420,
+    420,
+    630
+  ],
+  "AmmoCategory": "LRM",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 6,
+  "Damage": 4,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": true,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 5,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 2,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+  "Description": {
+    "Cost": 120000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Irian",
+    "Model": "Long-Range Missile Launcher",
+    "UIName": "Enhanced LRM5",
+    "Id": "Weapon_LRM_NLRM5_0-STOCK",
+    "Name": "Enhanced LRM5",
+    "Details": "Enhanced LRMs (NLRMs) were developed by the Federated Commonwealth in response to the superior performance of Clan weaponry. They reduce the minimum range required by standard LRMs by 50%, making them more effective at close range, and allowing \"Missile Boat\" BattleMechs to stay in the fight longer than was previously possible.",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm5",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 3,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ImprovedBallistic": true,
+  "MissileVolleySize": 5,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "HitGenerator": "Cluster",
+  "AMSHitChance": 0.0,
+  "MissileHealth": 2,
+  "Modes": [
+    {
+      "Id": "NLRM_StdLoad",
+      "UIName": "STD",
+      "Name": "Standard",
+      "Description": "Fired missiles arm after they leave the launcher.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "NLRM_HotLoad",
+      "UIName": "HL",
+      "Name": "Hot Load",
+      "Description": "Missiles are armed pre-launch inside the launcher, removing the minimum range but giving them a low chance to jam.",
+      "isBaseMode": false,
+      "DamageOnJamming": true,
+      "AccuracyModifier": 1.0,
+      "FlatJammingChance": 0.15,
+      "GunneryJammingMult": 0.01,
+      "GunneryJammingBase": 0,
+      "MinRange": -90.0
+    }
+  ]
+}
