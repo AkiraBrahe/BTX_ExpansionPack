@@ -1,0 +1,149 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_light",
+      "unit_role_brawler",
+      "unit_role_flanker",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_hot",
+      "unit_release",
+      "unit_LosTech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_mantis_MTS-S",
+  "Description": {
+    "Cost": 5830000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Mantis MTS-S",
+    "Id": "mechdef_mantis_MTS-S",
+    "Name": "Mantis",
+    "Details": "<color=#F79B26>The Mantis, a Solaris VII BattleMech, uses high speed, boosted further by MASC, and powerful lasers to slice off enemy armor. Once in grappling range, the Mantis can literally tear an enemy apart with its experimental claw systems.</color>\n\nThe main weapon of the MTS-S are its two tungsten-reinforced composite Claws. These are backed up by three ER Medium Lasers and two ER Small Lasers mounted in the torso. allowing the 'Mech to use its claws freely.",
+    "Icon": "uixTxrIcon_mantis"
+  },
+  "simGameMechPartCost": 580000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": 15,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": 15
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 55,
+      "CurrentRearArmor": 15,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 55,
+      "AssignedRearArmor": 15
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": 15,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": 15
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 60,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 60,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 60,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 60,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_SmallLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_SmallLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

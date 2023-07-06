@@ -3,6 +3,7 @@
     "chassisdef_annihilator_C",
     "chassisdef_blackhawk-ku_BHKU-OR",
     "chassisdef_blackknight_BL-9-KNT",
+    "chassisdef_blackknight_BL-X-KNT",
     "chassisdef_catapult_CPLT-K2K",
     "chassisdef_centurion_CN9-D5",
     "chassisdef_cerberus_MR-5M",
@@ -30,7 +31,8 @@
     "chassisdef_thanatos_TNS-4T",
     "chassisdef_thunderhawk_TDK-7KMA",
     "chassisdef_toyama_TYM-1A",
-    "chassisdef_warhammer_WHM-6Rb"
+    "chassisdef_warhammer_WHM-6Rb",
+    "chassisdef_zeus-x_ZEU-X"
   ],
   "Instructions": [
     {

@@ -169,6 +169,10 @@
       "overrideName": "Griffin"
     },
     {
+      "prefabId": " chrprfmech_cugulonbase-001-25",
+      "overrideName": "Gulon"
+    },
+    {
       "prefabId": "chrprfmech_battleaxebase-001_75",
       "overrideName": "Hammerhands"
     },
@@ -195,6 +199,10 @@
     {
       "prefabId": "chrprfmech_mackiebase-001_100",
       "overrideName": "Mackie"
+    },
+    {
+      "prefabId": "chrprfmech_mantisbase-001-30",
+      "overrideName": "Mantis"
     },
     {
       "prefabId": "chrPrfMech_marauderBase-001_75",
@@ -1704,6 +1712,7 @@
     {
       "chassisNames": [
         "chrPrfMech_grasshopperBase-001_30",
+        "chrPrfMech_kintaroBase-001_35",
         "chrPrfMech_pantherBase-001_35",
         "chrPrfMech_spiderBase-001_30",
         "chrPrfMech_spiderBase-001_35"
@@ -3834,6 +3843,7 @@
     },
     {
       "chassisNames": [
+        "chrprfmech_gspiderbase-001_60",
         "chrPrfMech_thunderboltBase-001_65"
       ],
       "affinityLevels": [
@@ -4147,6 +4157,7 @@
     },
     {
       "chassisNames": [
+        "chrprfmech_cugulonbase-001-25",
         "chrprfmech_urbiebase-001_30",
         "chrPrfMech_urbanmechBase-001_30",
         "chrprfmech_urbanmech50base-001_30"
@@ -6032,7 +6043,8 @@
         "chrprfmech_fireballbase-001_20",
         "chrprfmech_firebeebase-001_35",
         "chrPrfMech_firestarterBase-001_35",
-        "chrPrfMech_firestarterBacker-VNGRD_35"
+        "chrPrfMech_firestarterBacker-VNGRD_35",
+        "chrprfmech_mantisbase-001-30"
       ],
       "affinityLevels": [
         {
@@ -6657,8 +6669,9 @@
     {
       "chassisNames": [
         "chrprfmech_vossieostscoutbase-001_35",
+        "chrprfmech_owensbase-001_35",
         "chrprfmech_mistlynxbase-001_25",
-        "chrprfmech_owensbase-001_35"
+        "chrprfmech_ionraptor2base-001_25"
       ],
       "affinityLevels": [
         {
@@ -8289,6 +8302,7 @@
     },
     {
       "chassisNames": [
+        "chrprfmech_brigandbase-001_55",
         "chrPrfMech_griffinBase-001_55",
         "chrPrfMech_griffinBacker-VALHA_55",
         "chrPrfMech_kintaroBase-001_55",
@@ -10417,13 +10431,13 @@
     },
     {
       "chassisNames": [
+        "chrprfmech_battleaxebase-001_70",
         "chrPrfMech_catapultBase-001_65",
         "chrPrfMech_jagermechBase-001_65",
         "chrPrfMech_jagermechBase-001_70",
         "chrprfmech_linebackerbase-001_65",
         "chrprfmech_maddogbase-001_60",
-        "chrPrfMech_novacatbase-001_70",
-        "chrprfmech_battleaxebase-001_70"
+        "chrPrfMech_novacatbase-001_70"
       ],
       "affinityLevels": [
         {
@@ -10957,7 +10971,7 @@
     },
     {
       "chassisNames": [
-        "chrprfmech_barghest-001_70"
+        "chrprfmech_barghest_70"
       ],
       "affinityLevels": [
         {
@@ -11738,6 +11752,7 @@
     },
     {
       "chassisNames": [
+        "chrprfmech_masondevbase-001_80",
         "chrprfmech_ionlongbowbase-001_85",
         "chrprfmech_salamanderbase-001_80"
       ],
@@ -12211,6 +12226,7 @@
     },
     {
       "chassisNames": [
+        "chrprfmech_blackheartbase-001_70",
         "chrprfmech_cudragoonbase-001_70",
         "chrprfmech_riflemaniicbase-001_65"
       ],
@@ -13218,6 +13234,7 @@
     {
       "chassisNames": [
         "chrprfmech_lancelotbase-001_60",
+        "chrprfmech_lupusbase-001_60",
         "chrprfmech_novabase-001_60",
         "chrprfmech_supernovabase-001_75",
         "chrprfmech_hectorbase-001_70"

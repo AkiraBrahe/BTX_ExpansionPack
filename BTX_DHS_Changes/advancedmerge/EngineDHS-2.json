@@ -1,7 +1,16 @@
 {
   "TargetIDs": [
     "chassisdef_annihilator_C-2",
-    "chassisdef_blackjack_BJ2-OR"
+    "chassisdef_blackjack_BJ2-OR",
+    "chassisdef_dasher_fire_moth-E",
+    "chassisdef_fire_falcon-A",
+    "chassisdef_fire_falcon-B",
+    "chassisdef_fire_falcon-C",
+    "chassisdef_fire_falcon-D",
+    "chassisdef_fire_falcon-PRIME",
+    "chassisdef_peregrine_horned_owl-1",
+    "chassisdef_peregrine_horned_owl-2",
+    "chassisdef_peregrine_horned_owl-3"
   ],
   "Instructions": [
     {

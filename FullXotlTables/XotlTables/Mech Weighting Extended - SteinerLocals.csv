@@ -34,6 +34,7 @@ mechdef_javelin_JVN-10F,4,,4,,0,,0
 mechdef_wolfhound_WLF-1,0,3028-01-15T00:00:00Z,18,,19,,19
 mechdef_wolfhound_WLF-1A,0,3028-03-15T00:00:00Z,4,,4,,4
 mechdef_wolfhound_WLF-1B,0,3028-03-15T00:00:00Z,4,,4,,4
+mechdef_mantis_MTS-S,0,,0,,0,3061-01-01T00:00:00Z,4
 Mediums,,,,,,,
 mechdef_vulcan_VL-2T,76,,69,,72,,72
 mechdef_sentinel_STN-3K,8,,8,,4,,8
@@ -148,3 +149,4 @@ mechdef_highlander_HGN-733P,7,,6,,6,,6
 mechdef_atlas_AS7-LL,3,,3,,3,,3
 mechdef_atlas_AS7-D,60,,52,,52,,52
 mechdef_juggernaut_JG-R9T2,0,,0,,0,,5
+mechdef_juggernaut_JG-R9T3,0,,0,,0,3061-01-01T00:00:00Z,3

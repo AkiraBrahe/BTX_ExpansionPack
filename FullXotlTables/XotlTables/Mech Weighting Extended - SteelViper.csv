@@ -47,6 +47,7 @@ mechdef_puma_adder-A,95,,95,,95,,95
 mechdef_puma_adder-H,0,,0,,0,3059-01-01T00:00:00Z,5
 mechdef_cougar-PRIME,0,,0,,0,3058-01-01T00:00:00Z,3
 mechdef_hellion-A,0,,0,,0,3059-01-01T00:00:00Z,2
+mechdef_peregrine_horned_owl-3,0,,0,,0,,14
 mechdef_vixen_incubus-8,28,,38,,28,,28
 mechdef_hellion-B,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_vixen_incubus-1,57,,95,,89,,57
@@ -120,9 +121,11 @@ mechdef_crossbow-PRIME,157,,157,,157,,157
 mechdef_loki_hellbringer-F,0,,0,3054-01-01T00:00:00Z,3,,5
 mechdef_vulture_mad_dog-C,85,,85,,85,,85
 mechdef_vulture_mad_dog-A,43,,43,,43,,43
+mechdef_lupus-A,3,,2,,2,Jump:3058-01-01T00:00:00Z,0
 mechdef_novacat-C,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_loki_hellbringer-A,50,,50,,50,,50
 mechdef_loki_hellbringer-H,0,,0,,0,3059-01-01T00:00:00Z,3
+mechdef_lupus-B,3,,2,,2,Jump:3058-01-01T00:00:00Z,0
 mechdef_matador-1,28,,85,,43,,28
 mechdef_loki_hellbringer-C,0,,0,3054-01-01T00:00:00Z,3,,5
 mechdef_novacat-D,0,,0,,0,3059-01-01T00:00:00Z,2
@@ -138,6 +141,7 @@ mechdef_rifleman_IIC,14,,43,,28,,14
 mechdef_vulture_mad_dog-PRIME,43,,43,,43,,43
 mechdef_thor_summoner-C,14,,14,,14,,14
 mechdef_loki_hellbringer-J,0,,0,,0,3058-01-01T00:00:00Z,3
+mechdef_lupus-PRIME,6,,3,,3,Jump:3058-01-01T00:00:00Z,0
 mechdef_mad_cat_timber_wolf-E,0,,0,3054-01-01T00:00:00Z,3,,4
 mechdef_vulture_mad_dog-D,0,,0,3054-01-01T00:00:00Z,3,,4
 mechdef_mad_cat_timber_wolf-S,0,3050-01-01T00:00:00Z,3,,3,,3
