@@ -29,7 +29,7 @@
   "Instability": 2,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
   "Description": {
-    "Cost": 120000,
+    "Cost": 150000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "Irian",

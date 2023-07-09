@@ -1,7 +1,7 @@
 {
     "Name": "BTX_MechPack",
     "Enabled": true,
-    "Version": "0.4.119",
+    "Version": "0.5.158",
 
     "Description": "Add new 'Mech variants and any new equipment they come with. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.",
     "Author": "Kierk",
@@ -19,8 +19,8 @@
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
-        { "Type": "ItemCollectionDef", "Path": "itemcollections" },
-        { "Type": "ItemCollectionDef", "Path": "itemcollectionsAppend", "ShouldAppendText": true },
+        { "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
+        { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
         { "Type": "JumpJetDef", "Path": "jumpjets", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },

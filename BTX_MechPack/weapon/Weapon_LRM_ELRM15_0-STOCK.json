@@ -29,7 +29,7 @@
   "Instability": 3,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM15",
   "Description": {
-    "Cost": 440000,
+    "Cost": 1400000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "Coventry",

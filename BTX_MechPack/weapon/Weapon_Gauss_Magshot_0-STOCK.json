@@ -31,7 +31,7 @@
   "NotUseInMelee": false,
   "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
   "Description": {
-    "Cost": 45000,
+    "Cost": 85000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "Poland",

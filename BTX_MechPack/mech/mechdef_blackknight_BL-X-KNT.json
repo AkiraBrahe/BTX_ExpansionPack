@@ -25,7 +25,7 @@
     "UIName": "Black Knight BL-X-KNT",
     "Id": "mechdef_blackknight_BL-X-KNT",
     "Name": "Red Reaper",
-    "Details": "<color=#F79B26>The Black Knight served as a front-line combatant and Command BattleMech for the Star League Defense Force thanks to its advanced communications equipment that allowed it to effortlessly coordinate an entire company of 'Mechs.</color>\n\nThe \"Red Reaper\" was Reginald VanJaster's personal ride, built from a BL-9-KNT chassis. The standard weaponry has been replaced with a Large Shield and Large Vibroblade for hand-to-hand combat, while five Medium X-Pulse Lasers deal massive damage in close range. A single Heavy PPC paired with a PPC Capacitor is used for long-range firepower. The whole 'Mech is protected by thirteen tons of light ferro-fibrous armor. To dissipate heat, fifteen double heat sinks are available.",
+    "Details": "<color=#F79B26>The Black Knight served as a front-line combatant and Command BattleMech for the Star League Defense Force thanks to its advanced communications equipment that allowed it to effortlessly coordinate an entire company of 'Mechs.</color>\n\nThe \"Red Reaper\" was Reginald VanJaster's personal ride, built from a BL-9-KNT chassis. The standard weaponry has been replaced with a Large Shield and Large Vibroblade for hand-to-hand combat, while five Medium X-Pulse Lasers deal massive damage in close range. A single Heavy PPC paired with a PPC Capacitor is used for long-range firepower. The whole 'Mech is protected by thirteen tons of light ferro-fibrous armor. To dissipate the heat, fifteen double heat sinks are available.",
     "Icon": "uixTxrIcon_blackknight"
   },
   "simGameMechPartCost": 1720000,

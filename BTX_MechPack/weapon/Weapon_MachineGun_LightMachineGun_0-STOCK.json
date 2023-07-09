@@ -29,7 +29,7 @@
   "Instability": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
   "Description": {
-    "Cost": 10000,
+    "Cost": 7500,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "Bulldog",

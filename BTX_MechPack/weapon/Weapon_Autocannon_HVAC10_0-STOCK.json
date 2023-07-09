@@ -35,7 +35,7 @@
   "CanExplode": true,
   "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
   "Description": {
-    "Cost": 140000,
+    "Cost": 1150000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "Ceres",
