@@ -198,6 +198,7 @@ mechdef_crusader_CRD-3D,30,,28,,27,,22,,8
 mechdef_cataphract_CTF-2X,0,3028-09-01T00:00:00Z,4,,4,,6,,4
 mechdef_archer_ARC-5S,0,,0,,0,3050-01-01T00:00:00Z,49,,42
 mechdef_marauder_MAD-3R,30,,28,,27,,9,,0
+mechdef_catapult_CPLT-C3,0,,0,,0,3055-01-01T00:00:00Z,4,,6
 mechdef_axman_AXM-1N,0,,0,3048-01-01T00:00:00Z,11,,31,,30
 mechdef_guillotine_GLT-4P,4,,4,,4,,0,,0
 mechdef_rifleman_RFL-5D,0,,0,,0,3050-01-01T00:00:00Z,61,,65

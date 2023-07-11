@@ -121,7 +121,7 @@ mechdef_cataphract_CTF-2X,0,3027-01-01T00:00:00Z,26,,77,,33,,23
 mechdef_grasshopper_GHR-5J,0,,0,,0,3050-01-01T00:00:00Z,6,,8
 mechdef_catapult_CPLT-C4,4,,4,,5,,0,,0
 mechdef_marauder_MAD-3R,20,,19,,9,,9,,0
-mechdef_catapult_CPLT-C3,0,,0,3044-01-01T00:00:00Z,13,,33,,36
+mechdef_catapult_CPLT-C3,0,,0,3049-01-01T00:00:00Z,11,,15,,15
 mechdef_marauder_MAD-3L,11,,10,,9,,9,,9
 mechdef_guillotine_GLT-4P,4,,4,,0,,0,,0
 mechdef_ostroc_OSR-2D,0,,0,,0,3050-01-01T00:00:00Z,3,,4
@@ -148,7 +148,7 @@ mechdef_koschei_KSC-4I,1,,1,,1,,1,,1
 mechdef_cataphract_CTF-3L,0,,0,,0,3050-01-01T00:00:00Z,164,,194
 mechdef_gallowglas_GAL-1GLS,0,,0,,0,3055-01-01T00:00:00Z,9,,18
 mechdef_archer_ARC-4M,0,,0,,0,3050-01-01T00:00:00Z,33,,36
-mechdef_catapult_CPLT-C5,0,,0,,0,,0,,17
+mechdef_catapult_CPLT-C5,0,,0,,0,,0,,5
 mechdef_laohu_LHU-2B,0,,0,,0,,0,3062-01-01T00:00:00Z,18
 mechdef_gallowglas_GAL-2GLS,0,,0,,0,3055-01-01T00:00:00Z,6,,12
 mechdef_tits'ang_TSG-9H,0,,0,,0,,0,3059-01-01T00:00:00Z,22

@@ -178,6 +178,7 @@ mechdef_archer_ARC-2K,86,,82,,53,,46
 mechdef_granddragon_DRG-5K,0,,0,3050-01-01T00:00:00Z,42,,46
 mechdef_marauder_MAD-3R,18,,40,,13,,5
 mechdef_grasshopper_GHR-C,0,,0,3052-01-01T00:00:00Z,13,,15
+mechdef_catapult_CPLT-C3,0,,0,,0,3055-01-01T00:00:00Z,4,,6
 mechdef_guillotine_GLT-4P,3,,2,,0,,0
 mechdef_exterminator_EXT-4D,0,Jump:3039-01-01T00:00:00Z,7,,0,,0
 mechdef_avatar_AV1-O,0,,0,3056-01-01T00:00:00Z,19,,46

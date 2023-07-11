@@ -128,7 +128,7 @@ mechdef_thunderbolt_TDR-5S,52,,52,Jump:3052-05-20T00:00:00Z,36,,32
 mechdef_catapult_CPLT-C4,5,,5,Jump:3052-05-20T00:00:00Z,3,,3
 mechdef_lancelot_LNC25-05,21,,21,Jump:3052-05-20T00:00:00Z,15,,13
 mechdef_grasshopper_GHR-C,0,,0,3052-01-01T00:00:00Z,11,,22
-mechdef_catapult_CPLT-C3,0,,0,3052-06-01T00:00:00Z,7,,13
+mechdef_catapult_CPLT-C3,0,,0,3052-06-01T00:00:00Z,1,,1
 mechdef_helepolis_HEP-3H,21,,21,Jump:3052-05-20T00:00:00Z,15,,13
 mechdef_exterminator_EXT-4D,16,,16,Jump:3052-05-20T00:00:00Z,11,,10
 mechdef_avatar_AV1-O,0,,0,3052-06-01T00:00:00Z,18,,29

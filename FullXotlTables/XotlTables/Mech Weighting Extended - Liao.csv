@@ -85,7 +85,7 @@ mechdef_thunderbolt_TDR-5S,130,,58,,46,,46,,46
 mechdef_cataphract_CTF-2X,0,3027-01-01T00:00:00Z,26,,77,,77,,77
 mechdef_catapult_CPLT-C4,4,,4,,5,,5,,5
 mechdef_marauder_MAD-3R,20,,19,,9,,9,,9
-mechdef_catapult_CPLT-C3,0,,0,3044-01-01T00:00:00Z,13,,13,,13
+mechdef_catapult_CPLT-C3,0,,0,3049-01-01T00:00:00Z,8,,10,,10
 mechdef_marauder_MAD-3L,11,,10,,9,,9,,9
 mechdef_guillotine_GLT-4P,4,,4,,0,,0,,0
 mechdef_koschei_KSC-3L,4,,4,,5,,5,,5
@@ -97,7 +97,7 @@ mechdef_orion_ON1-K,28,,26,,24,,24,,24
 mechdef_stalker_STK-4P,7,,7,,9,,9,,9
 mechdef_archer_ARC-2R,64,,60,,34,,34,,34
 mechdef_grasshopper_GHR-5N,0,,0,3040-01-01T00:00:00Z,9,,9,,9
-mechdef_catapult_CPLT-C5,0,,0,,0,,0,,13
+mechdef_catapult_CPLT-C5,0,,0,,0,,0,,4
 mechdef_laohu_LHU-2B,0,,0,,0,,0,3062-01-01T00:00:00Z,10
 Assaults,,,,,,,,,
 mechdef_cyclops_CP-10-HQ,5,,5,,5,,5,,5
