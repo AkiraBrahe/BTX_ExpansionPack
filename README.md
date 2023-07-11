@@ -13,7 +13,7 @@ Add new 'Mech variants and any new equipment they come with. All 'Mechs are port
 - Extract BTX_MechPack archive to the mods folder, overwriting when prompted
 - (Optional) Enable DHS Changes in the mod menu if you want all DHS in the engine to have 6 heatsinking.
 
-The new 'Mechs are fielded by the factions that should have them according to the lore, while the Heavy Metal crate contains one of the eight Hero 'Mechs added by the mod. All 'Mechs can also be added through Fell Off A Cargo Ship or a save editor.
+The new 'Mechs are fielded by the factions that should have them according to the lore, while the Heavy Metal crate contains one of the nine Hero 'Mechs added by the mod. All 'Mechs can also be added through Fell Off A Cargo Ship or a save editor.
 
 New rare weapons and upgrades are available in faction stores based on the date they were prototyped. Some of them are unique to specific chassis.
 
@@ -238,7 +238,7 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Bomb Bay²                 |  Missile  | 2680  | *LosTech*                   |
 | Arrow IV                  |  Missile  | 3044  | Liao<br />All (3049+)       |
 | Swarm Missile             |  Missile  | 3049  | Davion<br />All (3058+)     |
-| Swarm-I Missile           |  Missile  | 3052  | Marik<br />All (3060+)      |
+| Swarm-I Missile           |  Missile  | 3052  | Marik                       |
 | Thunderbolt               |  Missile  | 3052  | Davion<br />Steiner (3052+) |
 | Inferno-IV Missile        |  Missile  | 3053  | Liao                        |
 | Extended LRM (ELRM)       |  Missile  | 3054  | Steiner<br />Davion (3054+) |
