@@ -3,7 +3,7 @@
     "Id": "Ammunition_LRM_Swarm-I",
     "Name": "Improved Swarm LRM Ammo",
     "UIName": "Swarm-I LRM",
-    "Details": "Swarm-I missiles are an improved version of Swarm missiles that are designed to mimic the splash damage capability of artillery shells but with greater accuracy, resulting in a more damaging effect. Missiles from a Swarm-I salvo that miss their intended target may attempt to home in and strike any nearby targets, aiding in the breakup of enemy formations.",
+    "Details": "Swarm-I missiles capable homing in and striking any nearby targets if they miss their intended target.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

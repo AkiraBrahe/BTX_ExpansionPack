@@ -216,7 +216,7 @@
 			"itemCollection_Ammo_OverTime": [3052, 3057, 3059, 3060, 3061],
 			"itemCollection_Ammo_DavionOverTime": [3035, 3049, 3051, 3053, 3058, 3060, 3061, 3063],
 			"itemCollection_Ammo_KuritaOverTime": [3049, 3058, 3059, 3061],
-			"itemCollection_Ammo_LiaoOverTime": [3044, 3049, 3053, 3058, 3059, 3061, 3063],
+			"itemCollection_Ammo_LiaoOverTime": [3044, 3049, 3053, 3054, 3056, 3058, 3059, 3061, 3063],
 			"itemCollection_Ammo_MarikOverTime": [3035, 3040, 3049, 3052, 3056, 3057, 3058, 3059, 3061, 3063],
 			"itemCollection_Ammo_SteinerOverTime": [3035, 3049, 3051, 3058, 3059, 3061, 3063],
 			"itemCollection_Weapons_Ceres_Arms_common": [3037],
