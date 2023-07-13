@@ -230,6 +230,7 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Rotary AC (RAC)           | Ballistic | 3060  | Davion                      |
 | Light AC (LAC)            | Ballistic | 3062  | Davion                      |
 |  ----                     |           |       |                             |
+| Rail Gun                  |  Energy   | 3051  | Marik                       |
 | Plasma Rifle              |  Energy   | 3061  | Liao                        |
 | Heavy PPC                 |  Energy   | 3062  | Kurita                      |
 | Light PPC                 |  Energy   | 3064  | Kurita                      |
@@ -237,16 +238,20 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 |  ----                     |           |       |                             |
 | Bomb Bay²                 |  Missile  | 2680  | *LosTech*                   |
 | Arrow IV                  |  Missile  | 3044  | Liao<br />All (3049+)       |
-| Swarm Missile             |  Missile  | 3049  | Davion<br />All (3058+)     |
-| Swarm-I Missile           |  Missile  | 3052  | Marik                       |
 | Thunderbolt               |  Missile  | 3052  | Davion<br />Steiner (3052+) |
-| Inferno-IV Missile        |  Missile  | 3053  | Liao                        |
 | Extended LRM (ELRM)       |  Missile  | 3054  | Steiner<br />Davion (3054+) |
 | Enhanced LRM (NLRM)       |  Missile  | 3058  | Davion                      |
-|  ----                     |           |       |                             |
 | Heavy Flamer              |  Support  | 3063  | Steiner                     |
 | Heavy Machine Gun         |  Support  | 3063  | Calderon                    |
 | Light Machine Gun         |  Support  | 3064  | Liao                        |
+|  ----                     |           |       |                             |
+| Swarm Missile             |   Ammo    | 3049  | Davion<br />All (3058+)     |
+| Swarm-I Missile           |   Ammo    | 3052  | Marik                       |
+| Inferno-IV Missile        |   Ammo    | 3053  | Liao                        |
+| Thunder-Inferno Missile   |   Ammo    | 3054  | Liao                        |
+| Armor-Piercing Ammo       |   Ammo    | 3055  | Davion<br />Steiner (3055+) |
+| Precision Ammo            |   Ammo    | 3058  | Davion                      |
+|  ----                     |           |       |                             |
 |  ----                     |           |       |                             |
 | Laser Anti-Missile System |  Upgrade  | 3057  | Davion<br />All (3062+)     |
 | Bloodhound Active Probe   |  Upgrade  | 3058  | *Black Market*              |
