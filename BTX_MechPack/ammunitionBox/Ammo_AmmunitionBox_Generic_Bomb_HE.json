@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_Bomb_HE",
   "Capacity": 1,
   "Description": {
-    "Cost": 12500,
+    "Cost": 10000,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

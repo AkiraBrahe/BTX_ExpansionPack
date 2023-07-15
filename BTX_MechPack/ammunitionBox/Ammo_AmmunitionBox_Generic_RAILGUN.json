@@ -2,7 +2,7 @@
   "AmmoID": "Ammunition_RAILGUN",
   "Capacity": 5,
   "Description": {
-    "Cost": 75000,
+    "Cost": 20000,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",

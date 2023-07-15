@@ -11,6 +11,8 @@
   "Type": "Normal",
   "Category": "RAILGUN",
   "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
   "HeatGeneratedModifier": 1,
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
