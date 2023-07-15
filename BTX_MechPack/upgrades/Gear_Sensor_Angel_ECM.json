@@ -67,7 +67,7 @@
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "Gear_SensorCAC_ECMAura_Indirect",
+            "Id": "StatusEffect-ECMAura-Indirect",
             "Name": "",
             "Details": "",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -76,7 +76,7 @@
           "statisticData": {
             "statName": "IndirectImmuneFloat",
             "operation": "Float_Add",
-            "modValue": "2.0",
+            "modValue": "1.0",
             "modType": "System.Single"
           }
         },
@@ -93,7 +93,7 @@
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "Gear_SensorCAC_ECMAura_ToHit",
+            "Id": "StatusEffect-ECMAura-ToHit",
             "Name": "ECM Affected",
             "Details": "Friendly units within an ECM field gain +4 Difficulty to attacks against them and immunity to Indirect Fire and Sensor Locks.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -102,7 +102,7 @@
           "statisticData": {
             "statName": "DefendedByECM",
             "operation": "Float_Add",
-            "modValue": "2.0",
+            "modValue": "1.0",
             "modType": "System.Single"
           }
         },
@@ -119,7 +119,7 @@
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "Gear_SensorCAC_ECMAura_SensorLock",
+            "Id": "StatusEffect-ECMAura-SensorLock",
             "Name": "sens",
             "Details": "sens",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -175,7 +175,7 @@
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "Gear_SensorCAC_ECCMAura_Indirect",
+            "Id": "StatusEffect-ECCMAura-Indirect",
             "Name": "",
             "Details": "",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -184,7 +184,7 @@
           "statisticData": {
             "statName": "IndirectImmuneFloat",
             "operation": "Float_Add",
-            "modValue": "-2.0",
+            "modValue": "-1.0",
             "modType": "System.Single"
           }
         },
@@ -201,7 +201,7 @@
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "Gear_SensorCAC_ECCMAura_ToHit",
+            "Id": "StatusEffect-ECCMAura-ToHit",
             "Name": "ECCM Affected",
             "Details": "Enemy units within an ECCM field have their boni from ECM negated.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -210,7 +210,7 @@
           "statisticData": {
             "statName": "DefendedByECM",
             "operation": "Float_Add",
-            "modValue": "-2.0",
+            "modValue": "-1.0",
             "modType": "System.Single"
           }
         },
@@ -227,7 +227,7 @@
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "Gear_SensorCAC_ECCMAura_SensorLock",
+            "Id": "StatusEffect-ECCMAura-SensorLock",
             "Name": "sens",
             "Details": "sens",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -257,7 +257,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect_ESensorDecrease",
+        "Id": "StatusEffect-SensorDecrease",
         "Name": "Detectability decreased",
         "Details": "Decreases sensor detectability distance by 40%.",
         "Icon": "uixSvgIcon_status_ECM-missileDef"
@@ -277,8 +277,8 @@
     "items": [
       "component_type_stock",
       "component_type_lostech",
-      "cae_ai_defence",
-      "BLACKLISTED"
+      "BLACKLISTED",
+      "cae_ai_defence"
     ],
     "tagSetSourceFile": ""
   },

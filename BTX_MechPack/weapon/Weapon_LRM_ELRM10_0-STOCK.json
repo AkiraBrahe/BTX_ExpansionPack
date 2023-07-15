@@ -2,12 +2,12 @@
   "Category": "Missile",
   "Type": "LRM",
   "WeaponSubType": "LRM10",
-  "MinRange": 270,
-  "MaxRange": 945,
+  "MinRange": 325,
+  "MaxRange": 1140,
   "RangeSplit": [
-    630,
-    630,
-    945
+    760,
+    760,
+    1140
   ],
   "AmmoCategory": "LRM",
   "StartingAmmoCapacity": 0,
@@ -85,7 +85,7 @@
       "isBaseMode": false,
       "AccuracyModifier": 1.0,
       "ShotsWhenFired": -2,
-      "MinRange": -135.0
+      "MinRange": -160.0
     }
   ]
 }

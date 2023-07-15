@@ -2,14 +2,14 @@
   "Category": "Missile",
   "Type": "LRM",
   "WeaponSubType": "LRM5",
-  "MinRange": 180,
-  "MaxRange": 1000,
+  "MinRange": 240,
+  "MaxRange": 1560,
   "RangeSplit": [
-    750,
-    750,
-    1000
+    780,
+    780,
+    1560
   ],
-  "ForbiddenRange": 90,
+  "ForbiddenRange": 240,
   "AmmoCategory": "Arrow4",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 20,

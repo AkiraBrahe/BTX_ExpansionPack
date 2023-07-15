@@ -1,0 +1,10 @@
+{
+  "MinRange": 120,
+  "MaxRange": 780,
+  "RangeSplit": [
+    390,
+    390,
+    780
+  ],
+  "ForbiddenRange": 120
+}

@@ -1,30 +1,6 @@
 {
-  "StatName": null,
-  "RelativeModifier": 0,
-  "AbsoluteModifier": 0,
-  "Description": {
-    "Cost": 2000000,
-    "Rarity": 99,
-    "Purchasable": false,
-    "Manufacturer": "Clans",
-    "Model": "LAP",
-    "UIName": "Light Active Probe",
-    "Id": "Gear_Sensor_Light_ActiveProbe",
-    "Name": "Light Active Probe",
-    "Details": "The Light Active Probe is a smaller and lighter, but shorter ranged version of the standard  Active Probe. When activated, the probe performs a Sensor Lock against all enemies within its radius before entering a cooldown state.",
-    "Icon": "UixSvgIcon_specialEquip_Sensors"
-  },
   "BonusValueA": "+ Free Sensor Lock",
   "BonusValueB": "+ 120m Sensor Range",
-  "ComponentType": "Upgrade",
-  "ComponentSubType": "ElectronicWarfare",
-  "PrefabIdentifier": "",
-  "BattleValue": 0,
-  "InventorySize": 1,
-  "Tonnage": 0.5,
-  "AllowedLocations": "All",
-  "DisallowedLocations": "All",
-  "CriticalComponent": false,
   "statusEffects": [
     {
       "targetingData": {
@@ -98,14 +74,5 @@
         "modType": "System.Boolean"
       }
     }
-  ],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "component_type_clan",
-      "component_type_lostech",
-      "BLACKLISTED"
-    ],
-    "tagSetSourceFile": ""
-  }
+  ]
 }

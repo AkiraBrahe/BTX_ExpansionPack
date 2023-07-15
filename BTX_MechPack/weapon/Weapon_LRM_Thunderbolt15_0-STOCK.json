@@ -2,7 +2,7 @@
   "Category": "Missile",
   "Type": "LRM",
   "WeaponSubType": "LRM15",
-  "MinRange": 180,
+  "MinRange": 150,
   "MaxRange": 540,
   "RangeSplit": [
     360,

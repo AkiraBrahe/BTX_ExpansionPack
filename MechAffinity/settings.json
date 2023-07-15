@@ -826,7 +826,7 @@
           },
           "effectType": "StatisticEffect",
           "Description": {
-            "Id": "StatusEffect_BCCluster",
+            "Id": "StatusEffect-BCCluster",
             "Name": "Cluster Chance Improved",
             "Details": "Increases the clustering of this unit's LRM weapons.",
             "Icon": "AdvancedTC"
