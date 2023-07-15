@@ -2,12 +2,12 @@
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC20",
-  "MinRange": 0,
-  "MaxRange": 1000,
+  "MinRange": 90,
+  "MaxRange": 540,
   "RangeSplit": [
-    750,
-    750,
-    1000
+    270,
+    270,
+    540
   ],
   "ForbiddenRange": 90,
   "AmmoCategory": "Thumper",

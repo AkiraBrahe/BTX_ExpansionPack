@@ -14,6 +14,7 @@
         { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" }
     ],
     "Manifest": [
+        { "Type": "AbilityDef", "Path": "ability" },
         { "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
@@ -27,7 +28,9 @@
         { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
         { "Type": "Sprite", "Path": "portraits" },
         { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
+        { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
         { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
+        { "Type": "WeaponDef", "Path": "weaponMerge", "ShouldMergeJSON": true },
       { "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
       { "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" }
     ]

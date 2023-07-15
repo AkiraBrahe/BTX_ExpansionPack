@@ -149,7 +149,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect_ESensorDecrease",
+        "Id": "StatusEffect-SensorDecrease",
         "Name": "Detectability decreased",
         "Details": "Decreases sensor detectability distance by 20%.",
         "Icon": "uixSvgIcon_status_ECM-missileDef"
