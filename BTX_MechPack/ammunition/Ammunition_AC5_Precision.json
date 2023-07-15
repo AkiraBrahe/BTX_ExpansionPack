@@ -1,0 +1,26 @@
+{
+  "Description": {
+    "Id": "Ammunition_AC5_Precision ",
+    "Name": "Precision AC/5 Ammo",
+    "Details": "Precision rounds, suitable for long range fire in an AC/5.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "AC5",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 0.8,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "CriticalChanceMultiplier": 1,
+  "APDamage": 9,
+  "APArmorShardsMod": 1,
+  "APMaxArmorThickness": 90,
+  "APCriticalChanceMultiplier": 0.125,
+  "AccuracyModifier": 1
+}
