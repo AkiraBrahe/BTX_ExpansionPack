@@ -11,36 +11,37 @@ Add new 'Mech variants and any new equipment they come with. All 'Mechs are port
 - Install the latest version of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C
 - Update the CAB, as the mod uses the most recent models
 - Extract BTX_MechPack archive to the mods folder, overwriting when prompted
-- (Optional) Enable DHS Changes in the mod menu if you want all DHS in the engine to have 6 heatsinking.
+- (Optional) Enable DHS Changes if you want all DHS in the engine to have 6 heatsinking.<br />To enable the mod, set "Enabled" to true in the mod.json of the mod.
+- (Optional) Enable Shell Shuffler if you want the AI to use different ammo types at random.<br />To enable the mod, remove the date part from one the two mod.son in the mod folder
 
 The new 'Mechs are fielded by the factions that should have them according to the lore, while the Heavy Metal crate contains one of the nine Hero 'Mechs added by the mod. All 'Mechs can also be added through Fell Off A Cargo Ship or a save editor.
 
-New rare weapons and upgrades are available in faction stores based on the date they were prototyped. Some of them are unique to specific chassis.
+New rare weapons and upgrades are available in stores based on the date they were prototyped. Some of them are unique to specific chassis.
 
 ## Mod Progress
 
 The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once completed, the mod will feature over 60 new BattleMechs that correspond to nearly all CAB models that fit the BattleTech Extended timeline and beyond, up to the year 3065.
 
-| Pack #1             | Pack #2          | Pack #3                 |
-| ------------------- | ---------------- | ----------------------- |
-| Bellerophon         | Arctic Wolf      | Albatross               |
-| Bombard             | Assassin II      | Anubis                  |
-| Buccaneer           | Battle Hawk      | Barghest                |
-| Dragoon             | Blitzkrieg       | Black Heart             |
-| Fox                 | Champion LAM     | Fire Falcon             |
-| Hellfire            | Cossack          | Grand Crusader          |
-| Jackrabbit          | Hammer           | Gulon                   |
-| JagerMech III       | Hybrid Rifleman  | Iron Cheetah            |
-| Juggernaut          | Lao Hu           | Lineholder              |
-| Mercury II / Coyotl | Mad Cat Mk II    | Lupus                   |
-| Pulverizer          | Matar            | Mantis                  |
-| Rampage             | Naga             | Osiris                  |
-| Schwerer Gustav     | Nightsky         | Peregrine (Horned Howl) |
-| Screamer LAM        | Phoenix Hawk IIC | Phantom                 |
-| Stag / Stag II      | Rattlesnake      | Prometheus              |
-| Thanatos            | Warthog          | Sha Yu                  |
-| Titan               |                  | Templar                 |
-|                     |                  | Zeus-X                  |
+| Pack #1             | Pack #2          | Pack #3        |
+| :------------------ | :--------------- | :------------- |
+| Bellerophon         | Arctic Wolf      | Albatross      |
+| Bombard             | Assassin II      | Anubis         |
+| Buccaneer           | Battle Hawk      | Barghest       |
+| Dragoon             | Blitzkrieg       | Black Heart    |
+| Fox                 | Champion LAM     | Fire Falcon    |
+| Hellfire            | Cossack          | Grand Crusader |
+| Jackrabbit          | Hammer           | Gulon          |
+| JagerMech III       | Hybrid Rifleman  | Iron Cheetah   |
+| Juggernaut          | Lao Hu           | Lineholder     |
+| Mercury II / Coyotl | Mad Cat Mk II    | Lupus          |
+| Pulverizer          | Matar            | Mantis         |
+| Rampage             | Naga             | Osiris         |
+| Schwerer Gustav     | Nightsky         | Peregrine      |
+| Screamer LAM        | Phoenix Hawk IIC | Phantom        |
+| Stag / Stag II      | Rattlesnake      | Prometheus     |
+| Thanatos            | Warthog          | Sha Yu         |
+| Titan               |                  | Templar        |
+|                     |                  | Zeus-X         |
 
 ## Contents
 
@@ -241,6 +242,7 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Thunderbolt               |  Missile  | 3052  | Davion<br />Steiner (3052+) |
 | Extended LRM (ELRM)       |  Missile  | 3054  | Steiner<br />Davion (3054+) |
 | Enhanced LRM (NLRM)       |  Missile  | 3058  | Davion                      |
+|  ----                     |           |       |                             |
 | Heavy Flamer              |  Support  | 3063  | Steiner                     |
 | Heavy Machine Gun         |  Support  | 3063  | Calderon                    |
 | Light Machine Gun         |  Support  | 3064  | Liao                        |
@@ -252,8 +254,7 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Armor-Piercing Ammo       |   Ammo    | 3055  | Davion<br />Steiner (3055+) |
 | Precision Ammo            |   Ammo    | 3058  | Davion                      |
 |  ----                     |           |       |                             |
-|  ----                     |           |       |                             |
-| Laser Anti-Missile System |  Upgrade  | 3057  | Davion<br />All (3062+)     |
+| Laser Anti-Missile System |  Upgrade  | 3057  | Davion                      |
 | Bloodhound Active Probe   |  Upgrade  | 3058  | *Black Market*              |
 
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs.
@@ -273,8 +274,44 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Direct Neural Interface   | Prometheus<br />Black Heart                        |
 | Light Active Probe        | Vulture (Mad Dog) 'Fury'                           |
 |  ----                     |                                                    |
-| Composite Chassis         | Black Knight 'Red Reaper'                          |
+| Composite Chassis         | Zeus-X                                             |
 | Light Ferro-Fibrous Armor | Black Knight 'Red Reaper'                          |
 | Reactive Armor            | Zeus-X                                             |
 | Stealth Armor             | Sha Yu<br />Anubis                                 |
+</details>
+
+### Other Changes
+
+<details>
+  <summary>Shell Shuffler</summary>
+  
+An optional mod that allows the AI to randomly have different types of ammunition when spawning. Depending on which era you are playing in, the mod has two presets.<br /><br />With the 3025 preset, any faction can use Inferno SRM, whereas with the 3050 preset, each faction has their own set of special ammo types, most of which were developed in the 3050s.
+
+| Faction                 | Ammo Types                                          |
+| :---------------------- | :-------------------------------------------------- |
+| Davion                  | Armor-Piercing & Precision rounds, plus Swarm LRM   |
+| Kurita                  | Dead-Fire SRM and LRM                               |
+| Liao                    | Inferno SRM, LRM and Arrow IV                       |
+| Marik                   | Improved Swarm LRM                                  |
+| Steiner                 | Armor-Piercing rounds and Swarm LRM                 |
+| ----                    |                                                     |
+| Clans                   | Extended-Range & High-Explosive ATM, plus Swarm LRM |
+| ComStar / Word of Blake | Swarm LRM / Swarm-I LRM                             |
+| Mercernaries & Pirates  | Inferno SRM                                         |
+</details>
+
+<details>
+  <summary>Artillery</summary>
+
+Artillery now uses its tabletop range values, allowing Extended LRMs, Mobile Long Tom, and Arrow IV to fire from more than 1000m away, while other types of artillery have a much shorter range than before.
+
+| Name            | Min. | Med. | Max. |
+| :-------------- | ---: | ---: | ---: |
+| Sniper          |   60 |  240 |  480 |
+| Thumper         |   90 |  270 |  540 |
+| Standard LRM    |  180 |  420 |  630 |
+| Long Tom        |  120 |  390 |  780 |
+| Extended LRM    |  325 |  760 | 1140 |
+| Arrow IV        |  240 |  780 | 1560 |
+| Mobile Long Tom |  180 | 3000 | 3000 |
 </details>
