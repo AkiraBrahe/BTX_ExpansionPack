@@ -10,7 +10,7 @@
     "UIName": "Swarm LRM Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_LRM_Swarm",
     "Name": "Swarm LRM Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nSwarm missiles that mimic the splash damage capability of artillery shells by homing in on nearby targets when they miss their intended target. Swarm ammo bins hold the same number of shots per ton as standard LRM ammunition bins.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nSwarm missiles that mimic the splash damage capability of artillery shells by homing in on nearby targets when they miss their intended target. Swarm LRM Ammo Bins hold the same number of shots per ton as standard LRM ammunition bins.",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
   "BonusValueA": "+25% Dmg., -2 Acc.",
