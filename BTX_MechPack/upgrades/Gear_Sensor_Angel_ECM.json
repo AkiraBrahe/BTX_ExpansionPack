@@ -1,4 +1,17 @@
 {
+  "Custom": {
+    "ActivatableComponent": {
+      "ButtonName": "ECM",
+      "CanActivateAfterMove": true,
+      "CanActivateAfterFire": false,
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": false,
+      "ActiveByDefault": false,
+      "ActivationMessage": "ECCM Mode",
+      "DeactivationMessage": "ECM Mode",
+      "statusEffects": []
+    }
+  },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
@@ -281,18 +294,5 @@
       "cae_ai_defence"
     ],
     "tagSetSourceFile": ""
-  },
-  "Custom": {
-    "ActivatableComponent": {
-      "ButtonName": "ECM",
-      "CanActivateAfterMove": true,
-      "CanActivateAfterFire": false,
-      "CanNotBeActivatedManualy": false,
-      "NoUniqueCheck": false,
-      "ActiveByDefault": false,
-      "ActivationMessage": "ECCM Mode",
-      "DeactivationMessage": "ECM Mode",
-      "statusEffects": []
-    }
   }
 }

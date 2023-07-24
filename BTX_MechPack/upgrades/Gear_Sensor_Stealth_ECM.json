@@ -1,4 +1,150 @@
 {
+  "Custom": {
+    "ActivatableComponent": {
+      "ButtonName": "Stealth",
+      "CanActivateAfterMove": true,
+      "CanActivateAfterFire": false,
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": false,
+      "ActiveByDefault": true,
+      "ActivationMessage": "Stealth Mode",
+      "DeactivationMessage": "ECM Mode",
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_Sensor_Stealth_ToHit",
+            "Name": "Stealth Armor",
+            "Details": "Units with active Stealth Armor gain +[AMT] Difficulty to attacks against them, immunity to Sensor Locks, halved detectability, but at the cost of 10 heat per round.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "ToHitThisActor",
+            "operation": "Float_Add",
+            "modValue": "2.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_Sensor_Stealth_SensorLock",
+            "Name": "sens",
+            "Details": "sens",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "SensorLockDefense",
+            "operation": "Float_Add",
+            "modValue": "10.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_Sensor_Stealth_ESensorDecrease",
+            "Name": "sens",
+            "Details": "sens",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "SensorSignatureModifier",
+            "operation": "Float_Multiply",
+            "modValue": "-0.5",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_Sensor_Stealth_Heat",
+            "Name": "sens",
+            "Details": "sens",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "HeatSinkCapacity",
+            "operation": "Int_Add",
+            "modValue": "-10",
+            "modType": "System.Int32"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "forcePathRebuild": true,
+            "forceVisRebuild": true,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_Sensor_Stealth_Ghost",
+            "Name": "sens",
+            "Details": "sens",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "GhostEffectStacks",
+            "operation": "Int_Add",
+            "modValue": "1",
+            "modType": "System.Int32"
+          }
+        }
+      ]
+    }
+  },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
@@ -173,151 +319,5 @@
       "cae_ai_heat"
     ],
     "tagSetSourceFile": ""
-  },
-  "Custom": {
-    "ActivatableComponent": {
-      "ButtonName": "Stealth",
-      "CanActivateAfterMove": true,
-      "CanActivateAfterFire": false,
-      "CanNotBeActivatedManualy": false,
-      "NoUniqueCheck": false,
-      "ActiveByDefault": true,
-      "ActivationMessage": "Stealth Mode",
-      "DeactivationMessage": "ECM Mode",
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": true,
-            "showInStatusPanel": true
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "Gear_Sensor_Stealth_ToHit",
-            "Name": "Stealth Armor",
-            "Details": "Units with active Stealth Armor gain +[AMT] Difficulty to attacks against them, immunity to Sensor Locks, halved detectability, but at the cost of 10 heat per round.",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "ToHitThisActor",
-            "operation": "Float_Add",
-            "modValue": "2.0",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "Gear_Sensor_Stealth_SensorLock",
-            "Name": "sens",
-            "Details": "sens",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "SensorLockDefense",
-            "operation": "Float_Add",
-            "modValue": "10.0",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "Gear_Sensor_Stealth_ESensorDecrease",
-            "Name": "sens",
-            "Details": "sens",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "SensorSignatureModifier",
-            "operation": "Float_Multiply",
-            "modValue": "-0.5",
-            "modType": "System.Single"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "Gear_Sensor_Stealth_Heat",
-            "Name": "sens",
-            "Details": "sens",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "HeatSinkCapacity",
-            "operation": "Int_Add",
-            "modValue": "-10",
-            "modType": "System.Int32"
-          }
-        },
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "effectTargetType": "Creator",
-            "forcePathRebuild": true,
-            "forceVisRebuild": true,
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "Gear_Sensor_Stealth_Ghost",
-            "Name": "sens",
-            "Details": "sens",
-            "Icon": "uixSvgIcon_status_ECM-missileDef"
-          },
-          "nature": "Buff",
-          "statisticData": {
-            "statName": "GhostEffectStacks",
-            "operation": "Int_Add",
-            "modValue": "1",
-            "modType": "System.Int32"
-          }
-        }
-      ]
-    }
   }
 }

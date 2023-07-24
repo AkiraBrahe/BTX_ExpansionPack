@@ -24,8 +24,7 @@
   "AllowedLocations": "Torso, Legs",
   "DisallowedLocations": "Head, Arms",
   "CriticalComponent": false,
-  "statusEffects": [
-  ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "component_type_stock",

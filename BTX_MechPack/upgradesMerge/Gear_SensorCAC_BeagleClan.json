@@ -61,7 +61,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-FreeLock",
+        "Id": "StatusEffect-FreeSensorLock",
         "Name": "FREE SENSOR LOCK",
         "Details": "freelock",
         "Icon": "uixSvgIcon_status_ECM-missileDef"

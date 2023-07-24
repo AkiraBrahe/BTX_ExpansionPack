@@ -1,36 +1,9 @@
 {
-  "StatName": null,
-  "RelativeModifier": 0,
-  "AbsoluteModifier": 0,
-  "Description": {
-    "Cost": 7500000,
-    "Rarity": 99,
-    "Purchasable": false,
-    "Manufacturer": "Word of Blake",
-    "Model": "VDNI",
-    "UIName": "Direct Neural Interface",
-    "Id": "Gear_Cockpit_Vehicular_DirectNeuralInterface",
-    "Name": "Direct Neural Interface",
-    "Details": "The Vehicular Direct Neural Interface is a type of cybernetic implant developed specifically for the Manei Domini. It allows MechWarriors to \"become one\" with their BattleMechs, similar to the Clans' Enhanced Imaging system, but without its short-term negative effects when the proper chemical agent is ingested. Without it, however, the pilot suffers from prolonged use of the neural implant during combat.",
-    "Icon": "UixSvgIcon_specialEquip_System"
-  },
-  "BonusValueA": "+ 2 Evasion, Accuracy Arms & Hit Defense,",
-  "BonusValueB": "+ 1 Initiative, +5% Injury Chance/Turn",
-  "ComponentType": "Upgrade",
-  "ComponentSubType": "NotSet",
-  "PrefabIdentifier": "",
-  "BattleValue": 0,
-  "InventorySize": 1,
-  "Tonnage": 1,
-  "AllowedLocations": "Head",
-  "DisallowedLocations": "All",
-  "CriticalComponent": false,
-  "statusEffects": [],
   "Custom": {
     "ActivatableComponent": {
       "ButtonName": "Direct Neural Interface",
       "CanActivateAfterMove": false,
-      "CanActivateAfterFire": true,
+      "CanActivateAfterFire": false,
       "FailFlatChance": 0.0,
       "FailRoundsStart": 2,
       "FailChancePerTurn": 0.05,
@@ -145,7 +118,7 @@
           "Description": {
             "Id": "StatusEffect-VDNI-ToHit",
             "Name": "DIRECT NEURAL INTERFACE",
-            "Details": "Arm mounted weapons have +2 accuracy.",
+            "Details": "Arm-mounted weapons have +2 accuracy.",
             "Icon": "uixSvgIcon_equipment_TTS"
           },
           "nature": "Buff",
@@ -195,6 +168,33 @@
       ]
     }
   },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 7500000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Word of Blake",
+    "Model": "VDNI",
+    "UIName": "Direct Neural Interface",
+    "Id": "Gear_Cockpit_Vehicular_DirectNeuralInterface",
+    "Name": "Direct Neural Interface",
+    "Details": "The Vehicular Direct Neural Interface is a type of cybernetic implant developed specifically for the Manei Domini. It allows MechWarriors to \"become one\" with their BattleMechs, similar to the Clans' Enhanced Imaging system, but without its short-term negative effects when the proper chemical agent is ingested. Without it, however, the pilot suffers from prolonged use of the neural implant during combat.",
+    "Icon": "UixSvgIcon_specialEquip_System"
+  },
+  "BonusValueA": "+ 2 Evasion, Accuracy Arms & Hit Defense,",
+  "BonusValueB": "+ 1 Initiative, +5% Injury Chance/Turn",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "BUILT-IN",
