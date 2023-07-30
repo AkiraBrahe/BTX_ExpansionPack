@@ -14,7 +14,4 @@ Ammo_AmmunitionBox_Generic_SBGAUSS,AmmunitionBox,1,1
 Ammo_AmmunitionBox_Generic_RAILGUN,AmmunitionBox,1,2
 Ammo_AmmunitionBox_Generic_ArrowIV,AmmunitionBox,1,2
 Ammo_AmmunitionBox_Generic_LRM_Swarm,AmmunitionBox,1,1
-Ammo_AmmunitionBox_Generic_AC2_AP,AmmunitionBox,1,1
-Ammo_AmmunitionBox_Generic_AC5_AP,AmmunitionBox,1,1
-Ammo_AmmunitionBox_Generic_AC10_AP,AmmunitionBox,1,1
-Ammo_AmmunitionBox_Generic_AC20_AP,AmmunitionBox,1,1
+itemCollection_SpecialAmmo_ArmorPiercing,Reference,1,3

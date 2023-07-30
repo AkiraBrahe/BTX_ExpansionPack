@@ -18,13 +18,7 @@ Ammo_AmmunitionBox_Generic_LGAUSS,AmmunitionBox,1,1
 Ammo_AmmunitionBox_Generic_RAILGUN,AmmunitionBox,1,2
 Ammo_AmmunitionBox_Generic_ArrowIV,AmmunitionBox,1,2
 Ammo_AmmunitionBox_Generic_LRM_Swarm,AmmunitionBox,1,5
-Ammo_AmmunitionBox_Generic_AC2_AP,AmmunitionBox,1,2
-Ammo_AmmunitionBox_Generic_AC5_AP,AmmunitionBox,1,2
-Ammo_AmmunitionBox_Generic_AC10_AP,AmmunitionBox,1,2
-Ammo_AmmunitionBox_Generic_AC20_AP,AmmunitionBox,1,2
-Ammo_AmmunitionBox_Generic_AC2_Precision,AmmunitionBox,1,2
-Ammo_AmmunitionBox_Generic_AC5_Precision,AmmunitionBox,1,2
-Ammo_AmmunitionBox_Generic_AC10_Precision,AmmunitionBox,1,2
-Ammo_AmmunitionBox_Generic_AC20_Precision,AmmunitionBox,1,2
+itemCollection_SpecialAmmo_ArmorPiercing,Reference,1,5
+itemCollection_SpecialAmmo_Precision,Reference,1,5
 Ammo_AmmunitionBox_Generic_RAC2,AmmunitionBox,1,5
 Ammo_AmmunitionBox_Generic_RAC5,AmmunitionBox,1,5
