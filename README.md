@@ -12,7 +12,7 @@ Add new 'Mech variants and any new equipment they come with. All 'Mechs are port
 - Update the CAB, as the mod uses the most recent models
 - Extract BTX_MechPack archive to the mods folder, overwriting when prompted
 - (Optional) Enable DHS Changes if you want all DHS in the engine to have 6 heatsinking.<br />To enable the mod, set "Enabled" to true in the mod.json of the mod.
-- (Optional) Enable Shell Shuffler if you want the AI to use different ammo types at random.<br />To enable the mod, remove the date part from one the two mod.son in the mod folder
+- (Optional) Enable Shell Shuffler if you want the AI to use different ammo types at random.<br />To enable the mod, remove the date part from one the two mod.json in the mod folder
 
 The new 'Mechs are fielded by the factions that should have them according to the lore, while the Heavy Metal crate contains one of the nine Hero 'Mechs added by the mod. All 'Mechs can also be added through Fell Off A Cargo Ship or a save editor.
 
@@ -224,60 +224,60 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 <details>
   <summary>Buyable (by Type/Intro)</summary>
 
-| Name                      |   Type    | Intro | Factions                    |
-| :------------------------ | :-------: | :---: | :-------------------------- |
-| Magshot                   | Ballistic | 3059  | Steiner                     |
-| Hyper-Velocity AC (HVAC)  | Ballistic | 3059  | Liao                        |
-| Rotary AC (RAC)           | Ballistic | 3060  | Davion                      |
-| Light AC (LAC)            | Ballistic | 3062  | Davion                      |
-|  ----                     |           |       |                             |
-| Rail Gun                  |  Energy   | 3051  | Marik                       |
-| Plasma Rifle              |  Energy   | 3061  | Liao                        |
-| Heavy PPC                 |  Energy   | 3062  | Kurita                      |
-| Light PPC                 |  Energy   | 3064  | Kurita                      |
-| Bombast Laser             |  Energy   | 3064  | Steiner                     |
-|  ----                     |           |       |                             |
-| Bomb Bay²                 |  Missile  | 2680  | *LosTech*                   |
-| Arrow IV                  |  Missile  | 3044  | Liao<br />All (3049+)       |
-| Thunderbolt               |  Missile  | 3052  | Davion<br />Steiner (3052+) |
-| Extended LRM (ELRM)       |  Missile  | 3054  | Steiner<br />Davion (3054+) |
-| Enhanced LRM (NLRM)       |  Missile  | 3058  | Davion                      |
-|  ----                     |           |       |                             |
-| Heavy Flamer              |  Support  | 3063  | Steiner                     |
-| Heavy Machine Gun         |  Support  | 3063  | Calderon                    |
-| Light Machine Gun         |  Support  | 3064  | Liao                        |
-|  ----                     |           |       |                             |
-| Swarm Missile             |   Ammo    | 3049  | Davion<br />All (3058+)     |
-| Swarm-I Missile           |   Ammo    | 3052  | Marik                       |
-| Inferno-IV Missile        |   Ammo    | 3053  | Liao                        |
-| Thunder-Inferno Missile   |   Ammo    | 3054  | Liao                        |
-| Armor-Piercing Ammo       |   Ammo    | 3055  | Davion<br />Steiner (3055+) |
-| Precision Ammo            |   Ammo    | 3058  | Davion                      |
-|  ----                     |           |       |                             |
-| Laser Anti-Missile System |  Upgrade  | 3057  | Davion                      |
-| Bloodhound Active Probe   |  Upgrade  | 3058  | *Black Market*              |
-
+| Name                              |   Type    | Intro | Factions                    |
+| :-------------------------------- | :-------: | :---: | :-------------------------- |
+| Magshot                           | Ballistic | 3059  | Steiner                     |
+| Hyper-Velocity AC (HVAC)          | Ballistic | 3059  | Liao                        |
+| Rotary AC (RAC)                   | Ballistic | 3060  | Davion                      |
+| Light AC (LAC)                    | Ballistic | 3062  | Davion                      |
+|  ----                             |           |       |                             |
+| Rail Gun                          |  Energy   | 3051  | Marik                       |
+| Plasma Rifle                      |  Energy   | 3061  | Liao                        |
+| Heavy PPC                         |  Energy   | 3062  | Kurita                      |
+| Light PPC                         |  Energy   | 3064  | Kurita                      |
+| Bombast Laser                     |  Energy   | 3064  | Steiner                     |
+|  ----                             |           |       |                             |
+| Bomb Bay²                         |  Missile  | 2680  | *LosTech*                   |
+| Arrow IV                          |  Missile  | 3044  | Liao<br />All (3049+)       |
+| Thunderbolt                       |  Missile  | 3052  | Davion<br />Steiner (3052+) |
+| Extended LRM (ELRM)               |  Missile  | 3054  | Steiner<br />Davion (3054+) |
+| Enhanced LRM (NLRM)               |  Missile  | 3058  | Davion                      |
+|  ----                             |           |       |                             |
+| Heavy Flamer                      |  Support  | 3063  | Steiner                     |
+| Heavy Machine Gun                 |  Support  | 3063  | Calderon                    |
+| Light Machine Gun                 |  Support  | 3064  | Liao                        |
+|  ----                             |           |       |                             |
+| Swarm Missile                     |   Ammo    | 3049  | Davion<br />All (3058+)     |
+| Swarm-I Missile                   |   Ammo    | 3052  | Marik                       |
+| Inferno-IV Missile                |   Ammo    | 3053  | Liao                        |
+| Thunder-Inferno Missile           |   Ammo    | 3054  | Liao                        |
+| Armor-Piercing Ammo               |   Ammo    | 3055  | Davion<br />Steiner (3055+) |
+| Precision Ammo                    |   Ammo    | 3058  | Davion                      |
+|  ----                             |           |       |                             |
+| Targeting Computer                |  Upgrade  | 3052  | *Research*                  |
+| Laser Anti-Missile System         |  Upgrade  | 3059  | Davion                      |
+| Blue Shield Particle Field Damper |  Upgrade  | 3061  | Davion                      |
+| Bloodhound Active Probe           |  Upgrade  | 3058  | *Black Market*              |
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs.
 </details>
 
 <details>
   <summary>Unique (by Type)</summary>
 
-| Name                      | Exclusive to                                       |
-| :------------------------ | :------------------------------------------------- |
-| Katana                    | Hatamoto-Chi 'Shin'                                |
-| Mining Drill              | Gulon                                              |
-| Spikes                    | Bombard                                            |
-| Vibroblade                | Assassin 'Servitor'<br />Black Knight 'Red Reaper' |
-| Large Shield              | Black Knight 'Red Reaper'                          |
-|  ----                     |                                                    |
-| Direct Neural Interface   | Prometheus<br />Black Heart                        |
-| Light Active Probe        | Vulture (Mad Dog) 'Fury'                           |
-|  ----                     |                                                    |
-| Composite Chassis         | Zeus-X                                             |
-| Light Ferro-Fibrous Armor | Black Knight 'Red Reaper'                          |
-| Reactive Armor            | Zeus-X                                             |
-| Stealth Armor             | Sha Yu<br />Anubis                                 |
+| Name                                  | Exclusive to                                |
+| :------------------------------------ | :------------------------------------------ |
+| Katana                                | Hatamoto-Chi 'Shin'                         |
+| Mining Drill                          | Gulon                                       |
+| Spikes                                | Bombard                                     |
+| Small Vibroblade                      | Assassin 'Servitor'                         |
+| Large Vibroblade<br />Large Shield    | Black Knight 'Red Reaper'                   |
+|  ----                                 |                                             |
+| Direct Neural Interface               | Prometheus<br />Black Heart                 |
+| Light Active Probe                    | Vulture (Mad Dog) 'Fury'                    |
+|  ----                                 |                                             |
+| Composite Chassis<br />Reactive Armor | Zeus-X                                      |
+| Light Ferro-Fibrous Armor             | Black Knight 'Red Reaper'                   |
+| Stealth Armor                         | Sha Yu<br />Anubis                          |
 </details>
 
 ### Other Changes
