@@ -258,6 +258,7 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Laser Anti-Missile System         |  Upgrade  | 3059  | Davion                      |
 | Blue Shield Particle Field Damper |  Upgrade  | 3061  | Davion                      |
 | Bloodhound Active Probe           |  Upgrade  | 3058  | *Black Market*              |
+
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs.
 </details>
 
