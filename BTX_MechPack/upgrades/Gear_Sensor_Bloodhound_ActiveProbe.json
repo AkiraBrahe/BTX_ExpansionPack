@@ -87,7 +87,7 @@
       "Description": {
         "Id": "StatusEffect-FreeSensorLock",
         "Name": "FREE SENSOR LOCK",
-        "Details": "freelock",
+        "Details": "Allows the unit to use Sensor Lock without ending their turn.",
         "Icon": "uixSvgIcon_status_ECM-missileDef"
       },
       "nature": "Buff",
