@@ -11,7 +11,7 @@
   ],
   "AmmoCategory": "HVAC5",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 6,
+  "HeatGenerated": 8,
   "Damage": 45,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,

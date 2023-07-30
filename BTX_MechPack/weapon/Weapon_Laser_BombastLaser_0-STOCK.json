@@ -11,14 +11,14 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 30,
+  "HeatGenerated": 36,
   "Damage": 60,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
   "DamageVariance": 0,
   "HeatDamage": 0,
-  "AccuracyModifier": -1,
+  "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -33,7 +33,7 @@
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "Arcturan Arms",
-    "Model": "Heavy Laser",
+    "Model": "Heavy Large Laser",
     "UIName": "Bombast Laser",
     "Id": "Weapon_Laser_BombastLaser_0-STOCK",
     "Name": "Bombast Laser",
@@ -66,46 +66,52 @@
       "UIName": "Minimal",
       "Name": "Minimal Power",
       "Description": "Fires a laser with minimal power, comparable to a Large Laser.",
-      "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
       "isBaseMode": false,
       "HeatGenerated": -12,
-      "Damage": -24
+      "DamagePerShot": -24,
+      "AccuracyModifier": -1,
+      "ColorChangeRule": "None"
     },
     {
       "Id": "LASER_HALF",
       "UIName": "Half",
       "Name": "Half Power",
       "Description": "Fires a laser at half power, generating more heat.",
-      "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
       "isBaseMode": false,
       "HeatGenerated": -6,
-      "Damage": -12,
-      "ColorsTable": [
-        {
-          "C": "Indigo",
-          "I": 5
-        }
-      ]
+      "DamagePerShot": -12,
+      "AccuracyModifier": 0,
+      "ColorChangeRule": "t0"
     },
     {
       "Id": "LASER_FULL",
       "UIName": "Full",
       "Name": "Full Power",
       "Description": "Fires a laser at full power, generating a lot of heat.",
-      "WeaponEffectID": "WeaponEffect-Weapon_COILS",
-      "preFireSFX": "ion_cannon_example",
       "isBaseMode": true,
       "HeatGenerated": 0,
-      "Damage": 0,
+      "DamagePerShot": 0,
       "CriticalChanceMultiplier": 1.5,
-      "AttackRecoil": 1,
+      "AccuracyModifier": 1,
       "RefireModifier": 1,
-      "ColorsTable": [
-        {
-          "C": "Purple",
-          "I": 5
-        }
-      ]
+      "AttackRecoil": 1,
+      "ColorChangeRule": "Linear"
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorsTable": [
+    {
+      "C": "#87CEEB",
+      "I": 5
+    },
+    {
+      "C": "#4000C0",
+      "I": 5
+    },
+    {
+      "C": "#6A5ACD",
+      "I": 5
     }
   ]
 }
