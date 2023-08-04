@@ -8,7 +8,7 @@ A BattleTech Extended mod that adds over a hundred new 'Mech variants, as well a
 
 ⚠️ Delete the previous version of the mod before updating. Some files have been renamed for consistency.
 
-- Install the latest version of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C
+- Install the latest non-beta version of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C
 - Update the CAB, as the mod uses the most recent models
 - Extract BTX_MechPack archive to the mods folder, overwriting when prompted
 - (Optional) Enable DHS Changes if you want all DHS in the engine to have 6 heatsinking.<br />To enable the mod, set "Enabled" to true in the mod.json of the mod.
