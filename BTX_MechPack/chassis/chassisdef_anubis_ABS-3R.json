@@ -248,7 +248,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_StealthArmor_1_Slot",
+      "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
