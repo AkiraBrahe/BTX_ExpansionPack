@@ -1,6 +1,6 @@
 # BTX Mech Pack
 
-Add new 'Mech variants and any new equipment they come with. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.
+A BattleTech Extended mod that adds over a hundred new 'Mech variants, as well as new weapons and upgrades from the 3050s to the early 3060s. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.
 
 ## Installation / Usage
 
@@ -72,18 +72,18 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Buccaneer BCN-3R                   |   Medium   |  55  | Inner Sphere | 3055  | Marik, Word of Blake                                                           |
 | Champion LAM CPN-1X1               |   Heavy    |  60  | Inner Sphere | 2699  | Word of Blake                                                                  |
 | Cossack C-SK1                      |   Light    |  20  | Inner Sphere | 3060  | St. Ives Compact                                                               |
+| Coyotl Prime                       |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                                              |
 | Coyotl A                           |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                                              |
 | Coyotl B                           |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                                              |
-| Coyotl Prime                       |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                                              |
 | Dragoon AEM-01                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                                        |
 | Dragoon AEM-02                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                                        |
 | Dragoon AEM-03                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                                        |
 | Dragoon AEM-04                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                                        |
+| Fire Falcon Prime                  |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Fire Falcon A                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Fire Falcon B                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Fire Falcon C                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Fire Falcon D                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                                               |
-| Fire Falcon Prime                  |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Fox CS-1                           |   Medium   |  50  |  Mixed-tech  | 2824  | Clan Ghost Bear                                                                |
 | Fox CS-C                           |   Medium   |  50  |     Clan     | 2835  | Clan Ghost Bear                                                                |
 | Grand Crusader GRN-D-01            |  Assault   |  80  | Inner Sphere | 3053  | Word of Blake                                                                  |
@@ -95,11 +95,11 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Hammer HMR-3S 'Slammer'            |   Light    |  30  | Inner Sphere | 3054  | Marik, Word of Blake                                                           |
 | Hellfire 1                         |   Heavy    |  60  |     Clan     | 3058  | Clan Steel Viper                                                               |
 | Hybrid Rifleman RFL-SND 'Sneede'   |   Heavy    |  60  | Inner Sphere | 3025  | **Heavy Metal Crate**                                                          |
+| Iron Cheetah Prime                 |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
 | Iron Cheetah A                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
 | Iron Cheetah B                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
 | Iron Cheetah C                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
 | Iron Cheetah D                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
-| Iron Cheetah Prime                 |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                                              |
 | Jackrabbit JKR-8T                  |   Light    |  25  | Inner Sphere | 2765  | ComStar                                                                        |
 | JagerMech III JM6-D3               |   Heavy    |  65  | Inner Sphere | 3058  | Davion                                                                         |
 | Juggernaut JG-R9T1                 |  Assault   |  90  | Inner Sphere | 3053  | Steiner                                                                        |
@@ -109,18 +109,18 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Lao Hu LHU-3B                      |   Heavy    |  75  | Inner Sphere | 3063  | Liao                                                                           |
 | Lineholder KW1-LH2                 |   Medium   |  55  | Inner Sphere | 3058  | Inner Sphere                                                                   |
 | Lineholder KW1-LH3                 |   Medium   |  55  | Inner Sphere | 3059  | Inner Sphere                                                                   |
+| Lupus Prime                        |   Heavy    |  60  |     Clan     | 2857  | Clan Steel Viper                                                               |
 | Lupus A                            |   Heavy    |  60  |     Clan     | 2857  | Clan Steel Viper                                                               |
 | Lupus B                            |   Heavy    |  60  |     Clan     | 2857  | Clan Steel Viper                                                               |
-| Lupus Prime                        |   Heavy    |  60  |     Clan     | 2857  | Clan Steel Viper                                                               |
 | Mad Cat Mk II                      |  Assault   |  90  |     Clan     | 3062  | Clan Diamond Shark                                                             |
 | Mantis MTS-S                       |   Light    |  30  | Inner Sphere | 3061  | Steiner                                                                        |
 | Matar SAM-RS2                      | Superheavy | 110  | Inner Sphere | 2775  | ComStar (3036+)                                                                |
 | Mercury II MCY-100                 |   Medium   |  40  |  Mixed-tech  | 2823  | ComStar/Word of Blake                                                          |
+| Naga Prime                         |  Assault   |  80  |     Clan     | 2945  | Clans                                                                          |
 | Naga A                             |  Assault   |  80  |     Clan     | 2869  | Clans                                                                          |
 | Naga B                             |  Assault   |  80  |     Clan     | 2869  | Clans                                                                          |
 | Naga C                             |  Assault   |  80  |     Clan     | 2869  | Clans                                                                          |
 | Naga D                             |  Assault   |  80  |     Clan     | 2869  | Clans                                                                          |
-| Naga Prime                         |  Assault   |  80  |     Clan     | 2945  | Clans                                                                          |
 | Nightsky NGS-4S                    |   Medium   |  50  | Inner Sphere | 3053  | Steiner-Davion                                                                 |
 | Nightsky NGS-4T                    |   Medium   |  50  | Inner Sphere | 3056  | Steiner-Davion                                                                 |
 | Nightsky NGS-5S                    |   Medium   |  50  | Inner Sphere | 3056  | Steiner-Davion                                                                 |
@@ -129,11 +129,11 @@ The mod currently includes 51 new BattleMechs and 158 new 'Mech variants. Once c
 | Peregrine (Horned Owl) 1           |   Light    |  35  |     Clan     | 2835  | Clans                                                                          |
 | Peregrine (Horned Owl) 2           |   Light    |  35  |     Clan     | 2856  | Clans                                                                          |
 | Peregrine (Horned Owl) 3           |   Light    |  35  |     Clan     | 3061  | Clans                                                                          |
+| Phantom Prime                      |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Phantom A                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Phantom B                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Phantom C                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Phantom D                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
-| Phantom Prime                      |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                                               |
 | Phoenix Hawk IIC 1                 |  Assault   |  80  |     Clan     | 2851  | Clans                                                                          |
 | Phoenix Hawk IIC 2                 |  Assault   |  80  |     Clan     | 2852  | Clans                                                                          |
 | Phoenix Hawk IIC 3                 |  Assault   |  80  |     Clan     | 3062  | Clans                                                                          |
