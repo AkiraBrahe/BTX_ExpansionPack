@@ -1,9 +1,9 @@
 {
   "Description": {
-    "Id": "Ammunition_AC10_Precision ",
+    "Id": "Ammunition_AC10_Precision",
     "Name": "Precision AC/10 Ammo",
     "UIName": "Precision Ammo",
-    "Details": "Precision rounds, suitable for long range fire in an AC/10.",
+    "Details": "Large caliber precision rounds capable of dealing heavy damage, and designed to be used in an AC/10.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

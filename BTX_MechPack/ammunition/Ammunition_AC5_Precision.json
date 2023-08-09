@@ -1,9 +1,9 @@
 {
   "Description": {
-    "Id": "Ammunition_AC5_Precision ",
+    "Id": "Ammunition_AC5_Precision",
     "Name": "Precision AC/5 Ammo",
     "UIName": "Precision Ammo",
-    "Details": "Precision rounds, suitable for long range fire in an AC/5.",
+    "Details": "Moderate caliber precision rounds, suitable for long range fire in an AC/5.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

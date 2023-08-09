@@ -13,7 +13,7 @@
     "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nArmor-piercing rounds rely on improved anti-armor warheads to punch through armor and damage internal systems, at the expense of being heavier and reducing the weapon's accuracy. Armor-Piercing AC/10 Ammo Bins contain only 5 rounds and can only be used in standard and light autocannons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
-  "BonusValueA": "20 AP Dmg., - 1 Acc.",
+  "BonusValueA": "12 AP Dmg., - 1 Acc.",
   "BonusValueB": "Can Crit Through Armor",
   "ComponentType": "AmmunitionBox",
   "ComponentSubType": "Ammunition",
@@ -29,7 +29,7 @@
   "ComponentTags": {
     "items": [
       "component_type_variant",
-      "component_type_variant1",
+      "component_type_variant2",
       "component_type_lostech"
     ],
     "tagSetSourceFile": ""
