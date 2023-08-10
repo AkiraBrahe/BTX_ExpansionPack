@@ -92,7 +92,8 @@
       "component_type_clan",
       "component_type_lostech",
       "range_extreme",
-      "BLACKLISTED"
+      "BLACKLISTED",
+      "ppc_capacitor_attachable"
     ],
     "tagSetSourceFile": ""
   }

@@ -2,37 +2,36 @@
   "Name": "ShellShuffler",
   "Enabled": true,
   "Version": "1.0.1.0",
+
   "Description": "Shamelessly Shuffles Shells for Shooting Shenanigans",
   "Author": "T-Bone",
   "Website": "https://github.com/ajkroeg/ShellShuffler",
+
   "ConflictsWith": [],
   "CustomResourceTypes": [],
+
   "DLL": "ShellShuffler.dll",
+
   "Settings": {
     "enableLogging": true,
     "shuffleMechs": true,
     "shuffleVehicles": true,
-    "shuffleTurrets": true,
+    "shuffleTurrets": false,
     "tagSetsUnion": true,
     "chanceToShuffle": 0.5,
     "unShuffledBins": 0,
+    "unitBlackList": [
+        "unit_noshuffle"
+    ],
     "blackListShuffleIn": [
       "Ammunition_SRM",
       "Ammunition_SRM_DF"
     ],
     "blackListShuffleOut": [
       "Ammunition_AC2",
-      "Ammunition_AC2_AP",
-      "Ammunition_AC2_Precision",
       "Ammunition_AC5",
-      "Ammunition_AC5_AP",
-      "Ammunition_AC5_Precision",
       "Ammunition_AC10",
-      "Ammunition_AC10_AP",
-      "Ammunition_AC10_Precision",
       "Ammunition_AC20",
-      "Ammunition_AC20_AP",
-      "Ammunition_AC20_Precision",
       "Ammunition_ATM",
       "Ammunition_ATM_ER",
       "Ammunition_ATM_HE",
@@ -54,15 +53,19 @@
     "ammoWeight": {
       "Ammunition_AC2": 1,
       "Ammunition_AC2_AP": 1,
+      "Ammunition_AC2_Flak": 1,
       "Ammunition_AC2_Precision": 1,
       "Ammunition_AC5": 1,
       "Ammunition_AC5_AP": 1,
+      "Ammunition_AC5_Flak": 1,
       "Ammunition_AC5_Precision": 1,
       "Ammunition_AC10": 1,
       "Ammunition_AC10_AP": 1,
+      "Ammunition_AC10_Flak": 1,
       "Ammunition_AC10_Precision": 1,
       "Ammunition_AC20": 1,
       "Ammunition_AC20_AP": 1,
+      "Ammunition_AC20_Flak": 1,
       "Ammunition_AC20_Precision": 1,
       "Ammunition_ATM": 1,
       "Ammunition_ATM_ER": 1,

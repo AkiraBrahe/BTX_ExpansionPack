@@ -90,7 +90,8 @@
     "items": [
       "component_stock",
       "component_type_lostech",
-      "range_extreme"
+      "range_extreme",
+      "ppc_capacitor_attachable"
     ],
     "tagSetSourceFile": ""
   }

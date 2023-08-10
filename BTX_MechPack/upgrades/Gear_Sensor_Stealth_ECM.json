@@ -13,7 +13,7 @@
         {
           "durationData": {
             "duration": -1,
-            "stackLimit": 1
+            "stackLimit": -1
           },
           "targetingData": {
             "effectTriggerType": "Passive",
@@ -24,7 +24,7 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "Gear_Sensor_Stealth_ToHit",
-            "Name": "Stealth Armor",
+            "Name": "STEALTH ARMOR",
             "Details": "Units with active Stealth Armor gain +[AMT] Difficulty to attacks against them, immunity to Sensor Locks, halved detectability, but at the cost of 10 heat per round.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
@@ -39,7 +39,7 @@
         {
           "durationData": {
             "duration": -1,
-            "stackLimit": 1
+            "stackLimit": -1
           },
           "targetingData": {
             "effectTriggerType": "Passive",
@@ -50,8 +50,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "Gear_Sensor_Stealth_SensorLock",
-            "Name": "sens",
-            "Details": "sens",
+            "Name": "STEALTH ARMOR",
+            "Details": "Units with active Stealth Armor are immune to Sensor Locks.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",
@@ -65,7 +65,7 @@
         {
           "durationData": {
             "duration": -1,
-            "stackLimit": 1
+            "stackLimit": -1
           },
           "targetingData": {
             "effectTriggerType": "Passive",
@@ -76,8 +76,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "Gear_Sensor_Stealth_ESensorDecrease",
-            "Name": "sens",
-            "Details": "sens",
+            "Name": "STEALTH ARMOR",
+            "Details": "Units with active Stealth Armor have their detectability halved.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",
@@ -91,7 +91,7 @@
         {
           "durationData": {
             "duration": -1,
-            "stackLimit": 1
+            "stackLimit": -1
           },
           "targetingData": {
             "effectTriggerType": "Passive",
@@ -102,8 +102,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "Gear_Sensor_Stealth_Heat",
-            "Name": "sens",
-            "Details": "sens",
+            "Name": "STEALTH ARMOR",
+            "Details": "Units with active Stealth Armor generates 10 more heat per round.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",
@@ -117,7 +117,7 @@
         {
           "durationData": {
             "duration": -1,
-            "stackLimit": 1
+            "stackLimit": -1
           },
           "targetingData": {
             "effectTriggerType": "Passive",
@@ -130,8 +130,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "Gear_Sensor_Stealth_Ghost",
-            "Name": "sens",
-            "Details": "sens",
+            "Name": "STEALTH ARMOR",
+            "Details": "Units with active Stealth Armor cannot be targeted unless detected.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",
@@ -214,8 +214,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "Gear_SensorCAC_ECMAura_Indirect",
-            "Name": "",
-            "Details": "",
+            "Name": "ECM Affected",
+            "Details": "Friendly units within an ECM field are immune to indirect fire.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",
@@ -266,8 +266,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "Gear_SensorCAC_ECMAura_SensorLock",
-            "Name": "sens",
-            "Details": "sens",
+            "Name": "ECM Affected",
+            "Details": "Friendly units within an ECM field are immune to Sensor Locks.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",

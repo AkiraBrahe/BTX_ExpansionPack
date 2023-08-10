@@ -14,7 +14,7 @@
     "Details": "The Bloodhound Active Probe improves on the Beagle Active Probe's electronic warfare capabilities with its doubled range of 240 meters and its ability to penetrate advanced stealth systems.",
     "Icon": "UixSvgIcon_specialEquip_Sensors"
   },
-  "BonusValueA": "+ Free Sensor Lock, + Bypass Stealth",
+  "BonusValueA": "+ Directional Sensor Lock, + Bypass Stealth",
   "BonusValueB": "+ 240m Sensor Range",
   "ComponentType": "Upgrade",
   "ComponentSubType": "ElectronicWarfare",
@@ -37,7 +37,7 @@
       "Description": {
         "Id": "ActiveProbe_Ping",
         "Name": "ACTIVE PROBE PING",
-        "Details": "Activated ability. Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+        "Details": "Activated ability. Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold arc. Will go into cooldown state after use.",
         "Icon": "uixSvgIcon_action_sensorlock"
       },
       "activeAbilityEffectData": {
@@ -59,7 +59,7 @@
       "Description": {
         "Id": "StatusEffect-SensorIncrease",
         "Name": "IMPROVED SENSORS",
-        "Details": "Increases Sensor range by 240m.",
+        "Details": "Increases sensor range by 240m.",
         "Icon": "uixSvgIcon_status_ECM-missileDef"
       },
       "nature": "Buff",
@@ -76,32 +76,6 @@
       "durationData": {
         "duration": -1,
         "stackLimit": -1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "StatusEffect-FreeSensorLock",
-        "Name": "FREE SENSOR LOCK",
-        "Details": "Allows the unit to use Sensor Lock without ending their turn.",
-        "Icon": "uixSvgIcon_status_ECM-missileDef"
-      },
-      "nature": "Buff",
-      "statisticData": {
-        "statName": "FreeSensorLock",
-        "operation": "Set",
-        "modValue": "true",
-        "modType": "System.Boolean"
-      }
-    },
-    {
-      "durationData": {
-        "duration": -1,
-        "stackLimit": 1
       },
       "targetingData": {
         "effectTriggerType": "Passive",

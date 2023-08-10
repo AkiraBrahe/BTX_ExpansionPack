@@ -1,0 +1,25 @@
+{
+  "Id": "ppc_capacitor",
+  "autoTarget": true,
+  "installedLocationOnly": true,
+  "targetComponentTags": [
+    "ppc_capacitor_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "PPCMode_CAP_on",
+      "UIName": "CAP",
+      "Name": "PPC Capacitor ON",
+      "Description": "An active PPC Capacitor increases damage at the cost of increased heat generation and halved firing speed.",
+      "isBaseMode": false,
+      "DamagePerShot": 25,
+      "HeatGenerated": 15,
+      "Cooldown": 1,
+      "ProjectileScale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    }
+  ]
+}

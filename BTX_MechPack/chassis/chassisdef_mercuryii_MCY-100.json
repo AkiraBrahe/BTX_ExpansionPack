@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_mercuryii_MCY-100",
   "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_331genlight2",
-  "PrefabIdentifier": "chrprfmech_331genlight2base-001",
-  "PrefabBase": "331genlight2",
+  "HardpointDataDefID": "hardpointdatadef_hellfire",
+  "PrefabIdentifier": "chrprfmech_hellfirebase-001",
+  "PrefabBase": "hellfire",
   "Tonnage": 40,
   "InitialTonnage": 18.02,
   "weightClass": "MEDIUM",
@@ -189,6 +189,7 @@
   "VariantName": "MCY-100",
   "ChassisTags": {
     "items": [
+      "mr-resize-0.85-0.80-0.80",
       "chassis_DHS",
       "chassis_ferro",
       "mech_quirk_narrowlowprofile",

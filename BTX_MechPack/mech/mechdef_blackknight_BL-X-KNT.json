@@ -115,11 +115,20 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_PPC_HeavyPPC_2-Magna",
+      "ComponentDefID": "Weapon_PPC_HeavyPPC_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "PPCCapacitor0"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_PPCCapacitor",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "PPCCapacitor0"
     },
     {
       "MountedLocation": "RightTorso",

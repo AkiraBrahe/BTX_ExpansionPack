@@ -12,7 +12,7 @@
   "Type": "Normal",
   "Category": "LRM",
   "HeatGenerated": 0,
-  "DamageMultiplier": 1.25,
+  "DamageMultiplier": 1,
   "InstabilityMultiplier": 1,
   "HeatGeneratedModifier": 1,
   "ArmorDamageModifier": 1,
@@ -22,6 +22,7 @@
   "MinMissRadius": 5,
   "MaxMissRadius": 45,
   "SpreadRange": 90,
+  "IgnoreCover": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true
 }

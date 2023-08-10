@@ -81,8 +81,7 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-ECMAura-Indirect",
-            "Name": "",
-            "Details": "",
+            "Details": "Friendly units within an ECM field gain immunity to indirect fire.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",
@@ -133,8 +132,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-ECMAura-SensorLock",
-            "Name": "sens",
-            "Details": "sens",
+            "Name": "ECM Affected",
+            "Details": "Friendly units within an ECM field are immune to Sensor Locks.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",
@@ -151,15 +150,11 @@
       "Id": "Gear_Sensor_Angel_ECCMAura",
       "MinefieldDetector": false,
       "LineType": "Dashes",
-      "isSpining": false,
       "Name": "Angel ECCM",
       "ReticleColor": "cyan",
       "Range": 240,
-      "RangeStatistic": "",
       "RemoveOnSensorLock": true,
       "State": "Online",
-      "HideOnNotSelected": false,
-      "FloatieAtEndOfMove": true,
       "ApplySelf": false,
       "AllyStealthAffection": "None",
       "EnemyStealthAffection": "None",
@@ -167,13 +162,6 @@
       "IsNegativeToAlly": false,
       "IsNegativeToEnemy": true,
       "IsPositiveToEnemy": false,
-      "onlineVFX": [],
-      "targetVFX": [],
-      "removeTargetVFX": [],
-      "ownerSFX": [],
-      "targetSFX": [],
-      "removeOwnerSFX": [],
-      "removeTargetSFX": [],
       "statusEffects": [
         {
           "durationData": {
@@ -189,8 +177,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-ECCMAura-Indirect",
-            "Name": "",
-            "Details": "",
+            "Name": "ECCM Affected",
+            "Details": "Enemy units within an ECCM field lose their immunity to indirect fire.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",
@@ -241,8 +229,8 @@
           "effectType": "StatisticEffect",
           "Description": {
             "Id": "StatusEffect-ECCMAura-SensorLock",
-            "Name": "sens",
-            "Details": "sens",
+            "Name": "ECCM Affected",
+            "Details": "Enemy units within an ECCM field lose their resistance to Sensor Lock.",
             "Icon": "uixSvgIcon_status_ECM-missileDef"
           },
           "nature": "Buff",

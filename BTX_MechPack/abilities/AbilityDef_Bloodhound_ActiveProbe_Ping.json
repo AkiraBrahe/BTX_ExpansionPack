@@ -1,0 +1,16 @@
+{
+  "Description": {
+    "Id": "AbilityDef_Bloodhound_ActiveProbe_Ping",
+    "Name": "ACTIVE PROBE PING",
+    "Details": "ACTION: Perform a Sensor Lock on enemies within [IntParam1] meters in a 60 degrees arc, and generates [FloatParam2] Heat for the user. There is a [ActivationCooldown] round cooldown.",
+    "Icon": "uixSvgIcon_action_sensorlock"
+  },
+  "ActivationTime": "ConsumedByFiring",
+  "Targeting": "ActiveProbe",
+  "ActivationCooldown": 2,
+  "IntParam1": 300,
+  "StringParam2": "arc60",
+  "FloatParam1": 240.0,
+  "FloatParam2": 15.0,
+  "StringParam1": "Active Probe is unavailable."
+}
