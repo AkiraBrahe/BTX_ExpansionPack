@@ -35,7 +35,7 @@
       "Description": {
         "Id": "StatusEffect-SensorIncrease",
         "Name": "IMPROVED SENSORS",
-        "Details": "Increases Sensor range by 150m.",
+        "Details": "Increases sensor range by 150m.",
         "Icon": "uixSvgIcon_status_ECM-missileDef"
       },
       "nature": "Buff",

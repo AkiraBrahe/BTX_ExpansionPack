@@ -1,7 +1,7 @@
 {
   "JumpCapacity": 1,
-    "MinTonnage" : 60,
-    "MaxTonnage" : 85,
+  "MinTonnage": 60,
+  "MaxTonnage": 85,
   "Description": {
     "Cost": 0,
     "Rarity": 99,

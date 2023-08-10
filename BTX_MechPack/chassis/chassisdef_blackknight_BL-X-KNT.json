@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_redreaperbase-001",
   "PrefabBase": "redreaper",
   "Tonnage": 75,
-  "InitialTonnage": 26.72,
+  "InitialTonnage": 25.72,
   "weightClass": "HEAVY",
   "Heatsinks": 22,
   "TopSpeed": 54,

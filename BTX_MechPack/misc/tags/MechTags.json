@@ -3,16 +3,12 @@
 
     /* Type */
       "unit_mech",
-      "unit_vehicle",
-      "unit_turret",
   
     /* Class */
       "unit_light",
       "unit_medium",
       "unit_heavy",
       "unit_assault",
-      "unit_weaponless",
-      "unit_noncombatant",
   
     /* Roles */
       "unit_role_scout",
@@ -45,13 +41,7 @@
       "unit_indirectFire",
       "unit_jumpOK",
 
-      "unit_wheels",
-      "unit_tracks",
       "unit_urbie",
-
-      "unit_vehicle_apc",
-      "unit_vehicle_carrier",
-      "unit_vehicle_mobileHQ",
   
       "unit_common",
       "unit_release",
