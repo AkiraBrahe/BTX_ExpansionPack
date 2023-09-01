@@ -40,7 +40,6 @@ mechdef_raven_RVN-2X,0,3030-01-01T00:00:00Z,4,,3,,3,,3
 mechdef_wolfhound_WLF-1,0,3028-01-15T00:00:00Z,10,,23,,23,,23
 mechdef_wolfhound_WLF-1A,0,3028-03-15T00:00:00Z,4,,4,,4,,4
 mechdef_wolfhound_WLF-1B,0,3028-03-15T00:00:00Z,4,,4,,4,,4
-mechdef_osiris_OSR-3D,0,,0,,0,,0,3063-01-01T00:00:00Z,6
 Mediums,,,,,,,,,
 mechdef_clint_CLNT-2-4T,3,,3,,3,,3,,3
 mechdef_vulcan_VL-2T,16,,16,,15,,15,,15
@@ -84,10 +83,8 @@ mechdef_trebuchet_TBT-5N,16,,16,,15,,15,,15
 mechdef_phoenixhawk_PXH-3S,0,,0,3042-01-01T00:00:00Z,21,,21,,21
 mechdef_blackjack_BJ-3,0,,0,3042-01-01T00:00:00Z,6,,6,,6
 mechdef_griffin_GRF-1N,104,,101,,97,,97,,97
-mechdef_blitzkrieg_BTZ-3F,0,,0,,0,,0,,17
 mechdef_griffin_GRF-1DS,0,,0,3049-01-01T00:00:00Z,5,,5,,5
 mechdef_phoenixhawk_PXH-3D,0,,0,3048-01-01T00:00:00Z,8,,8,,8
-mechdef_assassinii_ASN-56,0,,0,,0,,0,3060-01-01T00:00:00Z,7
 mechdef_dervish_DV-7D,0,,0,3047-01-01T00:00:00Z,15,,15,,15
 Heavies,,,,,,,,,
 mechdef_jagermech_JM6-S,86,,81,,76,,76,,76
@@ -102,6 +99,7 @@ mechdef_ostroc_OSR-2C,30,,28,,27,,27,,27
 mechdef_thunderbolt_TDR-5D,30,,28,,27,,27,,27
 mechdef_ostroc_OSR-2L,4,,4,,4,,4,,4
 mechdef_quickdraw_QKD-4H,4,,4,,4,,4,,4
+mechdef_battleaxe_BKX-7NC,3,,3,,2,,2,,2
 mechdef_ostsol_OTL-4F,4,,4,,4,,4,,4
 mechdef_ostsol_OTL-4D,68,,65,,61,,61,,61
 mechdef_ostroc_OSR-3C,4,,4,,4,,4,,4
@@ -111,13 +109,16 @@ mechdef_warhammer_WHM-6K,12,,11,,11,,11,,11
 mechdef_cataphract_CTF-1X,0,3028-09-01T00:00:00Z,28,,27,,27,,27
 mechdef_crusader_CRD-3R,86,,81,,76,,76,,76
 mechdef_orion_ON1-VA,4,,4,,4,,4,,4
+mechdef_battleaxe_BKX-7K,3,,3,,2,,2,,2
 mechdef_thunderbolt_TDR-5S,43,,41,,38,,38,,38
 mechdef_archer_ARC-2W,3,,3,,3,,3,,3
 mechdef_crusader_CRD-3D,30,,28,,27,,27,,27
 mechdef_cataphract_CTF-2X,0,3028-09-01T00:00:00Z,4,,4,,4,,4
+mechdef_hammerhands_HMH-4D,3,,3,,2,,2,,2
 mechdef_marauder_MAD-3R,30,,28,,27,,27,,27
 mechdef_axman_AXM-1N,0,,0,3048-01-01T00:00:00Z,11,,11,,11
 mechdef_guillotine_GLT-4P,4,,4,,4,,4,,4
+mechdef_hammerhands_HMH-3D,3,,3,,2,,2,,2
 mechdef_catapult_CPLT-C1,4,,4,,4,,4,,4
 mechdef_guillotine_GLT-4L,21,,20,,19,,19,,19
 mechdef_grasshopper_GHR-5H,30,,28,,27,,27,,27
@@ -132,7 +133,6 @@ mechdef_archer_ARC-2R,83,,78,,73,,73,,73
 mechdef_grasshopper_GHR-5N,0,,0,3040-01-01T00:00:00Z,7,,7,,7
 mechdef_caesar_CES-3R,0,,0,3049-01-01T00:00:00Z,7,,7,,7
 mechdef_marauder_MAD-5D,0,,0,3047-01-01T00:00:00Z,7,,7,,7
-mechdef_thanatos_TNS-4S,0,,0,,0,,0,3061-01-01T00:00:00Z,12
 Assaults,,,,,,,,,
 mechdef_cyclops_CP-10-HQ,7,,7,,6,,6,,6
 mechdef_victor_VTR-9A,13,,13,,11,,11,,11

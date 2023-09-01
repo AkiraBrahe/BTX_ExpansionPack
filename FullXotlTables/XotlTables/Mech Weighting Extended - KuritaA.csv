@@ -112,6 +112,8 @@ mechdef_dervish_DV-6M,30,,23,,16,,0
 mechdef_shadowhawk_SHD-2K,59,,32,,32,,32
 mechdef_daimyo_DMO-1K,0,,0,3053-01-01T00:00:00Z,22,,26
 mechdef_daimyo_DMO-4K,0,,0,,0,3058-01-01T00:00:00Z,17
+mechdef_chimera_CMA-1S,0,,0,,0,3063-01-01T00:00:00Z,5
+mechdef_chimera_CMA-C,0,,0,,0,3063-01-01T00:00:00Z,5
 mechdef_kintaro_KTO-18,0,Jump:3039-01-01T00:00:00Z,32,,16,,4
 mechdef_blackjack_BJ2-OC,0,,0,,0,3057-01-01T00:00:00Z,12
 mechdef_firestarter_FS9-OX,0,,0,,0,3059-01-01T00:00:00Z,4
@@ -132,6 +134,7 @@ mechdef_strider_SR1-OR,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_trebuchet_TBT-7M,0,,0,3048-01-01T00:00:00Z,22,,22
 mechdef_kintaro_KTO-20,0,Jump:3039-01-01T00:00:00Z,32,,16,,1
 mechdef_phoenixhawk_PXH-3K,0,,0,3050-01-01T00:00:00Z,50,,56
+mechdef_komodo_KIM-3C,0,,0,,0,3064-01-01T00:00:00Z,16
 mechdef_bishamon_BSN-3K,0,,0,,0,3060-01-01T00:00:00Z,8
 mechdef_blackjack_BJ2-OD,0,,0,,0,3057-01-01T00:00:00Z,12
 mechdef_komodo_KIM-2A,0,,0,3053-01-01T00:00:00Z,16,,22
@@ -178,7 +181,7 @@ mechdef_archer_ARC-2K,86,,82,,53,,46
 mechdef_granddragon_DRG-5K,0,,0,3050-01-01T00:00:00Z,42,,46
 mechdef_marauder_MAD-3R,18,,40,,13,,5
 mechdef_grasshopper_GHR-C,0,,0,3052-01-01T00:00:00Z,13,,15
-mechdef_catapult_CPLT-C3,0,,0,,0,3055-01-01T00:00:00Z,4,,6
+mechdef_catapult_CPLT-C3,0,,0,3055-01-01T00:00:00Z,4,,7
 mechdef_guillotine_GLT-4P,3,,2,,0,,0
 mechdef_exterminator_EXT-4D,0,Jump:3039-01-01T00:00:00Z,7,,0,,0
 mechdef_avatar_AV1-O,0,,0,3056-01-01T00:00:00Z,19,,46
@@ -213,6 +216,7 @@ mechdef_jagermech_JM6-DG,0,,0,3054-01-01T00:00:00Z,13,,1
 mechdef_warhammer_WHM-7K,0,,0,3054-01-01T00:00:00Z,19,,26
 mechdef_jagermech_JM6-DGr,0,,0,,0,3058-01-01T00:00:00Z,13
 mechdef_gallowglas_GAL-1GLS,0,,0,3055-01-01T00:00:00Z,7,,11
+mechdef_granddragon_DRG-7K,0,,0,,0,3063-01-01T00:00:00Z,13
 mechdef_no-dachi_NDA-1K,0,,0,,0,3058-01-01T00:00:00Z,15
 mechdef_marauder_C,0,,0,3055-01-01T00:00:00Z,17,,6
 mechdef_catapult_CPLT-K2K,0,,0,,0,3058-01-01T00:00:00Z,15
@@ -224,7 +228,7 @@ mechdef_blackhawk-ku_BHKU-OA,0,,0,3055-01-01T00:00:00Z,13,,21
 mechdef_marauder_MAD-5D,0,,0,3047-01-01T00:00:00Z,26,,30
 mechdef_archer_C,0,,0,3055-01-01T00:00:00Z,3,,3
 mechdef_daikyu_DAI-02,0,,0,,0,3060-01-01T00:00:00Z,11
-mechdef_avatar_AV1-OR,0,,0,,0,3059-01-01T00:00:00Z,2
+mechdef_avatar_AV1-OR,0,,0,,0,3059-01-01T00:00:00Z,4
 mechdef_dragonfire_DGR-3F,0,,0,,0,3058-01-01T00:00:00Z,11
 mechdef_gallowglas_GAL-2GLS,0,,0,3055-01-01T00:00:00Z,5,,6
 mechdef_dragonfire_DGR-4F,0,,0,,0,3060-01-01T00:00:00Z,4
@@ -292,8 +296,10 @@ mechdef_sunder_SD1-OA,0,,0,3056-01-01T00:00:00Z,10,,23
 mechdef_atlas_AS7-CM,0,,0,3050-01-01T00:00:00Z,10,,12
 mechdef_hatamotochi_HTM-28T,0,,0,,0,3059-01-01T00:00:00Z,20
 mechdef_marauderII_MAD-4A,0,Jump:3028-05-25T00:00:00Z,3,,3,,3
+mechdef_charger_CGR-SA5,0,,0,,0,3063-01-01T00:00:00Z,19
 mechdef_atlas_AS7-C,0,,0,3050-01-01T00:00:00Z,18,,20
 mechdef_atlas_AS7-K,0,,0,3049-01-01T00:00:00Z,36,,39
+mechdef_akuma_AKU-1XJ,0,,0,,0,3064-01-01T00:00:00Z,14
 mechdef_highlander_HGN-732,0,Jump:3039-01-01T00:00:00Z,27,,6,,3
 mechdef_gunslinger_GUN-1ERD,0,,0,3053-01-01T00:00:00Z,36,,44
 mechdef_gunslinger_GUN-2ERD,0,,0,,0,3062-01-01T00:00:00Z,9

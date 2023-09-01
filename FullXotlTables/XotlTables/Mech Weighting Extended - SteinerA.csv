@@ -93,8 +93,11 @@ mechdef_hunchback_HBK-4J,5,,4,,4,,0,,0
 mechdef_firestarter_FS9-O,0,,0,,0,3056-01-01T00:00:00Z,9,,33
 mechdef_dervish_DV-6M,33,,43,,39,,31,,8
 mechdef_nightsky_NGS-4S,0,,0,,0,3053-01-01T00:00:00Z,31,,38
+mechdef_chimera_CMA-1S,0,,0,,0,,0,3063-01-01T00:00:00Z,13
+mechdef_chimera_CMA-C,0,,0,,0,,0,3063-01-01T00:00:00Z,2
 mechdef_blackjack_BJ2-OC,0,,0,,0,,0,3057-01-01T00:00:00Z,4
 mechdef_trebuchet_TBT-5N,33,,30,,27,,22,,5
+mechdef_hollanderii_BZK-F7,0,,0,,0,,0,3061-01-01T00:00:00Z,9
 mechdef_bushwacker_BSW-X2,0,,0,,0,3053-01-01T00:00:00Z,9,,11
 mechdef_blackjack_BJ2-O,0,,0,,0,,0,3057-01-01T00:00:00Z,9
 mechdef_hollanderii_BZK-F5,0,,0,,0,,0,3058-01-01T00:00:00Z,33
@@ -104,7 +107,7 @@ mechdef_chameleon_CLN-7W,0,,0,,0,,0,3058-01-01T00:00:00Z,3
 mechdef_enfield_END-6Q,0,,0,,0,3055-01-01T00:00:00Z,16,,25
 mechdef_griffin_GRF-1S,76,,69,,63,,31,,5
 mechdef_griffin_GRF-1N,246,,235,,129,,22,,3
-mechdef_blitzkrieg_BTZ-3F,0,,0,,0,,0,,23
+mechdef_blitzkrieg_BTZ-3F,0,,0,,0,,0,3061-01-01T00:00:00Z,37
 mechdef_griffin_GRF-1DS,0,,0,3049-01-01T00:00:00Z,27,,62,,61
 mechdef_nightsky_NGS-4T,0,,0,,0,3056-01-01T00:00:00Z,6,,14
 mechdef_bushwacker_BSW-S2,0,,0,,0,3056-01-01T00:00:00Z,9,,21
@@ -253,6 +256,7 @@ mechdef_hauptmann_HA1-O,0,,0,,0,,0,3060-01-01T00:00:00Z,5
 mechdef_hauptmann_HA1-OB,0,,0,,0,,0,3060-01-01T00:00:00Z,3
 mechdef_gunslinger_GUN-1ERD,0,,0,,0,3053-01-01T00:00:00Z,48,,58
 mechdef_hauptmann_HA1-OA,0,,0,,0,,0,3060-01-01T00:00:00Z,3
+mechdef_highlander_HGN-694,0,,0,,0,,0,3062-01-01T00:00:00Z,8
 mechdef_gunslinger_GUN-2ERD,0,,0,,0,,0,3062-01-01T00:00:00Z,12
 mechdef_thunderhawk_TDK-7KMA,0,,0,,0,,0,3059-01-01T00:00:00Z,8
 mechdef_devastator_DVS-3,0,,0,,0,,0,3058-01-01T00:00:00Z,10

@@ -128,7 +128,7 @@ mechdef_thunderbolt_TDR-5S,52,,52,Jump:3052-05-20T00:00:00Z,36,,32
 mechdef_catapult_CPLT-C4,5,,5,Jump:3052-05-20T00:00:00Z,3,,3
 mechdef_lancelot_LNC25-05,21,,21,Jump:3052-05-20T00:00:00Z,15,,13
 mechdef_grasshopper_GHR-C,0,,0,3052-01-01T00:00:00Z,11,,22
-mechdef_catapult_CPLT-C3,0,,0,3052-06-01T00:00:00Z,1,,1
+mechdef_catapult_CPLT-C3,0,,0,3052-06-01T00:00:00Z,7,,13
 mechdef_helepolis_HEP-3H,21,,21,Jump:3052-05-20T00:00:00Z,15,,13
 mechdef_exterminator_EXT-4D,16,,16,Jump:3052-05-20T00:00:00Z,11,,10
 mechdef_avatar_AV1-O,0,,0,3052-06-01T00:00:00Z,18,,29
@@ -178,6 +178,7 @@ mechdef_cestus_CTS-6Y,3,,3,3052-06-01T00:00:00Z,14,,22
 mechdef_dragoon_AEM-04,4,,4,Jump:3052-05-20T00:00:00Z,3,,3
 mechdef_warhammer_WHM-7CS,0,,0,,0,3052-01-01T00:00:00Z,19
 mechdef_flashman_FLS-8K,5,,5,Jump:3052-05-20T00:00:00Z,3,,3
+mechdef_flashman_FLS-9C,0,,0,,0,3061-01-01T00:00:00Z,2
 mechdef_wardog_WR-DG-02FC,0,,0,3052-06-01T00:00:00Z,9,,19
 mechdef_gallowglas_GAL-2GLS,0,,0,3055-01-01T00:00:00Z,4,,12
 mechdef_falconer_FLC-8R,0,,0,3053-01-01T00:00:00Z,17,,31

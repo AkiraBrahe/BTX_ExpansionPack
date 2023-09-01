@@ -55,6 +55,8 @@ mechdef_wolverine_WVR-6R,72,,72,,72,,72
 mechdef_hunchback_HBK-4P,4,,4,,4,,4
 mechdef_hunchback_HBK-4J,4,,4,,4,,4
 mechdef_dervish_DV-6M,45,,45,,45,,68
+mechdef_chimera_CMA-1S,0,,0,,0,3063-01-01T00:00:00Z,7
+mechdef_chimera_CMA-C,0,,0,,0,3063-01-01T00:00:00Z,1
 mechdef_trebuchet_TBT-5N,13,,13,,13,,23
 mechdef_lineholder_KW1-LH3,0,,0,,0,3059-01-01T00:00:00Z,11
 mechdef_phoenixhawk_PXH-3S,0,,0,3050-01-01T00:00:00Z,45,,65
@@ -125,3 +127,4 @@ mechdef_highlander_HGN-733,23,,23,,22,,22
 mechdef_highlander_HGN-733C,6,,6,,6,,6
 mechdef_highlander_HGN-733P,6,,6,,6,,6
 mechdef_atlas_AS7-D,52,,52,,51,,51
+mechdef_highlander_HGN-694,0,,0,,0,3062-01-01T00:00:00Z,4

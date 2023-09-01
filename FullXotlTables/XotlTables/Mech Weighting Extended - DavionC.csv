@@ -79,6 +79,8 @@ mechdef_crab_CRB-20,6,,6,,5
 mechdef_hunchback_HBK-4J,3,,3,,5
 mechdef_dervish_DV-6M,67,,67,,51
 mechdef_blackjack_BJ-2,0,3052-01-01T00:00:00Z,24,,23
+mechdef_chimera_CMA-1S,0,,0,3063-01-01T00:00:00Z,5
+mechdef_chimera_CMA-C,0,,0,3063-01-01T00:00:00Z,1
 mechdef_kintaro_KTO-18,17,,17,,13
 mechdef_trebuchet_TBT-5N,9,,9,,7
 mechdef_lineholder_KW1-LH3,0,,0,3059-01-01T00:00:00Z,6
@@ -93,6 +95,7 @@ mechdef_phoenixhawk_PXH-3D,6,,6,,15
 mechdef_assassinii_ASN-56,0,,0,3060-01-01T00:00:00Z,7
 mechdef_dervish_DV-7D,24,,24,,27
 mechdef_chameleon_CLN-7Z,0,,0,3058-01-01T00:00:00Z,4
+mechdef_dervish_DV-8D,0,,0,3062-01-01T00:00:00Z,8
 Heavies,,,,,
 mechdef_jagermech_JM6-S,68,,68,,69
 mechdef_jagermech_JM6-DD,17,,17,,14

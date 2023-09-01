@@ -48,6 +48,7 @@ mechdef_hatchetman_HCT-3X,3,,5,,5,,5,,5
 mechdef_jayhawker_JHR-X0,0,3027-11-18T00:00:00Z,4,,4,,0,,0
 mechdef_whitworth_WTH-1,13,,12,,12,,12,,12
 mechdef_trebuchet_TBT-5S,8,,8,,8,,8,,8
+mechdef_phoenix_PX-4R,2,,2,,2,,2,,2
 mechdef_wyvern_WVE-6N,8,,8,,8,,8,,8
 mechdef_enforcer_ENF-4R,13,,30,,30,,30,,30
 mechdef_hunchback_HBK-4G,33,,30,,30,,30,,30
@@ -58,6 +59,7 @@ mechdef_shadowhawk_SHD-2H,76,,69,,69,,69,,69
 mechdef_hunchback_HBK-4H,5,,4,,4,,4,,4
 mechdef_hunchback_HBK-4N,5,,4,,4,,4,,4
 mechdef_wolverine_WVR-6R,76,,69,,69,,69,,69
+mechdef_phoenix_PX-3R,2,,2,,2,,2,,2
 mechdef_hunchback_HBK-4P,5,,4,,4,,4,,4
 mechdef_crab_CRB-20,8,,8,,8,,8,,8
 mechdef_hunchback_HBK-4J,5,,4,,4,,4,,4
@@ -65,7 +67,6 @@ mechdef_dervish_DV-6M,33,,43,,43,,43,,43
 mechdef_trebuchet_TBT-5N,33,,30,,30,,30,,30
 mechdef_griffin_GRF-1S,76,,69,,69,,69,,69
 mechdef_griffin_GRF-1N,156,,143,,143,,143,,143
-mechdef_blitzkrieg_BTZ-3F,0,,0,,0,,0,,17
 Heavies,,,,,,,,,
 mechdef_champion_CHP-2N,7,,7,,7,,7,,7
 mechdef_quickdraw_QKD-4G,27,,26,,26,,26,,26
@@ -94,14 +95,15 @@ mechdef_blackknight_BL-7-KNT,4,,4,,4,,4,,4
 mechdef_stalker_STK-4P,7,,7,,7,,7,,7
 mechdef_archer_ARC-2R,121,,120,,119,,119,,119
 mechdef_flashman_FLS-7K,38,,37,,37,,37,,37
-mechdef_thanatos_TNS-4S,0,,0,,0,,0,3061-01-01T00:00:00Z,12
 Assaults,,,,,,,,,
 mechdef_cyclops_CP-10-HQ,4,,3,,3,,3,,3
+mechdef_ymir_BWP-2B,3,,3,,3,,3,,3
 mechdef_zeus_ZEU-6S-DC,3,,3,,3,,3,,3
 mechdef_cyclops_CP-10-Z,26,,23,,23,,23,,23
 mechdef_longbow_LGB-0W,60,,52,,52,,52,,52
 mechdef_zeus_ZEU-6S,184,,158,,158,,158,,158
 mechdef_victor_VTR-9B,26,,23,,23,,23,,23
+mechdef_ymir_BWP-2E,3,,3,,3,,3,,3
 mechdef_zeus_ZEU-6A,11,,9,,9,,9,,9
 mechdef_annihilator_ANH-1A,3,,3,,3,,3,,3
 mechdef_zeus_ZEU-6T,0,3026-01-01T00:00:00Z,64,,64,,64,,64

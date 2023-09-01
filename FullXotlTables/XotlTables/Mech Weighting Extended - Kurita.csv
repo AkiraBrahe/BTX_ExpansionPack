@@ -81,6 +81,8 @@ Heavies,,,,,,,,,
 mechdef_jagermech_JM6-DD,0,,0,3043-01-01T00:00:00Z,5,,5,,5
 mechdef_champion_CHP-2N,5,,4,,5,,5,,5
 mechdef_dragon_DRG-1N,230,,224,,84,,84,,84
+mechdef_vonrohrs_VON-4RH-6,3,,2,,3,,3,,3
+mechdef_vonrohrs_VON-4RH-5,3,,2,,3,,3,,3
 mechdef_quickdraw_QKD-4G,42,,40,,40,,40,,40
 mechdef_quickdraw_QKD-5A,18,,17,,18,,18,,18
 mechdef_dragon_DRG-1C,7,,7,,5,,5,,5

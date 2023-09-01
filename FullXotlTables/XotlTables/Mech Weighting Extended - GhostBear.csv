@@ -78,7 +78,7 @@ mechdef_black_hawk_nova-S,0,3050-01-01T00:00:00Z,3,,3,,3
 mechdef_ryoken_stormcrow-H,0,,0,,0,3059-01-01T00:00:00Z,5
 mechdef_ryoken_stormcrow-PRIME,136,,135,,135,,135
 mechdef_black_hawk_nova-E,0,,0,3054-01-01T00:00:00Z,3,,9
-mechdef_fox_CS-C,3,,3,,3,,3
+mechdef_fox,3,,3,,3,,3
 mechdef_ryoken_stormcrow-E,0,,0,3054-01-01T00:00:00Z,3,,9
 mechdef_ryoken_stormcrow-B,18,,18,,18,,18
 mechdef_ryoken_stormcrow-A,37,,18,,18,,18
@@ -147,7 +147,7 @@ mechdef_kingfisher-B,25,,17,,17,,17
 mechdef_masakari_warhawk-D,0,,0,3054-01-01T00:00:00Z,3,,5
 mechdef_warhammer_IIC-2,8,,15,,15,,8
 mechdef_manowar_gargoyle-D,3,,3,,3,,3
-mechdef_pulverizer_PUL-C,3,,5,,7,,7
+mechdef_pulverizer,3,,5,,7,,7
 mechdef_annihilator_C,0,Jump:3051-01-01T00:00:00Z,15,,11,,13
 mechdef_warthog-PRIME,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_warhammer_IIC,15,,25,,25,,15

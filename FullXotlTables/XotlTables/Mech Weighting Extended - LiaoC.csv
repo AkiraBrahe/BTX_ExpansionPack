@@ -23,8 +23,8 @@ mechdef_raven_RVN-3L,74,,74,,74
 mechdef_mongoose_MON-67,8,,8,,8
 mechdef_raven_RVN-4X,93,,93,,93
 mechdef_javelin_JVN-10F,5,,5,,8
-mechdef_anubis_ABS-3L,0,,0,3063-01-01T00:00:00Z,34
-mechdef_anubis_ABS-3R,0,,0,3064-01-01T00:00:00Z,11
+mechdef_anubis_ABS-3L,0,,0,3063-01-01T00:00:00Z,4
+mechdef_anubis_ABS-3R,0,,0,3064-01-01T00:00:00Z,1
 Mediums,,,,,
 mechdef_clint_CLNT-2-4T,6,,6,,6
 mechdef_vulcan_VL-2T,6,,6,,26

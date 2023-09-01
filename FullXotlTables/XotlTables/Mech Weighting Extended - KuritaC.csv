@@ -42,6 +42,8 @@ mechdef_scorpion_SCP-1O,10,,10,,10
 mechdef_wolverine_WVR-6R,58,,58,,58
 mechdef_dervish_DV-6M,29,,29,,40
 mechdef_shadowhawk_SHD-2K,58,,58,,58
+mechdef_chimera_CMA-1S,0,,0,3063-01-01T00:00:00Z,3
+mechdef_chimera_CMA-C,0,,0,3063-01-01T00:00:00Z,3
 mechdef_trebuchet_TBT-5N,29,,29,,32
 mechdef_lineholder_KW1-LH3,0,,0,3058-01-01T00:00:00Z,10
 mechdef_chameleon_CLN-7W,0,,0,3058-01-01T00:00:00Z,5
@@ -85,6 +87,7 @@ mechdef_stalker_STK-4P,5,,5,,5
 mechdef_archer_ARC-2R,52,,52,,52
 mechdef_grasshopper_GHR-5N,5,,5,,10
 mechdef_warhammer_WHM-6Rk,13,,13,,13
+mechdef_granddragon_DRG-7K,0,,0,3063-01-01T00:00:00Z,11
 mechdef_marauder_MAD-5D,13,,13,,13
 Assaults,,,,,
 mechdef_cyclops_CP-10-Z,33,,33,,48
@@ -114,3 +117,4 @@ mechdef_atlas_AS7-A,13,,13,,20
 mechdef_atlas_AS7-D-K,3,,3,,3
 mechdef_awesome_AWS-9Q,0,,0,3057-01-01T00:00:00Z,11
 mechdef_atlas_AS7-D,24,,24,,36
+mechdef_charger_CGR-SA5,0,,0,3063-01-01T00:00:00Z,4

@@ -50,7 +50,7 @@ mechdef_dasher_fire_moth-D,41,,82,,82,,82
 Mediums,,,,,,,
 mechdef_fenris_ice_ferret-C,19,,19,,19,,19
 mechdef_fenris_ice_ferret-A,58,,67,,67,,67
-mechdef_arctic_wolf-1,0,,0,,0,3059-01-01T00:00:00Z,34
+mechdef_arctic_wolf-1,0,,0,,0,3059-01-01T00:00:00Z,47
 mechdef_dragonfly_viper-C,19,,87,,87,,87
 mechdef_stag_ST-14G,0,3052-06-01T00:00:00Z,2,,2,,2
 mechdef_coyotl-B,4,,2,,2,Jump:3058-01-01T00:00:00Z,0
@@ -58,7 +58,7 @@ mechdef_black_hawk_nova-D,10,,0,,0,,0
 mechdef_dragonfly_viper-PRIME,48,,0,,0,,0
 mechdef_fenris_ice_ferret-B,58,,67,,67,,67
 mechdef_fenris_ice_ferret-E,0,,0,3056-01-01T00:00:00Z,3,,5
-mechdef_arctic_wolf-2,0,,0,,0,3060-01-01T00:00:00Z,50
+mechdef_arctic_wolf-2,0,,0,,0,3060-01-01T00:00:00Z,3
 mechdef_black_hawk_nova-C,10,,0,,0,,0
 mechdef_griffin_IIC-2,39,,50,,39,Jump:3058-01-01T00:00:00Z,67
 mechdef_black_hawk_nova-B,19,,48,,48,,48

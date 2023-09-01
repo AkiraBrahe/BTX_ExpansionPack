@@ -80,6 +80,7 @@ mechdef_hunchback_HBK-4J,5,,5,,5,,4,,0
 mechdef_firestarter_FS9-O,0,,0,,0,,0,3057-01-01T00:00:00Z,17
 mechdef_dervish_DV-6M,14,,14,,13,,11,,0
 mechdef_apollo_APL-1R,0,,0,,0,3056-01-01T00:00:00Z,4,,10
+mechdef_chimera_CMA-C,0,,0,,0,,0,3063-01-01T00:00:00Z,7
 mechdef_trebuchet_TBT-5J,28,,28,,25,,16,,0
 mechdef_trebuchet_TBT-5N,56,,55,,51,,23,,0
 mechdef_blackjack_BJ2-O,0,,0,,0,,0,3057-01-01T00:00:00Z,31
@@ -87,7 +88,7 @@ mechdef_apollo_APL-1M,0,,0,,0,3054-01-01T00:00:00Z,23,,34
 mechdef_apollo_APL-3T,0,,0,,0,,0,3057-01-01T00:00:00Z,13
 mechdef_cicada_CDA-3G,0,,0,,0,3056-01-01T00:00:00Z,6,,14
 mechdef_griffin_GRF-1N,56,,55,,51,,23,,10
-mechdef_blitzkrieg_BTZ-3F,0,,0,,0,,0,,12
+mechdef_blitzkrieg_BTZ-3F,0,,0,,0,,0,3061-01-01T00:00:00Z,12
 mechdef_apollo_APL-2S,0,,0,,0,3056-01-01T00:00:00Z,4,,10
 mechdef_wraith_TR1,0,,0,,0,3055-01-01T00:00:00Z,23,,38
 mechdef_wolverine_WVR-6M,240,,233,,163,,23,,0

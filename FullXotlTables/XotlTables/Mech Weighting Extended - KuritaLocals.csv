@@ -70,6 +70,8 @@ mechdef_crab_CRB-20,11,,37,,50,,0
 mechdef_hunchback_HBK-4J,6,,5,,5,,0
 mechdef_dervish_DV-6M,30,,27,,25,,29
 mechdef_shadowhawk_SHD-2K,59,,53,,50,,58
+mechdef_chimera_CMA-1S,0,,0,,0,3063-01-01T00:00:00Z,1
+mechdef_chimera_CMA-C,0,,0,,0,3063-01-01T00:00:00Z,1
 mechdef_trebuchet_TBT-5N,42,,37,,35,,29
 mechdef_wolverine_WVR-6K,30,,27,,25,,29
 mechdef_griffin_GRF-1N,119,,105,,100,,117

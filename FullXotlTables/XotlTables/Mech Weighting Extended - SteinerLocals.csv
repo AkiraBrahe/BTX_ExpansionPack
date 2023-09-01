@@ -73,6 +73,8 @@ mechdef_hunchback_HBK-4P,5,,4,,4,,4
 mechdef_crab_CRB-20,8,,8,,0,,0
 mechdef_hunchback_HBK-4J,5,,4,,4,,4
 mechdef_dervish_DV-6M,33,,43,,45,,45
+mechdef_chimera_CMA-1S,0,,0,,0,3063-01-01T00:00:00Z,2
+mechdef_chimera_CMA-C,0,,0,,0,3063-01-01T00:00:00Z,1
 mechdef_trebuchet_TBT-5N,33,,30,,13,,13
 mechdef_griffin_GRF-1S,76,,69,,72,,72
 mechdef_griffin_GRF-1N,156,,143,,148,,90
@@ -149,4 +151,4 @@ mechdef_highlander_HGN-733P,7,,6,,6,,6
 mechdef_atlas_AS7-LL,3,,3,,3,,3
 mechdef_atlas_AS7-D,60,,52,,52,,52
 mechdef_juggernaut_JG-R9T2,0,,0,,0,,5
-mechdef_juggernaut_JG-R9T3,0,,0,,0,3061-01-01T00:00:00Z,3
+mechdef_juggernaut_JG-R9T3,0,,0,,0,3065-01-01T00:00:00Z,3

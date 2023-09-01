@@ -94,7 +94,7 @@ mechdef_bombardier_BMB-10D,7,,7,,0,,0
 mechdef_cataphract_CTF-2X,0,3027-01-01T00:00:00Z,26,,77,,191
 mechdef_catapult_CPLT-C4,4,,4,,5,,6
 mechdef_marauder_MAD-3R,20,,19,,9,,10
-mechdef_catapult_CPLT-C3,0,,0,3049-01-01T00:00:00Z,4,,5
+mechdef_catapult_CPLT-C3,0,,0,3049-01-01T00:00:00Z,13,,6
 mechdef_marauder_MAD-3L,11,,10,,9,,10
 mechdef_guillotine_GLT-4P,4,,4,,0,,0
 mechdef_koschei_KSC-3L,4,,4,,5,,6

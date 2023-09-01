@@ -23,8 +23,8 @@ mechdef_mongoose_MON-67,10,,14,,14
 mechdef_firestarter_FS9-K,10,,14,,14
 mechdef_javelin_JVN-10F,10,,14,,14
 mechdef_toro_TR-A-6,7,,8,,8
-mechdef_anubis_ABS-3L,0,,0,3063-01-01T00:00:00Z,14
-mechdef_anubis_ABS-3R,0,,0,3064-01-01T00:00:00Z,4
+mechdef_anubis_ABS-3L,0,,0,3063-01-01T00:00:00Z,6
+mechdef_anubis_ABS-3R,0,,0,3064-01-01T00:00:00Z,2
 Mediums,,,,,
 mechdef_vulcan_VL-2T,52,,91,,91
 mechdef_cicada_CDA-2A,14,,13,,13

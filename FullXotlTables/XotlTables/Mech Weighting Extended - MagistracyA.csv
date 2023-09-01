@@ -25,8 +25,8 @@ mechdef_eagle_EGL-1M,0,,0,,0,3060-01-01T00:00:00Z,3
 mechdef_firestarter_FS9-K,12,,12,,16,,16
 mechdef_eagle_EGL-2M,0,,0,,0,3060-01-01T00:00:00Z,3
 mechdef_javelin_JVN-10F,12,,12,,13,,13
-mechdef_anubis_ABS-3L,0,,0,,0,3063-01-01T00:00:00Z,16
-mechdef_anubis_ABS-3R,0,,0,,0,3064-01-01T00:00:00Z,5
+mechdef_anubis_ABS-3L,0,,0,,0,3063-01-01T00:00:00Z,8
+mechdef_anubis_ABS-3R,0,,0,,0,3064-01-01T00:00:00Z,3
 Mediums,,,,,,,
 mechdef_vulcan_VL-2T,46,,46,,83,,76
 mechdef_cicada_CDA-2A,13,,13,,5,,3
