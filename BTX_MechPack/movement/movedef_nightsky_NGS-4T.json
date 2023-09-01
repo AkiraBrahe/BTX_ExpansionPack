@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_nightsky_NGS-4T",
     "Name": "MovementCapabilitiesDef for Nightsky NGS-4T",
-    "Details": "300 XL Fusion Engine - 7/11 movement",
+    "Details": "300 XL Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

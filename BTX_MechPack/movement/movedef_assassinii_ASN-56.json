@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_assassinii_ASN-56",
     "Name": "MovementCapabilitiesDef for Assassin II ASN-56",
-    "Details": "270 XL Fusion Engine - 7/11 movement",
+    "Details": "270 XL Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

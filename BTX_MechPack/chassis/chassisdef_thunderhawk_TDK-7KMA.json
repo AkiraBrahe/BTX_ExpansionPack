@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_thunderhawkbase-001",
   "PrefabBase": "thunderhawk",
   "Tonnage": 100,
-  "InitialTonnage": 28.81,
+  "InitialTonnage": 25.81,
   "weightClass": "ASSAULT",
   "Heatsinks": 22,
   "TopSpeed": 54,

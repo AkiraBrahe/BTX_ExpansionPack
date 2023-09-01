@@ -8,7 +8,7 @@
     "UIName": "Pulverizer",
     "Id": "chassisdef_pulverizer_PUL-2V",
     "Name": "Pulverizer",
-    "Details": "<color=#F79B26>The Pulverizer is an assault command 'Mech produced by Clan Wolverine in 2823, following the successes of the Mercury II and Stag.</color>\n\nThe Pulverizer is very durable thanks to fifteen and a half tons of ferro-fibrous armor, an endo steel chassis, and a Guardian ECM Suite to counter enemy electronics. As a command 'Mech, its weapons are focused  on long-range combat, with an Enhanced ER PPC fixed to the right torso and augmented by an LRM-10 launcher. Should enemies get closer, the 'Mech can also fire two Large Lasers. Fifteen double heat sinks keep the 'Mech fairly cool.",
+    "Details": "<color=#F79B26>>The Pulverizer is a very durable command 'Mech developed by Clan Wolverine following the successes of the Mercury II and Stag.</color>\n\nThe Pulverizer is very durable thanks to fifteen and a half tons of ferro-fibrous armor, an endo steel chassis, and a Guardian ECM Suite to counter enemy electronics. As a command 'Mech, its weapons are focused  on long-range combat, with an Enhanced ER PPC fixed to the right torso and augmented by an LRM-10 launcher. Should enemies get closer, the 'Mech can also fire two Large Lasers. Fifteen double heat sinks keep the 'Mech fairly cool.",
     "Icon": "uixTxrIcon_pulverizer"
   },
   "MovementCapDefID": "movedef_pulverizer_PUL-2V",

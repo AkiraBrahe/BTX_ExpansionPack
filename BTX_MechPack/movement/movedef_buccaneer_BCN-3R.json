@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_buccaneer_BCN-3R",
     "Name": "MovementCapabilitiesDef for Buccaneer BCN-3R",
-    "Details": "330 XL Fusion Engine - 7/11 movement",
+    "Details": "330 XL Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

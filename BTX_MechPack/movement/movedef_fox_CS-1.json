@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_fox_CS-1",
     "Name": "MovementCapabilitiesDef for Fox CS-1",
-    "Details": "300 XL Fusion Engine - 7/11 movement",
+    "Details": "300 XL Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

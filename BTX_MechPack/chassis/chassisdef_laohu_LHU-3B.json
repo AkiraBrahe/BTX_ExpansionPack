@@ -8,7 +8,7 @@
     "UIName": "Lao Hu",
     "Id": "chassisdef_laohu_LHU-3B",
     "Name": "Lao Hu",
-    "Details": "<color=#F79B26>The Lao Hu (\"Tiger\"), designed by a student at the Victoria Academy of Arms and Technology, is based on the Thunder BattleMech and is intended to correct perceived flaws in the Thunder by utilizing new technologies available to the Capellan Confederation.</color>\n\nModified to carry a C3 Master Computer, the 3B downgrades its autocannon to an LB 10-X AC, drops a ton of armor and replaces the LRM-15 with an LRM-10 with an Artemis IV FCS. The 3B uses its C3 computer to link together an entire C3 Lance and gives the 'Mech unparalleled accuracy when part of a C3 lance.",
+    "Details": "<color=#F79B26>The Lao Hu (\"Tiger\"), designed by a student at the Victoria Academy of Arms and Technology, is based on the Thunder BattleMech and is intended to correct perceived flaws in the Thunder by utilizing new technologies available to the Capellan Confederation.</color>\n\nModified to carry a C3 Master computer, the 3B downgrades its autocannon to an LB 10-X AC, drops a ton of armor and replaces the LRM-15 with an LRM-10 with an Artemis IV FCS. The 3B uses its C3 computer to link together an entire C3 Lance and gives the 'Mech unparalleled accuracy when part of a C3 lance.",
     "Icon": "uixTxrIcon_laohu"
   },
   "MovementCapDefID": "movedef_laohu_LHU-3B",

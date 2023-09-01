@@ -1,10 +1,14 @@
 itemCollection_Ammo_all,,,
 Ammo_AmmunitionBox_Generic_AC2,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_AC2_Half,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_AC5,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_AC5_Half,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_AC10,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_AC20,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_SRM_Half,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_LRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_LRM_Half,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_MG,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_MG_Half,AmmunitionBox,0,10
 itemCollection_Ammo_OverTime,Reference,6,10

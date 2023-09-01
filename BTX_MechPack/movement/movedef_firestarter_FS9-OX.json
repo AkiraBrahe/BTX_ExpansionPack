@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_firestarter_FS9-OX",
     "Name": "MovementCapabilitiesDef for Firestarter FS9-OX",
-    "Details": "270 XL Fusion Engine - 7/11 movement",
+    "Details": "270 XL Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

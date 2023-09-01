@@ -13,8 +13,8 @@
     "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nThunder-Inferno missiles act like artillery, dispersing incendiary munitions over a wide area. Thunder-Augmented LRM Ammo Bins contain half as many shots per ton as standard LRM ammunition bins.",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
-  "BonusValueA": "3 Heat Dmg., -5 Acc.",
-  "BonusValueB": "120m AoE",
+  "BonusValueA": "3 Heat Dmg.",
+  "BonusValueB": "120m AoE, - 5 Acc.",
   "ComponentType": "AmmunitionBox",
   "ComponentSubType": "Ammunition",
   "PrefabIdentifier": "",

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_hermesii_HER-6D",
     "Name": "MovementCapabilitiesDef for Hermes II HER-6D",
-    "Details": "240 Fusion Engine - 7/11 movement",
+    "Details": "240 Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

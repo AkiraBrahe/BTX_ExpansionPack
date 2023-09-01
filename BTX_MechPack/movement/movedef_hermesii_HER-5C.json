@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_hermesii_HER-5C",
     "Name": "MovementCapabilitiesDef for Hermes II HER-5C",
-    "Details": "240 XL Fusion Engine - 7/11 movement",
+    "Details": "240 XL Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

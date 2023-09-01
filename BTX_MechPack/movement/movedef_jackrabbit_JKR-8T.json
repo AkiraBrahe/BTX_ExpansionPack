@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_jackrabbit_JKR-8T",
     "Name": "MovementCapabilitiesDef for Jackrabbit JKR-8T",
-    "Details": "150 Fusion Engine - 7/11 movement",
+    "Details": "150 Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

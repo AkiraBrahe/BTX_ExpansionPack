@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_peregrine_horned_owl-2",
     "Name": "MovementCapabilitiesDef for Peregrine (Horned Owl) 2",
-    "Details": "210 Fusion Engine - 7/11 movement",
+    "Details": "210 Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

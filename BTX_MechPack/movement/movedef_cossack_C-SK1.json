@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_cossack_C-SK1",
     "Name": "MovementCapabilitiesDef for Cossack C-SK1",
-    "Details": "120 XL Fusion Engine - 7/11 movement",
+    "Details": "120 XL Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

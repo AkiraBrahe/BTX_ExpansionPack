@@ -8,7 +8,7 @@
     "UIName": "Gunslinger",
     "Id": "chassisdef_gunslinger_GUN-2ERD",
     "Name": "Gunslinger",
-    "Details": "<color=#F79B26>The Gunslinger is a product of the Clan Invasion and would not exist if not for that violent conflict. It was created jointly by the Draconis Combine and the Federated Commonwealth, and it stands as a testament to what can happen when two bitter enemies put aside their mutual hatred and work together to achieve a common goal.</color>\n\nThe 2ERD model of the Gunslinger upgrades the Medium Lasers to ER Medium Lasers and removes the two rear Medium Pulse Lasers, the Beagle Probe and the Small Laser. The 'Mech then adds an additional jump jet allowing the 'Mech to jump up to ninety meters and also adds a C3 Master Computer.",
+    "Details": "<color=#F79B26>The Gunslinger is a product of the Clan Invasion and would not exist if not for that violent conflict. It was created jointly by the Draconis Combine and the Federated Commonwealth, and it stands as a testament to what can happen when two bitter enemies put aside their mutual hatred and work together to achieve a common goal.</color>\n\nThe 2ERD model of the Gunslinger upgrades the Medium Lasers to ER Medium Lasers and removes the two rear Medium Pulse Lasers, the Beagle Probe and the Small Laser. The 'Mech then adds an additional jump jet allowing the 'Mech to jump up to ninety meters and also adds a C3 Master computer.",
     "Icon": "uixTxrIcon_gunslinger"
   },
   "MovementCapDefID": "movedef_gunslinger_GUN-2ERD",

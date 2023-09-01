@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_stag_ST-14G",
     "Name": "MovementCapabilitiesDef for Stag ST-14G",
-    "Details": "270 XL Fusion Engine - 7/11 movement",
+    "Details": "270 XL Fusion Engine - 7/12 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 165.0,

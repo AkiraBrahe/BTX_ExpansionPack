@@ -24,7 +24,7 @@
     "UIName": "Sunder SD1-OB",
     "Id": "mechdef_sunder_SD1-OB",
     "Name": "Sunder",
-    "Details": "<color=#F79B26>The Sunder is the result of research on salvaged Loki and Thor OmniMechs, carrying a chaotic and powerful mix of weapons and equipment.</color>\n\nConfigured to command a large C3 unit, the Sunder B has two C3 Master Computers. These allow the Sunder B to coordinate up to three lances of 'Mechs. The 'Mech is also intended to stay at long ranges with an arsenal of an LRM-20 launcher and an LRM-10 launcher to bombard an enemy from long range. The 'Mech can only rely on two Medium Pulse Lasers and two Medium Lasers for short-range defense, making it vulnerable to rushing attacks.",
+    "Details": "<color=#F79B26>The Sunder is the result of research on salvaged Loki and Thor OmniMechs, carrying a chaotic and powerful mix of weapons and equipment.</color>\n\nConfigured to command a large C3 unit, the Sunder B has two C3 Master computers. These allow the Sunder B to coordinate up to three lances of 'Mechs. The 'Mech is also intended to stay at long ranges with an arsenal of an LRM-20 launcher and an LRM-10 launcher to bombard an enemy from long range. The 'Mech can only rely on two Medium Pulse Lasers and two Medium Lasers for short-range defense, making it vulnerable to rushing attacks.",
     "Icon": "uixTxrIcon_sunder"
   },
   "simGameMechPartCost": 3450000,

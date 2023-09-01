@@ -52,14 +52,6 @@
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "statusEffects": [],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_close"
-    ],
-    "tagSetSourceFile": ""
-  },
   "Modes": [
     {
       "Id": "LAMS_On",
@@ -118,5 +110,13 @@
       "EnemyStealthAffection": "None",
       "IsPositiveToAlly": false
     }
-  ]
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

@@ -8,7 +8,7 @@
     "UIName": "Coyotl",
     "Id": "chassisdef_coyotl-PRIME",
     "Name": "Coyotl",
-    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, is the first OmniMech. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThe Primary configuration of the Coyotl, built on an endo steel chassis and powered by a Pitban 280 XL engine, uses an ER PPC and LRM-10 as primary long-range weapons, while a Medium Pulse Laser and Streak SRM-4 provide short-range firepower. When combined with its powerful engine, this gives the 'Mech the ability to avoid enemy fire as well as dash about the battlefield while returning fire.",
+    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, was the first OmniMech. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThe Primary configuration of the Coyotl, built on an endo steel chassis and powered by a Pitban 280 XL engine, uses an ER PPC and LRM-10 as primary long-range weapons, while a Medium Pulse Laser and Streak SRM-4 provide short-range firepower. When combined with its powerful engine, this gives the 'Mech the ability to avoid enemy fire as well as dash about the battlefield while returning fire.",
     "Icon": "uixTxrIcon_mercuryii"
   },
   "MovementCapDefID": "movedef_coyotl-PRIME",
