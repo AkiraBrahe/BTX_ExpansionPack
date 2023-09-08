@@ -1,7 +1,7 @@
 {
     "Name": "BTX_MechPack",
     "Enabled": true,
-    "Version": "0.5.3",
+    "Version": "0.6b",
 
     "Description": "Add new 'Mech variants and any new equipment they come with. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.",
     "Author": "Kierk",
@@ -27,12 +27,12 @@
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
         { "Type": "MechDef", "Path": "mechMerge", "ShouldMergeJSON": true },
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
+        { "Type": "MovementCapabilitiesDef", "Path": "movementMerge", "ShouldMergeJSON": true },
         { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
         { "Type": "Sprite", "Path": "portraits" },
         { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
         { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
-        { "Type": "WeaponDef", "Path": "weaponMerge", "ShouldMergeJSON": true },
         { "Type": "WeaponAddonDef", "Path": "weaponAddons" },
       { "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
       { "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" }
