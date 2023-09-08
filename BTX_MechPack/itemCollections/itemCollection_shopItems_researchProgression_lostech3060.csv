@@ -176,5 +176,9 @@ itemCollection_table_Items_lgauss2andammo,Reference,0,1
 itemCollection_table_Items_hgaussandammo,Reference,0,3
 itemCollection_table_Items_hgauss1andammo,Reference,0,2
 itemCollection_table_Items_hgauss2andammo,Reference,0,1
+Weapon_Artillery_ThumperCannon_0-STOCK,Weapon,1,3
+itemCollection_table_Items_sniperandaddon,Reference,0,2
+itemCollection_table_Items_longtomandaddon,Reference,0,1
 itemCollection_Upgrades_TargetingComputers,Reference,1,5
-Gear_Addon_PPCCapacitor,Upgrade,1,1
+Gear_Addon_PPCCapacitor,Upgrade,1,10
+Weapon_AMS_Laser,Weapon,1,5
