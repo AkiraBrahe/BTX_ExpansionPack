@@ -1,0 +1,14 @@
+{
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_ferro",
+      "mech_case_right",
+      "mech_quirk_battlefists",
+      "mech_quirk_improvedlifesupport",
+      "mech_quirk_rugged1"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

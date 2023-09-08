@@ -1,0 +1,13 @@
+{
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_case_left",
+      "mech_case_right",
+      "chassis_endo",
+      "mech_quirk_easytomaintain",
+      "mech_quirk_largeengine"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

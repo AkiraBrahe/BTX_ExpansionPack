@@ -232,7 +232,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Mortar_CArrowIV",
+      "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -241,7 +241,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Mortar_CArrowIV",
+      "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "IsFixed": true,

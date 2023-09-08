@@ -1,0 +1,14 @@
+{
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.05-1.10-1.05",
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_omni",
+      "mech_quirk_cowl",
+      "mech_quirk_difficulttomaintain",
+      "mech_quirk_largeengine"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

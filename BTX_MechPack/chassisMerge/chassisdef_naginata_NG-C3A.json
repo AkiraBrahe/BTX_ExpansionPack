@@ -1,0 +1,16 @@
+{
+  "HardpointDataDefID": "hardpointdatadef_naginata",
+  "PrefabIdentifier": "chrprfmech_naginatabase-001",
+  "PrefabBase": "naginata",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.95-1.05-1.10",
+      "chassis_DHS",
+      "mech_case_left",
+      "mech_case_right",
+      "mech_quirk_cowl",
+      "mech_quirk_stable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

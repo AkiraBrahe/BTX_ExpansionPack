@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ionphantombase-001",
   "PrefabBase": "ionphantom",
   "Tonnage": 40,
-  "InitialTonnage": 27.51,
+  "InitialTonnage": 28.51,
   "weightClass": "MEDIUM",
   "Heatsinks": 22,
   "TopSpeed": 151.2,

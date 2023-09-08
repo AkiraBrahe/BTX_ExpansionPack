@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_cugunslingerbase-001",
   "PrefabBase": "cugunslinger",
   "Tonnage": 85,
-  "InitialTonnage": 19,
+  "InitialTonnage": 16,
   "weightClass": "ASSAULT",
   "Heatsinks": 10,
   "TopSpeed": 54,

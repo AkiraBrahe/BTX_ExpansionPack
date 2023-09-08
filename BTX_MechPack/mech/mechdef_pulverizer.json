@@ -15,17 +15,17 @@
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "chassisdef_pulverizer_PUL-C",
+  "ChassisID": "chassisdef_pulverizer",
   "Description": {
     "Cost": 10750000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Pulverizer PUL-C",
-    "Id": "mechdef_pulverizer_PUL-C",
+    "UIName": "Pulverizer",
+    "Id": "mechdef_pulverizer",
     "Name": "Pulverizer",
-    "Details": "<color=#F79B26>The Pulverizer is an assault command 'Mech produced by Clan Wolverine in 2823, following the successes of the Mercury II and Stag.</color>\n\nImproved by Clan Snow Raven, this purely Clan-tech build of the Pulverizer carries a Large Pulse Laser in each arm, an ER PPC, and an LRM-10 for its main armament, all cooled by eighteen double heat sinks.",
+    "Details": "<color=#F79B26>>The Pulverizer is a very durable command 'Mech developed by Clan Wolverine following the successes of the Mercury II and Stag.</color>\n\nImproved by Clan Snow Raven, this purely Clan-tech build of the Pulverizer carries a Large Pulse Laser in each arm, an ER PPC, and an LRM-10 for its main armament, all cooled by eighteen double heat sinks.",
     "Icon": "uixTxrIcon_pulverizer"
   },
   "simGameMechPartCost": 1080000,

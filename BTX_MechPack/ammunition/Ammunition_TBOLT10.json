@@ -23,7 +23,8 @@
     "z": 2.5
   },
   "AdditionalImpactVFX": "WFX_BESmaller",
-  "AdditionalImpactVFXScaleX": 2.5,
-  "AdditionalImpactVFXScaleY": 2.5,
-  "AdditionalImpactVFXScaleZ": 2.5
+  "AdditionalImpactVFXScaleX": 1,
+  "AdditionalImpactVFXScaleY": 1,
+  "AdditionalImpactVFXScaleZ": 1,
+  "HideIfOnlyVariant": true
 }

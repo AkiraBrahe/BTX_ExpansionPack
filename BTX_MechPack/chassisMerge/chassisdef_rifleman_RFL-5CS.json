@@ -1,0 +1,13 @@
+{
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_quirk_antiaircraft",
+      "mech_quirk_improvedcomm",
+      "mech_quirk_searchlight_LT",
+      "mech_quirk_searchlight_RT",
+      "mech_quirk_largeengine"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Id": "movedef_pulverizer_PUL-C",
+    "Id": "movedef_pulverizer",
     "Name": "MovementCapabilitiesDef for Pulverizer",
     "Details": "360 Fusion Engine - 5/8 movement",
     "Icon": ""
