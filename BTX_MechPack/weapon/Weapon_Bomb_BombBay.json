@@ -41,7 +41,7 @@
     "Id": "Weapon_Bomb_BombBay",
     "Name": "Bomb Bay",
     "Details": "Bomb Bays are compartments designed for carrying bombs. Bombs come in a variety of types, each with a specific purpose. Aerospace fighters typically use them for target saturation. Land-Air 'Mechs are no exception and can make use of bombs when in AirMech mode.",
-    "Icon": "uixSvgIcon_artillery"
+    "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
   "BonusValueB": "",

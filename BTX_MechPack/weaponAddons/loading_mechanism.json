@@ -1,0 +1,14 @@
+{
+  "Id": "loading_mechanism",
+  "autoTarget": true,
+  "installedLocationOnly": false,
+  "targetComponentTags": [
+    "loading_mechanism_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "ARTY_Std",
+      "ShotsWhenFired": 1
+    }
+  ]
+}

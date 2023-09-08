@@ -219,7 +219,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Mortar_ArrowIV",
+      "ComponentDefID": "Weapon_Artillery_ArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

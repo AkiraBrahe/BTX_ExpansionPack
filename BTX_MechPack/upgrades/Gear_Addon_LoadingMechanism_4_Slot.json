@@ -1,0 +1,41 @@
+{
+  "Custom": {
+    "AddonReference": {
+      "installedLocationOnly": false,
+      "autoTarget": true,
+      "WeaponAddonIds": [
+        "loading_mechanism"
+      ]
+    }
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "Long Tom/Sniper Artillery Cannon",
+    "UIName": "Loading Mechanism",
+    "Id": "Gear_Addon_LoadingMechanism_4_Slot",
+    "Name": "Loading Mechanism",
+    "Details": "Loading Mechanism that can be attached to a Long Tom or Sniper Artillery Cannon. The loading mechanism can be moved to another location on the 'Mech, making it easier to mount the massive weapon.",
+    "Icon": ""
+  },
+  "BonusValueA": "Movable Slot",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 0,
+  "AllowedLocations": "Torso, Arms",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  }
+}

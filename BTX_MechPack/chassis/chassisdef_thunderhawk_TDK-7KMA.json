@@ -233,12 +233,24 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Addon_LoadingMechanism_3_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "LoadingMechanism0"
+    },
+    {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Mortar_ThunderHawk_ArrowIV",
+      "ComponentDefID": "Weapon_Artillery_ArrowIV_0-FIXED",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "LoadingMechanism0"
     }
   ]
 }

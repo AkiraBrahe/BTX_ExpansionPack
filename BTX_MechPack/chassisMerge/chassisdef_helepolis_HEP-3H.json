@@ -1,0 +1,23 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_LoadingMechanism_7_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "LoadingMechanism0"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Artillery_Sniper_0-FIXED",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "LocalGUID": "LoadingMechanism0"
+    }
+  ]
+}

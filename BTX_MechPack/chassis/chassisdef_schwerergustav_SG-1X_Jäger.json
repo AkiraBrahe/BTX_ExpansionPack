@@ -214,8 +214,7 @@
       "chassis_endo",
       "chassis_clan",
       "mech_quirk_hyperextendingactuators",
-      "mech_quirk_nonstandardparts",
-      "mech_quirk_prototype"
+      "mech_quirk_nonstandardparts"
     ],
     "tagSetSourceFile": ""
   },
@@ -251,7 +250,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Mortar_Gustav_Thumper",
+      "ComponentDefID": "Weapon_Artillery_ThumperCannon_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "IsFixed": true,

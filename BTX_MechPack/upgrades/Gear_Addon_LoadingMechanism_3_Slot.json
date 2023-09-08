@@ -1,0 +1,41 @@
+{
+  "Custom": {
+    "AddonReference": {
+      "installedLocationOnly": false,
+      "autoTarget": true,
+      "WeaponAddonIds": [
+        "loading_mechanism"
+      ]
+    }
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "Arrow IV Artillery",
+    "UIName": "Loading Mechanism",
+    "Id": "Gear_Addon_LoadingMechanism_3_Slot",
+    "Name": "Loading Mechanism",
+    "Details": "Loading Mechanism that can be attached to a Arrow IV Artillery. The loading mechanism is integrated into the Thunder Hawk and cannot be removed or destroyed.",
+    "Icon": ""
+  },
+  "BonusValueA": "Fixed Slot",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 0,
+  "AllowedLocations": "Torso, Arms",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  }
+}

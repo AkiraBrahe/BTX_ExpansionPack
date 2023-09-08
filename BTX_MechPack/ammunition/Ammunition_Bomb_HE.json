@@ -31,14 +31,13 @@
   "MaxMissRadius": 15,
   "DamagePerShot": 30,
   "HeatDamagePerShot": 0,
-  "Instability": 45,
+  "Instability": 30,
   "AOECapable": true,
   "AOERange": 30,
   "AOEDamage": 90,
   "AOEHeatDamage": 0,
-  "AOEInstability": 45,
+  "AOEInstability": 30,
   "IndirectFireCapable": false,
-  "CantHitUnaffecedByPathing": true,
   "FireOnSuccessHit": true,
   "FireTerrainChance": 0.02,
   "FireDurationWithoutForest": 0,
@@ -46,7 +45,7 @@
   "FireTerrainCellRadius": 2,
   "WeaponEffectID": "WeaponEffect-Weapon_SRM4",
   "AdditionalImpactVFX": "WFX_BELarger",
-  "AdditionalImpactVFXScaleX": 5,
-  "AdditionalImpactVFXScaleY": 5,
-  "AdditionalImpactVFXScaleZ": 5
+  "AdditionalImpactVFXScaleX": 1,
+  "AdditionalImpactVFXScaleY": 1,
+  "AdditionalImpactVFXScaleZ": 1
 }

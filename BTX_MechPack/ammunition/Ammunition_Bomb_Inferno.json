@@ -38,7 +38,6 @@
   "AOEHeatDamage": 30,
   "AOEInstability": 15,
   "IndirectFireCapable": false,
-  "CantHitUnaffecedByPathing": true,
   "FireOnSuccessHit": true,
   "FireTerrainChance": 0.65,
   "FireDurationWithoutForest": 2,

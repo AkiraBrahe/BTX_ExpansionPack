@@ -1,7 +1,7 @@
 {
   "Category": "Missile",
   "Type": "LRM",
-  "WeaponSubType": "LRM5",
+  "WeaponSubType": "LRM20",
   "MinRange": 240,
   "MaxRange": 1560,
   "RangeSplit": [
@@ -10,9 +10,9 @@
     1560
   ],
   "ForbiddenRange": 240,
-  "AmmoCategory": "Arrow4",
+  "AmmoCategory": "ArrowIV",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 20,
+  "HeatGenerated": 30,
   "Damage": 60,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -20,62 +20,72 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
+  "MinMissRadius": 5,
+  "MaxMissRadius": 100,
   "CriticalChanceMultiplier": 1,
-  "AOECapable": true,
   "IndirectFireCapable": true,
-  "RefireModifier": 0,
+  "AlwaysIndirectVisuals": true,
+  "CantHitUnaffecedByPathing": true,
+  "RefireModifier": 1,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 2,
-  "Instability": 100,
-  "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+  "Instability": 30,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
   "Description": {
     "Cost": 450000,
-    "Rarity": 99,
-    "Purchasable": false,
+    "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": "Luthien",
     "Model": "Missile Artillery",
     "UIName": "Arrow IV",
-    "Id": "Weapon_MortarCAC_Arrow4",
+    "Id": "Weapon_Artillery_ArrowIV_0-FIXED",
     "Name": "Arrow IV",
-    "Details": "The Arrow IV Launcher is a medium artillery piece. As all artillery types, it has extreme range, fires always indirect and deals damage in the area of impact. A direct hit of ballistic artillery deals high stability damage in addition to its area effect.",
+    "Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. Arrow IV launchers can be equipped with standard unguided area saturation missiles, causing massive damage to any unit within its 45-meter blast radius.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA": "<color=#FF0000>Dupe</color>",
+  "BonusValueA": "",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "arrow",
   "BattleValue": 0,
-  "InventorySize": 8,
+  "InventorySize": 5,
   "Tonnage": 15,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "Modes": [],
+  "Modes": [
+    {
+      "Id": "ARTY_Std",
+      "UIName": "",
+      "Name": "Artillery",
+      "Description": "Fires in an arc toward the target.",
+      "isBaseMode": true,
+      "DirectFireModifier": 2,
+      "ShotsWhenFired": -1
+    }
+  ],
   "statusEffects": [],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_extreme",
-      "BLACKLISTED"
-    ],
-    "tagSetSourceFile": ""
-  },
   "ImprovedBallistic": true,
-  "AlwaysIndirectVisuals": true,
+  "HitGenerator": "Individual",
   "MissileVolleySize": 1,
   "MissileFiringIntervalMultiplier": 1,
   "MissileVolleyIntervalMultiplier": 1,
   "FireDelayMultiplier": 1,
-  "HitGenerator": "Individual",
-  "AMSHitChance": 0.0,
-  "MissileHealth": 5,
   "AMSImmune": true,
   "ProjectileScale": {
     "x": 5,
     "y": 5,
     "z": 5
+  },
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED",
+      "range_extreme",
+      "loading_mechanism_attachable"
+    ],
+    "tagSetSourceFile": ""
   }
 }
