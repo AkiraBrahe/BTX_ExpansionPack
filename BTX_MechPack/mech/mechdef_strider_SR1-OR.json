@@ -14,6 +14,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_strider_SR1-OR",
+  "HeraldryID": null,
   "Description": {
     "Cost": 4710000,
     "Rarity": 4,

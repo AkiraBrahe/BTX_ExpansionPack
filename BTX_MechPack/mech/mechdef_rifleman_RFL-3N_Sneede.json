@@ -13,6 +13,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_rifleman_RFL-3N_Sneede",
+  "HeraldryID": null,
   "Description": {
     "Cost": 5140000,
     "Rarity": 4,

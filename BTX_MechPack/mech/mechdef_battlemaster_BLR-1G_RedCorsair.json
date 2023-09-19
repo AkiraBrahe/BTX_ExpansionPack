@@ -14,6 +14,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_battlemaster_BLR-1G_RedCorsair",
+  "HeraldryID": null,
   "Description": {
     "Cost": 21560000,
     "Rarity": 4,

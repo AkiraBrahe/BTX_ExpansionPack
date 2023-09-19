@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_thunderhawk_TDK-7KMA",
+  "HeraldryID": null,
   "Description": {
     "Cost": 22540000,
     "Rarity": 4,

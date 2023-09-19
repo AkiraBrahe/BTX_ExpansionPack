@@ -14,12 +14,13 @@
     ],
     "tagSetSourceFile": ""
   },
+  "HeraldryID": null,
   "Description": {
     "Cost": 9510000,
     "Rarity": 3,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Supernova 3",
     "Id": "mechdef_supernova-3",
     "Name": "Supernova",

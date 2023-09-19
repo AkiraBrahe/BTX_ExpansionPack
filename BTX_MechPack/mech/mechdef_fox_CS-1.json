@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_fox_CS-1",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9650000,
     "Rarity": 6,

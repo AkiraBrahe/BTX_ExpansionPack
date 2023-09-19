@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_schwerergustav_SG-1X",
+  "HeraldryID": null,
   "Description": {
     "Cost": 32000000,
     "Rarity": 5,

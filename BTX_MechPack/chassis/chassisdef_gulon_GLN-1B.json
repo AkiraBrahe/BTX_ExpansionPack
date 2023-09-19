@@ -5,10 +5,10 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Gulon SecurityMech",
+    "UIName": "Gulon",
     "Id": "chassisdef_gulon_GLN-1B",
-    "Name": "Gulon SecurityMech",
-    "Details": "<color=#F79B26>The Gulon was originally designed as a MiningMech, but was later adapted for combat and found a niche as a garrison for many communities and backwater planets.</color>\n\nThe Gulon stands out for its fission engine, dangerous and difficult to maintain. In addition to three Small Lasers originally meant to cut stone, the SecurityMech carries a Medium Laser, all aided by advanced fire control. The'Mech keeps the original Mining Drill and heavy industrial armor.",
+    "Name": "Gulon",
+    "Details": "<color=#F79B26>The Gulon was originally designed as a MiningMech, but was later adapted for combat and found a niche as a garrison for many communities and backwater planets.</color>\n\nThe Gulon stands out for its fission engine, dangerous and difficult to maintain. In addition to three Small Lasers originally meant to cut stone, the 1B carries a Medium Laser, all aided by advanced fire control. The'Mech keeps the original Mining Drill and heavy industrial armor.",
     "Icon": "uixTxrIcon_gulon"
   },
   "MovementCapDefID": "movedef_gulon_GLN-1B",
@@ -113,7 +113,7 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Melee",
           "Omni": false
         }
       ],
@@ -193,7 +193,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Ambusher",
+  "StockRole": "SecurityMech",
   "YangsThoughts": "",
   "FixedEquipment": [
     {

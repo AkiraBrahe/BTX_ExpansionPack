@@ -1,0 +1,36 @@
+{
+  "AmmoID": "Ammunition_Fluid_Oil",
+  "Capacity": 20,
+  "Description": {
+    "Cost": 2000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Fluid Gun",
+    "UIName": "Oil Slick Fluid Gun Ammo",
+    "Id": "Ammo_AmmunitionBox_Generic_Fluid_Oil",
+    "Name": "Oil Slick Fluid Gun Ammo",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nLiquid used to try to cause an enemy 'Mech to skid and fall, as well as increase the likelihood that the target will catch fire from other weapons fire. Oil Slick Fluid Gun Ammo Bins each contain 20 rounds and may feed multiple weapons.",
+    "Icon": "uixSvgIcon_ammoBox_Support"
+  },
+  "BonusValueA": "Lowers Speed, Flammable",
+  "BonusValueB": "",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "CanExplode": true,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant1"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

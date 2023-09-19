@@ -1,0 +1,105 @@
+{
+  "Description": {
+    "Id": "Ammunition_Fluid_Inferno",
+    "Name": "Oil Slick Fluid Gun Ammo",
+    "UIName": "Oil Slick",
+    "Details": "Viscous liquid used to slow a target and make it flammable.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "Fluid",
+  "Instability": 10,
+  "HeatGenerated": 0,
+  "DamageMultiplier": 0.6,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 2,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Oil-WalkSpeed",
+        "Name": "OILY ARMOR",
+        "Details": "Oil fluid slows this unit down and makes it vulnerable to heat damage.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "0.65",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 2,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Oil-RunSpeed",
+        "Name": "OILY ARMOR",
+        "Details": "Oil fluid reduces the speed of this unit by 35%.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "0.65",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 2,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-Oil-HeatDamage",
+        "Name": "OILY ARMOR",
+        "Details": "Oil fluid makes this unit more susceptible to heat damage.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "statisticData": {
+        "statName": "CACIncomingHeatMult",
+        "operation": "Float_Multiply",
+        "modValue": "1.25",
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

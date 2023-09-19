@@ -14,6 +14,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_centurion_CN9-YLW2",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7670000,
     "Rarity": 4,

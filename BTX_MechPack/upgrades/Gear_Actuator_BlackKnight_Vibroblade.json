@@ -11,8 +11,8 @@
     "UIName": "Vibroblade",
     "Id": "Gear_Actuator_BlackKnight_Vibroblade",
     "Name": "Vibroblade",
-    "Details": "The Vibroblade is a melee weapon used by the Black Knight that cut through anything in its path when activated. It is affixed permanently to the 'Mech's left arm. It may be damaged and disabled, but it can be repaired.",
-    "Icon": "UixSvgIcon_specialEquip_Melee"
+    "Details": "The Vibroblade is a melee weapon used by the Black Knight that cut through anything in its path when activated. It is affixed permanently to the 'Mech's left arm. It may be damaged and disabled, but it can always be repaired.",
+    "Icon": "energy-sword"
   },
   "BonusValueA": "+ 70 Melee Dmg.",
   "BonusValueB": "",

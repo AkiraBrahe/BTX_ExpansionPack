@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_cyclops_CP-11-A-DC",
+  "HeraldryID": null,
   "Description": {
     "Cost": 10130000,
     "Rarity": 5,

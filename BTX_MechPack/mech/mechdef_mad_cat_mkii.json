@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_mad_cat_mkii",
+  "HeraldryID": null,
   "Description": {
     "Cost": 24020000,
     "Rarity": 3,

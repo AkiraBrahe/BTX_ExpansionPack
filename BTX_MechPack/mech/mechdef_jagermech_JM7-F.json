@@ -14,6 +14,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_jagermech_JM7-F",
+  "HeraldryID": null,
   "Description": {
     "Cost": 13720000,
     "Rarity": 4,

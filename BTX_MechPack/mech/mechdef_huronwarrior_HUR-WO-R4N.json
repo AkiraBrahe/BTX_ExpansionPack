@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_huronwarrior_HUR-WO-R4N",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9460000,
     "Rarity": 4,

@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_orion_ON1-MD",
+  "HeraldryID": null,
   "Description": {
     "Cost": 15510000,
     "Rarity": 4,

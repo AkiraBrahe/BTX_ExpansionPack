@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_fox",
+  "HeraldryID": null,
   "Description": {
     "Cost": 10220000,
     "Rarity": 3,

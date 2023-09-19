@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_juggernaut_JG-R9T1",
+  "HeraldryID": null,
   "Description": {
     "Cost": 8460000,
     "Rarity": 3,

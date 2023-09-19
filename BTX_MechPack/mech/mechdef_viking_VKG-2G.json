@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_viking_VKG-2G",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9560000,
     "Rarity": 4,

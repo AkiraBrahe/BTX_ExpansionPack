@@ -18,6 +18,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_mercuryii_MCY-100",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7920000,
     "Rarity": 4,

@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_dasher_fire_moth-E",
+  "HeraldryID": null,
   "Description": {
     "Cost": 4130000,
     "Rarity": 4,

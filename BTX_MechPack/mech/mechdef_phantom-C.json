@@ -16,12 +16,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_phantom-C",
+  "HeraldryID": null,
   "Description": {
     "Cost": 10390000,
     "Rarity": 4,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Phantom C",
     "Id": "mechdef_phantom-C",
     "Name": "Phantom",

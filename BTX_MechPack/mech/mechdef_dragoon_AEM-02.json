@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_dragoon_AEM-02",
+  "HeraldryID": null,
   "Description": {
     "Cost": 16200000,
     "Rarity": 5,

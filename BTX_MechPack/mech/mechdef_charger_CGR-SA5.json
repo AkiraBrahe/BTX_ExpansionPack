@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_charger_CGR-SA5",
+  "HeraldryID": null,
   "Description": {
     "Cost": 17800000,
     "Rarity": 4,

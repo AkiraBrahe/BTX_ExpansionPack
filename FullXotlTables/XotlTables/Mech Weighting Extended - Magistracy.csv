@@ -48,6 +48,7 @@ mechdef_shadowhawk_SHD-2H,192,,192,,192,,192
 mechdef_hunchback_HBK-4H,6,,5,,5,,7
 mechdef_hunchback_HBK-4N,6,,5,,5,,7
 mechdef_rifleman_RFL-2N,76,,68,,69,,94
+mechdef_hunchback_HBK-5H,0,,0,,0,3064-01-01T00:00:00Z,7
 mechdef_wolverine_WVR-6R,96,,86,,86,,88
 mechdef_hunchback_HBK-4P,6,,5,,5,,7
 mechdef_crab_CRB-20,6,,5,,5,,5
@@ -89,6 +90,7 @@ mechdef_bandersnatch_BNDR-01A,0,,0,3052-01-01T00:00:00Z,3,,3
 mechdef_grasshopper_GHR-5N,0,,0,3050-01-01T00:00:00Z,3,,3
 mechdef_thunderbolt_TDR-8M,0,,0,,0,3058-01-01T00:00:00Z,6
 Assaults,,,,,,,
+mechdef_charger_CGR-2A2,0,,0,,0,3064-01-01T00:00:00Z,2
 mechdef_cyclops_CP-10-Z,11,,10,,7,,7
 mechdef_zeus_ZEU-6Y,3,,3,,3,,3
 mechdef_longbow_LGB-0W,91,,82,,82,,104

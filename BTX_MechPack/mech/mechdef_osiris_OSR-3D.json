@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_osiris_OSR-3D",
+  "HeraldryID": null,
   "Description": {
     "Cost": 5230000,
     "Rarity": 4,

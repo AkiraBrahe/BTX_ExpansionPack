@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_grandcrusader_GRN-D-02",
+  "HeraldryID": null,
   "Description": {
     "Cost": 15710000,
     "Rarity": 4,

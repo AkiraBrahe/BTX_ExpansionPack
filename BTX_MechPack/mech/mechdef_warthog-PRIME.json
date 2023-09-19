@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_warthog-PRIME",
+  "HeraldryID": null,
   "Description": {
     "Cost": 12690000,
     "Rarity": 4,

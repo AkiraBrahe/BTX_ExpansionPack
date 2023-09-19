@@ -1,13 +1,13 @@
 {
-  "Category": "AntiPersonnel",
+  "Category": "Melee",
   "Type": "MachineGun",
   "WeaponSubType": "MachineGun",
   "MinRange": 0,
-  "MaxRange": 40,
+  "MaxRange": 30,
   "RangeSplit": [
-    25,
-    25,
-    40
+    30,
+    30,
+    30
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
@@ -33,18 +33,18 @@
     "Rarity": 99,
     "Purchasable": false,
     "Manufacturer": "Alliance Motors",
-    "Model": "Melee Weapon",
+    "Model": "Industrial Equipment",
     "UIName": "Mining drill",
     "Id": "Weapon_Industrial_MiningDrill",
-    "Name": "Industrial Mining drill",
+    "Name": "Mining Drill",
     "Details": "The Mining Drill, a large, fast-moving drill head on an armature with a diamond tip, is a piece of mining equipment that is usually found on IndustrialMechs or Support Vehicles and is only used for combat as a last resort.",
-    "Icon": "uixSvgIcon_equipment_ActuatorArm"
+    "Icon": "drill"
   },
   "BonusValueA": "+ 20 Melee Dmg.",
-  "BonusValueB": "- 1 Melee Hit",
+  "BonusValueB": "+ 1 Melee Acc.",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "chrprfweap_gulon_rightarm_drill",
+  "PrefabIdentifier": "drill",
   "BattleValue": 0,
   "InventorySize": 4,
   "Tonnage": 3,
@@ -99,10 +99,10 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Attack_ToHitMelee-T1",
-        "Name": "MELEE HIT CHANCE IMPROVED",
-        "Details": "Melee attacks attempted have their hit improved by [AMT].",
-        "Icon": "uixSvgIcon_equipment_Gyro"
+        "Id": "StatusEffect-Attack_AccuracyMelee-T6",
+        "Name": "MELEE ACCURACY INCREASED",
+        "Details": "Melee attacks are [AMT] more accurate.",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
       },
       "nature": "Buff",
       "statisticData": {

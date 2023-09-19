@@ -1,0 +1,71 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 100000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Earthwerks",
+    "Model": "Industrial Equipment",
+    "UIName": "Dual Saw",
+    "Id": "Gear_Actuator_Crosscut_DualSaw",
+    "Name": "Dual Saw",
+    "Details": "A heavy-duty Dual Saw made for the Crosscut LoggerMech to operate in densely forested terrain. It is similar to a Chainsaw, but instead of a single chain, it employs twin high-speed circular ferro-carbide blades that spin around a central axis.",
+    "Icon": "circular-sawblade"
+  },
+  "BonusValueA": "+ 35 Melee Dmg.",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "grinder",
+  "BattleValue": 0,
+  "InventorySize": 7,
+  "Tonnage": 7,
+  "AllowedLocations": "Arms",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Attack_DamageMelee-T1",
+        "Name": "MELEE DAMAGE INCREASED",
+        "Details": "Melee attacks deal [AMT] more damage.",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamagePerShot",
+        "operation": "Float_Add",
+        "modValue": "35.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "Melee"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

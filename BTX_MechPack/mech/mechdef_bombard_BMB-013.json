@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_bombard_BMB-013",
+  "HeraldryID": null,
   "Description": {
     "Cost": 5290000,
     "Rarity": 5,

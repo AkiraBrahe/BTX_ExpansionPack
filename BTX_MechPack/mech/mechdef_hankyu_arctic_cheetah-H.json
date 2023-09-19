@@ -15,12 +15,13 @@
     ],
     "tagSetSourceFile": ""
   },
+  "HeraldryID": null,
   "Description": {
     "Cost": 6490000,
     "Rarity": 4,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Hankyu H",
     "Id": "mechdef_hankyu_arctic_cheetah-H",
     "Name": "Hankyu",

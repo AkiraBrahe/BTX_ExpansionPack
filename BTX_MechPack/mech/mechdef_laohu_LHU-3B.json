@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_laohu_LHU-3B",
+  "HeraldryID": null,
   "Description": {
     "Cost": 21170000,
     "Rarity": 4,

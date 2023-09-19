@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_hermesii_HER-6D",
+  "HeraldryID": null,
   "Description": {
     "Cost": 3590000,
     "Rarity": 4,

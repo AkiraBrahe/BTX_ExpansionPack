@@ -93,12 +93,16 @@ mechdef_griffin_GRF-1N,104,,101,,97,,67
 mechdef_gladiator_GLD-3R,3,,3,,3,,3
 mechdef_gladiator_GLD-4R,3,,3,,3,,3
 Heavies,,,,,,,
+mechdef_diglord_RCL-4,0,,0,,0,3057-01-01T00:00:00Z,18
 mechdef_jagermech_JM6-S,82,,77,,72,,70
 mechdef_rifleman_RFL-3N,139,,133,,125,,70
+mechdef_roughneck_RGH-2A,0,,0,3050-01-01T00:00:00Z,7,,7
 mechdef_rifleman_RFL-3C,0,Jump:3026-01-01T00:00:00Z,4,,4,,6
 mechdef_champion_CHP-2N,8,,7,,7,,0
 mechdef_jagermech_JM6-A,8,,7,,7,,6
+mechdef_roughneck_RGH-1A,0,,0,3050-01-01T00:00:00Z,7,,7
 mechdef_rifleman_RFL-4D,4,,4,,4,,6
+mechdef_roughneck_RGH-1B,0,,0,3050-01-01T00:00:00Z,6,,6
 mechdef_quickdraw_QKD-4G,12,,11,,11,,10
 mechdef_quickdraw_QKD-5A,4,,4,,4,,6
 mechdef_cataphract_CTF-4X,0,3029-01-01T00:00:00Z,4,,4,,4
@@ -111,6 +115,7 @@ mechdef_jagermech_JM6-B,2,,4,,4,,4
 mechdef_battleaxe_BKX-7NC,3,,3,,2,,2
 mechdef_ostsol_OTL-4F,4,,4,,4,,17
 mechdef_ostsol_OTL-4D,68,,64,,60,,56
+mechdef_roughneck_RGH-1C,0,,0,3050-01-01T00:00:00Z,6,,6
 mechdef_ostroc_OSR-3C,4,,4,,4,,6
 mechdef_orion_ON1-V,4,,4,,4,,6
 mechdef_warhammer_WHM-6R,68,,64,,60,,56
@@ -138,6 +143,7 @@ mechdef_stalker_STK-4P,8,,7,,7,,6
 mechdef_marauder_MAD-3D,42,,40,,38,,17
 mechdef_warhammer_WHM-6D,21,,20,,19,,17
 mechdef_archer_ARC-2R,81,,80,,72,,70
+mechdef_roughneck_RGH-3A,0,,0,3050-01-01T00:00:00Z,5,,5
 mechdef_grasshopper_GHR-5N,0,,0,3040-01-01T00:00:00Z,7,,6
 Assaults,,,,,,,
 mechdef_victor_VTR-9A,13,,13,,11,,12

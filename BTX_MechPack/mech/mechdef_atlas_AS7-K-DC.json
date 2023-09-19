@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_atlas_AS7-K-DC",
+  "HeraldryID": null,
   "Description": {
     "Cost": 23400000,
     "Rarity": 4,

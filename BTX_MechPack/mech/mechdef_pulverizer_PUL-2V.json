@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_pulverizer_PUL-2V",
+  "HeraldryID": null,
   "Description": {
     "Cost": 10450000,
     "Rarity": 4,

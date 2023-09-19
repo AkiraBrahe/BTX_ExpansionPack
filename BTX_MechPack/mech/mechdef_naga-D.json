@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_naga-D",
+  "HeraldryID": null,
   "Description": {
     "Cost": 26740000,
     "Rarity": 4,

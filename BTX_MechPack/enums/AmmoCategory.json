@@ -293,6 +293,20 @@
       "FallbackUIColor": null,
       "Icon": "BallisticHardpointIcon",
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_Multiple"
+    },
+    {
+      "ID": 70,
+      "Name": "Fluid",
+      "FriendlyName": "Fluid",
+      "IsBallistic": false,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": true,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Small",
+      "FallbackUIColor": null,
+      "Icon": "SmallHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
     }
   ]
 }

@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_blackjack_BJ2-OR",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9120000,
     "Rarity": 4,

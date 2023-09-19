@@ -6,8 +6,10 @@ Salvage:MarikLocals,20
 Salvage:SteinerLocals,20
 Dates,3025-01-01T00:00:00Z
 Lights,
+mechdef_crosscut_ED-X4D,5
 mechdef_flea_FLE-14,5
 mechdef_stinger_STG-3R,166
+mechdef_crosscut_ED-X4K,4
 mechdef_wasp_WSP-1A,252
 mechdef_locust_LCT-1V,166
 mechdef_hornet_HNT-152,5
@@ -89,6 +91,7 @@ mechdef_blackknight_BL-7-KNT,5
 mechdef_stalker_STK-4P,15
 mechdef_archer_ARC-2R,97
 Assaults,
+mechdef_kiso_K-3N-KR4,3
 mechdef_cyclops_CP-10-Z,10
 mechdef_zeus_ZEU-6Y,3
 mechdef_longbow_LGB-0W,85

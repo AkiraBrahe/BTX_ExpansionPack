@@ -23,6 +23,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_hatchetman_HCT-6D",
+  "HeraldryID": null,
   "Description": {
     "Cost": 10170000,
     "Rarity": 4,

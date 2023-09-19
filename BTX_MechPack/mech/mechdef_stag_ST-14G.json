@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_stag_ST-14G",
+  "HeraldryID": null,
   "Description": {
     "Cost": 8850000,
     "Rarity": 4,

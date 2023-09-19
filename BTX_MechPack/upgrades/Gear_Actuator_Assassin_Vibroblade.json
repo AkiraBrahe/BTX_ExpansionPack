@@ -11,8 +11,8 @@
     "UIName": "Vibroblade",
     "Id": "Gear_Actuator_Assassin_Vibroblade",
     "Name": "Vibroblade",
-    "Details": "The Vibroblade is a melee weapon used by the Assassin that cut through anything in its path when activated. It is affixed permanently to the 'Mech's left arm. It may be damaged and disabled, but it can be repaired.",
-    "Icon": "UixSvgIcon_specialEquip_Melee"
+    "Details": "The Vibroblade is a melee weapon used by the Assassin that cut through anything in its path when activated. It is affixed permanently to the 'Mech's left arm. It may be damaged and disabled, but it can always be repaired.",
+    "Icon": "energy-sword"
   },
   "BonusValueA": "+ 35 Melee Dmg.",
   "BonusValueB": "",
@@ -39,10 +39,10 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Attack_DamageMelee-T4",
+        "Id": "StatusEffect-Attack_DamageMelee-T6",
         "Name": "MELEE DAMAGE INCREASED",
         "Details": "Melee attacks deal [AMT] more damage.",
-        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+        "Icon": "UixSvgIcon_specialEquip_Melee"
       },
       "nature": "Buff",
       "statisticData": {

@@ -225,8 +225,7 @@
       "mr-resize-1.00-0.85-1.00",
       "chassis_DHS",
       "mech_quirk_jettisoncapableweapon",
-      "mech_quirk_prototype",
-      "LandAirMech"
+      "mech_quirk_prototype"
     ],
     "tagSetSourceFile": ""
   },

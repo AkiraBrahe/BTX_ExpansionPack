@@ -14,6 +14,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_galahad_glass_spider-2",
+  "HeraldryID": null,
   "Description": {
     "Cost": 5380000,
     "Rarity": 3,

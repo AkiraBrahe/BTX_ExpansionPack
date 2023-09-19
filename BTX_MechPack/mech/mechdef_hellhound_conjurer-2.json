@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_hellhound_conjurer-2",
+  "HeraldryID": null,
   "Description": {
     "Cost": 11720000,
     "Rarity": 3,

@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_mantis_MTS-S",
+  "HeraldryID": null,
   "Description": {
     "Cost": 5830000,
     "Rarity": 4,

@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_hermesii_HER-5C",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7800000,
     "Rarity": 4,

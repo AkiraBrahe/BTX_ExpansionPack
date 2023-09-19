@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_hellfire-1",
+  "HeraldryID": null,
   "Description": {
     "Cost": 6820000,
     "Rarity": 4,

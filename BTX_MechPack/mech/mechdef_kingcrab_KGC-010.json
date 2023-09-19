@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_kingcrab_KGC-010",
+  "HeraldryID": null,
   "Description": {
     "Cost": 11340000,
     "Rarity": 5,

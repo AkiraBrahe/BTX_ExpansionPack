@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_komodo_KIM-3C",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9710000,
     "Rarity": 4,

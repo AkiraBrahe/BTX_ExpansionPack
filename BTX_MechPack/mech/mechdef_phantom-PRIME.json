@@ -16,12 +16,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_phantom-PRIME",
+  "HeraldryID": null,
   "Description": {
     "Cost": 11200000,
     "Rarity": 4,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Phantom PRIME",
     "Id": "mechdef_phantom-PRIME",
     "Name": "Phantom",

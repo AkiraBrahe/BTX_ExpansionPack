@@ -1,6 +1,13 @@
 {
   "items" : [
 
+    /* Mech Type */                            
+      "unit_industrial",  /* IndustrialMech */
+      "unit_protomech",   /* ProtoMech */
+      "unit_quad",        /* QuadMech */
+      "unit_LAM",         /* LandAirMech */
+      "unit_powerarmor",  /* PowerArmor */
+
     /* Type */
       "unit_mech",
   
@@ -15,6 +22,7 @@
       "unit_role_sniper",
       "unit_role_brawler",
       "unit_role_flanker",
+      "unit_role_meleeonly",
       "unit_role_ewe",
   
       "unit_lance_vanguard",
@@ -46,8 +54,15 @@
       "unit_common",
       "unit_release",
       "unit_LosTech",
+
+    /* Special */
       "unit_clan",
-      
+      "unit_omni",        /* OmniMech */
+      "unit_primitive",
+      "unit_prototype",
+
+
+
       "BLACKLISTED",
 
 

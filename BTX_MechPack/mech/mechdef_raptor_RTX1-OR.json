@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_raptor_RTX1-OR",
+  "HeraldryID": null,
   "Description": {
     "Cost": 4840000,
     "Rarity": 4,

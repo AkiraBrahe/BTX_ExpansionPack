@@ -17,12 +17,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_phoenix_hawk_IIC-9",
+  "HeraldryID": null,
   "Description": {
     "Cost": 22080000,
     "Rarity": 3,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Phoenix Hawk IIC 9",
     "Id": "mechdef_phoenix_hawk_IIC-9",
     "Name": "Phoenix Hawk IIC",

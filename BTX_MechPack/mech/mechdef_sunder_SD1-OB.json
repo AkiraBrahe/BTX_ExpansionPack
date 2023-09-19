@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_sunder_SD1-OB",
+  "HeraldryID": null,
   "Description": {
     "Cost": 34510000,
     "Rarity": 4,

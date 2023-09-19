@@ -1,0 +1,62 @@
+{
+  "Category": "AntiPersonnel",
+  "Type": "Flamer",
+  "WeaponSubType": "Flamer",
+  "MinRange": 0,
+  "MaxRange": 60,
+  "RangeSplit": [
+    60,
+    60,
+    60
+  ],
+  "AmmoCategory": "Fluid",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 0,
+  "Damage": 5,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 2,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 0,
+  "Instability": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_Flamer",
+  "Description": {
+    "Cost": 1000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Alshain",
+    "Model": "Fluid Sprayer",
+    "UIName": "Sprayer",
+    "Id": "Weapon_Fluid_Sprayer_0-STOCK",
+    "Name": "Sprayer",
+    "Details": "The Sprayer is simply a hose and pump system that sprays liquids at a target. It is usually found on IndustrialMechs and vehicles with internal storage tanks. Though useful in commercial and nonmilitary applications, the Sprayer isn't as effective as the Fluid Gun on the battlefield due to its limited pumping power.",
+    "Icon": "uixSvgIcon_weapon_Support"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Flamer",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

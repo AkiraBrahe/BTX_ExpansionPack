@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_templar_TLR1-OC",
+  "HeraldryID": null,
   "Description": {
     "Cost": 26940000,
     "Rarity": 4,

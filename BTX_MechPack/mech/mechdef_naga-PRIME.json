@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_naga-PRIME",
+  "HeraldryID": null,
   "Description": {
     "Cost": 26460000,
     "Rarity": 4,

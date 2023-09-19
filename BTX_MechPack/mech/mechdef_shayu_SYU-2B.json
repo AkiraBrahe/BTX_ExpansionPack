@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_shayu_SYU-2B",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7850000,
     "Rarity": 4,

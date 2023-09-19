@@ -15,6 +15,7 @@
   },
   "ChassisID": "chassisdef_annihilator_C",
   "prefabOverride": "chrPrfMech_annihilator_BlackWidowBase-001",
+  "HeraldryID": null,
   "Description": {
     "Cost": 11680000,
     "Rarity": 3,

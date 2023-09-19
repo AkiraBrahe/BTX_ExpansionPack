@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_industrial",
       "unit_mech",
       "unit_light",
       "unit_role_brawler",
@@ -13,6 +14,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_gulon_GLN-1B",
+  "HeraldryID": null,
   "Description": {
     "Cost": 1120000,
     "Rarity": 4,
@@ -21,7 +23,7 @@
     "Model": null,
     "UIName": "Gulon GLN-1B",
     "Id": "mechdef_gulon_GLN-1B",
-    "Name": "Gulon SecurityMech",
+    "Name": "Gulon",
     "Details": "<color=#F79B26>The Gulon was originally designed as a MiningMech, but was later adapted for combat and found a niche as a garrison for many communities and backwater planets.</color>\n\nThe Gulon stands out for its fission engine, dangerous and difficult to maintain. In addition to three Small Lasers originally meant to cut stone, the SecurityMech carries a Medium Laser, all aided by advanced fire control. The'Mech keeps the original Mining Drill and heavy industrial armor.",
     "Icon": "uixTxrIcon_gulon"
   },

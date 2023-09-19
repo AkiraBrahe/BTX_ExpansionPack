@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_thunderbolt_TDR-8M",
+  "HeraldryID": null,
   "Description": {
     "Cost": 6430000,
     "Rarity": 3,

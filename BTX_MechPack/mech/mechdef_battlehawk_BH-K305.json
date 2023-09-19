@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_battlehawk_BH-K305",
+  "HeraldryID": null,
   "Description": {
     "Cost": 3760000,
     "Rarity": 4,

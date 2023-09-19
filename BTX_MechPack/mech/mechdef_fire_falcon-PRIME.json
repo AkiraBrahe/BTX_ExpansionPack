@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_fire_falcon-PRIME",
+  "HeraldryID": null,
   "Description": {
     "Cost": 4710000,
     "Rarity": 4,

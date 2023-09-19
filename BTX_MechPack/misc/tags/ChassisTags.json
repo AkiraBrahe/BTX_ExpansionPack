@@ -10,8 +10,6 @@
       "chassis_composite",
       "chassis_reactive",
       "chassis_stealth",
-      "QuadMech",
-      "LandAirMech",
 
     /* CASE */
       "mech_case_centre",

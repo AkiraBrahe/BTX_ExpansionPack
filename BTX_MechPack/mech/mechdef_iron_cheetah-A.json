@@ -14,12 +14,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_iron_cheetah-A",
+  "HeraldryID": null,
   "Description": {
     "Cost": 36860000,
     "Rarity": 4,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Iron Cheetah A",
     "Id": "mechdef_iron_cheetah-A",
     "Name": "Iron Cheetah",

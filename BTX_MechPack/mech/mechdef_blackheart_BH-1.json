@@ -15,12 +15,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_blackheart_BH-1",
+  "HeraldryID": null,
   "Description": {
     "Cost": 14690000,
     "Rarity": 5,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Black Heart BH-1",
     "Id": "mechdef_blackheart_BH-1",
     "Name": "Black Heart",

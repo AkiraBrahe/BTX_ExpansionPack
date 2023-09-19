@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_catapult_CPLT-C5",
+  "HeraldryID": null,
   "Description": {
     "Cost": 6560000,
     "Rarity": 4,

@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_chimera_CMA-C",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7080000,
     "Rarity": 4,

@@ -224,8 +224,7 @@
       "mech_quirk_hardtopilot",
       "mech_quirk_nominimalarms",
       "mech_quirk_prototype",
-      "mech_quirk_largeengine",
-      "LandAirMech"
+      "mech_quirk_largeengine"
     ],
     "tagSetSourceFile": ""
   },

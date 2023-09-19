@@ -14,6 +14,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_lineholder_KW1-LH2",
+  "HeraldryID": null,
   "Description": {
     "Cost": 4520000,
     "Rarity": 3,

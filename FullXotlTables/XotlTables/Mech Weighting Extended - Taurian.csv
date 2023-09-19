@@ -48,6 +48,7 @@ mechdef_shadowhawk_SHD-2H,102,,102,,102
 mechdef_hunchback_HBK-4H,7,,7,,8
 mechdef_hunchback_HBK-4N,7,,7,,8
 mechdef_rifleman_RFL-2N,67,,67,,67
+mechdef_hunchback_HBK-5H,0,,0,3064-01-01T00:00:00Z,7
 mechdef_wolverine_WVR-6R,88,,88,,88
 mechdef_hunchback_HBK-4P,7,,7,,7
 mechdef_crab_CRB-20,7,,7,,8
@@ -97,6 +98,7 @@ mechdef_awesome_AWS-8R,11,,11,,13
 mechdef_striker_STC-2C,24,,24,,24
 mechdef_awesome_AWS-8V,11,,11,,13
 mechdef_battlemaster_BLR-1G,24,,24,,24
+mechdef_cyclops_CP-11-H,0,,0,3064-01-01T00:00:00Z,3
 mechdef_cyclops_CP-11-A,0,3045-01-01T00:00:00Z,3,,6
 mechdef_stalker_STK-4N,42,,42,,42
 mechdef_stalker_STK-3F,303,,303,,302

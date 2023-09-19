@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_akuma_AKU-1X",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9520000,
     "Rarity": 4,

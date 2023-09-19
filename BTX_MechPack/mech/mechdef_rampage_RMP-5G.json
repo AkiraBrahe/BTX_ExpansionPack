@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_rampage_RMP-5G",
+  "HeraldryID": null,
   "Description": {
     "Cost": 23070000,
     "Rarity": 5,

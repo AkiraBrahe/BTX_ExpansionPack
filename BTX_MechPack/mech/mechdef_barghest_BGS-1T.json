@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_quad",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -16,12 +17,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_barghest_BGS-1T",
+  "HeraldryID": null,
   "Description": {
     "Cost": 16470000,
     "Rarity": 4,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Barghest BGS-1T",
     "Id": "mechdef_barghest_BGS-1T",
     "Name": "Barghest",

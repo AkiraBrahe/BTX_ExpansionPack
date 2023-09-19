@@ -13,6 +13,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_albatross_ALB-3U",
+  "HeraldryID": null,
   "Description": {
     "Cost": 25610000,
     "Rarity": 4,

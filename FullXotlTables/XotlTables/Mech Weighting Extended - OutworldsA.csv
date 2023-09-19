@@ -5,7 +5,7 @@ Dates,3025-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z
 Lights,,,,,
 mechdef_stinger_STG-3R,132,,132,,132
 mechdef_wasp_WSP-1A,277,,274,,273
-mechdef_gulon_GLN-1B,4,,4,,4
+mechdef_gulon_GLN-1B,12,,12,,12
 mechdef_locust_LCT-1V,182,,173,,170
 mechdef_locust_LCT-3V,10,,10,,10
 mechdef_stinger_STG-3G,39,,39,,39
@@ -41,6 +41,7 @@ mechdef_shadowhawk_SHD-2H,106,,106,,100
 mechdef_hunchback_HBK-4H,7,,7,,7
 mechdef_hunchback_HBK-4N,7,,7,,7
 mechdef_rifleman_RFL-2N,39,,39,,39
+mechdef_hunchback_HBK-5H,0,,0,3064-01-01T00:00:00Z,7
 mechdef_wolverine_WVR-6R,106,,105,,100
 mechdef_hunchback_HBK-4P,7,,7,,7
 mechdef_crab_CRB-20,7,,7,,7
@@ -74,9 +75,11 @@ mechdef_guillotine_GLT-4L,11,,11,,11
 mechdef_grasshopper_GHR-5H,55,,44,,38
 mechdef_orion_ON1-K,39,,39,,39
 mechdef_stalker_STK-4P,17,,20,,20
+mechdef_catapult_CPLT-H2,0,,0,3064-01-01T00:00:00Z,8
 mechdef_archer_ARC-2R,207,,207,,207
 mechdef_grasshopper_GHR-5N,0,3040-01-01T00:00:00Z,11,,20
 Assaults,,,,,
+mechdef_charger_CGR-2A2,0,,0,3064-01-01T00:00:00Z,3
 mechdef_longbow_LGB-0W,52,,52,,52
 mechdef_victor_VTR-9B,11,,9,,9
 mechdef_banshee_BNC-3E,182,,182,,182

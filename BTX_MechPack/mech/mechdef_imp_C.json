@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_imp_C",
+  "HeraldryID": null,
   "Description": {
     "Cost": 11010000,
     "Rarity": 3,

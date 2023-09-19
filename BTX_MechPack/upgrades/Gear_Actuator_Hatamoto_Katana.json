@@ -11,11 +11,11 @@
     "UIName": "Katana",
     "Id": "Gear_Actuator_Hatamoto_Katana",
     "Name": "Katana",
-    "Details": "The Katana is a melee weapon developed by the Draconis Combine as an \"honorable\" alternative to the \"crude\" Lyran Hatchet. It inflicts nearly as much damage as the Hatchet and is highly accurate due to its exceptional balance. The Katana is affixed permanently to the 'Mech's right arm. It may be damaged and disabled, but it can be repaired.",
-    "Icon": "UixSvgIcon_specialEquip_Melee"
+    "Details": "The Katana is a melee weapon developed by the Draconis Combine as an \"honorable\" alternative to the \"crude\" Lyran Hatchet. It inflicts nearly as much damage as the Hatchet and is highly accurate due to its exceptional balance. The Katana is affixed permanently to the 'Mech's right arm. It may be damaged and disabled, but it can always be repaired.",
+    "Icon": "katana"
   },
   "BonusValueA": "+ 60 Melee Dmg.",
-  "BonusValueB": "+ 2 Melee Hit",
+  "BonusValueB": "+ 2 Melee Acc.",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",

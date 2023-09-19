@@ -18,6 +18,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_assassinii_ASN-56",
+  "HeraldryID": null,
   "Description": {
     "Cost": 1070000,
     "Rarity": 4,

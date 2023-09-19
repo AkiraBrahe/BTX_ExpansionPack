@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_firestarter_FS9-OR",
+  "HeraldryID": null,
   "Description": {
     "Cost": 10700000,
     "Rarity": 4,

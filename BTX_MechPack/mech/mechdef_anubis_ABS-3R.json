@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_anubis_ABS-3R",
+  "HeraldryID": null,
   "Description": {
     "Cost": 5280000,
     "Rarity": 4,

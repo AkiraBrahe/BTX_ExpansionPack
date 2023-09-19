@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_rattlesnake_JR7-31P",
+  "HeraldryID": null,
   "Description": {
     "Cost": 6350000,
     "Rarity": 4,

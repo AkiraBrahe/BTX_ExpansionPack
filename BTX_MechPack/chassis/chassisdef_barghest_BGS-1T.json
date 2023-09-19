@@ -23,7 +23,7 @@
   "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 240,
+  "Stability": 160,
   "StabilityDefenses": [
     0,
     0,
@@ -203,8 +203,7 @@
       "mr-resize-0.90-0.90-0.90",
       "chassis_DHS",
       "mech_quirk_directionaltorsomount",
-      "mech_quirk_largeengine",
-      "QuadMech"
+      "mech_quirk_largeengine"
     ],
     "tagSetSourceFile": ""
   },

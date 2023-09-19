@@ -1,0 +1,51 @@
+{
+  "Description": {
+    "Id": "Ammunition_Fluid_Corrosive",
+    "Name": "Corrosive Fluid Gun Ammo",
+    "UIName": "Corrosive",
+    "Details": "Highly volatile liquid used to melt away hardened materials.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "Fluid",
+  "DamagePerShot": 5,
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1.5,
+  "ISDamageModifier": 0.5,
+  "CriticalDamageModifier": 1,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-CorrosiveDamage",
+        "Name": "WEAKENED ARMOR",
+        "Details": "This unit is corroded and is more susceptible to damage.",
+        "Icon": "uixSvgIcon_biome_Heated"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": "0.9",
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

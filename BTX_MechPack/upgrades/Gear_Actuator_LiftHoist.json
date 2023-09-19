@@ -1,0 +1,101 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 50000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Achernar",
+    "Model": "Industrial Equipment",
+    "UIName": "Lift Hoist",
+    "Id": "Gear_Actuator_LiftHoist",
+    "Name": "Lift Hoist",
+    "Details": "Used for lifting and moving cargo, the hoist allows a 'Mech to lift up to half its weight without incurring penalty.  The unintended benefit of the hoist is added stability while allow it to exert more force to destabilize an opponent in melee.",
+    "Icon": "cargo-crane"
+  },
+  "BonusValueA": "- 5% Stb.Dmg. Taken",
+  "BonusValueB": "+ 20 Melee Stb.Dmg.",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 3,
+  "AllowedLocations": "Torso",
+  "DisallowedLocations": "Head, Arms, Legs",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Defense_StabilityAll-T1",
+        "Name": "INCOMING STABILITY DAMAGE DECREASED",
+        "Details": "Incoming stability damage reduced by 5%.",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "0.95",
+        "modType": "System.Single"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Attack_DamageMelee-T2",
+        "Name": "MELEE STABILITY DAMAGE INCREASED",
+        "Details": "Melee attacks deal [AMT] more stability damage.",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "Instability",
+        "operation": "Float_Add",
+        "modValue": "20.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "Melee"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

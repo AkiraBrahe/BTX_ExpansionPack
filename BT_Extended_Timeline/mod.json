@@ -213,7 +213,7 @@
 		
 		"ShopSwitch":
 		{
-			"itemCollection_Ammo_OverTime": [3052, 3057, 3059, 3060, 3061],
+			"itemCollection_Ammo_OverTime": [3043, 3052, 3057, 3059, 3060, 3061],
 			"itemCollection_Ammo_DavionOverTime": [3035, 3049, 3051, 3053, 3055, 3058, 3059, 3060, 3061, 3062, 3063],
 			"itemCollection_Ammo_KuritaOverTime": [3049, 3058, 3059, 3061],
 			"itemCollection_Ammo_LiaoOverTime": [3044, 3049, 3053, 3054, 3056, 3058, 3059, 3061, 3063],
@@ -291,8 +291,8 @@
 			"itemCollection_Weapons_Zeus_uncommon": [3035],
 			"itemCollection_Weapons_Zeus_rare": [3035],
 			"itemCollection_shopItems_blackmarket": [3052, 3058, 3062],
-			"itemCollection_shopItems_research_lostech": [3047, 3057, 3062],
-			"itemCollection_shopItems_researchProgression_lostech": [3047, 3057, 3062],
+			"itemCollection_shopItems_research_lostech": [3047, 3052, 3057, 3060, 3062],
+			"itemCollection_shopItems_researchProgression_lostech": [3047, 3052, 3057, 3060, 3062],
 			"itemCollection_shopItems_weapons": [3050, 3057],
 			"itemCollection_shopItems_weapons_davion": [3035, 3044, 3049, 3051, 3052, 3054, 3057, 3058, 3059, 3060, 3062, 3063],
 			"itemCollection_shopItems_weapons_kurita": [3037, 3049, 3052, 3058, 3059, 3062, 3063, 3064],
@@ -309,7 +309,7 @@
 			"itemCollection_systemStores_MechParts_Liao": [3048],
 			"itemCollection_systemStores_Mechs_Dragoons": [3032, 3047, 3048, 3049, 3050, 3052, 3054, 3060],
 			"itemCollection_timebased_GreatHouse": [3057, 3058, 3059, 3060, 3061, 3062],
-			"itemCollection_faction_equipment_Davion": [3052, 3054, 3057, 3059],
+			"itemCollection_faction_equipment_Davion": [3052, 3057, 3059, 3061],
 			"itemCollection_faction_equipment_Kurita": [3052, 3057],
 			"itemCollection_faction_equipment_Liao": [3052, 3057],
 			"itemCollection_faction_equipment_Marik": [3052, 3057],

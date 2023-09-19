@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_anvil_ANV-8M",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7160000,
     "Rarity": 4,

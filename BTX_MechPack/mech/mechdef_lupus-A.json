@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_lupus-A",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7470000,
     "Rarity": 4,

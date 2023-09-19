@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_cronus_CNS-5M",
+  "HeraldryID": null,
   "Description": {
     "Cost": 12650000,
     "Rarity": 4,

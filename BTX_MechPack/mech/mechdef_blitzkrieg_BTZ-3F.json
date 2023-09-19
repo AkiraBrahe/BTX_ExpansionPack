@@ -13,6 +13,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_blitzkrieg_BTZ-3F",
+  "HeraldryID": null,
   "Description": {
     "Cost": 10790000,
     "Rarity": 4,

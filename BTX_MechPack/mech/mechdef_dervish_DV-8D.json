@@ -18,6 +18,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_dervish_DV-8D",
+  "HeraldryID": null,
   "Description": {
     "Cost": 11150000,
     "Rarity": 4,

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_LAM",
       "unit_mech",
       "unit_medium",
       "unit_role_flanker",
@@ -14,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_screamerlam_SCR-1X-LAM",
+  "HeraldryID": null,
   "Description": {
     "Cost": 5220000,
     "Rarity": 5,

@@ -7,10 +7,14 @@ Salvage:MarikLocals,20,,20,,20,,20
 Salvage:SteinerLocals,20,,20,,20,,20
 Dates,3025-01-01T00:00:00Z,,3035-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3062-01-01T00:00:00Z
 Lights,,,,,,,
+mechdef_crosscut_ED-X4D,18,,16,,13,,9
+mechdef_crosscut_ED-X2M,18,,16,,13,,9
 mechdef_flea_FLE-14,6,,6,,6,,6
 mechdef_stinger_STG-3R,97,,93,,77,,80
+mechdef_crosscut_ED-X4K,13,,12,,10,,7
 mechdef_wasp_WSP-1A,125,,120,,125,,140
 mechdef_locust_LCT-1V,97,,93,,67,,20
+mechdef_digking_RCL-1M,27,,24,,19,,13
 mechdef_hornet_HNT-152,6,,6,,6,,6
 mechdef_hornet_HNT-151,14,,13,,19,,20
 mechdef_locust_LCT-3V,14,,13,,29,,20
@@ -26,6 +30,7 @@ mechdef_falcon_FLC-4N,6,,6,,6,,6
 mechdef_spider_SDR-5V,42,,40,,38,,40
 mechdef_valkyrie_VLK-QF,6,,6,,6,,6
 mechdef_hermes_HER-1B,6,,6,,6,,6
+mechdef_commando_COM-4H,0,,0,,0,3064-01-01T00:00:00Z,19
 mechdef_firestarter_FS9-H,181,,173,,144,,60
 mechdef_valkyrie_VLK-QA,16,,16,,16,,16
 mechdef_mongoose_MON-67,6,,27,,19,,6
@@ -92,8 +97,8 @@ mechdef_quickdraw_QKD-5A,15,,15,,19,,17
 mechdef_ostwar_OWR-2M,3,,3,,3,,3
 mechdef_dragon_DRG-1C,11,,11,,11,,11
 mechdef_merlin_MLN-1A,0,,0,Jump:3049-01-01T00:00:00Z,57,,26
-mechdef_ostroc_OSR-2C,19,,19,,19,,9
 mechdef_merlin_MLN-1B,0,,0,,0,3055-01-01T00:00:00Z,26
+mechdef_ostroc_OSR-2C,19,,19,,19,,9
 mechdef_ostroc_OSR-2L,6,,6,,6,,6
 mechdef_quickdraw_QKD-4H,10,,10,,9,,13
 mechdef_ostsol_OTL-4D,44,,44,,38,,35
@@ -103,9 +108,10 @@ mechdef_warhammer_WHM-6R,117,,117,,85,,56
 mechdef_cataphract_CTF-1X,0,,0,,0,Jump:3058-01-01T00:00:00Z,22
 mechdef_crusader_CRD-3R,83,,83,,75,,87
 mechdef_orion_ON1-VA,6,,6,,6,,6
-mechdef_thunderbolt_TDR-5S,58,,58,,57,,48
 mechdef_marauder_MAD-3M,0,,0,,0,Jump:3058-01-01T00:00:00Z,4
+mechdef_thunderbolt_TDR-5S,58,,58,,57,,48
 mechdef_bombardier_BMB-10D,19,,19,,19,,6
+mechdef_jagermech_JM6-H,0,,0,,0,3064-01-01T00:00:00Z,4
 mechdef_grasshopper_GHR-5J,0,,0,,0,3055-01-01T00:00:00Z,26
 mechdef_marauder_MAD-3R,19,,19,,19,,9
 mechdef_guillotine_GLT-4P,5,,5,,6,,6
@@ -118,6 +124,7 @@ mechdef_orion_ON1-K,58,,58,,57,,35
 mechdef_grasshopper_GHR-4R,3,,3,,3,,3
 mechdef_blackknight_BL-7-KNT,6,,6,,6,,6
 mechdef_stalker_STK-4P,29,,29,,28,,56
+mechdef_catapult_CPLT-H2,0,,0,,0,3064-01-01T00:00:00Z,9
 mechdef_archer_ARC-2R,83,,83,,75,,39
 mechdef_warhammer_WHM-7M,0,,0,3049-01-01T00:00:00Z,19,,39
 mechdef_grasshopper_GHR-5N,0,,0,3040-01-01T00:00:00Z,9,,17
@@ -126,6 +133,7 @@ mechdef_archer_ARC-4M,0,,0,,0,3055-01-01T00:00:00Z,30
 Assaults,,,,,,,
 mechdef_charger_CGR-1L,0,,0,Jump:3049-01-01T00:00:00Z,10,,10
 mechdef_charger_CGR-1A1,0,,0,Jump:3049-01-01T00:00:00Z,3,,2
+mechdef_charger_CGR-2A2,0,,0,,0,3064-01-01T00:00:00Z,7
 mechdef_victor_VTR-9A1,0,,0,,0,Jump:3058-01-01T00:00:00Z,7
 mechdef_cyclops_CP-10-Z,20,,20,,20,,12
 mechdef_zeus_ZEU-6Y,3,,3,,3,,3
@@ -141,6 +149,7 @@ mechdef_awesome_AWS-8R,11,,11,,11,,11
 mechdef_striker_STC-2C,23,,22,,22,,22
 mechdef_awesome_AWS-8V,11,,11,,11,,11
 mechdef_battlemaster_BLR-1G,82,,82,,59,,46
+mechdef_cyclops_CP-11-H,0,,0,,0,3064-01-01T00:00:00Z,11
 mechdef_stalker_STK-4N,33,,33,,33,,50
 mechdef_stalker_STK-3F,257,,257,,257,,197
 mechdef_cyclops_CP-10-Q,5,,5,,5,,5
@@ -156,8 +165,9 @@ mechdef_corsair_COR-7A,0,,0,3050-01-01T00:00:00Z,5,,5
 mechdef_victor_VTR-9K,0,,0,,0,3055-01-01T00:00:00Z,14
 mechdef_atlas_AS7-A,5,,5,,5,,5
 mechdef_corsair_COR-5T,0,3035-01-01T00:00:00Z,11,,11,,11
-mechdef_pillager_PLG-1N,5,,5,,5,,5
 mechdef_awesome_AWS-9M,0,,0,,0,3058-01-01T00:00:00Z,36
+mechdef_pillager_PLG-1N,5,,5,,5,,5
+mechdef_longbow_LGB-0H,0,,0,,0,3065-01-01T00:00:00Z,16
 mechdef_atlas_AS7-RS,3,,3,,3,,2
 mechdef_awesome_AWS-9Q,0,,0,,0,3057-01-01T00:00:00Z,50
 mechdef_atlas_AS7-D,13,,13,,13,,10

@@ -15,12 +15,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_vulture_mad_dog-FURY",
+  "HeraldryID": null,
   "Description": {
     "Cost": 13390000,
     "Rarity": 4,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Vulture Fury",
     "Id": "mechdef_vulture_mad_dog-FURY",
     "Name": "Fury",

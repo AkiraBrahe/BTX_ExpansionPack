@@ -58,22 +58,18 @@
         "duration": 1,
         "ticksOnActivations": true,
         "useActivationsOfTarget": true,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "stackLimit": -1,
-        "clearedWhenAttacked": false
+        "stackLimit": -1
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
-        "effectTargetType": "NotSet",
         "showInTargetPreview": false,
         "showInStatusPanel": false
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffectHeatDamageReduction",
+        "Id": "StatusEffect-HeatDamageReduction",
         "Name": "Inferno VFX",
-        "Details": "reduce inc heat by 0.02, stacks",
+        "Details": "Reduces incoming heat damage by 2%, stacks.",
         "Icon": "uixSvgIcon_statusOnFire"
       },
       "nature": "Buff",
@@ -90,15 +86,10 @@
         "duration": 1,
         "ticksOnActivations": true,
         "useActivationsOfTarget": true,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "stackLimit": -1,
-        "clearedWhenAttacked": false
+        "stackLimit": -1
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
-        "effectTargetType": "NotSet",
-        "showInTargetPreview": false,
         "showInStatusPanel": false,
         "hideApplicationFloatie": true
       },

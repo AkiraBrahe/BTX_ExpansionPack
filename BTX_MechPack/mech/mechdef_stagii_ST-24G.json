@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_stagii_ST-24G",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9160000,
     "Rarity": 4,

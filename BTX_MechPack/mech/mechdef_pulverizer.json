@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_pulverizer",
+  "HeraldryID": null,
   "Description": {
     "Cost": 10750000,
     "Rarity": 3,

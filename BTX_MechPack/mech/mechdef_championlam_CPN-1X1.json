@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_LAM",
       "unit_mech",
       "unit_heavy",
       "unit_role_flanker",
@@ -15,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_championlam_CPN-1X1",
+  "HeraldryID": null,
   "Description": {
     "Cost": 5560000,
     "Rarity": 5,

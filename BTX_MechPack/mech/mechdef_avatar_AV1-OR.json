@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_avatar_AV1-OR",
+  "HeraldryID": null,
   "Description": {
     "Cost": 17290000,
     "Rarity": 4,

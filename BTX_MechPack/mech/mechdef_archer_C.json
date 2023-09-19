@@ -17,6 +17,7 @@
   },
   "ChassisID": "chassisdef_archer_C",
   "prefabOverride": "chrPrfMech_archer_BlackWidowBase-001",
+  "HeraldryID": null,
   "Description": {
     "Cost": 6690000,
     "Rarity": 4,

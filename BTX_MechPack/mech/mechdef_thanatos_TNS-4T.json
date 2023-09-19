@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_thanatos_TNS-4T",
+  "HeraldryID": null,
   "Description": {
     "Cost": 16770000,
     "Rarity": 4,

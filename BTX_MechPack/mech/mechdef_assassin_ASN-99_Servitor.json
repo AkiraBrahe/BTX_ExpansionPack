@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_assassin_ASN-99_Servitor",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7380000,
     "Rarity": 4,

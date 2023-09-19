@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_arctic_wolf-2",
+  "HeraldryID": null,
   "Description": {
     "Cost": 7550000,
     "Rarity": 3,

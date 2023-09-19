@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_blackknight_BL-X-KNT",
+  "HeraldryID": null,
   "Description": {
     "Cost": 17240000,
     "Rarity": 5,

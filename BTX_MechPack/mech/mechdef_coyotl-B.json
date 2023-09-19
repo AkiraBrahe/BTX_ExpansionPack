@@ -15,6 +15,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_coyotl-B",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9060000,
     "Rarity": 4,

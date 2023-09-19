@@ -17,6 +17,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_nightsky_NGS-4T",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9630000,
     "Rarity": 4,

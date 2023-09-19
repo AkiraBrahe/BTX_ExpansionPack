@@ -76,7 +76,7 @@
     "Manufacturer": "Kali Yama",
     "Model": "Defensive System",
     "UIName": "Blue Shield Particle Field Damper",
-    "Id": "Gear_BlueShield",
+    "Id": "Gear_Blue_Shield",
     "Name": "Blue Shield Particle Field Damper",
     "Details": "The Blue Shield Particle Field Damper (PFD) is a defensive system that mitigates PPC damage. While the field damper shields the equipped unit from PPC fire, it is notoriously unreliable due to the dust and other miscellaneous debris it sucks when active, eventually causing the system to shut down. To delay this problem, the Blue Shield can be deactivated when there are no enemy units wielding PPCs.",
     "Icon": "UixSvgIcon_specialEquip_System"

@@ -14,6 +14,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_bellerophon_BEL-1X",
+  "HeraldryID": null,
   "Description": {
     "Cost": 4780000,
     "Rarity": 6,

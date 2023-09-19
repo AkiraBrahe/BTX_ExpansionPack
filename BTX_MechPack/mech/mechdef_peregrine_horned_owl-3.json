@@ -15,12 +15,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_peregrine_horned_owl-3",
+  "HeraldryID": null,
   "Description": {
     "Cost": 3630000,
     "Rarity": 3,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Peregrine 3",
     "Id": "mechdef_peregrine_horned_owl-3",
     "Name": "Peregrine",

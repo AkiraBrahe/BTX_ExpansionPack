@@ -13,6 +13,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_jackrabbit_JKR-8T",
+  "HeraldryID": null,
   "Description": {
     "Cost": 1850000,
     "Rarity": 5,

@@ -15,12 +15,13 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_matar_SAM-RS2",
+  "HeraldryID": null,
   "Description": {
     "Cost": 9680000,
     "Rarity": 5,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Matar SAM-RS2",
     "Id": "mechdef_matar_SAM-RS2",
     "Name": "Matar",

@@ -16,6 +16,7 @@
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_buccaneer_BCN-3R",
+  "HeraldryID": null,
   "Description": {
     "Cost": 11660000,
     "Rarity": 4,

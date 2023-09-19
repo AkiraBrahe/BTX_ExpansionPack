@@ -15,6 +15,7 @@
   },
   "ChassisID": "chassisdef_hammer_HMR-3P",
   "prefabOverride": "chrPrfMech_atlasBacker-SBA",
+  "HeraldryID": null,
   "Description": {
     "Cost": 2530000,
     "Rarity": 4,

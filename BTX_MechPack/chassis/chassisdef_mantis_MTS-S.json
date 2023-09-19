@@ -283,7 +283,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Claws",
+      "ComponentDefID": "Gear_Actuator_Mantis_Claws",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -301,7 +301,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Claws",
+      "ComponentDefID": "Gear_Actuator_Mantis_Claws",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
