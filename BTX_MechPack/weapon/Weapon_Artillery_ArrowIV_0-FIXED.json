@@ -41,7 +41,7 @@
     "UIName": "Arrow IV",
     "Id": "Weapon_Artillery_ArrowIV_0-FIXED",
     "Name": "Arrow IV",
-    "Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. Arrow IV launchers can be equipped with standard unguided area saturation missiles, causing massive damage to any unit within its 45-meter blast radius.",
+    "Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. Arrow IV launchers can be equipped with standard unguided area saturation missiles, causing massive damage to any unit within its 45-meter blast radius. <color=#FF0000>A Loading Mechanism must be installed to fire this weapon.</color>",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA": "",
@@ -66,7 +66,34 @@
       "ShotsWhenFired": -1
     }
   ],
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Artillery-SelfKnockdown",
+        "Name": "INCOMING STABILITY DAMAGE INCREASED",
+        "Details": "Incoming stability damage increased by [AMT].",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.15",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ImprovedBallistic": true,
   "HitGenerator": "Individual",
   "MissileVolleySize": 1,

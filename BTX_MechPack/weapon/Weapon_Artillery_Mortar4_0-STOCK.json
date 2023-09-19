@@ -19,7 +19,7 @@
   "EvasivePipsIgnored": 0,
   "DamageVariance": 0,
   "HeatDamage": 0,
-  "AccuracyModifier": 1,
+  "AccuracyModifier": 0,
   "MinMissRadius": 15,
   "MaxMissRadius": 75,
   "CriticalChanceMultiplier": 1,
@@ -31,7 +31,7 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
   "Instability": 4,
-  "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+  "WeaponEffectID": "WeaponEffect-Weapon_AC5_Single",
   "Description": {
     "Cost": 32000,
     "Rarity": 5,

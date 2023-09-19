@@ -27,7 +27,7 @@
   "AOERange": 60,
   "AOEDamage": 50,
   "AOEHeatDamage": 0,
-  "AOEInstability": 25,
+  "AOEInstability": 37.5,
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -46,14 +46,14 @@
     "UIName": "Thumper Cannon",
     "Id": "Weapon_Artillery_ThumperCannon_0-FIXED",
     "Name": "Thumper Artillery Cannon",
-    "Details": "The Thumper Artillery Cannon is a snub-nosed version of the Thumper Artillery Piece that can provide artillery support at much closer ranges than its cousin. Because of the shorter barrel length, the weapon does not have the same damage potential.",
+    "Details": "The Thumper Artillery Cannon is a snub-nosed version of the Thumper Artillery Piece that can provide artillery support at much closer ranges than its cousin. Because of the shorter barrel length, the weapon does not have the same damage potential. <color=#FF0000>A Loading Mechanism must be installed to fire this weapon.</color>",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "chrPrfWeap_bullshark_centertorso_thumper",
+  "PrefabIdentifier": "thumper",
   "BattleValue": 0,
   "InventorySize": 5,
   "Tonnage": 10,
@@ -71,7 +71,34 @@
       "ShotsWhenFired": -1
     }
   ],
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Artillery-SelfKnockdown",
+        "Name": "INCOMING STABILITY DAMAGE INCREASED",
+        "Details": "Incoming stability damage increased by [AMT].",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.15",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 1,
   "ProjectileSpeedMultiplier": 0.8,

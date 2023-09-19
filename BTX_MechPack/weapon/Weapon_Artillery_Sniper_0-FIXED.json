@@ -27,7 +27,7 @@
   "AOERange": 90,
   "AOEDamage": 150,
   "AOEHeatDamage": 0,
-  "AOEInstability": 75,
+  "AOEInstability": 100,
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -46,7 +46,7 @@
     "UIName": "Sniper",
     "Id": "Weapon_Artillery_Sniper_0-FIXED",
     "Name": "Sniper Artillery Piece",
-    "Details": "The Sniper Rifle Artillery Piece is second most powerful tube artillery, capable of crippling or destroying most light and medium BattleMechs with a single hit. As with all artillery types, the Sniper always fires indirectly and deals damage in the area of impact.",
+    "Details": "The Sniper Rifle Artillery Piece is second most powerful tube artillery, capable of crippling or destroying most light and medium BattleMechs with a single hit. As with all artillery types, the Sniper always fires indirectly and deals damage in the area of impact. <color=#FF0000>A Loading Mechanism must be installed to fire this weapon.</color>",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
@@ -71,7 +71,34 @@
       "ShotsWhenFired": -1
     }
   ],
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Artillery-SelfKnockdown",
+        "Name": "INCOMING STABILITY DAMAGE INCREASED",
+        "Details": "Incoming stability damage increased by [AMT].",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.15",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 1,
   "AdditionalImpactVFX": "WFX_BELarger",
