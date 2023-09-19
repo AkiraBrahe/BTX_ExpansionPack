@@ -16,7 +16,7 @@ A BattleTech Extended mod that adds over a hundred new 'Mech variants, as well a
 
 The new 'Mechs are fielded by the factions that should have them according to the lore, while the Heavy Metal crate contains one of the nine Hero 'Mechs added by the mod. All 'Mechs can also be added through Fell Off A Cargo Ship or a save editor.
 
-New rare weapons and upgrades are available in stores based on the date they were prototyped. Some of them are unique to specific chassis.
+New rare weapons and upgrades are available in stores based on the date they were prototyped. Some of them are unique to certain chassis.
 
 ## Mod Progress
 
@@ -251,6 +251,8 @@ The next major update is set to be released sometime this fall, and will feature
 
 | Name                              |   Type    | Intro | Factions                    |
 | :-------------------------------- | :-------: | :---: | :-------------------------- |
+| Light/Medium/Heavy Rifle          | Ballistic |  PS   | *LosTech*                   |
+| Thumper/Sniper/Long Tom Cannon    | Ballistic | 3012  | *Research*                  |
 | Magshot                           | Ballistic | 3059  | Steiner                     |
 | Hyper-Velocity AC (HVAC)          | Ballistic | 3059  | Liao                        |
 | Rotary AC (RAC)                   | Ballistic | 3060  | Davion                      |
@@ -262,7 +264,7 @@ The next major update is set to be released sometime this fall, and will feature
 | Light PPC                         |  Energy   | 3064  | Kurita                      |
 | Bombast Laser                     |  Energy   | 3064  | Steiner                     |
 |  ----                             |           |       |                             |
-| Bomb Bay²                         |  Missile  | 2680  | *LosTech*                   |
+| Bomb Bay²                         |  Missile  | 2680  | *Mining*                    |
 | Arrow IV                          |  Missile  | 3044  | Liao<br />All (3049+)       |
 | Thunderbolt                       |  Missile  | 3052  | Davion<br />Steiner (3052+) |
 | Extended LRM (ELRM)               |  Missile  | 3054  | Steiner<br />Davion (3054+) |
@@ -272,6 +274,8 @@ The next major update is set to be released sometime this fall, and will feature
 | Heavy Machine Gun                 |  Support  | 3063  | Calderon                    |
 | Light Machine Gun                 |  Support  | 3064  | Liao                        |
 |  ----                             |           |       |                             |
+| Airburst Mortar                   |   Ammo    | 3043  | All                         |
+| Shaped Charge Mortar              |   Ammo    | 3043  | All                         |
 | Swarm Missile                     |   Ammo    | 3049  | Davion<br />All (3058+)     |
 | Swarm-I Missile                   |   Ammo    | 3052  | Marik                       |
 | Inferno-IV Missile                |   Ammo    | 3053  | Liao                        |
@@ -280,9 +284,9 @@ The next major update is set to be released sometime this fall, and will feature
 | Precision Ammo                    |   Ammo    | 3058  | Davion                      |
 |  ----                             |           |       |                             |
 | Targeting Computer                |  Upgrade  | 3052  | *Research*                  |
-| Laser Anti-Missile System         |  Upgrade  | 3059  | Davion                      |
-| Blue Shield Particle Field Damper |  Upgrade  | 3061  | Davion                      |
 | Bloodhound Active Probe           |  Upgrade  | 3058  | *Black Market*              |
+| Laser Anti-Missile System         |  Upgrade  | 3059  | *Research*                  |
+| Blue Shield Particle Field Damper |  Upgrade  | 3061  | *Research*                  |
 
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs.
 </details>
@@ -329,15 +333,48 @@ An optional mod that allows the AI to randomly have different types of ammunitio
 <details>
   <summary>Artillery</summary>
 
-Artillery now uses its tabletop range values, allowing Extended LRMs, Mobile Long Tom, and Arrow IV to fire from more than 1000m away, while other types of artillery have a much shorter range than before.
+Artillery Cannons have been reworked to be more in line with tabletop. They deal 30% less damage and have a much shorter range than their larger counterparts. All artillery also deal less stability damage and are less accurate due to being always penalized for indirect fire.
 
-| Name            | Min. | Med. | Max. |
-| :-------------- | ---: | ---: | ---: |
-| Sniper          |   60 |  240 |  480 |
-| Thumper         |   90 |  270 |  540 |
-| Standard LRM    |  180 |  420 |  630 |
-| Long Tom        |  120 |  390 |  780 |
-| Extended LRM    |  325 |  760 | 1140 |
-| Arrow IV        |  240 |  780 | 1560 |
-| Mobile Long Tom |  180 | 3000 | 3000 |
+Mech Mortars are now available in 3025, while the Thumper, Sniper, and Long Tom Cannons have been moved to research planets, as they are only prototypes in the current timeline. The Sniper and Long Tom Cannons both have a Loading Mechanism addon that works in the same way as the Artemis IV FCS and allows the two massive weapons to be mounted on more 'Mechs.
+
+| Name            | Damage | AoE Damage | Min. Range | Opt. Range | Max. Range |
+| --------------- | -----: | ---------: | ---------: | ---------: | ---------: |
+| Mortar/1        |     10 |          4 |        180 |        420 |        630 |
+| Thumper Cannon  |     40 |         50 |         90 |        270 |        540 |
+| Sniper Cannon   |     60 |         75 |         60 |        240 |        480 |
+| Long Tom Cannon |     80 |        100 |        120 |        390 |        780 |
+| Arrow IV        |     60 |        120 |        240 |        780 |       1560 |
+| ----            |        |            |            |            |            |
+| Standard LRM²   |      4 |          0 |        180 |        420 |        630 |
+| Extended LRM    |      5 |          0 |        325 |        760 |       1140 |
+
+² Ignores cover and acts like artillery with Swarm Ammo.
 </details>
+
+<details>
+  <summary>Miscellaneous Fixes</summary>
+
+Some changes have been made as of v0.6 to address minor issues and add the latest CAB models to the current version of BEX.
+
+| Name                | Changes                                             |
+| :------------------ | :-------------------------------------------------- |
+| Annihilator         | Reduced movement to 3/5 hexes (from 4/7)            |
+| Atlas AS7-S         | Moved DHS to the engine                             |
+| Atlas II AS7-D-HT   | Changed armor placement and moved DHS to the engine |
+| Enfield             | Switched to a new CAB model                         |
+| Exterminator        | Switched to a new CAB model                         |
+| Firefly FFL-3A      | Fixed available tonnage                             |
+| Firestarter FS9-OF  | Added Large Engine quirk                            |
+| Flashman            | Switched to a new CAB model                         |
+| Grand Dragon DRG-1G | Fixed energy hadpoints placement                    |
+| Gunslinger          | Switched to a new CAB model                         |
+| Hermes II           | Reduced overall size to better match tonnage        |
+| Hornet HNT-161      | Fixed armor placement                               |
+| Linesman LMN-1PT    | Changed to the correct prefab base model            ]
+| Locust LCT-3S       | Fixed available tonnage                             |
+| Naginata            | Switched to a new CAB model                         |
+| Phoenix Hawk LAM    | Changed to a different CAB model                    |
+| Rifleman RFL-5CS    | Added Large Engine quirk                            |
+| Shadow Hawk         | Added Rugged quirk                                  |
+| Trebuchet TBT-3C    | Added Large Engine quirk                            |
+| Urbanmech           | Reduced movement to 3/5 hexes (from 4/7)            |
