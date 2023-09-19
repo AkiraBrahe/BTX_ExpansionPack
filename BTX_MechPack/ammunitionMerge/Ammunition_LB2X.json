@@ -1,0 +1,19 @@
+{
+  "Description": {
+    "Id": "Ammunition_LB2X",
+    "Name": "LB 2-X Cluster Ammo",
+    "UIName": "Cluster",
+    "Details": "Small caliber cluster ammunition designed for long range fire in an LB 2-X.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "LB2X",
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1
+}

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Id": "Ammunition_Mortar",
-    "Name": "Mortar Shell",
+    "Name": "Mortar Ammo",
     "UIName": "Standard",
     "Details": "Standard mortar shells capable of inflicting damage on the target area.",
     "Icon": null,
@@ -18,6 +18,7 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
+  "AccuracyModifier": 0,
   "AOECapable": true,
   "AOERange": 30,
   "AOEDamage": 4,

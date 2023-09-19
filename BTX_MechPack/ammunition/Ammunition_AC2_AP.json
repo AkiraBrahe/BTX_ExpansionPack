@@ -2,7 +2,7 @@
   "Description": {
     "Id": "Ammunition_AC2_AP",
     "Name": "Armor-Piercing AC/2 Ammo",
-    "UIName": "Armor-Piercing Ammo",
+    "UIName": "Armor-Piercing",
     "Details": "Small caliber armor-piercing ammunition designed for long range fire in an AC/2.",
     "Icon": null,
     "Cost": 0,

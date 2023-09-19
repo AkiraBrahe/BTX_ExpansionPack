@@ -2,7 +2,6 @@
   "Description": {
     "Id": "Ammunition_Magshot",
     "Name": "Magshot Gauss Rifle Ammo",
-    "UIName": "Magshot Ammo",
     "Details": "Magshot Gauss ammo that is even smaller than regular Gauss ammunition.",
     "Icon": null,
     "Cost": 0,
@@ -17,5 +16,6 @@
   "HeatGeneratedModifier": 1,
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
-  "CriticalDamageModifier": 1
+  "CriticalDamageModifier": 1,
+  "HideIfOnlyVariant": true
 }

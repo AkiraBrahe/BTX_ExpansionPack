@@ -2,7 +2,7 @@
   "Description": {
     "Id": "Ammunition_AC5_Flak",
     "Name": "Flak AC/5 Ammo",
-    "UIName": "Flak Ammo",
+    "UIName": "Flak",
     "Details": "Moderate caliber anti-aircraft rounds, suitable for long range fire in an AC/5.",
     "Icon": null,
     "Cost": 0,

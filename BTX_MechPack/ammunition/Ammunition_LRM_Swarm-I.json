@@ -2,7 +2,7 @@
   "Description": {
     "Id": "Ammunition_LRM_Swarm-I",
     "Name": "Improved Swarm LRM Ammo",
-    "UIName": "Swarm-I LRM",
+    "UIName": "Swarm-I",
     "Details": "Swarm-I missiles capable of homing in and striking any nearby targets if they miss their intended target.",
     "Icon": null,
     "Cost": 0,

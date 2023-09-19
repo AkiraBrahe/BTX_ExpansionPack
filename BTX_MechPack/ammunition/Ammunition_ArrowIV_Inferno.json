@@ -2,7 +2,7 @@
   "Description": {
     "Id": "Ammunition_ArrowIV_Inferno",
     "Name": "Inferno IV Missile Ammo",
-    "UIName": "Inferno IV",
+    "UIName": "Inferno",
     "Details": "High calibre artillery missiles.",
     "Icon": null,
     "Cost": 0,
@@ -37,5 +37,65 @@
   "AdditionalImpactVFX": "vfxPrfPrtl_artilleryExplosion",
   "AdditionalImpactVFXScaleX": 1,
   "AdditionalImpactVFXScaleY": 1,
-  "AdditionalImpactVFXScaleZ": 1
+  "AdditionalImpactVFXScaleZ": 1,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-HeatDamageReduction",
+        "Name": "Inferno VFX",
+        "Details": "Reduces incoming heat damage by 2%, stacks.",
+        "Icon": "uixSvgIcon_statusOnFire"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "statName": "CACIncomingHeatMult",
+        "operation": "Float_Multiply",
+        "modValue": "0.98",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInStatusPanel": false,
+        "hideApplicationFloatie": true
+      },
+      "effectType": "VFXEffect",
+      "Description": {
+        "Id": "StatusEffect-Inferno-VFX",
+        "Name": "Inferno VFX",
+        "Details": "Visual indicator of the Inferno effect",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "vfxData": {
+        "vfxName": "vfxPrfPrtl_weaponLRM_napalmStatus_B",
+        "attachToImpactPoint": true,
+        "location": -1,
+        "isAttached": true,
+        "facesAttacker": false,
+        "isOneShot": false,
+        "duration": -1.0
+      }
+    }
+  ]
 }

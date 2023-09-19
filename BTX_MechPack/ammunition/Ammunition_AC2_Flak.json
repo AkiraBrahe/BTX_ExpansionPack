@@ -2,7 +2,7 @@
   "Description": {
     "Id": "Ammunition_AC2_Flak",
     "Name": "Flak AC/2 Ammo",
-    "UIName": "Flak Ammo",
+    "UIName": "Flak",
     "Details": "Small caliber anti-aircraft ammunition designed for long range fire in an AC/2.",
     "Icon": null,
     "Cost": 0,

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "Ammunition_AC20_AP",
     "Name": "Armor-Piercing AC/20 Ammo",
-    "UIName": "Armor-Piercing Ammo",
+    "UIName": "Armor-Piercing",
     "Details": "Massive armor-piercing rounds designed for devastating impact, to be used in an AC/20.",
     "Icon": null,
     "Cost": 0,
