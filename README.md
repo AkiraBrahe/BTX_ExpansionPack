@@ -20,31 +20,31 @@ New rare weapons and upgrades are available in stores based on the date they wer
 
 ## Mod Progress
 
-The mod currently includes 54 new BattleMechs and 176 new 'Mech variants. Once completed, the mod will feature over 60 new BattleMechs that correspond to nearly all CAB models that fit the BattleTech Extended timeline and beyond, up to the year 3065.
+The mod currently includes 57 new BattleMechs and 198 new 'Mech variants. Once completed, the mod will feature over 60 new BattleMechs that correspond to nearly all CAB models that fit the BattleTech Extended timeline and beyond, up to the year 3065.
 
 The next major update is set to be released sometime this fall, and will feature new end-game BattleMechs and add some of the new 'Mechs to the factory shops. 
 
 
-| Pack #1             | Pack #2          | Pack #3        | Pack #4    |
-| :------------------ | :--------------- | :------------- | :--------- |
-| Bellerophon         | Arctic Wolf      | Albatross      | Akuma      |
-| Bombard             | Assassin II      | Anubis         | ?????      |
-| Buccaneer           | Battle Hawk      | Barghest       | ????? ???  |
-| Dragoon             | Blitzkrieg       | Black Heart    | Chimera    |
-| Fox                 | Champion LAM     | Fire Falcon    | ??? ????   |
-| Hellfire            | Cossack          | Grand Crusader | ??????     |
-| Jackrabbit          | Hammer           | Gulon          | ?????????  |
-| JagerMech III       | Hybrid Rifleman  | Iron Cheetah   | ????       |
-| Juggernaut          | Lao Hu           | Lineholder     | Komodo     |
-| Mercury II / Coyotl | Mad Cat Mk II    | Lupus          | ??????     |
-| Pulverizer          | Matar            | Mantis         | ?????      |
-| Rampage             | Naga             | Osiris         | ?????????  |
-| Schwerer Gustav     | Nightsky         | Peregrine      | ?????????  |
-| Screamer LAM        | Phoenix Hawk IIC | Phantom        | ??????     |
-| Stag / Stag II      | Rattlesnake      | Prometheus     | ?????????? |
-| Thanatos            | Warthog          | Sha Yu         | ????????   |
-| Titan               |                  | Templar        | ?????????? |
-|                     |                  | Zeus-X         | ?????????  |
+| Pack #1             | Pack #2          | Pack #3        | Pack #4       |
+| :------------------ | :--------------- | :------------- | :------------ |
+| Bellerophon         | Arctic Wolf      | Albatross      | Akuma         |
+| Bombard             | Assassin II      | Anubis         | ?????         |
+| Buccaneer           | Battle Hawk      | Barghest       | ????? ???     |
+| Dragoon             | Blitzkrieg       | Black Heart    | Chimera       |
+| Fox                 | Champion LAM     | Fire Falcon    | Dig King/Lord |
+| Hellfire            | Cossack          | Grand Crusader | ??????        |
+| Jackrabbit          | Hammer           | Gulon          | ?????????     |
+| JagerMech III       | Hybrid Rifleman  | Iron Cheetah   | Kiso          |
+| Juggernaut          | Lao Hu           | Lineholder     | Komodo        |
+| Mercury II / Coyotl | Mad Cat Mk II    | Lupus          | ??????        |
+| Pulverizer          | Matar            | Mantis         | ?????         |
+| Rampage             | Naga             | Osiris         | ?????????     |
+| Schwerer Gustav     | Nightsky         | Peregrine      | Roughneck     |
+| Screamer LAM        | Phoenix Hawk IIC | Phantom        | ??????        |
+| Stag / Stag II      | Rattlesnake      | Prometheus     | ??????????    |
+| Thanatos            | Warthog          | Sha Yu         | ????????      |
+| Titan               |                  | Templar        | ??????????    |
+|                     |                  | Zeus-X         | ?????????     |
 
 ## Contents
 
@@ -75,6 +75,7 @@ The next major update is set to be released sometime this fall, and will feature
 | Bombard BMB-010                    |   Medium   |  50  | Inner Sphere | 3054  | Steiner                                                                        |
 | Bombard BMB-013                    |   Medium   |  50  | Inner Sphere | 3063  | Steiner                                                                        |
 | Buccaneer BCN-3R                   |   Medium   |  55  | Inner Sphere | 3055  | Marik, Word of Blake                                                           |
+| Buster BC X-M ConstructionMech MOD |  Medium    |  50  | Inner Sphere | 2720  | **Industrial Start**                                                           |
 | Champion LAM CPN-1X1               |   Heavy    |  60  | Inner Sphere | 2699  | Word of Blake                                                                  |
 | Chimera CMA-1S                     |   Medium   |  40  | Inner Sphere | 3063  | Kurita, Steiner-Davion                                                         |
 | Chimera CMA-C                      |   Medium   |  40  | Inner Sphere | 3063  | Kurita, Marik, Steiner-Davion                                                  |
@@ -82,6 +83,8 @@ The next major update is set to be released sometime this fall, and will feature
 | Coyotl Prime                       |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                                              |
 | Coyotl A                           |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                                              |
 | Coyotl B                           |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                                              |
+| Dig King RCL-1M MiningMech         |   Light    |  35  | Inner Sphere | 2802  | Pirates                                                                        |
+| Dig Lord RCL-4 MiningMech          |   Heavy    |  65  | Inner Sphere | 3057  | Steiner-Davion                                                                 |
 | Dragoon AEM-01                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                                        |
 | Dragoon AEM-02                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                                        |
 | Dragoon AEM-03                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                                        |
@@ -95,6 +98,7 @@ The next major update is set to be released sometime this fall, and will feature
 | Fox                                |   Medium   |  50  |     Clan     | 2835  | Clan Ghost Bear                                                                |
 | Grand Crusader GRN-D-01            |  Assault   |  80  | Inner Sphere | 3053  | Word of Blake                                                                  |
 | Grand Crusader GRN-D-02            |  Assault   |  80  | Inner Sphere | 3056  | Word of Blake                                                                  |
+| Gulon MiningMech GLN-1A            |   Light    |  25  | Inner Sphere | 3000  | Outworlds Alliance                                                             |
 | Gulon SecurityMech GLN-1B          |   Light    |  25  | Inner Sphere | 3000  | Outworlds Alliance                                                             |
 | Hammer HMR-3C 'Claw-Hammer'        |   Light    |  30  | Inner Sphere | 3056  | Marik, Word of Blake                                                           |
 | Hammer HMR-3M                      |   Light    |  30  | Inner Sphere | 3053  | Liao, Marik, Word of Blake                                                     |
@@ -112,6 +116,8 @@ The next major update is set to be released sometime this fall, and will feature
 | Juggernaut JG-R9T1                 |  Assault   |  90  | Inner Sphere | 3053  | Steiner                                                                        |
 | Juggernaut JG-R9T2                 |  Assault   |  90  | Inner Sphere | 3057  | Steiner                                                                        |
 | Juggernaut JG-R9T3                 |  Assault   |  90  | Inner Sphere | 3065  | Steiner                                                                        |
+| Kiso ConstructionMech K-3N-KR4     |  Assault   | 100  | Inner Sphere | 2703  | Kurita                                                                         |
+| Kiso CommandMech K-3N-KRHQ         |  Assault   | 100  | Inner Sphere | 2823  | Kurita                                                                         |
 | Komodo KIM-2                       |   Medium   |  45  | Inner Sphere | 3053  | Kurita, Rasalhague                                                             |
 | Komodo KIM-2A                      |   Medium   |  45  | Inner Sphere | 3053  | Kurita                                                                         |
 | Komodo KIM-3C                      |   Medium   |  45  | Inner Sphere | 3053  | Kurita                                                                         |
@@ -157,6 +163,11 @@ The next major update is set to be released sometime this fall, and will feature
 | Rampage RMP-5G                     |  Assault   |  85  | Inner Sphere | 2767  | ComStar/Word of Blake                                                          |
 | Rattlesnake JR7-31                 |   Light    |  35  | Inner Sphere | 3042  | Davion                                                                         |
 | Rattlesnake JR7-31P                |   Light    |  35  | Inner Sphere | 3043  | Davion                                                                         |
+| Roughneck RGH-1A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion, Mercenaries                                                    |
+| Roughneck RGH-1B                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion, Mercenaries                                                    |
+| Roughneck RGH-1C                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion, Mercenaries                                                    |
+| Roughneck RGH-2A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion, Mercenaries                                                    |
+| Roughneck RGH-3A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion, Mercenaries                                                    |
 | Schwerer Gustav SG-1X              |  Assault   | 100  |  Mixed-tech  | 3073  | Marik (3063+)                                                                  |
 | Schwerer Gustav SJ-1X 'Jäger'      |  Assault   | 100  |  Mixed-tech  | 3073  | **Heavy Metal Crate**                                                          |
 | Screamer LAM SCR-1X-LAM            |   Medium   |  55  | Inner Sphere | 2774  | Snord's Irregulars                                                             |
@@ -195,12 +206,19 @@ The next major update is set to be released sometime this fall, and will feature
 | Cataphract CTF-3X                  |   Heavy    |  70  | Inner Sphere | 3062  | Davion                                                                         |
 | Catapult CPLT-C3                   |   Heavy    |  65  | Inner Sphere | 3049  | Liao, ComStar/Word of Blake                                                    |
 | Catapult CPLT-C5                   |   Heavy    |  65  | Inner Sphere | 3061  | Liao                                                                           |
+| Catapult CPLT-H2                   |   Heavy    |  65  | Inner Sphere | 3064  | Pirates                                                                        |
 | Centurion CN9-D5                   |   Medium   |  50  | Inner Sphere | 3062  | Steiner-Davion                                                                 |
 | Centurion CN9-YLW 'Yen-Lo-Wang'    |   Medium   |  50  | Inner Sphere | 3027  | **Heavy Metal Crate**                                                          |
 | Centurion CN9-YLW2 'Yen-Lo-Wang'   |   Medium   |  50  | Inner Sphere | 3051  | **Heavy Metal Crate**                                                          |
+| Charger CGR-2A2                    |  Assault   |  80  | Inner Sphere | 3064  | Centrella, Outworlds Alliance, Pirates                                         |
 | Charger CGR-SA5                    |  Assault   |  80  | Inner Sphere | 3063  | Kurita                                                                         |
-| Cronus CNS-5M                      |  Medium    |  55  | Inner Sphere | 3060  | Mercenary, Pirates                                                             |
+| Commando COM-4H                    |   Light    |  25  | Inner Sphere | 3064  | Pirates                                                                        |
+| Cronus CNS-5M                      |  Medium    |  55  | Inner Sphere | 3060  | Mercenaries, Pirates                                                           |
+| Crosscut ED-X2M LoggerMech         |   Light    |  30  | Inner Sphere | 2801  | Pirates                                                                        |
+| Crosscut ED-X4D DemolitionMech     |   Light    |  30  | Inner Sphere | 2910  | Pirates                                                                        |
+| Crosscut ED-X4K LoggerMech         |   Light    |  30  | Inner Sphere | 2786  | Pirates                                                                        |
 | Cyclops CP-11-A-DC                 |  Assault   |  90  | Inner Sphere | 3045  | ComStar                                                                        |
+| Cyclops CP-11-H                    |  Assault   |  90  | Inner Sphere | 3064  | Calderon, Pirates                                                              |
 | Dasher (Fire Moth) E               |   Light    |  20  |     Clan     | 3055  | Clan Ghost Bear                                                                |
 | Dervish DV-8D                      |  Medium    |  55  | Inner Sphere | 3062  | Davion                                                                         |
 | Firestarter FS9-OR                 |   Medium   |  45  |  Mixed-tech  | 3059  | Kurita, Liao, Marik, Steiner-Davion                                            |
@@ -219,10 +237,13 @@ The next major update is set to be released sometime this fall, and will feature
 | Hermes II HER-6D                   |   Medium   |  40  | Inner Sphere | 3062  | Davion                                                                         |
 | Highlander HGN-694                 |  Assault   |  90  | Inner Sphere | 3062  | Steiner                                                                        |
 | Hollander II BZK-F7                |  Medium    |  45  | Inner Sphere | 3061  | Steiner-Davion                                                                 |
+| Hunchback HBK-5H                   |  Medium    |  50  | Inner Sphere | 3064  | Periphery States, Pirates                                                      |
 | Huron Warrior HUR-WO-R4N           |  Medium    |  50  | Inner Sphere | 3063  | Liao                                                                           |
 | Imp C                              |  Assault   | 100  |     Clan     | 2863  | Wolf's Dragoons, Pirates                                                       |
+| JagerMech JM6-H                    |   Heavy    |  65  | Inner Sphere | 3064  | Pirates                                                                        |
 | JagerMech JM7-F                    |   Heavy    |  70  | Inner Sphere | 3062  | Davion                                                                         |
 | King Crab KGC-010                  |  Assault   | 100  | Inner Sphere | 2743  | ComStar/Word of Blake                                                          |
+| Longbow LGB-0H                     |  Assault   |  85  | Inner Sphere | 3065  | Pirates                                                                        |
 | Marauder C                         |   Heavy    |  75  |  Mixed-tech  | 2827  | Clans (3051+)<br />Kurita, Steiner-Davion (3055+)                              |
 | Orion ON1-M-DC                     |   Heavy    |  75  | Inner Sphere | 3053  | ComStar/Word of Blake                                                          |
 | Orion ON1-MD                       |   Heavy    |  75  | Inner Sphere | 3062  | Davion, Marik, ComStar/Word of Blake                                           |
@@ -270,6 +291,7 @@ The next major update is set to be released sometime this fall, and will feature
 | Extended LRM (ELRM)               |  Missile  | 3054  | Steiner<br />Davion (3054+) |
 | Enhanced LRM (NLRM)               |  Missile  | 3058  | Davion                      |
 |  ----                             |           |       |                             |
+| Fluid Gun                         |  Support  |  PS   | *Chemicals*                 |
 | Heavy Flamer                      |  Support  | 3063  | Steiner                     |
 | Heavy Machine Gun                 |  Support  | 3063  | Calderon                    |
 | Light Machine Gun                 |  Support  | 3064  | Liao                        |
@@ -366,11 +388,13 @@ Some changes have been made as of v0.6 to address minor issues and add the lates
 | Firefly FFL-3A      | Fixed available tonnage                             |
 | Firestarter FS9-OF  | Added Large Engine quirk                            |
 | Flashman            | Switched to a new CAB model                         |
+| Goliath             | Reduced stability                                   |
 | Grand Dragon DRG-1G | Fixed energy hadpoints placement                    |
 | Gunslinger          | Switched to a new CAB model                         |
 | Hermes II           | Reduced overall size to better match tonnage        |
 | Hornet HNT-161      | Fixed armor placement                               |
-| Linesman LMN-1PT    | Changed to the correct prefab base model            ]
+| Linesman LMN-1PT    | Changed to the correct prefab base model            |
+| Loader King LDK-5C  | Added more armor and missing Cargo Bay              |
 | Locust LCT-3S       | Fixed available tonnage                             |
 | Naginata            | Switched to a new CAB model                         |
 | Phoenix Hawk LAM    | Changed to a different CAB model                    |
