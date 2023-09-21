@@ -170,7 +170,9 @@
   ],
   "VariantName": "BC-X-M",
   "ChassisTags": {
-    "items": [],
+    "items": [
+      "mr-resize-0.90-0.90-0.90"
+    ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Militarized ConstructionMech",

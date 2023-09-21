@@ -96,7 +96,8 @@
     "items": [
       "component_type_stock",
       "component_type_lostech",
-      "cae_ai_offence",
+      "BLACKLISTED",
+      "cae_ai_defence",
       "cae_ai_heat"
     ],
     "tagSetSourceFile": ""
