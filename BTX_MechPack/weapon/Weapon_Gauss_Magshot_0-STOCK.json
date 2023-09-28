@@ -32,7 +32,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
   "Description": {
     "Cost": 85000,
-    "Rarity": 3,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Poland",
     "Model": "Magnetic Cannon",

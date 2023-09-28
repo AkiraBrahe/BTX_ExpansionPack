@@ -30,7 +30,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_PPC",
   "Description": {
     "Cost": 780000,
-    "Rarity": 4,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Ceres Arms",
     "Model": "Heat-Inducing Weapon",

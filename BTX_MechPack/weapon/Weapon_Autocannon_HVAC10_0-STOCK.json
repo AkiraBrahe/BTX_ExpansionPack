@@ -36,7 +36,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
   "Description": {
     "Cost": 1150000,
-    "Rarity": 5,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Ceres",
     "Model": "Hyper-Velocity Autocannon",

@@ -34,7 +34,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_AC5_Single",
   "Description": {
     "Cost": 7000,
-    "Rarity": 5,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "Varied",
     "Model": "Very Light Artillery",

@@ -30,7 +30,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_AC5",
   "Description": {
     "Cost": 1375000,
-    "Rarity": 4,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Mydron",
     "Model": "Rotary Autocannon",

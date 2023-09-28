@@ -30,7 +30,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_PPC",
   "Description": {
     "Cost": 450000,
-    "Rarity": 4,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Defiance",
     "Model": "Particle Cluster Cannon",

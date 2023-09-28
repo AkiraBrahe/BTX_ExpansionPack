@@ -31,7 +31,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_Flamer",
   "Description": {
     "Cost": 22500,
-    "Rarity": 0,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Defiance",
     "Model": "Heat Damage Flamethrower",

@@ -30,7 +30,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
   "Description": {
     "Cost": 15000,
-    "Rarity": 2,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Ceres Arms",
     "Model": "Heavy Machine Gun",

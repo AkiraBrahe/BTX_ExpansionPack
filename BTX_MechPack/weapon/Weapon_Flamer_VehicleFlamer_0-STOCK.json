@@ -30,7 +30,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_Flamer",
   "Description": {
     "Cost": 15000,
-    "Rarity": 0,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "General Motors",
     "Model": "Heat Damage Flamethrower",
@@ -114,7 +114,8 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
-      "range_close"
+      "range_close",
+      "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
   },

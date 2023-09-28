@@ -39,7 +39,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 650000,
-    "Rarity": 5,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Armstrong",
     "Model": "Heavy Artillery",

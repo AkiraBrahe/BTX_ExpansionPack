@@ -30,7 +30,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
   "Description": {
     "Cost": 2000000,
-    "Rarity": 5,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Coventry",
     "Model": "Long-Range Missile Launcher",

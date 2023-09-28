@@ -30,7 +30,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_AC2",
   "Description": {
     "Cost": 900000,
-    "Rarity": 5,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "NAIS",
     "Model": "Light Autocannon",

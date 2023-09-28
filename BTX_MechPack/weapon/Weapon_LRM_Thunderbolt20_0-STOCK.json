@@ -30,7 +30,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
   "Description": {
     "Cost": 1800000,
-    "Rarity": 5,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Solaris Arms",
     "Model": "Thunderbolt Missile Launcher",
