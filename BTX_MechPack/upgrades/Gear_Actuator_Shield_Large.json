@@ -252,7 +252,7 @@
   "BonusValueB": "Lowers Speed / Jump Distance",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
-  "PrefabIdentifier": "",
+  "PrefabIdentifier": "shield",
   "BattleValue": 0,
   "InventorySize": 7,
   "Tonnage": 6,

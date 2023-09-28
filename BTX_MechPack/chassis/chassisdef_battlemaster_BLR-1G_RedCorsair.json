@@ -105,7 +105,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 270,
@@ -137,10 +142,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "Energy",
           "Omni": false

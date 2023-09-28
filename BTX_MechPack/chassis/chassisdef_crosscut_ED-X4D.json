@@ -170,7 +170,10 @@
   ],
   "VariantName": "ED-X4D",
   "ChassisTags": {
-    "items": [],
+    "items": [
+      "mech_quirk_easytomaintain",
+      "mech_quirk_hardtopilot"
+    ],
     "tagSetSourceFile": ""
   },
   "StockRole": "DemolitionMech",

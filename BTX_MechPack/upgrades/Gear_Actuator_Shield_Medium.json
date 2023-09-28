@@ -252,7 +252,7 @@
   "BonusValueB": "Lowers Speed",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
-  "PrefabIdentifier": "",
+  "PrefabIdentifier": "shield",
   "BattleValue": 0,
   "InventorySize": 5,
   "Tonnage": 4,

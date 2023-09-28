@@ -35,7 +35,10 @@
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "ComponentTags": {
-    "items": [],
+    "items": [
+      "component_type_stock",
+      "component_type_lostech"
+    ],
     "tagSetSourceFile": ""
   }
 }

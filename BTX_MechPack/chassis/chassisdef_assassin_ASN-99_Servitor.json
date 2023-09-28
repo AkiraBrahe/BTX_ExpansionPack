@@ -240,7 +240,7 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_General_Intercept_System",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

@@ -106,7 +106,7 @@
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

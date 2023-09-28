@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_prometheusbase-001",
   "PrefabBase": "prometheus",
   "Tonnage": 75,
-  "InitialTonnage": 34.27,
+  "InitialTonnage": 33.51,
   "weightClass": "HEAVY",
   "Heatsinks": 34,
   "TopSpeed": 86.4,
