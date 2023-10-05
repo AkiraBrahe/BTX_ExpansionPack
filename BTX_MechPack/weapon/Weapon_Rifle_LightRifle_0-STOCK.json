@@ -30,7 +30,7 @@
   "Instability": 12,
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 1,
-  "WeaponEffectID": "WeaponEffect-Weapon_AC5_Single",
+  "WeaponEffectID": "WeaponEffect-Weapon_AC5",
   "Description": {
     "Cost": 37750,
     "Rarity": 0,

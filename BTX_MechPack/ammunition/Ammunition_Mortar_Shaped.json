@@ -25,7 +25,7 @@
   "APCriticalChanceMultiplier": 0.125,
   "AOECapable": true,
   "AOERange": 15,
-  "AOEDamage": 3,
+  "AOEDamage": 5,
   "AOEHeatDamage": 0,
   "AOEInstability": 1.5,
   "CantHitUnaffecedByPathing": true,

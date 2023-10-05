@@ -21,7 +21,7 @@
   "AccuracyModifier": 0,
   "AOECapable": true,
   "AOERange": 30,
-  "AOEDamage": 4,
+  "AOEDamage": 5,
   "AOEHeatDamage": 0,
   "AOEInstability": 2,
   "CantHitUnaffecedByPathing": true,

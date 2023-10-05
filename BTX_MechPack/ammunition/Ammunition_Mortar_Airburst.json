@@ -25,7 +25,7 @@
   "MaxShellsDistance": 60,
   "UnseparatedDamageMult": 0.7,
   "HitGenerator": "Cluster",
-  "ProjectilesPerShot": 3,
+  "ProjectilesPerShot": 4,
   "AirMechDamageModifier": 1.5,
   "VTOLDamageModifier": 1.5,
   "CantHitUnaffecedByPathing": false
