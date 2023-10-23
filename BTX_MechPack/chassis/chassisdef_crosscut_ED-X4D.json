@@ -183,7 +183,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Industrial_LiftHoist",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false

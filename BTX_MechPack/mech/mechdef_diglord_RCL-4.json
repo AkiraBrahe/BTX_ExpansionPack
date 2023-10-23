@@ -108,7 +108,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Fluid_FluidGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -116,7 +116,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Fluid_FluidGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -164,7 +164,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Fluid_FluidGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -172,7 +172,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Fluid_FluidGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

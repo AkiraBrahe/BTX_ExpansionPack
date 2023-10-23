@@ -122,6 +122,14 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
@@ -141,7 +149,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_CLargeLaserHeavy_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -149,7 +157,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_CSmallLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -165,6 +173,22 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -173,7 +197,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_CLargeLaserHeavy_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -181,6 +205,14 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_CSmallLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -203,6 +235,14 @@
     },
     {
       "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
@@ -213,6 +253,14 @@
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false

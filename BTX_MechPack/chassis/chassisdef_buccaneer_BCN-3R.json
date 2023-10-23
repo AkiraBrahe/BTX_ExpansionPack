@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_buccaneerbase-001",
   "PrefabBase": "buccaneer",
   "Tonnage": 55,
-  "InitialTonnage": 25,
+  "InitialTonnage": 25.01,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 97.2,

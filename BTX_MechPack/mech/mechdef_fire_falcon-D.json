@@ -108,7 +108,7 @@
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_TAG_Clan_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -116,7 +116,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -124,7 +124,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_SRM_CSSRM4_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -132,7 +132,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_SRM_CSSRM4_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -172,7 +172,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Narc_CNarc_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

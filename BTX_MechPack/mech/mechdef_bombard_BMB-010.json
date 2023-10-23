@@ -108,23 +108,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -140,22 +124,6 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -180,23 +148,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

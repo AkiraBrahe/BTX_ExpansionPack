@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_bellerophonbase-001",
   "PrefabBase": "bellerophon",
   "Tonnage": 60,
-  "InitialTonnage": 19.5,
+  "InitialTonnage": 20.5,
   "weightClass": "HEAVY",
-  "Heatsinks": 6,
+  "Heatsinks": 10,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -203,7 +203,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_EndoSteel_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -221,7 +221,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

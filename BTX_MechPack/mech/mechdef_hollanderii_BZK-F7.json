@@ -105,14 +105,6 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
       "ComponentDefType": "AmmunitionBox",
@@ -140,7 +132,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Gauss_HeavyGauss_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

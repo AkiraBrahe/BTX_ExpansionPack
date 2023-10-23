@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
   "PrefabBase": "thunderbolt",
   "Tonnage": 65,
-  "InitialTonnage": 26.5,
+  "InitialTonnage": 26.51,
   "weightClass": "HEAVY",
   "Heatsinks": 10,
   "TopSpeed": 64.8,

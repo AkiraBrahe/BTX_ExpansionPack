@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_blitzkriegbase-001",
   "PrefabBase": "blitzkrieg",
   "Tonnage": 50,
-  "InitialTonnage": 24.52,
+  "InitialTonnage": 24.53,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 118.8,

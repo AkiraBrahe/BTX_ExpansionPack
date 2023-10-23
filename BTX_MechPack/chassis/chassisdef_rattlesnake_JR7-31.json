@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_genericlight1base-001",
   "PrefabBase": "genericlight1",
   "Tonnage": 35,
-  "InitialTonnage": 14.52,
+  "InitialTonnage": 14.53,
   "weightClass": "LIGHT",
   "Heatsinks": 16,
   "TopSpeed": 118.8,

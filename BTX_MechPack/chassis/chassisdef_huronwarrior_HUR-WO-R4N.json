@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_huronwarriorbase-001",
   "PrefabBase": "huronwarrior",
   "Tonnage": 50,
-  "InitialTonnage": 15.93,
+  "InitialTonnage": 15.94,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 86.4,

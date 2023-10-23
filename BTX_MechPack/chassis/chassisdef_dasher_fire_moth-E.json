@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_dasherbase-001",
   "PrefabBase": "dasher",
   "Tonnage": 20,
-  "InitialTonnage": 8.52,
+  "InitialTonnage": 10.52,
   "weightClass": "LIGHT",
-  "Heatsinks": 2,
+  "Heatsinks": 10,
   "TopSpeed": 216,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -222,27 +222,9 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_MASC_1_Clan",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,
       "DamageLevel": "Functional",

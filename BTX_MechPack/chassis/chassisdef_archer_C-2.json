@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrPrfMech_archerBase-001",
   "PrefabBase": "archer",
   "Tonnage": 70,
-  "InitialTonnage": 30.01,
+  "InitialTonnage": 29.01,
   "weightClass": "HEAVY",
-  "Heatsinks": 16,
+  "Heatsinks": 10,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -208,7 +208,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "YangsThoughts": "",
   "StockRole": "Heavy Fire Support & Defender",
+  "YangsThoughts": "",
   "FixedEquipment": []
 }

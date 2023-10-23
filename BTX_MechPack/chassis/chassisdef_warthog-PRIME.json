@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_linebackerbase-001",
   "PrefabBase": "linebacker",
   "Tonnage": 95,
-  "InitialTonnage": 28.5,
+  "InitialTonnage": 27.5,
   "weightClass": "ASSAULT",
   "Heatsinks": 16,
   "TopSpeed": 54,

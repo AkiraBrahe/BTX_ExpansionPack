@@ -107,9 +107,17 @@
   "inventory": [
     {
       "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -165,7 +173,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -173,7 +181,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_rtcorsair1base-001",
   "PrefabBase": "rtcorsair1",
   "Tonnage": 55,
-  "InitialTonnage": 26,
+  "InitialTonnage": 23,
   "weightClass": "MEDIUM",
-  "Heatsinks": 28,
+  "Heatsinks": 10,
   "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 6,
@@ -221,7 +221,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -248,7 +248,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -257,7 +257,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -266,7 +266,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

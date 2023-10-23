@@ -107,7 +107,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -115,7 +115,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -123,7 +123,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -131,7 +131,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Fluid_Sprayer_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

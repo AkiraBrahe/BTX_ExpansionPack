@@ -109,7 +109,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Gauss_Gauss_NU_2-Imperator",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -117,7 +117,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_1-Sutel",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -125,7 +125,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_1-Sutel",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -133,7 +133,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_1-Sutel",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -141,7 +141,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_1-Sutel",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -149,7 +149,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_1-Sutel",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -157,7 +157,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_1-Sutel",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -197,14 +197,6 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false

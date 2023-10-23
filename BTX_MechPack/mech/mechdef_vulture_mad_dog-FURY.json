@@ -107,9 +107,9 @@
   "inventory": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
+      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -117,15 +117,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -173,7 +165,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Gauss_RailGun_2-SCI",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

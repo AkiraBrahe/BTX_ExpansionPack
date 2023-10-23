@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_hellhoundBase-001",
   "PrefabBase": "hellhound",
   "Tonnage": 50,
-  "InitialTonnage": 24.69,
+  "InitialTonnage": 24.70,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 118.8,

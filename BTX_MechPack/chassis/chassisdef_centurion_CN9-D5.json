@@ -19,7 +19,7 @@
   "Tonnage": 50,
   "InitialTonnage": 18.5,
   "weightClass": "MEDIUM",
-  "Heatsinks": 22,
+  "Heatsinks": 10,
   "TopSpeed": 129.6,
   "TurnRadius": 90,
   "MaxJumpjets": 0,

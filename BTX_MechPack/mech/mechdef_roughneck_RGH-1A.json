@@ -109,7 +109,7 @@
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -117,7 +117,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -141,7 +141,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -173,7 +173,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -197,7 +197,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -213,7 +213,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

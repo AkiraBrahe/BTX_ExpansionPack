@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_laohubase-001",
   "PrefabBase": "laohu",
   "Tonnage": 75,
-  "InitialTonnage": 31.5,
+  "InitialTonnage": 30.5,
   "weightClass": "HEAVY",
   "Heatsinks": 10,
   "TopSpeed": 86.4,
@@ -93,7 +93,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 230,
@@ -237,7 +242,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -246,7 +251,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -276,6 +281,15 @@
       "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_TAG_C3-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false

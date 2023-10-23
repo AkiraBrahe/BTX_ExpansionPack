@@ -109,7 +109,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_LargeLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -117,7 +117,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_LRM_ALRM10_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -165,7 +165,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

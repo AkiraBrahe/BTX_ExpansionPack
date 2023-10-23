@@ -108,7 +108,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -148,7 +148,7 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -156,7 +156,7 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -164,7 +164,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

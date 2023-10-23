@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrPrfMech_kintaroBase-001",
   "PrefabBase": "kintaro",
   "Tonnage": 35,
-  "InitialTonnage": 15,
+  "InitialTonnage": 17,
   "weightClass": "LIGHT",
-  "Heatsinks": 2,
+  "Heatsinks": 10,
   "MaxJumpjets": 6,
   "Stability": 100,
   "StabilityDefenses": [

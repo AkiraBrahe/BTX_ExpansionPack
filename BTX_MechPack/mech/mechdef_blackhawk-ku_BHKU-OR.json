@@ -110,7 +110,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -118,12 +118,20 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "LeftArm",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -132,8 +140,16 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "ComponentDefType": "AmmunitionBox",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -142,7 +158,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -150,7 +166,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

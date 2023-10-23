@@ -111,7 +111,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -119,7 +119,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -127,7 +127,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -167,7 +167,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -175,7 +175,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -183,7 +183,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -109,15 +109,7 @@
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_AMSCAC_0",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -125,7 +117,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -133,22 +125,6 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -178,10 +154,10 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -189,7 +165,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -197,15 +173,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

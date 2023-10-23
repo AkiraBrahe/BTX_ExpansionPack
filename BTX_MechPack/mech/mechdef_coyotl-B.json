@@ -109,7 +109,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -125,7 +125,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -133,7 +133,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Autocannon_CUAC10_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

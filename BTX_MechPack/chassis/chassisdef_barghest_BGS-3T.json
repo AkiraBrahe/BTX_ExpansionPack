@@ -250,7 +250,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Gauss_Barghest_HeavyGauss",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false

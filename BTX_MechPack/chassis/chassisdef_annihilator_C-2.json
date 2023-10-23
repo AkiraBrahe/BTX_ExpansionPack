@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrPrfMech_annihilatorBase-001",
   "PrefabBase": "annihilator",
   "Tonnage": 100,
-  "InitialTonnage": 16.5,
+  "InitialTonnage": 18.5,
   "weightClass": "ASSAULT",
-  "Heatsinks": 2,
+  "Heatsinks": 10,
   "TopSpeed": 32.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -223,7 +223,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "YangsThoughts": "",
   "StockRole": "Juggernaut & Long Range Assault",
+  "YangsThoughts": "",
   "FixedEquipment": []
 }

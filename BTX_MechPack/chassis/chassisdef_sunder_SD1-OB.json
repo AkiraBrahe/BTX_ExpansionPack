@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_ionsunderbase-001",
   "PrefabBase": "ionsunder",
   "Tonnage": 90,
-  "InitialTonnage": 38.5,
+  "InitialTonnage": 34.5,
   "weightClass": "ASSAULT",
-  "Heatsinks": 34,
+  "Heatsinks": 22,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -241,6 +241,15 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_TAG_C3-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_C3_Master",
       "ComponentDefType": "Upgrade",
@@ -250,10 +259,10 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_TAG_C3-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false

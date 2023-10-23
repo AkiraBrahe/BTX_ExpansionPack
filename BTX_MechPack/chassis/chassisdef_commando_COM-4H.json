@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrPrfMech_commandoBase-001",
   "PrefabBase": "commando",
   "Tonnage": 25,
-  "InitialTonnage": 9,
+  "InitialTonnage": 13,
   "weightClass": "LIGHT",
-  "Heatsinks": -12,
+  "Heatsinks": 0,
   "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -202,6 +202,7 @@
   "VariantName": "COM-4H",
   "ChassisTags": {
     "items": [
+      "mr-resize-1.18-1.18-1.18",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_exposedactuators"
     ],

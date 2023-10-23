@@ -109,7 +109,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Bomb_BombBay",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -117,7 +117,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Bomb_BombBay",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -141,7 +141,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Bomb_BombBay",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -149,7 +149,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Bomb_BombBay",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -173,7 +173,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrPrfMech_cyclopsBase-001",
   "PrefabBase": "cyclops",
   "Tonnage": 90,
-  "InitialTonnage": 51,
+  "InitialTonnage": 49,
   "weightClass": "ASSAULT",
-  "Heatsinks": 22,
+  "Heatsinks": 10,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -219,7 +219,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -246,7 +246,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -255,7 +255,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -264,7 +264,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

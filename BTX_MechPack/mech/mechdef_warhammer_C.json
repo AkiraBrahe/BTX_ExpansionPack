@@ -125,7 +125,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -149,7 +149,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -157,7 +157,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -165,6 +165,14 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -181,7 +189,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -189,7 +197,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -197,7 +205,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -205,7 +213,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -229,7 +237,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

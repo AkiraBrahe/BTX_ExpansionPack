@@ -106,17 +106,9 @@
   "inventory": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -132,14 +124,6 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -154,17 +138,9 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

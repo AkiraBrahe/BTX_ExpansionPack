@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_bombardbase-001",
   "PrefabBase": "bombard",
   "Tonnage": 50,
-  "InitialTonnage": 1,
+  "InitialTonnage": 7,
   "weightClass": "MEDIUM",
-  "Heatsinks": -18,
+  "Heatsinks": 0,
   "TopSpeed": 32.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -223,7 +223,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -259,7 +259,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -268,7 +268,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -277,7 +277,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

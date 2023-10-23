@@ -127,7 +127,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -143,7 +143,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -165,8 +165,8 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
-      "ComponentDefType": "Weapon",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -175,7 +175,15 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -191,7 +199,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -223,7 +231,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

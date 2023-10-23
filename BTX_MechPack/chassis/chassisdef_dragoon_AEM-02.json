@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_cudragoonbase-001",
   "PrefabBase": "cudragoon",
   "Tonnage": 70,
-  "InitialTonnage": 29.5,
+  "InitialTonnage": 29.51,
   "weightClass": "HEAVY",
   "Heatsinks": 10,
   "TopSpeed": 86.4,

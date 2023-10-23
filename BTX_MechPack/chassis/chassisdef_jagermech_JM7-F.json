@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_jagermechBase-001",
   "PrefabBase": "jagermech",
   "Tonnage": 70,
-  "InitialTonnage": 22.5,
+  "InitialTonnage": 22.51,
   "weightClass": "HEAVY",
   "Heatsinks": 16,
   "TopSpeed": 64.8,

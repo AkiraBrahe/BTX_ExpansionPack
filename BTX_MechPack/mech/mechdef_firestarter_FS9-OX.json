@@ -110,7 +110,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -126,7 +126,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_LargeLaserXPulse_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

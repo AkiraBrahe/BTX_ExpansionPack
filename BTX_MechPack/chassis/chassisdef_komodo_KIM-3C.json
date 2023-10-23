@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_komodobase-001",
   "PrefabBase": "komodo",
   "Tonnage": 45,
-  "InitialTonnage": 16.5,
+  "InitialTonnage": 15.5,
   "weightClass": "MEDIUM",
-  "Heatsinks": 16,
+  "Heatsinks": 10,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
@@ -48,7 +48,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -233,6 +238,15 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Weapon_TAG_C3-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false

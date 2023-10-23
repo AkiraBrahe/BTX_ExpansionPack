@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_pulverizerbase-001",
   "PrefabBase": "pulverizer",
   "Tonnage": 90,
-  "InitialTonnage": 47.98,
+  "InitialTonnage": 45.99,
   "weightClass": "ASSAULT",
-  "Heatsinks": 34,
+  "Heatsinks": 22,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -209,7 +209,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -236,7 +236,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -245,7 +245,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -254,7 +254,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

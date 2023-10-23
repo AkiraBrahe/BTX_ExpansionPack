@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_osirisbase-001",
   "PrefabBase": "osiris",
   "Tonnage": 30,
-  "InitialTonnage": 12.53,
+  "InitialTonnage": 12.54,
   "weightClass": "LIGHT",
   "Heatsinks": 6,
   "TopSpeed": 129.6,

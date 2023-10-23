@@ -254,7 +254,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Industrial_LiftHoist_Small",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -263,7 +263,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Industrial_RockCutter",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -290,7 +290,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Industrial_LiftHoist_Small",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -299,7 +299,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Industrial_PileDriver",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false

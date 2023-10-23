@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_cugunslingerbase-001",
   "PrefabBase": "cugunslinger",
   "Tonnage": 85,
-  "InitialTonnage": 22,
+  "InitialTonnage": 21,
   "weightClass": "ASSAULT",
   "Heatsinks": 10,
   "TopSpeed": 54,
@@ -86,7 +86,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -234,7 +234,16 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "CenterTorso",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_TAG_C3-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_C3_Master",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

@@ -220,7 +220,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Artillery",
-  "YangsThoughts": "Well, my experiment worked. We now have a 'Mech with a mounted Long Tom Artillery Cannon. This is a devastating weapon, capable of destroying even the most heavily armored tanks. With this new weapon, we'll be unstoppable on the battlefield.",
+  "YangsThoughts": "Well, my experiment worked. We now have a 'Mech with a mounted Long Tom Artillery Cannon. This is a devastating weapon, capable of destroying even the most heavily armored tanks. With this, we'll be unstoppable on the battlefield.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

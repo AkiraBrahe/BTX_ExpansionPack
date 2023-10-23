@@ -174,7 +174,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "LoaderMech",
-  "YangsThoughts": "I'm sure we can do something with this Loader King, Boss, but we're pretty limited without completely gutting and rebuilding it as a whole new 'Mech. First thing we'd have to do is get rid of that I.C.E. and put a proper fusion engine in it, which would require facilities beyond what we have here. Not even sure it would be worth it. Might not be bad for moving things around the bays, though.",
+  "YangsThoughts": "I'm sure we can do something with this Loader King, Boss, but we're pretty limited without completely gutting and rebuilding it as a whole new 'Mech. First thing we'd have to do is get rid of that I.C.E. and put a proper fusion engine in it, which would require facilities beyond what we have here. Not sure it would be even worth it. Might not be bad for moving things around the bays, though.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

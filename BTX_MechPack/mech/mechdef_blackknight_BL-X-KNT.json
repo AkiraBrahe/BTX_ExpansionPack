@@ -118,7 +118,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_PPC_HeavyPPC_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
       "LocalGUID": "PPCCapacitor0"
@@ -132,9 +132,9 @@
       "TargetComponentGUID": "PPCCapacitor0"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_2-Magna",
-      "ComponentDefType": "Weapon",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -143,7 +143,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_2-Magna",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -151,7 +151,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_2-Magna",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -159,7 +159,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_2-Magna",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -167,7 +167,15 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_2-Magna",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_2-Magna",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

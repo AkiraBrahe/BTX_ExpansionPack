@@ -111,7 +111,7 @@
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -151,7 +151,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -159,7 +159,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -175,7 +175,7 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -183,7 +183,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Autocannon_CUAC10_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

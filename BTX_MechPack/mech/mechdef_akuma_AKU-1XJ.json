@@ -110,7 +110,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_LargeLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -118,7 +118,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -126,7 +126,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -134,7 +134,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_MRM_MRM40_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -166,7 +166,7 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Laser_SmallLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -182,7 +182,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Autocannon_LB20X_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

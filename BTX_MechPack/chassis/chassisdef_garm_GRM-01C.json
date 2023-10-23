@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_wightbase-001",
   "PrefabBase": "wight",
   "Tonnage": 35,
-  "InitialTonnage": 11.53,
+  "InitialTonnage": 14.54,
   "weightClass": "LIGHT",
-  "Heatsinks": -9,
+  "Heatsinks": 0,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
@@ -184,7 +184,7 @@
   "VariantName": "GRM-01C",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.85-0.85-0.85",
+      "mr-resize-0.75-0.75-0.75",
       "chassis_endo",
       "chassis_ferro",
       "mech_case_left",

@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_anubisbase-001",
   "PrefabBase": "anubis",
   "Tonnage": 30,
-  "InitialTonnage": 12.5,
+  "InitialTonnage": 13.5,
   "weightClass": "LIGHT",
-  "Heatsinks": 6,
+  "Heatsinks": 10,
   "TopSpeed": 129.6,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -253,7 +253,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -271,6 +271,15 @@
     },
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

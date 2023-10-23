@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_chimerabase-001",
   "PrefabBase": "chimera",
   "Tonnage": 40,
-  "InitialTonnage": 13,
+  "InitialTonnage": 14,
   "weightClass": "MEDIUM",
-  "Heatsinks": 6,
+  "Heatsinks": 10,
   "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 6,
@@ -111,7 +111,12 @@
     },
     {
       "Location": "RightArm",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 8,
       "MaxArmor": 60,

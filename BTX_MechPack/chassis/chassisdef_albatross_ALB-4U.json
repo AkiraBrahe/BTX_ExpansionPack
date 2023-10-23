@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_lelialbatrossbase-001",
   "PrefabBase": "lelialbatross",
   "Tonnage": 95,
-  "InitialTonnage": 43.14,
+  "InitialTonnage": 39.15,
   "weightClass": "ASSAULT",
-  "Heatsinks": 34,
+  "Heatsinks": 10,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -234,7 +234,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -252,7 +252,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -270,7 +270,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

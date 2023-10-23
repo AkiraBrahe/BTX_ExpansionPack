@@ -108,7 +108,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -116,7 +116,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

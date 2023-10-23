@@ -107,7 +107,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Flamer_VehicleFlamer_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

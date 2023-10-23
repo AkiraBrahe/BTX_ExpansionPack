@@ -109,7 +109,7 @@
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -125,7 +125,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -133,7 +133,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -149,7 +149,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -157,7 +157,7 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -173,7 +173,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -189,7 +189,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -197,7 +197,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

@@ -110,28 +110,20 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Gauss_Gauss_NU_0-STOCK",
       "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "LeftArm",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -140,14 +132,22 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
@@ -158,7 +158,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -166,7 +166,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -198,7 +198,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Gauss_Gauss_NU_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

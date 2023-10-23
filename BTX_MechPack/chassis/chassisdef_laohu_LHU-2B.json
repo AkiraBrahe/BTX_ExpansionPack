@@ -223,15 +223,6 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
@@ -279,6 +270,15 @@
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

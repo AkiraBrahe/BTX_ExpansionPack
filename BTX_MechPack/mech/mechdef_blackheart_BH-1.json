@@ -109,7 +109,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Gauss_LightGauss_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -125,7 +125,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -133,7 +133,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -141,6 +141,14 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_AMS_Laser",
       "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -149,7 +157,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -157,7 +165,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -165,7 +173,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -189,7 +197,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Gauss_LightGauss_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

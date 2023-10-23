@@ -109,7 +109,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -117,7 +117,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -149,7 +149,7 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_Narc_CNarc_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -157,7 +157,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -165,7 +165,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -181,7 +181,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

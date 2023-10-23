@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_cudragoonbase-001",
   "PrefabBase": "cudragoon",
   "Tonnage": 70,
-  "InitialTonnage": 22,
+  "InitialTonnage": 21.01,
   "weightClass": "HEAVY",
-  "Heatsinks": 16,
+  "Heatsinks": 10,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 3,
@@ -224,8 +224,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -233,8 +233,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_stagbase-001",
   "PrefabBase": "stag",
   "Tonnage": 45,
-  "InitialTonnage": 16.93,
+  "InitialTonnage": 16.94,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 129.6,

@@ -110,7 +110,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Autocannon_CLB20X_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -118,7 +118,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_MachineGun_CHeavyMachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -142,7 +142,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserHeavy_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -150,7 +150,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserHeavy_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -158,7 +158,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_ATM_ATM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -196,9 +196,17 @@
     },
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_AMS_Laser_Clan",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -214,7 +222,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserHeavy_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +230,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_CMediumLaserHeavy_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -230,7 +238,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_ATM_ATM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -270,7 +278,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Autocannon_CLB20X_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -278,7 +286,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_MachineGun_CHeavyMachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

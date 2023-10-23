@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_arcticcheetahbase-001",
   "PrefabBase": "arcticcheetah",
   "Tonnage": 30,
-  "InitialTonnage": 12.54,
+  "InitialTonnage": 13.54,
   "weightClass": "LIGHT",
   "Heatsinks": 10,
   "TopSpeed": 129.6,
@@ -213,15 +213,6 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,

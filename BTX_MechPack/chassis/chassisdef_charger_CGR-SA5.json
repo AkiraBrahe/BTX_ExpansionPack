@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_chargerhotd-001",
   "PrefabBase": "charger",
   "Tonnage": 80,
-  "InitialTonnage": 31.56,
+  "InitialTonnage": 29.56,
   "weightClass": "ASSAULT",
-  "Heatsinks": 22,
+  "Heatsinks": 10,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -252,7 +252,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_6_Slot",
+      "ComponentDefID": "Gear_EndoSteel_8_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -261,7 +261,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -270,7 +270,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

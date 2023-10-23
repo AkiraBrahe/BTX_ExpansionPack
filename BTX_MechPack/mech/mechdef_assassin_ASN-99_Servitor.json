@@ -111,7 +111,7 @@
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_Laser_SmallLaser_2-Magna",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -143,7 +143,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_SRM_SRM2_2-Holly",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -191,7 +191,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_SRM_SRM2_2-Holly",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -199,7 +199,7 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_2-Magna",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -207,7 +207,7 @@
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Weapon_Laser_SmallLaserXPulse_2-Magna",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -215,7 +215,7 @@
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Weapon_Laser_SmallLaserXPulse_2-Magna",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
