@@ -1,6 +1,30 @@
 {
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 7000000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Clear Sight",
+    "Model": "BAP",
+    "UIName": "Beagle Active Probe",
+    "Id": "Gear_SensorCAC_Beagle",
+    "Name": "Beagle Active Probe",
+    "Details": "Star League era Beagle Active Probe. When activated, the probe performs a Sensor Lock against all enemies within its radius before entering a cooldown state.",
+    "Icon": "UixSvgIcon_specialEquip_Sensors"
+  },
   "BonusValueA": "+ Free Sensor Lock",
   "BonusValueB": "+ 120m Sensor Range",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "ElectronicWarfare",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 1.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
   "statusEffects": [
     {
       "targetingData": {
@@ -74,5 +98,13 @@
         "modType": "System.Boolean"
       }
     }
-  ]
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

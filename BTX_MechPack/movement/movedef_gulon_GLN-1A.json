@@ -5,8 +5,8 @@
     "Details": "100 Fission Engine - 5/8 movement",
     "Icon": ""
   },
-  "MaxWalkDistance": 140.0,
-  "MaxSprintDistance": 240.0,
+  "MaxWalkDistance": 120.0,
+  "MaxSprintDistance": 200.0,
   "WalkVelocity": 16.0,
   "RunVelocity": 28.0,
   "SprintVelocity": 36.0,

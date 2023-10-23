@@ -1,8 +1,8 @@
 {
   "Description": {
-    "Id": "movedef_schwerergustav_SG-1X_Jäger",
-    "Name": "MovementCapabilitiesDef for Schwerer Gustav SG-1X (Jäger)",
-    "Details": "300 XL Fusion Engine - 4/7 movement",
+    "Id": "movedef_mauler_MAL-1R",
+    "Name": "MovementCapabilitiesDef for Mauler MAL-1R",
+    "Details": "",
     "Icon": ""
   },
   "MaxWalkDistance": 95.0,

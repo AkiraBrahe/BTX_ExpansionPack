@@ -124,9 +124,9 @@
         ]
       },
       { /* Rifleman */
-        "affinityId": "chrPrfMech_riflemanBase-001_50",
+        "affinityId": "chrPrfMech_riflemanBase-001_60",
         "assemblyGroup": [
-          "chrPrfMech_rifleman_BHABase-001_50"
+          "chrPrfMech_rifleman_BHABase-001_60"
         ]
       },
       { /* Shadow Hawk */

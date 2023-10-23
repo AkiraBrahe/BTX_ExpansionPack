@@ -2,11 +2,11 @@
   "items" : [
 
     /* Mech Type */                            
-      "unit_industrial",  /* IndustrialMech */
-      "unit_protomech",   /* ProtoMech */
-      "unit_quad",        /* QuadMech */
-      "unit_LAM",         /* LandAirMech */
-      "unit_powerarmor",  /* PowerArmor */
+      "unit_industrial",            /* IndustrialMech */
+      "unit_protomech",             /* ProtoMech */
+      "unit_quad",                  /* QuadMech */
+      "unit_LAM",                   /* LandAirMech */
+      "unit_powerarmor",            /* PowerArmor */
 
     /* Type */
       "unit_mech",
@@ -18,79 +18,59 @@
       "unit_assault",
   
     /* Roles */
-      "unit_role_scout",
-      "unit_role_sniper",
-      "unit_role_brawler",
-      "unit_role_flanker",
-      "unit_role_meleeonly",
-      "unit_role_ewe",
+      "unit_role_activeprobe",      /*  */
+      "unit_role_brawler",          /*  */
+      "unit_role_ecmcarrier",       /*  */
+      "unit_role_ewe",              /*  */
+      "unit_role_flanker",          /*  */
+      "unit_role_lastmanstanding",  /*  */
+      "unit_role_meleeonly",        /*  */
+      "unit_role_noncombatant",     /*  */
+      "unit_role_scout",            /*  */
+      "unit_role_sniper",           /*  */
+      "unit_role_spotter",          /*  */
+      "unit_role_suppression",      /*  */
+      "unit_role_turret",           /*  */
+      "unit_role_vehicle",          /*  */
   
-      "unit_lance_vanguard",
-      "unit_lance_support",
-      "unit_lance_tank",
-      "unit_lance_assassin",
+      "unit_lance_vanguard",        /* light scout & battle */
+      "unit_lance_tank",            /* heavy battle */
+      "unit_lance_assassin",        /* light fire */
+      "unit_lance_support",         /* support */
   
     /* Range */
       "unit_range_long",
       "unit_range_medium",
       "unit_range_short",
+
+      "unit_indirectFire",
   
     /* Armor */
       "unit_armor_high",
+      "unit_armor_med",
       "unit_armor_low",
   
     /* Speed */
       "unit_speed_high",
+      "unit_speed_med",
       "unit_speed_low",
-  
+
+      "unit_jumpOK",
+
     /* Special */
       "unit_electronicWarfare",
       "unit_hot",
-      "unit_indirectFire",
-      "unit_jumpOK",
-
-      "unit_urbie",
   
-      "unit_common",
       "unit_release",
-      "unit_LosTech",
+      "unit_dlc",
 
-    /* Special */
+      "unit_LosTech",
       "unit_clan",
       "unit_omni",        /* OmniMech */
       "unit_primitive",
       "unit_prototype",
 
-
-
       "BLACKLISTED",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -138,8 +118,10 @@
       "PlaceholderImpostorMaterial",
       "{CUR_TEAM.Faction}",
   
+      "unit_common",
       "unit_fallback",
-      "unit_hatchetman"
+      "unit_hatchetman",
+      "unit_urbie"
   ],
   "tagSetSourceFile": ""
 }

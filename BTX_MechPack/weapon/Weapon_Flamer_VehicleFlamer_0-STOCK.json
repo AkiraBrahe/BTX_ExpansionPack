@@ -9,7 +9,7 @@
     90,
     90
   ],
-  "ammoCategoryID": "Flamer",
+  "ammoCategory": "Flamer",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 0,
   "Damage": 5,

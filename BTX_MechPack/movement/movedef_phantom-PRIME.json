@@ -5,8 +5,8 @@
     "Details": "360 XL Fusion Engine - 10/17 movement",
     "Icon": ""
   },
-  "MaxWalkDistance": 240.0,
-  "MaxSprintDistance": 400.0,
+  "MaxWalkDistance": 235.0,
+  "MaxSprintDistance": 390.0,
   "WalkVelocity": 22.0,
   "RunVelocity": 28.0,
   "SprintVelocity": 36.0,

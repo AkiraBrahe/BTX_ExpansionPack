@@ -2,11 +2,11 @@
   "Description": {
     "Id": "movedef_fireball_ALM-7D",
     "Name": "MovementCapabilitiesDef for Fireball ALM-7D",
-    "Details": "220 XL Fusion Engine - 5/8 movement",
+    "Details": "220 XL Fusion Engine - 12/20 movement",
     "Icon": ""
   },
-  "MaxWalkDistance": 290.0,
-  "MaxSprintDistance": 480.0,
+  "MaxWalkDistance": 280.0,
+  "MaxSprintDistance": 460.0,
   "WalkVelocity": 22.0,
   "RunVelocity": 28.0,
   "SprintVelocity": 36.0,

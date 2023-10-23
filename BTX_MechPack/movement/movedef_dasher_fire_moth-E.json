@@ -5,7 +5,7 @@
     "Details": "200 XL Fusion Engine - 11/18 movement",
     "Icon": ""
   },
-  "MaxWalkDistance": 260.0,
+  "MaxWalkDistance": 255.0,
   "MaxSprintDistance": 425.0,
   "WalkVelocity": 22.0,
   "RunVelocity": 28.0,

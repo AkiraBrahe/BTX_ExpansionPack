@@ -1,6 +1,30 @@
 {
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 7000000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Clans",
+    "Model": "AP",
+    "UIName": "Active Probe",
+    "Id": "Gear_SensorCAC_BeagleClan",
+    "Name": "Active Probe",
+    "Details": "Clan Tech Active Probe. When activated, the probe performs a Sensor Lock against all enemies within its radius before entering a cooldown state.",
+    "Icon": "UixSvgIcon_specialEquip_Sensors"
+  },
   "BonusValueA": "+ Free Sensor Lock",
   "BonusValueB": "+ 150m Sensor Range",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "ElectronicWarfare",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
   "statusEffects": [
     {
       "targetingData": {
@@ -74,5 +98,13 @@
         "modType": "System.Boolean"
       }
     }
-  ]
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_clan",
+      "component_type_lostech"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

@@ -5,9 +5,11 @@
       "chassis_omni",
       "chassis_DHS",
       "chassis_TSM",
+
       "chassis_endo",
-      "chassis_ferro",
       "chassis_composite",
+
+      "chassis_ferro",
       "chassis_reactive",
       "chassis_stealth",
 

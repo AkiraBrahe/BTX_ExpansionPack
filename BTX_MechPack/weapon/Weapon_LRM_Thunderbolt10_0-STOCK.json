@@ -29,7 +29,7 @@
   "Instability": 30,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM10",
   "Description": {
-    "Cost": 700000,
+    "Cost": 350000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Solaris Arms",
