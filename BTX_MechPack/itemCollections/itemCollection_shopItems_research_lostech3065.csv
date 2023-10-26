@@ -1,4 +1,8 @@
-itemCollection_shopItems_research_lostech3060,,,
+itemCollection_shopItems_research_lostech3065,,,
+Weapon_PPC_PPCSnub_0-STOCK,Weapon,1,2
+Weapon_PPC_PPCSnub_1-Ceres_Arms,Weapon,1,1
+Weapon_PPC_PPCSnub_1-Donal,Weapon,1,1
+Weapon_PPC_PPCSnub_1-Magna,Weapon,1,1
 Weapon_COIL_COIL-S_0-STOCK,Weapon,1,1
 Weapon_COIL_COIL-M_0-STOCK,Weapon,1,1
 Weapon_COIL_COIL-L_0-STOCK,Weapon,1,1
@@ -101,3 +105,7 @@ Weapon_LRM_ELRM20_0-STOCK,Weapon,1,5
 Weapon_LRM_ELRM20_1-Achernar,Weapon,1,2
 Gear_Addon_PPCCapacitor,Upgrade,1,10
 Weapon_AMS_Laser,Weapon,1,5
+Gear_Blue_Shield,Upgrade,1,5
+Gear_Actuator_Shield_Small,Upgrade,1,5
+Gear_Actuator_Shield_Medium,Upgrade,1,5
+Gear_Actuator_Shield_Large,Upgrade,1,5
