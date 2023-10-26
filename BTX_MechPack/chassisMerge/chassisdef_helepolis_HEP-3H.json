@@ -1,4 +1,13 @@
 {
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_case_left",
+      "mech_quirk_reinforcedlegs",
+      "mech_quirk_stable"
+    ],
+    "tagSetSourceFile": ""
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "RightTorso",

@@ -189,6 +189,7 @@
   "VariantName": "BEL-2X",
   "ChassisTags": {
     "items": [
+      "chassis_DHS",
       "chassis_endo",
       "mech_quirk_cowl",
       "mech_quirk_eminterference",

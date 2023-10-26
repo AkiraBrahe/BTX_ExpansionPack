@@ -10,7 +10,7 @@
     "DependsOn": [ "BTX_CAC_Compatibility" ],
     "OptionallyDependsOn": [ "The_Big_Deal_Campaign_Add-on" ],
     
-    "DataAddendumEntries":[ 
+    "DataAddendumEntries": [ 
         { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" }
     ],
     "Manifest": [
@@ -22,17 +22,21 @@
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionBoxMerge", "ShouldMergeJSON": true },
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
+        { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "HeatSinkDef", "Path": "heatsinksMerge", "ShouldMergeJSON": false },
         { "Type": "SVGAsset", "Path": "icons" },
         { "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
         { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
         { "Type": "JumpJetDef", "Path": "jumpjets", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
         { "Type": "MechDef", "Path": "mechMerge", "ShouldMergeJSON": true },
+        { "Type": "MechDef", "Path": "mechOmni", "ShouldMergeJSON": true },
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
         { "Type": "MovementCapabilitiesDef", "Path": "movementMerge", "ShouldMergeJSON": true },
         { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
         { "Type": "Sprite", "Path": "portraits" },
+        { "Type": "CCUnitTypes", "Path": "unitTypes" },
         { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
         { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },

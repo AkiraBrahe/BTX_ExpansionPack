@@ -2,7 +2,7 @@
     "Name": "BTX_DHS_Changes",
     "Enabled": false,
 
-  "Version": "1.1",
+  "Version": "1.2",
   
     "Description": "Advancedmerges for EngineDHS, values set for DHS with 6 heatsinking",
     "Author": "lordruthermore",

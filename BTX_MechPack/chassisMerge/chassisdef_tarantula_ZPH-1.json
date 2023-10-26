@@ -1,0 +1,11 @@
+{
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_quirk_easytopilot",
+      "mech_quirk_extendedtorsotwistquad",
+      "mech_quirk_exposedactuators"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
