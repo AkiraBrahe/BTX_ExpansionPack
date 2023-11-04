@@ -18,31 +18,32 @@ New rare weapons and upgrades are available in stores, based on the year they we
 
 ## Mod Progress
 
-The mod currently includes 57 new BattleMechs and 198 new 'Mech variants. When completed, the mod will feature over 60 new BattleMechs, corresponding to nearly all CAB models that fit the BattleTech Extended timeline and beyond, up to the year 3065.
+The mod currently includes 62 new BattleMechs and 198 new 'Mech variants. When completed, the mod will feature over 70 new BattleMechs, corresponding to nearly all CAB models that fit the BattleTech Extended timeline and beyond, up to the year 3065.
 
 The next major update is set to be released sometime this fall, and will feature new end-game BattleMechs and add some of the new 'Mechs to the factory shops. 
 
-
-| Pack #1             | Pack #2          | Pack #3        | Pack #4       |
-| :------------------ | :--------------- | :------------- | :------------ |
-| Bellerophon         | Arctic Wolf      | Albatross      | Akuma         |
-| Bombard             | Assassin II      | Anubis         | ?????         |
-| Buccaneer           | Battle Hawk      | Barghest       | ????? ???     |
-| Dragoon             | Blitzkrieg       | Black Heart    | Chimera       |
-| Fox                 | Champion LAM     | Fire Falcon    | Dig King/Lord |
-| Hellfire            | Cossack          | Grand Crusader | ??????        |
-| Jackrabbit          | Hammer           | Gulon          | ?????????     |
-| JagerMech III       | Hybrid Rifleman  | Iron Cheetah   | Kiso          |
-| Juggernaut          | Lao Hu           | Lineholder     | Komodo        |
-| Mercury II / Coyotl | Mad Cat Mk II    | Lupus          | ??????        |
-| Pulverizer          | Matar            | Mantis         | ?????         |
-| Rampage             | Naga             | Osiris         | ?????????     |
-| Schwerer Gustav     | Nightsky         | Peregrine      | Roughneck     |
-| Screamer LAM        | Phoenix Hawk IIC | Phantom        | ??????        |
-| Stag / Stag II      | Rattlesnake      | Prometheus     | ??????????    |
-| Thanatos            | Warthog          | Sha Yu         | ????????      |
-| Titan               |                  | Templar        | ??????????    |
-|                     |                  | Zeus-X         | ?????????     |
+| Pack #1             | Pack #2          | Pack #3                | Pack #4       |
+| :------------------ | :--------------- | :--------------------- | :------------ |
+| Bellerophon         | Arctic Wolf      | Albatross              | Akuma         |
+| Bombard             | Assassin II      | Anubis                 | ?????         |
+| Buccaneer           | Battle Hawk      | Barghest               | ????? ???     |
+| Dragoon             | Blitzkrieg       | Black Heart            | Buster        |
+| Fox                 | Champion LAM     | Fire Falcon            | Chimera       |
+| Hellfire            | Cossack          | Galahad (Glass Spider) | Crosscut      |
+| Jackrabbit          | Hammer           | Grand Crusader         | Dig King/Lord |
+| JagerMech III       | Hybrid Rifleman  | Gulon                  | ??????        |
+| Juggernaut          | Lao Hu           | Iron Cheetah           | ?????????     |
+| Mercury II / Coyotl | Mad Cat Mk II    | Lineholder             | Kiso          |
+| Pulverizer          | Matar            | Lupus                  | Komodo        |
+| Rampage             | Naga             | Mantis                 | ??????        |
+| Schwerer Gustav     | Nightsky         | Osiris                 | ?????         |
+| Screamer LAM        | Phoenix Hawk IIC | Peregrine              | ?????????     |
+| Stag / Stag II      | Rattlesnake      | Phantom                | Roughneck     |
+| Thanatos            | Warthog          | Prometheus             | ??????        |
+| Titan               |                  | Sha Yu                 | ??????????    |
+|                     |                  | Templar                | ????????      |
+|                     |                  | Zeus-X                 | ??????????    |
+|                     |                  |                        | ?????????     |
 
 ## Contents
 
