@@ -22,7 +22,7 @@
   "Heatsinks": 0,
   "TopSpeed": 65,
   "TurnRadius": 90,
-  "MaxJumpjets": 4,
+  "MaxJumpjets": 0,
   "Stability": 130,
   "StabilityDefenses": [
     0,
@@ -38,9 +38,9 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 70,
+  "MeleeDamage": 80,
   "MeleeInstability": 50,
-  "MeleeToHitModifier": 0,
+  "MeleeToHitModifier": -2,
   "DFADamage": 65,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 65,
@@ -201,5 +201,25 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Close Assault",
-  "YangsThoughts": ""
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_General_Komiyaba_Grapple_Frame",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_General_Komiyaba_Grapple_Frame",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
 }
