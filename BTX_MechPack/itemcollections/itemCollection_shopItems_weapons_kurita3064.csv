@@ -43,10 +43,6 @@ Weapon_LRM_LRM10_0-STOCK,Weapon,2,1
 Weapon_LRM_LRM10_0-STOCK,Weapon,1,1
 Weapon_LRM_LRM15_0-STOCK,Weapon,1,1
 Weapon_LRM_LRM20_0-STOCK,Weapon,1,1
-Weapon_LRM_ALRM5_0-STOCK,Weapon,1,1
-Weapon_LRM_ALRM10_0-STOCK,Weapon,1,1
-Weapon_LRM_ALRM15_0-STOCK,Weapon,1,1
-Weapon_LRM_ALRM20_0-STOCK,Weapon,1,1
 Weapon_MachineGun_MachineGun_0-STOCK,Weapon,3,1
 Weapon_MachineGun_MachineGun_0-STOCK,Weapon,2,2
 Weapon_MachineGun_MachineGun_0-STOCK,Weapon,1,1
@@ -56,9 +52,6 @@ Weapon_SRM_SRM2_0-STOCK,Weapon,1,1
 Weapon_SRM_SRM4_0-STOCK,Weapon,2,2
 Weapon_SRM_SRM4_0-STOCK,Weapon,1,1
 Weapon_SRM_SRM6_0-STOCK,Weapon,1,1
-Weapon_SRM_ASRM2_0-STOCK,Weapon,1,1
-Weapon_SRM_ASRM4_0-STOCK,Weapon,1,1
-Weapon_SRM_ASRM6_0-STOCK,Weapon,1,1
 Weapon_SRM_SSRM2_0-STOCK,Weapon,1,1
 Weapon_SRM_SSRM4_0-STOCK,Weapon,1,1
 Weapon_SRM_SSRM6_0-STOCK,Weapon,1,1
