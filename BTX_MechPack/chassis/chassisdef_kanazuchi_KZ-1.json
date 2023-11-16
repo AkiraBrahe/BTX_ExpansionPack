@@ -1,0 +1,200 @@
+{
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Kanazuchi",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "FiringArc": 360,
+    "MoveCost": "PowerArmor",
+    "SquadInfo": {
+      "Troopers": 4,
+      "UnitSize": 0.55,
+      "DeadUnitToHitMod": 3,
+      "Hardpoints": {
+        "Energy": "RightArm",
+        "Ballistic": "LeftLeg",
+        "Missile": "LeftLeg",
+        "AntiPersonel": "RightArm"
+      }
+    }
+  },
+  "Description": {
+    "Cost": 3356640,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Mechanized Infantry",
+    "Id": "chassisdef_kanazuchi_KZ-1",
+    "Name": "Mechanized Infantry",
+    "Details": "The Kanazuchi, Japanese for 'hammer', is a Draconis Combine battle armor design, one of the heaviest to come from that realm.\n\n<b><color=#e62e00>Quirk: Armored</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.896</color></b>\n\n<b><color=#2aad3b>Can only mount internal bays, can melee, can not swarm.</b></color>",
+    "Icon": "uixTxrIcon_kanazuchi"
+  },
+  "MovementCapDefID": "movedef_kanazuchi_KZ-1",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_kanazuchi",
+  "PrefabIdentifier": "chrprfmech_kanazuchibase-001",
+  "PrefabBase": "kanazuchi",
+  "Tonnage": 8,
+  "InitialTonnage": 0,
+  "weightClass": "LIGHT",
+  "Heatsinks": 0,
+  "TopSpeed": 15,
+  "TurnRadius": 360,
+  "MaxJumpjets": 0,
+  "Stability": 500,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 75,
+  "MeleeInstability": 45,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 0,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 20,
+  "DFAInstability": 0,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 0,
+      "MaxRearArmor": -1,
+      "InternalStructure": 1
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": 0,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 7,
+      "MaxArmor": 100,
+      "MaxRearArmor": 0,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": 0,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 0,
+      "MaxRearArmor": -1,
+      "InternalStructure": 1
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 30,
+      "MaxArmor": 0,
+      "MaxRearArmor": -1,
+      "InternalStructure": 1
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 30,
+      "MaxArmor": 0,
+      "MaxRearArmor": -1,
+      "InternalStructure": 1
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 3,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 1.5,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 1.5,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "KZ-1",
+  "ChassisTags": {
+    "items": [
+      "PowerArmor",
+      "ProtoMech",
+      "OmniMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Powered Infantry",
+  "YangsThoughts": "The Kanazuchi, Japanese for 'hammer', is a Draconis Combine battle armor design, one of the heaviest to come from that realm.",
+  "FixedEquipment": []
+}

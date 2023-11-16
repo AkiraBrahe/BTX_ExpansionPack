@@ -1,0 +1,189 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_light",
+      "unit_role_scout",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_jumpOK",
+      "unit_release",
+      "unit_LosTech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_superwasp_WSP-2A-X",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 3840000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Super-Wasp WSP-2A-X",
+    "Id": "mechdef_superwasp_WSP-2A-X",
+    "Name": "Super-Wasp",
+    "Details": "",
+    "Icon": "uixTxrIcon_wasp"
+  },
+  "simGameMechPartCost": 380000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 35,
+      "CurrentRearArmor": 10,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 35,
+      "AssignedRearArmor": 10
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 35,
+      "CurrentRearArmor": 10,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 35,
+      "AssignedRearArmor": 10
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 35,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 35,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 35,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 35,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

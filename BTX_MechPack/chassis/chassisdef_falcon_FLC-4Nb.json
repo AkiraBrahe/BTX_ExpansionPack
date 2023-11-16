@@ -1,0 +1,243 @@
+{
+  "Description": {
+    "Cost": 2760000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Falcon",
+    "Id": "chassisdef_falcon_FLC-4Nb",
+    "Name": "Falcon",
+    "Details": "",
+    "Icon": "uixTxrIcon_falcon"
+  },
+  "MovementCapDefID": "movedef_falcon_FLC-4Nb",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_falcon",
+  "PrefabIdentifier": "chrprfmech_falconbase-001",
+  "PrefabBase": "falcon",
+  "Tonnage": 30,
+  "InitialTonnage": 15,
+  "weightClass": "LIGHT",
+  "Heatsinks": 10,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 40,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 10.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "FLC-4Nb",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.80-0.80-0.80",
+      "chassis_DHS",
+      "chassis_endo",
+      "mech_quirk_narrowlowprofile"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

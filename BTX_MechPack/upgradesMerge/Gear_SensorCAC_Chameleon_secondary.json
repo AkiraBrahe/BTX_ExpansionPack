@@ -1,0 +1,35 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 400000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Terran Hegemony",
+    "Model": "CLPS",
+    "UIName": "Chameleon LPS",
+    "Id": "Gear_SensorCAC_Chameleon_secondary",
+    "Name": "Chameleon Light Polarization Shield",
+    "Details": "The Chameleon Light Polarization Shield renders a BattleMech invisible to the naked eye and sensors that operate in the visible spectrum. It employs a primitive mimetic system that disrupts the BattleMech's outline, making it blend into the surrounding terrain. Developed alongside the Null Signature System by the Terran Hegemony, the Chameleon LPS was a closely guarded technology and never widely deployed.",
+    "Icon": "UixSvgIcon_specialEquip_Sensors"
+  },
+  "BonusValueA": "Fixed Slot",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -9,6 +9,7 @@ mechdef_stinger_STG-3Gb,99
 mechdef_thorn_THE-Nb,99
 mechdef_hussar_HSR-200-Db,50
 mechdef_mongoose_MON-66b,249
+mechdef_falcon_FLC-4Nb,14
 mechdef_nighthawk_NTK-2Q,99
 mechdef_talon_TLN-5V,249
 mechdef_hermes_HER-1Sb,20
@@ -21,6 +22,7 @@ mechdef_kintaro_KTO-19b,305
 mechdef_wolverine_WVR-7H,6
 mechdef_crab_CRB-27b,12
 mechdef_shadowhawk_SHD-2Hb,6
+mechdef_phoenixhawk_PXH-1c,4
 mechdef_phoenixhawk_PXH-1b,6
 mechdef_osprey_OSP-15,12
 mechdef_griffin_GRF-4N,305
@@ -28,6 +30,7 @@ Heavies,
 mechdef_lancelot_LNC25-05,8
 mechdef_helepolis_HEP-3H,37
 mechdef_guillotine_GLT-3N,36
+mechdef_exterminator_EXT-4C,5
 mechdef_lancelot_LNC25-01,76
 mechdef_warhammer_WHM-6Rb,76
 mechdef_ostroc_OSR-2Cb,36

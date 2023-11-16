@@ -1,0 +1,199 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 800000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Terran Hegemony",
+    "Model": "NullSig",
+    "UIName": "Null Signature System",
+    "Id": "Gear_SensorCAC_NullSig_main",
+    "Name": "Null Signature System",
+    "Details": "The Null Signature System cloaks a BattleMech's heat output and electronic emissions, rendering it virtually undetectable to all but visual sensors. Employing a combination of heat baffles and electronic countermeasures, the system effectively erases the 'Mech's presence from the battlefield. This advanced technology, developed by the Terran Hegemony alongside the Chameleon LPS, proved invaluable for covert operations and surprise attacks.",
+    "Icon": "UixSvgIcon_specialEquip_Sensors"
+  },
+  "BonusValueA": "+ 2 Defense, -50% Detectability",
+  "BonusValueB": "+ 10 Heat, + 1 Stealth",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Custom": {
+    "ActivatableComponent": {
+      "ButtonName": "Null Sig",
+      "CanActivateAfterMove": true,
+      "CanActivateAfterFire": false,
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": false,
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "NotSet",
+            "effectTargetType": "Creator",
+            "range": 0.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": false,
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_SensorCAC_NullSig_ToHit",
+            "Name": "Null Signature System",
+            "Details": "Units with an active Null Signature System gain +[AMT] Difficulty to attacks against them, immunity to Sensor Locks, halved detectability, but at the cost of 10 heat per round.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "ToHitThisActor",
+            "operation": "Float_Add",
+            "modValue": "2.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "NotSet",
+            "effectTargetType": "Creator",
+            "range": 0.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": false,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_SensorCAC_NullSig_SensorLock",
+            "Name": "sens",
+            "Details": "sens",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "SensorLockDefense",
+            "operation": "Float_Add",
+            "modValue": "1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "NotSet",
+            "effectTargetType": "Creator",
+            "range": 0.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": false,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_SensorCAC_NullSig_ESensorDecrease",
+            "Name": "sens",
+            "Details": "sens",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "SensorSignatureModifier",
+            "operation": "Float_Multiply",
+            "modValue": "-0.5",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "NotSet",
+            "effectTargetType": "Creator",
+            "range": 0.0,
+            "forcePathRebuild": false,
+            "forceVisRebuild": false,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_SensorCAC_NullSig_Heat",
+            "Name": "sens",
+            "Details": "sens",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "HeatSinkCapacity",
+            "operation": "Int_Add",
+            "modValue": "-10",
+            "modType": "System.Int32"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "specialRules": "NotSet",
+            "effectTargetType": "Creator",
+            "range": 0.0,
+            "forcePathRebuild": true,
+            "forceVisRebuild": true,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "Gear_SensorCAC_NullSig_Ghost",
+            "Name": "sens",
+            "Details": "sens",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "GhostEffectStacks",
+            "operation": "Int_Add",
+            "modValue": "1",
+            "modType": "System.Int32"
+          }
+        }
+      ]
+    }
+  },
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "BLACKLISTED",
+      "cae_ai_defence",
+      "cae_ai_heat"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

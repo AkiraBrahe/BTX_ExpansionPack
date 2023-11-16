@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_kanazuchi_KZ-1",
+    "Name": "MovementCapabilitiesDef for Kanazuchi",
+    "Details": "Power Pack - 2/4 movement",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 50.0,
+  "MaxSprintDistance": 100.0,
+  "WalkVelocity": 18.0,
+  "RunVelocity": 26.0,
+  "SprintVelocity": 30.0,
+  "LimpVelocity": 16.0,
+  "WalkAcceleration": 33.0,
+  "SprintAcceleration": 55.0,
+  "MaxRadialVelocity": 65.0,
+  "MaxRadialAcceleration": 80.0,
+  "MaxJumpVel": 150.0,
+  "MaxJumpAccel": 70.0,
+  "MaxJumpVerticalAccel": 90.0
+}

@@ -16,6 +16,7 @@ mechdef_ostscout_OTT-7J,9,,8,,8
 mechdef_hermes_HER-1A,5,,3,,3
 mechdef_falcon_FLC-4N,5,,3,,3
 mechdef_spider_SDR-5V,9,,14,,14
+mechdef_toro_TR-A-1,1,,1,,1
 mechdef_hermes_HER-1B,6,,10,,10
 mechdef_firestarter_FS9-H,168,,152,,152
 mechdef_valkyrie_VLK-QA,14,,14,,14
@@ -52,9 +53,10 @@ mechdef_hunchback_HBK-4P,7,,13,,13
 mechdef_crab_CRB-20,7,,6,,5
 mechdef_hunchback_HBK-4J,7,,13,,13
 mechdef_dervish_DV-6M,48,,43,,43
-mechdef_marshal_MHL-X1,0,,0,3059-01-01T00:00:00Z,3
+mechdef_marshal_MHL-X1,0,,0,3059-01-01T00:00:00Z,18
 mechdef_trebuchet_TBT-5N,48,,53,,54
 mechdef_griffin_GRF-1N,236,,197,,197
+mechdef_marshal_MHL-2L,0,,0,3063-01-01T00:00:00Z,4
 Heavies,,,,,
 mechdef_rifleman_RFL-3N,53,,91,,70
 mechdef_champion_CHP-2N,5,,3,,3

@@ -140,8 +140,10 @@ mechdef_naga-B,11,,11,,11,,11
 mechdef_behemoth_stone_rhino-5,1,,1,,1,,1
 mechdef_manowar_gargoyle-H,0,,0,,0,3058-01-01T00:00:00Z,2
 mechdef_manowar_gargoyle-E,0,,0,,0,3059-01-01T00:00:00Z,2
+mechdef_star_adder_blood_asp-C,0,,0,,0,3060-01-01T00:00:00Z,2
 mechdef_masakari_warhawk-B,18,,18,,18,,18
 mechdef_warhammer_IIC-3,0,,0,,0,3059-01-01T00:00:00Z,3
+mechdef_star_adder_blood_asp-D,0,,0,,0,3060-01-01T00:00:00Z,3
 mechdef_masakari_warhawk-A,18,,18,,18,,18
 mechdef_manowar_gargoyle-C,142,,142,,142,,142
 mechdef_masakari_warhawk-D,0,,0,3054-01-01T00:00:00Z,3,,5
@@ -154,6 +156,7 @@ mechdef_marauder_IIC-9,7,,11,,7,,7
 mechdef_masakari_warhawk-H,0,,0,,0,3058-01-01T00:00:00Z,2
 mechdef_daishi_dire_wolf-B,18,,18,,18,,18
 mechdef_daishi_dire_wolf-X,0,,0,,0,3059-01-01T00:00:00Z,2
+mechdef_star_adder_blood_asp-PRIME,0,,0,,0,3060-01-01T00:00:00Z,4
 mechdef_marauder_IIC,31,,71,,31,,31
 mechdef_manowar_gargoyle-A,36,,36,,36,,36
 mechdef_gladiator_executioner-D,18,,18,,18,,18
@@ -162,6 +165,7 @@ mechdef_annihilator_C-2,0,Jump:3051-01-01T00:00:00Z,7,,5,,6
 mechdef_gladiator_executioner-PRIME,71,,71,,71,,71
 mechdef_supernova-1,7,,11,,7,,7
 mechdef_daishi_dire_wolf-A,53,,53,,53,,53
+mechdef_star_adder_blood_asp-B,0,,0,,0,3060-01-01T00:00:00Z,4
 mechdef_behemoth_stone_rhino-7,2,,2,,2,,2
 mechdef_gladiator_executioner-B,36,,36,,36,,36
 mechdef_highlander_IIC,11,,28,,11,,11
@@ -175,4 +179,5 @@ mechdef_gladiator_executioner-H,0,,0,,0,3058-01-01T00:00:00Z,2
 mechdef_gladiator_executioner-A,18,,18,,18,,18
 mechdef_mad_cat_mkii,0,,0,,0,3062-01-01T00:00:00Z,8
 mechdef_masakari_warhawk-PRIME,28,,28,,28,,28
+mechdef_star_adder_blood_asp-A,0,,0,,0,3060-01-01T00:00:00Z,5
 mechdef_daishi_dire_wolf-C,0,,0,3054-01-01T00:00:00Z,3,,5

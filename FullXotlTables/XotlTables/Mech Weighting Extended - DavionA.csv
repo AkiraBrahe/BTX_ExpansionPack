@@ -31,6 +31,7 @@ mechdef_hermes_HER-1A,7,,6,,6,,6,,5
 mechdef_falcon_FLC-4N,4,,4,,3,,6,,6
 mechdef_raptor_RTX-OB,0,,0,,0,3052-01-01T00:00:00Z,6,,9
 mechdef_spider_SDR-5V,27,,25,,23,,23,,21
+mechdef_superwasp_WSP-2A-X,1,Jump:3028-04-01T00:00:00Z,0,,0,,0,,0
 mechdef_raven_RVN-1X,0,3028-09-01T00:00:00Z,10,,9,,0,,0
 mechdef_dart_DRT-6S,0,,0,,0,3051-01-01T00:00:00Z,17,,21
 mechdef_javelin_JVN-10A,11,,10,,9,,0,,0
@@ -185,6 +186,7 @@ mechdef_thunderbolt_TDR-5D,30,,28,,27,,0,,0
 mechdef_ostroc_OSR-2L,4,,4,,4,,0,,0
 mechdef_quickdraw_QKD-4H,4,,4,,4,,0,,0
 mechdef_ostsol_OTL-4F,4,,4,,4,,0,,0
+mechdef_supergriffin_GRF-2N-X,1,Jump:3028-04-01T00:00:00Z,0,,0,,0,,0
 mechdef_ostsol_OTL-4D,68,,65,,61,,31,,4
 mechdef_ostroc_OSR-3C,4,,4,,4,,0,,0
 mechdef_orion_ON1-V,4,,4,,4,,0,,0
