@@ -8,7 +8,7 @@
     "UIName": "Avatar",
     "Id": "chassisdef_avatar_AV1-OR",
     "Name": "Avatar",
-    "Details": "<color=#F79B26>The Avatar is based on captured Vulture OmniMechs and was the first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production.</color>\n\nThis configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. Mounting a mix of Combine and Clan-tech, it carries an MRM-40 supported by a Clan Gauss Rifle, an ER Large Laser, and a Streak SRM-4.",
+    "Details": "<color=#F79B26>The Avatar was the first Inner Sphere OmniMech to be conceptualized, but it was also one of the last to reach production. It is based on captured Vulture OmniMechs.</color>\n\nThis configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. Mounting a mix of Combine and Clan-tech, it carries an MRM-40 supported by a Clan Gauss Rifle, an ER Large Laser, and a Streak SRM-4.",
     "Icon": "uixTxrIcon_avatar"
   },
   "MovementCapDefID": "movedef_avatar_AV1-OR",

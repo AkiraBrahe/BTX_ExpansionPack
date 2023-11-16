@@ -8,7 +8,7 @@
     "UIName": "Centurion",
     "Id": "chassisdef_centurion_CN9-YLW",
     "Name": "Centurion",
-    "Details": "<color=#F79B26>The Yen-Lo-Wang, named after the Chinese god of death, is a well-known ArenaMech that has been modified and customized into a variety of different configurations over the years.</color>\n\nThe first configuration of the Yen-Lo-Wang is a Centurion CN9-A that has been modified to be more potent at close range. The Yen-Lo-Wang drops the LRM to upgrade the autocannon to an AC/20 with three tons of ammunition while keeping the two Medium Lasers in the center torso. Its most distinguishing feature was the titanium nails fixed to its left arm, which were eventually replaced by a proper Hatchet.",
+    "Details": "<color=#F79B26>The Yen-Lo-Wang, named after the Chinese god of death, is a well-known ArenaMech that has been modified and customized into many different configurations over the years.</color>\n\nThe first configuration of the Yen-Lo-Wang is a Centurion CN9-A that has been modified to be more potent at close range. The Yen-Lo-Wang drops the LRM to upgrade the autocannon to an AC/20 with three tons of ammunition while keeping the two Medium Lasers in the center torso. Its most distinguishing feature was the titanium nails fixed to its left arm, which were eventually replaced by a proper Hatchet.",
     "Icon": "uixTxrIcon_yenlowang"
   },
   "MovementCapDefID": "movedef_centurion_CN9-YLW",

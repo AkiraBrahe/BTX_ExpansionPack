@@ -1,4 +1,6 @@
 {
+  "Stability": 250,
+  "DFASelfDamage": 48,
   "ChassisTags": {
     "items": [
       "chassis_DHS",

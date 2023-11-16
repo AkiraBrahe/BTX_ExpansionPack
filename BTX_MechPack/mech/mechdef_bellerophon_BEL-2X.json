@@ -25,7 +25,7 @@
     "UIName": "Bellerophon BEL-2X",
     "Id": "mechdef_bellerophon_BEL-2X",
     "Name": "Bellerophon",
-    "Details": "<color=#F79B26>The Bellerophon is a failed prototype that was envisioned to complement the Mackie with its higher speed but lacked stability due to its weapon arrangement.</color>\n\nThe BEL-2X attempts to correct the original version by adding endo steel to the chassis along with higher-quality armor and an anti-missile system to keep the 'Mech from becoming too unstable from incoming missile fire. The two Large Lasers are replaced by a pair of Binary Laser Cannons cooled by fifteen double heat sinks. Overall, this improves the Bellerophon's endurance and offensive capabilities, but it does nothing to address its lack of balance.",
+    "Details": "<color=#F79B26>The Bellerophon was a failed prototype intended to complement the Mackie with its higher speed, but its weapon arrangement made it unstable.</color>\n\nThe BEL-2X attempts to correct the original version by adding endo steel to the chassis along with higher-quality armor and an anti-missile system to keep the 'Mech from becoming too unstable from incoming missile fire. The two Large Lasers are replaced by a pair of Binary Laser Cannons cooled by fifteen double heat sinks. Overall, this improves the Bellerophon's endurance and offensive capabilities, but it does nothing to address its lack of balance.",
     "Icon": "uixTxrIcon_bellerophon"
   },
   "simGameMechPartCost": 530000,

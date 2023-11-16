@@ -1,7 +1,7 @@
 {
     "Name": "BTX_MechPack",
     "Enabled": true,
-    "Version": "0.6b",
+    "Version": "0.7",
 
     "Description": "Add new 'Mech variants and any new equipment they come with. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.",
     "Author": "Kierk",
@@ -24,7 +24,7 @@
         { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
         { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
-        { "Type": "HeatSinkDef", "Path": "heatsinksMerge", "ShouldMergeJSON": false },
+        { "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true, "ShouldMergeJSON": false },
         { "Type": "SVGAsset", "Path": "icons" },
         { "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
         { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
@@ -40,6 +40,7 @@
         { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
         { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
+        { "Type": "WeaponDef", "Path": "weaponMerge", "ShouldMergeJSON": true },
         { "Type": "WeaponAddonDef", "Path": "weaponAddons" },
       { "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
       { "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" }

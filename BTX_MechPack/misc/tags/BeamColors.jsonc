@@ -1,0 +1,33 @@
+{
+  "ColorsTable": [
+    /* Sorted by wavelength */
+    {
+      "C": "#FF5349", /* Heavy Small Laser: Orange-Red */
+      "I": 5
+    },
+    {
+      "C": "#FF9525", /* Heavy Medium Laser: Orange */
+      "I": 5
+    },
+    {
+      "C": "#FFD700", /* Heavy Large Laser: Gold */
+      "I": 5
+    },
+    {
+      "C": "#66CDAA", /* Snub-Nose PPC: Medium Aquamarine  */
+      "I": 5
+    },
+    {
+      "C": "#87CEEB", /* PPC / Large Laser / Bombast Laser (Minimal Power): Sky Blue */
+      "I": 5
+    },
+    {
+      "C": "#6A5ACD", /* Bombast Laser (Full Power): Slate Blue */
+      "I": 5
+    },
+    {
+      "C": "#FF69B4", /* Plasma Rifle: Hot Pink */
+      "I": 5
+    }
+  ]
+}

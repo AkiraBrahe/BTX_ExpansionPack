@@ -6,9 +6,9 @@
       "unit_role_sniper",
       "unit_lance_vanguard",
       "unit_range_medium",
+      "unit_indirectFire",
       "unit_speed_low",
       "unit_hot",
-      "unit_indirectFire",
       "unit_release",
       "unit_dlc"
     ],

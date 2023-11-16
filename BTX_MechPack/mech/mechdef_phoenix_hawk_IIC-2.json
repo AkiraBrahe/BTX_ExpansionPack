@@ -6,10 +6,11 @@
       "unit_role_sniper",
       "unit_lance_support",
       "unit_range_long",
-      "unit_speed_high",
-      "unit_hot",
       "unit_indirectFire",
+      "unit_armor_medium",
+      "unit_speed_high",
       "unit_jumpOK",
+      "unit_hot",
       "unit_release",
       "unit_clan"
     ],

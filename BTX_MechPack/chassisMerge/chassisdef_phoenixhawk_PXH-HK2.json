@@ -5,9 +5,9 @@
   "CustomParts": {
     "AlternateRepresentations": [
       {
-        "HardpointDataDef": "hardpointdatadef_phawklegacylam",
-        "PrefabIdentifier": "chrprfmech_phawklegacylambase-001",
-        "PrefabBase": "phawklegacylam",
+        "HardpointDataDef": "hardpointdatadef_phawklammech",
+        "PrefabIdentifier": "chrprfmech_phawklammechbase-001",
+        "PrefabBase": "phawklammech",
         "AdditionalPrefabs": [],
         "Type": "AirMech",
         "additionalEncounterTags": [
@@ -16,20 +16,6 @@
         "FlyHeight": 15.0,
         "NoJumpjetsBlock": true,
         "AirMechVerticalJets": [
-          {
-            "Prefab": "vf11lam_vjets_left_leg",
-            "Attach": "j_LHeel",
-            "JetsAttachPoints": [
-              "jetAttachPoint"
-            ]
-          },
-          {
-            "Prefab": "vf11lam_vjets_right_leg",
-            "Attach": "j_RHeel",
-            "JetsAttachPoints": [
-              "jetAttachPoint"
-            ]
-          },
           {
             "Prefab": "vf11lam_vjets_torso",
             "Attach": "j_Spine2",

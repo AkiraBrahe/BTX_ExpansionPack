@@ -9,9 +9,10 @@
       "unit_range_short",
       "unit_armor_high",
       "unit_speed_high",
-      "unit_hot",
       "unit_jumpOK",
+      "unit_hot",
       "unit_release",
+      "unit_dlc",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Assassin ASN-SRV",
     "Id": "mechdef_assassin_ASN-99_Servitor",
     "Name": "Servitor",
-    "Details": "<color=#F79B26>The Assassin is more of a political shambles than a powerful fighting machine, but it proves to be a formidable asset when facing light lances.</color>\n\nThe Servitor is a custom variant of the ASN-99 Assassin. The stealth armor and Guardian ECM suite are removed, and the head-mounted TAG is swapped for a Small Laser. Each arm has new weapons, with the left holding a small vibroblade and right mounting a Medium X-Pulse Laser, while the legs each carries a small X-Pulse Laser. The two SRM-2s of the ASN-99 are retained.",
+    "Details": "<color=#F79B26>The Assassin is seen as a political blunder rather than a powerful fighting machine, but it proved to be a strong 'Mech in combat against light lances.</color>\n\nThe Servitor is a custom variant of the ASN-99 Assassin. The stealth armor and Guardian ECM suite are removed, and the head-mounted TAG is swapped for a Small Laser. Each arm has new weapons, with the left holding a small vibroblade and right mounting a Medium X-Pulse Laser, while the legs each carries a small X-Pulse Laser. The two SRM-2s of the ASN-99 are retained.",
     "Icon": "uixTxrIcon_assassin"
   },
   "simGameMechPartCost": 740000,

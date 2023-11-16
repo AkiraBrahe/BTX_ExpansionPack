@@ -6,10 +6,11 @@
       "unit_role_brawler",
       "unit_lance_vanguard",
       "unit_range_short",
+      "unit_armor_medium",
       "unit_speed_high",
+      "unit_jumpOK",
       "unit_electronicWarfare",
       "unit_hot",
-      "unit_jumpOK",
       "unit_release",
       "unit_LosTech"
     ],

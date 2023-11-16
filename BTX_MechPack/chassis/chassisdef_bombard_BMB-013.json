@@ -8,7 +8,7 @@
     "UIName": "Bombard",
     "Id": "chassisdef_bombard_BMB-013",
     "Name": "Bombard",
-    "Details": "<color=#F79B26>The Bombard is little more than a walking turret that packs a heavyweight punch for its 50 tons of weight, relying on overwhelming its targets before its pathetic mobility can be exploited.</color>\n\nThe BMB-013 model is armed with two Solaris Arms XT-15 Thunderbolt 15s, each feeded by three tons of CASE-protected ammo. This is enough for a total of 24 shots, providing the Bombard with adequate endurance in the field. A pair of Diverse Optics ER medium lasers have been added to support the Thunderbolt launchers.",
+    "Details": "<color=#F79B26>The Bombard is a slow but heavily armed BattleMech that relies on overwhelming its targets with its firepower before its slow speed can be exploited.</color>\n\nThe BMB-013 model is armed with two Solaris Arms XT-15 Thunderbolt 15s, each feeded by three tons of CASE-protected ammo. This is enough for a total of 24 shots, providing the Bombard with adequate endurance in the field. A pair of Diverse Optics ER medium lasers have been added to support the Thunderbolt launchers.",
     "Icon": "uixTxrIcon_bombard"
   },
   "MovementCapDefID": "movedef_bombard_BMB-013",

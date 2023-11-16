@@ -43,7 +43,7 @@
   "MeleeToHitModifier": 0,
   "DFADamage": 115,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 115,
+  "DFASelfDamage": 58,
   "DFAInstability": 115,
   "Locations": [
     {

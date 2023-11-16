@@ -24,7 +24,7 @@
     "UIName": "Centurion CN9-YLW2",
     "Id": "mechdef_centurion_CN9-YLW2",
     "Name": "Yen-Lo-Wang",
-    "Details": "<color=#F79B26>The Yen-Lo-Wang, named after the Chinese god of death, is a well-known ArenaMech that has been modified and customized into a variety of different configurations over the years.</color>\n\nAn upgrade over the original Yen-Lo-Wang, the CN9-YLW2 is based on the same configuration but with more modern equipment. The engine is changed to an extra-light version, saving enough weight to upgrade the AC/20 to a Gauss Rifle with two tons of ammunition and install three Medium Pulse Lasers in place of the two standard ones. In addition, the Hatchet is now paired with Triple-Strength Myomer, making the 'Mech even more deadly in melee.",
+    "Details": "<color=#F79B26>The Yen-Lo-Wang, named after the Chinese god of death, is a well-known ArenaMech that has been modified and customized into many different configurations over the years.</color>\n\nAn upgrade over the original Yen-Lo-Wang, the CN9-YLW2 is based on the same configuration but with more modern equipment. The engine is changed to an extra-light version, saving enough weight to upgrade the AC/20 to a Gauss Rifle with two tons of ammunition and install three Medium Pulse Lasers in place of the two standard ones. In addition, the Hatchet is now paired with Triple-Strength Myomer, making the 'Mech even more deadly in melee.",
     "Icon": "uixTxrIcon_yenlowang"
   },
   "simGameMechPartCost": 770000,

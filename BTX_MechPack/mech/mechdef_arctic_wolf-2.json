@@ -7,6 +7,7 @@
       "unit_role_flanker",
       "unit_lance_support",
       "unit_range_medium",
+      "unit_armor_medium",
       "unit_speed_high",
       "unit_hot",
       "unit_release",
@@ -25,7 +26,7 @@
     "UIName": "Arctic Wolf 2",
     "Id": "mechdef_arctic_wolf-2",
     "Name": "Arctic Wolf",
-    "Details": "<color=#F79B26>The Arctic Wolf, originally conceived as a testbed for a future OmniMech, is designed to close quickly and unleash over 40 short-range missiles at an opponent before withdrawing just as quickly.</color>\n\nThis second variant replaces the SRM-4s and two SRM-6s with an Large Pulse Laser. This gives the 'Mech some long-range capability and provides it with a punch weapon, as well as increased accuracy and a reduction on ammunition dependency.",
+    "Details": "<color=#F79B26>The Arctic Wolf was originally designed as a testbed for a future OmniMech. It is a fast and agile 'Mech that can quickly close in on an enemy and unleash a barrage of over 40 short-range missiles before withdrawing just as quickly.</color>\n\nThis second variant replaces the SRM-4s and two SRM-6s with an Large Pulse Laser. This gives the 'Mech some long-range capability and provides it with a punch weapon, as well as increased accuracy and a reduction on ammunition dependency.",
     "Icon": "uixTxrIcon_arcticwolf"
   },
   "simGameMechPartCost": 760000,

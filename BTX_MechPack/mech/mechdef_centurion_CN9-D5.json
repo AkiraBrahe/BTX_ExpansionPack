@@ -25,7 +25,7 @@
     "UIName": "Centurion CN9-D5",
     "Id": "mechdef_centurion_CN9-D5",
     "Name": "Centurion",
-    "Details": "<color=#F79B26>The Centurion is designed with a heavy and varied arsenal that allows it to strike at enemy units at a variety of ranges and made tough enough to survive considerable punishment.</color>\n\nThis Centurion variant uses the same engine and chassis as the CN9-D, but with a completely different loadout. The 'Mech's primary weapon is a Rotary Autocannon/5, backed up by two ER Medium Lasers. The BattleMech uses a MASC, an Advanced Targeting Computer, and carries a C3 Slave unit to share targeting data with its lancemates to direct this firepower.",
+    "Details": "<color=#F79B26>The Centurion is a versatile BattleMech with a heavy arsenal that allows it to strike at enemy units at a variety of ranges and survive considerable punishment.</color>\n\nThis Centurion variant uses the same engine and chassis as the CN9-D, but with a completely different loadout. The 'Mech's primary weapon is a Rotary Autocannon/5, backed up by two ER Medium Lasers. The BattleMech uses a MASC, an Advanced Targeting Computer, and carries a C3 Slave unit to share targeting data with its lancemates to direct this firepower.",
     "Icon": "uixTxrIcon_centurion"
   },
   "simGameMechPartCost": 1100000,

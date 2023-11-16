@@ -25,7 +25,7 @@
     "UIName": "Battle Hawk BH-K305",
     "Id": "mechdef_battlehawk_BH-K305",
     "Name": "Battle Hawk",
-    "Details": "<color=#F79B26>The Battle Hawk is a light 'Mech that, while slow for its weight class, is a force to be reckoned with on the modern battlefield due to its powerful arsenal.</color>\n\nThe BH-K305 comes with three Medium Pulse Lasers, giving the Battle Hawk a blistering short-range laser arsenal. The 'Mech is also armed with an SRM-2, which allows it to seek out weak points in an enemy's armor, and an Anti-Missile System, which provides the Battle Hawk with a degree of protection from missile attacks.",
+    "Details": "<color=#F79B26>The Battle Hawk is a light 'Mech that, while slow for its size, is a force to be reckoned with on the modern battlefield due to its powerful arsenal.</color>\n\nThe BH-K305 comes with three Medium Pulse Lasers, giving the Battle Hawk a blistering short-range laser arsenal. The 'Mech is also armed with an SRM-2, which allows it to seek out weak points in an enemy's armor, and an Anti-Missile System, which provides the Battle Hawk with a degree of protection from missile attacks.",
     "Icon": "uixTxrIcon_battlehawk"
   },
   "simGameMechPartCost": 380000,

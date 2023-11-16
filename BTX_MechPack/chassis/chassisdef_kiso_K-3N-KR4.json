@@ -37,7 +37,7 @@
   "SensorRangeMultiplier": 1,
   "Signature": 0,
   "Radius": 8,
-  "PunchesWithLeftArm": true,
+  "PunchesWithLeftArm": false,
   "MeleeDamage": 90,
   "MeleeInstability": 100,
   "MeleeToHitModifier": 0,

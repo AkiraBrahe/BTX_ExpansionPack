@@ -7,10 +7,10 @@
       "unit_role_flanker",
       "unit_lance_support",
       "unit_range_long",
+      "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_high",
       "unit_electronicWarfare",
-      "unit_indirectFire",
       "unit_release",
       "unit_LosTech"
     ],
@@ -27,7 +27,7 @@
     "UIName": "Anubis ABS-3R",
     "Id": "mechdef_anubis_ABS-3R",
     "Name": "Anubis",
-    "Details": "<color=#F79B26>The Anubis was originally intended to complement the Federated Suns' Osiris BattleMech, but the design was rejected and is now used by the Capellan Confederation to test advanced stealth technologies.</color>\n\nA variant of the Anubis meant to increase its short term and short range firepower, the 3R removes two of the LRM-5 launchers and replaces them with a Rocket Launcher 10 and two Rocket Launcher 15s.",
+    "Details": "<color=#F79B26>The Anubis was originally intended to complement the Federated Suns' Osiris BattleMech, but the design was rejected. The Capellan Confederation now uses it to test advanced stealth technologies.</color>\n\nA variant of the Anubis meant to increase its short term and short range firepower, the 3R removes two of the LRM-5 launchers and replaces them with a Rocket Launcher 10 and two Rocket Launcher 15s.",
     "Icon": "uixTxrIcon_anubis"
   },
   "simGameMechPartCost": 530000,

@@ -7,9 +7,10 @@
       "unit_role_flanker",
       "unit_lance_assassin",
       "unit_range_short",
+      "unit_armor_medium",
       "unit_speed_high",
-      "unit_hot",
       "unit_jumpOK",
+      "unit_hot",
       "unit_release",
       "unit_LosTech"
     ],

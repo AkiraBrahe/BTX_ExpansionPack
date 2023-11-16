@@ -6,8 +6,10 @@
       "unit_role_sniper",
       "unit_lance_support",
       "unit_range_long",
-      "unit_hot",
       "unit_indirectFire",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_hot",
       "unit_release"
     ],
     "tagSetSourceFile": ""
