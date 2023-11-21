@@ -8,8 +8,8 @@ A BattleTech Extended mod that adds over 190 new 'Mech variants and over 20 new 
 
 - Install the latest versions of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C
 - Update the CAB, as the mod uses the most recent models
-- Extract BTX_MechPack archive to the mods folder, overwriting when prompted
-- (Optional) Enable DHS Changes, which gives all DHS in the engine 6 heatsinking, by setting "Enabled" to true in the mod.json file of the mod.
+- Extract the contents of the BTX_MechPack archive to the mods folder, overwriting when prompted.
+- (Optional) Enable DHS Changes, which gives all DHS in the engine 6 heatsinking instead of 4, by setting "Enabled" to true in the mod.json file of the mod.
 - (Optional) Enable Shell Shuffler, which makes the AI use different ammo types at random, by removing the date part from one the two mod.json files of the mod.
 
 New 'Mechs are fielded by the factions that should have them according to the lore. Hero 'Mechs are available in the Heavy Metal crate. Alternatively, you can add the new 'Mechs to your game using Fell Off A Cargo Ship or a save editor.
