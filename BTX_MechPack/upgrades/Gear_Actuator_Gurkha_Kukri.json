@@ -1,0 +1,105 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 200000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Krupp Armament Works",
+    "Model": "Melee Weapon",
+    "UIName": "Kukri",
+    "Id": "Gear_Actuator_Gurkha_Kukri",
+    "Name": "Kukri",
+    "Details": "The Kukri is a short sword with a distinctive forward-curved blade, inspired by the traditional kukri of the Gurkhas, from whom the Gurkha BattleMech takes its name. Exclusively designed for this 'Mech, the Kukri embodies the Gurkhas' legendary military prowess. Its exceptional maneuverability makes it a formidable weapon for close-quarters combat. This sword is affixed permanently to the 'Mech's right arm. It may be damaged and disabled, but it can always be repaired.",
+    "Icon": "bat-leth"
+  },
+  "BonusValueA": "+ 30 Melee Dmg.",
+  "BonusValueB": "+ 2 Melee Acc.",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "sword",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 2,
+  "AllowedLocations": "Arms",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Attack_DamageMelee-T6",
+        "Name": "MELEE DAMAGE INCREASED",
+        "Details": "Melee attacks deal [AMT] more damage.",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "DamagePerShot",
+        "operation": "Float_Add",
+        "modValue": "30.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "Melee"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Attack_AccuracyMelee-T6",
+        "Name": "MELEE ACCURACY INCREASED",
+        "Details": "Melee attacks are [AMT] more accurate.",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-2.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "Melee"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -5,11 +5,11 @@
     "chassisNames": [
       "chrprfmech_crosscutbase-001_30",
       "chrprfmech_digkingbase-001_35",
-      "chrprfmech_fireballbase-001_20",
       "chrprfmech_falconbase-001_30",
+      "chrprfmech_fireballbase-001_20",
       "chrprfmech_firebeebase-001_35",
       "chrPrfMech_firestarterBase-001_35",
-      "chrprfmech_mantisbase-001",
+      "chrprfmech_mantisbase-001_30",
       "Trooper"
     ],
     "idType": "AssemblyVariant",

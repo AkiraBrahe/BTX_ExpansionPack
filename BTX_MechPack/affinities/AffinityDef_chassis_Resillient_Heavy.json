@@ -3,13 +3,13 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_visionquestbase-001_60",
       "chrprfmech_avatarbase-001_70",
       "chrPrfMech_cataphractBase-001_70",
       "chrprfmech_madcatbase-001_75",
+      "chrprfmech_rakshasabase-001_75",
       "chrprfmech_sidewinderbase-001_75",
       "chrprfmech_sunspiderbase-001_70",
-      "chrprfmech_rakshasabase-001_75"
+      "chrprfmech_visionquestbase-001_60"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

@@ -71,6 +71,7 @@ mechdef_javelin_JVN-11A,0,,0,,0,3053-01-01T00:00:00Z,17,,21
 mechdef_osiris_OSR-3D,0,,0,,0,,0,3063-01-01T00:00:00Z,22
 mechdef_garm_GRM-01C,0,,0,,0,,0,3062-01-01T00:00:00Z,8
 mechdef_spector_SPR-5F,0,,0,,0,3053-01-01T00:00:00Z,17,,21
+mechdef_owens_OW-1R,0,,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_rattlesnake_JR7-31P,0,,0,3043-01-01T00:00:00Z,3,,10,,22
 mechdef_raptor_RTX1-OR,0,,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_rattlesnake_JR7-31,0,,0,3042-01-01T00:00:00Z,18,,60,,48
@@ -280,7 +281,7 @@ mechdef_cyclops_CP-10-Q,13,,13,,11,,7,,3
 mechdef_battlemaster_BLR-1Gd,1,,1,,12,,23,,26
 mechdef_mauler_MAL-2R,0,,0,,0,,0,3060-01-01T00:00:00Z,2
 mechdef_awesome_AWS-8T,7,,7,,6,,7,,3
-mechdef_sunder_SD1-OB,0,,0,,0,,0,3058-01-01T00:00:00Z,8
+mechdef_sunder_SD1-OB,0,,0,,0,3056-01-01T00:00:00Z,3,,9
 mechdef_awesome_AWS-8Q,71,,70,,100,,71,,45
 mechdef_longbow_LGB-7Q,71,,49,,44,,49,,45
 mechdef_stalker_STK-3H,11,,11,,6,,13,,3

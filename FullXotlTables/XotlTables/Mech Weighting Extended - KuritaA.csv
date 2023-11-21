@@ -60,7 +60,8 @@ mechdef_jenner_JR7-F,10,,4,,4,,3
 mechdef_raptor_RTX-OF,0,,0,,0,3060-01-01T00:00:00Z,19
 mechdef_falconhawk_FNHK-9K1A,0,,0,,0,3057-01-01T00:00:00Z,4
 mechdef_stinger_STG-A5,6,,6,,6,,5
-mechdef_raptor_RTX1-OR,0,,0,,0,3059-01-01T00:00:00Z,8
+mechdef_owens_OW-1R,0,,0,,0,3059-01-01T00:00:00Z,4
+mechdef_raptor_RTX1-OR,0,,0,,0,3059-01-01T00:00:00Z,4
 mechdef_hermes_HER-4K,0,,0,,0,3058-01-01T00:00:00Z,21
 Mediums,,,,,,,
 mechdef_vulcan_VL-2T,0,,32,,9,,0
@@ -142,7 +143,7 @@ mechdef_griffin_GRF-3M,0,,0,3049-01-01T00:00:00Z,22,,26
 mechdef_komodo_KIM-2,0,,0,3053-01-01T00:00:00Z,32,,38
 mechdef_kintaro_KTO-K,0,,0,,0,3058-01-01T00:00:00Z,3
 mechdef_lynx_LNX-9C,0,,0,,0,3057-01-01T00:00:00Z,12
-mechdef_firestarter_FS9-OR,0,,0,,0,3059-01-01T00:00:00Z,4
+mechdef_firestarter_FS9-OR,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_blackjack_BJ2-OR,0,,0,,0,3059-01-01T00:00:00Z,2
 Heavies,,,,,,,
 mechdef_jagermech_JM6-DD,0,,0,3043-01-01T00:00:00Z,19,,20
@@ -234,7 +235,7 @@ mechdef_gallowglas_GAL-2GLS,0,,0,3055-01-01T00:00:00Z,5,,6
 mechdef_dragonfire_DGR-4F,0,,0,,0,3060-01-01T00:00:00Z,4
 mechdef_blackhawk-ku_BHKU-OX,0,,0,,0,3058-01-01T00:00:00Z,21
 mechdef_warhammer_C-2,0,,0,3055-01-01T00:00:00Z,7,,2
-mechdef_blackhawk-ku_BHKU-OR,0,,0,,0,3059-01-01T00:00:00Z,6
+mechdef_blackhawk-ku_BHKU-OR,0,,0,,0,3059-01-01T00:00:00Z,4
 Assaults,,,,,,,
 mechdef_cyclops_CP-10-HQ,18,,15,,18,,19
 mechdef_daboku_DCMS-MX90-D,0,3038-01-01T00:00:00Z,87,,0,,0
@@ -303,4 +304,4 @@ mechdef_akuma_AKU-1XJ,0,,0,,0,3064-01-01T00:00:00Z,14
 mechdef_highlander_HGN-732,0,Jump:3039-01-01T00:00:00Z,27,,6,,3
 mechdef_gunslinger_GUN-1ERD,0,,0,3053-01-01T00:00:00Z,36,,44
 mechdef_gunslinger_GUN-2ERD,0,,0,,0,3062-01-01T00:00:00Z,9
-mechdef_sunder_SD1-OR,0,,0,,0,3059-01-01T00:00:00Z,6
+mechdef_sunder_SD1-OR,0,,0,,0,3059-01-01T00:00:00Z,4

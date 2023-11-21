@@ -33,6 +33,7 @@ mechdef_firefly_FFL-3A,85,,85,,47,,51
 mechdef_firefly_FFL-4C,0,3048-01-01T00:00:00Z,9,,9,,18
 mechdef_hammer_HMR-3P,0,,0,,0,3060-11-01T00:00:00Z,9
 mechdef_mongoose_MON-66GX,0,,0,,0,3058-03-07T00:00:00Z,1
+mechdef_gurkha_GUR-4G,0,,0,,0,3065-01-01T00:00:00Z,15
 mechdef_jackal_JA-KL-1532,0,,0,3052-01-01T00:00:00Z,15,,18
 mechdef_hammer_HMR-3C,0,,0,3056-01-01T00:00:00Z,14,,18
 mechdef_hussar_HSR-500-D,0,,0,,0,3060-11-01T00:00:00Z,9
@@ -41,6 +42,7 @@ mechdef_hermes_HER-4S,0,,0,3056-11-01T00:00:00Z,9,,24
 mechdef_falconhawk_FNHK-9K,0,,0,,0,3057-11-01T00:00:00Z,18
 mechdef_falconhawk_FNHK-9K1A,0,,0,,0,3057-11-01T00:00:00Z,18
 mechdef_talon_TLN-5V,214,,200,,111,,121
+mechdef_gurkha_GUR-2G,0,,0,,0,3063-01-01T00:00:00Z,59
 mechdef_spector_SPR-4F,0,,0,3052-01-01T00:00:00Z,6,,4
 mechdef_hermes_HER-4M,0,,0,,0,3060-11-01T00:00:00Z,9
 Mediums,,,,,,,

@@ -70,6 +70,7 @@ mechdef_hunchback_HBK-4P,5,,4,,5,,4,,3
 mechdef_crab_CRB-20,8,,8,,8,,8,,5
 mechdef_hunchback_HBK-4J,5,,4,,5,,4,,0
 mechdef_dervish_DV-6M,23,,22,,23,,21,,12
+mechdef_marshal_MHL-X1,0,,0,,0,3059-01-01T00:00:00Z,14
 mechdef_trebuchet_TBT-5N,50,,46,,40,,30,,15
 mechdef_blackjack_BJ2-O,0,,0,,0,,0,3057-01-01T00:00:00Z,38
 mechdef_chameleon_CLN-7W,0,,0,,0,,0,3058-01-01T00:00:00Z,6
@@ -77,6 +78,7 @@ mechdef_blackjack_BJ2-OE,0,,0,,0,,0,3059-01-01T00:00:00Z,6
 mechdef_griffin_GRF-1N,144,,144,,148,,21,,0
 mechdef_wraith_TR1,0,,0,,0,3055-01-01T00:00:00Z,21,,27
 mechdef_phoenixhawk_PXH-3M,0,,0,,0,3050-01-01T00:00:00Z,30,,34
+mechdef_marshal_MHL-2L,0,,0,,0,,0,3063-01-01T00:00:00Z,6
 mechdef_cronus_CNS-3M,0,3031-01-01T00:00:00Z,10,,16,,12,,8
 mechdef_trebuchet_TBT-7M,0,,0,,0,3050-01-01T00:00:00Z,43,,34
 mechdef_shayu_SYU-2B,0,,0,,0,,0,3063-01-01T00:00:00Z,28

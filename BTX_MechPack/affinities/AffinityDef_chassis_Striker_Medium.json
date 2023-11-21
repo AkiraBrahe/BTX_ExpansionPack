@@ -4,10 +4,10 @@
   "affinityData": {
     "chassisNames": [
       "chrprfmech_arcticwolfbase-001_40",
-      "chrprfmech_komodobase-001_45",
       "chrprfmech_hellfirebase-001_40",
+      "chrPrfMech_hellhoundBase-001_50",
       "chrprfmech_hermesbase-001_40",
-      "chrPrfMech_hellhoundBase-001_50"
+      "chrprfmech_komodobase-001_45"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

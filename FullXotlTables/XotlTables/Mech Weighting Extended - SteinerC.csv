@@ -52,6 +52,7 @@ mechdef_shadowhawk_SHD-2H,72,,72,,72,,65
 mechdef_hunchback_HBK-4H,4,,4,,4,,4
 mechdef_hunchback_HBK-4N,4,,4,,4,,4
 mechdef_wolverine_WVR-6R,72,,72,,72,,72
+mechdef_mantis_MTS-S,0,,0,,0,3061-01-01T00:00:00Z,4
 mechdef_hunchback_HBK-4P,4,,4,,4,,4
 mechdef_hunchback_HBK-4J,4,,4,,4,,4
 mechdef_dervish_DV-6M,45,,45,,45,,68
@@ -66,6 +67,8 @@ mechdef_griffin_GRF-1N,148,,148,,90,,82
 mechdef_lineholder_KW1-LH2,0,,0,,0,3058-01-01T00:00:00Z,11
 mechdef_griffin_GRF-1DS,0,,0,3050-01-01T00:00:00Z,45,,50
 mechdef_chameleon_CLN-7Z,0,,0,,0,3058-01-01T00:00:00Z,7
+mechdef_volkh_VKH-1,0,,0,,0,3063-01-01T00:00:00Z,1
+mechdef_volkh_VKH-3,0,,0,,0,3064-01-01T00:00:00Z,1
 Heavies,,,,,,,
 mechdef_champion_CHP-2N,4,,4,,4,,4
 mechdef_quickdraw_QKD-4G,12,,12,,12,,12
@@ -97,7 +100,8 @@ mechdef_warhammer_WHM-7S,0,,0,3050-01-01T00:00:00Z,42,,47
 mechdef_flashman_FLS-7K,41,,41,,42,,53
 mechdef_thunderbolt_TDR-9S,0,,0,3050-01-01T00:00:00Z,42,,47
 mechdef_grasshopper_GHR-5N,0,3040-01-01T00:00:00Z,7,,8,,8
-mechdef_defiance_DFN-3C,0,,0,,0,3057-01-01T00:00:00Z,3
+mechdef_verfolger_VR5-R,0,,0,,0,3063-01-01T00:00:00Z,2
+mechdef_defiance_DFN-3C,0,,0,3057-01-01T00:00:00Z,3,,3
 Assaults,,,,,,,
 mechdef_cyclops_CP-10-Z,6,,6,,6,,6
 mechdef_longbow_LGB-0W,52,,52,,51,,88

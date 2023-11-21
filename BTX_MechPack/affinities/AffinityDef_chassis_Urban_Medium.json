@@ -3,14 +3,15 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
+      "chrprfmech_enfieldbase-001_50",
       "chrPrfMech_enforcerBase-001_50",
       "chrprfmech_excavatorbase-001_50",
-      "chrPrfMech_hunchbackBase-001_50",
-      "chrprfmech_hunchiebase-001_50",
-      "chrprfmech_medusabase-001_50",
-      "chrPrfMech_vulcanBase-001_40",
       "chrPrfMech_hatchetmanBase-001_45",
       "chrPrfMech_hatchetmanBase-001_50",
+      "chrPrfMech_hunchbackBase-001_50",
+      "chrprfmech_hunchiebase-001_50",
+      "chrprfmech_cuvolkhbase-001_45",
+      "chrPrfMech_vulcanBase-001_40",
       "chrprfmech_wyvernbase-001_45"
     ],
     "idType": "AssemblyVariant",
