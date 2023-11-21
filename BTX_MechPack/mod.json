@@ -15,6 +15,7 @@
     ],
     "Manifest": [
         { "Type": "AbilityDef", "Path": "abilities" },
+        { "Type": "AdvancedJSONMerge", "Path": "advancedMerge" },
         { "Type": "AffinitiesDef", "Path": "affinities" },
         { "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
         { "Type": "AmmunitionDef", "Path": "ammunitionMerge", "ShouldMergeJSON": true },
@@ -24,7 +25,7 @@
         { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
         { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
-        { "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true, "ShouldMergeJSON": false },
+        { "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
         { "Type": "SVGAsset", "Path": "icons" },
         { "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
         { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },

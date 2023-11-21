@@ -37,7 +37,7 @@
     "UIName": "Lift Hoist",
     "Id": "Weapon_Industrial_LiftHoist_Small",
     "Name": "Lift Hoist",
-    "Details": "Used for lifting and moving cargo, the hoist allows a 'Mech to lift up to half its weight without incurring penalty. The unintended benefit of the hoist is added stability while allow it to exert more force to destabilize an opponent in melee.",
+    "Details": "Primarily designed for lifting and moving cargo, the Lift Hoist allows a 'Mech to lift up to half its weight without incurring any movement penalties. While not explicitly intended for combat, the Lift Hoist can provide an unexpected advantage in melee engagements. The added stability it provides allows the 'Mech to exert more force and destabilize its opponent with greater precision and effectiveness.",
     "Icon": "cargo-crane"
   },
   "BonusValueA": "+ 20 Melee Stb.Dmg.",

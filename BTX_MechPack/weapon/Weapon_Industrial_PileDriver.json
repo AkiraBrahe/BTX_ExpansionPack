@@ -37,7 +37,7 @@
     "UIName": "Heavy-Duty Pile Driver",
     "Id": "Weapon_Industrial_PileDriver",
     "Name": "Heavy-Duty Pile Driver",
-    "Details": "The Pile Driver is essentially a massive hammer used to drive poles, pipes, and conduits into the ground as well as metal spikes through hardened rock in mining operations. Due to its size and clumsiness, it is rarely seen in combat.",
+    "Details": "The Pile Driver is a massive hammer-like tool primarily used in construction and mining operations. Its purpose is to drive poles, pipes, and conduits into the ground, as well as penetrate hardened rock with metal spikes. Due to its immense size and cumbersome nature, it is rarely employed in combat scenarios.",
     "Icon": "hammer-drop"
   },
   "BonusValueA": "+ 45 Melee Dmg.",

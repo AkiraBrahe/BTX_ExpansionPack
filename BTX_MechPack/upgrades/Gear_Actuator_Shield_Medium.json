@@ -245,7 +245,7 @@
     "UIName": "Medium Shield",
     "Id": "Gear_Actuator_Shield_Medium",
     "Name": "Medium Shield",
-    "Details": "The Shield is a movable piece of armor that can be mounted on BattleMech arm actuators. It allows a MechWarrior to redirect damage from certain parts of the 'Mech to their shield. The Shield offers varying degrees of protection; when fully activated, the shield protects most locations, but also prevents the 'Mech from firing its arm- or torso-mounted weapons.",
+    "Details": "The Shield is a movable piece of armor that gives MechWarriors a versatile defensive option by redirecting damage from specific parts of the 'Mech to the Shield itself. The Shield offers varying degrees of protection; when fully activated, the shield protects most locations, but also prevents the 'Mech from firing its arm- or torso-mounted weapons.",
     "Icon": "shield"
   },
   "BonusValueA": "Deflects Dmg.",

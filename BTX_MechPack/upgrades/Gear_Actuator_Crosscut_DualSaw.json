@@ -11,7 +11,7 @@
     "UIName": "Dual Saw",
     "Id": "Gear_Actuator_Crosscut_DualSaw",
     "Name": "Dual Saw",
-    "Details": "A heavy-duty Dual Saw made for the Crosscut LoggerMech to operate in densely forested terrain. It is similar to a Chainsaw, but instead of a single chain, it employs twin high-speed circular ferro-carbide blades that spin around a central axis.",
+    "Details": "The Dual Saw is a massive chainsaw designed specifically for the Crosscut LoggerMech to operate in densely forested terrain. Instead of a single chain, it employs twin high-speed circular ferro-carbide blades that spin around a central axis, allowing it to clear through thick vegetation and fell trees with remarkable efficiency.",
     "Icon": "circular-sawblade"
   },
   "BonusValueA": "+ 35 Melee Dmg.",

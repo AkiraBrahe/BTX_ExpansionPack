@@ -11,7 +11,7 @@
     "UIName": "Backhoe",
     "Id": "Gear_Actuator_Backhoe",
     "Name": "Backhoe",
-    "Details": "An industrial Backhoe that is typically used to move soil quickly during construction to create basements, ditches, or hills. It is rarely encountered on the battlefield, but it performs surprisingly well as an improvised melee weapon.",
+    "Details": "An industrial Backhoe that is typically used in construction to swiftly excavate soil for foundations, ditches, or hills. While not a common sight on the battlefield, it can be surprisingly effective as an improvised melee weapon.",
     "Icon": "cargo-crane"
   },
   "BonusValueA": "+ 30 Melee Dmg.",

@@ -8,10 +8,11 @@
 
       "chassis_endo",
       "chassis_composite",
-
+      
       "chassis_ferro",
       "chassis_reactive",
       "chassis_stealth",
+      "chassis_hardened",
 
     /* CASE */
       "mech_case_centre",

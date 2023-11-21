@@ -1,0 +1,17 @@
+{
+  "Id": "laser_insulator",
+  "autoTarget": true,
+  "installedLocationOnly": true,
+  "targetComponentTags": [
+    "laser_insulator_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "LASER_Insulated",
+      "UIName": "Insulated",
+      "isBaseMode": true,
+      "Description": "The laser generates less heat when firing.",
+      "HeatGenerated": -3
+    }
+  ]
+}

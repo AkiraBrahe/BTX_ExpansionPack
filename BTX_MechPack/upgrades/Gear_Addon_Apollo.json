@@ -1,0 +1,44 @@
+{
+  "Custom": {
+    "AddonReference": {
+      "installedLocationOnly": true,
+      "autoTarget": true,
+      "WeaponAddonIds": [
+        "apollo_fcs"
+      ]
+    }
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 2500000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "Fire Control System",
+    "UIName": "Apollo FCS",
+    "Id": "Gear_Addon_Apollo",
+    "Name": "Apollo FCS",
+    "Details": "The Apollo FCS is a guidance system for MRM launchers that adjusts the flight path of the missiles using a combination of sensors and software, leading to improved accuracy and missile grouping.",
+    "Icon": "uixSvgIcon_special_Equipment"
+  },
+  "BonusValueA": "+ 2 Direct-Fire Accuracy",
+  "BonusValueB": "+ Clustering",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

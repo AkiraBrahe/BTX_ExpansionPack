@@ -11,7 +11,7 @@
     "UIName": "Rock Cutter",
     "Id": "Gear_Actuator_DigKing_RockCutter",
     "Name": "Rock Cutter",
-    "Details": "Unlike a Mining Drill, the Rock Cutter uses a chain with industrial diamond cutting teeth, allowing it to slice hardened materials. Its awkward design makes it a poor substitute for a Sword or Hatchet in combat.",
+    "Details": "While a Mining Drill relies on a spinning head to break down rocks, the Rock Cutter employs a chain equipped with industrial diamond cutting teeth, enabling it to slice through even hardened materials. However, its unconventional design makes it a less than ideal replacement for a Sword or Hatchet in combat situations.",
     "Icon": "circular-sawblade"
   },
   "BonusValueA": "+ 25 Melee Dmg.",

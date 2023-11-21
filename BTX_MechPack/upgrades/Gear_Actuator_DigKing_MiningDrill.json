@@ -3,7 +3,7 @@
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
   "Description": {
-    "Cost": 6000,
+    "Cost": 10000,
     "Rarity": 99,
     "Purchasable": false,
     "Manufacturer": "Dorwinion",
@@ -11,7 +11,7 @@
     "UIName": "Mining drill",
     "Id": "Gear_Actuator_DigKing_MiningDrill",
     "Name": "Mining Drill",
-    "Details": "The Mining Drill, a large, fast-moving drill head on an armature with a diamond tip, is a piece of mining equipment that is usually found on IndustrialMechs or Support Vehicles and is only used for combat as a last resort.",
+    "Details": "The Mining Drill, a powerful tool typically mounted on IndustrialMechs, features a large, fast-moving drill head on an armature with a diamond tip. Primarily designed for mining operations, it can be employed as a last-ditch weapon in combat.",
     "Icon": "drill"
   },
   "BonusValueA": "+ 20 Melee Dmg.",

@@ -1,0 +1,24 @@
+{
+  "Name": "BTX_DHS_Changes",
+  "Enabled": true,
+  "Version": "1.2",
+
+  "Description": "Advancedmerges for EngineDHS, values set for DHS with 6 heatsinking",
+  "Author": "lordruthermore",
+
+  "DependsOn": [
+    "BT_Extended_Timeline"
+  ],
+  "OptionallyDependsOn": [
+    "BTX_CAC_Compatibility",
+    "The_Big_Deal_Campaign_Add-on",
+    "BTX_MechPack"
+  ],
+
+  "Manifest": [
+    {
+      "Type": "AdvancedJSONMerge",
+      "Path": "advancedmerge"
+    }
+  ]
+}

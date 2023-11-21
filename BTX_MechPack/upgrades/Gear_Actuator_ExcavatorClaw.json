@@ -11,7 +11,7 @@
     "UIName": "Excavator Claw",
     "Id": "Gear_Actuator_ExcavatorClaw",
     "Name": "Excavator Claw",
-    "Details": "Used for digging and clearing rubble during excavations, this claw can be used to grapple the opponent in close combat.",
+    "Details": "The Excavator Claw is a heavy-duty arm attachment used during construction and excavation projects to dig and clear rubble. Its powerful hydraulics are capable of grappling and restraining opponents in melee combat with its razor-sharp claws.",
     "Icon": "steel-claws"
   },
   "BonusValueA": "Initiative Push Back",

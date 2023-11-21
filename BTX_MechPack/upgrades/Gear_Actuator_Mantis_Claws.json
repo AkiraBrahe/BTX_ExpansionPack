@@ -3,7 +3,7 @@
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
   "Description": {
-    "Cost": 6000,
+    "Cost": 60000,
     "Rarity": 99,
     "Purchasable": false,
     "Manufacturer": "Solaris Arms",
@@ -11,7 +11,7 @@
     "UIName": "Claws",
     "Id": "Gear_Actuator_Mantis_Claws",
     "Name": "Claws",
-    "Details": "Experimental Claws comprised of a series of hardened steel blades mounted on tungsten-reinforced frames and used by the Mantis BattleMech to literally tear an enemy apart in arena fights.",
+    "Details": "These experimental Claws are a fearsome close-quarters weapon developed by Solaris Arms. Comprising a series of hardened steel blades mounted on tungsten-reinforced frames, they are used by the Mantis BattleMech to literally tear an enemy apart in arena fights.",
     "Icon": "steel-claws"
   },
   "BonusValueA": "+ 20 Melee Dmg.",

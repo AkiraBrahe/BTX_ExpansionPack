@@ -11,7 +11,7 @@
     "UIName": "Spikes",
     "Id": "Gear_Actuator_Spikes",
     "Name": "Spikes",
-    "Details": "Spikes that have been reinforced and strengthened to deal close combat damage to enemy units. This experimental melee weapon proved its worth in the Solaris arenas, resulting in the Hatchet's development.",
+    "Details": "These reinforced Spikes, designed as an experimental melee weapon, have proven their worth in the brutal Solaris arenas, leading to the development of the Hatchet, a more refined and specialized melee weapon.",
     "Icon": "uixSvgIcon_equipment_ActuatorLeg"
   },
   "BonusValueA": "+ 10 Melee Dmg.",

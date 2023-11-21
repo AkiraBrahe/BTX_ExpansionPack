@@ -1,0 +1,22 @@
+{
+  "Id": "laser_insulator_bombast",
+  "autoTarget": true,
+  "installedLocationOnly": true,
+  "targetComponentTags": [
+    "laser_insulator_bombast_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "LASER_Min",
+      "HeatGenerated": -3
+    },
+    {
+      "Id": "LASER_Half",
+      "HeatGenerated": -3
+    },
+    {
+      "Id": "LASER_Full",
+      "HeatGenerated": -3
+    }
+  ]
+}

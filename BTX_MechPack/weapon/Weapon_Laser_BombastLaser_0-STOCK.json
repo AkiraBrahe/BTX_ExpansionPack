@@ -62,7 +62,7 @@
   },
   "Modes": [
     {
-      "Id": "LASER_MIN",
+      "Id": "LASER_Min",
       "UIName": "Minimal",
       "Name": "Minimal Power",
       "Description": "Fires a laser with minimal power, comparable to a Large Laser.",
@@ -73,7 +73,7 @@
       "ColorChangeRule": "None"
     },
     {
-      "Id": "LASER_HALF",
+      "Id": "LASER_Half",
       "UIName": "Half",
       "Name": "Half Power",
       "Description": "Fires a laser at half power, generating more heat.",
@@ -84,7 +84,7 @@
       "ColorChangeRule": "t0"
     },
     {
-      "Id": "LASER_FULL",
+      "Id": "LASER_Full",
       "UIName": "Full",
       "Name": "Full Power",
       "Description": "Fires a laser at full power, generating a lot of heat.",

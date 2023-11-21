@@ -29,7 +29,7 @@
   "Instability": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
   "Description": {
-    "Cost": 10000,
+    "Cost": 100000,
     "Rarity": 99,
     "Purchasable": false,
     "Manufacturer": "Alliance Motors",
@@ -37,7 +37,7 @@
     "UIName": "Mining drill",
     "Id": "Weapon_Industrial_MiningDrill",
     "Name": "Mining Drill",
-    "Details": "The Mining Drill, a large, fast-moving drill head on an armature with a diamond tip, is a piece of mining equipment that is usually found on IndustrialMechs or Support Vehicles and is only used for combat as a last resort.",
+    "Details": "The Mining Drill, a powerful tool typically mounted on IndustrialMechs, features a large, fast-moving drill head on an armature with a diamond tip. Primarily designed for mining operations, it can be employed as a last-ditch weapon in combat.",
     "Icon": "drill"
   },
   "BonusValueA": "+ 20 Melee Dmg.",

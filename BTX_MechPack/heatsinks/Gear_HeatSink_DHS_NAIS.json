@@ -1,0 +1,58 @@
+{
+  "Custom": {
+    "ActivatableComponent": {
+      "ButtonName": "pDHS",
+      "AutoActivateOnHeat": 1.0,
+      "AutoDeactivateOverheatLevel": 0.75,
+      "FailRoundsStart": 1,
+      "FailFlatChance": 0.01,
+      "FailChancePerTurn": 0.05,
+      "FailCheckOnActivationEnd": true,
+      "CanNotBeActivatedManualy": true,
+      "NoUniqueCheck": true,
+      "SelfCrit": true,
+      "ActiveByDefault": false,
+      "ActivationMessage": "Warning!",
+      "DeactivationMessage": "Nominal",
+      "statusEffects": []
+    },
+    "ComponentExplosion": {
+      "HeatDamage": 50,
+      "ExplosionDamage": 50,
+      "StabilityDamage": 50
+    }
+  },
+  "DissipationCapacity": 4,
+  "Description": {
+    "Cost": 630000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "NAIS",
+    "Model": "Prototype Double Heat Sink",
+    "UIName": "Double Heat Sink (X)",
+    "Id": "Gear_HeatSink_DHS_NAIS",
+    "Name": "Double Heat Sink (X)",
+    "Details": "These experimental Double Heat Sinks were developed by NAIS researchers as a smaller, more versatile alternative to the standard Double Heat Sinks used by the Star League. While they performed adequately in testing, their use of hazardous liquid heavy metals and limited lifespan ultimately led to their abandonment.",
+    "Icon": "uixSvgIcon_equipment_Heatsink"
+  },
+  "BonusValueA": "- 4 Heat / Turn",
+  "BonusValueB": "Corrosive",
+  "ComponentType": "HeatSink",
+  "ComponentSubType": "Heatsink",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": null,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

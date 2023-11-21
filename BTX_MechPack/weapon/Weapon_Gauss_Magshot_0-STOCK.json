@@ -46,7 +46,7 @@
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "MachineGun",
+  "PrefabIdentifier": "Gauss",
   "BattleValue": 0,
   "InventorySize": 2,
   "Tonnage": 0.5,

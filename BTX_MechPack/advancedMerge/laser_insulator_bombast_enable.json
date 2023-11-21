@@ -1,0 +1,12 @@
+{
+  "TargetIDs": [
+    "Weapon_Laser_BombastLaser_0-STOCK"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.ComponentTags.items",
+      "Action": "ArrayAdd",
+      "Value": "laser_insulator_bombast_attachable"
+    }
+  ]
+}
