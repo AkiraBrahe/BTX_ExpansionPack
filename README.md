@@ -12,38 +12,40 @@ A BattleTech Extended mod that adds over 190 new 'Mech variants and over 20 new 
 - (Optional) Enable DHS Changes, which gives all DHS in the engine 6 heatsinking instead of 4, by setting "Enabled" to true in the mod.json file of the mod.
 - (Optional) Enable Shell Shuffler, which makes the AI use different ammo types at random, by removing the date part from one the two mod.json files of the mod.
 
-New 'Mechs are fielded by the factions that should have them according to the lore. Hero 'Mechs are available in the Heavy Metal crate. Alternatively, you can add the new 'Mechs to your game using Fell Off A Cargo Ship or a save editor.
+New 'Mechs are fielded by the factions that have them according to the lore. Hero 'Mechs are available in the Heavy Metal crate. You can also add the new 'Mechs to your game using Fell Off A Cargo Ship or a save editor.
 
 New rare weapons and upgrades are available in stores, based on the year they were prototyped. Some weapons and upgrades are unique to certain 'Mech chassis, such as Stealth Armor.
 
 ## Mod Progress
 
-The mod currently includes 62 new BattleMechs and 198 new 'Mech variants. When completed, the mod will feature over 70 new BattleMechs, corresponding to nearly all CAB models that fit the BattleTech Extended timeline and beyond, up to the year 3065.
+The mod currently includes 65 new BattleMechs and 224 new 'Mech variants. When completed, the mod will feature over 70 new BattleMechs, corresponding to nearly all CAB models that fit the BattleTech Extended timeline and beyond, up to the year 3065.
 
-The next major update is set to be released sometime this fall, and will feature new end-game BattleMechs and add some of the new 'Mechs to the factory shops. 
+The next major update is set to be released sometime this fall, and will feature new end-game BattleMechs and add some of the new 'Mechs to the factory shops.
 
-| Pack #1             | Pack #2          | Pack #3                | Pack #4       |
-| :------------------ | :--------------- | :--------------------- | :------------ |
-| Bellerophon         | Arctic Wolf      | Albatross              | Akuma         |
-| Bombard             | Assassin II      | Anubis                 | ?????         |
-| Buccaneer           | Battle Hawk      | Barghest               | ????? ???     |
-| Dragoon             | Blitzkrieg       | Black Heart            | Buster        |
-| Fox                 | Champion LAM     | Fire Falcon            | Chimera       |
-| Hellfire            | Cossack          | Galahad (Glass Spider) | Crosscut      |
-| Jackrabbit          | Hammer           | Grand Crusader         | Dig King/Lord |
-| JagerMech III       | Hybrid Rifleman  | Gulon                  | ??????        |
-| Juggernaut          | Lao Hu           | Iron Cheetah           | ?????????     |
-| Mercury II / Coyotl | Mad Cat Mk II    | Lineholder             | Kiso          |
-| Pulverizer          | Matar            | Lupus                  | Komodo        |
-| Rampage             | Naga             | Mantis                 | ??????        |
-| Schwerer Gustav     | Nightsky         | Osiris                 | ?????         |
-| Screamer LAM        | Phoenix Hawk IIC | Peregrine              | ?????????     |
-| Stag / Stag II      | Rattlesnake      | Phantom                | Roughneck     |
-| Thanatos            | Warthog          | Prometheus             | ??????        |
-| Titan               |                  | Sha Yu                 | ??????????    |
-|                     |                  | Templar                | ????????      |
-|                     |                  | Zeus-X                 | ??????????    |
-|                     |                  |                        | ?????????     |
+| Pack #1             | Pack #2          | Pack #3                | Pack #4              |
+| :------------------ | :--------------- | :--------------------- | :------------------- |
+| Bellerophon         | Arctic Wolf      | Albatross              | Akuma                |
+| Bombard             | Assassin II      | Anubis                 | ?????                |
+| Buccaneer           | Battle Hawk      | Barghest               | Blood Asp            |
+| Dragoon             | Blitzkrieg       | Black Heart            | Brigand              |
+| Fox                 | Champion LAM     | Fire Falcon            | Chimera              |
+| Hellfire            | Cossack          | Galahad (Glass Spider) | Crosscut             |
+| Jackrabbit          | Hammer           | Grand Crusader         | Dig King / Dig Lord  |
+| JagerMech III       | Hybrid Rifleman  | Gulon                  | ??????               |
+| Juggernaut          | Lao Hu           | Iron Cheetah           | ?????????            |
+| Mercury II / Coyotl | Mad Cat Mk II    | Lineholder             | Kiso                 |
+| Pulverizer          | Matar            | Lupus                  | Komodo               |
+| Rampage             | Naga             | Mantis                 | Marshal              |
+| Schwerer Gustav     | Nightsky         | Osiris                 | ?????                |
+| Screamer LAM        | Phoenix Hawk IIC | Peregrine              | ?????????            |
+| Stag / Stag II      | Rattlesnake      | Phantom                | ??????               |
+| Thanatos            | Warthog          | Prometheus             | Roughneck            |
+| Titan               |                  | Sha Yu                 | Sidewinder           |
+|                     |                  | Templar                | ????????             |
+|                     |                  | Zeus-X                 | Storm Giant / Scylla |
+|                     |                  |                        | ?????                |
+|                     |                  |                        | ??????????           |
+|                     |                  |                        | Verfolger            |
 
 ## Contents
 
@@ -535,7 +537,7 @@ The next major update is set to be released sometime this fall, and will feature
 
 <details>
   <summary>Shell Shuffler</summary>
-  
+
 This optional submod allows the AI to randomly use different types of ammunition when spawning. The mod has two presets, depending on the era you are playing in:
 
 - **3025 preset:** Any faction can use Inferno SRM.
@@ -556,7 +558,7 @@ This optional submod allows the AI to randomly use different types of ammunition
 
 <details>
   <summary>Artillery</summary>
-  
+
 - Mech mortars are now available in 3025. The Thumper, Sniper, and Long Tom cannons have been moved to research planets, as they are only prototypes in the current timeline.
 
 - Artillery cannons have been reworked to be more in line with the tabletop rules. They now deal 30% less damage and have a much shorter range than their larger counterparts. Additionally, all artillery deal less stability damage and are less accurate due to the indirect fire penalty.
@@ -601,9 +603,10 @@ Some changes have been made to address minor issues and to add the latest CAB mo
 | Loader King LDK-5C  | Added more armor and missing Cargo Bay              |
 | Locust LCT-3S       | Fixed available tonnage                             |
 | Naginata            | Switched to a new CAB model                         |
-| Piranha 1           | Switched to single heat sinks                       |
 | Phoenix Hawk LAM    | Changed to a different CAB model                    |
+| Piranha 1           | Switched to single heat sinks                       |
 | Rifleman RFL-5CS    | Added Large Engine quirk                            |
 | Shadow Hawk         | Added Rugged quirk                                  |
+| Thunder THR-1L      | Added missing DHS in the engine                     |
 | Trebuchet TBT-3C    | Added Large Engine quirk                            |
 | Urbanmech           | Reduced movement to 3/5 hexes (from 4/7)            |
