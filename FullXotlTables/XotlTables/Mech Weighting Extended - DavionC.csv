@@ -32,6 +32,7 @@ mechdef_firestarter_FS9-K,5,,5,,12
 mechdef_battlehawk_BH-K305,0,3053-01-01T00:00:00Z,15,,20
 mechdef_valkyrie_VLK-QD,20,,20,,40
 mechdef_javelin_JVN-10F,20,,20,,20
+mechdef_razorback_RZK-9S,0,,0,3063-01-01T00:00:00Z,8
 mechdef_raven_RVN-2X,8,,8,,8
 mechdef_wolfhound_WLF-1,20,,20,,20
 mechdef_hollander_BZK-F3,0,3054-01-01T00:00:00Z,15,,20
@@ -82,8 +83,10 @@ mechdef_blackjack_BJ-2,0,3052-01-01T00:00:00Z,24,,23
 mechdef_chimera_CMA-1S,0,,0,3063-01-01T00:00:00Z,5
 mechdef_chimera_CMA-C,0,,0,3063-01-01T00:00:00Z,1
 mechdef_kintaro_KTO-18,17,,17,,13
+mechdef_uziel_UZL-3S,0,,0,3065-01-01T00:00:00Z,1
 mechdef_trebuchet_TBT-5N,9,,9,,7
 mechdef_lineholder_KW1-LH3,0,,0,3059-01-01T00:00:00Z,6
+mechdef_hellspawn_HSN-7D,0,,0,3062-01-01T00:00:00Z,8
 mechdef_chameleon_CLN-7W,0,,0,3058-01-01T00:00:00Z,4
 mechdef_blackjack_BJ-3,24,,24,,18
 mechdef_griffin_GRF-1N,67,,67,,51
@@ -92,6 +95,7 @@ mechdef_griffin_GRF-1DS,24,,24,,18
 mechdef_enforcer_ENF-5D,0,3050-01-01T00:00:00Z,24,,30
 mechdef_wolverine_WVR-7D,0,3050-01-01T00:00:00Z,24,,27
 mechdef_phoenixhawk_PXH-3D,6,,6,,15
+mechdef_uziel_UZL-2S,0,,0,3063-01-01T00:00:00Z,7
 mechdef_assassinii_ASN-56,0,,0,3060-01-01T00:00:00Z,7
 mechdef_dervish_DV-7D,24,,24,,27
 mechdef_chameleon_CLN-7Z,0,,0,3058-01-01T00:00:00Z,4
@@ -139,7 +143,9 @@ mechdef_warhammer_WHM-6D,17,,17,,23
 mechdef_archer_ARC-2R,68,,68,,71
 mechdef_grasshopper_GHR-5N,6,,6,,8
 mechdef_jagermechiii_JM6-D3,0,,0,3058-01-01T00:00:00Z,21
+mechdef_argus_AGS-2D,0,,0,3062-01-01T00:00:00Z,3
 mechdef_caesar_CES-3R,17,,17,,17
+mechdef_argus_AGS-4D,0,,0,3062-01-01T00:00:00Z,1
 mechdef_marauder_MAD-5D,17,,17,,17
 Assaults,,,,,
 mechdef_victor_VTR-9A,12,,12,,24

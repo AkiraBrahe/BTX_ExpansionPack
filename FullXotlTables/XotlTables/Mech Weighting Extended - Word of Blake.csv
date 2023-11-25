@@ -215,8 +215,10 @@ mechdef_kingcrab_KGC-000,10,,10,,6,,12
 mechdef_albatross_ALB-4U,0,,0,,0,3063-01-01T00:00:00Z,3
 mechdef_crockett_CRK-5003-1,36,,36,,20,,22
 mechdef_rampage_RMP-5G,7,,7,,5,,5
+mechdef_legacy_LGC-01,0,,0,,0,3064-01-01T00:00:00Z,43
 mechdef_cerberus_MR-V2,0,,0,3054-01-01T00:00:00Z,5,,18
 mechdef_mackie_MSK-9H,5,,5,,3,,3
+mechdef_legacy_LGC-02,0,,0,,0,3064-01-01T00:00:00Z,8
 mechdef_grandtitan_T-IT-N11M,0,,0,,0,3058-01-01T00:00:00Z,22
 mechdef_cerberus_MR-5M,0,,0,3055-01-01T00:00:00Z,11,,22
 mechdef_viking_VKG-2F,0,,0,,0,3059-01-01T00:00:00Z,9
@@ -227,6 +229,7 @@ mechdef_sirocco_SRC-3C,0,,0,,0,3060-01-01T00:00:00Z,5
 mechdef_atlas_AS7-K-DC,0,,0,3050-01-01T00:00:00Z,2,,3
 mechdef_kingcrab_KGC-001,0,,0,3052-01-01T00:00:00Z,8,,12
 mechdef_highlander_HGN-732,152,,152,,84,,93
+mechdef_vanquisher_VQR-2A,0,,0,,0,3063-01-01T00:00:00Z,54
 mechdef_highlander_HGN-736,0,,0,,0,3060-01-01T00:00:00Z,12
 mechdef_nightstar_NSR-9J,3,,3,,2,,3
 mechdef_thunderhawk_TDK-7X,3,,3,,2,,3

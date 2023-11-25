@@ -52,7 +52,7 @@ mechdef_fenris_ice_ferret-C,19,,19,,19,,19
 mechdef_fenris_ice_ferret-A,58,,67,,67,,67
 mechdef_arctic_wolf-1,0,,0,,0,3059-01-01T00:00:00Z,47
 mechdef_dragonfly_viper-C,19,,87,,87,,87
-mechdef_stag_ST-14G,0,3052-06-01T00:00:00Z,2,,2,,2
+mechdef_stag_ST-14G,0,3052-01-01T00:00:00Z,2,,2,,2
 mechdef_coyotl-B,4,,2,,2,Jump:3058-01-01T00:00:00Z,0
 mechdef_black_hawk_nova-D,10,,0,,0,,0
 mechdef_dragonfly_viper-PRIME,48,,0,,0,,0
@@ -65,7 +65,7 @@ mechdef_black_hawk_nova-B,19,,48,,48,,48
 mechdef_dragonfly_viper-E,0,,0,3054-01-01T00:00:00Z,3,,5
 mechdef_griffin_IIC,19,,19,,19,Jump:3058-01-01T00:00:00Z,32
 mechdef_wyvern_IIC,19,,19,,19,Jump:3058-01-01T00:00:00Z,32
-mechdef_stagii_ST-24G,0,3052-06-01T00:00:00Z,3,,5,,4
+mechdef_stagii_ST-24G,0,3052-01-01T00:00:00Z,3,,5,,4
 mechdef_fenris_ice_ferret-D,39,,67,,67,,67
 mechdef_pouncer-C,0,3050-01-01T00:00:00Z,3,,9,,11
 mechdef_fenris_ice_ferret-PRIME,116,,67,,67,,67

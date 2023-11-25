@@ -3,6 +3,7 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
+      "chrprfmech_argusbase-001_60",
       "chrprfmech_championbase-001_60",
       "chrprfmech_thunderbase-001_70",
       "chrprfmech_vonrohrsbase-001_65",

@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_stiletto_STL-7D",
+    "Name": "MovementCapabilitiesDef for Stiletto STL-7D",
+    "Details": "280 Light Fusion Engine - 9/15 movement",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 137.0,
+  "MaxSprintDistance": 235.0,
+  "WalkVelocity": 22.0,
+  "RunVelocity": 28.0,
+  "SprintVelocity": 36.0,
+  "LimpVelocity": 8.0,
+  "WalkAcceleration": 25.0,
+  "SprintAcceleration": 40.0,
+  "MaxRadialVelocity": 90.0,
+  "MaxRadialAcceleration": 270.0,
+  "MaxJumpVel": 80.0,
+  "MaxJumpAccel": 30.0,
+  "MaxJumpVerticalAccel": 60.0
+}

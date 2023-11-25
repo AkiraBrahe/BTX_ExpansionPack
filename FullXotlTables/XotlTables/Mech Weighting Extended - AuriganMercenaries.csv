@@ -79,6 +79,7 @@ mechdef_panther_PNT-C,0,,0,,0,3056-01-01T00:00:00Z,4
 mechdef_javelin_JVN-10F,23,,14,,20,,40
 mechdef_panther_PNT-10K,0,,0,,0,3057-01-01T00:00:00Z,3
 mechdef_scarabus_SCB-9A,0,,0,,0,3056-01-01T00:00:00Z,5
+mechdef_razorback_RZK-9S,0,,0,,0,3063-01-01T00:00:00Z,5
 mechdef_stiletto_STO-4A,0,,0,,0,3061-01-01T00:00:00Z,2
 mechdef_venom_SDR-9KA,0,,0,,0,3060-01-01T00:00:00Z,1
 mechdef_hollander_BZK-G1,0,,0,,0,3056-01-01T00:00:00Z,2
@@ -160,11 +161,13 @@ mechdef_blackjack_BJ-2,0,,0,,0,3056-01-01T00:00:00Z,4
 mechdef_nightsky_NGS-4S,0,,0,,0,3058-01-01T00:00:00Z,4
 mechdef_kintaro_KTO-19,0,,0,,0,Jump:3056-01-01T00:00:00Z,9
 mechdef_kintaro_KTO-18,0,,0,Jump:3049-01-01T00:00:00Z,57,,82
+mechdef_uziel_UZL-3S,0,,0,,0,3065-01-01T00:00:00Z,1
 mechdef_trebuchet_TBT-5N,144,,145,,143,,189
 mechdef_hollanderii_BZK-F7,0,,0,,0,3061-01-01T00:00:00Z,3
 mechdef_apollo_APL-1M,0,,0,,0,3056-01-01T00:00:00Z,14
 mechdef_hollanderii_BZK-F5,0,,0,,0,3059-01-01T00:00:00Z,11
 mechdef_lineholder_KW1-LH3,0,,0,,0,3059-01-01T00:00:00Z,1
+mechdef_hellspawn_HSN-7D,0,,0,,0,3062-01-01T00:00:00Z,7
 mechdef_stealth_STH-1D,0,,0,,0,3060-01-01T00:00:00Z,7
 mechdef_phoenixhawk_PXH-3S,0,,0,,0,3056-01-01T00:00:00Z,16
 mechdef_centurion_CN10-B,0,,0,,0,3057-01-01T00:00:00Z,2
@@ -190,6 +193,7 @@ mechdef_cronus_CNS-3M,0,3031-01-01T00:00:00Z,83,,86,,133
 mechdef_trebuchet_TBT-3C,0,,0,,0,Jump:3056-01-01T00:00:00Z,2
 mechdef_trebuchet_TBT-7M,0,,0,,0,3056-01-01T00:00:00Z,4
 mechdef_hunchback_HBK-5S,0,,0,,0,3058-01-01T00:00:00Z,1
+mechdef_uziel_UZL-2S,0,,0,,0,3063-01-01T00:00:00Z,9
 mechdef_nightsky_NGS-5T,0,,0,,0,3058-01-01T00:00:00Z,1
 mechdef_kintaro_KTO-20,0,,0,,0,Jump:3056-01-01T00:00:00Z,4
 mechdef_centurion_CN9-D3D,0,,0,,0,3060-01-01T00:00:00Z,1

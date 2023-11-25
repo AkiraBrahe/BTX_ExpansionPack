@@ -52,6 +52,7 @@ mechdef_valkyrie_VLK-QD,0,,0,3049-01-01T00:00:00Z,18,,67,,72
 mechdef_firestarter_FS9-S1,0,,0,3049-01-01T00:00:00Z,6,,33,,35
 mechdef_javelin_JVN-10F,54,,50,,46,,0,,0
 mechdef_scarabus_SCB-9A,0,,0,,0,3053-01-01T00:00:00Z,23,,29
+mechdef_razorback_RZK-9S,0,,0,,0,,0,3063-01-01T00:00:00Z,9
 mechdef_raptor_RTX-OC,0,,0,,0,3052-01-01T00:00:00Z,4,,9
 mechdef_hollander_BZK-G1,0,,0,,0,3056-01-01T00:00:00Z,6,,8
 mechdef_raven_RVN-2X,0,3030-01-01T00:00:00Z,8,,6,,0,,0
@@ -137,10 +138,12 @@ mechdef_chimera_CMA-1S,0,,0,,0,,0,3063-01-01T00:00:00Z,7
 mechdef_chimera_CMA-C,0,,0,,0,,0,3063-01-01T00:00:00Z,1
 mechdef_kintaro_KTO-18,31,,16,,15,,15,,13
 mechdef_blackjack_BJ2-OC,0,,0,,0,,0,3057-01-01T00:00:00Z,7
+mechdef_uziel_UZL-3S,0,,0,,0,,0,3065-01-01T00:00:00Z,1
 mechdef_trebuchet_TBT-5N,16,,16,,15,,15,,13
 mechdef_hollanderii_BZK-F7,0,,0,,0,,0,3061-01-01T00:00:00Z,5
 mechdef_blackjack_BJ2-O,0,,0,,0,,0,3057-01-01T00:00:00Z,13
 mechdef_hollanderii_BZK-F5,0,,0,,0,,0,3058-01-01T00:00:00Z,15
+mechdef_hellspawn_HSN-7D,0,,0,,0,,0,3062-01-01T00:00:00Z,12
 mechdef_bushwacker_BSW-X1,0,,0,,0,3053-01-01T00:00:00Z,5,,6
 mechdef_stealth_STH-1D,0,,0,,0,3054-01-01T00:00:00Z,29,,39
 mechdef_phoenixhawk_PXH-3S,0,,0,3042-01-01T00:00:00Z,21,,20,,16
@@ -159,6 +162,7 @@ mechdef_firestarter_FS9-OD,0,,0,,0,,0,3057-01-01T00:00:00Z,2
 mechdef_blackjack_BJ2-OB,0,,0,,0,,0,3057-01-01T00:00:00Z,1
 mechdef_centurion_CN9-D3,0,,0,,0,3052-01-01T00:00:00Z,15,,17
 mechdef_strider_SR1-OR,0,,0,,0,,0,3059-01-01T00:00:00Z,2
+mechdef_uziel_UZL-2S,0,,0,,0,,0,3063-01-01T00:00:00Z,7
 mechdef_nightsky_NGS-5T,0,,0,,0,,0,3057-01-01T00:00:00Z,15
 mechdef_centurion_CN9-D3D,0,,0,,0,,0,3060-01-01T00:00:00Z,9
 mechdef_blackjack_BJ2-OD,0,,0,,0,,0,3057-01-01T00:00:00Z,7
@@ -232,10 +236,12 @@ mechdef_grasshopper_GHR-5N,0,,0,3040-01-01T00:00:00Z,14,,9,,4
 mechdef_jagermechiii_JM6-D3,0,,0,,0,,0,3058-01-01T00:00:00Z,42
 mechdef_cestus_CTS-6Z,0,,0,,0,,0,3058-01-01T00:00:00Z,19
 mechdef_penetrator_PTR-4F,0,,0,,0,3056-01-01T00:00:00Z,6,,9
+mechdef_argus_AGS-2D,0,,0,,0,,0,3062-01-01T00:00:00Z,8
 mechdef_caesar_CES-3R,0,,0,3049-01-01T00:00:00Z,14,,49,,49
 mechdef_orion_ON1-MD,0,,0,,0,,0,3062-01-01T00:00:00Z,14
 mechdef_helios_HEL-3D,0,,0,,0,,0,3058-01-01T00:00:00Z,14
 mechdef_jagermech_JM6-DG,0,,0,,0,3054-01-01T00:00:00Z,15,,10
+mechdef_argus_AGS-4D,0,,0,,0,,0,3062-01-01T00:00:00Z,2
 mechdef_penetrator_PTR-6M,0,,0,,0,,0,3058-01-01T00:00:00Z,11
 mechdef_jagermech_JM6-DGr,0,,0,,0,,0,3058-01-01T00:00:00Z,24
 mechdef_penetrator_PTR-4D,0,,0,,0,3053-01-01T00:00:00Z,15,,19

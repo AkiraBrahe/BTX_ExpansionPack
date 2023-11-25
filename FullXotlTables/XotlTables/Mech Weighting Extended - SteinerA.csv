@@ -41,6 +41,7 @@ mechdef_firestarter_FS9-M,14,,12,,8,,7,,0
 mechdef_valkyrie_VLK-QD,0,,0,3049-01-01T00:00:00Z,30,,60,,67
 mechdef_firestarter_FS9-S1,0,,0,3049-01-01T00:00:00Z,21,,26,,27
 mechdef_javelin_JVN-10F,8,,8,,4,,4,,4
+mechdef_razorback_RZK-9S,0,,0,,0,,0,3063-01-01T00:00:00Z,15
 mechdef_hollander_BZK-G1,0,,0,,0,3056-01-01T00:00:00Z,7,,18
 mechdef_wolfhound_WLF-1,0,3028-01-15T00:00:00Z,36,,43,,18,,17
 mechdef_hollander_BZK-F3,0,,0,,0,3054-01-01T00:00:00Z,26,,41
@@ -96,6 +97,7 @@ mechdef_nightsky_NGS-4S,0,,0,,0,3053-01-01T00:00:00Z,31,,38
 mechdef_chimera_CMA-1S,0,,0,,0,,0,3063-01-01T00:00:00Z,13
 mechdef_chimera_CMA-C,0,,0,,0,,0,3063-01-01T00:00:00Z,2
 mechdef_blackjack_BJ2-OC,0,,0,,0,,0,3057-01-01T00:00:00Z,4
+mechdef_uziel_UZL-3S,0,,0,,0,,0,3065-01-01T00:00:00Z,2
 mechdef_trebuchet_TBT-5N,33,,30,,27,,22,,5
 mechdef_hollanderii_BZK-F7,0,,0,,0,,0,3061-01-01T00:00:00Z,9
 mechdef_bushwacker_BSW-X2,0,,0,,0,3053-01-01T00:00:00Z,9,,11
@@ -118,12 +120,14 @@ mechdef_blackjack_BJ2-OA,0,,0,,0,,0,3057-01-01T00:00:00Z,4
 mechdef_centurion_CN9-D3,0,,0,,0,3052-01-01T00:00:00Z,9,,11
 mechdef_strider_SR1-OR,0,,0,,0,,0,3059-01-01T00:00:00Z,2
 mechdef_hunchback_HBK-5S,0,,0,,0,,0,3057-01-01T00:00:00Z,11
+mechdef_uziel_UZL-2S,0,,0,,0,,0,3063-01-01T00:00:00Z,12
 mechdef_nightsky_NGS-5T,0,,0,,0,,0,3057-01-01T00:00:00Z,27
 mechdef_blackjack_BJ2-OD,0,,0,,0,,0,3057-01-01T00:00:00Z,4
 mechdef_dervish_DV-7D,0,,0,3047-01-01T00:00:00Z,11,,22,,21
 mechdef_enfield_END-6J,0,,0,,0,,0,3060-01-01T00:00:00Z,8
 mechdef_starslayer_STY-3C,0,,0,,0,3056-01-01T00:00:00Z,9,,21
 mechdef_chameleon_CLN-7Z,0,,0,,0,,0,3058-01-01T00:00:00Z,3
+mechdef_shadowhawk_SHD-5S,0,,0,3054-01-01T00:00:00Z,3,,4,,4
 mechdef_starslayer_STY-3D,0,,0,,0,,0,3057-01-01T00:00:00Z,14
 mechdef_lynx_LNX-9C,0,,0,,0,3056-01-01T00:00:00Z,9,,21
 mechdef_firestarter_FS9-OR,0,,0,,0,,0,3059-01-01T00:00:00Z,4
@@ -264,3 +268,5 @@ mechdef_devastator_DVS-3,0,,0,,0,,0,3058-01-01T00:00:00Z,10
 mechdef_devastator_DVS-2,0,,0,3048-01-01T00:00:00Z,7,,5,,5
 mechdef_thunderhawk_TDK-7Y,0,,0,,0,,0,3058-01-01T00:00:00Z,10
 mechdef_thunderhawk_TDK-7X,0,,0,,0,3055-01-01T00:00:00Z,5,,9
+mechdef_fafnir_FNR-5B,0,,0,,0,,0,3065-01-01T00:00:00Z,1
+mechdef_fafnir_FNR-5,0,,0,,0,,0,3063-01-01T00:00:00Z,5

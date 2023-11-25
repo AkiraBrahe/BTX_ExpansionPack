@@ -1,0 +1,66 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "GM",
+        "Model" : "",
+        "UIName" : "O/P 2000A Laser Interface",
+        "Id" : "Gear_General_OP_2000A_InterfaceLaser",
+        "Name" : "O/P 2000A Laser Interface",
+        "Details" : "The O/P 2000A Targeting and Tracking system of the Shadow Hawk integrates a powerful interface to the left torso, increasing the effectiveness of a mounted lasers.",
+        "Icon" : "UixSvgIcon_specialEquip_System"
+    },
+    "BonusValueA" : "+ 10% Laser Dmg.",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 2,
+    "Tonnage" : 0,
+    "AllowedLocations" : "LeftTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-SHD-BallisticBoost",
+                "Name" : "O/P 2000A INTERFACE",
+                "Details" : "Laser weapons on this unit deal [AMT] more damage.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.1",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "Laser",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+			"BUILT-IN"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

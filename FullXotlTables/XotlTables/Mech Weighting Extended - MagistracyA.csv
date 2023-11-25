@@ -53,11 +53,12 @@ mechdef_hunchback_HBK-4J,6,,6,,18,,18
 mechdef_dervish_DV-6M,45,,45,,37,,29
 mechdef_marshal_MHL-X1,0,,0,,0,3059-01-01T00:00:00Z,7
 mechdef_trebuchet_TBT-5N,49,,49,,83,,76
+mechdef_shayu_SYU-4B,0,,0,,0,3063-01-01T00:00:00Z,5
 mechdef_griffin_GRF-1N,192,,192,,163,,163
 mechdef_wraith_TR1,0,,0,,0,3060-01-01T00:00:00Z,12
 mechdef_marshal_MHL-2L,0,,0,,0,3063-01-01T00:00:00Z,3
 mechdef_cronus_CNS-3M,0,,0,3050-01-01T00:00:00Z,9,,18
-mechdef_shayu_SYU-2B,0,,0,,0,3063-01-01T00:00:00Z,16
+mechdef_shayu_SYU-2B,0,,0,,0,3063-01-01T00:00:00Z,14
 mechdef_wraith_TR2,0,,0,,0,3060-01-01T00:00:00Z,12
 Heavies,,,,,,,
 mechdef_rifleman_RFL-3N,67,,67,,69,,30

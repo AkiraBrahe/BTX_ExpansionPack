@@ -1,0 +1,217 @@
+{
+  "Description": {
+    "Cost": 980000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Stiletto",
+    "Id": "chassisdef_stiletto_STL-7D",
+    "Name": "Stiletto",
+    "Details": "",
+    "Icon": "uixTxrIcon_stiletto"
+  },
+  "MovementCapDefID": "movedef_stiletto_STL-7D",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_stardrivestilleto",
+  "PrefabIdentifier": "chrprfmech_stardrivestilletobase-001",
+  "PrefabBase": "stardrivestilleto",
+  "Tonnage": 15,
+  "InitialTonnage": 7.5,
+  "weightClass": "LIGHT",
+  "Heatsinks": 0,
+  "TopSpeed": 90.4,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 10,
+  "MeleeInstability": 15,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 20,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 20,
+  "DFAInstability": 20,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 20,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 40,
+      "MaxRearArmor": 20,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 40,
+      "MaxRearArmor": 20,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 20,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 6.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 6.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 6.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.25,
+      "y": 3.5,
+      "z": 0
+    },
+    {
+      "x": -1.25,
+      "y": 3.5,
+      "z": 0
+    }
+  ],
+  "VariantName": "STL-7D",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.45-0.55-0.55",
+      "mech_quirk_crampedcockpit",
+      "mech_quirk_difficulttomaintain"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Ultralight Harasser",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Targeting_Baffle",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_General_Targeting_Baffle",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}
