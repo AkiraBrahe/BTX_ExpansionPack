@@ -225,6 +225,24 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Triple_Strength_Myomer_3",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_Triple_Strength_Myomer_3_Idle",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
@@ -281,24 +299,6 @@
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_General_Amain_Intercept_System",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_Triple_Strength_Myomer_3",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_Triple_Strength_Myomer_3_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -8,7 +8,7 @@
     "UIName": "Anvil",
     "Id": "chassisdef_anvil_ANV-8M",
     "Name": "Anvil",
-    "Details": "<color=#F79B26>The Anvil is designed to act as a brawler BattleMech and is often paired with the Hammer 'Mech after tests showed the two 'Mechs would work well together.</color>\n\nThe 8M variant is a radical modification of the 'Mech intended to provide artillery fire support. This is done by removing the 'Mech's entire arsenal and replacing it with an Arrow IV artillery system and an ER Large Laser as its primary weapons, backed up by two ER Medium Lasers for close combat. The 'Mech also includes a Guardian ECM Suite to protect itself from enemy electronic warfare equipment and a MASC to move faster in short bursts.",
+    "Details": "<color=#F79B26>The Anvil is a brawler BattleMech that is often paired with the Hammer, based on tests that showed the two 'Mechs would work well together.</color>\n\nThe 8M variant is a radical modification of the 'Mech intended to provide artillery fire support. This is done by removing the 'Mech's entire arsenal and replacing it with an Arrow IV artillery system and an ER Large Laser as its primary weapons, backed up by two ER Medium Lasers for close combat. The 'Mech also includes a Guardian ECM Suite to protect itself from enemy electronic warfare equipment and a MASC to move faster in short bursts.",
     "Icon": "uixTxrIcon_anvil"
   },
   "MovementCapDefID": "movedef_anvil_ANV-3M",

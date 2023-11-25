@@ -115,6 +115,14 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Gauss_HeavyGauss_1-Blackwell",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
       "ComponentDefType": "AmmunitionBox",

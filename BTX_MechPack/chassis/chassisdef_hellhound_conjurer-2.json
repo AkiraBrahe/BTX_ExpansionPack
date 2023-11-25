@@ -14,7 +14,7 @@
   "MovementCapDefID": "movedef_hellhound_conjurer-2",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_hellhound",
-  "PrefabIdentifier": "chrPrfMech_hellhoundBase-001",
+  "PrefabIdentifier": "chrprfmech_hellhoundbase-001",
   "PrefabBase": "hellhound",
   "Tonnage": 50,
   "InitialTonnage": 24.70,

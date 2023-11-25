@@ -14,7 +14,7 @@
   "MovementCapDefID": "movedef_jackrabbit_JKR-8T",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_jackrabbit",
-  "PrefabIdentifier": "chrPrfMech_jackrabbitBase-001",
+  "PrefabIdentifier": "chrprfmech_jackrabbitbase-001",
   "PrefabBase": "jackrabbit",
   "Tonnage": 25,
   "InitialTonnage": 12.04,
