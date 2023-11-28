@@ -1,0 +1,11 @@
+{
+  "ChassisTags": {
+    "items": [
+      "chassis_CrossAssemblyAllowedWith_Ostroc",
+      "mech_quirk_improvedsensors",
+      "mech_quirk_narrowlowprofile",
+      "mech_quirk_largeengine"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

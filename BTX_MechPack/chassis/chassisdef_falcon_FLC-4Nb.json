@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_falconbase-001",
   "PrefabBase": "falcon",
   "Tonnage": 30,
-  "InitialTonnage": 15,
+  "InitialTonnage": 13.5,
   "weightClass": "LIGHT",
   "Heatsinks": 10,
   "TopSpeed": 97.2,
@@ -191,7 +191,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light Striker",
+  "StockRole": "Light Recon and Skirmisher",
   "YangsThoughts": "",
   "FixedEquipment": [
     {

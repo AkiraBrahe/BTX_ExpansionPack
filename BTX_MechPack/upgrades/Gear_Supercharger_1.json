@@ -7,10 +7,13 @@
       "FailRoundsStart": 2,
       "FailFlatChance": 0.15,
       "FailChancePerTurn": 0.15,
-      "FailISDamage": 10,
-      "FailCrit": true,
-      "FailDamageLocations": [
+      "SelfCrit": true,
+      "FailCritComponents": true,
+      "FailCritLocations": [
         "CenterTorso"
+      ],
+      "FailCritOnlyComponentsTags": [
+        "component_engine"
       ],
       "FailPilotingBase": 3,
       "FailPilotingMult": 0.1,
