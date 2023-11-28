@@ -39,7 +39,7 @@
   "PrefabIdentifier": "chrprfmech_kanazuchibase-001",
   "PrefabBase": "kanazuchi",
   "Tonnage": 8,
-  "InitialTonnage": 0,
+  "InitialTonnage": -7.75,
   "weightClass": "LIGHT",
   "Heatsinks": 0,
   "TopSpeed": 15,

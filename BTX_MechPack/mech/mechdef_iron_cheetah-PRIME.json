@@ -189,7 +189,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",

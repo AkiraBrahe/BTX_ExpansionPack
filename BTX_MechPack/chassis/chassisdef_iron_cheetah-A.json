@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ironcheetahbase-001",
   "PrefabBase": "ironcheetah",
   "Tonnage": 100,
-  "InitialTonnage": 41.51,
+  "InitialTonnage": 38.51,
   "weightClass": "ASSAULT",
   "Heatsinks": 10,
   "TopSpeed": 64.8,

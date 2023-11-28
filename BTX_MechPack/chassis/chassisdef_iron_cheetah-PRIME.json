@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ironcheetahbase-001",
   "PrefabBase": "ironcheetah",
   "Tonnage": 100,
-  "InitialTonnage": 42.01,
+  "InitialTonnage": 38.51,
   "weightClass": "ASSAULT",
   "Heatsinks": 10,
   "TopSpeed": 64.8,
@@ -104,7 +104,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],

@@ -25,6 +25,14 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_AMSCAC_Clan",
       "ComponentDefType": "Weapon",

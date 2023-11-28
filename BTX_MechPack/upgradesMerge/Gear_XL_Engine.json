@@ -1,0 +1,13 @@
+{
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "not_critable_wo_components",
+      "BUILT-IN",
+      "BLACKLISTED",
+      "component_engine"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_mauler_MAL-1R",
     "Name": "MovementCapabilitiesDef for Mauler MAL-1R",
-    "Details": "",
+    "Details": "270 XL Fusion Engine - 4/7 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 95.0,

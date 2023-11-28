@@ -1,0 +1,32 @@
+{
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_case_left",
+      "mech_case_right",
+      "mech_quirk_barrelfist_la",
+      "mech_quirk_easytomaintain"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Earthwerks_VOL_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

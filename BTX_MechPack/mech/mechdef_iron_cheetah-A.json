@@ -115,14 +115,6 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -179,15 +171,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -218,7 +202,7 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -235,7 +219,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -283,6 +267,22 @@
     },
     {
       "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
