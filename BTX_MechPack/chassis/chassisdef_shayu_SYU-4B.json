@@ -8,7 +8,7 @@
     "UIName": "Sha Yu",
     "Id": "chassisdef_shayu_SYU-4B",
     "Name": "Sha Yu",
-    "Details": "",
+    "Details": "<color=#F79B26>The Sha Yu, or \"Shark\", is a 40-ton BattleMech based on the Raven design. It is one of the first 'Mechs to incorporate the stealth armor developed by the Capellan Confederation.</color>\n\nModified for close-range combat, the 4B variant completely reconfigures the Sha Yu to optimize it for use as a brawler in a C3 lance. The ER Large Lasers have been dropped in favor of a single LRM-5 launcher for long-range sparring, supported by three Medium Pulse Lasers for close combat. The two ER Medium Lasers remain, while the TAG is replaced by a C3 Slave Unit.",
     "Icon": "uixTxrIcon_shayu"
   },
   "MovementCapDefID": "movedef_shayu_SYU-4B",

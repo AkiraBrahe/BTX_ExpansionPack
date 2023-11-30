@@ -26,7 +26,7 @@
     "UIName": "Star Adder A",
     "Id": "mechdef_star_adder_blood_asp-A",
     "Name": "Star Adder",
-    "Details": "",
+    "Details": "<color=#F79B26>The Star Adder, known as the Blood Asp by the Clans, is a powerful 'Mech created as an insult to Clan Blood Spirit. Based on the Kingfisher, the Blood Asp is one of the first 'Mechs to field heavy laser technology.</color>\n\nThis configuration is built for long-range assault. It uses an advanced Targeting Computer to guide a pair of ER PPCs and two Heavy Large Lasers. Eleven additional heat sinks fail to keep this configuration cool, especially with the addition of three jump jets to enhance maneuverability. It also incorporates an ECM Suite to safeguard itself from enemy electronics.",
     "Icon": "uixTxrIcon_staradder"
   },
   "simGameMechPartCost": 2970000,

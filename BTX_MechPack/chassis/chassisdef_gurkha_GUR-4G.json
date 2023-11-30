@@ -8,7 +8,7 @@
     "UIName": "Gurkha",
     "Id": "chassisdef_gurkha_GUR-4G",
     "Name": "Gurkha",
-    "Details": "",
+    "Details": "<color=#F79B26>The Gurkha is a powerful light 'Mech developed by the Word of Blake to maintain Terra production lines active. Word of Blake's opponents prioritized eliminating it due to its C3i computer, which often meant that a MechWarrior would find themselves attacked by up to six extremely accurate BattleMechs.</color>\n\nThe 4G field modification, introduced in 3065, replaces the ER PPC with a Large Pulse Laser, trading long-range firepower for enhanced close-range accuracy and damage. This modification caters to the Gurkha's close-quarters combat prowess, further augmenting its ability to deliver a devastating blow at short range.",
     "Icon": "uixTxrIcon_gurkha"
   },
   "MovementCapDefID": "movedef_gurkha_GUR-4G",

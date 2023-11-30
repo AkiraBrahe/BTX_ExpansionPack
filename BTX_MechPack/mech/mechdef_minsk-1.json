@@ -27,7 +27,7 @@
     "UIName": "Minsk 1",
     "Id": "mechdef_minsk-1",
     "Name": "Minsk",
-    "Details": "",
+    "Details": "<color=#F79B26>The Minsk, Clan Ghost Bear's first domestically produced heavy BattleMech, was designed to serve as a bodyguard unit. Its form harkens back to the ancient Hammerhands designs, featuring barrel-like arms equipped with powerful ballistic weaponry.</color>\n\nA later revision of the MNK-101 trades the Beagle Active Probe for a Clan equivalent model and reduces the machine gun ammunition to half a ton. Each leg carries an A-Pod for anti-infantry work.",
     "Icon": "uixTxrIcon_minsk"
   },
   "simGameMechPartCost": 730000,

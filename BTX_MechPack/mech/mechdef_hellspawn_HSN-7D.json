@@ -27,7 +27,7 @@
     "UIName": "Hellspawn HSN-7D",
     "Id": "mechdef_hellspawn_HSN-7D",
     "Name": "Hellspawn",
-    "Details": "",
+    "Details": "<color=#F79B26>The flagship design of the General Motors Talcott production facility, the Hellspawn was designed in response to a call from the Armed Forces of the Federated Commonwealth for a modern, highly mobile, fire-support BattleMech to compete with the older Dervish.</color>\n\nThe Hellspawn boasts an array of cutting-edge features, including an endo steel chassis, an extralight engine, and advanced electronic countermeasures (ECM). Its primary armament comprises two LRM-10 launchers, delivering both direct and indirect long-range fire support. For self-defense and close-quarters combat, the Hellspawn carries three Medium Pulse Lasers.",
     "Icon": "uixTxrIcon_hellspawn"
   },
   "simGameMechPartCost": 840000,

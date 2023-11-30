@@ -26,7 +26,7 @@
     "UIName": "Storm Giant 2",
     "Id": "mechdef_storm_giant-2",
     "Name": "Storm Giant",
-    "Details": "",
+    "Details": "<color=#F79B26>The Storm Giant, an early Clan Steel Viper BattleMech, first appeared in the 29th century, a period known to the Clans as the Golden Century. Two hundred years later, the design was revived to give rise to the \"new\" Scylla assault BattleMech.</color>\n\nThis second variant of the Storm Giant exchanges the Streak SRMs for two ER Large Lasers, an ER Medium Laser, and an additional double heat sink. To accommodate these enhancements, the 'Mech employs ferro-fibrous armor instead of the standard plate armor.",
     "Icon": "uixTxrIcon_stormgiant"
   },
   "simGameMechPartCost": 3000000,

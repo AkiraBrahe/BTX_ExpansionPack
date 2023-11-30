@@ -8,7 +8,7 @@
     "UIName": "Falcon",
     "Id": "chassisdef_falcon_FLC-4Nb",
     "Name": "Falcon",
-    "Details": "",
+    "Details": "<color=#F79B26>The Falcon, a popular light recon and skirmisher 'Mech, was originally designed as an anti-infantry and bug hunter 'Mech. It became extinct until the arrival of Wolf's Dragoons in 3005.</color>\n\nBuilt for the Royal SLDF Divisions during the Amaris Civil War, the so-called Royal Falcon carries an experimental Snub-Nose PPC backed up by two Medium Lasers. It is also equipped with double heat sinks and is built on an endo steel chassis. All known examples and design specifications were taken with the Exodus Fleet.",
     "Icon": "uixTxrIcon_falcon"
   },
   "MovementCapDefID": "movedef_falcon_FLC-4Nb",

@@ -8,7 +8,7 @@
     "UIName": "Brigand",
     "Id": "chassisdef_brigand_LDT-1",
     "Name": "Brigand",
-    "Details": "",
+    "Details": "<color=#F79B26>The Brigand is the first BattleMech produced by a pirate band. Despite its unorthodox origins, the Brigand boasts advanced construction techniques and weaponry. Its success prompted the clandestine support of the Word of Blake, who sought to further enhance its capabilities.</color>\n\nConstructed from components either stolen or purchased via the black market, the Brigand carries a ER Medium Laser in each arm for medium-range combat, as well as two Medium Pulse Lasers for close combat. The 'Mech, which is complemented by ten double heat sinks, utilizes an arsenal consisting only of lasers to limit the amount of logistical support needed.",
     "Icon": "uixTxrIcon_brigand"
   },
   "MovementCapDefID": "movedef_brigand_LDT-1",

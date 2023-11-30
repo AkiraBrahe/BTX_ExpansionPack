@@ -8,7 +8,7 @@
     "UIName": "Stiletto",
     "Id": "chassisdef_stiletto_STL-7D",
     "Name": "Stiletto",
-    "Details": "",
+    "Details": "<color=#F79B26>The Stiletto is an ultralight BattleMech designed by the Draconis Combine in response to the Lyran Commonwealth's Commando, but deployed as a light scout instead.</color>\n\nEffectively a lighter Commando, the Stiletto mimics its weapons loadout on a smaller scale, sporting a torso-mounted SRM-4 with one ton of ammunition and a head-mounted Small Laser.",
     "Icon": "uixTxrIcon_stiletto"
   },
   "MovementCapDefID": "movedef_stiletto_STL-7D",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_stardrivestilletobase-001",
   "PrefabBase": "stardrivestilleto",
   "Tonnage": 15,
-  "InitialTonnage": 7.5,
+  "InitialTonnage": 8.5,
   "weightClass": "LIGHT",
   "Heatsinks": 0,
   "TopSpeed": 90.4,
@@ -192,7 +192,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Ultralight Harasser",
+  "StockRole": "Ultralight Recon",
   "YangsThoughts": "",
   "FixedEquipment": [
     {

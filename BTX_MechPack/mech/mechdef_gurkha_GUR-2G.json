@@ -25,7 +25,7 @@
     "UIName": "Gurkha GUR-2G",
     "Id": "mechdef_gurkha_GUR-2G",
     "Name": "Gurkha",
-    "Details": "",
+    "Details": "<color=#F79B26>The Gurkha is a powerful light 'Mech developed by the Word of Blake to maintain Terra production lines active. Word of Blake's opponents prioritized eliminating it due to its C3i computer, which often meant that a MechWarrior would find themselves attacked by up to six extremely accurate BattleMechs.</color>\n\nThe four ER Small Lasers and the Sword all lend themselves to the up-close style of fighting that the Gurkha is centered around. It can deal a fair amount of damage relatively quickly, but its real strength lies in the C3i that allows the other five members of the pilot's Level II to effectively fire upon the Gurkha's target. The ER PPC provides a strong long-range punch that may surprise opponents who do not expect such a powerful weapon on a light BattleMech.",
     "Icon": "uixTxrIcon_gurkha"
   },
   "simGameMechPartCost": 670000,
