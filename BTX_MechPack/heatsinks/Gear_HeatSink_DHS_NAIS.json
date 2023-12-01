@@ -2,24 +2,20 @@
   "Custom": {
     "ActivatableComponent": {
       "ButtonName": "pDHS",
-      "AutoActivateOnHeat": 1.0,
-      "AutoDeactivateOverheatLevel": 0.75,
+      "AutoActivateOnHeat": 60,
+      "AutoDeactivateOnHeat": 20,
       "FailRoundsStart": 1,
-      "FailFlatChance": 0.01,
+      "FailFlatChance": 0.05,
       "FailChancePerTurn": 0.05,
       "FailCheckOnActivationEnd": true,
       "CanNotBeActivatedManualy": true,
       "NoUniqueCheck": true,
       "SelfCrit": true,
+      "FailISDamage": 10,
       "ActiveByDefault": false,
-      "ActivationMessage": "Warning!",
+      "ActivationMessage": "WARNING!",
       "DeactivationMessage": "Nominal",
       "statusEffects": []
-    },
-    "ComponentExplosion": {
-      "HeatDamage": 50,
-      "ExplosionDamage": 50,
-      "StabilityDamage": 50
     }
   },
   "DissipationCapacity": 4,

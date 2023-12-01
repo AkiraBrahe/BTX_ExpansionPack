@@ -11,15 +11,11 @@
       "CanNotBeActivatedManualy": true,
       "NoUniqueCheck": true,
       "SelfCrit": true,
+      "FailISDamage": 10,
       "ActiveByDefault": false,
       "ActivationMessage": "WARNING!",
       "DeactivationMessage": "Nominal",
       "statusEffects": []
-    },
-    "ComponentExplosion": {
-      "HeatDamage": 20,
-      "ExplosionDamage": 20,
-      "StabilityDamage": 20
     }
   },
   "DissipationCapacity": 4,
