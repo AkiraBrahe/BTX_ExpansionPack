@@ -23,7 +23,7 @@ New rare weapons and upgrades are available in stores based on the year they wer
 
 The mod adds 74 new BattleMechs and 242 new 'Mech variants, utilizing nearly every CAB model that fits into the BattleTech Extended timeline and goes beyond it, reaching up to the year 3065.
 
-More 'Mechs variants, as well as entirely new 'Mechs, may be added in the future as new CAB models become available. Some of them will be available for purchase at factory shops in the next major update.
+The next major update, due next year, will add even more 'Mech variants. Additionally, some of these BattleMechs will be available for purchase directly from factory shops. As new CAB models become available, entirely new BattleMechs may also be introduced.
 
 | Pack #1               | Pack #2          | Pack #3                       | Pack #4                     |
 | :-------------------- | :--------------- | :---------------------------- | :-------------------------- |
@@ -50,7 +50,7 @@ More 'Mechs variants, as well as entirely new 'Mechs, may be added in the future
 |                       |                  |                               | Vanquisher                  |
 |                       |                  |                               | Verfolger                   |
 
-**Note**: 'Mech names in italics do not have their own CAB model and instead use a proxy that more or less closely resembles it.
+**Note**: 'Mech names in italics do not have their own CAB model and instead use a proxy that looks like it.
 
 ## Contents
 
@@ -184,7 +184,7 @@ More 'Mechs variants, as well as entirely new 'Mechs, may be added in the future
 | Rattlesnake JR7-31                 |   Light    |  35  | Inner Sphere | 3042  | Davion                                                 |
 | Rattlesnake JR7-31P                |   Light    |  35  | Inner Sphere | 3043  | Davion                                                 |
 | Razorback RZK-9S                   |   Light    |  30  | Inner Sphere | 3063  | Steiner-Davion                                         |
-| Rising Star RST-04                 |  Assault   |  80  | Inner Sphere | 2692  | ComStar, Snord's Irregulars                            |
+| Rising Star RST-4R                 |  Assault   |  80  | Inner Sphere | 2692  | ComStar, Snord's Irregulars                            |
 | Roughneck RGH-1A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
 | Roughneck RGH-1B                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
 | Roughneck RGH-1C                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
@@ -338,7 +338,7 @@ More 'Mechs variants, as well as entirely new 'Mechs, may be added in the future
 | Rampage RMP-2G                     |  Assault   |  85  | Inner Sphere | 3025  | Periphery States                                       |
 | Rampage RMP-4G                     |  Assault   |  85  | Inner Sphere | 3025  | ComStar/Word of Blake                                  |
 | Rampage RMP-5G                     |  Assault   |  85  | Inner Sphere | 3025  | ComStar/Word of Blake                                  |
-| Rising Star RST-04                 |  Assault   |  80  | Inner Sphere | 3025  | ComStar, Snord's Irregulars                            |
+| Rising Star RST-4R                 |  Assault   |  80  | Inner Sphere | 3025  | ComStar, Snord's Irregulars                            |
 | Screamer LAM SCR-1X-LAM            |   Medium   |  55  | Inner Sphere | 3025  | Snord's Irregulars                                     |
 | Stiletto STL-7D                    | Ultralight |  15  | Inner Sphere | 3025  | Kurita                                                 |
 | Titan TI-1A                        |  Assault   | 100  | Inner Sphere | 3025  | Davion                                                 |
@@ -569,7 +569,7 @@ More 'Mechs variants, as well as entirely new 'Mechs, may be added in the future
 | Extended LRM (ELRM)               |  Missile  | 3054  | Steiner<br />Davion (3054+) |
 | Enhanced LRM (NLRM)               |  Missile  | 3058  | Davion                      |
 |  ----                             |           |       |                             |
-| Fluid Gun                         |  Support  |  PS   | *Chemicals*                 |
+| Fluid Gun                         |  Support  |  PS   | *Chemical*                  |
 | Heavy Flamer                      |  Support  | 3063  | Steiner                     |
 | Heavy Machine Gun                 |  Support  | 3063  | Calderon                    |
 | Light Machine Gun                 |  Support  | 3064  | Liao                        |
@@ -583,10 +583,12 @@ More 'Mechs variants, as well as entirely new 'Mechs, may be added in the future
 | Armor-Piercing Ammo               |   Ammo    | 3055  | Davion<br />Steiner (3055+) |
 | Precision Ammo                    |   Ammo    | 3058  | Davion                      |
 |  ----                             |           |       |                             |
+| Laser Insulator                   |  Upgrade  | 2575  | *Electronics*               |
 | Targeting Computer                |  Upgrade  | 3052  | *Research*                  |
 | Bloodhound Active Probe           |  Upgrade  | 3058  | *Black Market*              |
 | Laser Anti-Missile System         |  Upgrade  | 3059  | *Research*                  |
 | Blue Shield Particle Field Damper |  Upgrade  | 3061  | *Research*                  |
+| Apollo MRM FCS                    |  Upgrade  | 3065  | *Research*                  |
 | Small/Medium/Large Shield         |  Upgrade  | 3065  | *Research*                  |
 
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs.
@@ -665,30 +667,32 @@ This optional submod allows the AI to randomly use different types of ammunition
 
 Some changes have been made to address minor issues and to add the latest CAB models to the current version of BEX.
 
-| Name                | Changes                                             |
-| :------------------ | :-------------------------------------------------- |
-| Annihilator         | Reduced movement to 3/5 hexes (from 4/7)            |
-| Atlas II AS7-D-HT   | Changed armor placement and moved DHS to the engine |
-| Enfield             | Switched to a new CAB model                         |
-| Exterminator        | Switched to a new CAB model                         |
-| Firefly FFL-3A      | Fixed available tonnage                             |
-| Firestarter FS9-OF  | Added Large Engine quirk                            |
-| Flashman            | Switched to a new CAB model                         |
-| Flea FLE-14         | Fixed max armor values for an ultralight            |
-| Garm                | Reduced overall size to better match tonnage        |
-| Goliath             | Reduced stability                                   |
-| Grand Dragon DRG-1G | Fixed energy hadpoints placement                    |
-| Gunslinger          | Switched to a new CAB model                         |
-| Hermes II           | Reduced overall size to better match tonnage        |
-| Hornet HNT-161      | Fixed armor placement                               |
-| Linesman LMN-1PT    | Changed to the correct prefab base model            |
-| Loader King LDK-5C  | Added more armor and missing Cargo Bay              |
-| Locust LCT-3S       | Fixed available tonnage                             |
-| Naginata            | Switched to a new CAB model                         |
-| Phoenix Hawk LAM    | Changed to a different CAB model                    |
-| Piranha 1           | Switched to single heat sinks                       |
-| Rifleman RFL-5CS    | Added Large Engine quirk                            |
-| Shadow Hawk         | Added Rugged quirk                                  |
-| Thunder THR-1L      | Added missing DHS in the engine                     |
-| Trebuchet TBT-3C    | Added Large Engine quirk                            |
-| UrbanMech           | Reduced movement to 3/5 hexes (from 4/7)            |
+| Name                   | Changes                                             |
+| :--------------------- | :-------------------------------------------------- |
+| Annihilator            | Reduced movement to 3/5 hexes (from 4/7)            |
+| Atlas II AS7-D-HT      | Changed armor placement and moved DHS to the engine |
+| Behemoth (Stone Rhino) | Changed to the official designation "BHN"           |
+| Enfield                | Switched to a new CAB model                         |
+| Exterminator           | Switched to a new CAB model                         |
+| Firefly FFL-3A         | Fixed available tonnage                             |
+| Firestarter FS9-OF     | Added Large Engine quirk                            |
+| Flashman               | Switched to a new CAB model                         |
+| Flea FLE-14            | Fixed max armor values for an ultralight            |
+| Garm                   | Reduced overall size to better match tonnage        |
+| Goliath                | Reduced stability                                   |
+| Grand Dragon DRG-1G    | Fixed energy hadpoints placement                    |
+| Gunslinger             | Switched to a new CAB model                         |
+| Hermes II              | Reduced overall size to better match tonnage        |
+| Hornet HNT-161         | Fixed armor placement                               |
+| Linesman LMN-1PT       | Changed to the correct prefab base model            |
+| Loader King LDK-5C     | Added more armor and missing Cargo Bay              |
+| Locust LCT-3S          | Fixed available tonnage                             |
+| Naginata               | Switched to a new CAB model                         |
+| Ost Mechs              | Added cross assembly between Ostroc and Ostsol      |
+| Phoenix Hawk LAM       | Changed to a different CAB model                    |
+| Piranha 1              | Switched to single heat sinks                       |
+| Rifleman RFL-5CS       | Added Large Engine quirk                            |
+| Shadow Hawk            | Added Rugged quirk                                  |
+| Thunder THR-1L         | Added missing DHS in the engine                     |
+| Trebuchet TBT-3C       | Added Large Engine quirk                            |
+| UrbanMech              | Reduced movement to 3/5 hexes (from 4/7)            |
