@@ -2,7 +2,7 @@
     "Name": "BT_Extended_Timeline",
     "Enabled": true,
 	
-    "Version": "1.9.3.2",
+    "Version": "1.9.3.5",
 
     "Description": "(Optional) A Lore based timeline that will change planet ownership and factions on the map as time in game goes by.",
     "Author": "Haree78, Ablomis, NickAragua",
@@ -204,10 +204,6 @@
 			"3030-11-23T00:00:00":
 			[
 				"starsystemdef_Corey"
-			],
-			"3051-12-22T00:00:00":
-			[
-				"starsystemdef_Irece"
 			]
 		},
 		
