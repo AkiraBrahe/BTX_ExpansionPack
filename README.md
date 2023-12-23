@@ -23,7 +23,7 @@ New rare weapons and upgrades are available in stores based on the year they wer
 
 The mod adds 76 new BattleMechs and 242 new 'Mech variants, utilizing nearly every CAB model that fits into the BattleTech Extended timeline and goes beyond it, reaching up to the year 3065.
 
-The next major update, due next year, will introduce a wealth of new 'Mech variants, some of which will be available in factory shops. Additionally, as new CAB models become available, entirely new BattleMechs may also be introduced.
+The next major update, due next year, will introduce a wealth of new 'Mech variants as well as an overhaul of several factions' rosters that previously used a generic one (more info below). Additionally, as new CAB models become available, entirely new BattleMechs may also be introduced.
 
 | Pack #1               | Pack #2          | Pack #3                       | Pack #4                     |
 | :-------------------- | :--------------- | :---------------------------- | :-------------------------- |
@@ -481,6 +481,26 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 </details>
 
 ### Other Changes
+
+<details>
+  <summary>Faction Roster</summary>
+Currently, only the mercenaries and pirates have a revamped roster. In the upcoming major update, additional factions will gain access to a broader selection of 'Mechs and combat vehicles, including:
+
+| Faction/Unit                         |      Years Active   | Unit Rating                        |
+| :----------------------------------- | :-----------------: | :--------------------------------- |
+| Arc-Royal Defense Cordon             |      3058-3067      | C/Regulars                         |
+| Chaos March                          |      3057-3073      | F/Locals                           |
+| Clan Wolf-in-Exile                   |      3057-3151      | B/Front Lines<br>C/Second Lines    |
+| Duchy of Andurien                    | 3030-3040,<br>3079- | C/Regulars                         |
+| Eridani Light Horse                  |        2702-        | B/Veterans                         |
+| Kell Hounds                          |        3010-        | A/Elites                           |
+| New Colony Region /<br>Fronc Reaches | 3060-3066<br>3067-  | C/Regulars                         |
+| Northwind Highlanders                |        -3081        | B/Veterans<br>A/Elites (3059+)     |
+| Other Mercenaries                    |        n/a          | C/Regulars<br>F/Locals (Periphery) |
+| Pirates                              |        n/a          | F/Locals                           |
+| Security Forces                      |        n/a          | F-/Locals                          |
+| Wolf's Dragoons                      |        3005-        | A/Elites                           |
+</details>
 
 <details>
   <summary>Shell Shuffler</summary>
