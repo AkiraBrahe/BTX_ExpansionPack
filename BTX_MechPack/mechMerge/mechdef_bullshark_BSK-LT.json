@@ -25,7 +25,7 @@
     "UIName": "Bull Shark BSK-LT",
     "Id": "mechdef_bullshark_BSK-LT",
     "Name": "Bull Shark",
-    "Details": "The BSK-LT variant replaces the Thumper of the BSK-MAZ with a Long Tom Artillery Cannon. To fit the massive weapon on the Bull Shark, one of the two LB 10-X ACs and two ER Medium Lasers had to be removed.",
+    "Details": "The BSK-LT variant replaces the Thumper of the BSK-MAZ with a Long Tom Artillery Cannon. To fit the massive weapon on the Bull Shark, one of the two LB 10-X ACs and two ER Medium Lasers had to be removed.\n",
     "Icon": "uixTxrIcon_bullshark"
   },
   "RequiredToSpawnCompanyTags": {

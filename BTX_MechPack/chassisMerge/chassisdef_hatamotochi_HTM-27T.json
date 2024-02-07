@@ -1,0 +1,16 @@
+{
+  "ChassisTags": {
+    "items": [
+      "chassis_endo",
+      "chassis_CrossAssemblyAllowedWith_Hatamoto-Hi",
+      "chassis_CrossAssemblyAllowedWith_Hatamoto-Kaze",
+      "chassis_CrossAssemblyAllowedWith_Hatamoto-Mizo",
+      "chassis_CrossAssemblyAllowedWith_Hatamoto-Ku",
+      "mech_case_left",
+      "mech_case_right",
+      "mech_quirk_barrelfist_la",
+      "mech_quirk_easytomaintain"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

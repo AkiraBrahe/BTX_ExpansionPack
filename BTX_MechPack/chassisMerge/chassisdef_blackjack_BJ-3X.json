@@ -1,4 +1,11 @@
 {
   "InitialTonnage": 13.5,
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_quirk_badreputation"
+    ],
+    "tagSetSourceFile": ""
+  },
   "FixedEquipment": []
 }

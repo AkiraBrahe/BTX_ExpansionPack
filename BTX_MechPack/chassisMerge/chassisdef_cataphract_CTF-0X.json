@@ -5,7 +5,6 @@
       "ComponentDefID": "Gear_Remote_Sensor_Dispenser",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -14,7 +13,6 @@
       "ComponentDefID": "Gear_SensorCAC_LiaoProtoECM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -23,7 +21,6 @@
       "ComponentDefID": "Gear_SensorCAC_LiaoProtoAP",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
