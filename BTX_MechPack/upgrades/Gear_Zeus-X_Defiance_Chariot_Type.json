@@ -79,7 +79,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "Head.Structure",
         "operation": "Float_Add",
-        "modValue": "-6.0",
+        "modValue": "-8.0",
         "modType": "System.Single"
       }
     },

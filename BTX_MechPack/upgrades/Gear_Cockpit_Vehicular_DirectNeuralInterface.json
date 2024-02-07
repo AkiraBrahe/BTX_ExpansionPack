@@ -84,7 +84,7 @@
           "Description": {
             "Id": "StatusEffect-VDNI-ToHit",
             "Name": "DIRECT NEURAL INTERFACE",
-            "Details": "Arm mounted weapons have +2 accuracy.",
+            "Details": "Arm-mounted weapons have +2 accuracy.",
             "Icon": "uixSvgIcon_equipment_TTS"
           },
           "nature": "Buff",

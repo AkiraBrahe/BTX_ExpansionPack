@@ -1,0 +1,104 @@
+{
+  "ID": "hardpointdatadef_arcticfox",
+  "HardpointData": [
+    {
+      "location": "leftarm",
+      "weapons": [
+        [
+          "chrprfweap_turkina_leftarm_ac5_bh1",
+          "chrprfweap_turkina_leftarm_ac10_bh1",
+          "chrprfweap_turkina_leftarm_ac20_bh1",
+          "chrprfweap_turkina_leftarm_gauss_bh1",
+          "chrprfweap_turkina_leftarm_laser_eh1",
+          "chrprfweap_turkina_leftarm_lbx10_bh1",
+          "chrprfweap_turkina_leftarm_lrm20_mh1"
+        ],
+        [
+          "chrprfweap_turkina_leftarm_ac10_bh2",
+          "chrprfweap_turkina_leftarm_laser_eh2",
+          "chrprfweap_turkina_leftarm_lbx10_bh2",
+          "chrprfweap_turkina_leftarm_lrm10_mh2",
+          "chrprfweap_turkina_leftarm_srm6_mh2"
+        ]
+      ],
+      "blanks": [
+        "chrprfweap_turkina_leftarm_blank_eh1"
+      ],
+      "mountingPoints": []
+    },
+    {
+      "location": "lefttorso",
+      "weapons": [
+        [
+          "chrprfweap_turkina_lefttorso_ac5_bh1",
+          "chrprfweap_turkina_lefttorso_ac10_bh1",
+          "chrprfweap_turkina_lefttorso_ac20_bh1",
+          "chrprfweap_turkina_lefttorso_gauss_bh1",
+          "chrprfweap_turkina_lefttorso_laser_eh1"
+        ]
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rightarm",
+      "weapons": [
+        [
+          "chrprfweap_turkina_rightarm_ac10_bh1",
+          "chrprfweap_turkina_rightarm_ac20_bh1",
+          "chrprfweap_turkina_rightarm_gauss_bh1",
+          "chrprfweap_turkina_rightarm_laser_eh1",
+          "chrprfweap_turkina_rightarm_lbx10_bh1",
+          "chrprfweap_turkina_rightarm_lrm20_mh1"
+        ],
+        [
+          "chrprfweap_turkina_rightarm_ac5_bh2",
+          "chrprfweap_turkina_rightarm_ac10_bh2",
+          "chrprfweap_turkina_rightarm_laser_eh2",
+          "chrprfweap_turkina_rightarm_lbx10_bh2",
+          "chrprfweap_turkina_rightarm_lrm10_mh2",
+          "chrprfweap_turkina_rightarm_srm6_mh2"
+        ]
+      ],
+      "blanks": [
+        "chrprfweap_turkina_rightarm_blank_eh1"
+      ],
+      "mountingPoints": []
+    },
+    {
+      "location": "righttorso",
+      "weapons": [
+        [
+          "chrprfweap_turkina_righttorso_ac5_bh1",
+          "chrprfweap_turkina_righttorso_ac10_bh1",
+          "chrprfweap_turkina_righttorso_ac20_bh1",
+          "chrprfweap_turkina_righttorso_gauss_bh1",
+          "chrprfweap_turkina_righttorso_laser_eh1",
+          "chrprfweap_turkina_righttorso_lbx10_bh1"
+        ]
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "centertorso",
+      "weapons": [
+        [
+          "chrprfweap_turkina_centertorso_laser_eh1"
+        ]
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "head",
+      "weapons": [
+        [
+          "chrprfweap_turkina_head_laser_eh1"
+        ]
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

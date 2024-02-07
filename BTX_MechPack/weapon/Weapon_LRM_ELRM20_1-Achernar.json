@@ -2,11 +2,11 @@
   "Category": "Missile",
   "Type": "LRM",
   "WeaponSubType": "LRM20",
-  "MinRange": 325,
+  "MinRange": 300,
   "MaxRange": 1140,
   "RangeSplit": [
-    760,
-    760,
+    660,
+    660,
     1140
   ],
   "AmmoCategory": "LRM",

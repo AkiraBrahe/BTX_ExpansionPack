@@ -9,8 +9,8 @@
     90,
     90
   ],
-  "ammoCategory": "Flamer",
-  "StartingAmmoCapacity": 0,
+  "ammoCategoryID": "Flamer",
+  "StartingAmmoCapacity": 4,
   "HeatGenerated": 0,
   "Damage": 5,
   "OverheatedDamageMultiplier": 0,

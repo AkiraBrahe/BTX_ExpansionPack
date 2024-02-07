@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_loaderking_LDK-5C",
     "Name": "MovementCapabilitiesDef for Loader King LDK-5C",
-    "Details": "195 I.C.E. - 4/7 movement",
+    "Details": "195 I.C.E. Engine - 4/7 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 95.0,

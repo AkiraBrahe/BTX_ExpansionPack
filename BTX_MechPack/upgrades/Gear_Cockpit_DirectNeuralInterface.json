@@ -84,7 +84,7 @@
           "Description": {
             "Id": "StatusEffect-DNI-ToHit",
             "Name": "DIRECT NEURAL INTERFACE",
-            "Details": "Arm mounted weapons have +1 accuracy.",
+            "Details": "Arm-mounted weapons have +1 accuracy.",
             "Icon": "uixSvgIcon_equipment_TTS"
           },
           "nature": "Buff",
@@ -118,7 +118,7 @@
           "Description": {
             "Id": "StatusEffect-DNI-ToHit",
             "Name": "DIRECT NEURAL INTERFACE",
-            "Details": "Arm mounted weapons have +1 accuracy.",
+            "Details": "Arm-mounted weapons have +1 accuracy.",
             "Icon": "uixSvgIcon_equipment_TTS"
           },
           "nature": "Buff",

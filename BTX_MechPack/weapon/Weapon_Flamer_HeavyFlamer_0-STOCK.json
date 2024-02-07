@@ -30,7 +30,7 @@
   "Instability": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_Flamer",
   "Description": {
-    "Cost": 22500,
+    "Cost": 60000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Defiance",
