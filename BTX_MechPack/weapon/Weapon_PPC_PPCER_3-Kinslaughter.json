@@ -1,0 +1,108 @@
+{
+  "Category": "Energy",
+  "Type": "PPC",
+  "WeaponSubType": "PPCER",
+  "MinRange": 0,
+  "MaxRange": 480,
+  "RangeSplit": [
+    300,
+    300,
+    480
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 28,
+  "Damage": 60,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1.25,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 3,
+  "Instability": 40,
+  "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+  "Description": {
+    "Cost": 4650000,
+    "Rarity": 100,
+    "Purchasable": false,
+    "Manufacturer": "Martinson Armaments",
+    "Model": "Extended-Range PPC",
+    "UIName": "Kinslaughter H ER PPC",
+    "Id": "Weapon_PPC_PPCER_3-Kinslaughter",
+    "Name": "Kinslaughter H ER PPC",
+    "Details": "The Kinslaughter H-Class was considered the apex of the ER PPC during the Star League era, noted for its inclusion of special insulating cones that made the weapon both easier to maintain and ensured it generated less heat than many other models of ER PPCs. Only ComStar and the Word of Blake are still capable of building the Kinslaughter H-Class.",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "+ 25% Crit.",
+  "BonusValueB": "- 4 Heat",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "PPC",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 7,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": 1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "effectTargetType": "NotSet",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityDefPPC",
+        "Name": "SENSORS IMPAIRED",
+        "Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_long",
+      "BLACKLISTED",
+      "ppc_capacitor_attachable"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Modes": [
+    {
+      "Id": "ERPPCMode_ST",
+      "UIName": "ST",
+      "Name": "Standard",
+      "Description": "PPC operates normally.",
+      "isBaseMode": true
+    }
+  ]
+}

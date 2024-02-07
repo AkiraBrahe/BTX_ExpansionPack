@@ -25,7 +25,7 @@
   "CriticalChanceMultiplier": 1,
   "AOECapable": true,
   "AOERange": 120,
-  "AOEDamage": 100,
+  "AOEDamage": 150,
   "AOEHeatDamage": 0,
   "AOEInstability": 75,
   "IndirectFireCapable": true,
