@@ -12,7 +12,7 @@
   "AmmoCategory": "TBOLT20",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
-  "Damage": 80,
+  "Damage": 100,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -26,7 +26,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 2,
-  "Instability": 60,
+  "Instability": 40,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
   "Description": {
     "Cost": 900000,
