@@ -11,6 +11,7 @@
       "unit_armor_low",
       "unit_speed_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_dlc",
       "unit_LosTech"
     ],
@@ -27,7 +28,7 @@
     "UIName": "Cyclops CP-11-A-DC",
     "Id": "mechdef_cyclops_CP-11-A-DC",
     "Name": "Cyclops",
-    "Details": "<color=#F79B26>The Cyclops was designed as a headquarters unit for Star League Defense Force field commanders, with a good mix of long- and short-range weapons and a large engine to keep up with mobile operations.</color>\n\nA variant of the 11-A first modified by the Capellan Confederation, one ton of Gauss and LRM ammunition and also one heat sink are removed to allow for the installation of a Command Console.",
+    "Details": "A sub-variant of the 11-A first modified by the Capellan Confederation during the technological renaissance of the late Succession Wars, one ton each of Gauss and LRM ammunition and one heat sink are removed to allow for the installation of a Command Console.\n",
     "Icon": "uixTxrIcon_cyclops"
   },
   "simGameMechPartCost": 1240000,

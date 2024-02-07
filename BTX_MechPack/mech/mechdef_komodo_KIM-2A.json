@@ -6,10 +6,11 @@
       "unit_role_brawler",
       "unit_lance_vanguard",
       "unit_range_short",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_jumpOK",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Komodo KIM-2A",
     "Id": "mechdef_komodo_KIM-2A",
     "Name": "Komodo",
-    "Details": "<color=#F79B26>The Komodo is designed to hunt and kill Clan Elemental battle armor. The 'Mech is built to be able to catch up to and destroy them with exceptional speed and maneuverability.</color>\n\nThe 2A variant of the Komodo is a modification that looks to increase the 'Mech's reach by replacing five of the Medium Lasers with a single ER Large Laser, allowing the Komodo to strike at a much farther range at the cost of raw firepower.",
+    "Details": "<color=#F79B26>The Komodo is designed to hunt and kill Clan Elemental battle armor. The 'Mech is built to be able to catch up to and destroy them with exceptional speed and maneuverability.</color>\n\nThe 2A variant of the Komodo is a modification that looks to increase the 'Mech's reach by replacing five of the Medium Lasers with a single ER Large Laser, allowing the Komodo to strike at a much farther range at the cost of raw firepower.\n",
     "Icon": "uixTxrIcon_komodo"
   },
   "simGameMechPartCost": 770000,

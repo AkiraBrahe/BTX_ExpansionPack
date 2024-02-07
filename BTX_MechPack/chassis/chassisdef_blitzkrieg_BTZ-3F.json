@@ -8,7 +8,7 @@
     "UIName": "Blitzkrieg",
     "Id": "chassisdef_blitzkrieg_BTZ-3F",
     "Name": "Blitzkrieg",
-    "Details": "<color=#F79B26>Taking its name from a German term meaning \"Lightning War\", the Blitzkrieg brings an immense amount of firepower to bear on a target before fading away just as quickly.</color>\n\nThe Blitzkrieg is built on a lightweight endo steel chassis and six and a half tons of ferro-fibrous armor, allowing the 'Mech to carry a massive UAC/20 that can fire at twice the rate as a standard autocannon. This powerful weapon, combined with the 'Mech's high speed provided by a Magna 350 XL engine, let the Blitzkrieg truly live up to its name.",
+    "Details": "<color=#F79B26>Taking its name from a German term meaning \"Lightning War\", the Blitzkrieg brings an immense amount of firepower to bear on a target before fading away just as quickly.</color>\n\nThe Blitzkrieg is built on a lightweight endo steel chassis and six and a half tons of ferro-fibrous armor, allowing the 'Mech to carry a massive UAC/20 that can fire at twice the rate as a standard autocannon. This powerful weapon, combined with the 'Mech's high speed provided by a Magna 350 XL engine, let the Blitzkrieg truly live up to its name.\n",
     "Icon": "uixTxrIcon_blitzkrieg"
   },
   "MovementCapDefID": "movedef_blitzkrieg_BTZ-3F",
@@ -196,14 +196,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Lightning Fast Striker",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Blitzkrieg is Lyran's answer to fast 'Mechs, zipping around the battlefield at 118 km/h thanks to an enormous 350 XL engine. It may only have one weapon, but in true Lyran style, it's the biggest they could fit: an Ultra Autocannon/20.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -212,7 +211,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -221,7 +219,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -230,7 +227,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -239,7 +235,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -248,7 +243,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -257,7 +251,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -266,7 +259,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -275,7 +267,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -284,7 +275,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

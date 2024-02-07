@@ -8,7 +8,7 @@
     "UIName": "Naga",
     "Id": "chassisdef_naga-D",
     "Name": "Naga",
-    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant downgrades the missile launcher of the C to an SRM-4 and upgrades one of the ER Small Lasers to an ER Medium Laser.",
+    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant downgrades the missile launcher of the C configuration to an SRM-4 while upgrading one of the two ER Small Lasers to an ER Medium Laser.\n",
     "Icon": "uixTxrIcon_naga"
   },
   "MovementCapDefID": "movedef_naga-D",
@@ -154,46 +154,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 15,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 15,
+      "z": -1
     },
     {
       "x": 3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     },
     {
       "x": -3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     }
   ],
   "VariantName": "NGA-D",
@@ -210,14 +210,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Artillery & Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "Another shift in support weapons, this Naga ditches the SRM-6 for a SRM-4 launcher and an ER Medium Laser. More dakka for close-range brawls, and still some long-range punch from the Arrow IVs.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,7 +225,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -235,7 +233,6 @@
       "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -244,7 +241,6 @@
       "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

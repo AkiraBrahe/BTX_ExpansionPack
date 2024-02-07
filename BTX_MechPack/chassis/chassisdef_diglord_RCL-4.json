@@ -8,7 +8,7 @@
     "UIName": "Dig Lord",
     "Id": "chassisdef_diglord_RCL-4",
     "Name": "Dig Lord",
-    "Details": "<color=#F79B26>The Dig Lord is a heavy-class mining IndustrialMech based on an older early Star League Era design known as the Dig King.</color>\n\nThe RCL-4 is equipped with a Rock Cutter in its right arm and a Mining Drill in its left arm. The 'Mech has four Fluid Guns with ten tons of liquid storage for them. The 'Mech is also equipped with an Extended Fuel Tank for prolonged use in the field.",
+    "Details": "<color=#F79B26>The Dig Lord is a heavy-class mining IndustrialMech based on an older early Star League Era design known as the Dig King.</color>\n\nThe RCL-4 is equipped with a Rock Cutter in its right arm and a Mining Drill in its left arm. The 'Mech has four Fluid Guns with ten tons of liquid storage for them. The 'Mech is also equipped with an Extended Fuel Tank for prolonged use in the field.\n",
     "Icon": "uixTxrIcon_digking"
   },
   "MovementCapDefID": "movedef_diglord_RCL-4",
@@ -139,46 +139,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 18.0,
-      "z": 18.0
+      "x": 0,
+      "y": 12,
+      "z": 1
     },
     {
-      "x": 4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 18.0,
-      "z": 18.0
+      "x": 0,
+      "y": 12,
+      "z": 1
     },
     {
-      "x": 4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 3.0,
-      "y": 6.0,
-      "z": 6.0
+      "x": 3,
+      "y": 5,
+      "z": 0
     },
     {
-      "x": -3.0,
-      "y": 6.0,
-      "z": 6.0
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "RCL-4",
@@ -198,7 +198,6 @@
       "ComponentDefID": "Gear_Extended_Fuel_Tank_1t",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -207,7 +206,6 @@
       "ComponentDefID": "Gear_Actuator_DigKing_MiningDrill",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -216,7 +214,6 @@
       "ComponentDefID": "Gear_Actuator_DigKing_RockCutter",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

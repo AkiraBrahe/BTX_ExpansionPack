@@ -8,7 +8,7 @@
     "UIName": "Peregrine",
     "Id": "chassisdef_peregrine_horned_owl-2",
     "Name": "Peregrine",
-    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line BattleMech capable of highly accurate fire designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis variant trades in its lasers for six LRM-5s and four tons of ammunition. Though it is entirely ammunition-dependent, this model can provide sustained support, as it does not build up heat under normal circumstances.",
+    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line Clan BattleMech capable of highly accurate fire and designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis variant trades in its lasers for six LRM-5s and four tons of ammunition. Though it is entirely ammunition-dependent, this model can provide sustained support, as it does not build up heat under normal circumstances.\n",
     "Icon": "uixTxrIcon_peregrine"
   },
   "MovementCapDefID": "movedef_peregrine_horned_owl-2",
@@ -20,6 +20,8 @@
   "InitialTonnage": 17,
   "weightClass": "LIGHT",
   "Heatsinks": 10,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
   "MaxJumpjets": 6,
   "Stability": 100,
   "StabilityDefenses": [
@@ -145,46 +147,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 9.5,
-      "z": 9.5
+      "x": 0,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": 4,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": -4,
+      "y": 15,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 9.5,
-      "z": 9.5
+      "x": 0,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": 4,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": 0
     },
     {
       "x": 2.5,
-      "y": 8.5,
-      "z": 8.5
+      "y": 6,
+      "z": 2.5
     },
     {
-      "x": -1.5,
-      "y": 3.0,
-      "z": 3.0
-    },
-    {
-      "x": 1.5,
-      "y": 3.0,
-      "z": 3.0
+      "x": -2.5,
+      "y": 6,
+      "z": 2.5
     }
   ],
   "VariantName": "PRG-2",
@@ -200,6 +202,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Harasser",
-  "YangsThoughts": "",
+  "YangsThoughts": "Peregrine 2 goes long-range with six LRM-5s and four tons of ammo. It better, since that's its only weapon! Use it wisely, ammo ain't infinite.",
   "FixedEquipment": []
 }

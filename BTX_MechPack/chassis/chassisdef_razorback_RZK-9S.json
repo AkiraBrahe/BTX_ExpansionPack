@@ -8,7 +8,7 @@
     "UIName": "Razorback",
     "Id": "chassisdef_razorback_RZK-9S",
     "Name": "Razorback",
-    "Details": "<color=#F79B26>The Razorback is a design that excels at little, but is similarly deficient in few areas. Its weapon loadout allows it to be effective at both long and short range, against both armored and unarmored targets.</color>\n\nThe RZK-9S includes a ER large laser for long distance fire, supported by a Streak SRM-4. Its array of four Machine Guns allow the 'Mech to make very short work of infantry platoons.",
+    "Details": "<color=#F79B26>The Razorback is a design that excels at little, but is similarly deficient in few areas. Its weapon loadout allows it to be effective at both long and short range, against both armored and unarmored targets.</color>\n\nThe RZK-9S includes a ER large laser for long distance fire, supported by a Streak SRM-4. Its array of four Machine Guns allow the 'Mech to make very short work of infantry platoons.\n",
     "Icon": "uixTxrIcon_razorback"
   },
   "MovementCapDefID": "movedef_razorback_RZK-9S",
@@ -212,7 +212,6 @@
       "ComponentDefID": "Gear_Light_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -221,7 +220,6 @@
       "ComponentDefID": "Gear_Light_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -230,7 +228,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -239,7 +236,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -248,7 +244,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -257,7 +252,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -266,7 +260,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -275,7 +268,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -284,7 +276,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

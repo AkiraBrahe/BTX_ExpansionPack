@@ -8,8 +8,9 @@
       "unit_lance_assassin",
       "unit_range_medium",
       "unit_armor_high",
-      "unit_speed_high",
-      "unit_release"
+      "unit_speed_medium",
+      "unit_release",
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,7 +25,7 @@
     "UIName": "Lineholder KW1-LH2",
     "Id": "mechdef_lineholder_KW1-LH2",
     "Name": "Lineholder",
-    "Details": "<color=#F79B26>The Lineholder is a 55-ton BattleMech that is quickly becoming the go-to garrison machine for minor factions that can afford brand new BattleMechs.</color>\n\nThe Lineholder is a low-cost medium 'Mech built with conventional technologies, including a 275-rated fusion engine, 10 tons of standard armor, and 14 single heat sinks. The Lineholder's primary weapons are a pair of LRM-5 launchers, which allow the 'Mech to keep an enemy at a safe distance and provide limited indirect fire support. They are backed up by a Large Laser and four Medium Lasers for close combat.",
+    "Details": "<color=#F79B26>The Lineholder is a 55-ton BattleMech that is quickly becoming the go-to garrison machine for minor factions that can afford brand new BattleMechs.</color>\n\nThe Lineholder is a low-cost medium 'Mech built with conventional technologies, including a 275-rated fusion engine, 10 tons of standard armor, and 14 single heat sinks. The Lineholder's primary weapons are a pair of LRM-5 launchers, which allow the 'Mech to keep an enemy at a safe distance and provide limited indirect fire support. They are backed up by a Large Laser and four Medium Lasers for close combat.\n",
     "Icon": "uixTxrIcon_lineholder"
   },
   "simGameMechPartCost": 450000,

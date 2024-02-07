@@ -8,7 +8,7 @@
     "UIName": "Vulture",
     "Id": "chassisdef_vulture_mad_dog-FURY",
     "Name": "Vulture",
-    "Details": "<color=#F79B26>The Mad Dog is a heavy Clan OmniMech used for long-range indirect fire support. It was allegedly intended to hold a hill and maintain constant watch over the entire battlefield, like a vulture waiting for its prey.</color>\n\nThe \"Fury\" is the customized Vulture OmniMech piloted by Katherine Furey, one of the few Bloodnamed commanders of Clan Smoke Jaguar to survive the attack on Cermak. This variant employs an advanced Star League weapon, the powerful Rail Gun, which is supported by two ER Large Lasers and a Light Active Probe, allowing the 'Mech to fulfill its role as both a reconnaissance and a long-range striker.",
+    "Details": "The \"Fury\" is the customized Vulture OmniMech piloted by Katherine Furey, one of the few Bloodnamed commanders of Clan Smoke Jaguar to survive the attack on Cermak. This variant employs an advanced Star League weapon, the powerful Rail Gun, which is supported by four ER Medium Lasers and a Light Active Probe, allowing the 'Mech to fulfill its role as both a reconnaissance and a long-range striker.\n",
     "Icon": "uixTxrIcon_vulture"
   },
   "MovementCapDefID": "movedef_vulture_mad_dog-FURY",
@@ -17,10 +17,10 @@
   "PrefabIdentifier": "chrprfmech_maddogbase-001",
   "PrefabBase": "maddog",
   "Tonnage": 60,
-  "InitialTonnage": 7.02,
+  "InitialTonnage": 10.5,
   "weightClass": "HEAVY",
   "Heatsinks": 10,
-  "TopSpeed": 64.8,
+  "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 4,
   "Stability": 160,
@@ -152,46 +152,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 18.0,
-      "z": 18.0
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 18.0,
-      "z": 18.0
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": 3.0,
-      "y": 6.0,
-      "z": 6.0
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     },
     {
-      "x": -3.0,
-      "y": 6.0,
-      "z": 6.0
+      "x": 2,
+      "y": 3,
+      "z": 0.5
     }
   ],
   "VariantName": "VUL-FURY",
@@ -207,13 +207,14 @@
     ],
     "tagSetSourceFile": ""
   },
+  "StockRole": "Recon & Long-Range Striker",
+  "YangsThoughts": "",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +223,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,11 +231,8 @@
       "ComponentDefID": "Gear_Sensor_Light_ActiveProbe",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ],
-  "StockRole": "Heavy Recon & Striker",
-  "YangsThoughts": ""
+  ]
 }

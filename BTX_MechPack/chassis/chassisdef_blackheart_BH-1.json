@@ -8,7 +8,7 @@
     "UIName": "Black Heart",
     "Id": "chassisdef_blackheart_BH-1",
     "Name": "Black Heart",
-    "Details": "<color=#F79B26>Some BattleMech designs earn a place in history because they are the chariots of heroes. Others, like the Black Heart, because they are the chariots of monsters, such as the Word of Blake's elite Manei Domini.</color>\n\nThe 70-ton Black Heart is the perfect testbed for the Vehicular Direct Neural Interface, a special type of cybernetic implant that allows MechWarriors to \"become one\" with their machines. The 'Mech itself carries a large arsenal, including a pair of light Gauss Rifles for long range attacks, as well as a pair of Medium Lasers and several sets of SRMs for short range attacks: two SRM-4s and one SRM-6. The Black Heart also sports a Guardian ECM suite and Laser Anti-Missile System for improved survivability.",
+    "Details": "<color=#F79B26>Some BattleMech designs earn a place in history because they are the chariots of heroes. Others, like the Black Heart, because they are the chariots of monsters, such as the Word of Blake's elite Manei Domini.</color>\n\nThe 70-ton Black Heart is the perfect testbed for the Vehicular Direct Neural Interface, a special type of cybernetic implant that allows MechWarriors to \"become one\" with their machines. The 'Mech itself carries a large arsenal, including a pair of light Gauss Rifles for long range attacks, as well as a pair of Medium Lasers and several sets of SRMs for short range attacks: two SRM-4s and one SRM-6. The Black Heart also sports a Guardian ECM Suite and Laser Anti-Missile System for improved survivability.\n",
     "Icon": "uixTxrIcon_blackheart"
   },
   "MovementCapDefID": "movedef_blackheart_BH-1",
@@ -211,14 +211,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Cyber-Augmented Prototype",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Black Heart is a rather unique 'Mech, exclusive to a group of zealots known as the Manei Domini. Its armament is impressive, boasting twin Light Gauss Rifles that grant it exceptional reach, while a pair of Medium Lasers and 14 tubes of SRM effectively obliterate any enemy foolish enough to approach within striking distance. There's also something peculiar about the cockpit, but I can't quite put my finger on it…",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -227,7 +226,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +234,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +242,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -254,7 +250,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -263,7 +258,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -272,7 +266,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -281,7 +274,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -290,7 +282,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -299,7 +290,6 @@
       "ComponentDefID": "Gear_Cockpit_Vehicular_DirectNeuralInterface",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -308,7 +298,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

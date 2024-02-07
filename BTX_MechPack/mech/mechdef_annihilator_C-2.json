@@ -3,12 +3,13 @@
     "items": [
       "unit_mech",
       "unit_assault",
-      "unit_role_brawler",
+      "unit_role_sniper",
       "unit_lance_tank",
       "unit_range_long",
       "unit_armor_medium",
       "unit_speed_low",
       "unit_release",
+      "unit_mechpack",
       "unit_dlc",
       "unit_clan"
     ],
@@ -26,7 +27,7 @@
     "UIName": "Annihilator C 2",
     "Id": "mechdef_annihilator_C-2",
     "Name": "Annihilator",
-    "Details": "<color=#F79B26>The Annihilator, originally designed as the ultimate fixed-position city defense BattleMech, is a symbol of the Star League's former military might.</color>\n\nThe C 2 is a variant based on the ANH-1G that is equipped with four Gauss Rifles, an ER PPC, and a head-mounted ER Small Laser, providing withering firepower for defensive engagements. The 'Mech uses an endo steel internal structure to accommodate all of these weapons. The integrated CASE protects the arms and torsos from weapon explosions.",
+    "Details": "Based on the ANH-1G, this variant only uses Clan technology. Four Gauss Rifles supplemented by an ER PPC in the center torso and a head-mounted ER Small Laser, provide withering firepower for defensive engagements. Ten tons of ammunition keep the Gauss Rifles fed through the longest engagements. An endo steel internal structure accommodates this arsenal of weapons, while integrated CASE portects the arms and torsos from weapon explosions.\n",
     "Icon": "uixTxrIcon_annihilatorc"
   },
   "simGameMechPartCost": 990000,

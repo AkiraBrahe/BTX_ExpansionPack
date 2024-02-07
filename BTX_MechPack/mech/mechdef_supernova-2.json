@@ -5,12 +5,13 @@
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
-      "unit_lance_assassin",
       "unit_lance_support",
+      "unit_lance_assassin",
       "unit_armor_high",
-      "unit_speed_medium",
+      "unit_speed_low",
       "unit_jumpOK",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Supernova 2",
     "Id": "mechdef_supernova-2",
     "Name": "Supernova",
-    "Details": "<color=#F79B26>The Supernova is a fearsome second-line Clan 'Mech that seems to be an advanced version of the Black Hawk, though it was actually developed before that venerable OmniMech.</color>\n\nThis variant replaces four of the ER Large Lasers and ten of their attendant heat sinks with four ATM 9s, six tons of ammunition, and an advanced Targeting Computer to guide the remaining pair of lasers, and uses endo steel and increased armor protection.",
+    "Details": "This second configuration replaces four of the ER Large Lasers and ten of their attendant heat sinks with four ATM-9s, six tons of ammunition, and adds an advanced Targeting Computer to guide the remaining pair of lasers. The 'Mech also uses endo steel and has increased armor protection.\n",
     "Icon": "uixTxrIcon_supernova"
   },
   "simGameMechPartCost": 1100000,

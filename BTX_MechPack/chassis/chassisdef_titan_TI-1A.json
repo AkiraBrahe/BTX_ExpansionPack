@@ -8,7 +8,7 @@
     "UIName": "Titan",
     "Id": "chassisdef_titan_TI-1A",
     "Name": "Titan",
-    "Details": "<color=#F79B26>The Titan is a prototype from the Star League era that was unearthed by the Federated Suns in 3023 and led to the Grand Titan.</color>\n\nThe Titan is a powerful 'Mech with its nineteen tons of standard armor. It is equipped with two PPCs, six Medium Lasers, four SRM-4s, and an SRM-6. The twenty-two heat sinks it has are hardly sufficient to cool all of its weapons.",
+    "Details": "<color=#F79B26>The Titan is a prototype from the Star League era that was unearthed by the Federated Suns in 3023 and led to the Grand Titan.</color>\n\nThe Titan is a powerful 'Mech with its nineteen tons of standard armor. It is equipped with two PPCs, six Medium Lasers, four SRM-4s, and an SRM-6. The twenty-two heat sinks it has are hardly sufficient to cool all of its weapons.\n",
     "Icon": "uixTxrIcon_titan"
   },
   "MovementCapDefID": "movedef_titan_TI-1A",
@@ -178,46 +178,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -5,
+      "y": 16,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -5,
+      "y": 16,
+      "z": -1
     },
     {
       "x": 3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     },
     {
       "x": -3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     }
   ],
   "VariantName": "TI-1A",
@@ -228,6 +228,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut",
-  "YangsThoughts": "",
+  "YangsThoughts": "These mysterious Titans from the Federated Suns are every bit as impressive as the rumors claimed. They've got two PPCs for long-range decimation, and when the enemy closes in, they unleash a torrent of firepower from six Medium Lasers, four SRM-4s, and an SRM-6. Just watch out for your heat management, or you'll cook yourself alive with that kind of alpha strike power.",
   "FixedEquipment": []
 }

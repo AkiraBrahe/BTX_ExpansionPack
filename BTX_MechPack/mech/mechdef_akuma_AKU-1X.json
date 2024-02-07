@@ -11,6 +11,7 @@
       "unit_speed_low",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Akuma AKU-1X",
     "Id": "mechdef_akuma_AKU-1X",
     "Name": "Akuma",
-    "Details": "<color=#F79B26>The Akuma, meaning \"Devil\" in Japanese, was created as a more affordable alternative to the Atlas. It shares several components with the Atlas, including its distinctive head design, which is intended to instill fear in its enemies.</color>\n\nThe \"Devil\" is built on an endo steel chassis protected by seventeen and a half tons of armor and powered by a rugged and reliable 270-rated fusion engine. The 'Mech's primary long-range weapons are an ER PPC and an LB-X Autocannon/10. For medium to close range combat, the Akuma has a MRM-30 launcher as well as two highly accurate Streak SRM-4 and Streak SRM-6 launchers. Finally, a Medium Laser and a Medium Pulse Laser round out the Akuma's eclectic and effective weapons payload.",
+    "Details": "<color=#F79B26>The Akuma, which means \"Devil\" in Japanese, was created as a low-cost alternative to the Atlas. It inherits its predecessor's imposing presence, with a menacing head design meant to strike fear in its enemies.</color>\n\nArmed with an ER PPC and a powerful LB-X Autocannon/10, the Akuma excels at long-range engagement. The autocannon's versatility to fire both solid and cluster munitions gives it a good amount of flexibility in engaging targets. For mid-to-close quarters combat, the 'Mech carries a MRM-30 launcher and two highly accurate short-range missile launchers: a Streak SRM-6 and SRM-4. Its arsenal is further enhanced by a Medium Laser and a Medium Pulse Laser, completing the Akumas eclectic and effective weapons payload.\n",
     "Icon": "uixTxrIcon_akuma"
   },
   "simGameMechPartCost": 950000,

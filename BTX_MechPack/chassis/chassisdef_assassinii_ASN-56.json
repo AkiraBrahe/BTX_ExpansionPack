@@ -8,7 +8,7 @@
     "UIName": "Assassin II",
     "Id": "chassisdef_assassinii_ASN-56",
     "Name": "Assassin II",
-    "Details": "<color=#F79B26>The Assassin II was created at the Federated Suns' request for a \"quick strike harasser unit\". It exceeded all expectations and is now used to counter the stealth technology employed by the Capellan Confederation.</color>\n\nThis major redesign of the Assassin chassis is built on an endo steel skeleton with nine tons of armor and powered by a 270 XL engine. The Assassin II is outfitted with four Medium Pulse Lasers, one LRM-10 with Artemis IV, a Laser Anti-Missile System, and a Triple Strength Myomer for increased mobility.",
+    "Details": "<color=#F79B26>The Assassin II was created at the Federated Suns' request for a \"quick strike harasser unit\". It exceeded all expectations and is now used to counter the stealth technology employed by the Capellan Confederation.</color>\n\nThis major redesign of the Assassin chassis is built on an endo steel skeleton with nine tons of armor and powered by a 270 XL engine. The Assassin II is outfitted with four Medium Pulse Lasers, one LRM-10 with Artemis IV, a Laser Anti-Missile System, and a Triple Strength Myomer for increased mobility.\n",
     "Icon": "uixTxrIcon_assassinii"
   },
   "MovementCapDefID": "movedef_assassinii_ASN-56",
@@ -204,14 +204,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Hunter-Killer & Ambusher",
-  "YangsThoughts": "",
+  "YangsThoughts": "This five-ton heavier redesign of the old Assassin is a serious upgrade. They doubled the firepower, beefed up the armor, and made it a lot tougher to take down. But they had to sacrifice some of its speed and jumping capability to make all these changes.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -220,7 +219,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -229,7 +227,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -238,7 +235,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_3_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -247,7 +243,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -256,7 +251,6 @@
       "ComponentDefID": "Gear_EndoSteel_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -265,7 +259,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -274,7 +267,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -283,7 +275,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -292,7 +283,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -301,7 +291,6 @@
       "ComponentDefID": "Gear_General_Amain_Intercept_System",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

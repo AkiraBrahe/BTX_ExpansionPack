@@ -7,8 +7,9 @@
       "unit_lance_tank",
       "unit_range_medium",
       "unit_armor_high",
-      "unit_speed_low",
+      "unit_speed_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -24,7 +25,7 @@
     "UIName": "Cataphract CTF-3X",
     "Id": "mechdef_cataphract_CTF-3X",
     "Name": "Cataphract",
-    "Details": "<color=#F79B26>The Cataphract, one of the first original designs since the start of the Succession Wars, is a FrankenMech assembled from components of the Marauder, Shadow Hawk, and Phoenix Hawk. The Cataphract was to become the Capellan Confederation's new standard heavy 'Mech.</color>\n\nA modern take on the -2X variant's weapons loadout, the ER large laser is joined by two ER Medium Lasers while the SRM-4 is swapped for a more ammo-efficient Streak SRM-4. The standard autocannon is replaced with an advanced Rotary AC/5 supplied with three tons of ammo. Mounting ferro-fibrous armor reduces the armor's weight just enough to allow the installation of CASE in each torso, as well as the conversion of all heat sinks to doubles, which greatly improves its heat dissipation.",
+    "Details": "A modern take on the 2X variant's weapons loadout, the ER large laser is joined by two ER Medium Lasers while the SRM-4 is swapped for a more ammo-efficient Streak SRM-4. The standard autocannon is replaced with an advanced Rotary AC/5 supplied with three tons of ammo. Mounting ferro-fibrous armor reduces the armor's weight just enough to allow the installation of CASE in each torso, as well as the conversion of all heat sinks to doubles, which greatly improves its heat dissipation.\n",
     "Icon": "uixTxrIcon_cataphract"
   },
   "simGameMechPartCost": 690000,

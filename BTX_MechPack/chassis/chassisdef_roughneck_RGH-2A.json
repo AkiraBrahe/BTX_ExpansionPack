@@ -8,7 +8,7 @@
     "UIName": "Roughneck",
     "Id": "chassisdef_roughneck_RGH-2A",
     "Name": "Roughneck",
-    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 2A is a pricier and more fragile variant of the 1A, with a 260-rated extralight engine replacing the standard one. The weight savings are used to bulk up the Roughneck 2A's weapon loadout, dropping the Machine Guns and AC/10 for an AC/2 in each arm and right torso and upgrading the head laser to a Medium Laser while adding two more to the center torso. Identical to the 1A in all other respect, including mounting only 14 standard heat sinks, the RGH-2A carries three tons each of SRM and autocannon ammunition.",
+    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 2A is a pricier and more fragile variant of the 1A, with a 260-rated extralight engine replacing the standard one. The weight savings are used to bulk up the Roughneck 2A's weapon loadout, dropping the Machine Guns and AC/10 for an AC/2 in each arm and right torso and upgrading the head laser to a Medium Laser while adding two more to the center torso. Identical to the 1A in all other respect, including mounting only 14 standard heat sinks, the RGH-2A carries three tons each of SRM and autocannon ammunition.\n",
     "Icon": "uixTxrIcon_roughneck"
   },
   "MovementCapDefID": "movedef_roughneck_RGH-2A",
@@ -205,14 +205,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Militarized LoaderMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 2A is a more proper 'Mech than older versions, Boss. While the XL engine makes it more fragile, this 'Mech is clearly designed as a long-range sniper. It carries three Autocannon/2s and Medium Lasers. The SRM-4 rack of the 1A is retained and carries an enormous amount of ammo—three tons! Same as the AC/2s. With only 14 single heat sinks, I suggest dropping some ammo for more armor or heat sinks.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -221,7 +220,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

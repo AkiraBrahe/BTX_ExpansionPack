@@ -8,7 +8,7 @@
     "UIName": "Naga",
     "Id": "chassisdef_naga-B",
     "Name": "Naga",
-    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant carries four tons of ammunition, three ER Medium Lasers and an ER Small Laser.",
+    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant only has four tons of ammunition for the two fixed Arrow IV artillery systems, which are supplemented by three ER Medium Lasers and an ER Small Laser.\n",
     "Icon": "uixTxrIcon_naga"
   },
   "MovementCapDefID": "movedef_naga-B",
@@ -154,46 +154,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 15,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 15,
+      "z": -1
     },
     {
       "x": 3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     },
     {
       "x": -3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     }
   ],
   "VariantName": "NGA-B",
@@ -210,14 +210,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Artillery & Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "This Naga goes all-in on mid-range firepower, slimming down its Arrow IV ammo to four tons. That might seem risky, but the weight saved lets it mount three ER Medium Lasers and a single ER Small Laser.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,7 +225,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -235,7 +233,6 @@
       "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -244,7 +241,6 @@
       "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

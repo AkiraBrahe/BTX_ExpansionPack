@@ -8,7 +8,7 @@
     "UIName": "Sunder",
     "Id": "chassisdef_sunder_SD1-OR",
     "Name": "Sunder",
-    "Details": "<color=#F79B26>The Sunder is the result of research on salvaged Loki and Thor OmniMechs, carrying a chaotic and powerful mix of weapons and equipment.</color>\n\nThis configuration, developed in the midst of Operation Bulldog, helped bolster SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It carries two Large Pulse Lasers and a LB 10-X AC backed up by four ER Medium Lasers and a pair of Streak SRM-6 launchers.",
+    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It carries two Large Pulse Lasers and a LB 10-X AC backed up by four ER Medium Lasers and a pair of Streak SRM-6 launchers.\n",
     "Icon": "uixTxrIcon_sunder"
   },
   "MovementCapDefID": "movedef_sunder_SD1-OR",
@@ -222,7 +222,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +230,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +238,6 @@
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

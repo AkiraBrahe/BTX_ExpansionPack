@@ -8,7 +8,7 @@
     "UIName": "Gulon",
     "Id": "chassisdef_gulon_GLN-1B",
     "Name": "Gulon",
-    "Details": "<color=#F79B26>The Gulon was originally designed as a MiningMech, but was later adapted for combat and found a niche as a garrison for many communities and backwater planets.</color>\n\nThe Gulon stands out for its fission engine, dangerous and difficult to maintain. In addition to three Small Lasers originally meant to cut stone, the 1B carries a Medium Laser, all aided by advanced fire control. The'Mech keeps the original Mining Drill and heavy industrial armor.",
+    "Details": "<color=#F79B26>The Gulon was originally designed as a MiningMech, but was later adapted for combat and found a niche as a garrison for many communities and backwater planets.</color>\n\nThe Gulon stands out for its fission engine, dangerous and difficult to maintain. In addition to three Small Lasers originally meant to cut stone, the SecurityMech carries a Medium Laser, all aided by advanced fire control. The'Mech keeps the original Mining Drill and heavy industrial armor.\n",
     "Icon": "uixTxrIcon_gulon"
   },
   "MovementCapDefID": "movedef_gulon_GLN-1B",
@@ -194,14 +194,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "SecurityMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "This repurposed mining 'Mech is a bit rugged, but it's perfect for militia units facing pirates or bandits in the Periphery. The 1B Gulon packs a Medium Laser and three Small Lasers. When it closes in, it can use its Mining Drill to grind through armor and rocks alike. It's not the fanciest 'Mech, but it's got enough firepower to get the job done.",
   "FixedEquipment": [
     {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Industrial_MiningDrill",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

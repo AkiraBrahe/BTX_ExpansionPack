@@ -8,7 +8,7 @@
     "UIName": "Phoenix Hawk",
     "Id": "chassisdef_phoenixhawk_PXH-1c",
     "Name": "Phoenix Hawk",
-    "Details": "<color=#F79B26>The Phoenix Hawk, once a staple of the Star League Defense Force, has become the standard for all reconnaissance BattleMechs throughout the Inner Sphere.</color>\n\nThe 1c is an upgrade that never saw full production due to the fall of the Star League. It swaps out the ER PPC in exchange for a Snub-Nose PPC, which was still an experimental weapon when the first models started field trials in 2784. The extra ton left over was used to increase the variant's armoring.",
+    "Details": "The 1c is an upgrade that never saw full production due to the fall of the Star League. It swaps out the ER PPC in exchange for a Snub-Nose PPC, which was still an experimental weapon when the first models started field trials in 2784. The extra ton left over was used to increase the variant's armoring.\n",
     "Icon": "uixTxrIcon_phoenixhawk"
   },
   "MovementCapDefID": "movedef_phoenixhawk_PXH-1c",
@@ -210,7 +210,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -219,7 +218,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -228,7 +226,6 @@
       "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +234,6 @@
       "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +242,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -255,7 +250,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -264,7 +258,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -273,7 +266,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -282,7 +274,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -291,7 +282,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -300,7 +290,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -309,7 +298,6 @@
       "ComponentDefID": "Gear_SensorCAC_Guardian",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

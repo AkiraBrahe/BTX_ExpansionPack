@@ -1,14 +1,14 @@
 {
   "Description": {
     "Cost": 29600000,
-    "Rarity": 5,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Schwerer Gustav",
     "Id": "chassisdef_schwerergustav_SG-1X_Jäger",
     "Name": "Schwerer Gustav",
-    "Details": "<color=#F79B26>Named after the heavy artillery platform from Terra's Second World War, the one-of-a-kind Schwerer Gustav is a FrankenMech combining six different designs, primarily the Annihilator, Verfolger and Berserker.</color>\n\nThe Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
+    "Details": "<color=#F79B26>Named after the heavy artillery platform from Terra's Second World War, the one-of-a-kind Schwerer Gustav is a FrankenMech combining six different designs, primarily the Annihilator, Verfolger and Berserker.</color>\n\nThe Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.\n",
     "Icon": "uixTxrIcon_schwerergustav"
   },
   "MovementCapDefID": "movedef_schwerergustav_SG-1X_Jäger",
@@ -226,7 +226,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -235,7 +234,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -244,7 +242,6 @@
       "ComponentDefID": "Gear_Cockpit_CommandConsole",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -253,7 +250,6 @@
       "ComponentDefID": "Weapon_Artillery_ThumperCannon_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -262,7 +258,6 @@
       "ComponentDefID": "Gear_MASC_5",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -271,7 +266,6 @@
       "ComponentDefID": "Gear_Sensor_Bloodhound_ActiveProbe",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -8,7 +8,7 @@
     "UIName": "BattleMaster",
     "Id": "chassisdef_battlemaster_BLR-3M-DC",
     "Name": "BattleMaster",
-    "Details": "<color=#F79B26>Versatile and powerful, the BattleMaster is one of the best known BattleMechs in existence. It was originally designed to be the largest and most powerful 'Mech for the Star League armies at that time.</color>\n\nThe 3M-DC drops the rear firing Medium Lasers of the 3M to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM 6.",
+    "Details": "The Battlemaster 3M-DC drops the rear firing Medium Lasers of the 3M to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM 6.\n",
     "Icon": "uixTxrIcon_battlemaster"
   },
   "MovementCapDefID": "movedef_battlemaster_BLR-3M-DC",
@@ -214,14 +214,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Command 'Mech",
-  "YangsThoughts": "",
+  "YangsThoughts": "A refit of the BLR-3M, the BLR-3M-DC literally just slaps a Command Console on it. To accommodate this new tech, the rear-mounted Medium Lasers were sacrificed. These Command Console Battlemasters are quite the favorites among Davion commanders.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_CommandConsole",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

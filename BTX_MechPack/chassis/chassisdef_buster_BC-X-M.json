@@ -8,7 +8,7 @@
     "UIName": "Buster",
     "Id": "chassisdef_buster_BC-X-M",
     "Name": "Buster",
-    "Details": "<color=#F79B26>The Buster IndustrialMech was a popular workhorse for heavy mining and DropShip operations, valued for its precision and maneuverability.</color>\n\nThe BC X-M is a militarized variant of the BC X, the first known Buster variant designed for construction work. Its main features is a massive Backhoe for a left arm, which is supplemented by an LRM-10 with one ton of ammunition.",
+    "Details": "<color=#F79B26>The Buster IndustrialMech was a popular workhorse for heavy mining and DropShip operations, valued for its precision and maneuverability.</color>\n\nThe BC X-M is a militarized variant of the BC X, the first known Buster variant designed for construction work. Its main features is a massive Backhoe for a left arm, which is supplemented by an LRM-10 with one ton of ammunition.\n",
     "Icon": "uixTxrIcon_buster"
   },
   "MovementCapDefID": "movedef_buster_BC-X-M",
@@ -183,7 +183,6 @@
       "ComponentDefID": "Gear_Actuator_Backhoe",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -192,7 +191,6 @@
       "ComponentDefID": "Gear_Actuator_ExcavatorClaw",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

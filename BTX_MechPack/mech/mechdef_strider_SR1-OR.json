@@ -9,6 +9,7 @@
       "unit_speed_high",
       "unit_range_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -24,7 +25,7 @@
     "UIName": "Strider SR1-OR",
     "Id": "mechdef_strider_SR1-OR",
     "Name": "Strider",
-    "Details": "<color=#F79B26>The Strider OmniMech is based on the older Cicada BattleMech, but it is also called the \"Grand Jenner\" due to its missile-heavy weapons payload, which is more akin to the Jenner than the Cicada.</color>\n\nThis configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. Based on the Strider E, it can mount two Clan-tech Streak SRM-6 launchers and a pair of Clan Medium Pulse Lasers thanks to lighter Clan weaponry.",
+    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. Based on the Strider E, it can mount two Clan-tech Streak SRM-6 launchers and a pair of Clan Medium Pulse Lasers thanks to lighter Clan weaponry.\n",
     "Icon": "uixTxrIcon_strider"
   },
   "simGameMechPartCost": 470000,

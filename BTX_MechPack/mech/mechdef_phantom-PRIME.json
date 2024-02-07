@@ -11,6 +11,7 @@
       "unit_speed_high",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Phantom PRIME",
     "Id": "mechdef_phantom-PRIME",
     "Name": "Phantom",
-    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe Prime configuration pushes the medium reconnaissance 'Mech to the most extreme limits. The Phantom is built on a lightweight endo steel chassis and propelled to a top speed of 151.2 km/h by a 360 XL engine. It also boasts strong protection for its size with six tons of ferro-fibrous armor. The 'Mech carries an Active Probe which is able to find hidden enemy units at up to 180 meters, a TAG laser designator capable of spotting for friendly Arrow IV artillery, as well as an ECM suite for protection from enemy electronic warfare systems. To engage enemies, the Phantom has an LRM-5 launcher backed up by an ER Medium Laser and an ER Small Laser.",
+    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe Prime configuration pushes the medium reconnaissance 'Mech to the most extreme limits with its lightweight endo steel chassis propelled to a top speed of 151.2 km/h by a 360 XL engine. It also boasts strong protection for its size with six tons of ferro-fibrous armor. The 'Mech carries an Active Probe which is able to find hidden enemy units at up to 180 meters, a TAG laser designator capable of spotting for friendly Arrow IV artillery, as well as an ECM suite for protection from enemy electronic warfare systems. To engage enemies, the Phantom has an LRM-5 launcher backed up by an ER Medium Laser and an ER Small Laser.\n",
     "Icon": "uixTxrIcon_phantom"
   },
   "simGameMechPartCost": 1120000,

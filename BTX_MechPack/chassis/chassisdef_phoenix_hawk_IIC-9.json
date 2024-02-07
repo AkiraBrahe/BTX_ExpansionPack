@@ -8,7 +8,7 @@
     "UIName": "Phoenix Hawk IIC",
     "Id": "chassisdef_phoenix_hawk_IIC-9",
     "Name": "Phoenix Hawk IIC",
-    "Details": "<color=#F79B26>The Phoenix Hawk IIC, which resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThis variant is a hybrid of the Primary configuration and the Phoenix Hawk IIC 2. It carries an Ultra AC/10 in the right torso and a pair of LRM-20s in the left torso. A pair of machine guns provide support fire.",
+    "Details": "<color=#F79B26>The Phoenix Hawk IIC, though it resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThis variant is a hybrid of the primary configuration and the Phoenix Hawk IIC 2. It carries an Ultra AC/10 in the right torso and a pair of LRM-20s in the left torso. A pair of Machine Guns provide support fire.\n",
     "Icon": "uixTxrIcon_phoenixhawkiic"
   },
   "MovementCapDefID": "movedef_phoenix_hawk_IIC-9",
@@ -150,46 +150,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 3.5,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -3.5,
+      "y": 13,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
-    },
-    {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
-    },
-    {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14,
+      "z": 0
     },
     {
       "x": 3.5,
-      "y": 5.5,
-      "z": 5.5
+      "y": 13,
+      "z": 0
     },
     {
       "x": -3.5,
-      "y": 5.5,
-      "z": 5.5
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "PXH-IIC-9",
@@ -206,14 +206,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher & Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "IIC 9 blends old and new. Twin LRM-20s fire long-range missiles, a UAC/10 delivers mid-range punch, and two Machine Guns finish the job close-up. Ammo ain't a problem, but overheating might be. Pick your shots, Commander!",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +221,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

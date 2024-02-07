@@ -8,7 +8,7 @@
     "UIName": "Sha Yu",
     "Id": "chassisdef_shayu_SYU-2B",
     "Name": "Sha Yu",
-    "Details": "<color=#F79B26>The Sha Yu, or \"Shark\", is a 40-ton BattleMech based on the Raven design. It is one of the first 'Mechs to incorporate the stealth armor developed by the Capellan Confederation.</color>\n\nThe SYU-2B Sha Yu is built on a lightweight endo steel chassis powered by a 280 XL engine that gives it an impressive top speed of 118.8 km/h. Protection is provided by six and a half tons of stealth armor, making the 'Mech extremely difficult to hit. The Sha Yu has to carry a Guardian ECM suite as part of its stealth armor and is armed with a basic yet effective energy-based payload consisting of two ER Medium and Large Lasers. Finally, the Sha Yu carries a TAG target designator, allowing it to call in accurate Arrow IV artillery missile attacks on a target.",
+    "Details": "<color=#F79B26>The Sha Yu, or \"Shark\", is based on the Raven BattleMech and is one of the first 'Mechs to use the Capellan Confederation's stealth armor.</color>\n\nThe SYU-2B Sha Yu is built on a lightweight endo steel chassis powered by a 280 XL engine that gives it an impressive top speed of 118.8 km/h. Protection is provided by six and a half tons of stealth armor, making the 'Mech extremely difficult to hit. The Sha Yu has to carry a Guardian ECM Suite as part of its stealth armor and is armed with a basic yet effective energy-based payload consisting of two ER Medium and Large Lasers. Finally, the Sha Yu carries a TAG target designator, allowing it to call in accurate Arrow IV artillery missile attacks on a target.\n",
     "Icon": "uixTxrIcon_shayu"
   },
   "MovementCapDefID": "movedef_shayu_SYU-2B",
@@ -216,7 +216,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -225,7 +224,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,7 +232,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -243,7 +240,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -252,7 +248,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -261,7 +256,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -270,7 +264,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -279,7 +272,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -288,7 +280,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -297,7 +288,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -306,7 +296,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -315,7 +304,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -324,7 +312,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -333,7 +320,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -342,7 +328,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -351,7 +336,6 @@
       "ComponentDefID": "Gear_Sensor_Stealth_ECM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

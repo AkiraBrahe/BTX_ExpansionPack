@@ -8,7 +8,7 @@
     "UIName": "Rattlesnake",
     "Id": "chassisdef_rattlesnake_JR7-31P",
     "Name": "Rattlesnake",
-    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThis variant of the Rattlesnake swaps the Guardian ECM suite for one Small Laser and a C3 Slave unit which allows it to directly relay the combat data it collects.",
+    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThis variant of the Rattlesnake swaps the Guardian ECM Suite for one Small Laser and a C3 Slave unit, which allows it to directly relay the combat data it collects.\n",
     "Icon": "uixTxrIcon_rattlesnake"
   },
   "MovementCapDefID": "movedef_rattlesnake_JR7-31P",
@@ -212,14 +212,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Striker Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "This Rattlesnake trades the ECM for a C3 Slave and extra armor, making it a top-notch scout and spotter. It still packs enough lasers for a surprise light show. Not a brawler, but invaluable for intel and messing with the enemy.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -228,7 +227,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +235,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +243,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -255,7 +251,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -264,7 +259,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -273,7 +267,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -282,7 +275,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -291,7 +283,6 @@
       "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

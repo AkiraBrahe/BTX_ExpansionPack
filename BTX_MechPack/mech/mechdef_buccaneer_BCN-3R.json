@@ -11,6 +11,7 @@
       "unit_speed_high",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Buccaneer BCN-3R",
     "Id": "mechdef_buccaneer_BCN-3R",
     "Name": "Buccaneer",
-    "Details": "<color=#F79B26>The Buccaneer is a result of the Word of Blake's insatiable need for military equipment in its early years. Originally designed for ComStar, it was modified to use components available to the Word of Blake in their temporary home in the Free Worlds League.</color>\n\nDesigned primarily for close-range combat, the Buccaneer is powered by a lightweight 330 XL engine that allows it to carry an impressive ten tons of ferro-fibrous armor. Its most fearsome weapon is a Heavy Hatchet, which is supported by four Medium Lasers, a highly accurate Medium Pulse Laser, an SRM-6 with an Artemis IV guidance system, and a single ER Large Laser for long-range striking capability.",
+    "Details": "<color=#F79B26>The Buccaneer is a result of the Word of Blake's insatiable need for military equipment in its early years. Originally designed for ComStar, it was modified to use components available to the Word of Blake in their temporary home in the Free Worlds League.</color>\n\nDesigned primarily for close-range combat, the Buccaneer is powered by a lightweight 330 XL engine that allows it to carry an impressive ten tons of ferro-fibrous armor. Its most fearsome weapon is a Heavy Hatchet, which is supported by four Medium Lasers, a highly accurate Medium Pulse Laser, an SRM-6 with an Artemis IV guidance system, and a single ER Large Laser for long-range striking capability.\n",
     "Icon": "uixTxrIcon_buccaneer"
   },
   "simGameMechPartCost": 1170000,

@@ -11,6 +11,7 @@
       "unit_speed_high",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Stag II ST-24G",
     "Id": "mechdef_stagii_ST-24G",
     "Name": "Stag II",
-    "Details": "<color=#F79B26>The Stag is Clan Wolverine's redesign based on the Vulcan BattleMech, which transforms the venerable infantry-killer into a cavalry 'Mech that can also scout.</color>\n\nThe so-called Stag II incorporates a prototype version of the ER PPC that is roughly comparable to the Clan version of the weapon, albeit slightly less destructive. To mount the weapon, the MASC and SRMs had to be removed in favor of a third Medium Laser, two Medium Pulse Lasers, and two Small Lasers. This increases the 'Mech's battlefield longevity, but it also increases the risk of excessive heat buildup.",
+    "Details": "<color=#F79B26>The Stag is Clan Wolverine's redesign of the Vulcan BattleMech, transforming the venerable infantry-killer into a cavalry 'Mech capable of scouting.</color>\n\nThe so-called Stag II incorporates a prototype version of the ER PPC that is roughly comparable to the Clan version of the weapon, albeit slightly less destructive. The MASC had to be removed in order to mount the weapon, though the top speed was upgraded to 119 km/h. The SRMs are replaced with a third Medium Laser, two Medium Pulse Lasers, and two Small Lasers. This increases the 'Mech's battlefield longevity, but it also increases the risk of excessive heat buildup.\n",
     "Icon": "uixTxrIcon_stag"
   },
   "simGameMechPartCost": 920000,

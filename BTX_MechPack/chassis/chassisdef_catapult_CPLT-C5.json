@@ -8,7 +8,7 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-C5",
     "Name": "Catapult",
-    "Details": "<color=#F79B26>The Catapult is a second-line fire-support BattleMech that was in short supply for centuries before resurfacing as one of the most prominent designs.</color>\n\nAn upgrade of the C3 model, this variant retains the Arrow IV artillery system, but with an upgraded endo steel chassis and dual heat sinks. This allows the C5 to increase its armor coverage to twelve and a half tons, upgrade its lasers to ER Medium Lasers, and quadruple the amount of ammo carried with protection provided by CASE.",
+    "Details": "An upgrade of the C3 model, this variant first appeared during the St. Ives Conflict. It retains the Arrow IV artillery system, but with an upgraded endo steel chassis and double heat sinks. This allows the C5 to increase its armor coverage to twelve and a half tons, upgrade its lasers to ER Medium Lasers, and quadruple the amount of ammo carried with protection provided by CASE.\n",
     "Icon": "uixTxrIcon_catapult"
   },
   "MovementCapDefID": "movedef_catapult_CPLT-C5",
@@ -211,14 +211,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Artillery & Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "Now we're talkin'! Upgraded C3 with four tons of Arrow IV ammo thanks to fancy heat sinks and a lighter chassis. And it gets better: CASE protects your precious ammo, and beefed-up armor and ER lasers mean you're not defenseless when the missiles run dry. This one's worth its weight in C-Bills.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -227,7 +226,6 @@
       "ComponentDefID": "Gear_EndoSteel_8_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +234,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +242,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

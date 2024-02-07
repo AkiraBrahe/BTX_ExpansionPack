@@ -8,7 +8,7 @@
     "UIName": "Dervish",
     "Id": "chassisdef_dervish_DV-8D",
     "Name": "Dervish",
-    "Details": "<color=#F79B26>The Dervish is a highly mobile fire support BattleMech at the higher end of the medium class. While some consider the Dervish to be a poor man's Archer, its speed and weaponry nonetheless allow it to provide quick fire support.</color>\n\nThe 8D Dervish is outfitted with cutting-edge technology, including an endo steel chassis powered by an XL engine, two LRM-15 launchers with an Artemis IV fire control system, and four ER Medium lasers in place of the SRM-2 launchers and Medium Lasers.",
+    "Details": "The 8D Dervish is outfitted with cutting-edge technology, including an endo steel chassis and an XL engine, two Artemis IV-enhanced LRM-15 launchers, and four ER Medium lasers in place of the SRM-2 launchers and Medium Lasers.\n",
     "Icon": "uixTxrIcon_dervish"
   },
   "MovementCapDefID": "movedef_dervish_DV-8D",
@@ -20,7 +20,7 @@
   "InitialTonnage": 18,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
-  "TopSpeed": 78.9,
+  "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
   "Stability": 130,
@@ -203,7 +203,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Fire Support & Ranged Assault",
+  "StockRole": "Striker Cavalry",
   "YangsThoughts": "",
   "FixedEquipment": [
     {
@@ -211,7 +211,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -220,7 +219,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -229,7 +227,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -238,7 +235,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -247,7 +243,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -256,7 +251,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -265,7 +259,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

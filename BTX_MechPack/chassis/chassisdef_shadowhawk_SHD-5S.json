@@ -8,7 +8,7 @@
     "UIName": "Shadow Hawk",
     "Id": "chassisdef_shadowhawk_SHD-5S",
     "Name": "Shadow Hawk",
-    "Details": "<color=#F79B26>The Shadow Hawk, a multirole BattleMech developed in 2550 during the Golden Age, is a powerful fusion of maneuverability and firepower, capable of commanding reconnaissance companies and serving as spotters for heavy and assault lances.</color>\n\nThis heavy scout variant carries a Large Laser in the right arm, a pair of Medium Lasers in each side torso, and a Medium Pulse Laser with a coaxially mounted TAG system in the left arm. A Guardian ECM and a Beagle Active Probe are also installed on the 'Mech. The most interesting change, however, is the use of a more powerful 330-rated XL engine that gives a top speed of 97.2 km/h which, when combined with the Shadow Hawk's five jump jets, allows it to get out of tight spots.",
+    "Details": "This heavy scout variant carries a Large Laser in the right arm, a pair of Medium Lasers in each side torso, and a Medium Pulse Laser with a coaxially mounted TAG system in the left arm. A Guardian ECM and a Beagle Active Probe are also installed on the 'Mech. The most interesting change, however, is the use of a more powerful 330-rated XL engine that gives a top speed of 97.2 km/h which, when combined with the Shadow Hawk's five jump jets, allows it to get out of tight spots.\n",
     "Icon": "uixTxrIcon_shadowhawk"
   },
   "MovementCapDefID": "movedef_shadowhawk_SHD-5S",
@@ -20,7 +20,7 @@
   "InitialTonnage": 26,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
-  "TopSpeed": 80,
+  "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
   "Stability": 130,
@@ -37,8 +37,8 @@
   "SensorRangeMultiplier": 1,
   "Signature": 0,
   "Radius": 5,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 85,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 75,
   "MeleeInstability": 55,
   "MeleeToHitModifier": -2,
   "DFADamage": 70,
@@ -219,7 +219,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -228,7 +227,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +235,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +243,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -255,7 +251,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -264,7 +259,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -273,7 +267,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -282,7 +275,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -291,7 +283,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -300,7 +291,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -309,7 +299,6 @@
       "ComponentDefID": "Gear_General_OP_2000A_InterfaceLaser",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -318,7 +307,6 @@
       "ComponentDefID": "Gear_SensorCAC_BeagleHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

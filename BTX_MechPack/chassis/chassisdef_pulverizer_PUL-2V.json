@@ -8,7 +8,7 @@
     "UIName": "Pulverizer",
     "Id": "chassisdef_pulverizer_PUL-2V",
     "Name": "Pulverizer",
-    "Details": "<color=#F79B26>>The Pulverizer is a very durable command 'Mech developed by Clan Wolverine following the successes of the Mercury II and Stag.</color>\n\nThe Pulverizer is very durable thanks to fifteen and a half tons of ferro-fibrous armor, an endo steel chassis, and a Guardian ECM Suite to counter enemy electronics. As a command 'Mech, its weapons are focused  on long-range combat, with an Enhanced ER PPC fixed to the right torso and augmented by an LRM-10 launcher. Should enemies get closer, the 'Mech can also fire two Large Lasers. Fifteen double heat sinks keep the 'Mech fairly cool.",
+    "Details": "<color=#F79B26>The Pulverizer was a command 'Mech developed by Clan Wolverine following the successes of the Mercury II and Stag. It was later produced by Clan Snow Raven after the Wolverine Annihilation.</color>\n\nThe Pulverizer is very durable thanks to fifteen and a half tons of ferro-fibrous armor, an endo steel chassis, and a Guardian ECM Suite to counter enemy electronics. As a command 'Mech, its weapons are focused on long-range combat, with an Enhanced ER PPC fixed to the right torso and augmented by an LRM-10 launcher. Should enemies get closer, the 'Mech can also fire two Large Lasers. Fifteen double heat sinks keep the 'Mech fairly cool.\n",
     "Icon": "uixTxrIcon_pulverizer"
   },
   "MovementCapDefID": "movedef_pulverizer_PUL-2V",
@@ -205,14 +205,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Brawler & Sniper",
-  "YangsThoughts": "",
+  "YangsThoughts": "This 90-ton bruiser might look ancient, but don't underestimate it. Clan guts under the hood give it a solid punch with a LRM-10 and two Large Lasers. Maybe not the flashiest, but dependable, like an old warhorse.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -221,7 +220,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -230,7 +228,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -239,7 +236,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -248,7 +244,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -257,7 +252,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -266,7 +260,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -275,7 +268,6 @@
       "ComponentDefID": "Gear_SensorCAC_Guardian",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -8,7 +8,7 @@
     "UIName": "Marshal",
     "Id": "chassisdef_marshal_MHL-2L",
     "Name": "Marshal",
-    "Details": "<color=#F79B26>The Marshal, a Taurian Concordat BattleMech, was created to address the shortage of BattleMechs in the Colonial Marshals, a police force tasked with protecting the New Colony Region.</color>\n\nBy switching to double heat sinks, the 2L model of the Marshal is able to upgrade the LRM-5 launcher to a much more powerful LRM-15 launcher. This upgrade triples the damage output of the Marshal's long range missile launcher, significantly enhancing its combat effectiveness.",
+    "Details": "<color=#F79B26>The Marshal, a Taurian Concordat BattleMech, was created to address the shortage of BattleMechs in the Colonial Marshals, a police force tasked with protecting the New Colony Region.</color>\n\nBy switching to double heat sinks, the 2L model of the Marshal is able to upgrade the LRM-5 launcher to a much more powerful LRM-15 launcher. This upgrade triples the damage output of the Marshal's long range missile launcher, significantly enhancing its combat effectiveness.\n",
     "Icon": "uixTxrIcon_marshal"
   },
   "MovementCapDefID": "movedef_marshal_MHL-2L",
@@ -212,14 +212,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Marshal 2L is a straight upgrade from the X1, with the main difference being the swap from 18 single heat sinks to 13 doubles. This not only improves the 'Mech's cooling but also expands its missile launcher three times. Yeah, you heard that right—it now sports an LRM-15 launcher for long-range harassment. Otherwise, both models are pretty much identical.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -228,7 +227,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +235,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +243,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -255,7 +251,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -264,7 +259,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -273,7 +267,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -282,7 +275,6 @@
       "ComponentDefID": "Gear_General_Earthwerks_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

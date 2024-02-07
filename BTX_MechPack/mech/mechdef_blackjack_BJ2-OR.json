@@ -8,10 +8,11 @@
       "unit_lance_assassin",
       "unit_range_medium",
       "unit_armor_high",
-      "unit_speed_medium",
+      "unit_speed_low",
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Blackjack Omni BJ2-OR",
     "Id": "mechdef_blackjack_BJ2-OR",
     "Name": "Blackjack Omni",
-    "Details": "<color=#F79B26>An upgrade of the ill-regarded Blackjack BattleMech, the Blackjack OmniMech is a powerful and adaptable medium-weight workhorse.</color>\n\nThis configuration is a field upgrade developed in the midst of Operation Bulldog to help bolster the Star League Defense Force forces in later waves by using captured Clan Smoke Jaguar weapons. It is outfitted with a salvaged Clan-tech Gauss Rifle supported by a single Clan Large Pulse Laser, a trio of Clan Medium Pulse Lasers, and a single ER Small Laser.",
+    "Details": "This configuration is a field upgrade developed in the midst of Operation Bulldog to help bolster the Star League Defense Force forces in later waves by using captured Clan Smoke Jaguar weapons. It is outfitted with a salvaged Clan-tech Gauss Rifle supported by a single Clan Large Pulse Laser, a trio of Clan Medium Pulse Lasers, and a single ER Small Laser.\n",
     "Icon": "uixTxrIcon_blackjackomni"
   },
   "simGameMechPartCost": 910000,

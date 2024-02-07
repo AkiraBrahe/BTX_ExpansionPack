@@ -9,9 +9,9 @@
       "unit_armor_medium",
       "unit_speed_high",
       "unit_jumpOK",
-      "unit_electronicWarfare",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +27,7 @@
     "UIName": "Uziel UZL-3S",
     "Id": "mechdef_uziel_UZL-3S",
     "Name": "Uziel",
-    "Details": "<color=#F79B26>The Uziel, a 50-ton BattleMech produced by Defiance Industries on Furillo rather than their prestigious Hesperus facility, is often viewed with disdain by the Lyran Commonwealth Armed Forces.</color>\n\nThe UZL-3S Uziel is well-suited for close-range engagements, as it is equipped with a Large Pulse Laser, an ER Medium Laser, two ER Small Lasers, and an SRM-6. The 'Mech also carries an LB-X Autocannon/2 capable of striking targets at extreme distances. This varied weapons mix makes the Uziel an excellent trooper 'Mech.",
+    "Details": "<color=#F79B26>The Uziel, a 50-ton BattleMech produced by Defiance Industries on Furillo rather than their prestigious Hesperus facility, is often viewed with disdain by the Lyran Commonwealth Armed Forces.</color>\n\nThe UZL-3S Uziel is well-suited for close-range engagements, as it is equipped with a Large Pulse Laser, an ER Medium Laser, two ER Small Lasers, and an SRM-6. The 'Mech also carries an LB-X Autocannon/2 capable of striking targets at extreme distances. This varied weapons mix makes the Uziel an excellent trooper 'Mech.\n",
     "Icon": "uixTxrIcon_uziel"
   },
   "simGameMechPartCost": 980000,

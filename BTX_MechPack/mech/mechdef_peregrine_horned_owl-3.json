@@ -7,9 +7,10 @@
       "unit_lance_support",
       "unit_range_short",
       "unit_armor_high",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_jumpOK",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Peregrine 3",
     "Id": "mechdef_peregrine_horned_owl-3",
     "Name": "Peregrine",
-    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line BattleMech capable of highly accurate fire designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis variant swaps out the Large Pulse Laser of the original for an ER PPC linked to a Targeting Computer, allowing the 'Mech to snipe more efficiently. In place of the Medium Pulse Lasers are two trios of Light Machine Guns to deal with infantry should it need to.",
+    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line Clan BattleMech capable of highly accurate fire and designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis variant swaps out the Large Pulse Laser of the original for an ER PPC linked to a Targeting Computer, allowing the 'Mech to snipe more efficiently. In place of the Medium Pulse Lasers are two trios of Light Machine Guns to deal with infantry should it need to.\n",
     "Icon": "uixTxrIcon_peregrine"
   },
   "simGameMechPartCost": 360000,

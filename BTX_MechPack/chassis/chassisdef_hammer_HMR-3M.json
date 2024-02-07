@@ -8,7 +8,7 @@
     "UIName": "Hammer",
     "Id": "chassisdef_hammer_HMR-3M",
     "Name": "Hammer",
-    "Details": "<color=#F79B26>The Hammer is a light 'Mech that was built to provide fire support to other 'Mechs with its long-range arsenal. It is often paired with the Anvil, softening up the enemy at a distance until the Anvil can bring its lasers to bear.</color>\n\nThe 3M, simply called the Hammer, has a maximum speed of 86.4 km/h and a respectable six tons of armor. Its primary weapons are a pair of LRM-5 launchers that allow the Hammer to rain destruction down on a target at up to 630 meters. These launchers are augmented with an Artemis IV fire control system for greater accuracy. For close combat, the 'Mech carries three Medium Lasers. With its average speed and good armor protection combined with its long-range weapons, the Hammer is a good overall light fire support 'Mech.",
+    "Details": "<color=#F79B26>The Hammer is a light 'Mech that was built to provide fire support to other 'Mechs with its long-range arsenal. It is often paired with the Anvil, softening up the enemy at a distance until the Anvil can bring its lasers to bear.</color>\n\nThe 3M, simply called the Hammer, has a maximum speed of 86.4 km/h and a respectable six tons of armor. Its primary weapons are a pair of LRM-5 launchers that allow the Hammer to rain destruction down on a target at up to 630 meters. These launchers are augmented with an Artemis IV fire control system for greater accuracy. For close combat, the 'Mech carries three Medium Lasers. With its average speed and good armor protection combined with its long-range weapons, the Hammer is a good overall light fire support 'Mech.\n",
     "Icon": "uixTxrIcon_hammer"
   },
   "MovementCapDefID": "movedef_hammer_HMR-3M",
@@ -198,14 +198,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Striker",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Hammer is a 30-ton fire support 'Mech that's packing some serious firepower for its size. A pair of Artemis IV LRM-5s work wonders alongside its three Medium Lasers. Six tons of armor should help it stay in the fight, but it's a shame it doesn't have jump jets.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -214,7 +213,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -223,7 +221,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -232,7 +229,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +237,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -250,7 +245,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

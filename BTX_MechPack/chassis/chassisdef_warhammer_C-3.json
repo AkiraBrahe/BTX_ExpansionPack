@@ -8,7 +8,7 @@
     "UIName": "Warhammer",
     "Id": "chassisdef_warhammer_C-3",
     "Name": "Warhammer",
-    "Details": "<color=#F79B26>The Warhammer is a powerful 'Mech that, thanks to its incredible firepower and respectable armor, practically defined the entire class of heavy 'Mechs for centuries.</color>\n\nA refit popular with Wolf's Dragoons, this Warhammer was rebuilt from the ground up with Clan technology. Built using an endo steel internal structure and XL engine, the C 3 has plenty of space for weapons and heat sinks. An ER PPC is carried in each arm. Both side torsos carry an ER Medium Laser, a Medium Pulse Laser, and a Streak SRM-6. The BattleMech is protected by an ECM Suite, while a Targeting Computer makes the already fearsome weaponry even more dangerous. Seventeen double heat sinks cannot keep the 'Mech cool unless the pilot fires either its long range or short range weapons.",
+    "Details": "A refit popular with Wolf's Dragoons, this Warhammer was rebuilt from the ground up with Clan technology. Built using an endo steel internal structure and XL engine, the C 3 has plenty of space for weapons and heat sinks. An ER PPC is carried in each arm. Both side torsos carry an ER Medium Laser, a Medium Pulse Laser, and a Streak SRM-6. The BattleMech is protected by an ECM Suite, while a Targeting Computer makes the already fearsome weaponry even more dangerous. Seventeen double heat sinks cannot keep the 'Mech cool unless the pilot fires either its long range or short range weapons.\n",
     "Icon": "uixTxrIcon_warhammerc"
   },
   "MovementCapDefID": "movedef_warhammer_C-3",
@@ -219,7 +219,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -228,7 +227,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +235,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianClan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +243,6 @@
       "ComponentDefID": "Gear_General_Optimized_Capacitors",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -255,7 +251,6 @@
       "ComponentDefID": "Gear_TAC4_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

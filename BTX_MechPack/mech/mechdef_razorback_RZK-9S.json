@@ -10,6 +10,7 @@
       "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Razorback RZK-9S",
     "Id": "mechdef_razorback_RZK-9S",
     "Name": "Razorback",
-    "Details": "<color=#F79B26>The Razorback is a design that excels at little, but is similarly deficient in few areas. Its weapon loadout allows it to be effective at both long and short range, against both armored and unarmored targets.</color>\n\nThe RZK-9S includes a ER large laser for long distance fire, supported by a Streak SRM-4. Its array of four Machine Guns allow the 'Mech to make very short work of infantry platoons.",
+    "Details": "<color=#F79B26>The Razorback is a design that excels at little, but is similarly deficient in few areas. Its weapon loadout allows it to be effective at both long and short range, against both armored and unarmored targets.</color>\n\nThe RZK-9S includes a ER large laser for long distance fire, supported by a Streak SRM-4. Its array of four Machine Guns allow the 'Mech to make very short work of infantry platoons.\n",
     "Icon": "uixTxrIcon_razorback"
   },
   "simGameMechPartCost": 350000,

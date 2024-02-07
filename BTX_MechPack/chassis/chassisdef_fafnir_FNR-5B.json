@@ -8,7 +8,7 @@
     "UIName": "Fafnir",
     "Id": "chassisdef_fafnir_FNR-5B",
     "Name": "Fafnir",
-    "Details": "<color=#F79B26>Serving as the flagship of Defiance Industries, the Fafnir is one of the most powerful BattleMechs in existence, with its slow assault design providing a platform for a massive weapons payload.</color>\n\nThis field modification, first introduced during the FedCom Civil War, replaces the scarce Heavy Gauss Rifles with paired standard Gauss Rifles. The two ER Medium Lasers and the Medium Pulse Laser are retained, while an ER Large Laser is added to compensate for the reduced damage output at long range and decrease the 5B's ammunition dependency compared to the original.",
+    "Details": "<color=#F79B26>Serving as the flagship of Defiance Industries, the Fafnir is one of the most powerful BattleMechs in existence, with its slow assault design providing a platform for a massive weapons payload.</color>\n\nThis field modification, first introduced during the FedCom Civil War, replaces the scarce Heavy Gauss Rifles with paired standard Gauss Rifles. The two ER Medium Lasers and the Medium Pulse Laser are retained, while an ER Large Laser is added to compensate for the reduced damage output at long range and decrease the 5B's ammunition dependency compared to the original.\n",
     "Icon": "uixTxrIcon_fafnir"
   },
   "MovementCapDefID": "movedef_fafnir_FNR-5B",
@@ -228,7 +228,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +236,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +244,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -255,7 +252,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -264,7 +260,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -273,7 +268,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -282,7 +276,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

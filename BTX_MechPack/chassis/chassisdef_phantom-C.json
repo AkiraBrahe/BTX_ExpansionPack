@@ -8,7 +8,7 @@
     "UIName": "Phantom",
     "Id": "chassisdef_phantom-C",
     "Name": "Phantom",
-    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe Phantom C is another close-combat configuration, this time with an array of eight ER Small Lasers and one ER Medium Laser, all linked to an advanced Targeting Computer for increased accuracy. The 'Mech also has a Flamer, which it can use against infantry.",
+    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe C configuration is another close-combat variant, this time with an array of eight ER Small Lasers and one ER Medium Laser, all linked to an advanced Targeting Computer for increased accuracy. The 'Mech also has a Flamer, which it can use against infantry.\n",
     "Icon": "uixTxrIcon_phantom"
   },
   "MovementCapDefID": "movedef_phantom-C",
@@ -165,46 +165,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -3,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -3,
+      "y": 12,
+      "z": 0
     },
     {
       "x": 2.5,
-      "y": 6.0,
-      "z": 6.0
+      "y": 6,
+      "z": 0
     },
     {
       "x": -2.5,
-      "y": 6.0,
-      "z": 6.0
+      "y": 6,
+      "z": 0
     }
   ],
   "VariantName": "PHM-C",
@@ -222,14 +222,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Extremely Fast Scout",
-  "YangsThoughts": "",
+  "YangsThoughts": "Phantom C keeps it close with four ER Small Lasers and a single ER Medium Laser, all linked to a Targeting Computer for pinpoint accuracy. But wait, there's more! It also has a Flamer for those \"special occasions\". Not pretty, but effective.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -238,7 +237,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -247,7 +245,6 @@
       "ComponentDefID": "Gear_TAC1_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

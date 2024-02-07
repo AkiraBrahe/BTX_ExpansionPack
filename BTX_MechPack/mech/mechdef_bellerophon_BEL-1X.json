@@ -8,8 +8,9 @@
       "unit_lance_assassin",
       "unit_range_medium",
       "unit_armor_low",
-      "unit_speed_high",
-      "unit_release"
+      "unit_speed_medium",
+      "unit_release",
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,7 +25,7 @@
     "UIName": "Bellerophon BEL-1X",
     "Id": "mechdef_bellerophon_BEL-1X",
     "Name": "Bellerophon",
-    "Details": "<color=#F79B26>The Bellerophon was a failed prototype intended to complement the Mackie with its higher speed, but its weapon arrangement made it unstable.</color>\n\nThe BEL-1X is equipped with a pair of Large Lasers coupled with an SRM-4 which it would use to provide supporting fire for the Mackie. However, both Large Lasers are mounted in the right arm, making it difficult to keep the 'Mech balanced and upright, especially when maneuvering. Furthermore, the Bellerophon's fourteen heat sinks are not enough to offset any heat spikes should the MechWarrior choose to fire all his weapons at once, or even fire the two Large Lasers in tandem.",
+    "Details": "<color=#F79B26>The Bellerophon was a failed prototype intended to complement the Mackie with its higher speed, but its weapon arrangement made it too unstable.</color>\n\nThe design incorporated a pair of Large Lasers coupled with an SRM-4 which it would use to provide supporting fire for the Mackie. However, both Large Lasers were mounted in the right arm, and the small SRM launcher found in the left arm was hardly able to keep the design balanced and upright, particularly while maneuvering. Furthermore, the Bellerophon's fourteen heat sinks were not enough to offset any heat spikes should the MechWarrior choose to fire all his weapons at once, or even fire the two Large Lasers in tandem.\n",
     "Icon": "uixTxrIcon_bellerophon"
   },
   "simGameMechPartCost": 480000,

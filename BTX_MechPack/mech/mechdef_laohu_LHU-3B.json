@@ -3,13 +3,15 @@
     "items": [
       "unit_mech",
       "unit_heavy",
-      "unit_role_sniper",
+      "unit_role_brawler",
+      "unit_lance_vanguard",
       "unit_lance_support",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +27,7 @@
     "UIName": "Lao Hu LHU-3B",
     "Id": "mechdef_laohu_LHU-3B",
     "Name": "Lao Hu",
-    "Details": "<color=#F79B26>The Lao Hu (\"Tiger\"), designed by a student at the Victoria Academy of Arms and Technology, is based on the Thunder BattleMech and is intended to correct perceived flaws in the Thunder by utilizing new technologies available to the Capellan Confederation.</color>\n\nThe Lao Hu is built on a lightweight Chariot Type II Endo Steel chassis protected by an impressive thirteen and a half tons of armor, allowing it to withstand hits from all but the most powerful weapons. The Lao Hu is capable of engaging an enemy at almost any range, carrying an ER Large Laser and LRM-15 launcher for long-range combat and a devastating LB-X Autocannon/20 for close-quarters combat.",
+    "Details": "<color=#F79B26>The Lao Hu (\"Tiger\"), designed by a student at the Victoria Academy of Arms and Technology, is based on the Thunder BattleMech and is intended to correct perceived flaws in the Thunder by utilizing new technologies available to the Capellan Confederation.</color>\n\nModified to carry a C3 Master Computer, the 3B downgrades its autocannon to an LB 10-X AC, drops a ton of armor, and replaces the LRM-15 with an Artemis IV-enhanced LRM-10. This variant uses its C3 computer to link together an entire C3 Lance and gives the 'Mech unparalleled accuracy when part of a C3 lance.\n",
     "Icon": "uixTxrIcon_laohu"
   },
   "simGameMechPartCost": 2120000,

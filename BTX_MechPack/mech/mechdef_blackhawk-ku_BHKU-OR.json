@@ -11,6 +11,7 @@
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Black Hawk-KU BHKU-OR",
     "Id": "mechdef_blackhawk-ku_BHKU-OR",
     "Name": "Black Hawk-KU",
-    "Details": "<color=#F79B26>The Black Hawk-KU is an Inner Sphere version of the Clan Black Hawk OmniMech, built ten tons heavier than its Clan counterpart due to technological differences.</color>\n\nThis configuration is a field upgrade developed in the midst of Operation Bulldog. It helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. A mix of arm-mounted short and long range weapons, this upgrade combines two Clan-tech ER Large Lasers mounted in the right arm, with two Clan Streak SRM-6 launchers in the left arm. A C3 Slave unit further enhance its abilities.",
+    "Details": "Formerly known as the Bulldog variant, this configuration helped bolster the SLDF forces in later waves of Operation Bulldog by using captured Clan Smoke Jaguar weapons. A mix of arm-mounted short and long range weapons, this upgrade combines two Clan-tech ER Large Lasers mounted in the right arm, with two Clan Streak SRM-6 launchers in the left arm. A C3 Slave unit further enhance its abilities.\n",
     "Icon": "uixTxrIcon_blackhawkku"
   },
   "simGameMechPartCost": 1560000,

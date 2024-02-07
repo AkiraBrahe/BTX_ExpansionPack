@@ -8,7 +8,7 @@
     "UIName": "Hankyu",
     "Id": "chassisdef_hankyu_arctic_cheetah-H",
     "Name": "Hankyu",
-    "Details": "<color=#F79B26>The Arctic Cheetah was created to take the place of the Mist Lynx OmniMech. The Draconis Combine, which first encountered it, dubbed it Hankyu, which translates to \"Short Bow\" in Japanese, due to its long-range missile weaponry.</color>\n\nThis configuration uses a Heavy Medium Laser, a pair of Heavy Small Lasers, and a Flamer for short-range firepower. It has an ER Large Laser for long range. Three additional double heat sinks keep heat levels in check.",
+    "Details": "This configuration uses a Heavy Medium Laser, a pair of Heavy Small Lasers, and a Flamer for short-range firepower. It has an ER Large Laser for long range. Three additional double heat sinks keep heat levels in check.\n",
     "Icon": "uixTxrIcon_hankyu"
   },
   "MovementCapDefID": "movedef_hankyu_arctic_cheetah-H",
@@ -144,46 +144,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 9.5,
-      "z": 9.5
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
     },
     {
       "x": -2.5,
-      "y": 8.5,
-      "z": 8.5
+      "y": 11.5,
+      "z": -0.5
     },
     {
       "x": 2.5,
-      "y": 8.5,
-      "z": 8.5
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 9.5,
-      "z": 9.5
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
     },
     {
       "x": -2.5,
-      "y": 8.5,
-      "z": 8.5
+      "y": 11.5,
+      "z": -0.5
     },
     {
       "x": 2.5,
-      "y": 8.5,
-      "z": 8.5
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -1.5,
-      "y": 3.0,
-      "z": 3.0
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     },
     {
-      "x": 1.5,
-      "y": 3.0,
-      "z": 3.0
+      "x": 2,
+      "y": 3,
+      "z": 0.5
     }
   ],
   "VariantName": "HAN-H",
@@ -206,7 +206,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -215,7 +214,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -224,7 +222,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +230,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +238,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +246,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -260,7 +254,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -269,7 +262,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

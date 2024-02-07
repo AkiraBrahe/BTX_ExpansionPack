@@ -8,7 +8,7 @@
     "UIName": "Hatamoto-Chi",
     "Id": "chassisdef_hatamotochi_HTM-28T_Shin",
     "Name": "Hatamoto-Chi",
-    "Details": "<color=#F79B26>The Hatamoto-Chi is one of the best Kuritan Assault 'Mechs, succeeding the underperforming Charger. The Hatamoto-Chi was born from an agreement with ComStar to send older SLDF BattleMechs stripped of their LosTech components, during which ComStar \"accidentally\" sent a few advanced Thugs that were used to quickly design the new BattleMech.</color>\n\nThe Hatamoto-Chi Shin, literally the \"True Guardian of the Banner\", is a complete rearmament of an HTM-28T, with only the C3 Slave remaining. A Gauss Rifle is fitted in the left arm, with three tons of ammunition in the left torso. The left torso also holds six Medium Pulse Lasers. The right arm carries a Large Sword, with Triple-Strength Myomer greatly increasing the damage done by the blade. Only ten double heat sinks are used, allowing the TSM to remain active.",
+    "Details": "The Hatamoto-Chi Shin, literally the \"True Guardian of the Banner\", is a complete rearmament of an HTM-28T, with only the C3 Slave remaining. A Gauss Rifle is fitted in the left arm, with three tons of ammunition in the left torso. The left torso also holds six Medium Pulse Lasers. The right arm carries a Large Sword, with Triple-Strength Myomer greatly increasing the damage done by the blade. Only ten double heat sinks are used, allowing the TSM to remain active.\n",
     "Icon": "uixTxrIcon_hatamotochisam"
   },
   "MovementCapDefID": "movedef_hatamotochi_HTM-28T_Shin",
@@ -225,7 +225,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_6",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,7 +233,6 @@
       "ComponentDefID": "Gear_General_Earthwerks_VOL_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -243,7 +241,6 @@
       "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

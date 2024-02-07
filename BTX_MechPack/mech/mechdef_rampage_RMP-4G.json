@@ -11,6 +11,7 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Rampage RMP-4G",
     "Id": "mechdef_rampage_RMP-4G",
     "Name": "Rampage",
-    "Details": "<color=#F79B26>The Rampage is a BattleMech that was produced by the Rim Worlds Republic. The 'Mech was originally built and used as a standard line SLDF unit, but it was upgraded to a fast assault 'Mech following Stefan Amaris' successful coup.</color>\n\nThe 4G Rampage is similar to the 5G upgrade, but it only has one Medium Laser and no missile launchers, relying instead on a Gauss Rifle to deliver focused long-range fire. This model also has access to a wide range of other weapons, such as a Flamer, an Anti-Missile System, a Large Pulse Laser, and a LB 10-X Autocannon. Additionally, it calls for slightly less armor and the bare minimum of double heat sinks.",
+    "Details": "<color=#F79B26>The Rampage, a BattleMech originally designed as a standard line unit for the Star League Defense Force, underwent a transformative upgrade to become a fast assault 'Mech following Stefan Amaris' successful coup.</color>\n\nBuilt in limited numbers before the introduction of the 5G, the Rampage 4G forgoes the missile launchers of its successor, relying instead on a Gauss Rifle to deliver devastating long-range firepower with pinpoint accuracy. This variant also boasts a diverse arsenal of weaponry, including a Flamer, an Anti-Missile System, a Large Pulse Laser, and an LB 10-X Autocannon. To accommodate these armaments, the 4G features slightly less armor and the bare minimum of double heat sinks.\n",
     "Icon": "uixTxrIcon_rampage"
   },
   "simGameMechPartCost": 2290000,

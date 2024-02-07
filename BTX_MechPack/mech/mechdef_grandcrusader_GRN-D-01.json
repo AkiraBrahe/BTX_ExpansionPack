@@ -12,6 +12,7 @@
       "unit_speed_low",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Grand Crusader GRN-D-01",
     "Id": "mechdef_grandcrusader_GRN-D-01",
     "Name": "Grand Crusader",
-    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThe GRN-D-01 carries a pair of Artemis IV LRM-20 launchers with a combined six tons of ammunition, allowing the Grand Crusader to engage an enemy at long range with great accuracy. The 'Mech can rely on its two Medium and Large Pulse Lasers for medium to close-range combat. To defend itself against missile attacks, the Grand Crusader also carries an Anti-Missile System mounted on a pivot point on top of the cockpit, resulting in a noticeable blind spot behind the 'Mech that could be exploited by Battle Armors missile attacks.",
+    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThe GRN-D-01 carries a pair of Artemis IV LRM-20 launchers with a combined six tons of ammunition, allowing the Grand Crusader to engage an enemy at long range with great accuracy. The 'Mech can rely on its two Medium and Large Pulse Lasers for medium to close-range combat. To defend itself against missile attacks, the Grand Crusader also carries an Anti-Missile System mounted on a pivot point on top of the cockpit, resulting in a noticeable blind spot behind the 'Mech that could be exploited by Battle Armors missile attacks.\n",
     "Icon": "uixTxrIcon_grandcrusader"
   },
   "simGameMechPartCost": 1560000,

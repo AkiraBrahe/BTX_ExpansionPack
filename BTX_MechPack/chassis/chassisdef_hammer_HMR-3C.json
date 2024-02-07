@@ -8,7 +8,7 @@
     "UIName": "Hammer",
     "Id": "chassisdef_hammer_HMR-3C",
     "Name": "Hammer",
-    "Details": "<color=#F79B26>The Hammer is a light 'Mech that was built to provide fire support to other 'Mechs with its long-range arsenal. It is often paired with the Anvil, softening up the enemy at a distance until the Anvil can bring its lasers to bear.</color>\n\nCalled the Claw-Hammer, the 3C is built to make the Hammer capable of better defending itself when an enemy closes on the battlefield. This is done by removing one of the LRM-5 launchers and replacing it with four additional Medium Lasers, which gives the Hammer the ability to attack the enemy with an overwhelming laser barrage at close ranges. This variant also works well as a bodyguard 'Mech in a lance of Hammer 'Mechs.",
+    "Details": "<color=#F79B26>The Hammer is a light 'Mech that was built to provide fire support to other 'Mechs with its long-range arsenal. It is often paired with the Anvil, softening up the enemy at a distance until the Anvil can bring its lasers to bear.</color>\n\nCalled the Claw-Hammer, the 3C is built to make the Hammer capable of better defending itself when an enemy closes on the battlefield. This is done by removing one of the LRM-5 launchers and replacing it with four additional Medium Lasers, which gives the Hammer the ability to attack the enemy with an overwhelming laser barrage at close ranges. This variant also works well as a bodyguard 'Mech in a lance of Hammer 'Mechs.\n",
     "Icon": "uixTxrIcon_hammer"
   },
   "MovementCapDefID": "movedef_hammer_HMR-3C",
@@ -211,14 +211,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Striker",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 3C variant, known as the \"Claw-Hammer\", is clearly built for short-range brawling. It replaces one of the LRM launchers with four more Medium Lasers, giving it some serious firepower up close. Sadly, it still relies on single heat sinks, so it's prone to overheating.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -227,7 +226,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +234,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +242,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

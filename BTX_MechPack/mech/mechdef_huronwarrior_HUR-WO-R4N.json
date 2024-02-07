@@ -8,10 +8,11 @@
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
-      "unit_speed_low",
+      "unit_speed_medium",
       "unit_electronicWarfare",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Huron Warrior HUR-WO-R4N",
     "Id": "mechdef_huronwarrior_HUR-WO-R4N",
     "Name": "Huron Warrior",
-    "Details": "<color=#F79B26>The Huron Warrior was initially intended to be a fire support BattleMech, but it was later modified to be capable of attacking an enemy with a devastating long range direct fire arsenal.</color>\n\nThe R4N is a modification that looks to the original design of the Huron Warrior and reverts the 'Mech back to a fire support role. This is done by replacing the 'Mech's weapons and ammunition payload with a pair of LRM-15 launchers and four Medium Lasers, with CASE for the ammo bin. The 'Mech is also armored with new stealth armor and carries a Guardian ECM suite. This combination of LRM-15s and stealth armor makes the R4N an incredibly powerful fire support 'Mech.",
+    "Details": "The R4N is a modification that looks to the original design of the Huron Warrior and reverts the 'Mech back to a fire support role. This is done by replacing the 'Mech's weapons and ammunition payload with a pair of LRM-15 launchers and four Medium Lasers, with CASE for the ammo bin. The 'Mech is also armored with new stealth armor and carries a Guardian ECM suite. This combination of LRM-15s and stealth armor makes the R4N an incredibly powerful fire support 'Mech.\n",
     "Icon": "uixTxrIcon_huronw"
   },
   "simGameMechPartCost": 950000,

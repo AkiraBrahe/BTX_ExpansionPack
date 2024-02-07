@@ -8,7 +8,7 @@
     "UIName": "Roughneck",
     "Id": "chassisdef_roughneck_RGH-3A",
     "Name": "Roughneck",
-    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 3A is another variant mounting modern equipment, with eighteen double heat sinks to support a heavy energy weapon loadout. Retaining only the RGH-1A's head-mounted small laser, the 3A mounts a PPC in each arm supported by twin Medium Lasers in each torso. In all other respects, the 3A features the same ground speed and armor as the standard 1A.",
+    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 3A is another variant mounting modern equipment, with eighteen double heat sinks to support a heavy energy weapon loadout. Retaining only the RGH-1A's head-mounted small laser, the 3A mounts a PPC in each arm supported by twin Medium Lasers in each torso. In all other respects, the 3A features the same ground speed and armor as the standard 1A.\n",
     "Icon": "uixTxrIcon_roughneck"
   },
   "MovementCapDefID": "movedef_roughneck_RGH-3A",
@@ -205,6 +205,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Militarized LoaderMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "This 3A variant is the culmination of the Roughneck lineup, Boss. It embraces double heat sink tech, which really helps it vent its all-energy loadout. Arm-mounted PPCs, two Medium Lasers, and a Small Laser make it wholly independent from supply lines, making it a great raider or harasser. This is a really decent 'Mech, and I can see many mercenaries or militias using it with great success.",
   "FixedEquipment": []
 }

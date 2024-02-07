@@ -9,8 +9,10 @@
       "unit_range_medium",
       "unit_armor_high",
       "unit_speed_medium",
+      "unit_electronicWarfare",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +29,7 @@
     "UIName": "Warhammer C 3",
     "Id": "mechdef_warhammer_C-3",
     "Name": "Warhammer",
-    "Details": "<color=#F79B26>The Warhammer is a powerful 'Mech that, thanks to its incredible firepower and respectable armor, practically defined the entire class of heavy 'Mechs for centuries.</color>\n\nA refit popular with Wolf's Dragoons, this Warhammer was rebuilt from the ground up with Clan technology. Built using an endo steel internal structure and XL engine, the C 3 has plenty of space for weapons and heat sinks. An ER PPC is carried in each arm. Both side torsos carry an ER Medium Laser, a Medium Pulse Laser, and a Streak SRM-6. The BattleMech is protected by an ECM Suite, while a Targeting Computer makes the already fearsome weaponry even more dangerous. Seventeen double heat sinks cannot keep the 'Mech cool unless the pilot fires either its long range or short range weapons.",
+    "Details": "A refit popular with Wolf's Dragoons, this Warhammer was rebuilt from the ground up with Clan technology. Built using an endo steel internal structure and XL engine, the C 3 has plenty of space for weapons and heat sinks. An ER PPC is carried in each arm. Both side torsos carry an ER Medium Laser, a Medium Pulse Laser, and a Streak SRM-6. The BattleMech is protected by an ECM Suite, while a Targeting Computer makes the already fearsome weaponry even more dangerous. Seventeen double heat sinks cannot keep the 'Mech cool unless the pilot fires either its long range or short range weapons.\n",
     "Icon": "uixTxrIcon_warhammerc"
   },
   "simGameMechPartCost": 1470000,

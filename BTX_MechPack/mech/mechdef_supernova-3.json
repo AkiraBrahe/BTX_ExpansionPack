@@ -5,12 +5,13 @@
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
-      "unit_lance_assassin",
       "unit_lance_support",
+      "unit_lance_assassin",
       "unit_armor_high",
-      "unit_speed_medium",
+      "unit_speed_low",
       "unit_jumpOK",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Supernova 3",
     "Id": "mechdef_supernova-3",
     "Name": "Supernova",
-    "Details": "<color=#F79B26>The Supernova is a fearsome second-line Clan 'Mech that seems to be an advanced version of the Black Hawk, though it was actually developed before that venerable OmniMech.</color>\n\nThe third configuration, similarly to the second, removes four lasers but replaces them with two Medium Pulse Lasers, two ER PPCs, and a Targeting Computer; three heat sinks are also removed.",
+    "Details": "This third configuration, similarly to the second, removes four lasers but replaces them with two Medium Pulse Lasers, two ER PPCs, and a Targeting Computer; three heat sinks are also removed.\n",
     "Icon": "uixTxrIcon_supernova"
   },
   "simGameMechPartCost": 950000,

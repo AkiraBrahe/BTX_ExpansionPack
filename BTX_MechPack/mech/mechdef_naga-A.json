@@ -10,6 +10,7 @@
       "unit_armor_low",
       "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Naga A",
     "Id": "mechdef_naga-A",
     "Name": "Naga",
-    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis design mounts only five tons of ammo and carries an ER Small Laser and a pair of ER Medium Lasers.",
+    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis design carries five tons of ammunition for the two fixed Arrow IV artillery systems, which are augmented by one ER Small Laser and two ER Medium Lasers.\n",
     "Icon": "uixTxrIcon_naga"
   },
   "simGameMechPartCost": 2670000,

@@ -8,7 +8,7 @@
     "UIName": "Matar",
     "Id": "chassisdef_matar_SAM-RS2",
     "Name": "Matar",
-    "Details": "<color=#F79B26>The Matar, known as \"Amaris' Folly\", was an attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar was unfortunately doomed when its leg actuators proved incapable of moving the massive machine.</color>\n\nWith an intended role of static defense, the Matar is built around long-range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units, the 'Mech is armed with a pair of Large Pulse Lasers and a single Medium Pulse Laser. The Matar also carries a pair of Flamers to roast opposing infantry alive and a Guardian ECM to guard against against long-range threats.",
+    "Details": "<color=#F79B26>The Matar, known as \"Amaris' Folly\", was an attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar was unfortunately doomed when its leg actuators proved incapable of moving the massive machine.</color>\n\nWith an intended role of static defense, the Matar is built around long-range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units, the 'Mech is armed with a pair of Large Pulse Lasers and a single Medium Pulse Laser. The Matar also carries a pair of Flamers to roast opposing infantry alive and a Guardian ECM to guard against against long-range threats.\n",
     "Icon": "uixTxrIcon_matar"
   },
   "MovementCapDefID": "movedef_matar_SAM-RS2",
@@ -167,46 +167,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14.5,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 15,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14.5,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 15,
+      "z": -1
     },
     {
       "x": 3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": -1
     },
     {
       "x": -3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": -1
     }
   ],
   "VariantName": "SAM-RS2",
@@ -222,14 +222,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Superheavy Prototype",
-  "YangsThoughts": "I've heard legends about this 'Mech, Boss. You know, biggest, baddest, and not practical. \"Amaris' Folly\", they called it. The only working prototype impaled itself on its own leg. I'm not sure who made this or how he fixed the problems of the first prototypes, but it works.",
+  "YangsThoughts": "I've heard legends about this 'Mech, Boss. You know, the biggest, baddest 'Mech they ever built, but also the most impractical. \"Amaris' Folly\", they called it. The only working prototype impaled itself on its own leg. I don't know who made this thing or how they fixed the problems of the first prototypes, but it works!",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -238,7 +237,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -247,7 +245,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -256,7 +253,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -265,7 +261,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -274,7 +269,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -283,7 +277,6 @@
       "ComponentDefID": "Gear_SensorCAC_Guardian",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

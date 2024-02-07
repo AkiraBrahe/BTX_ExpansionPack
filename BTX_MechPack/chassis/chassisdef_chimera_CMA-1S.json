@@ -8,7 +8,7 @@
     "UIName": "Chimera",
     "Id": "chassisdef_chimera_CMA-1S",
     "Name": "Chimera",
-    "Details": "<color=#F79B26>The Chimera was created as a collaborative effort between the Draconis Combine, Federated Commonwealth, and Lyran Alliance in the run-up to Operation BULLDOG.</color>\n\nThe Chimera carries a diverse arsenal of weapons, with its two primary weapons being an ER Large Laser and an MRM-20 launcher, giving the 'Mech a powerful medium-range punch for its size. For close combat, the 'Mech is armed with an ER Medium Maser and a Machine Gun.",
+    "Details": "<color=#F79B26>The Chimera was created as a collaborative effort between the Draconis Combine, Federated Commonwealth, and Lyran Alliance in the run-up to Operation Bulldog.</color>\n\nThe Chimera carries a diverse arsenal of weapons, with its two primary weapons being an ER Large Laser and an MRM-20 launcher, giving the 'Mech a powerful medium-range punch for its size. For close combat, the 'Mech is armed with an ER Medium Maser and a Machine Gun.\n",
     "Icon": "uixTxrIcon_chimera"
   },
   "MovementCapDefID": "movedef_chimera_CMA-1S",
@@ -197,14 +197,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Striker & Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Chimera is an interesting piece of machinery. It's a joint project between the Draconis Combine, Federated Commonwealth, and Lyran Alliance. It's a 40-ton 'Mech, packing a rather unusual combination of armament—a MRM-20 missile rack and a pair of ER lasers. But what really makes it stand out is its speed, boosted even further by six jump jets.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -213,7 +212,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +220,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +228,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +236,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +244,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +252,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -267,7 +260,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

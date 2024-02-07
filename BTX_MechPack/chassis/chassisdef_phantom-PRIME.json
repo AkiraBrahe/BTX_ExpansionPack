@@ -8,7 +8,7 @@
     "UIName": "Phantom",
     "Id": "chassisdef_phantom-PRIME",
     "Name": "Phantom",
-    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe Prime configuration pushes the medium reconnaissance 'Mech to the most extreme limits. The Phantom is built on a lightweight endo steel chassis and propelled to a top speed of 151.2 km/h by a 360 XL engine. It also boasts strong protection for its size with six tons of ferro-fibrous armor. The 'Mech carries an Active Probe which is able to find hidden enemy units at up to 180 meters, a TAG laser designator capable of spotting for friendly Arrow IV artillery, as well as an ECM suite for protection from enemy electronic warfare systems. To engage enemies, the Phantom has an LRM-5 launcher backed up by an ER Medium Laser and an ER Small Laser.",
+    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe Prime configuration pushes the medium reconnaissance 'Mech to the most extreme limits with its lightweight endo steel chassis propelled to a top speed of 151.2 km/h by a 360 XL engine. It also boasts strong protection for its size with six tons of ferro-fibrous armor. The 'Mech carries an Active Probe which is able to find hidden enemy units at up to 180 meters, a TAG laser designator capable of spotting for friendly Arrow IV artillery, as well as an ECM Suite for protection from enemy electronic warfare systems. To engage enemies, the Phantom has an LRM-5 launcher backed up by an ER Medium Laser and an ER Small Laser.\n",
     "Icon": "uixTxrIcon_phantom"
   },
   "MovementCapDefID": "movedef_phantom-PRIME",
@@ -144,46 +144,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -3,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -3,
+      "y": 12,
+      "z": 0
     },
     {
       "x": 2.5,
-      "y": 6.0,
-      "z": 6.0
+      "y": 6,
+      "z": 0
     },
     {
       "x": -2.5,
-      "y": 6.0,
-      "z": 6.0
+      "y": 6,
+      "z": 0
     }
   ],
   "VariantName": "PHM-PRIME",
@@ -201,14 +201,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Extremely Fast Scout",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Phantom isn't just extremely fast; it's also the perfect scout with its TAG, Active Probe, and ECM Suite to sniff out the enemy while remaining hidden. Don't expect it to win fights though, just one LRM-5 and two ER lasers for defense. Think of it as a sneaky fox, not a battle wolf.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -217,7 +216,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,7 +224,6 @@
       "ComponentDefID": "Gear_SensorCAC_BeagleClan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -235,7 +232,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianClan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

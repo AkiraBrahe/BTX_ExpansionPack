@@ -8,7 +8,7 @@
     "UIName": "Bombard",
     "Id": "chassisdef_bombard_BMB-013",
     "Name": "Bombard",
-    "Details": "<color=#F79B26>The Bombard is a slow but heavily armed BattleMech that relies on overwhelming its targets with its firepower before its slow speed can be exploited.</color>\n\nThe BMB-013 model is armed with two Solaris Arms XT-15 Thunderbolt 15s, each feeded by three tons of CASE-protected ammo. This is enough for a total of 24 shots, providing the Bombard with adequate endurance in the field. A pair of Diverse Optics ER medium lasers have been added to support the Thunderbolt launchers.",
+    "Details": "<color=#F79B26>The Bombard is a slow but heavily armed BattleMech that relies on overwhelming its targets with its firepower before its slow speed can be exploited.</color>\n\nThe BMB-013 model is armed with two Thunderbolt 15s, each feeded by three tons of CASE-protected ammo. This is enough for a total of 24 shots, providing the Bombard with adequate endurance in the field. A pair of ER Medium Lasers have been added to support the Thunderbolt launchers.\n",
     "Icon": "uixTxrIcon_bombard"
   },
   "MovementCapDefID": "movedef_bombard_BMB-013",
@@ -203,14 +203,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Close Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "Looks like the folks at Solaris decided to give the ol' Bombard a little makeover. Now it's rocking a pair of Thunderbolt 15 missile launchers, giving it some much-needed range. And they've also replaced those pesky corrosive heat sinks with regular double heat sinks. But don't let that fool you, this thing's still as slow and unwieldy as ever.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -219,7 +218,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -228,7 +226,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +234,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +242,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -255,7 +250,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -264,7 +258,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -273,7 +266,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -282,7 +274,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

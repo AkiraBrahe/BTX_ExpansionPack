@@ -8,7 +8,7 @@
     "UIName": "Blackjack Omni",
     "Id": "chassisdef_blackjack_BJ2-OR",
     "Name": "Blackjack Omni",
-    "Details": "<color=#F79B26>An upgrade of the ill-regarded Blackjack BattleMech, the Blackjack OmniMech is a powerful and adaptable medium-weight workhorse.</color>\n\nThis configuration is a field upgrade developed in the midst of Operation Bulldog to help bolster the Star League Defense Force forces in later waves by using captured Clan Smoke Jaguar weapons. It is outfitted with a salvaged Clan-tech Gauss Rifle supported by a single Clan Large Pulse Laser, a trio of Clan Medium Pulse Lasers, and a single ER Small Laser.",
+    "Details": "This configuration is a field upgrade developed in the midst of Operation Bulldog to help bolster the Star League Defense Force forces in later waves by using captured Clan Smoke Jaguar weapons. It is outfitted with a salvaged Clan-tech Gauss Rifle supported by a single Clan Large Pulse Laser, a trio of Clan Medium Pulse Lasers, and a single ER Small Laser.\n",
     "Icon": "uixTxrIcon_blackjackomni"
   },
   "MovementCapDefID": "movedef_blackjack_BJ2-OR",
@@ -211,14 +211,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "Clan-tech Blackjack? This OR variant definitely packs a punch! Gauss Rifle and Large Pulse laser light 'em up from afar, while Medium Pulses and an ER Small Laser make close encounters spicy. Just remember to watch your heat.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -227,7 +226,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +234,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +242,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -254,7 +250,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -263,7 +258,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -272,7 +266,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -281,7 +274,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -290,7 +282,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -299,7 +290,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -308,7 +298,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

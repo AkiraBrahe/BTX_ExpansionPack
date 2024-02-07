@@ -5,11 +5,13 @@
       "unit_assault",
       "unit_role_sniper",
       "unit_lance_support",
+      "unit_lance_assassin",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_low",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +27,7 @@
     "UIName": "Thunder Hawk TDK-7KMA",
     "Id": "mechdef_thunderhawk_TDK-7KMA",
     "Name": "Thunder Hawk",
-    "Details": "<color=#F79B26>The Thunder Hawk is the epitome of the doctrine of firepower over maneuverability, with its heavy weapon arsenal and low top speed.</color>\n\nThe 7KMA is a major modification of the Thunder Hawk that allows the 'Mech to act as an ArtilleryMech and a bodyguard unit for artillery units at the same time. This is done by removing one of the Gauss Rifles and replacing it with an Arrow IV artillery missile launcher. In addition, the 'Mech has had its heat sinks upgraded to double heat sinks.",
+    "Details": "The 7KMA is a major modification of the Thunder Hawk that allows the 'Mech to act as an artillery 'Mech and a bodyguard unit for artillery units at the same time. This is done by removing one of the Gauss Rifles and replacing it with an Arrow IV missile artillery system. In addition, the 'Mech has had its heat sinks upgraded to double heat sinks to help manage the heat.\n",
     "Icon": "uixTxrIcon_thunderhawk"
   },
   "simGameMechPartCost": 2250000,

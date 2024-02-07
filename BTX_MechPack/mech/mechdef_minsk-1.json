@@ -4,14 +4,14 @@
       "unit_mech",
       "unit_heavy",
       "unit_role_sniper",
-      "unit_lance_assassin",
       "unit_lance_support",
+      "unit_lance_assassin",
       "unit_range_medium",
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_low",
-      "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +27,7 @@
     "UIName": "Minsk 1",
     "Id": "mechdef_minsk-1",
     "Name": "Minsk",
-    "Details": "<color=#F79B26>The Minsk, Clan Ghost Bear's first domestically produced heavy BattleMech, was designed to serve as a bodyguard unit. Its form harkens back to the ancient Hammerhands designs, featuring barrel-like arms equipped with powerful ballistic weaponry.</color>\n\nA later revision of the MNK-101 trades the Beagle Active Probe for a Clan equivalent model and reduces the machine gun ammunition to half a ton. Each leg carries an A-Pod for anti-infantry work.",
+    "Details": "<color=#F79B26>The Minsk, Clan Ghost Bear's first domestically produced heavy BattleMech, was designed to serve as a bodyguard unit. Its form harkens back to the ancient Hammerhands design, featuring barrel-like arms equipped with powerful ballistic weaponry.</color>\n\nA later revision of the MNK-101 trades the Beagle Active Probe for a Clan equivalent model and reduces the machine gun ammunition to half a ton. Each leg instead carries an A-Pod for anti-infantry work.\n",
     "Icon": "uixTxrIcon_minsk"
   },
   "simGameMechPartCost": 730000,

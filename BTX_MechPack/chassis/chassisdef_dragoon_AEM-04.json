@@ -8,7 +8,7 @@
     "UIName": "Dragoon",
     "Id": "chassisdef_dragoon_AEM-04",
     "Name": "Dragoon",
-    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nBased on a weapon-stripped 01 model, Dragoon 04's long-ranged weapons come in the form of a single Gauss Rifle and an ER PPC. Its short-ranged weapons include five SRM-4s and a single Medium Laser.",
+    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nBased on a weapon-stripped 01 model, the Dragoon 04 is well-equipped for both long-range sniping and close-in brawling. The 'Mech, armed with a single Gauss Rifle and an ER PPC, can unleash devastating blows from a safe distance, while also carrying a quintet of SRM-4s and a single Medium Laser for close-quarters combat.\n",
     "Icon": "uixTxrIcon_dragoon"
   },
   "MovementCapDefID": "movedef_dragoon_AEM-04",
@@ -214,14 +214,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Brawler & Sniper",
-  "YangsThoughts": "Yep, this is yet another Dragoon. I have no idea where all these rarities came from, but… Well, to the point. The AEM-04 carries a Gauss Rifle, an ER PPC, one Medium Laser, and five—just listen!—five SRM-4 launchers, as well as all the same Star League-era technology as the other models. It's effective at any range, although I would recommend medium and long range due to the fragile engine. Definitely a worthy addition to the collection, Boss!",
+  "YangsThoughts": "Yep, this is yet another Dragoon. I have no idea where all these rarities came from, but… Well, to the point. The AEM-04 carries a Gauss Rifle, an ER PPC, one Medium Laser, and five—just listen!—five SRM-4 launchers, as well as all the same Star League-era technology as the other models. It's effective at any range, although I would recommend medium and long range due to the fragile engine. Definitely a worthy addition to the collection!",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -230,7 +229,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -239,7 +237,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -248,7 +245,6 @@
       "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -257,7 +253,6 @@
       "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -266,7 +261,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -275,7 +269,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

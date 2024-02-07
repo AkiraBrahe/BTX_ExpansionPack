@@ -8,7 +8,7 @@
     "UIName": "Lineholder",
     "Id": "chassisdef_lineholder_KW1-LH3",
     "Name": "Lineholder",
-    "Details": "<color=#F79B26>The Lineholder is a 55-ton BattleMech that is quickly becoming the go-to garrison machine for minor factions that can afford brand new BattleMechs.</color>\n\nThe LH3 variant of the Lineholder replaces the Large Laser with an ER Large Laser and the four Medium Lasers with two Medium Pulse Lasers, making it more viable on the modern battlefield.",
+    "Details": "<color=#F79B26>The Lineholder is a 55-ton BattleMech that is quickly becoming the go-to garrison machine for minor factions that can afford brand new BattleMechs.</color>\n\nThe LH3 variant of the Lineholder replaces the Large Laser with an ER Large Laser and the four Medium Lasers with two Medium Pulse Lasers, making it more viable on the modern battlefield.\n",
     "Icon": "uixTxrIcon_lineholder"
   },
   "MovementCapDefID": "movedef_lineholder_KW1-LH3",
@@ -194,11 +194,12 @@
   "VariantName": "KW1-LH3",
   "ChassisTags": {
     "items": [
+      "mr-resize-1.00-0.95-1.10",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "This variant of the Lineholder has an upgraded weapon loadout, with ER Large Lasers and Medium Pulse Lasers replacing the standard lasers. This gives it both better accuracy at short range and more reach at long range, but it also puts more strain on its heat sinks. So, while it's a good choice for experienced pilots, it might be too much for a greenhorn to handle.",
   "FixedEquipment": []
 }

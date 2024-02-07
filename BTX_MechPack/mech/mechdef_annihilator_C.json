@@ -10,6 +10,7 @@
       "unit_speed_low",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_dlc",
       "unit_clan"
     ],
@@ -27,7 +28,7 @@
     "UIName": "Annihilator C",
     "Id": "mechdef_annihilator_C",
     "Name": "Annihilator",
-    "Details": "<color=#F79B26>The Annihilator, originally designed as the ultimate fixed-position city defense BattleMech, is a symbol of the Star League's former military might.</color>\n\nA variant of the Annihilator built using only Clan technology, the Annihilator C is armed with four Ultra Autocannon/10s and four ER Medium Lasers. The Ultra Autocannon/10s enables the 'Mech to fire at twice the rate of a standard autocannon, allowing it to put out as much fire as if it was carrying eight regular autocannons.",
+    "Details": "A variant of the Annihilator that was built using only Clan technology and used exclusively by Wolf's Dragoons, the Annihilator C is armed with four UAC/10s and ER Medium Lasers. The Ultra Autocannon/10s allows the 'Mech to fire at twice the rate of a standard autocannon, allowing it to put out as much fire as if it were carrying eight regular autocannons.\n",
     "Icon": "uixTxrIcon_annihilatorc"
   },
   "simGameMechPartCost": 1170000,

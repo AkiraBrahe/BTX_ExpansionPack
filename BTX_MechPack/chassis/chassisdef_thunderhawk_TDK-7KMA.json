@@ -8,7 +8,7 @@
     "UIName": "Thunder Hawk",
     "Id": "chassisdef_thunderhawk_TDK-7KMA",
     "Name": "Thunder Hawk",
-    "Details": "<color=#F79B26>The Thunder Hawk is the epitome of the doctrine of firepower over maneuverability, with its heavy weapon arsenal and low top speed.</color>\n\nThe 7KMA is a major modification of the Thunder Hawk that allows the 'Mech to act as an ArtilleryMech and a bodyguard unit for artillery units at the same time. This is done by removing one of the Gauss Rifles and replacing it with an Arrow IV artillery missile launcher. In addition, the 'Mech has had its heat sinks upgraded to double heat sinks.",
+    "Details": "The 7KMA is a major modification of the Thunder Hawk that allows the 'Mech to act as an artillery 'Mech and a bodyguard unit for artillery units at the same time. This is done by removing one of the Gauss Rifles and replacing it with an Arrow IV missile artillery system. In addition, the 'Mech has had its heat sinks upgraded to double heat sinks to help manage the heat.\n",
     "Icon": "uixTxrIcon_thunderhawk"
   },
   "MovementCapDefID": "movedef_thunderhawk_TDK-7KMA",
@@ -219,7 +219,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -228,7 +227,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +235,6 @@
       "ComponentDefID": "Gear_Addon_LoadingMechanism_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
       "TargetComponentGUID": "LoadingMechanism0"
@@ -247,7 +244,6 @@
       "ComponentDefID": "Weapon_Artillery_ArrowIV_0-FIXED",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
       "LocalGUID": "LoadingMechanism0"

@@ -6,12 +6,12 @@
       "unit_role_brawler",
       "unit_lance_vanguard",
       "unit_lance_tank",
-      "unit_lance_support",
       "unit_range_medium",
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +27,7 @@
     "UIName": "Orion ON1-M-DC",
     "Id": "mechdef_orion_ON1-M-DC",
     "Name": "Orion",
-    "Details": "<color=#F79B26>The Orion, first true heavy BattleMech, is a dependable workhorse design that can handle almost any combat role thanks to its combination of long and short-range weaponry and respectable armoring.</color>\n\nThis 1-M sub-variant of the Hermes II trades one ton each of SRM and Narc ammunition plus one double heat sink for a Command Console. The loadout remains the same as the ON1-M, with an LB 10-X autocannon, an LRM-20 launcher, two Medium Lasers, a single SRM-4, and a Narc missile beacon.",
+    "Details": "This 1-M sub-variant of the Hermes II trades one ton each of SRM and Narc ammunition plus one double heat sink for a Command Console. The loadout remains the same as the ON1-M, with an LB 10-X autocannon, an LRM-20 launcher, two Medium Lasers, a single SRM-4, and a Narc missile beacon.\n",
     "Icon": "uixTxrIcon_orion"
   },
   "simGameMechPartCost": 1660000,

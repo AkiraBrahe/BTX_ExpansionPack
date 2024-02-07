@@ -12,6 +12,7 @@
       "unit_speed_medium",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Catapult CPLT-C5",
     "Id": "mechdef_catapult_CPLT-C5",
     "Name": "Catapult",
-    "Details": "<color=#F79B26>The Catapult is a second-line fire-support BattleMech that was in short supply for centuries before resurfacing as one of the most prominent designs.</color>\n\nAn upgrade of the C3 model, this variant retains the Arrow IV artillery system, but with an upgraded endo steel chassis and dual heat sinks. This allows the C5 to increase its armor coverage to twelve and a half tons, upgrade its lasers to ER Medium Lasers, and quadruple the amount of ammo carried with protection provided by CASE.",
+    "Details": "An upgrade of the C3 model, this variant first appeared during the St. Ives Conflict. It retains the Arrow IV artillery system, but with an upgraded endo steel chassis and double heat sinks. This allows the C5 to increase its armor coverage to twelve and a half tons, upgrade its lasers to ER Medium Lasers, and quadruple the amount of ammo carried with protection provided by CASE.\n",
     "Icon": "uixTxrIcon_catapult"
   },
   "simGameMechPartCost": 660000,

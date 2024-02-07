@@ -7,10 +7,11 @@
       "unit_lance_vanguard",
       "unit_range_medium",
       "unit_armor_high",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Falcon FLC-4Nb",
     "Id": "mechdef_falcon_FLC-4Nb",
     "Name": "Falcon",
-    "Details": "<color=#F79B26>The Falcon, a popular light recon and skirmisher 'Mech, was originally designed as an anti-infantry and bug hunter 'Mech. It became extinct until the arrival of Wolf's Dragoons in 3005.</color>\n\nBuilt for the Royal SLDF Divisions during the Amaris Civil War, the so-called Royal Falcon carries an experimental Snub-Nose PPC backed up by two Medium Lasers. It is also equipped with double heat sinks and is built on an endo steel chassis. All known examples and design specifications were taken with the Exodus Fleet.",
+    "Details": "Built for the Royal SLDF Divisions during the Amaris Civil War, the so-called Royal Falcon carries an experimental Snub-Nose PPC backed up by two Medium Lasers. It is also equipped with double heat sinks and is built on an endo steel chassis. All known examples and design specifications were taken with the Exodus Fleet.\n",
     "Icon": "uixTxrIcon_falcon"
   },
   "simGameMechPartCost": 280000,

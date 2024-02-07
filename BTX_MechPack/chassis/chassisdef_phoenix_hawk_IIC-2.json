@@ -8,7 +8,7 @@
     "UIName": "Phoenix Hawk IIC",
     "Id": "chassisdef_phoenix_hawk_IIC-2",
     "Name": "Phoenix Hawk IIC",
-    "Details": "<color=#F79B26>The Phoenix Hawk IIC, which resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThis variant turns the Phoenix Hawk IIC into a missile boat. It removes all weapons and a ton of armor to mount four LRM-20s with eight tons of ammunition.",
+    "Details": "<color=#F79B26>The Phoenix Hawk IIC, though it resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThis variant turns the Phoenix Hawk IIC into a missile boat. It removes all weapons and a ton of armor to mount four LRM-20s with eight tons of ammunition.\n",
     "Icon": "uixTxrIcon_phoenixhawkiic"
   },
   "MovementCapDefID": "movedef_phoenix_hawk_IIC-2",
@@ -149,46 +149,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 3.5,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -3.5,
+      "y": 13,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
-    },
-    {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
-    },
-    {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14,
+      "z": 0
     },
     {
       "x": 3.5,
-      "y": 5.5,
-      "z": 5.5
+      "y": 13,
+      "z": 0
     },
     {
       "x": -3.5,
-      "y": 5.5,
-      "z": 5.5
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "PXH-IIC-2",
@@ -205,14 +205,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher & Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "IIC 2 rains hell from afar with four LRM-20s and eight tons of ammo. Think endless missile salvos softening up the enemy while this metal bird circles high above. Just don't get caught with your landing gear down.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -221,7 +220,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

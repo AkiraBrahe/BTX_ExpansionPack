@@ -8,7 +8,7 @@
     "UIName": "Komodo",
     "Id": "chassisdef_komodo_KIM-2",
     "Name": "Komodo",
-    "Details": "<color=#F79B26>The Komodo is designed to hunt and kill Clan Elemental battle armor. The 'Mech is built to be able to catch up to and destroy them with exceptional speed and maneuverability.</color>\n\nThe original variant, powered by a 225 XL engine and five jump jets, can traverse just about any terrain with ease. Aside from its high mobility, the Komodo is armed with ten Medium Lasers, enough to annihilate an entire point of Elementals. To defend against missile attacks, the 'Mech is also outfitted with two Anti-Missile Systems, as well as a Guardian ECM suite and a TAG.",
+    "Details": "<color=#F79B26>The Komodo is designed to hunt and kill Clan Elemental battle armor. The 'Mech is built to be able to catch up to and destroy them with exceptional speed and maneuverability.</color>\n\nThe original variant, powered by a 225 XL engine and five jump jets, can traverse just about any terrain with ease. Aside from its high mobility, the Komodo is armed with ten Medium Lasers, enough to annihilate an entire point of Elementals. To defend against missile attacks, the 'Mech is also outfitted with two Anti-Missile Systems, as well as a Guardian ECM and a TAG.\n",
     "Icon": "uixTxrIcon_komodo"
   },
   "MovementCapDefID": "movedef_komodo_KIM-2",
@@ -230,14 +230,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Elemental Hunter",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Komodo is a mean son of a 'Mech from the Draconis Combine, built to get up close and personal. While a single Medium Laser ain't much, this bad boy packs ten of 'em. And to help it close the distance, it's got five jump jets, two Anti-Missile Systems, and a Guardian ECM, making it a real pain to deal with. The TAG just adds insult to injury.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +245,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -255,7 +253,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

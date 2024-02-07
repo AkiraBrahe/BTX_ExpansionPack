@@ -8,7 +8,7 @@
     "UIName": "Gurkha",
     "Id": "chassisdef_gurkha_GUR-2G",
     "Name": "Gurkha",
-    "Details": "<color=#F79B26>The Gurkha is a powerful light 'Mech developed by the Word of Blake to maintain Terra production lines active. Word of Blake's opponents prioritized eliminating it due to its C3i computer, which often meant that a MechWarrior would find themselves attacked by up to six extremely accurate BattleMechs.</color>\n\nThe four ER Small Lasers and the Sword all lend themselves to the up-close style of fighting that the Gurkha is centered around. It can deal a fair amount of damage relatively quickly, but its real strength lies in the C3i that allows the other five members of the pilot's Level II to effectively fire upon the Gurkha's target. The ER PPC provides a strong long-range punch that may surprise opponents who do not expect such a powerful weapon on a light BattleMech.",
+    "Details": "<color=#F79B26>The Gurkha is a powerful light 'Mech developed by the Word of Blake to maintain Terra production lines active. Word of Blake's opponents prioritized eliminating it due to its C3i computer, which often meant that a MechWarrior would find themselves attacked by up to six extremely accurate BattleMechs.</color>\n\nThe four ER Small Lasers and the Sword all lend themselves to the up-close style of fighting that the Gurkha is centered around. It can deal a fair amount of damage relatively quickly, but its real strength lies in the C3i that allows the other five members of the pilot's Level II to effectively fire upon the Gurkha's target. The ER PPC provides a strong long-range punch that may surprise opponents who do not expect such a powerful weapon on a light BattleMech.\n",
     "Icon": "uixTxrIcon_gurkha"
   },
   "MovementCapDefID": "movedef_gurkha_GUR-2G",
@@ -143,46 +143,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 16,
+      "z": 0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 3.5,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -3.5,
+      "y": 15,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 16,
+      "z": 0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 3.5,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -3.5,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 6.0,
-      "z": 6.0
+      "x": 3,
+      "y": 5,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 6.0,
-      "z": 6.0
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "GUR-2G",
@@ -204,7 +204,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -213,7 +212,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +220,6 @@
       "ComponentDefID": "Gear_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +228,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +236,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +244,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +252,6 @@
       "ComponentDefID": "Gear_C3_Improved",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

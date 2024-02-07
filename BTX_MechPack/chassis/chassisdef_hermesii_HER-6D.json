@@ -8,7 +8,7 @@
     "UIName": "Hermes II",
     "Id": "chassisdef_hermesii_HER-6D",
     "Name": "Hermes II",
-    "Details": "<color=#F79B26>The Hermes II is a heavy scout based on the original Hermes BattleMech, with respectable weaponry, armoring, and speed, allowing it to easily brawl with lighter 'Mechs or survive an encounter with heavier 'Mechs and retreat.</color>\n\nThis variant exchanges the Medium Laser for an ER Medium Laser and the AC/5 for a RAC/5. It still has only one ton of ammo for the autocannon, however, forcing MechWarriors to use their ammunition wisely.",
+    "Details": "This variant, used by the Davion Light Guards, exchanges the Medium Laser for an ER Medium Laser and the AC/5 for a RAC/5. It still has only one ton of ammo for the autocannon, however, forcing MechWarriors to use their ammunition wisely.\n",
     "Icon": "uixTxrIcon_hermes"
   },
   "MovementCapDefID": "movedef_hermesii_HER-6D",
@@ -207,7 +207,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -216,7 +215,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -225,7 +223,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,7 +231,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

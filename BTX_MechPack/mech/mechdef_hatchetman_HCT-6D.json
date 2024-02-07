@@ -11,11 +11,12 @@
       "unit_lance_assassin",
       "unit_range_medium",
       "unit_armor_high",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_jumpOK",
       "unit_electronicWarfare",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_dlc",
       "unit_hatchetman",
       "unit_LosTech"
@@ -33,7 +34,7 @@
     "UIName": "Hatchetman HCT-6D",
     "Id": "mechdef_hatchetman_HCT-6D",
     "Name": "Hatchetman",
-    "Details": "<color=#F79B26>The Hatchetman is a very distinctive BattleMech because of its 'Mech-sized Hatchet. As well as being the first design to carry one, it is also the totally new 'Mech produced in over a century.</color>\n\nThe 6D Hatchetman is a variant with a decidedly Davion flair. The 'Mech is armed with a Rotary Autocannon/5 as its primary weapon, as well as a trio of ER Medium Lasers and a Guardian ECM Suite for protection against electronic warfare systems. The BattleMech is powered by a 225 XL engine and can jump up to 150 meters thanks to an extra jump jet. Finally, the 6D is protected by nine tons of armor and mounts ten double heat sinks.",
+    "Details": "The 6D Hatchetman is a Davion variant with a powerful Rotary Autocannon/5 as its main weapon, along with three ER Medium Lasers for long-range engagements and a Guardian ECM Suite to protect against electronic warfare. It has a 225 XL engine and an extra jump jet for increased speed and mobility. The 6D is also well-protected with nine tons of standard armor.\n",
     "Icon": "uixTxrIcon_hatchetman"
   },
   "simGameMechPartCost": 1020000,
@@ -146,18 +147,18 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
+      "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

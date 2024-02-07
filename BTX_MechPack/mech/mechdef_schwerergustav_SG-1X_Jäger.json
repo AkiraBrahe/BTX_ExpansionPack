@@ -3,15 +3,16 @@
     "items": [
       "unit_mech",
       "unit_assault",
-      "unit_role_brawler",
-      "unit_lance_vanguard",
+      "unit_role_sniper",
       "unit_lance_support",
+      "unit_lance_tank",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_high",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Schwerer Jäger SJ-1X",
     "Id": "mechdef_schwerergustav_SG-1X_Jäger",
     "Name": "Schwerer Jäger",
-    "Details": "<color=#F79B26>Named after the heavy artillery platform from Terra's Second World War, the one-of-a-kind Schwerer Gustav is a FrankenMech combining six different designs, primarily the Annihilator, Verfolger and Berserker.</color>\n\nThe Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
+    "Details": "<color=#F79B26>Named after the heavy artillery platform from Terra's Second World War, the one-of-a-kind Schwerer Gustav is a FrankenMech combining six different designs, primarily the Annihilator, Verfolger and Berserker.</color>\n\nThe Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.\n",
     "Icon": "uixTxrIcon_schwerergustav"
   },
   "simGameMechPartCost": 2960000,

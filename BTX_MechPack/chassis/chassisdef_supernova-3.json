@@ -8,7 +8,7 @@
     "UIName": "Supernova",
     "Id": "chassisdef_supernova-3",
     "Name": "Supernova",
-    "Details": "<color=#F79B26>The Supernova is a fearsome second-line Clan 'Mech that seems to be an advanced version of the Black Hawk, though it was actually developed before that venerable OmniMech.</color>\n\nThe third configuration, similarly to the second, removes four lasers but replaces them with two Medium Pulse Lasers, two ER PPCs, and a Targeting Computer; three heat sinks are also removed.",
+    "Details": "This third configuration, similarly to the second, removes four lasers but replaces them with two Medium Pulse Lasers, two ER PPCs, and a Targeting Computer; three heat sinks are also removed.\n",
     "Icon": "uixTxrIcon_supernova"
   },
   "MovementCapDefID": "movedef_supernova-3",
@@ -149,46 +149,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -5,
+      "y": 16,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -5,
+      "y": 16,
+      "z": -1
     },
     {
       "x": 3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     },
     {
       "x": -3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     }
   ],
   "VariantName": "SNV-3",
@@ -209,7 +209,6 @@
       "ComponentDefID": "Gear_TAC5_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

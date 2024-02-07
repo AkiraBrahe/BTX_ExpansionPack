@@ -8,7 +8,7 @@
     "UIName": "Buccaneer",
     "Id": "chassisdef_buccaneer_BCN-3R",
     "Name": "Buccaneer",
-    "Details": "<color=#F79B26>The Buccaneer is a result of the Word of Blake's insatiable need for military equipment in its early years. Originally designed for ComStar, it was modified to use components available to the Word of Blake in their temporary home in the Free Worlds League.</color>\n\nDesigned primarily for close-range combat, the Buccaneer is powered by a lightweight 330 XL engine that allows it to carry an impressive ten tons of ferro-fibrous armor. Its most fearsome weapon is a Heavy Hatchet, which is supported by four Medium Lasers, a highly accurate Medium Pulse Laser, an SRM-6 with an Artemis IV guidance system, and a single ER Large Laser for long-range striking capability.",
+    "Details": "<color=#F79B26>The Buccaneer is a result of the Word of Blake's insatiable need for military equipment in its early years. Originally designed for ComStar, it was modified to use components available to the Word of Blake in their temporary home in the Free Worlds League.</color>\n\nDesigned primarily for close-range combat, the Buccaneer is powered by a lightweight 330 XL engine that allows it to carry an impressive ten tons of ferro-fibrous armor. Its most fearsome weapon is a Heavy Hatchet, which is supported by four Medium Lasers, a highly accurate Medium Pulse Laser, an SRM-6 with an Artemis IV guidance system, and a single ER Large Laser for long-range striking capability.\n",
     "Icon": "uixTxrIcon_buccaneer"
   },
   "MovementCapDefID": "movedef_buccaneer_BCN-3R",
@@ -209,14 +209,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Buccaneer is a solid 'Mech with a decent arsenal, packing an ER Large Laser, four Medium Lasers, a Pulse Medium Laser, and an SRM-6 launcher. It's got enough armor to shrug off a few shots, and its 330 XL engine means it's quick enough for its Hatchet to find unlucky targets to chop.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -225,7 +224,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,7 +232,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -243,7 +240,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -252,7 +248,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -261,7 +256,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -270,7 +264,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -279,7 +272,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -288,7 +280,6 @@
       "ComponentDefID": "Gear_Actuator_Buccaneer_Hatchet",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

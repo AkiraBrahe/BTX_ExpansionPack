@@ -8,7 +8,7 @@
     "UIName": "Centurion",
     "Id": "chassisdef_centurion_CN9-YLW2",
     "Name": "Centurion",
-    "Details": "<color=#F79B26>The Yen-Lo-Wang, named after the Chinese god of death, is a well-known ArenaMech that has been modified and customized into many different configurations over the years.</color>\n\nAn upgrade over the original Yen-Lo-Wang, the CN9-YLW2 is based on the same configuration but with more modern equipment. The engine is changed to an extra-light version, saving enough weight to upgrade the AC/20 to a Gauss Rifle with two tons of ammunition and install three Medium Pulse Lasers in place of the two standard ones. In addition, the Hatchet is now paired with Triple-Strength Myomer, making the 'Mech even more deadly in melee.",
+    "Details": "<The CN9-YLW2, an improved version of the Yen-Lo-Wang, is still based upon a CN9-A chassis but uses more modern equipment. It features an extra-light engine, saving enough weight to upgrade the AC/20 to a Gauss Rifle with two tons of ammunition. Three Medium Pulse Lasers replace the old standard ones. In addition, the Hatchet is now paired with Triple-Strength Myomer, making the 'Mech even deadlier in melee.\n",
     "Icon": "uixTxrIcon_yenlowang"
   },
   "MovementCapDefID": "movedef_centurion_CN9-YLW2",
@@ -214,14 +214,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler & General Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "This upgraded Yen-Lo-Wang traded its AC/20 for a shiny new Gauss Rifle. Long-range sniping, anyone? Three Medium Pulse Lasers add close-range punch, and get this—Triple Strength Myomer makes it both faster and turns the Hatchet into a one-swing wonder. Talk about an upgrade!",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -230,7 +229,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -239,7 +237,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -248,7 +245,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -257,7 +253,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -266,7 +261,6 @@
       "ComponentDefID": "Gear_Cockpit_Corean_B-Tech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -275,7 +269,6 @@
       "ComponentDefID": "Gear_Actuator_YenLoWang_Hatchet",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

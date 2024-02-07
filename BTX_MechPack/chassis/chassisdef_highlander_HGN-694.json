@@ -8,7 +8,7 @@
     "UIName": "Highlander",
     "Id": "chassisdef_highlander_HGN-694",
     "Name": "Highlander",
-    "Details": "<color=#F79B26>The Highlander is one of the most well-known SLDF assault 'Mechs, infamous for the \"Highlander Burial,\" a move in which the 'Mech leaps into the air and lands directly on their enemy. With its 90 tons, a Highlander could literally drive a light 'Mech into the ground, hence the name.</color>\n\nThe HGN-694 is a radical redesign that removes the Highlander's jump jets and replaces the missiles and medium lasers with two Large Lasers and a Heavy Gauss Rifle with four tons of ammunition, enough for sixteen shots. The M-7 Gauss Rifle mounted on the right arm remains in place.",
+    "Details": "The HGN-694 is a radical redesign that removes the Highlander's jump jets and replaces the missiles and medium lasers with two Large Lasers and a Heavy Gauss Rifle with four tons of ammunition, enough for sixteen shots. The M-7 Gauss Rifle mounted on the right arm remains in place.\n",
     "Icon": "uixTxrIcon_highlander"
   },
   "MovementCapDefID": "movedef_highlander_HGN-694",
@@ -217,7 +217,6 @@
       "ComponentDefID": "Gear_Light_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,7 +225,6 @@
       "ComponentDefID": "Gear_Light_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -235,7 +233,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -244,7 +241,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -253,7 +249,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -262,7 +257,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -271,7 +265,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -280,7 +273,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

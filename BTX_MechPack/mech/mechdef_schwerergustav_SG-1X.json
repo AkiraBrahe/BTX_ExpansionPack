@@ -3,15 +3,15 @@
     "items": [
       "unit_mech",
       "unit_assault",
-      "unit_role_brawler",
-      "unit_lance_vanguard",
+      "unit_role_sniper",
       "unit_lance_support",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_medium",
-      "unit_speed_high",
+      "unit_speed_low",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -20,14 +20,14 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 32000000,
-    "Rarity": 5,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Schwerer Gustav SG-1X",
     "Id": "mechdef_schwerergustav_SG-1X",
     "Name": "Schwerer Gustav",
-    "Details": "<color=#F79B26>Named after the heavy artillery platform from Terra's Second World War, the one-of-a-kind Schwerer Gustav is a FrankenMech hodgepodge of proven and prototype Inner Sphere and Clan technologies.</color>\n\nThe Schwerer Gustav is a hybrid of six different designs, primarily the Annihilator, Verfolger and Berserker. Underneath its strange exterior, the Gustav is outfitted with a hybrid standard and endo steel chassis and a 400-rated XL engine, giving the 'Mech surprising staying power and speed for its size. Intended as a command lance 'Mech, a Command Console and a Bloodhound Active Probe are also included. The primary weapon of the Schwerer Gustav is a massive Thumper Artillery Cannon capable of unleashing supporting fire from long distances, while the more direct firepower comes in the form of a Rotary AC/5 and a Binary Laser Cannon. Five tons of ammo shared between the Thumper Cannon and the RAC/5 give the Gustav good endurance in the field.",
+    "Details": "<color=#F79B26>Named after the heavy artillery platform from Terra's Second World War, the one-of-a-kind Schwerer Gustav is a FrankenMech combining six different designs, primarily the Annihilator, Verfolger and Berserker.</color>\n\nUnderneath its strange exterior, the Gustav is outfitted with a hybrid standard and endo steel chassis and a 400-rated XL engine, giving the 'Mech surprising staying power and speed for its size. Intended as a Command 'Mech, a Command Console and a Bloodhound Active Probe are included. The primary weapon of the Schwerer Gustav is a massive Thumper Artillery Cannon capable of unleashing supporting fire from long distances, while the more direct firepower comes in the form of a Rotary AC/5 and a Binary Laser Cannon. Five tons of ammo shared between the Thumper Cannon and the RAC/5 give the Gustav good endurance in the field.\n",
     "Icon": "uixTxrIcon_schwerergustav"
   },
   "simGameMechPartCost": 3200000,

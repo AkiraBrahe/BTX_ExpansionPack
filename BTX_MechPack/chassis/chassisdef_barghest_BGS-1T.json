@@ -8,7 +8,7 @@
     "UIName": "Barghest",
     "Id": "chassisdef_barghest_BGS-1T",
     "Name": "Barghest",
-    "Details": "<color=#F79B26>The Barghest is a four-legged BattleMech designed to evoke fear in its enemies in the same way that the classic Atlas and Banshee designs did.</color>\n\nThe BGS-1T carries thirteen tons of armor that protects it from all but the heaviest enemy fire. The 'Mech's 350-rated XL engine allows it to carry a heavy weapons payload, which includes two ER Large Lasers for long-range fire and a powerful LB-X Autocannon/20 capable of firing both standard ammunition and cluster rounds that act as 'Mech-sized shotgun shells. To handle the 'Mech's heat buildup from its weapons, the Barghest has ten double heat sinks.",
+    "Details": "<color=#F79B26>The Barghest is a four-legged BattleMech designed to evoke fear in its enemies in the same way that the classic Atlas and Banshee designs did.</color>\n\nThe BGS-1T carries thirteen tons of armor that protects it from all but the heaviest enemy fire. The 'Mech's 350-rated XL engine allows it to carry a heavy weapons payload, which includes two ER Large Lasers for long-range fire and a powerful LB-X Autocannon/20 capable of firing both standard ammunition and cluster rounds that act as 'Mech-sized shotgun shells. To handle the 'Mech's heat buildup from its weapons, the Barghest has ten double heat sinks.\n",
     "Icon": "uixTxrIcon_barghest"
   },
   "MovementCapDefID": "movedef_barghest_BGS-1T",
@@ -208,14 +208,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Highly Mobile Sniper Platform",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Barghest is a heavy quad 'Mech powered by an XL engine that can hit speeds of up to 86 km/h. While its overall firepower might be considered a bit light, its massive LB-X Autocannon/20 packs a serious punch. And with that kind of speed, you can close the distance quickly and unleash its devastating firepower.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -224,7 +223,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +231,6 @@
       "ComponentDefID": "Gear_Quad_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +239,6 @@
       "ComponentDefID": "Gear_General_Earthwerks_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +247,6 @@
       "ComponentDefID": "Gear_Quad_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

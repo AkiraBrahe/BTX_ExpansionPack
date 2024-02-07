@@ -8,7 +8,7 @@
     "UIName": "Charger",
     "Id": "chassisdef_charger_CGR-2A2",
     "Name": "Charger",
-    "Details": "<color=#F79B26>The Charger is regarded as a failed BattleMech design. Originally designed as a ultra-heavy scout 'Mech capable of outrunning most other 'Mechs, its offensive capabilities were severely lacking as a result.</color>\n\nThe 2A2 is a Periphery modification of the Charger. Its weapons were all removed and replaced with a Medium Laser and five RL-10s. This upgrade gives the Charger a massive amount of firepower that can be used in one shot or over the course of a battle. Because of the Charger's role as a heavy scout, the one-shot nature of the Rocket Launchers is not viewed as a disadvantage as it would have been if they were mounted on a dedicated assault 'Mech.",
+    "Details": "A Periphery modification of the Charger, the 2A2 had one ton of armor removed and its weapons stripped out. In their place, the 2A2 carries a Medium Laser and five RL-10s. This modification gives the Charger a massive amount of firepower that can be used in one shot or over the course of a battle. Because of the Charger's role as a heavy scout, the one-shot nature of the Rocket Launchers is not viewed as a disadvantage as it would have been if they were mounted on a dedicated assault 'Mech.\n",
     "Icon": "uixTxrIcon_charger"
   },
   "MovementCapDefID": "movedef_charger_CGR-2A2",
@@ -210,7 +210,6 @@
       "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -219,7 +218,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -228,7 +226,6 @@
       "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -237,7 +234,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -246,7 +242,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

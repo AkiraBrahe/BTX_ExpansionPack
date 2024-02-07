@@ -8,7 +8,7 @@
     "UIName": "Prometheus",
     "Id": "chassisdef_prometheus",
     "Name": "Prometheus",
-    "Details": "<color=#F79B26>The Prometheus is a one-of-a-kind FrankenMech developed to gain a better understanding of Clan technology. While a frightful waste of rare Clan salvage, the design serves as a deadly testbed for the Direct Neural Interface system.</color>\n\nThis prototype combines the abilities and parts of the Loki, Mad Cat, Thor and Vulture with the unrivaled control offered by the DNI. The Prometheus has a powerful arsenal of captured Clan weapons, including an ER PPC, Large Pulse Laser, and a pair of LRM-15 launchers for long range combat, supported by two Medium Pulse Lasers. The 'Mech can also hold its own in close quarters thanks to its two SRM-6 launchers and six Machine Guns.",
+    "Details": "<color=#F79B26>The Prometheus is a one-of-a-kind FrankenMech developed to gain a better understanding of Clan technology. While a frightful waste of rare Clan salvage, the design serves as a deadly testbed for the Direct Neural Interface system.</color>\n\nThis prototype combines the abilities and parts of the Loki, Mad Cat, Thor and Vulture with the unrivaled control offered by the DNI. The Prometheus has a powerful arsenal of captured Clan weapons, including an ER PPC, Large Pulse Laser, and a pair of LRM-15 launchers for long range combat, supported by two Medium Pulse Lasers. The 'Mech can also hold its own in close quarters thanks to its two SRM-6 launchers and six Machine Guns.\n",
     "Icon": "uixTxrIcon_prometheus"
   },
   "MovementCapDefID": "movedef_prometheus",
@@ -233,14 +233,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Experimental FrankenMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "This Prometheus is a Frankenstein of a 'Mech, cobbled together with Clan tech and whatever else the engineers could get their hands on. Even the chassis is Clan-spec, and it's got an impressive arsenal: long-range with an ER PPC, Large Pulse, and twin LRM-15s; short-range with a Medium Pulse and SRM-6s; and even six Machine Guns for close support and melting infantry. Problem is, it's a prototype held together with duct tape and hope. Replacing parts might be a bigger fight than facing the enemy!",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +248,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +256,6 @@
       "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -267,7 +264,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -276,7 +272,6 @@
       "ComponentDefID": "Gear_FerroFibrous_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -285,7 +280,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -294,7 +288,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -303,7 +296,6 @@
       "ComponentDefID": "Gear_Cockpit_DirectNeuralInterface",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -8,7 +8,7 @@
     "UIName": "Fire Falcon",
     "Id": "chassisdef_fire_falcon-C",
     "Name": "Fire Falcon",
-    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThe C is designed for scouting and combat against infantry, and relies on an Active Probe to find hidden targets. It carries one Medium Pulse Laser, one Small Pulse Laser, one ER Small Laser, and a pair of SRM-6s to use against those targets. Four Machine Guns provide enough infantry killing power against soft targets.",
+    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThe C is designed for scouting and combat against infantry, and relies on an Active Probe to find hidden targets. It carries one Medium Pulse Laser, one Small Pulse Laser, one ER Small Laser, and a pair of SRM-6s to use against those targets. Four Machine Guns provide enough infantry killing power against soft targets.\n",
     "Icon": "uixTxrIcon_firefalcon"
   },
   "MovementCapDefID": "movedef_fire_falcon-C",
@@ -216,14 +216,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Striker",
-  "YangsThoughts": "",
+  "YangsThoughts": "The C configuration is a pure scout, carrying an Active Probe to detect enemies and a bevy of ER lasers, pulse lasers, and SRM-6 launchers to engage them, and for good measure, four Machine Guns to really ruin their day.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -232,7 +231,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +239,6 @@
       "ComponentDefID": "Gear_SensorCAC_BeagleClan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

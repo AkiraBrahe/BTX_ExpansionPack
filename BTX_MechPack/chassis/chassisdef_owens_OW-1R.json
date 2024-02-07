@@ -8,7 +8,7 @@
     "UIName": "Owens",
     "Id": "chassisdef_owens_OW-1R",
     "Name": "Owens",
-    "Details": "<color=#F79B26>The Owens serves as an OmniMech upgrade for the Jenner BattleMech, with the intended role of cavalry 'Mech that can maneuver along enemy lines and designate targets for Arrow IV artillery strikes.</color>\n\nA field upgrade developed in the midst of Operation Bulldog, this configuration makes use of captured Clan Smoke Jaguar weapons to reinforce SLDF forces. Built from the E variant, it retains the MRM-10 launcher but swaps out the standard and pulse lasers with three Clan ER Medium Lasers.",
+    "Details": "A field upgrade developed in the midst of Operation Bulldog, this configuration makes use of captured Clan Smoke Jaguar weapons to reinforce SLDF forces. Built from the E variant, it retains the MRM-10 launcher but swaps out the standard and pulse lasers with three Clan ER Medium Lasers.\n",
     "Icon": "uixTxrIcon_owens"
   },
   "MovementCapDefID": "movedef_owens_OW-1R",
@@ -197,14 +197,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Spotter Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Owens acts as a great fast spotter 'Mech for other units. Providing spotting, BAP coverage, TAG support and the C3 Slave Unit to help keep it's weapons in optimal range, it's help more than justifies it's place in the lance.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -213,7 +212,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +220,6 @@
       "ComponentDefID": "Gear_SensorCAC_BeagleHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +228,6 @@
       "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +236,6 @@
       "ComponentDefID": "Weapon_TAG_Standard_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

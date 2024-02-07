@@ -11,6 +11,7 @@
       "unit_speed_medium",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Black Heart BH-1",
     "Id": "mechdef_blackheart_BH-1",
     "Name": "Black Heart",
-    "Details": "<color=#F79B26>Some BattleMech designs earn a place in history because they are the chariots of heroes. Others, like the Black Heart, because they are the chariots of monsters, such as the Word of Blake's elite Manei Domini.</color>\n\nThe 70-ton Black Heart is the perfect testbed for the Vehicular Direct Neural Interface, a special type of cybernetic implant that allows MechWarriors to \"become one\" with their machines. The 'Mech itself carries a large arsenal, including a pair of light Gauss Rifles for long range attacks, as well as a pair of Medium Lasers and several sets of SRMs for short range attacks: two SRM-4s and one SRM-6. The Black Heart also sports a Guardian ECM suite and Laser Anti-Missile System for improved survivability.",
+    "Details": "<color=#F79B26>Some BattleMech designs earn a place in history because they are the chariots of heroes. Others, like the Black Heart, because they are the chariots of monsters, such as the Word of Blake's elite Manei Domini.</color>\n\nThe 70-ton Black Heart is the perfect testbed for the Vehicular Direct Neural Interface, a special type of cybernetic implant that allows MechWarriors to \"become one\" with their machines. The 'Mech itself carries a large arsenal, including a pair of light Gauss Rifles for long range attacks, as well as a pair of Medium Lasers and several sets of SRMs for short range attacks: two SRM-4s and one SRM-6. The Black Heart also sports a Guardian ECM suite and Laser Anti-Missile System for improved survivability.\n",
     "Icon": "uixTxrIcon_blackheart"
   },
   "simGameMechPartCost": 1470000,

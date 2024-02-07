@@ -8,7 +8,7 @@
     "UIName": "Coyotl",
     "Id": "chassisdef_coyotl-A",
     "Name": "Coyotl",
-    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, was the first OmniMech. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThis configuration was introduced during a conflict against Clan Cloud Cobra. Seven jump jets give the Coyotl A much greater maneuverability, while the long-range weapons are traded for a Large Pulse Laser, Small Pulse Laser, and an additional Streak SRM-4 launcher. This version also drops the Medium Pulse Laser of the original.",
+    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, was the first OmniMech ever built. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThis configuration was introduced during a conflict against Clan Cloud Cobra. Seven jump jets give the Coyotl A much greater maneuverability, while the long-range weapons are traded for a Large Pulse Laser, Small Pulse Laser, and an additional Streak SRM-4 launcher. This version also drops the Medium Pulse Laser of the original.\n",
     "Icon": "uixTxrIcon_mercuryii"
   },
   "MovementCapDefID": "movedef_coyotl-A",
@@ -142,45 +142,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 15,
-      "z": 15
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4,
-      "y": 14,
-      "z": 14
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4,
-      "y": 14,
-      "z": 14
+      "x": -3,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 15,
-      "z": 15
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4,
-      "y": 14,
-      "z": 14
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4,
-      "y": 14,
-      "z": 14
+      "x": -3,
+      "y": 12,
+      "z": 0
     },
     {
       "x": 2.5,
       "y": 6,
-      "z": 6
+      "z": 0
     },
     {
       "x": -2.5,
       "y": 6,
-      "z": 6
+      "z": 0
     }
   ],
   "VariantName": "CYTL-A",
@@ -197,14 +197,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Striker",
-  "YangsThoughts": "",
+  "YangsThoughts": "The A configuration is all about maneuverability and close-quarters brawling. With its seven jump jets, it can force almost any enemy to fight close-on and taste its mix of pulse weapons and short-range missiles.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -213,7 +212,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
