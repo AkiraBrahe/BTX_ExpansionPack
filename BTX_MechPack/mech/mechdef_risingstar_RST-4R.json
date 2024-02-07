@@ -7,9 +7,10 @@
       "unit_lance_vanguard",
       "unit_range_medium",
       "unit_armor_high",
-      "unit_speed_medium",
+      "unit_speed_low",
       "unit_jumpOK",
-      "unit_release"
+      "unit_release",
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,7 +25,7 @@
     "UIName": "Rising Star RST-4R",
     "Id": "mechdef_risingstar_RST-4R",
     "Name": "Rising Star",
-    "Details": "<color=#F79B26>The Rising Star is a relatively unknown Star League era BattleMech that went onto serve as the basis of the Word of Blake's Legacy.</color>\n\nThe RST-4R is built around a standard 240-rated fusion engine and fifteen and a half tons of armor, the maximum for an 80-ton BattleMech. Both features were carried over to the later Legacy model. Offensively, the Rising Star mounts a single standard autocannon instead of the Legacy's dual Ultra Autocannon/10s.",
+    "Details": "<color=#F79B26>The Rising Star is a relatively unknown Star League era BattleMech that went onto serve as the basis of the Word of Blake's Legacy.</color>\n\nThe RST-4R is built around a standard 240-rated fusion engine and fifteen and a half tons of armor, the maximum for an 80-ton BattleMech. Both features were carried over to the later Legacy model. Offensively, the Rising Star mounts a single standard autocannon instead of the Legacy's dual Ultra Autocannon/10s.\n",
     "Icon": "uixTxrIcon_risingstar"
   },
   "simGameMechPartCost": 690000,

@@ -8,7 +8,7 @@
     "UIName": "King Crab",
     "Id": "chassisdef_kingcrab_KGC-010",
     "Name": "King Crab",
-    "Details": "<color=#F79B26>The King Crab is one of the most terrifying BattleMechs ever created, with super-heavy autocannons mounted in its arms that can strip the armor off any 'Mech in just a few bursts.</color>\n\nThis variant of the King Crab is an attempt at making a deadly command 'Mech by mounting a pair of PPCs in either side torso and surrounding each of them with an SRM-6 launcher. In place of standard autocannons, the 010 model carries LB-10X autocannons, which are better suited to close-range combat. Overall, the 010 model is more than capable of taking down an Atlas, but most of them left with Kerensky during the Exodus and were thought to be lost during the Succession Wars.",
+    "Details": "This version of the King Crab is an attempt at making a deadly command 'Mech by mounting a pair of PPCs in either side torso and surrounding each of them with an SRM-6 launcher. In place of standard autocannons, the 010 model carries LB-10X autocannons, which are better suited to close-range combat. Overall, the 010 model is more than capable of taking down an Atlas, but most of them left with Kerensky during the Exodus and were thought to be lost during the Succession Wars.\n",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "MovementCapDefID": "movedef_kingcrab_KGC-010",
@@ -227,7 +227,6 @@
       "ComponentDefID": "Gear_Gyro_Cosara_Balanced_Gyros",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +235,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +243,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -254,7 +251,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -263,7 +259,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -272,7 +267,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -281,7 +275,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -290,7 +283,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -8,7 +8,7 @@
     "UIName": "Rattlesnake",
     "Id": "chassisdef_rattlesnake_JR7-31",
     "Name": "Rattlesnake",
-    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThe Rattlesnake's main armament consists of seven Medium Lasers.  It is equipped with the Guardian ECM suite to protect itself from enemy electronic warfare equipment. Its eleven double heat sinks are only just capable of keeping its heat in check.",
+    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThe Rattlesnake's main armament consists of seven Medium Lasers.  It is equipped with the Guardian ECM Suite to protect itself from enemy electronic warfare equipment. Its eleven double heat sinks are only just capable of keeping its heat in check.\n",
     "Icon": "uixTxrIcon_rattlesnake"
   },
   "MovementCapDefID": "movedef_rattlesnake_JR7-31",
@@ -208,14 +208,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Striker Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "This Jenner on steroids throws seven Medium Lasers your way, thanks to a souped-up XL engine. It's fast, hot, and hard to nail down. Just take it easy with the laser show if you want the double heat sinks to keep up.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -224,7 +223,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +231,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +239,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +247,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -260,7 +255,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -269,7 +263,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -278,7 +271,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -287,7 +279,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

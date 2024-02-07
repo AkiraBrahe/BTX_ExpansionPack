@@ -8,7 +8,7 @@
     "UIName": "Volkh",
     "Id": "chassisdef_volkh_VKH-1",
     "Name": "Volkh",
-    "Details": "<color=#F79B26>Developed on Solaris VII, the Volkh BattleMech serves as a testbed for cutting-edge technologies. Its hallmark feature is an XXL engine enhanced with a Supercharger, a combination that grants the Volkh impressive speed and power.</color>\n\nThe Volkh's main armament are its four ER Medium Lasers backed up by a single SRM-4 launcher. The lasers are tied into an advanced Targeting Computer, providing more effective fire. At point-blank ranges, it can cause crippling damage with its two Lances, which may have inspired its name, echoing the voulge, an ancient type of polearm.",
+    "Details": "<color=#F79B26>Developed on Solaris VII, the Volkh BattleMech serves as a testbed for cutting-edge technologies. Its hallmark feature is an XXL engine enhanced with a Supercharger, a combination that grants the Volkh impressive speed and power.</color>\n\nThe Volkh's main armament are its four ER Medium Lasers backed up by a single SRM-4 launcher. The lasers are tied into an advanced Targeting Computer, providing more effective fire. At point-blank ranges, it can cause crippling damage with its two Lances, which may have inspired its name, echoing the voulge, an ancient type of polearm.\n",
     "Icon": "uixTxrIcon_volkh"
   },
   "MovementCapDefID": "movedef_volkh_VKH-1",
@@ -222,7 +222,6 @@
       "ComponentDefID": "Gear_XXL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +230,6 @@
       "ComponentDefID": "Gear_XXL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +238,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +246,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +254,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -267,7 +262,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -276,7 +270,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -285,7 +278,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -294,7 +286,6 @@
       "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -303,7 +294,6 @@
       "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -312,7 +302,6 @@
       "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -321,7 +310,6 @@
       "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -330,7 +318,6 @@
       "ComponentDefID": "Gear_Supercharger_1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -339,7 +326,6 @@
       "ComponentDefID": "Gear_TAC1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -348,7 +334,6 @@
       "ComponentDefID": "Weapon_Melee_Volkh_Lance",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -357,7 +342,6 @@
       "ComponentDefID": "Weapon_Melee_Volkh_Lance",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

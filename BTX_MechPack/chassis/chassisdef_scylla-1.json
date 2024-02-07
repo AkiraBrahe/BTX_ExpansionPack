@@ -8,7 +8,7 @@
     "UIName": "Scylla",
     "Id": "chassisdef_scylla-1",
     "Name": "Scylla",
-    "Details": "<color=#F79B26>The Scylla, named after the sea monster of Greek mythology, is an upgrade to the Golden Century's Storm Giant. Clan Steel Viper developed it following their ejection from the Inner Sphere to bolster their efforts in expanding Clan territory within the Kerensky Cluster.</color>\n\nThe amazing maneuverability of this 100-ton BattleMech has cost it in firepower. The main bite is provided by a pair of LRM-20 missile launchers, supplemented by a ER Large Laser mounted in the head. A LB-X Autocannon/10 does not have quite the same range, though it is still effective at long range. Two ER Medium Lasers provide medium-range support. This design is kept cool by seventeen double heat sinks.",
+    "Details": "<color=#F79B26>The Scylla, named after the sea monster of Greek mythology, is an upgrade to the Golden Century's Storm Giant. Clan Steel Viper developed it following their ejection from the Inner Sphere to bolster their efforts in expanding Clan territory within the Kerensky Cluster.</color>\n\nThe amazing maneuverability of this 100-ton BattleMech has cost it firepower. The main bite is provided by a pair of LRM-20 missile launchers, supplemented by a ER Large Laser mounted in the head. A LB-X Autocannon/10 does not have quite the same range, though it is still effective at long range. Two ER Medium Lasers provide medium-range support. The 'Mech is kept cool by seventeen double heat sinks.\n",
     "Icon": "uixTxrIcon_scylla"
   },
   "MovementCapDefID": "movedef_scylla-1",
@@ -166,46 +166,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -5,
+      "y": 16,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -5,
+      "y": 16,
+      "z": -1
     },
     {
       "x": 3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     },
     {
       "x": -3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": 1
     }
   ],
   "VariantName": "SCY-1",
@@ -227,7 +227,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +235,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

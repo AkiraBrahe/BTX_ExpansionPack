@@ -10,6 +10,7 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Centurion CN9-D5",
     "Id": "mechdef_centurion_CN9-D5",
     "Name": "Centurion",
-    "Details": "<color=#F79B26>The Centurion is a versatile BattleMech with a heavy arsenal that allows it to strike at enemy units at a variety of ranges and survive considerable punishment.</color>\n\nThis Centurion variant uses the same engine and chassis as the CN9-D, but with a completely different loadout. The 'Mech's primary weapon is a Rotary Autocannon/5, backed up by two ER Medium Lasers. The BattleMech uses a MASC, an Advanced Targeting Computer, and carries a C3 Slave unit to share targeting data with its lancemates to direct this firepower.",
+    "Details": "This variant of the Centurion, introduced in 3062, is inspired by the CN9-D and uses the same engine and chassis, but with a completely different loadout. The 'Mech's primary weapon is a Rotary Autocannon/5 backed up by two ER Medium Lasers. To direct this firepower, the 'Mech uses an advanced Targeting Computer and carries a C3 Slave unit to share targeting data with its lancemates.\n",
     "Icon": "uixTxrIcon_centurion"
   },
   "simGameMechPartCost": 1100000,

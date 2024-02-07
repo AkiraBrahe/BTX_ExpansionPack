@@ -8,7 +8,7 @@
     "UIName": "Iron Cheetah",
     "Id": "chassisdef_iron_cheetah-D",
     "Name": "Iron Cheetah",
-    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe D configuration mounts an eclectic assortment of weapons that manage to complement each other fairly well. A single Gauss Rifle and paired ER Large Lasers let this configuration punch holes in the enemy. Once the target's armor is in tatters, the 'Mech can bring its massive LB 20-X Autocannon into play, where its cluster ammunition can devastate internal components. An ECM Suite protects against enemy electronic warfare.",
+    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe D configuration mounts an eclectic assortment of weapons that manage to complement each other fairly well. A single Gauss Rifle and paired ER Large Lasers let this configuration punch holes in the enemy. Once the target's armor is in tatters, the 'Mech can bring its massive LB 20-X Autocannon into play, where its cluster ammunition can devastate internal components. An ECM Suite protects against enemy electronic warfare.\n",
     "Icon": "uixTxrIcon_ironcheetah"
   },
   "MovementCapDefID": "movedef_iron_cheetah-D",
@@ -161,46 +161,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14.5,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 15,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 0,
+      "y": 14.5,
+      "z": 0
     },
     {
-      "x": 5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -5.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 15,
+      "z": -1
     },
     {
       "x": 3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": -1
     },
     {
       "x": -3.5,
       "y": 5.5,
-      "z": 5.5
+      "z": -1
     }
   ],
   "VariantName": "ICH-D",
@@ -216,14 +216,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Long Range Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The D configuration has a mix of long- and close-range weapons, including a Gauss Rifle, an array of ER Lasers, and an LB-X Autocannon/20. To help against enemy electronics warfare, it's also got an Guardian ECM Suite. This variant can handle anything the enemy throws at it.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -232,7 +231,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +239,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianClan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

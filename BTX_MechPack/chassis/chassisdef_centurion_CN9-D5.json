@@ -8,7 +8,7 @@
     "UIName": "Centurion",
     "Id": "chassisdef_centurion_CN9-D5",
     "Name": "Centurion",
-    "Details": "<color=#F79B26>The Centurion is a versatile BattleMech with a heavy arsenal that allows it to strike at enemy units at a variety of ranges and survive considerable punishment.</color>\n\nThis Centurion variant uses the same engine and chassis as the CN9-D, but with a completely different loadout. The 'Mech's primary weapon is a Rotary Autocannon/5, backed up by two ER Medium Lasers. The BattleMech uses a MASC, an Advanced Targeting Computer, and carries a C3 Slave unit to share targeting data with its lancemates to direct this firepower.",
+    "Details": "This variant of the Centurion, introduced in 3062, is inspired by the CN9-D and uses the same engine and chassis, but with a completely different loadout. The 'Mech's primary weapon is a Rotary Autocannon/5 backed up by two ER Medium Lasers. To direct this firepower, the 'Mech uses an advanced Targeting Computer and carries a C3 Slave unit to share targeting data with its lancemates.\n",
     "Icon": "uixTxrIcon_centurion"
   },
   "MovementCapDefID": "movedef_centurion_CN9-D5",
@@ -204,14 +204,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "The D5 Centurion uses the same engine as the basic D, but with a MASC system, allowing it to zip around at 129 km/h. Weapons-wise, it packs a punch with a Rotary AC/5 and two ER Medium Lasers. Rest of the gear went into a Targeting Computer and a C3 Slave, so it can share target data and coordinate with its lancemates.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -220,7 +219,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -229,7 +227,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -238,7 +235,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -247,7 +243,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -256,7 +251,6 @@
       "ComponentDefID": "Gear_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -265,7 +259,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -274,7 +267,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -283,7 +275,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -292,7 +283,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -301,7 +291,6 @@
       "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -310,7 +299,6 @@
       "ComponentDefID": "Gear_TAC3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -319,7 +307,6 @@
       "ComponentDefID": "Gear_MASC_3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

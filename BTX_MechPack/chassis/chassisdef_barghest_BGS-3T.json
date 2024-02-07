@@ -8,7 +8,7 @@
     "UIName": "Barghest",
     "Id": "chassisdef_barghest_BGS-3T",
     "Name": "Barghest",
-    "Details": "<color=#F79B26>The Barghest is a four-legged BattleMech designed to evoke fear in its enemies in the same way that the classic Atlas and Banshee designs did.</color>\n\nThe 3T variant of the Barghest's primary weapon is the new Heavy Gauss Rifle, which is capable of striking at relatively long ranges with a great deal of firepower that increases as the 3T Barghest closes with its target. To back this up, the 3T has a single ER Large Laser and fourteen tons of armor.",
+    "Details": "<color=#F79B26>The Barghest is a four-legged BattleMech designed to evoke fear in its enemies in the same way that the classic Atlas and Banshee designs did.</color>\n\nThe 3T variant of the Barghest's primary weapon is the new Heavy Gauss Rifle, which is capable of striking at relatively long ranges with a great deal of firepower that increases as the 3T Barghest closes with its target. To back this up, the 3T has a single ER Large Laser and fourteen tons of armor.\n",
     "Icon": "uixTxrIcon_barghest"
   },
   "MovementCapDefID": "movedef_barghest_BGS-3T",
@@ -208,14 +208,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Highly Mobile Sniper Platform",
-  "YangsThoughts": "",
+  "YangsThoughts": "Another 'Mech to wield the Lyran Alliance's latest and most potent weapon, the Heavy Gauss Rifle. While it only has an ER Large Laser as a backup, I still pity any unfortunate foe that crosses its path…",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -224,7 +223,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +231,6 @@
       "ComponentDefID": "Gear_Quad_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +239,6 @@
       "ComponentDefID": "Gear_General_Earthwerks_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +247,6 @@
       "ComponentDefID": "Gear_Quad_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

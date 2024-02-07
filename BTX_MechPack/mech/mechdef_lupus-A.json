@@ -10,6 +10,7 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -22,10 +23,10 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Lupus Prime",
+    "UIName": "Lupus A",
     "Id": "mechdef_lupus-A",
     "Name": "Lupus",
-    "Details": "<color=#F79B26>The Lupus OmniMech is Clan Coyote's successor to the Coyotl; it is more armored and serves the same functions as a cavalry raider and fast support 'Mech.</color>\n\nThis configuration is better suited for direct fire support roles. A Large Pulse Laser in one arm supports an Ultra AC/10 in the other. A pair of ER Medium Lasers provides the Lupus A with additional firepower in the event that the 'Mech went through all 30 reloads for the autocannon. Twelve double heat sinks keet the heat manageable.",
+    "Details": "<color=#F79B26>The Lupus OmniMech is Clan Coyote's successor to the Coyotl; it is more armored and serves the same functions as a cavalry raider and fast support 'Mech.</color>\n\nThis configuration is better suited for direct fire support roles. A Large Pulse Laser in one arm supports an Ultra AC/10 in the other. A pair of ER Medium Lasers provides the Lupus A with additional firepower in the event that the 'Mech went through all 30 reloads for the autocannon. Twelve double heat sinks keet the heat manageable.\n",
     "Icon": "uixTxrIcon_lupus"
   },
   "simGameMechPartCost": 750000,

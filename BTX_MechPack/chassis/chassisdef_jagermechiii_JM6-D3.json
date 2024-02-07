@@ -8,7 +8,7 @@
     "UIName": "JagerMech",
     "Id": "chassisdef_jagermechiii_JM6-D3",
     "Name": "JagerMech",
-    "Details": "<color=#F79B26>The JagerMech iiI is built on the same philosophy as the original JagerMech: keeping an enemy at range.</color>\n\nThe JM6-D3 is built on an endo steel chassis with ferro-fibrous armor and powered by a massive 325 XL engine. Its primary weapons for long-range combat are two Ultra Autocannon/2s capable of hitting from 750 meters away. Despite its cutting-edge construction techniques, the JagerMech iiI still relies on two PPCs for intermediate ranges, backed up by two Medium Lasers for close combat.",
+    "Details": "<color=#F79B26>The JagerMech III is built on the same philosophy as the original JagerMech: keeping the enemy at range.</color>\n\nThe JM6-D3 is built on an endo steel chassis with ferro-fibrous armor and powered by a massive 325 XL engine. Its primary weapons for long-range combat are two Ultra Autocannon/2s capable of hitting from 750 meters away. Despite its cutting-edge construction techniques, the JagerMech III still relies on two PPCs for intermediate ranges, backed up by two Medium Lasers for close combat.\n",
     "Icon": "uixTxrIcon_jagermech"
   },
   "MovementCapDefID": "movedef_jagermechiii_JM6-D3",
@@ -229,14 +229,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Direct-Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "The JagerMech III is another 65-tonner with barely more armor than the original JagerMech. Double Ultra Autocannon/2s coupled with two PPCs and Medium Lasers give it enough firepower to keep enemies at bay and not be helpless in close engagements. It's also relatively fast thanks to its XL engine, and double heat sinks help the 'Mech from overheating too much.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +244,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -254,7 +252,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -263,7 +260,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -272,7 +268,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -281,7 +276,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -290,7 +284,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -299,7 +292,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -308,7 +300,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -317,7 +308,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

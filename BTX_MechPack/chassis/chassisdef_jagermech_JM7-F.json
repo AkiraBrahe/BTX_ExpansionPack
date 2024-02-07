@@ -8,7 +8,7 @@
     "UIName": "JagerMech",
     "Id": "chassisdef_jagermech_JM7-F",
     "Name": "JagerMech",
-    "Details": "<color=#F79B26>The JagerMech is a second-line 'Mech whose long-ranged autocannons allow it to engage many enemies without suffering return fire. It was designed to be a superior version of the Rifleman, and it was successful in correcting two of its main flaws: excessive heat buildup and a lack of ammunition for prolonged battles.</color>\n\nThe JM7-F model replaces the JM7-D's Ultra Autocannon and ER Large Lasers with a pair of Rotary Autocannon/5s with four tons of ammunition. Aiming assistance is provided by a Targeting Computer, and defense is improved by the addition of a Guardian ECM Suite. One double heat sink is removed, bringing the total to twelve.",
+    "Details": "The JM7-F model replaces the JM7-D's Ultra Autocannon and ER Large Lasers with a pair of Rotary Autocannon/5s with four tons of ammunition. Aiming assistance is provided by a Targeting Computer, and defense is improved by the addition of a Guardian ECM Suite. One heat sink is removed, bringing the total to twelve double heat sinks.\n",
     "Icon": "uixTxrIcon_jagermech"
   },
   "MovementCapDefID": "movedef_jagermech_JM7-F",
@@ -213,7 +213,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +221,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +229,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +237,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +245,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +253,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -267,7 +261,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -276,7 +269,6 @@
       "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -285,7 +277,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -294,7 +285,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -303,7 +293,6 @@
       "ComponentDefID": "Gear_TAC6",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

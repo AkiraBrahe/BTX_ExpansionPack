@@ -5,10 +5,10 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Rifleman",
+    "UIName": "Hybrid Rifleman",
     "Id": "chassisdef_rifleman_RFL-3N_Sneede",
-    "Name": "Rifleman",
-    "Details": "<color=#F79B26>The personal 'Mech of Cranston Snord's Irregulars member \"Shorty\" Sneede, his Rifleman is a FrankenMech with a Phoenix Hawk head, Warhammer right arm, and the left torso and arm from an Archer, with only the center and right torsos and both legs remaining from the parent design.</color>\n\nSneede's custom Rifleman is built around the 3N's standard 240-rated engine and retains many of its weapons. The FrankenMech is armed with a PPC, LRM-20 with two tons of ammo, and four Medium Lasers. It also has fourteen single heat sinks and nine tons of armor.",
+    "Name": "Hybrid Rifleman",
+    "Details": "<color=#F79B26>The personal 'Mech of Cranston Snord's Irregulars member \"Shorty\" Sneede, his Rifleman is a FrankenMech with a Phoenix Hawk head, Warhammer right arm, and the left torso and arm from an Archer, with only the center and right torsos and both legs remaining from the parent design.</color>\n\nSneede's custom Rifleman is built around the 3N's standard 240-rated engine and retains many of its weapons. The FrankenMech is armed with a PPC, LRM-20 with two tons of ammo, and four Medium Lasers. It also has fourteen single heat sinks and nine tons of armor.\n",
     "Icon": "uixTxrIcon_sneede"
   },
   "MovementCapDefID": "movedef_rifleman_RFL-3N_Sneede",
@@ -203,14 +203,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "FrankenMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "Well, Boss, this 'Mech is a real Frankenstein's monster. It started out as a Rifleman, but then it got totaled in a battle. Instead of just scrapping it, the Snords decided to piece it together with whatever they could find on the battlefield. That's why it's got bits and pieces from a Warhammer, an Archer, and even a Phoenix Hawk. I'm not sure what's more impressive: that it even works, or that it's actually got some decent firepower. It's got a PPC, an LRM-20, four Medium Lasers, and fourteen heat sinks to keep things cool. It's even got nine tons of armor. I don't know whether to cry for its poor existence, give it a hug for surviving, or just put it out of its misery.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_General_Rangefinder_Suite",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

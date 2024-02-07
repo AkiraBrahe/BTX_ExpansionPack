@@ -1,14 +1,14 @@
 {
   "Description": {
     "Cost": 19150000,
-    "Rarity": 5,
+    "Rarity": 6,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Exterminator",
     "Id": "chassisdef_exterminator_EXT-4C",
     "Name": "Exterminator",
-    "Details": "<color=#F79B26>The Exterminator is purpose-built for the dubious yet crucial task of head hunting. Initially equipped with advanced stealth technology, it could seamlessly infiltrate enemy lines to destroy enemy command structures.</color>\n\nThe 4C variant of the Exterminator is the fully equipped stealth version of the 4D that was produced the same year and includes the Null-Signature System and Chameleon Light Polarization Shield. The rest of the loadout is identical to the 4D, with four Medium Lasers, a single Small Laser, an LRM-10 for long range, and an Anti-Missile System to protect itself from missiles if detected.",
+    "Details": "The 4C variant of the Exterminator is the fully equipped stealth version of the 4D that was produced the same year and includes the Null-Signature System and Chameleon Light Polarization Shield. The rest of the loadout is identical to the 4D, with four Medium Lasers, a single Small Laser, an LRM-10 for long range, and an Anti-Missile System to protect itself from missiles if detected.\n",
     "Icon": "uixTxrIcon_exterminator"
   },
   "MovementCapDefID": "movedef_exterminator_EXT-4C",
@@ -213,7 +213,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +221,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +229,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +237,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +245,6 @@
       "ComponentDefID": "Gear_SensorCAC_NullSig_main",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +253,6 @@
       "ComponentDefID": "Gear_SensorCAC_Chameleon_main",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -267,7 +261,6 @@
       "ComponentDefID": "Gear_SensorCAC_NullSig_secondary",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -276,7 +269,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -285,7 +277,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -294,7 +285,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

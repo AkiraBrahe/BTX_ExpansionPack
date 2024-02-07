@@ -8,7 +8,7 @@
     "UIName": "Nightsky",
     "Id": "chassisdef_nightsky_NGS-4S",
     "Name": "Nightsky",
-    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nThe first model relies on a massive 300 XL engine and six jump jets, making the Nightsky a capable heavy recon 'Mech. The BattleMech is outfitted with a powerful close-range arsenal. The centerpiece of this is a massive four-ton hatchet built into its right arm, allowing the 'Mech to cut through the armor of another 'Mech. The Nightsky also has a Large Pulse Laser for medium to long-range firepower, as well as two Medium Pulse Lasers and a Small Pulse Laser for close-range support.",
+    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nThe first model relies on a massive 300 XL engine and six jump jets, making the Nightsky a capable heavy recon 'Mech. The BattleMech is outfitted with a powerful close-range arsenal. The centerpiece of this is a massive four-ton hatchet built into its right arm, allowing the 'Mech to cut through the armor of another 'Mech. The Nightsky also has a Large Pulse Laser for medium to long-range firepower, as well as two Medium Pulse Lasers and a Small Pulse Laser for close-range support.\n",
     "Icon": "uixTxrIcon_nightsky"
   },
   "MovementCapDefID": "movedef_nightsky_NGS-4S",
@@ -198,14 +198,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Recon",
-  "YangsThoughts": "",
+  "YangsThoughts": "This 50-ton brawler is a mean machine, taking inspiration from the Hatchetman and Axman. Its armor is thick enough to withstand a beating, and it's packed with pulse lasers for close-range punch. The Hatchet is the real star of the show, though, and its good speed and jump jets make it easy to line up devastating blows. Just watch out for that XL engine—it's the only real weak spot on this otherwise impressive 'Mech.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -214,7 +213,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -223,7 +221,6 @@
       "ComponentDefID": "Gear_Actuator_Nightsky_Hatchet",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

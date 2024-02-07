@@ -8,7 +8,7 @@
     "UIName": "Hellfire",
     "Id": "chassisdef_hellfire-1",
     "Name": "Hellfire",
-    "Details": "<color=#F79B26>Following the development of heavy laser technology, Clan Star Adder scientists sought a test-bed for the lasers, which resulted in the resurrected Lupus serving as the base for the Hellfire.</color>\n\nThe Hellfire excels at both short and medium ranges thanks to its array of heavy lasers, which includes a single Heavy Large Laser, two pairs of Heavy Medium and Small Lasers, and two ER Medium Lasers for good measure. Three LRM-10 launchers provide some long-range firepower.",
+    "Details": "<color=#F79B26>Following the development of heavy laser technology, Clan Star Adder scientists sought a test-bed for the lasers, which resulted in the resurrected Lupus serving as the base for the Hellfire.</color>\n\nThe Hellfire excels at both short and medium ranges thanks to its array of heavy lasers, which includes a single Heavy Large Laser, two pairs of Heavy Medium and Small Lasers, and two ER Medium Lasers for good measure. Three LRM-10 launchers provide some long-range firepower.\n",
     "Icon": "uixTxrIcon_hellfire"
   },
   "MovementCapDefID": "movedef_hellfire-1",
@@ -218,14 +218,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Artillery & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Hellfire looks like it was designed as a testbed for the Clans' heavy laser technology, but it's not fully optimized for this role. It's apparently a redesign of an older 'Mech, now packing a mix of LRMs and energy weapons. It's a bit of a surprise to see a standard engine in this 'Mech, but the designers tried to compensate for its lack of power by adding a MASC. Nine tons of ferro-fibrous armor try to keep it in one piece, which is crucial considering the MASC's tendency to explode violently.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_MASC_2_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -10,7 +10,9 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_jumpOK",
+      "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +28,7 @@
     "UIName": "Firestarter Omni FS9-OX",
     "Id": "mechdef_firestarter_FS9-OX",
     "Name": "Firestarter Omni",
-    "Details": "<color=#F79B26>The Firestarter OmniMech, which started off as a dubious goodwill gesture between enemy Houses during the Clan Invasion, has proven to be a versatile and highly effective medium trooper design.</color>\n\nThis version boasts several experimental systems. Reminiscent of the Firestarter H, it's equipped with an Angel ECM suite and Bloodhound Active Probe. It carries the twin center torso Flamers common to all Firestarter variants, and augments them with a Streak SRM-2 and a Large X-Pulse Laser.",
+    "Details": "This version boasts several experimental systems. Reminiscent of the Firestarter H, it's equipped with an Angel ECM suite and Bloodhound Active Probe. It carries the twin center torso Flamers common to all Firestarter variants, and augments them with a Streak SRM-2 and a Large X-Pulse Laser.\n",
     "Icon": "uixTxrIcon_firestartero"
   },
   "simGameMechPartCost": 1230000,

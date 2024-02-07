@@ -8,7 +8,7 @@
     "UIName": "Verfolger",
     "Id": "chassisdef_verfolger_VR5-R",
     "Name": "Verfolger",
-    "Details": "<color=#F79B26>The Verfolger, German for \"Pursuer\", is designed to work with the lightweight Wolfhound BattleMech. Through coordinated tactics, they can take out much larger BattleMechs.</color>\n\nThe \"Pursuer\", powered by a lightweight 325-rated XL engine, sacrifices durability for speed, reaching an impressive 86.4 km/h. This saved weight allows the Verfolger to carry a variety of weapons systems with the capability to engage an enemy at almost any range. For its long range striking capabilities, the design carries a powerful ER PPC. As enemy units close in, they face increasing volumes of fire as its LB-X Autocannon/10 comes into play. And at close range, the Verfolger adds its three Medium Lasers to the mix, making the 'Mech a powerful infighter.",
+    "Details": "<color=#F79B26>The Verfolger, German for \"Pursuer\", is designed to work with the lightweight Wolfhound BattleMech. Through coordinated tactics, they can take out much larger BattleMechs.</color>\n\nThe \"Pursuer\", powered by a lightweight 325-rated XL engine, sacrifices durability for speed, reaching an impressive 86.4 km/h. This saved weight allows the Verfolger to carry a variety of weapons systems with the capability to engage an enemy at almost any range. For its long range striking capabilities, the design carries a powerful ER PPC. As enemy units close in, they face increasing volumes of fire as its LB-X Autocannon/10 comes into play. And at close range, the Verfolger adds its three Medium Lasers to the mix, making the 'Mech a powerful infighter.\n",
     "Icon": "uixTxrIcon_verfolger"
   },
   "MovementCapDefID": "movedef_verfolger_VR5-R",
@@ -37,7 +37,7 @@
   "SensorRangeMultiplier": 1,
   "Signature": 0,
   "Radius": 8,
-  "PunchesWithLeftArm": false,
+  "PunchesWithLeftArm": true,
   "MeleeDamage": 90,
   "MeleeInstability": 65,
   "MeleeToHitModifier": 0,
@@ -210,14 +210,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Verfolger is a 65-ton 'Mech designed to tag along with the Wolfhound and packed with a mean arsenal. The LB10-X autocannon and ER PPC deliver some serious punch. A trio of medium lasers helps out in close quarters, and the AMS makes enemy missile boats miserable. It's almost as fast as the Wolfhound it supports and carries 12.5 tons of armor. In my book, Boss, it's a solid all-rounder.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,7 +225,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -235,7 +233,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -244,7 +241,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -253,7 +249,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -262,7 +257,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -271,7 +265,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -280,7 +273,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -289,7 +281,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -11,6 +11,7 @@
       "unit_speed_medium",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Iron Cheetah D",
     "Id": "mechdef_iron_cheetah-D",
     "Name": "Iron Cheetah",
-    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe D configuration mounts an eclectic assortment of weapons that manage to complement each other fairly well. A single Gauss Rifle and paired ER Large Lasers let this configuration punch holes in the enemy. Once the target's armor is in tatters, the 'Mech can bring its massive LB 20-X Autocannon into play, where its cluster ammunition can devastate internal components. An ECM Suite protects against enemy electronic warfare.",
+    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe D configuration mounts an eclectic assortment of weapons that manage to complement each other fairly well. A single Gauss Rifle and paired ER Large Lasers let this configuration punch holes in the enemy. Once the target's armor is in tatters, the 'Mech can bring its massive LB 20-X Autocannon into play, where its cluster ammunition can devastate internal components. An ECM Suite protects against enemy electronic warfare.\n",
     "Icon": "uixTxrIcon_ironcheetah"
   },
   "simGameMechPartCost": 3750000,

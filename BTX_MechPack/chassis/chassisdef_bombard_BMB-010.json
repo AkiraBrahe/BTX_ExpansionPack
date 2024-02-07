@@ -8,7 +8,7 @@
     "UIName": "Bombard",
     "Id": "chassisdef_bombard_BMB-010",
     "Name": "Bombard",
-    "Details": "<color=#F79B26>The Bombard is a slow but heavily armed BattleMech that relies on overwhelming its targets with its firepower before its slow speed can be exploited.</color>\n\nThe original Bombard mounts two massive Autocannon/20s with three tons of ammo, enough for a combined total of 20 shots. While adequate for field use, its ten single heat sinks are insufficient to keep everything cool, and the lack of space precludes the addition of any secondary armament.",
+    "Details": "<color=#F79B26>The Bombard is a slow but heavily armed BattleMech that relies on overwhelming its targets with its firepower before its slow speed can be exploited.</color>\n\nThe original Bombard mounts two massive Autocannon/20s with three tons of ammo, enough for a combined total of 20 shots. While adequate for field use, its ten single heat sinks are insufficient to keep everything cool, and the lack of space precludes the addition of any secondary armament.\n",
     "Icon": "uixTxrIcon_bombard"
   },
   "MovementCapDefID": "movedef_bombard_BMB-010",
@@ -201,14 +201,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Close Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Bombard 010, a Solaris-bred brute, is quite literally a pair of Autocannon/20s strapped to legs. Don't let its lumbering gait fool you, those cannons can punch a hole in a BattleMech's side. Now, about those heat sinks… they're not the fancy Star League tech variety, they're the corrosive kind. If those suckers take a hit, you're in for a nasty surprise. Imagine a 'Mech slowly melting from the inside out—that's the Bombard's specialty.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -217,7 +216,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,7 +224,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -235,7 +232,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -244,7 +240,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -253,7 +248,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -262,7 +256,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -271,7 +264,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -280,7 +272,14 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Engine_HeatSink_Prototype_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

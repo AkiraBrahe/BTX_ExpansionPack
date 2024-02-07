@@ -11,6 +11,7 @@
       "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Roughneck RGH-1A",
     "Id": "mechdef_roughneck_RGH-1A",
     "Name": "Roughneck",
-    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe original model is almost entirely made of so-called Succession War era technology, with CASE mounted in each torso being the only modern addition. The Roughneck's primary weapons are an AC/10 and an SRM-4, which are supplemented by a trio of Machine Guns and a head-mounted Small Laser. While two tons of SRM and autocannon rounds provide adequate field endurance, only a ton and a half of rounds supporting the three Machine Guns run out quickly.",
+    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe original model is almost entirely made of so-called Succession War era technology, with CASE mounted in each torso being the only modern addition. The Roughneck's primary weapons are an AC/10 and an SRM-4, which are supplemented by a trio of Machine Guns and a head-mounted Small Laser. While two tons of SRM and autocannon rounds provide adequate field endurance, only a ton and a half of rounds supporting the three Machine Guns run out quickly.\n",
     "Icon": "uixTxrIcon_roughneck"
   },
   "simGameMechPartCost": 530000,

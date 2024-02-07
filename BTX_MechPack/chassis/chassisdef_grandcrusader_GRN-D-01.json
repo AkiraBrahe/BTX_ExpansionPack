@@ -8,7 +8,7 @@
     "UIName": "Grand Crusader",
     "Id": "chassisdef_grandcrusader_GRN-D-01",
     "Name": "Grand Crusader",
-    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThe GRN-D-01 carries a pair of Artemis IV LRM-20 launchers with a combined six tons of ammunition, allowing the Grand Crusader to engage an enemy at long range with great accuracy. The 'Mech can rely on its two Medium and Large Pulse Lasers for medium to close-range combat. To defend itself against missile attacks, the Grand Crusader also carries an Anti-Missile System mounted on a pivot point on top of the cockpit, resulting in a noticeable blind spot behind the 'Mech that could be exploited by Battle Armors missile attacks.",
+    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThe GRN-D-01 carries a pair of Artemis IV LRM-20 launchers with a combined six tons of ammunition, allowing the Grand Crusader to engage an enemy at long range with great accuracy. The 'Mech can rely on its two Medium and Large Pulse Lasers for medium to close-range combat. To defend itself against missile attacks, the Grand Crusader also carries an Anti-Missile System mounted on a pivot point on top of the cockpit, resulting in a noticeable blind spot behind the 'Mech that could be exploited by Battle Armors missile attacks.\n",
     "Icon": "uixTxrIcon_grandcrusader"
   },
   "MovementCapDefID": "movedef_grandcrusader_GRN-D-01",
@@ -220,14 +220,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "Apparently named for some Blake words and not an upgraded Crusader, this 80-ton 'Mech is a slow but heavily armed support platform, filling a similar role to the Stalker. It's got double LRM-20 launchers boosted by Artemis IV, a pair of Large and Medium Pulse Lasers, and an Anti-Missile System. It's able to carry all that gear thanks to a 240-rated XL engine and endo steel chassis.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +235,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +243,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -254,7 +251,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -263,7 +259,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -272,7 +267,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

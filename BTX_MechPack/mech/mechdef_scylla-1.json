@@ -4,14 +4,15 @@
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
-      "unit_lance_assassin",
       "unit_lance_support",
+      "unit_lance_assassin",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_medium",
       "unit_jumpOK",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Scylla 1",
     "Id": "mechdef_scylla-1",
     "Name": "Scylla",
-    "Details": "<color=#F79B26>The Scylla, named after the sea monster of Greek mythology, is an upgrade to the Golden Century's Storm Giant. Clan Steel Viper developed it following their ejection from the Inner Sphere to bolster their efforts in expanding Clan territory within the Kerensky Cluster.</color>\n\nThe amazing maneuverability of this 100-ton BattleMech has cost it in firepower. The main bite is provided by a pair of LRM-20 missile launchers, supplemented by a ER Large Laser mounted in the head. A LB-X Autocannon/10 does not have quite the same range, though it is still effective at long range. Two ER Medium Lasers provide medium-range support. This design is kept cool by seventeen double heat sinks.",
+    "Details": "<color=#F79B26>The Scylla, named after the sea monster of Greek mythology, is an upgrade to the Golden Century's Storm Giant. Clan Steel Viper developed it following their ejection from the Inner Sphere to bolster their efforts in expanding Clan territory within the Kerensky Cluster.</color>\n\nThe amazing maneuverability of this 100-ton BattleMech has cost it firepower. The main bite is provided by a pair of LRM-20 missile launchers, supplemented by a ER Large Laser mounted in the head. A LB-X Autocannon/10 does not have quite the same range, though it is still effective at long range. Two ER Medium Lasers provide medium-range support. The 'Mech is kept cool by seventeen double heat sinks.\n",
     "Icon": "uixTxrIcon_scylla"
   },
   "simGameMechPartCost": 3000000,

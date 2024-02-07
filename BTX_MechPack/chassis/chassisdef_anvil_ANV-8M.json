@@ -8,10 +8,10 @@
     "UIName": "Anvil",
     "Id": "chassisdef_anvil_ANV-8M",
     "Name": "Anvil",
-    "Details": "<color=#F79B26>The Anvil is a brawler BattleMech that is often paired with the Hammer, based on tests that showed the two 'Mechs would work well together.</color>\n\nThe 8M variant is a radical modification of the 'Mech intended to provide artillery fire support. This is done by removing the 'Mech's entire arsenal and replacing it with an Arrow IV artillery system and an ER Large Laser as its primary weapons, backed up by two ER Medium Lasers for close combat. The 'Mech also includes a Guardian ECM Suite to protect itself from enemy electronic warfare equipment and a MASC to move faster in short bursts.",
+    "Details": "The 8M variant is a radical modification of the Anvil intended to provide artillery fire support. This is done by removing the 'Mech's entire arsenal, the jump jets, and reducing its engine to a 240-rated version. Instead, the 8M has an Arrow IV artillery system and an ER Large Laser as its primary weapons, backed up by two ER Medium Lasers for close combat. The 'Mech also includes a Guardian ECM Suite to protect itself from enemy electronic warfare equipment and a MASC to move faster in short bursts.\n",
     "Icon": "uixTxrIcon_anvil"
   },
-  "MovementCapDefID": "movedef_anvil_ANV-3M",
+  "MovementCapDefID": "movedef_anvil_ANV-8M",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_anvil",
   "PrefabIdentifier": "chrprfmech_anvilbase-001",
@@ -204,14 +204,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "This new Anvil 8M is a real game-changer. They've downgraded the engine so it's a bit sluggish, but the MASC system can give you a boost when you need it. The main gun is an Arrow IV, with an ER Large Laser to back it up. In close combat, you've got two ER Medium Lasers, and the Guardian ECM Suite can either help you break enemy ECMs or protect you from return fire.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -220,7 +219,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -229,7 +227,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -238,7 +235,6 @@
       "ComponentDefID": "Gear_EndoSteel_8_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -247,7 +243,6 @@
       "ComponentDefID": "Gear_MASC_3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -256,7 +251,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

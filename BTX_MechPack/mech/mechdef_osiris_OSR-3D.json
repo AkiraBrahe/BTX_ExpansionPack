@@ -12,6 +12,7 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Osiris OSR-3D",
     "Id": "mechdef_osiris_OSR-3D",
     "Name": "Osiris",
-    "Details": "<color=#F79B26>The Osiris is based on the Clan Dragonfly and was designed by the same team who designed the Anubis.</color>\n\nWith its powerful 240 XL engine and four jump jets, the Osiris is intended to be a fast, hit-and-fade style offensive platform, and it excels in that role thanks to its five ER Medium Lasers, which can deal a lot of damage quickly. An SRM-6 and Machine Gun gives the 'Mech an additional short range punch. Pilots do have to be very careful, however, as the 'Mech can quickly overheat if pushed too hard.",
+    "Details": "<color=#F79B26>The Osiris is based on the Clan Dragonfly and was designed by the same team who designed the Anubis.</color>\n\nWith its powerful 240 XL engine and four jump jets, the Osiris is intended to be a fast, hit-and-fade style offensive platform, and it excels in that role thanks to its five ER Medium Lasers, which can deal a lot of damage quickly. An SRM-6 and Machine Gun gives the 'Mech an additional short-range punch. Pilots do have to be very careful, however, as the 'Mech can quickly overheat if pushed too hard.\n",
     "Icon": "uixTxrIcon_osiris"
   },
   "simGameMechPartCost": 520000,

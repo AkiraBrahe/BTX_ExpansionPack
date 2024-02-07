@@ -11,6 +11,7 @@
       "unit_speed_low",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Fafnir FNR-5B",
     "Id": "mechdef_fafnir_FNR-5B",
     "Name": "Fafnir",
-    "Details": "<color=#F79B26>Serving as the flagship of Defiance Industries, the Fafnir is one of the most powerful BattleMechs in existence, with its slow assault design providing a platform for a massive weapons payload.</color>\n\nThis field modification, first introduced during the FedCom Civil War, replaces the scarce Heavy Gauss Rifles with paired standard Gauss Rifles. The two ER Medium Lasers and the Medium Pulse Laser are retained, while an ER Large Laser is added to compensate for the reduced damage output at long range and decrease the 5B's ammunition dependency compared to the original.",
+    "Details": "<color=#F79B26>Serving as the flagship of Defiance Industries, the Fafnir is one of the most powerful BattleMechs in existence, with its slow assault design providing a platform for a massive weapons payload.</color>\n\nThis field modification, first introduced during the FedCom Civil War, replaces the scarce Heavy Gauss Rifles with paired standard Gauss Rifles. The two ER Medium Lasers and the Medium Pulse Laser are retained, while an ER Large Laser is added to compensate for the reduced damage output at long range and decrease the 5B's ammunition dependency compared to the original.\n",
     "Icon": "uixTxrIcon_fafnir"
   },
   "simGameMechPartCost": 1110000,

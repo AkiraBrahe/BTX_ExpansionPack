@@ -11,6 +11,7 @@
       "unit_jumpOK",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Dragoon AEM-01",
     "Id": "mechdef_dragoon_AEM-01",
     "Name": "Dragoon",
-    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nThe Dragoon 01 is armed with only a few, but powerful weapons found only in the 'Mech's arms: a pair of LB 10-X Autocannons and a long-reaching ER PPC. Its defenses include a Guardian ECM Suite, while its armored hull is protected by eleven and a half tons of ferro-fibrous armor.",
+    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nThe Dragoon 01 is armed with only a few, but powerful weapons found only in the 'Mech's arms: a pair of LB 10-X Autocannons and a long-reaching ER PPC. Powered by a 280-rated XL fusion engine, the 'Mech is able to achieve a modest pace of 64 km/h. Its defenses include a Guardian ECM Suite, while its armored hull is protected by eleven and a half tons of ferro-fibrous armor.\n",
     "Icon": "uixTxrIcon_dragoon"
   },
   "simGameMechPartCost": 1450000,

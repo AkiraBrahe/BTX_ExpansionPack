@@ -10,6 +10,7 @@
       "unit_speed_high",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -22,10 +23,10 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Jagermech III JM6-D3",
+    "UIName": "JagerMech III JM6-D3",
     "Id": "mechdef_jagermechiii_JM6-D3",
-    "Name": "Jagermech III",
-    "Details": "<color=#F79B26>The JagerMech III is built on the same philosophy as the original JagerMech: keeping an enemy at range.</color>\n\nThe JM6-D3 is built on an endo steel chassis with ferro-fibrous armor and powered by a massive 325 XL engine. Its primary weapons for long-range combat are two Ultra Autocannon/2s capable of hitting from 750 meters away. Despite its cutting-edge construction techniques, the JagerMech III still relies on two PPCs for intermediate ranges, backed up by two Medium Lasers for close combat.",
+    "Name": "JagerMech III",
+    "Details": "<color=#F79B26>The JagerMech III is built on the same philosophy as the original JagerMech: keeping the enemy at range.</color>\n\nThe JM6-D3 is built on an endo steel chassis with ferro-fibrous armor and powered by a massive 325 XL engine. Its primary weapons for long-range combat are two Ultra Autocannon/2s capable of hitting from 750 meters away. Despite its cutting-edge construction techniques, the JagerMech III still relies on two PPCs for intermediate ranges, backed up by two Medium Lasers for close combat.\n",
     "Icon": "uixTxrIcon_jagermech"
   },
   "simGameMechPartCost": 1400000,

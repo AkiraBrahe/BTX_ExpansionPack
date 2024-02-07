@@ -12,6 +12,7 @@
       "unit_speed_high",
       "unit_electronicWarfare",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Anubis ABS-3L",
     "Id": "mechdef_anubis_ABS-3L",
     "Name": "Anubis",
-    "Details": "<color=#F79B26>The Anubis was originally intended to complement the Federated Suns' Osiris BattleMech, but the design was rejected. The Capellan Confederation now uses it to test advanced stealth technologies.</color>\n\nThe original model is built on an endo steel skeleton that is protected by five and a half tons of stealth armor, making it extremely difficult to hit. A Guardian ECM not only activates the armor, but can also protect against advanced electronic warfare systems. The 'Mech is armed with four LRM-5 launchers, which allows it to provide long-range fire support for other light 'Mechs. It also carry an ER Small Laser as a backup weapon.",
+    "Details": "<color=#F79B26>The Anubis was originally intended to complement the Federated Suns' Osiris BattleMech, but the design was rejected and is now used by the Capellan Confederation to test advanced stealth technologies.</color>\n\nThe original model is built on an endo steel skeleton protected by five and a half tons of stealth armor, making it extremely hard to hit at long range. A Guardian ECM not only activates the armor but can also protect against electronic warfare. The Anubis 3L is armed as an effective light fire support 'Mech, with four LRM-5 launchers providing long-range fire support for other light 'Mechs. It also carries an ER Small Laser as a backup weapon.\n",
     "Icon": "uixTxrIcon_anubis"
   },
   "simGameMechPartCost": 520000,

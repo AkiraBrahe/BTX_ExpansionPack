@@ -12,6 +12,7 @@
       "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Roughneck RGH-1C",
     "Id": "mechdef_roughneck_RGH-1C",
     "Name": "Roughneck",
-    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 1C is a more significant upgrade, with an SRM-6 and Machine Gun in each arm, in addition to an LRM-10 in the left torso and an AC/5 in the right. Carrying two tons of SRM missiles and a single ton of reloads for every other weapon, the 1C boasts a modest increase in armor while mounting only ten standard heat sinks.",
+    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 1C is a more significant upgrade, with an SRM-6 and Machine Gun in each arm, in addition to an LRM-10 in the left torso and an AC/5 in the right. Carrying two tons of SRM missiles and a single ton of reloads for every other weapon, the 1C boasts a modest increase in armor while mounting only ten standard heat sinks.\n",
     "Icon": "uixTxrIcon_roughneck"
   },
   "simGameMechPartCost": 550000,

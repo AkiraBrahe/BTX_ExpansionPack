@@ -9,9 +9,10 @@
       "unit_range_medium",
       "unit_indirectFire",
       "unit_armor_high",
-      "unit_speed_medium",
+      "unit_speed_low",
       "unit_jumpOK",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Marshal MHL-2L",
     "Id": "mechdef_marshal_MHL-2L",
     "Name": "Marshal",
-    "Details": "<color=#F79B26>The Marshal, a Taurian Concordat BattleMech, was created to address the shortage of BattleMechs in the Colonial Marshals, a police force tasked with protecting the New Colony Region.</color>\n\nBy switching to double heat sinks, the 2L model of the Marshal is able to upgrade the LRM-5 launcher to a much more powerful LRM-15 launcher. This upgrade triples the damage output of the Marshal's long range missile launcher, significantly enhancing its combat effectiveness.",
+    "Details": "<color=#F79B26>The Marshal, a Taurian Concordat BattleMech, was created to address the shortage of BattleMechs in the Colonial Marshals, a police force tasked with protecting the New Colony Region.</color>\n\nBy switching to double heat sinks, the 2L model of the Marshal is able to upgrade the LRM-5 launcher to a much more powerful LRM-15 launcher. This upgrade triples the damage output of the Marshal's long range missile launcher, significantly enhancing its combat effectiveness.\n",
     "Icon": "uixTxrIcon_marshal"
   },
   "simGameMechPartCost": 490000,

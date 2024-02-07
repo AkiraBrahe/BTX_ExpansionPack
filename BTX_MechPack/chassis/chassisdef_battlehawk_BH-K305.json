@@ -8,7 +8,7 @@
     "UIName": "Battle Hawk",
     "Id": "chassisdef_battlehawk_BH-K305",
     "Name": "Battle Hawk",
-    "Details": "<color=#F79B26>The Battle Hawk is a light 'Mech that, while slow for its size, is a force to be reckoned with on the modern battlefield due to its powerful arsenal.</color>\n\nThe BH-K305 comes with three Medium Pulse Lasers, giving the Battle Hawk a blistering short-range laser arsenal. The 'Mech is also armed with an SRM-2, which allows it to seek out weak points in an enemy's armor, and an Anti-Missile System, which provides the Battle Hawk with a degree of protection from missile attacks.",
+    "Details": "<color=#F79B26>The Battle Hawk is a light 'Mech that, while slow for its size, is a force to be reckoned with on the modern battlefield due to its powerful arsenal.</color>\n\nThe BH-K305 comes with three Medium Pulse Lasers, giving the Battle Hawk a blistering short-range laser arsenal. The 'Mech is also armed with an SRM-2, which allows it to seek out weak points in an enemy's armor, and an Anti-Missile System, which provides the Battle Hawk with a degree of protection from missile attacks.\n",
     "Icon": "uixTxrIcon_battlehawk"
   },
   "MovementCapDefID": "movedef_battlehawk_BH-K305",
@@ -197,14 +197,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Recon & Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "For a 30-ton 'Mech, the Battle Hawk packs a surprising amount of firepower. Its combination of pulse lasers and short-range streak missiles makes it quite good in close-quarters combat, while its anti-missile system helps it close the distance without getting caught up in enemy fire.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -213,7 +212,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +220,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +228,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +236,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +244,6 @@
       "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +252,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -267,7 +260,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

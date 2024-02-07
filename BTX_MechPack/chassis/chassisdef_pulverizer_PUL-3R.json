@@ -8,7 +8,7 @@
     "UIName": "Pulverizer",
     "Id": "chassisdef_pulverizer_PUL-3R",
     "Name": "Pulverizer",
-    "Details": "<color=#F79B26>>The Pulverizer is a very durable command 'Mech developed by Clan Wolverine following the successes of the Mercury II and Stag.</color>\n\nDeveloped by Clan Snow Raven, this configuration trades the standard Large Lasers for Improved Large Lasers. The armor has also been replaced by Clan spec ferro-fibrous armor. The weight savings from these changes allow the Pulverizer to carry eighteen double heat sinks, which is just enough to be heat neutral.",
+    "Details": "<color=#F79B26>The Pulverizer was a command 'Mech developed by Clan Wolverine following the successes of the Mercury II and Stag. It was later produced by Clan Snow Raven after the Wolverine Annihilation.</color>\n\nThis configuration created by Clan Snow Raven trades the standard Large Lasers for Improved Large Lasers. The armor has also been replaced with Clan spec ferro-fibrous armor. The weight savings from these changes allow the Pulverizer to carry eighteen double heat sinks, which is just enough to be heat neutral.\n",
     "Icon": "uixTxrIcon_pulverizer"
   },
   "MovementCapDefID": "movedef_pulverizer_PUL-3R",
@@ -205,14 +205,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Brawler & Sniper",
-  "YangsThoughts": "",
+  "YangsThoughts": "This Pulverizer's had a makeover. Proper Clan armor, an ER PPC, and upgraded Large Lasers make it tougher and harder hitting. They even squeezed in extra heat sinks to keep things cool. This one's ready to brawl and melt faces.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -221,7 +220,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -230,7 +228,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -239,7 +236,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -248,7 +244,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -257,7 +252,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -266,7 +260,6 @@
       "ComponentDefID": "Gear_SensorCAC_Guardian",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

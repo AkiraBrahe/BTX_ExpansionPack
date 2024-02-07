@@ -10,6 +10,7 @@
       "unit_armor_high",
       "unit_speed_low",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Viking VKG-2G",
     "Id": "mechdef_viking_VKG-2G",
     "Name": "Viking",
-    "Details": "<color=#F79B26>The Viking has proven to be a formidable assault and fire support 'Mech, capable of putting out nearly twice the firepower of the Bombardier it replaces.</color>\n\nThe 2G variant removes all missile weapons and adds two tons of armor, allowing the Viking to serve as a front-line assault 'Mech. The primary weapons of the 2G are an LB-X Autocannon/10 capable of firing both standard and cluster rounds, as well as a Gauss Rifle, which provides the 'Mech with a powerful long-range punch. The 'Mech is equipped with a Large Pulse Laser and three Medium Pulse Lasers for medium to close range combat, and a Guardian ECM Suite to protect itself from advanced enemy electronic warfare systems.",
+    "Details": "The 2G variant removes all missile weapons and adds two tons of armor, allowing the Viking to serve as a front-line assault 'Mech. The primary weapons of the 2G are an LB-X Autocannon/10 capable of firing both standard and cluster rounds, as well as a Gauss Rifle, which provides the 'Mech with a powerful long-range punch. The 'Mech is equipped with a Large Pulse Laser and three Medium Pulse Lasers for medium to close range combat, and a Guardian ECM Suite to protect itself from advanced enemy electronic warfare systems.\n",
     "Icon": "uixTxrIcon_viking"
   },
   "simGameMechPartCost": 960000,

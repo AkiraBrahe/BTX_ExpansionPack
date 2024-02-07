@@ -8,7 +8,7 @@
     "UIName": "Mercury II",
     "Id": "chassisdef_mercuryii_MCY-100",
     "Name": "Mercury II",
-    "Details": "<color=#F79B26>The Mercury II is an enlarged and updated design of the Mercury produced by Clan Wolverine during the Clans' early years</color>Though the Mercury II is designed to be a scout, it can hold its own in a fight. An ER Large Laser gives it a credible ranged threat, while paired Medium Lasers and Small Lasers make it an effective hunter-killer.",
+    "Details": "<color=#F79B26>The Mercury II is an enhanced and enlarged version of the Mercury developed by Clan Wolverine during the Clans' early years.</color>\n\nAn upgrade to the original Mercury line, Clan Wolverine spared no expense in the production of the Mercury II, incorporating seven and a half tons of ferro-fibrous armor, double heat sinks, and an XL engine. Despite this, the 40-ton 'Mech is still slower than its lighter predecessor, but it makes up for this with an impressive seven jump jets, allowing it to traverse terrain with ease. The inclusion of a Beagle Active Probe and Guardian ECM Suite further enhances the Mercury II's scouting capabilities. However, the 'Mech can also hold its own in a fight. An ER Large Laser gives it a credible ranged threat, while paired Medium Lasers and Small Lasers make it an effective hunter-killer.\n",
     "Icon": "uixTxrIcon_mercuryii"
   },
   "MovementCapDefID": "movedef_mercuryii_MCY-100",
@@ -145,45 +145,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 15,
-      "z": 15
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4,
-      "y": 14,
-      "z": 14
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4,
-      "y": 14,
-      "z": 14
+      "x": -3,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 15,
-      "z": 15
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4,
-      "y": 14,
-      "z": 14
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4,
-      "y": 14,
-      "z": 14
+      "x": -3,
+      "y": 12,
+      "z": 0
     },
     {
       "x": 2.5,
       "y": 6,
-      "z": 6
+      "z": 0
     },
     {
       "x": -2.5,
       "y": 6,
-      "z": 6
+      "z": 0
     }
   ],
   "VariantName": "MCY-100",
@@ -199,14 +199,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Hunter-Killer & Scout",
-  "YangsThoughts": "",
+  "YangsThoughts": "Forget who slapped this bad boy together, they knew what they were doing. This 40-ton scout packs a nasty punch and ghosts through the battlefield. Packing an ER Large Laser to sting at range, and Medium and Small lasers for close encounters, it can switch gears seamlessly. And when things get dicey, seven jump jets propel it across the battlefield, leaving most 'Mechs in the dust. It's not a brawler, but for recon and hit-and-run tactics, the Mercury II delivers.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -215,7 +214,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -224,7 +222,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +230,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +238,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +246,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -260,7 +254,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -269,7 +262,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -278,7 +270,6 @@
       "ComponentDefID": "Gear_SensorCAC_Guardian",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -287,7 +278,6 @@
       "ComponentDefID": "Gear_SensorCAC_Beagle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

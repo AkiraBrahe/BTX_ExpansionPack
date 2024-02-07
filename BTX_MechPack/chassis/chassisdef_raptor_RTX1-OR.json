@@ -8,7 +8,7 @@
     "UIName": "Raptor",
     "Id": "chassisdef_raptor_RTX1-OR",
     "Name": "Raptor",
-    "Details": "<color=#F79B26>The Raptor was the first Inner Sphere OmniMech built from salvaged OmniMechs from the Battle of Luthien. The resulting OmniMech is a great recon and fast strike unit.</color>\n\nThis configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It mounts an array of Clan-tech, utilizing an ER Large Laser and ER Medium Laser in each arm, as well as an ER Small Laser next to a C3 Slave unit in the center torso.",
+    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It mounts an array of Clan-tech, utilizing an ER Large Laser and ER Medium Laser in each arm, as well as an ER Small Laser next to a C3 Slave unit in the center torso.\n",
     "Icon": "uixTxrIcon_raptor"
   },
   "MovementCapDefID": "movedef_raptor_RTX1-OR",
@@ -215,7 +215,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -224,7 +223,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +231,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +239,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +247,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -260,7 +255,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -269,7 +263,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -278,7 +271,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -287,7 +279,6 @@
       "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -8,7 +8,7 @@
     "UIName": "Mantis",
     "Id": "chassisdef_mantis_MTS-S",
     "Name": "Mantis",
-    "Details": "<color=#F79B26>The Mantis, a Solaris VII BattleMech, uses high speed, boosted further by MASC, and powerful lasers to slice off enemy armor. Once in grappling range, the Mantis can literally tear an enemy apart with its experimental claw systems.</color>\n\nThe main weapon of the MTS-S are its two tungsten-reinforced composite Claws. These are backed up by three ER Medium Lasers and two ER Small Lasers mounted in the torso. allowing the 'Mech to use its claws freely.",
+    "Details": "<color=#F79B26>The Mantis, a Solaris VII BattleMech, uses high speed, boosted further by MASC, and powerful lasers to slice off enemy armor. Once in grappling range, the Mantis can literally tear an enemy apart with its experimental claw systems.</color>\n\nThe Mantis's main weapon are its two tungsten-reinforced composite Claws. These are backed up by three ER Medium Lasers and two ER Small Lasers mounted in the torso. allowing the 'Mech to use its claws freely.\n",
     "Icon": "uixTxrIcon_mantis"
   },
   "MovementCapDefID": "movedef_mantis_MTS-S",
@@ -198,14 +198,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Extremely Maneuverable Striker",
-  "YangsThoughts": "",
+  "YangsThoughts": "Now that's a Solaris BattleMech that'll turn its enemies into mincemeat in close quarters. The Mantis uses its ER Medium and Small Lasers to soften up the enemy while its two arms, tipped with razor-sharp claws, can eviscerate anything in its path if it can get close enough. And it will get close—with MASC activated, it'll hit speeds of almost 200 km/h.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -214,7 +213,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -223,7 +221,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -232,7 +229,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +237,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -250,7 +245,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -259,7 +253,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -268,7 +261,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -277,7 +269,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -286,7 +277,6 @@
       "ComponentDefID": "Gear_Actuator_Mantis_Claws",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -295,7 +285,6 @@
       "ComponentDefID": "Gear_MASC_2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -304,7 +293,6 @@
       "ComponentDefID": "Gear_Actuator_Mantis_Claws",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     }

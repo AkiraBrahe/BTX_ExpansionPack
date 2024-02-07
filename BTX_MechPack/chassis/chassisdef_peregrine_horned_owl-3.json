@@ -8,7 +8,7 @@
     "UIName": "Peregrine",
     "Id": "chassisdef_peregrine_horned_owl-3",
     "Name": "Peregrine",
-    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line BattleMech capable of highly accurate fire designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis variant swaps out the Large Pulse Laser of the original for an ER PPC linked to a Targeting Computer, allowing the 'Mech to snipe more efficiently. In place of the Medium Pulse Lasers are two trios of Light Machine Guns to deal with infantry should it need to.",
+    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line Clan BattleMech capable of highly accurate fire and designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis variant swaps out the Large Pulse Laser of the original for an ER PPC linked to a Targeting Computer, allowing the 'Mech to snipe more efficiently. In place of the Medium Pulse Lasers are two trios of Light Machine Guns to deal with infantry should it need to.\n",
     "Icon": "uixTxrIcon_peregrine"
   },
   "MovementCapDefID": "movedef_peregrine_horned_owl-3",
@@ -20,6 +20,8 @@
   "InitialTonnage": 17,
   "weightClass": "LIGHT",
   "Heatsinks": 10,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
   "MaxJumpjets": 6,
   "Stability": 100,
   "StabilityDefenses": [
@@ -150,46 +152,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 9.5,
-      "z": 9.5
+      "x": 0,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": 4,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": -4,
+      "y": 15,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 9.5,
-      "z": 9.5
+      "x": 0,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": 4,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": 0
     },
     {
       "x": 2.5,
-      "y": 8.5,
-      "z": 8.5
+      "y": 6,
+      "z": 2.5
     },
     {
-      "x": -1.5,
-      "y": 3.0,
-      "z": 3.0
-    },
-    {
-      "x": 1.5,
-      "y": 3.0,
-      "z": 3.0
+      "x": -2.5,
+      "y": 6,
+      "z": 2.5
     }
   ],
   "VariantName": "PRG-3",
@@ -205,14 +207,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Harasser",
-  "YangsThoughts": "",
+  "YangsThoughts": "Peregrine 3 got two jobs: snipe with the Targeting Computer-boosted ER PPC, and melt infantry with six LMGs. No close-range brawling here, but it can lock down an area and make life hell for ground troops.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_TAC2_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

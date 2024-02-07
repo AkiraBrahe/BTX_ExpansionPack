@@ -10,6 +10,7 @@
       "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "BattleMaster BLR-3M-DC",
     "Id": "mechdef_battlemaster_BLR-3M-DC",
     "Name": "Battlemaster",
-    "Details": "<color=#F79B26>Versatile and powerful, the BattleMaster is one of the best known BattleMechs in existence. It was originally designed to be the largest and most powerful 'Mech for the Star League armies at that time.</color>\n\nThe 3M-DC drops the rear firing Medium Lasers of the 3M to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM 6.",
+    "Details": "The Battlemaster 3M-DC drops the rear firing Medium Lasers of the 3M to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM 6.\n",
     "Icon": "uixTxrIcon_battlemaster"
   },
   "simGameMechPartCost": 970000,

@@ -11,6 +11,7 @@
       "unit_armor_high",
       "unit_speed_low",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Atlas AS7-K-DC",
     "Id": "mechdef_atlas_AS7-K-DC",
     "Name": "Atlas",
-    "Details": "<color=#F79B26>The Atlas is probably the best-known BattleMech to ever set foot on the modern battlefield. It was imagined by Aleksandr Kerensky himself with the goal of creating \"a 'Mech as powerful as possible, as impenetrable as possible, and as ugly and foreboding as conceivable, so that fear itself will be our ally\".</color>\n\nThe AS7-K-DC is a variant of the Atlas K trading one of the rear-mounted Medium Pulse Lasers and one ton of LRM ammunition for a Command Console.",
+    "Details": "The AS7-K-DC is a sub-variant of the Atlas K trading one of the rear-mounted Medium Pulse Lasers and one ton of LRM ammunition for a Command Console.\n",
     "Icon": "uixTxrIcon_atlas"
   },
   "simGameMechPartCost": 2340000,

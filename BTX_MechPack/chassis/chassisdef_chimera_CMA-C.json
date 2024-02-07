@@ -8,7 +8,7 @@
     "UIName": "Chimera",
     "Id": "chassisdef_chimera_CMA-C",
     "Name": "Chimera",
-    "Details": "<color=#F79B26>The Chimera was created as a collaborative effort between the Draconis Combine, Federated Commonwealth, and Lyran Alliance in the run-up to Operation BULLDOG.</color>\n\nThe CMA-C variant is barely a design change, with the Machine Gun and its ammunition being replaced by a C3 Slave unit, allowing the 'Mech to be integrated into C3 equipped units.",
+    "Details": "<color=#F79B26>The Chimera was created as a collaborative effort between the Draconis Combine, Federated Commonwealth, and Lyran Alliance in the run-up to Operation Bulldog.</color>\n\nThe CMA-C variant is barely a design change, with the Machine Gun and its ammunition being replaced by a C3 Slave unit, allowing the 'Mech to be integrated into C3 equipped units.\n",
     "Icon": "uixTxrIcon_chimera"
   },
   "MovementCapDefID": "movedef_chimera_CMA-C",
@@ -197,14 +197,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Striker & Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Chimera C is a bit of a trade-off, sacrificing some direct firepower in exchange for enhanced coordination capabilities. It replaces the machine gun with a C3 Slave unit, allowing it to better coordinate fire with other 'Mechs in its lance.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -213,7 +212,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +220,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +228,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +236,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +244,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +252,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -267,7 +260,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -276,7 +268,6 @@
       "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

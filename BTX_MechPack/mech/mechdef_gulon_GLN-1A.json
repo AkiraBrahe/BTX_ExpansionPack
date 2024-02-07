@@ -8,8 +8,9 @@
       "unit_lance_support",
       "unit_range_short",
       "unit_armor_high",
-      "unit_speed_medium",
-      "unit_release"
+      "unit_speed_low",
+      "unit_release",
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,7 +25,7 @@
     "UIName": "Gulon GLN-1A",
     "Id": "mechdef_gulon_GLN-1A",
     "Name": "Gulon",
-    "Details": "<color=#F79B26>The Gulon was originally designed as a MiningMech, but was later adapted for combat and found a niche as a garrison for many communities and backwater planets.</color>\n\nThe original Gulon has three Small Lasers designed to cut stone, a Sprayer rather than the Medium Laser of the later version, and lacks the advanced fire control.",
+    "Details": "<color=#F79B26>The Gulon was originally designed as a MiningMech, but was later adapted for combat and found a niche as a garrison for many communities and backwater planets.</color>\n\nThe original Gulon has three Small Lasers designed to cut stone, a Sprayer rather than the Medium Laser of the later version, and lacks the advanced fire control.\n",
     "Icon": "uixTxrIcon_gulon"
   },
   "simGameMechPartCost": 100000,

@@ -8,7 +8,7 @@
     "UIName": "Templar",
     "Id": "chassisdef_templar_TLR1-O",
     "Name": "Templar",
-    "Details": "<color=#F79B26>The Templar is an assault OmniMech commissioned with his own considerable financial resources by Duke George Hasek-Davion.</color>\n\nThe Primary configuration of the Templar is intended to be able to engage an enemy effectively at any range. The Templar Prime employs a powerful Gauss Rifle at long range. If the enemy gets too close, the OmniMech can bring its highly accurate Large Pulse Laser, Medium Pulse Laser, and two ER Medium Lasers to bear on a target, as well as a Streak SRM-4 launcher for seeking weak points in the enemy's armor. For increased accuracy, the lasers are all linked to an advanced Targeting Computer.",
+    "Details": "<color=#F79B26>The Templar is an assault OmniMech commissioned with his own considerable financial resources by Duke George Hasek-Davion.</color>\n\nThe primary configuration of the Templar is intended to be able to engage an enemy effectively at any range. The Templar Prime employs a powerful Gauss Rifle at long range. If the enemy gets too close, the OmniMech can bring its highly accurate Large Pulse Laser, Medium Pulse Laser, and two ER Medium Lasers to bear on a target, as well as a Streak SRM-4 launcher for seeking weak points in the enemy's armor. For increased accuracy, the lasers are all linked to an advanced Targeting Computer.\n",
     "Icon": "uixTxrIcon_templar"
   },
   "MovementCapDefID": "movedef_templar_TLR1-O",
@@ -215,7 +215,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -224,7 +223,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +231,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +239,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +247,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -260,7 +255,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -269,7 +263,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -278,7 +271,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -287,7 +279,6 @@
       "ComponentDefID": "Gear_TAC7",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

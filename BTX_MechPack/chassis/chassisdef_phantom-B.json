@@ -8,7 +8,7 @@
     "UIName": "Phantom",
     "Id": "chassisdef_phantom-B",
     "Name": "Phantom",
-    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe B configuration is a dedicated close combat machine with two SRM-4 launchers as its primary short range weapons. These are supported by an ER Medium Laser and a rear-mounted ER Small Laser. Additionally, an Active Probe protects the 'Mech from ambush.",
+    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe B configuration is a dedicated close combat machine with two SRM-4 launchers as its primary short range weapons. These are supported by an ER Medium Laser and a rear-mounted ER Small Laser. Additionally, an Active Probe protects the 'Mech from ambush.\n",
     "Icon": "uixTxrIcon_phantom"
   },
   "MovementCapDefID": "movedef_phantom-B",
@@ -149,46 +149,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -3,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -3,
+      "y": 12,
+      "z": 0
     },
     {
       "x": 2.5,
-      "y": 6.0,
-      "z": 6.0
+      "y": 6,
+      "z": 0
     },
     {
       "x": -2.5,
-      "y": 6.0,
-      "z": 6.0
+      "y": 6,
+      "z": 0
     }
   ],
   "VariantName": "PHM-B",
@@ -206,14 +206,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Extremely Fast Scout",
-  "YangsThoughts": "",
+  "YangsThoughts": "Want pure close-quarters carnage? Phantom B packs twin SRM-4 launchers for instant chaos, backed by two ER lasers for good measure. Active Probe helps you find the best target to strike.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -222,7 +221,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +229,6 @@
       "ComponentDefID": "Gear_SensorCAC_BeagleClan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

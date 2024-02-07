@@ -8,7 +8,7 @@
     "UIName": "Jackrabbit",
     "Id": "chassisdef_jackrabbit_JKR-8T",
     "Name": "Jackrabbit",
-    "Details": "<color=#F79B26>The Jackrabbit is a light BattleMech designed to provide long-range fire support to other light 'Mechs and infantry.</color>\n\nIt's equipped with an AC/2 and a single SRM-2 rack. While Class 2 Autocannons have a longer effective range than most weapons, they deal the same amount of damage as a Machine Gun at the expense of considerable weight that could be devoted to a larger engine or more armor, a tradeoff that ultimately doomed the Jackrabbit.",
+    "Details": "<color=#F79B26>The Jackrabbit is a light BattleMech designed to provide long-range fire support to other light 'Mechs and infantry.</color>\n\nIt's equipped with an AC/2 and a single SRM-2 rack. While Class 2 Autocannons have a longer effective range than most weapons, they deal the same amount of damage as a Machine Gun at the expense of considerable weight that could be devoted to a larger engine or more armor, a tradeoff that ultimately doomed the Jackrabbit.\n",
     "Icon": "uixTxrIcon_jackrabbit"
   },
   "MovementCapDefID": "movedef_jackrabbit_JKR-8T",
@@ -37,7 +37,7 @@
   "SensorRangeMultiplier": 1,
   "Signature": 0,
   "Radius": 4,
-  "PunchesWithLeftArm": false,
+  "PunchesWithLeftArm": true,
   "MeleeDamage": 30,
   "MeleeInstability": 25,
   "MeleeToHitModifier": 0,
@@ -190,15 +190,14 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light Sniper & Scout",
-  "YangsThoughts": "",
+  "StockRole": "Light Recon & Fire Support",
+  "YangsThoughts": "This is a relic of the past, Commander. Designed for the SLDF and stolen by Amaris during his coup, the Jackrabbit is a weird long-range light 'Mech. Armed with an AC/2 and Streak SRM-2, and with average mobility, I suggest staying well back and peppering the enemy from a distance. It's a miracle this thing's still around.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -207,7 +206,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -216,7 +214,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -225,7 +222,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,7 +230,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -243,7 +238,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -252,7 +246,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -261,7 +254,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

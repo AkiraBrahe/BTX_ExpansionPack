@@ -8,7 +8,7 @@
     "UIName": "Fox",
     "Id": "chassisdef_fox_CS-1",
     "Name": "Fox",
-    "Details": "<color=#F79B26>The Fox is Clan Sea Fox's first BattleMech. It is built with a combination of older Star League technology and early Clan weaponry to cover a wide range of tactical needs.</color>\n\nThe Fox is a fast medium 'Mech powered by an Vlar 300 extra-light fusion engine. The weight savings from its engine and endo steel skeleton allow for a sizable amount of weaponry to be mounted. The main firepower is strictly focused on long ranges with a pair of experimental Improved LRM-15s. The intermediate and short ranges are covered by a trio of Medium Lasers and a pair of Star League Streak SRM-2s. The Fox is also outfitted to deal with infantry, with four Machine Guns, making the 'Mech a threat to conventional troops used in Clan combat.",
+    "Details": "<color=#F79B26>The Fox is Clan Sea Fox's first BattleMech. It is built with a combination of older Star League technology and early Clan weaponry to cover a wide range of tactical needs.</color>\n\nThe Fox is a fast medium 'Mech powered by an extra-light fusion engine, which allows for a sizable amount of weaponry to be mounted. The main firepower is strictly focused on long ranges with a pair of experimental Improved LRM-15s. The intermediate and short ranges are covered by a trio of Medium Lasers and a pair of Streak SRM-2s. The Fox is also outfitted to deal with infantry, mounting four Machine Guns, making the 'Mech a threat to be feared by conventional troops used in Clan combat.\n",
     "Icon": "uixTxrIcon_fox"
   },
   "MovementCapDefID": "movedef_fox_CS-1",
@@ -170,46 +170,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 14,
+      "z": 1
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -4,
+      "y": 13,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 14,
+      "z": 1
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 6.0,
-      "z": 6.0
+      "x": 3,
+      "y": 5,
+      "z": 2
     },
     {
-      "x": -2.5,
-      "y": 6.0,
-      "z": 6.0
+      "x": -3,
+      "y": 5,
+      "z": 2
     }
   ],
   "VariantName": "CS-1",
@@ -225,14 +225,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "This Fox 'Mech looks like an older Clan design, showing some hints of advanced tech but not as refined and groundbreaking as their more recent models. Its weaponry is still a cut above IS standards: dual LRM-15 launchers paired with twin Streak SRM-2s. It also comes equipped with three standard Medium Lasers for ammo independence and four Machine Guns for close-quarters engagements.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +240,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

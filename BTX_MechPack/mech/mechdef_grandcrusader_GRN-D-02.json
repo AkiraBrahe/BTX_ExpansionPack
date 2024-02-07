@@ -12,6 +12,7 @@
       "unit_speed_low",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Grand Crusader GRN-D-02",
     "Id": "mechdef_grandcrusader_GRN-D-02",
     "Name": "Grand Crusader",
-    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThe -02 variant of the Grand Crusader has been modified to act as a dedicated long-range fire support 'Mech. By removing half a ton of armor, the Medium Pulse Lasers, and the Anti-Missile System, the 'Mech can hold two LRM-5 launchers in the arms, each linked to an Artemis IV fire control system for greater missile accuracy.",
+    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThe -02 variant of the Grand Crusader has been modified to act as a dedicated long-range fire support 'Mech. By removing half a ton of armor, the Medium Pulse Lasers, and the Anti-Missile System, the 'Mech can hold two LRM-5 launchers in the arms, each linked to an Artemis IV fire control system for greater missile accuracy.\n",
     "Icon": "uixTxrIcon_grandcrusader"
   },
   "simGameMechPartCost": 1570000,

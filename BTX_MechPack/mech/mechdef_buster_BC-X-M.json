@@ -10,7 +10,8 @@
       "unit_indirectFire",
       "unit_armor_low",
       "unit_speed_low",
-      "unit_release"
+      "unit_release",
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -25,7 +26,7 @@
     "UIName": "Buster BC-X-M",
     "Id": "mechdef_buster_BC-X-M",
     "Name": "Buster",
-    "Details": "<color=#F79B26>The Buster IndustrialMech was a popular workhorse for heavy mining and DropShip operations, valued for its precision and maneuverability.</color>\n\nThe BC X-M is a militarized variant of the BC X, the first known Buster variant designed for construction work. Its main features is a massive Backhoe for a left arm, which is supplemented by an LRM-10 with one ton of ammunition.",
+    "Details": "<color=#F79B26>The Buster IndustrialMech was a popular workhorse for heavy mining and DropShip operations, valued for its precision and maneuverability.</color>\n\nThe BC X-M is a militarized variant of the BC X, the first known Buster variant designed for construction work. Its main features is a massive Backhoe for a left arm, which is supplemented by an LRM-10 with one ton of ammunition.\n",
     "Icon": "uixTxrIcon_buster"
   },
   "simGameMechPartCost": 160000,

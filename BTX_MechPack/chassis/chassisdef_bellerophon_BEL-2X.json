@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 5320000,
+    "Cost": 6570000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -8,7 +8,7 @@
     "UIName": "Bellerophon",
     "Id": "chassisdef_bellerophon_BEL-2X",
     "Name": "Bellerophon",
-    "Details": "<color=#F79B26>The Bellerophon was a failed prototype intended to complement the Mackie with its higher speed, but its weapon arrangement made it unstable.</color>\n\nThe BEL-2X attempts to correct the original version by adding endo steel to the chassis along with higher-quality armor and an anti-missile system to keep the 'Mech from becoming too unstable from incoming missile fire. The two Large Lasers are replaced by a pair of Binary Laser Cannons cooled by fifteen double heat sinks. Overall, this improves the Bellerophon's endurance and offensive capabilities, but it does nothing to address its lack of balance.",
+    "Details": "<color=#F79B26>The Bellerophon was a failed prototype intended to complement the Mackie with its higher speed, but its weapon arrangement made it too unstable.</color>\n\nThis reimagined version of the Bellerophon, developed by the Word of Blake to rectify the shortcomings of the original design, features an endo steel chassis, higher-quality armor, and an Anti-Missile System to keep the 'Mech from becoming too unstable from incoming missile fire. The two Large Lasers have been replaced with a pair of Kinslaughter H-Class ER PPCs, cooled by thirteen double heat sinks, significantly enhancing the 'Mech's performance. Additionally, the SRM-4 missile launcher has been swapped for an LRM-15 launcher, further augmenting its long-range offensive capabilities. Its inherent balance issues, however, remain unaddressed.\n",
     "Icon": "uixTxrIcon_bellerophon"
   },
   "MovementCapDefID": "movedef_bellerophon_BEL-2X",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_bellerophonbase-001",
   "PrefabBase": "bellerophon",
   "Tonnage": 60,
-  "InitialTonnage": 20.5,
+  "InitialTonnage": 21,
   "weightClass": "HEAVY",
   "Heatsinks": 10,
   "TopSpeed": 64.8,
@@ -75,7 +75,12 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 140,
@@ -93,12 +98,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 140,
@@ -191,23 +191,21 @@
     "items": [
       "chassis_DHS",
       "chassis_endo",
+      "mech_case_left",
       "mech_quirk_cowl",
       "mech_quirk_eminterference",
-      "mech_quirk_prototype",
-      "mech_quirk_unbalanced",
-      "mech_quirk_largeengine"
+      "mech_quirk_unbalanced"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler & Ranged Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "Intriguing. Someone's given this old Bellerophon a modern overhaul, equipping it with an endo steel chassis to free up more weight. This allows it to carry two ER PPCs and a LRM-15 launcher, packing some serious firepower if the heat sinks can keep up. And with that AMS and additional armor, this 'Mech is built to stay in the fight.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_5_Slot",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -216,25 +214,22 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -243,7 +238,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -252,7 +246,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

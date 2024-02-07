@@ -8,7 +8,7 @@
     "UIName": "Fox",
     "Id": "chassisdef_fox",
     "Name": "Fox",
-    "Details": "<color=#F79B26>The Fox is Clan Sea Fox's first BattleMech. It is built with a combination of older Star League technology and early Clan weaponry to cover a wide range of tactical needs.</color>\n\nThis pure Clan-tech version of the Fox uses the same endo steel chassis and XL engine, but with ferro-fibrous armor. The weapons have all been upgraded to Clan-spec, with an impressive array of weapons for a 50-tonner, including three pairs of LRM-15s, Streak SRM-2s and ER Medium Lasers, as well as four Machine Guns and a single ER Large Laser. It has an additional double heat sink to handle the increased heat load.",
+    "Details": "<color=#F79B26>The Fox is Clan Sea Fox's first BattleMech. It is built with a combination of older Star League technology and early Clan weaponry to cover a wide range of tactical needs.</color>\n\nThis pure Clan-tech version of the Fox uses the same endo steel chassis and XL engine, but with ferro-fibrous armor. The weapons have all been upgraded to Clan-spec, with an impressive array of weapons for a 50-tonner, including three pairs of LRM-15s, Streak SRM-2s and ER Medium Lasers, as well as four Machine Guns and a single ER Large Laser. It has an additional double heat sink to handle the increased heat load.\n",
     "Icon": "uixTxrIcon_fox"
   },
   "MovementCapDefID": "movedef_fox",
@@ -170,46 +170,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 14,
+      "z": 1
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -4,
+      "y": 13,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "x": 0,
+      "y": 14,
+      "z": 1
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 6.0,
-      "z": 6.0
+      "x": 3,
+      "y": 5,
+      "z": 2
     },
     {
-      "x": -2.5,
-      "y": 6.0,
-      "z": 6.0
+      "x": -3,
+      "y": 5,
+      "z": 2
     }
   ],
   "VariantName": "CS-C",
@@ -225,14 +225,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "This Fox model appears to be an upgraded variant of the Fox CS-1. It sports upgraded Clan weaponry, most notably the swap of the center torso's medium laser for a hefty ER Large Laser. To handle the added heat, an extra heat sink was added, and to further reduce weight, the armor has been upgraded to ferro-fibrous.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +240,6 @@
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

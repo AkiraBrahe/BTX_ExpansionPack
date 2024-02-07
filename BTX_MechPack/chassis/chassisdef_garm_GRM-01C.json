@@ -8,7 +8,7 @@
     "UIName": "Garm",
     "Id": "chassisdef_garm_GRM-01C",
     "Name": "Garm",
-    "Details": "<color=#F79B26>The Garm is designed to operate as part of a fire support lance, providing long-range direct fire for other units. As such, it competes directly with the Valkyrie BattleMech.</color>\n\nThe 1C variant of the Garm replaces the LB-X AC/5 with a RAC/5. Two tons of CASE protected ammunition are carried to feed the hungry weapon; when this is depleted, the left torso-mounted ER Medium Laser is the 'Mech's only fallback weapon.",
+    "Details": "Introduced in the leadup to the FedCom Civil War, the 1C variant of the Garm simply replaces the LB-X AC/5 with a RAC/5. Two tons of CASE protected ammunition are carried to feed the hungry weapon; when this is depleted, the left torso-mounted ER Medium Laser is the 'Mech's only fallback weapon.\n",
     "Icon": "uixTxrIcon_garm"
   },
   "MovementCapDefID": "movedef_garm_GRM-01C",
@@ -200,7 +200,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_8_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -209,7 +208,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -218,7 +216,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -227,7 +224,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +232,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_8_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +240,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -254,7 +248,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

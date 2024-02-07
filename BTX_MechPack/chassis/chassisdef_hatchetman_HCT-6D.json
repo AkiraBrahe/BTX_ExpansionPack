@@ -8,7 +8,7 @@
     "UIName": "Hatchetman",
     "Id": "chassisdef_hatchetman_HCT-6D",
     "Name": "Hatchetman",
-    "Details": "<color=#F79B26>The Hatchetman is a very distinctive BattleMech because of its 'Mech-sized Hatchet. As well as being the first design to carry one, it is also the totally new 'Mech produced in over a century.</color>\n\nThe 6D Hatchetman is a variant with a decidedly Davion flair. The 'Mech is armed with a Rotary Autocannon/5 as its primary weapon, as well as a trio of ER Medium Lasers and a Guardian ECM Suite for protection against electronic warfare systems. The BattleMech is powered by a 225 XL engine and can jump up to 150 meters thanks to an extra jump jet. Finally, the 6D is protected by nine tons of armor and mounts ten double heat sinks.",
+    "Details": "The 6D Hatchetman is a Davion variant with a powerful Rotary Autocannon/5 as its main weapon, along with three ER Medium Lasers for long-range engagements and a Guardian ECM to protect against electronic warfare. It has a 225 XL engine and an extra jump jet for increased speed and mobility. The 6D is also well-protected with nine tons of standard armor.\n",
     "Icon": "uixTxrIcon_hatchetman"
   },
   "MovementCapDefID": "movedef_hatchetman_HCT-6D",
@@ -210,29 +210,34 @@
   "YangsThoughts": "",
   "FixedEquipment": [
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +246,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -250,7 +254,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -259,7 +262,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -268,7 +270,6 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -277,7 +278,6 @@
       "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -286,7 +286,6 @@
       "ComponentDefID": "Gear_Actuator_Prototype_Hatchet",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

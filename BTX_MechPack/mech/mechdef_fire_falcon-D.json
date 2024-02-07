@@ -9,6 +9,7 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -24,7 +25,7 @@
     "UIName": "Fire Falcon D",
     "Id": "mechdef_fire_falcon-D",
     "Name": "Fire Falcon",
-    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nA spotter, the D carries a TAG and Narc missile beacon. If it gets caught in combat, it can use a pair of SRM-4s and one ER Medium Laser.",
+    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nA spotter, the D carries a TAG and Narc missile beacon. If it gets caught in combat, it can use a pair of SRM-4s and one ER Medium Laser.\n",
     "Icon": "uixTxrIcon_firefalcon"
   },
   "simGameMechPartCost": 480000,

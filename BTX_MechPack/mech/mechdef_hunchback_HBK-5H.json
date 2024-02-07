@@ -10,6 +10,7 @@
       "unit_speed_low",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Hunchback HBK-5H",
     "Id": "mechdef_hunchback_HBK-5H",
     "Name": "Hunchback",
-    "Details": "<color=#F79B26>The Hunchback is a heavily armored BattleMech designed for urban combat and close-range brawling, with powerful weaponry but limited maneuverability and long-range capabilities.</color>\n\nThe 5H is a Periphery upgrade to the original Hunchback. The Small Laser is removed as well as one and a half tons of armor, and three RL-20s are added to the left torso, giving it an incredible close range striking capability.",
+    "Details": "The 5H Hunchback is a heavily modified variant of the 4G developed by the Marian Hegemony. It utilizes ferro-fibrous armor to free up space for three RL-20s, giving the 'Mech an incredible amount of close range striking capability.\n",
     "Icon": "uixTxrIcon_hunchback"
   },
   "simGameMechPartCost": 380000,

@@ -8,7 +8,7 @@
     "UIName": "Roughneck",
     "Id": "chassisdef_roughneck_RGH-1B",
     "Name": "Roughneck",
-    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 1B swaps out the AC/10 for an AC/5 mounted in the left arm and upgrades the SRM launcher to an SRM-6 while keeping the head-mounted Small Laser. Carrying three tons of autocannon rounds, two tons of SRM missiles and machine gun ammo, but carrying only twelve heat sinks, the 1B is structurally identical to the 1A.",
+    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 1B swaps out the AC/10 for an AC/5 mounted in the left arm and upgrades the SRM launcher to an SRM-6 while keeping the head-mounted Small Laser. Carrying three tons of autocannon rounds, two tons of SRM missiles and machine gun ammo, but carrying only twelve heat sinks, the 1B is structurally identical to the 1A.\n",
     "Icon": "uixTxrIcon_roughneck"
   },
   "MovementCapDefID": "movedef_roughneck_RGH-1B",
@@ -202,6 +202,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Militarized LoaderMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 1B variant is probably designed for long campaigns with unreliable supply lines. Its AC/10 was downgraded to an Autocannon/5, while the SRM launcher has been upgraded to an SRM-6. Three tons of autocannon ammo and two tons each of SRM and MG ammo mean it can stay in the field much longer.",
   "FixedEquipment": []
 }

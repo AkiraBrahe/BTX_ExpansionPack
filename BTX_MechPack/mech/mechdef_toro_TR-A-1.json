@@ -8,7 +8,8 @@
       "unit_range_medium",
       "unit_armor_high",
       "unit_speed_low",
-      "unit_release"
+      "unit_release",
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -16,14 +17,14 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 2210000,
-    "Rarity": 5,
+    "Rarity": 6,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Toro TR-A-1",
     "Id": "mechdef_toro_TR-A-1",
     "Name": "Toro",
-    "Details": "<color=#F79B26>The Toro, the first indigenous BattleMech of the Taurian Concordat, was developed in 2481 and used against the Star League in the Reunification War. The League demolished all of the Toro factories in the hope that it would crush Taurian nationalism, though it had not the desired effect.</color>\n\nThe original prototype is closer to a variant of the primitive Firebee. It has a single Large Laser and two SRM-2s, which share a ton of ammunition. Despite its slow speed of 64 km/h, the A-1 offers more armor protection than the Firebee.",
+    "Details": "The original prototype is closer to a variant of the primitive Firebee. It has a single Large Laser and two SRM-2s, which share a ton of ammunition. Despite its slow speed of 64 km/h, the A-1 offers more armor protection than the Firebee.\n",
     "Icon": "uixTxrIcon_toro"
   },
   "simGameMechPartCost": 220000,

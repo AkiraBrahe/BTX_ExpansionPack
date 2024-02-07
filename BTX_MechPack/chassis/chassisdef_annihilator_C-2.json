@@ -8,7 +8,7 @@
     "UIName": "Annihilator",
     "Id": "chassisdef_annihilator_C-2",
     "Name": "Annihilator",
-    "Details": "<color=#F79B26>The Annihilator, originally designed as the ultimate fixed-position city defense BattleMech, is a symbol of the Star League's former military might.</color>\n\nThe C 2 is a variant based on the ANH-1G that is equipped with four Gauss Rifles, an ER PPC, and a head-mounted ER Small Laser, providing withering firepower for defensive engagements. The 'Mech uses an endo steel internal structure to accommodate all of these weapons. The integrated CASE protects the arms and torsos from weapon explosions.",
+    "Details": "Based on the ANH-1G, this variant only uses Clan technology. Four Gauss Rifles supplemented by an ER PPC in the center torso and a head-mounted ER Small Laser, provide withering firepower for defensive engagements. Ten tons of ammunition keep the Gauss Rifles fed through the longest engagements. An endo steel internal structure accommodates this arsenal of weapons, while integrated CASE portects the arms and torsos from weapon explosions.\n",
     "Icon": "uixTxrIcon_annihilatorc"
   },
   "MovementCapDefID": "movedef_annihilator_C-2",
@@ -224,6 +224,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Long Range Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The C 2 is a Clan-tech upgrade of the ANH-1G, and it's incredible. It's just as fast as the original, but it's got long-range firepower like no other. Four Gauss Rifles and ER PPCs? That's practically unheard of.",
   "FixedEquipment": []
 }

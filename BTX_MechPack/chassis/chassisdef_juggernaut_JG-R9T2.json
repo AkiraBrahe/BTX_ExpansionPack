@@ -8,7 +8,7 @@
     "UIName": "Juggernaut",
     "Id": "chassisdef_juggernaut_JG-R9T2",
     "Name": "Juggernaut",
-    "Details": "<color=#F79B26>The Juggernaut, a massive assault 'Mech from Solaris Arms, is a lumbering mountain of armor and weaponry that undoubtedly lives up to its name.</color>\n\nThe modern R9T2 Juggernaut's main armament is a trio of Large X-Pulse Lasers backed up by three Medium X-Pulse Lasers. At knife-fighting range, the 'Mech is protected by twelve Machine Guns fed by two tons of reloads. Even with sixteen double heat sinks, the advanced lasers still can't be kept cool, so the Juggernaut also carries four coolant pods to quickly disperse the large amount of heat that they can generate.",
+    "Details": "<color=#F79B26>The Juggernaut, a massive assault 'Mech from Solaris Arms, is a lumbering mountain of armor and weaponry that undoubtedly lives up to its name.</color>\n\nThe modern R9T2 Juggernaut's main armament is a trio of Large X-Pulse Lasers backed up by three Medium X-Pulse Lasers. At knife-fighting range, the 'Mech is protected by twelve Machine Guns fed by two tons of reloads. Even with sixteen double heat sinks, the advanced lasers still can't be kept cool, so the Juggernaut also carries four coolant pods to quickly disperse the large amount of heat that they can generate.\n",
     "Icon": "uixTxrIcon_juggernaut"
   },
   "MovementCapDefID": "movedef_juggernaut_JG-R9T2",
@@ -268,6 +268,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "The JG-R9T2 upgrade trades the pulse lasers for two trios of Large and Medium X-Pulse Lasers, giving it a longer reach but sacrificing some close-range firepower. Sixteen heat sinks work hard to keep it from overheating, but if they fail, four coolant pods valiantly step in to keep it cool.",
   "FixedEquipment": []
 }

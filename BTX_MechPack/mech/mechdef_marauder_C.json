@@ -11,6 +11,7 @@
       "unit_speed_medium",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Marauder C",
     "Id": "mechdef_marauder_C",
     "Name": "Marauder",
-    "Details": "<color=#F79B26>The Marauder is a devastatingly powerful 'Mech and one of the most well-known 'Mechs in existence that only larger machines like the Stalker and BattleMaster can match.</color>\n\nA Clan-tech retrofit of the classic MAD-3R, the Marauder C replaces some of the Inner Spheroid weaponry with Clan equivalents. The PPCs are replaced with a pair of Clan-tech Large Pulse Lasers, while the standard autocannon is replaced with an Ultra AC/5 model. Only the IS Medium Lasers remains. CASE is also used to protect the autocannon's munitions.",
+    "Details": "A Clan-tech retrofit of the classic MAD-3R, the Marauder C replaces some of the Inner Spheroid weaponry with Clan equivalents. The PPCs are replaced with a pair of Clan-tech Large Pulse Lasers, while the standard autocannon is replaced with an Ultra AC/5 model. Only the IS Medium Lasers remains. CASE is also used to protect the autocannon's munitions.\n",
     "Icon": "uixTxrIcon_marauderc"
   },
   "simGameMechPartCost": 680000,

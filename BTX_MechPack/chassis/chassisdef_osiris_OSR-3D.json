@@ -8,7 +8,7 @@
     "UIName": "Osiris",
     "Id": "chassisdef_osiris_OSR-3D",
     "Name": "Osiris",
-    "Details": "<color=#F79B26>The Osiris is based on the Clan Dragonfly and was designed by the same team who designed the Anubis.</color>\n\nWith its powerful 240 XL engine and four jump jets, the Osiris is intended to be a fast, hit-and-fade style offensive platform, and it excels in that role thanks to its five ER Medium Lasers, which can deal a lot of damage quickly. An SRM-6 and Machine Gun gives the 'Mech an additional short range punch. Pilots do have to be very careful, however, as the 'Mech can quickly overheat if pushed too hard.",
+    "Details": "<color=#F79B26>The Osiris is based on the Clan Dragonfly and was designed by the same team who designed the Anubis.</color>\n\nWith its powerful 240 XL engine and four jump jets, the Osiris is intended to be a fast, hit-and-fade style offensive platform, and it excels in that role thanks to its five ER Medium Lasers, which can deal a lot of damage quickly. An SRM-6 and Machine Gun gives the 'Mech an additional short-range punch. Pilots do have to be very careful, however, as the 'Mech can quickly overheat if pushed too hard.\n",
     "Icon": "uixTxrIcon_osiris"
   },
   "MovementCapDefID": "movedef_osiris_OSR-3D",
@@ -207,14 +207,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Extremely Fast Hit and Run Mech",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Osiris is a speed demon inspired by those fancy Clan Dragonflies. It's only 30 tons, but don't let that fool you. It's got an extralight engine that lets it reach speeds of 130 km/h on the ground and even take to the skies with its jump jets. And the firepower? Don't even get me started. Five ER Medium Lasers, an SRM-6, and a Machine Gun? This little bugger packs a powerful punch for its size. Just remember, it's fast and furious, but its armor ain't the thickest. So, hit hard and hit fast, then get outta there before the big boys notice you.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -223,7 +222,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -232,7 +230,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +238,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -250,7 +246,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -259,7 +254,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -268,7 +262,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -277,7 +270,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -286,7 +278,6 @@
       "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

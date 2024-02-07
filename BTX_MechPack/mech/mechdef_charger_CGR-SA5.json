@@ -10,6 +10,7 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Charger CGR-SA5",
     "Id": "mechdef_charger_CGR-SA5",
     "Name": "Charger",
-    "Details": "<color=#F79B26>The Charger is regarded as a failed BattleMech design. Originally designed as a ultra-heavy scout 'Mech capable of outrunning most other 'Mechs, its offensive capabilities were severely lacking as a result.</color>\n\nThe CGR-SA5 brings the 1A5 variant to its logical conclusion with new technologies. The 'Mech can reach speeds of 86.4 km/h in short bursts thanks to a 320-rated Light Fusion Engine augmented by a MASC system. To save even more weight, the 'Mech is built on an Endo Steel chassis protected by fifteen and a half tons of armor. The SA5's primary weapon is an LB-X Autocannon/20, which is supported by three ER Medium Lasers and two Streak SRM-6 launchers.",
+    "Details": "The CGR-SA5 brings the 1A5 variant to its logical conclusion with new technologies. The 'Mech can reach speeds of 86.4 km/h in short bursts thanks to a 320-rated Light Fusion Engine augmented by a MASC system. To save even more weight, the 'Mech is built on an Endo Steel chassis protected by fifteen and a half tons of armor. The SA5's primary weapon is an LB-X Autocannon/20, which is supported by three ER Medium Lasers and two Streak SRM-6 launchers.\n",
     "Icon": "uixTxrIcon_charger"
   },
   "simGameMechPartCost": 1780000,

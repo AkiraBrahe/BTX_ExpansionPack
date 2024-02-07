@@ -4,13 +4,14 @@
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
-      "unit_lance_assassin",
       "unit_lance_support",
+      "unit_lance_assassin",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_low",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +27,7 @@
     "UIName": "Imp C",
     "Id": "mechdef_imp_C",
     "Name": "Imp",
-    "Details": "<color=#F79B26>The Imp is the first BattleMech produced by Clan Wolf and is named after the ferocious predator of the same name. Ironically, it was hunted to its extinction by the genetically engineered smoke jaguar species.</color>\n\nThis upgrade of the Imp is built exclusively for Wolf's Dragoons using Clan technology. For long-range combat, the 'Mech is armed with two ER PPCs and an LRM-20 launcher with an Artemis IV Fire Control System. For close ranges, the 'Mech carries five Medium Pulse Lasers. The Imp C is also armored with nineteen tons of armor.",
+    "Details": "This upgrade of the Imp is built exclusively for Wolf's Dragoons using Clan technology. For long-range combat, the 'Mech is armed with two ER PPCs and an LRM-20 launcher with an Artemis IV Fire Control System. For close ranges, the 'Mech carries five Medium Pulse Lasers. The Imp C is also well-armored with nineteen tons of armor.\n",
     "Icon": "uixTxrIcon_imp"
   },
   "simGameMechPartCost": 1100000,

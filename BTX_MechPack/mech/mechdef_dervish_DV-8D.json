@@ -4,15 +4,16 @@
       "unit_mech",
       "unit_medium",
       "unit_role_sniper",
-      "unit_lance_assassin",
       "unit_lance_support",
+      "unit_lance_assassin",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -28,7 +29,7 @@
     "UIName": "Dervish DV-8D",
     "Id": "mechdef_dervish_DV-8D",
     "Name": "Dervish",
-    "Details": "<color=#F79B26>The Dervish is a highly mobile fire support BattleMech at the higher end of the medium class. While some consider the Dervish to be a poor man's Archer, its speed and weaponry nonetheless allow it to provide quick fire support.</color>\n\nThe 8D Dervish is outfitted with cutting-edge technology, including an endo steel chassis powered by an XL engine, two LRM-15 launchers with an Artemis IV fire control system, and four ER Medium lasers in place of the SRM-2 launchers and Medium Lasers.",
+    "Details": "The 8D Dervish is outfitted with cutting-edge technology, including an endo steel chassis and an XL engine, two Artemis IV-enhanced LRM-15 launchers, and four ER Medium lasers in place of the SRM-2 launchers and Medium Lasers.\n",
     "Icon": "uixTxrIcon_dervish"
   },
   "simGameMechPartCost": 1120000,

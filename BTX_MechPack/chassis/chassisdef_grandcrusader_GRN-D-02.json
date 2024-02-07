@@ -8,7 +8,7 @@
     "UIName": "Grand Crusader",
     "Id": "chassisdef_grandcrusader_GRN-D-02",
     "Name": "Grand Crusader",
-    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThe -02 variant of the Grand Crusader has been modified to act as a dedicated long-range fire support 'Mech. By removing half a ton of armor, the Medium Pulse Lasers, and the Anti-Missile System, the 'Mech can hold two LRM-5 launchers in the arms, each linked to an Artemis IV fire control system for greater missile accuracy.",
+    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThe -02 variant of the Grand Crusader has been modified to act as a dedicated long-range fire support 'Mech. By removing half a ton of armor, the Medium Pulse Lasers, and the Anti-Missile System, the 'Mech can hold two LRM-5 launchers in the arms, each linked to an Artemis IV fire control system for greater missile accuracy.\n",
     "Icon": "uixTxrIcon_grandcrusader"
   },
   "MovementCapDefID": "movedef_grandcrusader_GRN-D-02",
@@ -220,14 +220,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 02 variant of the Grand Crusader is intended for long-range fire support, ditching the Medium Pulse Lasers and the Anti-Missile System for a pair of Artemis IV-guided LRM-5s. It's a beast at indirect support, but it's more ammo-dependent than the older model.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +235,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +243,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -254,7 +251,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -263,7 +259,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -272,7 +267,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

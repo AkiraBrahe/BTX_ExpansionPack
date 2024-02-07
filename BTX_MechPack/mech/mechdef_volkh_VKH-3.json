@@ -9,6 +9,7 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -24,7 +25,7 @@
     "UIName": "Volkh VKH-3",
     "Id": "mechdef_volkh_VKH-3",
     "Name": "Volkh",
-    "Details": "<color=#F79B26>Developed on Solaris VII, the Volkh BattleMech serves as a testbed for cutting-edge technologies. Its hallmark feature is an XXL engine enhanced with a Supercharger, a combination that grants the Volkh impressive speed and power.</color>\n\nThis variant of the Volkh sacrifices some close-range capability for enhanced long-range effectiveness. It removes both Lances and two of the four ER Medium Lasers, replacing them with two Magshots and an ER Large Laser. A Katar is also affixed to the 'Mech's left arm. This unusual weapon, more akin to a claw than a lance, proves equally effective in close-quarters combat. These modifications make the Volkh a more versatile 'Mech, useful for both reconnaissance and frontline roles.",
+    "Details": "<color=#F79B26>Developed on Solaris VII, the Volkh BattleMech serves as a testbed for cutting-edge technologies. Its hallmark feature is an XXL engine enhanced with a Supercharger, a combination that grants the Volkh impressive speed and power.</color>\n\nThis variant of the Volkh sacrifices some close-range capability for enhanced long-range effectiveness. It removes both Lances and two of the four ER Medium Lasers, replacing them with two Magshots and an ER Large Laser. A Katar is also affixed to the 'Mech's left arm. This unusual weapon, more akin to a claw than a lance, proves equally effective in close-quarters combat. These modifications make the Volkh a more versatile 'Mech, useful for both reconnaissance and frontline roles.\n",
     "Icon": "uixTxrIcon_volkh"
   },
   "simGameMechPartCost": 2680000,

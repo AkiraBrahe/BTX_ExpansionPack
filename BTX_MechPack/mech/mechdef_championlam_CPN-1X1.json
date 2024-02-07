@@ -12,6 +12,7 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Champion LAM CPN-1X1",
     "Id": "mechdef_championlam_CPN-1X1",
     "Name": "Champion LAM",
-    "Details": "<color=#F79B26>An attempt by Bergan Industries to push the limits of Land-Air 'Mech technology, the Champion LAM remains the heaviest LAM ever built.</color>\n\nThe Champion LAM, at 60 tons, carry a markedly lighter armament than its forebear, equipping three Medium Lasers backed up by an SRM-6 with an Artemis IV Fire Control System. To make room for the conversion equipment, the standard Champion's XL engine, endo steel skeleton, and ferro-fibrous armor also had to be removed.",
+    "Details": "<color=#F79B26>An attempt by Bergan Industries to push the limits of Land-Air 'Mech technology, the Champion LAM remains the heaviest LAM ever built.</color>\n\nThe Champion LAM, at 60 tons, carry a markedly lighter armament than its forebear, equipping three Medium Lasers backed up by an SRM-6 with an Artemis IV Fire Control System. To make room for the conversion equipment, the standard Champion's XL engine, endo steel skeleton, and ferro-fibrous armor had to be removed.\n",
     "Icon": "uixTxrIcon_championlam"
   },
   "simGameMechPartCost": 560000,

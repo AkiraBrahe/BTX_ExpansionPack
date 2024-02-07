@@ -8,7 +8,7 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-H2",
     "Name": "Catapult",
-    "Details": "<color=#F79B26>The Catapult is a second-line fire-support BattleMech that was in short supply for centuries before resurfacing as one of the most prominent designs.</color>\n\nThe H2 is a Periphery upgrade based on the K2. The Catapult CPLT-H2 carries a PPC, two Medium Lasers, and eight Rocket Launcher 20s cooled by thirteen heat sinks. This massive amount of firepower makes this variant more suited to a direct-fire support role than usual.",
+    "Details": "A Periphery upgrade of the Catapult based upon the K2, the H2 carries a PPC, two Medium Lasers, and eight Rocket Launcher 20s cooled by thirteen double heat sinks. This massive amount of firepower makes this variant more suited to a direct-fire support role than usual.\n",
     "Icon": "uixTxrIcon_catapult"
   },
   "MovementCapDefID": "movedef_catapult_CPLT-H2",

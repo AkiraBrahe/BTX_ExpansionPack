@@ -12,6 +12,7 @@
       "unit_electronicWarfare",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Phoenix Hawk PXH-1c",
     "Id": "mechdef_phoenixhawk_PXH-1c",
     "Name": "Phoenix Hawk",
-    "Details": "<color=#F79B26>The Phoenix Hawk, once a staple of the Star League Defense Force, has become the standard for all reconnaissance BattleMechs throughout the Inner Sphere.</color>\n\nThe 1c is an upgrade that never saw full production due to the fall of the Star League. It swaps out the ER PPC in exchange for a Snub-Nose PPC, which was still an experimental weapon when the first models started field trials in 2784. The extra ton left over was used to increase the variant's armoring.",
+    "Details": "The 1c is an upgrade that never saw full production due to the fall of the Star League. It swaps out the ER PPC in exchange for a Snub-Nose PPC, which was still an experimental weapon when the first models started field trials in 2784. The extra ton left over was used to increase the variant's armoring.\n",
     "Icon": "uixTxrIcon_phoenixhawk"
   },
   "simGameMechPartCost": 870000,

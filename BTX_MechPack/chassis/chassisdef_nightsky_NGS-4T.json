@@ -8,7 +8,7 @@
     "UIName": "Nightsky",
     "Id": "chassisdef_nightsky_NGS-4T",
     "Name": "Nightsky",
-    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nThe 4T is a Nightsky variant that aims to increase the 'Mech's power in both long and close range combat. This is done by swapping the Large Pulse Laser for an ER Large Laser with an Anti-Missile System to provide additional defense against enemy missiles. The 'Mech also includes an additional Small Laser for close-range firepower.",
+    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nThe 4T is a Nightsky variant that aims to increase the 'Mech's power in both long and close range combat. This is done by swapping the Large Pulse Laser for an ER Large Laser with an Anti-Missile System to provide additional defense against enemy missiles. The 'Mech also includes an additional Small Laser for close-range firepower.\n",
     "Icon": "uixTxrIcon_nightsky"
   },
   "MovementCapDefID": "movedef_nightsky_NGS-4T",
@@ -202,14 +202,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Recon",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 4T variant has a greater reach and overall damage potential, with the Large Pulse upgraded to an ER version and a Small Pulse added for good measure. An AMS helps shield it from pesky missiles, making it a more durable brawler.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -218,7 +217,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -227,7 +225,6 @@
       "ComponentDefID": "Gear_Actuator_Nightsky_Hatchet",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

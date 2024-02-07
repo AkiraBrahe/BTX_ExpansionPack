@@ -8,7 +8,7 @@
     "UIName": "Commando",
     "Id": "chassisdef_commando_COM-4H",
     "Name": "Commando",
-    "Details": "<color=#F79B26>The Commando is a light and fast BattleMech designed for reconnaissance, and it was one of the first BattleMechs to destroy a much heavier 'Mech in combat.</color>\n\nThe Marian Hegemony 4H variant of the Commando is used in the Periphery and removes all of the SRM launchers and replaces them with six RL-15s as well as a second Medium Laser.",
+    "Details": "The Marian Hegemony 4H variant of the Commando is used in the Periphery and removes all of the SRM launchers and replaces them with six RL-15s as well as a second Medium Laser.\n",
     "Icon": "uixTxrIcon_commando"
   },
   "MovementCapDefID": "movedef_commando_COM-4H",

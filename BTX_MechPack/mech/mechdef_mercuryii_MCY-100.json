@@ -3,9 +3,9 @@
     "items": [
       "unit_mech",
       "unit_medium",
-      "unit_role_scout",
       "unit_role_brawler",
-      "unit_lance_assassin",
+      "unit_lance_vanguard",
+      "unit_lance_support",
       "unit_range_short",
       "unit_armor_high",
       "unit_speed_high",
@@ -13,6 +13,7 @@
       "unit_electronicWarfare",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -28,7 +29,7 @@
     "UIName": "Mercury II MCY-100",
     "Id": "mechdef_mercuryii_MCY-100",
     "Name": "Mercury II",
-    "Details": "<color=#F79B26>The Mercury II is an enlarged and updated design of the Mercury produced by Clan Wolverine during the Clans' early years</color>Though the Mercury II is designed to be a scout, it can hold its own in a fight. An ER Large Laser gives it a credible ranged threat, while paired Medium Lasers and Small Lasers make it an effective hunter-killer.",
+    "Details": "<color=#F79B26>The Mercury II is an enhanced and enlarged version of the Mercury developed by Clan Wolverine during the Clans' early years.</color>\n\nAn upgrade to the original Mercury line, Clan Wolverine spared no expense in the production of the Mercury II, incorporating seven and a half tons of ferro-fibrous armor, double heat sinks, and an XL engine. Despite this, the 40-ton 'Mech is still slower than its lighter predecessor, but it makes up for this with an impressive seven jump jets, allowing it to traverse terrain with ease. The inclusion of a Beagle Active Probe and Guardian ECM Suite further enhances the Mercury II's scouting capabilities. However, the 'Mech can also hold its own in a fight. An ER Large Laser gives it a credible ranged threat, while paired Medium Lasers and Small Lasers make it an effective hunter-killer.\n",
     "Icon": "uixTxrIcon_mercuryii"
   },
   "simGameMechPartCost": 790000,

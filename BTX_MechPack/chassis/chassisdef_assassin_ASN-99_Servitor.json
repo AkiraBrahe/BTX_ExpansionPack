@@ -8,7 +8,7 @@
     "UIName": "Assassin",
     "Id": "chassisdef_assassin_ASN-99_Servitor",
     "Name": "Assassin",
-    "Details": "<color=#F79B26>The Assassin is seen as a political blunder rather than a powerful fighting machine, but it proved to be a strong 'Mech in combat against light lances.</color>\n\nThe Servitor is a custom variant of the ASN-99 Assassin. The stealth armor and Guardian ECM suite are removed, and the head-mounted TAG is swapped for a Small Laser. Each arm has new weapons, with the left holding a small vibroblade and right mounting a Medium X-Pulse Laser, while the legs each carries a small X-Pulse Laser. The two SRM-2s of the ASN-99 are retained.",
+    "Details": "A custom variant of the ASN-99 Assassin, the \"Servitor\" is designed for close-range duels. The stealth armor and Guardian ECM are removed, and the head-mounted TAG is swapped for a Small Laser. Each arm has new weapons, with the left holding a small vibroblade and the right mounting a Medium X-Pulse Laser, while the legs each carries a small X-Pulse Laser. The two SRM-2s of the ASN-99 are retained.\n",
     "Icon": "uixTxrIcon_assassin"
   },
   "MovementCapDefID": "movedef_assassin_ASN-99_Servitor",
@@ -51,6 +51,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -210,14 +214,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Hunter-Killer",
-  "YangsThoughts": "This is a one-of-a-kind refit of the Assassin, Boss. One of the most dangerous variants I've seen. Its main weapon is a Small Vibroblade that can gut similar-sized 'Mechs with ease. The right arm carries a Medium X-Pulse Laser, each leg has a Small X-Pulse Laser, and the torso has two SRM-2 launchers. It also has a Small Laser mounted on the head.",
+  "YangsThoughts": "This is a one-of-a-kind refit of the Assassin. One of the most dangerous variants I've seen. Its main weapon is a Small Vibroblade that can gut similar-sized 'Mechs with ease. The right arm carries a Medium X-Pulse Laser, each leg has a Small X-Pulse Laser, and the torso has two SRM-2 launchers. It even has a Small Laser mounted on the head.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,7 +229,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -235,7 +237,6 @@
       "ComponentDefID": "Gear_Actuator_Assassin_Vibroblade",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -244,7 +245,6 @@
       "ComponentDefID": "Gear_General_Intercept_System",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

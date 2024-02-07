@@ -8,7 +8,7 @@
     "UIName": "Dig King",
     "Id": "chassisdef_digking_RCL-1M",
     "Name": "Dig King",
-    "Details": "<color=#F79B26>The Dig King is a light IndustrialMech used for underground tunnel mining and is one of the earliest known MiningMechs.</color>\n\nThis weaponized version of the Dig King is primarily used by various factions and militias. The 'Mech now has two SRM-4 launchers with one ton of ammunition in place of the Lift Hoist, a pair of Machine Guns and their ammunition in place of the Mining Drill, and gains a slight increase in overall armor while keeping the Rock Cutter in the right arm.",
+    "Details": "<color=#F79B26>The Dig King is a light IndustrialMech used for underground tunnel mining and is one of the earliest known MiningMechs.</color>\n\nThis weaponized version of the Dig King is primarily used by various factions and militias. The 'Mech now has two SRM-4 launchers with one ton of ammunition in place of the Lift Hoist, a pair of Machine Guns and their ammunition in place of the Mining Drill, and gains a slight increase in overall armor while keeping the Rock Cutter in the right arm.\n",
     "Icon": "uixTxrIcon_digking"
   },
   "MovementCapDefID": "movedef_digking_RCL-1M",
@@ -196,7 +196,6 @@
       "ComponentDefID": "Gear_Actuator_DigKing_RockCutter",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

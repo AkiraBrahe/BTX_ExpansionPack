@@ -8,7 +8,7 @@
     "UIName": "Lupus",
     "Id": "chassisdef_lupus-B",
     "Name": "Lupus",
-    "Details": "<color=#F79B26>The Lupus OmniMech is Clan Coyote's successor to the Coyotl; it is more armored and serves the same functions as a cavalry raider and fast support 'Mech.</color>\n\nThis version, like the previous one, employs an autocannon, but this time it is a massive LB 20-X AC with three tons of ammunition. It is supported by a pair of Medium Pulse Lasers, ER Small Lasers, and ER Medium Lasers, though the Lupus B only has eleven double heat sinks, making using all of its lasers difficult.",
+    "Details": "<color=#F79B26>The Lupus OmniMech is Clan Coyote's successor to the Coyotl; it is more armored and serves the same functions as a cavalry raider and fast support 'Mech.</color>\n\nThis version, like the previous one, employs an autocannon, but this time it is a massive LB 20-X AC with three tons of ammunition. It is supported by a pair of Medium Pulse Lasers, ER Small Lasers, and ER Medium Lasers, though the Lupus B only has eleven double heat sinks, making using all of its lasers difficult.\n",
     "Icon": "uixTxrIcon_lupus"
   },
   "MovementCapDefID": "movedef_lupus-B",
@@ -210,6 +210,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "An even more adept close-quarters combatant than the A configuration, the Lupus B's primary weapon is the domineering LB-X Autocannon/20. Supporting this are three pairs of Medium Pulses, ER Medium Lasers, and ER Small Lasers, dispersed strategically throughout the chassis.",
   "FixedEquipment": []
 }

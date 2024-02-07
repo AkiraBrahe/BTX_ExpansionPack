@@ -8,7 +8,7 @@
     "UIName": "Exterminator",
     "Id": "chassisdef_exterminator_EXT-4DX",
     "Name": "Exterminator",
-    "Details": "<color=#F79B26>The Exterminator is purpose-built for the dubious yet crucial task of head hunting. Initially equipped with advanced stealth technology, it could seamlessly infiltrate enemy lines to destroy enemy command structures.</color>\n\nThe personal 'Mech of Lieutenant Caine Barclay of the SLDF, this Exterminator does not use stealth technology, instead relying on a MASC system coupled with a Supercharger, allowing the 'Mech to reach burst speeds of 130 km/h. Each arm carries three Medium Pulse Lasers equipped with a laser insulator to help dissipate the heat. The Anti-Missile System is also retained from the original EXT-4D. Although Barclay was successful in defeating ten DCMS MechWarriors in duels, the eleventh one destroyed his BattleMech.",
+    "Details": "The personal 'Mech of Lieutenant Caine Barclay of the SLDF, this Exterminator does not use stealth technology, instead relying on a MASC system coupled with a Supercharger, allowing the 'Mech to reach burst speeds of 130 km/h. Each arm carries three Medium Pulse Lasers equipped with a laser insulator to help dissipate the heat. The Anti-Missile System is also retained from the original EXT-4D. Although Barclay was successful in defeating ten DCMS MechWarriors in duels, the eleventh one destroyed his BattleMech.\n",
     "Icon": "uixTxrIcon_exterminator"
   },
   "MovementCapDefID": "movedef_exterminator_EXT-4DX",
@@ -216,7 +216,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -225,7 +224,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,7 +232,6 @@
       "ComponentDefID": "Gear_MASC_3_Combo",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -243,7 +240,6 @@
       "ComponentDefID": "Gear_Supercharger_1_Combo",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

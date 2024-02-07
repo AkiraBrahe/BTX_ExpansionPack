@@ -8,7 +8,7 @@
     "UIName": "Dragoon",
     "Id": "chassisdef_dragoon_AEM-03",
     "Name": "Dragoon",
-    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nDesigned as a long-range fire support unit, the Dragoon 03 retains the same engine specifications of the Dragoon 01 model. Its principal weaponry includes 3 Artemis IV FCS-guided 15-tubed LRM Launchers with 2 tons of CASE-protected ammunition. Backup weapons include a single Medium Laser, with a duo of Medium and Small Pulse Lasers for close-in defense.",
+    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nDesigned as a long-range fire support unit, the Dragoon 03 retains the same engine specifications of the Dragoon 01 model. Its principal weaponry includes three Artemis IV FCS guided 15-tubed Long Range Missile Launchers with two tons of CASE-protected ammunition. Backup weapons include a single Medium Laser, with a duo of Medium and Small Pulse Lasers for close-in defense.\n",
     "Icon": "uixTxrIcon_dragoon"
   },
   "MovementCapDefID": "movedef_dragoon_AEM-03",
@@ -220,7 +220,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -229,7 +228,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -238,7 +236,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -247,7 +244,6 @@
       "ComponentDefID": "Gear_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -256,7 +252,6 @@
       "ComponentDefID": "Gear_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -265,7 +260,6 @@
       "ComponentDefID": "Gear_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -274,7 +268,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -283,7 +276,6 @@
       "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

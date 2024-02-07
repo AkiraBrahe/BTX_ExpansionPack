@@ -8,7 +8,7 @@
     "UIName": "Crosscut",
     "Id": "chassisdef_crosscut_ED-X4D",
     "Name": "Crosscut",
-    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThis is yet another version of the ED-X4B DemolitionMech. The main feature of the ED-X4D is its Dual Saw, which is mounted in the right arm actuator. While the lift hoist remains in the rear torso, the cargo bay has been removed from the design.",
+    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThis is yet another version of the ED-X4B DemolitionMech. The main feature of the ED-X4D is its Dual Saw, which is mounted in the right arm actuator. While the lift hoist remains in the rear torso, the cargo bay has been removed from the design.\n",
     "Icon": "uixTxrIcon_crosscut"
   },
   "MovementCapDefID": "movedef_crosscut_ED-X4D",
@@ -176,15 +176,14 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "DemolitionMech",
-  "YangsThoughts": "",
+  "StockRole": "Militarized DemolitionMech",
+  "YangsThoughts": "I think this is the third Crosscut you've brought to me, Boss. Are you starting a collection? This thing is a glorified lumberjack, not a fighting machine. The 4D's got Dual Saws and a Lift Hoist, but that's it. It's completely defenseless against anything beyond melee attacks. And even though it's got an upgraded fusion engine and more armor, it's still commercial-grade, which means it's basically garbage.",
   "FixedEquipment": [
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Industrial_LiftHoist",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -193,7 +192,6 @@
       "ComponentDefID": "Gear_Actuator_Crosscut_DualSaw",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

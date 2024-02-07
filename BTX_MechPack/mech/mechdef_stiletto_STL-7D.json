@@ -7,8 +7,9 @@
       "unit_lance_vanguard",
       "unit_range_short",
       "unit_armor_high",
-      "unit_speed_medium",
+      "unit_speed_high",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -24,7 +25,7 @@
     "UIName": "Stiletto STL-7D",
     "Id": "mechdef_stiletto_STL-7D",
     "Name": "Stiletto",
-    "Details": "<color=#F79B26>The Stiletto is an ultralight BattleMech designed by the Draconis Combine in response to the Lyran Commonwealth's Commando, but deployed as a light scout instead.</color>\n\nEffectively a lighter Commando, the Stiletto mimics its weapons loadout on a smaller scale, sporting a torso-mounted SRM-4 with one ton of ammunition and a head-mounted Small Laser.",
+    "Details": "<color=#F79B26>The Stiletto is an ultralight BattleMech designed by the Draconis Combine in response to the Lyran Commonwealth's Commando, but deployed as a light scout instead.</color>\n\nEffectively a lighter Commando, the Stiletto mimics its weapons loadout on a smaller scale, sporting a torso-mounted SRM-4 with one ton of ammunition and a head-mounted Small Laser.\n",
     "Icon": "uixTxrIcon_stiletto"
   },
   "simGameMechPartCost": 100000,

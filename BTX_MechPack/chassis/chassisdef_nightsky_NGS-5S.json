@@ -8,7 +8,7 @@
     "UIName": "Nightsky",
     "Id": "chassisdef_nightsky_NGS-5S",
     "Name": "Nightsky",
-    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nThe Nightsky 5S is a simple upgrade that aims to make the 'Mech more heat efficient. This is achieved by removing the jump jets and replacing them with three additional double heat sinks.",
+    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nA simple upgrade of the Nightsky, the 5S looks to make the 'Mech more heat efficient. This is achieved by removing the jump jets and replacing them with three additional double heat sinks.\n",
     "Icon": "uixTxrIcon_nightsky"
   },
   "MovementCapDefID": "movedef_nightsky_NGS-5S",
@@ -198,14 +198,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Recon",
-  "YangsThoughts": "",
+  "YangsThoughts": "Hot climates got you down? Not this Nightsky! It ditches the jump jets for extra heat sinks, turning it into a laser-spewing machine that can even handle the hottest battlefields. No fancy acrobatics here, just pure, relentless laser fire.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -214,7 +213,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -223,7 +221,6 @@
       "ComponentDefID": "Gear_Actuator_Nightsky_Hatchet",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -8,7 +8,7 @@
     "UIName": "Lao Hu",
     "Id": "chassisdef_laohu_LHU-2B",
     "Name": "Lao Hu",
-    "Details": "<color=#F79B26>The Lao Hu (\"Tiger\"), designed by a student at the Victoria Academy of Arms and Technology, is based on the Thunder BattleMech and is intended to correct perceived flaws in the Thunder by utilizing new technologies available to the Capellan Confederation.</color>\n\nThe Lao Hu is built on a lightweight Chariot Type II Endo Steel chassis protected by an impressive thirteen and a half tons of armor, allowing it to withstand hits from all but the most powerful weapons. The Lao Hu is capable of engaging an enemy at almost any range, carrying an ER Large Laser and LRM-15 launcher for long-range combat and a devastating LB-X Autocannon/20 for close-quarters combat.",
+    "Details": "<color=#F79B26>The Lao Hu (\"Tiger\"), designed by a student at the Victoria Academy of Arms and Technology, is based on the Thunder BattleMech and is intended to correct perceived flaws in the Thunder by utilizing new technologies available to the Capellan Confederation.</color>\n\nThe Lao Hu is built on a lightweight Chariot Type II endo steel chassis protected by an impressive thirteen and a half tons of armor, allowing it to withstand hits from all but the most powerful weapons. The Lao Hu is capable of engaging an enemy at almost any range, carrying an ER Large Laser and LRM-15 launcher for long-range combat and a devastating LB-X Autocannon/20 for close-quarters combat.\n",
     "Icon": "uixTxrIcon_laohu"
   },
   "MovementCapDefID": "movedef_laohu_LHU-2B",
@@ -149,46 +149,46 @@
   ],
   "LOSSourcePositions": [
     {
-      "x": 0.0,
-      "y": 18.0,
-      "z": 18.0
+      "x": 0,
+      "y": 14,
+      "z": 1
     },
     {
-      "x": 4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 13,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
-      "x": 0.0,
-      "y": 18.0,
-      "z": 18.0
+      "x": 0,
+      "y": 14,
+      "z": 1
     },
     {
-      "x": 4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": 4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -4.0,
-      "y": 16.0,
-      "z": 16.0
+      "x": -4,
+      "y": 13,
+      "z": 0
     },
     {
-      "x": 3.0,
-      "y": 6.0,
-      "z": 6.0
+      "x": 3,
+      "y": 5,
+      "z": 2
     },
     {
-      "x": -3.0,
-      "y": 6.0,
-      "z": 6.0
+      "x": -3,
+      "y": 5,
+      "z": 2
     }
   ],
   "VariantName": "LHU-2B",
@@ -202,14 +202,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Lao Hu's got an interesting history, being designed by a student to fix the flaws of the original Thunder BattleMech. It's pretty solid for a 75-ton 'Mech, with an ER Large Laser, an LB-X Autocannon/20, and a 15-tube LRM Launcher. It's also got decent speed and armor. Overall, it's a pretty well-rounded machine.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -218,7 +217,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -227,7 +225,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -236,7 +233,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -245,7 +241,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -254,7 +249,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -263,7 +257,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -272,7 +265,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -281,7 +273,6 @@
       "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

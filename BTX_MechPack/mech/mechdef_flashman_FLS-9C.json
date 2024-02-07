@@ -10,6 +10,7 @@
       "unit_speed_high",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -25,7 +26,7 @@
     "UIName": "Flashman FLS-9C",
     "Id": "mechdef_flashman_FLS-9C",
     "Name": "Flashman",
-    "Details": "<color=#F79B26>The Flashman is an underrated heavy 'Mech, commonly referred to as a \"flashbulb\" by MechWarriors for to its heavy-energy configuration.</color>\n\nThe 9C is a complete overhaul of the Flashman, carrying three ER Large Lasers, four Medium Pulse lasers, a Medium Laser, and an Improved C3 computer. To accomplish this, the armor on the design has been upgraded to ferro-fibrous, and the 'Mech now has an Endo Steel chassis.",
+    "Details": "The 9C is a complete overhaul of the Flashman, carrying three ER Large Lasers, four Medium Pulse lasers, a Medium Laser, and an Improved C3 computer. To accomplish this, the armor on the design has been upgraded to ferro-fibrous, and the 'Mech now has an endo steel chassis.\n",
     "Icon": "uixTxrIcon_flashman"
   },
   "simGameMechPartCost": 2000000,

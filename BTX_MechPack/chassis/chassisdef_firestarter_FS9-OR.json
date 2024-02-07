@@ -8,7 +8,7 @@
     "UIName": "Firestarter Omni",
     "Id": "chassisdef_firestarter_FS9-OR",
     "Name": "Firestarter Omni",
-    "Details": "<color=#F79B26>The Firestarter OmniMech, which started off as a dubious goodwill gesture between enemy Houses during the Clan Invasion, has proven to be a versatile and highly effective medium trooper design.</color>\n\nThis configuration is a field upgrade developed in the midst of Operation Bulldog to help bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons in the form of an Artemis IV FCS-enhanced Clan LRM-10 and a pair of Clan ER Large Lasers.",
+    "Details": "This configuration is a field upgrade developed in the midst of Operation Bulldog to help bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons in the form of an Artemis IV FCS-enhanced Clan LRM-10 and a pair of Clan ER Large Lasers.\n",
     "Icon": "uixTxrIcon_firestartero"
   },
   "MovementCapDefID": "movedef_firestarter_FS9-OR",
@@ -215,7 +215,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -224,7 +223,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +231,6 @@
       "ComponentDefID": "Gear_EndoSteel_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +239,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +247,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -260,7 +255,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -269,7 +263,6 @@
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -278,7 +271,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -287,7 +279,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -296,7 +287,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -305,7 +295,6 @@
       "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -314,7 +303,6 @@
       "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -323,7 +311,6 @@
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -332,7 +319,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -341,7 +327,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -350,7 +335,6 @@
       "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

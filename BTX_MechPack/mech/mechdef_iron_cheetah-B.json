@@ -12,6 +12,7 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
+      "unit_mechpack",
       "unit_clan"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Iron Cheetah B",
     "Id": "mechdef_iron_cheetah-B",
     "Name": "Iron Cheetah",
-    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe B configuration, which is equipped with paired Large Pulse Lasers and six Medium Pulse Lasers, is capable of highly accurate fire even while using its four Jump Jets to seek cover and firing positions. A Targeting Computer provides additional firing assistance.",
+    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe B configuration, which is equipped with paired Large Pulse Lasers and six Medium Pulse Lasers, is capable of highly accurate fire even while using its four Jump Jets to seek cover and firing positions. A Targeting Computer provides additional firing assistance.\n",
     "Icon": "uixTxrIcon_ironcheetah"
   },
   "simGameMechPartCost": 3570000,

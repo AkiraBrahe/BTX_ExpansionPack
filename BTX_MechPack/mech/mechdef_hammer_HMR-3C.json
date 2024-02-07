@@ -9,8 +9,9 @@
       "unit_range_medium",
       "unit_indirectFire",
       "unit_armor_high",
-      "unit_speed_medium",
+      "unit_speed_low",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -27,7 +28,7 @@
     "UIName": "Hammer HMR-3C",
     "Id": "mechdef_hammer_HMR-3C",
     "Name": "Claw-Hammer",
-    "Details": "<color=#F79B26>The Hammer is a light 'Mech that was built to provide fire support to other 'Mechs with its long-range arsenal. It is often paired with the Anvil, softening up the enemy at a distance until the Anvil can bring its lasers to bear.</color>\n\nCalled the Claw-Hammer, the 3C is built to make the Hammer capable of better defending itself when an enemy closes on the battlefield. This is done by removing one of the LRM-5 launchers and replacing it with four additional Medium Lasers, which gives the Hammer the ability to attack the enemy with an overwhelming laser barrage at close ranges. This variant also works well as a bodyguard 'Mech in a lance of Hammer 'Mechs.",
+    "Details": "<color=#F79B26>The Hammer is a light 'Mech that was built to provide fire support to other 'Mechs with its long-range arsenal. It is often paired with the Anvil, softening up the enemy at a distance until the Anvil can bring its lasers to bear.</color>\n\nCalled the Claw-Hammer, the 3C is built to make the Hammer capable of better defending itself when an enemy closes on the battlefield. This is done by removing one of the LRM-5 launchers and replacing it with four additional Medium Lasers, which gives the Hammer the ability to attack the enemy with an overwhelming laser barrage at close ranges. This variant also works well as a bodyguard 'Mech in a lance of Hammer 'Mechs.\n",
     "Icon": "uixTxrIcon_hammer"
   },
   "simGameMechPartCost": 250000,

@@ -8,7 +8,7 @@
     "UIName": "Argus",
     "Id": "chassisdef_argus_AGS-2D",
     "Name": "Argus",
-    "Details": "<color=#F79B26>The Argus, a 60-ton BattleMech developed by Achernar BattleMechs and Robinson Standard BattleWorks, was initially an OmniMech but later resubmitted as a standard BattleMech that was quickly picked up by the AFFC.</color>\n\nThe 2D variant of the Argus was initially intended to be the primary configuration of the OmniMech version. The 2D is equipped for long-range combat, with two LRM-15 launchers equipped with Artemis IV fire control and a single ER PPC capable of striking down targets at extreme ranges.",
+    "Details": "<color=#F79B26>The Argus, a 60-ton BattleMech developed by Achernar BattleMechs and Robinson Standard BattleWorks, was initially an OmniMech but later resubmitted as a BattleMech that was quickly picked up by the AFFC.</color>\n\nThe 2D variant of the Argus was initially intended to be the primary configuration of the OmniMech version. The 2D is equipped for long-range combat, with two LRM-15 launchers equipped with Artemis IV fire control for greater missile accuracy and a single ER PPC capable of striking down targets at extreme ranges.\n",
     "Icon": "uixTxrIcon_argus"
   },
   "MovementCapDefID": "movedef_argus_AGS-2D",
@@ -200,14 +200,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Striker",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Argus 2D was supposed to be the main configuration of an OmniMech, but it got scrapped. It's built for long-range combat, with twin LRM-15s and an ER PPC that can hit fairly hard from a distance. Artemis IV makes those missiles even deadlier. But watch out—it's all-or-nothing, with the PPC being your only weapon if you run out of ammo.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -216,7 +215,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -225,7 +223,6 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,7 +231,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -243,7 +239,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -252,7 +247,6 @@
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

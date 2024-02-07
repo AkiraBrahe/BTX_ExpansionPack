@@ -8,7 +8,7 @@
     "UIName": "Thunder",
     "Id": "chassisdef_thunder_THR-2L",
     "Name": "Thunder",
-    "Details": "<color=#F79B26>The Thunder is a product of the aftermath of the Fourth Succession War. The 'Mech is built to make the most of new technologies that have since made their way to the Capellan Confederation.</color>\n\nThe primary weapon on the Thunder is a massive Autocannon/20 capable of devastating most lighter 'Mechs with a single shot. This is backed up by three highly accurate Medium Pulse Lasers. Finally, the Thunder has an LRM-5 launcher for token long-range defense and to give the 'Mech limited indirect fire capability.",
+    "Details": "The 2L model of the Thunder upgrades the design with some of the latest technologies, making it a highly destructive close combat 'Mech. The Autocannon/20 has been replaced with an LB-X Autocannon/20, which acts like a giant 'Mech-scale shotgun. This variant is also armed with two ER Medium Lasers and an ER Small Laser. Additionally, the LRM-5 has been dropped in favor of a Streak SRM-6 launcher for additional close-range firepower. Both Triple Strength Myomer and CASE have also been added. The final touch on the 'Mech is the use of stealth armor and its required Guardian ECM, which makes the 'Mech much harder for an enemy unit to target.\n",
     "Icon": "uixTxrIcon_thunder"
   },
   "MovementCapDefID": "movedef_thunder_THR-2L",
@@ -224,7 +224,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,7 +232,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,7 +240,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_5",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -251,7 +248,6 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_1_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -260,7 +256,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -269,7 +264,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -278,7 +272,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -287,7 +280,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -296,7 +288,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -305,7 +296,6 @@
       "ComponentDefID": "Gear_StealthArmor_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -314,7 +304,6 @@
       "ComponentDefID": "Gear_Sensor_Stealth_ECM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -1,14 +1,14 @@
 {
   "Description": {
     "Cost": 5920000,
-    "Rarity": 5,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Mongoose",
     "Id": "chassisdef_mongoose_MON-66GX",
     "Name": "Mongoose",
-    "Details": "<color=#F79B26>The Mongoose was introduced in 2660 as a deep recon 'Mech and potential replacement for the Locust. It became the standard command 'Mech for all light and recon lances, coordinating maneuverings of light 'Mechs and even engaging medium 'Mechs, thanks to its advanced electronics.</color>\n\nThe \"Gunslinger\" variant was designed for the SLDF but never saw service. It maintained the Mongoose's speed but replaced some of its electronic equipment with more weaponry. Each arm mounted two Medium Lasers, while the torso carried an SRM-6 with one ton of ammunition. The chassis was equipped with a Null-Signature system and a Chameleon Light Polarization Shield, and it also carried six tons of armor.",
+    "Details": "The Mongoose \"Gunslinger\" was designed for the SLDF but never saw service. It maintained the Mongoose's speed but replaced some of its electronic equipment with more weaponry. Each arm mounted two Medium Lasers, while the torso carried an SRM-6 with one ton of ammunition. The chassis was equipped with a Null-Signature system and a Chameleon Light Polarization Shield, and it also carried six tons of armor.\n",
     "Icon": "uixTxrIcon_mongoose"
   },
   "MovementCapDefID": "movedef_mongoose_MON-66GX",
@@ -205,7 +205,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -214,7 +213,6 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -223,7 +221,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -232,7 +229,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,7 +237,6 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -250,7 +245,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -259,7 +253,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -268,7 +261,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -277,7 +269,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -286,7 +277,6 @@
       "ComponentDefID": "Gear_SensorCAC_NullSig_main",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -295,7 +285,6 @@
       "ComponentDefID": "Gear_SensorCAC_Chameleon_main",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -304,7 +293,6 @@
       "ComponentDefID": "Gear_SensorCAC_NullSig_secondary",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -313,7 +301,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -322,7 +309,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -331,7 +317,6 @@
       "ComponentDefID": "Gear_CLPSNullSigCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

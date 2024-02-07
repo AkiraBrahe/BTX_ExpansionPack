@@ -8,7 +8,7 @@
     "UIName": "Crosscut",
     "Id": "chassisdef_crosscut_ED-X4K",
     "Name": "Crosscut",
-    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThe X4K variant replaces the internal combustion engine with a fuel cell engine and adds five tons of heavy industrial armor. The lift hoist has been replaced by an SRM-4 launcher with a ton of ammunition and guided by an advanced fire control.",
+    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThe X4K variant replaces the internal combustion engine with a fuel cell engine and adds five tons of heavy industrial armor. The lift hoist has been replaced by an SRM-4 launcher with a ton of ammunition and guided by an advanced fire control.\n",
     "Icon": "uixTxrIcon_crosscut"
   },
   "MovementCapDefID": "movedef_crosscut_ED-X4K",
@@ -177,14 +177,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Militarized LoggerMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "This 4K Crosscut was probably designed as a police 'Mech. Some company on Kaumberg fitted it with an SRM-4 with advanced fire control and a ton of ammo. The fuel cell engine helps to save some weight, and the 5.5 tons of heavy industrial armor give it just enough durability to survive against military wargear. But it's still not something I'd want to take into a real fight.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_CargoBay_Small",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -193,7 +192,6 @@
       "ComponentDefID": "Gear_Actuator_Crosscut_Chainsaw",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

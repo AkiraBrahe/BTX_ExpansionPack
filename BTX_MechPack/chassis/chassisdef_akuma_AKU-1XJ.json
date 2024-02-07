@@ -8,7 +8,7 @@
     "UIName": "Akuma",
     "Id": "chassisdef_akuma_AKU-1XJ",
     "Name": "Akuma",
-    "Details": "<color=#F79B26>The Akuma, meaning \"Devil\" in Japanese, was created as a more affordable alternative to the Atlas. It shares several components with the Atlas, including its distinctive head design, which is intended to instill fear in its enemies.</color>\n\nThe 1XJ is a jump-capable variant of the Akuma that can jump up to ninety meters by sacrificing heat dissipation capacity and firepower. The 'Mech has only ten double heat sinks and completely changes its weapon array. The only long-range weapon it carries is an ER Large Laser, while the MRM-30 and has been upgraded to an MRM-40 launcher. The 1XJ has an LB-X Autocannon/20 in place of the class-10 version, as well as two Medium Pulse Lasers and an ER Small Laser for overwhelming close-range firepower.",
+    "Details": "<color=#F79B26>The Akuma, which means \"Devil\" in Japanese, was created as a low-cost alternative to the Atlas. It inherits its predecessor's imposing presence, with a menacing head design meant to strike fear in its enemies.</color>\n\nA jump-capable variant of the Akuma, the 1XJ can leap up to ninety meters by sacrificing heat dissipation capacity and firepower. The 'Mech has only ten double heat sinks and completely changes its weapons array. The only long-range weapon it wields is an ER Large Laser, while the MRM-30 is upgraded to an MRM-40 launcher. For overwhelming close-range firepower, the 1XJ carries an LB-X Autocannon/20 in place of the class-10 version of the 1X, and has two Medium Pulse Lasers and an ER Small Laser.\n",
     "Icon": "uixTxrIcon_akuma"
   },
   "MovementCapDefID": "movedef_akuma_AKU-1XJ",
@@ -215,14 +215,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Akuma 1XJ is a beast of an assault 'Mech. It's got a mean punch with its LB-X Autocannon/20 and MRM-40 launcher, and it can jump. Just keep an eye on the heat and save the pulse lasers for finishing off wounded enemies.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -231,7 +230,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -240,7 +238,6 @@
       "ComponentDefID": "Gear_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,7 +246,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,7 +254,6 @@
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
