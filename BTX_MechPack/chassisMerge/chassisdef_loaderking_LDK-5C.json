@@ -8,7 +8,7 @@
     "UIName": "Loader King",
     "Id": "chassisdef_loaderking_LDK-5C",
     "Name": "Loader King",
-    "Details": "The Loader King is one of the few IndustrialMechs still being manufactured in the Inner Sphere. This is due in large part to the fact that Achernar BattleMechs, the parent company of Achernar Heavy Industries, chose to maintain their IndustrialMech output rather than retool the lines for BattleMech production. Achernar BattleMechs already produces the Locust, Wasp, Phoenix Hawk and the Enforcer at their headquarters on New Avalon.",
+    "Details": "The Loader King is one of the few IndustrialMechs still being manufactured in the Inner Sphere. This is due in large part to the fact that Achernar BattleMechs, the parent company of Achernar Heavy Industries, chose to maintain their IndustrialMech output rather than retool the lines for BattleMech production. Achernar BattleMechs already produces the Locust, Wasp, Phoenix Hawk and the Enforcer at their headquarters on New Avalon.\n",
     "Icon": "uixTxrIcon_loaderking"
   },
   "MovementCapDefID": "movedef_loaderking_LDK-5C",
@@ -174,14 +174,13 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "LoaderMech",
-  "YangsThoughts": "I'm sure we can do something with this Loader King, Boss, but we're pretty limited without completely gutting and rebuilding it as a whole new 'Mech. First thing we'd have to do is get rid of that I.C.E. and put a proper fusion engine in it, which would require facilities beyond what we have here. Not sure it would be even worth it. Might not be bad for moving things around the bays, though.",
+  "YangsThoughts": "I reckon we can make something out of this Loader King, Boss, but we're kinda hamstrung without completely gutting and rebuilding it from scratch. First thing we'd have to do is ditch that old-school I.C.E. engine and slap in a proper fusion engine, which would require facilities we ain't got here. Not sure it'd even be worth the effort. Could prove useful for moving stuff around the bays, though.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_Extended_Fuel_Tank_2t",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -190,7 +189,6 @@
       "ComponentDefID": "Gear_CargoBay_Container",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -199,7 +197,6 @@
       "ComponentDefID": "Gear_Actuator_LiftHoist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -10,7 +10,7 @@
     "UIName": "Marauder MAD-CM",
     "Id": "mechdef_marauder_MAD-CM",
     "Name": "Marauder",
-    "Details": "Perhaps one of the best-known 'Mechs in existence, the Marauder makes a worthy opponent on the battlefield. It's no slouch at midrange combat, but experienced MechWarriors will hang back at longer ranges to let its PPCs and AC/5 punish targets from afar.",
+    "Details": "Perhaps one of the best-known 'Mechs in existence, the Marauder makes a worthy opponent on the battlefield. It's no slouch at midrange combat, but experienced MechWarriors will hang back at longer ranges to let its PPCs and AC/5 punish targets from afar.\n",
     "Icon": "uixTxrIcon_marauder"
   },
   "prefabOverride": "chrPrfMech_marauder_BlackWidowBase-001",
@@ -141,7 +141,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Autocannon_UAC5_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_UAC5_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -193,7 +193,6 @@
       "unit_mech",
       "unit_heavy",
       "unit_release",
-      "unit_ready",
       "unit_role_sniper",
       "unit_range_long",
       "unit_hot",

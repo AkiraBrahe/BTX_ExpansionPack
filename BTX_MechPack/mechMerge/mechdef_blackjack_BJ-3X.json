@@ -3,14 +3,14 @@
     "items": [
       "unit_mech",
       "unit_medium",
-      "unit_jumpOK",
+      "unit_role_sniper",
+      "unit_lance_assassin",
       "unit_range_long",
       "unit_range_medium",
-      "unit_speed_low",
       "unit_armor_high",
+      "unit_speed_low",
+      "unit_jumpOK",
       "unit_hot",
-      "unit_lance_assassin",
-      "unit_role_sniper",
       "unit_release"
     ],
     "tagSetSourceFile": ""
@@ -26,7 +26,7 @@
     "UIName": "Blackjack BJ-3X",
     "Id": "mechdef_blackjack_BJ-3X",
     "Name": "Blackjack",
-    "Details": "In the 3029, the St. Ives Compact experimented with recovered technology on some of their Blackjacks.  One prototype that showed great promise replaced the autocannons and one heat sink with a pair of PPCs.  The engine was then augmented with three experimental “freezer” double efficiency units.",
+    "Details": "In the 3029, the St. Ives Compact experimented with recovered technology on some of their Blackjacks. One prototype that showed great promise replaced the autocannons and one heat sink with a pair of PPCs.  The engine was then augmented with three experimental “freezer” double efficiency units.\n",
     "Icon": "uixTxrIcon_blackjack"
   },
   "simGameMechPartCost": 590000,

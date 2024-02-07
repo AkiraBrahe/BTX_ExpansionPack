@@ -163,7 +163,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+      "ComponentDefID": "Weapon_Gauss_Gauss_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",

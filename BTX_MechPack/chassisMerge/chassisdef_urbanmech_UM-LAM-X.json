@@ -13,7 +13,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -27,11 +27,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Missile",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -45,7 +45,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "AntiPersonnel",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -63,7 +63,7 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Energy",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -77,11 +77,11 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMountID": "Missile",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],

@@ -6,7 +6,6 @@
       "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

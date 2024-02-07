@@ -163,7 +163,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_LB10X_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",

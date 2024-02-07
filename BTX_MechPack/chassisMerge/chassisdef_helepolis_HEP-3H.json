@@ -1,5 +1,5 @@
 {
-  "Stability": 250,
+  "Stability": 180,
   "DFASelfDamage": 48,
   "ChassisTags": {
     "items": [
@@ -16,7 +16,6 @@
       "ComponentDefID": "Gear_Addon_LoadingMechanism_7_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "TargetComponentGUID": "LoadingMechanism0"
     },
@@ -25,7 +24,6 @@
       "ComponentDefID": "Weapon_Artillery_Sniper_0-FIXED",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
       "LocalGUID": "LoadingMechanism0"
