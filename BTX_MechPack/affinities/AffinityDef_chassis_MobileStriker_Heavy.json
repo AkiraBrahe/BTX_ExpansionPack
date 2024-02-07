@@ -3,13 +3,15 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
+      "chrprfmech_gltbase-001_65",
       "chrprfmech_gltbase-001_70",
       "chrprfmech_heliosbase-001_60",
       "chrprfmech_marauderiicbase-001_75",
       "chrprfmech_nightgyrbase-001_75",
       "chrPrfMech_quickdrawBase-001_60",
       "chrprfmech_summonerbase-001_70",
-      "chrprfmech_thanatosbase-001_75"
+      "chrprfmech_thanatosbase-001_75",
+      "chrprfmech_thunderstonebase-001_60"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

@@ -4,7 +4,8 @@
   "affinityData": {
     "chassisNames": [
       "chrprfmech_arcticcheetahbase-001_30",
-      "chrprfmech_cossackbase-001_20"
+      "chrprfmech_cossackbase-001_20",
+      "chrprfmech_tiburonbase-001_25"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

@@ -1,27 +1,28 @@
 {
-  "id": "AffinityDef_chassis_ImpElectronics_Assault",
+  "id": "AffinityDef_chassis_ImpElectronics_Medium",
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrPrfMech_cyclopsBase-001_90",
-      "chrprfmech_gunslingerbase-001_85",
-      "Spartan"
+      "chrPrfMech_cicadaBase-001_40",
+      "chrPrfMech_phoenixhawkBase-001_45",
+      "chrPrfMech_ravenBase-001_55",
+      "chrprfmech_sentinelbase-001_40"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
     "affinityLevels": [
       {
         "missionsRequired": 20,
-        "levelName": "Assault Mech+",
-        "decription": "Familiarity with this 'Mech's role on the battlefield improves stability (+5% Stab Dmg Reduction)",
+        "levelName": "Medium Mech+",
+        "decription": "Familiarity with this 'Mech's role on the battlefield improves survivability (+1 Hit Defence)",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Assault 'Mech familiarity (+5% Stab Dmg Reduction)",
+              "Details": "Medium 'Mech familiarity (+1 Hit Defence)",
               "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "StatusEffect-Affinity-AssaultMechBoost",
-              "Name": "Assault Mech Affinity Defence Boost"
+              "Id": "StatusEffect-Affinity-MediumMechBoost",
+              "Name": "Medium Mech Affinity Defence Boost"
             },
             "durationData": {
               "duration": -1,
@@ -30,9 +31,9 @@
             "effectType": "StatisticEffect",
             "nature": "Buff",
             "statisticData": {
-              "statName": "ReceivedInstabilityMultiplier",
-              "operation": "Float_Multiply",
-              "modValue": "0.95",
+              "statName": "ToHitThisActor",
+              "operation": "Float_Add",
+              "modValue": "1",
               "modType": "System.Single",
               "targetAmmoCategory": "NotSet",
               "targetCollection": "NotSet",

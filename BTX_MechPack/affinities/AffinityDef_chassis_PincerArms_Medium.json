@@ -1,27 +1,26 @@
 {
-  "id": "AffinityDef_chassis_ImpElectronics_Assault",
+  "id": "AffinityDef_chassis_PincerArms_Medium",
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrPrfMech_cyclopsBase-001_90",
-      "chrprfmech_gunslingerbase-001_85",
-      "Spartan"
+      "chrPrfMech_crabBase-001_45",
+      "chrPrfMech_crabBase-001_50"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
     "affinityLevels": [
       {
         "missionsRequired": 20,
-        "levelName": "Assault Mech+",
-        "decription": "Familiarity with this 'Mech's role on the battlefield improves stability (+5% Stab Dmg Reduction)",
+        "levelName": "Medium Mech+",
+        "decription": "Familiarity with this 'Mech's role on the battlefield improves survivability (+1 Hit Defence)",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Assault 'Mech familiarity (+5% Stab Dmg Reduction)",
+              "Details": "Medium 'Mech familiarity (+1 Hit Defence)",
               "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "StatusEffect-Affinity-AssaultMechBoost",
-              "Name": "Assault Mech Affinity Defence Boost"
+              "Id": "StatusEffect-Affinity-MediumMechBoost",
+              "Name": "Medium Mech Affinity Defence Boost"
             },
             "durationData": {
               "duration": -1,
@@ -30,9 +29,9 @@
             "effectType": "StatisticEffect",
             "nature": "Buff",
             "statisticData": {
-              "statName": "ReceivedInstabilityMultiplier",
-              "operation": "Float_Multiply",
-              "modValue": "0.95",
+              "statName": "ToHitThisActor",
+              "operation": "Float_Add",
+              "modValue": "1",
               "modType": "System.Single",
               "targetAmmoCategory": "NotSet",
               "targetCollection": "NotSet",
@@ -52,8 +51,8 @@
       },
       {
         "missionsRequired": 30,
-        "levelName": "Improved Electronics+",
-        "decription": "Familiarity with this 'Mech's improved electronics improves target aquisition (+5% View/Sensor Range)",
+        "levelName": "Pincer Arms+",
+        "decription": "Familiarity with this 'Mech's pincer arms improves arm survivability (+Arm Armor)",
         "affinities": [],
         "effectData": [
           {
@@ -69,16 +68,16 @@
             },
             "effectType": "StatisticEffect",
             "Description": {
-              "Id": "Affinity_ImpElec_SensorRange",
+              "Id": "Affinity_Pincers_LA",
               "Name": "BattleMechAffinity",
-              "Details": "Increased Sensor Range",
-              "Icon": "uixSvgIcon_equipment_Cockpit"
+              "Details": "Reinforced Arm Armor",
+              "Icon": "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature": "Buff",
             "statisticData": {
-              "statName": "SensorDistanceAbsolute",
-              "operation": "Float_Multiply",
-              "modValue": "1.05",
+              "statName": "LeftArm.Armor",
+              "operation": "Float_Add",
+              "modValue": "10",
               "modType": "System.Single"
             }
           },
@@ -95,16 +94,16 @@
             },
             "effectType": "StatisticEffect",
             "Description": {
-              "Id": "Affinity_ImpElec_ViewRange",
+              "Id": "Affinity_Pincers_RA",
               "Name": "BattleMechAffinity",
-              "Details": "Increased View Range",
-              "Icon": "uixSvgIcon_equipment_Cockpit"
+              "Details": "Reinforced Arm Armor",
+              "Icon": "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature": "Buff",
             "statisticData": {
-              "statName": "SpotterDistanceAbsolute",
-              "operation": "Float_Multiply",
-              "modValue": "1.05",
+              "statName": "RightArm.Armor",
+              "operation": "Float_Add",
+              "modValue": "10",
               "modType": "System.Single"
             }
           }

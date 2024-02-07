@@ -1,34 +1,25 @@
 {
-  "id": "AffinityDef_chassis_Rugged_Heavy",
+  "id": "AffinityDef_chassis_Resilient_Light",
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_crusaderhotd-001_65",
-      "chrPrfMech_grasshopperBase-001_70",
-      "chrPrfMech_griffinBase-001_60",
-      "chrprfmech_incubusbase-001_70",
-      "chrprfmech_merlinbase-001_60",
-      "chrPrfMech_orionBase-001_75",
-      "chrprfmech_roughneckbase-001_65",
-      "chrprfmech_roughneckcrane-001_65",
-      "chrPrfMech_warhammerBase-001_70",
-      "Caesar"
+      "chrPrfMech_javelinBase-001_20"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
     "affinityLevels": [
       {
         "missionsRequired": 20,
-        "levelName": "Heavy Mech+",
-        "decription": "Familiarity with this 'Mech's role on the battlefield improves heat management (+3 Heat Sinking)",
+        "levelName": "Light Mech+",
+        "decription": "Familiarity with this 'Mech's role on the battlefield improves team coordination (+1 Resolve generation)",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Heavy 'Mech familiarity (+3 Heat Sinking)",
+              "Details": "Light 'Mech familiarity (+1 Resolve Gain)",
               "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "StatusEffect-Affinity-HeavyMechBoost",
-              "Name": "Heavy Mech Affinity Defence Boost"
+              "Id": "StatusEffect-Affinity-LightMechBoost",
+              "Name": "Light Mech Affinity Morale Boost"
             },
             "durationData": {
               "duration": -1,
@@ -39,9 +30,9 @@
             "statisticData": {
               "additionalRules": "NotSet",
               "modType": "System.Int32",
-              "modValue": "3",
+              "modValue": "1",
               "operation": "Int_Add",
-              "statName": "HeatSinkCapacity",
+              "statName": "MoraleBonusGainStackable",
               "targetAmmoCategory": "NotSet",
               "targetCollection": "NotSet",
               "targetWeaponCategory": "NotSet",
@@ -49,27 +40,32 @@
               "targetWeaponType": "NotSet"
             },
             "targetingData": {
-              "effectTargetType": "Creator",
               "effectTriggerType": "Passive",
-              "hideApplicationFloatie": true,
-              "showInStatusPanel": false,
-              "showInTargetPreview": false
+              "triggerLimit": 0,
+              "extendDurationOnTrigger": 0,
+              "specialRules": "NotSet",
+              "effectTargetType": "Creator",
+              "range": 0,
+              "forcePathRebuild": false,
+              "forceVisRebuild": false,
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
             }
           }
         ]
       },
       {
         "missionsRequired": 30,
-        "levelName": "Rugged+",
-        "decription": "Familiarity with this 'Mech's rugged design improves survivability (+5% Damage Reduction)",
+        "levelName": "Resilient+",
+        "decription": "Familiarity with this 'Mech's resilient design improves survivability (+25% Critical Hit Resistance)",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Rugged (+5% Damage Reduction)",
+              "Details": "The Pilot knows where to avoid hits on this mech (+25% Critical Hit Resistance)",
               "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "Affinity_Rugged_DmgReduction",
-              "Name": "BattleMechAffinity"
+              "Id": "StatusEffect-Affinity-CritResist",
+              "Name": "Mech Affinity Critical Hit Resistance Boost"
             },
             "durationData": {
               "duration": -1,
@@ -80,9 +76,9 @@
             "statisticData": {
               "additionalRules": "NotSet",
               "modType": "System.Single",
-              "modValue": "0.95",
+              "modValue": "0.75",
               "operation": "Float_Multiply",
-              "statName": "DamageReductionMultiplierAll",
+              "statName": "CriticalHitChanceReceivedMultiplier",
               "targetAmmoCategory": "NotSet",
               "targetCollection": "NotSet",
               "targetWeaponCategory": "NotSet",
