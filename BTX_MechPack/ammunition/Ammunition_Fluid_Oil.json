@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Id": "Ammunition_Fluid_Inferno",
+    "Id": "Ammunition_Fluid_Oil",
     "Name": "Oil Slick Fluid Gun Ammo",
     "UIName": "Oil Slick",
     "Details": "Viscous liquid used to slow a target and make it flammable.",
@@ -11,7 +11,7 @@
   },
   "Type": "Normal",
   "Category": "Fluid",
-  "Instability": 10,
+  "Instability": 15,
   "HeatGenerated": 0,
   "DamageMultiplier": 0.6,
   "InstabilityMultiplier": 1,

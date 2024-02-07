@@ -23,8 +23,8 @@
     {
       "durationData": {
         "duration": -1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
         "stackLimit": 1
       },
       "targetingData": {

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "movedef_buster_BC-X-M",
     "Name": "MovementCapabilitiesDef for Buster BC X-M",
-    "Details": "150 I.C.E. - 4/7 movement",
+    "Details": "150 I.C.E. Engine - 4/7 movement",
     "Icon": ""
   },
   "MaxWalkDistance": 95.0,

@@ -3,7 +3,7 @@
   "Type": "Autocannon",
   "WeaponSubType": "AC20",
   "MinRange": 60,
-  "MaxRange": 450,
+  "MaxRange": 540,
   "RangeSplit": [
     360,
     360,
@@ -40,7 +40,7 @@
     "UIName": "Heavy Rifle",
     "Id": "Weapon_Rifle_HeavyRifle_0-STOCK",
     "Name": "Heavy Rifle",
-    "Details": "The Heavy Rifle is the largest in the \"Rifle\" family. The precursor to the modern Autocannon, the Rifle was based on the main guns used by tanks on pre-spaceflight Terra. The Heavy Rifle used heavier rounds and larger propellant loads to fire its shells. It was phased out of service with most major powers because it lacked stopping power against most battlefield units. Though it has excellent range and can actually damage a BattleMech, its weight and ammunition capacity are no match for standard Autocannon.",
+    "Details": "The Heavy Rifle is the largest in the \"Rifle\" family. The precursor to the modern Autocannon, the Rifle was based on the main guns used by tanks on pre-spaceflight Terra. The Heavy Rifle used heavier rounds and larger propellant loads to fire its shells. It was phased out of service with most major powers because it lacked stopping power against most battlefield units. Though it has excellent range and can actually damage a BattleMech, its weight and ammunition capacity are no match compared to a standard Autocannon.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
