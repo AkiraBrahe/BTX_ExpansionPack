@@ -1,18 +1,10 @@
 {
-  "id": "AffinityDef_chassis_Rugged_Heavy",
+  "id": "AffinityDef_chassis_GaussPlatform_Heavy",
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_crusaderhotd-001_65",
-      "chrPrfMech_grasshopperBase-001_70",
-      "chrPrfMech_griffinBase-001_60",
-      "chrprfmech_incubusbase-001_70",
-      "chrprfmech_merlinbase-001_60",
-      "chrPrfMech_orionBase-001_75",
-      "chrprfmech_roughneckbase-001_65",
-      "chrprfmech_roughneckcrane-001_65",
-      "chrPrfMech_warhammerBase-001_70",
-      "Caesar"
+      "chrPrfMech_battlemasterBase-001_75",
+      "chrPrfMech_novacatbase-001_60"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
@@ -60,41 +52,42 @@
       },
       {
         "missionsRequired": 30,
-        "levelName": "Rugged+",
-        "decription": "Familiarity with this 'Mech's rugged design improves survivability (+5% Damage Reduction)",
+        "levelName": "Gauss Platform+",
+        "decription": "Familiarity with this 'Mech's Gauss capabilities improves damage output (+5% Damage)",
         "affinities": [],
         "effectData": [
           {
-            "Description": {
-              "Details": "Rugged (+5% Damage Reduction)",
-              "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "Affinity_Rugged_DmgReduction",
-              "Name": "BattleMechAffinity"
-            },
             "durationData": {
               "duration": -1,
               "stackLimit": -1
             },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "effectTargetType": "Creator",
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            },
             "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "Affinity_Gauss_Damage",
+              "Name": "BattleMechAffinity",
+              "Details": "Gauss weapons on this unit deal [AMT] more damage.",
+              "Icon": "UixSvgIcon_specialEquip_System"
+            },
             "nature": "Buff",
             "statisticData": {
-              "additionalRules": "NotSet",
-              "modType": "System.Single",
-              "modValue": "0.95",
+              "appliesEachTick": false,
+              "effectsPersistAfterDestruction": false,
+              "statName": "DamagePerShot",
               "operation": "Float_Multiply",
-              "statName": "DamageReductionMultiplierAll",
-              "targetAmmoCategory": "NotSet",
-              "targetCollection": "NotSet",
+              "modValue": "1.05",
+              "modType": "System.Single",
+              "additionalRules": "NotSet",
+              "targetCollection": "Weapon",
               "targetWeaponCategory": "NotSet",
-              "targetWeaponSubType": "NotSet",
-              "targetWeaponType": "NotSet"
-            },
-            "targetingData": {
-              "effectTargetType": "Creator",
-              "effectTriggerType": "Passive",
-              "hideApplicationFloatie": true,
-              "showInStatusPanel": false,
-              "showInTargetPreview": false
+              "targetWeaponType": "Gauss",
+              "targetAmmoCategory": "NotSet",
+              "targetWeaponSubType": "NotSet"
             }
           }
         ]

@@ -1,34 +1,26 @@
 {
-  "id": "AffinityDef_chassis_Rugged_Heavy",
+  "id": "AffinityDef_chassis_EasyPilot_Assault",
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_crusaderhotd-001_65",
-      "chrPrfMech_grasshopperBase-001_70",
-      "chrPrfMech_griffinBase-001_60",
-      "chrprfmech_incubusbase-001_70",
-      "chrprfmech_merlinbase-001_60",
-      "chrPrfMech_orionBase-001_75",
-      "chrprfmech_roughneckbase-001_65",
-      "chrprfmech_roughneckcrane-001_65",
-      "chrPrfMech_warhammerBase-001_70",
-      "Caesar"
+      "chrprfmech_crkbase-001_85",
+      "chrprfmech_fireballbase-001_85"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
     "affinityLevels": [
       {
         "missionsRequired": 20,
-        "levelName": "Heavy Mech+",
-        "decription": "Familiarity with this 'Mech's role on the battlefield improves heat management (+3 Heat Sinking)",
+        "levelName": "Assault Mech+",
+        "decription": "Familiarity with this 'Mech's role on the battlefield improves stability (+5% Stab Dmg Reduction)",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Heavy 'Mech familiarity (+3 Heat Sinking)",
+              "Details": "Assault 'Mech familiarity (+5% Stab Dmg Reduction)",
               "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "StatusEffect-Affinity-HeavyMechBoost",
-              "Name": "Heavy Mech Affinity Defence Boost"
+              "Id": "StatusEffect-Affinity-AssaultMechBoost",
+              "Name": "Assault Mech Affinity Defence Boost"
             },
             "durationData": {
               "duration": -1,
@@ -37,11 +29,10 @@
             "effectType": "StatisticEffect",
             "nature": "Buff",
             "statisticData": {
-              "additionalRules": "NotSet",
-              "modType": "System.Int32",
-              "modValue": "3",
-              "operation": "Int_Add",
-              "statName": "HeatSinkCapacity",
+              "statName": "ReceivedInstabilityMultiplier",
+              "operation": "Float_Multiply",
+              "modValue": "0.95",
+              "modType": "System.Single",
               "targetAmmoCategory": "NotSet",
               "targetCollection": "NotSet",
               "targetWeaponCategory": "NotSet",
@@ -60,16 +51,16 @@
       },
       {
         "missionsRequired": 30,
-        "levelName": "Rugged+",
-        "decription": "Familiarity with this 'Mech's rugged design improves survivability (+5% Damage Reduction)",
+        "levelName": "Easy to Pilot+",
+        "decription": "Familiarity with the easy to pilot 'Mech allows pushing the 'Mech further and firing (+10% Walk Speed)",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Rugged (+5% Damage Reduction)",
+              "Details": "The pilot can push actuators harder with experience (+10% Walk Speed)",
               "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "Affinity_Rugged_DmgReduction",
-              "Name": "BattleMechAffinity"
+              "Id": "Affinity_EasyPilot_Walk",
+              "Name": "Mech Affinity Walk Boost"
             },
             "durationData": {
               "duration": -1,
@@ -80,9 +71,9 @@
             "statisticData": {
               "additionalRules": "NotSet",
               "modType": "System.Single",
-              "modValue": "0.95",
+              "modValue": "1.1",
               "operation": "Float_Multiply",
-              "statName": "DamageReductionMultiplierAll",
+              "statName": "WalkSpeed",
               "targetAmmoCategory": "NotSet",
               "targetCollection": "NotSet",
               "targetWeaponCategory": "NotSet",

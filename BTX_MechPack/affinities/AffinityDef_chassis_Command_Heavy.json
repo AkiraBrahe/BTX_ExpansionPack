@@ -1,18 +1,13 @@
 {
-  "id": "AffinityDef_chassis_Rugged_Heavy",
+  "id": "AffinityDef_chassis_Command_Heavy",
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_crusaderhotd-001_65",
-      "chrPrfMech_grasshopperBase-001_70",
-      "chrPrfMech_griffinBase-001_60",
-      "chrprfmech_incubusbase-001_70",
-      "chrprfmech_merlinbase-001_60",
-      "chrPrfMech_orionBase-001_75",
-      "chrprfmech_roughneckbase-001_65",
-      "chrprfmech_roughneckcrane-001_65",
-      "chrPrfMech_warhammerBase-001_70",
-      "Caesar"
+      "chrPrfMech_archerBase-001_70",
+      "chrPrfMech_blackknightBase-001_75",
+      "chrPrfMech_marauderBase-001_75",
+      "chrprfmech_redreaperbase-001_75",
+      "chrprfmech_shootistbase-001_70"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
@@ -60,16 +55,16 @@
       },
       {
         "missionsRequired": 30,
-        "levelName": "Rugged+",
-        "decription": "Familiarity with this 'Mech's rugged design improves survivability (+5% Damage Reduction)",
+        "levelName": "Command Mech+",
+        "decription": "Familiarity with this 'Mech's Command system has improved their ability to coordinate the team (+1 Resolve generation)",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Rugged (+5% Damage Reduction)",
+              "Details": "Command 'Mech familiarity (+1 Resolve Gain)",
               "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "Affinity_Rugged_DmgReduction",
-              "Name": "BattleMechAffinity"
+              "Id": "StatusEffect-Affinity-MoraleBoost",
+              "Name": "Command Mech Affinity Morale Boost"
             },
             "durationData": {
               "duration": -1,
@@ -79,10 +74,10 @@
             "nature": "Buff",
             "statisticData": {
               "additionalRules": "NotSet",
-              "modType": "System.Single",
-              "modValue": "0.95",
-              "operation": "Float_Multiply",
-              "statName": "DamageReductionMultiplierAll",
+              "modType": "System.Int32",
+              "modValue": "1",
+              "operation": "Int_Add",
+              "statName": "MoraleBonusGain",
               "targetAmmoCategory": "NotSet",
               "targetCollection": "NotSet",
               "targetWeaponCategory": "NotSet",
@@ -90,11 +85,16 @@
               "targetWeaponType": "NotSet"
             },
             "targetingData": {
-              "effectTargetType": "Creator",
               "effectTriggerType": "Passive",
-              "hideApplicationFloatie": true,
-              "showInStatusPanel": false,
-              "showInTargetPreview": false
+              "triggerLimit": 0,
+              "extendDurationOnTrigger": 0,
+              "specialRules": "NotSet",
+              "effectTargetType": "Creator",
+              "range": 0,
+              "forcePathRebuild": false,
+              "forceVisRebuild": false,
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
             }
           }
         ]
