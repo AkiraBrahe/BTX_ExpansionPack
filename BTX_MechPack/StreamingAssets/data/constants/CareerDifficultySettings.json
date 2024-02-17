@@ -1246,6 +1246,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1310,6 +1315,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1374,6 +1384,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1438,6 +1453,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1502,6 +1522,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1566,6 +1591,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1630,6 +1660,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1694,6 +1729,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1758,6 +1798,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1822,6 +1867,11 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         },
@@ -1886,6 +1936,80 @@
               "ConstantType": "AdditionalSettings",
               "ConstantName": "AddSimGameTag",
               "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3067"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3067",
+          "Name": "3067",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3067"
             }
           ]
         }

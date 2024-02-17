@@ -1,7 +1,7 @@
 {
     "Name": "BTX_MechPack",
     "Enabled": true,
-    "Version": "0.7",
+    "Version": "0.8-beta",
 
     "Description": "Add new 'Mech variants and any new equipment they come with. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.",
     "Author": "Kierk",
