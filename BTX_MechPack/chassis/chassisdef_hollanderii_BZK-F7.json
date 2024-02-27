@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_hollanderbase-001",
   "PrefabBase": "hollander",
   "Tonnage": 45,
-  "InitialTonnage": 16.53,
+  "InitialTonnage": 18.53,
   "weightClass": "MEDIUM",
   "Heatsinks": 0,
   "TopSpeed": 86.4,

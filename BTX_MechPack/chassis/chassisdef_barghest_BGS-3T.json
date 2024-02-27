@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_barghest",
   "PrefabBase": "cubarghest",
   "Tonnage": 70,
-  "InitialTonnage": 27,
+  "InitialTonnage": 29,
   "weightClass": "HEAVY",
   "Heatsinks": 10,
   "TopSpeed": 86.4,

@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_fafnirbase-001",
   "PrefabBase": "fafnir",
   "Tonnage": 100,
-  "InitialTonnage": 27.31,
+  "InitialTonnage": 31.31,
   "weightClass": "ASSAULT",
   "Heatsinks": 10,
   "TopSpeed": 54,

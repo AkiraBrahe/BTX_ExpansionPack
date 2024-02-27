@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_highlanderBase-001",
   "PrefabBase": "highlander",
   "Tonnage": 90,
-  "InitialTonnage": 20.56,
+  "InitialTonnage": 22.56,
   "weightClass": "ASSAULT",
   "Heatsinks": 10,
   "TopSpeed": 54,
