@@ -1,0 +1,49 @@
+{
+  "MinRange": 210,
+  "MaxRange": 1000,
+  "RangeSplit": [
+    450,
+    450,
+    1000
+  ],
+  "Damage": 200,
+  "DistantVariance": 0.5,
+  "DistantVarianceReversed": false,
+  "Description": {
+    "Cost": 6600000
+  },
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-SelfKnockdown",
+        "Name": "STABILITY DAMAGE INCREASED",
+        "Details": "Firing causes 'Mech to become unbalanced.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "-50.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ImprovedBallistic": true,
+  "ProjectileScale": {
+    "x": 2,
+    "y": 2,
+    "z": 1.5
+  }
+}

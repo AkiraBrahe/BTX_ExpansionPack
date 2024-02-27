@@ -74,7 +74,7 @@
   "statusEffects": [
     {
       "durationData": {
-        "duration": 1,
+        "duration": -1,
         "stackLimit": -1
       },
       "targetingData": {
@@ -85,16 +85,16 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Artillery-SelfKnockdown",
-        "Name": "INCOMING STABILITY DAMAGE INCREASED",
-        "Details": "Incoming stability damage increased by [AMT].",
+        "Id": "StatusEffect-SelfKnockdown",
+        "Name": "STABILITY DAMAGE INCREASED",
+        "Details": "Firing causes 'Mech to become unbalanced.",
         "Icon": "uixSvgIcon_equipment_Gyro"
       },
       "nature": "Debuff",
       "statisticData": {
         "statName": "ReceivedInstabilityMultiplier",
-        "operation": "Float_Multiply",
-        "modValue": "1.15",
+        "operation": "Float_Add",
+        "modValue": "-55.0",
         "modType": "System.Single"
       }
     }

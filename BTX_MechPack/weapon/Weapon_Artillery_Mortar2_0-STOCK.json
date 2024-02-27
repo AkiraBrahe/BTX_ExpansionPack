@@ -32,8 +32,8 @@
   "Instability": 6,
   "WeaponEffectID": "WeaponEffect-Weapon_AC5",
   "Description": {
-    "Cost": 15000,
-    "Rarity": 4,
+    "Cost": 30000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "Varied",
     "Model": "Very Light Artillery",

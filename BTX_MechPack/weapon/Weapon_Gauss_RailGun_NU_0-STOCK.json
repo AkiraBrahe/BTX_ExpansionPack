@@ -13,6 +13,8 @@
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
   "Damage": 200,
+  "DistantVariance": 0.5,
+  "DistantVarianceReversed": false,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -30,8 +32,8 @@
   "CanExplode": true,
   "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
   "Description": {
-    "Cost": 3000000,
-    "Rarity": 4,
+    "Cost": 3575000,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Gibson",
     "Model": "Magnetic Cannon",
@@ -52,7 +54,34 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-SelfKnockdown",
+        "Name": "STABILITY DAMAGE INCREASED",
+        "Details": "Firing causes 'Mech to become unbalanced.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "-50.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock",
@@ -60,5 +89,11 @@
       "range_extreme"
     ],
     "tagSetSourceFile": ""
+  },
+  "ImprovedBallistic": true,
+  "ProjectileScale": {
+    "x": 2,
+    "y": 2,
+    "z": 1.5
   }
 }
