@@ -1,0 +1,201 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_medium",
+      "unit_role_brawler",
+      "unit_lance_vanguard",
+      "unit_lance_assassin",
+      "unit_range_short",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_hot",
+      "unit_release",
+      "unit_mechpack",
+      "unit_LosTech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_slagmaiden_SLG-X",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 16990000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Slagmaiden SLG-X",
+    "Id": "mechdef_slagmaiden_SLG-X",
+    "Name": "Slagmaiden",
+    "Details": "<color=#F79B26>The Slagmaiden is a mixed hybrid of Clan and Inner Sphere experimental technologies. Built by Arc-Royal MechWorks, the 'Mech was intended to showcase advanced technologies and boost the morale of troops during the Jihad, but it never reached full production.</color>\n\nIntended more for dueling than battlefield combat use, the Slagmaiden hosts a number of medium- and short-range weapons. Its primary armament is a Clan Heavy Large Laser, complemented by two ER Flamers and Streak SRM-2 missile launchers for short-range encounters. The ammunition is protected by CASE II, minimizing the risk of explosions. The Slagmaiden's defining feature is its Large Shield, which absorbs incoming damage at the cost of somewhat reduced speed. This drawback is offset by a Supercharger, which propels the 'Mech to an impressive top speed of 108 km/h. Its fragile composite internal structure is protected by ten and a half tons of armor, ensuring resilience in intense combat.\n",
+    "Icon": "uixTxrIcon_slagmaiden"
+  },
+  "simGameMechPartCost": 1700000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 45,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": 40,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": 40
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 115,
+      "CurrentRearArmor": 45,
+      "CurrentInternalStructure": 90,
+      "AssignedArmor": 115,
+      "AssignedRearArmor": 45
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": 40,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": 40
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 45,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 120,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 120,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 120,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 120,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_CLargeLaserHeavy_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Addon_Laser_Insulator",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Flamer_ERFlamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Flamer_ERFlamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "Description": {
+    "Cost": 6170000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Raven",
+    "Id": "chassisdef_raven_RVN-4LC",
+    "Name": "Raven",
+    "Details": "The 4LC variant is a modified 4L that can seamlessly integrate with a C3 network and coordinate with other friendly units. This is done by swapping out the 4L's Beagle Active Probe with a C3 Slave Unit and an ER Small Laser.\n",
+    "Icon": "uixTxrIcon_raven"
+  },
+  "MovementCapDefID": "movedef_raven_RVN-4LC",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_raven",
+  "PrefabIdentifier": "chrPrfMech_ravenBase-001",
+  "PrefabBase": "raven",
+  "Tonnage": 35,
+  "InitialTonnage": 14,
+  "weightClass": "LIGHT",
+  "Heatsinks": 10,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 30,
+  "MeleeInstability": 35,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 45,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 45,
+  "DFAInstability": 45,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 10,
+      "z": 3
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "y": 9,
+      "z": -2
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 10,
+      "z": 3
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "y": 9,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": -1
+    }
+  ],
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_stealth",
+      "mech_quirk_nominimalarms"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "VariantName": "RVN-4LC",
+  "StockRole": "Recon & Electronic Warfare",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Sensor_Stealth_ECM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

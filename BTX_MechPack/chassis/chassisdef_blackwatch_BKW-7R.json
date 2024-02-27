@@ -1,0 +1,256 @@
+{
+  "Description": {
+    "Cost": 8920000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Black Watch",
+    "Id": "chassisdef_blackwatch_BKW-7R",
+    "Name": "Black Watch",
+    "Details": "<color=#F79B26>The Black Watch is named after the old Royal SLDF regiment of the same name, and was built to symbolize solidarity in the spirit of the new Star League.</color>\n\nThe 7R boasts a powerful arsenal of weapons, including a Light Gauss Rifle for long-range engagements up to 750 meters. To complement this, it features an Ultra Autocannon/10, capable of firing twice as fast as a standard autocannon. For medium- to short-range combat, the Black Watch also carries an MRM-40 launcher. While its reliance on ammunition-based weapons has drawn some criticism, the Black Watch compensates for this by incorporating a C3 Slave unit. This enables it to share targeting data with allied units through a C3 network, optimizing its firepower and enhancing its battlefield effectiveness.\n",
+    "Icon": "uixTxrIcon_blackwatch"
+  },
+  "MovementCapDefID": "movedef_blackwatch_BKW-7R",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_fireball",
+  "PrefabIdentifier": "chrprfmech_fireballbase-001",
+  "PrefabBase": "fireball",
+  "Tonnage": 85,
+  "InitialTonnage": 24,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 10,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 120,
+  "MeleeInstability": 85,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 105,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 105,
+  "DFAInstability": 105,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 270,
+      "MaxRearArmor": 135,
+      "InternalStructure": 135
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "BKW-7R",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "mech_case_right",
+      "mech_quirk_easytopilot"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "As its name implies, this 'Mech was intended for the restored Royal Black Watch. It's a well-designed machine built on a modified Crockett chassis, now with endo-steel skeleton for enhanced protection. CASE is a very helpful addition, as all weaponry is ammo-dependent. The MRM-40, Light Gauss Rifle, and Ultra Autocannon/10 offer a solid mix of firepower, though they operate in very different range brackets. A C3 Slave unit helps to give it a good firing solution. Overall, it's not the worst 'Mech, but any ammo explosion would make it lose most of its fighting potential.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

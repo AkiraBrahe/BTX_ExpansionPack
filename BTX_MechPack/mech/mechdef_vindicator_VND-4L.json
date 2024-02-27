@@ -1,0 +1,217 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_medium",
+      "unit_role_sniper",
+      "unit_lance_support",
+      "unit_lance_assassin",
+      "unit_range_long",
+      "unit_indirectFire",
+      "unit_armor_high",
+      "unit_speed_medium",
+      "unit_jumpOK",
+      "unit_electronicWarfare",
+      "unit_release",
+      "unit_mechpack",
+      "unit_LosTech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_vindicator_VND-4L",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 8120000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Vindicator VND-4L",
+    "Id": "mechdef_vindicator_VND-4L",
+    "Name": "Vindicator",
+    "Details": "The 4L Vindicator is a major upgrade to the design, part of Ceres Metals' efforts to revive the line in 3063. The engine has been replaced with a 225-rated extralight engine, granting the 'Mech a top speed of 86.4 km/h, and its jumping distance was increased to 150 meters with an additional jump jet. The 'Mech uses double heat sinks for its advanced weapons load, which includes an ER PPC and LRM-5 for striking power at long range and an ER medium laser and medium pulse laser for short range work. Finally, the 'Mech carries a Guardian ECM Suite and is protected with nine tons of stealth armor, making it harder to target at range. The 4L became a common design among Shadow Lances following their introduction.\n",
+    "Icon": "uixTxrIcon_vindicator"
+  },
+  "simGameMechPartCost": 810000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 70,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 70,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": 45,
+      "CurrentInternalStructure": 70,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": 45
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 70,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 70,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_PPC_PPCER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

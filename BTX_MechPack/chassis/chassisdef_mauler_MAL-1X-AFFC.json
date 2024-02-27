@@ -1,0 +1,220 @@
+{
+  "Description": {
+    "Cost": 7890000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Mauler",
+    "Id": "chassisdef_mauler_MAL-1X-AFFC",
+    "Name": "Mauler",
+    "Details": "Distinguishing itself from the original model, the Federated Commonwealth's 1X-AFFC variant sheds its long-range missiles in favor of quad SRM-4 launchers, sacrificing ranged capabilities for a more gladiatorial style of combat.\n",
+    "Icon": "uixTxrIcon_mauler"
+  },
+  "MovementCapDefID": "movedef_mauler_MAL-1X-AFFC",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_mauler",
+  "PrefabIdentifier": "chrprfmech_maulerbase-001",
+  "PrefabBase": "mauler",
+  "Tonnage": 90,
+  "InitialTonnage": 29.5,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 0,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 110,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 115,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 115,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "MAL-1X-AFFC",
+  "ChassisTags": {
+    "items": [
+      "mech_quirk_notorsotwist"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Long Range Juggernaut",
+  "YangsThoughts": "This Mauler variant is a bold departure from the traditional long-range 'Mech. While it still retains its quartet of AC/2s for long-range firepower, they are now supported by two pairs of Large Lasers and SRM-4 launchers. The absence of an XL engine means this 'Mech is more durable than its predecessors, but it comes at a cost: its armor is noticeably thinner.",
+  "FixedEquipment": []
+}

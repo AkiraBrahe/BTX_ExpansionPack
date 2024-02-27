@@ -1,0 +1,273 @@
+{
+  "Description": {
+    "Cost": 5060000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Arctic Fox",
+    "Id": "chassisdef_arctic_fox_AF1A",
+    "Name": "Arctic Fox",
+    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nThe A configuration is intended for short-range engagements and carries four Medium Pulse Lasers and three Small Pulse Lasers. Six jump jets have been added in order to increase mobility.\n",
+    "Icon": "uixTxrIcon_arcticfox"
+  },
+  "MovementCapDefID": "movedef_arctic_fox_AF1A",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_kitfox",
+  "PrefabIdentifier": "chrprfmech_kitfoxbase-001",
+  "PrefabBase": "kitfox",
+  "Tonnage": 30,
+  "InitialTonnage": 10,
+  "weightClass": "LIGHT",
+  "Heatsinks": 10,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 40,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 10.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "AF1A",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.90-0.85-1.275",
+      "chassis_omni",
+      "chassis_DHS",
+      "chassis_endo",
+      "mech_quirk_weakheadarmor1"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker",
+  "YangsThoughts": "The Arctic Fox A is a close-quarters brawler that thrives in the heat of battle. Six jump jets help it close in on its prey, and it unleashes a torrent of firepower with seven pulse lasers: three small and four medium. Simple, efficient, and glorious.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

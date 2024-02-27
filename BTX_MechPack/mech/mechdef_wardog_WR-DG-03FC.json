@@ -1,0 +1,224 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_heavy",
+      "unit_role_brawler",
+      "unit_role_sniper",
+      "unit_lance_vanguard",
+      "unit_lance_tank",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_medium",
+      "unit_hot",
+      "unit_release",
+      "unit_mechpack",
+      "unit_LosTech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_wardog_WR-DG-03FC",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 16400000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "War Dog WR-DG-03FC",
+    "Id": "mechdef_wardog_WR-DG-03FC",
+    "Name": "War Dog",
+    "Details": "<color=#F79B26>The War Dog is a 'Mech that was originally designed for the SLDF and was thought to be lost to time. It was rediscovered by Snord's Irregulars and has since become a powerful and respected force on the modern battlefield.</color>\n\nThe War Dog 03FC, the only official variant from Blackwell, modifies the 'Mech to carry a more devastating close to intermediate range arsenal. Its primary weapon, an ER PPC, unleashes pinpoint energy blasts. As the 'Mech closes, it brings its devastatingly powerful Heavy Gauss Rifle to bear on an enemy. Finally, for close ranges, it boasts a potent combination of three ER Medium Lasers and two Medium Pulse Lasers. The 03FC model also carries a C3 Slave unit to share targeting data with allied units.\n",
+    "Icon": "uixTxrIcon_wardog"
+  },
+  "simGameMechPartCost": 1640000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 60,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 115,
+      "CurrentRearArmor": 45,
+      "CurrentInternalStructure": 80,
+      "AssignedArmor": 115,
+      "AssignedRearArmor": 45
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 180,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 115,
+      "AssignedArmor": 180,
+      "AssignedRearArmor": 50
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 115,
+      "CurrentRearArmor": 45,
+      "CurrentInternalStructure": 80,
+      "AssignedArmor": 115,
+      "AssignedRearArmor": 45
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 120,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 60,
+      "AssignedArmor": 120,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 140,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 80,
+      "AssignedArmor": 140,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 140,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 80,
+      "AssignedArmor": 140,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Gauss_HeavyGauss_1-Blackwell",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_PPC_PPCER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

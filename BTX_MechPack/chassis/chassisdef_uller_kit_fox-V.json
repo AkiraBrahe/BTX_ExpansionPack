@@ -1,0 +1,222 @@
+{
+  "Description": {
+    "Cost": 5260000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Uller",
+    "Id": "chassisdef_uller_kit_fox-V",
+    "Name": "Uller",
+    "Details": "This configuration was designed to provide fast artillery support to Clan forces via an Arrow IV system, fed with three tons of ammunition. For close-in defense, the left arm has two ER Small Lasers.\n",
+    "Icon": "uixTxrIcon_uller"
+  },
+  "MovementCapDefID": "movedef_uller_kit_fox-V",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_kitfox",
+  "PrefabIdentifier": "chrprfmech_kitfoxbase-001",
+  "PrefabBase": "kitfox",
+  "Tonnage": 30,
+  "InitialTonnage": 7.04,
+  "weightClass": "LIGHT",
+  "Heatsinks": 10,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 35,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0
+    }
+  ],
+  "VariantName": "ULL-V",
+  "ChassisTags": {
+    "items": [
+      "chassis_omni",
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_ferro",
+      "chassis_clan",
+      "mech_quirk_notorsotwist",
+      "mech_quirk_narrowlowprofile"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

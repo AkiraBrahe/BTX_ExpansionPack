@@ -1,0 +1,208 @@
+{
+  "Description": {
+    "Cost": 2130000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Baboon",
+    "Id": "chassisdef_baboon_howler-5",
+    "Name": "Baboon",
+    "Details": "The standard Howler chassis has had its LRM-5s removed and replaced with six ER Medium Lasers, fitted in triple mounts in each side torso.\n",
+    "Icon": "uixTxrIcon_howler"
+  },
+  "MovementCapDefID": "movedef_baboon_howler-5",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_baboon",
+  "PrefabIdentifier": "chrprfmech_baboonbase-001",
+  "PrefabBase": "baboon",
+  "Tonnage": 20,
+  "InitialTonnage": 11.03,
+  "weightClass": "LIGHT",
+  "Heatsinks": 10,
+  "TopSpeed": 118.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 30,
+  "MeleeInstability": 20,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 25,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 25,
+  "DFAInstability": 25,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 30,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 30,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0
+    }
+  ],
+  "VariantName": "BAB-5",
+  "StockRole": "Light Striker",
+  "YangsThoughts": "The 5 series of the Baboon ditches the long-range missile complement of the older models and instead packs a battery of six ER Medium Lasers. These lasers are spread evenly across the left and right side torsos, making it a serious light 'Mech hunter.",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.47-0.55-0.55",
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_ferro",
+      "chassis_clan",
+      "mech_quirk_extendedtorsotwist",
+      "mech_quirk_narrowlowprofile",
+      "mech_quirk_searchlight_LT"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
