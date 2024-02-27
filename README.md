@@ -1,6 +1,6 @@
 # BTX Mech Pack
 
-A BattleTech Extended mod that adds over 70 new BattleMechs and new weapons that were prototyped in the 3050s and early 3060s. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.
+A BattleTech Extended mod that adds over 90 new BattleMechs and new weapons that were prototyped in the 3050s and early 3060s. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.
 
 ## Installation
 
@@ -8,6 +8,7 @@ A BattleTech Extended mod that adds over 70 new BattleMechs and new weapons that
 
 - Install the latest versions of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C
 - Update the CAB, as the mech pack uses the most recent models.
+- Remove the ".modtek" folder to force Modtek to rebuild the cache.
 - Remove the "BTX_MechPack" mod folder if you're updating from an earlier version of the mech pack.
 - Unpack the mod folders from the "BTX_MechPack" archive into the "Mods" folder, overwriting when prompted.
 - (Optional) Enable DHS Changes, which gives all DHS in the engine 6 heatsinking instead of 4, by setting "Enabled" to true in the mod.json file of the mod.
@@ -21,42 +22,42 @@ New rare weapons and upgrades are available in stores based on the year they wer
 
 ## Mod Progress
 
-The mod adds 76 new BattleMechs and 242 new 'Mech variants, utilizing nearly every CAB model that fits into the BattleTech Extended timeline and goes beyond it, reaching up to the year 3065.
+The mod adds 93 new BattleMechs and 325 new 'Mech variants, utilizing nearly every CAB model that fits into the BattleTech Extended timeline and goes beyond it, reaching up to the year 3065.
 
-The next major update, due next year, will introduce a wealth of new 'Mech variants as well as an overhaul of several factions' rosters that previously used a generic one (more info below). Additionally, as new CAB models become available, entirely new BattleMechs may also be introduced.
+| Pack #1               | Pack #2            | Pack #3                       | Pack #4                     | Pack #5                                     |
+| :-------------------- | :----------------- | :---------------------------- | :-------------------------- | :------------------------------------------ |
+| Bellerophon           | Arctic Wolf        | Albatross                     | *Akuma*                     | *Arctic Fox*                                |
+| Bombard               | Assassin II        | Anubis                        | Argus                       | *Black Watch*                               |
+| Buccaneer             | *Battle Hawk*      | Barghest                      | Brigand                     | *Dervish IIC*                               |
+| Dragoon               | Blitzkrieg         | Black Heart                   | Chimera                     | Gladiator-B (Executioner-B)                 |
+| Fox                   | Champion LAM       | *Fire Falcon*                 | Crosscut                    | *Jinggau*                                   |
+| Hellfire              | Cossack            | Galahad (Glass&nbsp;Spider)   | Dig King / Dig Lord         | *Kabuto*                                    |
+| Jackrabbit            | *Hammer*           | *Grand Crusader*              | Fafnir                      | *Men Shen*                                  |
+| *JagerMech III*       | Hybrid Rifleman    | Gulon                         | Gurkha                      | *Nexus*                                     |
+| Juggernaut            | Lao Hu             | Iron Cheetah                  | Hellspawn                   | Night Chanter (Crab&nbsp;Omni)              |
+| *Mercury II / Coyotl* | Mad Cat Mk II      | *Lineholder*                  | Kiso                        | *Raijin*                                    |
+| Pulverizer            | Matar              | Lupus                         | Komodo                      | Slagmaiden                                  |
+| Rampage               | Naga               | Mantis                        | *Marshal*                   | *Spartan*                                   |
+| Schwerer Gustav       | Nightsky           | Osiris                        | Minsk                       | Spirit Walker (Black&nbsp;Knight&nbsp;Omni) |
+| Screamer LAM          | *Phoenix Hawk IIC* | *Peregrine (Horned&nbsp;Owl)* | Razorback                   | *Tempest*                                   |
+| Stag / Stag II        | Rattlesnake        | Phantom                       | Rising Star / Legacy        | *Thresher*                                  |
+| Thanatos              | *Warthog*          | Prometheus                    | Roughneck                   | *Viper*                                     |
+| Titan                 |                    | Sha Yu                        | Sidewinder                  | *War Dog*                                   |
+|                       |                    | Templar                       | Star Adder (Blood&nbsp;Asp) |                                             |
+|                       |                    | Zeus-X                        | Stilleto                    |                                             |
+|                       |                    |                               | Storm Giant / Scylla        |                                             |
+|                       |                    |                               | Uziel                       |                                             |
+|                       |                    |                               | Vanquisher                  |                                             |
+|                       |                    |                               | Verfolger                   |                                             |
+|                       |                    |                               | Volkh                       |                                             |
 
-| Pack #1               | Pack #2          | Pack #3                       | Pack #4                     |
-| :-------------------- | :--------------- | :---------------------------- | :-------------------------- |
-| Bellerophon           | Arctic Wolf      | Albatross                     | *Akuma*                     |
-| Bombard               | Assassin II      | Anubis                        | Argus                       |
-| Buccaneer             | *Battle Hawk*    | Barghest                      | Brigand                     |
-| Dragoon               | Blitzkrieg       | Black Heart                   | Chimera                     |
-| Fox                   | Champion LAM     | *Fire Falcon*                 | Crosscut                    |
-| Hellfire              | Cossack          | Galahad (Glass&nbsp;Spider)   | Dig King / Dig Lord         |
-| Jackrabbit            | *Hammer*         | *Grand Crusader*              | Fafnir                      |
-| *JagerMech III*       | Hybrid Rifleman  | Gulon                         | Gurkha                      |
-| Juggernaut            | Lao Hu           | Iron Cheetah                  | Hellspawn                   |
-| *Mercury II / Coyotl* | Mad Cat Mk II    | *Lineholder*                  | Kiso                        |
-| Pulverizer            | Matar            | Lupus                         | Komodo                      |
-| Rampage               | Naga             | Mantis                        | *Marshal*                   |
-| Schwerer Gustav       | Nightsky         | Osiris                        | Minsk                       |
-| Screamer LAM          | Phoenix Hawk IIC | *Peregrine (Horned&nbsp;Owl)* | Razorback                   |
-| Stag / Stag II        | Rattlesnake      | Phantom                       | Rising Star / Legacy        |
-| Thanatos              | *Warthog*        | Prometheus                    | Roughneck                   |
-| Titan                 |                  | Sha Yu                        | Sidewinder                  |
-|                       |                  | Templar                       | Star Adder (Blood&nbsp;Asp) |
-|                       |                  | Zeus-X                        | Stilleto                    |
-|                       |                  |                               | Storm Giant / Scylla        |
-|                       |                  |                               | Uziel                       |
-|                       |                  |                               | Vanquisher                  |
-|                       |                  |                               | Verfolger                   |
-|                       |                  |                               | Volkh                       |
-
-**Note**: 'Mech names in italics do not have their own CAB model and instead use a proxy that looks like it.
+**Note**: 'Mech names in italics do not have their own CAB model and instead use a proxy that looks similar.
 
 ## Contents
 
 ### Mechs
+
+⚠︎ Outdated. Both lists will be updated in time.
 
 <details>
   <summary>New Chassis (by Name)</summary>
@@ -79,14 +80,13 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 | Barghest BGS-3T                    |   Heavy    |  70  | Inner Sphere | 3062  | Steiner                                                |
 | Battle Hawk BH-K305                |   Light    |  30  | Inner Sphere | 3053  | Steiner-Davion                                         |
 | Bellerophon BEL-1X                 |   Heavy    |  60  | Inner Sphere | 2442  | Marik                                                  |
-| Bellerophon BEL-2X                 |   Heavy    |  60  | Inner Sphere | 2712  | ComStar, Snord's Irregulars                            |
+| Bellerophon BEL-2X                 |   Heavy    |  60  | Inner Sphere | 3058  | Marik, Word of Blake                                   |
 | Black Heart BH-1                   |   Heavy    |  70  | Inner Sphere | 3060  | Word of Blake                                          |
 | Blitzkrieg BTZ-3F                  |   Medium   |  50  | Inner Sphere | 3061  | Marik, Steiner-Davion                                  |
 | Bombard BMB-010                    |   Medium   |  50  | Inner Sphere | 3054  | Steiner                                                |
 | Bombard BMB-013                    |   Medium   |  50  | Inner Sphere | 3063  | Steiner                                                |
 | Brigand LDT-1                      |   Light    |  25  | Inner Sphere | 3065  | Pirates                                                |
 | Buccaneer BCN-3R                   |   Medium   |  55  | Inner Sphere | 3055  | Marik, Word of Blake                                   |
-| Buster BC X-M ConstructionMech MOD |   Medium   |  50  | Inner Sphere | 2720  | **Industrial Start**                                   |
 | Champion LAM CPN-1X1               |   Heavy    |  60  | Inner Sphere | 2699  | Word of Blake (3053+)                                  |
 | Chimera CMA-1S                     |   Medium   |  40  | Inner Sphere | 3063  | Kurita, Steiner-Davion                                 |
 | Chimera CMA-C                      |   Medium   |  40  | Inner Sphere | 3063  | Kurita, Marik, Steiner-Davion                          |
@@ -126,7 +126,6 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 | Hammer HMR-3S 'Slammer'            |   Light    |  30  | Inner Sphere | 3054  | Marik, Word of Blake                                   |
 | Hellfire 1                         |   Heavy    |  60  |     Clan     | 3058  | Clan Steel Viper                                       |
 | Hellspawn HSN-7D                   |   Medium   |  45  | Inner Sphere | 3062  | Davion                                                 |
-| Hybrid Rifleman RFL-SND 'Sneede'   |   Heavy    |  60  | Inner Sphere | 3025  | **Heavy Metal Crate**                                  |
 | Iron Cheetah Prime                 |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
 | Iron Cheetah A                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
 | Iron Cheetah B                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
@@ -198,7 +197,6 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 | Roughneck RGH-2A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
 | Roughneck RGH-3A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
 | Schwerer Gustav SG-1X              |  Assault   | 100  |  Mixed-tech  | 3064  | Marik                                                  |
-| Schwerer Gustav SJ-1X 'Jäger'      |  Assault   | 100  |  Mixed-tech  | 3064  | **Heavy Metal Crate**                                  |
 | Screamer LAM SCR-1X-LAM            |   Medium   |  55  | Inner Sphere | 2774  | Snord's Irregulars                                     |
 | Scylla                             |  Assault   | 100  |     Clan     | 3062  | Clans Jade Falcon & Steel Viper                        |
 | Sha Yu SYU-2B                      |   Medium   |  40  | Inner Sphere | 3063  | Liao, Centrella                                        |
@@ -238,11 +236,7 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 
 | Name                               |   Class    | Mass |  Tech Base   | Avail.| Factions                                               |
 | :--------------------------------- | :--------: | :--: | :----------: | :---: | :----------------------------------------------------- |
-| Buster BC X-M ConstructionMech MOD |   Medium   |  50  | Inner Sphere |  n/a  | **Industrial Start**                                   |
-| Hybrid Rifleman RFL-SND 'Sneede'   |   Heavy    |  60  | Inner Sphere |  n/a  | **Heavy Metal Crate**                                  |
-| Schwerer Gustav SJ-1X 'Jäger'      |  Assault   | 100  |  Mixed-tech  |  n/a  | **Heavy Metal Crate**                                  |
 | Bellerophon BEL-1X                 |   Heavy    |  60  | Inner Sphere | 3025  | Marik                                                  |
-| Bellerophon BEL-2X                 |   Heavy    |  60  | Inner Sphere | 3058  | Word of Blake                                          |
 | Crosscut ED-X2M LoggerMech         |   Light    |  30  | Inner Sphere | 3025  | Pirates                                                |
 | Crosscut ED-X4D DemolitionMech     |   Light    |  30  | Inner Sphere | 3025  | Pirates                                                |
 | Crosscut ED-X4K LoggerMech         |   Light    |  30  | Inner Sphere | 3025  | Pirates                                                |
@@ -259,11 +253,11 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 | Rampage RMP-2G                     |  Assault   |  85  | Inner Sphere | 3025  | Periphery States                                       |
 | Rampage RMP-4G                     |  Assault   |  85  | Inner Sphere | 3025  | ComStar/Word of Blake                                  |
 | Rampage RMP-5G                     |  Assault   |  85  | Inner Sphere | 3025  | ComStar/Word of Blake                                  |
-| Rising Star RST-4R                 |  Assault   |  80  | Inner Sphere | 3025  | ComStar, Snord's Irregulars                            |
-| Screamer LAM SCR-1X-LAM            |   Medium   |  55  | Inner Sphere | 3025  | Snord's Irregulars                                     |
+| Rising Star RST-4R                 |  Assault   |  80  | Inner Sphere | 3025  | ComStar, Snord's Irregulars (3038+)                    |
 | Stiletto STL-7D                    | Ultralight |  15  | Inner Sphere | 3025  | Kurita                                                 |
 | Titan TI-1A                        |  Assault   | 100  | Inner Sphere | 3025  | Davion                                                 |
 | Matar SAM-RS2                      | Superheavy | 110  | Inner Sphere | 3036  | ComStar (3036+)                                        |
+| Screamer LAM SCR-1X-LAM            |   Medium   |  55  | Inner Sphere | 3038  | Snord's Irregulars                                     |
 | Rattlesnake JR7-31                 |   Light    |  35  | Inner Sphere | 3042  | Davion                                                 |
 | Rattlesnake JR7-31P                |   Light    |  35  | Inner Sphere | 3043  | Davion                                                 |
 | Coyotl Prime                       |   Medium   |  40  |     Clan     | 3049  | Clan Wolf (<3058)                                      |
@@ -341,6 +335,7 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 | Nightsky NGS-5T                    |   Medium   |  50  | Inner Sphere | 3057  | Steiner-Davion                                         |
 | Akuma AKU-1X                       |  Assault   |  90  | Inner Sphere | 3058  | Kurita                                                 |
 | Barghest BGS-1T                    |   Heavy    |  70  | Inner Sphere | 3058  | Steiner                                                |
+| Bellerophon BEL-2X                 |   Heavy    |  60  | Inner Sphere | 3058  | Marik, Word of Blake                                   |
 | Hellfire 1                         |   Heavy    |  60  |     Clan     | 3058  | Clan Steel Viper                                       |
 | JagerMech III JM6-D3               |   Heavy    |  65  | Inner Sphere | 3058  | Davion                                                 |
 | Lineholder KW1-LH2                 |   Medium   |  55  | Inner Sphere | 3058  | Inner Sphere                                           |
@@ -412,48 +407,49 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 <details>
   <summary>Buyable (by Type/Intro)</summary>
 
-| Name                              |   Type    | Intro | Factions                    |
-| :-------------------------------- | :-------: | :---: | :-------------------------- |
-| Light/Medium/Heavy Rifle          | Ballistic |  PS   | *LosTech*                   |
-| Thumper/Sniper/Long Tom Cannon    | Ballistic | 3012  | *Research*                  |
-| Magshot                           | Ballistic | 3059  | Steiner                     |
-| Hyper-Velocity AC (HVAC)          | Ballistic | 3059  | Liao                        |
-| Rotary AC (RAC)                   | Ballistic | 3060  | Davion                      |
-| Light AC (LAC)                    | Ballistic | 3062  | Davion                      |
-|  ----                             |           |       |                             |
-| Rail Gun                          |  Energy   | 3051  | Marik                       |
-| Plasma Rifle                      |  Energy   | 3061  | Liao                        |
-| Heavy PPC                         |  Energy   | 3062  | Kurita                      |
-| Light PPC                         |  Energy   | 3064  | Kurita                      |
-| Bombast Laser                     |  Energy   | 3064  | Steiner                     |
-|  ----                             |           |       |                             |
-| Bomb Bay²                         |  Missile  | 2680  | *Mining*                    |
-| Arrow IV                          |  Missile  | 3044  | Liao<br />All (3049+)       |
-| Thunderbolt                       |  Missile  | 3052  | Davion<br />Steiner (3052+) |
-| Extended LRM (ELRM)               |  Missile  | 3054  | Steiner<br />Davion (3054+) |
-| Enhanced LRM (NLRM)               |  Missile  | 3058  | Davion                      |
-|  ----                             |           |       |                             |
-| Fluid Gun                         |  Support  |  PS   | *Chemical*                  |
-| Heavy Flamer                      |  Support  | 3063  | Steiner                     |
-| Heavy Machine Gun                 |  Support  | 3063  | Calderon                    |
-| Light Machine Gun                 |  Support  | 3064  | Liao                        |
-|  ----                             |           |       |                             |
-| Airburst Mortar                   |   Ammo    | 3043  | All                         |
-| Shaped Charge Mortar              |   Ammo    | 3043  | All                         |
-| Swarm Missile                     |   Ammo    | 3049  | Davion<br />All (3058+)     |
-| Swarm-I Missile                   |   Ammo    | 3052  | Marik                       |
-| Inferno-IV Missile                |   Ammo    | 3053  | Liao                        |
-| Thunder-Inferno Missile           |   Ammo    | 3054  | Liao                        |
-| Armor-Piercing Ammo               |   Ammo    | 3055  | Davion<br />Steiner (3055+) |
-| Precision Ammo                    |   Ammo    | 3058  | Davion                      |
-|  ----                             |           |       |                             |
-| Laser Insulator                   |  Upgrade  | 2575  | *Electronics*               |
-| Targeting Computer                |  Upgrade  | 3052  | *Research*                  |
-| Bloodhound Active Probe           |  Upgrade  | 3058  | *Black Market*              |
-| Laser Anti-Missile System         |  Upgrade  | 3059  | *Research*                  |
-| Blue Shield Particle Field Damper |  Upgrade  | 3061  | *Research*                  |
-| Apollo MRM FCS                    |  Upgrade  | 3065  | *Research*                  |
-| Small/Medium/Large Shield         |  Upgrade  | 3065  | *Research*                  |
+| Name                              |   Type    | Intro | Factions                  |
+| :-------------------------------- | :-------: | :---: | :------------------------ |
+| Light/Medium/Heavy Rifle          | Ballistic |  PS   | *LosTech*                 |
+| Thumper/Sniper/Long Tom Cannon    | Ballistic | 3012  | *Research*                |
+| Magshot                           | Ballistic | 3059  | Steiner                   |
+| Hyper-Velocity AC (HVAC)          | Ballistic | 3059  | Liao                      |
+| Rotary AC (RAC)                   | Ballistic | 3060  | Davion                    |
+| Light AC (LAC)                    | Ballistic | 3062  | Davion                    |
+| Improved Heavy Gauss Rifle (iHGR) | Ballistic | 3065  | Steiner                   |
+|  ----                             |           |       |                           |
+| Rail Gun                          |  Energy   | 3051  | Marik                     |
+| Plasma Rifle                      |  Energy   | 3061  | Liao                      |
+| Heavy PPC                         |  Energy   | 3062  | Kurita                    |
+| Light PPC                         |  Energy   | 3064  | Kurita                    |
+| Bombast Laser                     |  Energy   | 3064  | Steiner                   |
+|  ----                             |           |       |                           |
+| Bomb Bay²                         |  Missile  | 2680  | *Mining*                  |
+| Arrow IV                          |  Missile  | 3044  | Liao<br>All (3049+)       |
+| Thunderbolt                       |  Missile  | 3052  | Davion<br>Steiner (3052+) |
+| Extended LRM (ELRM)               |  Missile  | 3054  | Steiner<br>Davion (3054+) |
+| Enhanced LRM (NLRM)               |  Missile  | 3058  | Davion                    |
+|  ----                             |           |       |                           |
+| Fluid Gun                         |  Support  |  PS   | *Chemical*                |
+| Heavy Flamer                      |  Support  | 3063  | Steiner                   |
+| Heavy Machine Gun                 |  Support  | 3063  | Calderon                  |
+| Light Machine Gun                 |  Support  | 3064  | Liao                      |
+|  ----                             |           |       |                           |
+| Airburst Mortar                   |   Ammo    | 3043  | All                       |
+| Shaped Charge Mortar              |   Ammo    | 3043  | All                       |
+| Swarm Missile                     |   Ammo    | 3049  | Davion<br>All (3058+)     |
+| Swarm-I Missile                   |   Ammo    | 3052  | Marik                     |
+| Inferno-IV Missile                |   Ammo    | 3053  | Liao                      |
+| Thunder-Inferno Missile           |   Ammo    | 3054  | Liao                      |
+| Armor-Piercing Ammo               |   Ammo    | 3055  | Davion<br>Steiner (3055+) |
+| Precision Ammo                    |   Ammo    | 3058  | Davion                    |
+|  ----                             |           |       |                           |
+| Laser Insulator                   |  Upgrade  | 2575  | *Electronics*             |
+| Targeting Computer                |  Upgrade  | 3052  | *Research*                |
+| Bloodhound Active Probe           |  Upgrade  | 3058  | *Black Market*            |
+| Laser Anti-Missile System         |  Upgrade  | 3059  | *Research*                |
+| Blue Shield Particle Field Damper |  Upgrade  | 3061  | *Research*                |
+| Apollo MRM FCS                    |  Upgrade  | 3065  | *Research*                |
+| Small/Medium/Large Shield         |  Upgrade  | 3065  | *Research*                |
 
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs.
 </details>
@@ -461,21 +457,21 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 <details>
   <summary>Unique (by Type)</summary>
 
-| Name                                  | Exclusive to                                |
-| :------------------------------------ | :------------------------------------------ |
-| Claws                                 | Mantis                                      |
-| Industrial Weapons²                   | Crosscut, Dig King, Gulon, Kiso
-| Katana                                | Hatamoto-Chi 'Shin'                         |
-| Spikes                                | Bombard                                     |
-| Small Vibroblade                      | Assassin 'Servitor'                         |
-| Large Vibroblade<br />Large Shield    | Black Knight 'Red Reaper'                   |
-|  ----                                 |                                             |
-| Direct Neural Interface               | Prometheus<br />Black Heart                 |
-| Light Active Probe                    | Vulture (Mad Dog) 'Fury'                    |
-|  ----                                 |                                             |
-| Composite Chassis<br />Reactive Armor | Zeus-X                                      |
-| Light Ferro-Fibrous Armor             | Black Knight 'Red Reaper'                   |
-| Stealth Armor                         | Sha Yu<br />Anubis                          |
+| Name                                  | Exclusive to                    |
+| :------------------------------------ | :------------------------------ |
+| Claws                                 | Mantis                          |
+| Industrial Weapons²                   | Crosscut, Dig King, Gulon, Kiso |
+| Katana                                | Hatamoto-Chi 'Shin'             |
+| Spikes                                | Bombard                         |
+| Small Vibroblade                      | Assassin 'Servitor'             |
+| Large Vibroblade<br>Large Shield      | Black Knight 'Red Reaper'       |
+|  ----                                 |                                 |
+| Direct Neural Interface               | Prometheus<br>Black Heart       |
+| Light Active Probe                    | Vulture (Mad Dog) 'Fury'        |
+|  ----                                 |                                 |
+| Composite Chassis<br>Reactive Armor   | Zeus-X                          |
+| Light Ferro-Fibrous Armor             | Black Knight 'Red Reaper'       |
+| Stealth Armor                         | Sha Yu<br>Anubis               
 
 ² Includes the Chainsaw, Mining Drill, Pile Driver, and other variants of these weapons.
 </details>
@@ -483,23 +479,29 @@ The next major update, due next year, will introduce a wealth of new 'Mech varia
 ### Other Changes
 
 <details>
-  <summary>Faction Roster</summary>
-Currently, only the mercenaries and pirates have a revamped roster. In the upcoming major update, additional factions will gain access to a broader selection of 'Mechs and combat vehicles, including:
+  <summary>Vehicles and Faction Rosters</summary>
+The mod is branching out to add new vehicles. This has been long overdue, in part because of the work needed to overhaul the faction rosters to include those new units. The goal is for all factions to gain access to more 'Mechs and combat vehicles, including these factions:
 
 | Faction/Unit                         |      Years Active   | Unit Rating                        |
 | :----------------------------------- | :-----------------: | :--------------------------------- |
 | Arc-Royal Defense Cordon             |      3058-3067      | C/Regulars                         |
 | Chaos March                          |      3057-3073      | F/Locals                           |
 | Clan Wolf-in-Exile                   |      3057-3151      | B/Front Lines<br>C/Second Lines    |
+| Clan Snow Raven𓅪                     |      3057-3151      | F/Provisional Garrison             |
 | Duchy of Andurien                    | 3030-3040,<br>3079- | C/Regulars                         |
-| Eridani Light Horse                  |        2702-        | B/Veterans                         |
-| Kell Hounds                          |        3010-        | A/Elites                           |
 | New Colony Region /<br>Fronc Reaches | 3060-3066<br>3067-  | C/Regulars                         |
+|  ----                                |                     |                                    |
+| Eridani Light Horse                  |        2702-        | B/Veterans                         |
+| Gray Death Legion                    |      3024-3065      | A/Elites                           |
+| Kell Hounds                          |        3010-        | B/Veterans<br>A/Elites (3040+)     |
 | Northwind Highlanders                |        -3081        | B/Veterans<br>A/Elites (3059+)     |
 | Other Mercenaries                    |        n/a          | C/Regulars<br>F/Locals (Periphery) |
 | Pirates                              |        n/a          | F/Locals                           |
-| Security Forces                      |        n/a          | F-/Locals                          |
+| Security Forces²                     |        n/a          | F-/Locals                          |
 | Wolf's Dragoons                      |        3005-        | A/Elites                           |
+
+𓅪 Snow Raven garrison units sometimes used by the Outworlds Alliance
+² Private Military Security Companies (PMSC) sometimes used by locals
 </details>
 
 <details>
@@ -524,18 +526,27 @@ This optional submod allows the AI to randomly use different types of ammunition
 </details>
 
 <details>
+  <summary>Gauss Rifles</summary>
+
+- Heavy Gauss Rifles deal more damage, but it decreases with range and is halved at maximum range.
+
+- All Gauss Rifles, including Rail Guns, have a self-knockdown effect when firing equal to 25% of their actual damage, rounded down (from 10 instability for Light Gauss, to 50 for Rail Guns).
+</details>
+
+<details>
   <summary>Artillery</summary>
 
 - Mech mortars are now available in 3025. The Thumper, Sniper, and Long Tom cannons have been moved to research planets, as they are only prototypes in the current timeline.
 
-- Artillery cannons have been reworked to be more in line with the tabletop rules. They now deal 30% less damage and have a much shorter range than their larger counterparts. Additionally, all artillery deal less stability damage and are less accurate due to the indirect fire penalty.
+- Artillery cannons have been reworked to be more in line with the tabletop rules. They now deal 25% less damage and have a much shorter range than their larger counterparts. Additionally, all artillery suffers a self-knockdown effect when firing, deal less stability damage, and are less accurate due to the indirect fire penalty.
+
 
 | Name            | Damage | AoE Damage | Min. Range | Opt. Range | Max. Range |
 | --------------- | -----: | ---------: | ---------: | ---------: | ---------: |
 | Mortar/1        |     15 |          5 |        180 |        420 |        630 |
-| Thumper Cannon  |     40 |         50 |         90 |        270 |        540 |
-| Sniper Cannon   |     60 |         75 |         60 |        240 |        480 |
-| Long Tom Cannon |     80 |        100 |        120 |        390 |        780 |
+| Thumper Cannon  |     40 |         75 |         90 |        270 |        540 |
+| Sniper Cannon   |     60 |        100 |         60 |        240 |        480 |
+| Long Tom Cannon |     80 |        150 |        120 |        390 |        780 |
 | Arrow IV        |     60 |        120 |        240 |        780 |       1560 |
 | ----            |        |            |            |            |            |
 | Standard LRM²   |      4 |          0 |        180 |        420 |        630 |
@@ -549,6 +560,7 @@ This optional submod allows the AI to randomly use different types of ammunition
 <details>
   <summary>Miscellaneous</summary>
 
+- The Heavy Metal crate gives a random Hero 'Mech instead of one of three 'Mechs.
 - The UI in combat now only shows the ammunition type when a weapon has multiple types of ammo.
 - Heavy Lasers now have distinct colors ranging from orange-red to golden.
 - Changes have been made to address minor issues and to add the latest CAB models to the current version of BEX:
@@ -558,6 +570,7 @@ This optional submod allows the AI to randomly use different types of ammunition
 | Annihilator            | Reduced movement to 3/5 hexes (from 4/7)                |
 | Atlas II AS7-D-HT      | Changed armor placement and moved one DHS to the engine |
 | Behemoth (Stone Rhino) | Changed to the official designation "BHN"               |
+| Champion CHP-1N2       | Added missing ferro-fibrous armor                       |
 | Crab 27b "Royal Crab"  | Fixed melee damage (65 dmg. like other Crabs)           |
 | Enfield                | Switched to a new CAB model                             |
 | Exterminator           | Switched to a new CAB model                             |
@@ -570,6 +583,7 @@ This optional submod allows the AI to randomly use different types of ammunition
 | Grand Dragon DRG-1G    | Fixed energy hadpoints placement                        |
 | Gunslinger             | Switched to a new CAB model                             |
 | Hermes II              | Reduced overall size to better match tonnage            |
+| Kodiak 5               | Added missing DHS in the engine                         |
 | Hornet HNT-161         | Fixed armor placement                                   |
 | Linesman LMN-1PT       | Changed to the correct prefab base model                |
 | Loader King LDK-5C     | Added more armor and missing Cargo Bay                  |
@@ -580,6 +594,7 @@ This optional submod allows the AI to randomly use different types of ammunition
 | Piranha 1              | Switched to single heat sinks                           |
 | Rifleman RFL-5CS       | Added Large Engine quirk                                |
 | Shadow Hawk            | Added Rugged quirk                                      |
+| Shadow Hawk SHD-3H     | Changed loaout to the official one                      |
 | Thunder THR-1L         | Added missing DHS in the engine                         |
 | Trebuchet TBT-3C       | Added Large Engine quirk                                |
 | UrbanMech              | Reduced movement to 3/5 hexes (from 4/7)                |
