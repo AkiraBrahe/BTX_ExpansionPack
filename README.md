@@ -1,28 +1,45 @@
-# BTX Mech Pack
+# BTX Expansion Pack
 
-A BattleTech Extended mod that adds over 90 new BattleMechs and new weapons that were prototyped in the 3050s and early 3060s. All 'Mechs are ported from scratch using MegaMekLab. Requires CAC-C.
+A BattleTech Extended mod that adds tons of new content, including new 'Mechs, vehicles, and weapons, as well as expanding the timeline into the 3060s. Requires CAC-C.
 
 ## Installation
 
-**TL;DR: BEX + Bigger Drops + CAB → CAC-C → (TBD) → Mech Pack**
+**TL;DR: BEX + Bigger Drops + CAB → CAC-C → (TBD) → Expansion Pack**
 
-- Install the latest versions of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C
-- Update the CAB, as the mech pack uses the most recent models.
+⚠ Starting a new game is recommended. If you already have Playable Tanks installed, you'll need to do a clean install.
+
+- Install the latest versions of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility/releases/latest) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C.
+- Update the CAB in "legacy" mode if you haven't done so in a while.
 - Remove the ".modtek" folder to force Modtek to rebuild the cache.
-- Remove the "BTX_MechPack" mod folder if you're updating from an earlier version of the mech pack.
-- Unpack the mod folders from the "BTX_MechPack" archive into the "Mods" folder, overwriting when prompted.
-- (Optional) Enable DHS Changes, which gives all DHS in the engine 6 heatsinking instead of 4, by setting "Enabled" to true in the mod.json file of the mod.
-- (Optional) Enable Shell Shuffler, which makes the AI use different ammo types at random, by removing the date part from one the two mod.json files of the mod.
+- Remove the "BTX_MechPack" and "BTX_VeePack" mod folders if present.
+- Unpack the mod folders from the "BTX_ExpansionPack" archive into the "Mods" folder, overwriting when prompted.
+<br>The archive includes a modified version of Playable Tanks/VTOLs.
 
-## Usage
+### Optionals
+- Enable DHS Changes, which gives all DHS in the engine 6 heatsinking instead of 4, by setting "Enabled" to true in the mod.json file of the mod.
+- Enable Shell Shuffler, which makes the AI use different ammo types at random, by removing the date part from one the two mod.json files of the mod.
 
-New 'Mechs are fielded by the factions that have them according to the lore. Hero 'Mechs are available in the Heavy Metal crate. You can also add the new 'Mechs to your game using Fell Off A Cargo Ship or a save editor.
+## Credits
 
-New rare weapons and upgrades are available in stores based on the year they were prototyped. Some weapons and upgrades are unique to certain 'Mech chassis, such as Stealth Armor.
+This mod is bundled with Playable Tanks and DHS Changes by [LordRuthermore](https://github.com/lordruthermore), and Shell Shuffler by [T-Bone](https://github.com/ajkroeg).
 
-## Mod Progress
+Special thanks to the BEX Discord community for their support, and a huge thanks to Hrothgar Heavenlight for playtesting the mod extensively, suggesting exciting 'Mechs to add, and writing Yang's comments on them.
 
-The mod adds 93 new BattleMechs and 325 new 'Mech variants, utilizing nearly every CAB model that fits into the BattleTech Extended timeline and goes beyond it, reaching up to the year 3065.
+## Features
+
+**⚠ The mod is currently in beta. Some 'Mechs and vehicles are not used by any faction, do not have a description, or may not be properly rescaled.**
+
+The mod features tons of new content, including new 'Mechs, vehicles, and weapons. The goal is to expand the BattleTech Extended timeline into the 3060s, introducing new technologies from the Fed Com Civil War. All vehicles are also playable, including VTOLs, and every faction in the game has a wider variety of 'Mechs and combat vehicles, so expect interesting matchups.
+
+Listed below are a comprehensive list of changes and detailed information about the mod:
+
+### General
+
+#### Mechs
+- 93 new BattleMechs and 325 new 'Mech variants, utilizing nearly every CAB model that fits the expanded 3025-3067 timeline.
+
+<details>
+  <summary>New Chassis</summary>
 
 | Pack #1               | Pack #2            | Pack #3                       | Pack #4                     | Pack #5                                     |
 | :-------------------- | :----------------- | :---------------------------- | :-------------------------- | :------------------------------------------ |
@@ -52,360 +69,24 @@ The mod adds 93 new BattleMechs and 325 new 'Mech variants, utilizing nearly eve
 |                       |                    |                               | Volkh                       |                                             |
 
 **Note**: 'Mech names in italics do not have their own CAB model and instead use a proxy that looks similar.
-
-## Contents
-
-### Mechs
-
-⚠︎ Outdated. Both lists will be updated in time.
-
-<details>
-  <summary>New Chassis (by Name)</summary>
-
-| Name                               |   Class    | Mass |  Tech Base   | Intro | Factions                                               |
-| :--------------------------------- | :--------: | :--: | :----------: | :---: | :----------------------------------------------------- |
-| Akuma AKU-1X                       |  Assault   |  90  | Inner Sphere | 3058  | Kurita                                                 |
-| Akuma AKU-1XJ                      |  Assault   |  90  | Inner Sphere | 3064  | Kurita                                                 |
-| Albatross ALB-3U                   |  Assault   |  95  | Inner Sphere | 3053  | Marik, Word of Blake                                   |
-| Albatross ALB-4U                   |  Assault   |  95  | Inner Sphere | 3063  | Marik, Word of Blake                                   |
-| Anubis ABS-3L                      |   Light    |  30  | Inner Sphere | 3063  | Trinity Alliance (Liao, Centrella, Calderon)           |
-| Anubis ABS-3R                      |   Light    |  30  | Inner Sphere | 3064  | Trinity Alliance (Liao, Centrella, Calderon)           |
-| Arctic Wolf 1                      |   Medium   |  40  |     Clan     | 3059  | Clan Wolf                                              |
-| Arctic Wolf 2                      |   Medium   |  40  |     Clan     | 3060  | Clan Wolf                                              |
-| Argus AGS-2D                       |   Heavy    |  60  | Inner Sphere | 3062  | Davion                                                 |
-| Argus AGS-4D                       |   Heavy    |  60  | Inner Sphere | 3062  | Davion                                                 |
-| Assassin II ASN-56                 |   Medium   |  45  | Inner Sphere | 3060  | Davion                                                 |
-| Barghest BGS-1T                    |   Heavy    |  70  | Inner Sphere | 3058  | Steiner                                                |
-| Barghest BGS-2T                    |   Heavy    |  70  | Inner Sphere | 3060  | Steiner                                                |
-| Barghest BGS-3T                    |   Heavy    |  70  | Inner Sphere | 3062  | Steiner                                                |
-| Battle Hawk BH-K305                |   Light    |  30  | Inner Sphere | 3053  | Steiner-Davion                                         |
-| Bellerophon BEL-1X                 |   Heavy    |  60  | Inner Sphere | 2442  | Marik                                                  |
-| Bellerophon BEL-2X                 |   Heavy    |  60  | Inner Sphere | 3058  | Marik, Word of Blake                                   |
-| Black Heart BH-1                   |   Heavy    |  70  | Inner Sphere | 3060  | Word of Blake                                          |
-| Blitzkrieg BTZ-3F                  |   Medium   |  50  | Inner Sphere | 3061  | Marik, Steiner-Davion                                  |
-| Bombard BMB-010                    |   Medium   |  50  | Inner Sphere | 3054  | Steiner                                                |
-| Bombard BMB-013                    |   Medium   |  50  | Inner Sphere | 3063  | Steiner                                                |
-| Brigand LDT-1                      |   Light    |  25  | Inner Sphere | 3065  | Pirates                                                |
-| Buccaneer BCN-3R                   |   Medium   |  55  | Inner Sphere | 3055  | Marik, Word of Blake                                   |
-| Champion LAM CPN-1X1               |   Heavy    |  60  | Inner Sphere | 2699  | Word of Blake (3053+)                                  |
-| Chimera CMA-1S                     |   Medium   |  40  | Inner Sphere | 3063  | Kurita, Steiner-Davion                                 |
-| Chimera CMA-C                      |   Medium   |  40  | Inner Sphere | 3063  | Kurita, Marik, Steiner-Davion                          |
-| Cossack C-SK1                      |   Light    |  20  | Inner Sphere | 3060  | St. Ives Compact                                       |
-| Coyotl Prime                       |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                      |
-| Coyotl A                           |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                      |
-| Coyotl B                           |   Medium   |  40  |     Clan     | 2854  | Clan Wolf (<3058)                                      |
-| Crosscut ED-X2M LoggerMech         |   Light    |  30  | Inner Sphere | 2801  | Pirates                                                |
-| Crosscut ED-X4D DemolitionMech     |   Light    |  30  | Inner Sphere | 2910  | Pirates                                                |
-| Crosscut ED-X4K LoggerMech         |   Light    |  30  | Inner Sphere | 2786  | Pirates                                                |
-| Dig King RCL-1M MiningMech         |   Light    |  35  | Inner Sphere | 2802  | Pirates                                                |
-| Dig Lord RCL-4 MiningMech          |   Heavy    |  65  | Inner Sphere | 3057  | Steiner-Davion                                         |
-| Dragoon AEM-01                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                |
-| Dragoon AEM-02                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                |
-| Dragoon AEM-03                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                |
-| Dragoon AEM-04                     |   Heavy    |  70  | Inner Sphere | 2771  | ComStar                                                |
-| Fafnir FNR-5                       |  Assault   | 100  | Inner Sphere | 3063  | Steiner                                                |
-| Fafnir FNR-5B                      |  Assault   | 100  | Inner Sphere | 3065  | Steiner                                                |
-| Fire Falcon Prime                  |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fire Falcon A                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fire Falcon B                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fire Falcon C                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fire Falcon D                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fox CS-1                           |   Medium   |  50  |  Mixed-tech  | 2824  | Clan Ghost Bear                                        |
-| Fox                                |   Medium   |  50  |     Clan     | 2835  | Clan Ghost Bear                                        |
-| Galahad (Glass Spider) 1           |   Heavy    |  60  |     Clan     | 2834  | Clans                                                  |
-| Galahad (Glass Spider) 2           |   Heavy    |  60  |     Clan     | 2952  | Clan Wolf                                              |
-| Grand Crusader GRN-D-01            |  Assault   |  80  | Inner Sphere | 3053  | Word of Blake                                          |
-| Grand Crusader GRN-D-02            |  Assault   |  80  | Inner Sphere | 3056  | Word of Blake                                          |
-| Gulon MiningMech GLN-1A            |   Light    |  25  | Inner Sphere | 3000  | Outworlds Alliance                                     |
-| Gulon SecurityMech GLN-1B          |   Light    |  25  | Inner Sphere | 3000  | Outworlds Alliance                                     |
-| Gurkha GUR-2G                      |   Light    |  35  | Inner Sphere | 3063  | Word of Blake                                          |
-| Gurkha GUR-4G                      |   Light    |  35  | Inner Sphere | 3065  | Word of Blake                                          |
-| Hammer HMR-3C 'Claw-Hammer'        |   Light    |  30  | Inner Sphere | 3056  | Marik, Word of Blake                                   |
-| Hammer HMR-3M                      |   Light    |  30  | Inner Sphere | 3053  | Liao, Marik, Word of Blake                             |
-| Hammer HMR-3P 'Pein-Hammer'        |   Light    |  30  | Inner Sphere | 3060  | Marik, Word of Blake                                   |
-| Hammer HMR-3S 'Slammer'            |   Light    |  30  | Inner Sphere | 3054  | Marik, Word of Blake                                   |
-| Hellfire 1                         |   Heavy    |  60  |     Clan     | 3058  | Clan Steel Viper                                       |
-| Hellspawn HSN-7D                   |   Medium   |  45  | Inner Sphere | 3062  | Davion                                                 |
-| Iron Cheetah Prime                 |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Iron Cheetah A                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Iron Cheetah B                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Iron Cheetah C                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Iron Cheetah D                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Jackrabbit JKR-8T                  |   Light    |  25  | Inner Sphere | 2765  | ComStar                                                |
-| JagerMech III JM6-D3               |   Heavy    |  65  | Inner Sphere | 3058  | Davion                                                 |
-| Juggernaut JG-R9T1                 |  Assault   |  90  | Inner Sphere | 3053  | Steiner                                                |
-| Juggernaut JG-R9T2                 |  Assault   |  90  | Inner Sphere | 3057  | Steiner                                                |
-| Juggernaut JG-R9T3                 |  Assault   |  90  | Inner Sphere | 3065  | Steiner                                                |
-| Kiso CommandMech K-3N-KRHQ         |  Assault   | 100  | Inner Sphere | 2823  | Kurita                                                 |
-| Kiso ConstructionMech K-3N-KR4     |  Assault   | 100  | Inner Sphere | 2703  | Kurita                                                 |
-| Komodo KIM-2                       |   Medium   |  45  | Inner Sphere | 3053  | Kurita, Rasalhague                                     |
-| Komodo KIM-2A                      |   Medium   |  45  | Inner Sphere | 3053  | Kurita                                                 |
-| Komodo KIM-3C                      |   Medium   |  45  | Inner Sphere | 3053  | Kurita                                                 |
-| Lao Hu LHU-2B                      |   Heavy    |  75  | Inner Sphere | 3062  | Liao                                                   |
-| Lao Hu LHU-3B                      |   Heavy    |  75  | Inner Sphere | 3063  | Liao                                                   |
-| Legacy LGC-01                      |  Assault   |  80  | Inner Sphere | 3064  | Word of Blake                                          |
-| Legacy LGC-02                      |  Assault   |  80  | Inner Sphere | 3064  | Word of Blake                                          |
-| Lineholder KW1-LH2                 |   Medium   |  55  | Inner Sphere | 3058  | Inner Sphere                                           |
-| Lineholder KW1-LH3                 |   Medium   |  55  | Inner Sphere | 3059  | Inner Sphere                                           |
-| Lupus Prime                        |   Heavy    |  60  |     Clan     | 2857  | Clan Steel Viper                                       |
-| Lupus A                            |   Heavy    |  60  |     Clan     | 2857  | Clan Steel Viper                                       |
-| Lupus B                            |   Heavy    |  60  |     Clan     | 2857  | Clan Steel Viper                                       |
-| Mad Cat Mk II                      |  Assault   |  90  |     Clan     | 3062  | Clan Diamond Shark                                     |
-| Mantis MTS-S                       |   Light    |  30  | Inner Sphere | 3061  | Steiner                                                |
-| Marshal MHL-2L                     |   Medium   |  55  | Inner Sphere | 3063  | Trinity Alliance (Liao, Centrella, Calderon)           |
-| Marshal MHL-X1                     |   Medium   |  55  | Inner Sphere | 3059  | Trinity Alliance (Liao, Centrella, Calderon)           |
-| Matar SAM-RS2                      | Superheavy | 110  | Inner Sphere | 2775  | ComStar (3036+)                                        |
-| Mercury II MCY-100                 |   Medium   |  40  |  Mixed-tech  | 2823  | Clan Diamond Shark, Bandit Caste                       |
-| Minsk                              |   Heavy    |  70  |     Clan     | 2862  | Clan Ghost Bear (3052+)                                |
-| Minsk MNK-101                      |   Heavy    |  70  |  Mixed-tech  | 2830  | Clan Ghost Bear (3052+)                                |
-| Naga Prime                         |  Assault   |  80  |     Clan     | 2945  | Clans                                                  |
-| Naga A                             |  Assault   |  80  |     Clan     | 2869  | Clans                                                  |
-| Naga B                             |  Assault   |  80  |     Clan     | 2869  | Clans                                                  |
-| Naga C                             |  Assault   |  80  |     Clan     | 2869  | Clans                                                  |
-| Naga D                             |  Assault   |  80  |     Clan     | 2869  | Clans                                                  |
-| Nightsky NGS-4S                    |   Medium   |  50  | Inner Sphere | 3053  | Steiner-Davion                                         |
-| Nightsky NGS-4T                    |   Medium   |  50  | Inner Sphere | 3056  | Steiner-Davion                                         |
-| Nightsky NGS-5S                    |   Medium   |  50  | Inner Sphere | 3056  | Steiner-Davion                                         |
-| Nightsky NGS-5T                    |   Medium   |  50  | Inner Sphere | 3057  | Steiner-Davion                                         |
-| Osiris OSR-3D                      |   Light    |  30  | Inner Sphere | 3063  | Davion                                                 |
-| Peregrine (Horned Owl) 1           |   Light    |  35  |     Clan     | 2835  | Clans                                                  |
-| Peregrine (Horned Owl) 2           |   Light    |  35  |     Clan     | 2856  | Clans                                                  |
-| Peregrine (Horned Owl) 3           |   Light    |  35  |     Clan     | 3061  | Clans                                                  |
-| Phantom Prime                      |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phantom A                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phantom B                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phantom C                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phantom D                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phoenix Hawk IIC                   |  Assault   |  80  |     Clan     | 2851  | Clans                                                  |
-| Phoenix Hawk IIC 2                 |  Assault   |  80  |     Clan     | 2852  | Clans                                                  |
-| Phoenix Hawk IIC 3                 |  Assault   |  80  |     Clan     | 3062  | Clans                                                  |
-| Phoenix Hawk IIC 9                 |  Assault   |  80  |     Clan     | 2853  | Clans                                                  |
-| Prometheus                         |   Heavy    |  75  |  Mixed-tech  | 3053  | Davion                                                 |
-| Pulverizer PUL-2V                  |  Assault   |  90  |  Mixed-tech  | 2823  | Clan Ghost Bear                                        |
-| Pulverizer PUL-3R                  |  Assault   |  90  |  Mixed-tech  | 2823  | Clan Ghost Bear                                        |
-| Pulverizer                         |  Assault   |  90  |     Clan     | 2845  | Clan Ghost Bear                                        |
-| Rampage RMP-2G                     |  Assault   |  85  | Inner Sphere | 2735  | Periphery States                                       |
-| Rampage RMP-4G                     |  Assault   |  85  | Inner Sphere | 2750  | ComStar/Word of Blake                                  |
-| Rampage RMP-5G                     |  Assault   |  85  | Inner Sphere | 2767  | ComStar/Word of Blake                                  |
-| Rattlesnake JR7-31                 |   Light    |  35  | Inner Sphere | 3042  | Davion                                                 |
-| Rattlesnake JR7-31P                |   Light    |  35  | Inner Sphere | 3043  | Davion                                                 |
-| Razorback RZK-9S                   |   Light    |  30  | Inner Sphere | 3063  | Steiner-Davion                                         |
-| Rising Star RST-4R                 |  Assault   |  80  | Inner Sphere | 2692  | ComStar, Snord's Irregulars                            |
-| Roughneck RGH-1A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Roughneck RGH-1B                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Roughneck RGH-1C                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Roughneck RGH-2A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Roughneck RGH-3A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Schwerer Gustav SG-1X              |  Assault   | 100  |  Mixed-tech  | 3064  | Marik                                                  |
-| Screamer LAM SCR-1X-LAM            |   Medium   |  55  | Inner Sphere | 2774  | Snord's Irregulars                                     |
-| Scylla                             |  Assault   | 100  |     Clan     | 3062  | Clans Jade Falcon & Steel Viper                        |
-| Sha Yu SYU-2B                      |   Medium   |  40  | Inner Sphere | 3063  | Liao, Centrella                                        |
-| Sha Yu SYU-4B                      |   Medium   |  40  | Inner Sphere | 3065  | Liao, Centrella                                        |
-| Sidewinder Prime                   |   Heavy    |  75  |     Clan     | 3047  | Clan Jade Falcon                                       |
-| Stag ST-14G                        |   Medium   |  45  |  Mixed-tech  | 2823  | Clans (3052+)                                          |
-| Stag II ST-24G                     |   Medium   |  45  |  Mixed-tech  | 2823  | Clan Wolf (3052+)                                      |
-| Star Adder (Blood Asp) Prime       |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Star Adder (Blood Asp) A           |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Star Adder (Blood Asp) B           |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Star Adder (Blood Asp) C           |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Star Adder (Blood Asp) D           |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Stiletto STL-7D                    | Ultralight |  15  | Inner Sphere | 2473  | Kurita                                                 |
-| Storm Giant 1                      |  Assault   | 100  |     Clan     | 2862  | Clan Steel Viper (3051+)                               |
-| Storm Giant 2                      |  Assault   | 100  |     Clan     | 2862  | Clan Steel Viper (3051+)                               |
-| Templar TLR1-O                     |  Assault   |  85  | Inner Sphere | 3062  | Davion                                                 |
-| Templar TLR1-OA                    |  Assault   |  85  | Inner Sphere | 3062  | Davion                                                 |
-| Templar TLR1-OB                    |  Assault   |  85  | Inner Sphere | 3062  | Davion                                                 |
-| Templar TLR1-OC                    |  Assault   |  85  | Inner Sphere | 3062  | Davion                                                 |
-| Thanatos TNS-4S                    |   Heavy    |  75  | Inner Sphere | 3061  | Steiner-Davion                                         |
-| Thanatos TNS-4T                    |   Heavy    |  75  | Inner Sphere | 3062  | Steiner-Davion                                         |
-| Titan TI-1A                        |  Assault   | 100  | Inner Sphere | 2765  | Davion                                                 |
-| Uziel UZL-2S                       |   Medium   |  50  | Inner Sphere | 3063  | Steiner-Davion                                         |
-| Uziel UZL-3S                       |   Medium   |  50  | Inner Sphere | 3065  | Steiner-Davion                                         |
-| Vanquisher VQR-2A                  |  Assault   | 100  | Inner Sphere | 3063  | Word of Blake                                          |
-| Verfolger VR5-R                    |   Heavy    |  65  | Inner Sphere | 3063  | Steiner                                                |
-| Volkh VKH-1                        |   Medium   |  45  | Inner Sphere | 3063  | Steiner                                                |
-| Volkh VKH-3                        |   Medium   |  45  | Inner Sphere | 3064  | Steiner                                                |
-| Warthog Prime                      |  Assault   |  95  |     Clan     | 3059  | Clans                                                  |
-| Zeus-X ZEU-X                       |  Assault   |  80  | Inner Sphere | 3054  | Davion                                                 |
-
-² Wolf's Dragoons and mercenaries have access to many of these 'Mechs; the list only shows variants that are exclusive to them.
 </details>
 
-<details>
-  <summary>New Chassis (by Availability)</summary>
+- 10 Hero 'Mechs are available in the Heavy Metal crate. You can also add any of them to your game via Fell Off A Cargo Ship or a save editor, including the Exterminator 'Caine' 4DX, which is not available in-game.
 
-| Name                               |   Class    | Mass |  Tech Base   | Avail.| Factions                                               |
-| :--------------------------------- | :--------: | :--: | :----------: | :---: | :----------------------------------------------------- |
-| Bellerophon BEL-1X                 |   Heavy    |  60  | Inner Sphere | 3025  | Marik                                                  |
-| Crosscut ED-X2M LoggerMech         |   Light    |  30  | Inner Sphere | 3025  | Pirates                                                |
-| Crosscut ED-X4D DemolitionMech     |   Light    |  30  | Inner Sphere | 3025  | Pirates                                                |
-| Crosscut ED-X4K LoggerMech         |   Light    |  30  | Inner Sphere | 3025  | Pirates                                                |
-| Dig King RCL-1M MiningMech         |   Light    |  35  | Inner Sphere | 3025  | Pirates                                                |
-| Dragoon AEM-01                     |   Heavy    |  70  | Inner Sphere | 3025  | ComStar                                                |
-| Dragoon AEM-02                     |   Heavy    |  70  | Inner Sphere | 3025  | ComStar                                                |
-| Dragoon AEM-03                     |   Heavy    |  70  | Inner Sphere | 3025  | ComStar                                                |
-| Dragoon AEM-04                     |   Heavy    |  70  | Inner Sphere | 3025  | ComStar                                                |
-| Gulon MiningMech GLN-1A            |   Light    |  25  | Inner Sphere | 3025  | Outworlds Alliance                                     |
-| Gulon SecurityMech GLN-1B          |   Light    |  25  | Inner Sphere | 3025  | Outworlds Alliance                                     |
-| Jackrabbit JKR-8T                  |   Light    |  25  | Inner Sphere | 3025  | ComStar                                                |
-| Kiso CommandMech K-3N-KRHQ         |  Assault   | 100  | Inner Sphere | 3025  | Kurita                                                 |
-| Kiso ConstructionMech K-3N-KR4     |  Assault   | 100  | Inner Sphere | 3025  | Kurita                                                 |
-| Rampage RMP-2G                     |  Assault   |  85  | Inner Sphere | 3025  | Periphery States                                       |
-| Rampage RMP-4G                     |  Assault   |  85  | Inner Sphere | 3025  | ComStar/Word of Blake                                  |
-| Rampage RMP-5G                     |  Assault   |  85  | Inner Sphere | 3025  | ComStar/Word of Blake                                  |
-| Rising Star RST-4R                 |  Assault   |  80  | Inner Sphere | 3025  | ComStar, Snord's Irregulars (3038+)                    |
-| Stiletto STL-7D                    | Ultralight |  15  | Inner Sphere | 3025  | Kurita                                                 |
-| Titan TI-1A                        |  Assault   | 100  | Inner Sphere | 3025  | Davion                                                 |
-| Matar SAM-RS2                      | Superheavy | 110  | Inner Sphere | 3036  | ComStar (3036+)                                        |
-| Screamer LAM SCR-1X-LAM            |   Medium   |  55  | Inner Sphere | 3038  | Snord's Irregulars                                     |
-| Rattlesnake JR7-31                 |   Light    |  35  | Inner Sphere | 3042  | Davion                                                 |
-| Rattlesnake JR7-31P                |   Light    |  35  | Inner Sphere | 3043  | Davion                                                 |
-| Coyotl Prime                       |   Medium   |  40  |     Clan     | 3049  | Clan Wolf (<3058)                                      |
-| Coyotl A                           |   Medium   |  40  |     Clan     | 3049  | Clan Wolf (<3058)                                      |
-| Coyotl B                           |   Medium   |  40  |     Clan     | 3049  | Clan Wolf (<3058)                                      |
-| Fox CS-1                           |   Medium   |  50  |  Mixed-tech  | 3049  | Clan Ghost Bear                                        |
-| Fox                                |   Medium   |  50  |     Clan     | 3049  | Clan Ghost Bear                                        |
-| Galahad (Glass Spider) 1           |   Heavy    |  60  |     Clan     | 3049  | Clans                                                  |
-| Galahad (Glass Spider) 2           |   Heavy    |  60  |     Clan     | 3049  | Clan Wolf                                              |
-| Lupus Prime                        |   Heavy    |  60  |     Clan     | 3049  | Clan Steel Viper                                       |
-| Lupus A                            |   Heavy    |  60  |     Clan     | 3049  | Clan Steel Viper                                       |
-| Lupus B                            |   Heavy    |  60  |     Clan     | 3049  | Clan Steel Viper                                       |
-| Mercury II MCY-100                 |   Medium   |  40  |  Mixed-tech  | 3049  | Clan Diamond Shark, Bandit Caste                       |
-| Naga Prime                         |  Assault   |  80  |     Clan     | 3049  | Clans                                                  |
-| Naga A                             |  Assault   |  80  |     Clan     | 3049  | Clans                                                  |
-| Naga B                             |  Assault   |  80  |     Clan     | 3049  | Clans                                                  |
-| Naga C                             |  Assault   |  80  |     Clan     | 3049  | Clans                                                  |
-| Naga D                             |  Assault   |  80  |     Clan     | 3049  | Clans                                                  |
-| Peregrine (Horned Owl) 1           |   Light    |  35  |     Clan     | 3049  | Clans                                                  |
-| Peregrine (Horned Owl) 2           |   Light    |  35  |     Clan     | 3049  | Clans                                                  |
-| Phoenix Hawk IIC                   |  Assault   |  80  |     Clan     | 3049  | Clans                                                  |
-| Phoenix Hawk IIC 2                 |  Assault   |  80  |     Clan     | 3049  | Clans                                                  |
-| Phoenix Hawk IIC 9                 |  Assault   |  80  |     Clan     | 3049  | Clans                                                  |
-| Pulverizer PUL-2V                  |  Assault   |  90  |  Mixed-tech  | 3049  | Clan Ghost Bear                                        |
-| Pulverizer PUL-3R                  |  Assault   |  90  |  Mixed-tech  | 3049  | Clan Ghost Bear                                        |
-| Pulverizer                         |  Assault   |  90  |     Clan     | 3049  | Clan Ghost Bear                                        |
-| Sidewinder Prime                   |   Heavy    |  75  |     Clan     | 3049  | Clan Jade Falcon                                       |
-| Roughneck RGH-1A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Roughneck RGH-1B                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Roughneck RGH-1C                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Roughneck RGH-2A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Roughneck RGH-3A                   |   Heavy    |  65  | Inner Sphere | 3050  | Steiner-Davion                                         |
-| Storm Giant 1                      |  Assault   | 100  |     Clan     | 3051  | Clan Steel Viper (3051+)                               |
-| Storm Giant 2                      |  Assault   | 100  |     Clan     | 3051  | Clan Steel Viper (3051+)                               |
-| Fire Falcon Prime                  |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fire Falcon A                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fire Falcon B                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fire Falcon C                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Fire Falcon D                      |   Light    |  25  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Minsk                              |   Heavy    |  70  |     Clan     | 3052  | Clan Ghost Bear (3052+)                                |
-| Minsk MNK-101                      |   Heavy    |  70  |  Mixed-tech  | 3052  | Clan Ghost Bear (3052+)                                |
-| Phantom Prime                      |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phantom A                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phantom B                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phantom C                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Phantom D                          |   Medium   |  40  |     Clan     | 3052  | Clan Jade Falcon                                       |
-| Stag ST-14G                        |   Medium   |  45  |  Mixed-tech  | 3052  | Clans (3052+)                                          |
-| Stag II ST-24G                     |   Medium   |  45  |  Mixed-tech  | 3052  | Clan Wolf (3052+)                                      |
-| Albatross ALB-3U                   |  Assault   |  95  | Inner Sphere | 3053  | Marik, Word of Blake                                   |
-| Battle Hawk BH-K305                |   Light    |  30  | Inner Sphere | 3053  | Steiner-Davion                                         |
-| Champion LAM CPN-1X1               |   Heavy    |  60  | Inner Sphere | 3053  | Word of Blake                                          |
-| Grand Crusader GRN-D-01            |  Assault   |  80  | Inner Sphere | 3053  | Word of Blake                                          |
-| Hammer HMR-3M                      |   Light    |  30  | Inner Sphere | 3053  | Liao, Marik, Word of Blake                             |
-| Juggernaut JG-R9T1                 |  Assault   |  90  | Inner Sphere | 3053  | Steiner                                                |
-| Komodo KIM-2                       |   Medium   |  45  | Inner Sphere | 3053  | Kurita, Rasalhague                                     |
-| Komodo KIM-2A                      |   Medium   |  45  | Inner Sphere | 3053  | Kurita                                                 |
-| Komodo KIM-3C                      |   Medium   |  45  | Inner Sphere | 3053  | Kurita                                                 |
-| Nightsky NGS-4S                    |   Medium   |  50  | Inner Sphere | 3053  | Steiner-Davion                                         |
-| Prometheus                         |   Heavy    |  75  |  Mixed-tech  | 3053  | Davion                                                 |
-| Bombard BMB-010                    |   Medium   |  50  | Inner Sphere | 3054  | Steiner                                                |
-| Hammer HMR-3S 'Slammer'            |   Light    |  30  | Inner Sphere | 3054  | Marik, Word of Blake                                   |
-| Iron Cheetah Prime                 |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Iron Cheetah A                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Iron Cheetah B                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Iron Cheetah C                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Iron Cheetah D                     |  Assault   | 100  |     Clan     | 3054  | Clan Smoke Jaguar                                      |
-| Zeus-X ZEU-X                       |  Assault   |  80  | Inner Sphere | 3054  | Davion                                                 |
-| Buccaneer BCN-3R                   |   Medium   |  55  | Inner Sphere | 3055  | Marik, Word of Blake                                   |
-| Grand Crusader GRN-D-02            |  Assault   |  80  | Inner Sphere | 3056  | Word of Blake                                          |
-| Hammer HMR-3C 'Claw-Hammer'        |   Light    |  30  | Inner Sphere | 3056  | Marik, Word of Blake                                   |
-| Nightsky NGS-4T                    |   Medium   |  50  | Inner Sphere | 3056  | Steiner-Davion                                         |
-| Nightsky NGS-5S                    |   Medium   |  50  | Inner Sphere | 3056  | Steiner-Davion                                         |
-| Dig Lord RCL-4 MiningMech          |   Heavy    |  65  | Inner Sphere | 3057  | Steiner-Davion                                         |
-| Juggernaut JG-R9T2                 |  Assault   |  90  | Inner Sphere | 3057  | Steiner                                                |
-| Nightsky NGS-5T                    |   Medium   |  50  | Inner Sphere | 3057  | Steiner-Davion                                         |
-| Akuma AKU-1X                       |  Assault   |  90  | Inner Sphere | 3058  | Kurita                                                 |
-| Barghest BGS-1T                    |   Heavy    |  70  | Inner Sphere | 3058  | Steiner                                                |
-| Bellerophon BEL-2X                 |   Heavy    |  60  | Inner Sphere | 3058  | Marik, Word of Blake                                   |
-| Hellfire 1                         |   Heavy    |  60  |     Clan     | 3058  | Clan Steel Viper                                       |
-| JagerMech III JM6-D3               |   Heavy    |  65  | Inner Sphere | 3058  | Davion                                                 |
-| Lineholder KW1-LH2                 |   Medium   |  55  | Inner Sphere | 3058  | Inner Sphere                                           |
-| Arctic Wolf 1                      |   Medium   |  40  |     Clan     | 3059  | Clan Wolf                                              |
-| Lineholder KW1-LH3                 |   Medium   |  55  | Inner Sphere | 3059  | Inner Sphere                                           |
-| Marshal MHL-X1                     |   Medium   |  55  | Inner Sphere | 3059  | Trinity Alliance (Liao, Centrella, Calderon)           |
-| Warthog Prime                      |  Assault   |  95  |     Clan     | 3059  | Clans                                                  |
-| Arctic Wolf 2                      |   Medium   |  40  |     Clan     | 3060  | Clan Wolf                                              |
-| Assassin II ASN-56                 |   Medium   |  45  | Inner Sphere | 3060  | Davion                                                 |
-| Barghest BGS-2T                    |   Heavy    |  70  | Inner Sphere | 3060  | Steiner                                                |
-| Black Heart BH-1                   |   Heavy    |  70  | Inner Sphere | 3060  | Word of Blake                                          |
-| Cossack C-SK1                      |   Light    |  20  | Inner Sphere | 3060  | St. Ives Compact                                       |
-| Hammer HMR-3P 'Pein-Hammer'        |   Light    |  30  | Inner Sphere | 3060  | Marik, Word of Blake                                   |
-| Star Adder (Blood Asp) Prime       |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Star Adder (Blood Asp) A           |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Star Adder (Blood Asp) B           |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Star Adder (Blood Asp) C           |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Star Adder (Blood Asp) D           |  Assault   |  90  |     Clan     | 3060  | Clans Steel Viper & Diamond Shark                      |
-| Blitzkrieg BTZ-3F                  |   Medium   |  50  | Inner Sphere | 3061  | Marik, Steiner-Davion                                  |
-| Mantis MTS-S                       |   Light    |  30  | Inner Sphere | 3061  | Steiner                                                |
-| Peregrine (Horned Owl) 3           |   Light    |  35  |     Clan     | 3061  | Clans                                                  |
-| Thanatos TNS-4S                    |   Heavy    |  75  | Inner Sphere | 3061  | Steiner-Davion                                         |
-| Argus AGS-2D                       |   Heavy    |  60  | Inner Sphere | 3062  | Davion                                                 |
-| Argus AGS-4D                       |   Heavy    |  60  | Inner Sphere | 3062  | Davion                                                 |
-| Barghest BGS-3T                    |   Heavy    |  70  | Inner Sphere | 3062  | Steiner                                                |
-| Hellspawn HSN-7D                   |   Medium   |  45  | Inner Sphere | 3062  | Davion                                                 |
-| Lao Hu LHU-2B                      |   Heavy    |  75  | Inner Sphere | 3062  | Liao                                                   |
-| Mad Cat Mk II                      |  Assault   |  90  |     Clan     | 3062  | Clan Diamond Shark                                     |
-| Phoenix Hawk IIC 3                 |  Assault   |  80  |     Clan     | 3062  | Clans                                                  |
-| Scylla                             |  Assault   | 100  |     Clan     | 3062  | Clans Jade Falcon & Steel Viper                        |
-| Templar TLR1-O                     |  Assault   |  85  | Inner Sphere | 3062  | Davion                                                 |
-| Templar TLR1-OA                    |  Assault   |  85  | Inner Sphere | 3062  | Davion                                                 |
-| Templar TLR1-OB                    |  Assault   |  85  | Inner Sphere | 3062  | Davion                                                 |
-| Templar TLR1-OC                    |  Assault   |  85  | Inner Sphere | 3062  | Davion                                                 |
-| Thanatos TNS-4T                    |   Heavy    |  75  | Inner Sphere | 3062  | Steiner-Davion                                         |
-| Albatross ALB-4U                   |  Assault   |  95  | Inner Sphere | 3063  | Marik, Word of Blake                                   |
-| Anubis ABS-3L                      |   Light    |  30  | Inner Sphere | 3063  | Trinity Alliance (Liao, Centrella, Calderon)           |
-| Bombard BMB-013                    |   Medium   |  50  | Inner Sphere | 3063  | Steiner                                                |
-| Chimera CMA-1S                     |   Medium   |  40  | Inner Sphere | 3063  | Kurita, Steiner-Davion                                 |
-| Chimera CMA-C                      |   Medium   |  40  | Inner Sphere | 3063  | Kurita, Marik, Steiner-Davion                          |
-| Fafnir FNR-5                       |  Assault   | 100  | Inner Sphere | 3063  | Steiner                                                |
-| Gurkha GUR-2G                      |   Light    |  35  | Inner Sphere | 3063  | Word of Blake                                          |
-| Lao Hu LHU-3B                      |   Heavy    |  75  | Inner Sphere | 3063  | Liao                                                   |
-| Marshal MHL-2L                     |   Medium   |  55  | Inner Sphere | 3063  | Trinity Alliance (Liao, Centrella, Calderon)           |
-| Osiris OSR-3D                      |   Light    |  30  | Inner Sphere | 3063  | Davion                                                 |
-| Razorback RZK-9S                   |   Light    |  30  | Inner Sphere | 3063  | Steiner-Davion                                         |
-| Schwerer Gustav SG-1X              |  Assault   | 100  |  Mixed-tech  | 3063  | Marik                                                  |
-| Sha Yu SYU-2B                      |   Medium   |  40  | Inner Sphere | 3063  | Liao, Centrella                                        |
-| Uziel UZL-2S                       |   Medium   |  50  | Inner Sphere | 3063  | Steiner-Davion                                         |
-| Vanquisher VQR-2A                  |  Assault   | 100  | Inner Sphere | 3063  | Word of Blake                                          |
-| Verfolger VR5-R                    |   Heavy    |  65  | Inner Sphere | 3063  | Steiner                                                |
-| Volkh VKH-1                        |   Medium   |  45  | Inner Sphere | 3063  | Steiner                                                |
-| Akuma AKU-1XJ                      |  Assault   |  90  | Inner Sphere | 3064  | Kurita                                                 |
-| Anubis ABS-3R                      |   Light    |  30  | Inner Sphere | 3064  | Trinity Alliance (Liao, Centrella, Calderon)           |
-| Legacy LGC-01                      |  Assault   |  80  | Inner Sphere | 3064  | Word of Blake                                          |
-| Legacy LGC-02                      |  Assault   |  80  | Inner Sphere | 3064  | Word of Blake                                          |
-| Volkh VKH-3                        |   Medium   |  45  | Inner Sphere | 3064  | Steiner                                                |
-| Brigand LDT-1                      |   Light    |  25  | Inner Sphere | 3065  | Pirates                                                |
-| Fafnir FNR-5B                      |  Assault   | 100  | Inner Sphere | 3065  | Steiner                                                |
-| Gurkha GUR-4G                      |   Light    |  35  | Inner Sphere | 3065  | Word of Blake                                          |
-| Juggernaut JG-R9T3                 |  Assault   |  90  | Inner Sphere | 3065  | Steiner                                                |
-| Sha Yu SYU-4B                      |   Medium   |  40  | Inner Sphere | 3065  | Liao, Centrella                                        |
-| Uziel UZL-3S                       |   Medium   |  50  | Inner Sphere | 3065  | Steiner-Davion                                         |
-</details>
+#### Vehicles
+- Over 150 new vehicles variants, including VTOLs and superheavy tanks.
+- All vehicles have had their loadouts, armor values, and descriptions updated.
+- Vehicles have received several bonuses to make them more comparable to 'Mechs:
+  - Light vehicles gain a +2 To Hit modifier (Hit Defense), while medium vehicles get a +1.
+  - Additionally, VTOLs have +2 Evasion and +3 Hit Defense, for a total of -10% to -12.5% chance of hitting them. Hover tanks receive a lesser bonus of +1 Evasion and +1 Hit Defense.
+  - Vehicles no longer have a -25% armor penalty and instead have the same armor as in tabletop.
+  - Support vehicles now have Comms Equipment that provides benefits based on the amount of equipment they carry, ranging from +1 Lance Initiative and +1 Resolve Gain with one ton to +2 Lance Initiative and +7 Resolve Gain with seven tons. Comms Equipment also has a 300m ECCM aura that increases in effectiveness, just like the other bonuses.
 
-
-### Weapons / Upgrades
+#### Weapons
+- New weapons and upgrades become available in stores over time. Some weapons and upgrades are unique to certain 'Mech chassis, such as Stealth Armor.
 
 <details>
-  <summary>Buyable (by Type/Intro)</summary>
+  <summary>New Weapons/Upgrades (by Type/Intro)</summary>
 
 | Name                              |   Type    | Intro | Factions                  |
 | :-------------------------------- | :-------: | :---: | :------------------------ |
@@ -443,103 +124,49 @@ The mod adds 93 new BattleMechs and 325 new 'Mech variants, utilizing nearly eve
 | Armor-Piercing Ammo               |   Ammo    | 3055  | Davion<br>Steiner (3055+) |
 | Precision Ammo                    |   Ammo    | 3058  | Davion                    |
 |  ----                             |           |       |                           |
-| Laser Insulator                   |  Upgrade  | 2575  | *Electronics*             |
-| Targeting Computer                |  Upgrade  | 3052  | *Research*                |
-| Bloodhound Active Probe           |  Upgrade  | 3058  | *Black Market*            |
-| Laser Anti-Missile System         |  Upgrade  | 3059  | *Research*                |
-| Blue Shield Particle Field Damper |  Upgrade  | 3061  | *Research*                |
-| Apollo MRM FCS                    |  Upgrade  | 3065  | *Research*                |
-| Small/Medium/Large Shield         |  Upgrade  | 3065  | *Research*                |
+| Laser Insulator                   |   Addon   | 2575  | *Electronics*             |
+| Targeting Computer                |   Addon   | 3052  | *Research*                |
+| Bloodhound Active Probe           |   Addon   | 3058  | *Black Market*            |
+| Laser Anti-Missile System         |   Addon   | 3059  | *Research*                |
+| Blue Shield Particle Field Damper |   Addon   | 3061  | *Research*                |
+| Apollo MRM FCS                    |   Addon   | 3065  | *Research*                |
+| Small/Medium/Large Shield         |   Addon   | 3065  | *Research*                |
 
 ² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs.
 </details>
 
 <details>
-  <summary>Unique (by Type)</summary>
+  <summary>Unique Weapons/Upgrades (by Type)</summary>
 
-| Name                                  | Exclusive to                    |
-| :------------------------------------ | :------------------------------ |
-| Claws                                 | Mantis                          |
-| Industrial Weapons²                   | Crosscut, Dig King, Gulon, Kiso |
-| Katana                                | Hatamoto-Chi 'Shin'             |
-| Spikes                                | Bombard                         |
-| Small Vibroblade                      | Assassin 'Servitor'             |
-| Large Vibroblade<br>Large Shield      | Black Knight 'Red Reaper'       |
-|  ----                                 |                                 |
-| Direct Neural Interface               | Prometheus<br>Black Heart       |
-| Light Active Probe                    | Vulture (Mad Dog) 'Fury'        |
-|  ----                                 |                                 |
-| Composite Chassis<br>Reactive Armor   | Zeus-X                          |
-| Light Ferro-Fibrous Armor             | Black Knight 'Red Reaper'       |
-| Stealth Armor                         | Sha Yu<br>Anubis               
+| Name                                  | Exclusive to                                                    |
+| :------------------------------------ | :-------------------------------------------------------------- |
+| Assault Katana                        | Hatamoto-Chi 'Shin'                                             |
+| Claws                                 | Mantis                                                          |
+| Industrial Weapons²                   | Crosscut, Dig King, Gulon, Kiso                                 |
+| Lance / Katar / Mace                  | Volkh                                                           |
+| Large Vibroblade<br>Large Shield      | Black Knight 'Red Reaper'                                       |
+| Small Kukri                           | Gurkha                                                          |
+| Small Vibroblade                      | Assassin 'Servitor'                                             |
+| Spikes                                | Bombard                                                         |
+|  ----                                 |                                                                 |
+| Comms Equipment                       | Support Vehicles                                                |
+| Direct Neural Interface               | Prometheus<br>Black Heart                                       |
+| Light Active Probe                    | Vulture (Mad Dog) 'Fury'                                        |
+| Supercharger                          | Exterminator 'Caine' 4DX<br>Slagmaiden, Super-Griffin and Wasp |
+|  ----                                 |                                                                 |
+| Composite Chassis<br>Reactive Armor   | Zeus-X                                                          |
+| Light Ferro-Fibrous Armor             | Black Knight 'Red Reaper'                                       |
+| Stealth Armor                         | Sha Yu<br>Anubis                                                | 
 
 ² Includes the Chainsaw, Mining Drill, Pile Driver, and other variants of these weapons.
 </details>
 
-### Other Changes
+- Gauss rifles and artillery have been somewhat nerfed, using the new tools available with CAC-C; both have a self-knockdown effect when firing equal to 25% of their actual damage, rounded down (from 10 instability for Light Gauss, to 50 for Rail Guns). Heavy Gauss Rifles also do more damage, but it decreases with range and is halved at maximum range.
+
+- Mech mortars have been added, replacing the Thumper, Sniper, and Long Tom cannons as they are only prototypes in the current timeline. Artillery cannons are still available on research planets, and have been reworked; they now deal 25% less damage and have a much shorter range than their larger counterparts.
 
 <details>
-  <summary>Vehicles and Faction Rosters</summary>
-The mod is branching out to add new vehicles. This has been long overdue, in part because of the work needed to overhaul the faction rosters to include those new units. The goal is for all factions to gain access to more 'Mechs and combat vehicles, including these factions:
-
-| Faction/Unit                         |      Years Active   | Unit Rating                        |
-| :----------------------------------- | :-----------------: | :--------------------------------- |
-| Arc-Royal Defense Cordon             |      3058-3067      | C/Regulars                         |
-| Chaos March                          |      3057-3073      | F/Locals                           |
-| Clan Wolf-in-Exile                   |      3057-3151      | B/Front Lines<br>C/Second Lines    |
-| Clan Snow Raven𓅪                     |      3057-3151      | F/Provisional Garrison             |
-| Duchy of Andurien                    | 3030-3040,<br>3079- | C/Regulars                         |
-| New Colony Region /<br>Fronc Reaches | 3060-3066<br>3067-  | C/Regulars                         |
-|  ----                                |                     |                                    |
-| Eridani Light Horse                  |        2702-        | B/Veterans                         |
-| Gray Death Legion                    |      3024-3065      | A/Elites                           |
-| Kell Hounds                          |        3010-        | B/Veterans<br>A/Elites (3040+)     |
-| Northwind Highlanders                |        -3081        | B/Veterans<br>A/Elites (3059+)     |
-| Other Mercenaries                    |        n/a          | C/Regulars<br>F/Locals (Periphery) |
-| Pirates                              |        n/a          | F/Locals                           |
-| Security Forces²                     |        n/a          | F-/Locals                          |
-| Wolf's Dragoons                      |        3005-        | A/Elites                           |
-
-𓅪 Snow Raven garrison units sometimes used by the Outworlds Alliance
-² Private Military Security Companies (PMSC) sometimes used by locals
-</details>
-
-<details>
-  <summary>Shell Shuffler</summary>
-
-This optional submod allows the AI to randomly use different types of ammunition when spawning. The mod has two presets, depending on the era you are playing in:
-
-- **3025 preset:** Any faction can use Inferno SRM.
-- **3050 preset:** Each faction has their own set of special ammo types, most of which were developed in the 3050s.
-
-| Faction                 | Ammo Types                                          |
-| :---------------------- | :-------------------------------------------------- |
-| Davion                  | Armor-Piercing & Precision rounds, plus Swarm LRM   |
-| Kurita                  | Dead-Fire SRM and LRM                               |
-| Liao                    | Inferno SRM, LRM and Arrow IV                       |
-| Marik                   | Improved Swarm LRM (Swarm-I LRM)                    |
-| Steiner                 | Armor-Piercing rounds and Swarm LRM                 |
-| ----                    |                                                     |
-| Clans                   | Extended-Range & High-Explosive ATM, plus Swarm LRM |
-| ComStar / Word of Blake | Swarm LRM / Swarm-I LRM                             |
-| Mercernaries & Pirates  | Inferno SRM                                         |
-</details>
-
-<details>
-  <summary>Gauss Rifles</summary>
-
-- Heavy Gauss Rifles deal more damage, but it decreases with range and is halved at maximum range.
-
-- All Gauss Rifles, including Rail Guns, have a self-knockdown effect when firing equal to 25% of their actual damage, rounded down (from 10 instability for Light Gauss, to 50 for Rail Guns).
-</details>
-
-<details>
-  <summary>Artillery</summary>
-
-- Mech mortars are now available in 3025. The Thumper, Sniper, and Long Tom cannons have been moved to research planets, as they are only prototypes in the current timeline.
-
-- Artillery cannons have been reworked to be more in line with the tabletop rules. They now deal 25% less damage and have a much shorter range than their larger counterparts. Additionally, all artillery suffers a self-knockdown effect when firing, deal less stability damage, and are less accurate due to the indirect fire penalty.
-
+  <summary>Artillery Changes</summary>
 
 | Name            | Damage | AoE Damage | Min. Range | Opt. Range | Max. Range |
 | --------------- | -----: | ---------: | ---------: | ---------: | ---------: |
@@ -553,14 +180,74 @@ This optional submod allows the AI to randomly use different types of ammunition
 | Extended LRM    |      5 |          0 |        325 |        760 |       1140 |
 
 ² Ignores cover and acts like artillery with Swarm Ammo.
+</details>
 
 - The Sniper and Long Tom cannons both have a Loading Mechanism addon that works in the same way as the Artemis IV FCS. This addon allows the two massive weapons to be mounted on more 'Mechs.
+
+### Faction Rosters
+- MegaMek-generated rarity tables replace the Xtol RAT tables for vehicles. This allows for a wider variety of combat vehicles for all factions, as well as more accurate vehicle rosters for the expanded 3025-3067 timeline. Some factions, like the Great Houses and Periphery States, also have an "elite" version of their vehicle table that favors A-rated units.
+- 'Mechs are also more varied, with ComStar/Word of Blake and the Clans having access to all 'Mechs from MegaMek RAT Generator. Minor factions that didn't have a RAT table before have one now, including:
+
+<details>
+  <summary>New Rarity Tables</summary>
+
+| Faction/Unit                         |     Years Active         | Unit Rating                        |
+| :----------------------------------- | :----------------------: | :--------------------------------- |
+| Arc-Royal Defense Cordon             |        3058-3067         | C/Regulars                         |
+| Chaos March                          |        3057-3073         | F/Locals                           |
+| Clan Wolf-in-Exile                   |        3057-3151         | B/Front Lines<br>C/Second Lines    |
+| Clan Snow Raven𓅪                     |    2807–3082<br>3083-    | F/Provisional Garrison             |
+| Duchy of Andurien                    |    3030-3040<br>3079-    | C/Regulars                         |
+| New Colony Region /<br>Fronc Reaches |    3060-3066<br>3067-    | C/Regulars                         |
+|  ----                                |                          |                                    |
+| Eridani Light Horse                  |          2702-           | B/Veterans                         |
+| Gray Death Legion                    |        3024-3065         | A/Elites                           |
+| Kell Hounds                          |          3010-           | B/Veterans<br>A/Elites (3040+)     |
+| Northwind Highlanders                |          -3081           | B/Veterans<br>A/Elites (3059+)     |
+| Other Mercenaries                    |           n/a            | C/Regulars<br>F/Locals (Periphery) |
+| Pirates                              |           n/a            | F/Locals                           |
+| Security Forces²                     |           n/a            | F-/Locals                          |
+| Wolf's Dragoons                      |          3005-           | A/Elites                           |
+
+𓅪 Snow Raven garrison units sometimes used by the Outworlds Alliance after 3061.<br>
+² Private Military Security Companies (PMSC) sometimes used by locals.
+</details>
+
+### Additional Lances
+- New support lances can appear during missions with the Additional Lances setting from Mission Control enabled, such as:
+    - Vehicle-only lances on lower-difficulty missions (2½ skulls or less).
+    - Artillery lances with three artillery vehicles supported by an APC.
+- Capellan Confederation elite units can deploy in augmented lance formations made up of four 'Mechs or vehicles supported by two other units.
+- Free Worlds League and Taurian Concordat elite units both use augmented armor formations made up of six vehicles.
+
+### Other Changes
+
+<details>
+  <summary>Shell Shuffler</summary>
+
+This optional submod allows the AI to randomly use different types of ammunition when spawning. The mod has two presets, depending on the era you are playing in:
+
+- **3025 preset:** Any faction can use Inferno SRM.
+- **3050 preset:** Each faction has their own set of special ammo types, most of which were developed in the 3050s.
+
+| Faction                 | Ammo Types                                          |
+| :---------------------- | :-------------------------------------------------- |
+| Davion                  | Armor-Piercing & Precision rounds, plus Swarm LRM   |
+| Kurita                  | Dead-Fire SRM and LRM, plus Explosive Narc pods     |
+| Liao                    | Inferno SRM, LRM and Arrow IV                       |
+| Marik                   | Improved Swarm LRM (Swarm-I LRM)                    |
+| Steiner                 | Armor-Piercing rounds and Swarm LRM                 |
+| ----                    |                                                     |
+| Clans                   | Extended-Range & High-Explosive ATM, plus Swarm LRM |
+| ComStar                 | Swarm LRM                                           |
+| Word of Blake           | Swarm-I LRM, Explosive and Haywire iNarc pods       |
+| Elite Mercenaries       | Any type                                            |
+| Pirates  Other Mercs    | Inferno SRM                                         | 
 </details>
 
 <details>
   <summary>Miscellaneous</summary>
 
-- The Heavy Metal crate gives a random Hero 'Mech instead of one of three 'Mechs.
 - The UI in combat now only shows the ammunition type when a weapon has multiple types of ammo.
 - Heavy Lasers now have distinct colors ranging from orange-red to golden.
 - Changes have been made to address minor issues and to add the latest CAB models to the current version of BEX:
@@ -582,19 +269,20 @@ This optional submod allows the AI to randomly use different types of ammunition
 | Goliath                | Reduced stability                                       |
 | Grand Dragon DRG-1G    | Fixed energy hadpoints placement                        |
 | Gunslinger             | Switched to a new CAB model                             |
+| Hauptmann HA1-O        | Fixed weapon loadout                                    |
 | Hermes II              | Reduced overall size to better match tonnage            |
-| Kodiak 5               | Added missing DHS in the engine                         |
 | Hornet HNT-161         | Fixed armor placement                                   |
+| Kodiak 5               | Added missing DHS in the engine                         |
 | Linesman LMN-1PT       | Changed to the correct prefab base model                |
 | Loader King LDK-5C     | Added more armor and missing Cargo Bay                  |
 | Locust LCT-3S          | Fixed available tonnage                                 |
 | Naginata               | Switched to a new CAB model                             |
 | Ost Mechs              | Added cross assembly between Ostroc and Ostsol          |
 | Phoenix Hawk LAM       | Changed to a different CAB model                        |
-| Piranha 1              | Switched to single heat sinks                           |
+| Piranha 1              | Changed to single heat sinks                            |
 | Rifleman RFL-5CS       | Added Large Engine quirk                                |
 | Shadow Hawk            | Added Rugged quirk                                      |
-| Shadow Hawk SHD-3H     | Changed loaout to the official one                      |
+| Shadow Hawk SHD-3H     | Changed loadout to the official one                     |
 | Thunder THR-1L         | Added missing DHS in the engine                         |
 | Trebuchet TBT-3C       | Added Large Engine quirk                                |
 | UrbanMech              | Reduced movement to 3/5 hexes (from 4/7)                |
