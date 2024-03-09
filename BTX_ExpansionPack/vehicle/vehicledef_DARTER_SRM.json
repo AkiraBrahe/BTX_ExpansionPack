@@ -1,0 +1,75 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_DARTER_SRM",
+  "Description": {
+    "Id": "vehicledef_DARTER_SRM",
+    "Name": "Darter Scout Car",
+    "UIName": "Darter Scout Car (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Darter Scout Car (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Wheeled)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>\n\nThe Darter owes its existence to the destructive nature of the First Succession War, and the need to support combat units without using up precious resources.\n\nSome crews field-refit their Darters, eschewing cargo in favor of an SRM-4 and a ton of ammunition.",
+    "Icon": "uixVhclIcon_darter",
+    "Cost": 158951,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 35,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 35,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 35,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 35,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2835-01-01T00:00:00Z"
+}

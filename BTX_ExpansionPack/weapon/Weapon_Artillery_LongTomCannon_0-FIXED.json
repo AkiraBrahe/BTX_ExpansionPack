@@ -1,0 +1,118 @@
+{
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC20",
+  "MinRange": 120,
+  "MaxRange": 780,
+  "RangeSplit": [
+    390,
+    390,
+    780
+  ],
+  "ForbiddenRange": 120,
+  "AmmoCategory": "LongTom",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 60,
+  "Damage": 80,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "MinMissRadius": 5,
+  "MaxMissRadius": 100,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": true,
+  "AOERange": 120,
+  "AOEDamage": 150,
+  "AOEHeatDamage": 0,
+  "AOEInstability": 75,
+  "IndirectFireCapable": true,
+  "AlwaysIndirectVisuals": true,
+  "CantHitUnaffecedByPathing": true,
+  "RefireModifier": 3,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 40,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+  "Description": {
+    "Cost": 650000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Armstrong",
+    "Model": "Heavy Artillery",
+    "UIName": "Long Tom Cannon",
+    "Id": "Weapon_Artillery_LongTomCannon_0-FIXED",
+    "Name": "Long Tom Artillery Cannon",
+    "Details": "The Long Tom Artillery Cannon is a scaled down version of the Long Tom Artillery Piece that can provide artillery support at much closer ranges than its cousin. Because of the shorter barrel length, the weapon does not have the same damage potential. <color=#FF0000>A Loading Mechanism must be installed to fire this weapon.</color>",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "chrPrfWeap_bullshark_centertorso_thumper",
+  "BattleValue": 0,
+  "InventorySize": 8,
+  "Tonnage": 20,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "ARTY_Std",
+      "UIName": "",
+      "Name": "Artillery",
+      "Description": "Fires in an arc toward the target.",
+      "isBaseMode": true,
+      "DirectFireModifier": 2,
+      "ShotsWhenFired": -1
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-SelfKnockdown",
+        "Name": "STABILITY DAMAGE INCREASED",
+        "Details": "Firing causes 'Mech to become unbalanced.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "-45.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 1,
+  "ProjectileSpeedMultiplier": 0.8,
+  "AdditionalImpactVFX": "WFX_BELarger",
+  "AdditionalImpactVFXScaleX": 4,
+  "AdditionalImpactVFXScaleY": 4,
+  "AdditionalImpactVFXScaleZ": 4,
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED",
+      "range_very-long",
+      "loading_mechanism_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

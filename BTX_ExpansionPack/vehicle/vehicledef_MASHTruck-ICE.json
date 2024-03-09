@@ -1,0 +1,61 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_mobileHQ",
+      "unit_vehicle_mashTruck",
+      "unit_weaponless",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_armor_high",
+      "unit_speed_medium",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MASHTruck-ICE",
+  "Description": {
+    "Id": "vehicledef_MASHTruck-ICE",
+    "Name": "M.A.S.H. Truck",
+    "UIName": "M.A.S.H. Truck (ICE)",
+    "Details": "<b>Name: <color=#85DBF6>M.A.S.H. Truck (ICE)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>80 ICE</color></b>\n\nM.A.S.H. Trucks (Mobile Army Surgical Hospital) are mobile medical units equipped with state-of-the-art medical equipment and surgical facilities. They are often deployed near the front lines, so that they can provide immediate care to injured soldiers.\n\nThis variant replaces the fusion engine with an internal combustion engine, reducing the top speed and medical equipment capacity significantly. It was unpopular with soldiers for this reason.",
+    "Icon": "uixVhclIcon_mashtruck",
+    "Cost": 194333,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [],
+  "MinAppearanceDate": "2810-01-01T00:00:00Z"
+}

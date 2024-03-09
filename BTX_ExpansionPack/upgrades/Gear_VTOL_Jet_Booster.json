@@ -1,0 +1,86 @@
+{
+  "Description": {
+    "Cost": 1600000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Cal-Boeing",
+    "Model": "",
+    "UIName": "VTOL Jet Booster",
+    "Id": "Gear_MASC_1",
+    "Name": "VTOL Jet Booster",
+    "Details": "The VTOL Jet Booster is a piece of equipment used to increase the speed of any VTOL. Cal-Boeing developed the booster in its modern versions in 3009, but it remained experimental until the late Jihad, when it entered limited production.",
+    "Icon": "uixSvgIcon_special_Equipment"
+  },
+  "BonusValueA": "+ 50% Speed",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1.5,
+  "AllowedLocations": "Torso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "SuperchargerWalk",
+        "Name": "VTOL JET BOOSTER",
+        "Details": "The VTOL Jet Booster doubles the movement speed.",
+        "Icon": "uixSvgIcon_action_evasivemove"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "2",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "SuperchargerWalk",
+        "Name": "VTOL JET BOOSTER",
+        "Details": "The VTOL Jet Booster doubles the movement speed.",
+        "Icon": "uixSvgIcon_action_evasivemove"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "2",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "cae_ai_speed"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

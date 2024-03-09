@@ -1,0 +1,75 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_mobileHQ",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_HeavyTransport_B1",
+  "Description": {
+    "Id": "vehicledef_HeavyTransport_B1",
+    "Name": "Heavy Transport B1",
+    "UIName": "Heavy Transport B1",
+    "Details": "<b>Name: <color=#85DBF6>Heavy Transport B1</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>80 ICE</color></b>\n\nThe Heavy Transport B1 is a 20-ton militarized truck designed to transport infantry. It is armed with an SRM-2 with one ton of reloads and armored with three tons of armor. It features 7 tons of cargo capacity and can reach a top speed of 85 km/h.",
+    "Icon": "uixVhclIcon_heavytransport",
+    "Cost": 136033,
+    "Rarity": 3,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": null
+}

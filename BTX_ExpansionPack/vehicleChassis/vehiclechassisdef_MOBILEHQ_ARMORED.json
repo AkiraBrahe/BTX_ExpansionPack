@@ -1,0 +1,124 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Mobile HQ",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_MOBILEHQ_ARMORED",
+    "Name": "Mobile HQ (Armor)",
+    "Details": "<b>Name: <color=#85DBF6>Mobile HQ (Armor)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>130 Fusion</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nThis 3025 Mobile HQ variant adds three more tons of armor and a cargo bay that can accommodate a platoon of infantry. In return, the command vehicle only carries one ton of communications gear.",
+    "Icon": "uixVhclIcon_mobilehq",
+    "Cost": 437812,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_6-9cv",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_mobilehq",
+  "PrefabIdentifier": "chrPrfVhcl_mobilehq",
+  "PrefabBase": "mobilehq",
+  "Tonnage": 25,
+  "weightClass": "LIGHT",
+  "BattleValue": 441,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 6,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": 7
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": 7
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": -9
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 15
+    }
+  ]
+}

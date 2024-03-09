@@ -1,0 +1,88 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_light",
+      "unit_tracks",
+      "unit_lance_vanguard",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_SCORPION_MKII",
+  "Description": {
+    "Id": "vehicledef_SCORPION_MKII",
+    "Name": "Scorpion Light Tank Mk II",
+    "UIName": "Scorpion Light Tank Mk II",
+    "Details": "<b>Name: <color=#85DBF6>Scorpion Light Tank Mk II</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>100 Fusion</color></b>\n\nThe Scorpion tank, produced by Quikscell Company in 2807, is known for its low cost, easy repair, and availability in numbers. Known as \"The Budget Tank\", it is found on many backwater and Periphery worlds.\n\nThis redesigned version of the Scorpion uses a fusion engine, allowing for more armor and an Ultra AC/5 to be mounted with two tons of ammunition.",
+    "Icon": "uixVhclIcon_scorpion",
+    "Cost": 593333,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 65,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 65,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 65,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 65,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 55,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 55,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_UAC5_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3048-01-01T00:00:00Z"
+}

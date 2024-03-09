@@ -1,0 +1,116 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Rotunda",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_ROTUNDA",
+    "Name": "Rotunda RND-J-1-11",
+    "Details": "<b>Name: <color=#85DBF6>Rotunda Scout Vehicle RND-J-1-11</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Wheeled)</color>\tEngine: <color=#85DBF6>160 Fusion</color></b>\n\nThe Rotunda is a covert reconnaissance wheeled vehicle intentionally designed to resemble a civilian sedan. It is built for maximum endurance while undercover, allowing for observation missions of up to three months.\n\nAlthough the Rotunda is intended as a light armored scout, it still has a small but significant weapons array consisting of a Large Laser and an SRM-2, which it can use to defend itself or take out targets of opportunity.",
+    "Icon": "uixVhclIcon_rotunda",
+    "Cost": 440367,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_9-14cv",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_rotunda",
+  "PrefabIdentifier": "chrPrfVhcl_rotunda",
+  "PrefabBase": "rotunda",
+  "Tonnage": 20,
+  "weightClass": "LIGHT",
+  "BattleValue": 400,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    },
+    {
+      "x": -1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2.25,
+      "z": -2.75
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 20,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 20,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 15,
+      "InternalStructure": 10
+    }
+  ]
+}

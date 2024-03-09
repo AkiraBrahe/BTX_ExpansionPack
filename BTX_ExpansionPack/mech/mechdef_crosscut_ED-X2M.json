@@ -1,0 +1,125 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_industrial",
+      "unit_mech",
+      "unit_light",
+      "unit_role_meleeonly",
+      "unit_lance_support",
+      "unit_range_short",
+      "unit_armor_low",
+      "unit_speed_low",
+      "unit_release",
+      "unit_mechpack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_crosscut_ED-X2M",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 830000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Crosscut ED-X2M",
+    "Id": "mechdef_crosscut_ED-X2M",
+    "Name": "Crosscut",
+    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThis variant is a militarized version of the X2. The ED-X2M is armed with a Vehicle Flamer and retains the Chainsaw, as well as the center-torso cargo bays of the original. A single heat sink is enough to fire the flamer without worrying about heat buildup. This Inner Sphere variant also features an advanced fire control which makes the weapons more accurate in battle.\n",
+    "Icon": "uixTxrIcon_crosscut"
+  },
+  "simGameMechPartCost": 80000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 25,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 25,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 25,
+      "CurrentRearArmor": 15,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 25,
+      "AssignedRearArmor": 15
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 15,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 15
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 25,
+      "CurrentRearArmor": 15,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 25,
+      "AssignedRearArmor": 15
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 25,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 25,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 25,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 25,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 25,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 25,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Flamer",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

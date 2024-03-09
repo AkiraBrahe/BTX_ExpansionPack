@@ -1,0 +1,137 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Odin",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_ODIN",
+    "Name": "Odin",
+    "Details": "<b>Name: <color=#85DBF6>Odin Scout Tank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/15 (Wheeled)</color>\tEngine: <color=#85DBF6>140 Fusion</color></b>\n\nThe Odin is a fast and agile combat vehicle that is one of the finest reconnaissance units in any Clan touman. Weighing only twenty tons, the wheeled vehicle relies on its 130 km/h top speed to evade enemy fire, as its one and a half tons of ferro-fibrous armor is insufficient to withstand anything more substantial than small arms fire. Its primary purpose is to use its Active Probe to detect hidden units at a range of up to one hundred fifty meters.\n\nAlthough the Odin is designed to stay out of combat, it is capable of defending itself if necessary. Its turret mounts a pair of Medium Pulse Lasers and a Streak SRM-2 launcher, while the driver controls an ER Small Laser mounted in the front.",
+    "Icon": "uixVhclIcon_odin",
+    "Cost": 769358,
+    "Rarity": 3,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_8-12cv",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_odin",
+  "PrefabIdentifier": "chrprfvhcl_odin",
+  "PrefabBase": "odin",
+  "Tonnage": 20,
+  "weightClass": "LIGHT",
+  "BattleValue": 691,
+  "TopSpeed": 129.6,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 20,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 10
+    }
+  ]
+}

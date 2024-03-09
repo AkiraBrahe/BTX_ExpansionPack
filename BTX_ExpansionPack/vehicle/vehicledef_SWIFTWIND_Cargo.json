@@ -1,0 +1,60 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_weaponless",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_lance_vanguard",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_SWIFTWIND_Cargo",
+  "Description": {
+    "Id": "vehicledef_SWIFTWIND_Cargo",
+    "Name": "Swift Wind Scout Car",
+    "UIName": "Swift Wind Scout Car (ICE - Cargo)",
+    "Details": "<b>Name: <color=#85DBF6>Swift Wind Scout Car (ICE - Cargo)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Wheeled)</color>\tEngine: <color=#85DBF6>45 ICE</color></b>\n\nThe Swift Wind is a one-person scout car designed for the Capellan Confederation Armed Forces. It boasts advanced communication gear and fast speed, ensuring the pilot gets where they need to be and get out of there just as quickly, all while relaying information.\n\nThe 2845 version of the Swift Wind scout car features a smaller internal combustion engine, allowing for a modest three tons of cargo space. However, this addition takes up the space saved by the engine swap, requiring the communications equipment to be removed.",
+    "Icon": "uixVhclIcon_swiftwind",
+    "Cost": 38480,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [],
+  "MinAppearanceDate": "2845-01-01T00:00:00Z"
+}

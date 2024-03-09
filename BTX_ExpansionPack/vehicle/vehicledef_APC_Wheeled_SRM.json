@@ -1,0 +1,82 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_APC_Wheeled_SRM",
+  "Description": {
+    "Id": "vehicledef_APC_Wheeled_SRM",
+    "Name": "Wheeled APC",
+    "UIName": "Wheeled APC (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Wheeled APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nWheeled APCs, the backbone of vehicular military units, transport infantry on the battlefield. Cheaper and more armored than Tracked or Hover APCs, they are best suited for urban environments.\n\nThis SRM variant of the APC retains the infantry bay and replaces the standard Machine Guns with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
+    "Icon": "uixVhclIcon_wheeledapc",
+    "Cost": 95725,
+    "Rarity": 1,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": null
+}

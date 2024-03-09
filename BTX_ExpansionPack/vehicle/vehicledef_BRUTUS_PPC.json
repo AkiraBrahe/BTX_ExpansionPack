@@ -1,0 +1,117 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_lance_tank",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_BRUTUS_PPC",
+  "Description": {
+    "Id": "vehicledef_BRUTUS_PPC",
+    "Name": "Brutus Assault Tank",
+    "UIName": "Brutus Assault Tank (PPC)",
+    "Details": "<b>Name: <color=#85DBF6>Brutus Assault Tank (PPC)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nRenowned for its heavy punch, the Brutus Assault Tank features an impressive combination of long- and short-range firepower, offset by its relatively low armor.\n\nIn place of the twin Large Lasers and LRM-20, this 3005 variant has a pair of PPCs and an additional SRM-2. Its armor protection is also increased to 14 tons.",
+    "Icon": "uixVhclIcon_brutus",
+    "Cost": 3555125,
+    "Rarity": 1,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 285,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 285,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 230,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 230,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 230,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 230,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 225,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 225,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3005-01-01T00:00:00Z"
+}

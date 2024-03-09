@@ -1,0 +1,66 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_weaponless",
+      "unit_light",
+      "unit_hover",
+      "unit_noncombatant",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_PEGASUS_UA",
+  "Description": {
+    "Id": "vehicledef_PEGASUS_UA",
+    "Name": "Pegasus Scout Hover Tank",
+    "UIName": "Pegasus Scout Hover Tank (Unarmed)",
+    "Details": "<b>Name: <color=#85DBF6>Pegasus Scout Hover Tank (Unarmed)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Pegasus is a popular recon hovercraft due to its good speed, decent armor, and respectable firepower. It can be found in almost all militaries, having been introduced during the First Succession War.\n\nThis 2873 variant of the Pegasus removes all weaponry to provide twelve tons of cargo space.",
+    "Icon": "uixVhclIcon_pegasus",
+    "Cost": 428825,
+    "Rarity": 3,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [],
+  "MinAppearanceDate": "2873-01-01T00:00:00Z"
+}

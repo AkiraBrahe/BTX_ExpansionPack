@@ -1,0 +1,134 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Long Tom",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_LONGTOM-LT-MOB-25",
+    "Name": "Long Tom LT-MOB-25",
+    "Details": "<b>Name: <color=#85DBF6>Mobile Long Tom Artillery LT-MOB-25</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 ICE</color></b>\n\nThe Mobile Long Tom, a heavy artillery vehicle, is a massive convoy of six vehicles. The main unit is a 65-ton tracked vehicle that includes a pair of 5-ton support carriages, followed by three 10-ton ammunition carriages. Each vehicle has only two tons of armor, but the LT-MOB-25 is not meant to be anywhere near combat. For this reason, it relies on defensive units for anti-air support.\n\nThe purpose of this entire convoy is to move a single weapon: a Long Tom Rifle Mobile Chassis System. The artillery piece is capable of extremely long-range fire, making it ideal for demolishing defensive fortifications rather than engaging mobile targets. The only short-range weapons are four side-mounted Machine Guns, which are more suited for anti-infantry defense.",
+    "Icon": "uixVhclIcon_longtom",
+    "Cost": 1920146,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_3-5cv",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_longtom",
+  "PrefabIdentifier": "chrprfvhcl_longtombase1",
+  "PrefabBase": "longtom",
+  "Tonnage": 95,
+  "weightClass": "ASSAULT",
+  "BattleValue": 1139,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 240,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 240,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 240,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 240,
+      "InternalStructure": 50
+    }
+  ]
+}

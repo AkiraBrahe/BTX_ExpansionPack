@@ -1,0 +1,82 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_APC_HeavyWheeled",
+  "Description": {
+    "Id": "vehicledef_APC_HeavyWheeled",
+    "Name": "Heavy Wheeled APC",
+    "UIName": "Heavy Wheeled APC (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Heavy Wheeled APC (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nThe Heavy Wheeled APC is a larger version of the Wheeled APC that can carry two platoons of infantry.\n\nAlthough not a fighting vehicle like its standard counterpart, the Heavy Wheeled APC carries two front-mounted Machine Guns supplied by half a ton of ammunition, intended only for defense against other infantry units. The lack of a turret makes the APC particularly vulnerable to flanking attacks from the rear, but most can successfully unload their troops before an enemy is in position to launch such an attack.",
+    "Icon": "uixVhclIcon_heavywheeledapc",
+    "Cost": 119717,
+    "Rarity": 2,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 65,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 65,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 65,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 65,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2470-01-01T00:00:00Z"
+}

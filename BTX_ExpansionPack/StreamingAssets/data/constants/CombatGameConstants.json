@@ -1,0 +1,18 @@
+{
+  "Phase": {
+    "PhaseLightVehicle": 3,
+    "PhaseMediumVehicle": 4,
+    "PhaseHeavyVehicle": 5,
+    "PhaseAssaultVehicle": 5
+  },
+  "ToHit": {
+    "ToHitVehicleLight": 2,
+    "ToHitVehicleMedium": 1,
+    "ToHitVehicleHeavy": 0,
+    "ToHitVehicleAssault": 0
+  },
+  "CombatValueMultipliers": {
+    "ArmorMultiplierVehicle": 1,
+    "StructureMultiplierVehicle": 1
+  }
+}

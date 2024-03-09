@@ -1,0 +1,96 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_assault",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_lance_assassin",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_FURY",
+  "Description": {
+    "Id": "vehicledef_FURY",
+    "Name": "Fury Command Tank",
+    "UIName": "Fury Command Tank (Original)",
+    "Details": "<b>Name: <color=#85DBF6>Fury Command Tank (Original)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>320 Fusion</color></b>\n\nThe Fury began as a Star League Defense Force command and control tank, quickly becoming popular for its weaponry and level of protection. It was later produced in variants with more direct combat and combined arms roles.\n\nThe original model's only weapon is a turret-mounted Gauss Rifle, combined with one of the fastest battlefield computers available, which functioned like a primitive version of the Draconis Combine-developed C3 network. This gives the Fury excellent range and firepower, but its minimum effective distance hampers it. Two tons of ammunition give it decent endurance in the field for a vehicle not intended to slug it out on the front line.",
+    "Icon": "uixVhclIcon_fury",
+    "Cost": 4174500,
+    "Rarity": 1,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 300,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 300,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 195,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 195,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 195,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 195,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 180,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 180,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 290,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 290,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Gauss_Gauss_Sa_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_General_Nirasaki-400X_Battle_Computer",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2637-01-01T00:00:00Z"
+}

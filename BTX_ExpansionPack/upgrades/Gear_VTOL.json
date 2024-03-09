@@ -1,0 +1,88 @@
+{
+  "Description": {
+    "Cost": 1000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "",
+    "UIName": "VTOL Propulsion",
+    "Id": "Gear_VTOL",
+    "Name": "VTOL Propulsion",
+    "Details": "VTOL Propulsion",
+    "Icon": "uixSvgIcon_equipment_HeatBank"
+  },
+  "BonusValueA": "+ 2 Evasion",
+  "BonusValueB": "+ 3 Hit Defense",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-VTOL-MaxEvasion",
+        "Name": "EVASIVE MOVE",
+        "Details": "VTOLs generate [AMT] extra EVASIVE charges from movement actions (up to their maximum).",
+        "Icon": "uixSvgIcon_action_evasivemove"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "EvasivePipsGainedAdditional",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-VTOL-Defense_ToHit",
+        "Name": "HARDER TO HIT",
+        "Details": "Provides a [AMT] penalty to all attacks against this unit.",
+        "Icon": "uixSvgIcon_ability_sureFooting"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ToHitThisActor",
+        "operation": "Float_Add",
+        "modValue": "3.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

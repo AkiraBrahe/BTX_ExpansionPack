@@ -1,0 +1,125 @@
+{
+  "Category": "AntiPersonnel",
+  "Type": "Flamer",
+  "WeaponSubType": "Flamer",
+  "MinRange": 0,
+  "MaxRange": 90,
+  "RangeSplit": [
+    90,
+    90,
+    90
+  ],
+  "ammoCategoryID": "Flamer",
+  "StartingAmmoCapacity": 4,
+  "HeatGenerated": 0,
+  "Damage": 5,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 10,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 0,
+  "Instability": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_Flamer",
+  "Description": {
+    "Cost": 15000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "General Motors",
+    "Model": "Heat Damage Flamethrower",
+    "UIName": "Vehicle Flamer",
+    "Id": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+    "Name": "Vehicle Flamer",
+    "Details": "The Vehicle Flamer performs the same as a 'Mech-mounted Flamer, venting superheated gases at a target to cause it to overheat/burn up. As most non-'Mech combat units lack expensive fusion reactors, vehicle flamers instead draw from a pool of combusting \"ammunition\" and use that to generate the stream of hot gas.",
+    "Icon": "uixSvgIcon_weapon_Support"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Flamer",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-HeatDamageReduction",
+        "Name": "Inferno VFX",
+        "Details": "Reduces incoming heat damage by 2%, stacks.",
+        "Icon": "uixSvgIcon_statusOnFire"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "statName": "CACIncomingHeatMult",
+        "operation": "Float_Multiply",
+        "modValue": "0.98",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInStatusPanel": false,
+        "hideApplicationFloatie": true
+      },
+      "effectType": "VFXEffect",
+      "Description": {
+        "Id": "StatusEffect-Inferno-VFX",
+        "Name": "Inferno VFX",
+        "Details": "Visual indicator of the Inferno effect",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "vfxData": {
+        "vfxName": "vfxPrfPrtl_weaponLRM_napalmStatus_B",
+        "attachToImpactPoint": true,
+        "location": -1,
+        "isAttached": true,
+        "facesAttacker": false,
+        "isOneShot": false,
+        "duration": -1.0
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_close",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FireTerrainChance": 0.75,
+  "FireTerrainStrength": 1,
+  "FireOnSuccessHit": true
+}

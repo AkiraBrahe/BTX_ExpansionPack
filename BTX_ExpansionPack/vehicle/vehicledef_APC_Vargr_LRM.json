@@ -1,0 +1,104 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_heavy",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_lance_tank",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_APC_Vargr_LRM",
+  "Description": {
+    "Id": "vehicledef_APC_Vargr_LRM",
+    "Name": "Vargr APC Tank",
+    "UIName": "Vargr APC Tank (LRM)",
+    "Details": "<b>Name: <color=#85DBF6>Vargr APC Tank (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Vargr, meaning \"Wolf\" in Old Norse, is a large APC with a seven-ton infantry bay and substantial armor protection. This allows it to carry a significant number of troops to the battlefield and deliver them safely.\n\nThis version of the Vargr retains its Machine Guns but swaps the Medium Lasers, heat sinks, and adapters for a turret-mounted LRM-15 with 8 rounds of ammunition.",
+    "Icon": "uixVhclIcon_vargr",
+    "Cost": 961288,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 250,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 250,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 230,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 230,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 230,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 230,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 220,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 220,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 230,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 230,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2945-01-01T00:00:00Z"
+}

@@ -1,0 +1,111 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "M.A.S.H. Truck",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_MASHTruck-UA",
+    "Name": "M.A.S.H. Truck (UA)",
+    "Details": "<b>Name: <color=#85DBF6>M.A.S.H. Truck (Unarmed)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>80 Fusion</color></b>\n\nM.A.S.H. Trucks (Mobile Army Surgical Hospital) are mobile medical units equipped with state-of-the-art medical equipment and surgical facilities. They are often deployed near the front lines, so that they can provide immediate care to injured soldiers.\n\nMany doctors feel that arming a M.A.S.H. Truck violates their Hippocratic Oath, and have the weapons removed. These variants generally mount additional armor, or in this case, additional cargo space for infantry.",
+    "Icon": "uixVhclIcon_mashtruck",
+    "Cost": 238333,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_5-8cv",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_mashtruck",
+  "PrefabIdentifier": "chrprfvhcl_mash",
+  "PrefabBase": "mash",
+  "Tonnage": 20,
+  "weightClass": "LIGHT",
+  "BattleValue": 213,
+  "TopSpeed": 86.4,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 6,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": 7
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": 7
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": -9
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 10
+    }
+  ]
+}
