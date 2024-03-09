@@ -1,0 +1,39 @@
+{
+  "lanceKey": "Augmented_Armor_Lance",
+  "lanceDefId": "lancedef_augmented_armor_dynamic_battle1",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    }
+  ]
+}

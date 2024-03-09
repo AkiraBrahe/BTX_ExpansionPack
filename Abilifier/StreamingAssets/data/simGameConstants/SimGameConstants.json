@@ -1,0 +1,141 @@
+{
+	"Progression" : {
+		"GunnerySkills" :[
+			[
+				"TraitDefWeaponHit1"
+			],
+			[
+				"TraitDefWeaponHit2"
+			],
+			[
+				"TraitDefWeaponHit3"
+			],
+			[
+				"TraitDefWeaponHit4"
+			],
+			[
+				"TraitDefWeaponHit5",
+				"AbilityDefG5",
+				"AbilityDefG5V"
+			],
+			[
+				"TraitDefWeaponHit6"
+			],
+			[
+				"TraitDefWeaponHit7"
+			],
+			[
+				"TraitDefWeaponHit8",
+				"AbilityDefG8",
+				"AbilityDefG8V"
+			],
+			[
+				"TraitDefWeaponHit9"
+			],
+			[
+				"TraitDefWeaponHit10"
+			]
+		],
+		"PilotingSkills" :[
+			[
+				"TraitDefMeleeHit1"
+			],
+			[
+				"TraitDefMeleeHit2"
+			],
+			[
+				"TraitDefMeleeHit3"
+			],
+			[
+				"TraitDefMeleeHit4",
+				"TraitDefUnsteadySet60"
+			],
+			[
+				"TraitDefMeleeHit5",
+				"AbilityDefP5",
+				"AbilityDefP5V"
+			],
+			[
+				"TraitDefMeleeHit6",
+				"TraitDefEvasiveChargeAddOne"
+			],
+			[
+				"TraitDefMeleeHit7",
+				"TraitDefSprintIncrease20"
+			],
+			[
+				"TraitDefMeleeHit8",
+				"AbilityDefP8",
+				"AbilityDefP8V"
+			],
+			[
+				"TraitDefMeleeHit9",
+				"TraitDefUnsteadySet80"
+			],
+			[
+				"TraitDefMeleeHit10",
+				"TraitDefEvasiveChargeAddTwo"
+			]
+		],
+		"GutsSkills" :[
+			[        ],
+			[        ],
+			[        ],
+			[
+				"TraitDefHealthAddOne"
+			],
+			[
+				"TraitDefRefireReduceOne",
+				"AbilityDefGu5",
+				"AbilityDefGu5V"
+			],
+			[
+				"TraitDefOverheatAddFifteen"
+			],
+			[
+				"TraitDefHealthAddTwo"
+			],
+			[
+				"TraitDefRefireReduceTwo",
+				"AbilityDefGu8",
+				"AbilityDefGu8V"
+			],
+			[
+				"TraitDefOverheatAddThirty"
+			],
+			[
+				"TraitDefHealthAddThree"
+			]
+		],
+		"TacticsSkills" :[
+			[        ],
+			[        ],
+			[        ],
+			[
+				"TraitDefIndirectReduceOne"
+			],
+			[
+				"TraitDefMinRangeReduce45",
+				"AbilityDefT5A",
+				"AbilityDefT5AV"
+			],
+			[
+				"TraitDefCalledShotImprove"
+			],
+			[
+				"TraitDefIndirectReduceTwo"
+			],
+			[
+				"TraitDefMinRangeReduce90",
+				"AbilityDefT8A",
+				"AbilityDefT8AV"
+			],
+			[
+				"TraitDefCalledShotMaster"
+			],
+			[
+				"TraitDefIndirectReduceThree"
+			]
+		]
+	}
+}

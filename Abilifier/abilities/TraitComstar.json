@@ -1,0 +1,60 @@
+{
+  "Description": {
+    "Id": "TraitComstar",
+    "Name": "ComGuard Pilot Trait",
+    "Details": "PASSIVE: ComGuard pilots are familiar with Lostech optics and sensors, and can use to a significantly better degree as other pilots.",
+    "Icon": "uixSvgIcon_ability_mastertactician"
+  },
+  "Type": "LostechSensors",
+  "ShortDesc": "10% better sight and sensors.",
+  "DisplayParams": "ShowInPilotToolTip",
+  "ActivationTime": "Passive",
+  "EffectData": [
+	{
+	  "durationData": {
+		"duration": -1
+	  },
+	  "targetingData": {
+		"effectTriggerType": "Passive",
+		"effectTargetType": "Creator"
+	  },
+	  "effectType": "StatisticEffect",
+	  "Description": {
+		"Id": "TraitClannerSight",
+		"Name": "Increased view Distance",
+		"Details": "+10% View Distance",
+		"Icon": "uixSvgIcon_ability_mastertactician"
+	  },
+	  "statisticData": {
+		"statName": "SpotterDistanceMultiplier",
+		"operation": "Float_Multiply",
+		"modValue": "1.10",
+		"modType": "System.Single"
+	  },
+	  "nature": "Buff"
+	},
+	{
+	  "durationData": {
+		"duration": -1
+	  },
+	  "targetingData": {
+		"effectTriggerType": "Passive",
+		"effectTargetType": "Creator"
+	  },
+	  "effectType": "StatisticEffect",
+	  "Description": {
+		"Id": "TraitClannerSensors",
+		"Name": "Increased view Distance",
+		"Details": "+10% View Distance",
+		"Icon": "uixSvgIcon_ability_mastertactician"
+	  },
+	  "statisticData": {
+		"statName": "SensorDistanceMultiplier",
+		"operation": "Float_Multiply",
+		"modValue": "1.10",
+		"modType": "System.Single"
+	  },
+	  "nature": "Buff"
+	}
+  ]
+}

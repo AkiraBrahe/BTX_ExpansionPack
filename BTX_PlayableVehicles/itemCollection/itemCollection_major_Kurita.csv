@@ -1,0 +1,8 @@
+itemCollection_major_Kurita,,,
+itemCollection_Ammo_Kurita,Reference,0,1
+itemCollection_Components_base,Reference,0,1
+itemCollection_shopItems_weapons_kurita,Reference,9,1
+itemCollection_systemStores_MechParts_Kurita,Reference,10,1
+itemCollection_systemStores_Mechs_Kurita,Reference,6,1
+itemCollection_timebased_GreatHouse,Reference,2,1
+itemCollection_Vehicles_Kurita,Reference,8,1

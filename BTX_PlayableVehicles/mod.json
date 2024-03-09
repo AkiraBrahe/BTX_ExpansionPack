@@ -1,0 +1,18 @@
+{
+    "Name": "BTX_PlayableVehicles",
+    "Enabled": true,
+
+	"Version": "0.2",
+	
+    "Description": "",
+    "Author": "lordruthermore",
+	
+	"DependsOn": [ "BT_Extended_Timeline", "BT_Extended", "BT_Extended_Clans", "CustomUnits", "BTX_CAC_Compatibility" ],
+	"OptionallyDependsOn": [ "BTX_OpForVehicles" ],
+
+	"Manifest": [
+		{ "Path": "advancedMerge", "Type": "AdvancedJSONMerge" },
+		{ "Path": "itemCollection", "Type": "ItemCollectionDef", "AddToDB": true, "ShouldAppendText": false },
+		{ "Path": "piloting_classes", "Type": "PilotingClassDef" }
+		]
+}

@@ -1,0 +1,89 @@
+{
+  "LancePool": {
+    "ALL": [ "Generic_Vehicle_Lance" ],
+
+    "FACTION:DiamondShark:-100:100": [ "Clan_Vehicle_Lance" ],
+    "FACTION:GhostBear:-100:100": [ "Clan_Vehicle_Lance" ],
+    "FACTION:JadeFalcon:-100:100": [ "Clan_Battle_Lance", "Clan_Vehicle_Lance" ],
+    "FACTION:NovaCat:-100:100": [ "Clan_Vehicle_Lance" ],
+    "FACTION:SmokeJaguar:-100:100": [ "Clan_Vehicle_Lance" ],
+    "FACTION:SteelViper:-100:100": [ "Clan_Vehicle_Lance" ],
+    "FACTION:Wolf:-100:100": [ "Clan_Vehicle_Lance" ],
+    "FACTION:WolfInExile:-100:100": [ "Clan_Vehicle_Lance" ],
+
+  	"FACTION:ComStar:-100:100": [ "ComStar_Mixed_Lance", "ComStar_Mixed_Lance2", "ComStar_Vehicle_Lance" ],
+  	"FACTION:WordOfBlake:-100:100": [ "ComStar_Mixed_Lance", "ComStar_Mixed_Lance2", "ComStar_Vehicle_Lance" ],
+
+    "FACTION:LiaoA:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA2:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA3:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA4:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA5:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA6:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA7:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA8:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA9:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA10:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA11:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA12:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA13:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA14:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA15:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+    "FACTION:LiaoA16:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
+
+    "FACTION:MarikA:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA2:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA3:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA4:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA5:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA6:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA7:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA8:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA9:-100:100": [ "Augmented_Vehicle_Lance" ],
+    "FACTION:MarikA10:-100:100": [ "Augmented_Vehicle_Lance" ],
+
+    "FACTION:TaurianConcordat:-100:100": [ "Augmented_Vehicle_Lance2" ],
+    "FACTION:TaurianConcordatA1:-100:100": [  "Augmented_Vehicle_Lance" ]
+  },
+	"RewardsPerLance": [
+	  {
+		"Type": "ContractBonusRewardFlat",
+		"Value": "25000"
+	  },
+	  {
+		"Type": "ContractBonusRewardPct",
+		"Value": "0.25"
+	  },
+      {
+        "Type": "ContractBonusEmployerReputation",
+        "Value": "1"
+      },
+      {
+        "Type": "ContractBonusTargetReputation",
+        "Value": "0"
+      }
+	],
+  "Enemy": {
+    "Max": 1,
+    "ExcludeContractTypes": [],
+    "ChanceToSpawn": 0,
+    "EliteLances": {
+      "Conditions": ["IsEnemy"],
+      "Suffix": "_Elite",
+      "Overrides": {
+        "ChanceToSpawn": 0.2
+      }
+    }
+  },
+  "Allies": {
+    "Max": 0,
+    "ChanceToSpawn": 0.1,
+    "EliteLances": {
+      "Conditions": ["IsAlly"],
+      "Overrides": {
+        "Max": 1,
+        "ChanceToSpawn": 0.2
+      }
+    }
+  }
+}

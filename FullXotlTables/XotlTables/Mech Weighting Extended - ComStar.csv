@@ -232,7 +232,7 @@ mechdef_excalibur_EXC-B2,36,,36,Jump:3052-05-20T00:00:00Z,25,,22
 mechdef_blackknight_BL-6-KNT,78,,78,Jump:3052-05-20T00:00:00Z,27,,27
 mechdef_dragoon_AEM-03,5,,5,Jump:3052-05-20T00:00:00Z,3,,3
 mechdef_caesar_CES-3R,0,,0,3052-06-01T00:00:00Z,18,,29
-mechdef_orion_ON1-MD,0,,0,,0,,0
+mechdef_orion_ON1-MD,0,,0,,0,3062-01-01T00:00:00Z,18
 mechdef_archer_ARC-5CS,0,,0,3052-01-01T00:00:00Z,9,,8
 mechdef_helios_HEL-3D,0,,0,,0,3058-01-01T00:00:00Z,26
 mechdef_jagermech_JM6-DG,0,,0,3054-01-01T00:00:00Z,9,,8
