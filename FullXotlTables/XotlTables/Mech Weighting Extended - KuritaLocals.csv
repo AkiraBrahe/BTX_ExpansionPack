@@ -1,8 +1,8 @@
 KuritaLocals,,,,,,,
-Dates,3025-01-01T00:00:00Z,,3039-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3057-01-01T00:00:00Z
+Collection:SecurityForces,5,,5,,5,,5
 Salvage:DavionLocals,25,,30,,30,,30
 Salvage:SteinerLocals,25,,30,,30,,30
-,,,,,,,
+Dates,3025-01-01T00:00:00Z,,3039-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3057-01-01T00:00:00Z
 Lights,,,,,,,
 mechdef_stinger_STG-3R,43,,41,,40,,38
 mechdef_wasp_WSP-1K,43,,41,,40,,87

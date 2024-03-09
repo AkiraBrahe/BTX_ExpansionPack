@@ -1,82 +1,51 @@
 {
   "Name": "FullXotlTables",
   "Enabled": true,
+
   "Version": "1.9.3.6",
+
   "Description": "Full faction mech and vehicle rarity based on in game date.  Based entirely on Xotl's D1000 tables with additional mechs added from HBS and other rare mechs.",
   "Author": "Haree78",
   "Website": "https://bg.battletech.com/forums/index.php/topic,1219.0.html",
   "Contact": "https://discord.gg/KSmamMz",
+
   "DLL": "FullXotlTables.dll",
-  "Settings": {
+
+    "Settings":
+  {
     "RespectUnitLanceRole": true,
     "RespectUnitAIRole": true,
     "RespectUnitTraits": true,
+
     "MinWeightToRespectTags": 100,
+
     "IgnoreRepetitionOnce": true,
     "CommonMechFlattenFactor": 1.0,
     "CommonMechFlattenFloor": 50,
+
     "UnitSpecial": {
-      "DavionA15": [
-        "Slow"
-      ],
-      "DavionC12": [
-        "RangeShort"
-      ],
-      "DavionC16": [
-        "Fast"
-      ],
-      "DavionC17": [
-        "Fast"
-      ],
-      "DavionC18": [
-        "Fast"
-      ],
-      "DavionC19": [
-        "Fast"
-      ],
-      "DavionC20": [
-        "Fast"
-      ],
-      "DavionC21": [
-        "Fast"
-      ],
-      "DavionC22": [
-        "Mobility"
-      ],
-      "DavionC23": [
-        "Mobility"
-      ],
-      "DavionC31": [
-        "Fast"
-      ],
-      "DavionC33": [
-        "Mobility"
-      ],
-      "DavionC37": [
-        "Mobility"
-      ],
-      "SteinerC11": [
-        "Fast"
-      ],
-      "SteinerC36": [
-        "Mobility"
-      ],
-      "Merc80": [
-        "Fast"
-      ],
-      "Merc82": [
-        "Mobility"
-      ],
-      "Merc83": [
-        "Fast"
-      ],
-      "Merc85": [
-        "Mobility"
-      ],
-      "ChaosMarch11": [
-        "RangeShort"
-      ]
+      "DavionA15": ["Slow"],
+      "DavionC12": ["RangeShort"],
+      "DavionC16": ["Fast"],
+      "DavionC17": ["Fast"],
+      "DavionC18": ["Fast"],
+      "DavionC19": ["Fast"],
+      "DavionC20": ["Fast"],
+      "DavionC21": ["Fast"],
+      "DavionC22": ["Mobility"],
+      "DavionC23": ["Mobility"],
+      "DavionC31": ["Fast"],
+      "DavionC33": ["Mobility"],
+      "DavionC37": ["Mobility"],
+      "SteinerC11": ["Fast"],
+      "SteinerC36": ["Mobility"],
+      "Merc80": ["Fast"],
+      "Merc82": ["Mobility"],
+      "Merc83": ["Fast"],
+      "Merc85": ["Mobility"],
+      "ChaosMarch11": ["RangeShort"]
     },
+
     "UnitToFactionCollection": {
       "WolfsDragoons": "BlackWidowCompany",
       "BaumannGroup": "AuriganPirates",
@@ -91,6 +60,7 @@
       "SianTriumphant": "DavionLocals",
       "HouseNakano": "KuritaLocals",
       "HouseKhulan": "LiaoLocals",
+      "Morenci": "AuriganPirates",
       "LocalPunks": "DavionLocals",
       "FirestarterRecords": "SecurityForces",
       "DCRecords": "SecurityForces",
@@ -525,6 +495,7 @@
       "MagistracyOfCanopusA1": "MagistracyOfCanopusA",
       "NewColonyRegion": "FroncReaches"
     },
+
     "UnitToFactionVeeCollection": {
       "WolfsDragoons": "BlackWidowCompany",
       "BaumannGroup": "AuriganPirates",
@@ -539,6 +510,7 @@
       "SianTriumphant": "Davion",
       "HouseNakano": "Kurita",
       "HouseKhulan": "Liao",
+      "Morenci": "AuriganPirates",
       "LocalPunks": "Davion",
       "FirestarterRecords": "SecurityForces",
       "DCRecords": "SecurityForces",
@@ -973,264 +945,134 @@
       "MagistracyOfCanopusA1": "MagistracyOfCanopusA",
       "NewColonyRegion": "FroncReaches"
     },
+
     "UnitReplacement": {
-      "KuritaC14": {
-        "mechdef_panther_PNT-9R": "mechdef_panther_PNT-9ALAG"
-      }
+      "KuritaC14": { "mechdef_panther_PNT-9R" : "mechdef_panther_PNT-9ALAG" }
     },
+
     "UnitWeightBoost": {
       "LiaoA11": {
-        "mechdef_catapult_CPLT-A1": 2.0,
+        "mechdef_catapult_CPLT-A1" : 2.0,
         "mechdef_catapult_CPLT-C4": 2.0,
         "mechdef_catapult_CPLT-C3": 2.0,
         "mechdef_catapult_CPLT-C1": 2.0,
         "mechdef_catapult_CPLT-C4C": 2.0,
         "mechdef_thunderbolt_TDR-5S": 2.0,
-        "mechdef_thunderbolt_TDR-7M": 2.0
-      },
+        "mechdef_thunderbolt_TDR-7M" : 2.0 },
+
       "LiaoC11": {
-        "mechdef_ostscout_OTT-7J": 2.0,
+        "mechdef_ostscout_OTT-7J" : 2.0,
         "mechdef_warhammer_WHM-6R": 2.0,
-        "mechdef_warhammer_WHM-6L": 2.0
-      },
+        "mechdef_warhammer_WHM-6L" : 2.0 },
+
       "LiaoC21": {
-        "mechdef_ostscout_OTT-7J": 2.0,
+        "mechdef_ostscout_OTT-7J" : 2.0,
         "mechdef_warhammer_WHM-6R": 2.0,
-        "mechdef_warhammer_WHM-6L": 2.0
-      },
+        "mechdef_warhammer_WHM-6L" : 2.0 },
+
       "LiaoC13": {
-        "mechdef_ostscout_OTT-7J": 2.0
-      },
+        "mechdef_ostscout_OTT-7J" : 2.0 },
+
       "LiaoC14": {
-        "mechdef_wasp_WSP-1L": 2.0,
+        "mechdef_wasp_WSP-1L" : 2.0,
         "mechdef_wasp_WSP-1A": 2.0,
         "mechdef_catapult_CPLT-A1": 4.0,
         "mechdef_catapult_CPLT-C4": 4.0,
-        "mechdef_catapult_CPLT-C1": 4.0
-      },
+        "mechdef_catapult_CPLT-C1" : 4.0 },
+
       "LiaoC16": {
-        "mechdef_archer_ARC-2R": 2.0
-      },
+        "mechdef_archer_ARC-2R" : 2.0 },
+
       "Ives7": {
-        "mechdef_archer_ARC-2R": 2.0
-      },
+        "mechdef_archer_ARC-2R" : 2.0 },
+
       "MarikC2": {
-        "mechdef_hermesII_HER-2S": 2.0,
+        "mechdef_hermesII_HER-2S" : 2.0,
         "mechdef_hermesII_HER-2M": 2.0,
-        "mechdef_hermesII_HER-5S": 2.0
-      },
+        "mechdef_hermesII_HER-5S" : 2.0 },
+
       "Merc32": {
-        "mechdef_locust_LCT-1V": 2.0,
+        "mechdef_locust_LCT-1V" : 2.0,
         "mechdef_locust_LCT-3V": 2.0,
         "mechdef_locust_LCT-1E": 2.0,
         "mechdef_ostroc_OSR-2C": 2.0,
         "mechdef_ostroc_OSR-2L": 2.0,
-        "mechdef_ostroc_OSR-3C": 2.0
-      }
+        "mechdef_ostroc_OSR-3C" : 2.0 }
     },
+
     "UnitWeightAdditional": {
-      "LiaoC13": {
-        "Medium": {
-          "mechdef_centurion_CN9-A": 140
-        }
-      },
-      "LiaoC16": {
-        "Medium": {
-          "mechdef_enforcer_ENF-4R": 140
-        }
-      },
-      "Ives7": {
-        "Medium": {
-          "mechdef_enforcer_ENF-4R": 140
-        }
-      }
+      "LiaoC13": { "Medium" : { "mechdef_centurion_CN9-A" : 140 } },
+      "LiaoC16": { "Medium" : { "mechdef_enforcer_ENF-4R" : 140 } },
+      "Ives7": { "Medium" : { "mechdef_enforcer_ENF-4R" : 140 } }
     },
-    "UnitPreviousCollection": {
-      "Ives7": {
-        "Liao": 3030
-      },
-      "ChaosMarch4": {
-        "Davion": 3057
-      },
-      "ChaosMarch7": {
-        "Davion": 3057
-      },
-      "ChaosMarch12": {
-        "Davion": 3057
-      },
-      "ChaosMarch15": {
-        "Liao": 3057
-      },
-      "Merc4": {
-        "Liao": 3029
-      },
-      "Merc8": {
-        "LiaoLocals": 3025
-      },
-      "Merc11": {
-        "KuritaLocals": 3030
-      },
-      "Merc12": {
-        "Davion": 3039
-      },
-      "Merc16": {
-        "Kurita": 3025
-      },
-      "Merc22": {
-        "Davion": 3030
-      },
-      "Merc23": {
-        "Steiner": 3049
-      },
-      "Merc24": {
-        "Steiner": 3034
-      },
-      "Merc26": {
-        "Steiner": 3039
-      },
-      "Merc29": {
-        "Kurita": 3023
-      },
-      "Merc34": {
-        "Davion": 3026
-      },
-      "Merc36": {
-        "Kurita": 3034
-      },
-      "Merc37": {
-        "Davion": 3055
-      },
-      "Merc41": {
-        "Davion": 3053
-      },
-      "Merc43": {
-        "Kurita": 3030
-      },
-      "Merc50": {
-        "Marik": 3038
-      },
-      "Merc53": {
-        "Liao": 3030
-      },
-      "Merc54": {
-        "HostileMercenaries": 3025
-      },
-      "Merc56": {
-        "Kurita": 3030
-      },
-      "Merc57": {
-        "Davion": 3050
-      },
-      "Merc58": {
-        "SteinerLocals": 3025
-      },
-      "Merc60": {
-        "Kurita": 3030
-      },
-      "Merc61": {
-        "Steiner": 3052
-      },
-      "Merc62": {
-        "Marik": 3018
-      },
-      "Merc63": {
-        "SteinerA": 3035
-      },
-      "Merc65": {
-        "MarikLocals": 3040
-      },
-      "Merc67": {
-        "HostileMercenaries": 3039
-      },
-      "Merc71": {
-        "HostileMercenaries": 3022
-      },
-      "Merc72": {
-        "Steiner": 3054
-      },
-      "Merc74": {
-        "MarikLocals": 3038
-      },
-      "Merc77": {
-        "Davion": 3030
-      },
-      "Merc79": {
-        "SteinerLocals": 3040
-      },
-      "Merc83": {
-        "DavionLocals": 3050
-      },
-      "Merc84": {
-        "DavionLocals": 3050
-      },
-      "Merc85": {
-        "DavionLocals": 3050
-      },
-      "Merc87": {
-        "Steiner": 3028
-      },
-      "Merc90": {
-        "Steiner": 3030
-      },
-      "Merc92": {
-        "MarikLocals": 3038
-      },
-      "Merc93": {
-        "Davion": 3057
-      },
-      "Merc95": {
-        "Marik": 3037
-      },
-      "Merc96": {
-        "Rasalhague": 3052
-      },
-      "Merc97": {
-        "Marik": 3058
-      },
-      "Merc99": {
-        "Marik": 3059
-      },
-      "Merc101": {
-        "Steiner": 3058
-      },
-      "Merc102": {
-        "Steiner": 3039
-      },
-      "Merc103": {
-        "Davion": 3053
-      },
-      "Merc104": {
-        "Marik": 3053
-      },
-      "Merc105": {
-        "Marik": 3059
-      },
-      "Merc106": {
-        "Marik": 3057
-      },
-      "Merc107": {
-        "DavionLocals": 3054
-      },
-      "Merc108": {
-        "HostileMercenaries": 3056
-      },
-      "Merc110": {
-        "Steiner": 3059
-      },
-      "Merc112": {
-        "Liao": 3057
-      },
-      "Merc114": {
-        "Steiner": 3050
-      },
-      "Merc115": {
-        "Marik": 3059
-      },
-      "Merc118": {
-        "MagistracyOfCanopus": 3059
-      }
+
+    "UnitPreviousCollection":
+    {
+      "Ives7" : { "Liao" : 3030 },
+      "ChaosMarch4" : { "Davion" : 3057 },
+      "ChaosMarch7" : { "Davion" : 3057 },
+      "ChaosMarch12" : { "Davion" : 3057 },
+      "ChaosMarch15" : { "Liao" : 3057 },
+      "Merc4" : { "Liao" : 3029 },
+      "Merc8" : { "LiaoLocals" : 3025 },
+      "Merc11" : { "KuritaLocals" : 3030 },
+      "Merc12" : { "Davion" : 3039 },
+      "Merc16" : { "Kurita" : 3025 },
+      "Merc22" : { "Davion" : 3030 },
+      "Merc23" : { "Steiner" : 3049 },
+      "Merc24" : { "Steiner" : 3034 },
+      "Merc26" : { "Steiner" : 3039 },
+      "Merc29" : { "Kurita" : 3023 },
+      "Merc34" : { "Davion" : 3026 },
+      "Merc36" : { "Kurita" : 3034 },
+      "Merc37" : { "Davion" : 3055 },
+      "Merc41" : { "Davion" : 3053 },
+      "Merc43" : { "Kurita" : 3030 },
+      "Merc50" : { "Marik" : 3038 },
+      "Merc53" : { "Liao" : 3030 },
+      "Merc54" : { "HostileMercenaries" : 3025 },
+      "Merc56" : { "Kurita" : 3030 },
+      "Merc57" : { "Davion" : 3050 },
+      "Merc58" : { "SteinerLocals" : 3025 },
+      "Merc60" : { "Kurita" : 3030 },
+      "Merc61" : { "Steiner" : 3052 },
+      "Merc62" : { "Marik" : 3018 },
+      "Merc63" : { "SteinerA" : 3035 },
+      "Merc65" : { "MarikLocals" : 3040 },
+      "Merc67" : { "HostileMercenaries" : 3039 },
+      "Merc71" : { "HostileMercenaries" : 3022 },
+      "Merc72" : { "Steiner" : 3054 },
+      "Merc74" : { "MarikLocals" : 3038 },
+      "Merc77" : { "Davion" : 3030 },
+      "Merc79" : { "SteinerLocals" : 3040 },
+      "Merc83" : { "DavionLocals" : 3050 },
+      "Merc84" : { "DavionLocals" : 3050 },
+      "Merc85" : { "DavionLocals" : 3050 },
+      "Merc87" : { "Steiner" : 3028 },
+      "Merc90" : { "Steiner" : 3030 },
+      "Merc92" : { "MarikLocals" : 3038 },
+      "Merc93" : { "Davion" : 3057 },
+      "Merc95" : { "Marik" : 3037 },
+      "Merc96" : { "Rasalhague" : 3052 },
+      "Merc97" : { "Marik" : 3058 },
+      "Merc99" : { "Marik" : 3059 },
+      "Merc101" : { "Steiner" : 3058 },
+      "Merc102" : { "Steiner" : 3039 },
+      "Merc103" : { "Davion" : 3053 },
+      "Merc104" : { "Marik" : 3053 },
+      "Merc105" : { "Marik" : 3059 },
+      "Merc106" : { "Marik" : 3057 },
+      "Merc107" : { "DavionLocals" : 3054 },
+      "Merc108" : { "HostileMercenaries" : 3056 },
+      "Merc110" : { "Steiner" : 3059 },
+      "Merc112" : { "Liao" : 3057 },
+      "Merc114" : { "Steiner" : 3050 },
+      "Merc115" : { "Marik" : 3059 },
+      "Merc118" : { "MagistracyOfCanopus" : 3059 }
     },
+
     "UnitTransferYears": 20,
+
     "VehicleRarityTagCollection": [
       "unit_none_",
       "unit_ext_rare_",
@@ -1241,11 +1083,8 @@
       "unit_hero_"
     ]
   },
+
   "Manifest": [
-    {
-      "Type": "ContractOverride",
-      "Path": "contracts",
-      "AddToDB": true
-    }
+  { "Type": "ContractOverride", "Path": "contracts", "AddToDB": true }
   ]
 }

@@ -1,4 +1,5 @@
 DavionLocals,,,,,,,
+Collection:SecurityForces,5,,5,,5,,5
 Salvage:KuritaLocals,25,,25,,25,,25
 Salvage:LiaoLocals,25,,45,,45,,45
 Dates,3025-01-01T00:00:00Z,,3039-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3057-01-01T00:00:00Z
@@ -9,6 +10,7 @@ mechdef_wasp_WSP-1D,77,,71,,64,,58
 mechdef_locust_LCT-1M,62,,56,,52,,47
 mechdef_locust_LCT-1V,77,,71,,64,,57
 mechdef_hornet_HNT-152,4,,4,,3,,5
+mechdef_locust_LCT-1D,3,,3,,1,,1
 mechdef_hornet_HNT-151,4,,25,,32,,29
 mechdef_locust_LCT-3V,7,,6,,6,,5
 mechdef_stinger_STG-3G,39,,35,,32,,29
@@ -25,7 +27,6 @@ mechdef_spider_SDR-5V,27,,25,,23,,20
 mechdef_raven_RVN-1X,0,3028-09-01T00:00:00Z,10,,9,,8
 mechdef_javelin_JVN-10A,11,,10,,9,,15
 mechdef_valkyrie_VLK-QF,27,,25,,23,,20
-mechdef_locust_LCT-1D,3,,3,,1,,1
 mechdef_hermes_HER-1B,4,,4,,3,,0
 mechdef_firestarter_FS9-H,62,,56,,52,,29
 mechdef_valkyrie_VLK-QA,128,,116,,106,,96

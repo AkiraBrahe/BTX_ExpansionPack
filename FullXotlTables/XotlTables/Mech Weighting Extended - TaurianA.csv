@@ -1,5 +1,7 @@
 TaurianConcordatA,,,,,
 ,,,,,
+,,,,,
+,,,,,
 Dates,3025-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z
 Lights,,,,,
 mechdef_stinger_STG-3R,122,,152,,152
@@ -86,6 +88,7 @@ mechdef_catapult_CPLT-H2,0,,0,3064-01-01T00:00:00Z,3
 mechdef_archer_ARC-2R,203,,183,,183
 mechdef_warhammer_WHM-7M,0,3050-01-01T00:00:00Z,3,,10
 mechdef_grasshopper_GHR-5N,0,3040-01-01T00:00:00Z,10,,10
+mechdef_jinggau_JN-G8A,0,,0,3067-01-01T00:00:00Z,12
 Assaults,,,,,
 mechdef_longbow_LGB-0W,52,,65,,65
 mechdef_victor_VTR-9B,11,,10,,8

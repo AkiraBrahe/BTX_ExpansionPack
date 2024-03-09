@@ -40,7 +40,7 @@ mechdef_kyudo_KY2-D-02,40,,40,,40
 mechdef_galahad_GLH-1D,39,,39,,39
 mechdef_trebuchet_TBT-3C,3,,3,,3
 mechdef_screamerlam_SCR-1X-LAM,3,,3,,3
-mechdef_griffin_GRF-4N,114,,114,,114
+mechdef_griffin_GRF-2N,114,,114,,114
 Heavies,,,,,
 mechdef_ostroc_OSR-2C,21,,21,,21
 mechdef_champion_CHP-1N2,16,,16,,16
@@ -53,7 +53,6 @@ mechdef_catapult_CPLT-C4,5,,5,,5
 mechdef_lancelot_LNC25-05,21,,21,,21
 mechdef_helepolis_HEP-3H,21,,21,,21
 mechdef_exterminator_EXT-4D,16,,16,,16
-mechdef_bellerophon_BEL-2X,5,,5,,5
 mechdef_catapult_CPLT-C1,5,,5,,5
 mechdef_guillotine_GLT-3N,103,,103,,103
 mechdef_marauder_MAD-1R,66,,66,,66
@@ -85,8 +84,10 @@ mechdef_battlemaster_BLR-2C,3,,3,,3
 mechdef_battlemaster_BLR-1Gc,3,,3,,3
 mechdef_risingstar_RST-4R,3,,3,,3
 mechdef_awesome_AWS-8Q,102,,102,,102
+mechdef_spartan_SPT-N2,0,,57,,10
 mechdef_longbow_LGB-7Q,20,,20,,20
 mechdef_stalker_STK-3H,36,,36,,36
+mechdef_spartan_SPT-N3,0,,0,3064-01-01T00:00:00Z,5
 mechdef_thug_THG-11E,102,,102,,102
 mechdef_atlas_AS7-D,3,,3,,3
 mechdef_kingcrab_KGC-000,10,,10,,10
@@ -95,4 +96,4 @@ mechdef_mackie_MSK-9H,5,,5,,5
 mechdef_highlander_HGN-732,152,,152,,152
 mechdef_nightstar_NSR-9J,3,,3,,3
 mechdef_thunderhawk_TDK-7X,3,,3,,3
-mechdef_pillager_PLG-3Z,75,,75,,75
+mechdef_pillager_PLG-3Z,3,,3,,3

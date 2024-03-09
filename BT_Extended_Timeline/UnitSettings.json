@@ -1,0 +1,9335 @@
+{
+  "UnitLogging": true,
+
+  "UnitSpecialRules": {
+    "DavionA11": ["Assault"],
+    "DavionA12": ["Heavy"],
+    "DavionA13": ["Light"],
+    "DavionA16": ["Medium"],
+    "DavionC17": ["Medium"],
+    "DavionC18": ["Medium"],
+    "DavionC19": ["Medium"],
+    "DavionC20": ["Medium"],
+    "DavionC21": ["Heavy"],
+    "DavionC25": ["Light"],
+    "KuritaC8": ["Light"],
+    "KuritaC9": ["Heavy"],
+    "KuritaC10": ["Medium"],
+    "KuritaC14": ["Light"],
+    "KuritaC28": ["Light"],
+    "KuritaC31": ["Medium"],
+    "KuritaC33": ["Medium"],
+    "KuritaC38": ["Light"],
+    "KuritaC50": ["Light"],
+    "LiaoC5": ["Heavy"],
+    "LiaoC10": ["Light"],
+    "LiaoC13": ["Light"],
+    "LiaoC20": ["Heavy"],
+    "Merc62": ["Heavy"],
+    "Merc63": ["Heavy"],
+    "Merc67": ["Medium"],
+    "Merc75": ["Medium"],
+    "Merc81": ["Assault"],
+    "Merc84": ["Assault"],
+    "Merc88": ["Light"],
+    "ChaosMarch8": ["Medium"],
+    "ChaosMarch10": ["Assault"]
+  },
+
+    "MinAssaultDifficulty" : 7,
+    "MinHeavyDifficulty" : 5,
+    "MaxMediumDifficulty" : 8,
+    "MaxLightDifficulty" : 5,
+    "MaxLightOnlyDifficulty" : 3,
+
+  "MissionsToNotUseUnits": [
+    "AmbushConvoy_ProfessionalCourtesy",
+    "Assassinate_FalseSecurity",
+    "Assassinate_ThornInTheSide",
+    "Assassinate_InsurgentLeader",
+    "Assassinate_InsurgentLeader_Hard",
+    "Assassinate_InsurrectionInterception",
+    "Assassinate_RecruitmentDrive",
+    "CaptureBase_ProfessionalFacilityManagement",
+    "CaptureEscort_ProfessionalLifestyle",
+    "DefendBase_ProfessionalEthics",
+    "Rescue_ProfessionalExchange",
+    "SimpleBattle_LetterOfMarque",
+    "SimpleBattle_TablesTurned",
+    "SimpleBattle_TablesTurnedII",
+    "SimpleBattle_TablesTurnedIII"
+  ],
+
+  "MissionsToUseUnitsForEmployer": [
+    "ThreeWayBattle_Pincer",
+    "ThreeWayBattle_TagTeam",
+    "ThreeWayBattle_TagTeam_Alt",
+    "ThreeWayBattle_TheGauntlet",
+    "AttackDefend_Evacuation",
+    "AttackDefend_CoveringFire",
+    "ThreeWayBattle_TheRoyalFamilyK",
+    "ThreeWayBattle_TheRoyalFamilyD",
+    "ThreeWayBattle_TheRoyalFamilyL",
+    "ThreeWayBattle_TheRoyalFamilyM",
+    "ThreeWayBattle_TheRoyalFamilyS",
+    "ThreeWayBattle_TagTeam_CS",
+    "ThreeWayBattle_TagTeam_CS_Alt",
+    "ThreeWayBattle_TagTeam_CS_Betray",
+    "ThreeWayBattle_DangerousIncursion",
+    "ThreeWayBattle_UnwelcomeTrespass",
+    "AttackDefend_Berzerk",
+    "ThreeWayBattle_FatalFury",
+    "ThreeWayBattle_HeadOn",
+    "ThreeWayBattle_RollingThunder"
+  ],
+
+  "MissionsTargetIsMercs": [
+    "Assassinate_DeadOrAlive",
+    "CaptureEscort_PriceOfDiscretion",
+    "SimpleBattle_CleanOutTheMercs",
+    "CaptureBase_YearningToBreatheFree"
+  ],
+
+  "MissionsWDragoons": [
+    "Rescue_MinorInfraction",
+    "CaptureBase_ThisWarOfMine",
+    "CaptureBase_YearningToBreatheFree"
+  ],
+
+  "MissionsWDragoonsLowChance": [
+    "Assassinate_RecruitmentDrive",
+    "DestroyBase_CeaseAndDesist",
+    "Assassinate_KillerInstinct",
+    "AttackDefend_Berzerk",
+    "DestroyBase_DragonsLair",
+    "DestroyBase_DragonsLair_Alt",
+    "DestroyBase_Tempest",
+    "DestroyBase_TimeCrisis",
+    "DestroyBase_TotalCarnage",
+    "SimpleBattle_AlienStorm",
+    "SimpleBattle_BattleZone",
+    "SimpleBattle_OperationTiger",
+    "SimpleBattle_OperationWolf",
+    "SimpleBattle_Scramble",
+    "ThreeWayBattle_CrisisZone",
+    "ThreeWayBattle_FatalFury",
+    "ThreeWayBattle_InvaderWars",
+    "ThreeWayBattle_Liberator",
+    "ThreeWayBattle_MetalClash",
+    "ThreeWayBattle_Rampage",
+    "ThreeWayBattle_RollingThunder",
+    "ThreeWayBattle_ZeroHour",
+    "Rescue_EmbassyExtractionClan",
+    "Rescue_LostContactClan",
+    "ThreeWayBattle_TagTeam",
+    "ThreeWayBattle_TagTeam_Alt"
+  ],
+
+  "MercenariesAllegiance":
+  {
+    "Kurita":
+    {
+      "3025-01-01T00:00:00" : ["KuritaC14", "KuritaC26", "Merc35", "Merc42", "Merc59", "Merc94"],
+      "3029-05-01T00:00:00" : ["KuritaC14", "KuritaC26", "Merc35", "Merc59", "Merc94"],
+      "3030-07-19T00:00:00" : ["KuritaC14", "Merc35", "Merc59"],
+      "3030-09-06T00:00:00" : ["KuritaC14", "Merc35"],
+      "3034-03-13T00:00:00" : ["KuritaC14"],
+      "3056-01-01T00:00:00" : ["KuritaC14", "Merc108"],
+      "3057-01-01T00:00:00" : ["KuritaC14", "Merc93", "Merc108"],
+      "3058-01-01T00:00:00" : ["KuritaC14", "Merc93", "Merc101", "Merc108"],
+      "3059-01-01T00:00:00" : ["KuritaC14", "Merc93", "Merc96", "Merc101", "Merc104", "Merc105", "Merc108", "Merc110", "Merc115", "Merc116"]
+    },
+    "Steiner":
+    {
+      "3025-01-01T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc30", "Merc31", "Merc38", "Merc39", "Merc45", "Merc51", "Merc54", "Merc58", "Merc62", "Merc66", "Merc68", "Merc71", "Merc89", "Merc113"],
+      "3030-01-01T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc30", "Merc31", "Merc33", "Merc38", "Merc39", "Merc45", "Merc51", "Merc54", "Merc58", "Merc62", "Merc66", "Merc68", "Merc71", "Merc113"],
+      "3030-09-06T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc30", "Merc31", "Merc33", "Merc38", "Merc39", "Merc45", "Merc51", "Merc54", "Merc58", "Merc60", "Merc62", "Merc66", "Merc68", "Merc71", "Merc113"],
+      "3034-03-13T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc31", "Merc33", "Merc38", "Merc39", "Merc45", "Merc51", "Merc54", "Merc58", "Merc60", "Merc66", "Merc68", "Merc71", "Merc113"],
+      "3039-01-01T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc31", "Merc33", "Merc38", "Merc39", "Merc45", "Merc51", "Merc58", "Merc60", "Merc66", "Merc68", "Merc71", "Merc109", "Merc113"],
+      "3040-01-01T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc33", "Merc38", "Merc39", "Merc45", "Merc51", "Merc58", "Merc60", "Merc66", "Merc68", "Merc71", "Merc109", "Merc113"],
+      "3049-01-01T00:00:00" : ["Merc27", "Merc28", "Merc33", "Merc38", "Merc39", "Merc45", "Merc51", "Merc58", "Merc60", "Merc66", "Merc68", "Merc71", "Merc109", "Merc113"],
+      "3050-01-01T00:00:00" : ["Merc27", "Merc28", "Merc38", "Merc39", "Merc45", "Merc51", "Merc58", "Merc60", "Merc66", "Merc68", "Merc71", "Merc109"],
+      "3050-06-01T00:00:00" : ["Merc27", "Merc28", "Merc39", "Merc45", "Merc51", "Merc58", "Merc60", "Merc66", "Merc68", "Merc71", "Merc109"],
+      "3052-01-01T00:00:00" : ["Merc27", "Merc28", "Merc39", "Merc51", "Merc66", "Merc68", "Merc71", "Merc109"],
+      "3053-01-01T00:00:00" : ["Merc27", "Merc28", "Merc39", "Merc51", "Merc68", "Merc71", "Merc109"],
+      "3054-01-01T00:00:00" : ["Merc27", "Merc28", "Merc33", "Merc39", "Merc51", "Merc68", "Merc109"],
+      "3057-11-01T00:00:00" : ["Merc27", "Merc28", "Merc33", "Merc51", "Merc68", "Merc109"],
+      "3058-01-01T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc33", "Merc51", "Merc58", "Merc68", "Merc109"],
+      "3059-01-01T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc33", "Merc51", "Merc58", "Merc68", "Merc99"],
+      "3061-01-01T00:00:00" : ["Merc27", "Merc28", "Merc29", "Merc51", "Merc58", "Merc68", "Merc99"]
+    },
+    "Marik":
+    {
+      "3025-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc44", "Merc49", "Merc65"],
+      "3026-03-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc34", "Merc44", "Merc49", "Merc65"],
+      "3030-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc44", "Merc49", "Merc65", "Merc77", "Merc87", "Merc90"],
+      "3034-03-13T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc24", "Merc34", "Merc44", "Merc49", "Merc65", "Merc77", "Merc87", "Merc90"],
+      "3037-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc24", "Merc25", "Merc34", "Merc44", "Merc49", "Merc65", "Merc77", "Merc87", "Merc90"],
+      "3038-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc24", "Merc25", "Merc34", "Merc44", "Merc65", "Merc77", "Merc90"],
+      "3040-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc24", "Merc25", "Merc26", "Merc34", "Merc44", "Merc65", "Merc77", "Merc79", "Merc90"],
+      "3042-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc24", "Merc26", "Merc34", "Merc44", "Merc65", "Merc77", "Merc79", "Merc87", "Merc90"],
+      "3047-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc24", "Merc25", "Merc26", "Merc34", "Merc44", "Merc65", "Merc77", "Merc79", "Merc87", "Merc90"],
+      "3049-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc23", "Merc24", "Merc25", "Merc26", "Merc34", "Merc44", "Merc65", "Merc77", "Merc79", "Merc87", "Merc90"],
+      "3050-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc23", "Merc24", "Merc25", "Merc26", "Merc34", "Merc44", "Merc65", "Merc77", "Merc79", "Merc87", "Merc90", "Merc114"],
+      "3053-01-01T00:00:00" : ["Merc19", "Merc20", "Merc21", "Merc22", "Merc23", "Merc24", "Merc25", "Merc26", "Merc34", "Merc44", "Merc61", "Merc65", "Merc77", "Merc79", "Merc87", "Merc90", "Merc103", "Merc114"],
+      "3056-01-01T00:00:00" : ["MarikC35", "Merc19", "Merc20", "Merc21", "Merc22", "Merc23", "Merc24", "Merc25", "Merc26", "Merc34", "Merc44", "Merc61", "Merc65", "Merc77", "Merc79", "Merc87", "Merc90", "Merc103", "Merc114"],
+      "3057-11-01T00:00:00" : ["MarikC35", "Merc19", "Merc20", "Merc21", "Merc22", "Merc23", "Merc25", "Merc26", "Merc34", "Merc44", "Merc61", "Merc65", "Merc77", "Merc79", "Merc90", "Merc103", "Merc114"],
+      "3058-01-01T00:00:00" : ["MarikC35", "Merc22", "Merc25", "Merc26", "Merc34", "Merc61", "Merc65", "Merc77", "Merc79", "Merc90", "Merc103", "Merc114"],
+      "3059-01-01T00:00:00" : ["MarikC35", "Merc22", "Merc26", "Merc34", "Merc65", "Merc79", "Merc90"]
+    },
+    "Liao":
+    {
+      "3025-01-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc18", "Merc32", "Merc52", "Merc55"],
+      "3029-01-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc32", "Merc55"],
+      "3040-01-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc32", "Merc55", "Merc95"],
+      "3050-01-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc32", "Merc47", "Merc55", "Merc95", "Merc102"],
+      "3053-01-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc32", "Merc41", "Merc47", "Merc55", "Merc95", "Merc102"],
+      "3054-01-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc32", "Merc41", "Merc47", "Merc55", "Merc72", "Merc95", "Merc102"],
+      "3057-11-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc32", "Merc41", "Merc47", "Merc55", "Merc72", "Merc98", "Merc102"],
+      "3058-01-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc32", "Merc41", "Merc47", "Merc55", "Merc72", "Merc97", "Merc98", "Merc102"],
+      "3059-01-01T00:00:00" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC2", "LiaoC3", "Merc16", "Merc17", "Merc32", "Merc41", "Merc47", "Merc55", "Merc97", "Merc98", "Merc102", "Merc118"]
+    },
+    "Davion":
+    {
+      "3025-01-01T00:00:00" : ["DavionA8", "DavionC35", "Merc1", "Merc2", "Merc3", "Merc5", "Merc6", "Merc7", "Merc8", "Merc9", "Merc10", "Merc40", "Merc48", "Merc64", "Merc70", "Merc76", "Merc111"],
+      "3029-01-01T00:00:00" : ["DavionA8", "DavionC35", "Merc1", "Merc2", "Merc3", "Merc4", "Merc5", "Merc6", "Merc7", "Merc8", "Merc9", "Merc10", "Merc40", "Merc48", "Merc64", "Merc70", "Merc111"],
+      "3030-01-01T00:00:00" : ["DavionA8", "DavionC35", "Merc1", "Merc2", "Merc3", "Merc4", "Merc5", "Merc7", "Merc8", "Merc9", "Merc10", "Merc40", "Merc43", "Merc48", "Merc53", "Merc56", "Merc64", "Merc70", "Merc111"],
+      "3034-03-13T00:00:00" : ["DavionA8", "DavionC35", "Merc1", "Merc2", "Merc3", "Merc4", "Merc5", "Merc7", "Merc8", "Merc9", "Merc10", "Merc36", "Merc40", "Merc43", "Merc48", "Merc53", "Merc56", "Merc63", "Merc64", "Merc70", "Merc111"],
+      "3038-01-01T00:00:00" : ["DavionA8", "DavionC35", "DavionC36", "DavionC37", "Merc1", "Merc2", "Merc3", "Merc4", "Merc5", "Merc7", "Merc8", "Merc9", "Merc10", "Merc36", "Merc40", "Merc43", "Merc48", "Merc50", "Merc53", "Merc56", "Merc63", "Merc64", "Merc70", "Merc111"],
+      "3050-03-01T00:00:00" : ["DavionA8", "DavionC35", "DavionC36", "DavionC37", "Merc1", "Merc2", "Merc3", "Merc4", "Merc5", "Merc7", "Merc8", "Merc9", "Merc10", "Merc36", "Merc40", "Merc48", "Merc50", "Merc53", "Merc63", "Merc64", "Merc70", "Merc111"],
+      "3053-01-01T00:00:00" : ["DavionA8", "DavionC35", "DavionC36", "DavionC37", "Merc1", "Merc2", "Merc3", "Merc4", "Merc5", "Merc7", "Merc8", "Merc9", "Merc10", "Merc36", "Merc50", "Merc53", "Merc63", "Merc64", "Merc111"],
+      "3055-01-01T00:00:00" : ["DavionA8", "DavionC35", "DavionC36", "DavionC37", "Merc1", "Merc2", "Merc3", "Merc4", "Merc5", "Merc7", "Merc8", "Merc9", "Merc10", "Merc50", "Merc53", "Merc63", "Merc64", "Merc111"],
+      "3057-01-01T00:00:00" : ["DavionA8", "DavionC35", "DavionC36", "DavionC37", "Merc1", "Merc2", "Merc3", "Merc4", "Merc7", "Merc8", "Merc9", "Merc10", "Merc53", "Merc63", "Merc64"],
+      "3057-11-01T00:00:00" : ["DavionA8", "DavionC35", "DavionC36", "DavionC37", "Merc1", "Merc2", "Merc3", "Merc7", "Merc8", "Merc9", "Merc10", "Merc53", "Merc63", "Merc64"],
+      "3059-09-18T00:00:00" : ["DavionC35", "DavionC36", "DavionC37", "Merc1", "Merc2", "Merc3", "Merc7", "Merc8", "Merc9", "Merc10", "Merc53", "Merc63", "Merc64"]
+    },
+    "Rasalhague":
+    {
+      "3039-01-01T00:00:00" : ["Merc12"],
+      "3040-01-01T00:00:00" : ["Merc12", "Merc67"],
+      "3048-01-01T00:00:00" : ["Merc12", "Merc13", "Merc67"],
+      "3050-03-10T00:00:00" : ["Merc12", "Merc13"],
+      "3052-05-20T00:00:00" : ["Merc12"]
+    },
+    "Andurien":
+    {
+      "3025-01-01T00:00:00" : ["Merc11"]
+    },
+    "TaurianConcordat":
+    {
+      "3025-01-01T00:00:00" : ["Merc14", "Merc88"],
+      "3050-06-01T00:00:00" : ["Merc14", "Merc57", "Merc88"],
+      "3055-01-01T00:00:00" : ["Merc14", "Merc37", "Merc57", "Merc88"]
+    },
+    "MagistracyOfCanopus":
+    {
+      "3025-01-01T00:00:00" : ["Merc15"],
+      "3055-01-01T00:00:00" : ["Merc15", "Merc117"]
+    },
+    "Ives":
+    {
+      "3025-01-01T00:00:00" : ["Merc46"],
+      "3061-01-01T00:00:00" : ["Merc46", "Merc100"]
+    },
+    "Arc-RoyalDC":
+    {
+      "3057-01-01T00:00:00" : ["KellHounds", "WolfInExile"]
+    }
+  },
+
+  "UnitsOnPlanets":
+  {
+    "starsystemdef_Abbeville" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc92"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Acamar" :
+    {
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch2"]
+      }
+    },
+    "starsystemdef_Acubens" :
+    {
+      "3030-09-02T00:00:00" :
+      {
+        "Marik" : ["MarikC14"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Addicks" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29", "FedCom1"]
+      }
+    },
+    "starsystemdef_Agador(Yance)" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC40"]
+      },
+      "3039-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Alarion" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1", "Merc86"]
+      },
+      "3026-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3041-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC37"]
+      },
+      "3057-05-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC40"]
+      }
+    },
+    "starsystemdef_Albiero" :
+    {
+      "3059-09-15T00:00:00" :
+      {
+        "Kurita" : ["KuritaA", "Merc105"]
+      }
+    },
+    "starsystemdef_Alchiba" :
+    {
+      "3028-10-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA5"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Alcyone" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC27"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA3", "DavionC27"]
+      }
+    },
+    "starsystemdef_Aldebaran" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA7"]
+      },
+      "3028-09-07T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3060-03-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC5"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC5", "Merc32"]
+      }
+    },
+    "starsystemdef_Alekseyevka" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC38"]
+      }
+    },
+    "starsystemdef_Algedi" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC36"]
+      },
+      "3039-07-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3039-12-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC36"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Algol" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3028-09-04T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc63"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC32"]
+      },
+      "3058-03-21T00:00:00" :
+      {
+        "Steiner" : ["SteinerC32"],
+        "Davion" : ["DavionC35"]
+      }
+    },
+    "starsystemdef_AlHillah" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague4"]
+      }
+    },
+    "starsystemdef_AlJubaylah" :
+    {
+      "3043-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      },
+      "3044-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Alkalurops" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA4"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_AlNair" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC29", "KuritaC32"]
+      },
+      "3040-03-12T00:00:00" :
+      {
+        "Kurita" : ["KuritaC32"]
+      }
+    },
+    "starsystemdef_AlphaEridani(Achernar)" :
+    {
+      "3030-11-20T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      }
+    },
+    "starsystemdef_Alphard(FWL)" :
+    {
+      "3030-05-10T00:00:00" :
+      {
+        "Marik" : ["MarikC18"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Alphecca" :
+    {
+      "3030-04-30T00:00:00" :
+      {
+        "Kurita" : ["KuritaC18"]
+      },
+      "3048-10-27T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC26"]
+      }
+    },
+    "starsystemdef_Alpheratz" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld1"]
+      }
+    },
+    "starsystemdef_Alrakis" :
+    {
+      "3030-02-06T00:00:00" :
+      {
+        "Kurita" : ["KuritaC18"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Alrescha" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4", "LiaoC14"]
+      },
+      "3030-09-20T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Alshain" :
+    {
+      "3030-02-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3039-05-12T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3051-12-05T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Altair" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA2"]
+      },
+      "3051-12-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC34"]
+      }
+    },
+    "starsystemdef_Altais" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Althastan" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC15"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA3"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Altona" :
+    {
+      "3050-03-15T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28"]
+      }
+    },
+    "starsystemdef_Altorra" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc47"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      }
+    },
+    "starsystemdef_AlulaAustralis" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC19"]
+      },
+      "3030-10-14T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Ambergrist" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC19"]
+      },
+      "3030-02-28T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc8"]
+      }
+    },
+    "starsystemdef_AmberGrove" :
+    {
+      "3055-01-01T00:00:00" :
+      {
+        "TaurianConcordat" : ["Merc37"]
+      }
+    },
+    "starsystemdef_Amity" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      }
+    },
+    "starsystemdef_Ancha" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC23"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Andarmax" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc102"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Andurien" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3039-04-25T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      }
+    },
+    "starsystemdef_Angol" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC18"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_AnjinMuerto" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC28"]
+      }
+    },
+    "starsystemdef_Anywhere" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc78"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC11"]
+      },
+      "3050-03-08T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_APlace" :
+    {
+      "3052-02-12T00:00:00" :
+      {
+        "Steiner" : ["SteinerC8"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC8"],
+        "Davion" : ["Merc5"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC8"]
+      }
+    },
+    "starsystemdef_Apollo" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc68"]
+      },
+      "3050-05-02T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Arboris" :
+    {
+      "3030-10-05T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionC26"],
+        "Liao" : ["LiaoC5"]
+      },
+      "3058-10-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC5"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Ares" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      },
+      "3058-03-21T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Arkab" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC17"]
+      }
+    },
+    "starsystemdef_Arlington" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC43"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Armington" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA7"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Ashio" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC31", "KuritaC36", "KuritaC37"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA8", "KuritaC31", "KuritaC36", "KuritaC37"]
+      },
+      "3039-07-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA8", "KuritaC31", "KuritaC37"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC31", "KuritaC37"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC31"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Asta" :
+    {
+      "3048-01-04T00:00:00" :
+      {
+        "Kurita" : ["KuritaC39"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Asuncion" :
+    {
+      "3036-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc44"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9", "MarikC6", "MarikC19", "Merc44"]
+      },
+      "3058-03-02T00:00:00" :
+      {
+        "Marik" : ["MarikC19"]
+      }
+    },
+    "starsystemdef_Atreus(FWL)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC23"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Aubisson" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC7"]
+      },
+      "3050-03-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Aucara" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC8"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Augustine" :
+    {
+      "3029-07-23T00:00:00" :
+      {
+        "Marik" : ["MarikC15"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Marik" : ["MarikC35"]
+      }
+    },
+    "starsystemdef_Australia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC26"]
+      },
+      "3034-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Avigait" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC25"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Avior" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC10"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC11"]
+      }
+    },
+    "starsystemdef_Babaeski" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA5", "DavionC19"]
+      },
+      "3057-12-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Babuyan" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      }
+    },
+    "starsystemdef_BadNews" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC47"]
+      }
+    },
+    "starsystemdef_Baldur" :
+    {
+      "3039-11-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ballynure" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA2", "Merc10"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Davion" : ["Merc10"]
+      }
+    },
+    "starsystemdef_Barcelona" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC19"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC29"]
+      },
+      "3050-03-18T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3052-04-14T00:00:00" :
+      {
+        "Steiner" : ["SteinerC10", "SteinerC29"]
+      },
+      "3057-09-18T00:00:00" :
+      {
+        "Steiner" : ["SteinerC21"]
+      }
+    },
+    "starsystemdef_BarlowsEnd" :
+    {
+      "3047-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc43"]
+      },
+      "3050-06-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Barras" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC5"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_BaruunUrt" :
+    {
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC1"]
+      }
+    },
+    "starsystemdef_Basalt" :
+    {
+      "3030-03-10T00:00:00" :
+      {
+        "Davion" : ["DavionC2"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Basiliano" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC13"]
+      },
+      "3028-08-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague5"]
+      },
+      "3050-08-08T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Bastrop" :
+    {
+      "3058-09-18T00:00:00" :
+      {
+        "Davion" : ["DavionA2"]
+      }
+    },
+    "starsystemdef_Baxter" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3051-12-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Bella" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA3"]
+      }
+    },
+    "starsystemdef_Bellatrix" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Benet" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc43"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC13"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC9"],
+        "Steiner" : ["SteinerC13"]
+      }
+    },
+    "starsystemdef_Benjamin" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC12"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Kurita" : ["KuritaC12", "KuritaC19"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Bensinger" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc45"]
+      },
+      "3050-03-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Berenson" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA", "MarikC25"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      }
+    },
+    "starsystemdef_BergmansPlanet" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6"]
+      }
+    },
+    "starsystemdef_Bernardo" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC27"]
+      }
+    },
+    "starsystemdef_Bessarabia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc29"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA17"]
+      },
+      "3051-12-03T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Betelgeuse" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA8"]
+      },
+      "3030-12-02T00:00:00" :
+      {
+        "Liao" : ["LiaoA8"],
+        "Andurien" : ["MarikC31"]
+      },
+      "3032-05-23T00:00:00" :
+      {
+        "Liao" : ["LiaoA8"]
+      }
+    },
+    "starsystemdef_Bicester" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC45"]
+      }
+    },
+    "starsystemdef_Bithinia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA10"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Bjarred" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_BlueHole" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA14"]
+      },
+      "3058-06-09T00:00:00" :
+      {
+        "Davion" : ["DavionA14"],
+        "Steiner" : ["SteinerC45"]
+      }
+    },
+    "starsystemdef_Bolan" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc38"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3057-05-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC41"]
+      }
+    },
+    "starsystemdef_Bone-Norman" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc68"]
+      },
+      "3050-03-03T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Boondock" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc80", "Merc81", "Merc82"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc82"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_BountifulHarvest" :
+    {
+      "3057-03-01T00:00:00" :
+      {
+        "Davion" : ["Merc75"]
+      }
+    },
+    "starsystemdef_Bora" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC24"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC9"]
+      }
+    },
+    "starsystemdef_Bordon" :
+    {
+      "3030-10-14T00:00:00" :
+      {
+        "Marik" : ["MarikC19"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Braunton" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC43"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC15", "KuritaC43", "Merc104"]
+      }
+    },
+    "starsystemdef_Breed" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC12"]
+      },
+      "3035-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC12", "DavionC22"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC22"]
+      },
+      "3053-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC22"]
+      }
+    },
+    "starsystemdef_Bremond" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_Brighton" :
+    {
+      "3030-01-16T00:00:00" :
+      {
+        "Ives" : ["Merc46"]
+      }
+    },
+    "starsystemdef_Brockway" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc9"]
+      },
+      "3057-12-01T00:00:00" :
+      {
+        "Davion" : ["DavionC5", "Merc9"]
+      }
+    },
+    "starsystemdef_BrokenWheel" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC33"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Bromhead" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc63"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc63"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Davion" : ["DavionC7", "Merc63"]
+      }
+    },
+    "starsystemdef_Bryceland" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_Buckminster" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA"]
+      },
+      "3035-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA", "KuritaC22"]
+      },
+      "3039-07-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3052-04-22T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Buena" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc58"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_BuenosAires" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC5"]
+      },
+      "3031-11-01T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3034-07-17T00:00:00" :
+      {
+        "Liao" : ["LiaoC5"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Byesville" :
+    {
+      "3049-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3050-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Caldrea" :
+    {
+      "3029-06-28T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28"]
+      },
+      "3050-03-15T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Caldwell" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc10"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Callison" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC18"]
+      },
+      "3030-05-10T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA5"]
+      },
+      "3057-09-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikA"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA"]
+      }
+    },
+    "starsystemdef_Calloway" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC33"]
+      }
+    },
+    "starsystemdef_Camlann(LC)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC17"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Cammal" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC24"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Campertown" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC11"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3030-10-04T00:00:00" :
+      {
+        "Davion" : ["DavionC35"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Canal" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc51"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Canopus" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "MagistracyOfCanopus" : ["MagistracyOfCanopusA1"]
+      }
+    },
+    "starsystemdef_Capella" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA11"]
+      }
+    },
+    "starsystemdef_Caph" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA5"]
+      },
+      "3039-07-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3040-09-15T00:00:00" :
+      {
+        "Davion" : ["DavionA14"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Kurita" : ["Merc93"],
+        "Liao" : ["Merc98", "Merc106"],
+        "Locals" : ["ChaosMarch9"]
+      }
+    },
+    "starsystemdef_Capolla" :
+    {
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch10"]
+      }
+    },
+    "starsystemdef_Capra" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC48"]
+      }
+    },
+    "starsystemdef_Capricorn" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      },
+      "3058-03-21T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Carbonis" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC32"]
+      }
+    },
+    "starsystemdef_Carlisle" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC22"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3041-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC37"]
+      }
+    },
+    "starsystemdef_Carmen" :
+    {
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc55"]
+      }
+    },
+    "starsystemdef_Carse" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC8"]
+      },
+      "3039-04-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC8"]
+      },
+      "3051-12-09T00:00:00" :
+      {
+        "Steiner" : ["SteinerC8"],
+        "Rasalhague" : ["Rasalhague2"]
+      },
+      "3052-02-12T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Cartago" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Cascade" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc73"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc73", "Merc77"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc77"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Casere" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague3"]
+      },
+      "3050-09-15T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Cassias" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC6"]
+      },
+      "3057-12-01T00:00:00" :
+      {
+        "Davion" : ["DavionA5", "DavionC6"]
+      }
+    },
+    "starsystemdef_Cavalor" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC19"]
+      },
+      "3030-02-28T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Cavanaugh" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1", "SteinerC24"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC14"]
+      },
+      "3059-01-05T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      }
+    },
+    "starsystemdef_Cebalrai" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC33"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Cerberus" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld3"]
+      }
+    },
+    "starsystemdef_Cerillos" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA8"]
+      }
+    },
+    "starsystemdef_Chahar" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC38"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC38"],
+        "Davion" : ["DavionC13"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC38"]
+      }
+    },
+    "starsystemdef_Chamdo" :
+    {
+      "3030-03-08T00:00:00" :
+      {
+        "Davion" : ["DavionC35"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      }
+    },
+    "starsystemdef_Chandler" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC46"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Chateau" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC12"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC17"]
+      },
+      "3050-03-06T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Chatham" :
+    {
+      "3050-03-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      },
+      "3052-05-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC2", "KuritaC5"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC18"]
+      }
+    },
+    "starsystemdef_Chertan" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC12"]
+      }
+    },
+    "starsystemdef_Chesterton" :
+    {
+      "3057-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      }
+    },
+    "starsystemdef_Chisholm(Elgin2878+)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6", "Merc18"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      },
+      "3031-09-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC35"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Cimeron" :
+    {
+      "3044-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Claybrooke" :
+    {
+      "3037-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc25"]
+      },
+      "3042-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3047-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc25"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Clermont" :
+    {
+      "3051-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC7"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Cohay" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc81"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Colchester" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc1", "Merc2", "Merc3"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Colfax" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc21"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_CommonwealthMiningOutpost26(GulfBreeze3057+)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC21"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Concord" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25", "Merc49"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      }
+    },
+    "starsystemdef_Connaught" :
+    {
+      "3030-02-03T00:00:00" :
+      {
+        "Marik" : ["Merc44"]
+      },
+      "3036-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC29"]
+      },
+      "3056-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC29", "MarikC35"]
+      }
+    },
+    "starsystemdef_Conquista" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3038-11-09T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc87"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Coraines" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld2"]
+      }
+    },
+    "starsystemdef_Corey" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Courchevel" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3050-09-02T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Coventry" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA11"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA11"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3041-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC37"]
+      },
+      "3057-09-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA5", "SteinerC37", "SteinerC42"]
+      },
+      "3058-06-09T00:00:00" :
+      {
+        "Steiner" : ["SteinerA5", "SteinerC37", "SteinerC42", "MarikA10"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA5", "SteinerC37", "SteinerC42", "Merc99"]
+      },
+      "3059-05-13T00:00:00" :
+      {
+        "Steiner" : ["SteinerC37", "SteinerC42", "Merc99"]
+      }
+    },
+    "starsystemdef_Crimond" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC23", "DavionC33", "Merc75"]
+      },
+      "3057-03-01T00:00:00" :
+      {
+        "Davion" : ["DavionC33"]
+      }
+    },
+    "starsystemdef_Cronulla" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Marik" : ["Merc79"]
+      }
+    },
+    "starsystemdef_Crossing" :
+    {
+      "3029-08-01T00:00:00" :
+      {
+        "Davion" : ["DavionC19"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-12-01T00:00:00" :
+      {
+        "Davion" : ["DavionC19"]
+      }
+    },
+    "starsystemdef_Cumberland" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC27"]
+      }
+    },
+    "starsystemdef_Cursa" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3036-12-04T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Cylene" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC30"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3044-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA5"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Cynthiana(Liao2202+)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA9", "LiaoC6"]
+      },
+      "3030-02-28T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA16"]
+      }
+    },
+    "starsystemdef_Dahar" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_Dalkeith" :
+    {
+      "3030-05-02T00:00:00" :
+      {
+        "Davion" : ["DavionC16"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC16"]
+      },
+      "3055-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC16", "FedCom1"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionC16"]
+      }
+    },
+    "starsystemdef_Dalton" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC22"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Damian" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Merc13"]
+      },
+      "3050-03-04T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_David" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC9"]
+      },
+      "3039-10-01T00:00:00" :
+      {
+        "Davion" : ["DavionA17", "DavionC9"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA16"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Decatur" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Defiance" :
+    {
+      "3059-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA5"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Delacruz" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC2"]
+      },
+      "3052-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Delavan" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA7"]
+      }
+    },
+    "starsystemdef_Dell" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC10"]
+      },
+      "3050-10-06T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Demeter" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc6"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC21"]
+      }
+    },
+    "starsystemdef_DenebAlgedi" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC39"]
+      },
+      "3039-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC40"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_DenebKaitos" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc76"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Denebola" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC14"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      }
+    },
+    "starsystemdef_Deshler" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA16"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA16", "DavionC22"]
+      },
+      "3030-03-23T00:00:00" :
+      {
+        "Kurita" : ["KuritaC44"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Detroit" :
+    {
+      "3058-01-01T00:00:00" :
+      {
+        "MagistracyOfCanopus" : ["Merc117"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "MagistracyOfCanopus" : ["Merc117"],
+        "Liao" : ["LiaoC4"]
+      }
+    },
+    "starsystemdef_Detroit_Career" :
+    {
+      "3061-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      }
+    },
+    "starsystemdef_Dieron" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC1", "KuritaC28"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC34"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Dieudonné" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC30"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC30"]
+      }
+    },
+    "starsystemdef_Dobson" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC23"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Domain" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc58"]
+      },
+      "3052-01-09T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Donegal" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC3"]
+      },
+      "3057-05-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC3", "SteinerC43"]
+      }
+    },
+    "starsystemdef_Dover" :
+    {
+      "3052-05-20T00:00:00" :
+      {
+        "Kurita" : ["KuritaC10"]
+      }
+    },
+    "starsystemdef_Drozan" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA4"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA4"]
+      }
+    },
+    "starsystemdef_Dubhe" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC18"]
+      }
+    },
+    "starsystemdef_Dumaring" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      }
+    },
+    "starsystemdef_Dustball" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC5"]
+      },
+      "3057-12-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Dyev" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC35"]
+      },
+      "3038-11-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC35"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Echo" :
+    {
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      }
+    },
+    "starsystemdef_Edwards" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC35"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Eleusis" :
+    {
+      "3058-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC34"]
+      }
+    },
+    "starsystemdef_Elidere" :
+    {
+      "3040-09-30T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Elnath" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC6"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Engadin" :
+    {
+      "3028-09-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28"]
+      },
+      "3029-06-28T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Engadine" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC30"]
+      }
+    },
+    "starsystemdef_Eom" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC11"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC21"]
+      }
+    },
+    "starsystemdef_Epsilon" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc91"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc23"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA10"]
+      }
+    },
+    "starsystemdef_EpsilonEridani" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3032-01-15T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch5"]
+      }
+    },
+    "starsystemdef_EpsilonIndi" :
+    {
+      "3058-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc97"]
+      }
+    },
+    "starsystemdef_Errai" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"],
+        "Steiner" : ["SteinerC24"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["Merc4"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Merc64"]
+      }
+    },
+    "starsystemdef_Estuan" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc48"]
+      },
+      "3053-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Fallon" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC10"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Fatima" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC30"]
+      },
+      "3030-09-06T00:00:00" :
+      {
+        "Steiner" : ["SteinerC30", "Merc60"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["Merc60"]
+      },
+      "3051-12-07T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Fellanin" :
+    {
+      "3030-07-03T00:00:00" :
+      {
+        "Kurita" : ["KuritaC3"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20"]
+      },
+      "3052-02-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ferleiten" :
+    {
+      "3030-01-12T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Fianna" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC15"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Fletcher(CC)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      },
+      "3032-10-31T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Fletcher(FWL)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA2"]
+      }
+    },
+    "starsystemdef_Florida" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC38"]
+      }
+    },
+    "starsystemdef_Fomalhaut" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA14"]
+      },
+      "3040-09-15T00:00:00" :
+      {
+        "Kurita" : ["KuritaC38"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC29"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ford" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC2", "Merc71"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC2"]
+      }
+    },
+    "starsystemdef_FortLoudon" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc7"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA4"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionA16"],
+        "Steiner" : ["SteinerA4"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA16"],
+        "Steiner" : ["SteinerA4", "SteinerC45"]
+      },
+      "3059-05-13T00:00:00" :
+      {
+        "Davion" : ["DavionA16"],
+        "Steiner" : ["SteinerC45", "Merc58"]
+      }
+    },
+    "starsystemdef_Frazer" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA11"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA11", "DavionC14"]
+      },
+      "3059-05-13T00:00:00" :
+      {
+        "Davion" : ["DavionC14"]
+      },
+      "3059-09-18T00:00:00" :
+      {
+        "Davion" : ["DavionA11", "DavionC14"]
+      }
+    },
+    "starsystemdef_Freedom" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA3"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA3", "DavionC8", "DavionC16"],
+        "Steiner" : ["SteinerA11"]
+      },
+      "3039-12-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC25"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3061-04-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC25"]
+      }
+    },
+    "starsystemdef_Frondas" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc47"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Fronde" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc47"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Furillo" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC20"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Furud" :
+    {
+      "3030-02-03T00:00:00" :
+      {
+        "Marik" : ["Merc44"]
+      },
+      "3036-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Galatia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC20"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC1"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Galax" :
+    {
+      "3059-09-18T00:00:00" :
+      {
+        "Davion" : ["DavionA12"]
+      }
+    },
+    "starsystemdef_Galedon" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA7", "Merc42"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA7", "KuritaC15"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Kurita" : ["KuritaA7"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Galisteo" :
+    {
+      "3026-03-01T00:00:00" :
+      {
+        "Marik" : ["Merc34"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Gallery" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC16"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Galtor" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_GanSingh" :
+    {
+      "3030-09-17T00:00:00" :
+      {
+        "Davion" : ["Merc40"]
+      },
+      "3030-10-09T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["FedCom1"],
+        "Steiner" : ["SteinerA"]
+      },
+      "3044-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Garstedt" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3050-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Gei-Fu" :
+    {
+      "3030-09-17T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3035-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA7", "LiaoA14", "LiaoC4"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA7", "LiaoA14"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA14"]
+      }
+    },
+    "starsystemdef_Giausar" :
+    {
+      "3028-10-01T00:00:00" :
+      {
+        "Davion" : ["Merc30"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC2"]
+      }
+    },
+    "starsystemdef_Gibson" :
+    {
+      "3055-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA10"]
+      },
+      "3058-06-09T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Gienah" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC11"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3059-09-18T00:00:00" :
+      {
+        "Steiner" : ["SteinerC11"]
+      }
+    },
+    "starsystemdef_Glenmora" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC13"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC13", "DavionC19"]
+      },
+      "3029-08-01T00:00:00" :
+      {
+        "Davion" : ["DavionC13"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Glentworth" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc8"]
+      }
+    },
+    "starsystemdef_GothKhakar" :
+    {
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC10"]
+      }
+    },
+    "starsystemdef_Graceland" :
+    {
+      "3051-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA", "SteinerC18"]
+      }
+    },
+    "starsystemdef_Graham" :
+    {
+      "3034-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC25"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_GrandBase" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA2", "LiaoA5"]
+      },
+      "3057-09-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA5"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA5", "LiaoC9"]
+      }
+    },
+    "starsystemdef_Gravenhage" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      }
+    },
+    "starsystemdef_GreatGorge" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc75"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Griffith" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA5"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikA5"]
+      }
+    },
+    "starsystemdef_Groveld" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA13"]
+      },
+      "3030-10-30T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Grumium" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague3"]
+      },
+      "3050-09-15T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Gunthar" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      },
+      "3033-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Gunzburg" :
+    {
+      "3028-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3030-10-27T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3048-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague5"]
+      },
+      "3051-12-10T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Gypsum" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Hachiman" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19", "KuritaC25"]
+      },
+      "3058-07-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC25"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC25", "Merc110"]
+      }
+    },
+    "starsystemdef_Hainfeld" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague2"]
+      },
+      "3051-12-09T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Hall" :
+    {
+      "3031-09-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC34"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch13", "ChaosMarch14"]
+      }
+    },
+    "starsystemdef_HalsteadStation" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC41"]
+      },
+      "3052-06-04T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Harloc" :
+    {
+      "3030-09-17T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_HarrowsSun" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC16"]
+      },
+      "3030-05-02T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20"]
+      },
+      "3052-02-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Harsefeld" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc22"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC32", "Merc22"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc22"]
+      }
+    },
+    "starsystemdef_Harvest" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14", "Merc59"]
+      },
+      "3030-09-06T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Hassad" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC26"]
+      }
+    },
+    "starsystemdef_Heiligendreuz" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3028-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Helen" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC7"],
+        "Steiner" : ["SteinerC13"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC7"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Heligoland" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3030-02-22T00:00:00" :
+      {
+        "Davion" : ["DavionC3"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Here" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC10"]
+      },
+      "3050-03-06T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Herndon" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC36"]
+      }
+    },
+    "starsystemdef_Hesperus" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA3", "SteinerA6"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA15"],
+        "Steiner" : ["SteinerA6"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Davion" : ["DavionA15"],
+        "Steiner" : ["SteinerA6", "SteinerC1"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA6", "SteinerC1"]
+      }
+    },
+    "starsystemdef_Highspire" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc18"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3037-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Holloway" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc17"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA5"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA5", "LiaoC6"]
+      }
+    },
+    "starsystemdef_Holt" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA6"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Homestead" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc17"]
+      },
+      "3062-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Hood" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      },
+      "3059-05-13T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3059-08-13T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      }
+    },
+    "starsystemdef_Horsham" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC31"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_HotSprings" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC39"]
+      },
+      "3050-06-30T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Hsien" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      },
+      "3034-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Liao" : ["Merc112"]
+      }
+    },
+    "starsystemdef_Huan" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_HunHo" :
+    {
+      "3029-03-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA6"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Hurik" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC10"]
+      }
+    },
+    "starsystemdef_Hustaing" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA3"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      }
+    },
+    "starsystemdef_HyadesCluster" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "TaurianConcordat" : ["TaurianConcordatA1"]
+      }
+    },
+    "starsystemdef_Hyalite" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC18"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Hyde" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC11"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Hyperion" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3028-09-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ibarra" :
+    {
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc34"]
+      }
+    },
+    "starsystemdef_Icar" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1", "Merc45"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc45"]
+      },
+      "3050-03-23T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Iknogoro" :
+    {
+      "3032-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc87"]
+      },
+      "3035-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Imbros" :
+    {
+      "3030-08-31T00:00:00" :
+      {
+        "Steiner" : ["Merc39"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6"]
+      }
+    },
+    "starsystemdef_Immenstadt" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC15"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc8"]
+      }
+    },
+    "starsystemdef_Indicass" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Ives" : ["Ives3"]
+      }
+    },
+    "starsystemdef_Ingersoll" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC11"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC21"]
+      }
+    },
+    "starsystemdef_Ipswich" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC22"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Irian" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC28"]
+      },
+      "3030-08-31T00:00:00" :
+      {
+        "Marik" : ["MarikC28", "MarikC29"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC1", "MarikC29"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC28"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9", "MarikC28"]
+      }
+    },
+    "starsystemdef_Irurzun" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC9", "KuritaC10"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC9"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Islamabad" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC28"]
+      }
+    },
+    "starsystemdef_Issaba" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc84"]
+      }
+    },
+    "starsystemdef_Itabaiana" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ito" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc55"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Jabuka" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3030-02-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC22"]
+      },
+      "3052-09-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Jacson" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA9"]
+      }
+    },
+    "starsystemdef_Jaipur" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC22"]
+      },
+      "3044-01-19T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Jarett" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3050-05-10T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Jasmine" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA7"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA7"]
+      }
+    },
+    "starsystemdef_Jonathan" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc18"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Jonzac" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc8"]
+      }
+    },
+    "starsystemdef_Kabah" :
+    {
+      "3059-09-15T00:00:00" :
+      {
+        "Kurita" : ["KuritaC35"]
+      }
+    },
+    "starsystemdef_Kagoshima" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19", "KuritaC20", "KuritaC28"]
+      }
+    },
+    "starsystemdef_Kaifeng" :
+    {
+      "3030-06-16T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Liao" : ["Merc41"],
+        "Locals" : ["ChaosMarch8"]
+      },
+      "3058-06-15T00:00:00" :
+      {
+        "Liao" : ["Merc41"]
+      },
+      "3059-08-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC3", "Merc41"]
+      }
+    },
+    "starsystemdef_Kajikazawa" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC8"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Kalidasa" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC18"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3039-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikC18"]
+      }
+    },
+    "starsystemdef_Kandis" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC26"]
+      },
+      "3030-07-19T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Kanowit" :
+    {
+      "3060-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC49"]
+      }
+    },
+    "starsystemdef_Kansu" :
+    {
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC31"]
+      }
+    },
+    "starsystemdef_Karbala" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["Merc35"]
+      },
+      "3030-05-30T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Merc12"]
+      }
+    },
+    "starsystemdef_Kathil" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA6", "DavionC23", "DavionC27"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA6", "DavionC27"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA6", "DavionC30"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC30"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionC30", "FedCom1"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC31", "FedCom1"]
+      }
+    },
+    "starsystemdef_KausAustralis" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC34"]
+      },
+      "3039-08-19T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Kaznejoy(Kaznejov)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC46"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Kelenfold" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC39"]
+      }
+    },
+    "starsystemdef_Kempten" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Kendall" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc26"]
+      }
+    },
+    "starsystemdef_Kennard" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc5"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Kentares" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_Kesai(Kasai)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC5"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Davion" : ["DavionA15"]
+      }
+    },
+    "starsystemdef_Kessel" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28", "KuritaC34"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28"]
+      },
+      "3051-11-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC34", "KuritaC39"]
+      }
+    },
+    "starsystemdef_Kestrel" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA20", "DavionC28"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC28"]
+      }
+    },
+    "starsystemdef_Keystone" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      }
+    },
+    "starsystemdef_KhonKaen" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc51"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Kiamba" :
+    {
+      "3059-05-29T00:00:00" :
+      {
+        "Kurita" : ["KuritaC7"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Kiesen" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC31"]
+      }
+    },
+    "starsystemdef_Kikuyu" :
+    {
+      "3051-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC1"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC1", "Merc1"]
+      },
+      "3053-07-01T00:00:00" :
+      {
+        "Davion" : ["DavionC1"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC1", "DavionC18", "Merc3"]
+      },
+      "3055-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC1", "DavionC18", "Merc1", "Merc3"]
+      },
+      "3059-01-05T00:00:00" :
+      {
+        "Davion" : ["DavionC18", "Merc1", "Merc3"],
+        "Steiner" : ["SteinerC14", "Merc27"]
+      }
+    },
+    "starsystemdef_Kilbourne" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_Kilmarnock" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14", "Merc101"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14", "KuritaC20", "Merc101"]
+      }
+    },
+    "starsystemdef_Kimball" :
+    {
+      "3043-01-01T00:00:00" :
+      {
+        "Steiner" : ["FedCom1"]
+      },
+      "3050-09-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3052-03-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Kirchbach" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3030-01-09T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague4"]
+      },
+      "3050-06-07T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Kittery" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC24", "DavionC34"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC34"]
+      }
+    },
+    "starsystemdef_Klathan(Klathandu)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC2"]
+      },
+      "3030-03-10T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC7"]
+      },
+      "3052-03-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ko" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC35"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Komephoros" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC27"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Koniz" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC39"]
+      }
+    },
+    "starsystemdef_Konstance" :
+    {
+      "3038-11-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC35"]
+      },
+      "3039-08-19T00:00:00" :
+      {
+        "Kurita" : ["KuritaC34", "KuritaC35"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC34"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_KookensPleasurePit" :
+    {
+      "3050-05-02T00:00:00" :
+      {
+        "Steiner" : ["Merc68"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc68"],
+        "Davion" : ["DavionA18"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Steiner" : ["Merc68"]
+      }
+    },
+    "starsystemdef_Kosciusko" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC19"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Kowloon" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc69"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Krin" :
+    {
+      "3057-09-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC2"]
+      }
+    },
+    "starsystemdef_Kwangjong-ni" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc83"]
+      }
+    },
+    "starsystemdef_Kyrkbacken" :
+    {
+      "3036-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc44"]
+      },
+      "3058-03-02T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      }
+    },
+    "starsystemdef_LaBlon" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC18"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Landfall" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc26"]
+      }
+    },
+    "starsystemdef_LandsEnd" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      }
+    },
+    "starsystemdef_Langhorne" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC3"]
+      }
+    },
+    "starsystemdef_Larsha" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      }
+    },
+    "starsystemdef_LastFrontier" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague2"]
+      },
+      "3050-06-23T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Launam" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc71"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC15"]
+      }
+    },
+    "starsystemdef_Laurent" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC39"]
+      },
+      "3051-11-02T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Layover" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC32"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_LeBlanc" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_Lee" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA17"]
+      },
+      "3039-04-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC24"]
+      }
+    },
+    "starsystemdef_Leiston" :
+    {
+      "3052-06-10T00:00:00" :
+      {
+        "Kurita" : ["KuritaC15"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Lesalles" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC11"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_LesHalles" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      }
+    },
+    "starsystemdef_Lesnovo" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC7"]
+      }
+    },
+    "starsystemdef_Leyda" :
+    {
+      "3049-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Lima" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["Merc43"]
+      },
+      "3047-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Lindsay" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc9"]
+      }
+    },
+    "starsystemdef_Ling" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC8"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Lipton" :
+    {
+      "3058-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC45"]
+      }
+    },
+    "starsystemdef_Loburg" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC3"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Lonaconing" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC17"]
+      }
+    },
+    "starsystemdef_Lopez" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3038-08-12T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3048-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      }
+    },
+    "starsystemdef_Loric" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24", "Merc30"]
+      },
+      "3028-10-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      }
+    },
+    "starsystemdef_Lost" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC6"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc78"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc85"]
+      },
+      "3057-09-18T00:00:00" :
+      {
+        "Steiner" : ["SteinerC29", "Merc85"]
+      }
+    },
+    "starsystemdef_Lothair" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC25"]
+      }
+    },
+    "starsystemdef_Lothan" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague4"]
+      },
+      "3052-04-09T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Loxley" :
+    {
+      "3034-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc27"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Lushann" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld1"]
+      }
+    },
+    "starsystemdef_Luthien" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA3", "KuritaA4", "KuritaA5"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA3", "KuritaA4", "KuritaA5", "KuritaA8", "KuritaC12", "KuritaC18", "KuritaC23"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA3", "KuritaA4", "KuritaC23"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA3", "KuritaA4", "KuritaA5", "KuritaA8", "KuritaC18", "KuritaC23"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA3", "KuritaA4", "KuritaA5", "KuritaA8", "KuritaC18"]
+      }
+    },
+    "starsystemdef_Luzerne" :
+    {
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC2"]
+      }
+    },
+    "starsystemdef_Lyndon" :
+    {
+      "3059-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc51"]
+      }
+    },
+    "starsystemdef_Lyons" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc45"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC22"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Macintosh" :
+    {
+      "3059-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc10"]
+      }
+    },
+    "starsystemdef_MacLeodsLand" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "TaurianConcordat" : ["Merc88"]
+      }
+    },
+    "starsystemdef_Madiun" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc51"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Maestu" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3051-11-12T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_MainStreet" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC17"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      }
+    },
+    "starsystemdef_Maladar" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC12"]
+      },
+      "3030-01-08T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Malagrotta" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC28"]
+      }
+    },
+    "starsystemdef_Maldonado" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC31"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5", "KuritaC28"]
+      }
+    },
+    "starsystemdef_Manapire" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC15"]
+      }
+    },
+    "starsystemdef_Mara" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC4"]
+      }
+    },
+    "starsystemdef_Mararn" :
+    {
+      "3030-10-09T00:00:00" :
+      {
+        "Davion" : ["Merc40"]
+      },
+      "3053-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Marcus" :
+    {
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["FedCom1"]
+      },
+      "3057-12-19T00:00:00" :
+      {
+        "Marik" : ["MarikA7"]
+      }
+    },
+    "starsystemdef_Marduk" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC10"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Kurita" : ["KuritaC7"]
+      }
+    },
+    "starsystemdef_Marfik" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC18"]
+      },
+      "3030-02-06T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc109"]
+      },
+      "3056-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Marik" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Markab" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionA20"]
+      },
+      "3047-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      }
+    },
+    "starsystemdef_Marlette" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC28"]
+      }
+    },
+    "starsystemdef_MarlowesRift" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6", "KuritaC44"]
+      },
+      "3030-03-23T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Matamoras" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC13"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC13"]
+      }
+    },
+    "starsystemdef_Matheran" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC33"]
+      }
+    },
+    "starsystemdef_Matsuida" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC45"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      }
+    },
+    "starsystemdef_Maxwell" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC2"]
+      }
+    },
+    "starsystemdef_Mayetta" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_McAffe" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC13"]
+      }
+    },
+    "starsystemdef_McAlister" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC35"]
+      },
+      "3059-09-15T00:00:00" :
+      {
+        "Kurita" : ["KuritaC12"]
+      }
+    },
+    "starsystemdef_McComb" :
+    {
+      "3044-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC22"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_McGehee" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc50"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_McKenna" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC6"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Meacham" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA4"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC20"]
+      }
+    },
+    "starsystemdef_Meglan(Victoria2537+)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc64"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Megrez" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC16"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc77"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Marik" : ["MarikA6", "Merc77"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA6"]
+      }
+    },
+    "starsystemdef_Meilen" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19", "KuritaC50"]
+      },
+      "3055-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC9", "KuritaC18"]
+      }
+    },
+    "starsystemdef_Meinacos" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC23", "KuritaC29"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19", "KuritaC29"]
+      }
+    },
+    "starsystemdef_Memmingen" :
+    {
+      "3030-05-30T00:00:00" :
+      {
+        "Kurita" : ["Merc35"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3050-05-27T00:00:00" :
+      {
+        "Rasalhague" : ["Merc13"]
+      },
+      "3051-11-03T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Mendham" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc8"]
+      },
+      "3057-12-01T00:00:00" :
+      {
+        "Davion" : ["DavionA13", "Merc8"]
+      }
+    },
+    "starsystemdef_Menkalinan" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc2"],
+        "Marik" : ["MarikC28"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc2"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Menke" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA3", "LiaoA13", "LiaoA14", "LiaoA15", "LiaoC3"]
+      },
+      "3035-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA3", "LiaoA13", "LiaoA15", "LiaoC3"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA13", "LiaoA15", "LiaoC3"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA13"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA3", "LiaoA13"]
+      }
+    },
+    "starsystemdef_Menkent" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA8", "SteinerC24"]
+      },
+      "3028-08-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA8", "SteinerC24", "Merc54"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      }
+    },
+    "starsystemdef_Merak" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      }
+    },
+    "starsystemdef_Miaplacidus" :
+    {
+      "3048-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Midale" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc9"]
+      }
+    },
+    "starsystemdef_Midway" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Milligan" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_Millray" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc80"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Milos" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC16"]
+      },
+      "3030-05-20T00:00:00" :
+      {
+        "Ives" : ["Ives7"]
+      }
+    },
+    "starsystemdef_Minnacora" :
+    {
+      "3030-02-22T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Mira" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC1"]
+      },
+      "3030-10-29T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Misery" :
+    {
+      "3029-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20"]
+      },
+      "3052-02-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Mitchel" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA9"]
+      }
+    },
+    "starsystemdef_Mitchella" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld2"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld1", "Outworld2"]
+      }
+    },
+    "starsystemdef_Mithron" :
+    {
+      "3050-06-01T00:00:00" :
+      {
+        "TaurianConcordat" : ["Merc57"]
+      }
+    },
+    "starsystemdef_Mkuranga" :
+    {
+      "3052-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA17"],
+        "Steiner" : ["SteinerC9"]
+      },
+      "3055-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC9"]
+      }
+    },
+    "starsystemdef_Mogyorod" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc2", "Merc4"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Merc2"]
+      },
+      "3059-01-05T00:00:00" :
+      {
+        "Davion" : ["Merc2"],
+        "Steiner" : ["SteinerC14"]
+      }
+    },
+    "starsystemdef_Monhegan" :
+    {
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC16"]
+      }
+    },
+    "starsystemdef_Montour" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc10"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Moore" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA8"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Moravian" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC3"]
+      },
+      "3030-02-22T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Morges" :
+    {
+      "3050-03-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC7"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC7", "SteinerC27"]
+      },
+      "3055-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC7", "SteinerC27"],
+        "Davion" : ["Merc7"]
+      }
+    },
+    "starsystemdef_Moritz" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28"]
+      },
+      "3028-09-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Mosiro" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc87"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Muphrid" :
+    {
+      "3057-10-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC6"]
+      }
+    },
+    "starsystemdef_Murchison" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC27"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC17"]
+      },
+      "3050-06-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Muskegon" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc111"]
+      },
+      "3030-08-30T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Najha" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      }
+    },
+    "starsystemdef_Nanking" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC17"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionC26", "FedCom1"]
+      }
+    },
+    "starsystemdef_Nashira" :
+    {
+      "3027-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA8"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Nashuar" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"],
+        "Steiner" : ["SteinerC25"]
+      },
+      "3061-04-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Necromo" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC22"]
+      }
+    },
+    "starsystemdef_Neerabup" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC38"]
+      }
+    },
+    "starsystemdef_Nestor" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31", "Merc19"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Marik" : ["Merc19"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3058-03-02T00:00:00" :
+      {
+        "Marik" : ["MarikC6"]
+      }
+    },
+    "starsystemdef_NewAberdeen" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6"]
+      }
+    },
+    "starsystemdef_NewAragon" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA3", "DavionC32"]
+      },
+      "3028-08-01T00:00:00" :
+      {
+        "Davion" : ["DavionC32"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Davion" : ["DavionC35"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionC35", "FedCom1"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Davion" : ["DavionC32", "DavionC35", "FedCom1"]
+      }
+    },
+    "starsystemdef_NewAvalon" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA", "DavionA8", "DavionA12", "DavionC28", "Merc48"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA", "DavionA8", "DavionA12", "DavionC28"]
+      },
+      "3059-05-13T00:00:00" :
+      {
+        "Davion" : ["DavionA8", "DavionC28"]
+      },
+      "3059-09-18T00:00:00" :
+      {
+        "Davion" : ["DavionA", "DavionC28"]
+      }
+    },
+    "starsystemdef_NewCaledonia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC15"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_NewCanton" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      },
+      "3030-10-09T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3047-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA20"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_NewCapetown" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC18"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_NewHessen" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC7"]
+      },
+      "3028-09-20T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC37"]
+      }
+    },
+    "starsystemdef_NewHome" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_NewIndia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      }
+    },
+    "starsystemdef_NewIvaarsen" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA9"]
+      },
+      "3062-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA9", "DavionC11"]
+      }
+    },
+    "starsystemdef_NewKyoto" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc66"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC28"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC28", "SteinerC23"]
+      },
+      "3058-03-15T00:00:00" :
+      {
+        "Steiner" : ["SteinerC23"]
+      }
+    },
+    "starsystemdef_NewMendham" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC7"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_NewRhodes" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC4"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_NewRoland" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC9"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC9", "Merc107"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Merc107"]
+      }
+    },
+    "starsystemdef_NewSagan" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      },
+      "3058-03-21T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_NewSamarkand" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC24"]
+      }
+    },
+    "starsystemdef_NewSarna(Tsinghai)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6", "LiaoC19"]
+      },
+      "3030-01-14T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC35"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_NewSyrtis" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA19", "DavionC27"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC27"]
+      }
+    },
+    "starsystemdef_NewtownSquare" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc31"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC8"]
+      }
+    },
+    "starsystemdef_NewValencia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC11"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_NewWessex" :
+    {
+      "3030-09-06T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14"]
+      },
+      "3052-03-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Niles(OA)" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20"]
+      },
+      "3052-02-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ningpo" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC13"]
+      },
+      "3030-04-24T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Ningxia" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC48"]
+      }
+    },
+    "starsystemdef_Niomede" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc95"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Nirasaki" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC38"]
+      },
+      "3040-09-15T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC32"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Nockatunga" :
+    {
+      "3053-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc103"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Nopah" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA4"]
+      },
+      "3030-12-31T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_NoReturn" :
+    {
+      "3030-02-22T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3045-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA6"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA6", "Merc102"]
+      }
+    },
+    "starsystemdef_Northwind" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC17"]
+      },
+      "3028-12-15T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc4"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch12"]
+      }
+    },
+    "starsystemdef_NovayaZemlya" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC36"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC36"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Davion" : ["DavionA19", "DavionC36"]
+      }
+    },
+    "starsystemdef_Nowhere" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      }
+    },
+    "starsystemdef_Nunivak" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC28"]
+      }
+    },
+    "starsystemdef_Odabasi" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC36"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14"]
+      }
+    },
+    "starsystemdef_Ogano" :
+    {
+      "3051-11-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC17"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC8", "KuritaC17"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC8"]
+      }
+    },
+    "starsystemdef_Okefenokee" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Davion" : ["Merc36"]
+      },
+      "3055-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_OldKentucky" :
+    {
+      "3030-09-24T00:00:00" :
+      {
+        "Davion" : ["DavionC35"]
+      },
+      "3058-03-21T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      }
+    },
+    "starsystemdef_Oliver" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC29", "Merc20"]
+      },
+      "3030-08-31T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Orestes" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC3", "KuritaA6"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC3"]
+      },
+      "3030-07-03T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Oriente" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC4"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC4", "MarikC21"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC4"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC4", "MarikC21"]
+      }
+    },
+    "starsystemdef_Oshika" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC25"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_OsmusSaar" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Overton" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC3"]
+      },
+      "3059-08-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Ozawa" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc4"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Pacifica(Chara)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC36"]
+      }
+    },
+    "starsystemdef_Pajarito" :
+    {
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionC13"]
+      }
+    },
+    "starsystemdef_Palladaine" :
+    {
+      "3030-10-17T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3034-12-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc55"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Palos" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      },
+      "3029-10-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Pandora" :
+    {
+      "3052-05-20T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA16", "FedCom1"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA8"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3059-09-18T00:00:00" :
+      {
+        "Steiner" : ["SteinerA8"]
+      }
+    },
+    "starsystemdef_Panpour" :
+    {
+      "3059-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc10"]
+      }
+    },
+    "starsystemdef_Paracale" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA7"]
+      }
+    },
+    "starsystemdef_Paris" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC50"]
+      },
+      "3055-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_ParkPlace" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      }
+    },
+    "starsystemdef_Pasig" :
+    {
+      "3053-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC20"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA13", "DavionC20"]
+      },
+      "3057-12-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Payvand" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC17"]
+      }
+    },
+    "starsystemdef_Pencader" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc58"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Penobscot" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Pesht" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      },
+      "3052-04-06T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC6", "KuritaC20", "KuritaC33"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20", "KuritaC33"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA5", "KuritaC20"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5", "KuritaC20", "KuritaC33"]
+      }
+    },
+    "starsystemdef_Phact" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC6"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC12"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Phalan" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC33"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Phecda" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC13"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["SteinerC13", "Merc64"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc64"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionC12"]
+      }
+    },
+    "starsystemdef_Pierce" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc10"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Pike" :
+    {
+      "3039-07-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC36"]
+      },
+      "3039-12-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Pilkhua" :
+    {
+      "3056-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC4"]
+      }
+    },
+    "starsystemdef_Piriapolis" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC1"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Pitkin" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      }
+    },
+    "starsystemdef_Planting" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC9"]
+      },
+      "3050-07-21T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Pleione" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC13"]
+      },
+      "3028-09-26T00:00:00" :
+      {
+        "Davion" : ["Merc40"]
+      },
+      "3030-10-09T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Pollux" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC14"]
+      },
+      "3030-09-02T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_PortArthur" :
+    {
+      "3059-05-26T00:00:00" :
+      {
+        "Kurita" : ["KuritaC1"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_PortMoseby" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC7"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA11", "SteinerC7"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC7"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerA11"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA11"]
+      },
+      "3061-07-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA11", "SteinerC4"]
+      }
+    },
+    "starsystemdef_Poulsbo" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc39"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc39", "Merc58"]
+      },
+      "3030-08-31T00:00:00" :
+      {
+        "Steiner" : ["Merc58"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC10"]
+      }
+    },
+    "starsystemdef_Predlitz" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague1"]
+      },
+      "3050-03-01T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Principia" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc102"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Prix" :
+    {
+      "3030-09-13T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3032-07-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Procyon" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC15"]
+      },
+      "3029-07-23T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Marik" : ["MarikC15", "MarikC16"]
+      }
+    },
+    "starsystemdef_PromisedLand" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC3"]
+      }
+    },
+    "starsystemdef_Propus" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC11"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC21"]
+      }
+    },
+    "starsystemdef_Proserpina" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC7"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC7"]
+      }
+    },
+    "starsystemdef_Purvo" :
+    {
+      "3029-10-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC6"],
+        "Steiner" : ["Merc69"]
+      }
+    },
+    "starsystemdef_Qanatir" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC38"]
+      }
+    },
+    "starsystemdef_Qandahar" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      }
+    },
+    "starsystemdef_Quentin" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC7"]
+      },
+      "3039-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20", "KuritaC39"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20"]
+      },
+      "3052-02-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Raballa" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc56"]
+      },
+      "3050-06-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Radstadt" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague1"]
+      },
+      "3050-10-27T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Rahne" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC11"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC15"]
+      }
+    },
+    "starsystemdef_Raman" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      }
+    },
+    "starsystemdef_Ramora" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld2"]
+      }
+    },
+    "starsystemdef_Randar" :
+    {
+      "3030-02-22T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3045-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA6"]
+      }
+    },
+    "starsystemdef_Raphael" :
+    {
+      "3062-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc17"]
+      }
+    },
+    "starsystemdef_Rasalgethi" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA7"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc7"],
+        "Steiner" : ["SteinerA7"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc7"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Davion" : ["Merc7"],
+        "Steiner" : ["SteinerA3"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc7"],
+        "Steiner" : ["SteinerA3", "SteinerC22"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC22"]
+      },
+      "3059-09-15T00:00:00" :
+      {
+        "Steiner" : ["SteinerA3", "SteinerC22"]
+      }
+    },
+    "starsystemdef_Rasalhague" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague2"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague1", "Rasalhague2"]
+      },
+      "3050-07-17T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Rastaban" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc58"]
+      },
+      "3052-01-10T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Regulus" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC9"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikC9"]
+      }
+    },
+    "starsystemdef_ReislingsPlanet" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Relevow" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA15"]
+      }
+    },
+    "starsystemdef_Remshield" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC18"]
+      },
+      "3030-03-16T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Renown" :
+    {
+      "3033-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc16"]
+      },
+      "3034-05-15T00:00:00" :
+      {
+        "Liao" : ["LiaoC8", "Merc16"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC8"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC20"]
+      }
+    },
+    "starsystemdef_Repulse" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC8"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC20"]
+      }
+    },
+    "starsystemdef_Richmond" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3050-03-05T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ridderkerk" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      },
+      "3050-07-03T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Ridgebrook" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC27"]
+      }
+    },
+    "starsystemdef_Robinson" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA18"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionA18"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA18"],
+        "Steiner" : ["SteinerA4"]
+      }
+    },
+    "starsystemdef_Rochelle" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc114"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Rollis" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4", "Merc72"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Romulus" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Rowe" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC19"]
+      },
+      "3029-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Royal" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC22"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3045-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Rubigen" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3052-04-22T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Ryde" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC13", "SteinerC27"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3046-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC19"]
+      },
+      "3047-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Ryerson" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Sabik" :
+    {
+      "3034-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC26"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Sadachbia" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC30"]
+      },
+      "3052-05-02T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Sadalbari" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC23"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Sadurni" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3038-02-11T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3044-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA9"]
+      }
+    },
+    "starsystemdef_Saffel" :
+    {
+      "3040-03-12T00:00:00" :
+      {
+        "Kurita" : ["KuritaC29"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC38"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Saiph" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc1"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc1"],
+        "Steiner" : ["SteinerC25"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC25"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch3"]
+      }
+    },
+    "starsystemdef_Sakhalin(CC)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC10"]
+      },
+      "3030-11-02T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3058-06-27T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch8"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch8", "ChaosMarch15"]
+      }
+    },
+    "starsystemdef_Salem" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA7"]
+      }
+    },
+    "starsystemdef_Sarmaxa" :
+    {
+      "3030-08-30T00:00:00" :
+      {
+        "Davion" : ["Merc111"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Sarna" :
+    {
+      "3034-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA5", "FedCom1"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3056-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch6", "ChaosMarch7"]
+      }
+    },
+    "starsystemdef_Satalice" :
+    {
+      "3028-09-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3030-01-12T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Savannah" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC14"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Sax" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc102"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Scarborough" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3033-05-20T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Scheat" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC3"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Schwartz" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      },
+      "3050-03-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_SecondChance" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC21"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_SecondTry" :
+    {
+      "3041-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Sevon" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld3"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Outworld" : ["Outworld1", "Outworld3"]
+      }
+    },
+    "starsystemdef_Sevren" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC16"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC9"]
+      },
+      "3051-11-18T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Shensi" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA6"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Sheratan" :
+    {
+      "3052-05-20T00:00:00" :
+      {
+        "Davion" : ["FedCom2"]
+      }
+    },
+    "starsystemdef_Sheridan(FWL)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC5"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Shiba" :
+    {
+      "3031-11-01T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3034-03-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc95"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Shiloh" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC16"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC16", "MarikC18"]
+      },
+      "3039-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikC16"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Shimonoseki" :
+    {
+      "3033-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Shimosuwa" :
+    {
+      "3033-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Shionoha" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC33"]
+      },
+      "3030-09-03T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc66"]
+      },
+      "3053-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Shiro" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3036-05-24T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC21"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Shirotori" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA6"]
+      },
+      "3029-03-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3040-10-06T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC46"]
+      }
+    },
+    "starsystemdef_Shitara" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA8"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC42"]
+      }
+    },
+    "starsystemdef_ShuenWan" :
+    {
+      "3030-02-04T00:00:00" :
+      {
+        "Marik" : ["Merc90"]
+      }
+    },
+    "starsystemdef_Sierra" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC24"]
+      }
+    },
+    "starsystemdef_Sirdar" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC27"]
+      }
+    },
+    "starsystemdef_Sirius" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4", "LiaoC6"]
+      },
+      "3032-12-08T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3058-09-18T00:00:00" :
+      {
+        "Marik" : ["MarikA9", "MarikC14"]
+      }
+    },
+    "starsystemdef_Skallevoll" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Merc67"]
+      },
+      "3050-03-10T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Skandia" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague1"]
+      },
+      "3052-02-16T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Skat" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC20"]
+      },
+      "3053-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Skepptana" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc40"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC33", "Merc40"]
+      },
+      "3028-08-29T00:00:00" :
+      {
+        "Davion" : ["DavionC33"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionC33"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Skondia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc89"]
+      },
+      "3030-02-04T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA4"]
+      },
+      "3050-06-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Skye" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC25"]
+      },
+      "3034-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3047-01-01T00:00:00" :
+      {
+        "Steiner" : ["FedCom1"]
+      },
+      "3057-05-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC44", "FedCom1"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC44", "SteinerC45"]
+      },
+      "3058-06-09T00:00:00" :
+      {
+        "Steiner" : ["SteinerC44"]
+      }
+    },
+    "starsystemdef_Sian" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA", "LiaoA12", "LiaoC1", "LiaoC2"]
+      },
+      "3032-05-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA", "LiaoA12", "LiaoC2"]
+      },
+      "3057-09-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA", "LiaoA2", "LiaoA12"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA2", "LiaoA12"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA", "LiaoA2", "LiaoA12"]
+      }
+    },
+    "starsystemdef_Slocum" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC13"]
+      },
+      "3030-11-22T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_SmallWorld" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3055-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch1"]
+      }
+    },
+    "starsystemdef_Sodertalje" :
+    {
+      "3030-10-09T00:00:00" :
+      {
+        "Davion" : ["Merc40"]
+      },
+      "3053-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Solaris" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC23", "SteinerC28"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC23"]
+      }
+    },
+    "starsystemdef_SonHoa" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc51"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_SophiesWorld" :
+    {
+      "3030-02-03T00:00:00" :
+      {
+        "Marik" : ["Merc44"]
+      },
+      "3036-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Soverzene" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22", "KuritaC37"]
+      },
+      "3050-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Spica" :
+    {
+      "3055-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA17"]
+      },
+      "3061-04-01T00:00:00" :
+      {
+        "Davion" : ["DavionA17", "FedCom1"]
+      }
+    },
+    "starsystemdef_Stantsiya" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc38"]
+      },
+      "3050-06-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Stanzach" :
+    {
+      "3029-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5", "KuritaC21"]
+      },
+      "3029-08-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Steelton" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc45"]
+      },
+      "3050-04-09T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Sterlington" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc70"]
+      },
+      "3053-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Stewart" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC17"]
+      }
+    },
+    "starsystemdef_St.Andre" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["Ives4", "LiaoC16"]
+      },
+      "3028-09-26T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_St.Ives" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC12"]
+      },
+      "3030-01-08T00:00:00" :
+      {
+        "Ives" : ["Ives1", "Ives2"]
+      },
+      "3060-01-01T00:00:00" :
+      {
+        "Ives" : ["Ives1", "Ives2"],
+        "Marik" : ["MarikC21"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Ives" : ["Ives1", "Ives2"]
+      }
+    },
+    "starsystemdef_St.Loris" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC12"]
+      },
+      "3030-01-08T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Styk" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA8"]
+      },
+      "3052-05-20T00:00:00" :
+      {
+        "Steiner" : ["SteinerA8", "FedCom1"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["FedCom1"],
+        "Locals" : ["ChaosMarch4"]
+      }
+    },
+    "starsystemdef_Suk" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc62"]
+      },
+      "3035-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA4"]
+      },
+      "3052-01-03T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Summer" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC29"]
+      },
+      "3026-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC29", "Merc86"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC29"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Suzano" :
+    {
+      "3030-08-31T00:00:00" :
+      {
+        "Marik" : ["Merc20"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Tabayama" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC48"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Taga" :
+    {
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC21"]
+      },
+      "3057-09-18T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Talcott" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC8"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA7"]
+      }
+    },
+    "starsystemdef_Talitha" :
+    {
+      "3031-09-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC31"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Marik" : ["MarikC8"]
+      }
+    },
+    "starsystemdef_TallTrees" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc3"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc3"],
+        "Steiner" : ["SteinerC25"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC25"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Tamar" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC4"]
+      },
+      "3051-11-07T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Tamarind" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikA4"]
+      }
+    },
+    "starsystemdef_Tancredi" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA2"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_TanhLinh" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC1"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Tannil" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC17"]
+      },
+      "3051-11-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Tantara" :
+    {
+      "3060-01-01T00:00:00" :
+      {
+        "Ives" : ["Ives8"]
+      }
+    },
+    "starsystemdef_Tarazed" :
+    {
+      "3059-05-27T00:00:00" :
+      {
+        "Kurita" : ["KuritaA8"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Tarnby" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC5"]
+      },
+      "3050-03-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_TauCeti(NewEarth2116+)" :
+    {
+      "3056-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3057-06-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Taurus" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "TaurianConcordat" : ["TaurianConcordatA1"]
+      }
+    },
+    "starsystemdef_TerraFirma" :
+    {
+      "3057-11-01T00:00:00" :
+      {
+        "Locals" : ["ChaosMarch11"]
+      }
+    },
+    "starsystemdef_Texlos" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC12"]
+      },
+      "3030-01-08T00:00:00" :
+      {
+        "Ives" : ["Ives5"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Ives" : ["Ives"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc8"]
+      }
+    },
+    "starsystemdef_Teyvareb" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC38"]
+      }
+    },
+    "starsystemdef_Tharkad" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA", "SteinerA9", "SteinerA10", "Merc54"]
+      },
+      "3028-08-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA9", "SteinerA10"]
+      },
+      "3029-06-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA", "SteinerA9", "SteinerA10"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA9", "SteinerA10"]
+      }
+    },
+    "starsystemdef_Thermopolis" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC5"]
+      }
+    },
+    "starsystemdef_Thessalonika" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3030-06-13T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Thestria" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA6"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Thorin" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC25"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Thule" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague3"]
+      },
+      "3050-03-03T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_Thurrock" :
+    {
+      "3053-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc61"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Tiber(FWL)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC11"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Tigress" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA6", "LiaoC17", "Merc52"]
+      },
+      "3030-10-29T00:00:00" :
+      {
+        "Davion" : ["DavionC1", "Merc53"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc53"]
+      }
+    },
+    "starsystemdef_Tikonov" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC2", "LiaoC4", "LiaoC14"]
+      },
+      "3029-11-06T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3039-12-01T00:00:00" :
+      {
+        "Davion" : ["DavionA4"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["DavionA4", "DavionC1"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC1"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Timbiqui" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC24"]
+      },
+      "3059-01-05T00:00:00" :
+      {
+        "Davion" : ["DavionC1"]
+      }
+    },
+    "starsystemdef_Timbuktu" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC5"]
+      }
+    },
+    "starsystemdef_Tinaca" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28"]
+      },
+      "3052-12-19T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Tishomingo" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC29"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Toland" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc45"]
+      },
+      "3050-03-07T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Tomans" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc7"]
+      },
+      "3052-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC46"]
+      }
+    },
+    "starsystemdef_Towne" :
+    {
+      "3049-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC25"]
+      },
+      "3051-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3056-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc109"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Treeline(Winfield2863+)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA12"]
+      },
+      "3052-03-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Trell(Trellwan)" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC19"]
+      },
+      "3050-04-20T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Trellisane" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC20"]
+      }
+    },
+    "starsystemdef_Tripoli" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC50"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC14"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_TrollocPrime" :
+    {
+      "3035-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC22"]
+      },
+      "3052-03-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Trondheim(DC)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC21"]
+      },
+      "3034-03-13T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Truth" :
+    {
+      "3039-12-01T00:00:00" :
+      {
+        "Davion" : ["DavionA3"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Tsamma" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC28"]
+      }
+    },
+    "starsystemdef_Tsingtao" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC18"]
+      },
+      "3030-12-09T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC1"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Merc47"]
+      }
+    },
+    "starsystemdef_Tsitsang" :
+    {
+      "3037-01-01T00:00:00" :
+      {
+        "Davion" : ["FedCom1"]
+      },
+      "3057-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Tukayyid" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague1"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague"]
+      }
+    },
+    "starsystemdef_TurtleBay" :
+    {
+      "3040-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC18"]
+      },
+      "3050-03-15T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Twycross" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC39"]
+      },
+      "3050-06-25T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      },
+      "3050-09-01T00:00:00" :
+      {
+        "Steiner" : ["FedCom1"]
+      },
+      "3051-11-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Tybalt" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3030-03-10T00:00:00" :
+      {
+        "Davion" : ["DavionC2"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3057-12-01T00:00:00" :
+      {
+        "Davion" : ["DavionC20"]
+      }
+    },
+    "starsystemdef_Udibi" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc74"]
+      },
+      "3051-06-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Ueda" :
+    {
+      "3052-05-20T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague1", "Rasalhague2", "Rasalhague4", "Merc12"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Rasalhague" : ["Rasalhague1", "Rasalhague2", "Rasalhague4"]
+      }
+    },
+    "starsystemdef_Uhuru" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25", "Merc65"]
+      }
+    },
+    "starsystemdef_UlanBator" :
+    {
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["Merc47"]
+      }
+    },
+    "starsystemdef_Umijiri" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC19"]
+      },
+      "3049-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Unukalhai" :
+    {
+      "3030-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC33"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Uravan" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC14"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Vackisujfalu" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc75"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Valentina" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC16"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Valexa" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC27"]
+      }
+    },
+    "starsystemdef_VanDiemenIV" :
+    {
+      "3031-09-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC33"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikC22"]
+      }
+    },
+    "starsystemdef_Vanra" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC7", "MarikA7"]
+      },
+      "3028-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC7", "MarikA7", "Merc87"]
+      },
+      "3032-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC7", "MarikA7"]
+      },
+      "3057-12-19T00:00:00" :
+      {
+        "Marik" : ["MarikC7"]
+      }
+    },
+    "starsystemdef_Vega" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC18"]
+      }
+    },
+    "starsystemdef_Velhas" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC12"]
+      }
+    },
+    "starsystemdef_Ventabren" :
+    {
+      "3034-03-13T00:00:00" :
+      {
+        "Marik" : ["Merc24"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Verde" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC14"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Verdigreis" :
+    {
+      "3028-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc10"]
+      }
+    },
+    "starsystemdef_Verlo" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC21"]
+      },
+      "3057-03-01T00:00:00" :
+      {
+        "Davion" : ["DavionC21", "DavionC23"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC23"]
+      }
+    },
+    "starsystemdef_Vestallas" :
+    {
+      "3050-01-01T00:00:00" :
+      {
+        "Ives" : ["Ives6"]
+      }
+    },
+    "starsystemdef_Victoria" :
+    {
+      "3060-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC1"]
+      }
+    },
+    "starsystemdef_Vulcan" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC9"]
+      },
+      "3039-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Wallacia" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC21"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3040-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC21"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Wallis" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC9"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Wapakoneta" :
+    {
+      "3039-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC43"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Wappingers" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["Merc9"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Ward" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC10"]
+      }
+    },
+    "starsystemdef_Warlock" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC12"]
+      },
+      "3030-01-08T00:00:00" :
+      {
+        "Ives" : ["Ives3"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Ives" : ["Ives"]
+      },
+      "3060-03-01T00:00:00" :
+      {
+        "Ives" : ["Ives9"]
+      }
+    },
+    "starsystemdef_Warren" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC27"]
+      }
+    },
+    "starsystemdef_Wasat" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      },
+      "3031-09-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC32"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikC23"]
+      }
+    },
+    "starsystemdef_Wazan" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC11"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA19"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Liao" : ["LiaoA10"]
+      }
+    },
+    "starsystemdef_Weekapaug" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA7"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Wei" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC4"]
+      },
+      "3030-09-17T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Weingarten" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC28"]
+      },
+      "3030-01-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Wernke(Talon)" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC31"]
+      },
+      "3040-01-19T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_Westerhand" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC7"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc55"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Wheel" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["Merc94"]
+      },
+      "3030-06-17T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      }
+    },
+    "starsystemdef_Wing" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      },
+      "3038-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC30"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC25"]
+      }
+    },
+    "starsystemdef_Winter" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["Merc113"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA7"]
+      }
+    },
+    "starsystemdef_Wolcott" :
+    {
+      "3052-02-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20"]
+      },
+      "3056-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20", "Merc108"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20", "Merc96", "Merc108"],
+        "Steiner" : ["SteinerA3", "SteinerA4"]
+      },
+      "3059-05-13T00:00:00" :
+      {
+        "Kurita" : ["KuritaC20", "Merc96", "Merc108"]
+      }
+    },
+    "starsystemdef_Woodstock" :
+    {
+      "3030-05-09T00:00:00" :
+      {
+        "Davion" : ["DavionC26"]
+      }
+    },
+    "starsystemdef_Wotan" :
+    {
+      "3040-01-19T00:00:00" :
+      {
+        "Steiner" : ["SteinerC39"]
+      },
+      "3050-06-03T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Wyatt" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA2", "SteinerA5"]
+      },
+      "3028-10-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerA2"]
+      }
+    },
+    "starsystemdef_Xanthe" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3037-02-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_XantheIII" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC31"]
+      },
+      "3030-09-11T00:00:00" :
+      {
+        "Andurien" : ["MarikC31"]
+      },
+      "3037-02-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      }
+    },
+    "starsystemdef_Xhosa" :
+    {
+      "3030-10-30T00:00:00" :
+      {
+        "Davion" : ["DavionA13"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_XiengKhouang" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc32"]
+      },
+      "3061-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      }
+    },
+    "starsystemdef_Xinyang" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC11"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC11", "KuritaC13"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC11", "Merc115"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaC11", "KuritaC13", "Merc115", "Merc116"]
+      }
+    },
+    "starsystemdef_Yangtze" :
+    {
+      "3057-10-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC33"]
+      }
+    },
+    "starsystemdef_Yorii" :
+    {
+      "3030-01-27T00:00:00" :
+      {
+        "Steiner" : ["Merc39"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Yumesta" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA6"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Kurita" : ["Kurita"]
+      },
+      "3059-10-01T00:00:00" :
+      {
+        "Kurita" : ["KuritaA6"]
+      }
+    },
+    "starsystemdef_Zaniah" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC28"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Zanzibar" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Liao" : ["LiaoC15"]
+      },
+      "3058-01-01T00:00:00" :
+      {
+        "Liao" : ["Liao"]
+      },
+      "3059-01-01T00:00:00" :
+      {
+        "Liao" : ["Merc118"]
+      }
+    },
+    "starsystemdef_Ziliang" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionA10"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      },
+      "3059-09-18T00:00:00" :
+      {
+        "Davion" : ["DavionA10"]
+      }
+    },
+    "starsystemdef_Zion" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC1"]
+      },
+      "3035-01-01T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3050-01-01T00:00:00" :
+      {
+        "Marik" : ["MarikC1"]
+      }
+    },
+    "starsystemdef_Zosma" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Marik" : ["Merc44"]
+      },
+      "3030-02-03T00:00:00" :
+      {
+        "Marik" : ["Marik"]
+      },
+      "3057-10-01T00:00:00" :
+      {
+        "Marik" : ["MarikC19"]
+      }
+    },
+    "starsystemdef_Zurich" :
+    {
+      "3057-10-01T00:00:00" :
+      {
+        "Davion" : ["DavionC35"]
+      },
+      "3057-11-01T00:00:00" :
+      {
+        "Davion" : ["DavionA20", "DavionC35"]
+      },
+      "3059-05-01T00:00:00" :
+      {
+        "Davion" : ["DavionC35"]
+      },
+      "3059-09-18T00:00:00" :
+      {
+        "Davion" : ["DavionA20", "DavionC35"]
+      }
+    }
+  },
+
+  "UnitsOnlyOnThisPlanet":
+  {
+    "starsystemdef_Blackjack" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC48"]
+      },
+      "3050-08-05T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_BrokenWheel" :
+    {
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC38"]
+      }
+    },
+    "starsystemdef_Buena" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC52"]
+      }
+    },
+    "starsystemdef_Enchi" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC38"]
+      }
+    },
+    "starsystemdef_Filtvelt" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC39"]
+      }
+    },
+    "starsystemdef_Goshen" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC44"]
+      }
+    },
+    "starsystemdef_Kilbourne" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC40"]
+      }
+    },
+    "starsystemdef_Morven" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC38"]
+      },
+      "3054-01-01T00:00:00" :
+      {
+        "Davion" : ["Davion"]
+      }
+    },
+    "starsystemdef_NewCapetown" :
+    {
+      "3038-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC51"]
+      }
+    },
+    "starsystemdef_Pandora" :
+    {
+      "3032-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC47"]
+      }
+    },
+    "starsystemdef_PointBarrow" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC41"]
+      }
+    },
+    "starsystemdef_Robinson" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC42"]
+      }
+    },
+    "starsystemdef_Sakhara" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Davion" : ["DavionC43"]
+      }
+    },
+    "starsystemdef_Somerset" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC49"]
+      },
+      "3050-05-22T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    },
+    "starsystemdef_Tamar" :
+    {
+      "3025-01-01T00:00:00" :
+      {
+        "Steiner" : ["SteinerC50"]
+      },
+      "3051-11-02T00:00:00" :
+      {
+        "Steiner" : ["Steiner"]
+      }
+    }
+  }
+}

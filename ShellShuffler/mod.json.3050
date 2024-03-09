@@ -20,6 +20,9 @@
     "tagSetsUnion": true,
     "chanceToShuffle": 0.35,
     "unShuffledBins": 0,
+    "unitBlackList": [
+        "unit_noshuffle"
+    ],
     "blackListShuffleIn": [
       "Ammunition_AC2",
       "Ammunition_AC2_Flak",
@@ -49,7 +52,6 @@
       "Ammunition_MG",
       "Ammunition_MRM",
       "Ammunition_Magshot",
-      "Ammunition_Narc",
       "Ammunition_Plasma",
       "Ammunition_RAC2",
       "Ammunition_RAC5",
@@ -61,7 +63,6 @@
       "Ammunition_TBOLT15",
       "Ammunition_TBOLT20",
       "Ammunition_Thumper",
-      "Ammunition_iNarc",
       /* Special */
       "Ammunition_AC2_AP",
       "Ammunition_AC2_Flak",
@@ -81,7 +82,10 @@
       "Ammunition_LRM_Swarm",
       "Ammunition_LRM_Swarm-I",
       "Ammunition_SRM_DF",
-      "Ammunition_SRM_Inferno"
+      "Ammunition_SRM_Inferno",
+      "Ammunition_Narc_Explosive",
+      "Ammunition_iNarc_Explosive",
+      "Ammunition_iNarc_Haywire"
     ],
     "mechDefTagAmmoList": {},
     "factionAmmoList": {
@@ -889,17 +893,6 @@
         "Ammunition_AC20_Precision",
         "Ammunition_LRM_Swarm"
       ],
-      "KellHounds": [
-        "Ammunition_AC2_AP",
-        "Ammunition_AC2_Precision",
-        "Ammunition_AC5_AP",
-        "Ammunition_AC5_Precision",
-        "Ammunition_AC10_AP",
-        "Ammunition_AC10_Precision",
-        "Ammunition_AC20_AP",
-        "Ammunition_AC20_Precision",
-        "Ammunition_LRM_Swarm"
-      ],
       "SianTriumphant": [
         "Ammunition_AC2_AP",
         "Ammunition_AC2_Precision",
@@ -925,247 +918,308 @@
       /* Kurita */
       "Kurita": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaA": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaA2": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaA3": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaA4": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaA5": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaA6": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaA7": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaA8": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC1": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC2": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC3": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC4": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC5": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC6": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC7": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC8": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC9": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC10": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC11": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC12": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC13": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC14": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC15": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC16": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC17": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC18": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC19": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC20": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC21": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC22": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC23": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC24": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC25": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC26": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC27": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC28": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC29": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC30": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC31": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC32": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC33": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC34": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC35": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC36": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC37": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC38": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC39": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC40": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC41": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC42": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC43": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC44": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC45": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC46": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC47": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC48": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC49": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "KuritaC50": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "ChaosMarch1": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       "HouseNakano": [
         "Ammunition_LRM_DF",
-        "Ammunition_SRM_DF"
+        "Ammunition_SRM_DF",
+        "Ammunition_Narc_Explosive"
       ],
       /* Liao */
       "Liao": [
@@ -1993,13 +2047,6 @@
         "Ammunition_AC20_AP",
         "Ammunition_LRM_Swarm"
       ],
-      "GrayDeathLegion": [
-        "Ammunition_AC2_AP",
-        "Ammunition_AC5_AP",
-        "Ammunition_AC10_AP",
-        "Ammunition_AC20_AP",
-        "Ammunition_LRM_Swarm"
-      ],
       /* SLDF */
       "ComStar": [
         "Ammunition_Bomb_Cluster",
@@ -2034,7 +2081,9 @@
         "Ammunition_Bomb_Guided",
         "Ammunition_Bomb_HE",
         "Ammunition_Bomb_Inferno",
-        "Ammunition_LRM_Swarm-I"
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
       ],
       /* Locals */
       "DavionMilitia": [],
@@ -2071,10 +2120,10 @@
       "MagistracyCentrella": [],
       "MagistracyOfCanopus": [],
       "MagistracyOfCanopusA1": [],
+      "Outworld": [],
       "Outworld1": [],
       "Outworld2": [],
       "Outworld3": [],
-      "Outworld": [],
       "TaurianConcordat": [],
       "TaurianConcordatA1": [],
       /* Clans */
@@ -2132,44 +2181,209 @@
         "Ammunition_ATM_HE",
         "Ammunition_LRM_Swarm"
       ],
+      /* Elite Mercenaries */
       "WolfsDragoons": [
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
         "Ammunition_ATM",
         "Ammunition_ATM_ER",
         "Ammunition_ATM_HE",
-        "Ammunition_LRM_Swarm"
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
       ],
-      /* Pirates */
-      "AuriganPirates": [
-        "Ammunition_SRM_Inferno"
+      "GrayDeathLegion": [
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
+        "Ammunition_ATM",
+        "Ammunition_ATM_ER",
+        "Ammunition_ATM_HE",
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
       ],
-      "BlackSabbath": [
-        "Ammunition_SRM_Inferno"
+      "KellHounds": [
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
+        "Ammunition_ATM",
+        "Ammunition_ATM_ER",
+        "Ammunition_ATM_HE",
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
       ],
-      "FlakJackals": [
-        "Ammunition_SRM_Inferno"
-      ],
-      "HadleyCrew": [
-        "Ammunition_SRM_Inferno"
-      ],
-      "LocalPunks": [
-        "Ammunition_SRM_Inferno"
-      ],
-      "RockBand": [
-        "Ammunition_SRM_Inferno"
-      ],
-      /* Mercenaries */
+      /* Eridani Light Horse */
       "Merc1": [
-        "Ammunition_SRM_Inferno"
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
+        "Ammunition_ATM",
+        "Ammunition_ATM_ER",
+        "Ammunition_ATM_HE",
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
       ],
       "Merc2": [
-        "Ammunition_SRM_Inferno"
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
+        "Ammunition_ATM",
+        "Ammunition_ATM_ER",
+        "Ammunition_ATM_HE",
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
       ],
       "Merc3": [
-        "Ammunition_SRM_Inferno"
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
+        "Ammunition_ATM",
+        "Ammunition_ATM_ER",
+        "Ammunition_ATM_HE",
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
       ],
+      /* Northwind Highlanders */
       "Merc4": [
-        "Ammunition_SRM_Inferno"
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
+        "Ammunition_ATM",
+        "Ammunition_ATM_ER",
+        "Ammunition_ATM_HE",
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
       ],
+      "Merc18": [
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
+        "Ammunition_ATM",
+        "Ammunition_ATM_ER",
+        "Ammunition_ATM_HE",
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
+      ],
+      /* Snord's Irregulars */
+      "Merc28": [
+        "Ammunition_AC2_AP",
+        "Ammunition_AC2_Precision",
+        "Ammunition_AC5_AP",
+        "Ammunition_AC5_Precision",
+        "Ammunition_AC10_AP",
+        "Ammunition_AC10_Precision",
+        "Ammunition_AC20_AP",
+        "Ammunition_AC20_Precision",
+        "Ammunition_ArrowIV_Inferno",
+        "Ammunition_ATM",
+        "Ammunition_ATM_ER",
+        "Ammunition_ATM_HE",
+        "Ammunition_LRM_DF",
+        "Ammunition_LRM_Inferno",
+        "Ammunition_LRM_Swarm-I",
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno",
+        "Ammunition_Narc_Explosive",
+        "Ammunition_iNarc_Explosive",
+        "Ammunition_iNarc_Haywire"
+      ],
+      /* Other Mercenaries */
       "Merc5": [
         "Ammunition_SRM_Inferno"
       ],
@@ -2209,9 +2423,6 @@
       "Merc17": [
         "Ammunition_SRM_Inferno"
       ],
-      "Merc18": [
-        "Ammunition_SRM_Inferno"
-      ],
       "Merc19": [
         "Ammunition_SRM_Inferno"
       ],
@@ -2237,9 +2448,6 @@
         "Ammunition_SRM_Inferno"
       ],
       "Merc27": [
-        "Ammunition_SRM_Inferno"
-      ],
-      "Merc28": [
         "Ammunition_SRM_Inferno"
       ],
       "Merc29": [
@@ -2554,6 +2762,25 @@
       "SteelBeast": [
         "Ammunition_SRM_Inferno"
       ],
+      /* Pirates */
+      "AuriganPirates": [
+        "Ammunition_SRM_Inferno"
+      ],
+      "BlackSabbath": [
+        "Ammunition_SRM_Inferno"
+      ],
+      "FlakJackals": [
+        "Ammunition_SRM_Inferno"
+      ],
+      "HadleyCrew": [
+        "Ammunition_SRM_Inferno"
+      ],
+      "LocalPunks": [
+        "Ammunition_SRM_Inferno"
+      ],
+      "RockBand": [
+        "Ammunition_SRM_Inferno"
+      ],
       /* Misc. */
       "ChaosMarch2": [],
       "ChaosMarch3": [],
@@ -2588,15 +2815,19 @@
     "ammoWeight": {
       "Ammunition_AC2": 1,
       "Ammunition_AC2_AP": 1,
+      "Ammunition_AC2_Flak": 1,
       "Ammunition_AC2_Precision": 1,
       "Ammunition_AC5": 1,
       "Ammunition_AC5_AP": 1,
+      "Ammunition_AC5_Flak": 1,
       "Ammunition_AC5_Precision": 1,
       "Ammunition_AC10": 1,
       "Ammunition_AC10_AP": 1,
+      "Ammunition_AC10_Flak": 1,
       "Ammunition_AC10_Precision": 1,
       "Ammunition_AC20": 1,
       "Ammunition_AC20_AP": 1,
+      "Ammunition_AC20_Flak": 1,
       "Ammunition_AC20_Precision": 1,
       "Ammunition_ATM": 1,
       "Ammunition_ATM_ER": 1,
@@ -2614,7 +2845,12 @@
       "Ammunition_LRM_Swarm-I": 1,
       "Ammunition_SRM": 1,
       "Ammunition_SRM_DF": 1,
-      "Ammunition_SRM_Inferno": 1
+      "Ammunition_SRM_Inferno": 1,
+      "Ammunition_Narc": 1,
+      "Ammunition_Narc_Explosive": 1,
+      "Ammunition_iNarc": 1,
+      "Ammunition_iNarc_Explosive": 1,
+      "Ammunition_iNarc_Haywire": 1
     }
   },
   "Manifest": []

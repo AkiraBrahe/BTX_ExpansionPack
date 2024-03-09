@@ -21,8 +21,7 @@
 	{
 		"ForceUpdateMap": false,
 		
-		"AbandonedNeigbours":
-		{
+    "AbandonedNeigbours": {
 			"Balsta" : "Tovetin (Tovetine)",
 			"Black Earth" : "Renren",
 			"Vantaa" : "Kreller",

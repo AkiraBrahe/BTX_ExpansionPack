@@ -46,7 +46,9 @@
       "Ammunition_LRM_Inferno",
       "Ammunition_LRM_Swarm",
       "Ammunition_LRM_Swarm-I",
-      "Ammunition_SRM_DF"
+      "Ammunition_SRM_DF",
+      "Ammunition_Narc",
+      "Ammunition_iNarc"
     ],
     "mechDefTagAmmoList": {},
     "factionAmmoList": {},

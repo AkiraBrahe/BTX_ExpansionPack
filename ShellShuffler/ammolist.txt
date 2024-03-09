@@ -16,15 +16,18 @@ Ammunition_AC5_Precision
 Ammunition_AC10_Precision
 Ammunition_AC20_Precision
 
+./LB-X:
 Ammunition_LB2X
 Ammunition_LB5X
 Ammunition_LB10X
 Ammunition_LB20X
 
+./HVAC:
 Ammunition_HVAC2
 Ammunition_HVAC5
 Ammunition_HVAC10
 
+./RAC:
 Ammunition_RAC2
 Ammunition_RAC5
 
@@ -36,12 +39,31 @@ Ammunition_Magshot
 Ammunition_RAILGUN
 Ammunition_SBGAUSS
 
+./Rifle:
+Ammunition_Rifle_Light
+Ammunition_Rifle_Medium
+Ammunition_Rifle_Heavy
+
 ▬▬▬▬▬▬▬▬▬▬
+
+*/ Fluid:
+Ammunition_Fluid_Corrosive
+Ammunition_Fluid_Inferno
+Ammunition_Fluid_Oil
 
 ./Plasma:
 Ammunition_Plasma
 
 ▬▬▬▬▬▬▬▬▬▬
+
+./Narc:
+Ammunition_Narc /* Homing */
+Ammunition_Narc_Explosive
+
+./iNarc:
+Ammunition_iNarc /* Homing */
+Ammunition_iNarc_Explosive
+Ammunition_iNarc_Haywire
 
 ./SRM:
 Ammunition_SRM
@@ -75,6 +97,11 @@ Ammunition_Bomb_Guided
 Ammunition_Bomb_HE
 Ammunition_Bomb_Inferno
 
+./Mortar:
+Ammunition_Mortar /* High-Explosive */
+Ammunition_Mortar_Airburst
+Ammunition_Mortar_Shaped
+
 ./Artillery:
 Ammunition_ArrowIV
 Ammunition_ArrowIV_Inferno
@@ -87,6 +114,5 @@ Ammunition_Thumper
 ./MG:
 Ammunition_MG
 
-./Narc:
-Ammunition_Narc
-Ammunition_iNarc
+./Flamer:
+Ammunition_Flamer

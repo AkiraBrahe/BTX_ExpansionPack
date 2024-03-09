@@ -4,7 +4,7 @@
   "Description": "Modifies BTX (and BTXMinusWeapons) for CAC.",
   "Author": "mcb",
   "Website": "",
-  "Version": "0.1.21.9",
+  "Version": "0.1.21.11",
   "DependsOn": [
     "BT_Extended",
     "BT_Extended_Timeline",
@@ -446,8 +446,18 @@
       "Path": "ammo"
     },
     {
+      "Type": "AmmunitionDef",
+      "Path": "ammomerge",
+      "ShouldMergeJSON": true
+    },
+    {
       "Type": "AmmunitionBoxDef",
       "Path": "ammobox"
+    },
+    {
+      "Type": "AmmunitionBoxDef",
+      "Path": "ammoboxmerge",
+      "ShouldMergeJSON": true
     },
     {
       "Type": "ItemCollectionDef",

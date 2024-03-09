@@ -25,7 +25,7 @@ mechdef_shadowhawk_SHD-2Hb,6
 mechdef_phoenixhawk_PXH-1c,4
 mechdef_phoenixhawk_PXH-1b,6
 mechdef_osprey_OSP-15,12
-mechdef_griffin_GRF-4N,305
+mechdef_griffin_GRF-2N,305
 Heavies,
 mechdef_lancelot_LNC25-05,8
 mechdef_helepolis_HEP-3H,37
@@ -53,6 +53,7 @@ Assaults,
 mechdef_cyclops_CP-10-HQ,8
 mechdef_cyclops_CP-10-Z,24
 mechdef_riflemanII_RFL-3N-2,35
+mechdef_spartan_SPT-NF,26
 mechdef_thug_THG-11E,100
 mechdef_thug_THG-11Eb,50
 mechdef_battlemaster_BLR-1GB,6
@@ -64,4 +65,4 @@ mechdef_kingcrab_KGC-010,5
 mechdef_atlas_AS7-D-HT,3
 mechdef_crockett_CRK-5003-1b,50
 mechdef_highlander_HGN-732b,229
-mechdef_pillager_PLG-3Z,229
+mechdef_pillager_PLG-3Z,135

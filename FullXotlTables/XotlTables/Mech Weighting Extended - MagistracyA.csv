@@ -1,5 +1,7 @@
 MagistracyOfCanopusA,,,,,,,
 ,,,,,,,
+,,,,,,,
+,,,,,,,
 Dates,3025-01-01T00:00:00Z,,3039-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z
 Lights,,,,,,,
 mechdef_stinger_STG-3R,132,,132,,155,,148
@@ -94,6 +96,7 @@ mechdef_orion_ON1-MA,0,,0,3054-01-01T00:00:00Z,3,,10
 mechdef_grasshopper_GHR-5N,0,,0,3050-01-01T00:00:00Z,10,,18
 mechdef_gallowglas_GAL-1GLS,0,,0,,0,3060-01-01T00:00:00Z,3
 mechdef_gallowglas_GAL-2GLS,0,,0,,0,3060-01-01T00:00:00Z,3
+mechdef_jinggau_JN-G8A,0,,0,,0,3067-01-01T00:00:00Z,27
 Assaults,,,,,,,
 mechdef_charger_CGR-2A2,0,,0,,0,3064-01-01T00:00:00Z,1
 mechdef_longbow_LGB-0W,52,,52,,79,,57
