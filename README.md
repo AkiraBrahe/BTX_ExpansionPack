@@ -16,8 +16,13 @@ A BattleTech Extended mod that adds tons of new content, including new 'Mechs, v
 <br>The archive includes a modified version of Playable Tanks/VTOLs.
 
 ### Optionals
-- Enable DHS Changes, which gives all DHS in the engine 6 heatsinking instead of 4, by setting "Enabled" to true in the mod.json file of the mod.
-- Enable Shell Shuffler, which makes the AI use different ammo types at random, by removing the date part from one the two mod.json files of the mod.
+- **For all DHS in the engine to dissipate 6 heat instead of 4**:
+  - Enable the `BTX_DHS_Changes` mod by removing the `.bak` extension from its mod.json file.
+- **For the AI to use different types of ammo randomly during combat**:
+  - Enable the `Shell Shuffler` mod by removing the date part from one of its two mod.json files.
+- **To disable playable vehicles**:
+  - In the `BTSimpleMechAssembly` mod.json file, change `"SalvageAndAssembleVehicles"` to `"false"`.
+  - Remove these mods from your mods folder: Abilifier, AbilityRealizer, BTX_CustomPilotDecorator, BTX_PlayableVehicles, and Lifepaths.
 
 ## Credits
 
@@ -196,7 +201,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Arc-Royal Defense Cordon             |        3058-3067         | C/Regulars                         |
 | Chaos March                          |        3057-3073         | F/Locals                           |
 | Clan Wolf-in-Exile                   |        3057-3151         | B/Front Lines<br>C/Second Lines    |
-| Clan Snow Raven𓅪                     |    2807–3082<br>3083-    | F/Provisional Garrison             |
+| Clan Snow Raven𓅪 /<br>Raven Alliance |    2807–3082<br>3083-    | F/Provisional Garrison             |
 | Duchy of Andurien                    |    3030-3040<br>3079-    | C/Regulars                         |
 | New Colony Region /<br>Fronc Reaches |    3060-3066<br>3067-    | C/Regulars                         |
 |  ----                                |                          |                                    |
