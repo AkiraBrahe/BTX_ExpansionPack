@@ -33,7 +33,9 @@
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "excludedUnitTagSet": {
-        "items": [],
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "pilotTagSet": {
@@ -57,7 +59,9 @@
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "excludedUnitTagSet": {
-        "items": [],
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "pilotTagSet": {
@@ -81,7 +85,9 @@
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "excludedUnitTagSet": {
-        "items": [],
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "pilotTagSet": {
@@ -105,32 +111,8 @@
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "excludedUnitTagSet": {
-        "items": [],
-        "tagSetSourceFile": "Tags/UnitTags"
-      },
-      "pilotTagSet": {
-        "items": [],
-        "tagSetSourceFile": "Tags/PilotTags"
-      },
-      "excludedPilotTagSet": {
-        "items": null,
-        "tagSetSourceFile": "Tags/PilotTags"
-      }
-    },
-    {
-      "unitType": "Vehicle",
-      "unitId": "Tagged",
-      "pilotId": "Tagged",
-      "dynamicDifficulty": true,
-      "unitTagSet": {
         "items": [
-          "unit_vehicle"
-        ],
-        "tagSetSourceFile": "Tags/UnitTags"
-      },
-      "excludedUnitTagSet": {
-        "items": [
-          "unit_noncombatant"
+          "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -156,7 +138,35 @@
       },
       "excludedUnitTagSet": {
         "items": [
-          "unit_noncombatant"
+          "unit_noncombatant",
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_noncombatant",
+          "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },

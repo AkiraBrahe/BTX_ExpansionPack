@@ -12,7 +12,7 @@
   "OptionallyDependsOn": [
     "BTX_CAC_Compatibility",
     "The_Big_Deal_Campaign_Add-on",
-    "BTX_MechPack"
+    "BTX_ExpansionPack"
   ],
 
   "Manifest": [

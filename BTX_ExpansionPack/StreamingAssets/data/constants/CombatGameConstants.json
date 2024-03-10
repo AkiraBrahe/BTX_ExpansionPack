@@ -11,6 +11,9 @@
     "ToHitVehicleHeavy": 0,
     "ToHitVehicleAssault": 0
   },
+  "ResolutionConstants": {
+    "VehiclesGetGuarded": true
+  },
   "CombatValueMultipliers": {
     "ArmorMultiplierVehicle": 1,
     "StructureMultiplierVehicle": 1

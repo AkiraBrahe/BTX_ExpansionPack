@@ -3,6 +3,7 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
+      "chrprfmech_phawklammechbase-001_50",
       "chrprfmech_phawklambase-001_50",
       "chrprfmech_screamermechbase-001_55"
     ],
