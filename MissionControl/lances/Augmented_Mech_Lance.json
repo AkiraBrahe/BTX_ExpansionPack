@@ -1,5 +1,5 @@
 {
-  "lanceKey": "Augmented_Battle_Lance",
+  "lanceKey": "Augmented_Mech_Lance",
   "lanceDefId": "lancedef_augmented_mech_dynamic_battle1",
   "lanceTagSet": {
     "items": ["lance_type_battle"]
