@@ -9,13 +9,14 @@
         "effectTriggerType": "OnWeaponFire",
         "effectTargetType": "Creator",
         "showInTargetPreview": false,
-        "showInStatusPanel": true
+        "showInStatusPanel": true,
+        "hideApplicationFloatie": true
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-SelfKnockdown",
-        "Name": "STABILITY DAMAGE INCREASED",
-        "Details": "Firing causes 'Mech to become unbalanced.",
+        "Id": "StatusEffect-Gauss-SelfKnockdown",
+        "Name": "SELF-KNOCKDOWN",
+        "Details": "Gauss fire lowers stability.",
         "Icon": "uixSvgIcon_equipment_Gyro"
       },
       "nature": "Debuff",
