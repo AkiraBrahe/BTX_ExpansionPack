@@ -8,7 +8,7 @@
     "UIName": "VTOL Propulsion",
     "Id": "Gear_VTOL",
     "Name": "VTOL Propulsion",
-    "Details": "VTOL Propulsion",
+    "Details": "",
     "Icon": "uixSvgIcon_equipment_HeatBank"
   },
   "BonusValueA": "+ 2 Evasion",
@@ -80,8 +80,8 @@
   ],
   "ComponentTags": {
     "items": [
-      "BUILT-IN",
-      "BLACKLISTED"
+      "not_critable",
+      "BUILT-IN"
     ],
     "tagSetSourceFile": ""
   }

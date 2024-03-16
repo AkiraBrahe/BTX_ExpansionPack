@@ -19,7 +19,6 @@
     "Id": "vehicledef_APC_Hover_Sensors",
     "Name": "Hover APC",
     "UIName": "Hover APC (Sensors)",
-    "Details": "<b>Name: <color=#85DBF6>Hover APC (Sensors)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>",
     "Icon": "uixVhclIcon_hoverapc",
     "Cost": 133200,
     "Rarity": 0,
@@ -66,6 +65,13 @@
   "inventory": [
     {
       "ComponentDefID": "Gear_Remote_Sensor_Dispenser",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

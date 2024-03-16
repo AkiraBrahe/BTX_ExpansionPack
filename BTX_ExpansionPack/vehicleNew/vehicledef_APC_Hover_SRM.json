@@ -19,7 +19,6 @@
     "Id": "vehicledef_APC_Hover_SRM",
     "Name": "Hover APC",
     "UIName": "Hover APC (SRM)",
-    "Details": "<b>Name: <color=#85DBF6>Hover APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>",
     "Icon": "uixVhclIcon_hoverapc",
     "Cost": 116400,
     "Rarity": 0,
@@ -67,6 +66,13 @@
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

@@ -79,6 +79,13 @@
     {
       "ComponentDefID": "Gear_SensorCAC_Beagle",
       "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

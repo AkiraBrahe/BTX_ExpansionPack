@@ -84,6 +84,13 @@
       "MountedLocation": "Turret",
       "HardpointSlot": 2,
       "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     }
   ],
   "MinAppearanceDate": "2875-01-01T00:00:00Z"

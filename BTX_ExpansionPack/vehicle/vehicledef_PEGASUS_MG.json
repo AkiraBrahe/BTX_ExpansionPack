@@ -104,6 +104,13 @@
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     }
   ],
   "MinAppearanceDate": null

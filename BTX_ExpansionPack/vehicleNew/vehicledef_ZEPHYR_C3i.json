@@ -119,6 +119,20 @@
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     }
   ],
   "MinAppearanceDate": "3062-01-01T00:00:00Z"

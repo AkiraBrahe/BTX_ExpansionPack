@@ -19,7 +19,6 @@
     "Id": "vehicledef_BLIZZARD_BLACK",
     "Name": "Blizzard Hover Transport",
     "UIName": "\"Black Blizzard\" Hover Transport",
-    "Details": "<b>Name: <color=#85DBF6>Blizzard Hover Transport \"Black Blizzard\"</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>95 ICE</color></b>",
     "Icon": "uixVhclIcon_blizzard",
     "Cost": 840125,
     "Rarity": 0,
@@ -108,6 +107,13 @@
     },
     {
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

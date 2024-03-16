@@ -19,7 +19,6 @@
     "Id": "vehicledef_APC_HeavyHover",
     "Name": "Heavy Hover APC",
     "UIName": "Heavy Hover APC (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Heavy Hover APC</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>",
     "Icon": "uixVhclIcon_heavyhoverapc",
     "Cost": 196700,
     "Rarity": 2,
@@ -74,6 +73,13 @@
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
       "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

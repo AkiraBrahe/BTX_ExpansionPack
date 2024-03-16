@@ -102,7 +102,14 @@
     {
       "ComponentDefID": "Gear_Remote_Sensor_Dispenser",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "Rear",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

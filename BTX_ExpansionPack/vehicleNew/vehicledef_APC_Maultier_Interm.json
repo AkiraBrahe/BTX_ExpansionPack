@@ -20,7 +20,6 @@
     "Id": "vehicledef_APC_Maultier_Interm",
     "Name": "Maultier Hover APC",
     "UIName": "Maultier Hover APC (Intermediate)",
-    "Details": "<b>Name: <color=#85DBF6>Maultier Hover APC (Intermediate)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>",
     "Icon": "uixVhclIcon_maultier",
     "Cost": 213850,
     "Rarity": 0,
@@ -68,6 +67,13 @@
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

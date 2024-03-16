@@ -19,7 +19,6 @@
     "Id": "vehicledef_BANDIT_C-A",
     "Name": "Bandit (C) Hovercraft",
     "UIName": "Bandit (C) Hovercraft A",
-    "Details": "<b>Name: <color=#85DBF6>Bandit (C) Hovercraft A</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>",
     "Icon": "uixVhclIcon_bandit",
     "Cost": 3437917,
     "Rarity": 3,
@@ -88,6 +87,13 @@
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

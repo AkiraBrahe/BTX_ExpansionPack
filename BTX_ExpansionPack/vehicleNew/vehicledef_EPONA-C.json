@@ -97,7 +97,14 @@
     {
       "ComponentDefID": "Gear_SensorCAC_GuardianClan",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "Turret",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

@@ -8,7 +8,7 @@
     "UIName": "Hover Propulsion",
     "Id": "Gear_Hover",
     "Name": "Hover Propulsion",
-    "Details": "Hover Propulsion",
+    "Details": "",
     "Icon": "uixSvgIcon_equipment_HeatBank"
   },
   "BonusValueA": "+ 1 Evasion",
@@ -80,8 +80,8 @@
   ],
   "ComponentTags": {
     "items": [
-      "BUILT-IN",
-      "BLACKLISTED"
+      "not_critable",
+      "BUILT-IN"
     ],
     "tagSetSourceFile": ""
   }
