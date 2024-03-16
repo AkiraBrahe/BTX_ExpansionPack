@@ -32,11 +32,11 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -56,10 +56,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -72,7 +68,7 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],

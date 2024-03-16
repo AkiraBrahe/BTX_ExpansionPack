@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_dervishbase-001",
   "PrefabBase": "dervish",
   "Tonnage": 55,
-  "InitialTonnage": 0,
+  "InitialTonnage": 17,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 86.4,
@@ -211,7 +211,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Striker Cavalry",
-  "YangsThoughts": "The Dervish IIC is packed to the brim with firepower thanks to its 15 double heat sinks. For ammunition-independent weapons, it has one ER Medium Laser and Medium Pulse Laser. For long-range engagements, it's got two LRM-20s that can rain down destruction from afar. And when the enemy gets close enough to feel the heat, a pair of twin Streak SRM-4s will shred them apart.",
+  "YangsThoughts": "Bristling with firepower, the Dervish IIC packs ER Medium and Medium Pulse Lasers for close quarters, while twin LRM-20s rain down destruction at long range. For those who get too close, two Streak SRM-4s stand ready to shred them.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

@@ -66,25 +66,25 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_cuflashmanbase-001",
   "PrefabBase": "cuflashman",
   "Tonnage": 75,
-  "InitialTonnage": 34.06,
+  "InitialTonnage": 35.5,
   "weightClass": "HEAVY",
   "Heatsinks": 40,
   "TopSpeed": 86.4,

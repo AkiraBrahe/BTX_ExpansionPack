@@ -221,7 +221,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -237,7 +237,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
+      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

@@ -206,8 +206,8 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false

@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_redcorsairbase-001",
   "PrefabBase": "redcorsair",
   "Tonnage": 85,
-  "InitialTonnage": 28,
+  "InitialTonnage": 25,
   "weightClass": "ASSAULT",
   "Heatsinks": 10,
   "TopSpeed": 64.8,

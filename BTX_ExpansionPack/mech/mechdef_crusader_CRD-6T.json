@@ -166,14 +166,6 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
@@ -182,16 +174,16 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-      "ComponentDefType": "AmmunitionBox",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false

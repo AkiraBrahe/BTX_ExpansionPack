@@ -41,26 +41,26 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Sniper",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Sniper",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Sniper",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Sniper",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
