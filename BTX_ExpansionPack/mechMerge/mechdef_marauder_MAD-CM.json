@@ -119,7 +119,7 @@
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

@@ -136,7 +136,7 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_Vehicular_Grenade_Launcher",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -192,7 +192,7 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_Vehicular_Grenade_Launcher",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

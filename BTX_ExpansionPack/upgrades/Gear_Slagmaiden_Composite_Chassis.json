@@ -43,17 +43,10 @@
       "effectType": "StatisticEffect",
       "nature": "Buff",
       "statisticData": {
-        "effectsPersistAfterDestruction": false,
         "statName": "CanShootAfterSprinting",
         "operation": "Set",
         "modValue": "true",
-        "modType": "System.Boolean",
-        "additionalRules": "NotSet",
-        "targetCollection": "NotSet",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "NotSet"
+        "modType": "System.Boolean"
       }
     },
     {

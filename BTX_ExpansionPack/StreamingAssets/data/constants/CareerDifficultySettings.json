@@ -1178,7 +1178,7 @@
       "Name": "Starting Year",
       "UIOrder": 0,
       "TelemetryEventName": "",
-      "Tooltip": "Select your start date.\n\n3025 End of Third Succession War\n3028 Fourth Succession War\n3030 Andurien/St. Ives Succession\n3034 Rasalhague Independence\n3039 War of 3039\n3047 Helm Memory Core Technology production begins\n3049 Clan Invasion\n3053 Post Truce of Tukayyid\n3057 Operation GUERRERO\n3059 Operation Bulldog\n3061 Prior to Civil War\n3067 Prior to Word of Blake Jihad\n\nNew technologies begin to appear 3047+, but remain rare until mid to late 3050s.\nClans arrive 3049 August+.\n\nTimeline will hold in map until 3061 prior to the Fed Com Civil War. New 'Mechs and technologies will continue to be added until 3065.",
+      "Tooltip": "Select your start date.\n\n3025 End of Third Succession War\n3028 Fourth Succession War\n3030 Andurien/St. Ives Succession\n3034 Rasalhague Independence\n3039 War of 3039\n3047 Helm Memory Core Technology Renaissance\n3049 Clan Invasion\n3053 Post Truce of Tukayyid\n3057 Operation GUERRERO\n3059 Operation BULLDOG\n3061 Prior to FedCom Civil War\n3067 End of FedCom Civil War\n\nNew technologies begin to appear in 3047 but remain rare until the mid- to late 3050s. Clans arrive in August 3049.\n\nThe timeline holds on the map until 3067, prior to the Word of Blake Jihad. New 'Mechs, vehicles, and technologies will continue to be added up until that point.",
       "Enabled": true,
       "Visible": true,
       "Toggle": false,
