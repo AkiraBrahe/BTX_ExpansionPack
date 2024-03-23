@@ -80,9 +80,9 @@
       "ShotsWhenFired": 29,
       "ProjectilesPerShot": -2,
       "AMSHitChance": 0.75,
-      "FlatJammingChance": 0.05,
+      "FlatJammingChance": 0,
+      "GunneryJammingBase": 10,
       "GunneryJammingMult": 0.02,
-      "GunneryJammingBase": 0,
       "AMSShootsEveryAttack": false,
       "DamagePerShot": -35,
       "HeatGenerated": 3

@@ -81,8 +81,8 @@
       "ProjectilesPerShot": -2,
       "AMSHitChance": 0.75,
       "FlatJammingChance": 0.05,
+      "GunneryJammingBase": 10,
       "GunneryJammingMult": 0.02,
-      "GunneryJammingBase": 0,
       "AMSShootsEveryAttack": false,
       "DamagePerShot": -35,
       "HeatGenerated": 4

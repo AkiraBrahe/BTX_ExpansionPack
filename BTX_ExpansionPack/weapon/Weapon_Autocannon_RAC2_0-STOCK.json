@@ -79,8 +79,8 @@
       "HeatGenerated": -22,
       "ShotsWhenFired": -4,
       "FlatJammingChance": 0.06,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 0
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
     },
     {
       "Id": "RAC_x3",
@@ -91,8 +91,8 @@
       "ShotsWhenFired": -3,
       "RefireModifier": 1,
       "FlatJammingChance": 0.12,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 0
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
     },
     {
       "Id": "RAC_x4",
@@ -103,8 +103,8 @@
       "ShotsWhenFired": -2,
       "RefireModifier": 1,
       "FlatJammingChance": 0.18,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 0
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
     },
     {
       "Id": "RAC_x5",
@@ -115,8 +115,8 @@
       "ShotsWhenFired": -1,
       "RefireModifier": 2,
       "FlatJammingChance": 0.24,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 0
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
     },
     {
       "Id": "RAC_x6",
@@ -127,8 +127,8 @@
       "ShotsWhenFired": 0,
       "RefireModifier": 2,
       "FlatJammingChance": 0.3,
-      "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 0
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
     }
   ]
 }
