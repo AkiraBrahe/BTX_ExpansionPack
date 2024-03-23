@@ -24,6 +24,7 @@
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
         { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
+        { "Type": "ContractOverride", "Path": "contracts", "ShouldMergeJSON": false },
         { "Type": "DesignMaskDef", "Path": "designMasks", "ShouldMergeJSON": false },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
         { "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
