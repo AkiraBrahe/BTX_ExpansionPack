@@ -6,14 +6,13 @@ A BattleTech Extended mod that adds tons of new content, including new 'Mechs, v
 
 **TL;DR: BEX + Bigger Drops + CAB → CAC-C → (TBD) → Expansion Pack**
 
-⚠ Starting a new game is recommended. If you already have Playable Tanks installed, you'll need to do a clean install.
+⚠ If you've already installed Playable Tanks, you'll need to do a clean install.
 
 - Install the latest versions of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility/releases/latest) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C.
-- Update the CAB in "legacy" mode if you haven't done so in a while.
+- Update the CAB if you haven't done so in a while.
 - Remove the ".modtek" folder to force Modtek to rebuild the cache.
-- Remove the "BTX_MechPack" and "BTX_VeePack" mod folders if present.
-- Unpack the mod folders from the "BTX_ExpansionPack" archive into the "Mods" folder, overwriting when prompted.
-<br>The archive includes a modified version of Playable Tanks/VTOLs.
+- Remove the "BTX_ExpansionPack" or "BTX_MechPack" mod folders if present.
+- Unpack the mod folders from the "BTX_ExpansionPack" archive into the "Mods" folder, overwriting when prompted. The archive already includes a modified version of Playable Tanks/VTOLs.
 
 ### Optionals
 - **For all DHS in the engine to dissipate 6 heat instead of 4**:
@@ -28,11 +27,11 @@ A BattleTech Extended mod that adds tons of new content, including new 'Mechs, v
 
 This mod is bundled with Playable Tanks and DHS Changes by [LordRuthermore](https://github.com/lordruthermore), and Shell Shuffler by [T-Bone](https://github.com/ajkroeg).
 
-Special thanks to the BEX Discord community for their support, and a huge thanks to Hrothgar Heavenlight for playtesting the mod extensively, suggesting exciting 'Mechs to add, and writing Yang's comments on them.
+Special thanks to [mcb](https://github.com/mcb5637) for enabling the display of the full vehicle names in battle, and **Hrothgar Heavenlight** for playtesting the mod extensively, suggesting exciting 'Mechs to add, and writing Yang's comments on them.
 
 ## Features
 
-**⚠ The mod is currently in beta. Some 'Mechs and vehicles are not used by any faction, do not have a description, or may not be properly rescaled.**
+⚠ The mod is currently in beta. Some vehicles may spawn out of timeline, or lack an icon and description.
 
 The mod features tons of new content, including new 'Mechs, vehicles, and weapons. The goal is to expand the BattleTech Extended timeline into the 3060s, introducing new technologies from the Fed Com Civil War. All vehicles are also playable, including VTOLs, and every faction in the game has a wider variety of 'Mechs and combat vehicles, so expect interesting matchups.
 
@@ -168,7 +167,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 
 - Gauss rifles and artillery have been somewhat nerfed, using the new tools available with CAC-C; both have a self-knockdown effect when firing equal to 25% of their actual damage, rounded down (from 10 instability for Light Gauss, to 50 for Rail Guns). Heavy Gauss Rifles also do more damage, but it decreases with range and is halved at maximum range.
 
-- Mech mortars have been added, replacing the Thumper, Sniper, and Long Tom cannons as they are only prototypes in the current timeline. Artillery cannons are still available on research planets, and have been reworked; they now deal 25% less damage and have a much shorter range than their larger counterparts.
+- Mech mortars have been added. Artillery cannons are now available on research planets; they deal 25% less damage and have a much shorter range than their larger counterparts.
 
 <details>
   <summary>Artillery Changes</summary>
@@ -187,7 +186,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 ² Ignores cover and acts like artillery with Swarm Ammo.
 </details>
 
-- The Sniper and Long Tom cannons both have a Loading Mechanism addon that works in the same way as the Artemis IV FCS. This addon allows the two massive weapons to be mounted on more 'Mechs.
+- All ballistic artillery requires an Artillery Loader addon. This addon allows the massive weapons to be mounted on a 'Mech. Only the Long Tom Artillery Piece is too large to fit on anything other than a vehicle.
 
 ### Faction Rosters
 - MegaMek-generated rarity tables replace the Xtol RAT tables for vehicles. This allows for a wider variety of combat vehicles for all factions, as well as more accurate vehicle rosters for the expanded 3025-3067 timeline. Some factions, like the Great Houses and Periphery States, also have an "elite" version of their vehicle table that favors A-rated units.
@@ -214,8 +213,8 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Security Forces²                     |           n/a            | F-/Locals                          |
 | Wolf's Dragoons                      |          3005-           | A/Elites                           |
 
-𓅪 Snow Raven garrison units sometimes used by the Outworlds Alliance after 3061.<br>
-² Private Military Security Companies (PMSC) sometimes used by locals.
+𓅪 The Outworlds Alliance have access to Snow Raven garrison units after 3061.<br>
+² Locals sometimes use security forces instead of their own units.
 </details>
 
 ### Additional Lances
