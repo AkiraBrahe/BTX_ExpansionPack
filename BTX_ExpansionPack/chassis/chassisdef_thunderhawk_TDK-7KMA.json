@@ -232,12 +232,11 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Addon_LoadingMechanism_3_Slot",
+      "ComponentDefID": "Gear_Addon_Artillery_Loader_TDK",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "TargetComponentGUID": "LoadingMechanism0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftTorso",
@@ -245,8 +244,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "LoadingMechanism0"
+      "hasPrefabName": false
     }
   ]
 }

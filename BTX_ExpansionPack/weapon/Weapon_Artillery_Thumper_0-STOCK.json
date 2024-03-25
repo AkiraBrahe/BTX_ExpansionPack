@@ -1,4 +1,9 @@
 {
+  "Custom": {
+    "RequiresLoader": {
+      "LoaderType": "CAC_C_ArtilleryLoader"
+    }
+  },
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC20",
@@ -40,7 +45,7 @@
   "Description": {
     "Cost": 187500,
     "Rarity": 99,
-    "Purchasable": false,
+    "Purchasable": true,
     "Manufacturer": "Defiance",
     "Model": "Light Artillery",
     "UIName": "Thumper",
@@ -55,7 +60,7 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
   "BattleValue": 0,
-  "InventorySize": 10,
+  "InventorySize": 5,
   "Tonnage": 15,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
@@ -109,7 +114,7 @@
     "items": [
       "component_type_stock",
       "range_extreme",
-      "BLACKLISTED"
+      "artillery_loader_attachable"
     ],
     "tagSetSourceFile": ""
   }

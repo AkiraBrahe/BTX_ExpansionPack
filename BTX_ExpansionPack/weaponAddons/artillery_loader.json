@@ -1,9 +1,9 @@
 {
-  "Id": "loading_mechanism",
+  "Id": "artillery_loader",
   "autoTarget": true,
   "installedLocationOnly": false,
   "targetComponentTags": [
-    "loading_mechanism_attachable"
+    "artillery_loader_attachable"
   ],
   "modes": [
     {

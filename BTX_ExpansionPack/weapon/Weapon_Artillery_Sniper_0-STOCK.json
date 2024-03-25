@@ -1,4 +1,9 @@
 {
+  "Custom": {
+    "RequiresLoader": {
+      "LoaderType": "CAC_C_ArtilleryLoader"
+    }
+  },
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC20",
@@ -40,13 +45,13 @@
   "Description": {
     "Cost": 300000,
     "Rarity": 99,
-    "Purchasable": false,
+    "Purchasable": true,
     "Manufacturer": "Armstrong",
     "Model": "Medium Artillery",
     "UIName": "Sniper",
     "Id": "Weapon_Artillery_Sniper_0-STOCK",
     "Name": "Sniper Artillery Piece",
-    "Details": "The Sniper Rifle Artillery Piece is second most powerful tube artillery, capable of crippling or destroying most light and medium BattleMechs with a single hit. As with all artillery types, the Sniper always fires indirectly and deals damage in the area of impact.",
+    "Details": "The Sniper Rifle Artillery Piece is the second most powerful tube artillery, capable of crippling or destroying most light and medium BattleMechs with a single hit. As with all artillery types, the Sniper always fires indirectly and deals damage in the area of impact.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
@@ -55,7 +60,7 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
   "BattleValue": 0,
-  "InventorySize": 15,
+  "InventorySize": 8,
   "Tonnage": 20,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
@@ -109,7 +114,7 @@
     "items": [
       "component_type_stock",
       "range_extreme",
-      "BLACKLISTED"
+      "artillery_loader_attachable"
     ],
     "tagSetSourceFile": ""
   }

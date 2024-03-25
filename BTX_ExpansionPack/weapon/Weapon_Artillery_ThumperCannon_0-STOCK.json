@@ -1,4 +1,9 @@
 {
+  "Custom": {
+    "RequiresLoader": {
+      "LoaderType": "CAC_C_ArtilleryLoader"
+    }
+  },
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC20",
@@ -55,7 +60,7 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
   "BattleValue": 0,
-  "InventorySize": 7,
+  "InventorySize": 3,
   "Tonnage": 10,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
@@ -110,7 +115,8 @@
     "items": [
       "component_type_stock",
       "component_type_lostech",
-      "range_long"
+      "range_long",
+      "artillery_loader_attachable"
     ],
     "tagSetSourceFile": ""
   }

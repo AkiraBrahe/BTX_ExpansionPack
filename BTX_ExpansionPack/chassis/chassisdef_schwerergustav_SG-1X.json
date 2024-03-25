@@ -270,14 +270,6 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Artillery_ThumperCannon_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Sensor_Bloodhound_ActiveProbe",
       "ComponentDefType": "Upgrade",

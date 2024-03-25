@@ -1,4 +1,9 @@
 {
+  "Custom": {
+    "RequiresLoader": {
+      "LoaderType": "CAC_C_ArtilleryLoader"
+    }
+  },
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC20",
@@ -46,7 +51,7 @@
     "UIName": "Sniper Cannon",
     "Id": "Weapon_Artillery_SniperCannon_0-STOCK",
     "Name": "Sniper Artillery Cannon",
-    "Details": "The Sniper Artillery Cannon is a scaled down version of the Sniper Artillery Piece that can provide artillery support at much closer ranges than its cousin. Because of the shorter barrel length, the weapon does not have the same damage potential. <color=#FF0000>A Loading Mechanism must be installed to fire this weapon.</color>",
+    "Details": "The Sniper Artillery Cannon is a scaled down version of the Sniper Artillery Piece that can provide artillery support at much closer ranges than its cousin. Because of the shorter barrel length, the weapon does not have the same damage potential.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
@@ -55,7 +60,7 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
   "BattleValue": 0,
-  "InventorySize": 6,
+  "InventorySize": 5,
   "Tonnage": 15,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
@@ -112,7 +117,7 @@
       "component_type_stock",
       "component_type_lostech",
       "range_long",
-      "loading_mechanism_attachable"
+      "artillery_loader_attachable"
     ],
     "tagSetSourceFile": ""
   }

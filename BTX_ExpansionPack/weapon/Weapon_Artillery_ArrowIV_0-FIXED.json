@@ -41,7 +41,7 @@
     "UIName": "Arrow IV",
     "Id": "Weapon_Artillery_ArrowIV_0-FIXED",
     "Name": "Arrow IV",
-    "Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. Arrow IV launchers can be equipped with standard unguided area saturation missiles, causing massive damage to any unit within its 45-meter blast radius. <color=#FF0000>A Loading Mechanism must be installed to fire this weapon.</color>",
+    "Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. Arrow IV launchers can be equipped with standard unguided area saturation missiles, causing massive damage to any unit within its 45-meter blast radius.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA": "",
@@ -111,8 +111,7 @@
     "items": [
       "BUILT-IN",
       "BLACKLISTED",
-      "range_extreme",
-      "loading_mechanism_attachable"
+      "range_extreme"
     ],
     "tagSetSourceFile": ""
   }

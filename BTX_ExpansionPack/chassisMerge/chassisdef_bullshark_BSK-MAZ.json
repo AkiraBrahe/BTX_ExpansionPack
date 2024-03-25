@@ -239,21 +239,12 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Artillery_ThumperCannon_0-FIXED",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "LoadingMechanism0"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Addon_LoadingMechanism_2_Slot",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Addon_Artillery_Loader_BSK",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "TargetComponentGUID": "LoadingMechanism0"
+      "TargetComponentGUID": "ArtilleryLoader0"
     }
   ]
 }
