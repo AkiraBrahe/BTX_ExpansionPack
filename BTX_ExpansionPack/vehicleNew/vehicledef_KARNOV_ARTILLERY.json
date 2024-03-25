@@ -70,7 +70,16 @@
       "ComponentDefType": "Weapon",
       "MountedLocation": "Left",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional"
+      "DamageLevel": "Functional",
+      "LocalGUID": "ArtilleryLoader0"
+    },
+    {
+      "ComponentDefID": "Gear_Addon_Artillery_Loader",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Left",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "ArtilleryLoader0"
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thumper",

@@ -72,7 +72,8 @@
       "Name": "Artillery",
       "Description": "Fires in an arc toward the target.",
       "isBaseMode": true,
-      "DirectFireModifier": 2
+      "DirectFireModifier": 2,
+      "ShotsWhenFired": -1
     }
   ],
   "statusEffects": [
