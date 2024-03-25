@@ -5,7 +5,7 @@
       "unit_industrial",            /* IndustrialMech */
       "unit_protomech",             /* ProtoMech */
       "unit_quad",                  /* QuadMech */
-      "unit_LAM",                   /* LandAirMech */
+      "unit_lam",                   /* LandAirMech */
       "unit_powerarmor",            /* PowerArmor */
 
     /* Type */
