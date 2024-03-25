@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.55",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -8,6 +9,7 @@
       "unit_lance_tank",
       "unit_range_long",
       "unit_armor_high",
+      "unit_vehicle_case",
       "unit_speed_low",
       "unit_release",
       "unit_veepack"
@@ -19,7 +21,7 @@
     "Id": "vehicledef_AJAX-A",
     "Name": "Ajax Assault Tank",
     "UIName": "Ajax Assault Tank A",
-    "Details": "<b>Name: <color=#85DBF6>Ajax Assault Tank A</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>270 XL</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Ajax Assault Tank A</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>270 XL</color></b>\n\nThe Ajax Assault Tank, successor to the Challenger X MBT, prioritizes defense and battlefield adaptability with 19 tons of armor and an Omni-capable design, ensuring its place on the front lines.\n\nThis popular configuration carries three Rotary Autocannon/5s with nine tons of ammunition. In addition to the autocannons, the turret houses an ER Small Laser, though it is rarely of much use. The Ajax A carries both a C3 Slave and a Guardian ECM Suite, which provide some protection against enemy electronics.",
     "Icon": "uixVhclIcon_ajax",
     "Cost": 19633531,
     "Rarity": 0,

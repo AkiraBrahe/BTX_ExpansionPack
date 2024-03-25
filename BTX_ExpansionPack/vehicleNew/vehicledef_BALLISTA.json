@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.5",
       "unit_vehicle",
       "unit_vehicle_artillery",
       "unit_medium",
@@ -20,7 +21,7 @@
     "Id": "vehicledef_BALLISTA",
     "Name": "Ballista Self-Propelled Artillery Tank",
     "UIName": "Ballista Self-Propelled Artillery Tank (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Ballista Self-Propelled Artillery Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Ballista Self-Propelled Artillery Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>\n\nThe Ballista is an artillery vehicle designed specifically for long-range artillery support. It is appropriately armed with a Sniper Artillery Piece mounted in the turret. While the vehicle only carries three tons of ammunition onboard, a trailer hitch allows for additional ammunition. The Ballista's secondary weaponry only includes three Machine Guns, mounting two forward and one in the rear.",
     "Icon": "uixVhclIcon_ballista",
     "Cost": 1014863,
     "Rarity": 0,

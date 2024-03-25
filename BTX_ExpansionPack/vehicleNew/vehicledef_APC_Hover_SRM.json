@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-0.7-0.7-0.85",
       "unit_vehicle",
       "unit_vehicle_apc",
       "unit_light",
@@ -19,6 +20,7 @@
     "Id": "vehicledef_APC_Hover_SRM",
     "Name": "Hover APC",
     "UIName": "Hover APC (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Hover APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Prioritizing speed and agility over armor, Hover APCs excel at rapid deployments across open terrain.\n\nThe SRM variant of the Hover APC keeps the infantry bay and replaces the machine guns with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
     "Icon": "uixVhclIcon_hoverapc",
     "Cost": 116400,
     "Rarity": 0,

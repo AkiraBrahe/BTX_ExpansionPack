@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.3-1.15-1.15",
       "unit_vehicle",
       "unit_vehicle_apc",
       "unit_light",
@@ -19,7 +20,7 @@
     "Id": "vehicledef_APC_Tracked_SRM",
     "Name": "Tracked APC",
     "UIName": "Tracked APC (SRM)",
-    "Details": "<b>Name: <color=#85DBF6>Tracked APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Tracked APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. More expensive to build, Tracked APCs can operate in a far wider variety of terrain.\n\nThe SRM variant of the Tracked APC keeps the infantry bay and replaces the machine gun with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
     "Icon": "uixVhclIcon_trackedapc",
     "Cost": 95700,
     "Rarity": 0,

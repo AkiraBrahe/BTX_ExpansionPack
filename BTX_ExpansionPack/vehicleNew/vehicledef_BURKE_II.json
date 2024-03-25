@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-2",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -18,7 +19,7 @@
     "Id": "vehicledef_BURKE_II",
     "Name": "Burke II Superheavy Tank",
     "UIName": "Burke II Superheavy Tank",
-    "Details": "<b>Name: <color=#85DBF6>Burke II Superheavy Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>280 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Burke II Superheavy Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>280 Fusion</color></b>\n\nA behemoth on the battlefield, the Burke II was a 140-ton experimental superheavy tank for the Rim Worlds Republic. Prioritizing raw firepower, it sported a massive turret housing four Class-20 autocannons, capable of unleashing ten volleys of destruction before running out of ammunition. Six tons of ferro-fibrous armor offered some protection, while a pair of forward-mounted LRM-5s added punch at range.",
     "Icon": "uixVhclIcon_burke",
     "Cost": 10760000,
     "Rarity": 0,

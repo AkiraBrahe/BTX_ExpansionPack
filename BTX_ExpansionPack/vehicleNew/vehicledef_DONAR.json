@@ -20,7 +20,7 @@
     "Id": "vehicledef_DONAR",
     "Name": "Donar Attack Helicopter",
     "UIName": "Donar Attack Helicopter (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Donar Assault Helicopter</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (VTOL)</color>\tEngine: <color=#85DBF6>50 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Donar Assault Helicopter</color>\nArmor: <color=#85DBF6>Ferro-Fibrous + CASE</color>  Technology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (VTOL)</color>\tEngine: <color=#85DBF6>50 Fusion</color></b>",
     "Icon": "uixVhclIcon_donar",
     "Cost": 1033600,
     "Rarity": 0,

@@ -15,7 +15,7 @@
     "Id": "vehiclechassisdef_HOVERTANK_LTV-4",
     "Name": "Hawk (LTV-4)",
     "Details": "<b>Name: <color=#85DBF6>Hawk Hover Tank (LTV-4)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>\n\nThe LTV-4 Hover Tank, nicknamed \"Hawk\", was developed by Lucas Technologies to counter the proliferation of BattleMech technologies stolen from the Terran Hegemony. The vehicle is designed to swarm early BattleMechs in groups and use their combined firepower to hold them until other forces can close in and eliminate them.\n\nTo achieve this, the Hawk is armed with a Particle Projector Cannon mounted in the turret and a single 4-tube Short Range Missile launcher. It is powered by a 115-rated internal combustion engine that gives it a respectable speed of 110 km/h. The crowning achievement of the design is its prototype standard-grade armor, which encases the vehicle's hull in 5.5 tons of material.",
-    "Icon": "uixVhclIcon_hovertank",
+    "Icon": "uixVhclIcon_hawk",
     "Cost": 1315667,
     "Rarity": 3,
     "Purchasable": true

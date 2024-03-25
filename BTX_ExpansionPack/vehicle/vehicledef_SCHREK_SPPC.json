@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.6",
       "unit_vehicle",
       "unit_vehicle_carrier",
       "unit_assault",
@@ -10,7 +11,8 @@
       "unit_range_long",
       "unit_armor_low",
       "unit_speed_low",
-      "unit_release"
+      "unit_release",
+      "unit_dlc"
     ],
     "tagSetSourceFile": ""
   },

@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1",
       "unit_vehicle",
       "unit_vehicle_apc",
       "unit_light",
@@ -18,7 +19,7 @@
     "Id": "vehicledef_APC_HeavyWheeled_LRM",
     "Name": "Heavy Wheeled APC",
     "UIName": "Heavy Wheeled APC (LRM)",
-    "Details": "<b>Name: <color=#85DBF6>Heavy Wheeled APC (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nThe Heavy Wheeled APC is a larger version of the Wheeled APC that can carry two platoons of infantry.\n\nThis Star League-era variant of the APC halves the original six-ton infantry bay capacity to mount an LRM-5 launcher and 24 rounds of ammunition.",
+    "Details": "<b>Name: <color=#85DBF6>Heavy Wheeled APC (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nThe Heavy Wheeled APC is a larger version of the Wheeled APC that can carry up to two platoons of infantry.\n\nThis LRM variant of the APC halves the original six-ton infantry bay capacity to mount an LRM-5 launcher and 24 rounds of ammunition.",
     "Icon": "uixVhclIcon_heavywheeledapc",
     "Cost": 185717,
     "Rarity": 2,

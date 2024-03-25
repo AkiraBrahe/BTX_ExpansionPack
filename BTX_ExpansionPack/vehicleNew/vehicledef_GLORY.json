@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-2",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -144,7 +145,7 @@
     {
       "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "Turret",
+      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

@@ -20,7 +20,7 @@
     "Id": "vehicledef_ANHUR",
     "Name": "Anhur Transport",
     "UIName": "Anhur Transport (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Anhur Transport</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/15 (VTOL)</color>\tEngine: <color=#85DBF6>100 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Anhur Transport</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/15 (VTOL)</color>\tEngine: <color=#85DBF6>100 Fusion</color></b>\n\nA descendant of the Star League era Cobra, the Anhur efficiently bridges the gap between DropShips and ground forces. Unlike cumbersome DropShips, the Anhur maneuvers freely within planetary atmospheres, delivering up to seven tons of cargo directly to troops. This bay can also be used to transport infantry for rapid deployment. While not a combat design, the Anhur boasts three tons of ferro-fibrous armor, along with a trio of medium lasers for self-defense. These include an ER and pulse variant mounted on the chin, and a second pulse laser for rearward protection.",
     "Icon": "uixVhclIcon_anhur",
     "Cost": 1262000,
     "Rarity": 0,

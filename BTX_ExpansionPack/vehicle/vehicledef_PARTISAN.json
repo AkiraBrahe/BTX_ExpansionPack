@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.5",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -77,28 +78,28 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_AC5_2-Kallon",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_AC5_2-Kallon",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_AC5_2-Kallon",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 2,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_AC5_2-Kallon",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 3,
@@ -119,7 +120,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Flak",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

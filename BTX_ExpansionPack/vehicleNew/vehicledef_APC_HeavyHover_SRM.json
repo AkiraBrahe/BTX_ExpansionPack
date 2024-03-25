@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-0.7-0.7-1",
       "unit_vehicle",
       "unit_vehicle_apc",
       "unit_light",
@@ -19,6 +20,7 @@
     "Id": "vehicledef_APC_HeavyHover_SRM",
     "Name": "Heavy Hover APC",
     "UIName": "Heavy Hover APC (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Heavy Hover APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>\n\nThe Heavy Hover APC is a larger version of the Hover APC that can carry up to two platoons of infantry.\n\nSimilar to the LRM variant, this variant retains the front-mounted Machine Guns but loses three tons of infantry bay capacity, which is replaced with a front-mounted SRM-4 with 25 rounds of ammunition.",
     "Icon": "uixVhclIcon_heavyhoverapc",
     "Cost": 318500,
     "Rarity": 2,

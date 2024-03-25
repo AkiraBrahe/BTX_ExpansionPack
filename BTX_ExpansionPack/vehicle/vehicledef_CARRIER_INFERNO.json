@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.5",
       "unit_vehicle",
       "unit_vehicle_carrier",
       "unit_heavy",
@@ -9,7 +10,8 @@
       "unit_range_medium",
       "unit_armor_low",
       "unit_speed_low",
-      "unit_release"
+      "unit_release",
+      "unit_dlc"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,7 +21,7 @@
     "Name": "Inferno Carrier",
     "UIName": "Inferno Carrier",
     "Details": "<b>Name: <color=#85DBF6>Inferno Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe SRM Carrier is a generic tracked vehicle designed to carry and launch short-range missiles. It is a relatively inexpensive and easy-to-produce vehicle, making it a popular choice for many factions.\n\nThis field-refit variant of the SRM Carrier replaces the standard ammunition with Inferno rounds, making it an even more dangerous foe in the hands of a skilled crew.",
-    "Icon": "uixVhclIcon_carrier",
+    "Icon": "uixVhclIcon_srmcarrier",
     "Cost": 1846400,
     "Rarity": 0,
     "Purchasable": true

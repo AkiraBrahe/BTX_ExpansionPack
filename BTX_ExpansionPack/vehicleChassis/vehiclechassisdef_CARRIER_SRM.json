@@ -14,7 +14,7 @@
     "Id": "vehiclechassisdef_CARRIER_SRM",
     "Name": "SRM Carrier",
     "Details": "<b>Name: <color=#85DBF6>SRM Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe SRM Carrier is a generic tracked vehicle designed to carry and launch short-range missiles. It is a relatively inexpensive and easy-to-produce vehicle, making it a popular choice for many factions. While its chassis is identical to its LRM counterpart, the SRM Carrier mounts ten forward-firing SRM-6 launchers, unleashing a devastating barrage of 60 short-range missiles.",
-    "Icon": "uixVhclIcon_carrier",
+    "Icon": "uixVhclIcon_srmcarrier",
     "Cost": 1932800,
     "Rarity": 0,
     "Purchasable": true

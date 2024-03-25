@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-0.7-0.7-0.85",
       "unit_vehicle",
       "unit_vehicle_apc",
       "unit_light",
@@ -19,7 +20,7 @@
     "Id": "vehicledef_APC_Hover_LRM",
     "Name": "Hover APC",
     "UIName": "Hover APC (LRM)",
-    "Details": "<b>Name: <color=#85DBF6>Hover APC (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Hover APC (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Prioritizing speed and agility over armor, Hover APCs excel at rapid deployments across open terrain.\n\nThe LRM variant of the Hover APC replaces the infantry bay and machine guns with a single LRM-5 launcher to provide long-range fire support.",
     "Icon": "uixVhclIcon_hoverapc",
     "Cost": 144000,
     "Rarity": 0,

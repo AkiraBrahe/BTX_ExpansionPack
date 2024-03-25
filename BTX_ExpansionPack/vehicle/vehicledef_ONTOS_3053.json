@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.25",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -8,6 +9,7 @@
       "unit_lance_assassin",
       "unit_range_medium",
       "unit_armor_medium",
+      "unit_vehicle_case",
       "unit_speed_low",
       "unit_release"
     ],

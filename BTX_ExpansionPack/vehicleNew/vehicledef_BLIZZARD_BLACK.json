@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.75",
       "unit_vehicle",
       "unit_light",
       "unit_hover",
@@ -19,6 +20,7 @@
     "Id": "vehicledef_BLIZZARD_BLACK",
     "Name": "Blizzard Hover Transport",
     "UIName": "\"Black Blizzard\" Hover Transport",
+    "Details": "<b>Name: <color=#85DBF6>Blizzard Hover Transport \"Black Blizzard\"</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>95 ICE</color></b>\n\nThe Blizzard Hover Transport is a fast and cheap troop carrier that was originally intended for use against the Clans. It gained notoriety in the Chaos March and proved its effectiveness in the Capellan-St. Ives War.\n\nThis variant is intended to be an escort for other Blizzards. It lacks the infantry bay and upgrades the armor protection utilizing ferro-fibrous technology. Instead of the LRM, the Black Blizzard mounts pairs of SRM-4s and Machine Guns in the turret. It also includes a Guardian ECM Suite to protect the unit from enemy electronics.",
     "Icon": "uixVhclIcon_blizzard",
     "Cost": 840125,
     "Rarity": 0,

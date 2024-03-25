@@ -1,12 +1,14 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.5",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
       "unit_lance_support",
       "unit_range_long",
       "unit_armor_low",
+      "unit_vehicle_case",
       "unit_speed_low",
       "unit_release",
       "unit_veepack"
@@ -64,28 +66,28 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 2,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 3,

@@ -1,7 +1,9 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.25",
       "unit_vehicle",
+      "unit_vehicle_apc",
       "unit_medium",
       "unit_hover",
       "unit_lance_vanguard",
@@ -19,7 +21,7 @@
     "Id": "vehicledef_BANDIT_C-H",
     "Name": "Bandit (C) Hovercraft",
     "UIName": "Bandit (C) Hovercraft H",
-    "Details": "<b>Name: <color=#85DBF6>Bandit (C) Hovercraft H</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Bandit (C) Hovercraft H</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Bandit C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Bandit C offers valuable flexibility in its various configurations.\n\nThis variant has a Heavy Medium Laser and Streak SRM-4 in the turret, with a Medium Pulse Laser covering the front. A Targeting Computer offsets the heavy laser's inaccuracy.",
     "Icon": "uixVhclIcon_bandit",
     "Cost": 3600417,
     "Rarity": 3,

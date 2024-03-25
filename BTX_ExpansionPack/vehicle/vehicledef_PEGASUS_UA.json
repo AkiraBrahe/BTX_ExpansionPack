@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.3",
       "unit_vehicle",
       "unit_weaponless",
       "unit_light",
@@ -59,7 +60,9 @@
       "CurrentInternalStructure": 20,
       "AssignedArmor": 105,
       "DamageLevel": "Functional"
-    },
+    }
+  ],
+  "inventory": [
     {
       "ComponentDefID": "Gear_Hover",
       "ComponentDefType": "Upgrade",
@@ -68,6 +71,5 @@
       "DamageLevel": "Functional"
     }
   ],
-  "inventory": [],
   "MinAppearanceDate": "2873-01-01T00:00:00Z"
 }

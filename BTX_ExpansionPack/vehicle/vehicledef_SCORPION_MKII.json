@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.2",
       "unit_vehicle",
       "unit_light",
       "unit_tracks",
@@ -8,7 +9,8 @@
       "unit_range_long",
       "unit_armor_medium",
       "unit_speed_low",
-      "unit_release"
+      "unit_release",
+      "unit_dlc"
     ],
     "tagSetSourceFile": ""
   },

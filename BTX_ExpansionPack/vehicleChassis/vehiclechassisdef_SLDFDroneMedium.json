@@ -14,7 +14,7 @@
     "Name": "SLDF Medium Drone",
     "Details": "<b>Name: <color=#85DBF6>SLDF Medium Drone</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>280 Fusion</color></b>\n\nDrones are unmanned aerial or ground vehicles that are controlled either autonomously by onboard computers or remotely by a pilot. They have been used since the 20th century and can work together to form a \"sensor chain\", which significantly expands their detection range.",
     "Icon": "uixVhclIcon_sldfdrone",
-    "Cost": 2059850,
+    "Cost": 2168400,
     "Rarity": 0,
     "Purchasable": true
   },
@@ -25,7 +25,7 @@
   "PrefabBase": "sldfdrone",
   "Tonnage": 60,
   "weightClass": "HEAVY",
-  "BattleValue": 611,
+  "BattleValue": 704,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
   "movementType": "Wheeled",

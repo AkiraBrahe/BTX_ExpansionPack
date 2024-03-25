@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.3-1.15-1.3",
       "unit_vehicle",
       "unit_vehicle_apc",
       "unit_light",
@@ -19,7 +20,7 @@
     "Id": "vehicledef_APC_HeavyTracked_MG",
     "Name": "Heavy Tracked APC",
     "UIName": "Heavy Tracked APC (MG)",
-    "Details": "<b>Name: <color=#85DBF6>Heavy Tracked APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Heavy Tracked APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nThe Heavy Tracked APC is a larger version of the Tracked APC that can carry up to two platoons of infantry.\n\nThis anti-infantry variant reduces the infantry bay capacity to three tons while adding four more Machine Guns. A single Machine Gun is added to the right and left sides, while the rear is given two. The vehicle's ammunition capacity is increased to 300 rounds.",
     "Icon": "uixVhclIcon_heavytrackedapc",
     "Cost": 155800,
     "Rarity": 2,

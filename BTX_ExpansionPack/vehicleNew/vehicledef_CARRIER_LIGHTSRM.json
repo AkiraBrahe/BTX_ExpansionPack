@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1",
       "unit_vehicle",
       "unit_vehicle_carrier",
       "unit_heavy",
@@ -20,7 +21,7 @@
     "Name": "Light SRM Carrier",
     "UIName": "Light SRM Carrier",
     "Details": "<b>Name: <color=#85DBF6>Light SRM Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>",
-    "Icon": "uixVhclIcon_carrier",
+    "Icon": "uixVhclIcon_lightsrmcarrier",
     "Cost": 824200,
     "Rarity": 0,
     "Purchasable": true

@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.6-1.7-1.6",
       "unit_vehicle",
       "unit_vehicle_apc",
       "unit_medium",
@@ -10,7 +11,8 @@
       "unit_range_short",
       "unit_armor_medium",
       "unit_speed_medium",
-      "unit_release"
+      "unit_release",
+      "unit_dlc"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,7 +21,7 @@
     "Id": "vehicledef_APC_Alsvin",
     "Name": "Alsvin APC Tank",
     "UIName": "Alsvin APC Tank (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Alsvin APC Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>280 Fusion</color></b>\n\nThe Alsvin is a 50-ton armored personnel carrier that can carry two platoons of infantry or two battle armor suits. It is armed with two Machine Guns and a Medium Laser for self-defense, and is also equipped with a TAG to mark targets for allied strikes.",
+    "Details": "<b>Name: <color=#85DBF6>Alsvin APC Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>280 Fusion</color></b>\n\nThe Alsvin is a 50-ton armored personnel carrier that can carry up to two platoons of infantry or two battle armor suits. It is armed with two Machine Guns and a Medium Laser for self-defense, and is also equipped with a TAG to mark targets for allied strikes.",
     "Icon": "uixVhclIcon_alsvin",
     "Cost": 1477292,
     "Rarity": 0,

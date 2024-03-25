@@ -1,7 +1,7 @@
 {
   "VehicleTags": {
     "items": [
-      "unit_dlc",
+      "mr-resize-1.2",
       "unit_vehicle",
       "unit_light",
       "unit_wheels",
@@ -95,7 +95,7 @@
     {
       "ComponentDefID": "Gear_SensorCAC_PackratECM",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "Turret",
+      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

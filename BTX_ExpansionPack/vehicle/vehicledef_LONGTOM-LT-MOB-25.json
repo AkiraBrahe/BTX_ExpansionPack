@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.5",
       "unit_vehicle",
       "unit_vehicle_artillery",
       "unit_assault",
@@ -9,6 +10,7 @@
       "unit_lance_support",
       "unit_range_long",
       "unit_armor_medium",
+      "unit_vehicle_case",
       "unit_speed_low",
       "unit_release"
     ],

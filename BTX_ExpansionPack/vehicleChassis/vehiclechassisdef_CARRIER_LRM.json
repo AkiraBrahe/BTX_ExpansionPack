@@ -14,7 +14,7 @@
     "Id": "vehiclechassisdef_CARRIER_LRM",
     "Name": "LRM Carrier",
     "Details": "<b>Name: <color=#85DBF6>LRM Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe LRM Carrier is a cheap and effective fire support vehicle used by many factions across the Inner Sphere. It is a modified military transport vehicle with a top speed of 54 km/h and light armor. The modern LRM Carrier mounts three forward-firing LRM-20s, each capable of firing a volley of 20 long-range missiles. A barrage fired from a missile carrier is a fearsome sight, and four tons of ammunition allow the carrier to keep up that rate of fire for over a minute.",
-    "Icon": "uixVhclIcon_carrier",
+    "Icon": "uixVhclIcon_lrmcarrier",
     "Cost": 1872000,
     "Rarity": 0,
     "Purchasable": true

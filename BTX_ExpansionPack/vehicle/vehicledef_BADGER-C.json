@@ -1,7 +1,9 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.25",
       "unit_vehicle",
+      "unit_vehicle_apc",
       "unit_light",
       "unit_tracks",
       "unit_lance_vanguard",
@@ -17,7 +19,7 @@
     "Id": "vehicledef_BADGER-C",
     "Name": "Badger Tracked Transport",
     "UIName": "Badger Tracked Transport C",
-    "Details": "<b>Name: <color=#85DBF6>Badger Tracked Transport C</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Badger, a light tracked APC, is the first OmniVehicle constructed in the Inner Sphere at the behest of the Wolf's Dragoons, but its role as an infantry carrier prevents it from taking full advantage of this technology.\n\nA ranged combat variant, the Badger C carries two LRM-5 launchers, one turret-mounted and one front-mounted, both of which draw from a single shared ton of missile reloads.",
+    "Details": "<b>Name: <color=#85DBF6>Badger Tracked Transport C</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Badger, a light tracked APC, is the first OmniVehicle constructed in the Inner Sphere at the behest of the Wolf's Dragoons, but its role as an infantry carrier prevents it from taking full advantage of this technology.\n\nA ranged combat variant, the Badger C carries two LRM-5 launchers, again with one turret- and one front-mounted, both of which draw from a single shared ton of missile reloads.",
     "Icon": "uixVhclIcon_badger",
     "Cost": 897813,
     "Rarity": 3,

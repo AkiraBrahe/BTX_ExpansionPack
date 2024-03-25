@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
-    "items": [
+    "items": [    
+      "mr-resize-1",
       "unit_vehicle",
       "unit_light",
       "unit_hover",
@@ -14,7 +15,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "vehiclechassisdef_ASSHUR",
+  "ChassisID": "vehiclechassisdef_ASSHUR_RECON",
   "Description": {
     "Id": "vehicledef_ASSHUR_RECON",
     "Name": "Asshur Fast Reconnaissance Vehicle",

@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1-1-0.85",
       "unit_vehicle",
       "unit_vehicle_apc",
       "unit_light",
@@ -18,10 +19,10 @@
     "Id": "vehicledef_APC_Wheeled_MG",
     "Name": "Wheeled APC",
     "UIName": "Wheeled APC (MG)",
-    "Details": "<b>Name: <color=#85DBF6>Wheeled APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nWheeled APCs, the backbone of vehicular military units, transport infantry on the battlefield. Cheaper and more armored than Tracked or Hover APCs, they are best suited for urban environments.\n\nThis variant trades the infantry bay for a turret with four Machine Guns and a full ton of ammunition, transforming it into a mobile machine gun platform capable of suppressing enemy infantry and light vehicles.",
+    "Details": "<b>Name: <color=#85DBF6>Wheeled APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Cheaper and more armored, Wheeled APCs are better suited for urban environments than the other two types of APCs.\n\nThis variant trades the infantry bay for a turret with four Machine Guns and a full ton of ammunition, transforming it into a mobile platform capable of suppressing enemy infantry and light vehicles.",
     "Icon": "uixVhclIcon_wheeledapc",
     "Cost": 78925,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,
@@ -99,5 +100,5 @@
       "DamageLevel": "Functional"
     }
   ],
-  "MinAppearanceDate": null
+  "MinAppearanceDate": "2500-01-01T00:00:00Z"
 }

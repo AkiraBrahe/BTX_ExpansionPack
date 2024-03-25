@@ -1,7 +1,9 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.25",
       "unit_vehicle",
+      "unit_vehicle_apc",
       "unit_medium",
       "unit_hover",
       "unit_lance_vanguard",

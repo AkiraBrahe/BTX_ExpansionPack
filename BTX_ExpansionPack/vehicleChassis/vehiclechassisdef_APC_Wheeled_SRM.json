@@ -1,7 +1,7 @@
 {
   "Custom": {
     "VAssemblyVariant": {
-      "PrefabID": "Light APC",
+      "PrefabID": "Wheeled APC",
       "Exclude": false,
       "Include": true
     }
@@ -13,17 +13,17 @@
   "Description": {
     "Id": "vehiclechassisdef_APC_Wheeled_SRM",
     "Name": "Wheeled APC (SRM)",
-    "Details": "<b>Name: <color=#85DBF6>Wheeled APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nWheeled APCs, the backbone of vehicular military units, transport infantry on the battlefield. Cheaper and more armored than Tracked or Hover APCs, they are best suited for urban environments.\n\nThis SRM variant of the APC retains the infantry bay and replaces the standard Machine Guns with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
+    "Details": "<b>Name: <color=#85DBF6>Wheeled APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Cheaper and more armored, Wheeled APCs are better suited for urban environments than the other two types of APCs.\n\nThis SRM variant of the APC retains the infantry bay and replaces the standard Machine Guns with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
     "Icon": "uixVhclIcon_wheeledapc",
     "Cost": 95725,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_6-9cv",
   "PathingCapDefID": "pathingdef_light_wheeled",
-  "HardpointDataDefID": "hardpointdatadef_btr",
-  "PrefabIdentifier": "chrprfvhcl_btr",
-  "PrefabBase": "btr",
+  "HardpointDataDefID": "hardpointdatadef_apc",
+  "PrefabIdentifier": "chrPrfVhcl_apc",
+  "PrefabBase": "apc",
   "Tonnage": 10,
   "weightClass": "LIGHT",
   "BattleValue": 176,

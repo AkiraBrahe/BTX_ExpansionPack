@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.65",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -18,7 +19,7 @@
     "Id": "vehicledef_BEHEMOTH_KURITA",
     "Name": "Behemoth Heavy Tank",
     "UIName": "Behemoth Heavy Tank (Kurita)",
-    "Details": "<b>Name: <color=#85DBF6>Behemoth Heavy Tank (Kurita)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>200 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Behemoth Heavy Tank (Kurita)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>200 Fusion</color></b>\n\nThe Behemoth is a heavily armored tank designed to engage both distant and short-range targets with its increased firepower, while allowing it to stand up to almost any type of unit possible.\n\nThis version, developed during the FedCom Civil War, carries a pair of Ultra AC/10s, a pair of MRM-10 launchers, and a pair of Artemis IV FCS enhanced SRM-6 launchers in the turret. To provide some additional long-range firepower, it mounts a pair of LRM-5 launchers with Artemis guidance systems on the front of its hull.",
     "Icon": "uixVhclIcon_behemoth",
     "Cost": 6438667,
     "Rarity": 0,

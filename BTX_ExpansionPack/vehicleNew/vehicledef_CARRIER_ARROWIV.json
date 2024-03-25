@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-0.8",
       "unit_vehicle",
       "unit_vehicle_artillery",
       "unit_vehicle_carrier",
@@ -22,7 +23,7 @@
     "Name": "Arrow IV Carrier",
     "UIName": "Arrow IV Carrier (Standard)",
     "Details": "<b>Name: <color=#85DBF6>Arrow IV Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>",
-    "Icon": "uixVhclIcon_carrier",
+    "Icon": "uixVhclIcon_mortarcarrier",
     "Cost": 2904000,
     "Rarity": 0,
     "Purchasable": true

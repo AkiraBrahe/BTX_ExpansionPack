@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.35",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -87,7 +88,7 @@
     {
       "ComponentDefID": "Gear_General_Nirasaki-400X_Battle_Computer",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "Rear",
+      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

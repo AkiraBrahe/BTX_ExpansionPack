@@ -89,19 +89,19 @@
     {
       "ComponentDefID": "Gear_Comms_Equipment_1t",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "Rear",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Remote_Sensor_Dispenser",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Rear",
+      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "ComponentDefID": "Gear_VTOL_Jet_Booster",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Remote_Sensor_Dispenser",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Rear",
       "HardpointSlot": -1,

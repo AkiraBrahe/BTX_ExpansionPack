@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "mr-resize-1.3",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -19,7 +20,7 @@
     "Id": "vehicledef_ALACORN_MK-VII",
     "Name": "Alacorn Heavy Tank",
     "UIName": "Alacorn Heavy Tank Mk VII",
-    "Details": "<b>Name: <color=#85DBF6>Alacorn Heavy Tank Mk VII</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 XL</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Alacorn Heavy Tank Mk VII</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 XL</color></b>\n\nDeveloped by the New Earth Trading Company in 2561, the Alacorn quickly gained a reputation in the SLDF as an effective and dependable tank.\n\nA 3063 variant developed after the Alacorn's revival and taking the Mk VI's gauss rifle weapon load to the next level, the Mk VII features a pair of mammoth Heavy Gauss Rifles with six tons of ammo for each weapon.",
     "Icon": "uixVhclIcon_alacorn",
     "Cost": 17160000,
     "Rarity": 0,
