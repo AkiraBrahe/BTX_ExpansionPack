@@ -79,9 +79,13 @@
       "FlatJammingChance": 0,
       "GunneryJammingBase": 10,
       "GunneryJammingMult": 0.02,
-      "MaxRange": -480,
+      "ShortRange": -360,
+      "MediumRange": -360,
+      "LongRange": -360,
+      "MaxRange": -360,
       "HeatGenerated": 2,
       "DamagePerShot": -30,
+      "ProjectilesPerShot": -5,
       "ShotsPerAmmo": 9
     }
   ],
@@ -90,7 +94,7 @@
       "Id": "AMS",
       "Name": "AMS",
       "ReticleColor": "red",
-      "Range": 30,
+      "Range": 10,
       "RemoveOnSensorLock": false,
       "State": "Persistent",
       "ApplySelf": false,
