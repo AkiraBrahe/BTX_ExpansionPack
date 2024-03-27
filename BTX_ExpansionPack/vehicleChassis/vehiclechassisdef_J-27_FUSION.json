@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>J-27 Ordnance Transport (Fusion)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>50 Fusion</color></b>\n\nThe J-27 Ordnance Transport, once the backbone of the Star League Defense Force, remains a common sight in Inner Sphere and Periphery armies, playing a critical role in the resupply of military units in the field.\n\nPrimarily used by the SLDF, this original version of the J-27 is identical to the standard J-27 but uses a fusion engine. Performance, protection, and equipment remain the same as the standard J-27.",
     "Icon": "uixVhclIcon_j27",
     "Cost": 69117,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_5-8cv",

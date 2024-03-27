@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Vedette Medium Tank (Liao)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>250 ICE</color></b>\n\nThe Vedette Medium Tank is one of the most popular and common combat vehicles in the Inner Sphere, owing to its combination of speed and tightly focused armament. It works best in concert with other vehicle types or as a pack hunter with other Vedettes.\n\nA 2968 variant popular with Liao troops replaces the autocannon with two Medium Lasers, a power amplifier, and six heat sinks. This removes the Vedette's dependence on ammunition resupply, allowing it to strike further behind enemy lines.",
     "Icon": "uixVhclIcon_vedette",
     "Cost": 682250,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_5-8cv",

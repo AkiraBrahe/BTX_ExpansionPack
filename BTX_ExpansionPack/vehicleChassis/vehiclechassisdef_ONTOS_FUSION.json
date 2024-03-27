@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Ontos Heavy Tank (Fusion)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 Fusion</color></b>\n\nThe Ontos, the first of three heavy tank prototypes created by Grumman Amalgamated, was chosen for its main armament, which was inspired by an ancient and obscure Terran vehicle of the same name.\n\nThis 2863 upgrade of the Ontos uses a rare fusion engine, allowing the laser array to operate without power amplifiers. The armaments of this model are ten Medium Lasers and two LRM-10s with two tons of ammunition. The armor is also increased to eleven and a half tons.",
     "Icon": "uixVhclIcon_ontos",
     "Cost": 5411250,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

@@ -13,10 +13,10 @@
   "Description": {
     "Id": "vehiclechassisdef_DAIMYO_67-K2",
     "Name": "Daimyo 67-K2",
-    "Details": "",
+    "Details": "<b>Name: <color=#85DBF6>Daimyo HQ 67-K2</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>230 Fusion</color></b>",
     "Icon": "uixVhclIcon_daimyo",
     "Cost": 1621458,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_5-8cv",

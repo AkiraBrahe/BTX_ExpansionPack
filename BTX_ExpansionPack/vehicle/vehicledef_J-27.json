@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>J-27 Ordnance Transport (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe J-27 Ordnance Transport, once the backbone of the Star League Defense Force, remains a common sight in Inner Sphere and Periphery armies, playing a critical role in the resupply of military units in the field.\n\nThe J-27 is armed with a single Machine Gun, which is only useful for self-defense. The gun is mounted in such a way that it cannot be depressed low enough to fire into the ammunition stored on the trailer or the cab.",
     "Icon": "uixVhclIcon_j27",
     "Cost": 41617,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

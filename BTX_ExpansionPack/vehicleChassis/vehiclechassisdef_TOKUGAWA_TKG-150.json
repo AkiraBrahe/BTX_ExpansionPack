@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Tokugawa Heavy Tank TKG-150</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>220 ICE</color></b>\n\nThe Tokugawa is a wheeled heavy tank designed in the Draconis Combine. It is an older design, dating back to the First Succession War, but it has remained in service ever since, even seeing extensive use after the Clan Invasion.\n\nA product of the Succession Wars era's technological decline, this more primitive model uses a readily available internal combustion engine. Instead of the later LB-X model, the TKG-150 is armed with a standard Autocannon/10 and a stock SRM-6 launcher. It also lacks the upgraded model's lasers, instead mounting a single Machine Gun.",
     "Icon": "uixVhclIcon_tokugawa",
     "Cost": 971100,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

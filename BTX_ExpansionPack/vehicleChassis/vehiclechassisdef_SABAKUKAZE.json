@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Sabaku Kaze Heavy Scout Hover Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Sabaku Kaze, which literally means \"Desert Wind\", is a hovertank based on the ancient Sand Devil design. A Davion strike destroyed its production plant, causing the Sabaku Kaze to fade from Combine front-line units and history.\n\nThe vehicle is equipped with four Medium Lasers and two Small Lasers in its turret, and forward- and rear-mounted SRM-4 launchers with a ton of ammunition for additional firepower.",
     "Icon": "uixVhclIcon_sabakukaze",
     "Cost": 2633333,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_9-14cv",

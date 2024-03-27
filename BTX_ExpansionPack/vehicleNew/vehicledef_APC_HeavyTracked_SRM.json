@@ -23,7 +23,7 @@
     "Details": "<b>Name: <color=#85DBF6>Heavy Tracked APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nThe Heavy Tracked APC is a larger version of the Tracked APC that can carry up to two platoons of infantry.\n\nSimilar to the LRM variant, this variant retains the front-mounted Machine Guns but loses three tons of infantry bay capacity, which is replaced with a front-mounted SRM-4 with 25 rounds of ammunition.",
     "Icon": "uixVhclIcon_heavytrackedapc",
     "Cost": 235000,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

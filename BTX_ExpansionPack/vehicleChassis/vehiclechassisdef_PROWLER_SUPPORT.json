@@ -14,10 +14,10 @@
   "Description": {
     "Id": "vehiclechassisdef_PROWLER_SUPPORT",
     "Name": "Prowler (Support)",
-     "Details": "<b>Name: <color=#85DBF6>Prowler Multi-Terrain Vehicle (Support)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nThe Prowler was the most common hostile and exotic environment military-grade exploration vehicle developed during the Star League era.\n\nThis other variant of the Prwoler built during the Succession Wars removes the Beagle probe and replaces the LRM-10 with a larger LRM-15. It also uses standard Medium Lasers to support troops carried in its four-ton infantry bay.",
+    "Details": "<b>Name: <color=#85DBF6>Prowler Multi-Terrain Vehicle (Support)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nThe Prowler was the most common hostile and exotic environment military-grade exploration vehicle developed during the Star League era.\n\nThis other variant of the Prwoler built during the Succession Wars removes the Beagle probe and replaces the LRM-10 with a larger LRM-15. It also uses standard Medium Lasers to support troops carried in its four-ton infantry bay.",
     "Icon": "uixVhclIcon_prowler",
     "Cost": 2175683,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

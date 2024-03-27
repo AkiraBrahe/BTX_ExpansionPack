@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Scimitar Medium Hover Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Scimitar Medium Hover Tank is very similar to the Saracen. Scarborough capitalized on the success of the Saracen by using the same chassis for the Scimitar, which became another hit for the company.\n\nThe standard model mounts an AC/5, which has the same range as the Saracen's LRMs but can be used at closer range. The autocannon is supported by a pair of SRM-2 launchers.",
     "Icon": "uixVhclIcon_scimitar",
     "Cost": 727175,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -24,7 +24,7 @@
     "Details": "<b>Name: <color=#85DBF6>Bandit (C) Hovercraft B</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Bandit C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Bandit C offers valuable flexibility in its various configurations.\n\nThis configuration provides long range fire support via a turret-mounted LRM-20.",
     "Icon": "uixVhclIcon_bandit",
     "Cost": 3660417,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -23,7 +23,7 @@
     "Details": "<b>Name: <color=#85DBF6>Asshur Artillery Spotter</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>95 Fusion</color></b>\n\nThe Asshur is a swift hovercraft designed to move quickly, using its speed as its primary defense. With only three tons of ferro-fibrous armor, it is vulnerable to enemy fire.\n\nThe Asshur's turret contains two ER Medium Lasers and a Streak SRM-6 launcher, which are light but potent weapons that can pose a credible threat to other vehicles and lighter 'Mechs. However, the Asshur's most potent threat is its TAG, which can direct powerful artillery rounds from a friendly Arrow IV launcher.",
     "Icon": "uixVhclIcon_asshur",
     "Cost": 970433,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

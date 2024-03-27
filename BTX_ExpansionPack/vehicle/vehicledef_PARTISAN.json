@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Partisan Heavy Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Partisan, designed by Kallon Industries, a well-known manufacturer of anti-aircraft 'Mechs, is a cheaper and more easily produced vehicle with the same capabilities.\n\nThe Partisan's four turret-mounted Autocannon AC/5s are supplied with two tons of airbursting shells that are optimized for destroying aircraft. However, these autocannons are also effective at providing direct fire support and can even be used to shoot down enemy missiles. In addition, the Partisan carries two Machine Guns for defense against infantry.",
     "Icon": "uixVhclIcon_partisan",
     "Cost": 1866600,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

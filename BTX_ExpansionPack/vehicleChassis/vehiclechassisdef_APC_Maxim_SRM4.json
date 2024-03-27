@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Maxim Heavy Hover Transport (SRM4)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>\n\nThe Maxim is a heavily armored hover APC designed to provide cover fire for deploying infantry and to support them in the field. The APC remained a popular choice for many Inner Sphere units in the late 30th century.\n\nVirtually similar to the SRM variant, this Maxim sacrifices one of the SRM-4s to carry additional ammo.",
     "Icon": "uixVhclIcon_maxim",
     "Cost": 1482000,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_8-12cv",

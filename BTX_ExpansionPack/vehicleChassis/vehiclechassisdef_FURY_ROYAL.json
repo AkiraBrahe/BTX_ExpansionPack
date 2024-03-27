@@ -15,7 +15,7 @@
     "Details": "<b>Name: <color=#85DBF6>Fury Command Tank (Royal)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>320 Fusion</color></b>\n\nThe Fury began as a Star League Defense Force command and control tank, quickly becoming popular for its weaponry and level of protection. It was later produced in variants with more direct combat and combined arms roles.\n\nUsed exclusively by the SLDF, this variant replaces one and a half tons of ferro-fibrous armor with a turret-mounted Anti-Missile System.",
     "Icon": "uixVhclIcon_fury",
     "Cost": 4587600,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

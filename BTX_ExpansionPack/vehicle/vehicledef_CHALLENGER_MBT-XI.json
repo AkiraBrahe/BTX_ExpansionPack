@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Challenger MBT XI</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>270 XL</color></b>\n\nThe Challenger Main Battle Tank, a joint effort between Kallon Industries and General Motors, was designed to combat the threat the Clans posed to the Inner Sphere.\n\nThis command variant makes use of a C3 Master Computer to coordinate a lance-sized C3 network. The tank's armament includes two Gauss Rifles with five tons of ammunition, along with an ER Medium Laser mounted at the front as a secondary weapon.",
     "Icon": "uixVhclIcon_challenger",
     "Cost": 17575000,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

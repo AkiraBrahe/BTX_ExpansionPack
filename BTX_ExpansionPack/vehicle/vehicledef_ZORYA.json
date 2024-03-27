@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Zorya Light Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Zorya Light Tank is an inexpensive combat vehicle whose biggest asset is its simplicity of use. This made it the most prevalent vehicle in use by the Clans.\n\nDesigned to stay out of range of most enemy guns, the Zorya's scant three and a half tons of armor cannot offer much protection. The turret carries both its weapons, an LB-X Autocannon/5 and an LRM-10 launcher with an Artemis IV Fire Control System. Both weapons have a long range and can be effective against VTOLs, making the Zorya quite capable against them.",
     "Icon": "uixVhclIcon_zorya",
     "Cost": 1296900,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

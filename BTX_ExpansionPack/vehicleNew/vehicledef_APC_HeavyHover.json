@@ -23,7 +23,7 @@
     "Details": "<b>Name: <color=#85DBF6>Heavy Hover APC</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>\n\nThe Heavy Hover APC is a larger version of the Hover APC that can carry up to two platoons of infantry.\n\nNo more a fighting vehicle than its standard counterpart, the Heavy Hover APC carries two front-mounted Machine Guns, carried only for defense against other infantry units. The lack of a turret makes the APC particularly vulnerable to flanking attacks from the rear, but most can successfully unload their troops before an enemy is in position to launch such an attack.",
     "Icon": "uixVhclIcon_heavyhoverapc",
     "Cost": 196700,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

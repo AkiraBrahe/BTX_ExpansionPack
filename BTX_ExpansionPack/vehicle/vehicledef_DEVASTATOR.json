@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Devastator Heavy Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nTall, squat, and using four treads, the Demolisher has a well-earned, though sometimes exaggerated, reputation as one of the most deadly vehicles on the battlefield.\n\nThe third generation of the Demolisher, the DVE-5B Mark III, is mainly found among the defense forces of the richer planets in the Inner Sphere. It is powered by a Type 240 fusion engine and mounts some additional weapons: a Flamer in the turret, one Small Laser in the front and on each side, and a front-mounted SRM-6.",
     "Icon": "uixVhclIcon_devastator",
     "Cost": 4127850,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

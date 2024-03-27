@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Burke Defense Tank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>150 Fusion</color></b>\n\nThe Burke, created as a static defense vehicle for the SLDF, was noteworthy for its devastating long-range firepower. It was highly prized by garrison forces, and ComStar secretly maintained a number of them in operational condition within the Inner Sphere.\n\nThe vehicle's main armament consists of three turret-mounted PPCs, which can be used to engage three separate targets or fire in unison against one. The PPCs are backed up by a fixed forward LRM-10 launcher with one ton of ammunition, which utilizes a Scope 30 RNDST tracking system to account for electronic jamming, atmospheric conditions, and evasive maneuvers to provide accurate targeting.",
     "Icon": "uixVhclIcon_burke",
     "Cost": 3075625,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

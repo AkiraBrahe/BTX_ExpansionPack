@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Gladius Medium Hover Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>145 ICE</color></b>\n\nCommissioned in 3042 by Imperator Marius O'Reilly, the Gladius Medium Hover Tank is a fast and simple combat vehicle. The tank is heavily armored for its size and uses a simple internal combustion engine, making it easy to produce and maintain. The only weapon the Gladius mounts is an Autocannon/10 that is imported from the Taurian Concordat. The main flaw of this hovertank is its lack of a turret. This means that the crew can only fire forward, making them vulnerable to attack from behind or the sides. However, the Gladius is very fast, so it is more likely to flank the enemy than be flanked itself.",
     "Icon": "uixVhclIcon_gladius",
     "Cost": 915600,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

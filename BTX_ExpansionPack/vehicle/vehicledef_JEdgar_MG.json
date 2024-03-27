@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>J. Edgar Light Hover Tank (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/20 (Hover)</color>\tEngine: <color=#85DBF6>145 Fusion</color></b>\n\nDesigned as a fast, cheap, and effective raider, the J.Edgar was the last military vehicle that Alphard Trading Corporation manufactured before they disappeared during the conflagration of the Succession Wars.\n\nThis configuration, mounting four Machine Guns in place of the two SRM-2 missile launchers, makes it more effective against infantry. The battery of machine guns proves deadly even against battle armor.",
     "Icon": "uixVhclIcon_jedgar",
     "Cost": 690250,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

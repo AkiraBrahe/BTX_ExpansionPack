@@ -9,21 +9,22 @@
       "unit_noncombatant",
       "unit_lance_support",
       "unit_range_long",
-      "unit_armor_medium",
+      "unit_armor_high",
       "unit_vehicle_case",
       "unit_speed_medium",
-      "unit_release"
+      "unit_release",
+      "unit_clan"
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "vehiclechassisdef_THOR",
+  "ChassisID": "vehiclechassisdef_THOR_CLAN",
   "Description": {
-    "Id": "vehicledef_THOR",
+    "Id": "vehicledef_THOR_CLAN",
     "Name": "Thor Artillery Vehicle",
-    "UIName": "Thor Artillery Vehicle (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>\n\nThe Thor is a self-propelled artillery piece used by the Star League Defense Force in the 26th century. It was designed to provide mobile fire support to SLDF units and was armed with a 15-ton Thumper artillery piece.\n\nThe standard loadout of the Thor is a Thumper artillery piece with forty rounds of ammunition and two Medium Lasers for self-defense purposes. The artillery vehicle is well-armored, boasting seven and a half tons of ferro-fibrous armor. However, it primarily relies on its long range and speed for protection.",
+    "UIName": "Thor Artillery Vehicle (Clan)",
+    "Details": "",
     "Icon": "uixVhclIcon_thor",
-    "Cost": 1898475,
+    "Cost": 2013225,
     "Rarity": 0,
     "Purchasable": true
   },
@@ -31,37 +32,37 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 145,
+      "CurrentArmor": 165,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 145,
+      "AssignedArmor": 165,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 115,
+      "CurrentArmor": 135,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 115,
+      "AssignedArmor": 135,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 115,
+      "CurrentArmor": 135,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 115,
+      "AssignedArmor": 135,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 110,
+      "CurrentArmor": 125,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 110,
+      "AssignedArmor": 125,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 140,
+      "CurrentArmor": 160,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 140,
+      "AssignedArmor": 160,
       "DamageLevel": "Functional"
     }
   ],
@@ -83,14 +84,14 @@
       "TargetComponentGUID": "ArtilleryLoader0"
     },
     {
-      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,
@@ -111,5 +112,5 @@
       "DamageLevel": "Functional"
     }
   ],
-  "MinAppearanceDate": "2680-01-01T00:00:00Z"
+  "MinAppearanceDate": "2870-01-01T00:00:00Z"
 }

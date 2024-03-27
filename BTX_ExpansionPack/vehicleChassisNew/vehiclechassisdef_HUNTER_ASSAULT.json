@@ -15,7 +15,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hunter Light Support Tank \"Assault Hunter\"</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>140 Fusion</color></b>",
     "Icon": "uixVhclIcon_hunter",
     "Cost": 1352250,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

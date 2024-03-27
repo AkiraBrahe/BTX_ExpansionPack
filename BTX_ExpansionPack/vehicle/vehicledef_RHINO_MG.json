@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Rhino Fire Support Tank (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Rhino Fire Support Tank, a far more heavily armored version of the ubiquitous LRM Carrier with seventeen tons of armor, was designed to anchor defensive lines and provide long-range fire support to friendly forces.\n\nThe 2653 variant of the Rhino removes the LRM-10 missile launcher and replaces it with an SRM-6 launcher and a trio of Machine Guns with half a ton of ammunition. This gives the Rhino a more versatile close-range armament, making it more effective against a wider range of targets. The Machine Guns can be used to suppress enemy infantry and light vehicles, while the SRM-6 can be used to damage heavier targets.",
     "Icon": "uixVhclIcon_rhino",
     "Cost": 4275000,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

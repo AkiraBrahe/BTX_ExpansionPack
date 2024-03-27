@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Tiger Medium Tank T-12</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>220 ICE</color></b>\n\nThe Tiger was designed to be lighter and faster than most of its rivals, becoming the new standard tank of the AFFS in the 25th century. However, the Reunification War exposed the Tiger's aging design, and by the war's end, it had been relegated to second-line duty.\n\nThe T-12's primary armament is an Autocannon/10, supported by two tons of ammunition. The turret also mounts an SRM-4 missile rack and a Machine Gun. Two additional Machine Guns, one mounted at the front and one at the rear, provide extra protection against infantry.",
     "Icon": "uixVhclIcon_tiger",
     "Cost": 1036433,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

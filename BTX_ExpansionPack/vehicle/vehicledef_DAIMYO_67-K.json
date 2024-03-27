@@ -24,7 +24,7 @@
     "Details": "<b>Name: <color=#85DBF6>Daimyo HQ 67-K</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>230 Fusion</color></b>\n\nThe Daimyo HQ is a heavy theater command unit used by the Draconis Combine. It weighs twice as much as a standard Mobile HQ, and uses the extra tonnage to increase its armor and defensive armament: a Large Laser for long-range firepower, as well as four Machine Guns to defend against infantry.",
     "Icon": "uixVhclIcon_daimyo",
     "Cost": 1383958,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

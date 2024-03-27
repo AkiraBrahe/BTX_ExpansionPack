@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Maxim Heavy Hover Transport (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>\n\nThe Maxim is a hover APC designed to provide cover fire for deploying infantry and to support them in the field. To that end, the Maxim is heavily armored for an APC and is outfitted with a variety of weapons.\n\nTwin forward facing and a rear facing LRM-5 provide long range fire, while side-mounted SRM-2s and a turret-mounted SRM-6 provide close range support. A set of three Machine Guns in the turret deal with any unarmored infantry it may encounter.",
     "Icon": "uixVhclIcon_maxim",
     "Cost": 1320000,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_8-12cv",

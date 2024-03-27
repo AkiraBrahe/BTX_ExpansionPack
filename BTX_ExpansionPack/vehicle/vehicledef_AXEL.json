@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Axel Heavy Tank Mk 1</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>195 ICE</color></b>\n\nThe Axel Heavy Tank is based on the Rommel design, but uses an internal combustion engine, which reduces the space available for armor. Despite this, it is widely used by the Free Rasalhague Republic.\n\nThe Axel Mk 1 retains the heavy-hitting AC/20 of the Rommel, and upgrades the LRM system to a ten-tube launcher. A Machine Gun mounted in the bow of the tank allows the driver to engage infantry units, while a second Machine Gun is added to the turret. The LRM has two tons of ammunition available, while the autocannon has four tons of ammo. A half-ton of Machine Gun ammunition is provided.",
     "Icon": "uixVhclIcon_axel",
     "Cost": 1545638,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

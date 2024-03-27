@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Heavy Transport B1</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>80 ICE</color></b>\n\nThe Heavy Transport B1 is a 20-ton militarized truck designed to transport infantry. It is armed with an SRM-2 with one ton of reloads and armored with three tons of armor. It features 7 tons of cargo capacity and can reach a top speed of 85 km/h.",
     "Icon": "uixVhclIcon_heavytransport",
     "Cost": 136033,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

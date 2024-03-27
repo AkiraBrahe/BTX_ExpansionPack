@@ -23,7 +23,7 @@
     "Details": "<b>Name: <color=#85DBF6>Schrek PPC Carrier (Anti-Infantry)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Schrek PPC carrier, designed for long-range bombardments, is capable of unleashing a deadly rain of particle fire.\n\nA relatively rare field variant first seen in 2833 drops some armor to mount two Machine Guns on the turret to fend off infantry attacks.",
     "Icon": "uixVhclIcon_schrek",
     "Cost": 3812400,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Rhino Fire Support Tank (Flamer)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Rhino Fire Support Tank, a far more heavily armored version of the ubiquitous LRM Carrier with seventeen tons of armor, was designed to anchor defensive lines and provide long-range fire support to friendly forces.\n\nThe 2835 variant of the Rhino drops the LRM-10 and replaces it with an SRM-6 and a pair of Flamers. This gives the Rhino more firepower for close-range combat, making it more effective against infantry and other light units. The Flamers can also be used to create smoke cover, obscuring the Rhino from enemy fire.",
     "Icon": "uixVhclIcon_rhino",
     "Cost": 4275900,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

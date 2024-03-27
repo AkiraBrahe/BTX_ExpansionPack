@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Drillson Heavy Hover Tank (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Drillson is a heavy hovertank that entered service with the Lyran Commonwealth's military in 3025. It is one of the best hover tanks of its type, and is known for its heavy armor and powerful armament.\n\nThis 3028 variant replaces the long-range missile system with four additional SRM-2s and three tons of ammunition to optimize its missile armament for close combat. The Cyclops Eye system and the machine guns remain unchanged.",
     "Icon": "uixVhclIcon_drillson",
     "Cost": 2426333,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

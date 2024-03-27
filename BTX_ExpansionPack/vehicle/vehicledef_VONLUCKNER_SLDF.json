@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Von Luckner Heavy Tank (Star League)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nDesigned for the original Star League after the Reunification War as a BattleMech without legs, the Von Luckner is fully capable of blasting light 'Mechs to pieces. It is named after Count von Luckner, a naval officer during the First World War on Terra.\n\nAnother upgrade from the Star League era boasts four Streak SRM-2 missile launchers, a front-facing Small Pulse Laser and LRM-15 with Artemis IV, and a rear-mounted Small Laser. This variant also has ferro-fibrous armor, primarily on the sides.",
     "Icon": "uixVhclIcon_vonluckner",
     "Cost": 4088438,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

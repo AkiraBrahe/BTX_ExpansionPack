@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Alacorn Heavy Tank Mk IV</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 XL</color></b>\n\nDeveloped by the New Earth Trading Company in 2561, the Alacorn quickly gained a reputation in the SLDF as an effective and dependable tank.\n\nAnother prototype developed shortly after the Mk III in 2588, this variant was outfitted with the ultimate big-gun of its era: a trio of AC/20s. It had a limited production run despite addressing the Mk II's lack of armor.",
     "Icon": "uixVhclIcon_alacorn",
     "Cost": 16570125,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

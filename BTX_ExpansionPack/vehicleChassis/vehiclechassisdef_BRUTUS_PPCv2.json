@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Brutus Assault Tank (PPC 2)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nRenowned for its heavy punch, the Brutus Assault Tank features an impressive combination of long- and short-range firepower, offset by its relatively low armor.\n\nThis 3011 variant keeps the original Brutus armor layout and Large Lasers, but replaces the LRM and SRM-6 launchers with a single PPC. For additional short-range firepower, four SRM-2 launchers are mounted on the vehicle, but one ton of ammunition may lead to shortages in an ongoing battle.",
     "Icon": "uixVhclIcon_brutus",
     "Cost": 3209500,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

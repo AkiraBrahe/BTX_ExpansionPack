@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Mithras Light Tank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>150 Fusion</color></b>\n\nThe Mithras is a Clan-designed light tank that is commonly used for scouting and providing fire support for heavier tanks. It is armed with a single Ultra AC/2 and two ER Medium Lasers, and its top speed of 97 km/h allows it to keep up with most units while still providing respectable firepower. Its main drawback is its relatively thin armor, with only three tons of ferro-fibrous armor.",
     "Icon": "uixVhclIcon_mithras",
     "Cost": 870000,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_6-9cv",

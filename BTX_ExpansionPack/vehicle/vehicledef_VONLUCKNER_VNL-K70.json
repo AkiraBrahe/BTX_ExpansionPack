@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Von Luckner Heavy Tank VNL-K70</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nDesigned for the original Star League after the Reunification War as a BattleMech without legs, the Von Luckner is fully capable of blasting light 'Mechs to pieces. It is named after Count von Luckner, a naval officer during the First World War on Terra.\n\nThis 3008 variant of the Von Luckner is less reliant on ammunition. A PPC has been added to the turret. In order to make these changes possible, the main gun had to be downgraded to an Autocannon/10 and both SRM-6s had to be removed.",
     "Icon": "uixVhclIcon_vonluckner",
     "Cost": 3518375,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Behemoth Heavy Tank (Armor)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>200 ICE</color></b>\n\nThe Behemoth is a heavily armored tank designed to engage both distant and short-range targets with its increased firepower, while allowing it to stand up to almost any type of unit possible.\n\nThis variant, introduced in the same year as the standard version, drops the Machine Guns and SRM-2s in favor of eight more tons of armor, bringing the total to an impressive 21 tons.",
     "Icon": "uixVhclIcon_behemoth",
     "Cost": 3028667,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_2-3cv",

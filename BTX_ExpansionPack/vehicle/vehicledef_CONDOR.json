@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Condor Heavy Hover Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>\n\nThe Condor is a heavy cavalry unit designed to respond quickly to shifting battles. It is one of the few heavy hover tanks available, and one of the fastest vehicles in its weight class.\n\nUnlike tracked or wheeled vehicles of the same weight, the Condor is designed to engage enemies at medium range while moving quickly, carrying an AC/5 and a pair of Medium Lasers in its turret. Also mounted on the body is a reliable anti-personnel Machine Gun.",
     "Icon": "uixVhclIcon_condor",
     "Cost": 1229000,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

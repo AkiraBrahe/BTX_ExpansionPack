@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Galleon Light Tank GAL-102</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Tracked)</color>\tEngine: <color=#85DBF6>210 Fusion</color></b>\n\nThe Galleon, a light combat vehicle first produced in 2692, served well during the Amaris Civil War as an economical means of supporting infantry and BattleMechs. It is often paired with the Harasser Missile Platform.\n\nThis 3048 upgrade of the Galleon uses a modern fusion engine and ferro-fibrous armor, freeing up enough space to mount a Medium Pulse Laser and a pair of Medium Lasers, while also giving it more armor protection. It also features a Beagle Active Probe, which allows the Galleon to detect hidden units.",
     "Icon": "uixVhclIcon_galleon",
     "Cost": 1205750,
-    "Rarity": 5,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

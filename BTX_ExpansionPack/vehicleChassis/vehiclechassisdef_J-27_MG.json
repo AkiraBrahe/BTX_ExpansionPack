@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>J-27 Ordnance Transport (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe J-27 Ordnance Transport, once the backbone of the Star League Defense Force, remains a common sight in Inner Sphere and Periphery armies, playing a critical role in the resupply of military units in the field.\n\nThis J-27 variant sacrifices some cargo space to add more armor and a second Mechine Gun with only a half-ton of ammo.",
     "Icon": "uixVhclIcon_j27",
     "Cost": 57567,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_5-8cv",

@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Scimitar Medium Hover Tank (Missile)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Scimitar Medium Hover Tank is very similar to the Saracen. Scarborough capitalized on the success of the Saracen by using the same chassis for the Scimitar, which became another hit for the company.\n\nThis 2957 variant simply replaces the autocannon with an LRM-15, which could be mistaken for a variant of its twin brother, the Saracen.",
     "Icon": "uixVhclIcon_scimitar",
     "Cost": 906525,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

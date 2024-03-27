@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Pegasus Scout Hover Tank (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Pegasus is a popular recon hovercraft due to its good speed, decent armor, and respectable firepower. It can be found in almost all militaries, having been introduced during the First Succession War.\n\nThis anti-infantry variant of the Pegasus replaces one of the two SRM-6 launchers with a pair of Machine Guns, which come with a full ton of ammunition.",
     "Icon": "uixVhclIcon_pegasus",
     "Cost": 727685,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Harasser Laser Platform</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>120 ICE</color></b>\n\nThe Harasser is a low-cost hover tank equipped with a variety of missile launchers that was widely integrated into Galleon Light Tank units in the Free Worlds League.\n\nA common field refit of the Harasser replaces the missile launchers with two Medium Lasers salvaged from damaged or destroyed Galleon Light Tanks. This refit makes the Harasser not dependent on ammunition, which is a valuable asset in a protracted conflict.",
     "Icon": "uixVhclIcon_harasser",
     "Cost": 389250,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_10-15cv",

@@ -15,7 +15,7 @@
     "Details": "<b>Name: <color=#85DBF6>Vedette Medium Tank (Ultra)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>250 ICE</color></b>\n\nThe Vedette Medium Tank is one of the most popular and common combat vehicles in the Inner Sphere, owing to its combination of speed and tightly focused armament. It works best in concert with other vehicle types or as a pack hunter with other Vedettes.\n\nThis 3054 variant incorporates the latest technological advancements. It features ferro-fibrous armor instead of the standard armor, and the Machine Gun is removed to make room for additional armor. The Autocannon/5 is also upgraded to an Ultra version, which provides improved firepower and range.",
     "Icon": "uixVhclIcon_vedette",
     "Cost": 941000,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_5-8cv",

@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Heavy Hover APC (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>",
     "Icon": "uixVhclIcon_heavyhoverapc",
     "Cost": 280700,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_8-12cv",

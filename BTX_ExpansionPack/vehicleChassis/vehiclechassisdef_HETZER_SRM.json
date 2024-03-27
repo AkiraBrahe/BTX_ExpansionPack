@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hetzer Wheeled Assault Gun (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Hetzer Wheeled Assault Gun is designed as a cheap, self-propelled artillery-piece to be stationed on worlds deemed worthy to defend, but not valuable enough to station a complete garrison force or even BattleMechs.\n\nThis 2957 variant utilizes five SRM-6s and three tons of ammunition instead of an autocannon.",
     "Icon": "uixVhclIcon_hetzer",
     "Cost": 833200,
-    "Rarity": 5,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

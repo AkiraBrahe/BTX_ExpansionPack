@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Rhino Fire Support Tank (Royal)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 XL</color></b>\n\nThe Rhino Fire Support Tank, a far more heavily armored version of the ubiquitous LRM Carrier with seventeen tons of armor, was designed to anchor defensive lines and provide long-range fire support to friendly forces.\n\nThe Royal SLDF variant of the Rhino uses an XL engine and makes several modifications to the armament. All missile launchers are tied into Artemis IV fire control systems, and a Guardian ECM suite provides additional protection against electronic warfare. The Medium Lasers are replaced with Pulse Lasers, and an Anti-Missile System is mounted to the turret for extra defense.",
     "Icon": "uixVhclIcon_rhino",
     "Cost": 12572100,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

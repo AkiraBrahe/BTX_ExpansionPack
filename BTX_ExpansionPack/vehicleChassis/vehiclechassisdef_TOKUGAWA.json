@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Tokugawa Heavy Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nThe Tokugawa is a wheeled heavy tank designed in the Draconis Combine. It is an older design, dating back to the First Succession War, but it has remained in service ever since, even seeing extensive use after the Clan Invasion.\n\nEquipped with a turret-mounted LB-X 10 Autocannon, the Tokugawa packs a powerful punch. The gun's three tons of ammunition allow crews to utilize various ammunition types. An Artemis IV FCS-enhanced SRM-6 Launcher, also mounted in the turret, delivers additional firepower. Two Medium Pulse Lasers safeguard the vehicle's forward arc.",
     "Icon": "uixVhclIcon_tokugawa",
     "Cost": 2514850,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

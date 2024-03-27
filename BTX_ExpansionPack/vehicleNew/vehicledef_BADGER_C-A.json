@@ -24,7 +24,7 @@
     "Details": "<b>Name: <color=#85DBF6>Badger (C) Tracked Transport A</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Badger C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Badger C offers valuable flexibility in its various configurations.\n\nThis variant carries three ER Small Lasers and six Machine Guns.",
     "Icon": "uixVhclIcon_badger",
     "Cost": 938031,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

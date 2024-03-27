@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Gabriel Reconnaissance Hovercraft (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>14/23 (Hover)</color>\tEngine: <color=#85DBF6>25 Fusion</color></b>\n\nThe Gabriel was an experimental vehicle that surprised many with its viability. It became the fastest ground vehicle to see service in the SLDF, and its speed made it ideal for reconnaissance and intelligence gathering.\n\nNot designed for combat, the Gabriel carries a single turret-mounted Medium Laser for self-defense. The turret also has an automatic target-acquisition system similar to fighters, which allows pilots to precisely aim at weak points and fire.",
     "Icon": "uixVhclIcon_gabriel",
     "Cost": 99917,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

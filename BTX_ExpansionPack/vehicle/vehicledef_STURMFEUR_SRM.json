@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>SturmFeur Heavy Tank (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>255 ICE</color></b>\n\nThe SturmFeur is the largest combat vehicle dedicated to providing missile support. It is a slow but well-armored vehicle that can withstand a determined counterassault before needing to withdraw. Its name is a misspelling of \"Assault Fire\".\n\nA variant introduced in 3023 sacrifices the turret-mounted LRM for four SRM-4s and an additional Machine Gun. This enhances the SturmFeur's close-range defense capabilities, making it a formidable bodyguard for standard SturmFeurs.",
     "Icon": "uixVhclIcon_sturmfeur",
     "Cost": 2481313,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

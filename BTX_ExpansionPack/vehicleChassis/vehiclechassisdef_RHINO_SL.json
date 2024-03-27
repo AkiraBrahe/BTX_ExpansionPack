@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Rhino Fire Support Tank (SL)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Rhino Fire Support Tank, a far more heavily armored version of the ubiquitous LRM Carrier with seventeen tons of armor, was designed to anchor defensive lines and provide long-range fire support to friendly forces.\n\nThe Star League-era variant removes the front-mounted LRM-10 and replaces it with an SRM-6 and four Small Lasers. This gives the Rhino more firepower for both close-range and long-range combat, making it a more versatile and effective unit.",
     "Icon": "uixVhclIcon_rhino",
     "Cost": 4328100,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

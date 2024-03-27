@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Partisan Heavy Tank (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Partisan, designed by Kallon Industries, a well-known manufacturer of anti-aircraft 'Mechs, is a cheaper and more easily produced vehicle with the same capabilities.\n\nAnother attempt to improve the standard Partisan, this 3017 version replaces the autocannons with four LRM-15 launchers. It is also particularly effective against enemy aircraft, as its LRMs can be equipped with airbursting warheads.",
     "Icon": "uixVhclIcon_partisan",
     "Cost": 2530800,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

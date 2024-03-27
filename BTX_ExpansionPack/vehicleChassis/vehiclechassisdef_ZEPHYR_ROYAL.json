@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Zephyr Hovertank (Royal)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>185 Fusion</color></b>\n\nThe Zephyr, designed by the Star League Defense Force to be a medium-duty, fast-response infantry support tank, instead saw the Zephyr as the ideal support vehicle for its Chaparral Arrow IV artillery tank.\n\nThe upgraded model used by the SLDF Royal units enhances the tank's support role by replacing the short-range missile launcher with a Narc missile beacon and two tons of ammunition.",
     "Icon": "uixVhclIcon_zephyr",
     "Cost": 2284350,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_9-14cv",

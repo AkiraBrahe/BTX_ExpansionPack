@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Fury Command Tank (Original)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>320 Fusion</color></b>\n\nThe Fury began as a Star League Defense Force command and control tank, quickly becoming popular for its weaponry and level of protection. It was later produced in variants with more direct combat and combined arms roles.\n\nThe original model's only weapon is a turret-mounted Gauss Rifle, combined with one of the fastest battlefield computers available, which functioned like a primitive version of the Draconis Combine-developed C3 network. This gives the Fury excellent range and firepower, but its minimum effective distance hampers it. Two tons of ammunition give it decent endurance in the field for a vehicle not intended to slug it out on the front line.",
     "Icon": "uixVhclIcon_fury",
     "Cost": 4174500,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

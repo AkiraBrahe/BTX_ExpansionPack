@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hunter Light Support Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>175 Fusion</color></b>\n\nThe Hunter Light Support Tank, popular among planetary militias and second-line units, is a cheap, reliable, and effective combat vehicle designed by Defiance Industries to provide covering fire support for withdrawing combat units from the front lines.\n\nIts low profile and twenty-tube LRM-20 allow the Hunter to exploit sheltering terrain and provide indirect fire support for prolonged periods, thanks to its two tons of ammunition. The rear-facing Flamer provides anti-infantry defense in case of emergencies, but is more commonly used to cover retreating units rather than engage in direct combat.",
     "Icon": "uixVhclIcon_hunter",
     "Cost": 1135125,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

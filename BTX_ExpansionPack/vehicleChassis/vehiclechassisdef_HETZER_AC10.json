@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hetzer Wheeled Assault Gun (AC/10)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Hetzer Wheeled Assault Gun is designed as a cheap, self-propelled artillery-piece to be stationed on worlds deemed worthy to defend, but not valuable enough to station a complete garrison force or even BattleMechs.\n\nThis field refit, introduced in 2893, exchanges the autocannon for a smaller class 10 version with five tons of ammunition, and also increases the armor slightly.",
     "Icon": "uixVhclIcon_hetzer",
     "Cost": 544000,
-    "Rarity": 5,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Heavy Wheeled APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nThe Heavy Wheeled APC is a larger version of the Wheeled APC that can carry up to two platoons of infantry.\n\nThis anti-infantry variant reduces the infantry bay capacity to three tons while adding four more Machine Guns. A single Machine Gun is added to the right and left sides, while the rear is given two. The vehicle's ammunition capacity is increased to 300 rounds.",
     "Icon": "uixVhclIcon_heavywheeledapc",
     "Cost": 142817,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

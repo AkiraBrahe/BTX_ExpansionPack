@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Saladin Assault Hover Tank (Armor)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Saladin is a medium hover tank built by Scarborough, the company that also made the Saracen and Scimitar. Unlike its brothers, the Saladin has no turret and only carries a single short-range weapon. Despite this, it became quite popular throughout the Inner Sphere.\n\nThis variant of the Saladin, introduced in 2960, drops one ton of ammunition for an additional ton of armor, doubling the armor on the sides and rear.",
     "Icon": "uixVhclIcon_saladin",
     "Cost": 911625,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

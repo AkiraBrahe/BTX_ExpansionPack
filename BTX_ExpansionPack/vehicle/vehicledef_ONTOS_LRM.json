@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Ontos Heavy Tank (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 ICE</color></b>\n\nThe Ontos, the first of three heavy tank prototypes created by Grumman Amalgamated, was chosen for its main armament, which was inspired by an ancient and obscure Terran vehicle of the same name.\n\nThis 2876 Ontos variant diverges from the original design by replacing the eight Medium Lasers and their supporting equipment with a more efficient pair of LRM-20 missile racks. The existing LRM-5s are upgraded to LRM-10s.",
     "Icon": "uixVhclIcon_ontos",
     "Cost": 3073688,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

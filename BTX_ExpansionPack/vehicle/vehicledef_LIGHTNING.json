@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Lightning Attack Hovercraft (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/20 (Hover)</color>\tEngine: <color=#85DBF6>210 Fusion</color></b>\n\nThe Lightning, a hovercraft combat vehicle designed for the Star League, was used to take down slow BattleMechs and vehicles. Commanders would combine multiple Lightnings to crush hostile lines, using their maneuverability to break formations.\n\nThe Lightning is armed for short-range combat with two Medium Pulse Lasers mounted at the front, allowing the crew to target enemies as they close in. One-shot SRM-4 packs on each side allow the vehicle to fire missiles as it passes an enemy and then repeat the maneuver on the return trip.",
     "Icon": "uixVhclIcon_lightning",
     "Cost": 1562300,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

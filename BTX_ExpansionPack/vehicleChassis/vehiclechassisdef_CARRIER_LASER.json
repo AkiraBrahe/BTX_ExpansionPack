@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Laser Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe Laser Carrier is a 60-ton tracked vehicle outfitted with eight Medium Lasers. It is as expensive as the AC/2 Carrier, but without the ammunition constraints, making it a more popular choice for many factions.",
     "Icon": "uixVhclIcon_carrier",
     "Cost": 1100800,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

@@ -20,7 +20,7 @@
     "Details": "<b>Name: <color=#85DBF6>Vedette Medium Tank (AC/2)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>250 ICE</color></b>\n\nThe Vedette Medium Tank is one of the most popular and common combat vehicles in the Inner Sphere, owing to its combination of speed and tightly focused armament. It works best in concert with other vehicle types or as a pack hunter with other Vedettes.\n\nAnother popular variant introduced in 2963 mounts an AC/2 in place of the AC/5, and includes an SRM-2 rack for additional short-range firepower.",
     "Icon": "uixVhclIcon_vedette",
     "Cost": 701000,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

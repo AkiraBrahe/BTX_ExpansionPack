@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hunter Light Support Tank (LRM10)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>175 Fusion</color></b>\n\nThe Hunter Light Support Tank, popular among planetary militias and second-line units, is a cheap, reliable, and effective combat vehicle designed by Defiance Industries to provide covering fire support for withdrawing combat units from the front lines.\n\nThis 2954 variant downgrades to an LRM-10 with two tons of ammo, replacing the remaining space with two forward-facing Medium Lasers and two Machine Guns on each side.",
     "Icon": "uixVhclIcon_hunter",
     "Cost": 1068975,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

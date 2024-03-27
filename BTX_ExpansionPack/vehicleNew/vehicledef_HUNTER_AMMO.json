@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hunter Light Support Tank (Ammo)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>175 Fusion</color></b>",
     "Icon": "uixVhclIcon_hunter",
     "Cost": 1165500,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Brutus Assault Tank (PPC)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nRenowned for its heavy punch, the Brutus Assault Tank features an impressive combination of long- and short-range firepower, offset by its relatively low armor.\n\nIn place of the twin Large Lasers and LRM-20, this 3005 variant has a pair of PPCs and an additional SRM-2. Its armor protection is also increased to 14 tons.",
     "Icon": "uixVhclIcon_brutus",
     "Cost": 3555125,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

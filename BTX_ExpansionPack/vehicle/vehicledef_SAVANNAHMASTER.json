@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Savannah Master Hovercraft (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>14/23 (Hover)</color>\tEngine: <color=#85DBF6>25 Fusion</color></b>\n\nThe Savannah Master, named after the MechWarrior it defeated in its trial run, is notable for its fusion engine and high speed, which allow it to stay mobile and wear down heavier units. It is primarily a light recon unit, armed with just a single Medium Laser, and relies on its superior mobility to keep it safe.",
     "Icon": "uixVhclIcon_savannahmaster",
     "Cost": 91667,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

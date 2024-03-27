@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Mobile HQ (LL)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>130 Fusion</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nnother Succession Wars variant exchanges the Medium Laser for a Large Laser, and reduces the vehicle's communication gear to three tons.",
     "Icon": "uixVhclIcon_mobilehq",
     "Cost": 494062,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Tokugawa Heavy Tank TKG-151</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>220 ICE</color></b>\n\nThe Tokugawa is a wheeled heavy tank designed in the Draconis Combine. It is an older design, dating back to the First Succession War, but it has remained in service ever since, even seeing extensive use after the Clan Invasion.\n\nA long-range sniper variant of the primitive TKG-150, the TKG-151 replaces the AC/10 with a pair of Autocannon/2s supplied with two tons of ammo. The rest of the armament is otherwise identical.",
     "Icon": "uixVhclIcon_tokugawa",
     "Cost": 893100,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

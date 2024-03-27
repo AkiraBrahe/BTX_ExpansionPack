@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Mobile HQ (ICE - LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nA Succession Wars downgrade of the Mobile HQ replaces the fusion engine with an internal combustion engine and the Medium Laser with an LRM-10, significantly reducing the communications gear to compensate.",
     "Icon": "uixVhclIcon_mobilehq",
     "Cost": 323156,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

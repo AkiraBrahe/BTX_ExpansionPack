@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Blizzard Hover Transport (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>95 ICE</color></b>\n\nThe Blizzard Hover Transport is a fast and cheap troop carrier that was originally intended for use against the Clans. It gained notoriety in the Chaos March and proved its effectiveness in the Capellan-St. Ives War. The hovertank reaches speeds of up to 151 km/h, but its internal combustion engine restricts its equipment capacity. With six tons of cargo space, the Blizzard's only weapon is a single turret-mounted LRM-5 launcher. This allows the speedy vehicle to remain out of range of most weapons while still contributing to the fight once its infantry troops have disembarked.",
     "Icon": "uixVhclIcon_blizzard",
     "Cost": 333125,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_9-14cv",

@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Ishtar Heavy Fire Support Tank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>4/7 (Wheeled)</color>\tEngine: <color=#85DBF6>175 Fusion</color></b>\n\nThe Ishtar Heavy Fire Support Tank is less popular than smaller, more maneuverable Clan vehicles, but its heavy firepower makes it a staple of heavy garrison units.\n\nThe tank is equipped with two heavy autocannons: a UAC/10 that can double its rate of fire and an LB 10-X AC that can switch between slug and cluster munitions. Mounting these two autocannons in the Ishtar's turret gives them the most flexibility in acquiring targets. It also carries an Artemis IV-augmented LRM-15 launcher for long range and two ER Medium Lasers for medium range.",
     "Icon": "uixVhclIcon_ishtar",
     "Cost": 3316917,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

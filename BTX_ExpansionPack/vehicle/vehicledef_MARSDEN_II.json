@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Marsden MBT II</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe Marsden II Main Battle Tank, introduced in 2463 by Arcturan Arms, replaced its predecessor after 70 years of service. Using improved technical knowledge from Operation Prometheus, it was five tons lighter and boasted excellent firepower and thick armor.\n\nThe main gun of the Marsden II is a turret-mounted Autocannon/5 with one ton of ammunition. For close-in firepower, the tank has two front-mounted SRM-6 launchers with four tons of ammunition, as well as a pair of Machine Guns to handle infantry.",
     "Icon": "uixVhclIcon_marsdenii",
     "Cost": 1340800,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Gabriel Reconnaissance Hovercraft (TDF)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>14/23 (Hover)</color>\tEngine: <color=#85DBF6>25 Fusion</color></b>",
     "Icon": "uixVhclIcon_gabriel",
     "Cost": 91117,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_13-20cv",

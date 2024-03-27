@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Partisan Heavy Tank (AC/2)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Partisan, designed by Kallon Industries, a well-known manufacturer of anti-aircraft 'Mechs, is a cheaper and more easily produced vehicle with the same capabilities.\n\nThe AC/2 Partisan, a 3002 experiment to increase the effectiveness of the standard Partisan, replaces its four AC/5 autocannons with five AC/2 autocannons.",
     "Icon": "uixVhclIcon_partisan",
     "Cost": 1629000,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

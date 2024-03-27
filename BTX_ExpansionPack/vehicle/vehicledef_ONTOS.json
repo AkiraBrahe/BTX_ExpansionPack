@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Ontos Heavy Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 ICE</color></b>\n\nThe Ontos, the first of three heavy tank prototypes created by Grumman Amalgamated, was chosen for its main armament, which was inspired by an ancient and obscure Terran vehicle of the same name.\n\nThe original Ontos model is armed with an array of eight Medium Lasers. This requires the tank to carry over 24 tons of power amplifiers and heat sinks, however, its primarily energy weapon-based armament is ideal for protracted engagements. Two LRM-5 missile racks provide covering fire when the Ontos is required to assault or move to a new position.",
     "Icon": "uixVhclIcon_ontos",
     "Cost": 2265413,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

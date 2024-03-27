@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Brutus Assault Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nRenowned for its heavy punch, the Brutus Assault Tank features an impressive combination of long- and short-range firepower, offset by its relatively low armor.\n\nThe tank's primary weapons are twin turret-mounted Large Lasers, supported by an LRM-20. To complement the Large Lasers at short ranges, the Brutus has two SRM-6 launchers and a single SRM-2 launcher in its frontal firing arc. Each SRM launcher has one ton of ammunition, while the LRM launcher has three tons.",
     "Icon": "uixVhclIcon_brutus",
     "Cost": 3694250,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

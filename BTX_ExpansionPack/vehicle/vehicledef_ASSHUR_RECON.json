@@ -1,6 +1,6 @@
 {
   "VehicleTags": {
-    "items": [    
+    "items": [
       "mr-resize-1",
       "unit_vehicle",
       "unit_light",
@@ -23,7 +23,7 @@
     "Details": "<b>Name: <color=#85DBF6>Asshur Fast Reconnaissance Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>95 Fusion</color></b>\n\nThe Asshur is a swift hovercraft designed to move quickly, using its speed as its primary defense. With only three tons of ferro-fibrous armor, it is vulnerable to enemy fire.\n\nThis recon variant of the Asshur, introduced during the Succession Wars era, retains its ER Medium Lasers but substitutes the TAG for a pair of Machine Guns with a half ton of ammunition.",
     "Icon": "uixVhclIcon_asshur",
     "Cost": 915133,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

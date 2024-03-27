@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Pike Support Vehicle (AC/5)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe Pike is a low-cost combat vehicle designed by the Magistracy of Canopus during the Third Succession War for the Great Houses. However, their shrinking JumpShip fleets limited its impact, and it instead became popular with ComStar's garrison forces.\n\nThis variant replaces the Pike's Class 2 Autocannons with Class 5 Autocannons, giving it superior firepower but with a more limited range. It carries seven tons of ammunition.",
     "Icon": "uixVhclIcon_pike",
     "Cost": 1117600,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

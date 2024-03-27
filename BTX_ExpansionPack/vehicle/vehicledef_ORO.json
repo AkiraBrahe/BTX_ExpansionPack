@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Oro Heavy Tank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Oro is a heavy tank specifically designed to destroy other conventional vehicles. It has a modest top speed of 65 km/h and only five and a half tons of ferro-fibrous armor. The present configuration is the result of an upgrade by Clan Steel Viper to specifically counter the aerospace fighters of Clan Snow Raven. The Ravens liked the new design so much that they decided to use it to train their fighter pilots to avoid ground batteries. The Oro's Large Pulse Laser gives it a respectable punch from long range, while its ER Medium Laser provides additional firepower at medium range. However, the Oro's true strength is its LB-X Autocannon/20. This large-bore autocannon is capable of both shredding armor with slug rounds and using its cluster munitions to pummel a target. It is truly the cluster shot that allows the Oro to succeed in its niche, as it can be used as flak to shoot down airborne targets.",
     "Icon": "uixVhclIcon_oro",
     "Cost": 3422400,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

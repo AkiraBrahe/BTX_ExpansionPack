@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Bandit (C) Hovercraft A</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>",
     "Icon": "uixVhclIcon_bandit",
     "Cost": 3437917,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_9-14cv",

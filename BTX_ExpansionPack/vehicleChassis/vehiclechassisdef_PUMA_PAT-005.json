@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Puma Assault Tank PAT-005</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 Fusion</color></b>\n\nThe Puma was developed in the 27th century in response to the fear that traditional tanks would become obsolete in the face of the Star League's new primary weapon of war, the BattleMech.\n\nThe PAT-005's main strength is the sheer firepower it can bring to bear, with its PPC surrounded by two LRM-20 launchers. For close-in action, the tank has a pair of Medium Lasers and an SRM-4 mounted forward, with the missile launchers' twenty five volleys stored in its main hull. In the rear, the Puma is protected by a Small Laser and Flamer.",
     "Icon": "uixVhclIcon_puma",
     "Cost": 5909963,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

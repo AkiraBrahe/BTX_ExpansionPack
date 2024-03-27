@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Harasser Missile Platform (Flamer)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>120 ICE</color></b>",
     "Icon": "uixVhclIcon_harasser",
     "Cost": 525000,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_10-15cv",

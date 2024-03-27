@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Regulator Hovertank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>170 Fusion</color></b>\n\nThe Regulator hovertank was the result of the Capellan Confederation refining its surviving industries to produce better combat vehicles after the Fourth Succession War and the revival of Star League technology from the Helm Memory Core.\n\nThe vehicle's only weapon, a Gauss Rifle, is mounted in the turret, and is supplied with two tons of ammunition. The Regulator has 6 tons of ferro-fibrous armor, most of which is concentrated on the front and turret. This leaves it vulnerable to damage from the sides and rear, but its speed and agility make up for the thin protection on the flanks.",
     "Icon": "uixVhclIcon_regulator",
     "Cost": 2161250,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_9-14cv",

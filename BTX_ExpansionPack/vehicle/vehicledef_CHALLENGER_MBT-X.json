@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Challenger MBT X</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>270 XL</color></b>\n\nThe Challenger X Main Battle Tank was designed to combat the threat the Clans posed to the Inner Sphere. The Challenger was a joint effort between Kallon Industries and General Motors; rather than possibly losing out on lucrative contracts trying to outdo one another, the two corporations teamed up to create a main battle tank that could stand up to a BattleMech.",
     "Icon": "uixVhclIcon_challenger",
     "Cost": 15706350,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Condor Heavy Hover Tank (Flamer)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>\n\nThe Condor is a heavy cavalry unit designed to respond quickly to shifting battles. It is one of the few heavy hover tanks available, and one of the fastest vehicles in its weight class.\n\nA recent variant produced by Red Devil Industries, the Condor Flamer variant sacrifices the long-range firepower of the Autocannon/5 for improved close-in and anti-personnel capabilities. In addition to the three Medium Lasers, two Machine Guns, and two Flamers, the armor has also been increased.",
     "Icon": "uixVhclIcon_condor",
     "Cost": 1150000,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_8-12cv",

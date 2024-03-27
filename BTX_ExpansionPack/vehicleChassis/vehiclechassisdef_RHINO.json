@@ -13,10 +13,10 @@
   "Description": {
     "Id": "vehiclechassisdef_RHINO",
     "Name": "Rhino",
-    "Details": "<b>Name: <color=#85DBF6>Rhino Fire Support Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Rhino Fire Support Tank, a far more heavily armored version of the ubiquitous LRM Carrier with seventeen tons of armor, was designed to anchor defensive lines and provide long-range fire support to friendly forces.\n\nThe standard Rhino mounts two LRM-20 launchers alongside a pair of Medium Lasers in its turret, and is supported by a single LRM-10 mounted in the front. The vehicle’s total of four tons of LRM reloads compare favorably with the LRM Carrier, while the lasers allow it some defensive ability while retreating to rearm. However, the vehicle’s extremely slow speed greatly hampers any retreat once engaged in battle.",
+    "Details": "<b>Name: <color=#85DBF6>Rhino Fire Support Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Rhino Fire Support Tank, a far more heavily armored version of the ubiquitous LRM Carrier with seventeen tons of armor, was designed to anchor defensive lines and provide long-range fire support to friendly forces.\n\nThe standard Rhino mounts two LRM-20 launchers alongside a pair of Medium Lasers in its turret, and is supported by a single LRM-10 mounted in the front. The vehicleï¿½s total of four tons of LRM reloads compare favorably with the LRM Carrier, while the lasers allow it some defensive ability while retreating to rearm. However, the vehicleï¿½s extremely slow speed greatly hampers any retreat once engaged in battle.",
     "Icon": "uixVhclIcon_rhino",
     "Cost": 4288500,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hetzer Wheeled Assault Gun (Scout)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Hetzer Wheeled Assault Gun is designed as a cheap, self-propelled artillery-piece to be stationed on worlds deemed worthy to defend, but not valuable enough to station a complete garrison force or even BattleMechs.\n\nThis variant tries to expand on the Hetzer's usefulness by installing a Remote Sensor Dispenser, but this leaves the AC/20 with only two tons of ammunition.",
     "Icon": "uixVhclIcon_hetzer",
     "Cost": 707200,
-    "Rarity": 5,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

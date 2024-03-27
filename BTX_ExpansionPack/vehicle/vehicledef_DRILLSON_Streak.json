@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Drillson Heavy Hover Tank (Streak)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Drillson is a heavy hovertank that entered service with the Lyran Commonwealth's military in 3025. It is one of the best hover tanks of its type, and is known for its heavy armor and powerful armament.\n\nThis updated post-Clan Invasion model of the Drillson from 3053 features an updated weapons package. The HoverTech SRM racks have been removed and more efficient Streak SRM-2s fitted. The venerable Cyclops Eye system has been retired in favor of a modern Large Pulse Laser.",
     "Icon": "uixVhclIcon_drillson",
     "Cost": 2619333,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -23,7 +23,7 @@
     "Details": "<b>Name: <color=#85DBF6>Alacorn Heavy Tank Mk III</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 XL</color></b>\n\nDeveloped by the New Earth Trading Company in 2561, the Alacorn quickly gained a reputation in the SLDF as an effective and dependable tank.\n\nAn early and poorly received model from 2587 developed prior to the invention of the Gauss Rifle, the Mk III carries a rather mundane payload for three AC/10s.",
     "Icon": "uixVhclIcon_alacorn",
     "Cost": 16036800,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

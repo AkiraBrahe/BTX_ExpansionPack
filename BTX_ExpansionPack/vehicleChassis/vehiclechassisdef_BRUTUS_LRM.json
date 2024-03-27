@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Brutus Assault Tank (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nRenowned for its heavy punch, the Brutus Assault Tank features an impressive combination of long- and short-range firepower, offset by its relatively low armor.\n\nThis 3001 variant removes both of the Large Lasers and mounts a pair of turreted LRM-20 launchers instead. The launchers are given six tons of ammunition to keep the tank going in battle. The tank's armor protection is also significantly increased.",
     "Icon": "uixVhclIcon_brutus",
     "Cost": 3970750,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Behemoth Heavy Tank (Flamer)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>200 ICE</color></b>\n\nThe Behemoth is a heavily armored tank designed to engage both distant and short-range targets with its increased firepower, while allowing it to stand up to almost any type of unit possible.\n\nThis variant, introduced during the Third Succession War, is not a factory model but rather individual modifications where crews have replaced the SRM-2 missile launchers with Flamers.",
     "Icon": "uixVhclIcon_behemoth",
     "Cost": 3004667,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

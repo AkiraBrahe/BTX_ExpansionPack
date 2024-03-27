@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Mobile HQ (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>130 Fusion</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nThis Succession Wars variant is commonly found among Draconis Combine and Capellan Confederation forces. It replaces the Medium Laser with an LRM-10 launcher and a ton of ammunition, and reduces the vehicle's communication gear to two tons.",
     "Icon": "uixVhclIcon_mobilehq",
     "Cost": 516562,
-    "Rarity": 4,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_6-9cv",

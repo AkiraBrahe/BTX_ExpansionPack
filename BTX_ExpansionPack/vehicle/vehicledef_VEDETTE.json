@@ -20,7 +20,7 @@
     "Details": "<b>Name: <color=#85DBF6>Vedette Medium Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Tracked)</color>\tEngine: <color=#85DBF6>250 ICE</color></b>\n\nThe Vedette Medium Tank is one of the most popular and common combat vehicles in the Inner Sphere, owing to its combination of speed and tightly focused armament. It works best in concert with other vehicle types or as a pack hunter with other Vedettes.\n\nThe Vedette's armament is limited to one main weapon, a turret-mounted AC/5, and one secondary weapon, a Machine Gun mounted on the bow of the tank. However, the Vedette remains an effective vehicle due to its speed. It can quickly move into optimum range, open fire, and then retreat before enemy forces can retaliate.",
     "Icon": "uixVhclIcon_vedette",
     "Cost": 725750,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -15,7 +15,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hetzer Wheeled Assault Gun (LB-X)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>140 Fusion</color></b>",
     "Icon": "uixVhclIcon_hetzer",
     "Cost": 1483600,
-    "Rarity": 5,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

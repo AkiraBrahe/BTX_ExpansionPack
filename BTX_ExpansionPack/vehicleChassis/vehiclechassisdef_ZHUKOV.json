@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Zhukov Heavy Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 ICE</color></b>\n\nThe Zhukov is a successful follow-up to the venerable Demolisher design. Slightly lighter and better armored but carrying less weaponry, the Zhukov was first deployed by the Wolf's Dragoons and has since undergone constant improvements.\n\nThe Zhukov's strength lies in its relative simplicity. Two Autocannon/10s mounted in the turret provide sufficient firepower while imitating its larger cousin, the Demolisher. A single SRM-6 rack offers added punch to anything daring to venture close.",
     "Icon": "uixVhclIcon_zhukov",
     "Cost": 1816063,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

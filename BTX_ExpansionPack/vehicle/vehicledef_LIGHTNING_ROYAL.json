@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Lightning Attack Hovercraft (Royal)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/20 (Hover)</color>\tEngine: <color=#85DBF6>210 Fusion</color></b>\n\nThe Lightning, a hovercraft combat vehicle designed for the Star League, was used to take down slow BattleMechs and vehicles. Commanders would combine multiple Lightnings to crush hostile lines, using their maneuverability to break formations.\n\nThe upgraded model used by the SLDF Royal units replaces its two One-Shot SRM-4s with a pair of Streak SRM-2s. These more advanced launchers inflict the same damage while withholding fire for shots that would have missed, maximizing the single ton of reloads carried and saving enough weight to add a TAG unit.",
     "Icon": "uixVhclIcon_lightning",
     "Cost": 1596300,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -15,7 +15,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hunter Light Support Tank (3054 Upgrade)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>140 Fusion</color></b>\n\nThe Hunter Light Support Tank, popular among planetary militias and second-line units, is a cheap, reliable, and effective combat vehicle designed by Defiance Industries to provide covering fire support for withdrawing combat units from the front lines.\n\nThis redesign of the Hunter is outfitted with a pair LRM-15 racks, each with its own Artemis IV fire control system and two tons of ammunition, providing even greater accuracy and firepower. The addition of ferro-fibrous armor does not save enough weight to allow these weapons to be mounted, so the armor has been significantly reduced and the engine has been downgraded to a 140-rated fusion engine, making the Hunter a much easier target to destroy.",
     "Icon": "uixVhclIcon_hunter",
     "Cost": 1527750,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_4-6cv",

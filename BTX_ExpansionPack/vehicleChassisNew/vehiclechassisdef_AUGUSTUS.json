@@ -13,7 +13,7 @@
   "Description": {
     "Id": "vehiclechassisdef_AUGUSTUS",
     "Name": "Augustus A3",
-    "Details": "",
+    "Details": "<b>Name: <color=#85DBF6>Augustus Main Battle Tank A3</color>\nArmor: <color=#85DBF6>BAR 7 Armor</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 ICE</color></b>",
     "Icon": "uixVhclIcon_augustus",
     "Cost": 1074063,
     "Rarity": 0,

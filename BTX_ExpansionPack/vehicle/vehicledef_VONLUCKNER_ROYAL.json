@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Von Luckner Heavy Tank (Royal)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 XL</color></b>\n\nDesigned for the original Star League after the Reunification War as a BattleMech without legs, the Von Luckner is fully capable of blasting light 'Mechs to pieces. It is named after Count von Luckner, a naval officer during the First World War on Terra.\n\nThe SLDF Royal Divisions version of the Von Luckner is equipped with two LB 10-X Autocannons, four Streak SRM-2 launchers, a Small Pulse Laser, and an Artemis IV Fire Control System for the LRM-10. To accommodate all of this equipment, an extralight fusion engine replaces the standard fusion engine.",
     "Icon": "uixVhclIcon_vonluckner",
     "Cost": 10682000,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

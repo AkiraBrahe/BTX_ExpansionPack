@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Saladin Assault Hover Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Saladin is a medium hover tank built by Scarborough, the company that also made the Saracen and Scimitar. Unlike its brothers, the Saladin has no turret and only carries a single short-range weapon. Despite this, it became quite popular throughout the Inner Sphere.\n\nWith a top speed of 130 km/h, and sporting an Autocannon/20, the Saladin is by far the fastest land vehicle to mount such a devastating weapon. Unlike other vehicles with turrets, the Saladin is best used like an aerospace fighter, making passing runs towards the enemy, closing in to fire, and then turning back for another run. Therefore, most of the its armor is located at the front, while the sides and rear are left more vulnerable.",
     "Icon": "uixVhclIcon_saladin",
     "Cost": 911625,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

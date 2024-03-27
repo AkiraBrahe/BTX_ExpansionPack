@@ -15,7 +15,7 @@
     "Details": "<b>Name: <color=#85DBF6>Puma Assault Tank PAT-005b</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 XL</color></b>\n\nThe Puma was developed in the 27th century in response to the fear that traditional tanks would become obsolete in the face of the Star League's new primary weapon of war, the BattleMech.\n\nThe 2751 variant of the Puma was used by the Star League Defense Force's Royal Divisions. It had several upgrades over the standard model, including twin Streak SRM-2 missile launchers, an Extended-Range PPC, Artemis IV fire control systems for the LRM-20s, and a Small Pulse Laser instead of a Small Laser. To accommodate these upgrades, the Royal Puma used an XL engine.",
     "Icon": "uixVhclIcon_puma",
     "Cost": 17529525,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Skulker Wheeled Scout Tank (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Wheeled)</color>\tEngine: <color=#85DBF6>120 ICE</color></b>\n\nThe Skulker, a larger relative of the Swift Wind scout car, is based on the Heavy APC design. It can serve as a mobile communications outpost due to its advanced sensor suite.\n\nThis 2897 variant trades the Medium Laser for two Machine Guns and a two-ton infantry bay.",
     "Icon": "uixVhclIcon_skulker",
     "Cost": 138600,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

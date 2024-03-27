@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Plainsman Medium Hovertank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Plainsman is a fast and hard-hitting hovertank designed by Pinard Protectorates Limited at the request of Wolf's Dragoons. It became a staple of many second-line forces throughout the Inner Sphere.\n\nThe Plainsman's twin turret-mounted SRM-6 launchers and front-mounted SRM-2 launcher give it considerable short-range firepower. The split-turret design allows the SRM-6 launchers to be independently targeted at different arcs of fire. Each SRM-6 launcher has 15 reloads.",
     "Icon": "uixVhclIcon_plainsman",
     "Cost": 871533,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

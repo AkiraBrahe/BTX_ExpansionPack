@@ -13,7 +13,7 @@
   "Description": {
     "Id": "vehiclechassisdef_THOR_C3i",
     "Name": "Thor (C3i)",
-    "Details": "",
+    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle (C3i)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>",
     "Icon": "uixVhclIcon_thor",
     "Cost": 2749538,
     "Rarity": 0,

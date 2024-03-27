@@ -16,7 +16,7 @@
     "Details": "<b>Name: <color=#85DBF6>Heavy Wheeled APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Wheeled)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nThe Heavy Wheeled APC is a larger version of the Wheeled APC that can carry up to two platoons of infantry.\n\nSimilar to the LRM variant, this variant retains the front-mounted Machine Guns but loses three tons of infantry bay capacity, which is replaced with a front-mounted SRM-4 with 25 rounds of ammunition.",
     "Icon": "uixVhclIcon_heavywheeledapc",
     "Cost": 215417,
-    "Rarity": 2,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_6-9cv",

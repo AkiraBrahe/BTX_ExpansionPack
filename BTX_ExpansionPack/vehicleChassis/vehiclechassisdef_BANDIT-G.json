@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Bandit Hovercraft G</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Bandit is a 50-ton combat hovercraft originally designed by the Clans. Brought to the Inner Sphere by the Wolf's Dragoons, it was produced by Blackwell Corporation in 3007 for their exclusive use.\n\nAnother design that wields only energy weapons, the G can provide serious short-range punch with its two turret-mounted Medium Lasers and six front-mounted Small Lasers.",
     "Icon": "uixVhclIcon_bandit",
     "Cost": 2889167,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_9-14cv",

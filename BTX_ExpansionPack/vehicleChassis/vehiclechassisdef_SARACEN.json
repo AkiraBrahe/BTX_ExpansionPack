@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Saracen Medium Hover Tank (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Saracen is the first of three well-known hovertanks from Scarborough Limited, followed by the Scimitar and the Saladin.\n\nAlthough it is used throughout the Inner Sphere, House Marik fields the greatest number of this potent skirmisher. Its default loadout includes an LRM-10 and three SRM-2-launchers, all turret-based for more flexibility.",
     "Icon": "uixVhclIcon_saracen",
     "Cost": 813025,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_8-12cv",

@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Harasser Missile Platform (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>120 ICE</color></b>\n\nThe Harasser is a low-cost hover tank equipped with a variety of missile launchers that was widely integrated into Galleon Light Tank units in the Free Worlds League.\n\nA pair of SRM-6s give the Harasser more firepower than any other vehicle in its class, but this comes at a price: it has only mounts one and a half tons of armor. With such light armor, its best defense is to use its speed to outrun nearly everything, running circles around heavier BattleMechs and making itself a much harder target to hit.",
     "Icon": "uixVhclIcon_harasser",
     "Cost": 561000,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_10-15cv",

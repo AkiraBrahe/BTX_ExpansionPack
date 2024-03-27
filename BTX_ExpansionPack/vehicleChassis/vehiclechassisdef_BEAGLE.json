@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Beagle Hover Scout (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>13/22 (Hover)</color>\tEngine: <color=#85DBF6>95 Fusion</color></b>\n\nThe Beagle is a light hover tank developed to carry the Beagle Active Probe, a long-range sensor. It was quickly fielded to SLDF armor units and reintroduced later by the Word of Blake.\n\nLightly armed, the Beagle is outfitted with a single Small Laser mounted on the front of the vehicle and a Medium Laser mounted alongside the sensor wand for the Beagle Active Probe in its turret.",
     "Icon": "uixVhclIcon_beagle",
     "Cost": 602875,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_12-18cv",

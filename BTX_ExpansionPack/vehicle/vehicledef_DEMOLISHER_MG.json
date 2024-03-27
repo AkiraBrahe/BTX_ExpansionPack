@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Demolisher Heavy Tank (Defensive)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nTall, squat, and using four treads, the Demolisher has a well-earned, though sometimes exaggerated, reputation as one of the most deadly vehicles on the battlefield.\n\nThis variant of the Demolisher address the lack of secondary weapons by removing two and a half tons of armor and replacing it with four Machine Guns, one on each side of the vehicle.",
     "Icon": "uixVhclIcon_demolisher",
     "Cost": 2142900,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

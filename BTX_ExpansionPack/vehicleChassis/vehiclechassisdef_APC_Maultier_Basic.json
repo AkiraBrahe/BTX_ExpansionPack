@@ -17,7 +17,7 @@
     "Details": "<b>Name: <color=#85DBF6>Maultier Hover APC (Basic)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe Maultier is a 15-ton hover APC that was designed to transport an entire platoon of infantry, like its larger cousin the Maxim.\n\nThe Taurians' first downgraded replication of the Maultier, the Basic variant features standard armor and an SRM-2 launcher. The weight saved from the lighter launcher is used to boost the volume of armor, giving it comparable protection to the standard version.",
     "Icon": "uixVhclIcon_maultier",
     "Cost": 174850,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_9-14cv",

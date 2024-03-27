@@ -21,7 +21,7 @@
     "Details": "<b>Name: <color=#85DBF6>Zephyr Hovertank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (Hover)</color>\tEngine: <color=#85DBF6>185 Fusion</color></b>\n\nThe Zephyr, designed by the Star League Defense Force to be a medium-duty, fast-response infantry support tank, instead saw the Zephyr as the ideal support vehicle for its Chaparral Arrow IV artillery tank.\n\nNot intended for front-line combat, the Zephyr carries a trio of Medium Lasers. Supporting firepower comes from an SRM-6 rack mounted in the vehicle's nose, supplied with two tons of reloads, and a single rear-mounted Small Laser to provide cover when fleeing combat.",
     "Icon": "uixVhclIcon_zephyr",
     "Cost": 2323950,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

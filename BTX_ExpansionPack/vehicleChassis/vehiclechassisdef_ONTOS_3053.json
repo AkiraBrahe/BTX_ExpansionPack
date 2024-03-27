@@ -15,7 +15,7 @@
     "Details": "<b>Name: <color=#85DBF6>Ontos Heavy Tank (3053 Upgrade)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 Fusion</color></b>\n\nThe Ontos, the first of three heavy tank prototypes created by Grumman Amalgamated, was chosen for its main armament, which was inspired by an ancient and obscure Terran vehicle of the same name.\n\nThis 3053 variant takes advantage of rediscovered technology to install a fusion engine, increasing the space available for weapons. While four of the original Medium Lasers are retained, the remainder are replaced with a trio of Medium Pulse Lasers. The twin LRM-5 racks are replaced by a single LRM-15 with an Artemis IV tracking system. An additional SRM-4 and SRM-6 missile rack, both mounting Artemis IV, are also added to further increase the Ontos' short-range firepower. Protection is not ignored, with the new Ontos incorporating a CASE system and mounting over nine tons of ferro-fibrous armor.",
     "Icon": "uixVhclIcon_ontos",
     "Cost": 6656325,
-    "Rarity": 1,
+    "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_3-5cv",

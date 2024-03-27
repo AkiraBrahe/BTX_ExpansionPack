@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Hetzer Wheeled Assault Gun (Standard)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Hetzer Wheeled Assault Gun is designed as a cheap, self-propelled artillery-piece to be stationed on worlds deemed worthy to defend, but not valuable enough to station a complete garrison force or even BattleMechs.\n\nDrawing all firepower from a massive Autocannon/20, the Hetzer can easily blast through thick armor, whether it's mounted on a BattleMech or vehicle. The tank also carries four tons of ammunition, enabling it to obliterate a number of enemies before being forced to reload.",
     "Icon": "uixVhclIcon_hetzer",
     "Cost": 664000,
-    "Rarity": 5,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,

@@ -22,7 +22,7 @@
     "Details": "<b>Name: <color=#85DBF6>Badger Tracked Transport Prime</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Badger, a light tracked APC, is the first OmniVehicle constructed in the Inner Sphere at the behest of the Wolf's Dragoons, but its role as an infantry carrier prevents it from taking full advantage of this technology.\n\nThe primary configuration carries a trio of Medium Lasers in its turret, supported by a front-mounted SRM-2 launcher supplied with a single ton of reloads.",
     "Icon": "uixVhclIcon_badger",
     "Cost": 1006688,
-    "Rarity": 3,
+    "Rarity": 0,
     "Purchasable": true
   },
   "Version": 1,
