@@ -19,7 +19,7 @@
     "Id": "vehicledef_KANGA",
     "Name": "Kanga Medium Hovertank",
     "UIName": "Kanga Medium Hovertank (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Kanga Medium Hovertank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>n/a ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Kanga Medium Hovertank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>",
     "Icon": "uixVhclIcon_kanga",
     "Cost": 1399000,
     "Rarity": 0,

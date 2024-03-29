@@ -2,7 +2,8 @@
   "Custom": {
     "VAssemblyVariant": {
       "PrefabID": "Galleon",
-      "Exclude": true
+      "Exclude": false,
+      "Include": true
     }
   },
   "CustomParts": {
@@ -10,23 +11,23 @@
     "FiringArc": 360
   },
   "Description": {
-    "Id": "vehiclechassisdef_GALLEON_GAL102",
-    "Name": "Galleon GAL-102",
-    "Details": "<b>Name: <color=#85DBF6>Galleon Light Tank GAL-102</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Tracked)</color>\tEngine: <color=#85DBF6>210 Fusion</color></b>\n\nThe Galleon, a light combat vehicle first produced in 2692, served well during the Amaris Civil War as an economical means of supporting infantry and BattleMechs. It is often paired with the Harasser Missile Platform.\n\nThis 3048 upgrade of the Galleon uses a modern fusion engine and ferro-fibrous armor, freeing up enough space to mount a Medium Pulse Laser and a pair of Medium Lasers, while also giving it more armor protection. It also features a Beagle Active Probe, which allows the Galleon to detect hidden units.",
+    "Id": "vehiclechassisdef_GALLEON_GAL-200",
+    "Name": "Galleon GAL-200",
+    "Details": "<b>Name: <color=#85DBF6>Galleon Light Tank GAL-200</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe Galleon, a light combat vehicle first produced in 2692, served well during the Amaris Civil War as an economical means of supporting infantry and BattleMechs. It is often paired with the Harasser Missile Platform.\n\nThe GAL-200 variant replaces the Small Lasers with Machine Guns. This 2915 version is used by House Kurita, although some have been captured by the Lyran Commonwealth.",
     "Icon": "uixVhclIcon_galleon",
-    "Cost": 1205750,
+    "Cost": 324350,
     "Rarity": 0,
     "Purchasable": true
   },
-  "MovementCapDefID": "movedef_7-11cv",
+  "MovementCapDefID": "movedef_6-9cv",
   "PathingCapDefID": "pathingdef_light_tracked",
   "HardpointDataDefID": "hardpointdatadef_galleon",
   "PrefabIdentifier": "chrPrfVhcl_galleon",
   "PrefabBase": "galleon",
   "Tonnage": 30,
   "weightClass": "LIGHT",
-  "BattleValue": 651,
-  "TopSpeed": 118.8,
+  "BattleValue": 345,
+  "TopSpeed": 97.2,
   "TurnRadius": 90,
   "movementType": "Tracked",
   "SpotterDistanceMultiplier": 1,
@@ -79,33 +80,33 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 125,
+      "MaxArmor": 70,
       "InternalStructure": 15
     },
     {
       "Location": "Left",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 90,
+      "MaxArmor": 65,
       "InternalStructure": 15
     },
     {
       "Location": "Right",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 90,
+      "MaxArmor": 65,
       "InternalStructure": 15
     },
     {
@@ -113,7 +114,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 95,
+      "MaxArmor": 70,
       "InternalStructure": 15
     },
     {
@@ -126,7 +127,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 135,
+      "MaxArmor": 90,
       "InternalStructure": 15
     }
   ]

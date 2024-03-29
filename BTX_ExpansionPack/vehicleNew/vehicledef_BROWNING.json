@@ -21,7 +21,7 @@
     "Id": "vehicledef_BROWNING",
     "Name": "Browning Mobile HQ",
     "UIName": "Browning Mobile HQ (Standard)",
-    "Details": "",
+    "Details": "<b>Name: <color=#85DBF6>Browning Mobile HQ</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Tracked)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>",
     "Icon": "uixVhclIcon_browning",
     "Cost": 830063,
     "Rarity": 0,

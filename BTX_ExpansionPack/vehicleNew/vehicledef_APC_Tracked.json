@@ -20,7 +20,7 @@
     "Id": "vehicledef_APC_Tracked",
     "Name": "Tracked APC",
     "UIName": "Tracked APC (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Tracked APC</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>60 I.C.E.</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. More expensive to build, Tracked APCs can operate in a far wider variety of terrain.\n\nThe standard Tracked APC carries a single Machine Gun, primarily for defense against other infantry units while transporting a full squad of infantry.",
+    "Details": "<b>Name: <color=#85DBF6>Tracked APC</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. More expensive to build, Tracked APCs can operate in a far wider variety of terrain.\n\nThe standard Tracked APC carries a single Machine Gun, primarily for defense against other infantry units while transporting a full squad of infantry.",
     "Icon": "uixVhclIcon_trackedapc",
     "Cost": 64350,
     "Rarity": 0,

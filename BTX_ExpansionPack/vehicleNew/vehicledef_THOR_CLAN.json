@@ -13,7 +13,8 @@
       "unit_vehicle_case",
       "unit_speed_medium",
       "unit_release",
-      "unit_clan"
+      "unit_clan",
+      "unit_veepack"
     ],
     "tagSetSourceFile": ""
   },
@@ -22,7 +23,7 @@
     "Id": "vehicledef_THOR_CLAN",
     "Name": "Thor Artillery Vehicle",
     "UIName": "Thor Artillery Vehicle (Clan)",
-    "Details": "",
+    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle (Clan)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>",
     "Icon": "uixVhclIcon_thor",
     "Cost": 2013225,
     "Rarity": 0,

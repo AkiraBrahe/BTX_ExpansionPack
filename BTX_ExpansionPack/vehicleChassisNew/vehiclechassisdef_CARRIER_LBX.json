@@ -1,7 +1,7 @@
 {
   "Custom": {
     "VAssemblyVariant": {
-      "PrefabID": "Carrier Guns",
+      "PrefabID": "Gun Carrier",
       "Exclude": false,
       "Include": true
     }

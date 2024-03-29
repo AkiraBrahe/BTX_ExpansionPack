@@ -20,7 +20,7 @@
     "Id": "vehicledef_APC_Hover_MG",
     "Name": "Hover APC",
     "UIName": "Hover APC (MG)",
-    "Details": "<b>Name: <color=#85DBF6>Hover APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 I.C.E.</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Prioritizing speed and agility over armor, Hover APCs excel at rapid deployments across open terrain.\n\nThis variant trades the infantry bay for a turret with four Machine Guns and a full ton of ammunition, transforming it into a mobile platform capable of suppressing enemy infantry and light vehicles.",
+    "Details": "<b>Name: <color=#85DBF6>Hover APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Prioritizing speed and agility over armor, Hover APCs excel at rapid deployments across open terrain.\n\nThis variant trades the infantry bay for a turret with four Machine Guns and a full ton of ammunition, transforming it into a mobile platform capable of suppressing enemy infantry and light vehicles.",
     "Icon": "uixVhclIcon_hoverapc",
     "Cost": 94200,
     "Rarity": 0,

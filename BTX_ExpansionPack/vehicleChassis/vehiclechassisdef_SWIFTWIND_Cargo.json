@@ -12,7 +12,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_SWIFTWIND_Cargo",
-    "Name": "Swift Wind (I.C.E. Cargo)",
+    "Name": "Swift Wind (ICE - Cargo)",
     "Details": "<b>Name: <color=#85DBF6>Swift Wind Scout Car (ICE - Cargo)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Wheeled)</color>\tEngine: <color=#85DBF6>45 ICE</color></b>\n\nThe Swift Wind is a one-person scout car designed for the Capellan Confederation Armed Forces. It boasts advanced communication gear and fast speed, ensuring the pilot gets where they need to be and get out of there just as quickly, all while relaying information.\n\nThe 2845 version of the Swift Wind scout car features a smaller internal combustion engine, allowing for a modest three tons of cargo space. However, this addition takes up the space saved by the engine swap, requiring the communications equipment to be removed.",
     "Icon": "uixVhclIcon_swiftwind",
     "Cost": 38480,

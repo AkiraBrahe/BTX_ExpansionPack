@@ -12,7 +12,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_MOBILEHQ-ICE_LL",
-    "Name": "Mobile HQ (I.C.E. LL)",
+    "Name": "Mobile HQ (ICE - LL)",
     "Details": "<b>Name: <color=#85DBF6>Mobile HQ (ICE - LL)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Wheeled)</color>\tEngine: <color=#85DBF6>55 ICE</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nAnother Succession Wars era downgrade uses an internal combustion engine and outfits the Mobile HQ with a Large Laser. The need for generators significantly reduces the communications gear capacity.",
     "Icon": "uixVhclIcon_mobilehq",
     "Cost": 263156,

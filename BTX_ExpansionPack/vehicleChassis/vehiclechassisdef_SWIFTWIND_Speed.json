@@ -12,8 +12,8 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_SWIFTWIND_Speed",
-    "Name": "Swift Wind (I.C.E. Speed)",
-    "Details": "<b>Name: <color=#85DBF6>Swift Wind Scout Car (ICE - Speed)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/20 (Wheeled)</color>\tEngine: <color=#85DBF6>70 ICE</color></b>\n\nThe Swift Wind is a one-person scout car designed for the Capellan Confederation Armed Forces. It boasts advanced communication gear and fast speed, ensuring the pilot gets where they need to be and get out of there just as quickly, all while relaying information.\n\nThis modification of the I.C.E. Swift Wind, reduces armor protection to a half-ton, removes the communications equipment, and replaces the engine with a larger one, boosting the car's top speed to an impressive 171 km/h.",
+    "Name": "Swift Wind (ICE - Speed)",
+    "Details": "<b>Name: <color=#85DBF6>Swift Wind Scout Car (ICE - Speed)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/20 (Wheeled)</color>\tEngine: <color=#85DBF6>70 ICE</color></b>\n\nThe Swift Wind is a one-person scout car designed for the Capellan Confederation Armed Forces. It boasts advanced communication gear and fast speed, ensuring the pilot gets where they need to be and get out of there just as quickly, all while relaying information.\n\nThis modification of the ICE Swift Wind, reduces armor protection to a half-ton, removes the communications equipment, and replaces the engine with a larger one, boosting the car's top speed to an impressive 171 km/h.",
     "Icon": "uixVhclIcon_swiftwind",
     "Cost": 31547,
     "Rarity": 0,

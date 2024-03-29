@@ -1,7 +1,7 @@
 {
   "Custom": {
     "VAssemblyVariant": {
-      "PrefabID": "Carrier Missiles",
+      "PrefabID": "Artillery Carrier",
       "Exclude": false,
       "Include": true
     }

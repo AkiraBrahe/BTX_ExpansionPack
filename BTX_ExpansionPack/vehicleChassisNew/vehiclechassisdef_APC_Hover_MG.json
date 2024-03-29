@@ -14,7 +14,7 @@
   "Description": {
     "Id": "vehiclechassisdef_APC_Hover_MG",
     "Name": "Hover APC (MG)",
-    "Details": "<b>Name: <color=#85DBF6>Hover APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 I.C.E.</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Hover APC (MG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/18 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>",
     "Icon": "uixVhclIcon_hoverapc",
     "Cost": 94200,
     "Rarity": 0,

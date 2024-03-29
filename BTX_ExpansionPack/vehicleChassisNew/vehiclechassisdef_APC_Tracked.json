@@ -13,7 +13,7 @@
   "Description": {
     "Id": "vehiclechassisdef_APC_Tracked",
     "Name": "Tracked APC",
-    "Details": "<b>Name: <color=#85DBF6>Tracked APC</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>60 I.C.E.</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Tracked APC</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>",
     "Icon": "uixVhclIcon_trackedapc",
     "Cost": 64350,
     "Rarity": 0,

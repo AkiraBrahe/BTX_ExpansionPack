@@ -35,7 +35,7 @@
     "Manufacturer": "",
     "Model": "Rocket Launcher",
     "UIName": "Prototype RL10",
-    "Id": "Weapon_RL_RL10_0-STOCK",
+    "Id": "Weapon_RL_RL10_Sa_0-STOCK",
     "Name": "Prototype RL10",
     "Details": "Rocket Launchers are cheap, unguided, one-shot missile launchers. The Rocket Launcher 10 fires ten unguided rockets. Rocket Launchers suffer a to hit penalty over missile launchers and do not receieve the positive or negative modifiers that affect missiles.",
     "Icon": "uixSvgIcon_weapon_Missile"

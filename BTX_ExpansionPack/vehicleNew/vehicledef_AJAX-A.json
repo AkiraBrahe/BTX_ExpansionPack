@@ -158,14 +158,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

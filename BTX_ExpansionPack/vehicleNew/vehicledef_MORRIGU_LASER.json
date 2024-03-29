@@ -21,7 +21,7 @@
     "Id": "vehicledef_MORRIGU_LASER",
     "Name": "Morrigu Fire Support Vehicle",
     "UIName": "Morrigu Fire Support Vehicle (Laser)",
-    "Details": "",
+    "Details": "<b>Name: <color=#85DBF6>Morrigu Fire Support Vehicle (Laser)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>",
     "Icon": "uixVhclIcon_morrigu",
     "Cost": 3905100,
     "Rarity": 0,
