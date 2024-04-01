@@ -42,7 +42,7 @@ vehicledef_SCORPION_ML,2,,3,,3,,5
 vehicledef_HARASSER_LASER,5,,5,,5,,0
 vehicledef_CENTIPEDE_TAG,0,,0,,0,3067-01-01T00:00:00Z,88
 vehicledef_PACKRAT_PKR-T5,13,,14,,14,,5
-vehicledef_GALLEON_GAL200,2,,3,,3,,5
+vehicledef_GALLEON_GAL-200,2,,3,,3,,5
 vehicledef_RIPPER,31,,40,,63,,213
 vehicledef_HARASSER_Mini-Peggy,1,,1,,1,,0
 vehicledef_HARASSER_FLAMER,1,,1,,1,,1
@@ -95,7 +95,7 @@ vehicledef_PEGASUS,7,,6,,6,,6
 vehicledef_HUNTER_3054,97,,106,,167,,729
 vehicledef_HUNTER_LRM10,1,,2,,2,,1
 vehicledef_HUNTER,8,,8,,8,,3
-vehicledef_GALLEON_GAL102,90,,111,,174,,707
+vehicledef_GALLEON_GAL-102,90,,111,,174,,707
 vehicledef_HUNTER_ERLL,0,3059-01-01T00:00:00Z,26,,42,,182
 vehicledef_HUNTER_ASSAULT,0,,0,3064-01-01T00:00:00Z,21,,91
 vehicledef_SARACEN,5,,5,,5,,2
@@ -138,7 +138,7 @@ vehicledef_CHAPARRAL_MG,0,,0,3062-01-01T00:00:00Z,24,,26
 vehicledef_GLAIVE,0,,0,,0,3067-01-01T00:00:00Z,216
 vehicledef_CHAPARRAL,134,,54,,95,,105
 vehicledef_MYRMIDON,0,3060-01-01T00:00:00Z,4,,8,,24
-vehicledef_APC_Maxim_BA_Field,19,,13,,22,,22
+vehicledef_APC_Maxim_BAv2,19,,13,,22,,22
 vehicledef_BANDIT-D,1,,2,,2,,2
 vehicledef_CHAPARRAL_SRM,0,3060-01-01T00:00:00Z,19,,34,,37
 vehicledef_BANDIT-G,1,,1,,1,,1

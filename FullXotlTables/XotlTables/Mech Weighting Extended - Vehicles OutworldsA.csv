@@ -29,7 +29,7 @@ vehicledef_GALLEON,52,,52,,52,,37,,12
 vehicledef_SKULKER,8,,8,,8,,6,,5
 vehicledef_SCORPION_ML,15,,15,,10,,6,,7
 vehicledef_PACKRAT_PKR-T5,4,,5,,10,,9,,0
-vehicledef_GALLEON_GAL200,9,,9,,9,,13,,12
+vehicledef_GALLEON_GAL-200,9,,9,,9,,13,,12
 vehicledef_SCORPION_SRM,29,,29,,21,,11,,14
 vehicledef_SCORPION_MRM,0,,0,,0,3060-01-01T00:00:00Z,2,,6
 vehicledef_HARASSER,15,,15,,21,,21,,1
@@ -46,7 +46,7 @@ vehicledef_HUNTER_LRM15,3,,4,,4,,5,,2
 vehicledef_PEGASUS,33,,23,,16,,8,,6
 vehicledef_HUNTER_LRM10,3,,4,,4,,5,,2
 vehicledef_HUNTER,15,,21,,21,,20,,5
-vehicledef_GALLEON_GAL102,0,,0,,0,3055-01-01T00:00:00Z,22,,16
+vehicledef_GALLEON_GAL-102,0,,0,,0,3055-01-01T00:00:00Z,22,,16
 vehicledef_SARACEN,29,,59,,59,,42,,12
 vehicledef_HUNTER_AMMO,2,,3,,3,,3,,2
 vehicledef_YELLOWJACKET,0,,0,,0,3059-01-01T00:00:00Z,14,,13

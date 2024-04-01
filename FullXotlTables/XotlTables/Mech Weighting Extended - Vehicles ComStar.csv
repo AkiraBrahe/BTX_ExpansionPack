@@ -36,7 +36,7 @@ vehicledef_BEAGLE,44,,33,,0,,0,,0,,201
 vehicledef_NIGHTSHADE_ARMOR,1,,1,,1,,0,,0,,0
 vehicledef_PACKRAT_PKR-T5,8,,9,,14,,14,,17,,26
 vehicledef_PEREGRINE,9,,3,,2,,2,,0,,0
-vehicledef_GALLEON_GAL200,0,,0,3049-01-01T00:00:00Z,2,,2,,3,,4
+vehicledef_GALLEON_GAL-200,0,,0,3049-01-01T00:00:00Z,2,,2,,3,,4
 vehicledef_RIPPER,78,,83,,131,,153,,175,,203
 vehicledef_HARASSER_Mini-Peggy,0,,0,3049-01-01T00:00:00Z,1,,1,,1,,2
 vehicledef_HARASSER_FLAMER,0,,0,3049-01-01T00:00:00Z,1,,1,,2,,3
@@ -80,7 +80,7 @@ vehicledef_CAVALRY_INFANTRY,0,,0,,0,,0,,0,3063-01-01T00:00:00Z,7
 vehicledef_PEGASUS,23,,16,,6,,6,,7,,10
 vehicledef_HUNTER_LRM10,1,,2,,1,,1,,2,,2
 vehicledef_HUNTER,7,,9,,7,,7,,8,,7
-vehicledef_GALLEON_GAL102,0,,0,3049-01-01T00:00:00Z,35,,110,,127,,164
+vehicledef_GALLEON_GAL-102,0,,0,3049-01-01T00:00:00Z,35,,110,,127,,164
 vehicledef_CHEVALIER,112,,118,,156,,182,,117,,151
 vehicledef_SARACEN,9,,13,,7,,10,,12,,12
 vehicledef_HUNTER_AMMO,1,,1,,1,,1,,1,,2
@@ -123,7 +123,7 @@ vehicledef_APC_Maxim_BA,0,,0,,0,3055-01-01T00:00:00Z,5,,13,,7
 vehicledef_PROWLER_SUPPORT,1,,1,,1,,1,,1,,1
 vehicledef_CHAPARRAL_MG,0,,0,,0,,0,,0,3062-01-01T00:00:00Z,13
 vehicledef_CHAPARRAL,89,,79,,43,,72,,62,,53
-vehicledef_APC_Maxim_BA_Field,0,,0,,0,,0,3058-01-01T00:00:00Z,6,,3
+vehicledef_APC_Maxim_BAv2,0,,0,,0,,0,3058-01-01T00:00:00Z,6,,3
 vehicledef_CHAPARRAL_SRM,0,,0,,0,,0,3060-01-01T00:00:00Z,16,,13
 vehicledef_APC_Maxim_3052FS,0,,0,,0,3053-01-01T00:00:00Z,5,,6,,3
 vehicledef_ZEPHYR,369,,307,,167,,273,,347,,289

@@ -36,7 +36,7 @@ vehicledef_SKULKER_SRM,1,,1,,1,,1,,1
 vehicledef_SCORPION_ML,5,,4,,4,,3,,3
 vehicledef_PACKRAT_PKR-T5,3,,3,,8,,8,,7
 vehicledef_PEREGRINE,6,,2,,2,,2,,2
-vehicledef_GALLEON_GAL200,0,,0,3049-01-01T00:00:00Z,1,,3,,3
+vehicledef_GALLEON_GAL-200,0,,0,3049-01-01T00:00:00Z,1,,3,,3
 vehicledef_HARASSER_Mini-Peggy,0,,0,3049-01-01T00:00:00Z,1,,1,,2
 vehicledef_HARASSER_FLAMER,0,,0,3049-01-01T00:00:00Z,1,,1,,2
 vehicledef_SCORPION_SRM,9,,8,,8,,7,,7

@@ -33,7 +33,7 @@ vehicledef_GALLEON,13,,13,,12,,8,,6
 vehicledef_SKULKER,3,,3,,3,,2,,0
 vehicledef_SCORPION_ML,7,,7,,5,,3,,5
 vehicledef_PACKRAT_PKR-T5,2,,2,,5,,5,,3
-vehicledef_GALLEON_GAL200,2,,2,,2,,3,,3
+vehicledef_GALLEON_GAL-200,2,,2,,2,,3,,3
 vehicledef_SCORPION_SRM,15,,15,,10,,6,,10
 vehicledef_HARASSER,10,,15,,15,,11,,4
 vehicledef_SCORPION_LRM,7,,7,,5,,3,,5

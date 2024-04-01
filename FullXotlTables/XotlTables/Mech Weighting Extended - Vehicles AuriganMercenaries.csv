@@ -29,7 +29,7 @@ vehicledef_PEGASUS_UA,2,,1,,1,,2,,3
 vehicledef_SCORPION_ML,6,,6,,6,,8,,12
 vehicledef_PACKRAT_PKR-T5,4,,4,,13,,22,,25
 vehicledef_PEREGRINE,12,,5,,4,,5,,8
-vehicledef_GALLEON_GAL200,0,,0,3049-01-01T00:00:00Z,1,,6,,9
+vehicledef_GALLEON_GAL-200,0,,0,3049-01-01T00:00:00Z,1,,6,,9
 vehicledef_HARASSER_Mini-Peggy,0,,1,,1,,2,,7
 vehicledef_HARASSER_FLAMER,1,,1,,2,,3,,8
 vehicledef_SCORPION_SRM,12,,11,,13,,17,,25
@@ -76,7 +76,7 @@ vehicledef_CAVALRY_INFANTRY,0,,0,,0,,0,3063-01-01T00:00:00Z,1
 vehicledef_PEGASUS,21,,14,,11,,13,,15
 vehicledef_HUNTER_LRM10,1,,1,,2,,7,,14
 vehicledef_HUNTER,6,,8,,13,,29,,41
-vehicledef_GALLEON_GAL102,0,,0,,0,3056-01-01T00:00:00Z,8,,8
+vehicledef_GALLEON_GAL-102,0,,0,,0,3056-01-01T00:00:00Z,8,,8
 vehicledef_SARACEN,12,,16,,25,,43,,72
 vehicledef_HUNTER_AMMO,1,,1,,2,,5,,10
 vehicledef_PEGASUS_MISSILE,2,,1,,1,,2,,3
@@ -115,7 +115,7 @@ vehicledef_APC_Maxim_3052U,0,,0,,0,3056-01-01T00:00:00Z,1,,1
 vehicledef_APC_Maxim_BA,0,,0,,0,3056-01-01T00:00:00Z,1,,1
 vehicledef_PROWLER_SUPPORT,2,,2,,2,,4,,10
 vehicledef_MYRMIDON,0,,0,,0,3060-01-01T00:00:00Z,11,,134
-vehicledef_APC_Maxim_BA_Field,0,,0,,0,3056-01-01T00:00:00Z,1,,1
+vehicledef_APC_Maxim_BAv2,0,,0,,0,3056-01-01T00:00:00Z,1,,1
 vehicledef_BANDIT-D,0,,0,,0,3058-01-01T00:00:00Z,6,,14
 vehicledef_BANDIT-G,0,,0,,0,3058-01-01T00:00:00Z,3,,7
 vehicledef_BANDIT-E,0,,0,,0,3058-01-01T00:00:00Z,6,,14
