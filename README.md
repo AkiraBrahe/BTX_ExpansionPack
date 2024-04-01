@@ -31,8 +31,6 @@ Special thanks to [mcb](https://github.com/mcb5637) for enabling the display of 
 
 ## Features
 
-⚠ The mod is currently in beta. Some vehicles may spawn out of timeline, or lack an icon and description.
-
 The mod features tons of new content, including new 'Mechs, vehicles, and weapons. The goal is to expand the BattleTech Extended timeline into the 3060s, introducing new technologies from the Fed Com Civil War. All vehicles are also playable, including VTOLs, and every faction in the game has a wider variety of 'Mechs and combat vehicles, so expect interesting matchups.
 
 Listed below are a comprehensive list of changes and detailed information about the mod:
