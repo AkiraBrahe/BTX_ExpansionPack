@@ -7,8 +7,8 @@
   "unitSpawnPointOverrideList": [
     {
       "unitType": "Vehicle",
-      "unitExcludedTagSet": {
-        "items": ["unit_noncombatant"]
+      "unitTagSet": {
+        "items": ["unit_vehicle_mobileHQ"]
       }
     },
     {

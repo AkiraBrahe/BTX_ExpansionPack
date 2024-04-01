@@ -12,7 +12,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_HEIMDALL-PRIME",
-    "Name": "Heimdall",
+    "Name": "Heimdall PRIME",
     "Details": "<b>Name: <color=#85DBF6>Heimdall Ground Monitor Tank Prime</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>285 XL</color></b>",
     "Icon": "uixVhclIcon_heimdall",
     "Cost": 22400625,
