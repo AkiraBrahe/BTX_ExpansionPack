@@ -1,7 +1,7 @@
 {
   "Custom": {
     "VAssemblyVariant": {
-      "PrefabID": "Turhan",
+      "PrefabID": "J-37",
       "Exclude": false,
       "Include": true
     }
@@ -11,27 +11,27 @@
     "FiringArc": 360
   },
   "Description": {
-    "Id": "vehiclechassisdef_APC_Turhan",
-    "Name": "Turhan",
-    "Details": "<b>Name: <color=#85DBF6>Turhan Urban Combat Vehicle (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Turhan is a wheeled APC designed to support infantry in urban environments. It deploys troops from its large infantry transport bay. Seven and a half tons of ferro-fibrous armor protect the vehicle and its cargo. The Turhan's primary weapons are twin Large Lasers mounted in its turret, along with a pair of Machine Guns.",
-    "Icon": "uixVhclIcon_turhan",
-    "Cost": 1319375,
+    "Id": "vehiclechassisdef_J-37_ORIGINAL",
+    "Name": "J-37 (Original)",
+    "Details": "<b>Name: <color=#85DBF6>J-37 Ordnance Transport (Original)</color>\nArmor: <color=#85DBF6>BAR 5 Armor</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/10 (Wheeled)</color>\tEngine: <color=#85DBF6>230 Fusion</color></b>",
+    "Icon": "uixVhclIcon_j27",
+    "Cost": 274844,
     "Rarity": 0,
     "Purchasable": true
   },
-  "MovementCapDefID": "movedef_4-6cv",
-  "PathingCapDefID": "pathingdef_medium_wheeled",
-  "HardpointDataDefID": "hardpointdatadef_cuturhan",
-  "PrefabIdentifier": "chrprfvhcl_cuturhan",
-  "PrefabBase": "cuturhan",
+  "MovementCapDefID": "movedef_5-8cv",
+  "PathingCapDefID": "pathingdef_light_tracked",
+  "HardpointDataDefID": "hardpointdatadef_j37",
+  "PrefabIdentifier": "chrprfvhcl_j37",
+  "PrefabBase": "j37",
   "Tonnage": 50,
-  "weightClass": "MEDIUM",
-  "BattleValue": 673,
-  "TopSpeed": 64.8,
+  "weightClass": "LIGHT",
+  "BattleValue": 206,
+  "TopSpeed": 86.4,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
+  "movementType": "Tracked",
   "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 0.85,
+  "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
   "Radius": 4,
@@ -77,15 +77,10 @@
   "Locations": [
     {
       "Location": "Front",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 150,
+      "MaxArmor": 125,
       "InternalStructure": 25
     },
     {
@@ -93,7 +88,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 145,
+      "MaxArmor": 120,
       "InternalStructure": 25
     },
     {
@@ -101,7 +96,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 145,
+      "MaxArmor": 120,
       "InternalStructure": 25
     },
     {
@@ -109,7 +104,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 130,
+      "MaxArmor": 50,
       "InternalStructure": 25
     },
     {
@@ -118,19 +113,11 @@
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 100,
+      "MaxArmor": 50,
       "InternalStructure": 25
     }
   ]

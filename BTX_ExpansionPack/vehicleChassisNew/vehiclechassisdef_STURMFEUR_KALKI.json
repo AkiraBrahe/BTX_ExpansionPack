@@ -1,0 +1,132 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Sturmfeur",
+      "Exclude": true
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_STURMFEUR_KALKI",
+    "Name": "Sturmfeur \"Kalki\"",
+    "Details": "<b>Name: <color=#85DBF6>SturmFeur Cruise Missile Launcher \"Kalki\"</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>n/a Fusion</color></b>",
+    "Icon": "uixVhclIcon_sturmfeur",
+    "Cost": 7608000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_2-3cv",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_kalki",
+  "PrefabIdentifier": "chrprfvhcl_kalki",
+  "PrefabBase": "kalki",
+  "Tonnage": 125,
+  "weightClass": "ASSAULT",
+  "BattleValue": 910,
+  "TopSpeed": 32.4,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    },
+    {
+      "x": -3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 95,
+      "InternalStructure": 91
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 91
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 91
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 60,
+      "InternalStructure": 91
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 65,
+      "InternalStructure": 91
+    }
+  ]
+}

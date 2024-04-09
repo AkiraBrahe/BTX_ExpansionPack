@@ -3,12 +3,12 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
+      "chrprfmech_balarbase-001_65",
       "chrprfmech_hectorbase-001_70",
       "chrprfmech_lancelotbase-001_60",
       "chrprfmech_lupusbase-001_60",
       "chrprfmech_novabase-001_60",
-      "chrprfmech_supernovabase-001_75",
-      "Jinggau"
+      "chrprfmech_supernovabase-001_75"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
