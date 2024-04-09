@@ -184,7 +184,7 @@
   "VariantName": "FLC-4Nb",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.80-0.80-0.80",
+      "mr-resize-0.8",
       "chassis_DHS",
       "chassis_endo",
       "mech_quirk_narrowlowprofile"

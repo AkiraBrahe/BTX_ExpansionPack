@@ -185,7 +185,7 @@
   "VariantName": "WSP-2A-X",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.05-1.05-1.05",
+      "mr-resize-1.05",
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_prototype"
     ],

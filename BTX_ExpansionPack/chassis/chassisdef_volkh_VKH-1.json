@@ -209,7 +209,7 @@
   "VariantName": "VKH-1",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.90-0.90-0.90",
+      "mr-resize-0.9",
       "chassis_DHS",
       "chassis_endo",
       "chassis_hardened",

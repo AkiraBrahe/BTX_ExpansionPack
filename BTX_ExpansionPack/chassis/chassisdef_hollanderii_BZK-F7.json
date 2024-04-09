@@ -180,7 +180,7 @@
   "VariantName": "BZK-F7",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.95-0.95-0.95",
+      "mr-resize-0.95",
       "chassis_endo",
       "chassis_ferro",
       "mech_quirk_stabilized_RightTorso",

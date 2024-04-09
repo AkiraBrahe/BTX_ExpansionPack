@@ -190,7 +190,7 @@
   "VariantName": "OW-1R",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.90-0.90-0.90",
+      "mr-resize-0.9",
       "chassis_omni",
       "mech_quirk_improvedsensorsbap"
     ],

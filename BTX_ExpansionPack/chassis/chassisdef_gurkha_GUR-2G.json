@@ -188,7 +188,7 @@
   "VariantName": "GUR-2G",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.85-0.85-0.85",
+      "mr-resize-0.85",
       "chassis_DHS",
       "chassis_endo",
       "mech_quirk_badreputation",

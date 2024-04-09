@@ -199,7 +199,7 @@
   "VariantName": "JR7-31",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.75-0.75-0.75",
+      "mr-resize-0.75",
       "chassis_DHS",
       "chassis_ferro",
       "mech_quirk_nominimalarms",

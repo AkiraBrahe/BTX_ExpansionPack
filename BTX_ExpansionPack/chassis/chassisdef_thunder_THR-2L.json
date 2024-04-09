@@ -207,7 +207,7 @@
   "VariantName": "THR-2L",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.05-1.05-1.05",
+      "mr-resize-1.05",
       "chassis_DHS",
       "chassis_TSM",
       "mech_case_left",

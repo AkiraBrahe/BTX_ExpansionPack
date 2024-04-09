@@ -244,7 +244,7 @@
   "VariantName": "JG-R9T3",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.05-1.05-1.05",
+      "mr-resize-1.05",
       "chassis_DHS",
       "mech_quirk_improvedlifesupport",
       "mech_quirk_difficulttomaintain"

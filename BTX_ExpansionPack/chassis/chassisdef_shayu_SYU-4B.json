@@ -199,7 +199,7 @@
   "VariantName": "SYU-4B",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.85-0.85-0.85",
+      "mr-resize-0.85",
       "chassis_DHS",
       "chassis_endo",
       "chassis_stealth",

@@ -214,7 +214,7 @@
   "VariantName": "ICH-A",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.05-1.05-1.05",
+      "mr-resize-1.05",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",

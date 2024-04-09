@@ -189,7 +189,7 @@
   "VariantName": "BH-K305",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.65-0.65-0.65",
+      "mr-resize-0.65",
       "chassis_DHS",
       "chassis_ferro",
       "mech_quirk_rugged1"
