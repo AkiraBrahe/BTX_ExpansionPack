@@ -592,6 +592,11 @@
     {
       "Type": "AffinitiesDef",
       "Path": "affinities"
+    },
+    {
+      "Type": "HardpointDataDef",
+      "Path": "hardpointdata",
+      "ShouldMergeJSON": true
     }
   ]
 }
