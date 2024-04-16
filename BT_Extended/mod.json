@@ -1,0 +1,48 @@
+{
+    "Name": "BT_Extended",
+    "Enabled": true,
+
+	"Version": "1.9.3.5",
+
+    "Description": "The base BT Extended mod, required for Extended CE.",
+    "Author": "Haree78 and Justin Kase",
+    "Website": "https://www.nexusmods.com/battletech/mods/387",
+    "Contact": "https://discord.gg/KSmamMz",
+	
+	"DependsOn": [ "CAB-Clan-GoldenCentury", "CAB-Clan-Modern", "CAB-IS-StarLeague", "CAB-IS-ClanInvasion", "CAB-IS-CivilWar", "CAB-IS-DarkAge", "CAB-IS-Customs", "CAB-Misc", "CAB-Tanks", "FullXotlTables", "cFixes" ],
+	"OptionallyDependsOn": [ "BT_Extended_3025_Plus", "Better AI" ],
+
+    "Settings": {},
+	
+	"Manifest": [
+		
+		{ "Type": "AbilityDef", "Path": "abilities", "AddToDB": true },
+		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
+		{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+		{ "Path": "contracts", "Type": "AdvancedJSONMerge" },
+        { "Type": "ContractOverride", "Path": "contracts_new", "AddToDB": true },
+		{ "Type": "FactionDef", "Path": "factions" },
+		{ "Type": "FlashpointDef", "Path": "flashpoints" },
+        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+		{ "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
+        { "Type": "HeraldryDef", "Path": "heraldry" },
+		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false },
+		{ "Type": "ItemCollectionDef", "Path": "itemCollectionsE3025", "AddToDB": true },
+        { "Type": "LanceDef", "Path": "lance", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "LanceDef", "Path": "lance_new", "AddToDB": true },
+		{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+		{ "Type": "ChassisDef", "Path": "meleeFixes-chassisMerge", "ShouldMergeJSON": true, "AddToDB": false },
+		{ "Type": "MechDef", "Path": "meleeFixes-mechMerge", "ShouldMergeJSON": true, "AddToDB": false },
+		{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
+        { "Type": "PathingCapabilitiesDef", "Path": "pathing" },
+        { "Type": "Sprite", "Path": "portraits" },
+        { "Type": "StarSystemDef", "Path": "starsystem_merge", "ShouldMergeJSON": true, "AddToDB": false },
+		{ "Type": "TurretDef", "Path": "turret", "AddToDB": true },
+		{ "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },
+        { "Type": "TurretDef", "Path": "turret_rarity", "ShouldMergeJSON": true, "AddToDB": false },
+		{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
+		{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
+		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
+		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
+    ]
+}
