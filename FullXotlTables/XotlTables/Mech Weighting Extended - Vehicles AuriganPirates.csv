@@ -1,10 +1,10 @@
 AuriganPiratesVehicles,,,,,,,,,
-Collection:BanditCasteVehicles,0,,0,Jump:3050-01-01T00:00:00Z,10,,40,,40
-Salvage:DavionVehicles,20,,20,,20,,20,,20
-Salvage:KuritaVehicles,20,,20,,20,,20,,20
-Salvage:LiaoVehicles,20,,20,,20,,20,,20
-Salvage:MarikVehicles,20,,20,,20,,20,,20
-Salvage:SteinerVehicles,20,,20,,20,,20,,20
+Collection:BanditCasteVehicles,0,,0,Jump:3050-01-01T00:00:00Z,5,,30,,45
+Salvage:DavionVehicles,30,,30,,30,,25,,20
+Salvage:KuritaVehicles,30,,30,,30,,25,,20
+Salvage:LiaoVehicles,30,,30,,30,,25,,20
+Salvage:MarikVehicles,30,,30,,30,,25,,20
+Salvage:SteinerVehicles,30,,30,,30,,25,,20
 Dates,3025-01-01T00:00:00Z,,3039-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3067-01-01T00:00:00Z
 Lights,,,,,,,,,
 vehicledef_TRUCK_Flatbed,11,,11,,11,,18,,13

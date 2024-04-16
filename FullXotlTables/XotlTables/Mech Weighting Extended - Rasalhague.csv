@@ -1,6 +1,7 @@
 Rasalhague,,,,,,,
-Salvage:Davion,5,,5,,5,,5
-Salvage:Steiner,45,,45,,45,,45
+Collection:RasalhagueA,0,,120,,350,,450
+Salvage:Kurita,0,,10,,10,,10
+Salvage:Steiner,0,,25,,35,,35
 Dates,3025-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z
 Lights,,,,,,,
 mechdef_stinger_STG-3R,42,,41,,33,,33
