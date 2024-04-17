@@ -1,0 +1,128 @@
+{
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM20",
+  "MinRange": 180,
+  "MaxRange": 3000,
+  "RangeSplit": [
+    3000,
+    3000,
+    3000
+  ],
+  "ForbiddenRange": 180,
+  "AmmoCategory": "CM50",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 150,
+  "Damage": 160,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "MinMissRadius": 10,
+  "MaxMissRadius": 125,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": true,
+  "AOERange": 240,
+  "AOEDamage": 320,
+  "AOEHeatDamage": 40,
+  "AOEInstability": 160,
+  "IndirectFireCapable": true,
+  "AlwaysIndirectVisuals": true,
+  "CantHitUnaffecedByPathing": true,
+  "RefireModifier": 4,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 2,
+  "Instability": 80,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+  "Description": {
+    "Cost": 900000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "NAIS",
+    "Model": "Missile Artillery",
+    "UIName": "Cruise Missile /50",
+    "Id": "Weapon_Artillery_CM50_0-STOCK",
+    "Name": "Cruise Missile /50",
+    "Details": "The Cruise Missile /50 is the smallest of the Cruise Missile developed by the Federated Suns. This massive unguided missile deals tremendous damage, capable of annihilating smaller 'Mechs and fortifications in a single shot. However, its immense bulk creates a logistical nightmare. Only the Kalki superheavy tank can carry the launcher and its ammunition, making the CM/50 a rare but potentially battlefield-deciding weapon.",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "arrow",
+  "BattleValue": 0,
+  "InventorySize": 15,
+  "Tonnage": 55,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "ARTY_Std",
+      "UIName": "",
+      "Name": "Artillery",
+      "Description": "Fires in an arc toward the target.",
+      "isBaseMode": true,
+      "DirectFireModifier": 2
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true,
+        "hideApplicationFloatie": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Arty-SelfKnockdown",
+        "Name": "SELF-KNOCKDOWN",
+        "Details": "Artillery fire lowers stability.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "-135.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ImprovedBallistic": true,
+  "HitGenerator": "Individual",
+  "MissileVolleySize": 1,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "AMSImmune": true,
+  "ProjectileScale": {
+    "x": 10,
+    "y": 10,
+    "z": 10
+  },
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_extreme",
+      "BLACKLISTED",
+      "LootMagnetBlacklist"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FireTerrainChance": 0.25,
+  "FireTerrainStrength": 4,
+  "FireTerrainCellRadius": 6,
+  "FireOnSuccessHit": true
+}

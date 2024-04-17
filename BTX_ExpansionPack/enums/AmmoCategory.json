@@ -307,6 +307,20 @@
       "FallbackUIColor": null,
       "Icon": "SmallHardpointIcon",
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
+    },
+    {
+      "ID": 71,
+      "Name": "CM50",
+      "FriendlyName": "Cruise Missile /50",
+      "IsBallistic": false,
+      "IsMissile": true,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Missile",
+      "FallbackUIColor": null,
+      "Icon": "MissileHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
     }
   ]
 }

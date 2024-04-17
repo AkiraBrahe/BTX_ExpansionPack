@@ -1,0 +1,25 @@
+{
+  "Description": {
+    "Id": "Ammunition_CM50",
+    "Name": "Cruise Missile /50 Ammo",
+    "Details": "High-caliber artillery missiles.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "CM50",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "HideIfOnlyVariant": true,
+  "AdditionalImpactVFX": "vfxPrfPrtl_artilleryImpact_barrage",
+  "AdditionalImpactVFXScaleX": 1,
+  "AdditionalImpactVFXScaleY": 1,
+  "AdditionalImpactVFXScaleZ": 1
+}

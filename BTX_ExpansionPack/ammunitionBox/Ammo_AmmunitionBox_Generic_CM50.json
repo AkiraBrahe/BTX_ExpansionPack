@@ -1,0 +1,36 @@
+{
+  "AmmoID": "Ammunition_CM50",
+  "Capacity": 1,
+  "Description": {
+    "Cost": 20000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Arrow IV",
+    "UIName": "Cruise Missile /50 Ammo",
+    "Id": "Ammo_AmmunitionBox_Generic_CM50",
+    "Name": "Cruise Missile /50 Ammo",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nEach Cruise Missile /50 Ammo Bin contain a single missile weighting 25 tons.",
+    "Icon": "uixSvgIcon_ammoBox_Ballistic"
+  },
+  "BonusValueA": "160/320 Dmg.",
+  "BonusValueB": "240m AoE",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 25,
+  "CanExplode": true,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

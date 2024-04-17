@@ -18,8 +18,8 @@
   "EvasivePipsIgnored": 0,
   "DamageVariance": 0,
   "HeatDamage": 0,
-  "AccuracyModifier": 0,
-  "CriticalChanceMultiplier": 1.25,
+  "AccuracyModifier": -4,
+  "CriticalChanceMultiplier": 1,
   "AOECapable": false,
   "IndirectFireCapable": false,
   "RefireModifier": 0,
@@ -40,7 +40,7 @@
     "Details": "The Kinslaughter H-Class was considered the apex of the ER PPC during the Star League era, noted for its inclusion of special insulating cones that made the weapon both easier to maintain and ensured it generated less heat than many other models of ER PPCs. Only ComStar and the Word of Blake are still capable of building the Kinslaughter H-Class.",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA": "+ 25% Crit.",
+  "BonusValueA": "+ 4 Acc.",
   "BonusValueB": "- 4 Heat",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -91,7 +91,7 @@
       "component_type_variant",
       "component_type_variant3",
       "component_type_lostech",
-      "range_long",
+      "range_very_long",
       "ppc_capacitor_attachable"
     ],
     "tagSetSourceFile": ""
