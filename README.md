@@ -8,11 +8,11 @@ A BattleTech Extended mod that adds tons of new content, including new 'Mechs, v
 
 ⚠ If you've already installed Playable Tanks, you'll need to do a clean install.
 
-- Install the latest versions of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility/releases/latest) and, optionally, [The Big Deal Add-On](https://github.com/Hounfor/The-Big-Deal-Add-On) for BEX + CAC-C.
-- Update the CAB if you haven't done so in a while.
-- Remove the ".modtek" folder to force Modtek to rebuild the cache.
-- Remove the "BTX_ExpansionPack" or "BTX_MechPack" mod folders if present.
-- Unpack the mod folders from the "BTX_ExpansionPack" archive into the "Mods" folder, overwriting when prompted. The archive already includes a modified version of Playable Tanks/VTOLs.
+1. Install the latest versions of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility/releases/latest) and, optionally, [The Big Deal Add-On](https://discourse.modsinexile.com/t/the-big-deal-add-on-for-battletech-extended-3025-3061/631) for BEX + CAC-C.
+2. Update the CAB with the latest version of the [CAB installer](https://discourse.modsinexile.com/t/community-assets-bundle-cab/115). A fix to make BEX work with this version is included.
+3. Remove the ".modtek" folder to force Modtek to rebuild the cache.
+4. Remove the "BTX_ExpansionPack" or "BTX_MechPack" mod folders if present.
+5. Unpack the mod folders from the "BTX_ExpansionPack" archive into the "Mods" folder, overwriting when prompted. The archive already includes a modified version of Playable Tanks/VTOLs.
 
 ### Optionals
 - **For all DHS in the engine to dissipate 6 heat instead of 4**:
@@ -25,13 +25,13 @@ A BattleTech Extended mod that adds tons of new content, including new 'Mechs, v
 
 ## Credits
 
-This mod is bundled with Playable Tanks and DHS Changes by [LordRuthermore](https://github.com/lordruthermore), and Shell Shuffler by [T-Bone](https://github.com/ajkroeg).
+This mod is bundled with Playable Tanks and DHS Changes by [LordRuthermore](https://github.com/lordruthermore) and Shell Shuffler by [T-Bone](https://github.com/ajkroeg).
 
 Special thanks to [mcb](https://github.com/mcb5637) for enabling the display of the full vehicle names in battle, and **Hrothgar Heavenlight** for playtesting the mod extensively, suggesting exciting 'Mechs to add, and writing Yang's comments on them.
 
 ## Features
 
-The mod features tons of new content, including new 'Mechs, vehicles, and weapons. The goal is to expand the BattleTech Extended timeline into the 3060s, introducing new technologies from the Fed Com Civil War. All vehicles are also playable, including VTOLs, and every faction in the game has a wider variety of 'Mechs and combat vehicles, so expect interesting matchups.
+The mod features tons of new content, including new 'Mechs, vehicles, and weapons. The goal is to expand the BattleTech Extended timeline into the 3060s, introducing new technologies from the FedCom Civil War. All vehicles are also playable, including VTOLs, and every faction in the game has a wider variety of 'Mechs and combat vehicles, so expect interesting matchups.
 
 Listed below are a comprehensive list of changes and detailed information about the mod:
 
@@ -223,14 +223,15 @@ Listed below are a comprehensive list of changes and detailed information about 
 - Free Worlds League and Taurian Concordat elite units both use augmented armor formations made up of six vehicles.
 
 ### Other Changes
+- Shell Shuffler randomizes the type of ammunition other units have when spawning. The mod has two presets, depending on the era you are playing in:
+    - **3025 preset:** Any faction can use Inferno SRM.
+    - **3050 preset:** Each faction has its own set of special ammo types, most of which were developed in the 3050s.
+- The UI in combat now only shows the ammunition type when a weapon has multiple types of ammo.
+- Heavy Lasers now have distinct colors ranging from orange-red to golden.
+- Changes have been made to address minor issues and to add the latest CAB models to the current version of BEX:
 
 <details>
-  <summary>Shell Shuffler</summary>
-
-This optional submod allows the AI to randomly use different types of ammunition when spawning. The mod has two presets, depending on the era you are playing in:
-
-- **3025 preset:** Any faction can use Inferno SRM.
-- **3050 preset:** Each faction has their own set of special ammo types, most of which were developed in the 3050s.
+  <summary>Shell Shuffler (3050 Preset)</summary>
 
 | Faction                 | Ammo Types                                          |
 | :---------------------- | :-------------------------------------------------- |
@@ -248,17 +249,14 @@ This optional submod allows the AI to randomly use different types of ammunition
 </details>
 
 <details>
-  <summary>Miscellaneous</summary>
-
-- The UI in combat now only shows the ammunition type when a weapon has multiple types of ammo.
-- Heavy Lasers now have distinct colors ranging from orange-red to golden.
-- Changes have been made to address minor issues and to add the latest CAB models to the current version of BEX:
+  <summary>Misc. Fixes</summary>
 
 | Name                   | Changes                                                 |
 | :--------------------- | :------------------------------------------------------ |
 | Annihilator            | Reduced movement to 3/5 hexes (from 4/7)                |
 | Atlas II AS7-D-HT      | Changed armor placement and moved one DHS to the engine |
 | Behemoth (Stone Rhino) | Changed to the official designation "BHN"               |
+| Catapult CPLT-K5       | Added missing DHS in the engine                         |
 | Champion CHP-1N2       | Added missing ferro-fibrous armor                       |
 | Crab 27b "Royal Crab"  | Fixed melee damage (65 dmg. like other Crabs)           |
 | Enfield                | Switched to a new CAB model                             |
@@ -268,10 +266,10 @@ This optional submod allows the AI to randomly use different types of ammunition
 | Flashman               | Switched to a new CAB model                             |
 | Flea FLE-14            | Fixed max armor values for an ultralight                |
 | Garm                   | Reduced overall size to better match tonnage            |
-| Goliath                | Reduced stability                                       |
 | Grand Dragon DRG-1G    | Fixed energy hadpoints placement                        |
 | Gunslinger             | Switched to a new CAB model                             |
 | Hauptmann HA1-O        | Fixed weapon loadout                                    |
+| Hatamoto 27T & 27V     | Added missing CASE on side torsos                       |
 | Hermes II              | Reduced overall size to better match tonnage            |
 | Hornet HNT-161         | Fixed armor placement                                   |
 | Kodiak 5               | Added missing DHS in the engine                         |
@@ -288,3 +286,4 @@ This optional submod allows the AI to randomly use different types of ammunition
 | Thunder THR-1L         | Added missing DHS in the engine                         |
 | Trebuchet TBT-3C       | Added Large Engine quirk                                |
 | UrbanMech              | Reduced movement to 3/5 hexes (from 4/7)                |
+</details>
