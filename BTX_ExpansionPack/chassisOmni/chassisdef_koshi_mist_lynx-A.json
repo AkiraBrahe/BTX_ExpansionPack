@@ -1,11 +1,4 @@
 {
-  "MeleeDamage": 10,
-  "MeleeInstability": 15,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 20,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 20,
-  "DFAInstability": 20,
   "Locations": [
     {
       "Location": "Head",
@@ -20,48 +13,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 20,
-      "MaxRearArmor": -1,
-      "InternalStructure": 10
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 40,
-      "MaxRearArmor": 20,
-      "InternalStructure": 20
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 50,
-      "MaxRearArmor": 25,
-      "InternalStructure": 25
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 40,
-      "MaxRearArmor": 20,
-      "InternalStructure": 20
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -71,27 +27,76 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 20,
+      "MaxArmor": 40,
       "MaxRearArmor": -1,
-      "InternalStructure": 10
+      "InternalStructure": 20
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 30,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 15
+      "InternalStructure": 30
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 30,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 15
+      "InternalStructure": 30
     }
   ]
 }

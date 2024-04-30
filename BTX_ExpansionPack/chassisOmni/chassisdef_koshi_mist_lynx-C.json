@@ -1,11 +1,4 @@
 {
-  "MeleeDamage": 10,
-  "MeleeInstability": 15,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 20,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 20,
-  "DFAInstability": 20,
   "Locations": [
     {
       "Location": "Head",
@@ -26,36 +19,36 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 20,
+      "MaxArmor": 40,
       "MaxRearArmor": -1,
-      "InternalStructure": 10
+      "InternalStructure": 20
     },
     {
       "Location": "LeftTorso",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 40,
-      "MaxRearArmor": 20,
-      "InternalStructure": 20
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
     },
     {
       "Location": "CenterTorso",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 50,
-      "MaxRearArmor": 25,
-      "InternalStructure": 25
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
     },
     {
       "Location": "RightTorso",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 40,
-      "MaxRearArmor": 20,
-      "InternalStructure": 20
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
     },
     {
       "Location": "RightArm",
@@ -65,33 +58,33 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 20,
+      "MaxArmor": 40,
       "MaxRearArmor": -1,
-      "InternalStructure": 10
+      "InternalStructure": 20
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 30,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 15
+      "InternalStructure": 30
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 30,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 15
+      "InternalStructure": 30
     }
   ]
 }

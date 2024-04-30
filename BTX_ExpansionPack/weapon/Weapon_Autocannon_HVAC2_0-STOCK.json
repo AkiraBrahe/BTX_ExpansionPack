@@ -15,7 +15,7 @@
   "Damage": 30,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "DistantVariance": 1.15,
   "DistantVarianceReversed": true,

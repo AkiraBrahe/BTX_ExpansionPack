@@ -95,8 +95,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "Head",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Weapon_LRM_LRM15_2-Delta",
@@ -104,8 +103,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": 0,
       "MountedLocation": "LeftArm",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
@@ -113,8 +111,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "LeftArm",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
@@ -122,8 +119,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "LeftArm",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
@@ -131,8 +127,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "LeftArm",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Weapon_LRM_LRM15_2-Delta",
@@ -140,8 +135,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": 0,
       "MountedLocation": "LeftTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-I",
@@ -149,8 +143,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "LeftTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
@@ -158,8 +151,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "LeftTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
@@ -167,8 +159,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "LeftTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_Gyro_Hermes_Equilibrium",
@@ -176,8 +167,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "CenterTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
@@ -185,8 +175,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "CenterTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_S2000",
@@ -194,8 +183,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "RightTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Weapon_LRM_LRM15_2-Delta",
@@ -203,8 +191,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": 0,
       "MountedLocation": "RightTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
@@ -212,8 +199,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "RightTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
@@ -221,8 +207,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "RightTorso",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Weapon_LRM_LRM15_2-Delta",
@@ -230,8 +215,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": 0,
       "MountedLocation": "RightArm",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
@@ -239,8 +223,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "RightArm",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
@@ -248,8 +231,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "RightArm",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
@@ -257,8 +239,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "LeftLeg",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
@@ -266,8 +247,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "LeftLeg",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
@@ -275,8 +255,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "RightLeg",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
@@ -284,8 +263,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "RightLeg",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
@@ -293,8 +271,7 @@
       "DamageLevel": "Functional",
       "HardpointSlot": -1,
       "MountedLocation": "RightLeg",
-      "hasPrefabName": false,
-      "prefabName": null
+      "hasPrefabName": false
     }
   ],
   "MechTags": {

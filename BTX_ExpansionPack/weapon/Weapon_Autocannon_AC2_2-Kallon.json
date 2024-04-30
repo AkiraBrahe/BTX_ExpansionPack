@@ -86,7 +86,7 @@
       "HeatGenerated": 2,
       "DamagePerShot": -30,
       "ProjectilesPerShot": -5,
-      "ShotsPerAmmo": 9
+      "ShotsPerAmmo": 0.1
     }
   ],
   "Auras": [

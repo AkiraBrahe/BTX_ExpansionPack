@@ -2,12 +2,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -22,21 +17,21 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 160,
+      "MaxArmor": 150,
       "MaxRearArmor": -1,
-      "InternalStructure": 80
+      "InternalStructure": 75
     },
     {
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
@@ -46,21 +41,12 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 200,
-      "MaxRearArmor": 100,
-      "InternalStructure": 100
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 300,
-      "MaxRearArmor": 150,
-      "InternalStructure": 150
-    },
-    {
-      "Location": "RightTorso",
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
@@ -68,10 +54,32 @@
         }
       ],
       "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 200,
-      "MaxRearArmor": 100,
-      "InternalStructure": 100
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
     },
     {
       "Location": "RightArm",
@@ -81,55 +89,33 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 160,
+      "MaxArmor": 150,
       "MaxRearArmor": -1,
-      "InternalStructure": 80
+      "InternalStructure": 75
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 200,
+      "MaxArmor": 190,
       "MaxRearArmor": -1,
-      "InternalStructure": 100
+      "InternalStructure": 95
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 200,
+      "MaxArmor": 190,
       "MaxRearArmor": -1,
-      "InternalStructure": 100
-    }
-  ],
-  "VariantName": "HA1-O",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-1.1",
-      "chassis_DHS",
-      "chassis_omni",
-      "mech_case_right",
-      "mech_quirk_easytomaintain",
-      "mech_quirk_extendedtorsotwist"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "FixedEquipment": [
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "InternalStructure": 95
     }
   ]
 }

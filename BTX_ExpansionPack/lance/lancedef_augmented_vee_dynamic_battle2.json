@@ -135,7 +135,9 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_vehicle_apc"
+          "unit_noncombatant",
+          "unit_vehicle_apc",
+          "unit_vehicle"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -161,7 +163,9 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_vehicle_apc"
+          "unit_noncombatant",
+          "unit_vehicle_apc",
+          "unit_vehicle"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },

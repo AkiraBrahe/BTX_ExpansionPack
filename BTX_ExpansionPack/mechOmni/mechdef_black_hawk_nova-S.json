@@ -50,9 +50,9 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_AMS_Clan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
+      "ComponentDefID": "Weapon_AMSCAC_Clan",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

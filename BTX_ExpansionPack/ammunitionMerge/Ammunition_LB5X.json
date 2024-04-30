@@ -2,5 +2,9 @@
   "Description": {
     "Name": "LB 5-X Cluster Ammo",
     "UIName": "Cluster"
+  },
+  "ChassisTagsAccuracyModifiers": {
+    "unit_lam": -2,
+    "unit_vtol": -2
   }
 }

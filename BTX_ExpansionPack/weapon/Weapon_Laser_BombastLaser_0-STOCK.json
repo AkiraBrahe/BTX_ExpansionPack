@@ -56,7 +56,8 @@
     "items": [
       "component_type_stock",
       "component_type_lostech",
-      "range_long"
+      "range_long",
+      "laser_insulator_bombast_attachable"
     ],
     "tagSetSourceFile": ""
   },

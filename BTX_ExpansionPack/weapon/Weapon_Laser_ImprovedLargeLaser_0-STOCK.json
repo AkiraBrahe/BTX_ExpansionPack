@@ -58,7 +58,8 @@
       "component_type_clan",
       "component_type_lostech",
       "range_very-long",
-      "BLACKLISTED"
+      "BLACKLISTED",
+      "laser_insulator_attachable"
     ],
     "tagSetSourceFile": ""
   }

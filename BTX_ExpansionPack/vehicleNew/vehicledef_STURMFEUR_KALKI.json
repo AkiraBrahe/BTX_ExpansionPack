@@ -68,7 +68,7 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_Artillery_CM50_0-STOCK",
+      "ComponentDefID": "Weapon_Artillery_CruiseMissile50_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 0,

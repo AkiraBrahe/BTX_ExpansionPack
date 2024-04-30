@@ -12,7 +12,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_APC_Maxim_Clan",
-    "Name": "Maxim (Clan)",
+    "Name": "Maxim-C",
     "Details": "<b>Name: <color=#85DBF6>Maxim Heavy Hover Transport (Clan)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>",
     "Icon": "uixVhclIcon_maxim",
     "Cost": 2283000,
