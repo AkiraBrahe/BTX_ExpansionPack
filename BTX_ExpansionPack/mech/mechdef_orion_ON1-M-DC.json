@@ -27,7 +27,7 @@
     "UIName": "Orion ON1-M-DC",
     "Id": "mechdef_orion_ON1-M-DC",
     "Name": "Orion",
-    "Details": "This 1-M sub-variant of the Hermes II trades one ton each of SRM and Narc ammunition plus one double heat sink for a Command Console. The loadout remains the same as the ON1-M, with an LB 10-X autocannon, an LRM-20 launcher, two Medium Lasers, a single SRM-4, and a Narc missile beacon.\n",
+    "Details": "This 1-M subvariant trades one ton each of SRM and Narc ammunition plus one double heat sink for a Command Console. The loadout remains the same as the ON1-M, with an LB 10-X autocannon, two Medium Lasers, an LRM-20 launcher, a single SRM-4, and a Narc missile beacon.",
     "Icon": "uixTxrIcon_orion"
   },
   "simGameMechPartCost": 1660000,

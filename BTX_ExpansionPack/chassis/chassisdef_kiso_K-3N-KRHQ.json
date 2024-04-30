@@ -8,7 +8,7 @@
     "UIName": "Kiso",
     "Id": "chassisdef_kiso_K-3N-KRHQ",
     "Name": "Kiso",
-    "Details": "<color=#F79B26>The Kiso is a command ConstructionMech that uses cutting-edge communication technology to direct large planetary construction projects in the Draconis Combine.</color>\n\nThe Kiso \"CommandMech\" variant removes the right torso Pile Driver and Lift Hoist, as well as the left torso Rock Cutter to make room for a Collapsible Command Module and a trio of Machine Guns with a half-ton of ammunition. It retains the cockpit Command Console of the standard Kiso.\n",
+    "Details": "<color=#F79B26>The Kiso is a command ConstructionMech that uses cutting-edge communication technology to direct large planetary construction projects in the Draconis Combine.</color>\n\nThe Kiso \"CommandMech\" variant removes the right torso Pile Driver and Lift Hoist, as well as the left torso Rock Cutter to make room for a Collapsible Command Module and a trio of Machine Guns with a half-ton of ammunition. It retains the cockpit Command Console of the standard Kiso.",
     "Icon": "uixTxrIcon_kiso"
   },
   "MovementCapDefID": "movedef_kiso_K-3N-KRHQ",

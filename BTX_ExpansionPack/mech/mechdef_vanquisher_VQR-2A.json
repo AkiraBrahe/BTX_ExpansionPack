@@ -26,7 +26,7 @@
     "UIName": "Vanquisher VQR-2A",
     "Id": "mechdef_vanquisher_VQR-2A",
     "Name": "Vanquisher",
-    "Details": "<color=#F79B26>The Vanquisher is a 100-ton BattleMech designed to showcase the capabilities of the Word of Blake's Improved C3 Computers. It has a legendary pedigree, drawing inspiration from the iconic King Crab and built in the same factory that gave birth to the Mackie.</color>\n\nIntended to stay back and let faster units spot for it using the C3i system, the Vanquisher carries a pair of Light Gauss Rifles backed up by two ER Large Lasers, giving the Vanquisher almost unparalleled reach on the battlefield. For close combat, the 'Mech has three ER Medium Lasers, which are usually enough to dissuade most lighter 'Mechs.\n",
+    "Details": "<color=#F79B26>The Vanquisher is a 100-ton BattleMech designed to showcase the capabilities of the Word of Blake's Improved C3 Computers. It has a legendary pedigree, drawing inspiration from the iconic King Crab and built in the same factory that gave birth to the Mackie.</color>\n\nIntended to stay back and let faster units spot for it using the C3i system, the Vanquisher carries a pair of Light Gauss Rifles backed up by two ER Large Lasers, giving the Vanquisher almost unparalleled reach on the battlefield. For close combat, the 'Mech has three ER Medium Lasers, which are usually enough to dissuade most lighter 'Mechs.",
     "Icon": "uixTxrIcon_vanquisher"
   },
   "simGameMechPartCost": 1240000,

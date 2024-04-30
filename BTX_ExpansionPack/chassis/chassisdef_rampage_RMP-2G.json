@@ -8,7 +8,7 @@
     "UIName": "Rampage",
     "Id": "chassisdef_rampage_RMP-2G",
     "Name": "Rampage",
-    "Details": "<color=#F79B26>The Rampage, a BattleMech originally designed as a standard line unit for the Star League Defense Force, underwent a transformative upgrade to become a fast assault 'Mech following Stefan Amaris' successful coup.</color>\n\nThe original version of the Rampage was produced decades prior to the introduction of the Star League-enhanced RMP-5G. The 'Mech has a top speed of 54 km/h and is equipped with an Autocannon/10, LRM-10, two Medium Lasers, a Large Laser, one Flamer, and a Machine Gun with a full ton of ammo. This decidedly low-tech version uses twenty-three single heat sinks to keep the 2G quite cool despite lacking the weight-saving components found in the 5G.\n",
+    "Details": "<color=#F79B26>The Rampage, a BattleMech originally designed as a standard line unit for the Star League Defense Force, underwent a transformative upgrade to become a fast assault 'Mech following Stefan Amaris' successful coup.</color>\n\nThe original version of the Rampage was produced decades prior to the introduction of the Star League-enhanced RMP-5G. The 'Mech has a top speed of 54 km/h and is equipped with an Autocannon/10, LRM-10, two Medium Lasers, a Large Laser, one Flamer, and a Machine Gun with a full ton of ammo. This decidedly low-tech version uses twenty-three single heat sinks to keep the 2G quite cool despite lacking the weight-saving components found in the 5G.",
     "Icon": "uixTxrIcon_rampage"
   },
   "MovementCapDefID": "movedef_rampage_RMP-2G",

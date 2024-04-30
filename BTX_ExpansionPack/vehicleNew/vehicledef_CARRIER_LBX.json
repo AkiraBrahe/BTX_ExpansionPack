@@ -20,7 +20,7 @@
     "Id": "vehicledef_CARRIER_LBX",
     "Name": "AC/2 Carrier",
     "UIName": "AC/2 Carrier (LB-X)",
-    "Details": "<b>Name: <color=#85DBF6>AC/2 Carrier (LB-X)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>AC/2 Carrier (LB-X)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe AC/2 Carrier is a tracked fire support vehicle introduced during the Age of War. Part of a family of weapons carrier vehicles, it was originally built with primitive technology but updated over the centuries and served well beyond the Succession Wars.\n\nOpting for a fusion engine, the LB-X variant boasts nearly twice the armor of the standard model and replaces the autocannons with Ultra versions. To further enhance accuracy, a C3 Slave Unit is included.",
     "Icon": "uixVhclIcon_carrier",
     "Cost": 3000960,
     "Rarity": 0,

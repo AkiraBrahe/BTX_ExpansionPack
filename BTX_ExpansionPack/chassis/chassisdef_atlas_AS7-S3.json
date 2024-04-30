@@ -8,7 +8,7 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-S3",
     "Name": "Atlas",
-    "Details": "The S3 Atlas is a rearmament of the S2 version introduced in 3062. The Heavy Gauss Rifle is reduced to a standard model Gauss rifle with sixteen shots while each arm contains a PPC and a Small Laser. An additional Small Laser is mounted in the head. For extra defense, an AMS is installed on the left arm. The Artemis IV-enhanced LRM-15 and Guardian ECM Suite of the S2 model remain.\n",
+    "Details": "The S3 Atlas is a rearmament of the S2 version introduced in 3062. The Heavy Gauss Rifle is reduced to a standard model Gauss rifle with sixteen shots while each arm contains a PPC and a Small Laser. An additional Small Laser is mounted in the head. For extra defense, an AMS is installed on the left arm. The Artemis IV-enhanced LRM-15 and Guardian ECM Suite of the S2 model remain.",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_atlas_AS7-S3",
@@ -68,7 +68,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -118,6 +118,10 @@
         },
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],

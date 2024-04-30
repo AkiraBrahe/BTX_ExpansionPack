@@ -27,7 +27,7 @@
     "UIName": "Nightsky NGS-5T",
     "Id": "mechdef_nightsky_NGS-5T",
     "Name": "Nightsky",
-    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nThe 5T is a modification of the 4S that replaces the Large Pulse Laser with an ER PPC, but is otherwise identical to the 4S model. This allows the Nightsky to target an enemy 'Mech from a great distance and wear it down until the 'Mech can bring its hatchet to bear on its target.\n",
+    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nThe 5T is a modification of the 4S that replaces the Large Pulse Laser with an ER PPC, but is otherwise identical to the 4S model. This allows the Nightsky to target an enemy 'Mech from a great distance and wear it down until the 'Mech can bring its hatchet to bear on its target.",
     "Icon": "uixTxrIcon_nightsky"
   },
   "simGameMechPartCost": 960000,

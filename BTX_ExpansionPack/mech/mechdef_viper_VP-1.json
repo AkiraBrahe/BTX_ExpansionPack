@@ -27,7 +27,7 @@
     "UIName": "Viper VP-1",
     "Id": "mechdef_viper_VP-1",
     "Name": "Viper",
-    "Details": "<color=#F79B26>The Viper was a low-maintenance heavy 'Mech developed in response to the ravages of the First Succession War, competing with the Crusader. However, production declined, and the design eventually went extinct.</color>\n\nIn its original configuration, the Viper relied on a pair of Binary Laser Cannons as its primary armament, with an additional three Medium Pulse Lasers as backup. Kallon Industries had originally intended to use Extended Range PPCs as the 'Mech's main weapons, but those had been growing increasingly scarce at the time of the Viper's development.\n",
+    "Details": "<color=#F79B26>The Viper was a low-maintenance heavy 'Mech developed in response to the ravages of the First Succession War, competing with the Crusader. However, production declined, and the design eventually went extinct.</color>\n\nIn its original configuration, the Viper relied on a pair of Binary Laser Cannons as its primary armament, with an additional three Medium Pulse Lasers as backup. Kallon Industries had originally intended to use Extended Range PPCs as the 'Mech's main weapons, but those had been growing increasingly scarce at the time of the Viper's development.",
     "Icon": "uixTxrIcon_viper"
   },
   "simGameMechPartCost": 1330000,

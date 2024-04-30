@@ -8,7 +8,7 @@
     "UIName": "Naga",
     "Id": "chassisdef_naga-B",
     "Name": "Naga",
-    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant only has four tons of ammunition for the two fixed Arrow IV artillery systems, which are supplemented by three ER Medium Lasers and an ER Small Laser.\n",
+    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant only has four tons of ammunition for the two fixed Arrow IV artillery systems, which are supplemented by three ER Medium Lasers and an ER Small Laser.",
     "Icon": "uixTxrIcon_naga"
   },
   "MovementCapDefID": "movedef_naga-B",

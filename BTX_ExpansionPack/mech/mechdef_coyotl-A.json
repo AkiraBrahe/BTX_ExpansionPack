@@ -27,7 +27,7 @@
     "UIName": "Coyotl A",
     "Id": "mechdef_coyotl-A",
     "Name": "Coyotl",
-    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, was the first OmniMech ever built. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThis configuration was introduced during a conflict against Clan Cloud Cobra. Seven jump jets give the Coyotl A much greater maneuverability, while the long-range weapons are traded for a Large Pulse Laser, Small Pulse Laser, and an additional Streak SRM-4 launcher. This version also drops the Medium Pulse Laser of the original.\n",
+    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, was the first OmniMech ever built. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThis configuration was introduced during a conflict against Clan Cloud Cobra. Seven jump jets give the Coyotl A much greater maneuverability, while the long-range weapons are traded for a Large Pulse Laser, Small Pulse Laser, and an additional Streak SRM-4 launcher. This version also drops the Medium Pulse Laser of the original.",
     "Icon": "uixTxrIcon_mercuryii"
   },
   "simGameMechPartCost": 950000,

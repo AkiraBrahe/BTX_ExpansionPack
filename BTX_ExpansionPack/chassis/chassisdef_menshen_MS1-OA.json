@@ -8,7 +8,7 @@
     "UIName": "Men Shen",
     "Id": "chassisdef_menshen_MS1-OA",
     "Name": "Men Shen",
-    "Details": "<color=#F79B26>The Men Shen is the first OmniMech to come from the Capellan Confederation, and it borrows heavily from the Raven BattleMech for its basic design concept.</color>\n\nA versatile configuration, the A configuration has an LB 10-X Autocannon that allows it to fire both standard and cluster ammunition. For close combat, it has three ER Medium Lasers and a TAG laser designator allowing the 'Mech to call in friendly artillery fire on a target.\n",
+    "Details": "<color=#F79B26>The Men Shen is the first OmniMech to come from the Capellan Confederation, and it borrows heavily from the Raven BattleMech for its basic design concept.</color>\n\nA versatile configuration, the A configuration has an LB 10-X Autocannon that allows it to fire both standard and cluster ammunition. For close combat, it has three ER Medium Lasers and a TAG laser designator allowing the 'Mech to call in friendly artillery fire on a target.",
     "Icon": "uixTxrIcon_menshen"
   },
   "MovementCapDefID": "movedef_menshen_MS1-OA",
@@ -21,6 +21,7 @@
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 129.6,
+  "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 160,
   "StabilityDefenses": [

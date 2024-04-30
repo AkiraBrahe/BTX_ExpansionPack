@@ -26,7 +26,7 @@
     "UIName": "Naga C",
     "Id": "mechdef_naga-C",
     "Name": "Naga",
-    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThe C configuration similarly carries only four tons of ammunition for the two fixed Arrow IV artillery systems, which are supplemented this time with a pair of ER Small Lasers and a single SRM-6.\n",
+    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThe C configuration similarly carries only four tons of ammunition for the two fixed Arrow IV artillery systems, which are supplemented this time with a pair of ER Small Lasers and a single SRM-6.",
     "Icon": "uixTxrIcon_naga"
   },
   "simGameMechPartCost": 2660000,

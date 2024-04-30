@@ -26,7 +26,7 @@
     "UIName": "Super-Wasp WSP-2A-X",
     "Id": "mechdef_superwasp_WSP-2A-X",
     "Name": "Super-Wasp",
-    "Details": "<color=#F79B26>An evolution of the classic Wasp, this reimagined design retains the original's speed and jump capability while packing it into a heavier frame. To further enhance its mobility, engineers have equipped the 'Mech with a Supercharger that enables bursts of speed reaching up to 120 km/h.</color>\n\nThe Super-Wasp remains faithful to the weapon configuration of the regular WSP-1A Wasp, with the notable addition of a second Medium Laser in the right arm, complementing the original SRM-2 launcher in the left leg. This effectively doubles its firepower compared to its progenitor.\n",
+    "Details": "<color=#F79B26>An evolution of the classic Wasp, this reimagined design retains the original's speed and jump capability while packing it into a heavier frame. To further enhance its mobility, engineers have equipped the 'Mech with a Supercharger that enables bursts of speed reaching up to 120 km/h.</color>\n\nThe Super-Wasp remains faithful to the weapon configuration of the regular WSP-1A Wasp, with the notable addition of a second Medium Laser in the right arm, complementing the original SRM-2 launcher in the left leg. This effectively doubles its firepower compared to its progenitor.",
     "Icon": "uixTxrIcon_wasp"
   },
   "simGameMechPartCost": 380000,

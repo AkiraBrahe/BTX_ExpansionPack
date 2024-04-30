@@ -8,7 +8,7 @@
     "UIName": "BattleMaster",
     "Id": "chassisdef_battlemaster_BLR-3M-DC",
     "Name": "BattleMaster",
-    "Details": "The Battlemaster 3M-DC drops the rear firing Medium Lasers of the 3M to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM 6.\n",
+    "Details": "The 3M-DC drops the rear firing Medium Lasers to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM-6.",
     "Icon": "uixTxrIcon_battlemaster"
   },
   "MovementCapDefID": "movedef_battlemaster_BLR-3M-DC",
@@ -59,11 +59,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -213,8 +213,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Command 'Mech",
-  "YangsThoughts": "A refit of the BLR-3M, the BLR-3M-DC literally just slaps a Command Console on it. To accommodate this new tech, the rear-mounted Medium Lasers were sacrificed. These Command Console Battlemasters are quite the favorites among Davion commanders.",
+  "StockRole": "Command 'Mech, Heavy Brawler & Close Assault",
+  "YangsThoughts": "This is a simple refit of the -3M that literally just slaps a Command Console on it. To accommodate this new tech, the rear-mounted Medium Lasers are removed. These Command Console Battlemasters are quite the favorites among Davion commanders.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",

@@ -8,7 +8,7 @@
     "UIName": "Hammer",
     "Id": "chassisdef_hammer_HMR-3M",
     "Name": "Hammer",
-    "Details": "<color=#F79B26>The Hammer is a light 'Mech that was built to provide fire support to other 'Mechs with its long-range arsenal. It is often paired with the Anvil, softening up the enemy at a distance until the Anvil can bring its lasers to bear.</color>\n\nThe 3M, simply called the Hammer, has a maximum speed of 86.4 km/h and a respectable six tons of armor. Its primary weapons are a pair of LRM-5 launchers that allow the Hammer to rain destruction down on a target at up to 630 meters. These launchers are augmented with an Artemis IV fire control system for greater accuracy. For close combat, the 'Mech carries three Medium Lasers. With its average speed and good armor protection combined with its long-range weapons, the Hammer is a good overall light fire support 'Mech.\n",
+    "Details": "<color=#F79B26>The Hammer is a light 'Mech that was built to provide fire support to other 'Mechs with its long-range arsenal. It is often paired with the Anvil, softening up the enemy at a distance until the Anvil can bring its lasers to bear.</color>\n\nThe 3M, simply called the Hammer, has a maximum speed of 86.4 km/h and a respectable six tons of armor. Its primary weapons are a pair of LRM-5 launchers that allow the Hammer to rain destruction down on a target at up to 630 meters. These launchers are augmented with an Artemis IV fire control system for greater accuracy. For close combat, the 'Mech carries three Medium Lasers. With its average speed and good armor protection combined with its long-range weapons, the Hammer is a good overall light fire support 'Mech.",
     "Icon": "uixTxrIcon_hammer"
   },
   "MovementCapDefID": "movedef_hammer_HMR-3M",

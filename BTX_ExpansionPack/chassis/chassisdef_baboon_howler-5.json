@@ -8,7 +8,7 @@
     "UIName": "Baboon",
     "Id": "chassisdef_baboon_howler-5",
     "Name": "Baboon",
-    "Details": "The standard Howler chassis has had its LRM-5s removed and replaced with six ER Medium Lasers, fitted in triple mounts in each side torso.\n",
+    "Details": "The standard Howler chassis has had its LRM-5s removed and replaced with six ER Medium Lasers, fitted in triple mounts in each side torso.",
     "Icon": "uixTxrIcon_howler"
   },
   "MovementCapDefID": "movedef_baboon_howler-5",

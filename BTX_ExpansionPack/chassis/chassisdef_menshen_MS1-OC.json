@@ -8,7 +8,7 @@
     "UIName": "Men Shen",
     "Id": "chassisdef_menshen_MS1-OC",
     "Name": "Men Shen",
-    "Details": "<color=#F79B26>The Men Shen is the first OmniMech to come from the Capellan Confederation, and it borrows heavily from the Raven BattleMech for its basic design concept.</color>\n\nA close combat machine, the C configuration carries two highly accurate Large Pulse Lasers as its primary weapons, backed up by an ER Small Laser. To handle the 'Mech's heat load, the C configuration has an additional double heat sink as well as an ECM Suite to protect against enemy electronic warfare equipment.\n",
+    "Details": "<color=#F79B26>The Men Shen is the first OmniMech to come from the Capellan Confederation, and it borrows heavily from the Raven BattleMech for its basic design concept.</color>\n\nA close combat machine, the C configuration carries two highly accurate Large Pulse Lasers as its primary weapons, backed up by an ER Small Laser. To handle the 'Mech's heat load, the C configuration has an additional double heat sink as well as an ECM Suite to protect against enemy electronic warfare equipment.",
     "Icon": "uixTxrIcon_menshen"
   },
   "MovementCapDefID": "movedef_menshen_MS1-OC",
@@ -21,6 +21,7 @@
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 129.6,
+  "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 160,
   "StabilityDefenses": [

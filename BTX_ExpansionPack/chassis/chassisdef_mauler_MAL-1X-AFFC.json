@@ -8,7 +8,7 @@
     "UIName": "Mauler",
     "Id": "chassisdef_mauler_MAL-1X-AFFC",
     "Name": "Mauler",
-    "Details": "Distinguishing itself from the original model, the Federated Commonwealth's 1X-AFFC variant sheds its long-range missiles in favor of quad SRM-4 launchers, sacrificing ranged capabilities for a more gladiatorial style of combat.\n",
+    "Details": "Distinguishing itself from the original model, the Federated Commonwealth's 1X-AFFC variant sheds its long-range missiles in favor of quad SRM-4 launchers, sacrificing ranged capabilities for a more aggressive, gladiatorial style of combat.",
     "Icon": "uixTxrIcon_mauler"
   },
   "MovementCapDefID": "movedef_mauler_MAL-1X-AFFC",

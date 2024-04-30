@@ -8,7 +8,7 @@
     "UIName": "Akuma",
     "Id": "chassisdef_akuma_AKU-1XJ",
     "Name": "Akuma",
-    "Details": "<color=#F79B26>The Akuma, which means \"Devil\" in Japanese, was created as a low-cost alternative to the Atlas. It inherits its predecessor's imposing presence, with a menacing head design meant to strike fear in its enemies.</color>\n\nA jump-capable variant of the Akuma, the 1XJ can leap up to ninety meters by sacrificing heat dissipation capacity and firepower. The 'Mech has only ten double heat sinks and completely changes its weapons array. The only long-range weapon it wields is an ER Large Laser, while the MRM-30 is upgraded to an MRM-40 launcher. For overwhelming close-range firepower, the 1XJ carries an LB-X Autocannon/20 in place of the class-10 version of the 1X, and has two Medium Pulse Lasers and an ER Small Laser.\n",
+    "Details": "<color=#F79B26>The Akuma, which means \"Devil\" in Japanese, was created as a low-cost alternative to the Atlas. It inherits its predecessor's imposing presence, with a menacing head design meant to strike fear in its enemies.</color>\n\nA jump-capable variant of the Akuma, the 1XJ can leap up to ninety meters by sacrificing heat dissipation capacity and firepower. The 'Mech has only ten double heat sinks and completely changes its weapons array. The only long-range weapon it wields is an ER Large Laser, while the MRM-30 is upgraded to an MRM-40 launcher. For overwhelming close-range firepower, the 1XJ carries an LB-X Autocannon/20 in place of the class-10 version of the 1X, and has two Medium Pulse Lasers and an ER Small Laser.",
     "Icon": "uixTxrIcon_akuma"
   },
   "MovementCapDefID": "movedef_akuma_AKU-1XJ",
@@ -207,7 +207,7 @@
   "VariantName": "AKU-1XJ",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.05-1.10-1.10",
+      "mr-resize-1.05",
       "chassis_DHS",
       "chassis_endo",
       "mech_quirk_easytomaintain"
@@ -215,7 +215,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Assault",
-  "YangsThoughts": "The Akuma 1XJ is a beast of an assault 'Mech. It's got a mean punch with its LB-X Autocannon/20 and MRM-40 launcher, and it can jump. Just keep an eye on the heat and save the pulse lasers for finishing off wounded enemies.",
+  "YangsThoughts": "The Akuma 1XJ was designed for brawling, packing an LB-X Autocannon/20 and a MRM-40 launcher. Plus, it can jump. Not something you'd see the Atlas do. Just keep an eye on the heat, and save those pulse lasers for the kill shot.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",

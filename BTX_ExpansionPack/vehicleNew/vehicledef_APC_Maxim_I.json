@@ -22,7 +22,7 @@
     "Id": "vehicledef_APC_Maxim",
     "Name": "Maxim (I) Heavy Hover Transport",
     "UIName": "Maxim (I) Heavy Hover Transport (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Maxim (I) Heavy Hover Transport</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Maxim (I) Heavy Hover Transport</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 Fusion</color></b>\n\nThe Maxim is a hover APC designed to provide cover fire for deploying infantry and to support them in the field. To that end, the Maxim is heavily armored for an APC and is outfitted with a variety of weapons.\n\nSacrificing firepower for carrying capacity, this Maxim can transport up to 12 tons of infantry. In exchange, its weapons are limited to a Streak SRM-6, two ER Medium Lasers, and a TAG, all mounted in its turret.",
     "Icon": "uixVhclIcon_maxim",
     "Cost": 2468000,
     "Rarity": 0,

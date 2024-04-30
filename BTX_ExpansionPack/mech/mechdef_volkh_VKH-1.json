@@ -26,7 +26,7 @@
     "UIName": "Volkh VKH-1",
     "Id": "mechdef_volkh_VKH-1",
     "Name": "Volkh",
-    "Details": "<color=#F79B26>Developed on Solaris VII, the Volkh BattleMech serves as a testbed for cutting-edge technologies. Its hallmark feature is an XXL engine enhanced with a Supercharger, a combination that grants the Volkh impressive speed and power.</color>\n\nThe Volkh's main armament are its four ER Medium Lasers backed up by a single SRM-4 launcher. The lasers are tied into an advanced Targeting Computer, providing more effective fire. At point-blank ranges, it can cause crippling damage with its two Lances, which may have inspired its name, echoing the voulge, an ancient type of polearm.\n",
+    "Details": "<color=#F79B26>Developed on Solaris VII, the Volkh BattleMech serves as a testbed for cutting-edge technologies. Its hallmark feature is an XXL engine enhanced with a Supercharger, a combination that grants the Volkh impressive speed and power.</color>\n\nThe Volkh's main armament are its four ER Medium Lasers backed up by a single SRM-4 launcher. The lasers are tied into an advanced Targeting Computer, providing more effective fire. At point-blank ranges, it can cause crippling damage with its two Lances, which may have inspired its name, echoing the voulge, an ancient type of polearm.",
     "Icon": "uixTxrIcon_volkh"
   },
   "simGameMechPartCost": 2680000,

@@ -28,7 +28,7 @@
     "UIName": "Exterminator EXT-4DX",
     "Id": "mechdef_exterminator_EXT-4DX",
     "Name": "Exterminator",
-    "Details": "The personal 'Mech of Lieutenant Caine Barclay of the SLDF, this Exterminator does not use stealth technology, instead relying on a MASC system coupled with a Supercharger, allowing the 'Mech to reach burst speeds of 130 km/h. Each arm carries three Medium Pulse Lasers equipped with a laser insulator to help dissipate the heat. The Anti-Missile System is also retained from the original EXT-4D. Although Barclay was successful in defeating ten DCMS MechWarriors in duels, the eleventh one destroyed his BattleMech.\n",
+    "Details": "The personal 'Mech of Lieutenant Caine Barclay of the SLDF, this Exterminator does not use stealth technology, instead relying on a MASC system coupled with a Supercharger, allowing the 'Mech to reach burst speeds of 130 km/h. Each arm carries three Medium Pulse Lasers equipped with a laser insulator to help dissipate the heat. The Anti-Missile System is also retained from the original EXT-4D. Although Barclay was successful in defeating ten DCMS MechWarriors in duels, the eleventh one destroyed his BattleMech.",
     "Icon": "uixTxrIcon_exterminator"
   },
   "simGameMechPartCost": 2090000,

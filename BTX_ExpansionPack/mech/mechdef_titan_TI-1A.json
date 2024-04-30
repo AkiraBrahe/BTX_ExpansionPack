@@ -25,7 +25,7 @@
     "UIName": "Titan TI-1A",
     "Id": "mechdef_titan_TI-1A",
     "Name": "Titan",
-    "Details": "<color=#F79B26>The Titan is a prototype from the Star League era that was unearthed by the Federated Suns in 3023 and led to the Grand Titan.</color>\n\nThe Titan is a powerful 'Mech with its nineteen tons of standard armor. It is equipped with two PPCs, six Medium Lasers, four SRM-4s, and an SRM-6. The twenty-two heat sinks it has are hardly sufficient to cool all of its weapons.\n",
+    "Details": "<color=#F79B26>The Titan is a prototype from the Star League era that was unearthed by the Federated Suns in 3023 and led to the Grand Titan.</color>\n\nThe Titan is a powerful 'Mech with its nineteen tons of standard armor. It is equipped with two PPCs, six Medium Lasers, four SRM-4s, and an SRM-6. The twenty-two heat sinks it has are hardly sufficient to cool all of its weapons.",
     "Icon": "uixTxrIcon_titan"
   },
   "simGameMechPartCost": 990000,

@@ -26,7 +26,7 @@
     "UIName": "Fire Falcon A",
     "Id": "mechdef_fire_falcon-A",
     "Name": "Fire Falcon",
-    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThis first variant uses an UAC/2 and LRM-10 to bombard from long range, while an ER Small Laser provides close defense.\n",
+    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThis first variant uses a UAC/2 and LRM-10 to bombard from long range, while an ER Small Laser provides close defense.",
     "Icon": "uixTxrIcon_firefalcon"
   },
   "simGameMechPartCost": 450000,

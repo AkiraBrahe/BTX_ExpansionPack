@@ -27,7 +27,7 @@
     "UIName": "Vulture S",
     "Id": "mechdef_vulture_mad_dog-S",
     "Name": "Vulture",
-    "Details": "The S variant is designed for reconnaissance, equipped with five jump jets for quick movement and an Active Probe for detecting hidden enemy units. Its lighter armament comprises an ER PPC and three Medium Pulse Lasers, suitable for quick strikes and evasive maneuvers.\n",
+    "Details": "The S variant is designed for reconnaissance, equipped with five jump jets for quick movement and an Active Probe for detecting hidden enemy units. Its lighter armament comprises an ER PPC and three Medium Pulse Lasers, suitable for quick strikes and evasive maneuvers.",
     "Icon": "uixTxrIcon_vulture"
   },
   "simGameMechPartCost": 1560000,

@@ -24,7 +24,7 @@
     "UIName": "Toro TR-A-1",
     "Id": "mechdef_toro_TR-A-1",
     "Name": "Toro",
-    "Details": "The original prototype is closer to a variant of the primitive Firebee. It has a single Large Laser and two SRM-2s, which share a ton of ammunition. Despite its slow speed of 64 km/h, the A-1 offers more armor protection than the Firebee.\n",
+    "Details": "The original prototype is closer to a variant of the primitive Firebee. It has a single Large Laser and two SRM-2s, which share a ton of ammunition. Despite its slow speed of 64 km/h, the A-1 offers more armor protection than the Firebee.",
     "Icon": "uixTxrIcon_toro"
   },
   "simGameMechPartCost": 220000,

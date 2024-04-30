@@ -8,7 +8,7 @@
     "UIName": "Behemoth",
     "Id": "chassisdef_behemoth_stone_rhino-4",
     "Name": "Behemoth",
-    "Details": "A Smoke Jaguar test platform, the Stone Rhino 4 is a variable-range variant that uses an XL engine to provide weight savings for four LRM-10s to lay down impressive long-range fire. Backing these up are a pair of Ultra AC/10s for midrange engagements. From there, four ER Medium Lasers provide a solid short-range punch. Lastly, four Machine Guns give anti-infantry support. These combine to make a solid and well-rounded configuration.\n",
+    "Details": "A Smoke Jaguar test platform, the Stone Rhino 4 is a variable-range variant that uses an XL engine to provide weight savings for four LRM-10s to lay down impressive long-range fire. Backing these up are a pair of Ultra AC/10s for midrange engagements. From there, four ER Medium Lasers provide a solid short-range punch. Lastly, four Machine Guns give anti-infantry support. These combine to make a solid and well-rounded configuration.",
     "Icon": "uixTxrIcon_behemoth"
   },
   "MovementCapDefID": "movedef_behemoth_stone_rhino-4",

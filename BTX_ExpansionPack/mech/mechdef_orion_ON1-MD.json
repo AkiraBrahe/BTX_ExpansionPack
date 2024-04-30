@@ -27,7 +27,7 @@
     "UIName": "Orion ON1-MD",
     "Id": "mechdef_orion_ON1-MD",
     "Name": "Orion",
-    "Details": "The Orion ON1-MD is a minor variant of the ON1-M that simply swaps out its LB-X Autocannon/10 for a Rotary Autocannon/5. The 'Mech retains the rest of its predecessor's loadout, which includes an LRM-20 launcher, two Medium Lasers, a single SRM-4, and a Narc missile beacon.\n",
+    "Details": "The Orion ON1-MD is a minor variant of the ON1-M that simply swaps out its LB-X Autocannon/10 for a Rotary Autocannon/5. The 'Mech retains the rest of its predecessor's loadout, which includes an LRM-20 launcher, two Medium Lasers, a single SRM-4, and a Narc missile beacon.",
     "Icon": "uixTxrIcon_orion"
   },
   "simGameMechPartCost": 1550000,

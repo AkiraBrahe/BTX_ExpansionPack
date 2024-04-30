@@ -25,7 +25,7 @@
     "UIName": "Owens OW-1R",
     "Id": "mechdef_owens_OW-1R",
     "Name": "Owens",
-    "Details": "A field upgrade developed in the midst of Operation Bulldog, this configuration makes use of captured Clan Smoke Jaguar weapons to reinforce SLDF forces. Built from the E variant, it retains the MRM-10 launcher but swaps out the standard and pulse lasers with three Clan ER Medium Lasers.\n",
+    "Details": "A field upgrade developed in the midst of Operation Bulldog, this configuration makes use of captured Clan Smoke Jaguar weapons to reinforce SLDF forces. Built from the E variant, it retains the MRM-10 launcher but swaps out the standard and pulse lasers with three Clan ER Medium Lasers.",
     "Icon": "uixTxrIcon_owens"
   },
   "simGameMechPartCost": 810000,

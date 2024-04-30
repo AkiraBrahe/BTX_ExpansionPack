@@ -8,7 +8,7 @@
     "UIName": "Strider",
     "Id": "chassisdef_strider_SR1-OR",
     "Name": "Strider",
-    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. Based on the Strider E, it can mount two Clan-tech Streak SRM-6 launchers and a pair of Clan Medium Pulse Lasers thanks to lighter Clan weaponry.\n",
+    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. Based on the Strider E, it can mount two Clan-tech Streak SRM-6 launchers and a pair of Clan Medium Pulse Lasers thanks to lighter Clan weaponry.",
     "Icon": "uixTxrIcon_strider"
   },
   "MovementCapDefID": "movedef_strider_SR1-OR",
@@ -195,10 +195,10 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.02-1.02-1.02",
+      "chassis_omni",
       "chassis_endo",
       "mech_case_left",
       "mech_case_right",
-      "chassis_omni",
       "mech_quirk_easytopilot",
       "mech_quirk_largeengine"
     ],

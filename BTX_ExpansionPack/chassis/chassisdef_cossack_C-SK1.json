@@ -8,7 +8,7 @@
     "UIName": "Cossack",
     "Id": "chassisdef_cossack_C-SK1",
     "Name": "Cossack",
-    "Details": "<color=#F79B26>The Cossack is a light trooper 'Mech named after the mercenary unit Khorsakov's Cossacks in honor of their faithful service to the St. Ives Compact.</color>\n\nThe original Cossack is built on an endo steel chassis with three tons of armor, a 120 XL engine, and six jump jets, making it a slow moving, heavily armored 'Mech that works well as part of a team but excels at no one role on its own. Its primary weapons are a Medium Laser and an SRM-6. These are supplemented by a pair of Small Lasers. While not the most impressive arsenal, the Cossack can defend itself against most light 'Mechs and vehicles.\n",
+    "Details": "<color=#F79B26>The Cossack is a light trooper 'Mech named after the mercenary unit Khorsakov's Cossacks in honor of their faithful service to the St. Ives Compact.</color>\n\nThe original Cossack is built on an endo steel chassis with three tons of armor, a 120 XL engine, and six jump jets, making it a slow moving, heavily armored 'Mech that works well as part of a team but excels at no one role on its own. Its primary weapons are a Medium Laser and an SRM-6. These are supplemented by a pair of Small Lasers. While not the most impressive arsenal, the Cossack can defend itself against most light 'Mechs and vehicles.",
     "Icon": "uixTxrIcon_cossack"
   },
   "MovementCapDefID": "movedef_cossack_C-SK1",

@@ -13,7 +13,7 @@
     "UIName": "Spartan",
     "Id": "chassisdef_spartan_SPT-N3",
     "Name": "Spartan",
-    "Details": "<color=#F79B26>The Spartan was designed in 2765 in response to increased hostility in the Periphery prior to the coup launched by Stefan Amaris. With its combination of speed and firepower, along with its heavy armor, the Spartan is a force to be reckoned with on any battlefield, regardless of the era.</color>\n\nThe N3 Spartan is an improved version of the N2 used by both the Com Guards and the Word of Blake Militia to maintain a technological edge on the battlefield. Its key enhancements include ER Medium Lasers in place of pulse lasers, three additional double heat sinks, and a C3i Computer for improved tactical coordination.\n",
+    "Details": "<color=#F79B26>The Spartan was designed in 2765 in response to increased hostility in the Periphery prior to the coup launched by Stefan Amaris. With its combination of speed and firepower, along with its heavy armor, the Spartan is a force to be reckoned with on any battlefield, regardless of the era.</color>\n\nThe N3 Spartan is an improved version of the N2 used by both the Com Guards and the Word of Blake Militia to maintain a technological edge on the battlefield. Its key enhancements include ER Medium Lasers in place of pulse lasers, three additional double heat sinks, and a C3i Computer for improved tactical coordination.",
     "Icon": "uixTxrIcon_spartan"
   },
   "MovementCapDefID": "movedef_spartan_SPT-N3",

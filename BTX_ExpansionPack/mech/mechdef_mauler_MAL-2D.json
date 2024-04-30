@@ -27,7 +27,7 @@
     "UIName": "Mauler MAL-2D",
     "Id": "mechdef_mauler_MAL-2D",
     "Name": "Mauler",
-    "Details": "The Mauler MAL-2D exchanges the standard autocannons for four devastating rotary models, each capable of unleashing a hail of high-velocity shells. It also has two MRM-10 missile launchers and four ER Medium Lasers for mid-range support. The MAL-2D's impressive firepower is offset by its limited ammunition capacity, affecting its ability to fight for extended periods of time.\n",
+    "Details": "The Mauler MAL-2D is an upgrade of the -2R variant, exchanging the standard autocannons for four devastating rotary models, each capable of unleashing a hail of high-velocity shells. To accommodate this extra firepower, the missile launchers are changed into MRM-10 launchers, while the four ER Medium Lasers are retained for mid-range support.",
     "Icon": "uixTxrIcon_mauler"
   },
   "simGameMechPartCost": 910000,

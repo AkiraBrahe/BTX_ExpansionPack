@@ -25,7 +25,7 @@
     "UIName": "Highlander HGN-694",
     "Id": "mechdef_highlander_HGN-694",
     "Name": "Highlander",
-    "Details": "The HGN-694 is a radical redesign that removes the Highlander's jump jets and replaces the missiles and medium lasers with two Large Lasers and a Heavy Gauss Rifle with four tons of ammunition, enough for sixteen shots. The M-7 Gauss Rifle mounted on the right arm remains in place.\n",
+    "Details": "The HGN-694 is a radical redesign that removes the Highlander's jump jets and replaces the missiles and medium lasers with two Large Lasers and a Heavy Gauss Rifle with four tons of ammunition, enough for sixteen shots. The M-7 Gauss Rifle mounted on the right arm remains in place.",
     "Icon": "uixTxrIcon_highlander"
   },
   "simGameMechPartCost": 1540000,

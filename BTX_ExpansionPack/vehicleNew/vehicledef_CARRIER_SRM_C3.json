@@ -20,7 +20,7 @@
     "Id": "vehicledef_CARRIER_SRM_C3",
     "Name": "SRM Carrier",
     "UIName": "SRM Carrier (C3)",
-    "Details": "<b>Name: <color=#85DBF6>SRM Carrier (C3)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>SRM Carrier (C3)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe SRM Carrier is the close-range counterpart to the LRM Carrier. This ubiquitous missile platform blankets the Inner Sphere in various configurations, offering affordable and devastating short-range firepower.\n\nAn attempt by Quikscell to make their upgraded SRM Carrier more popular, this variant replaces the Narc launcher with a C3 Slave and Guardian ECM.",
     "Icon": "uixVhclIcon_srmcarrier",
     "Cost": 2577600,
     "Rarity": 0,

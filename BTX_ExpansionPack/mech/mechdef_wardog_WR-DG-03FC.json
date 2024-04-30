@@ -28,7 +28,7 @@
     "UIName": "War Dog WR-DG-03FC",
     "Id": "mechdef_wardog_WR-DG-03FC",
     "Name": "War Dog",
-    "Details": "<color=#F79B26>The War Dog is a 'Mech that was originally designed for the SLDF and was thought to be lost to time. It was rediscovered by Snord's Irregulars and has since become a powerful and respected force on the modern battlefield.</color>\n\nThe War Dog 03FC, the only official variant from Blackwell, modifies the 'Mech to carry a more devastating close to intermediate range arsenal. Its primary weapon, an ER PPC, unleashes pinpoint energy blasts. As the 'Mech closes, it brings its devastatingly powerful Heavy Gauss Rifle to bear on an enemy. Finally, for close ranges, it boasts a potent combination of three ER Medium Lasers and two Medium Pulse Lasers. The 03FC model also carries a C3 Slave unit to share targeting data with allied units.\n",
+    "Details": "<color=#F79B26>The War Dog is a 'Mech that was originally designed for the SLDF and was thought to be lost to time. It was rediscovered by Snord's Irregulars and has since become a powerful and respected force on the modern battlefield.</color>\n\nThe War Dog 03FC, the only official variant from Blackwell, modifies the 'Mech to carry a more devastating close to intermediate range arsenal. Its primary weapon, an ER PPC, unleashes pinpoint energy blasts. As the 'Mech closes, it brings its devastatingly powerful Heavy Gauss Rifle to bear on an enemy. Finally, for close ranges, it boasts a potent combination of three ER Medium Lasers and two Medium Pulse Lasers. The 03FC model also carries a C3 Slave unit to share targeting data with allied units.",
     "Icon": "uixTxrIcon_wardog"
   },
   "simGameMechPartCost": 1640000,

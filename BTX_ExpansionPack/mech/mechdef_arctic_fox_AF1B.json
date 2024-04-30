@@ -26,7 +26,7 @@
     "UIName": "Arctic Fox AF1B",
     "Id": "mechdef_arctic_fox_AF1B",
     "Name": "Arctic Fox",
-    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nUseful in anti-aircraft and vehicle hunting roles, the B configuration has an LB-X Autocannon/10 as its primary weapon, backed up by a single Medium Laser. This configuration is highly flexible in its roles but also severely handicapped by its reliance on a ballistic weapon.\n",
+    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nUseful in anti-aircraft and vehicle hunting roles, the B configuration has an LB-X Autocannon/10 as its primary weapon, backed up by a single Medium Laser. This configuration is highly flexible in its roles but also severely handicapped by its reliance on a ballistic weapon.",
     "Icon": "uixTxrIcon_arcticfox"
   },
   "simGameMechPartCost": 500000,

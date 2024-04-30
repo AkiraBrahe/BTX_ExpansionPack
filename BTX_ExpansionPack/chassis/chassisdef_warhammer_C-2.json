@@ -8,7 +8,7 @@
     "UIName": "Warhammer",
     "Id": "chassisdef_warhammer_C-2",
     "Name": "Warhammer",
-    "Details": "The C 2 is a further upgrade of previously upgraded Inner Sphere Warhammers. Retaining its Inner Sphere engine, internal structure, armor, and eighteen double heat sinks, the C 2 completely upgrades the weaponry to Clan standards. Clan ER PPCs sit in the arms. Each side torso houses a Clan Medium Pulse Laser, and both a Pulse and ER Small Laser. A Streak SRM-6 replaces the typical shoulder-mounted SRMs; its one ton of ammo is in the right torso. Both the lack of CASE and low amount of armor makes this Warhammer a bit of a glass cannon.\n",
+    "Details": "The C 2 is a further upgrade of previously upgraded Inner Sphere Warhammers. Retaining its Inner Sphere engine, internal structure, armor, and eighteen double heat sinks, the C 2 completely upgrades the weaponry to Clan standards. Clan ER PPCs sit in the arms. Each side torso houses a Clan Medium Pulse Laser, and both a Pulse and ER Small Laser. A Streak SRM-6 replaces the typical shoulder-mounted SRMs; its one ton of ammo is in the right torso. Both the lack of CASE and low amount of armor makes this Warhammer a bit of a glass cannon.",
     "Icon": "uixTxrIcon_warhammerc"
   },
   "MovementCapDefID": "movedef_warhammer_C-2",
@@ -214,7 +214,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler & Close Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The biggest change here are the 18 double heat sinks. It took them long enough to learn about them. If I had one minor gripe, it would be the lack of CASE to make it a proper Zombie 'Mech.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",

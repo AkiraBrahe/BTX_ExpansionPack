@@ -8,7 +8,7 @@
     "UIName": "Hatchetman",
     "Id": "chassisdef_hatchetman_HCT-5DD",
     "Name": "Hatchetman",
-    "Details": "The 5DD stands out as an unusual variant of the HCT-5D, replacing the AC/10 with a Rotary AC/2 and a single ER Medium Laser, giving the 'Mech a unique blend of destructive long-range firepower and melee prowess.\n",
+    "Details": "The 5DD stands out as an unusual variant of the HCT-5D, replacing the AC/10 with a Rotary AC/2 and a single ER Medium Laser, giving the 'Mech a unique blend of destructive long-range firepower and melee prowess.",
     "Icon": "uixTxrIcon_hatchetman"
   },
   "MovementCapDefID": "movedef_hatchetman_HCT-5DD",

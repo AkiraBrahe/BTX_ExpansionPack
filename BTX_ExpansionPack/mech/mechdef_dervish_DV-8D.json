@@ -29,7 +29,7 @@
     "UIName": "Dervish DV-8D",
     "Id": "mechdef_dervish_DV-8D",
     "Name": "Dervish",
-    "Details": "The 8D Dervish is outfitted with cutting-edge technology, including an endo steel chassis and an XL engine, two Artemis IV-enhanced LRM-15 launchers, and four ER Medium lasers in place of the SRM-2 launchers and Medium Lasers.\n",
+    "Details": "The 8D Dervish is outfitted with cutting-edge technology, including an endo steel chassis and an XL engine, two Artemis IV-enhanced LRM-15 launchers, and four ER Medium lasers in place of the SRM-2 launchers and Medium Lasers.",
     "Icon": "uixTxrIcon_dervish"
   },
   "simGameMechPartCost": 1120000,

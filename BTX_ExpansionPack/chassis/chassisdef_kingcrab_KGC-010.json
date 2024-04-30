@@ -8,7 +8,7 @@
     "UIName": "King Crab",
     "Id": "chassisdef_kingcrab_KGC-010",
     "Name": "King Crab",
-    "Details": "This version of the King Crab is an attempt at making a deadly command 'Mech by mounting a pair of PPCs in either side torso and surrounding each of them with an SRM-6 launcher. In place of standard autocannons, the 010 model carries LB-10X autocannons, which are better suited to close-range combat. Overall, the 010 model is more than capable of taking down an Atlas, but most of them left with Kerensky during the Exodus and were thought to be lost during the Succession Wars.\n",
+    "Details": "This version of the King Crab is an attempt at making a deadly command 'Mech by mounting a pair of PPCs in either side torso and surrounding each of them with an SRM-6 launcher. In place of standard autocannons, the 010 model carries LB-10X autocannons, which are better suited to close-range combat. Overall, the 010 model is more than capable of taking down an Atlas, but most of them left with Kerensky during the Exodus and were thought to be lost during the Succession Wars.",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "MovementCapDefID": "movedef_kingcrab_KGC-010",

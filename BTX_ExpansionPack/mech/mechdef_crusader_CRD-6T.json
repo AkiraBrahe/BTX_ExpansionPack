@@ -28,7 +28,7 @@
     "UIName": "Crusader CRD-6T",
     "Id": "mechdef_crusader_CRD-6T",
     "Name": "Crusader",
-    "Details": "Another Kallon variant with a top speed of 86 km/h thanks to an XL engine. Each arm carries six Medium Lasers and the leg-mounted weapons are Flamers in each hip mount. Seventeen double heat sinks struggle to keep things cool. A C3 slave unit is mounted in the head, allowing this Crusader to share targeting data. Kallon's engineers were apparently inspired by the Nova OmniMech and the Tessen heavy scout when they created this design.\n",
+    "Details": "Another Kallon variant with a top speed of 86 km/h thanks to an XL engine. Each arm carries six Medium Lasers and the leg-mounted weapons are Flamers in each hip mount. Seventeen double heat sinks struggle to keep things cool. A C3 slave unit is mounted in the head, allowing this Crusader to share targeting data. Kallon's engineers were apparently inspired by the Nova OmniMech and the Tessen heavy scout when they created this design.",
     "Icon": "uixTxrIcon_crusader"
   },
   "simGameMechPartCost": 1440000,

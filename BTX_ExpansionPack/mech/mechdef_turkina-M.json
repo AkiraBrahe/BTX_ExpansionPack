@@ -27,7 +27,7 @@
     "UIName": "Turkina M",
     "Id": "mechdef_turkina-M",
     "Name": "Turkina",
-    "Details": "Each arm of this Turkina configuration carries an ER Large Laser, LB 2-X, and an LB 5-X, plus a ton of ammunition for each autocannon. These are supplemented by an LRM-5 in each side torso and a center torso mounted Medium Pulse Laser. Sixteen double heat sinks are carried as well.\n",
+    "Details": "Each arm of this Turkina configuration carries an ER Large Laser, LB 2-X, and an LB 5-X, plus a ton of ammunition for each autocannon. These are supplemented by an LRM-5 in each side torso and a center torso mounted Medium Pulse Laser. Sixteen double heat sinks are carried as well.",
     "Icon": "uixTxrIcon_turkina"
   },
   "simGameMechPartCost": 2650000,

@@ -8,7 +8,7 @@
     "UIName": "Grand Crusader",
     "Id": "chassisdef_grandcrusader_GRN-D-02-B",
     "Name": "Grand Crusader",
-    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThis variant of the Grand Crusader employs a 320 XL engine comparable to the 01-X prototype introduced four years earlier. The loadout, though, is similar to that of the 01 model but replaces the Large Pulse Lasers with extended-range models.\n",
+    "Details": "<color=#F79B26>The Grand Crusader is a fire support BattleMech named after a passage in one of the works of Jerome Blake stating that \"those who fight to preserve technology and knowledge are the grandest crusaders of all\".</color>\n\nThis variant of the Grand Crusader employs a 320 XL engine comparable to the 01-X prototype introduced four years earlier. The loadout, though, is similar to that of the 01 model but replaces the Large Pulse Lasers with extended-range models.",
     "Icon": "uixTxrIcon_grandcrusader"
   },
   "MovementCapDefID": "movedef_grandcrusader_GRN-D-02-B",

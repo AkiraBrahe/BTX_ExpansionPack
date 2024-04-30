@@ -8,7 +8,7 @@
     "UIName": "Raijin",
     "Id": "chassisdef_raijin_RJN-101-A",
     "Name": "Raijin",
-    "Details": "<color=#F79B26>The Raijin was designed as an all-purpose BattleMech to rearm Com Guard units that had suffered heavy losses during the Battle of Tukayyid.</color>\n\nThe Raijin is built around a 300 XL engine that gives it a top speed of 97.2 km/h. Six jump jets further enhance its mobility, allowing the 'Mech to jump up to 180 meters. Seven tons of ferro-fibrous armor provide robust protection. For long-range striking power, the Raijin carries an ER PPC that can be used to engage a target at up to 690 meters. Close-quarters combat is handled by three highly accurate Medium Pulse Lasers. To exploit enemy armor vulnerabilities, the Raijin also has an SRM-6 and an ammunition-efficient Streak SRM-2.\n",
+    "Details": "<color=#F79B26>The Raijin was designed as an all-purpose BattleMech to rearm Com Guard units that had suffered heavy losses during the Battle of Tukayyid.</color>\n\nThe Raijin is built around a 300 XL engine that gives it a top speed of 97.2 km/h. Six jump jets further enhance its mobility, allowing the 'Mech to jump up to 180 meters. Seven tons of ferro-fibrous armor provide robust protection. For long-range striking power, the Raijin carries an ER PPC that can be used to engage a target at up to 690 meters. Close-quarters combat is handled by three highly accurate Medium Pulse Lasers. To exploit enemy armor vulnerabilities, the Raijin also has an SRM-6 and an ammunition-efficient Streak SRM-2.",
     "Icon": "uixTxrIcon_raijin"
   },
   "MovementCapDefID": "movedef_raijin_RJN-101-A",

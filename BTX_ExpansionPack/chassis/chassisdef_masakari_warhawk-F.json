@@ -8,7 +8,7 @@
     "UIName": "Masakari",
     "Id": "chassisdef_masakari_warhawk-F",
     "Name": "Masakari",
-    "Details": "Apparently designed to reduce heat, this configuration of the Warhawk carries a single ER PPC in each arm, backed up by an LRM-20 and LRM-10. A torso-mounted Ultra AC/2 rounds out the weapons. Like most Warhawk variants, this version also carries an advanced Targeting Computer.\n",
+    "Details": "Apparently designed to reduce heat, this configuration of the Warhawk carries a single ER PPC in each arm, backed up by an LRM-20 and LRM-10. A torso-mounted Ultra AC/2 rounds out the weapons. Like most Warhawk variants, this version also carries an advanced Targeting Computer.",
     "Icon": "uixTxrIcon_masakari"
   },
   "MovementCapDefID": "movedef_masakari_warhawk-F",

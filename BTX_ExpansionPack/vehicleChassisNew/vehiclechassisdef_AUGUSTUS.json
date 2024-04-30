@@ -12,8 +12,8 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_AUGUSTUS",
-    "Name": "Augustus A3",
-    "Details": "<b>Name: <color=#85DBF6>Augustus Main Battle Tank A3</color>\nArmor: <color=#85DBF6>BAR 7 Armor</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 ICE</color></b>",
+    "Name": "Augustus A-3",
+    "Details": "<b>Name: <color=#85DBF6>Augustus Main Battle Tank A3</color>\nArmor: <color=#85DBF6>BAR 7 Armor</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 ICE</color></b>\n\nThe Augustus A-3 Tank was first developed during the Age of War. The tank is equipped with an Autocannon/5 and two Autocannon/2s in a triangular mount in the turret. The main gun is supplied with one ton of ammunition, while the light cannons share a single ton of ammunition for fire against long-distance targets. The tank is also equipped with a searchlight and one ton of cargo space.",
     "Icon": "uixVhclIcon_augustus",
     "Cost": 1074063,
     "Rarity": 0,

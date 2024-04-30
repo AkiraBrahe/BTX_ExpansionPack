@@ -8,7 +8,7 @@
     "UIName": "Viper",
     "Id": "chassisdef_viper_VP-5",
     "Name": "Viper",
-    "Details": "<color=#F79B26>The Viper was a low-maintenance heavy 'Mech developed in response to the ravages of the First Succession War, competing with the Crusader. However, production declined, and the design eventually went extinct.</color>\n\nThis variant is the only documented downgrade that has been developed during the Succession Wars as the Star League technology used by the VP-1 was gradually lost. It is a typical Late Succession War downgrade that uses standard components and weapons; the blazers are replaced with two Large Lasers and the pulse lasers are replaced with six Medium Lasers.\n",
+    "Details": "<color=#F79B26>The Viper was a low-maintenance heavy 'Mech developed in response to the ravages of the First Succession War, competing with the Crusader. However, production declined, and the design eventually went extinct.</color>\n\nThis variant is the only documented downgrade that has been developed during the Succession Wars as the Star League technology used by the VP-1 was gradually lost. It is a typical Late Succession War downgrade that uses standard components and weapons; the blazers are replaced with two Large Lasers and the pulse lasers are replaced with six Medium Lasers.",
     "Icon": "uixTxrIcon_viper"
   },
   "MovementCapDefID": "movedef_viper_VP-5",

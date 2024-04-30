@@ -26,7 +26,7 @@
     "UIName": "Spartan SPT-NF",
     "Id": "mechdef_spartan_SPT-NF",
     "Name": "Spartan",
-    "Details": "<color=#F79B26>The Spartan was designed in 2765 in response to increased hostility in the Periphery prior to the coup launched by Stefan Amaris. With its combination of speed and firepower, along with its heavy armor, the Spartan is a force to be reckoned with on any battlefield, regardless of the era.</color>\n\nThe Spartan NF, a straightforward upgrade of the original Spartan, enhances the 'Mech's survivability by replacing the TAG equipment with CASE in each side torso. This modification helps prevent the complete destruction of the 'Mech in case of an ammunition explosion.\n",
+    "Details": "<color=#F79B26>The Spartan was designed in 2765 in response to increased hostility in the Periphery prior to the coup launched by Stefan Amaris. With its combination of speed and firepower, along with its heavy armor, the Spartan is a force to be reckoned with on any battlefield, regardless of the era.</color>\n\nThe Spartan NF, a straightforward upgrade of the original Spartan, enhances the 'Mech's survivability by replacing the TAG equipment with CASE in each side torso. This modification helps prevent the complete destruction of the 'Mech in case of an ammunition explosion.",
     "Icon": "uixTxrIcon_spartan"
   },
   "simGameMechPartCost": 2060000,

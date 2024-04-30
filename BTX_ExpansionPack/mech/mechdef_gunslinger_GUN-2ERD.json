@@ -28,7 +28,7 @@
     "UIName": "Gunslinger GUN-2ERD",
     "Id": "mechdef_gunslinger_GUN-2ERD",
     "Name": "Gunslinger",
-    "Details": "The 2ERD model of the Gunslinger upgrades the Medium Lasers to ER Medium Lasers and removes the two rear Medium Pulse Lasers, the Beagle Probe and the Small Laser. The 'Mech then adds an additional jump jet allowing the 'Mech to jump up to ninety meters and also adds a C3 Master computer.\n",
+    "Details": "The 2ERD model of the Gunslinger upgrades the Medium Lasers to ER Medium Lasers and removes the two rear Medium Pulse Lasers, the Beagle Probe and the Small Laser. The 'Mech then adds an additional jump jet allowing the 'Mech to jump up to ninety meters and also adds a C3 Master computer.",
     "Icon": "uixTxrIcon_gunslinger"
   },
   "simGameMechPartCost": 1940000,

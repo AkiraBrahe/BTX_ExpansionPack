@@ -27,7 +27,7 @@
     "UIName": "Black Hawk-KU BHKU-OR",
     "Id": "mechdef_blackhawk-ku_BHKU-OR",
     "Name": "Black Hawk-KU",
-    "Details": "Formerly known as the Bulldog variant, this configuration helped bolster the SLDF forces in later waves of Operation Bulldog by using captured Clan Smoke Jaguar weapons. A mix of arm-mounted short and long range weapons, this upgrade combines two Clan-tech ER Large Lasers mounted in the right arm, with two Clan Streak SRM-6 launchers in the left arm. A C3 Slave unit further enhance its abilities.\n",
+    "Details": "Formerly known as the Bulldog variant, this configuration helped bolster the SLDF forces in later waves of Operation Bulldog by using captured Clan Smoke Jaguar weapons. A mix of arm-mounted short and long range weapons, this upgrade combines two Clan-tech ER Large Lasers mounted in the right arm, with two Clan Streak SRM-6 launchers in the left arm. A C3 Slave unit further enhance its abilities.",
     "Icon": "uixTxrIcon_blackhawkku"
   },
   "simGameMechPartCost": 1560000,

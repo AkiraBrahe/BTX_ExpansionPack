@@ -8,7 +8,7 @@
     "UIName": "Men Shen",
     "Id": "chassisdef_menshen_MS1-O",
     "Name": "Men Shen",
-    "Details": "<color=#F79B26>The Men Shen is the first OmniMech to come from the Capellan Confederation, and it borrows heavily from the Raven BattleMech for its basic design concept.</color>\n\nIn its primary configuration, the Men Shen is a powerful close combat 'Mech and is capable of providing indirect fire support to friendly units. For close-range combat, it has four highly accurate Medium Pulse Lasers. To provide both direct and indirect long range fire support, this configuration has an LRM-15 launcher with an Artemis IV fire control system for increased missile accuracy.\n",
+    "Details": "<color=#F79B26>The Men Shen is the first OmniMech to come from the Capellan Confederation, and it borrows heavily from the Raven BattleMech for its basic design concept.</color>\n\nIn its primary configuration, the Men Shen is a powerful close combat 'Mech and is capable of providing indirect fire support to friendly units. For close-range combat, it has four highly accurate Medium Pulse Lasers. To provide both direct and indirect long range fire support, this configuration has an LRM-15 launcher with an Artemis IV fire control system for increased missile accuracy.",
     "Icon": "uixTxrIcon_menshen"
   },
   "MovementCapDefID": "movedef_menshen_MS1-O",
@@ -21,6 +21,7 @@
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 129.6,
+  "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 160,
   "StabilityDefenses": [

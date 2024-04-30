@@ -8,7 +8,7 @@
     "UIName": "Kiso",
     "Id": "chassisdef_kiso_K-3N-KR4",
     "Name": "Kiso",
-    "Details": "<color=#F79B26>The Kiso is a command ConstructionMech that uses cutting-edge communication technology to direct large planetary construction projects in the Draconis Combine.</color>\n\nThe KR4 variant is designed for excavating tasks. It is outfitted with a tungsten-cored Heavy-Duty Pile Driver and a Rock Cutter to prepare building foundations. The 'Mech has two cargo modular containers that can hold up to twenty tons of equipment, as well as two telescope style Lift Hoists, one per side torso.\n",
+    "Details": "<color=#F79B26>The Kiso is a command ConstructionMech that uses cutting-edge communication technology to direct large planetary construction projects in the Draconis Combine.</color>\n\nThe KR4 variant is designed for excavating tasks. It is outfitted with a tungsten-cored Heavy-Duty Pile Driver and a Rock Cutter to prepare building foundations. The 'Mech has two cargo modular containers that can hold up to twenty tons of equipment, as well as two telescope style Lift Hoists, one per side torso.",
     "Icon": "uixTxrIcon_kiso"
   },
   "MovementCapDefID": "movedef_kiso_K-3N-KR4",

@@ -8,7 +8,7 @@
     "UIName": "Lineholder",
     "Id": "chassisdef_lineholder_KW1-LH8",
     "Name": "Lineholder",
-    "Details": "<color=#F79B26>The Lineholder is a 55-ton BattleMech that is quickly becoming the go-to garrison machine for minor factions that can afford brand new BattleMechs.</color>\n\nA recent upgrade of the Lineholder, this variant of the 'Mech carries a pair of RAC/2s in place of the two LRM-5 launchers and the four Medium Lasers, and an ER Large Laser in place of the Large Laser. Nicknamed the \"Linebreaker\", this variant was designed for the Federated Suns.\n",
+    "Details": "<color=#F79B26>The Lineholder is a 55-ton BattleMech that is quickly becoming the go-to garrison machine for minor factions that can afford brand new BattleMechs.</color>\n\nA recent upgrade of the Lineholder, this variant of the 'Mech carries a pair of RAC/2s in place of the two LRM-5 launchers and the four Medium Lasers, and an ER Large Laser in place of the Large Laser. Nicknamed the \"Linebreaker\", this variant was designed for the Federated Suns.",
     "Icon": "uixTxrIcon_lineholder"
   },
   "MovementCapDefID": "movedef_lineholder_KW1-LH8",

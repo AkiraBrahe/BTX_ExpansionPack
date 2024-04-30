@@ -8,7 +8,7 @@
     "UIName": "Anubis",
     "Id": "chassisdef_anubis_ABS-3R",
     "Name": "Anubis",
-    "Details": "<color=#F79B26>The Anubis was originally intended to complement the Federated Suns' Osiris BattleMech, but the design was rejected and is now used by the Capellan Confederation to test advanced stealth technologies.</color>\n\nA variant of the Anubis meant to increase its short-term and short-range firepower, the 3R removes two of the LRM-5 launchers and replaces them with a Rocket Launcher 10 and two Rocket Launcher 15s.\n",
+    "Details": "<color=#F79B26>The Anubis was originally intended to complement the Federated Suns' Osiris BattleMech, but the design was rejected and is now used by the Capellan Confederation to test advanced stealth technologies.</color>\n\nA variant of the Anubis meant to increase its short-term and short-range firepower, the 3R removes two of the LRM-5 launchers and replaces them with a Rocket Launcher 10 and two Rocket Launcher 15s.",
     "Icon": "uixTxrIcon_anubis"
   },
   "MovementCapDefID": "movedef_anubis_ABS-3R",
@@ -208,7 +208,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Harasser",
-  "YangsThoughts": "Someone realized the Anubis was a bit of a pushover up close, so they slapped on 40 rocket launchers. That's a lot of missiles, even if they're one-shot. Unfortunately, they had to sacrifice some of the long-range firepower to make it happen.",
+  "YangsThoughts": "Someone realized the Anubis was a bit of a pushover up close, so they slapped on 40 rocket launchers! That's a lot of missiles, even if they're one-shot wonders. Unfortunately, they had to sacrifice some of that long-range firepower to make it happen.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

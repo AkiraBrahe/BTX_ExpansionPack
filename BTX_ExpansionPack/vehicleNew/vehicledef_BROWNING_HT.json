@@ -21,7 +21,7 @@
     "Id": "vehicledef_BROWNING_HT",
     "Name": "Browning Mobile HQ",
     "UIName": "Browning Mobile HQ (Half-Track)",
-    "Details": "<b>Name: <color=#85DBF6>Browning Mobile HQ (Half-Track)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Browning Mobile HQ (Half-Track)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nThis version of the Browning employs a half-track system, with wheels at the front for steering and continuous tracks at the rear to propel the vehicle and carry most of the load. This improves driving through rough terrain while sacrificing some speed.",
     "Icon": "uixVhclIcon_browning",
     "Cost": 911875,
     "Rarity": 0,

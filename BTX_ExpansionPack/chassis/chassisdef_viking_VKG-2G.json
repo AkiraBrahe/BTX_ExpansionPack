@@ -8,7 +8,7 @@
     "UIName": "Viking",
     "Id": "chassisdef_viking_VKG-2G",
     "Name": "Viking",
-    "Details": "The 2G variant removes all missile weapons and adds two tons of armor, allowing the Viking to serve as a front-line assault 'Mech. The primary weapons of the 2G are an LB-X Autocannon/10 capable of firing both standard and cluster rounds, as well as a Gauss Rifle, which provides the 'Mech with a powerful long-range punch. The 'Mech is equipped with a Large Pulse Laser and three Medium Pulse Lasers for medium to close range combat, and a Guardian ECM Suite to protect itself from advanced enemy electronic warfare systems.\n",
+    "Details": "The 2G variant removes all missile weapons and adds two tons of armor, allowing the Viking to serve as a front-line assault 'Mech. The primary weapons of the 2G are an LB-X Autocannon/10 capable of firing both standard and cluster rounds, as well as a Gauss Rifle, which provides the 'Mech with a powerful long-range punch. The 'Mech is equipped with a Large Pulse Laser and three Medium Pulse Lasers for medium to close range combat, and a Guardian ECM Suite to protect itself from advanced enemy electronic warfare systems.",
     "Icon": "uixTxrIcon_viking"
   },
   "MovementCapDefID": "movedef_viking_VKG-2G",

@@ -8,7 +8,7 @@
     "UIName": "Assassin II",
     "Id": "chassisdef_assassinii_ASN-56",
     "Name": "Assassin II",
-    "Details": "<color=#F79B26>The Assassin II was created at the Federated Suns' request for a \"quick strike harasser unit\". It exceeded all expectations and is now used to counter the stealth technology employed by the Capellan Confederation.</color>\n\nThis major redesign of the Assassin chassis is built on an endo steel skeleton with nine tons of armor and powered by a 270 XL engine. The Assassin II is outfitted with four Medium Pulse Lasers, one LRM-10 with Artemis IV, a Laser Anti-Missile System, and a Triple Strength Myomer for increased mobility.\n",
+    "Details": "<color=#F79B26>The Assassin II was created at the Federated Suns' request for a \"quick strike harasser unit\". It exceeded all expectations and is now used to counter the stealth technology employed by the Capellan Confederation.</color>\n\nThis major redesign of the Assassin chassis is built on an endo steel skeleton with nine tons of armor and powered by a 270 XL engine. The Assassin II is outfitted with four Medium Pulse Lasers, one LRM-10 with Artemis IV, a Laser Anti-Missile System, and a Triple Strength Myomer for increased mobility.",
     "Icon": "uixTxrIcon_assassinii"
   },
   "MovementCapDefID": "movedef_assassinii_ASN-56",

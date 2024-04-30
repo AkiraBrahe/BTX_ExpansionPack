@@ -29,7 +29,7 @@
     "UIName": "Warhammer C 3",
     "Id": "mechdef_warhammer_C-3",
     "Name": "Warhammer",
-    "Details": "A refit popular with Wolf's Dragoons, this Warhammer was rebuilt from the ground up with Clan technology. Built using an endo steel internal structure and XL engine, the C 3 has plenty of space for weapons and heat sinks. An ER PPC is carried in each arm. Both side torsos carry an ER Medium Laser, a Medium Pulse Laser, and a Streak SRM-6. The BattleMech is protected by an ECM Suite, while a Targeting Computer makes the already fearsome weaponry even more dangerous. Seventeen double heat sinks cannot keep the 'Mech cool unless the pilot fires either its long range or short range weapons.\n",
+    "Details": "A refit popular with Wolf's Dragoons, this Warhammer was rebuilt from the ground up with Clan technology. Built using an endo steel internal structure and XL engine, the C 3 has plenty of space for weapons and heat sinks. An ER PPC is carried in each arm. Both side torsos carry an ER Medium Laser, a Medium Pulse Laser, and a Streak SRM-6. The BattleMech is protected by an ECM Suite, while a Targeting Computer makes the already fearsome weaponry even more dangerous. Seventeen double heat sinks cannot keep the 'Mech cool unless the pilot fires either its long range or short range weapons.",
     "Icon": "uixTxrIcon_warhammerc"
   },
   "simGameMechPartCost": 1470000,

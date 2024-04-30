@@ -26,7 +26,7 @@
     "UIName": "Fire Falcon PRIME",
     "Id": "mechdef_fire_falcon-PRIME",
     "Name": "Fire Falcon",
-    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThe primary configuration of the Fire Falcon is best at short to medium ranges where it can bring its twin Streak SRM-4 launchers, Medium Pulse Laser, two ER Medium Lasers, and two ER Small Lasers to bear. While this barrage is powerful for a 'Mech of this size, ten double heat sinks keep the design mostly cool.\n",
+    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThe primary configuration of the Fire Falcon is best at short to medium ranges where it can bring its twin Streak SRM-4 launchers, Medium Pulse Laser, two ER Medium Lasers, and two ER Small Lasers to bear. While this barrage is powerful for a 'Mech of this size, ten double heat sinks keep the design mostly cool.",
     "Icon": "uixTxrIcon_firefalcon"
   },
   "simGameMechPartCost": 470000,

@@ -28,7 +28,7 @@
     "UIName": "Raijin RJN-101-X",
     "Id": "mechdef_raijin_RJN-101-X",
     "Name": "Raijin",
-    "Details": "<color=#F79B26>The Raijin was designed as an all-purpose BattleMech to rearm Com Guard units that had suffered heavy losses during the Battle of Tukayyid.</color>\n\nA failed prototype focused on MechWarrior safety, the 101-X featured almost the same weaponry as the 101-A save for its use of a One-Shot SRM-6 pack hidden deep in its center torso behind a heavily shielded swing-open mechanism. Intended to allow its pilots to surprise foes with this hidden weapon at close range, it was eventually decided that a normal SRM-6 rack with one ton of reloads provided more combat utility.\n",
+    "Details": "<color=#F79B26>The Raijin was designed as an all-purpose BattleMech to rearm Com Guard units that had suffered heavy losses during the Battle of Tukayyid.</color>\n\nA failed prototype focused on MechWarrior safety, the 101-X featured almost the same weaponry as the 101-A save for its use of a One-Shot SRM-6 pack hidden deep in its center torso behind a heavily shielded swing-open mechanism. Intended to allow its pilots to surprise foes with this hidden weapon at close range, it was eventually decided that a normal SRM-6 rack with one ton of reloads provided more combat utility.",
     "Icon": "uixTxrIcon_raijin"
   },
   "simGameMechPartCost": 990000,

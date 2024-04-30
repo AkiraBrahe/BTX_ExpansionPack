@@ -8,7 +8,7 @@
     "UIName": "Thor",
     "Id": "chassisdef_thor_summoner-M",
     "Name": "Thor",
-    "Details": "The preferred configuration of Nicolai Malthus, the M configuration is similar to the primary configuration in that it includes an ER PPC as its primary weapon, backed up by an LB 10-X Autocannon. However, it distinguishes itself by replacing the long-range missile launcher with a Streak SRM-6 and an ER Small Laser as secondary armament.\n",
+    "Details": "The preferred configuration of Nicolai Malthus, the M configuration is similar to the primary configuration in that it includes an ER PPC as its primary weapon, backed up by an LB 10-X Autocannon. However, it distinguishes itself by replacing the long-range missile launcher with a Streak SRM-6 and an ER Small Laser as secondary armament.",
     "Icon": "uixTxrIcon_thor"
   },
   "MovementCapDefID": "movedef_thor_summoner-M",

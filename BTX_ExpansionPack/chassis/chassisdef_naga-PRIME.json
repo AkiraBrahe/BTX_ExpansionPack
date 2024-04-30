@@ -8,7 +8,7 @@
     "UIName": "Naga",
     "Id": "chassisdef_naga-PRIME",
     "Name": "Naga",
-    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThe primary configuration of the Naga is built around a pair of Arrow IV artillery systems capable of firing rounds that home in on a target from afar, backed by three ER Small Lasers. The Naga is powered by a 400 XL engine and carries nine tons of armor, making the 'Mech little more than a glorified artillery piece, unlike the Naga's two sister designs, the Timber Wolf and the Gargoyle.\n",
+    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThe primary configuration of the Naga is built around a pair of Arrow IV artillery systems capable of firing rounds that home in on a target from afar, backed by three ER Small Lasers. The Naga is powered by a 400 XL engine and carries nine tons of armor, making the 'Mech little more than a glorified artillery piece, unlike the Naga's two sister designs, the Timber Wolf and the Gargoyle.",
     "Icon": "uixTxrIcon_naga"
   },
   "MovementCapDefID": "movedef_naga-PRIME",

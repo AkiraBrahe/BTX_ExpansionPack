@@ -8,7 +8,7 @@
     "UIName": "Crusader",
     "Id": "chassisdef_crusader_CRD-6D",
     "Name": "Crusader",
-    "Details": "This Kallon variant uses an endo steel chassis and a 325-rated XL engine and four jump jets. LRM-10s and a Medium Laser are carried in each arm, with SRM-6s replacing the SRM-2s in the legs. One ton of LRM ammo is carried in each side torso, and a ton of SRM ammo is in the center torso. All ammunition is protected by CASE. Fourteen double heat sinks are carried as well.\n",
+    "Details": "This Kallon variant uses an endo steel chassis and a 325-rated XL engine and four jump jets. LRM-10s and a Medium Laser are carried in each arm, with SRM-6s replacing the SRM-2s in the legs. One ton of LRM ammo is carried in each side torso, and a ton of SRM ammo is in the center torso. All ammunition is protected by CASE. Fourteen double heat sinks are carried as well.",
     "Icon": "uixTxrIcon_crusader"
   },
   "MovementCapDefID": "movedef_crusader_CRD-6D",

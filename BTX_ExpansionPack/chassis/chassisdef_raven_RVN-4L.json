@@ -8,7 +8,7 @@
     "UIName": "Raven",
     "Id": "chassisdef_raven_RVN-4L",
     "Name": "Raven",
-    "Details": "The 4L variant of the Raven incorporates the Confederation's new stealth armor. The 'Mech carries six tons of this advanced armor and also uses ten double heat sinks for greater heat dissipation capabilities. The RVN-4L is armed with two ER Medium Lasers and an SRM-6, and it also carries the complete electronic warfare package carried by the 3L model.\n",
+    "Details": "The 4L variant of the Raven incorporates the Confederation's new stealth armor. The 'Mech carries six tons of this advanced armor and also uses ten double heat sinks for greater heat dissipation capabilities. The RVN-4L is armed with two ER Medium Lasers and an SRM-6, and it also carries the complete electronic warfare package carried by the 3L model.",
     "Icon": "uixTxrIcon_raven"
   },
   "MovementCapDefID": "movedef_raven_RVN-4L",

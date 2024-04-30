@@ -8,7 +8,7 @@
     "UIName": "Shadow Hawk",
     "Id": "chassisdef_shadowhawk_SHD-5S",
     "Name": "Shadow Hawk",
-    "Details": "This heavy scout variant carries a Large Laser in the right arm, a pair of Medium Lasers in each side torso, and a Medium Pulse Laser with a coaxially mounted TAG system in the left arm. A Guardian ECM and a Beagle Active Probe are also installed on the 'Mech. The most interesting change, however, is the use of a more powerful 330-rated XL engine that gives a top speed of 97.2 km/h which, when combined with the Shadow Hawk's five jump jets, allows it to get out of tight spots.\n",
+    "Details": "This heavy scout variant carries a Large Laser in the right arm, a pair of Medium Lasers in each side torso, and a Medium Pulse Laser with a coaxially mounted TAG system in the left arm. A Guardian ECM and a Beagle Active Probe are also installed on the 'Mech. The most interesting change, however, is the use of a more powerful 330-rated XL engine that gives a top speed of 97.2 km/h which, when combined with the Shadow Hawk's five jump jets, allows it to get out of tight spots.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
   "MovementCapDefID": "movedef_shadowhawk_SHD-5S",
@@ -212,7 +212,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Scout & Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "This scout variant uses an XL engine to save weight for a heavier energy loadout and comes equipped with a TAG, Guardian ECM, and Active Probe, making it the ideal spotter.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

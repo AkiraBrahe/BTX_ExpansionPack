@@ -8,7 +8,7 @@
     "UIName": "Annihilator",
     "Id": "chassisdef_annihilator_C",
     "Name": "Annihilator",
-    "Details": "A variant of the Annihilator that was built using only Clan technology and used exclusively by Wolf's Dragoons, the Annihilator C is armed with four UAC/10s and ER Medium Lasers. The Ultra Autocannon/10s allows the 'Mech to fire at twice the rate of a standard autocannon, allowing it to put out as much fire as if it were carrying eight regular autocannons.\n",
+    "Details": "A variant of the Annihilator that was built using only Clan technology and used exclusively by Wolf's Dragoons, the Annihilator C is armed with four UAC/10s and ER Medium Lasers. The Ultra Autocannon/10s allows the 'Mech to fire at twice the rate of a standard autocannon, allowing it to put out as much fire as if it were carrying eight regular autocannons.",
     "Icon": "uixTxrIcon_annihilatorc"
   },
   "MovementCapDefID": "movedef_annihilator_C",
@@ -224,6 +224,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Long Range Assault",
-  "YangsThoughts": "Clan-tech Annihilator? Now you're talking, Boss. That monster has twice the firepower of a standard Annihilator thanks to four Ultra Autocannon/10s, with four ER Medium Lasers as backup in case it runs out of ammo. And its upgraded engine lets it keep up with most assault formations, so it can deliver its firepower wherever it's needed.",
+  "YangsThoughts": "Clan-tech Annihilator? Now that's what I'm talkin' about! This beast packs twice the firepower of a standard Annihilator with four Ultra AC/10s, and it's got four ER Medium Lasers for when the big guns run dry. Plus, its upgraded engine lets it keep pace with most assault 'Mechs, so it can bring the pain wherever it goes.",
   "FixedEquipment": []
 }

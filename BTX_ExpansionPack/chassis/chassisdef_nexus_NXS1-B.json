@@ -8,7 +8,7 @@
     "UIName": "Nexus",
     "Id": "chassisdef_nexus_NXS1-B",
     "Name": "Nexus",
-    "Details": "<color=#F79B26>The Nexus is a recon striker 'Mech initially based on the Jackrabbit, a light scout and combined-arms support 'Mech built for the Star League Defense Force.</color>\n\nConsidered the progenitor of the Nexus II, the NXS1-B variant is intended to make the 'Mech more capable as a recon unit. Clad in four tons of ferro-fibrous armor, the NXS1-B can also jump further and carries two ER Medium Lasers as its primary weapons, backed up by an ER small laser. What makes this Nexus variant so effective as a recon 'Mech is its Improved C3 Unit that allows it to share targeting data with up to five allied units.\n",
+    "Details": "<color=#F79B26>The Nexus is a recon striker 'Mech initially based on the Jackrabbit, a light scout and combined-arms support 'Mech built for the Star League Defense Force.</color>\n\nConsidered the progenitor of the Nexus II, the NXS1-B variant is intended to make the 'Mech more capable as a recon unit. Clad in four tons of ferro-fibrous armor, the NXS1-B can also jump further and carries two ER Medium Lasers as its primary weapons, backed up by an ER small laser. What makes this Nexus variant so effective as a recon 'Mech is its Improved C3 Unit that allows it to share targeting data with up to five allied units.",
     "Icon": "uixTxrIcon_nexus"
   },
   "MovementCapDefID": "movedef_nexus_NXS1-B",

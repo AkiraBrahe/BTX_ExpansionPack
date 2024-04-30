@@ -8,7 +8,7 @@
     "UIName": "Dragoon",
     "Id": "chassisdef_dragoon_AEM-02",
     "Name": "Dragoon",
-    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nDesigned as a short-ranged fighter, the Dragoon 02 is armed with a single ER PPC. The remaining weapons space is filled by five Medium Lasers, a Small Pulse Laser, and an AC/20. At the price of dropping its jump jets, the 'Mech's engine has been upgraded to an XL 350 to allow the 'Mech to close in quicker than the original model.\n",
+    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nDesigned as a short-ranged fighter, the Dragoon 02 is armed with a single ER PPC. The remaining weapons space is filled by five Medium Lasers, a Small Pulse Laser, and an AC/20. At the price of dropping its jump jets, the 'Mech's engine has been upgraded to an XL 350 to allow the 'Mech to close in quicker than the original model.",
     "Icon": "uixTxrIcon_dragoon"
   },
   "MovementCapDefID": "movedef_dragoon_AEM-02",

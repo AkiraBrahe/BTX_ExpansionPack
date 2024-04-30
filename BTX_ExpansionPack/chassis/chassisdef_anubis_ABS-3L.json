@@ -8,7 +8,7 @@
     "UIName": "Anubis",
     "Id": "chassisdef_anubis_ABS-3L",
     "Name": "Anubis",
-    "Details": "<color=#F79B26>The Anubis was originally intended to complement the Federated Suns' Osiris BattleMech, but the design was rejected and is now used by the Capellan Confederation to test advanced stealth technologies.</color>\n\nThe original model is built on an endo steel skeleton protected by five and a half tons of stealth armor, making it extremely hard to hit at long range. A Guardian ECM not only activates the armor but can also protect against electronic warfare. The Anubis 3L is armed as an effective light fire support 'Mech, with four LRM-5 launchers providing long-range fire support for other light 'Mechs. It also carries an ER Small Laser as a backup weapon.\n",
+    "Details": "<color=#F79B26>The Anubis was originally intended to complement the Federated Suns' Osiris BattleMech, but the design was rejected and is now used by the Capellan Confederation to test advanced stealth technologies.</color>\n\nThe original model is built on an endo steel skeleton protected by five and a half tons of stealth armor, making it extremely hard to hit at long range. A Guardian ECM not only activates the armor but can also protect against electronic warfare. The Anubis 3L is armed as an effective light fire support 'Mech, with four LRM-5 launchers providing long-range fire support for other light 'Mechs. It also carries an ER Small Laser as a backup weapon.",
     "Icon": "uixTxrIcon_anubis"
   },
   "MovementCapDefID": "movedef_anubis_ABS-3L",
@@ -204,7 +204,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Harasser",
-  "YangsThoughts": "The Anubis got a good mix of firepower and mobility, and the Guardian ECM is a real plus. Cloaked in stealth armor, it's a nightmare to hit, and the four LRM-5s give it plenty of reach… just don't get too close, or you'll get wrecked.",
+  "YangsThoughts": "The Anubis strikes a sweet spot between firepower and mobility, and the Guardian ECM is a real plus. Cloaked in stealth armor, it's a nightmare to hit, and the four LRM-5s give it plenty of reach… just don't get too close, or you'll get wrecked.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

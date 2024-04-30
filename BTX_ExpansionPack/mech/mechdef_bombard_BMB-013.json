@@ -27,7 +27,7 @@
     "UIName": "Bombard BMB-013",
     "Id": "mechdef_bombard_BMB-013",
     "Name": "Bombard",
-    "Details": "<color=#F79B26>The Bombard is a slow but heavily armed BattleMech that relies on overwhelming its targets with its firepower before its slow speed can be exploited.</color>\n\nThe BMB-013 model is armed with two Thunderbolt 15s, each feeded by three tons of CASE-protected ammo. This is enough for a total of 24 shots, providing the Bombard with adequate endurance in the field. A pair of ER Medium Lasers have been added to support the Thunderbolt launchers.\n",
+    "Details": "<color=#F79B26>The Bombard is a slow but heavily armed BattleMech that relies on overwhelming its targets with its firepower before its slow speed can be exploited.</color>\n\nThe BMB-013 model is armed with two Thunderbolt 15s, each feeded by three tons of CASE-protected ammo. This is enough for a total of 24 shots, providing the Bombard with adequate endurance in the field. A pair of ER Medium Lasers have been added to support the Thunderbolt launchers.",
     "Icon": "uixTxrIcon_bombard"
   },
   "simGameMechPartCost": 530000,

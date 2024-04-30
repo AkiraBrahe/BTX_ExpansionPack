@@ -28,7 +28,7 @@
     "UIName": "Legacy LGC-02",
     "Id": "mechdef_legacy_LGC-02",
     "Name": "Legacy",
-    "Details": "<color=#F79B26>The Legacy was created at the request of Word of Blake Precentor Martial Cameron St. Jamais as a testbed for new experimental technologies. It was based on the Rising Star, a failed Star League BattleMech design.</color>\n\nThe -02 variant is a dedicated missile boat, trading the Ultra Autocannon/10s with two LRM-20 launchers and three tons of ammo for each. This potent missile armament allows the Legacy to unleash a devastating onslaught of long-range missiles, capable of softening up or even destroying enemy BattleMechs from a safe distance. To complement its missile arsenal, the LGC-02 also carries two Medium Pulse Lasers for closer-range engagements.\n",
+    "Details": "<color=#F79B26>The Legacy was created at the request of Word of Blake Precentor Martial Cameron St. Jamais as a testbed for new experimental technologies. It was based on the Rising Star, a failed Star League BattleMech design.</color>\n\nThe -02 variant is a dedicated missile boat, trading the Ultra Autocannon/10s with two LRM-20 launchers and three tons of ammo for each. This potent missile armament allows the Legacy to unleash a devastating onslaught of long-range missiles, capable of softening up or even destroying enemy BattleMechs from a safe distance. To complement its missile arsenal, the LGC-02 also carries two Medium Pulse Lasers for closer-range engagements.",
     "Icon": "uixTxrIcon_legacy"
   },
   "simGameMechPartCost": 950000,

@@ -8,7 +8,7 @@
     "UIName": "Blitzkrieg",
     "Id": "chassisdef_blitzkrieg_BTZ-3F",
     "Name": "Blitzkrieg",
-    "Details": "<color=#F79B26>Taking its name from a German term meaning \"Lightning War\", the Blitzkrieg brings an immense amount of firepower to bear on a target before fading away just as quickly.</color>\n\nThe Blitzkrieg is built on a lightweight endo steel chassis and six and a half tons of ferro-fibrous armor, allowing the 'Mech to carry a massive UAC/20 that can fire at twice the rate as a standard autocannon. This powerful weapon, combined with the 'Mech's high speed provided by a Magna 350 XL engine, let the Blitzkrieg truly live up to its name.\n",
+    "Details": "<color=#F79B26>Taking its name from a German term meaning \"Lightning War\", the Blitzkrieg brings an immense amount of firepower to bear on a target before fading away just as quickly.</color>\n\nThe Blitzkrieg is built on a lightweight endo steel chassis and six and a half tons of ferro-fibrous armor, allowing the 'Mech to carry a massive UAC/20 that can fire at twice the rate as a standard autocannon. This powerful weapon, combined with the 'Mech's high speed provided by a Magna 350 XL engine, let the Blitzkrieg truly live up to its name.",
     "Icon": "uixTxrIcon_blitzkrieg"
   },
   "MovementCapDefID": "movedef_blitzkrieg_BTZ-3F",

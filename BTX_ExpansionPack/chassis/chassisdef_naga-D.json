@@ -8,7 +8,7 @@
     "UIName": "Naga",
     "Id": "chassisdef_naga-D",
     "Name": "Naga",
-    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant downgrades the missile launcher of the C configuration to an SRM-4 while upgrading one of the two ER Small Lasers to an ER Medium Laser.\n",
+    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant downgrades the missile launcher of the C configuration to an SRM-4 while upgrading one of the two ER Small Lasers to an ER Medium Laser.",
     "Icon": "uixTxrIcon_naga"
   },
   "MovementCapDefID": "movedef_naga-D",
@@ -210,7 +210,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Artillery & Fire Support",
-  "YangsThoughts": "Another shift in support weapons, this Naga ditches the SRM-6 for a SRM-4 launcher and an ER Medium Laser. More dakka for close-range brawls, and still some long-range punch from the Arrow IVs.",
+  "YangsThoughts": "Another shift in support weapons, this Naga ditches the SRM-6 for an SRM-4 launcher and an ER Medium Laser. More dakka for close-range brawls, and still some long-range punch from the Arrow IVs.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

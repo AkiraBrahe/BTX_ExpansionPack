@@ -26,7 +26,7 @@
     "UIName": "Commando COM-4H",
     "Id": "mechdef_commando_COM-4H",
     "Name": "Commando",
-    "Details": "The Marian Hegemony 4H variant of the Commando is used in the Periphery and removes all of the SRM launchers and replaces them with six RL-15s as well as a second Medium Laser.\n",
+    "Details": "The Marian Hegemony 4H variant of the Commando is used in the Periphery and removes all of the SRM launchers and replaces them with six RL-15s as well as a second Medium Laser.",
     "Icon": "uixTxrIcon_commando"
   },
   "simGameMechPartCost": 190000,

@@ -8,7 +8,7 @@
     "UIName": "Zeus-X",
     "Id": "chassisdef_zeus-x_ZEU-X",
     "Name": "Zeus-X",
-    "Details": "<color=#F79B26>The Zeus-X takes the original Zeus design to new heights, serving as both a model of excellence in production engineering and an innovative high-technology platform.</color>\n\nThe first of the Zeus-X series combines a massive 400-rated XXL engine with fourteen tons of reactive armor to protect its fragile composite skeleton. Its primary weapon is an LB-X Autocannon/20, which is supported by an MRM-30 launcher. It carries three tons of ammunition for the LB 20-X and two tons of ammunition for the MRM-30, both of which are stored in the right torso and protected by CASE II. The Zeus-X also has two Medium X-Pulse Lasers for close combat.\n",
+    "Details": "<color=#F79B26>The Zeus-X takes the original Zeus design to new heights, serving as both a model of excellence in production engineering and an innovative high-technology platform.</color>\n\nThe first of the Zeus-X series combines a massive 400-rated XXL engine with fourteen tons of reactive armor to protect its fragile composite skeleton. Its primary weapon is an LB-X Autocannon/20, which is supported by an MRM-30 launcher. It carries three tons of ammunition for the LB 20-X and two tons of ammunition for the MRM-30, both of which are stored in the right torso and protected by CASE II. The Zeus-X also has two Medium X-Pulse Lasers for close combat.",
     "Icon": "uixTxrIcon_zeus-x"
   },
   "MovementCapDefID": "movedef_zeus-x_ZEU-X",
@@ -213,7 +213,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Ranged Assault",
-  "YangsThoughts": "Chock-full of experimental technology, the Zeus-X is a radical departure from the original design, pushing its capabilities to the limits. It's got a composite chassis, which saves on weight but also makes it more fragile. To compensate, the arms and legs are reinforced with reactive armor. The heart of the 'Mech is an enormous and expensive 400-rated XXL engine, giving it exceptional speed. As for weaponry, it packs an LB-X Autocannon/20 for main firepower, backed up by a MRM-30 launcher. If the Zeus-X can close the distance, its two Medium X-Pulse Lasers will melt through enemy armor and internals.",
+  "YangsThoughts": "Chock-full of experimental technology, the Zeus-X is a radical departure from the original design, pushing its capabilities to the limits. It's got a composite chassis, which saves on weight but also makes it more fragile. To compensate, the arms and legs are reinforced with reactive armor. The heart of the 'Mech is an enormous and expensive 400-rated XXL engine, giving it exceptional speed. As for weaponry, it packs an LB-X Autocannon/20 for main firepower, backed up by an MRM-30 launcher. If the Zeus-X can close the distance, its two Medium X-Pulse Lasers will melt through enemy armor and internals.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

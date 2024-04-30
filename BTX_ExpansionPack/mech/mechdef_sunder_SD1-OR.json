@@ -27,7 +27,7 @@
     "UIName": "Sunder SD1-OR",
     "Id": "mechdef_sunder_SD1-OR",
     "Name": "Sunder",
-    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It carries two Large Pulse Lasers and a LB 10-X AC backed up by four ER Medium Lasers and a pair of Streak SRM-6 launchers.\n",
+    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It carries two Large Pulse Lasers and an LB 10-X AC backed up by four ER Medium Lasers and a pair of Streak SRM-6 launchers.",
     "Icon": "uixTxrIcon_sunder"
   },
   "simGameMechPartCost": 2920000,

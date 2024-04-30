@@ -26,7 +26,7 @@
     "UIName": "Thresher 2",
     "Id": "mechdef_thresher-2",
     "Name": "Thresher",
-    "Details": "<color=#F79B26>The Thresher is a second-line BattleMech that is all-around average; it excels at nothing, but rarely performs poorly. It served as a model for the Summoner OmniMech.</color>\n\nThis variant is more respectable at long-range. It downgrades the autocannon to an LB-X Autocannon/5. The weight saved is used to upgrade the pulse lasers to ER Large Lasers.\n",
+    "Details": "<color=#F79B26>The Thresher is a second-line BattleMech that is all-around average; it excels at nothing, but rarely performs poorly. It served as a model for the Summoner OmniMech.</color>\n\nThis variant is more respectable at long-range. It downgrades the autocannon to an LB-X Autocannon/5. The weight saved is used to upgrade the pulse lasers to ER Large Lasers.",
     "Icon": "uixTxrIcon_thresher"
   },
   "simGameMechPartCost": 1360000,

@@ -20,7 +20,7 @@
     "Id": "vehicledef_CARRIER_LRM_WoB",
     "Name": "LRM Carrier",
     "UIName": "LRM Carrier (WoB)",
-    "Details": "<b>Name: <color=#85DBF6>LRM Carrier (WoB)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 XL</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>LRM Carrier (WoB)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 XL</color></b>\n\nThe LRM Carrier is a long-range missile platform used by armies throughout the Inner Sphere. It's a descendant of centuries-old mobile rocket technology, offering cheap and effective fire support in various configurations.\n\nAn even more radical upgrade produced by the Word of Blake in 3064, this variant utilizes an extralight fusion engine to boost the speed and armor of the carrier, while still retaining enough weight to add a C3i unit and an Artemis IV FCS for each launcher.",
     "Icon": "uixVhclIcon_lrmcarrier",
     "Cost": 8336000,
     "Rarity": 0,

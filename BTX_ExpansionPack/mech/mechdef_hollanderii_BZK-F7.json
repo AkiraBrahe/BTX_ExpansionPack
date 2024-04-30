@@ -26,7 +26,7 @@
     "UIName": "Hollander II BZK-F7",
     "Id": "mechdef_hollanderii_BZK-F7",
     "Name": "Hollander II",
-    "Details": "The F7 is a modified F5 that uses the Hollander II's larger weapons payload to mount a Heavy Gauss Rifle capable of causing significant damage at short to medium ranges. While the variant's firepower has been improved, the removal of backup weaponry to fit this massive weapon leaves it with the same issues as the original Hollander.\n",
+    "Details": "The F7 is a modified F5 that uses the Hollander II's larger weapons payload to mount a Heavy Gauss Rifle capable of causing significant damage at short to medium ranges. While the variant's firepower has been improved, the removal of backup weaponry to fit this massive weapon leaves it with the same issues as the original Hollander.",
     "Icon": "uixTxrIcon_hollander"
   },
   "simGameMechPartCost": 410000,

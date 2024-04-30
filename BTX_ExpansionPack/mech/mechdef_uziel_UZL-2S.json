@@ -26,7 +26,7 @@
     "UIName": "Uziel UZL-2S",
     "Id": "mechdef_uziel_UZL-2S",
     "Name": "Uziel",
-    "Details": "<color=#F79B26>The Uziel, a 50-ton BattleMech produced by Defiance Industries on Furillo rather than their prestigious Hesperus facility, is often viewed with disdain by the Lyran Commonwealth Armed Forces.</color>\n\nThe 2S, based on the original Uziel prototype, specializes in long-range combat, with a pair of PPCs as its primary weapons. For close-range encounters, this variant is equipped with an SRM-6 launcher. A pair of Machine Guns also provide anti-infantry capabilities, ensuring the Uziel can engage targets at various ranges. A Beagle Active Probe detects hidden units and protects the 'Mech from ambushes.\n",
+    "Details": "<color=#F79B26>The Uziel, a 50-ton BattleMech produced by Defiance Industries on Furillo rather than their prestigious Hesperus facility, is often viewed with disdain by the Lyran Commonwealth Armed Forces.</color>\n\nThe 2S, based on the original Uziel prototype, specializes in long-range combat, with a pair of PPCs as its primary weapons. For close-range encounters, this variant is equipped with an SRM-6 launcher. A pair of Machine Guns also provide anti-infantry capabilities, ensuring the Uziel can engage targets at various ranges. A Beagle Active Probe detects hidden units and protects the 'Mech from ambushes.",
     "Icon": "uixTxrIcon_uziel"
   },
   "simGameMechPartCost": 1010000,

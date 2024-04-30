@@ -21,7 +21,7 @@
     "Id": "vehicledef_ATHENA",
     "Name": "Athena Combat Vehicle",
     "UIName": "Athena Combat Vehicle (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Athena Combat Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nBuilt for precision strikes, the Athena spearheads Clan Hell's Horses' assaults. This lightly armored sniper carries a pair of Gauss rifles, relying on a Targeting Computer for pinpoint accuracy. Backing them up are a LRM-10 and twin ER Medium Lasers for added firepower, all benefiting from the Targeting Computer's boost. Should infantry assault the tank, it can unleash its two Machine Guns on them.",
+    "Details": "<b>Name: <color=#85DBF6>Athena Combat Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>225 Fusion</color></b>\n\nBuilt for precision strikes, the Athena spearheads Clan Hell's Horses' assaults. This lightly armored sniper carries a pair of Gauss rifles, relying on a Targeting Computer for pinpoint accuracy. Backing them up are an LRM-10 and twin ER Medium Lasers for added firepower, all benefiting from the Targeting Computer's boost. Should infantry assault the tank, it can unleash its two Machine Guns on them.",
     "Icon": "uixVhclIcon_athena",
     "Cost": 4432750,
     "Rarity": 0,

@@ -8,7 +8,7 @@
     "UIName": "Garm",
     "Id": "chassisdef_garm_GRM-01C",
     "Name": "Garm",
-    "Details": "Introduced in the leadup to the FedCom Civil War, the 1C variant of the Garm simply replaces the LB-X AC/5 with a RAC/5. Two tons of CASE protected ammunition are carried to feed the hungry weapon; when this is depleted, the left torso-mounted ER Medium Laser is the 'Mech's only fallback weapon.\n",
+    "Details": "Introduced in the leadup to the FedCom Civil War, the 1C variant of the Garm simply replaces the LB-X AC/5 with a RAC/5. Two tons of CASE protected ammunition are carried to feed the hungry weapon; when this is depleted, the left torso-mounted ER Medium Laser is the 'Mech's only fallback weapon.",
     "Icon": "uixTxrIcon_garm"
   },
   "MovementCapDefID": "movedef_garm_GRM-01C",

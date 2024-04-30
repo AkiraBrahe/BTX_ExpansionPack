@@ -18,7 +18,7 @@
     "Id": "vehicledef_WARRIOR_H-7A",
     "Name": "Warrior Attack Helicopter",
     "UIName": "Warrior Attack Helicopter H-7A",
-    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-7A</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (VTOL)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe Warrior H-7 attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nThe 7A variant drops the missile launcher for a Machine Gun with half a ton of ammunition, freeing up enough space to upgrade the autocannon to a Autocannon/5.",
+    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-7A</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/17 (VTOL)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe Warrior H-7 attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nThe 7A variant drops the missile launcher for a Machine Gun with half a ton of ammunition, freeing up enough space to upgrade the autocannon to an Autocannon/5.",
     "Icon": "uixVhclIcon_warrior",
     "Cost": 522750,
     "Rarity": 0,

@@ -8,7 +8,7 @@
     "UIName": "Mauler",
     "Id": "chassisdef_mauler_MAL-1Y",
     "Name": "Mauler",
-    "Details": "The MAL-1Y is a minor modification of the Mauler 1R that uses standard Large Lasers instead of ER Large Lasers due to supply shortages. The rest of the loadout is the same, as is its unique armor distribution that prioritizes the front armor and legs.\n",
+    "Details": "The MAL-1Y is a minor modification to the Mauler 1R that trades the ER Large Lasers for the same, more readily available Large Lasers used on the Daboku. The rest of its weaponry remains the same, as does its unique armor distribution that prioritizes the torso over the legs.",
     "Icon": "uixTxrIcon_mauler"
   },
   "MovementCapDefID": "movedef_mauler_MAL-1Y",

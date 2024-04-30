@@ -20,7 +20,7 @@
     "Id": "vehicledef_CARRIER_LIGHTSRM",
     "Name": "Light SRM Carrier",
     "UIName": "Light SRM Carrier",
-    "Details": "<b>Name: <color=#85DBF6>Light SRM Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Light SRM Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Light SRM carrier is a Taurian Concordat design that improves upon the classic SRM Carrier, allowing it to be smaller, faster, and built on a wheeled chassis. While packing four and a half tons of armor and a reliable internal combustion engine, its focus is purely offensive. Five SRM-6 launchers with three tons of ammo make it a disposable striker, ideal for quickly crippling damaged opponents.",
     "Icon": "uixVhclIcon_lightsrmcarrier",
     "Cost": 824200,
     "Rarity": 0,

@@ -28,7 +28,7 @@
     "UIName": "Warhammer C",
     "Id": "mechdef_warhammer_C",
     "Name": "Warhammer",
-    "Details": "This variant of the venerable Warhammer is a Clan-tech retrofit intended for second-line and solahma troops. It replaces most of the Inner Sphere-tech weaponry of the original WHM-6R with Clan equivalents and uses the weight savings to add two more heat sinks. The PPCs are replaced with Large Pulse Lasers, the SRM-6 is upgraded to a Streak SRM-6, and all lasers are upgraded to ER Medium and ER Small Lasers. Only the Machine Guns remain unchanged.\n",
+    "Details": "This variant of the venerable Warhammer is a Clan-tech retrofit intended for second-line and solahma troops. It replaces most of the Inner Sphere-tech weaponry of the original WHM-6R with Clan equivalents and uses the weight savings to add two more heat sinks. The PPCs are replaced with Large Pulse Lasers, the SRM-6 is upgraded to a Streak SRM-6, and all lasers are upgraded to ER Medium and ER Small Lasers. Only the Machine Guns remain unchanged.",
     "Icon": "uixTxrIcon_warhammerc"
   },
   "simGameMechPartCost": 680000,

@@ -8,7 +8,7 @@
     "UIName": "Flashman",
     "Id": "chassisdef_flashman_FLS-9C",
     "Name": "Flashman",
-    "Details": "The 9C is a complete overhaul of the Flashman, carrying three ER Large Lasers, four Medium Pulse lasers, a Medium Laser, and an Improved C3 computer. To accomplish this, the armor on the design has been upgraded to ferro-fibrous, and the 'Mech now has an endo steel chassis.\n",
+    "Details": "The 9C is a complete overhaul of the Flashman, carrying three ER Large Lasers, four Medium Pulse lasers, a Medium Laser, and an Improved C3 computer. To accomplish this, the armor on the design has been upgraded to ferro-fibrous, and the 'Mech now has an endo steel chassis.",
     "Icon": "uixTxrIcon_flashman"
   },
   "MovementCapDefID": "movedef_flashman_FLS-9C",

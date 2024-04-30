@@ -8,7 +8,7 @@
     "UIName": "Hankyu",
     "Id": "chassisdef_hankyu_arctic_cheetah-H",
     "Name": "Hankyu",
-    "Details": "This configuration uses a Heavy Medium Laser, a pair of Heavy Small Lasers, and a Flamer for short-range firepower. It has an ER Large Laser for long range. Three additional double heat sinks keep heat levels in check.\n",
+    "Details": "This configuration uses a Heavy Medium Laser, a pair of Heavy Small Lasers, and a Flamer for short-range firepower. It has an ER Large Laser for long range. Three additional double heat sinks keep heat levels in check.",
     "Icon": "uixTxrIcon_hankyu"
   },
   "MovementCapDefID": "movedef_hankyu_arctic_cheetah-H",

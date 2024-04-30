@@ -8,7 +8,7 @@
     "UIName": "Rising Star",
     "Id": "chassisdef_risingstar_RST-4R",
     "Name": "Rising Star",
-    "Details": "<color=#F79B26>The Rising Star is a relatively unknown Star League era BattleMech that went onto serve as the basis of the Word of Blake's Legacy.</color>\n\nThe RST-4R is built around a standard 240-rated fusion engine and fifteen and a half tons of armor, the maximum for an 80-ton BattleMech. Both features were carried over to the later Legacy model. Offensively, the Rising Star mounts a single standard autocannon instead of the Legacy's dual Ultra Autocannon/10s.\n",
+    "Details": "<color=#F79B26>The Rising Star is a relatively unknown Star League era BattleMech that went onto serve as the basis of the Word of Blake's Legacy.</color>\n\nThe RST-4R is built around a standard 240-rated fusion engine and fifteen and a half tons of armor, the maximum for an 80-ton BattleMech. Both features were carried over to the later Legacy model. Offensively, the Rising Star mounts a single standard autocannon instead of the Legacy's dual Ultra Autocannon/10s.",
     "Icon": "uixTxrIcon_risingstar"
   },
   "MovementCapDefID": "movedef_risingstar_RST-4R",

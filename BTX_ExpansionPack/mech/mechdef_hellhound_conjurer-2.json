@@ -6,6 +6,7 @@
       "unit_role_scout",
       "unit_lance_support",
       "unit_lance_assassin",
+      "unit_range_medium",
       "unit_armor_high",
       "unit_speed_high",
       "unit_jumpOK",
@@ -26,7 +27,7 @@
     "UIName": "Hellhound 2",
     "Id": "mechdef_hellhound_conjurer-2",
     "Name": "Hellhound",
-    "Details": "The Conjurer 2 is a complete rebuild of the primary configuration, with an upgraded 350 XL fusion engine and an extra jump jet. To allow for maximum flexibility, the weapons are removed to make way for an ATM-9 with three tons of ammunition, completed by a pair of Medium Pulse Lasers linked to a Targeting Computer. A half-ton of armor increases the armor protection to the maximum that the 50-ton chassis can support.\n",
+    "Details": "The Conjurer 2 is a complete rebuild of the primary configuration, with an upgraded 350 XL fusion engine and an extra jump jet. To allow for maximum flexibility, the weapons are removed to make way for an ATM-9 with three tons of ammunition, completed by a pair of Medium Pulse Lasers linked to a Targeting Computer. A half-ton of armor increases the armor protection to the maximum that the 50-ton chassis can support.",
     "Icon": "uixTxrIcon_hellhound"
   },
   "simGameMechPartCost": 1170000,

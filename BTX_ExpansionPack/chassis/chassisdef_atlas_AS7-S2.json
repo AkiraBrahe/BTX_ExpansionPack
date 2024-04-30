@@ -8,7 +8,7 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-S2",
     "Name": "Atlas",
-    "Details": "The S2 Atlas is a major upgrade of the design by the Lyran Alliance coming out of the Hesperus II facility in 3061. The 'Mech is built with a light fusion engine and carries an Artemis IV-enhanced LRM-15 launcher and two ER large lasers as its primary long-range weapons. For close combat, the 'Mech is armed with a Heavy Gauss Rifle. The S2 mounts a Guardian ECM Suite in place of the AMS to protect against enemy electronic warfare equipment.\n",
+    "Details": "The S2 Atlas is a major upgrade of the design by the Lyran Alliance coming out of the Hesperus II facility in 3061. The 'Mech is built with a light fusion engine and carries an Artemis IV-enhanced LRM-15 launcher and two ER large lasers as its primary long-range weapons. For close combat, the 'Mech is armed with a Heavy Gauss Rifle. The S2 mounts a Guardian ECM Suite in place of the AMS to protect against enemy electronic warfare equipment.",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_atlas_AS7-S2",

@@ -8,7 +8,7 @@
     "UIName": "Chimera",
     "Id": "chassisdef_chimera_CMA-1S",
     "Name": "Chimera",
-    "Details": "<color=#F79B26>The Chimera was created as a collaborative effort between the Draconis Combine, Federated Commonwealth, and Lyran Alliance in the run-up to Operation Bulldog.</color>\n\nThe Chimera carries a diverse arsenal of weapons, with its two primary weapons being an ER Large Laser and an MRM-20 launcher, giving the 'Mech a powerful medium-range punch for its size. For close combat, the 'Mech is armed with an ER Medium Maser and a Machine Gun.\n",
+    "Details": "<color=#F79B26>The Chimera was created as a collaborative effort between the Draconis Combine, Federated Commonwealth, and Lyran Alliance in the run-up to Operation Bulldog.</color>\n\nThe Chimera carries a diverse arsenal of weapons, with its two primary weapons being an ER Large Laser and an MRM-20 launcher, giving the 'Mech a powerful medium-range punch for its size. For close combat, the 'Mech is armed with an ER Medium Maser and a Machine Gun.",
     "Icon": "uixTxrIcon_chimera"
   },
   "MovementCapDefID": "movedef_chimera_CMA-1S",

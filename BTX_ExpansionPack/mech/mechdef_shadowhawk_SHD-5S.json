@@ -28,7 +28,7 @@
     "UIName": "Shadow Hawk SHD-5S",
     "Id": "mechdef_shadowhawk_SHD-5S",
     "Name": "Shadow Hawk",
-    "Details": "This heavy scout variant carries a Large Laser in the right arm, a pair of Medium Lasers in each side torso, and a Medium Pulse Laser with a coaxially mounted TAG system in the left arm. A Guardian ECM and a Beagle Active Probe are also installed on the 'Mech. The most interesting change, however, is the use of a more powerful 330-rated XL engine that gives a top speed of 97.2 km/h which, when combined with the Shadow Hawk's five jump jets, allows it to get out of tight spots.\n",
+    "Details": "This heavy scout variant carries a Large Laser in the right arm, a pair of Medium Lasers in each side torso, and a Medium Pulse Laser with a coaxially mounted TAG system in the left arm. A Guardian ECM and a Beagle Active Probe are also installed on the 'Mech. The most interesting change, however, is the use of a more powerful 330-rated XL engine that gives a top speed of 97.2 km/h which, when combined with the Shadow Hawk's five jump jets, allows it to get out of tight spots.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
   "simGameMechPartCost": 1220000,

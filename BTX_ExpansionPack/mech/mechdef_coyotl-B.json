@@ -26,7 +26,7 @@
     "UIName": "Coyotl B",
     "Id": "mechdef_coyotl-B",
     "Name": "Coyotl",
-    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, was the first OmniMech ever built. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThe Coyotl B is the first of several configurations introduced by Clan Sea Fox. It uses an UAC/10 in the right arm as its main firepower, supported by an ER Medium Laser and SRM-6 launcher.\n",
+    "Details": "<color=#F79B26>The Coyotl, developed by Clan Coyote, was the first OmniMech ever built. Taking the modular nature of the earlier Mercury to its logical conclusion, the Coyotl is designed to have its weapon loadout interchangeable between missions.</color>\n\nThe Coyotl B is the first of several configurations introduced by Clan Sea Fox. It uses a UAC/10 in the right arm as its main firepower, supported by an ER Medium Laser and SRM-6 launcher.",
     "Icon": "uixTxrIcon_mercuryii"
   },
   "simGameMechPartCost": 910000,

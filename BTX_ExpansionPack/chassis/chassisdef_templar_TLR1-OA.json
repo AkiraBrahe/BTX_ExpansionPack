@@ -8,7 +8,7 @@
     "UIName": "Templar",
     "Id": "chassisdef_templar_TLR1-OA",
     "Name": "Templar",
-    "Details": "<color=#F79B26>The Templar is an assault OmniMech commissioned with his own considerable financial resources by Duke George Hasek-Davion.</color>\n\nThe A configuration is intended for long-range combat. Its primary weapon is an ER PPC, which is complemented by an Ultra Autocannon/10 that can fire at twice the rate of a standard autocannon. Both of these are linked to an advanced Targeting Computer for greater accuracy. The Templar A has a Streak SRM-6 launcher for close combat, and four jump jets for increased mobility. A Guardian ECM Suite protects it from enemy electronic warfare.\n",
+    "Details": "<color=#F79B26>The Templar is an assault OmniMech commissioned with his own considerable financial resources by Duke George Hasek-Davion.</color>\n\nThe A configuration is intended for long-range combat. Its primary weapon is an ER PPC, which is complemented by an Ultra Autocannon/10 that can fire at twice the rate of a standard autocannon. Both of these are linked to an advanced Targeting Computer for greater accuracy. The Templar A has a Streak SRM-6 launcher for close combat, and four jump jets for increased mobility. A Guardian ECM Suite protects it from enemy electronic warfare.",
     "Icon": "uixTxrIcon_templar"
   },
   "MovementCapDefID": "movedef_templar_TLR1-OA",

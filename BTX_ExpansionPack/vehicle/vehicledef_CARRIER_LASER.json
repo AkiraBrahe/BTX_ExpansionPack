@@ -19,7 +19,7 @@
     "Id": "vehicledef_CARRIER_LASER",
     "Name": "Laser Carrier",
     "UIName": "Laser Carrier",
-    "Details": "<b>Name: <color=#85DBF6>Laser Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe Laser Carrier is a 60-ton tracked vehicle outfitted with eight Medium Lasers. It is as expensive as the AC/2 Carrier, but without the ammunition constraints, making it a more popular choice for many factions.",
+    "Details": "<b>Name: <color=#85DBF6>Laser Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe LRM Carrier is a long-range missile platform used by armies throughout the Inner Sphere. It's a descendant of centuries-old mobile rocket technology, offering cheap and effective fire support in various configurations.\n\nA Succession Wars era variant introduced in 2874, this modification replaces the LRM Carrier's missile launchers and ammunition with a forward-facing pack of eight Medium Lasers.",
     "Icon": "uixVhclIcon_carrier",
     "Cost": 1100800,
     "Rarity": 0,

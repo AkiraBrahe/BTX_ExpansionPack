@@ -27,7 +27,7 @@
     "UIName": "Tempest TMP-3MA",
     "Id": "mechdef_tempest_TMP-3MA",
     "Name": "Tempest",
-    "Details": "<color=#F79B26>The Tempest is a low-end, heavy 'Mech that is built to pack a powerful punch at both long and short ranges.</color>\n\nThis version simply removes the Gauss Rifle and replaces it with an Autocannon/10, two tons of ammunition, and an extra double heat sink.\n",
+    "Details": "<color=#F79B26>The Tempest is a low-end, heavy 'Mech that is built to pack a powerful punch at both long and short ranges.</color>\n\nThis version simply removes the Gauss Rifle and replaces it with an Autocannon/10, two tons of ammunition, and an extra double heat sink.",
     "Icon": "uixTxrIcon_tempest"
   },
   "simGameMechPartCost": 1170000,

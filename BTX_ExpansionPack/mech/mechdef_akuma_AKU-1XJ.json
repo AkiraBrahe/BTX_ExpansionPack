@@ -27,7 +27,7 @@
     "UIName": "Akuma AKU-1XJ",
     "Id": "mechdef_akuma_AKU-1XJ",
     "Name": "Akuma",
-    "Details": "<color=#F79B26>The Akuma, which means \"Devil\" in Japanese, was created as a low-cost alternative to the Atlas. It inherits its predecessor's imposing presence, with a menacing head design meant to strike fear in its enemies.</color>\n\nA jump-capable variant of the Akuma, the 1XJ can leap up to ninety meters by sacrificing heat dissipation capacity and firepower. The 'Mech has only ten double heat sinks and completely changes its weapons array. The only long-range weapon it wields is an ER Large Laser, while the MRM-30 is upgraded to an MRM-40 launcher. For overwhelming close-range firepower, the 1XJ carries an LB-X Autocannon/20 in place of the class-10 version of the 1X, and has two Medium Pulse Lasers and an ER Small Laser.\n",
+    "Details": "<color=#F79B26>The Akuma, which means \"Devil\" in Japanese, was created as a low-cost alternative to the Atlas. It inherits its predecessor's imposing presence, with a menacing head design meant to strike fear in its enemies.</color>\n\nA jump-capable variant of the Akuma, the 1XJ can leap up to ninety meters by sacrificing heat dissipation capacity and firepower. The 'Mech has only ten double heat sinks and completely changes its weapons array. The only long-range weapon it wields is an ER Large Laser, while the MRM-30 is upgraded to an MRM-40 launcher. For overwhelming close-range firepower, the 1XJ carries an LB-X Autocannon/20 in place of the class-10 version of the 1X, and has two Medium Pulse Lasers and an ER Small Laser.",
     "Icon": "uixTxrIcon_akuma"
   },
   "simGameMechPartCost": 980000,

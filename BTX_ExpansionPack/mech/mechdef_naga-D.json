@@ -26,7 +26,7 @@
     "UIName": "Naga D",
     "Id": "mechdef_naga-D",
     "Name": "Naga",
-    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant downgrades the missile launcher of the C configuration to an SRM-4 while upgrading one of the two ER Small Lasers to an ER Medium Laser.\n",
+    "Details": "<color=#F79B26>The Naga, named after a mythical race of serpent-like beings, is a fire-support successor to the first-generation Woodsman OmniMech.</color>\n\nThis variant downgrades the missile launcher of the C configuration to an SRM-4 while upgrading one of the two ER Small Lasers to an ER Medium Laser.",
     "Icon": "uixTxrIcon_naga"
   },
   "simGameMechPartCost": 2670000,

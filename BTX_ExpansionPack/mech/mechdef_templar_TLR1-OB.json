@@ -26,7 +26,7 @@
     "UIName": "Templar TLR1-OB",
     "Id": "mechdef_templar_TLR1-OB",
     "Name": "Templar",
-    "Details": "<color=#F79B26>The Templar is an assault OmniMech commissioned with his own considerable financial resources by Duke George Hasek-Davion.</color>\n\nThe Templar B is a workhorse configuration that can engage an enemy at both short and long ranges. This configuration carries an ER PPC for long-range combat, three Rotary Autocannon/2s for intermediate ranges, and two ER Medium Lasers for close combat. The Templar B has four additional double heat sinks to handle the 'Mech's heat load.\n",
+    "Details": "<color=#F79B26>The Templar is an assault OmniMech commissioned with his own considerable financial resources by Duke George Hasek-Davion.</color>\n\nThe Templar B is a workhorse configuration that can engage an enemy at both short and long ranges. This configuration carries an ER PPC for long-range combat, three Rotary Autocannon/2s for intermediate ranges, and two ER Medium Lasers for close combat. The Templar B has four additional double heat sinks to handle the 'Mech's heat load.",
     "Icon": "uixTxrIcon_templar"
   },
   "simGameMechPartCost": 2550000,

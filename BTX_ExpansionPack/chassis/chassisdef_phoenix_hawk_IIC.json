@@ -8,7 +8,7 @@
     "UIName": "Phoenix Hawk IIC",
     "Id": "chassisdef_phoenix_hawk_IIC",
     "Name": "Phoenix Hawk IIC",
-    "Details": "<color=#F79B26>The Phoenix Hawk IIC, though it resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThe first model gets as close to the original Phoenix Hawk's ground speed and agility as an 80-ton assault 'Mech can reasonably achieve by being built around a 400 XL engine on an endo steel skeleton fitted with five jump jets. Its primary armament consists of two Ultra Autocannon/10s, each with three tons of ammunition. A pair of Machine Guns provide extra firepower, which is especially useful against unarmored targets. Despite the Clans' disdain for it, the 'Mech's weaponless arms are almost ideal for physical combat.\n",
+    "Details": "<color=#F79B26>The Phoenix Hawk IIC, though it resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThe first model gets as close to the original Phoenix Hawk's ground speed and agility as an 80-ton assault 'Mech can reasonably achieve by being built around a 400 XL engine on an endo steel skeleton fitted with five jump jets. Its primary armament consists of two Ultra Autocannon/10s, each with three tons of ammunition. A pair of Machine Guns provide extra firepower, which is especially useful against unarmored targets. Despite the Clans' disdain for it, the 'Mech's weaponless arms are almost ideal for physical combat.",
     "Icon": "uixTxrIcon_phoenixhawkiic"
   },
   "MovementCapDefID": "movedef_phoenix_hawk_IIC",
@@ -207,7 +207,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher",
-  "YangsThoughts": "This IIC throws the Phoenix Hawk name in the trash! 35 tons heavier, it's all assault 'Mech now. Forget lasers, twin UAC/10s rain heavy metal and two Machine Guns add close-range bite. Can still jump, but watch your landing, this bird's a chonker.",
+  "YangsThoughts": "This IIC variant is significantly different from the standard Phoenix Hawk design. Despite being 35 tons heavier, it almost has the same mobility while carrying a pair of UAC/10s and some machine guns for close-quarters work. It may not have the most firepower for its weight, but it's still a formidable assault 'Mech.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

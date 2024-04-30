@@ -8,7 +8,7 @@
     "UIName": "Akuma",
     "Id": "chassisdef_akuma_AKU-1X",
     "Name": "Akuma",
-    "Details": "<color=#F79B26>The Akuma, which means \"Devil\" in Japanese, was created as a low-cost alternative to the Atlas. It inherits its predecessor's imposing presence, with a menacing head design meant to strike fear in its enemies.</color>\n\nArmed with an ER PPC and a powerful LB-X Autocannon/10, the Akuma excels at long-range engagement. The autocannon's versatility to fire both solid and cluster munitions gives it a good amount of flexibility in engaging targets. For mid-to-close quarters combat, the 'Mech carries a MRM-30 launcher and two highly accurate short-range missile launchers: a Streak SRM-6 and SRM-4. Its arsenal is further enhanced by a Medium Laser and a Medium Pulse Laser, completing the Akumas eclectic and effective weapons payload.\n",
+    "Details": "<color=#F79B26>The Akuma, which means \"Devil\" in Japanese, was created as a low-cost alternative to the Atlas. It inherits its predecessor's imposing presence, with a menacing head design meant to strike fear in its enemies.</color>\n\nArmed with an ER PPC and a powerful LB-X Autocannon/10, the Akuma excels at long-range engagement. The autocannon's versatility to fire both solid and cluster munitions gives it a good amount of flexibility in engaging targets. For mid-to-close quarters combat, the 'Mech carries an MRM-30 launcher and two highly accurate short-range missile launchers: a Streak SRM-6 and SRM-4. Its arsenal is further enhanced by a Medium Laser and a Medium Pulse Laser, completing the Akumas eclectic and effective weapons payload.",
     "Icon": "uixTxrIcon_akuma"
   },
   "MovementCapDefID": "movedef_akuma_AKU-1X",
@@ -203,7 +203,7 @@
   "VariantName": "AKU-1X",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.05-1.10-1.10",
+      "mr-resize-1.05",
       "chassis_DHS",
       "chassis_endo",
       "mech_quirk_easytomaintain"
@@ -211,7 +211,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Assault",
-  "YangsThoughts": "An Akuma, eh? This 'Mech may be smaller than an Atlas, but it still got a nasty bite. The LB-X Autocannon/10 is a real treat, and with that MRM-30 launcher, you've got a good mix of firepower and flexibility. Just watch your heat, Boss. That baby can get hot quick.",
+  "YangsThoughts": "Despite being smaller than an Atlas, the Akuma packs a nasty punch. That LB-X Autocannon/10 ain't no joke, and with the MRM-30 on top, you've got a good mix of firepower and flexibility. Just mind the heat, Boss. That thing can get hot quick.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",

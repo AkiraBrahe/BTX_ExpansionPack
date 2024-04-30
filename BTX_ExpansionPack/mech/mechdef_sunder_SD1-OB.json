@@ -27,7 +27,7 @@
     "UIName": "Sunder SD1-OB",
     "Id": "mechdef_sunder_SD1-OB",
     "Name": "Sunder",
-    "Details": "Configured to command a large C3 unit, the Sunder B has two C3 Master computers. These allow the Sunder B to coordinate up to three lances of 'Mechs. The 'Mech is also intended to stay at long ranges with an arsenal of an LRM-20 launcher and an LRM-10 launcher to bombard an enemy from long range. The 'Mech can only rely on two Medium Pulse Lasers and two Medium Lasers for short-range defense, making it vulnerable to rushing attacks.\n",
+    "Details": "Configured to command a large C3 unit, the Sunder B has two C3 Master computers. These allow the Sunder B to coordinate up to three lances of 'Mechs. The 'Mech is also intended to stay at long ranges with an arsenal of an LRM-20 launcher and an LRM-10 launcher to bombard an enemy from long range. The 'Mech can only rely on two Medium Pulse Lasers and two Medium Lasers for short-range defense, making it vulnerable to rushing attacks.",
     "Icon": "uixTxrIcon_sunder"
   },
   "simGameMechPartCost": 3450000,

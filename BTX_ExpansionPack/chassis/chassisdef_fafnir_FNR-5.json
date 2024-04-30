@@ -8,7 +8,7 @@
     "UIName": "Fafnir",
     "Id": "chassisdef_fafnir_FNR-5",
     "Name": "Fafnir",
-    "Details": "<color=#F79B26>Serving as the flagship of Defiance Industries, the Fafnir is one of the most powerful BattleMechs in existence, with its slow assault design providing a platform for a massive weapons payload.</color>\n\nThe Fafnir sports two Heavy Gauss Rifles, the second-largest non-artillery weapon in existence after the Rail Gun. These formidable weapons can inflict immense damage very quickly. Four tons of ammunition for each weapon ensure a steady supply of firepower. However, its backup armament consists of only two ER Medium Lasers and a Medium Pulse Laser, limiting the Fafnir's ability to operate independently from supply lines.\n",
+    "Details": "<color=#F79B26>Serving as the flagship of Defiance Industries, the Fafnir is one of the most powerful BattleMechs in existence, with its slow assault design providing a platform for a massive weapons payload.</color>\n\nThe Fafnir sports two Heavy Gauss Rifles, the second-largest non-artillery weapon in existence after the Rail Gun. These formidable weapons can inflict immense damage very quickly. Four tons of ammunition for each weapon ensure a steady supply of firepower. However, its backup armament consists of only two ER Medium Lasers and a Medium Pulse Laser, limiting the Fafnir's ability to operate independently from supply lines.",
     "Icon": "uixTxrIcon_fafnir"
   },
   "MovementCapDefID": "movedef_fafnir_FNR-5",

@@ -3,7 +3,7 @@
     "items": [
       "unit_mech",
       "unit_assault",
-      "unit_role_brawler",
+      "unit_role_sniper",
       "unit_lance_vanguard",
       "unit_lance_tank",
       "unit_range_long",
@@ -27,7 +27,7 @@
     "UIName": "Atlas AS7-K-DC",
     "Id": "mechdef_atlas_AS7-K-DC",
     "Name": "Atlas",
-    "Details": "The AS7-K-DC is a sub-variant of the Atlas K trading one of the rear-mounted Medium Pulse Lasers and one ton of LRM ammunition for a Command Console.\n",
+    "Details": "The AS7-K-DC is a subvariant of the Atlas K trading one of the rear-mounted Medium Pulse Lasers and one ton of LRM ammunition for a Command Console.",
     "Icon": "uixTxrIcon_atlas"
   },
   "simGameMechPartCost": 2340000,

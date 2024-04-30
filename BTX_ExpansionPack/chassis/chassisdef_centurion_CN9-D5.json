@@ -8,7 +8,7 @@
     "UIName": "Centurion",
     "Id": "chassisdef_centurion_CN9-D5",
     "Name": "Centurion",
-    "Details": "This variant of the Centurion, introduced in 3062, is inspired by the CN9-D and uses the same engine and chassis, but with a completely different loadout. The 'Mech's primary weapon is a Rotary Autocannon/5 backed up by two ER Medium Lasers. To direct this firepower, the 'Mech uses an advanced Targeting Computer and carries a C3 Slave unit to share targeting data with its lancemates.\n",
+    "Details": "This variant of the Centurion, introduced in 3062, is inspired by the CN9-D and uses the same engine and chassis, but with a completely different loadout. The 'Mech's primary weapon is a Rotary Autocannon/5 backed up by two ER Medium Lasers. To direct this firepower, the 'Mech uses an advanced Targeting Computer and carries a C3 Slave unit to share targeting data with its lancemates.",
     "Icon": "uixTxrIcon_centurion"
   },
   "MovementCapDefID": "movedef_centurion_CN9-D5",

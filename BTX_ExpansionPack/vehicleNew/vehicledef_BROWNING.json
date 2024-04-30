@@ -21,7 +21,7 @@
     "Id": "vehicledef_BROWNING",
     "Name": "Browning Mobile HQ",
     "UIName": "Browning Mobile HQ (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Browning Mobile HQ</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Tracked)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Browning Mobile HQ</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Tracked)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nAn alternative to the original SLDF configuration and lacking the full communication suite, this variant carries a Guardian ECM Suite and an Anti-Missile System with a single ton of CASE-protected ammunition.",
     "Icon": "uixVhclIcon_browning",
     "Cost": 830063,
     "Rarity": 0,

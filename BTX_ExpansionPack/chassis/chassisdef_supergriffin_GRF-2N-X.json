@@ -8,7 +8,7 @@
     "UIName": "Super-Griffin",
     "Id": "chassisdef_supergriffin_GRF-2N-X",
     "Name": "Super-Griffin",
-    "Details": "<color=#F79B26>Building upon the legacy of the iconic Griffin, this revamped design features a robust 60-ton frame. To address the reduced speed resulting from the heavier frame, engineers have integrated prototype Improved Jump Jets into the 'Mech.</color>\n\nThe Super-Griffin retains the weapon configuration of the regular GRF-1N Griffin, namely a PPC in the right arm and an LRM-10 launcher with two tons of ammunition in the right torso. Additionally, a Medium Laser was added to the left arm.\n",
+    "Details": "<color=#F79B26>Building upon the legacy of the iconic Griffin, this revamped design features a robust 60-ton frame. To address the reduced speed resulting from the heavier frame, engineers have integrated prototype Improved Jump Jets into the 'Mech.</color>\n\nThe Super-Griffin retains the weapon configuration of the regular GRF-1N Griffin, namely a PPC in the right arm and an LRM-10 launcher with two tons of ammunition in the right torso. Additionally, a Medium Laser was added to the left arm.",
     "Icon": "uixTxrIcon_griffin"
   },
   "MovementCapDefID": "movedef_supergriffin_GRF-2N-X",

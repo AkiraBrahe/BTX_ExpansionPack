@@ -8,7 +8,7 @@
     "UIName": "Tempest",
     "Id": "chassisdef_tempest_TMP-3G",
     "Name": "Tempest",
-    "Details": "<color=#F79B26>The Tempest is a low-end, heavy 'Mech that is built to pack a powerful punch at both long and short ranges.</color>\n\nThe 3G variant is another relatively straightforward variant of the 3M. The only modification is the replacement of the SRM-6 with an SRM-4 to accommodate one extra ton of Gauss Rifle ammunition.\n",
+    "Details": "<color=#F79B26>The Tempest is a low-end, heavy 'Mech that is built to pack a powerful punch at both long and short ranges.</color>\n\nThe 3G variant is another relatively straightforward variant of the 3M. The only modification is the replacement of the SRM-6 with an SRM-4 to accommodate one extra ton of Gauss Rifle ammunition.",
     "Icon": "uixTxrIcon_tempest"
   },
   "MovementCapDefID": "movedef_tempest_TMP-3G",

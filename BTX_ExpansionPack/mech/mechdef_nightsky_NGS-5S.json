@@ -27,7 +27,7 @@
     "UIName": "Nightsky NGS-5S",
     "Id": "mechdef_nightsky_NGS-5S",
     "Name": "Nightsky",
-    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nA simple upgrade of the Nightsky, the 5S looks to make the 'Mech more heat efficient. This is achieved by removing the jump jets and replacing them with three additional double heat sinks.\n",
+    "Details": "<color=#F79B26>The Nightsky is a mid-range continuation of the Federated Commonwealth's successful Hatchetman-Axman series, which established melee combat weapons as a powerful and heat-efficient close-combat option for the experienced MechWarrior. The Nighsky is designed to provide both speed and firepower.</color>\n\nA simple upgrade of the Nightsky, the 5S looks to make the 'Mech more heat efficient. This is achieved by removing the jump jets and replacing them with three additional double heat sinks.",
     "Icon": "uixTxrIcon_nightsky"
   },
   "simGameMechPartCost": 890000,

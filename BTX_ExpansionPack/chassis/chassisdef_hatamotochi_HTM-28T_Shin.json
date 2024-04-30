@@ -8,7 +8,7 @@
     "UIName": "Hatamoto-Chi",
     "Id": "chassisdef_hatamotochi_HTM-28T_Shin",
     "Name": "Hatamoto-Chi",
-    "Details": "The Hatamoto-Chi Shin, literally the \"True Guardian of the Banner\", is a complete rearmament of an HTM-28T, with only the C3 Slave remaining. A Gauss Rifle is fitted in the left arm, with three tons of ammunition in the left torso. The left torso also holds six Medium Pulse Lasers. The right arm carries a Large Sword, with Triple-Strength Myomer greatly increasing the damage done by the blade. Only ten double heat sinks are used, allowing the TSM to remain active.\n",
+    "Details": "The Hatamoto-Chi Shin, literally the \"True Guardian of the Banner\", is a complete rearmament of an HTM-28T, with only the C3 Slave remaining. A Gauss Rifle is fitted in the left arm, with three tons of ammunition in the left torso. The left torso also holds six Medium Pulse Lasers. The right arm carries a Large Sword, with Triple-Strength Myomer greatly increasing the damage done by the blade. Only ten double heat sinks are used, allowing the TSM to remain active.",
     "Icon": "uixTxrIcon_hatamotochisam"
   },
   "MovementCapDefID": "movedef_hatamotochi_HTM-28T_Shin",
@@ -221,16 +221,16 @@
   "YangsThoughts": "",
   "FixedEquipment": [
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_Triple_Strength_Myomer_6",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Earthwerks_VOL_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Earthwerks_VOL_Chassis",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Triple_Strength_Myomer_6",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

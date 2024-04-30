@@ -8,7 +8,7 @@
     "UIName": "Matar",
     "Id": "chassisdef_matar_SAM-RS2",
     "Name": "Matar",
-    "Details": "<color=#F79B26>The Matar, known as \"Amaris' Folly\", was an attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar was unfortunately doomed when its leg actuators proved incapable of moving the massive machine.</color>\n\nWith an intended role of static defense, the Matar is built around long-range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units, the 'Mech is armed with a pair of Large Pulse Lasers and a single Medium Pulse Laser. The Matar also carries a pair of Flamers to roast opposing infantry alive and a Guardian ECM to guard against against long-range threats.\n",
+    "Details": "<color=#F79B26>The Matar, known as \"Amaris' Folly\", was an attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar was unfortunately doomed when its leg actuators proved incapable of moving the massive machine.</color>\n\nWith an intended role of static defense, the Matar is built around long-range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units, the 'Mech is armed with a pair of Large Pulse Lasers and a single Medium Pulse Laser. The Matar also carries a pair of Flamers to roast opposing infantry alive and a Guardian ECM to guard against against long-range threats.",
     "Icon": "uixTxrIcon_matar"
   },
   "MovementCapDefID": "movedef_matar_SAM-RS2",

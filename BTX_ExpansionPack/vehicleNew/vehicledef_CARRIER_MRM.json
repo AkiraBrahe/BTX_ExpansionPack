@@ -20,7 +20,7 @@
     "Id": "vehicledef_CARRIER_MRM",
     "Name": "MRM Carrier",
     "UIName": "MRM Carrier",
-    "Details": "<b>Name: <color=#85DBF6>MRM Carrier</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>MRM Carrier</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/7 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe LRM Carrier is a long-range missile platform used by armies throughout the Inner Sphere. It's a descendant of centuries-old mobile rocket technology, offering cheap and effective fire support in various configurations.\n\nDeveloped by the Draconis Combine during the FedCom Civil War, this vehicle uses the standard LRM Carrier as its base, but carries three MRM-30 launchers in place of the LRM-20s. A C3 Slave allows it to take advantage of shared targeting data.",
     "Icon": "uixVhclIcon_mrmcarrier",
     "Cost": 2032000,
     "Rarity": 0,

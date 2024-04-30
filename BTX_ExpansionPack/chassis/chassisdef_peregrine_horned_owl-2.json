@@ -8,7 +8,7 @@
     "UIName": "Peregrine",
     "Id": "chassisdef_peregrine_horned_owl-2",
     "Name": "Peregrine",
-    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line Clan BattleMech capable of highly accurate fire and designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis variant trades in its lasers for six LRM-5s and four tons of ammunition. Though it is entirely ammunition-dependent, this model can provide sustained support, as it does not build up heat under normal circumstances.\n",
+    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line Clan BattleMech capable of highly accurate fire and designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis variant trades in its lasers for six LRM-5s and four tons of ammunition. Though it is entirely ammunition-dependent, this model can provide sustained support, as it does not build up heat under normal circumstances.",
     "Icon": "uixTxrIcon_peregrine"
   },
   "MovementCapDefID": "movedef_peregrine_horned_owl-2",

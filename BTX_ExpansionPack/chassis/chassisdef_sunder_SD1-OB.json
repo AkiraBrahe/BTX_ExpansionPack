@@ -8,7 +8,7 @@
     "UIName": "Sunder",
     "Id": "chassisdef_sunder_SD1-OB",
     "Name": "Sunder",
-    "Details": "Configured to command a large C3 unit, the Sunder B has two C3 Master computers. These allow the Sunder B to coordinate up to three lances of 'Mechs. The 'Mech is also intended to stay at long ranges with an arsenal of an LRM-20 launcher and an LRM-10 launcher to bombard an enemy from long range. The 'Mech can only rely on two Medium Pulse Lasers and two Medium Lasers for short-range defense, making it vulnerable to rushing attacks.\n",
+    "Details": "Configured to command a large C3 unit, the Sunder B has two C3 Master computers. These allow the Sunder B to coordinate up to three lances of 'Mechs. The 'Mech is also intended to stay at long ranges with an arsenal of an LRM-20 launcher and an LRM-10 launcher to bombard an enemy from long range. The 'Mech can only rely on two Medium Pulse Lasers and two Medium Lasers for short-range defense, making it vulnerable to rushing attacks.",
     "Icon": "uixTxrIcon_sunder"
   },
   "MovementCapDefID": "movedef_sunder_SD1-OB",
@@ -218,8 +218,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Command & Fire Support",
-  "YangsThoughts": "",
+  "StockRole": "C3 Command Unit",
+  "YangsThoughts": "PLACEHOLDER - It's a first gen omni, so good but not max armor over an XL. 30 LRMs with plenty of ammo, some short range lasers for under the minimums, and a double master. I'll cheerfully take this instead of a cyclops, but it doesn't compare well to some of the other options.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

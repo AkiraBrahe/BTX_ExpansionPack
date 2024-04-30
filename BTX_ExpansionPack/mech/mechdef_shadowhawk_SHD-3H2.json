@@ -28,7 +28,7 @@
     "UIName": "Shadow Hawk SHD-3H2",
     "Id": "mechdef_shadowhawk_SHD-3H2",
     "Name": "Shadow Hawk",
-    "Details": "The Shadow Hawk SHD-3H2 is a complete overhaul of the 3H design tailored for Terran Hegemony militia units. This variant excels in anti-vehicle and anti-insurgent operations. While sacrificing some speed due to a reduced engine rating, the 3H2 compensates with enhanced firepower, incorporating a pair of Small Lasers, three SRM-4 launchers, and two Vehicle Grenade Launchers. The 'Mech also uses ferro-fibrous armor from the Royal SHD-2Hb production line to improve its survivability even further.\n",
+    "Details": "The Shadow Hawk SHD-3H2 was a complete overhaul of the 3H design, tailored for Terran Hegemony militia units. This variant excelled in anti-vehicle and anti-insurgent operations. Sacrificing some speed due to a reduced engine rating, the 3H2 compensated with enhanced firepower, incorporating a pair of Small Lasers, three SRM-4 launchers, and two Vehicle Grenade Launchers. The 'Mech also used ferro-fibrous armor from the Royal SHD-2Hb production line to improve its survivability even further.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
   "simGameMechPartCost": 470000,

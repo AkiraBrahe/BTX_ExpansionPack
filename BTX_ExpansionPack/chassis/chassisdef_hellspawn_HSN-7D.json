@@ -8,7 +8,7 @@
     "UIName": "Hellspawn",
     "Id": "chassisdef_hellspawn_HSN-7D",
     "Name": "Hellspawn",
-    "Details": "<color=#F79B26>The flagship design of the General Motors Talcott production facility, the Hellspawn was designed in response to a call from the Armed Forces of the Federated Commonwealth for a modern, highly mobile, fire-support BattleMech to compete with the older Dervish.</color>\n\nThe Hellspawn boasts an array of cutting-edge features, including an endo steel chassis, an extra-light engine, and advanced electronic countermeasures (ECM). Its primary armament comprises two LRM-10 launchers, delivering both direct and indirect long-range fire support. For self-defense and close-quarters combat, the Hellspawn carries three Medium Pulse Lasers.\n",
+    "Details": "<color=#F79B26>The flagship design of the General Motors Talcott production facility, the Hellspawn was designed in response to a call from the Armed Forces of the Federated Commonwealth for a modern, highly mobile, fire-support BattleMech to compete with the older Dervish.</color>\n\nThe Hellspawn boasts an array of cutting-edge features, including an endo steel chassis, an extra-light engine, and advanced electronic countermeasures (ECM). Its primary armament comprises two LRM-10 launchers, delivering both direct and indirect long-range fire support. For self-defense and close-quarters combat, the Hellspawn carries three Medium Pulse Lasers.",
     "Icon": "uixTxrIcon_hellspawn"
   },
   "MovementCapDefID": "movedef_hellspawn_HSN-7D",
@@ -206,7 +206,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Hellspawn is a fire support 'Mech succeeding the Dervish, with double LRM-10s and a trio of Medium Pulse Lasers. Not the most inspired loadout, and it doesn't carry much armor either, but at least the ECM helps hide this walking target.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

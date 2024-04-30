@@ -8,7 +8,7 @@
     "UIName": "Rampage",
     "Id": "chassisdef_rampage_RMP-5G",
     "Name": "Rampage",
-    "Details": "<color=#F79B26>The Rampage, a BattleMech originally designed as a standard line unit for the Star League Defense Force, underwent a transformative upgrade to become a fast assault 'Mech following Stefan Amaris' successful coup.</color>\n\nThis upgrade of the original 2G model features an endo steel chassis and a 340-rated XL engine with a MASC system, making the 'Mech fairly fast for its weight. While its speed gives it a measure of protection, the design also sports a massive sixteen tons of armor. Its primary weapon is a LB-X Autocannon/10, backed up by one Large Pulse Laser, two Medium Lasers, an Artemis IV-guided LRM-10 launcher, and a trio of SRM-2 launchers. The Rampage also mounts an Anti-Missile System and a Flamer for defense against missiles and infantry, respectively. Thirteen double heat sinks keep heat levels in check.\n",
+    "Details": "<color=#F79B26>The Rampage, a BattleMech originally designed as a standard line unit for the Star League Defense Force, underwent a transformative upgrade to become a fast assault 'Mech following Stefan Amaris' successful coup.</color>\n\nThis upgrade of the original 2G model features an endo steel chassis and a 340-rated XL engine with a MASC system, making the 'Mech fairly fast for its weight. While its speed gives it a measure of protection, the design also sports a massive sixteen tons of armor. Its primary weapon is an LB-X Autocannon/10, backed up by one Large Pulse Laser, two Medium Lasers, an Artemis IV-guided LRM-10 launcher, and a trio of SRM-2 launchers. The Rampage also mounts an Anti-Missile System and a Flamer for defense against missiles and infantry, respectively. Thirteen double heat sinks keep heat levels in check.",
     "Icon": "uixTxrIcon_rampage"
   },
   "MovementCapDefID": "movedef_rampage_RMP-5G",
@@ -220,7 +220,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Brawler & Close Assault",
-  "YangsThoughts": "This top-of-the-line Rampage is all Star League tech, just like the 4G. But instead of a Gauss Rifle, it's got three nasty Streak SRM-2s and a LRM-10 for long-range sniping. Still got the XL engine and MASC, so pilot this one with caution—one good hit and you're scrap metal.",
+  "YangsThoughts": "This top-of-the-line Rampage is all Star League tech, just like the 4G. But instead of a Gauss Rifle, it's got three nasty Streak SRM-2s and an LRM-10 for long-range sniping. Still got the XL engine and MASC, so pilot this one with caution—one good hit and you're scrap metal.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

@@ -8,7 +8,7 @@
     "UIName": "Arctic Fox",
     "Id": "chassisdef_arctic_fox_AF1C",
     "Name": "Arctic Fox",
-    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nAnother sniper and cleanup 'Mech rolled into one, the C configuration mounts an ER PPC as its primary weapon, giving it superb long range firepower. This is matched up with a Large Pulse Laser, which has significantly shorter range but is also extremely accurate.\n",
+    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nAnother sniper and cleanup 'Mech rolled into one, the C configuration mounts an ER PPC as its primary weapon, giving it superb long range firepower. This is matched up with a Large Pulse Laser, which has significantly shorter range but is also extremely accurate.",
     "Icon": "uixTxrIcon_arcticfox"
   },
   "MovementCapDefID": "movedef_arctic_fox_AF1C",

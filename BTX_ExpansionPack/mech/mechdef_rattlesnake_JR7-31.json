@@ -28,7 +28,7 @@
     "UIName": "Rattlesnake JR7-31",
     "Id": "mechdef_rattlesnake_JR7-31",
     "Name": "Rattlesnake",
-    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThe Rattlesnake's main armament consists of seven Medium Lasers. It is equipped with the Guardian ECM suite to protect itself from enemy electronic warfare equipment. Its eleven double heat sinks are only just capable of keeping its heat in check.\n",
+    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThe Rattlesnake's main armament consists of seven Medium Lasers. It is equipped with the Guardian ECM suite to protect itself from enemy electronic warfare equipment. Its eleven double heat sinks are only just capable of keeping its heat in check.",
     "Icon": "uixTxrIcon_rattlesnake"
   },
   "simGameMechPartCost": 630000,

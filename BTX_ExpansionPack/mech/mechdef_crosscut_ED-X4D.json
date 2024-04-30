@@ -25,7 +25,7 @@
     "UIName": "Crosscut ED-X4D",
     "Id": "mechdef_crosscut_ED-X4D",
     "Name": "Crosscut",
-    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThis is yet another version of the ED-X4B DemolitionMech. The main feature of the ED-X4D is its Dual Saw, which is mounted in the right arm actuator. While the lift hoist remains in the rear torso, the cargo bay has been removed from the design.\n",
+    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThis is yet another version of the ED-X4B DemolitionMech. The main feature of the ED-X4D is its Dual Saw, which is mounted in the right arm actuator. While the lift hoist remains in the rear torso, the cargo bay has been removed from the design.",
     "Icon": "uixTxrIcon_crosscut"
   },
   "simGameMechPartCost": 90000,

@@ -13,7 +13,7 @@
     "UIName": "Gladiator-B",
     "Id": "chassisdef_gladiator-b_executioner-b-B",
     "Name": "Gladiator-B",
-    "Details": "<color=#F79B26>The Executioner-B (code-named Gladiator-B) is the original Executioner created by Clan Burrock during the Golden Century before the introduction of Clan Ghost Bear's upgraded Executioner one hundred years later.</color>\n\nThe B configuration of the Executioner-B is geared for long-range combat, with a Gauss Rifle mounted in each arm as its primary weapon. Each side torso houses an ER Large Laser and two Medium Pulse Lasers, which provide additional damage at close ranges. Despite having eighteen double heat sinks, the 'Mech cannot handle the combined heat output of its energy weapons.\n",
+    "Details": "<color=#F79B26>The Executioner-B (code-named Gladiator-B) is the original Executioner created by Clan Burrock during the Golden Century before the introduction of Clan Ghost Bear's upgraded Executioner one hundred years later.</color>\n\nThe B configuration of the Executioner-B is geared for long-range combat, with a Gauss Rifle mounted in each arm as its primary weapon. Each side torso houses an ER Large Laser and two Medium Pulse Lasers, which provide additional damage at close ranges. Despite having eighteen double heat sinks, the 'Mech cannot handle the combined heat output of its energy weapons.",
     "Icon": "uixTxrIcon_executioner-b"
   },
   "MovementCapDefID": "movedef_gladiator-b_executioner-b-B",

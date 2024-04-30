@@ -8,7 +8,7 @@
     "UIName": "Puma",
     "Id": "chassisdef_puma_adder-S",
     "Name": "Puma",
-    "Details": "The S configuration is an anti-infantry specialist. Each arm carries three Machine Guns, while each side torso carries five more Machine Guns. For heavier targets, each arm also carries a pair of Medium Pulse Lasers. An ECM Suite and Active Probe suppress radio reports and sensor data from opposing forces while granting situational awareness.\n",
+    "Details": "The S configuration is an anti-infantry specialist. Each arm carries three Machine Guns, while each side torso carries five more Machine Guns. For heavier targets, each arm also carries a pair of Medium Pulse Lasers. An ECM Suite and Active Probe suppress radio reports and sensor data from opposing forces while granting situational awareness.",
     "Icon": "uixTxrIcon_puma"
   },
   "MovementCapDefID": "movedef_puma_adder-S",

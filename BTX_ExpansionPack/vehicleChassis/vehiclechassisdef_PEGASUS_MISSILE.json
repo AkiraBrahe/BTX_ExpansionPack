@@ -14,7 +14,7 @@
   "Description": {
     "Id": "vehiclechassisdef_PEGASUS_MISSILE",
     "Name": "Pegasus (Missile)",
-    "Details": "<b>Name: <color=#85DBF6>Pegasus Scout Hover Tank (Missile)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Pegasus is a popular recon hovercraft due to its good speed, decent armor, and respectable firepower. It can be found in almost all militaries, having been introduced during the First Succession War.\n\nThis 2854 Pegasus variant replaces the Medium Laser with an extra SRM-6 and an additional ton of ammunition.",
+    "Details": "<b>Name: <color=#85DBF6>Pegasus Scout Hover Tank (Missile)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Pegasus is a popular recon hovercraft due to its good speed, decent armor, and respectable firepower. It can be found in almost all militaries, having been introduced during the First Succession War.\n\nThis 2854 Pegasus variant replaces the Medium Laser with an extran SRM-6 and an additional ton of ammunition.",
     "Icon": "uixVhclIcon_pegasus",
     "Cost": 935425,
     "Rarity": 0,

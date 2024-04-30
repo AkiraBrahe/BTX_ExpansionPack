@@ -27,7 +27,7 @@
     "UIName": "Hermes II HER-5C",
     "Id": "mechdef_hermesii_HER-5C",
     "Name": "Hermes II",
-    "Details": "Used by Word of Blake, the 5C variant of the Hermes II has an endo steel chassis and is powered by a 240 XL engine. In place of the AC/5, its primary weapon is an ER Large Laser, which is supported by three ER Medium Lasers. Finally, the 5C is equipped with an Improved Narc missile beacon and an Improved C3 Computer to assist other friendly units in targeting enemy units.\n",
+    "Details": "Used by Word of Blake, the 5C variant of the Hermes II has an endo steel chassis and is powered by a 240 XL engine. In place of the AC/5, its primary weapon is an ER Large Laser, which is supported by three ER Medium Lasers. Finally, the 5C is equipped with an Improved Narc missile beacon and an Improved C3 Computer to assist other friendly units in targeting enemy units.",
     "Icon": "uixTxrIcon_hermes"
   },
   "simGameMechPartCost": 780000,

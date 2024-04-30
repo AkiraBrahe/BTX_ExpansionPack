@@ -8,7 +8,7 @@
     "UIName": "Templar",
     "Id": "chassisdef_templar_TLR1-OC",
     "Name": "Templar",
-    "Details": "<color=#F79B26>The Templar is an assault OmniMech commissioned with his own considerable financial resources by Duke George Hasek-Davion.</color>\n\nThe C configuration is optimized for close combat, with a devastating LB 20-X Autocannon that can fire both solid rounds and shotgun-like cluster rounds as its primary weapon. The Templar C also has five Medium Pulse Lasers and an ER Medium Laser, which can be used to devastating effect at short range. For long-range defense, the Templar carries a single ER PPC. The Templar C has four pod-mounted jump jets that allow it to jump up to 120 meters.\n",
+    "Details": "<color=#F79B26>The Templar is an assault OmniMech commissioned with his own considerable financial resources by Duke George Hasek-Davion.</color>\n\nThe C configuration is optimized for close combat, with a devastating LB 20-X Autocannon that can fire both solid rounds and shotgun-like cluster rounds as its primary weapon. The Templar C also has five Medium Pulse Lasers and an ER Medium Laser, which can be used to devastating effect at short range. For long-range defense, the Templar carries a single ER PPC. The Templar C has four pod-mounted jump jets that allow it to jump up to 120 meters.",
     "Icon": "uixTxrIcon_templar"
   },
   "MovementCapDefID": "movedef_templar_TLR1-OC",

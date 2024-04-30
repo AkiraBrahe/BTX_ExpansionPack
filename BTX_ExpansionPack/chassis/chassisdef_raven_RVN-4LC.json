@@ -8,7 +8,7 @@
     "UIName": "Raven",
     "Id": "chassisdef_raven_RVN-4LC",
     "Name": "Raven",
-    "Details": "The 4LC variant is a modified 4L that can seamlessly integrate with a C3 network and coordinate with other friendly units. This is done by swapping out the 4L's Beagle Active Probe with a C3 Slave Unit and an ER Small Laser.\n",
+    "Details": "The 4LC variant is a modified 4L that can seamlessly integrate with a C3 network and coordinate with other friendly units. This is done by swapping out the 4L's Beagle Active Probe with a C3 Slave Unit and an ER Small Laser.",
     "Icon": "uixTxrIcon_raven"
   },
   "MovementCapDefID": "movedef_raven_RVN-4LC",

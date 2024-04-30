@@ -28,7 +28,7 @@
     "UIName": "Pillager PLG-4Z",
     "Id": "mechdef_pillager_PLG-4Z",
     "Name": "Pillager",
-    "Details": "The 4Z variant of the Pillager is built to provide an almost perfect long-range sniper 'Mech. Its stealth armor makes it harder to hit, as does the required Guardian ECM Suite. To accommodate these modifications, the XL engine has been swapped out for a standard engine, and two Medium Lasers and the Large Laser have been removed. The remaining Medium Lasers have been upgraded to ER Medium Lasers, and CASE has been added for more reliability in the event of a side torso destruction.\n",
+    "Details": "The 4Z variant of the Pillager is built to provide an almost perfect long-range sniper 'Mech. Its stealth armor makes it harder to hit, as does the required Guardian ECM Suite. To accommodate these modifications, the XL engine has been swapped out for a standard engine, and two Medium Lasers and the Large Laser have been removed. The remaining Medium Lasers have been upgraded to ER Medium Lasers, and CASE has been added for more reliability in the event of a side torso destruction.",
     "Icon": "uixTxrIcon_pillager"
   },
   "simGameMechPartCost": 1220000,

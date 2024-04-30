@@ -8,7 +8,7 @@
     "UIName": "Mantis",
     "Id": "chassisdef_mantis_MTS-S",
     "Name": "Mantis",
-    "Details": "<color=#F79B26>The Mantis, a Solaris VII BattleMech, uses high speed, boosted further by MASC, and powerful lasers to slice off enemy armor. Once in grappling range, the Mantis can literally tear an enemy apart with its experimental claw systems.</color>\n\nThe Mantis's main weapon are its two tungsten-reinforced composite Claws. These are backed up by three ER Medium Lasers and two ER Small Lasers mounted in the torso. allowing the 'Mech to use its claws freely.\n",
+    "Details": "<color=#F79B26>The Mantis, a Solaris VII BattleMech, uses high speed, boosted further by MASC, and powerful lasers to slice off enemy armor. Once in grappling range, the Mantis can literally tear an enemy apart with its experimental claw systems.</color>\n\nThe Mantis's main weapon are its two tungsten-reinforced composite Claws. These are backed up by three ER Medium Lasers and two ER Small Lasers mounted in the torso. allowing the 'Mech to use its claws freely.",
     "Icon": "uixTxrIcon_mantis"
   },
   "MovementCapDefID": "movedef_mantis_MTS-S",

@@ -27,7 +27,7 @@
     "UIName": "Iron Cheetah C",
     "Id": "mechdef_iron_cheetah-C",
     "Name": "Iron Cheetah",
-    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe C configuration is designed for holding the line with direct fire weapons. Quadruple ER Large Lasers and an LRM-15 allow the Iron Cheetah to strike at extreme ranges. Four Medium Pulse Lasers and two Streak SRM-2s handle any opponents who manage to close into shorter distances. Eight additional double heat sinks handle the extra waste heat.\n",
+    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe C configuration is designed for holding the line with direct fire weapons. Quadruple ER Large Lasers and an LRM-15 allow the Iron Cheetah to strike at extreme ranges. Four Medium Pulse Lasers and two Streak SRM-2s handle any opponents who manage to close into shorter distances. Eight additional double heat sinks handle the extra waste heat.",
     "Icon": "uixTxrIcon_ironcheetah"
   },
   "simGameMechPartCost": 3650000,

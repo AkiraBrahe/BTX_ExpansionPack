@@ -8,7 +8,7 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-S3-DC",
     "Name": "Atlas",
-    "Details": "A 'DC' refit of the S3 model popular in the Federated Commonwealth, this variant retains the standard Gauss Rifle, AMS, Artemis IV-enabled LRM-15 and dual arm-mounted PPCs of the S3, but strips out the Small Lasers and Guardian ECM to fit a Command Console.\n",
+    "Details": "A 'DC' refit of the S3 model popular in the Federated Commonwealth, this variant retains the standard Gauss Rifle, AMS, Artemis IV-enabled LRM-15 and dual arm-mounted PPCs of the S3, but strips out the Small Lasers and Guardian ECM to fit a Command Console.",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_atlas_AS7-S3-DC",
@@ -220,8 +220,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Command 'Mech, Juggernaut & Close Assault",
-  "YangsThoughts": "This is a command 'Mech version of the S series, and it's designed for high-ranking officers to lead the battle from the front. To make room for the Command Console, they had to ditch the Small Lasers and Guardian ECM, but that's a small price to pay for the ability to coordinate your troops from the heart of the battle. Of course, that also makes it the primary target on the battlefield, so you'll need to keep your wits about you if you're piloting this beast.",
+  "StockRole": "Command 'Mech, Juggernaut & Long Range Assault",
+  "YangsThoughts": "This is a command version of the S series, and it's designed for high-ranking officers to lead the battle from the front. To make room for the Command Console, they had to ditch the Small Lasers and Guardian ECM, but that's a small price to pay for the ability to coordinate your troops from the heart of the battle.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

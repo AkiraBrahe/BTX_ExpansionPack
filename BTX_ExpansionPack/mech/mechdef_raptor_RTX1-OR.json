@@ -27,7 +27,7 @@
     "UIName": "Raptor RTX1-OR",
     "Id": "mechdef_raptor_RTX1-OR",
     "Name": "Raptor",
-    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It mounts an array of Clan-tech, utilizing an ER Large Laser and ER Medium Laser in each arm, as well as an ER Small Laser next to a C3 Slave unit in the center torso.\n",
+    "Details": "This configuration, developed in the midst of Operation Bulldog, helped bolster the SLDF forces in later waves by using captured Clan Smoke Jaguar weapons. It mounts an array of Clan-tech, utilizing an ER Large Laser and ER Medium Laser in each arm, as well as an ER Small Laser next to a C3 Slave unit in the center torso.",
     "Icon": "uixTxrIcon_raptor"
   },
   "simGameMechPartCost": 480000,

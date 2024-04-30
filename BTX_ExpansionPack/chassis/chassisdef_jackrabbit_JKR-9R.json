@@ -8,7 +8,7 @@
     "UIName": "Jackrabbit",
     "Id": "chassisdef_jackrabbit_JKR-9R",
     "Name": "Jackrabbit",
-    "Details": "<color=#F79B26>The Jackrabbit is a light BattleMech designed to provide long-range fire support to other light 'Mechs and infantry.</color>\n\nNicknamed the \"Joker\" by SLDF troops, the JKR-9R attempted to boost the flawed Jackrabbit's effectiveness by replacing the autocannon with a Large Laser, an extra single heat sink, and an extra ton of armor. Half the surviving examples are of this type.\n",
+    "Details": "<color=#F79B26>The Jackrabbit is a light BattleMech designed to provide long-range fire support to other light 'Mechs and infantry.</color>\n\nNicknamed the \"Joker\" by SLDF troops, the JKR-9R attempted to boost the flawed Jackrabbit's effectiveness by replacing the autocannon with a Large Laser, an extra single heat sink, and an extra ton of armor. Half the surviving examples are of this type.",
     "Icon": "uixTxrIcon_jackrabbit"
   },
   "MovementCapDefID": "movedef_jackrabbit_JKR-9R",

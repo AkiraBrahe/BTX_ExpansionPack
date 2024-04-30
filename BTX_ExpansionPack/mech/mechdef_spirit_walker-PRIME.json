@@ -27,7 +27,7 @@
     "UIName": "Spirit Walker PRIME",
     "Id": "mechdef_spirit_walker-PRIME",
     "Name": "Spirit Walker",
-    "Details": "<color=#F79B26>The Spirit Walker, a product of Clan Coyote's Pueblo Initiative, was developed after years of struggle to control OmniMech technology. Mirrorring the Night Chanter, the Spirit Walker draws its heritage from another venerable SLDF design, the Black Knight.</color>\n\nDistinct from its predecessor, the Spirit Walker is built on a standard chassis with most of the armor concentrated on the front. In its primary configuration, the Spirit Walker is armed with four ER large lasers, four Medium Pulse Lasers, and one ER Small Laser. An Active Probe is integrated into its loadout, enabling it to detect and engage hidden enemy units.\n",
+    "Details": "<color=#F79B26>The Spirit Walker, a product of Clan Coyote's Pueblo Initiative, was developed after years of struggle to control OmniMech technology. Mirrorring the Night Chanter, the Spirit Walker draws its heritage from another venerable SLDF design, the Black Knight.</color>\n\nDistinct from its predecessor, the Spirit Walker is built on a standard chassis with most of the armor concentrated on the front. In its primary configuration, the Spirit Walker is armed with four ER large lasers, four Medium Pulse Lasers, and one ER Small Laser. An Active Probe is integrated into its loadout, enabling it to detect and engage hidden enemy units.",
     "Icon": "uixTxrIcon_spiritwalker"
   },
   "simGameMechPartCost": 990000,

@@ -28,7 +28,7 @@
     "UIName": "Jinggau JN-G8A",
     "Id": "mechdef_jinggau_JN-G8A",
     "Name": "Jinggau",
-    "Details": "<color=#F79B26>With its high ground speed, superior mobility, armor, and firepower the Jinggau is a 'Mech more than capable of handling most enemies on today's battlefield.</color>\n\nThe Jinggau's primary armament is a powerful Gauss Rifle that gives the 'Mech a maximum striking distance of up to 660 meters and allows the Jinggau the opportunity to draw the first blood on the battlefield. For close combat, the 'Mech has a set of four ER Medium Lasers and a single, highly accurate, Medium Pulse Laser.\n",
+    "Details": "<color=#F79B26>With its high ground speed, superior mobility, armor, and firepower the Jinggau is a 'Mech more than capable of handling most enemies on today's battlefield.</color>\n\nThe Jinggau's primary armament is a powerful Gauss Rifle that gives the 'Mech a maximum striking distance of up to 660 meters and allows the Jinggau the opportunity to draw the first blood on the battlefield. For close combat, the 'Mech has a set of four ER Medium Lasers and a single, highly accurate, Medium Pulse Laser.",
     "Icon": "uixTxrIcon_jinggau"
   },
   "simGameMechPartCost": 1440000,

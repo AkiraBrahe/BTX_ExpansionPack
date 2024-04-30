@@ -8,7 +8,7 @@
     "UIName": "Hellfire",
     "Id": "chassisdef_hellfire-1",
     "Name": "Hellfire",
-    "Details": "<color=#F79B26>Following the development of heavy laser technology, Clan Star Adder scientists sought a test-bed for the lasers, which resulted in the resurrected Lupus serving as the base for the Hellfire.</color>\n\nThe Hellfire excels at both short and medium ranges thanks to its array of heavy lasers, which includes a single Heavy Large Laser, two pairs of Heavy Medium and Small Lasers, and two ER Medium Lasers for good measure. Three LRM-10 launchers provide some long-range firepower.\n",
+    "Details": "<color=#F79B26>Following the development of heavy laser technology, Clan Star Adder scientists sought a test-bed for the lasers, which resulted in the resurrected Lupus serving as the base for the Hellfire.</color>\n\nThe Hellfire excels at both short and medium ranges thanks to its array of heavy lasers, which includes a single Heavy Large Laser, two pairs of Heavy Medium and Small Lasers, and two ER Medium Lasers for good measure. Three LRM-10 launchers provide some long-range firepower.",
     "Icon": "uixTxrIcon_hellfire"
   },
   "MovementCapDefID": "movedef_hellfire-1",

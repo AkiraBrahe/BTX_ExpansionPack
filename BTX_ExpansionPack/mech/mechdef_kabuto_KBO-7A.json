@@ -25,7 +25,7 @@
     "UIName": "Kabuto KBO-7A",
     "Id": "mechdef_kabuto_KBO-7A",
     "Name": "Kabuto",
-    "Details": "<color=#F79B26>The Kabuto is an impressive light 'Mech that combines speed, armor, and firepower to make an excellent recon and strike BattleMech.</color>\n\nPowered by a 140 XL extralight engine and equipped with a Chariot Type Ia endo steel chassis, the Kabuto has an impressive ground speed of 118.8 km/h while also saving weight on the 'Mech for armor and weapons. The 'Mech relies on two Streak SRM-4 launchers for effective and powerful close range firepower. The simplicity of its arsenal is one of the keys to the design, allowing for easy resupply and repair as the 'Mech has only one weapons system.\n",
+    "Details": "<color=#F79B26>The Kabuto is an impressive light 'Mech that combines speed, armor, and firepower to make an excellent recon and strike BattleMech.</color>\n\nPowered by a 140 XL extralight engine and equipped with a Chariot Type Ia endo steel chassis, the Kabuto has an impressive ground speed of 118.8 km/h while also saving weight on the 'Mech for armor and weapons. The 'Mech relies on two Streak SRM-4 launchers for effective and powerful close range firepower. The simplicity of its arsenal is one of the keys to the design, allowing for easy resupply and repair as the 'Mech has only one weapons system.",
     "Icon": "uixTxrIcon_kabuto"
   },
   "simGameMechPartCost": 240000,

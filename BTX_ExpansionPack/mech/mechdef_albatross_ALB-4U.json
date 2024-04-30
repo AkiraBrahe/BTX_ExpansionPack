@@ -26,7 +26,7 @@
     "UIName": "Albatross ALB-4U",
     "Id": "mechdef_albatross_ALB-4U",
     "Name": "Albatross",
-    "Details": "<color=#F79B26>The Albatross is an assault 'Mech that was specifically designed to fight the Clans in the event of a conflict as they advance towards Marik space.</color>\n\nThe 4U variant of the Albatross is a basic upgrade of the design. The Medium Lasers are replaced by a pair of ER Medium Lasers, the LB 10-X Autocannon by a Light Gauss Rifle, and the SRM-6 by a Streak SRM-6 launcher. The ER Large Laser is also exchanged for an ER Small Laser, allowing for a substantial increase in armor and its upgrade to ferro-fibrous.\n",
+    "Details": "<color=#F79B26>The Albatross is an assault 'Mech that was specifically designed to fight the Clans in the event of a conflict as they advance towards Marik space.</color>\n\nThe 4U variant of the Albatross is a basic upgrade of the design. The Medium Lasers are replaced by a pair of ER Medium Lasers, the LB 10-X Autocannon by a Light Gauss Rifle, and the SRM-6 by a Streak SRM-6 launcher. The ER Large Laser is also exchanged for an ER Small Laser, allowing for a substantial increase in armor and its upgrade to ferro-fibrous.",
     "Icon": "uixTxrIcon_albatross"
   },
   "simGameMechPartCost": 2560000,

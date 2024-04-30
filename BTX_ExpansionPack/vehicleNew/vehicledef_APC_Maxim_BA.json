@@ -22,7 +22,7 @@
     "Id": "vehicledef_APC_Maxim_BA",
     "Name": "Maxim Heavy Hover Transport",
     "UIName": "Maxim Heavy Hover Transport (BA Factory Upgrade)",
-    "Details": "<b>Name: <color=#85DBF6>Maxim Heavy Hover Transport (BA Factory Upgrade)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Maxim Heavy Hover Transport (BA Factory Upgrade)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/15 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>\n\nThe Maxim is a hover APC designed to provide cover fire for deploying infantry and to support them in the field. To that end, the Maxim is heavily armored for an APC and is outfitted with a variety of weapons.\n\nDesigned by engineers at the manufacturing plants, this Maxim variant can carry a squad of battle armor-equipped infantry into combat. To compensate for the larger infantry bay, the designers had to remove the TAG system.",
     "Icon": "uixVhclIcon_maxim",
     "Cost": 1454000,
     "Rarity": 0,

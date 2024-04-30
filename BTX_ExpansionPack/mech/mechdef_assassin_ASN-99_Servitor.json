@@ -29,7 +29,7 @@
     "UIName": "Assassin ASN-SRV",
     "Id": "mechdef_assassin_ASN-99_Servitor",
     "Name": "Servitor",
-    "Details": "A custom variant of the ASN-99 Assassin, the \"Servitor\" is designed for close-range duels. The stealth armor and Guardian ECM suite are removed, and the head-mounted TAG is swapped for a Small Laser. Each arm has new weapons, with the left holding a small vibroblade and the right mounting a Medium X-Pulse Laser, while the legs each carries a small X-Pulse Laser. The two SRM-2s of the ASN-99 are retained.\n",
+    "Details": "A custom variant of the ASN-99 Assassin, the \"Servitor\" is designed for close-range duels. The stealth armor and Guardian ECM suite are removed, and the head-mounted TAG is swapped for a Small Laser. Each arm has new weapons, with the left holding a small vibroblade and the right mounting a Medium X-Pulse Laser, while the legs each carries a small X-Pulse Laser. The two SRM-2s of the ASN-99 are retained.",
     "Icon": "uixTxrIcon_assassin"
   },
   "simGameMechPartCost": 740000,

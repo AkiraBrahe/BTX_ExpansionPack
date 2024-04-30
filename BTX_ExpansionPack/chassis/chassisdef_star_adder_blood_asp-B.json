@@ -8,7 +8,7 @@
     "UIName": "Star Adder",
     "Id": "chassisdef_star_adder_blood_asp-B",
     "Name": "Star Adder",
-    "Details": "<color=#F79B26>The Star Adder, known as the Blood Asp by the Clans, is a powerful 'Mech created as an insult to Clan Blood Spirit. Based on the Kingfisher, the Blood Asp is one of the first 'Mechs to field heavy laser technology.</color>\n\nThe second alternate configuration is designed for fire support, employing a Gauss Rifle and two LRM-20s equipped with Artemis IV fire control systems. It also mounts four Medium Pulse Lasers and an ECM Suite in case an enemy unit approaches. Two additional heat sinks ensure this design stays cool.\n",
+    "Details": "<color=#F79B26>The Star Adder, known as the Blood Asp by the Clans, is a powerful 'Mech created as an insult to Clan Blood Spirit. Based on the Kingfisher, the Blood Asp is one of the first 'Mechs to field heavy laser technology.</color>\n\nThe second alternate configuration is designed for fire support, employing a Gauss Rifle and two LRM-20s equipped with Artemis IV fire control systems. It also mounts four Medium Pulse Lasers and an ECM Suite in case an enemy unit approaches. Two additional heat sinks ensure this design stays cool.",
     "Icon": "uixTxrIcon_bloodasp"
   },
   "MovementCapDefID": "movedef_star_adder_blood_asp-B",

@@ -27,7 +27,7 @@
     "UIName": "Dragoon AEM-04",
     "Id": "mechdef_dragoon_AEM-04",
     "Name": "Dragoon",
-    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nBased on a weapon-stripped 01 model, the Dragoon 04 is well-equipped for both long-range sniping and close-in brawling. The 'Mech, armed with a single Gauss Rifle and an ER PPC, can unleash devastating blows from a safe distance, while also carrying a quintet of SRM-4s and a single Medium Laser for close-quarters combat.\n",
+    "Details": "<color=#F79B26>The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.</color>\n\nBased on a weapon-stripped 01 model, the Dragoon 04 is well-equipped for both long-range sniping and close-in brawling. The 'Mech, armed with a single Gauss Rifle and an ER PPC, can unleash devastating blows from a safe distance, while also carrying a quintet of SRM-4s and a single Medium Laser for close-quarters combat.",
     "Icon": "uixTxrIcon_dragoon"
   },
   "simGameMechPartCost": 1240000,

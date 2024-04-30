@@ -8,7 +8,7 @@
     "UIName": "Jinggau",
     "Id": "chassisdef_jinggau_JN-G7L",
     "Name": "Jinggau",
-    "Details": "<color=#F79B26>With its high ground speed, superior mobility, armor, and firepower the Jinggau is a 'Mech more than capable of handling most enemies on today's battlefield.</color>\n",
+    "Details": "<color=#F79B26>With its high ground speed, superior mobility, armor, and firepower the Jinggau is a 'Mech more than capable of handling most enemies on today's battlefield.</color>",
     "Icon": "uixTxrIcon_jinggau"
   },
   "MovementCapDefID": "movedef_jinggau_JN-G7L",

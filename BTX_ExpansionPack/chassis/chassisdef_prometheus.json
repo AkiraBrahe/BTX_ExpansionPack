@@ -8,7 +8,7 @@
     "UIName": "Prometheus",
     "Id": "chassisdef_prometheus",
     "Name": "Prometheus",
-    "Details": "<color=#F79B26>The Prometheus is a one-of-a-kind FrankenMech developed to gain a better understanding of Clan technology. While a frightful waste of rare Clan salvage, the design serves as a deadly testbed for the Direct Neural Interface system.</color>\n\nThis prototype combines the abilities and parts of the Loki, Mad Cat, Thor and Vulture with the unrivaled control offered by the DNI. The Prometheus has a powerful arsenal of captured Clan weapons, including an ER PPC, Large Pulse Laser, and a pair of LRM-15 launchers for long range combat, supported by two Medium Pulse Lasers. The 'Mech can also hold its own in close quarters thanks to its two SRM-6 launchers and six Machine Guns.\n",
+    "Details": "<color=#F79B26>The Prometheus is a one-of-a-kind FrankenMech developed to gain a better understanding of Clan technology. While a frightful waste of rare Clan salvage, the design serves as a deadly testbed for the Direct Neural Interface system.</color>\n\nThis prototype combines the abilities and parts of the Loki, Mad Cat, Thor and Vulture with the unrivaled control offered by the DNI. The Prometheus has a powerful arsenal of captured Clan weapons, including an ER PPC, Large Pulse Laser, and a pair of LRM-15 launchers for long range combat, supported by two Medium Pulse Lasers. The 'Mech can also hold its own in close quarters thanks to its two SRM-6 launchers and six Machine Guns.",
     "Icon": "uixTxrIcon_prometheus"
   },
   "MovementCapDefID": "movedef_prometheus",

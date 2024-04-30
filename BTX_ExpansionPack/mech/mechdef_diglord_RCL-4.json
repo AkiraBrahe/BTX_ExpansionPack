@@ -25,7 +25,7 @@
     "UIName": "Dig Lord RCL-4",
     "Id": "mechdef_diglord_RCL-4",
     "Name": "Dig Lord",
-    "Details": "<color=#F79B26>The Dig Lord is a heavy-class mining IndustrialMech based on an older early Star League Era design known as the Dig King.</color>\n\nThe RCL-4 is equipped with a Rock Cutter in its right arm and a Mining Drill in its left arm. The 'Mech has four Fluid Guns with ten tons of liquid storage for them. The 'Mech is also equipped with an Extended Fuel Tank for prolonged use in the field.\n",
+    "Details": "<color=#F79B26>The Dig Lord is a heavy-class mining IndustrialMech based on an older early Star League Era design known as the Dig King.</color>\n\nThe RCL-4 is equipped with a Rock Cutter in its right arm and a Mining Drill in its left arm. The 'Mech has four Fluid Guns with ten tons of liquid storage for them. The 'Mech is also equipped with an Extended Fuel Tank for prolonged use in the field.",
     "Icon": "uixTxrIcon_digking"
   },
   "simGameMechPartCost": 230000,

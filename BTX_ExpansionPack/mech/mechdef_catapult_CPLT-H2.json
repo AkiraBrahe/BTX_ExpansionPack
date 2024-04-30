@@ -27,7 +27,7 @@
     "UIName": "Catapult CPLT-H2",
     "Id": "mechdef_catapult_CPLT-H2",
     "Name": "Catapult",
-    "Details": "A Periphery upgrade of the Catapult based upon the K2, the H2 carries a PPC, two Medium Lasers, and eight Rocket Launcher 20s cooled by thirteen double heat sinks. This massive amount of firepower makes this variant more suited to a direct-fire support role than usual.\n",
+    "Details": "A Periphery upgrade of the Catapult based upon the K2, the H2 carries a PPC, two Medium Lasers, and eight Rocket Launcher 20s cooled by thirteen double heat sinks. This massive amount of firepower makes this variant more suited to a direct-fire support role than usual.",
     "Icon": "uixTxrIcon_catapult"
   },
   "simGameMechPartCost": 610000,

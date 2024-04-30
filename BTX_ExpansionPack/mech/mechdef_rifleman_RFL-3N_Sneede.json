@@ -27,7 +27,7 @@
     "UIName": "Hybrid Rifleman",
     "Id": "mechdef_rifleman_RFL-3N_Sneede",
     "Name": "Hybrid Rifleman",
-    "Details": "<color=#F79B26>The personal 'Mech of Cranston Snord's Irregulars member \"Shorty\" Sneede, his Rifleman is a FrankenMech with a Phoenix Hawk head, Warhammer right arm, and the left torso and arm from an Archer, with only the center and right torsos and both legs remaining from the parent design.</color>\n\nSneede's custom Rifleman is built around the 3N's standard 240-rated engine and retains many of its weapons. The FrankenMech is armed with a PPC, LRM-20 with two tons of ammo, and four Medium Lasers. It also has fourteen single heat sinks and nine tons of armor.\n",
+    "Details": "<color=#F79B26>The personal 'Mech of Cranston Snord's Irregulars member \"Shorty\" Sneede, his Rifleman is a FrankenMech with a Phoenix Hawk head, Warhammer right arm, and the left torso and arm from an Archer, with only the center and right torsos and both legs remaining from the parent design.</color>\n\nSneede's custom Rifleman is built around the 3N's standard 240-rated engine and retains many of its weapons. The FrankenMech is armed with a PPC, LRM-20 with two tons of ammo, and four Medium Lasers. It also has fourteen single heat sinks and nine tons of armor.",
     "Icon": "uixTxrIcon_sneede"
   },
   "simGameMechPartCost": 510000,

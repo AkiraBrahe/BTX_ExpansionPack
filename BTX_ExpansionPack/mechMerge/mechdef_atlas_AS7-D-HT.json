@@ -1,4 +1,7 @@
 {
+  "Description": {
+    "Details": "<color=#F79B26>The Atlas II, a pinnacle of Star League technology, was designed by the Terran Hegemony to dominate the battlefield. Wielding a broader range of weapons, this 100-ton juggernaut served as the backbone of the elite SLDF Royal Regiments.</color>\n\nThis seemingly custom variant retains the bulk of the standard model's weapon loadout, save swapping the LB 10-X for a mammoth Autocannon/20 for enhanced short-range combat. Three double heat sinks were dropped to mount this weapon."
+  },
   "inventory": [
     {
       "MountedLocation": "LeftArm",

@@ -28,7 +28,7 @@
     "UIName": "Raijin RJN-101-B",
     "Id": "mechdef_raijin_RJN-101-B",
     "Name": "Raijin",
-    "Details": "<color=#F79B26>The Raijin was designed as an all-purpose BattleMech to rearm Com Guard units that had suffered heavy losses during the Battle of Tukayyid.</color>\n\nA field refit intended to turn the Raijin into a better scout after ComStar lost its source of Mongooses during Operation Odysseus, the 101-B retains the right-torso ER PPC but swaps the other weaponry for a left-arm mounted Large Pulse Laser, a Medium Laser, and a Flamer in each side torso alongside a Beagle Active Probe. Considered an ad hoc solution at best, the variant was quickly replaced by the more reliable Beowulf.\n",
+    "Details": "<color=#F79B26>The Raijin was designed as an all-purpose BattleMech to rearm Com Guard units that had suffered heavy losses during the Battle of Tukayyid.</color>\n\nA field refit intended to turn the Raijin into a better scout after ComStar lost its source of Mongooses during Operation Odysseus, the 101-B retains the right-torso ER PPC but swaps the other weaponry for a left-arm mounted Large Pulse Laser, a Medium Laser, and a Flamer in each side torso alongside a Beagle Active Probe. Considered an ad hoc solution at best, the variant was quickly replaced by the more reliable Beowulf.",
     "Icon": "uixTxrIcon_raijin"
   },
   "simGameMechPartCost": 1010000,

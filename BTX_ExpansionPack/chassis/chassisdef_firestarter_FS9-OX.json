@@ -8,7 +8,7 @@
     "UIName": "Firestarter Omni",
     "Id": "chassisdef_firestarter_FS9-OX",
     "Name": "Firestarter Omni",
-    "Details": "This version boasts several experimental systems. Reminiscent of the Firestarter H, it's equipped with an Angel ECM Suite and Bloodhound Active Probe. It carries the twin center torso Flamers common to all Firestarter variants, and augments them with a Streak SRM-2 and a Large X-Pulse Laser.\n",
+    "Details": "This version boasts several experimental systems. Reminiscent of the Firestarter H, it's equipped with an Angel ECM Suite and Bloodhound Active Probe. It carries the twin center torso Flamers common to all Firestarter variants, and augments them with a Streak SRM-2 and a Large X-Pulse Laser.",
     "Icon": "uixTxrIcon_firestartero"
   },
   "MovementCapDefID": "movedef_firestarter_FS9-OX",

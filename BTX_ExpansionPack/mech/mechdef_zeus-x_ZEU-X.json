@@ -26,7 +26,7 @@
     "UIName": "Zeus-X ZEU-X",
     "Id": "mechdef_zeus-x_ZEU-X",
     "Name": "Zeus-X",
-    "Details": "<color=#F79B26>The Zeus-X takes the original Zeus design to new heights, serving as both a model of excellence in production engineering and an innovative high-technology platform.</color>\n\nThe first of the Zeus-X series combines a massive 400-rated XXL engine with fourteen tons of reactive armor to protect its fragile composite skeleton. Its primary weapon is an LB-X Autocannon/20, which is supported by an MRM-30 launcher. It carries three tons of ammunition for the LB 20-X and two tons of ammunition for the MRM-30, both of which are stored in the right torso and protected by CASE II. The Zeus-X also has two Medium X-Pulse Lasers for close combat.\n",
+    "Details": "<color=#F79B26>The Zeus-X takes the original Zeus design to new heights, serving as both a model of excellence in production engineering and an innovative high-technology platform.</color>\n\nThe first of the Zeus-X series combines a massive 400-rated XXL engine with fourteen tons of reactive armor to protect its fragile composite skeleton. Its primary weapon is an LB-X Autocannon/20, which is supported by an MRM-30 launcher. It carries three tons of ammunition for the LB 20-X and two tons of ammunition for the MRM-30, both of which are stored in the right torso and protected by CASE II. The Zeus-X also has two Medium X-Pulse Lasers for close combat.",
     "Icon": "uixTxrIcon_zeus-x"
   },
   "simGameMechPartCost": 8340000,

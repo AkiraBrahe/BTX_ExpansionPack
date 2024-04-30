@@ -8,7 +8,7 @@
     "UIName": "Supernova",
     "Id": "chassisdef_supernova-2",
     "Name": "Supernova",
-    "Details": "This second configuration replaces four of the ER Large Lasers and ten of their attendant heat sinks with four ATM-9s, six tons of ammunition, and adds an advanced Targeting Computer to guide the remaining pair of lasers. The 'Mech also uses endo steel and has increased armor protection.\n",
+    "Details": "This second configuration replaces four of the ER Large Lasers and ten of their attendant heat sinks with four ATM-9s, six tons of ammunition, and adds an advanced Targeting Computer to guide the remaining pair of lasers. The 'Mech also uses endo steel and has increased armor protection.",
     "Icon": "uixTxrIcon_supernova"
   },
   "MovementCapDefID": "movedef_supernova-2",

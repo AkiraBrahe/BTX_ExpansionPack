@@ -28,7 +28,7 @@
     "UIName": "Annihilator C",
     "Id": "mechdef_annihilator_C",
     "Name": "Annihilator",
-    "Details": "A variant of the Annihilator that was built using only Clan technology and used exclusively by Wolf's Dragoons, the Annihilator C is armed with four UAC/10s and ER Medium Lasers. The Ultra Autocannon/10s allows the 'Mech to fire at twice the rate of a standard autocannon, allowing it to put out as much fire as if it were carrying eight regular autocannons.\n",
+    "Details": "A variant of the Annihilator that was built using only Clan technology and used exclusively by Wolf's Dragoons, the Annihilator C is armed with four UAC/10s and ER Medium Lasers. The Ultra Autocannon/10s allows the 'Mech to fire at twice the rate of a standard autocannon, allowing it to put out as much fire as if it were carrying eight regular autocannons.",
     "Icon": "uixTxrIcon_annihilatorc"
   },
   "simGameMechPartCost": 1170000,

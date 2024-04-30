@@ -27,7 +27,7 @@
     "UIName": "Annihilator C 2",
     "Id": "mechdef_annihilator_C-2",
     "Name": "Annihilator",
-    "Details": "Based on the ANH-1G, this variant only uses Clan technology. Four Gauss Rifles supplemented by an ER PPC in the center torso and a head-mounted ER Small Laser, provide withering firepower for defensive engagements. Ten tons of ammunition keep the Gauss Rifles fed through the longest engagements. An endo steel internal structure accommodates this arsenal of weapons, while integrated CASE portects the arms and torsos from weapon explosions.\n",
+    "Details": "Based on the ANH-1G, this variant only uses Clan technology. Four Gauss Rifles supplemented by an ER PPC in the center torso and a head-mounted ER Small Laser, provide withering firepower for defensive engagements. Ten tons of ammunition keep the Gauss Rifles fed through the longest engagements. An endo steel internal structure accommodates this arsenal of weapons, while integrated CASE portects the arms and torsos from weapon explosions.",
     "Icon": "uixTxrIcon_annihilatorc"
   },
   "simGameMechPartCost": 990000,

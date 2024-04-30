@@ -8,7 +8,7 @@
     "UIName": "Blackjack Omni",
     "Id": "chassisdef_blackjack_BJ2-OR",
     "Name": "Blackjack Omni",
-    "Details": "This configuration is a field upgrade developed in the midst of Operation Bulldog to help bolster the Star League Defense Force forces in later waves by using captured Clan Smoke Jaguar weapons. It is outfitted with a salvaged Clan-tech Gauss Rifle supported by a single Clan Large Pulse Laser, a trio of Clan Medium Pulse Lasers, and a single ER Small Laser.\n",
+    "Details": "This configuration is a field upgrade developed in the midst of Operation Bulldog to help bolster the Star League Defense Force forces in later waves by using captured Clan Smoke Jaguar weapons. It is outfitted with a salvaged Clan-tech Gauss Rifle supported by a single Clan Large Pulse Laser, a trio of Clan Medium Pulse Lasers, and a single ER Small Laser.",
     "Icon": "uixTxrIcon_blackjackomni"
   },
   "MovementCapDefID": "movedef_blackjack_BJ2-OR",
@@ -211,7 +211,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
-  "YangsThoughts": "Clan-tech Blackjack? This OR variant definitely packs a punch! Gauss Rifle and Large Pulse laser light 'em up from afar, while Medium Pulses and an ER Small Laser make close encounters spicy. Just remember to watch your heat.",
+  "YangsThoughts": "Clan-tech Blackjack? This -OR variant definitely packs a punch! Gauss Rifle and Large Pulse laser light 'em up from afar, while Medium Pulses and an ER Small Laser make close encounters spicy. Just remember to watch your heat.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

@@ -27,7 +27,7 @@
     "UIName": "UrbanMech UM-R68",
     "Id": "mechdef_urbanmech_UM-R68",
     "Name": "UrbanMech",
-    "Details": "Eschewing the autocannon, this Draconis Combine variant carries an MRM-30 with two tons of ammo while still carrying the lasers of the R63 variant. The added damage potential proved a nasty surprise to Clan Ghost Bear during the Combine-Ghost Bear War.\n",
+    "Details": "Eschewing the autocannon, this Draconis Combine variant carries an MRM-30 with two tons of ammo while still carrying the lasers of the R63 variant. The added damage potential proved a nasty surprise to Clan Ghost Bear during the Combine-Ghost Bear War.",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "simGameMechPartCost": 150000,

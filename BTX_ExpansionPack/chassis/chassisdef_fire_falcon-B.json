@@ -8,7 +8,7 @@
     "UIName": "Fire Falcon",
     "Id": "chassisdef_fire_falcon-B",
     "Name": "Fire Falcon",
-    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThis is also a long-range configuration that makes use of a pair of ER Large Lasers guided by a Targeting Computer.\n",
+    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThis is also a long-range configuration that makes use of a pair of ER Large Lasers guided by a Targeting Computer.",
     "Icon": "uixTxrIcon_firefalcon"
   },
   "MovementCapDefID": "movedef_fire_falcon-B",

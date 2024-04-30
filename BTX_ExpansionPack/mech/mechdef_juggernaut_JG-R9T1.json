@@ -27,7 +27,7 @@
     "UIName": "Juggernaut JG-R9T1",
     "Id": "mechdef_juggernaut_JG-R9T1",
     "Name": "Juggernaut",
-    "Details": "<color=#F79B26>The Juggernaut, a massive assault 'Mech from Solaris Arms, is a lumbering mountain of armor and weaponry that undoubtedly lives up to its name.</color>\n\nThe original Juggernaut is quite bulky with its sixteen and a half tons of armor, but that pales in comparison to its impressive arsenal of weapons, which includes trios of Large and Medium Pulse Lasers, four Small Pulse Lasers, and a staggering sixteen Machine Guns, making the Juggernaut devastating up close. The twelve double heat sinks are clearly insufficient to cool all of these weapons.\n",
+    "Details": "<color=#F79B26>The Juggernaut, a massive assault 'Mech from Solaris Arms, is a lumbering mountain of armor and weaponry that undoubtedly lives up to its name.</color>\n\nThe original Juggernaut is quite bulky with its sixteen and a half tons of armor, but that pales in comparison to its impressive arsenal of weapons, which includes trios of Large and Medium Pulse Lasers, four Small Pulse Lasers, and a staggering sixteen Machine Guns, making the Juggernaut devastating up close. The twelve double heat sinks are clearly insufficient to cool all of these weapons.",
     "Icon": "uixTxrIcon_juggernaut"
   },
   "simGameMechPartCost": 850000,

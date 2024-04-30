@@ -8,7 +8,7 @@
     "UIName": "Marauder",
     "Id": "chassisdef_marauder_C",
     "Name": "Marauder",
-    "Details": "A Clan-tech retrofit of the classic MAD-3R, the Marauder C replaces some of the Inner Spheroid weaponry with Clan equivalents. The PPCs are replaced with a pair of Clan-tech Large Pulse Lasers, while the standard autocannon is replaced with an Ultra AC/5 model. Only the IS Medium Lasers remains. CASE is also used to protect the autocannon's munitions.\n",
+    "Details": "A Clan-tech retrofit of the classic MAD-3R, the Marauder C replaces some of the Inner Spheroid weaponry with Clan equivalents. The PPCs are replaced with a pair of Clan-tech Large Pulse Lasers, while the standard autocannon is replaced with an Ultra AC/5 model. Only the IS Medium Lasers remains. CASE is also used to protect the autocannon's munitions.",
     "Icon": "uixTxrIcon_marauderc"
   },
   "MovementCapDefID": "movedef_marauder_C",

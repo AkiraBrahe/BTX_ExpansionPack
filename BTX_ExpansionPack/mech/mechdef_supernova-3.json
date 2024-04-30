@@ -26,7 +26,7 @@
     "UIName": "Supernova 3",
     "Id": "mechdef_supernova-3",
     "Name": "Supernova",
-    "Details": "This third configuration, similarly to the second, removes four lasers but replaces them with two Medium Pulse Lasers, two ER PPCs, and a Targeting Computer; three heat sinks are also removed.\n",
+    "Details": "This third configuration, similarly to the second, removes four lasers but replaces them with two Medium Pulse Lasers, two ER PPCs, and a Targeting Computer; three heat sinks are also removed.",
     "Icon": "uixTxrIcon_supernova"
   },
   "simGameMechPartCost": 950000,

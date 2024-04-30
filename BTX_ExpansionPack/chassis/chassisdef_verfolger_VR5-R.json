@@ -8,7 +8,7 @@
     "UIName": "Verfolger",
     "Id": "chassisdef_verfolger_VR5-R",
     "Name": "Verfolger",
-    "Details": "<color=#F79B26>The Verfolger, German for \"Pursuer\", is designed to work with the lightweight Wolfhound BattleMech. Through coordinated tactics, they can take out much larger BattleMechs.</color>\n\nThe \"Pursuer\", powered by a lightweight 325-rated XL engine, sacrifices durability for speed, reaching an impressive 86.4 km/h. This saved weight allows the Verfolger to carry a variety of weapons systems with the capability to engage an enemy at almost any range. For its long range striking capabilities, the design carries a powerful ER PPC. As enemy units close in, they face increasing volumes of fire as its LB-X Autocannon/10 comes into play. And at close range, the Verfolger adds its three Medium Lasers to the mix, making the 'Mech a powerful infighter.\n",
+    "Details": "<color=#F79B26>The Verfolger, German for \"Pursuer\", is designed to work with the lightweight Wolfhound BattleMech. Through coordinated tactics, they can take out much larger BattleMechs.</color>\n\nThe \"Pursuer\", powered by a lightweight 325-rated XL engine, sacrifices durability for speed, reaching an impressive 86.4 km/h. This saved weight allows the Verfolger to carry a variety of weapons systems with the capability to engage an enemy at almost any range. For its long range striking capabilities, the design carries a powerful ER PPC. As enemy units close in, they face increasing volumes of fire as its LB-X Autocannon/10 comes into play. And at close range, the Verfolger adds its three Medium Lasers to the mix, making the 'Mech a powerful infighter.",
     "Icon": "uixTxrIcon_verfolger"
   },
   "MovementCapDefID": "movedef_verfolger_VR5-R",

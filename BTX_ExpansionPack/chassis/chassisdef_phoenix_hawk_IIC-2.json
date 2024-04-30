@@ -8,7 +8,7 @@
     "UIName": "Phoenix Hawk IIC",
     "Id": "chassisdef_phoenix_hawk_IIC-2",
     "Name": "Phoenix Hawk IIC",
-    "Details": "<color=#F79B26>The Phoenix Hawk IIC, though it resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThis variant turns the Phoenix Hawk IIC into a missile boat. It removes all weapons and a ton of armor to mount four LRM-20s with eight tons of ammunition.\n",
+    "Details": "<color=#F79B26>The Phoenix Hawk IIC, though it resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThis variant turns the Phoenix Hawk IIC into a missile boat. It removes all weapons and a ton of armor to mount four LRM-20s with eight tons of ammunition.",
     "Icon": "uixTxrIcon_phoenixhawkiic"
   },
   "MovementCapDefID": "movedef_phoenix_hawk_IIC-2",
@@ -205,7 +205,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher & Fire Support",
-  "YangsThoughts": "IIC 2 rains hell from afar with four LRM-20s and eight tons of ammo. Think endless missile salvos softening up the enemy while this metal bird circles high above. Just don't get caught with your landing gear down.",
+  "YangsThoughts": "This one's all about long-range dominance. Four LRM-20s with an impressive eight tons of ammo mean it can always rain missiles on enemies from afar. Fast and deadly, this variant is a serious threat.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

@@ -29,7 +29,7 @@
     "UIName": "Thanatos TNS-4T",
     "Id": "mechdef_thanatos_TNS-4T",
     "Name": "Thanatos",
-    "Details": "<color=#F79B26>The Thanatos is an incredibly sturdy and hard-hitting design that was created to emulate the Thor OmniMech used by the Clans. The Thanatos performs best in heavy cavalry units, often operating alongside other 'Mechs that share its speed profile.</color>\n\nThis Thanatos variant uses a lighter engine and replaces the Extended-Range Lasers with four Medium Pulse Lasers. It also carries the MRM-20, Guardian ECM Suite, and C3 Slave of the standard Thanatos, but its main hitting power comes from the LB 20-X Autocannon in the left arm. It mounts four jump jets, still enough to cover 120 meters at a time.\n",
+    "Details": "<color=#F79B26>The Thanatos is an incredibly sturdy and hard-hitting design that was created to emulate the Thor OmniMech used by the Clans. The Thanatos performs best in heavy cavalry units, often operating alongside other 'Mechs that share its speed profile.</color>\n\nThis Thanatos variant uses a lighter engine and replaces the Extended-Range Lasers with four Medium Pulse Lasers. It also carries the MRM-20, Guardian ECM Suite, and C3 Slave of the standard Thanatos, but its main hitting power comes from the LB 20-X Autocannon in the left arm. It mounts four jump jets, still enough to cover 120 meters at a time.",
     "Icon": "uixTxrIcon_thanatos"
   },
   "simGameMechPartCost": 1680000,

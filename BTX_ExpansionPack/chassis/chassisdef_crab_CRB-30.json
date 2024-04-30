@@ -8,7 +8,7 @@
     "UIName": "Crab",
     "Id": "chassisdef_crab_CRB-30",
     "Name": "Crab",
-    "Details": "The CRB-30 is a complete refit of the CRB-27 introduced in 3061. The standard engine has been replaced with an extralight model. The CRB-30 makes full use of this extra weight by replacing the twin Large Lasers with a pair of ER PPCs and upgrading the Medium Laser and Small Laser to ER Medium Laser and ER Small Laser. The standard single heat sinks have all been replaced with double heat sinks, though two have been removed, forcing the PPCs to use volley fire. The installation of a Guardian ECM and an Improved C3 Computer completes this upgrade.\n",
+    "Details": "The CRB-30 is a complete refit of the CRB-27 introduced in 3061. The standard engine has been replaced with an extralight model. The CRB-30 makes full use of this extra weight by replacing the twin Large Lasers with a pair of ER PPCs and upgrading the Medium Laser and Small Laser to ER Medium Laser and ER Small Laser. The standard single heat sinks have all been replaced with double heat sinks, though two have been removed, forcing the PPCs to use volley fire. The installation of a Guardian ECM and an Improved C3 Computer completes this upgrade.",
     "Icon": "uixTxrIcon_crab"
   },
   "MovementCapDefID": "movedef_crab_CRB-30",

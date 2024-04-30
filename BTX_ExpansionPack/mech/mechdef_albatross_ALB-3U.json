@@ -26,7 +26,7 @@
     "UIName": "Albatross ALB-3U",
     "Id": "mechdef_albatross_ALB-3U",
     "Name": "Albatross",
-    "Details": "<color=#F79B26>The Albatross is an assault 'Mech that was specifically designed to fight the Clans in the event of a conflict as they advance towards Marik space.</color>\n\nThe original ALB-3U Albatross is a workhorse design that does not specialize in any particular role. It is equipped with an LRM-15 launcher, which gives it long-range and indirect fire support capabilities. This is backed up by an LB-X Autocannon/10 and an ER Large Laser, giving the 'Mech a powerful long-range punch. The Albatross also carries a Large Pulse Laser for medium to long-range engagement, as well as an SRM-6 and two Medium Lasers for close combat.\n",
+    "Details": "<color=#F79B26>The Albatross is an assault 'Mech that was specifically designed to fight the Clans in the event of a conflict as they advance towards Marik space.</color>\n\nThe original ALB-3U Albatross is a workhorse design that does not specialize in any particular role. It is equipped with an LRM-15 launcher, which gives it long-range and indirect fire support capabilities. This is backed up by an LB-X Autocannon/10 and an ER Large Laser, giving the 'Mech a powerful long-range punch. The Albatross also carries a Large Pulse Laser for medium to long-range engagement, as well as an SRM-6 and two Medium Lasers for close combat.",
     "Icon": "uixTxrIcon_albatross"
   },
   "simGameMechPartCost": 2560000,

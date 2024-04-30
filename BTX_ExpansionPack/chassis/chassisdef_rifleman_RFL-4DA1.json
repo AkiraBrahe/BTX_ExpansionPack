@@ -8,7 +8,7 @@
     "UIName": "Rifleman",
     "Id": "chassisdef_rifleman_RFL-4DA1",
     "Name": "Rifleman",
-    "Details": "A unique variant based on the RFL-4D, this variant removes all weaponry except for the two arm-mounted PPCs. The lasers that were removed are simply replaced by armor and heat sinks.\n",
+    "Details": "A unique variant based on the RFL-4D, this variant removes all weaponry except for the two arm-mounted PPCs. The lasers that were removed are simply replaced by armor and heat sinks.",
     "Icon": "uixTxrIcon_sneede"
   },
   "MovementCapDefID": "movedef_rifleman_RFL-4DA1",

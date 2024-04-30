@@ -8,7 +8,7 @@
     "UIName": "Hermes II",
     "Id": "chassisdef_hermesii_HER-6D",
     "Name": "Hermes II",
-    "Details": "This variant, used by the Davion Light Guards, exchanges the Medium Laser for an ER Medium Laser and the AC/5 for a RAC/5. It still has only one ton of ammo for the autocannon, however, forcing MechWarriors to use their ammunition wisely.\n",
+    "Details": "This variant, used by the Davion Light Guards, exchanges the Medium Laser for an ER Medium Laser and the AC/5 for a RAC/5. It still has only one ton of ammo for the autocannon, however, forcing MechWarriors to use their ammunition wisely.",
     "Icon": "uixTxrIcon_hermes"
   },
   "MovementCapDefID": "movedef_hermesii_HER-6D",

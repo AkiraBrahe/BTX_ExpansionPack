@@ -28,7 +28,7 @@
     "UIName": "Komodo KIM-3C",
     "Id": "mechdef_komodo_KIM-3C",
     "Name": "Komodo",
-    "Details": "<color=#F79B26>The Komodo is designed to hunt and kill Clan Elemental battle armor. The 'Mech is built to be able to catch up to and destroy them with exceptional speed and maneuverability.</color>\n\nNicknamed the \"Master Komodo\", the 3C variant is a radical modification of the Komodo that makes it capable of commanding a C3 lance. This is done by removing two double heat sinks, two Medium Lasers, and the TAG designator, and replacing them with a C3 Master computer.\n",
+    "Details": "<color=#F79B26>The Komodo is designed to hunt and kill Clan Elemental battle armor. The 'Mech is built to be able to catch up to and destroy them with exceptional speed and maneuverability.</color>\n\nNicknamed the \"Master Komodo\", the 3C variant is a radical modification of the Komodo that makes it capable of commanding a C3 lance. This is done by removing two double heat sinks, two Medium Lasers, and the TAG designator, and replacing them with a C3 Master computer.",
     "Icon": "uixTxrIcon_komodo"
   },
   "simGameMechPartCost": 970000,

@@ -8,7 +8,7 @@
     "UIName": "JagerMech",
     "Id": "chassisdef_jagermechiii_JM6-D3",
     "Name": "JagerMech",
-    "Details": "<color=#F79B26>The JagerMech III is built on the same philosophy as the original JagerMech: keeping the enemy at range.</color>\n\nThe JM6-D3 is built on an endo steel chassis with ferro-fibrous armor and powered by a massive 325 XL engine. Its primary weapons for long-range combat are two Ultra Autocannon/2s capable of hitting from 750 meters away. Despite its cutting-edge construction techniques, the JagerMech III still relies on two PPCs for intermediate ranges, backed up by two Medium Lasers for close combat.\n",
+    "Details": "<color=#F79B26>The JagerMech III is built on the same philosophy as the original JagerMech: keeping the enemy at range.</color>\n\nThe JM6-D3 is built on an endo steel chassis with ferro-fibrous armor and powered by a massive 325 XL engine. Its primary weapons for long-range combat are two Ultra Autocannon/2s capable of hitting from 750 meters away. Despite its cutting-edge construction techniques, the JagerMech III still relies on two PPCs for intermediate ranges, backed up by two Medium Lasers for close combat.",
     "Icon": "uixTxrIcon_jagermech"
   },
   "MovementCapDefID": "movedef_jagermechiii_JM6-D3",

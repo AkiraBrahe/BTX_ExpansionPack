@@ -27,7 +27,7 @@
     "UIName": "JagerMech JM7-F",
     "Id": "mechdef_jagermech_JM7-F",
     "Name": "JagerMech",
-    "Details": "The JM7-F model replaces the JM7-D's Ultra Autocannon and ER Large Lasers with a pair of Rotary Autocannon/5s with four tons of ammunition. Aiming assistance is provided by a Targeting Computer, and defense is improved by the addition of a Guardian ECM Suite. One heat sink is removed, bringing the total to twelve double heat sinks.\n",
+    "Details": "The JM7-F model replaces the JM7-D's Ultra Autocannon and ER Large Lasers with a pair of Rotary Autocannon/5s with four tons of ammunition. Aiming assistance is provided by a Targeting Computer, and defense is improved by the addition of a Guardian ECM Suite. One heat sink is removed, bringing the total to twelve double heat sinks.",
     "Icon": "uixTxrIcon_jagermech"
   },
   "simGameMechPartCost": 1370000,

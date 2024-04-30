@@ -8,7 +8,7 @@
     "UIName": "Chimera",
     "Id": "chassisdef_chimera_CMA-C",
     "Name": "Chimera",
-    "Details": "<color=#F79B26>The Chimera was created as a collaborative effort between the Draconis Combine, Federated Commonwealth, and Lyran Alliance in the run-up to Operation Bulldog.</color>\n\nThe CMA-C variant is barely a design change, with the Machine Gun and its ammunition being replaced by a C3 Slave unit, allowing the 'Mech to be integrated into C3 equipped units.\n",
+    "Details": "<color=#F79B26>The Chimera was created as a collaborative effort between the Draconis Combine, Federated Commonwealth, and Lyran Alliance in the run-up to Operation Bulldog.</color>\n\nThe CMA-C variant is barely a design change, with the Machine Gun and its ammunition being replaced by a C3 Slave unit, allowing the 'Mech to be integrated into C3 equipped units.",
     "Icon": "uixTxrIcon_chimera"
   },
   "MovementCapDefID": "movedef_chimera_CMA-C",

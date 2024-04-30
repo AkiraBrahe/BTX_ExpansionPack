@@ -26,7 +26,7 @@
     "UIName": "Hunchback HBK-5H",
     "Id": "mechdef_hunchback_HBK-5H",
     "Name": "Hunchback",
-    "Details": "The 5H Hunchback is a heavily modified variant of the 4G developed by the Marian Hegemony. It utilizes ferro-fibrous armor to free up space for three RL-20s, giving the 'Mech an incredible amount of close range striking capability.\n",
+    "Details": "The 5H Hunchback is a heavily modified variant of the 4G developed by the Marian Hegemony. It utilizes ferro-fibrous armor to free up space for three RL-20s, giving the 'Mech an incredible amount of close range striking capability.",
     "Icon": "uixTxrIcon_hunchback"
   },
   "simGameMechPartCost": 380000,

@@ -26,7 +26,7 @@
     "UIName": "BattleMaster BLR-3M-DC",
     "Id": "mechdef_battlemaster_BLR-3M-DC",
     "Name": "Battlemaster",
-    "Details": "The Battlemaster 3M-DC drops the rear firing Medium Lasers of the 3M to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM 6.\n",
+    "Details": "The 3M-DC drops the rear firing Medium Lasers to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM-6.",
     "Icon": "uixTxrIcon_battlemaster"
   },
   "simGameMechPartCost": 970000,

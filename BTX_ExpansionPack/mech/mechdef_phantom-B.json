@@ -26,7 +26,7 @@
     "UIName": "Phantom B",
     "Id": "mechdef_phantom-B",
     "Name": "Phantom",
-    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe B configuration is a dedicated close combat machine with two SRM-4 launchers as its primary short range weapons. These are supported by an ER Medium Laser and a rear-mounted ER Small Laser. Additionally, an Active Probe protects the 'Mech from ambush.\n",
+    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe B configuration is a dedicated close combat machine with two SRM-4 launchers as its primary short range weapons. These are supported by an ER Medium Laser and a rear-mounted ER Small Laser. Additionally, an Active Probe protects the 'Mech from ambush.",
     "Icon": "uixTxrIcon_phantom"
   },
   "simGameMechPartCost": 1110000,

@@ -4,7 +4,6 @@
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
-      "unit_lance_vanguard",
       "unit_lance_support",
       "unit_range_long",
       "unit_indirectFire",
@@ -28,7 +27,7 @@
     "UIName": "Cyclops CP-11-A-DC",
     "Id": "mechdef_cyclops_CP-11-A-DC",
     "Name": "Cyclops",
-    "Details": "A sub-variant of the 11-A first modified by the Capellan Confederation during the technological renaissance of the late Succession Wars, one ton each of Gauss and LRM ammunition and one heat sink are removed to allow for the installation of a Command Console.\n",
+    "Details": "A subvariant of the 11-A first modified by the Capellan Confederation during the technological renaissance of the late Succession Wars, one ton each of Gauss and LRM ammunition and one heat sink are removed to allow for the installation of a Command Console.",
     "Icon": "uixTxrIcon_cyclops"
   },
   "simGameMechPartCost": 1240000,

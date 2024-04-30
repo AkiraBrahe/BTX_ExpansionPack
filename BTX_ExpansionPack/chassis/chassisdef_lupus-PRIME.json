@@ -8,7 +8,7 @@
     "UIName": "Lupus",
     "Id": "chassisdef_lupus-PRIME",
     "Name": "Lupus",
-    "Details": "<color=#F79B26>The Lupus OmniMech is Clan Coyote's successor to the Coyotl; it is more armored and serves the same functions as a cavalry raider and fast support 'Mech.</color>\n\nThe primary configuration of the Lupus carries a pair of LRM-20 launchers with improved Artemis IV guidance systems and a set of jump jets, allowing a skilled MechWarrior to maintain distance while bombarding the enemy with heavy missile barrages. Should the enemy close in, all is not lost. The ER Medium Laser in each arm allow the Lupus to slice off armor, and the ECM Suite makes the Lupus Prime more difficult to target.\n",
+    "Details": "<color=#F79B26>The Lupus OmniMech is Clan Coyote's successor to the Coyotl; it is more armored and serves the same functions as a cavalry raider and fast support 'Mech.</color>\n\nThe primary configuration of the Lupus carries a pair of LRM-20 launchers with improved Artemis IV guidance systems and a set of jump jets, allowing a skilled MechWarrior to maintain distance while bombarding the enemy with heavy missile barrages. Should the enemy close in, all is not lost. The ER Medium Laser in each arm allow the Lupus to slice off armor, and the ECM Suite makes the Lupus Prime more difficult to target.",
     "Icon": "uixTxrIcon_lupus"
   },
   "MovementCapDefID": "movedef_lupus-PRIME",

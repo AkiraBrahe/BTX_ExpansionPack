@@ -8,7 +8,7 @@
     "UIName": "Gunslinger",
     "Id": "chassisdef_gunslinger_GUN-2ERD",
     "Name": "Gunslinger",
-    "Details": "The 2ERD model of the Gunslinger upgrades the Medium Lasers to ER Medium Lasers and removes the two rear Medium Pulse Lasers, the Beagle Probe and the Small Laser. The 'Mech then adds an additional jump jet allowing the 'Mech to jump up to ninety meters and also adds a C3 Master computer.\n",
+    "Details": "The 2ERD model of the Gunslinger upgrades the Medium Lasers to ER Medium Lasers and removes the two rear Medium Pulse Lasers, the Beagle Probe and the Small Laser. The 'Mech then adds an additional jump jet allowing the 'Mech to jump up to ninety meters and also adds a C3 Master computer.",
     "Icon": "uixTxrIcon_gunslinger"
   },
   "MovementCapDefID": "movedef_gunslinger_GUN-2ERD",
@@ -212,8 +212,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Juggernaut & Heavy Cavalry",
-  "YangsThoughts": "",
+  "StockRole": "Juggernaut & C3 Command Unit",
+  "YangsThoughts": "PLACEHOLDER - The whole package. Pair of gauss rifles, four ER mediums (hear sinks for 3 consistently) max armor (with a rear bias,) jump jets, and even an ECM in case the ECCM rules are up.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

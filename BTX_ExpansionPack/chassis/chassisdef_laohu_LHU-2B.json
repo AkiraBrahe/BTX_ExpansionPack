@@ -8,7 +8,7 @@
     "UIName": "Lao Hu",
     "Id": "chassisdef_laohu_LHU-2B",
     "Name": "Lao Hu",
-    "Details": "<color=#F79B26>The Lao Hu (\"Tiger\"), designed by a student at the Victoria Academy of Arms and Technology, is based on the Thunder BattleMech and is intended to correct perceived flaws in the Thunder by utilizing new technologies available to the Capellan Confederation.</color>\n\nThe Lao Hu is built on a lightweight Chariot Type II endo steel chassis protected by an impressive thirteen and a half tons of armor, allowing it to withstand hits from all but the most powerful weapons. The Lao Hu is capable of engaging an enemy at almost any range, carrying an ER Large Laser and LRM-15 launcher for long-range combat and a devastating LB-X Autocannon/20 for close-quarters combat.\n",
+    "Details": "<color=#F79B26>The Lao Hu (\"Tiger\"), designed by a student at the Victoria Academy of Arms and Technology, is based on the Thunder BattleMech and is intended to correct perceived flaws in the Thunder by utilizing new technologies available to the Capellan Confederation.</color>\n\nThe Lao Hu is built on a lightweight Chariot Type II endo steel chassis protected by an impressive thirteen and a half tons of armor, allowing it to withstand hits from all but the most powerful weapons. The Lao Hu is capable of engaging an enemy at almost any range, carrying an ER Large Laser and LRM-15 launcher for long-range combat and a devastating LB-X Autocannon/20 for close-quarters combat.",
     "Icon": "uixTxrIcon_laohu"
   },
   "MovementCapDefID": "movedef_laohu_LHU-2B",

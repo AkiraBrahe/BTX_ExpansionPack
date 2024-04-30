@@ -13,7 +13,7 @@
     "UIName": "Gladiator-B",
     "Id": "chassisdef_gladiator-b_executioner-b-PRIME",
     "Name": "Gladiator-B",
-    "Details": "<color=#F79B26>The Executioner-B (code-named Gladiator-B) is the original Executioner created by Clan Burrock during the Golden Century before the introduction of Clan Ghost Bear's upgraded Executioner one hundred years later.</color>\n\nThe Executioner-B's primary configuration features a powerful arsenal of weapons, including an Ultra AC/20 in the left arm, two Large Pulse Lasers in the right, one ER PPC, and two Ultra AC/2s in the side torsos. However, this impressive loadout is hampered by inadequate heat dissipation capabilities, limiting its ability to unleash its full firepower in quick succession. As a result, the Executioner-B rarely achieves its maximum potential damage output.\n",
+    "Details": "<color=#F79B26>The Executioner-B (code-named Gladiator-B) is the original Executioner created by Clan Burrock during the Golden Century before the introduction of Clan Ghost Bear's upgraded Executioner one hundred years later.</color>\n\nThe Executioner-B's primary configuration features a powerful arsenal of weapons, including an Ultra AC/20 in the left arm, two Large Pulse Lasers in the right, one ER PPC, and two Ultra AC/2s in the side torsos. However, this impressive loadout is hampered by inadequate heat dissipation capabilities, limiting its ability to unleash its full firepower in quick succession. As a result, the Executioner-B rarely achieves its maximum potential damage output.",
     "Icon": "uixTxrIcon_executioner-b"
   },
   "MovementCapDefID": "movedef_gladiator-b_executioner-b-PRIME",

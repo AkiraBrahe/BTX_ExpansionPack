@@ -13,7 +13,7 @@
   "Description": {
     "Id": "vehiclechassisdef_KOKOU",
     "Name": "Kokou",
-    "Details": "<b>Name: <color=#85DBF6>Kokou Defense Tank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>140 Fusion</color></b>\n\nThe Kokou Defense Tank is an early Clan combat vehicle developed by Clan Star Adder. It is powered by a standard fusion engine and protected by eight and a half tons of ferro-fibrous armor. Given its low speed, the Kokou is used primarily as a defensive unit.\n\nIts long-range weapon is a LRM-10 launcher mounted on the front of the tank's hull. Intermediate and close range threats are handled by the blistering power of three Large Pulse Lasers found in its turret.",
+    "Details": "<b>Name: <color=#85DBF6>Kokou Defense Tank (Standard)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>140 Fusion</color></b>\n\nThe Kokou Defense Tank is an early Clan combat vehicle developed by Clan Star Adder. It is powered by a standard fusion engine and protected by eight and a half tons of ferro-fibrous armor. Given its low speed, the Kokou is used primarily as a defensive unit.\n\nIts long-range weapon is an LRM-10 launcher mounted on the front of the tank's hull. Intermediate and close range threats are handled by the blistering power of three Large Pulse Lasers found in its turret.",
     "Icon": "uixVhclIcon_kokou",
     "Cost": 2861667,
     "Rarity": 0,

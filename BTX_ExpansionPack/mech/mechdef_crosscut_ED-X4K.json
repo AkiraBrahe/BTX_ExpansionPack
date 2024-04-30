@@ -25,7 +25,7 @@
     "UIName": "Crosscut ED-X4K",
     "Id": "mechdef_crosscut_ED-X4K",
     "Name": "Crosscut",
-    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThe X4K variant replaces the internal combustion engine with a fuel cell engine and adds five tons of heavy industrial armor. The lift hoist has been replaced by an SRM-4 launcher with a ton of ammunition and guided by an advanced fire control.\n",
+    "Details": "<color=#F79B26>The Crosscut is a popular LoggerMech, praised for its efficiency in woodlands and dominance in commercial forestry. Some MechWarrior academies even use them as training 'Mechs to teach their cadets.</color>\n\nThe X4K variant replaces the internal combustion engine with a fuel cell engine and adds five tons of heavy industrial armor. The lift hoist has been replaced by an SRM-4 launcher with a ton of ammunition and guided by an advanced fire control.",
     "Icon": "uixTxrIcon_crosscut"
   },
   "simGameMechPartCost": 110000,

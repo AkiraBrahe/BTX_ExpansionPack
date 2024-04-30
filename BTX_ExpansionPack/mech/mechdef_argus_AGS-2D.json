@@ -27,7 +27,7 @@
     "UIName": "Argus AGS-2D",
     "Id": "mechdef_argus_AGS-2D",
     "Name": "Argus",
-    "Details": "<color=#F79B26>The Argus, a 60-ton BattleMech developed by Achernar BattleMechs and Robinson Standard BattleWorks, was initially an OmniMech but later resubmitted as a BattleMech that was quickly picked up by the AFFC.</color>\n\nThe 2D variant of the Argus was initially intended to be the primary configuration of the OmniMech version. The 2D is equipped for long-range combat, with two LRM-15 launchers equipped with Artemis IV fire control for greater missile accuracy and a single ER PPC capable of striking down targets at extreme ranges.\n",
+    "Details": "<color=#F79B26>The Argus, a 60-ton BattleMech developed by Achernar BattleMechs and Robinson Standard BattleWorks, was initially an OmniMech but later resubmitted as a BattleMech that was quickly picked up by the AFFC.</color>\n\nThe 2D variant of the Argus was initially intended to be the primary configuration of the OmniMech version. The 2D is equipped for long-range combat, with two LRM-15 launchers equipped with Artemis IV fire control for greater missile accuracy and a single ER PPC capable of striking down targets at extreme ranges.",
     "Icon": "uixTxrIcon_argus"
   },
   "simGameMechPartCost": 1230000,

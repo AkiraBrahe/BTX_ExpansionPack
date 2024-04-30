@@ -8,7 +8,7 @@
     "UIName": "Roughneck",
     "Id": "chassisdef_roughneck_RGH-1B",
     "Name": "Roughneck",
-    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 1B swaps out the AC/10 for an AC/5 mounted in the left arm and upgrades the SRM launcher to an SRM-6 while keeping the head-mounted Small Laser. Carrying three tons of autocannon rounds, two tons of SRM missiles and machine gun ammo, but carrying only twelve heat sinks, the 1B is structurally identical to the 1A.\n",
+    "Details": "<color=#F79B26>The Roughneck is a militarized version of the Loader King IndustrialMech, capitalizing on its superb reputation to create a low-cost heavy 'Mech designed for militias.</color>\n\nThe 1B swaps out the AC/10 for an AC/5 mounted in the left arm and upgrades the SRM launcher to an SRM-6 while keeping the head-mounted Small Laser. Carrying three tons of autocannon rounds, two tons of SRM missiles and machine gun ammo, but carrying only twelve heat sinks, the 1B is structurally identical to the 1A.",
     "Icon": "uixTxrIcon_roughneck"
   },
   "MovementCapDefID": "movedef_roughneck_RGH-1B",

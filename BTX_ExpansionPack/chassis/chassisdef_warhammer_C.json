@@ -8,7 +8,7 @@
     "UIName": "Warhammer",
     "Id": "chassisdef_warhammer_C",
     "Name": "Warhammer",
-    "Details": "This variant of the venerable Warhammer is a Clan-tech retrofit intended for second-line and solahma troops. It replaces most of the Inner Sphere-tech weaponry of the original WHM-6R with Clan equivalents and uses the weight savings to add two more heat sinks. The PPCs are replaced with Large Pulse Lasers, the SRM-6 is upgraded to a Streak SRM-6, and all lasers are upgraded to ER Medium and ER Small Lasers. Only the Machine Guns remain unchanged.\n",
+    "Details": "This variant of the venerable Warhammer is a Clan-tech retrofit intended for second-line and solahma troops. It replaces most of the Inner Sphere-tech weaponry of the original WHM-6R with Clan equivalents and uses the weight savings to add two more heat sinks. The PPCs are replaced with Large Pulse Lasers, the SRM-6 is upgraded to a Streak SRM-6, and all lasers are upgraded to ER Medium and ER Small Lasers. Only the Machine Guns remain unchanged.",
     "Icon": "uixTxrIcon_warhammerc"
   },
   "MovementCapDefID": "movedef_warhammer_C",
@@ -213,7 +213,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler & Close Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "Another Star League relic, eh? Upgraded to pulse and ER lasers, fancy that. But still rocking single heat sinks? More of a liability than a throwback, I'd wager.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",

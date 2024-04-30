@@ -8,7 +8,7 @@
     "UIName": "Bull Shark",
     "Id": "chassisdef_bullshark_BSK-MAZ",
     "Name": "Bull Shark",
-    "Details": "The Bull Shark is a 95-ton Assault 'Mech with an otherworldly design and an unusual arsenal that allows it to engage targets across a fairly wide range bracket. Its main weapon is a Thumper Artillery Cannon that takes up most of the right torso. However, most of its firepower comes from an LB 10-X AC and Ultra AC/5 mounted in each arm, backed up by two ER Medium Lasers in each torso. Fourteen double heat sinks attempt to keep the very high heat generation of its lasers in check.\n",
+    "Details": "The Bull Shark is a 95-ton Assault 'Mech with an otherworldly design and an unusual arsenal that allows it to engage targets across a fairly wide range bracket. Its main weapon is a Thumper Artillery Cannon that takes up most of the right torso. However, most of its firepower comes from an LB 10-X AC and Ultra AC/5 mounted in each arm, backed up by two ER Medium Lasers in each torso. Fourteen double heat sinks attempt to keep the very high heat generation of its lasers in check.",
     "Icon": "uixTxrIcon_bullshark"
   },
   "MovementCapDefID": "movedef_bullshark_BSK-MAZ",

@@ -22,7 +22,7 @@
     "Id": "vehicledef_CARRIER_ARROWIV",
     "Name": "Arrow IV Carrier",
     "UIName": "Arrow IV Carrier (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Arrow IV Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>",
+    "Details": "<b>Name: <color=#85DBF6>Arrow IV Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe SRM Carrier is the close-range counterpart to the LRM Carrier. This ubiquitous missile platform blankets the Inner Sphere in various configurations, offering affordable and devastating short-range firepower.\n\nNotably, the Combine's Ryuken-yon fields SRM Carriers with special weapon pods that can handle the advanced Arrow IV launchers.",
     "Icon": "uixVhclIcon_mortarcarrier",
     "Cost": 2904000,
     "Rarity": 0,

@@ -8,7 +8,7 @@
     "UIName": "Arctic Fox",
     "Id": "chassisdef_arctic_fox_AF1D",
     "Name": "Arctic Fox",
-    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nA dedicated fire support configuration, the D configuration carries two LRM-10 launchers linked to an Artemis IV fire control system for greater missile accuracy.\n",
+    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nA dedicated fire support configuration, the D configuration carries two LRM-10 launchers linked to an Artemis IV fire control system for greater missile accuracy.",
     "Icon": "uixTxrIcon_arcticfox"
   },
   "MovementCapDefID": "movedef_arctic_fox_AF1D",

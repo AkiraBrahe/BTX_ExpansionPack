@@ -26,7 +26,7 @@
     "UIName": "Dasher E",
     "Id": "mechdef_dasher_fire_moth-E",
     "Name": "Dasher",
-    "Details": "Another simple but effective configuration, the Fire Moth E mounts an ATM-6 missile rack, allowing for a surprising amount of flexibility. The ATM system utilizes many different types of ammunition, ranging from high-explosive short-range missiles to long-range missiles packed with fuel.\n",
+    "Details": "Another simple but effective configuration, the Fire Moth E mounts an ATM-6 missile rack, allowing for a surprising amount of flexibility. The ATM system utilizes many different types of ammunition, ranging from high-explosive short-range missiles to long-range missiles packed with fuel.",
     "Icon": "uixTxrIcon_dasher"
   },
   "simGameMechPartCost": 410000,

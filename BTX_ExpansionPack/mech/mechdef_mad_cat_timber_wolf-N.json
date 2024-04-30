@@ -27,7 +27,7 @@
     "UIName": "Mad Cat N",
     "Id": "mechdef_mad_cat_timber_wolf-N",
     "Name": "Mad Cat",
-    "Details": "A mix of the Prime and the D configurations, alternate configuration N mounts an ER PPC in each arm alongside two LRM-15 racks. Short-range support comes from paired Machine Guns and Medium Pulse Lasers. Two tons of LRM reloads and a half ton of machine gun rounds force a focus on the energy weapons, with an extra double heat sink trying to help manage their heat.\n",
+    "Details": "A mix of the Prime and the D configurations, alternate configuration N mounts an ER PPC in each arm alongside two LRM-15 racks. Short-range support comes from paired Machine Guns and Medium Pulse Lasers. Two tons of LRM reloads and a half ton of machine gun rounds force a focus on the energy weapons, with an extra double heat sink trying to help manage their heat.",
     "Icon": "uixTxrIcon_madcat"
   },
   "simGameMechPartCost": 2410000,

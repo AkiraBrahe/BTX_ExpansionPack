@@ -8,7 +8,7 @@
     "UIName": "Thunder",
     "Id": "chassisdef_thunder_THR-2L",
     "Name": "Thunder",
-    "Details": "The 2L model of the Thunder upgrades the design with some of the latest technologies, making it a highly destructive close combat 'Mech. The Autocannon/20 has been replaced with an LB-X Autocannon/20, which acts like a giant 'Mech-scale shotgun. This variant is also armed with two ER Medium Lasers and an ER Small Laser. Additionally, the LRM-5 has been dropped in favor of a Streak SRM-6 launcher for additional close-range firepower. Both Triple Strength Myomer and CASE have also been added. The final touch on the 'Mech is the use of stealth armor and its required Guardian ECM, which makes the 'Mech much harder for an enemy unit to target.\n",
+    "Details": "The 2L model of the Thunder upgrades the design with some of the latest technologies, making it a highly destructive close combat 'Mech. The Autocannon/20 has been replaced with an LB-X Autocannon/20, which acts like a giant 'Mech-scale shotgun. This variant is also armed with two ER Medium Lasers and an ER Small Laser. Additionally, the LRM-5 has been dropped in favor of a Streak SRM-6 launcher for additional close-range firepower. Both Triple Strength Myomer and CASE have also been added. The final touch on the 'Mech is the use of stealth armor and its required Guardian ECM, which makes the 'Mech much harder for an enemy unit to target.",
     "Icon": "uixTxrIcon_thunder"
   },
   "MovementCapDefID": "movedef_thunder_THR-2L",

@@ -8,7 +8,7 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-K-DC",
     "Name": "Atlas",
-    "Details": "The AS7-K-DC is a sub-variant of the Atlas K trading one of the rear-mounted Medium Pulse Lasers and one ton of LRM ammunition for a Command Console.\n",
+    "Details": "The AS7-K-DC is a subvariant of the Atlas K trading one of the rear-mounted Medium Pulse Lasers and one ton of LRM ammunition for a Command Console.",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_atlas_AS7-K-DC",
@@ -63,10 +63,6 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -101,10 +97,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -123,6 +115,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -139,7 +135,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -224,8 +220,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Command 'Mech",
-  "YangsThoughts": "The AS7-K-DC is a straightforward refit of the AS7-K, swapping out the rear-mounted Medium Pulse Laser and a ton of LRM ammo for a Command Console. This change significantly improves the commander's ability to lead their troops in battle.",
+  "StockRole": "Command 'Mech, Juggernaut & Long Range Assault",
+  "YangsThoughts": "This is a simple upgrade to the AS7-K, swapping out the rear-mounted Medium Pulse Laser and a ton of LRM ammo for a Command Console to lead your lance into battle with confidence.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

@@ -8,7 +8,7 @@
     "UIName": "Tempest",
     "Id": "chassisdef_tempest_TMP-3M",
     "Name": "Tempest",
-    "Details": "<color=#F79B26>The Tempest is a low-end, heavy 'Mech that is built to pack a powerful punch at both long and short ranges.</color>\n\nAn endo steel chassis and a 260 XL engine allow the Tempest to carry a substantial arsenal without compromising its agility. Its four jump jets let it to maneuver with ease while engaging targets from a variety of distances. For long-range engagements, the 'Mech wields a devastating Gauss Rifle, while its Large Pulse Laser handles medium- to long-range exchanges. When the Tempest closes to short ranges, it brings its trio of Medium Lasers and its SRM-6 to bear on an enemy.\n",
+    "Details": "<color=#F79B26>The Tempest is a low-end, heavy 'Mech that is built to pack a powerful punch at both long and short ranges.</color>\n\nAn endo steel chassis and a 260 XL engine allow the Tempest to carry a substantial arsenal without compromising its agility. Its four jump jets let it to maneuver with ease while engaging targets from a variety of distances. For long-range engagements, the 'Mech wields a devastating Gauss Rifle, while its Large Pulse Laser handles medium- to long-range exchanges. When the Tempest closes to short ranges, it brings its trio of Medium Lasers and its SRM-6 to bear on an enemy.",
     "Icon": "uixTxrIcon_tempest"
   },
   "MovementCapDefID": "movedef_tempest_TMP-3M",
