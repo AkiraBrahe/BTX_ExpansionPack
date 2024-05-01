@@ -2,7 +2,7 @@ itemCollection_Vehicles_BlackMarket,,,
 vehicledef_APC_Turhan,Mech,1,1
 vehicledef_BEHEMOTH,Mech,1,1
 vehicledef_BRUTUS,Mech,1,1
-vehicledef_MOBILEHQ,Mech,1,1
+vehicledef_MOBILEHQ-ICE,Mech,1,1
 vehicledef_DEVASTATOR,Mech,1,1
 vehicledef_MANTICORE,Mech,1,1
 vehicledef_ONTOS_FUSION,Mech,1,1

@@ -125,7 +125,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 40,
+      "MaxArmor": 30,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     },
@@ -134,7 +134,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 40,
+      "MaxArmor": 30,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     }

@@ -1,4 +1,7 @@
 {
+  "Description": {
+    "UIName": "Flea FLE-14"
+  },
   "Locations": [
     {
       "DamageLevel": "Functional",
