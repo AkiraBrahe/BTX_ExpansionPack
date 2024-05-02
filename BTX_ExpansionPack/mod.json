@@ -31,6 +31,7 @@
         { "Type": "SVGAsset", "Path": "icons" },
         { "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
         { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
+        { "Type": "ItemCollectionDef", "Path": "itemCollectionsFactories", "AddToDB": true },
         { "Type": "JumpJetDef", "Path": "jumpjets", "AddToDB": true },
         { "Type": "LanceDef", "Path": "lance", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
