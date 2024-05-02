@@ -55,6 +55,20 @@
       "FallbackUIColor": null,
       "Icon": "MissileHardpointIcon",
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+    },
+    {
+      "ID": 54,
+      "Name": "BombBay",
+      "FriendlyName": "Bombs",
+      "IsBallistic": false,
+      "IsMissile": true,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Missile",
+      "FallbackUIColor": null,
+      "Icon": "MissileHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
     }
   ]
 }

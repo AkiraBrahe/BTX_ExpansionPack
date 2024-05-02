@@ -597,6 +597,14 @@
       "Type": "HardpointDataDef",
       "Path": "hardpointdata",
       "ShouldMergeJSON": true
+    },
+    {
+      "Type": "CCCategories",
+      "Path": "cc_category"
+    },
+    {
+      "Type": "CCTagRestrictions",
+      "Path": "cc_tagrestrict"
     }
   ]
 }
