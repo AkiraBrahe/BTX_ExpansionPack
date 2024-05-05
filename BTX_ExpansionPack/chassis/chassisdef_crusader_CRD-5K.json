@@ -8,7 +8,7 @@
     "UIName": "Crusader",
     "Id": "chassisdef_crusader_CRD-5K",
     "Name": "Crusader",
-    "Details": "",
+    "Details": "The 5K Crusader is a complete upgrade produced for House Kurita in 3063. The internal structure is replaced with an endo steel chassis, and the engine is upgraded to a 260 XL engine. The 'Mech's armament is completely overhauled as well: two MRM 30 launchers carried in either arm and two Medium Lasers split between the side torsos, with another two Medium Pulse Lasers in the center torso. It also carries a C3 slave unit to share targeting data, and eleven double heat sinks to vent waste heat.",
     "Icon": "uixTxrIcon_crusader"
   },
   "MovementCapDefID": "movedef_crusader_CRD-5K",
@@ -216,7 +216,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 5K Crusader is a complete upgrade produced for House Kurita in 3063. The internal structure is replaced with an endo steel chassis, and the engine is upgraded to a 260 XL engine. The 'Mech's armament is completely overhauled as well: two MRM 30 launchers carried in either arm and two Medium Lasers split between the side torsos, with another two Medium Pulse Lasers in the center torso. It also carries a C3 slave unit to share targeting data, and eleven double heat sinks to vent waste heat.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

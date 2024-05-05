@@ -202,7 +202,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Recon Striker 'Mech",
-  "YangsThoughts": "",
+  "YangsThoughts": "As a recon 'Mech intended to rarely engage an enemy in a pitched battle, the Nexus is armed with a Medium Laser backed up by two highly-accurate Medium Pulse Lasers. As a last resort, the Nexus can employ  its two Small Lasers, while an Anti-Missile System offers additional defense against missile attacks. The Nexus' true strength resides in his endo steel chassis and its two tons of ferro-fibrous armor, which both save weight without the vulnerability of an extralight engine.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",

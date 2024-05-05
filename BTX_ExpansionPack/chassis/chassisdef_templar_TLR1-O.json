@@ -208,7 +208,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Brawler & Close Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The primary configuration of the Templar is intended to be able to engage an enemy effectively at any range. The Templar Prime employs a powerful Gauss Rifle at long range. If the enemy gets too close, the OmniMech can bring its highly accurate Large Pulse Laser, Medium Pulse Laser, and two ER Medium Lasers to bear on a target, as well as a Streak SRM-4 launcher for seeking weak points in the enemy's armor. For increased accuracy, the lasers are all linked to an advanced Targeting Computer.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

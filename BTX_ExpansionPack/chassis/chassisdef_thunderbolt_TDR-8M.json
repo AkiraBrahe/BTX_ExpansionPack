@@ -206,7 +206,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "The TDR-8M is an upgrade to the 7M that retains LRM-15 and ER Large Laser of the latter but replaces the trio of Medium Lasers with ER Medium Lasers and four jump jets. The SRM-2 and the Machine Guns had to be removed because of the additional weight.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",

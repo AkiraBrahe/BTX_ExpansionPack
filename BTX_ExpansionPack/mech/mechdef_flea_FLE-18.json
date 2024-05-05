@@ -26,7 +26,7 @@
     "UIName": "Flea FLE-18",
     "Id": "mechdef_flea_FLE-18",
     "Name": "Fire Ant",
-    "Details": "",
+    "Details": "The \"Fire Ant\" is a vicious anti-infantry 'Mech that first appeared in the urban urban chaos of the Chaos March. This variant removes half a ton of armor in favor of six Machine Guns and three Flamers. Likely intended for urban pacification, its origins remain shrouded in mystery, as Earthwerks officially denies any involvement in its design.",
     "Icon": "uixTxrIcon_flea"
   },
   "simGameMechPartCost": 160000,

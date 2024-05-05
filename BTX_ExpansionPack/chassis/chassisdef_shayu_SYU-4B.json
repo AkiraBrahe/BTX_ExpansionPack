@@ -209,7 +209,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "Modified for close-range combat, the 4B variant completely reconfigures the Sha Yu to optimize it for use as a brawler in a C3 lance. The ER Large Lasers have been dropped in favor of a single LRM-5 launcher for long-range sparring, supported by three Medium Pulse Lasers for close combat. The two ER Medium Lasers remain, while the TAG is replaced by a C3 Slave Unit.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

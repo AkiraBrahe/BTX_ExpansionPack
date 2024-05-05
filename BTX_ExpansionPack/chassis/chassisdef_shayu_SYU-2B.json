@@ -209,7 +209,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Scout & Harasser",
-  "YangsThoughts": "",
+  "YangsThoughts": "The SYU-2B Sha Yu is built on a lightweight endo steel chassis powered by a 280 XL engine that gives it an impressive top speed of 118.8 km/h. Protection is provided by six and a half tons of stealth armor, making the 'Mech extremely difficult to hit. The Sha Yu has to carry a Guardian ECM Suite as part of its stealth armor and is armed with a basic yet effective energy-based payload consisting of two ER Medium and Large Lasers. Finally, the Sha Yu carries a TAG target designator, allowing it to call in accurate Arrow IV artillery missile attacks on a target.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

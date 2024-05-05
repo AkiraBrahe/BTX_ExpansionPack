@@ -8,7 +8,7 @@
     "UIName": "Rattlesnake",
     "Id": "chassisdef_rattlesnake_JR7-31",
     "Name": "Rattlesnake",
-    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThe Rattlesnake's main armament consists of seven Medium Lasers. It is equipped with the Guardian ECM Suite to protect itself from enemy electronic warfare equipment. Its eleven double heat sinks are only just capable of keeping its heat in check.",
+    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThe original JR7-31 Rattlesnake features cutting-edge technologies, including ferro-fibrous armor, an XL engine, and a Guardian ECM Suite. Its main weapons are seven Medium Lasers. Its 11 double heat sinks are only capable of keeping its heat in check.",
     "Icon": "uixTxrIcon_rattlesnake"
   },
   "MovementCapDefID": "movedef_rattlesnake_JR7-31",

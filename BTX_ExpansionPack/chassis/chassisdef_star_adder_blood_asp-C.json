@@ -202,7 +202,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Front-Line Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "This ammunition-dependent version uses a pair of Ultra Autocannon/10s and an LB 20-X AC for close-range engagements, which its dearth of ammunition further reinforces. It mounts a lone ER Large Laser for long-range support.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

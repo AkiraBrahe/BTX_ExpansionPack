@@ -202,7 +202,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Anti-Aircraft & Direct-Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 8D is intended as more of a line unit. It mounts two Rotary Autocannon/5s with six tons of ammunition split between the arms, a pair of ER Medium Lasers also mounted in each arm, eleven double heat sinks, and twelve tons of armor, the heaviest of any known Rifleman variant. It is also the only known Rifleman variant to mount jump jets, with two in either leg for a total jumping distance of 120 meters. To carry all this additional weight, the 8D uses an endo steel chassis and a 240 XL engine, although it still mounts the same excellent Garret electronics.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

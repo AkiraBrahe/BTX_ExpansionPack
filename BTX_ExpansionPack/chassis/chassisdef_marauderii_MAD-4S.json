@@ -8,7 +8,7 @@
     "UIName": "Marauder II",
     "Id": "chassisdef_marauderii_MAD-4S",
     "Name": "Marauder II",
-    "Details": "",
+    "Details": "Introduced in 3064, the Marauder II 4S uses a light fusion engine to make it less vulnerable to a side torso destruction. The 'Mech carries two ER PPCs as its primary weapons and two ER Medium Lasers for close ranges. For added punch at medium to short ranges, the 4S carries a massive Heavy Gauss Rifle, the design specs of the Lyran pride and joy stolen by the Dragoons in revenge for the Lyran theft of the light fusion engine technology.",
     "Icon": "uixTxrIcon_marauderii"
   },
   "MovementCapDefID": "movedef_marauderii_MAD-4S",
@@ -205,7 +205,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Ranged Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Marauder II 4S uses a light fusion engine to make it less vulnerable to a side torso destruction. The 'Mech carries two ER PPCs as its primary weapons and two ER Medium Lasers for close ranges. For added punch at medium to short ranges, the 4S carries a massive Heavy Gauss Rifle, the design specs of the Lyran pride and joy stolen by the Dragoons in revenge for the Lyran theft of the light fusion engine technology.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

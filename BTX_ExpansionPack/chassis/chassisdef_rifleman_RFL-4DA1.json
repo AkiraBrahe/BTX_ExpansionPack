@@ -202,7 +202,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Direct-Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "A unique variant based on the RFL-4D, this variant removes all weaponry except for the two arm-mounted PPCs. The lasers that were removed are simply replaced by armor and heat sinks.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",

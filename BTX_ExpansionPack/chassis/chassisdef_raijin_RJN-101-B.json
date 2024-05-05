@@ -208,7 +208,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Striker",
-  "YangsThoughts": "",
+  "YangsThoughts": "A field refit intended to turn the Raijin into a better scout after ComStar lost its source of Mongooses during Operation Odysseus, the 101-B retains the right-torso ER PPC but swaps the other weaponry for a left-arm mounted Large Pulse Laser, a Medium Laser, and a Flamer in each side torso alongside a Beagle Active Probe. Considered an ad hoc solution at best, the variant was quickly replaced by the more reliable Beowulf.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

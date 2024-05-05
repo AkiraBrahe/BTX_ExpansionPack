@@ -25,7 +25,7 @@
     "UIName": "Hoplite HOP-4Cb",
     "Id": "mechdef_hoplite_HOP-4Cb",
     "Name": "Hoplite",
-    "Details": "",
+    "Details": "A Hell's Horses field refit from Operation KLONDIKE, the 4Cb removes the weapons, electronics suite, and a heat sink in favor of a Gauss Rifle, SRM-6, and ferro-fibrous armor.",
     "Icon": "uixTxrIcon_hoplite"
   },
   "simGameMechPartCost": 480000,

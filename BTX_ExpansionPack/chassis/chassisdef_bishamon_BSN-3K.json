@@ -8,7 +8,7 @@
     "UIName": "Bishamon",
     "Id": "chassisdef_bishamon_BSN-3K",
     "Name": "Bishamon",
-    "Details": "<color=#F79B26>Capitalizing on the Venom's success, Nimakachi Fusion's Bishamon is a quad 'Mech packing advanced tech and weaponry in a lightweight chassis for a mobile scouting role.</color>\n\nThe Bishamon is clearly intended to engage its enemies at short to medium ranges. Its primary weapon is a MRM-20 launcher, backed up by a pair of ER medium lasers and two highly accurate Medium Pulse Lasers. While the 'Mech is vulnerable to long-range attacks, when engaged in close quarters, the Bishamon is an extremely dangerous 'Mech to face.",
+    "Details": "<color=#F79B26>Capitalizing on the Venom's success, Nimakachi Fusion's Bishamon is a quad 'Mech packing advanced tech and weaponry in a lightweight chassis for a mobile scouting role.</color>\n\nThe Bishamon is clearly intended to engage its enemies at short to medium ranges. Its primary weapon is a MRM-20 launcher, backed up by a pair of ER Medium Lasers and two highly accurate Medium Pulse Lasers. While the 'Mech is vulnerable to long-range attacks, when engaged in close quarters, the Bishamon is an extremely dangerous 'Mech to face.",
     "Icon": "uixTxrIcon_bishamon"
   },
   "MovementCapDefID": "movedef_bishamon_BSN-3K",

@@ -28,7 +28,7 @@
     "UIName": "Jinggau JN-G7L",
     "Id": "mechdef_jinggau_JN-G7L",
     "Name": "Jinggau",
-    "Details": "<color=#F79B26>With its high ground speed, superior mobility, armor, and firepower the Jinggau is a 'Mech more than capable of handling most enemies on today's battlefield.</color>",
+    "Details": "<color=#F79B26>With its high ground speed, superior mobility, armor, and firepower the Jinggau is a 'Mech more than capable of handling most enemies on today's battlefield.</color>This variant was introduced just after the start of the Jihad, applying the latest Capellan technology to the 'Mech. A pair of Plasma Rifles are mounted in the right arm, while in the left arm, the 'Mech has been given six standard Medium Lasers. To help cope with the heat, the 'Mech's double heat sink count has been raised to fifteen.",
     "Icon": "uixTxrIcon_jinggau"
   },
   "simGameMechPartCost": 1470000,

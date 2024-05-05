@@ -8,7 +8,7 @@
     "UIName": "Gallowglas",
     "Id": "chassisdef_gallowglas_GAL-4GLSA",
     "Name": "Gallowglas",
-    "Details": "",
+    "Details": "An electronic warfare variant of the 4GLS model, the 4GLSA drops one of the ER Large Lasers to free up weight to carry a Guardian ECM Suite, a head-mounted ER Small Laser, two additional rear-facing ER Medium Lasers, and an extra double heat sink.",
     "Icon": "uixTxrIcon_gallowglas"
   },
   "MovementCapDefID": "movedef_gallowglas_GAL-4GLSA",
@@ -211,7 +211,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Long Range Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "An electronic warfare variant of the 4GLS model, the 4GLSA drops one of the ER Large Lasers to free up weight to carry a Guardian ECM Suite, a head-mounted ER Small Laser, two additional rear-facing ER Medium Lasers, and an extra double heat sink.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",

@@ -194,7 +194,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Recon Striker 'Mech",
-  "YangsThoughts": "",
+  "YangsThoughts": "Considered the progenitor of the Nexus II, the NXS1-B variant is intended to make the 'Mech more capable as a recon unit. Clad in four tons of ferro-fibrous armor, the NXS1-B can also jump further and carries two ER Medium Lasers as its primary weapons, backed up by an ER small laser. What makes this Nexus variant so effective as a recon 'Mech is its Improved C3 Unit that allows it to share targeting data with up to five allied units.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",

@@ -26,7 +26,7 @@
     "UIName": "Lightray LGH-4Y",
     "Id": "mechdef_lightray_LGH-4Y",
     "Name": "Lightray",
-    "Details": "<color=#F79B26>The Lightray was designed for the Word of Blake to be a heavy scout 'Mech and was put into production in 3064.</color>\n\nThe main weapon of the Lightray is its Large Pulse Laser. A pair of ER medium lasers and an ER small laser add to the close-range damage the 'Mech can deal. Lastly, two SRM-2 packs with one ton of ammunition exploit holes in an enemy's armor.",
+    "Details": "<color=#F79B26>The Lightray was designed for the Word of Blake to be a heavy scout 'Mech and was put into production in 3064.</color>\n\nThe main weapon of the Lightray is its Large Pulse Laser. A pair of ER Medium Lasers and an ER Small Laser add to the close-range damage the 'Mech can deal. Lastly, two SRM-2 packs with one ton of ammunition exploit holes in an enemy's armor.",
     "Icon": "uixTxrIcon_lightray"
   },
   "simGameMechPartCost": 1300000,

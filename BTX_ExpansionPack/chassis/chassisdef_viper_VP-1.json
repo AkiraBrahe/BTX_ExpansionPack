@@ -211,7 +211,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "In its original configuration, the Viper relied on a pair of Binary Laser Cannons as its primary armament, with an additional three Medium Pulse Lasers as backup. Kallon Industries had originally intended to use Extended Range PPCs as the 'Mech's main weapons, but those had been growing increasingly scarce at the time of the Viper's development.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

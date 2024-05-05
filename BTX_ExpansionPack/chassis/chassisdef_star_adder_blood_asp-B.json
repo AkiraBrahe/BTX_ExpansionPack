@@ -206,7 +206,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Long-Range Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The second alternate configuration is designed for fire support, employing a Gauss Rifle and two LRM-20s equipped with Artemis IV fire control systems. It also mounts four Medium Pulse Lasers and an ECM Suite in case an enemy unit approaches. Two additional heat sinks ensure this design stays cool.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

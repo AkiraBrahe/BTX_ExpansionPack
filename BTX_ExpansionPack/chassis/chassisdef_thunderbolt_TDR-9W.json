@@ -206,7 +206,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "This variant was built for the Wolf's Dragoons and was based on a configuration from the Golden Century. The right arm carries a Clan Large Pulse Laser, while the three torso-mounted lasers are replaced with Clan Medium Pulse Lasers. The LRM-10 launcher is also replaced with its Clan-spec equivalent and equipped with an Artemis IV FCS. Two tons of LRM ammo are carried in a CASE-protected bin. Twelve tons of Inner Sphere-spec ferro-fibrous armor provide maximum protection. Fifteen double heat sinks dissipate the heat from various Clan-spec weapons.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",

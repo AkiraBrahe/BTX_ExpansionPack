@@ -202,7 +202,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Heavy Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "This second configuration replaces four of the ER Large Lasers and ten of their attendant heat sinks with four ATM-9s, six tons of ammunition, and adds an advanced Targeting Computer to guide the remaining pair of lasers. The 'Mech also uses endo steel and has increased armor protection.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

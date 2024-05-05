@@ -201,7 +201,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Long Range Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The R4N is a modification that looks to the original design of the Huron Warrior and reverts the 'Mech back to a fire support role. This is done by replacing the 'Mech's weapons and ammunition payload with a pair of LRM-15 launchers and four Medium Lasers, with CASE for the ammo bin. The 'Mech is also armored with new stealth armor and carries a Guardian ECM. This combination of LRM-15s and stealth armor makes the R4N an incredibly powerful fire support 'Mech.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

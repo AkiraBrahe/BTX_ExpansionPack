@@ -214,7 +214,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Defender",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Minsk is built with a mix of Clan technologies as well as some leftover equipment from the Star League era. The main long-range firepower comes from a Gauss Rifle mounted in each arm and a single LRM-10 in the left torso. When enemies close in, they face the additional firepower in each side torso: a cluster of weapons consisting of an SRM-6, a Small Pulse Laser, and a Machine Gun. Ammunition is available in plenty and is protected by Clan-spec CASE. The Minsk is also fitted with an antique Beagle Active Probe, allowing it to find hidden units and threats.",
   "FixedEquipment": [
     {
       "MountedLocation": "RightTorso",

@@ -215,7 +215,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "Designed to bring heavy firepower to bear on an enemy in a fast and dependable package, the Spartan packs fourteen tons of armor and has a top speed of 86.4 km/h thanks to its massive 400 XL engine. Its primary long-range weapon is a Kinslaughter H-Class ER PPC, complemented by a trio of Medium Pulse Lasers and two Streak SRM-2s that give the Spartan a powerful short-range punch. Additionally, a TAG helps it spot for friendly Arrow IV artillery units, while an Anti-Missile System provides point-blank missile defense.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

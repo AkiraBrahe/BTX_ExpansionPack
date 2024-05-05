@@ -27,7 +27,7 @@
     "UIName": "Gallowglas GAL-3GLS",
     "Id": "mechdef_gallowglas_GAL-3GLS",
     "Name": "Gallowglas",
-    "Details": "",
+    "Details": "Powered by a light fusion engine, the 3GLS boasts significantly enhanced armor protection and accuracy thanks to the weight saved. Its laser arsenal has been upgraded to two ER Large Lasers and an ER Medium Laser, all three linked to a Targeting Computer for greater accuracy. The 'Mech also has had Triple Strength Myomers added, which allows the 'Mech to reach a top speed of 86.4 km/h when operating in the proper heat range.",
     "Icon": "uixTxrIcon_gallowglas"
   },
   "simGameMechPartCost": 1430000,

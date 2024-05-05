@@ -217,7 +217,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Heavy Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Fafnir sports two Heavy Gauss Rifles, the second-largest non-artillery weapon in existence after the Rail Gun. These formidable weapons can inflict immense damage very quickly. Four tons of ammunition for each weapon ensure a steady supply of firepower. However, its backup armament consists of only two ER Medium Lasers and a Medium Pulse Laser, limiting the Fafnir's ability to operate independently from supply lines.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",

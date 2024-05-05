@@ -30,7 +30,7 @@
     "UIName": "Firefly FFL-4DA",
     "Id": "mechdef_firefly_FFL-4DA",
     "Name": "Firefly",
-    "Details": "",
+    "Details": "An electronic warfare variant of the FFL-4D model, the -4DA replaces the anti-missile system and its ammo with a Guardian ECM suite.",
     "Icon": "uixTxrIcon_firefly"
   },
   "simGameMechPartCost": 410000,

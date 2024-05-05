@@ -205,7 +205,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher & Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "This Thanatos variant uses a lighter engine and replaces the Extended-Range Lasers with four Medium Pulse Lasers. It also carries the MRM-20, Guardian ECM Suite, and C3 Slave of the standard Thanatos, but its main hitting power comes from the LB 20-X Autocannon in the left arm. It mounts four jump jets, still enough to cover 120 meters at a time.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

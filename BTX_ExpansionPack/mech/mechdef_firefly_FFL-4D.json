@@ -28,7 +28,7 @@
     "UIName": "Firefly FFL-4D",
     "Id": "mechdef_firefly_FFL-4D",
     "Name": "Firefly",
-    "Details": "",
+    "Details": "A comparatively new variant that appeared with the Dragoons, the 4D saves weight by using a light engine, endo steel, and ferro-fibrous armor. Just like the 4C, this variant adds an Artemis IV FCS to the LRM-5 but also upgrades the lasers to ER Medium Lasers. Due to space constraints, the 4D utilizes twelve single heat sinks, which are often heavily taxed.",
     "Icon": "uixTxrIcon_firefly"
   },
   "simGameMechPartCost": 390000,

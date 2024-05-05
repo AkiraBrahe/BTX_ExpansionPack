@@ -27,7 +27,7 @@
     "UIName": "Sentry SNT-04",
     "Id": "mechdef_sentry_SNT-04",
     "Name": "Sentry",
-    "Details": "",
+    "Details": "<color=#F79B26>The Sentry was developed under pressure from the Draconis and Capellan marches for a more advanced 'Mech to defend the borders of the Federated Suns.</color>\n\nBuit on an endo steel chassis, the Sentry can carry heavier weapons and equipment. For anti-'Mech and vehicle combat, it carries a PPC and a pair of Small Pulse Lasers which can double as anti-infantry weapons. For anti-infantry and crowd control missions, the Sentry has a quartet of Machine Guns and a Flamer.",
     "Icon": "uixTxrIcon_sentry"
   },
   "simGameMechPartCost": 330000,

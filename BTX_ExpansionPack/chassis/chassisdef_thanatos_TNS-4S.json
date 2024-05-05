@@ -198,7 +198,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher & Cavalry",
-  "YangsThoughts": "",
+  "YangsThoughts": "The TNS-4S Thanatos is armed to engage an enemy in a variety of situations, but its primary focus is to deliver devastating close-range firepower with its MRM-20 launcher, Medium Pulse Laser, and two ER Medium Lasers. For long-range combat, the Thanatos relies on a single ER Large Laser. The 'Mech carries a C3 Slave unit, dramatically increasing its accuracy when it is part of a network.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

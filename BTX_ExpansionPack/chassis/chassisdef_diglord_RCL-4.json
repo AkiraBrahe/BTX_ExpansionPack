@@ -191,7 +191,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "MiningMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "The RCL-4 is equipped with a Rock Cutter in its right arm and a Mining Drill in its left arm. The 'Mech has four Fluid Guns with ten tons of liquid storage for them. The 'Mech is also equipped with an Extended Fuel Tank for prolonged use in the field.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",

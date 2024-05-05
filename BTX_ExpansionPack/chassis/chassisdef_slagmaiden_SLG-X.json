@@ -208,7 +208,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Mixed-Tech Prototype",
-  "YangsThoughts": "",
+  "YangsThoughts": "Intended more for dueling than battlefield combat use, the Slagmaiden hosts a number of medium- and short-range weapons. Its primary armament is a Clan Heavy Large Laser, complemented by two ER Flamers and Streak SRM-2 missile launchers for short-range encounters. The ammunition is protected by CASE II, minimizing the risk of explosions. The Slagmaiden's defining feature is its Large Shield, which absorbs incoming damage at the cost of somewhat reduced speed. This drawback is offset by a Supercharger, which propels the 'Mech to an impressive top speed of 108 km/h. Its fragile composite internal structure is protected by ten and a half tons of armor, ensuring resilience in intense combat.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

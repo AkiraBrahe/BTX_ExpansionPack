@@ -176,7 +176,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Militarized ConstructionMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "The BC X-M is a militarized variant of the BC X, the first known Buster variant designed for construction work. Its main features is a massive Backhoe for a left arm, which is supplemented by an LRM-10 with one ton of ammunition.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",

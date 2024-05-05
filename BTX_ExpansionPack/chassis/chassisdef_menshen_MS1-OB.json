@@ -8,7 +8,7 @@
     "UIName": "Men Shen",
     "Id": "chassisdef_menshen_MS1-OB",
     "Name": "Men Shen",
-    "Details": "<color=#F79B26>The Men Shen is the first OmniMech to come from the Capellan Confederation, and it borrows heavily from the Raven BattleMech for its basic design concept.</color>\n\nIntended to act as a long-range sniper, the B configuration of the Men Shen carries as its primary weapons a pair of LB 2-X autocannons that allow it to fire either standard and cluster ammunition as well as act as an anti-aircraft 'Mech. For close combat, the B configuration has four ER medium lasers.",
+    "Details": "<color=#F79B26>The Men Shen is the first OmniMech to come from the Capellan Confederation, and it borrows heavily from the Raven BattleMech for its basic design concept.</color>\n\nA dedicated long-range sniper, the Men Shen B carries a pair of LB 2-X autocannons as its primary weapons. These versatile cannons can unleash standard and cluster munitions, making the 'Mech a threat to both ground forces and aircraft. For close combat, the B configuration has four ER Medium Lasers, providing additional firepower when needed.",
     "Icon": "uixTxrIcon_menshen"
   },
   "MovementCapDefID": "movedef_menshen_MS1-OB",

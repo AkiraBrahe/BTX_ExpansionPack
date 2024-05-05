@@ -208,7 +208,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Scout & Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "This version boasts several experimental systems. Reminiscent of the Firestarter H, it's equipped with an Angel ECM Suite and Bloodhound Active Probe. It carries the twin center torso Flamers common to all Firestarter variants, and augments them with a Streak SRM-2 and a Large X-Pulse Laser.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

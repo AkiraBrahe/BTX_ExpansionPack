@@ -8,7 +8,7 @@
     "UIName": "Hoplite",
     "Id": "chassisdef_hoplite_C",
     "Name": "Hoplite",
-    "Details": "",
+    "Details": "Developed after the Battle of Luthien, the Hoplite C is a variant exclusively used by Wolf's Dragoons that uses all Clan technology. Clad in 10 tons of ferro-fibrous and fitted with double heat sinks, the 'Mech carries a UAC/10 as its primary weapon, supported by an LRM-15 launcher for long-range engagements, and two Medium Pulse Lasers and an ER Medium Laser for close range combat.",
     "Icon": "uixTxrIcon_hoplite"
   },
   "MovementCapDefID": "movedef_hoplite_C",
@@ -208,6 +208,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Fire Support",
-  "YangsThoughts": "",
+  "YangsThoughts": "Developed after the Battle of Luthien, the Hoplite C is a variant exclusively used by Wolf's Dragoons that uses all Clan technology. Clad in 10 tons of ferro-fibrous and fitted with double heat sinks, the 'Mech carries a UAC/10 as its primary weapon, supported by an LRM-15 launcher for long-range engagements, and two Medium Pulse Lasers and an ER Medium Laser for close range combat.",
   "FixedEquipment": []
 }

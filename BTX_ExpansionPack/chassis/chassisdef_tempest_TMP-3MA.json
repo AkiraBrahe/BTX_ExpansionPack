@@ -215,7 +215,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Cavalry & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "This version simply removes the Gauss Rifle and replaces it with an Autocannon/10, two tons of ammunition, and an extra double heat sink.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

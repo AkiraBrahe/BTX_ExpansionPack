@@ -28,7 +28,7 @@
     "UIName": "Falcon FLC-5P",
     "Id": "mechdef_falcon_FLC-5P",
     "Name": "Falcon",
-    "Details": "",
+    "Details": "A 3065 upgrade of the 4P, the 5P drops a ton of armor to add a MASC system that kicks the Falcon's speed up to 129 km/h in bursts. The small lasers are upgraded to ER Medium Lasers and a Targeting Computer guides all three. To make all of this possible, a light fusion engine is included and the anti-missile system was removed.",
     "Icon": "uixTxrIcon_falcon"
   },
   "simGameMechPartCost": 380000,

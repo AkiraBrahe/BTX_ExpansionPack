@@ -202,7 +202,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Front-Line Assault & Flanker",
-  "YangsThoughts": "",
+  "YangsThoughts": "This configuration is built for long-range assault. It uses an advanced Targeting Computer to guide a pair of ER PPCs and two Heavy Large Lasers. Eleven additional heat sinks fail to keep this configuration cool, especially with the addition of three jump jets to enhance maneuverability. It also incorporates an ECM Suite to safeguard itself from enemy electronics.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

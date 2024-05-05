@@ -28,7 +28,7 @@
     "UIName": "Rattlesnake JR7-31P",
     "Id": "mechdef_rattlesnake_JR7-31P",
     "Name": "Rattlesnake",
-    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThis variant of the Rattlesnake swaps the Guardian ECM suite for one Small Laser and a C3 Slave unit, which allows it to directly relay the combat data it collects.",
+    "Details": "<color=#F79B26>The Rattlesnake is a heavily armed and armored reconnaissance 'Mech derived from the Jenner.</color>\n\nThe 31P variant swaps the Guardian ECM Suite for one Small Laser and a C3 Slave unit, which allows it to directly relay the combat data it collects.",
     "Icon": "uixTxrIcon_rattlesnake"
   },
   "simGameMechPartCost": 640000,

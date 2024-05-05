@@ -8,7 +8,7 @@
     "UIName": "Falcon",
     "Id": "chassisdef_falcon_FLC-6C",
     "Name": "Falcon",
-    "Details": "",
+    "Details": "This variant is used exclusively by Wolf's Dragoons as it features Clan-tech. It simply upgrades the armament of the 4P to Clan standards, including an ER Large Laser that replaces the Medium Pulse Laser. Each arm carries an ER Small Laser, and a Targeting Computer aids in the accuracy of all three lasers. The ammunition bin of the Anti-Missile System is also upgraded to the Clan version, and carries twice as many rounds.",
     "Icon": "uixTxrIcon_falcon"
   },
   "MovementCapDefID": "movedef_falcon_FLC-6C",
@@ -198,7 +198,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Sniper & Scout",
-  "YangsThoughts": "",
+  "YangsThoughts": "This variant is used exclusively by Wolf's Dragoons as it features Clan-tech. It simply upgrades the armament of the 4P to Clan standards, including an ER Large Laser that replaces the Medium Pulse Laser. Each arm carries an ER Small Laser, and a Targeting Computer aids in the accuracy of all three lasers. The ammunition bin of the Anti-Missile System is also upgraded to the Clan version, and carries twice as many rounds.",
   "FixedEquipment": [
     {
       "MountedLocation": "RightTorso",

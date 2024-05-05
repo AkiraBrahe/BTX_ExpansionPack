@@ -199,7 +199,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Scout & Disabler",
-  "YangsThoughts": "",
+  "YangsThoughts": "This configuration uses a Heavy Medium Laser, a pair of Heavy Small Lasers, and a Flamer for short-range firepower. It has an ER Large Laser for long range. Three additional double heat sinks keep heat levels in check.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

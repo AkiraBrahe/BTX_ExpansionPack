@@ -217,7 +217,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Spartan NF, a straightforward upgrade of the original Spartan, enhances the 'Mech's survivability by replacing the TAG equipment with CASE in each side torso. This modification helps prevent the complete destruction of the 'Mech in case of an ammunition explosion.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

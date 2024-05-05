@@ -209,7 +209,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "All-Range Combat & Flanker",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 2S, based on the original Uziel prototype, specializes in long-range combat, with a pair of PPCs as its primary weapons. For close-range encounters, this variant is equipped with an SRM-6 launcher. A pair of Machine Guns also provide anti-infantry capabilities, ensuring the Uziel can engage targets at various ranges. A Beagle Active Probe detects hidden units and protects the 'Mech from ambushes.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

@@ -207,7 +207,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Long Range Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "The main firepower of the Storm Giant stems from two arm-mounted LRM-20s with two tons of ammunition each. As enemy forces close in, they encounter a pair of Streak SRM-6s and an Ultra AC/20, capable of breaching even the thickest armor. The streaks share a ton of ammunition and the autocannon has three tons. While the streaks are very efficient, the ultra autocannon can quickly run out of ammunition if the pilot isn't careful.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

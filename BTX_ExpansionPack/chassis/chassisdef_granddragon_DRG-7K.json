@@ -204,7 +204,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Brawler",
-  "YangsThoughts": "",
+  "YangsThoughts": "The 7K variant has an endo steel chassis to save weight and is powered by an XL engine linked to a MASC system. The 'Mech's primary weapon is an ER PPC, with an MRM-10 as a backup. The 'Mech also carries three ER Medium Lasers for close combat, all of which are carried in the left arm for maximum range of fire. Finally, the 'Mech is equipped with a C3 Slave unit that allows it to share targeting data with friendly units.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

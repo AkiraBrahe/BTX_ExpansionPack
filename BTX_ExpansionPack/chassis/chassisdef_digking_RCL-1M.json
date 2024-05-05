@@ -189,7 +189,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Militarized MiningMech",
-  "YangsThoughts": "",
+  "YangsThoughts": "This weaponized version of the Dig King is primarily used by various factions and militias. The 'Mech now has two SRM-4 launchers with one ton of ammunition in place of the Lift Hoist, a pair of Machine Guns and their ammunition in place of the Mining Drill, and gains a slight increase in overall armor while keeping the Rock Cutter in the right arm.",
   "FixedEquipment": [
     {
       "MountedLocation": "RightArm",

@@ -8,7 +8,7 @@
     "UIName": "Bishamon",
     "Id": "chassisdef_bishamon_BSN-4K",
     "Name": "Bishamon",
-    "Details": "<color=#F79B26>Capitalizing on the Venom's success, Nimakachi Fusion's Bishamon is a quad 'Mech packing advanced tech and weaponry in a lightweight chassis for a mobile scouting role.</color>\n\nThe 4K variant of the Bishamon is intended to command a C3 lance. In order to accomplish this, the 'Mech has had the MRM-20 launcher downgraded to an MRM-10 launcher and replaced its two ER Medium Lasers with two Er Small Lasers.",
+    "Details": "<color=#F79B26>Capitalizing on the Venom's success, Nimakachi Fusion's Bishamon is a quad 'Mech packing advanced tech and weaponry in a lightweight chassis for a mobile scouting role.</color>\n\nThe 4K variant of the Bishamon is intended to command a C3 lance. In order to accomplish this, the 'Mech has had the MRM-20 launcher downgraded to an MRM-10 launcher and replaced its two ER Medium Lasers with two ER Small Lasers.",
     "Icon": "uixTxrIcon_bishamon"
   },
   "MovementCapDefID": "movedef_bishamon_BSN-4K",

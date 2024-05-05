@@ -8,7 +8,7 @@
     "UIName": "Shogun",
     "Id": "chassisdef_shogun_SHG-2E",
     "Name": "Shogun",
-    "Details": "",
+    "Details": "<color=#F79B26>The Shogun is an assault 'Mech designed for urban combat. Though produced before the Star League's fall, it was thought lost until Wolf's Dragoons brought a sizable number of Shoguns with them to the Inner Sphere.</color>\n\nDowngraded by the Dragoons to Succession Wars era technology, the 2E simply carries a PPC in place of the ER PPC. Otherwise, the 2E is completely identical to the 2F model. Ironically, because the 2E uses an older PPC model, the PPC produces less heat at the cost of a shorter range than the 2F model, making the 'Mech's waste heat easier to manage.",
     "Icon": "uixTxrIcon_shogun"
   },
   "MovementCapDefID": "movedef_shogun_SHG-2E",
@@ -201,6 +201,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler & Close Assault",
-  "YangsThoughts": "",
+  "YangsThoughts": "Downgraded by the Dragoons to Succession Wars era technology, the 2E simply carries a PPC in place of the ER PPC. Otherwise, the 2E is completely identical to the 2F model. Ironically, because the 2E uses an older PPC model, the PPC produces less heat at the cost of a shorter range than the 2F model, making the 'Mech's waste heat easier to manage.",
   "FixedEquipment": []
 }
