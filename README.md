@@ -38,7 +38,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 ### General
 
 #### Mechs
-- 100 new BattleMechs and 376 new 'Mech variants, utilizing nearly every CAB model that fits the expanded 3025-3067 timeline.
+- Over 100 new BattleMechs and 392 new 'Mech variants, utilizing nearly every CAB model that fits the expanded 3025-3067 timeline.
 
 <details>
   <summary>New Chassis (by Name)</summary>
@@ -124,6 +124,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Sentry                            | Medium         | 40       | 3056         | Federated Suns, Word of Blake                                                       |
 | Sha Yu                            | Medium         | 40       | 3063         | Capellan Confederation, Magistracy of Canopus                                       |
 | Shadow Hawk IIC                   | Medium         | 45       | 2831         | Clans                                                                               |
+| Shogun                            | Assault        | 85       | 2777         | Clans, Wolf's Dragoons                                                              |
 | Sidewinder                        | Heavy          | 75       | 3047         | Clan Jade Falcon                                                                    |
 | Slagmaiden                        | Medium         | 55       | 3076         | Arc-Royal DC (3067+)                                                                |
 | Spartan                           | Assault        | 80       | 2764         | ComStar / Word of Blake                                                             |
@@ -166,6 +167,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Rampage                           | Assault        | 85       | 3025         | Periphery States, ComStar / Word of Blake                                           |
 | Rising Star /<br>Legacy           | Assault        | 80       | 3025<br>3064 | ComStar<br>Word of Blake                                                            |
 | Screamer LAM                      | Medium         | 55       | 3025         | Snord's Irregulars                                                                  |
+| Shogun                            | Assault        | 85       | 3025         | Clans, Wolf's Dragoons                                                              |
 | Spartan                           | Assault        | 80       | 3025         | ComStar / Word of Blake                                                             |
 | Stiletto                          | Ultralight     | 15       | 3025         | Draconis Combine                                                                    |
 | Titan                             | Assault        | 100      | 3025         | Federated Suns                                                                      |
@@ -258,24 +260,25 @@ Listed below are a comprehensive list of changes and detailed information about 
 ² Wolf's Dragoons and mercenaries have access to many of these 'Mechs.
 </details>
 
-- 10 Hero 'Mechs are available in the Heavy Metal crate. You can also add any of them to your game via Fell Off A Cargo Ship or a save editor, including the Exterminator 'Caine' 4DX, which is not available in-game.
+- 10 Hero 'Mechs are available in the Heavy Metal crate. You can also add any of them to your game via Fell Off A Cargo Ship or a save editor, including the Exterminator 'Caine' 4DX And Marauder II 'Bounty Hunter', which can't be obtained from the HM crate.
 
 <details>
   <summary>Hero Mechs</summary>
 
-| Name                       | Model Code | Intro | Pilot                               |
-| :------------------------- | :--------: | :---: | :---------------------------------- |
-| Assassin 'Servitor'        | ASN-SRV    | 3066  | None (custom variant of the ASN-99) |
-| BattleMaster 'Red Corsair' | BLR-RC     | 3055  | Nekane 'Red Corsair' Hazen          |
-| Black Knight 'Red Reaper'  | BL-X-KNT   | 3069  | Reginald VanJaster                  |
-| Centurion 'Yen-Lo-Wang'    | CN9-YLW    | 3027  | Justin Xiang Allard                 |
-| Centurion 'Yen-Lo-Wang 2'  | CN9-YLW2   | 3051  | Kai Allard-Liao                     |
-| Charger 'Number Seven'     | CGR-N7     | 3025  | Terry Ford                          |
-| Exterminator 'Caine'       | EXT-4DX    | 2754  | Caine Barclay                       |
-| Hatamoto-Chi 'Shin'        | HTM-S      | 3060  | Shin Yodama (?)                     |
-| Hybrid Rifleman 'Sneede'   | RFL-SND    | 3025  | Samual 'Shorty' Sneede              |
-| Schwerer Gustav 'Jäger'    | SJ-1X      | 3073  | None (unofficial custom variant)    |
-| Vulture (Mad Dog) 'Fury'   | VUL-FURY   | 3059  | Katherine Furey (non-canon variant) |
+| Name                        | Model Code | Intro | Pilot                               |
+| :-------------------------- | :--------: | :---: | :---------------------------------- |
+| Assassin 'Servitor'         | ASN-SRV    | 3066  | None (custom variant of the ASN-99) |
+| BattleMaster 'Red Corsair'  | BLR-RC     | 3055  | Nekane 'Red Corsair' Hazen          |
+| Black Knight 'Red Reaper'   | BL-X-KNT   | 3069  | Reginald VanJaster                  |
+| Centurion 'Yen-Lo-Wang'     | CN9-YLW    | 3027  | Justin Xiang Allard                 |
+| Centurion 'Yen-Lo-Wang 2'   | CN9-YLW2   | 3051  | Kai Allard-Liao                     |
+| Charger 'Number Seven'      | CGR-N7     | 3025  | Terry Ford                          |
+| Exterminator 'Caine'        | EXT-4DX    | 2754  | Caine Barclay                       |
+| Hatamoto-Chi 'Shin'         | HTM-S      | 3060  | Shin Yodama (?)                     |
+| Marauder II 'Bounty Hunter' | MAD-BHIII  | 3064  | Vic Travers                         |
+| Hybrid Rifleman 'Sneede'    | RFL-SND    | 3025  | Samual 'Shorty' Sneede              |
+| Schwerer Gustav 'Jäger'     | SJ-1X      | 3073  | None (unofficial custom variant)    |
+| Vulture (Mad Dog) 'Fury'    | VUL-FURY   | 3059  | Katherine Furey (non-canon variant) |
 </details>
 
 #### Vehicles
@@ -481,7 +484,6 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Locust LCT-3S          | Fixed available tonnage                                 |
 | Naginata               | Switched to a new CAB model                             |
 | Ost Mechs              | Added cross assembly between Ostroc and Ostsol          |
-| Phoenix Hawk LAM       | Changed to a different CAB model                        |
 | Piranha 1              | Changed to single heat sinks                            |
 | Rifleman RFL-5CS       | Added Large Engine quirk                                |
 | Shadow Hawk            | Added Rugged quirk                                      |
