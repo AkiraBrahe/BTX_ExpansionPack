@@ -1,9 +1,9 @@
 {
-  "id": "AffinityDef_chassis_Missiles_Assault",
+  "id": "AffinityDef_chassis_Urban_Assault",
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_scyllabase-001_100"
+      "chrprfmech_scyllabase-001_85"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
@@ -50,43 +50,73 @@
       },
       {
         "missionsRequired": 30,
-        "levelName": "Missiles+",
-        "decription": "Familiarity with this 'Mech's missile capabilities improves hitting moving targets (+1 Missile EVASIVE ignore)",
+        "levelName": "Urban Combatant+",
+        "decription": "Familiarity with this 'Mech's urban combat design provides increased defencive capabilities (+1 Hit Defence, +1 Melee Defence)",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Missile Platform familiarity (+1 EVASIVE Ignore)",
+              "Details": "Pilot has Mastered the Chassis.",
               "Icon": "UixSvgIcon_specialEquip_System",
-              "Id": "Affinity_Missile_EvasionIgnore",
-              "Name": "Multi-Trac Computer Affinity Evasion Ignore"
+              "Id": "Affinity_Urban_Defense",
+              "Name": "BattleMechAffinity"
             },
             "durationData": {
               "duration": -1,
-              "stackLimit": 1
-            },
-            "targetingData": {
-              "effectTriggerType": "Passive",
-              "effectTargetType": "Creator",
-              "showInTargetPreview": false,
-              "showInStatusPanel": false
+              "stackLimit": -1
             },
             "effectType": "StatisticEffect",
+            "nature": "Buff",
             "statisticData": {
-              "appliesEachTick": false,
-              "effectsPersistAfterDestruction": false,
-              "statName": "EvasivePipsIgnored",
+              "statName": "ToHitThisActor",
               "operation": "Float_Add",
               "modValue": "1",
               "modType": "System.Single",
-              "additionalRules": "NotSet",
-              "targetCollection": "Weapon",
-              "targetWeaponCategory": "Missile",
-              "targetWeaponType": "NotSet",
               "targetAmmoCategory": "NotSet",
-              "targetWeaponSubType": "NotSet"
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
             },
-            "nature": "Buff"
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          },
+          {
+            "Description": {
+              "Details": "Pilot has Mastered the Chassis.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "Affinity_Urban_MeleeDefense",
+              "Name": "BattleMechAffinity"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "ToHitThisActor",
+              "operation": "Float_Add",
+              "modValue": "1",
+              "modType": "System.Single",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "Weapon",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "Melee",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
           }
         ]
       }
