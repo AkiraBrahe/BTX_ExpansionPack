@@ -5,7 +5,7 @@ Collection:JadeFalconVehicles,17,,17,,26,,44,,24
 Collection:NovaCatVehicles,1,,1,,1,,0,,0
 Collection:SmokeJaguarVehicles,5,,5,,4,,0,,0
 Collection:WolfVehicles,8,,9,,12,,18,,11
-Salvage:SteinerVehicles,0,,0,,4,,15,,3
+Collection:SteinerAVehicles,0,,0,,4,,15,,3
 ,,,,,,,,,
 Dates,3049-01-01T00:00:00Z,,3053-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3065-01-01T00:00:00Z
 Lights,,,,,,,,,

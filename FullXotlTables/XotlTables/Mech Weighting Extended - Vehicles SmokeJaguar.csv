@@ -5,8 +5,8 @@ Collection:JadeFalconVehicles,9,,10,,10,,30
 Collection:NovaCatVehicles,7,,6,,10,,0
 Collection:SteelViperVehicles,7,,6,,5,,4
 Collection:WolfVehicles,11,,10,,8,,37
-Salvage:KuritaVehicles,0,,4,,13,,0
-Salvage:RasalhagueVehicles,0,,3,,3,,0
+Collection:KuritaAVehicles,0,,4,,13,,0
+Collection:RasalhagueAVehicles,0,,3,,3,,0
 ,,,,,,,
 Dates,3049-01-01T00:00:00Z,,3053-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3060-01-01T00:00:00Z
 Lights,,,,,,,

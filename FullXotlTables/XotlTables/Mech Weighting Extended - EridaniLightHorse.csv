@@ -4,11 +4,11 @@ Collection:Kurita,10,,11,,7,,6,,7
 Collection:Liao,10,,11,,7,,6,,7
 Collection:Marik,10,,11,,7,,6,,7
 Collection:Steiner,10,,11,,7,,6,,7
-Salvage:GhostBear,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
-Salvage:JadeFalcon,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
-Salvage:NovaCat,0,,0,Jump:3050-01-01T00:00:00Z,2,,4,,5
-Salvage:SteelViper,0,,0,Jump:3050-01-01T00:00:00Z,2,,4,,5
-Salvage:Wolf,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
+Collection:GhostBear,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
+Collection:JadeFalcon,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
+Collection:NovaCat,0,,0,Jump:3050-01-01T00:00:00Z,2,,4,,5
+Collection:SteelViper,0,,0,Jump:3050-01-01T00:00:00Z,2,,4,,5
+Collection:Wolf,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
 Dates,3025-01-01T00:00:00Z,,3039-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3067-01-01T00:00:00Z
 Lights,,,,,,,,,
 mechdef_stinger_STG-3R,36,,28,,31,,43,,109

@@ -1,7 +1,7 @@
 Arc-RoyalDCVehicles,,,,,,,
 Collection:Arc-RoyalDCAVehicles,350,,350,,350,,350
-Salvage:JadeFalconVehicles,35,,35,,55,,65
-Salvage:SteinerVehicles,15,,30,,30,,30
+Collection:JadeFalconVehicles,35,,35,,55,,65
+Collection:SteinerVehicles,15,,30,,30,,30
 Dates,3058-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3064-01-01T00:00:00Z,,3067-01-01T00:00:00Z
 Lights,,,,,,,
 vehicledef_COANDA,4,,5,,5,,4

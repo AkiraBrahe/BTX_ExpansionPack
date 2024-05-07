@@ -5,8 +5,8 @@ Collection:NovaCatVehicles,12,,9,,7,,11,,17
 Collection:SmokeJaguarVehicles,3,,2,,6,,11,,3
 Collection:SteelViperVehicles,15,,12,,9,,0,,0
 Collection:WolfVehicles,12,,12,,23,,41,,31
-Salvage:KuritaVehicles,0,,9,,19,,32,,36
-Salvage:RasalhagueVehicles,0,,12,,11,,4,,4
+Collection:KuritaAVehicles,0,,9,,19,,32,,36
+Collection:RasalhagueAVehicles,0,,12,,11,,4,,4
 ,,,,,,,,,
 Dates,3049-01-01T00:00:00Z,,3053-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3065-01-01T00:00:00Z
 Lights,,,,,,,,,

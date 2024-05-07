@@ -4,11 +4,11 @@ Collection:KuritaVehicles,10,,11,,7,,6,,7
 Collection:LiaoVehicles,10,,11,,7,,6,,7
 Collection:MarikVehicles,10,,11,,7,,6,,7
 Collection:SteinerVehicles,10,,11,,7,,6,,7
-Salvage:GhostBearVehicles,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
-Salvage:JadeFalconVehicles,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
-Salvage:NovaCatVehicles,0,,0,Jump:3050-01-01T00:00:00Z,2,,4,,5
-Salvage:SteelViperVehicles,0,,0,Jump:3050-01-01T00:00:00Z,2,,4,,5
-Salvage:WolfVehicles,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
+Collection:GhostBearVehicles,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
+Collection:JadeFalconVehicles,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
+Collection:NovaCatVehicles,0,,0,Jump:3050-01-01T00:00:00Z,2,,4,,5
+Collection:SteelViperVehicles,0,,0,Jump:3050-01-01T00:00:00Z,2,,4,,5
+Collection:WolfVehicles,0,,0,Jump:3050-01-01T00:00:00Z,3,,6,,9
 Dates,3025-01-01T00:00:00Z,,3039-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3067-01-01T00:00:00Z
 Lights,,,,,,,,,
 vehicledef_TRUCK_Flatbed,18,,20,,23,,20,,49

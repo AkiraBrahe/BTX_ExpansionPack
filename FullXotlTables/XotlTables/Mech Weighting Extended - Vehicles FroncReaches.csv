@@ -1,7 +1,7 @@
 FroncReachesVehicles,,,,,
+Collection:LiaoVehicles,0,,0,Jump:3067-01-01T00:00:00Z,10
+Collection:MagistracyOfCanopusVehicles,0,,0,Jump:3067-01-01T00:00:00Z,40
 ,,,,,
-Salvage:LiaoVehicles,0,,0,Jump:3067-01-01T00:00:00Z,10
-Salvage:MagistracyOfCanopusVehicles,0,,0,Jump:3067-01-01T00:00:00Z,40
 Dates,3060-01-01T00:00:00Z,,3064-01-01T00:00:00Z,,3068-01-01T00:00:00Z
 Lights,,,,,
 vehicledef_TRUCK_Flatbed,21,,21,,1000

@@ -1,7 +1,8 @@
 WolfInExileVehicles,,,,,,,
-Collection:DavionVehicles,29,,29,,29,,29
+Collection:JadeFalconVehicles,59,,59,,59,,59
 Collection:WolfVehicles,12,,12,,12,,12
-Salvage:JadeFalconVehicles,59,,59,,59,,59
+Collection:DavionAVehicles,29,,29,,29,,29
+,,,,,,,,,
 Dates,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3065-01-01T00:00:00Z,,3069-01-01T00:00:00Z
 Lights,,,,,,,
 vehicledef_TRUCK_Flatbed,15,,24,,67,,53

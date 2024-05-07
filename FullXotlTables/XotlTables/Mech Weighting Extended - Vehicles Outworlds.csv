@@ -1,6 +1,5 @@
 OutworldVehicles,,,,,,,,,
-Collection:OutworldAVehicles,350,,350,,350,,350,,350
-Collection:SnowRavenVehicles,0,,0,,0,Jump:3061-01-01T00:00:00Z,2,,10
+Collection:OutworldAVehicles,0,,0,,120,,350,,450
 Salvage:DavionVehicles,30,,30,,30,,5,,5
 Salvage:KuritaVehicles,20,,20,,20,,40,,35
 Dates,3025-01-01T00:00:00Z,,3039-01-01T00:00:00Z,,3050-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3067-01-01T00:00:00Z

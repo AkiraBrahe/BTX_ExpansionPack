@@ -5,9 +5,9 @@ Collection:JadeFalconVehicles,20,,13,,47,,82,,97
 Collection:NovaCatVehicles,4,,4,,10,,7,,3
 Collection:SmokeJaguarVehicles,8,,5,,4,,0,,0
 Collection:SteelViperVehicles,9,,6,,10,,7,,3
-Salvage:SteinerVehicles,0,,27,,77,,8,,10
-Salvage:DavionVehicles,0,,9,,17,,0,,0
-Salvage:RasalhagueVehicles,0,,2,,10,,7,,3
+Collection:SteinerAVehicles,0,,27,,77,,8,,10
+Collection:DavionAVehicles,0,,9,,17,,0,,0
+Collection:RasalhagueAVehicles,0,,2,,10,,7,,3
 ,,,,,,,,,
 Dates,3049-01-01T00:00:00Z,,3053-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3065-01-01T00:00:00Z
 Lights,,,,,,,,,

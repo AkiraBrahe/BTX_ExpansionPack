@@ -5,9 +5,9 @@ Collection:NovaCatVehicles,2,,2,,3,,0,,0
 Collection:SmokeJaguarVehicles,5,,4,,3,,0,,0
 Collection:SteelViperVehicles,16,,9,,16,,33,,12
 Collection:WolfVehicles,16,,10,,44,,96,,108
-Salvage:SteinerVehicles,0,,21,,80,,18,,14
-Salvage:DavionVehicles,0,,7,,16,,0,,0
-Salvage:Arc-RoyalDCVehicles,0,,0,,0,,2,,19
+Collection:SteinerAVehicles,0,,21,,80,,18,,14
+Collection:DavionAVehicles,0,,7,,16,,0,,0
+Collection:Arc-RoyalDCAVehicles,0,,0,,0,,2,,19
 ,,,,,,,,,
 Dates,3049-01-01T00:00:00Z,,3053-01-01T00:00:00Z,,3057-01-01T00:00:00Z,,3061-01-01T00:00:00Z,,3065-01-01T00:00:00Z
 Lights,,,,,,,,,
