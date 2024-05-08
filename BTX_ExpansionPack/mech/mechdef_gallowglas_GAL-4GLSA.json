@@ -1,7 +1,6 @@
 {
   "MechTags": {
     "items": [
-      "unit_new",
       "unit_mech",
       "unit_heavy",
       "unit_role_sniper",
@@ -11,6 +10,7 @@
       "unit_speed_medium",
       "unit_jumpOK",
       "unit_electronicWarfare",
+      "unit_hot",
       "unit_release",
       "unit_mechpack",
       "unit_LosTech"

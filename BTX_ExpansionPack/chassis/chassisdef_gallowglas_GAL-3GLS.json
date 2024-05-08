@@ -194,8 +194,8 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.95-1.00-1.00",
-      "chassis_TSM",
       "chassis_DHS",
+      "chassis_TSM",
       "chassis_endo",
       "mech_case_right",
       "mech_quirk_goodreputation"

@@ -1,4 +1,9 @@
 {
+  "Custom": {
+    "Category": {
+      "CategoryID": "TAC"
+    }
+  },
   "Description": {
     "Cost": 100000,
     "Rarity": 99,

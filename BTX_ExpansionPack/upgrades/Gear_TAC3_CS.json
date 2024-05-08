@@ -5,24 +5,24 @@
     }
   },
   "Description": {
-    "Cost": 500000,
+    "Cost": 300000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "Garret",
     "Model": "",
-    "UIName": "Targ. Computer Mk.5",
-    "Id": "Gear_TAC5",
+    "UIName": "Targ. Computer Mk.3",
+    "Id": "Gear_TAC3_CS",
     "Name": "Targeting Computer",
     "Details": "Targeting Computers are sophisticated pieces of electronics that, unlike normal targeting systems, physically help MechWarriors target their opponents. Recoil compensators and gyroscopic stabilizers are used to prevent normal weapon drift from factors such as recoil and movement while the computer accounts for atmospheric and other conditions to present an accurate lead on the target.",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
   "BonusValueA": "+ 1 Acc. Direct Fire",
-  "BonusValueB": "+ 20% Called Shot",
+  "BonusValueB": "+ 10% Called Shot",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
-  "InventorySize": 5,
-  "Tonnage": 5,
+  "InventorySize": 2,
+  "Tonnage": 3,
   "AllowedLocations": "All",
   "DisallowedLocations": "Legs",
   "CriticalComponent": false,
@@ -119,7 +119,7 @@
         "effectsPersistAfterDestruction": false,
         "statName": "CalledShotBonusMultiplier",
         "operation": "Float_Multiply",
-        "modValue": "1.2",
+        "modValue": "1.1",
         "modType": "System.Single"
       }
     }

@@ -15,7 +15,7 @@
     "Id": "vehiclechassisdef_MUSKETEER",
     "Name": "Musketeer",
     "Details": "<b>Name: <color=#85DBF6>Musketeer Hover Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/13 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>",
-    "Icon": "uixVhclIcon_hovertank",
+    "Icon": "uixVhclIcon_musketeer",
     "Cost": 1846667,
     "Rarity": 0,
     "Purchasable": true
