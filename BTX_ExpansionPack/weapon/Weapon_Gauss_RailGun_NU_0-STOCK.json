@@ -40,7 +40,7 @@
     "UIName": "Rail Gun",
     "Id": "Weapon_Gauss_RailGun_NU_0-STOCK",
     "Name": "Rail Gun",
-    "Details": "The Railgun is a Star League era weapon that uses electromagnetic energy to launch massive metal projectiles, similar to a Gauss Rifle. This version, developed by the Free Worlds League, is just as imposing and lethal as the original Star League relic.\r\n\r\nRail Guns explode if destroyed, taking the entire mounted location with them.",
+    "Details": "The Railgun is a Star League era weapon that uses electromagnetic energy to launch massive metal projectiles, similar to a Gauss Rifle. This version, developed by the Free Worlds League, is just as imposing and lethal as the original Star League relic.\n\nRail Guns explode if destroyed, taking the entire mounted location with them.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",

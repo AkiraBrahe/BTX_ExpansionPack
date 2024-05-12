@@ -5,7 +5,7 @@
       "unit_heavy",
       "unit_role_brawler",
       "unit_lance_vanguard",
-      "unit_lance_assassin",
+      "unit_lance_tank",
       "unit_range_medium",
       "unit_armor_high",
       "unit_speed_medium",
@@ -16,21 +16,21 @@
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "chassisdef_avatar_AV1-OR",
+  "ChassisID": "chassisdef_avatar_AV1-OF",
   "HeraldryID": null,
   "Description": {
-    "Cost": 17290000,
+    "Cost": 17810000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Avatar AV1-OR",
-    "Id": "mechdef_avatar_AV1-OR",
+    "UIName": "Avatar AV1-OF",
+    "Id": "mechdef_avatar_AV1-OF",
     "Name": "Avatar",
-    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\n\nA field upgrade developed in the midst of Operation Bulldog, this configuration utilizes captured Clan Smoke Jaguar weapons to help bolster the SLDF forces in later waves. Mounting a mix of Combine and Clan-tech, it carries an MRM-40 supported by a Clan Gauss Rifle, an ER Large Laser, and a Streak SRM-4.",
+    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\n\nA versatile, yet simple, configuration of the Avatar, the F configuration is armed with an ER PPC and an LB-X Autocannon/20. A MechWarrior can utilize the ER PPC for long range combat and once it closes in it can let loose with the armor shredding LB-X AC/20. Additionally, for added mobility, the F configuration can jump up to 120 meters, with five extra double heat sinks handling the extra heat.",
     "Icon": "uixTxrIcon_avatar"
   },
-  "simGameMechPartCost": 1730000,
+  "simGameMechPartCost": 1780000,
   "Version": 1,
   "Locations": [
     {
@@ -108,16 +108,16 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Gauss_CGauss_0-STOCK",
+      "ComponentDefID": "Weapon_PPC_PPCER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -125,7 +125,39 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB20X",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -133,15 +165,31 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_SRM_CSSRM4_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -149,15 +197,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB20X",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -165,9 +205,25 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_MRM_MRM40_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_LB20X_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

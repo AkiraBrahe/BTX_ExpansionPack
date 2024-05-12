@@ -38,7 +38,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 ### General
 
 #### Mechs
-- Over 100 new BattleMechs and 392 new 'Mech variants, utilizing nearly every CAB model that fits the expanded 3025-3067 timeline.
+- Over 100 new BattleMechs and 401 new 'Mech variants, utilizing nearly every CAB model that fits the expanded 3025-3067 timeline.
 
 <details>
   <summary>New Chassis (by Name)</summary>
@@ -70,6 +70,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Dervish IIC                       | Medium         | 55       | 3058         | Clan Smoke Jaguar                                                                   |
 | Dig King /<br>Dig Lord            | Light<br>Heavy | 35<br>65 | 2573<br>3057 | Pirates<br>FedCom                                                                   |
 | Dragoon                           | Heavy          | 70       | 2771         | ComStar                                                                             |
+| Excalibur                         | Heavy          | 70       | 2619         | Clans, ComStar / Word of Blake                                                      |
 | Fafnir                            | Assault        | 100      | 3063         | Lyran Commonwealth                                                                  |
 | Fire Falcon                       | Light          | 25       | 3052         | Clan Jade Falcon, Nova Cat, Steel Viper                                             |
 | Fox                               | Medium         | 50       | 2824         | Clan Ghost Bear                                                                     |
@@ -160,6 +161,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Crosscut                          | Light          | 30       | 3025         | Pirates                                                                             |
 | Dig King /<br>Dig Lord            | Light<br>Heavy | 35<br>65 | 3025<br>3057 | Pirates<br>FedCom                                                                   |
 | Dragoon                           | Heavy          | 70       | 3025         | ComStar                                                                             |
+| Excalibur                         | Heavy          | 70       | 3025         | Clans, ComStar / Word of Blake                                                      |
 | Gulon                             | Light          | 25       | 3025         | Outworlds Alliance                                                                  |
 | Hybrid Rifleman                   | Heavy          | 60       | 3025         | Unique (Heavy Metal Crate)                                                          |
 | Jackrabbit                        | Light          | 25       | 3025         | ComStar, Word of Blake                                                              |

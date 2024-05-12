@@ -8,7 +8,7 @@
     "UIName": "Gallowglas",
     "Id": "chassisdef_gallowglas_GAL-4GLS",
     "Name": "Gallowglas",
-    "Details": "The 4GLS Gallowglas is a simple upgrade of the 2GLS, which replaces both Large Lasers with two ER Large Lasers and the Medium Pulse Laser with an ER Medium Laser. The saved weight is used to make the 4GLS capable of jumping up to one hundred and twenty meters.",
+    "Details": "The 4GLS Gallowglas is a simple upgrade of the 2GLS, which replaces both Large Lasers with two ER Large Lasers and the Medium Pulse Laser with an ER Medium Laser. The saved weight is used to make the 4GLS capable of jumping up to 120 meters.",
     "Icon": "uixTxrIcon_gallowglas"
   },
   "MovementCapDefID": "movedef_gallowglas_GAL-4GLS",

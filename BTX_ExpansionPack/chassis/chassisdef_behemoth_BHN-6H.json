@@ -208,7 +208,6 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.95",
-      "chassis_DHS",
       "mech_quirk_barrelfist_la",
       "mech_quirk_barrelfist_ra",
       "mech_quirk_protectedactuators",
@@ -219,6 +218,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut",
-  "YangsThoughts": "This Wolf Dragoon 'Mech is a well-designed machine with mysterious origins. It features twin PPCs and AC/10s that provide a formidable mid- to long-range battery, while a Small Laser keeps infantry at bay. Its biggest weakness is its slow speed, similar to the Annihilator.",
+  "YangsThoughts": "This Behemoth's a Wolf Dragoon 'Mech with mysterious origins. It is equipped with twin PPCs and AC/10s that provide a formidable mid- to long-range battery, as well as a Small Laser to keep infantry at bay. Its only weakness is its slow speed, similar to the Annihilator.",
   "FixedEquipment": []
 }

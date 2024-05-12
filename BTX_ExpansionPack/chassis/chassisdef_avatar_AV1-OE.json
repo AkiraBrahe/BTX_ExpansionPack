@@ -1,17 +1,17 @@
 {
   "Description": {
-    "Cost": 16570000,
+    "Cost": 18780000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Avatar",
-    "Id": "chassisdef_avatar_AV1-OG",
+    "Id": "chassisdef_avatar_AV1-OE",
     "Name": "Avatar",
-    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\n\nA dedicated 'Mech killer, the Avatar G carries a Gauss Rifle with two tons of ammunition in each arm.",
+    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\n\nUsed by ComStar and the Word of Blake, the E configuration is armed with an ER PPC for long-range punch and can bring its powerful Ultra Autocannon/10 to bear as it closes with its enemy. If the target of the Avatar E's pilot survives long-range combat, an ER Medium Laser and the two hardwired Medium Lasers give the E configuration good short-range firepower, with six added double heat sinks allowing more weapons to be safely used. Accuracy at all ranges is improved by the use of a C3i Computer. It is also equipped with a Guardian ECM Suite to protect the network from interference.",
     "Icon": "uixTxrIcon_avatar"
   },
-  "MovementCapDefID": "movedef_avatar_AV1-OG",
+  "MovementCapDefID": "movedef_avatar_AV1-OE",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_avatar",
   "PrefabIdentifier": "chrprfmech_avatarbase-001",
@@ -64,7 +64,15 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -76,12 +84,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 150,
@@ -108,12 +111,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 150,
@@ -125,6 +123,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -197,7 +199,7 @@
       "z": 0
     }
   ],
-  "VariantName": "AV1-OG",
+  "VariantName": "AV1-OE",
   "ChassisTags": {
     "items": [
       "chassis_omni",
@@ -209,7 +211,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher",
-  "YangsThoughts": "A Draconis Combine Omni Mech, if you want to break the parts down in to Salvage I can rebuild her with a different set up. This OG model's a dedicated 'Mech killer, packing dual Gauss Rifles for those sweet headshots.",
+  "YangsThoughts": "A Draconis Combine Omni Mech, if you want to break the parts down in to Salvage I can rebuild her with a different set up. The OE variant packs an ER PPC for long-range sniping and a UAC/10 to pound enemies closer in. Got some backup lasers for brawling too, and enough heat sinks to keep things cool. C3 and Guardian ECM make it a network-warfare dream.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
@@ -240,6 +242,22 @@
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_C3_Improved",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

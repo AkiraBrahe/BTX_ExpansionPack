@@ -12,5 +12,24 @@
       "mech_quirk_stable"
     ],
     "tagSetSourceFile": ""
-  }
+  },
+  "StockRole": "C3 Command Unit & Fire support",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_C3_Master",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_TAG_C3-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
 }

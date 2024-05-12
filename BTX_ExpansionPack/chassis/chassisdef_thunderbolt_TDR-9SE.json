@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
   "PrefabBase": "thunderbolt",
   "Tonnage": 65,
-  "InitialTonnage": 0,
+  "InitialTonnage": 26.81,
   "weightClass": "HEAVY",
   "Heatsinks": 10,
   "TopSpeed": 64.8,
@@ -57,7 +57,16 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 8,
       "MaxArmor": 100,
@@ -82,22 +91,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -117,7 +110,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 150,

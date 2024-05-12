@@ -26,7 +26,7 @@
     "UIName": "Avatar AV1-OG",
     "Id": "mechdef_avatar_AV1-OG",
     "Name": "Avatar",
-    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\r\n\r\nA dedicated 'Mech killer, the Avatar G carries a Gauss Rifle with two tons of ammunition in each arm.",
+    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\n\nA dedicated 'Mech killer, the Avatar G carries a Gauss Rifle with two tons of ammunition in each arm.",
     "Icon": "uixTxrIcon_avatar"
   },
   "simGameMechPartCost": 1660000,

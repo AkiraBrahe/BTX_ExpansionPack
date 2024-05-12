@@ -8,7 +8,7 @@
     "UIName": "Avatar",
     "Id": "chassisdef_avatar_AV1-OR",
     "Name": "Avatar",
-    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\r\n\r\nA field upgrade developed in the midst of Operation Bulldog, this configuration utilizes captured Clan Smoke Jaguar weapons to help bolster the SLDF forces in later waves. Mounting a mix of Combine and Clan-tech, it carries an MRM-40 supported by a Clan Gauss Rifle, an ER Large Laser, and a Streak SRM-4.",
+    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\n\nA field upgrade developed in the midst of Operation Bulldog, this configuration utilizes captured Clan Smoke Jaguar weapons to help bolster the SLDF forces in later waves. Mounting a mix of Combine and Clan-tech, it carries an MRM-40 supported by a Clan Gauss Rifle, an ER Large Laser, and a Streak SRM-4.",
     "Icon": "uixTxrIcon_avatar"
   },
   "MovementCapDefID": "movedef_avatar_AV1-OR",

@@ -3,10 +3,10 @@
     "items": [
       "unit_mech",
       "unit_heavy",
-      "unit_role_brawler",
+      "unit_role_sniper",
       "unit_lance_vanguard",
       "unit_lance_assassin",
-      "unit_range_medium",
+      "unit_range_long",
       "unit_armor_high",
       "unit_speed_medium",
       "unit_hot",
@@ -16,21 +16,21 @@
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "chassisdef_avatar_AV1-OR",
+  "ChassisID": "chassisdef_avatar_AV1-OE",
   "HeraldryID": null,
   "Description": {
-    "Cost": 17290000,
+    "Cost": 18780000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Avatar AV1-OR",
-    "Id": "mechdef_avatar_AV1-OR",
+    "UIName": "Avatar AV1-OE",
+    "Id": "mechdef_avatar_AV1-OE",
     "Name": "Avatar",
-    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\n\nA field upgrade developed in the midst of Operation Bulldog, this configuration utilizes captured Clan Smoke Jaguar weapons to help bolster the SLDF forces in later waves. Mounting a mix of Combine and Clan-tech, it carries an MRM-40 supported by a Clan Gauss Rifle, an ER Large Laser, and a Streak SRM-4.",
+    "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.\n\nUsed by ComStar and the Word of Blake, the E configuration is armed with an ER PPC for long-range punch and can bring its powerful Ultra Autocannon/10 to bear as it closes with its enemy. If the target of the Avatar E's pilot survives long-range combat, an ER Medium Laser and the two hardwired Medium Lasers give the E configuration good short-range firepower, with six added double heat sinks allowing more weapons to be safely used. Accuracy at all ranges is improved by the use of a C3i Computer. It is also equipped with a Guardian ECM Suite to protect the network from interference.",
     "Icon": "uixTxrIcon_avatar"
   },
-  "simGameMechPartCost": 1730000,
+  "simGameMechPartCost": 1880000,
   "Version": 1,
   "Locations": [
     {
@@ -108,8 +108,8 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_PPC_PPCER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -117,7 +117,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Gauss_CGauss_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -125,7 +125,23 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -133,31 +149,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_SRM_CSSRM4_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -165,9 +157,41 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_MRM_MRM40_0-STOCK",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Autocannon_UAC10_NU_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
