@@ -1,25 +1,25 @@
 {
   "Description": {
-    "Cost": 16110000,
-    "Rarity": 4,
+    "Cost": 16090000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Excalibur",
-    "Id": "chassisdef_excalibur_EXC-C1",
+    "Id": "chassisdef_excalibur_EXC-B2",
     "Name": "Excalibur",
-    "Details": "<color=#F79B26>The Excalibur, a long-range skirmisher named after its sword-like arm, served the Star League forces well, relying on hit-and-run attacks to compensate for its lack of armor.</color>\n\nThe C1 configuration of the Excalibur increases its defensive combat capabilities. This was done by removing the anti-missile system from the 'Mech and upgrading to double heat sinks. The tonnage saved goes toward adding an additional Medium Laser and increasing the 'Mech's armor protection to a mere nine tons.",
+    "Details": "<color=#F79B26>The Excalibur, a long-range skirmisher named after its sword-like arm, served the Star League forces well, relying on hit-and-run attacks to compensate for its lack of armor.</color>\n\nThe 'Mech, powered by a 350-rated XL engine, achieves a top speed of 86.4 km/h. Its relatively light seven and a half tons of armor are augmented by an Anti-Missile System and CASE in both side torsos to protect against an ammunition explosion. As its primary weapon, the Excalibur carries a powerful Gauss Rifle that has an effective range of up to 660m. This is backed up by an LRM-20 with an Artemis IV fire control computer for increased missile accuracy.",
     "Icon": "uixTxrIcon_excalibur"
   },
-  "MovementCapDefID": "movedef_excalibur_EXC-C1",
+  "MovementCapDefID": "movedef_excalibur_EXC-B2",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_excalibur",
-  "PrefabIdentifier": "chrPrfMech_blackknightBase-001",
-  "PrefabBase": "blackknight",
+  "PrefabIdentifier": "chrprfmech_excaliburbase-001",
+  "PrefabBase": "excalibur",
   "Tonnage": 70,
   "InitialTonnage": 30,
   "weightClass": "HEAVY",
-  "Heatsinks": 10,
+  "Heatsinks": 0,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -61,10 +61,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -89,7 +85,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 220,
@@ -191,11 +192,9 @@
       "z": 0
     }
   ],
-  "VariantName": "EXC-C1",
+  "VariantName": "EXC-B2",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.0-0.9-1.0",
-      "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
       "mech_quirk_largeengine",
@@ -204,8 +203,16 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Sniper",
-  "YangsThoughts": "The C1 configuration of the Excalibur increases its defensive combat capabilities. This was done by removing the anti-missile system from the 'Mech and upgrading to double heat sinks. The tonnage saved goes toward adding an additional Medium Laser and increasing the 'Mech's armor protection to a mere nine tons.",
+  "YangsThoughts": "The Excalibur, powered by a 350-rated XL engine, achieves a top speed of 86.4 km/h. Its relatively light 7 and a half tons of armor are augmented by an Anti-Missile System and CASE in both side torsos to protect against an ammunition explosion. As its primary weapon, the Excalibur carries a powerful Gauss Rifle that has an effective range of up to 660m. This is backed up by an LRM-20 with an Artemis IV fire control computer for increased missile accuracy.",
   "FixedEquipment": [
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Actuator_Excalibur_Sword",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",

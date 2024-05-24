@@ -27,7 +27,7 @@
     "UIName": "Zeus ZEU-9S-DC",
     "Id": "mechdef_zeus_ZEU-9S-DC",
     "Name": "Zeus",
-    "Details": "Introduced in 3049, this 9S subvariant trades the rear-mounted Medium Pulse Laser and one double heat sink for a Command Console.",
+    "Details": "This 9S subvariant introduced in 3049 trades the rear-mounted Medium Pulse Laser and one double heat sink for a Command Console.",
     "Icon": "uixTxrIcon_zeus"
   },
   "simGameMechPartCost": 940000,

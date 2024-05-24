@@ -14,8 +14,8 @@
   "MovementCapDefID": "movedef_excalibur_EXC-CS",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_excalibur",
-  "PrefabIdentifier": "chrPrfMech_blackknightBase-001",
-  "PrefabBase": "blackknight",
+  "PrefabIdentifier": "chrprfmech_excaliburbase-001",
+  "PrefabBase": "excalibur",
   "Tonnage": 70,
   "InitialTonnage": 28,
   "weightClass": "HEAVY",
@@ -210,7 +210,6 @@
   "VariantName": "EXC-CS",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.0-0.9-1.0",
       "chassis_DHS",
       "chassis_TSM",
       "chassis_endo",
@@ -224,6 +223,14 @@
   "StockRole": "Skirmisher & Brawler",
   "YangsThoughts": "The CS removes the Gauss Rifle to make way for an ER PPC and twelve double heat sinks. Four ER Medium Lasers and an ER Small Laser ensure that the Excalibur CS is a threat at close range, as well. Thirteen and a half tons of armor protect this variant better than any other configuration of the Excalibur. A Targeting Computer helps guide the direct-fire weapons. Finally, Triple Strength Myomer harnesses the heat buildup of the CS to make it faster.",
   "FixedEquipment": [
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Actuator_Excalibur_Sword",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",

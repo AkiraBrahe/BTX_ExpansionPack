@@ -1,28 +1,28 @@
 {
   "Description": {
-    "Cost": 17880000,
-    "Rarity": 4,
+    "Cost": 16290000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Excalibur",
-    "Id": "chassisdef_excalibur_EXC-D1",
+    "Id": "chassisdef_excalibur_EXC-B2b",
     "Name": "Excalibur",
-    "Details": "<color=#F79B26>The Excalibur, a long-range skirmisher named after its sword-like arm, served the Star League forces well, relying on hit-and-run attacks to compensate for its lack of armor.</color>\n\nThis variant is a radical reworking of the Excalibur by Word of Blake that was first reported to have been seen in 3067 on Outreach. All the weapons are removed to make way for eleven and a half tons of armor and enough jump jets to vault the 'Mech up to 150 meters at a time. A short-range arsenal is in place for the remaining tonnage, anchored by a Rotary Autocannon/5. It, along with two ER Medium Lasers, are made more accurate through an advanced Targeting Computer. A Streak SRM-6 enables highly-accurate missile fire. An Improved C3 CPU aids in targeting with the other five members of the Level II.",
+    "Details": "<color=#F79B26>The Excalibur, a long-range skirmisher named after its sword-like arm, served the Star League forces well, relying on hit-and-run attacks to compensate for its lack of armor.</color>\n\nThe B2b is very similar to the Excalibur B2, except that the use of an endo steel structure allows for an additional three and a half tons of armor. This variant was utilized exclusively by the SLDF Royals.",
     "Icon": "uixTxrIcon_excalibur"
   },
-  "MovementCapDefID": "movedef_excalibur_EXC-D1",
+  "MovementCapDefID": "movedef_excalibur_EXC-B2b",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_excalibur",
-  "PrefabIdentifier": "chrPrfMech_blackknightBase-001",
-  "PrefabBase": "blackknight",
+  "PrefabIdentifier": "chrprfmech_excaliburbase-001",
+  "PrefabBase": "excalibur",
   "Tonnage": 70,
   "InitialTonnage": 26.5,
   "weightClass": "HEAVY",
-  "Heatsinks": 10,
+  "Heatsinks": 0,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
-  "MaxJumpjets": 5,
+  "MaxJumpjets": 0,
   "Stability": 160,
   "StabilityDefenses": [
     0,
@@ -63,10 +63,6 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -81,10 +77,6 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Missile",
           "Omni": false
         }
@@ -97,7 +89,16 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 220,
@@ -127,6 +128,10 @@
         },
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -199,11 +204,9 @@
       "z": 0
     }
   ],
-  "VariantName": "EXC-D1",
+  "VariantName": "EXC-B2b",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.0-0.9-1.0",
-      "chassis_DHS",
       "chassis_endo",
       "mech_case_left",
       "mech_case_right",
@@ -212,9 +215,17 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Skirmisher & Brawler",
-  "YangsThoughts": "This variant is a radical reworking of the Excalibur first seen in 3067 on Outreach. All the weapons are removed to make way for eleven and a half tons of armor and enough jump jets to vault the 'Mech up to 150 meters at a time. A short-range arsenal is in place for the remaining tonnage, anchored by a Rotary Autocannon/5. It, along with two ER Medium Lasers, are made more accurate through an advanced Targeting Computer. A Streak SRM-6 enables highly-accurate missile fire. An Improved C3 CPU aids in targeting with its lancemates.",
+  "StockRole": "Skirmisher & Sniper",
+  "YangsThoughts": "The B2b is very similar to the Excalibur B2, except that the use of an endo steel structure allows for an additional three and a half tons of armor. This variant was utilized exclusively by the SLDF Royals.",
   "FixedEquipment": [
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Actuator_Excalibur_Sword",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
@@ -226,14 +237,6 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_XL_Engine",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -241,14 +244,6 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -257,7 +252,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -265,7 +260,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -282,22 +277,6 @@
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_C3_Improved",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TAC3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
