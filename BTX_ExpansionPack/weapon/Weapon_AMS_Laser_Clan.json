@@ -117,7 +117,8 @@
       "component_type_stock",
       "component_type_clan",
       "component_type_lostech",
-      "range_close"
+      "range_close",
+      "component_ams"
     ],
     "tagSetSourceFile": ""
   }

@@ -9,7 +9,7 @@
     480,
     720
   ],
-  "ammoCategoryID": "AC2",
+  "AmmoCategory": "AC2",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 2,
   "Damage": 30,
@@ -86,7 +86,7 @@
       "HeatGenerated": 2,
       "DamagePerShot": -30,
       "ProjectilesPerShot": -5,
-      "ShotsPerAmmo": 0.1
+      "ShotsPerAmmo": 9
     }
   ],
   "Auras": [

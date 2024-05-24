@@ -9,7 +9,7 @@
     360,
     540
   ],
-  "ammoCategoryID": "AC5",
+  "AmmoCategory": "AC5",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 4,
   "Damage": 45,
@@ -86,7 +86,7 @@
       "HeatGenerated": 4,
       "DamagePerShot": -45,
       "ProjectilesPerShot": -3,
-      "ShotsPerAmmo": 0.15
+      "ShotsPerAmmo": 6
     }
   ],
   "Auras": [

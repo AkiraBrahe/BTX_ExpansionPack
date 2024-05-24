@@ -212,8 +212,8 @@
     },
     {
       "ID": 69,
-      "Name": "Magshot",
-      "FriendlyName": "Magshot",
+      "Name": "HAG",
+      "FriendlyName": "Hyper-Assault Gauss",
       "IsBallistic": true,
       "IsMissile": false,
       "IsEnergy": false,
@@ -297,7 +297,7 @@
     {
       "ID": 75,
       "Name": "CM50",
-      "FriendlyName": "Cruise Missile /50",
+      "FriendlyName": "Cruise Missile/50",
       "IsBallistic": false,
       "IsMissile": true,
       "IsEnergy": false,
@@ -321,6 +321,20 @@
       "FallbackUIColor": null,
       "Icon": "SmallHardpointIcon",
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
+    },
+    {
+      "ID": 77,
+      "Name": "Magshot",
+      "FriendlyName": "Magshot",
+      "IsBallistic": false,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": true,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Small",
+      "FallbackUIColor": null,
+      "Icon": "SmallHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
     }
   ]
 }

@@ -86,7 +86,7 @@
     "UIName": "M.A.S.C.",
     "Id": "Gear_MASC_3_Combo",
     "Name": "Myomer Accelerator Signal Circuitry",
-    "Details": "Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to move at twice its walking speed. However, actuators were not built for this kind of stress, and prolonged usage of MASC systems can damage the leg actuators of a BattleMech. Although this is unlikely to immobilize the BattleMech, the danger of destroyed actuators is enough for cautious warriors to limit their use in battle. This  M.A.S.C. is paired with a Supercharger, limiting their combined benefits to only tripling the standard speed of the 'Mech.",
+    "Details": "Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to move at twice its walking speed. However, actuators were not built for this kind of stress, and prolonged usage of MASC systems can damage the leg actuators of a BattleMech. Although this is unlikely to immobilize the BattleMech, the danger of destroyed actuators is enough for cautious warriors to limit their use in battle. This M.A.S.C. is paired with a Supercharger, limiting their combined benefits to only tripling the standard speed of the 'Mech.",
     "Icon": "uixSvgIcon_special_Equipment"
   },
   "BonusValueA": "* 1.6 Speed",

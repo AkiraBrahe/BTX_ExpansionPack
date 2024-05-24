@@ -13,8 +13,8 @@
       "unit_vehicle_case",
       "unit_speed_medium",
       "unit_release",
-      "unit_clan",
-      "unit_veepack"
+      "unit_veepack",
+      "unit_clan"
     ],
     "tagSetSourceFile": ""
   },

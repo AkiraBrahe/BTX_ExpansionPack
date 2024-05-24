@@ -9,7 +9,7 @@
     180,
     270
   ],
-  "ammoCategoryID": "SRM",
+  "AmmoCategory": "SRM",
   "StartingAmmoCapacity": 2,
   "HeatGenerated": 8,
   "Damage": 8,

@@ -9,7 +9,7 @@
     270,
     420
   ],
-  "ammoCategoryID": "NotSet",
+  "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 19,
   "Damage": 35,

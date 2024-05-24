@@ -9,8 +9,8 @@
       "unit_armor_medium",
       "unit_speed_low",
       "unit_release",
-      "unit_clan",
-      "unit_veepack"
+      "unit_veepack",
+      "unit_clan"
     ],
     "tagSetSourceFile": ""
   },

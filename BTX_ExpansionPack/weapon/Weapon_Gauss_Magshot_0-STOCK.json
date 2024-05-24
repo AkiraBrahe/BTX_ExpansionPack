@@ -1,5 +1,5 @@
 {
-  "Category": "Ballistic",
+  "Category": "AntiPersonnel",
   "Type": "Gauss",
   "WeaponSubType": "Gauss",
   "MinRange": 0,
@@ -28,7 +28,6 @@
   "AttackRecoil": 1,
   "Instability": 8,
   "CanExplode": true,
-  "NotUseInMelee": false,
   "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
   "Description": {
     "Cost": 85000,
@@ -39,7 +38,7 @@
     "UIName": "Magshot",
     "Id": "Weapon_Gauss_Magshot_0-STOCK",
     "Name": "Magshot",
-    "Details": "The Magshot is a 'Mech-sized version of the Magshot Gauss Rifle introduced on the Infiltrator Mk. II battle armor. Like its larger cousin, the Magshot uses a magnetic accelerator to accelerate to incredible speeds a small projectile. However, the projectile's even smaller size of the Magshot makes it particularly effective against soft targets. Can explode when hit by enemy fire.",
+    "Details": "The Magshot is a 'Mech-sized version of the Magshot Gauss Rifle introduced on the Infiltrator Mk. II battle armor. Like its larger cousin, the Magshot uses a magnetic accelerator to accelerate to incredible speeds a small projectile. However, the projectile's even smaller size of the Magshot makes it particularly effective against soft targets. Can explode when hit by enemy fire.\n\nMagshots explode if destroyed, taking the entire mounted location with them.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
