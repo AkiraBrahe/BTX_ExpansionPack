@@ -9,7 +9,7 @@
     480,
     840
   ],
-  "AmmoCategory": "HVAC5",
+  "ammoCategoryID": "HVAC5",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 8,
   "Damage": 45,

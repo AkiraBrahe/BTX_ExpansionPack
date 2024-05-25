@@ -9,7 +9,7 @@
     360,
     540
   ],
-  "AmmoCategory": "AC2",
+  "ammoCategoryID": "AC2",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 2,
   "Damage": 25,

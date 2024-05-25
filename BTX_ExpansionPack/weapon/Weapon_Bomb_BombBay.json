@@ -16,7 +16,7 @@
     120,
     180
   ],
-  "AmmoCategory": "BombBay",
+  "ammoCategoryID": "BombBay",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 3,
   "Damage": 0,

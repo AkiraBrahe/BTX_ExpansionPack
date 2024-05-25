@@ -9,7 +9,7 @@
     450,
     1000
   ],
-  "AmmoCategory": "RAILGUN",
+  "ammoCategoryID": "RAILGUN",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
   "Damage": 200,

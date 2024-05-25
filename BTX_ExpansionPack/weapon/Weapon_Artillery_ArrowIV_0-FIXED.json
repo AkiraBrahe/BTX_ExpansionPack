@@ -10,7 +10,7 @@
     1560
   ],
   "ForbiddenRange": 240,
-  "AmmoCategory": "ArrowIV",
+  "ammoCategoryID": "ArrowIV",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
   "Damage": 60,

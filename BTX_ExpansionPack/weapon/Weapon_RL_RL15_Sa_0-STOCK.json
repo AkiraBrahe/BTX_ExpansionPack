@@ -9,7 +9,7 @@
     270,
     450
   ],
-  "AmmoCategory": "Rockets",
+  "ammoCategoryID": "Rockets",
   "StartingAmmoCapacity": 15,
   "HeatGenerated": 16,
   "Damage": 5,

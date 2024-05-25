@@ -9,7 +9,7 @@
     180,
     270
   ],
-  "AmmoCategory": "Magshot",
+  "ammoCategoryID": "Magshot",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 1,
   "Damage": 15,

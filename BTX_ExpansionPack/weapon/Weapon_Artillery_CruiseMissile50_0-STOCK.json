@@ -10,7 +10,7 @@
     3000
   ],
   "ForbiddenRange": 180,
-  "AmmoCategory": "CM50",
+  "ammoCategoryID": "CM50",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 150,
   "Damage": 160,

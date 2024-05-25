@@ -9,7 +9,7 @@
     360,
     540
   ],
-  "AmmoCategory": "TBOLT20",
+  "ammoCategoryID": "TBOLT20",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
   "Damage": 100,

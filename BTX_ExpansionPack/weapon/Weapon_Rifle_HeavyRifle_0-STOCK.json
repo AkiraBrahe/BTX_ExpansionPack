@@ -9,7 +9,7 @@
     360,
     540
   ],
-  "AmmoCategory": "HRIFLE",
+  "ammoCategoryID": "HRIFLE",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 12,
   "Damage": 70,

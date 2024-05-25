@@ -9,7 +9,7 @@
     660,
     1140
   ],
-  "AmmoCategory": "LRM",
+  "ammoCategoryID": "LRM",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 21,
   "Damage": 5,

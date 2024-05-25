@@ -15,7 +15,7 @@
     480
   ],
   "ForbiddenRange": 60,
-  "AmmoCategory": "Sniper",
+  "ammoCategoryID": "Sniper",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
   "Damage": 60,

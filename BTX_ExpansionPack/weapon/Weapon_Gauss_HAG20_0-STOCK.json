@@ -9,7 +9,7 @@
     480,
     720
   ],
-  "AmmoCategory": "HAG",
+  "ammoCategoryID": "HAG",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 12,
   "Damage": 50,

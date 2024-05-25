@@ -15,7 +15,7 @@
     540
   ],
   "ForbiddenRange": 90,
-  "AmmoCategory": "Thumper",
+  "ammoCategoryID": "Thumper",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 18,
   "Damage": 40,

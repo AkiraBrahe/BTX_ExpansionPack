@@ -9,7 +9,7 @@
     300,
     450
   ],
-  "AmmoCategory": "AC5",
+  "ammoCategoryID": "AC5",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 4,
   "Damage": 40,

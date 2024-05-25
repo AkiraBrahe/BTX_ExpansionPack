@@ -10,7 +10,7 @@
     630
   ],
   "ForbiddenRange": 180,
-  "AmmoCategory": "Mortar",
+  "ammoCategoryID": "Mortar",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 6,
   "Damage": 15,
