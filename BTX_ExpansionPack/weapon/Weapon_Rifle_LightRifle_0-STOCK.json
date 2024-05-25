@@ -9,7 +9,7 @@
     240,
     360
   ],
-  "AmmoCategory": "LRIFLE",
+  "ammoCategoryID": "LRIFLE",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 3,
   "Damage": 30,

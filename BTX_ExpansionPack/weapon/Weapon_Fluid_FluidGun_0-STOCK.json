@@ -9,7 +9,7 @@
     90,
     90
   ],
-  "AmmoCategory": "Fluid",
+  "ammoCategoryID": "Fluid",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 0,
   "Damage": 10,

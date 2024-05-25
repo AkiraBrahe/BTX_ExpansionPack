@@ -9,7 +9,7 @@
     360,
     540
   ],
-  "AmmoCategory": "TBOLT15",
+  "ammoCategoryID": "TBOLT15",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 24,
   "Damage": 75,

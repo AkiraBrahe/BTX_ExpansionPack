@@ -9,7 +9,7 @@
     600,
     1050
   ],
-  "AmmoCategory": "HVAC2",
+  "ammoCategoryID": "HVAC2",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 4,
   "Damage": 30,

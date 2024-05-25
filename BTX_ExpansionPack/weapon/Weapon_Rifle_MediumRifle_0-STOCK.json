@@ -9,7 +9,7 @@
     300,
     450
   ],
-  "AmmoCategory": "MRIFLE",
+  "ammoCategoryID": "MRIFLE",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 6,
   "Damage": 50,

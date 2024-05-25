@@ -9,7 +9,7 @@
     360,
     540
   ],
-  "AmmoCategory": "RAC2",
+  "ammoCategoryID": "RAC2",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 27,
   "Damage": 30,

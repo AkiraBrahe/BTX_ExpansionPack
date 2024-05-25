@@ -9,7 +9,7 @@
     390,
     600
   ],
-  "AmmoCategory": "HGAUSS",
+  "ammoCategoryID": "HGAUSS",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 6,
   "Damage": 125,

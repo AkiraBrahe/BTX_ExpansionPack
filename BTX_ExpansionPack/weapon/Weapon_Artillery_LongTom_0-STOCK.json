@@ -15,7 +15,7 @@
     3000
   ],
   "ForbiddenRange": 180,
-  "AmmoCategory": "LongTom",
+  "ammoCategoryID": "LongTom",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 60,
   "Damage": 80,
