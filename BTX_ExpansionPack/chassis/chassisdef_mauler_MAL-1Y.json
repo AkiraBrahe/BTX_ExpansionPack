@@ -204,6 +204,7 @@
     "items": [
       "chassis_DHS",
       "chassis_ferro",
+      "chassis_CrossAssemblyAllowedWith_Daboku",
       "mech_case_centre",
       "mech_case_left",
       "mech_case_right",

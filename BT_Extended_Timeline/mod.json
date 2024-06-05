@@ -383,31 +383,31 @@
   },
 
   "DataAddendumEntries":[
-        { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" },
-        { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" },
-        { "name":"BattleTech.WeaponCategoryEnumeration", "path":"enums/WeaponCategory.json" }
+    { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" },
+    { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" },
+    { "name":"BattleTech.WeaponCategoryEnumeration", "path":"enums/WeaponCategory.json" }
   ],
-    "Manifest": [
+  "Manifest": [
     { "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
     { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
-        { "Type": "CastDef", "Path": "cast" },
-        { "Type": "ContractOverride", "Path": "contracts", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "ContractOverride", "Path": "contracts_new", "AddToDB": true },
-    { "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
-        { "Type": "FactionDef", "Path": "factions" },
+    { "Type": "CastDef", "Path": "cast" },
+    { "Type": "ContractOverride", "Path": "contracts", "ShouldMergeJSON": true, "AddToDB": false },
+    { "Type": "ContractOverride", "Path": "contracts_new", "AddToDB": true },
+    { "Type": "AdvancedJSONMerge", "Path": "contractsMerge" },
+    { "Type": "FactionDef", "Path": "factions" },
     { "Type": "FlashpointDef", "Path": "flashpoints", "AddToDB": true },
-        { "Type": "ForcedTimelineEvent", "Path": "ForcedEvents" },
-        { "Type": "HeraldryDef", "Path": "heraldry" },
-        { "Type": "Sprite", "Path": "illustrations" },
+    { "Type": "ForcedTimelineEvent", "Path": "ForcedEvents" },
+    { "Type": "HeraldryDef", "Path": "heraldry" },
+    { "Type": "Sprite", "Path": "illustrations" },
     { "Type": "ItemCollectionDef", "Path": "itemCollections" },
-        { "Type": "LanceDef", "Path": "lance_new", "AddToDB": true },
+    { "Type": "LanceDef", "Path": "lance_new", "AddToDB": true },
     { "Type": "PilotDef", "Path": "pilot" },
-        { "Type": "Sprite", "Path": "portraits" },
-        { "Type": "Sprite", "Path": "sprites" },
-        { "Type": "StarSystemDef", "Path": "starsystem" },
-        { "Path": "starsystem_merge", "Type": "AdvancedJSONMerge" },
-        { "Type": "Texture2D", "Path": "sprites" },
-        { "Type": "SimGameEventDef", "Path": "timelineEvents" },
+    { "Type": "Sprite", "Path": "portraits" },
+    { "Type": "Sprite", "Path": "sprites" },
+    { "Type": "StarSystemDef", "Path": "starsystem" },
+    { "Type": "AdvancedJSONMerge", "Path": "starsystem_merge" },
+    { "Type": "Texture2D", "Path": "sprites" },
+    { "Type": "SimGameEventDef", "Path": "timelineEvents" },
     { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
-    ]
+  ]
 }

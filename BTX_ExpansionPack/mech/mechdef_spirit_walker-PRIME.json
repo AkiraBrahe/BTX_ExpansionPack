@@ -121,8 +121,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftArm",
@@ -130,8 +129,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftTorso",
@@ -147,8 +145,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftTorso",
@@ -156,8 +153,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "RightTorso",
@@ -173,8 +169,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "RightTorso",
@@ -182,8 +177,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "RightArm",
@@ -199,8 +193,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "RightArm",
@@ -208,8 +201,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftLeg",

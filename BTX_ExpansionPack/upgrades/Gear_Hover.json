@@ -2,7 +2,7 @@
   "Description": {
     "Cost": 1000,
     "Rarity": 99,
-    "Purchasable": true,
+    "Purchasable": false,
     "Manufacturer": "Generic",
     "Model": "",
     "UIName": "Hover Propulsion",

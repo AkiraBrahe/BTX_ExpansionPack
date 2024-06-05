@@ -9,7 +9,6 @@
       "unit_range_long",
       "unit_armor_high",
       "unit_speed_medium",
-      "unit_hot",
       "unit_release",
       "unit_mechpack",
       "unit_LosTech"
@@ -107,6 +106,14 @@
     }
   ],
   "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_PPC_PPCER_NU_0-STOCK",

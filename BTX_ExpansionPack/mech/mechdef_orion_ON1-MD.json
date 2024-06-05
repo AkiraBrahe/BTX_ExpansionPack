@@ -10,6 +10,7 @@
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_medium",
+      "unit_hot",
       "unit_release",
       "unit_mechpack",
       "unit_LosTech"

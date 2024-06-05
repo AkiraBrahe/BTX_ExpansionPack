@@ -16,16 +16,6 @@
   "HardpointDataDefID": "hardpointdatadef_scorpionmech",
   "PrefabIdentifier": "chrprfmech_scorpionmechbase-001",
   "PrefabBase": "scorpionmech",
-  "CustomParts": {
-    "Unaffected": {
-      "DesignMasks": "false",
-      "Pathing": "false",
-      "Fire": "false",
-      "Landmines": "false"
-    },
-    "ArmsCountedAsLegs": true,
-    "CustomParts": []
-  },
   "Tonnage": 45,
   "InitialTonnage": 20.5,
   "weightClass": "MEDIUM",
@@ -55,6 +45,16 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 55,
   "DFAInstability": 55,
+  "CustomParts": {
+    "Unaffected": {
+      "DesignMasks": "false",
+      "Pathing": "false",
+      "Fire": "false",
+      "Landmines": "false"
+    },
+    "ArmsCountedAsLegs": true,
+    "CustomParts": []
+  },
   "Locations": [
     {
       "Location": "Head",
