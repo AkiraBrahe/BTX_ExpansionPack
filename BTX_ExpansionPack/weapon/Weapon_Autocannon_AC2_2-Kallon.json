@@ -55,7 +55,11 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
+  "ImprovedBallistic": false,
+  "BallisticDamagePerPallet": false,
+  "HasShells": false,
+  "DisableClustering": true,
+  "FireDelayMultiplier": 1,
   "Modes": [
     {
       "Id": "FLAK_ST",
@@ -68,7 +72,7 @@
       "Id": "FLAK_AMS",
       "UIName": "AMS",
       "Name": "AMS Mode",
-      "Description": "Fires 9 shots at incoming missiles.",
+      "Description": "Fires 9 shots at incoming missiles. Chance to jam.",
       "isBaseMode": false,
       "IsAMS": true,
       "IsAAMS": true,
@@ -86,7 +90,7 @@
       "HeatGenerated": 2,
       "DamagePerShot": -30,
       "ProjectilesPerShot": -5,
-      "ShotsPerAmmo": 9
+      "ShotsPerAmmo": 0.1
     }
   ],
   "Auras": [
@@ -104,6 +108,7 @@
       "IsPositiveToAlly": false
     }
   ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "component_type_variant",
@@ -111,10 +116,5 @@
       "range_extreme"
     ],
     "tagSetSourceFile": ""
-  },
-  "ImprovedBallistic": false,
-  "BallisticDamagePerPallet": false,
-  "HasShells": false,
-  "DisableClustering": true,
-  "FireDelayMultiplier": 1
+  }
 }

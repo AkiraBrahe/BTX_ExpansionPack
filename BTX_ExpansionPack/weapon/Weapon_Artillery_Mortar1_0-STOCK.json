@@ -54,6 +54,9 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 0.5,
+  "ProjectileSpeedMultiplier": 0.65,
   "Modes": [
     {
       "Id": "ARTY_Std",
@@ -65,10 +68,6 @@
     }
   ],
   "statusEffects": [],
-  "ImprovedBallistic": true,
-  "HitGenerator": "Individual",
-  "FireDelayMultiplier": 0.5,
-  "ProjectileSpeedMultiplier": 0.65,
   "ComponentTags": {
     "items": [
       "component_type_stock",

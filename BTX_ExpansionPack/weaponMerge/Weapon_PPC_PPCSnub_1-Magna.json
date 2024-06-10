@@ -1,4 +1,13 @@
 {
+  "MinRange": 0,
+  "MaxRange": 450,
+  "RangeSplit": [
+    390,
+    390,
+    450
+  ],
+  "DamageFalloffStartDistance": 390,
+  "DamageFalloffEndDistance": 450,
   "ColorChangeRule": "t0",
   "ColorsTable": [
     {

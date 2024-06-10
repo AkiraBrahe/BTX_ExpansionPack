@@ -34,6 +34,11 @@
   "FireTerrainStrength": 15,
   "FireTerrainCellRadius": 3,
   "WeaponEffectID": "WeaponEffect-Weapon_SRMInferno",
+  "ProjectileScale": {
+    "x": 5,
+    "y": 5,
+    "z": 5
+  },
   "AdditionalImpactVFX": "vfxPrfPrtl_artilleryExplosion",
   "AdditionalImpactVFXScaleX": 1,
   "AdditionalImpactVFXScaleY": 1,
@@ -42,8 +47,6 @@
     {
       "durationData": {
         "duration": 1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
         "stackLimit": -1
       },
       "targetingData": {
@@ -70,8 +73,6 @@
     {
       "durationData": {
         "duration": 1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
         "stackLimit": -1
       },
       "targetingData": {

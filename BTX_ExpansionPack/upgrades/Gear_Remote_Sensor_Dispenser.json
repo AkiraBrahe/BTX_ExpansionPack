@@ -13,8 +13,6 @@
       "statusEffects": [
         {
           "durationData": {
-            "ticksOnActivations": true,
-            "useActivationsOfTarget": true,
             "duration": 2,
             "stackLimit": -1
           },
@@ -41,8 +39,6 @@
         },
         {
           "durationData": {
-            "ticksOnActivations": true,
-            "useActivationsOfTarget": true,
             "duration": 2,
             "stackLimit": -1
           },

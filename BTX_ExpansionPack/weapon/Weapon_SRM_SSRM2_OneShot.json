@@ -51,6 +51,14 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "HitGenerator": "Streak",
+  "MissileVolleySize": 2,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "MissileHealth": 1,
+  "Streak": true,
   "statusEffects": [],
   "ComponentTags": {
     "items": [
@@ -60,14 +68,5 @@
       "component_streak"
     ],
     "tagSetSourceFile": ""
-  },
-  "ImprovedBallistic": true,
-  "MissileVolleySize": 2,
-  "MissileFiringIntervalMultiplier": 1,
-  "MissileVolleyIntervalMultiplier": 1,
-  "FireDelayMultiplier": 1,
-  "HitGenerator": "Streak",
-  "AMSHitChance": 0.0,
-  "MissileHealth": 1,
-  "Streak": true
+  }
 }

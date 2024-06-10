@@ -51,15 +51,6 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_very-long"
-    ],
-    "tagSetSourceFile": ""
-  },
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 0.25,
   "Modes": [
@@ -130,5 +121,14 @@
       "GunneryJammingBase": 10,
       "GunneryJammingMult": 0.02
     }
-  ]
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_very-long"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

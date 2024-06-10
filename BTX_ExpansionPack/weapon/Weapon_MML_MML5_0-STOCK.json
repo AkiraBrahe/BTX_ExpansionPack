@@ -51,7 +51,13 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
+  "ImprovedBallistic": true,
+  "HitGenerator": "Individual",
+  "MissileVolleySize": 5,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "MissileHealth": 1,
   "Modes": [
     {
       "Id": "LRM",
@@ -82,6 +88,7 @@
       "WeaponEffectID": "WeaponEffect-Weapon_SRM4"
     }
   ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "component_type_stock",
@@ -89,13 +96,5 @@
       "artemis_mml_attachable"
     ],
     "tagSetSourceFile": ""
-  },
-  "ImprovedBallistic": true,
-  "MissileVolleySize": 5,
-  "MissileFiringIntervalMultiplier": 1,
-  "MissileVolleyIntervalMultiplier": 1,
-  "FireDelayMultiplier": 1,
-  "HitGenerator": "Individual",
-  "AMSHitChance": 0.0,
-  "MissileHealth": 1
+  }
 }

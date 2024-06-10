@@ -51,16 +51,22 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_long",
-      "laser_insulator_bombast_attachable"
-    ],
-    "tagSetSourceFile": ""
-  },
+  "ImprovedBallistic": true,
+  "ColorSpeedChange": 1,
+  "ColorsTable": [
+    {
+      "C": "#87CEEB",
+      "I": 5
+    },
+    {
+      "C": "#4000C0",
+      "I": 5
+    },
+    {
+      "C": "#6A5ACD",
+      "I": 5
+    }
+  ],
   "Modes": [
     {
       "Id": "LASER_Min",
@@ -99,20 +105,14 @@
       "ColorChangeRule": "Linear"
     }
   ],
-  "ImprovedBallistic": true,
-  "ColorSpeedChange": 1,
-  "ColorsTable": [
-    {
-      "C": "#87CEEB",
-      "I": 5
-    },
-    {
-      "C": "#4000C0",
-      "I": 5
-    },
-    {
-      "C": "#6A5ACD",
-      "I": 5
-    }
-  ]
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_long",
+      "laser_insulator_bombast_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

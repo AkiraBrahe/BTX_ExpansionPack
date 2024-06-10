@@ -51,6 +51,16 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "HitGenerator": "Individual",
+  "MissileVolleySize": 1,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "ProjectileSpeedMultiplier": 1.2,
+  "AMSHitChance": 0.05,
+  "MissileHealth": 5,
+  "Modes": [],
   "statusEffects": [],
   "ComponentTags": {
     "items": [
@@ -59,15 +69,5 @@
       "range_very-long"
     ],
     "tagSetSourceFile": ""
-  },
-  "Modes": [],
-  "ImprovedBallistic": true,
-  "AOEEffectsFalloff": true,
-  "MissileVolleySize": 1,
-  "ProjectileSpeedMultiplier": 1.2,
-  "MissileFiringIntervalMultiplier": 1,
-  "MissileVolleyIntervalMultiplier": 1,
-  "FireDelayMultiplier": 1,
-  "HitGenerator": "Individual",
-  "MissileHealth": 5
+  }
 }

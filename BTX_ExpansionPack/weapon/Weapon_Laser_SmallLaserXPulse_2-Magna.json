@@ -51,6 +51,7 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ImprovedBallistic": false,
   "statusEffects": [],
   "ComponentTags": {
     "items": [
@@ -62,6 +63,5 @@
       "laser_insulator_attachable"
     ],
     "tagSetSourceFile": ""
-  },
-  "ImprovedBallistic": false
+  }
 }

@@ -57,6 +57,9 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 1,
+  "ProjectileSpeedMultiplier": 1.4,
   "statusEffects": [],
   "ComponentTags": {
     "items": [
@@ -65,8 +68,5 @@
       "range_extreme"
     ],
     "tagSetSourceFile": ""
-  },
-  "ImprovedBallistic": true,
-  "FireDelayMultiplier": 1,
-  "ProjectileSpeedMultiplier": 1.4
+  }
 }

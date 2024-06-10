@@ -72,17 +72,11 @@
       },
       "nature": "Buff",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "DamagePerShot",
         "operation": "Float_Add",
         "modValue": "45.0",
         "modType": "System.Single",
-        "additionalRules": "NotSet",
         "targetCollection": "Weapon",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "Melee"
       }
     },
@@ -106,17 +100,11 @@
       },
       "nature": "Buff",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "APDamage",
         "operation": "Float_Add",
         "modValue": "25.0",
         "modType": "System.Single",
-        "additionalRules": "NotSet",
         "targetCollection": "Weapon",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "Melee"
       }
     },
@@ -140,17 +128,11 @@
       },
       "nature": "Debuff",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "AccuracyModifier",
         "operation": "Float_Add",
         "modValue": "1.0",
         "modType": "System.Single",
-        "additionalRules": "NotSet",
         "targetCollection": "Weapon",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "Melee"
       }
     }

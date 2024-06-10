@@ -51,23 +51,13 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_extreme"
-    ],
-    "tagSetSourceFile": ""
-  },
   "ImprovedBallistic": true,
+  "HitGenerator": "Cluster",
   "MissileVolleySize": 15,
-  "ProjectileSpeedMultiplier": 1.15,
   "MissileFiringIntervalMultiplier": 1,
   "MissileVolleyIntervalMultiplier": 1,
   "FireDelayMultiplier": 1,
-  "HitGenerator": "Cluster",
-  "AMSHitChance": 0.0,
+  "ProjectileSpeedMultiplier": 1.15,
   "MissileHealth": 2,
   "Modes": [
     {
@@ -87,5 +77,14 @@
       "ShotsWhenFired": -2,
       "MinRange": -160.0
     }
-  ]
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

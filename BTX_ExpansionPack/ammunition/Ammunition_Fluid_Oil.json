@@ -23,8 +23,6 @@
     {
       "durationData": {
         "duration": 2,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
         "stackLimit": 1
       },
       "targetingData": {
@@ -50,8 +48,6 @@
     {
       "durationData": {
         "duration": 2,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
         "stackLimit": 1
       },
       "targetingData": {
@@ -77,8 +73,6 @@
     {
       "durationData": {
         "duration": 2,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
         "stackLimit": 1
       },
       "targetingData": {

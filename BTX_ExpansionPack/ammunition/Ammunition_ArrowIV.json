@@ -27,6 +27,11 @@
   "AOEHeatDamage": 0,
   "AOEInstability": 60,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+  "ProjectileScale": {
+    "x": 5,
+    "y": 5,
+    "z": 5
+  },
   "AdditionalImpactVFX": "WFX_BELarger",
   "AdditionalImpactVFXScaleX": 3,
   "AdditionalImpactVFXScaleY": 3,

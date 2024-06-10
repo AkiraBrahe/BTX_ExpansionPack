@@ -17,5 +17,14 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
-  "HideIfOnlyVariant": true
+  "HideIfOnlyVariant": true,
+  "ProjectileScale": {
+    "x": 1,
+    "y": 1,
+    "z": 0.7
+  },
+  "AdditionalImpactVFX": "WFX_SPlasma",
+  "AdditionalImpactVFXScaleX": 1,
+  "AdditionalImpactVFXScaleY": 1,
+  "AdditionalImpactVFXScaleZ": 1
 }

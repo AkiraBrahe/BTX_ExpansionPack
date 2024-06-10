@@ -51,16 +51,6 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "component_type_clan",
-      "component_type_lostech",
-      "range_close"
-    ],
-    "tagSetSourceFile": ""
-  },
   "Modes": [
     {
       "Id": "MG_Full",
@@ -79,5 +69,15 @@
       "ShotsWhenFired": 5,
       "HeatGenerated": 5
     }
-  ]
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_clan",
+      "component_type_lostech",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

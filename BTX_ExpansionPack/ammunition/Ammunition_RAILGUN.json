@@ -17,5 +17,11 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
-  "HideIfOnlyVariant": true
+  "HideIfOnlyVariant": true,
+  "ImprovedBallistic": true,
+  "ProjectileScale": {
+    "x": 2,
+    "y": 2,
+    "z": 1.5
+  }
 }

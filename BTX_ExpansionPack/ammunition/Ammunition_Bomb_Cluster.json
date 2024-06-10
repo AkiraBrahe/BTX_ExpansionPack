@@ -44,6 +44,11 @@
   "FireTerrainStrength": 0,
   "FireTerrainCellRadius": 3,
   "WeaponEffectID": "WeaponEffect-Weapon_SRM4",
+  "ProjectileScale": {
+    "x": 2,
+    "y": 2,
+    "z": 2
+  },
   "AdditionalImpactVFX": "WFX_BELarger",
   "AdditionalImpactVFXScaleX": 2,
   "AdditionalImpactVFXScaleY": 2,

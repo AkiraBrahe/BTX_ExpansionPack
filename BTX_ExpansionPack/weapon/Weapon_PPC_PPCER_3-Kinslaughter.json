@@ -51,20 +51,23 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "ERPPCMode_ST",
+      "UIName": "ST",
+      "Name": "Standard",
+      "Description": "PPC operates normally.",
+      "isBaseMode": true
+    }
+  ],
   "statusEffects": [
     {
       "durationData": {
         "duration": 1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "stackLimit": 1,
-        "clearedWhenAttacked": false
+        "stackLimit": 1
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
-        "effectTargetType": "NotSet",
         "showInTargetPreview": true,
         "showInStatusPanel": true
       },
@@ -77,8 +80,6 @@
       },
       "nature": "Debuff",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "AccuracyModifier",
         "operation": "Float_Add",
         "modValue": "1.0",
@@ -95,14 +96,5 @@
       "ppc_capacitor_attachable"
     ],
     "tagSetSourceFile": ""
-  },
-  "Modes": [
-    {
-      "Id": "ERPPCMode_ST",
-      "UIName": "ST",
-      "Name": "Standard",
-      "Description": "PPC operates normally.",
-      "isBaseMode": true
-    }
-  ]
+  }
 }

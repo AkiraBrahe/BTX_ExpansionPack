@@ -55,6 +55,13 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "HitGenerator": "Individual",
+  "MissileVolleySize": 1,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "AMSImmune": true,
   "Modes": [
     {
       "Id": "ARTY_Std",
@@ -94,18 +101,6 @@
       }
     }
   ],
-  "ImprovedBallistic": true,
-  "HitGenerator": "Individual",
-  "MissileVolleySize": 1,
-  "MissileFiringIntervalMultiplier": 1,
-  "MissileVolleyIntervalMultiplier": 1,
-  "FireDelayMultiplier": 1,
-  "AMSImmune": true,
-  "ProjectileScale": {
-    "x": 5,
-    "y": 5,
-    "z": 5
-  },
   "ComponentTags": {
     "items": [
       "component_type_stock",

@@ -65,6 +65,9 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 1,
+  "ProjectileSpeedMultiplier": 1,
   "Modes": [
     {
       "Id": "ARTY_Std",
@@ -105,12 +108,6 @@
       }
     }
   ],
-  "ImprovedBallistic": true,
-  "FireDelayMultiplier": 1,
-  "AdditionalImpactVFX": "WFX_BELarger",
-  "AdditionalImpactVFXScaleX": 2,
-  "AdditionalImpactVFXScaleY": 2,
-  "AdditionalImpactVFXScaleZ": 2,
   "ComponentTags": {
     "items": [
       "component_type_stock",

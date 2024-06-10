@@ -61,6 +61,15 @@
   "AllowedLocations": "Torso",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "HitGenerator": "Individual",
+  "MissileVolleySize": 1,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 0.5,
+  "ProjectileSpeedMultiplier": 0.6,
+  "MissileHealth": 5,
+  "AMSImmune": true,
   "Modes": [],
   "statusEffects": [],
   "ComponentTags": {
@@ -70,19 +79,5 @@
       "range_standard"
     ],
     "tagSetSourceFile": ""
-  },
-  "ImprovedBallistic": true,
-  "MissileVolleySize": 1,
-  "ProjectileSpeedMultiplier": 0.6,
-  "MissileFiringIntervalMultiplier": 1,
-  "MissileVolleyIntervalMultiplier": 1,
-  "FireDelayMultiplier": 0.5,
-  "HitGenerator": "Individual",
-  "MissileHealth": 5,
-  "AMSImmune": true,
-  "ProjectileScale": {
-    "x": 2,
-    "y": 2,
-    "z": 2
   }
 }

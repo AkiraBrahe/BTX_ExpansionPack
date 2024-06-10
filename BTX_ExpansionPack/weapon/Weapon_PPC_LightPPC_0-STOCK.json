@@ -51,41 +51,6 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [
-    {
-      "durationData": {
-        "duration": 1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "stackLimit": 1,
-        "clearedWhenAttacked": false
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "effectTargetType": "NotSet",
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "AbilityDefPPC",
-        "Name": "SENSORS IMPAIRED",
-        "Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
-      },
-      "nature": "Debuff",
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "AccuracyModifier",
-        "operation": "Float_Add",
-        "modValue": "1.0",
-        "modType": "System.Single"
-      }
-    }
-  ],
   "Modes": [
     {
       "Id": "PPCMode_FI_ON",
@@ -106,6 +71,33 @@
       "GunneryJammingMult": 0.04,
       "MinRange": -90.0,
       "AccuracyModifier": 1.0
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityDefPPC",
+        "Name": "SENSORS IMPAIRED",
+        "Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
     }
   ],
   "ComponentTags": {

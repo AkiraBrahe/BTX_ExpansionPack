@@ -44,31 +44,20 @@
   "BonusValueB": "- 4 Tons",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "srm20",
+  "PrefabIdentifier": "lrm20",
   "BattleValue": 0,
   "InventorySize": 6,
   "Tonnage": 14,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
-  "ComponentTags": {
-    "items": [
-      "component_type_variant",
-      "component_type_variant2",
-      "component_type_lostech",
-      "range_extreme"
-    ],
-    "tagSetSourceFile": ""
-  },
   "ImprovedBallistic": true,
+  "HitGenerator": "Cluster",
   "MissileVolleySize": 20,
-  "ProjectileSpeedMultiplier": 1.15,
   "MissileFiringIntervalMultiplier": 1,
   "MissileVolleyIntervalMultiplier": 1,
   "FireDelayMultiplier": 1,
-  "HitGenerator": "Cluster",
-  "AMSHitChance": 0.0,
+  "ProjectileSpeedMultiplier": 1.15,
   "MissileHealth": 2,
   "Modes": [
     {
@@ -88,5 +77,15 @@
       "ShotsWhenFired": -2,
       "MinRange": -160.0
     }
-  ]
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant2",
+      "component_type_lostech",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

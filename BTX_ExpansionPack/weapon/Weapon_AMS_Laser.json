@@ -51,7 +51,6 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
   "Modes": [
     {
       "Id": "LAMS_On",
@@ -112,6 +111,7 @@
       "IsPositiveToAlly": false
     }
   ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "component_type_stock",

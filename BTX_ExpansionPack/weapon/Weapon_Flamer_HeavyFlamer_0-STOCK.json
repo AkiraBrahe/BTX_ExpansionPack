@@ -19,7 +19,6 @@
   "DamageVariance": 0,
   "HeatDamage": 20,
   "AccuracyModifier": 0,
-  "DistantVarianceReversed": false,
   "CriticalChanceMultiplier": 1,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -52,12 +51,13 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "FireTerrainChance": 0.75,
+  "FireTerrainStrength": 1,
+  "FireOnSuccessHit": true,
   "statusEffects": [
     {
       "durationData": {
         "duration": 1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
         "stackLimit": -1
       },
       "targetingData": {
@@ -74,7 +74,6 @@
       },
       "nature": "Buff",
       "statisticData": {
-        "appliesEachTick": false,
         "statName": "CACIncomingHeatMult",
         "operation": "Float_Multiply",
         "modValue": "0.98",
@@ -84,8 +83,6 @@
     {
       "durationData": {
         "duration": 1,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
         "stackLimit": -1
       },
       "targetingData": {
@@ -119,8 +116,5 @@
       "range_close"
     ],
     "tagSetSourceFile": ""
-  },
-  "FireTerrainChance": 0.75,
-  "FireTerrainStrength": 1,
-  "FireOnSuccessHit": true
+  }
 }
