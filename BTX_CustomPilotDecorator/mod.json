@@ -2,29 +2,26 @@
   "Name": "CustomPilotDecorator",
   "Enabled": true,
   "Version": "0.0.1",
+
+  "Description": "",
+  "Author": "KMiSSioN",
+  "Website": "https://github.com/BattletechModders/CustomPilotDecorator",
+
   "PackagedOn": "2021-09-25T00:00:00Z",
   "DLL": "CustomPilotDecorator.dll",
   "DLLEntryPoint": "CustomPilotDecorator.Core.Init",
+
   "DependsOn": [ "IRBTModUtils" ],
-  "OptionallyDependsOn": [
-	"Abilifier"
-   ],
+  "OptionallyDependsOn": [ "Abilifier" ],
   "ConflictsWith": [],
-  "Description": "CustomPilotDecorator",
-  "Author": "KMiSSioN",
-  "Website": "https://github.com/BattletechModders/CustomPilotDecorator",
+
   "Settings": {
     "debugLog": true
   },
+
   "CustomResourceTypes": [ "PilotDecorationDef" ],
   "Manifest": [
-    {
-      "Type": "SVGAsset",
-      "Path": "icons"
-    },
-    {
-      "Type": "PilotDecorationDef",
-      "Path": "pilot_decorations"
-    }
+    { "Type": "SVGAsset", "Path": "icons" },
+    { "Type": "PilotDecorationDef", "Path": "pilot_decorations" }
   ]
 }

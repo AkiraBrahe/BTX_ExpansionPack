@@ -1,28 +1,28 @@
 {
-    "Name": "BT_Extended_Clans",
-    "Enabled": true,
+  "Name": "BT_Extended_Clans",
+  "Enabled": true,
 
-	"Version": "1.9.3.6",
+  "Version": "1.9.3.6",
 
-    "Description": "(Optional) All clan related content for Extended CE. Disable if you want an entirely Inner Sphere based game with no timeline.",
-    "Author": "Haree78, NickAragua, Ablomis",
-    "Website": "https://www.nexusmods.com/battletech/mods/387",
-    "Contact": "https://discord.gg/KSmamMz",
-	
-	"DependsOn": [ "BT_Extended", "BT_Extended_CE" ],
-	
-	"DataAddendumEntries":[ 
-        { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" }
-	],
-	"Manifest": [
-		{ "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
-		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
-		{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
-		{ "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
-		{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
-		{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
-        { "Type": "Sprite", "Path": "portraits" },
-		{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
-		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
-    ]
+  "Description": "(Optional) All clan related content for Extended CE. Disable if you want an entirely Inner Sphere based game with no timeline.",
+  "Author": "Haree78, NickAragua, Ablomis",
+  "Website": "https://www.nexusmods.com/battletech/mods/387",
+  "Contact": "https://discord.gg/KSmamMz",
+
+  "DependsOn": [ "BT_Extended", "BT_Extended_CE" ],
+
+  "DataAddendumEntries":[
+    { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" }
+  ],
+  "Manifest": [
+    { "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
+    { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
+    { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+    { "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
+    { "Type": "MechDef", "Path": "mech", "AddToDB": true },
+    { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
+    { "Type": "Sprite", "Path": "portraits" },
+    { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
+    { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "LancePool": {
-		"ALL": [ "Generic_Mixed_Lance", "Generic_Vehicle_Lance" ],
-    
+    "ALL": [ "Generic_Mixed_Lance", "Generic_Vehicle_Lance" ],
+
     "FACTION:DiamondShark:-100:100": [ "Clan_Battle_Lance", "Clan_Vehicle_Lance" ],
     "FACTION:GhostBear:-100:100": [ "Clan_Battle_Lance", "Clan_Vehicle_Lance" ],
     "FACTION:JadeFalcon:-100:100": [ "Clan_Battle_Lance", "Clan_Vehicle_Lance" ],
@@ -11,8 +11,8 @@
     "FACTION:Wolf:-100:100": [ "Clan_Battle_Lance", "Clan_Vehicle_Lance" ],
     "FACTION:WolfInExile:-100:100": [ "Clan_Battle_Lance", "Clan_Vehicle_Lance" ],
 
-  	"FACTION:ComStar:-100:100": [ "ComStar_Battle_Lance", "ComStar_Mixed_Lance", "ComStar_Mixed_Lance2", "ComStar_Vehicle_Lance" ],
-  	"FACTION:WordOfBlake:-100:100": [ "ComStar_Battle_Lance", "ComStar_Mixed_Lance", "ComStar_Mixed_Lance2", "ComStar_Vehicle_Lance" ],
+    "FACTION:ComStar:-100:100": [ "ComStar_Battle_Lance", "ComStar_Mixed_Lance", "ComStar_Mixed_Lance2", "ComStar_Vehicle_Lance" ],
+    "FACTION:WordOfBlake:-100:100": [ "ComStar_Battle_Lance", "ComStar_Mixed_Lance", "ComStar_Mixed_Lance2", "ComStar_Vehicle_Lance" ],
 
     "FACTION:LiaoA:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
     "FACTION:LiaoA2:-100:100": [ "Augmented_Mech_Lance", "Augmented_Armor_Lance" ],
@@ -45,15 +45,15 @@
     "FACTION:TaurianConcordat:-100:100": [ "Augmented_Vehicle_Lance2" ],
     "FACTION:TaurianConcordatA1:-100:100": [  "Augmented_Vehicle_Lance" ]
   },
-	"RewardsPerLance": [
-	  {
-		"Type": "ContractBonusRewardFlat",
-		"Value": "150000"
-	  },
-	  {
-		"Type": "ContractBonusRewardPct",
-		"Value": "0.25"
-	  },
+  "RewardsPerLance": [
+    {
+    "Type": "ContractBonusRewardFlat",
+    "Value": "150000"
+    },
+    {
+    "Type": "ContractBonusRewardPct",
+    "Value": "0.25"
+    },
       {
         "Type": "ContractBonusEmployerReputation",
         "Value": "2"
@@ -62,7 +62,7 @@
         "Type": "ContractBonusTargetReputation",
         "Value": "-1"
       }
-	],
+  ],
   "Enemy": {
     "Max": 2,
     "ExcludeContractTypes": [],

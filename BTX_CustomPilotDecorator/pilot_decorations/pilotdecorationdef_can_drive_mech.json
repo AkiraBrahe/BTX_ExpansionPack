@@ -1,12 +1,12 @@
 {
-	"Description": {
-		"Id": "pilotdecorationdef_can_drive_mech",
-		"Name": "MECH PILOT",
-		"Details": "This pilot can drive mechs of all types",
-		"Icon": "can_drive_mech"
-	},
-	"Type":"Shevron",
-	"ShouldHaveTags": [
-		"pilot_mech_pilot"
-	]
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_mech",
+    "Name": "MECH PILOT",
+    "Details": "This pilot can drive mechs of all types",
+    "Icon": "can_drive_mech"
+  },
+  "Type": "Shevron",
+  "ShouldHaveTags": [
+    "pilot_mech_pilot"
+  ]
 }

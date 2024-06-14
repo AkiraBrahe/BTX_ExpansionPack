@@ -4,9 +4,9 @@
     "Name": "__/PILOTING.MECH/__",
     "Details": "Mechs"
   },
-	"UnitTags":["fake_mech_pilot_tag"],
-	"PilotTags":["can_pilot_generic_mech"],
-	"ExcludeClasses":[],
-	"expertiseGenerationChance": 1,
-	"expertiseGenerationMinCount": 1
+  "UnitTags": ["fake_mech_pilot_tag"],
+  "PilotTags": ["can_pilot_generic_mech"],
+  "ExcludeClasses": [],
+  "expertiseGenerationChance": 1,
+  "expertiseGenerationMinCount": 1
 }

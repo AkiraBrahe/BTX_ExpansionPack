@@ -1,26 +1,24 @@
 {
-    "Name": "BT_Extended_Timeline",
-    "Enabled": true,
-  
-    "Version": "1.9.3.5",
+  "Name": "BT_Extended_Timeline",
+  "Enabled": true,
 
-    "Description": "(Optional) A Lore based timeline that will change planet ownership and factions on the map as time in game goes by.",
-    "Author": "Haree78, Ablomis, NickAragua",
-    "Website": "https://www.nexusmods.com/battletech/mods/387",
-    "Contact": "https://discord.gg/KSmamMz",
-  
-    "DependsOn": [ "Timeline", "Mission Control", "BT_Extended_3050", "BT_Extended_Clans" ],
-    "ConflictsWith": [ "Galaxy at War" ],
-  
-    "OptionallyDependsOn": [],
-  
+  "Version": "1.9.3.5",
+
+  "Description": "(Optional) A Lore based timeline that will change planet ownership and factions on the map as time in game goes by.",
+  "Author": "Haree78, Ablomis, NickAragua",
+  "Website": "https://www.nexusmods.com/battletech/mods/387",
+  "Contact": "https://discord.gg/KSmamMz",
+
+  "DependsOn": [ "Timeline", "Mission Control", "BT_Extended_3050", "BT_Extended_Clans" ],
+  "ConflictsWith": [ "Galaxy at War" ],
+  "OptionallyDependsOn": [],
+
   "DLL": "BEXTimeline.dll",
-  
-  
-    "Settings": 
-  {
+
+
+  "Settings": {
     "ForceUpdateMap": false,
-    
+
     "AbandonedNeigbours": {
       "Balsta" : "Tovetin (Tovetine)",
       "Black Earth" : "Renren",
@@ -73,6 +71,7 @@
       "Graus" : "Deweidewd",
       "Hyner" : "Duxfort"
     },
+
     "FactionTags": {
       "Davion" : "planet_faction_davion",
       "Marik" : "planet_faction_marik",
@@ -103,7 +102,7 @@
       "ChaosMarch" : "planet_faction_chaosmarch",
       "NewColonyRegion" : "planet_faction_newcolonyregion"
     },
-    
+
     "StandardShopCreation":
     {
       "3030-01-01T00:00:00":
@@ -115,7 +114,7 @@
         "starsystemdef_Outreach": "itemCollection_special_GAL"
       }
     },
-    
+
     "FactionShopCreation":
     {
       "3031-01-01T00:00:00":
@@ -145,10 +144,12 @@
       "3047-01-01T00:00:00":
       {
         "starsystemdef_AbiyAdi": "Kurita",
+        "starsystemdef_Dieron": "Kurita",
         "starsystemdef_Panpour": "Davion"
       },
       "3048-01-01T00:00:00":
       {
+        "starsystemdef_Demeter": "Davion",
         "starsystemdef_Loxley": "Steiner"
       },
       "3049-01-01T00:00:00":
@@ -172,6 +173,10 @@
         "starsystemdef_Kendall": "Marik",
         "starsystemdef_NewValencia": "Davion"
       },
+      "3053-01-01T00:00:00":
+      {
+        "starsystemdef_Connaught": "Marik"
+      },
       "3054-01-01T00:00:00":
       {
         "starsystemdef_Talcott": "Davion"
@@ -193,11 +198,26 @@
       },
       "3058-01-01T00:00:00":
       {
+        "starsystemdef_Arc-Royal": "Arc-RoyalDC",
+        "starsystemdef_Detroit": "NewColonyRegion",
         "starsystemdef_Storfors": "Steiner",
         "starsystemdef_Warlock": "Ives"
-      }
+      },
+      "3060-01-01T00:00:00":
+      {
+        "starsystemdef_Aix-la-Chapelle": "Kurita"
+      },
+      "3062-01-01T00:00:00":
+      {
+        "starsystemdef_Fronc": "NewColonyRegion",
+        "starsystemdef_Rockwellawan": "NewColonyRegion"
+      },
+      "3064-01-01T00:00:00":
+      {
+        "starsystemdef_Bristol": "Davion"
+      },
     },
-    
+
     "FactionShopDeletion":
     {
       "3030-11-23T00:00:00":
@@ -209,9 +229,8 @@
         "starsystemdef_Irece"
       ]
     },
-    
-    "ShopSwitch":
-    {
+
+    "ShopSwitch": {
       "itemCollection_Ammo_OverTime": [3052, 3057, 3062, 3063],
       "itemCollection_Ammo_DavionOverTime": [3035, 3049, 3051, 3053, 3055, 3058, 3059, 3060, 3061, 3062, 3063],
       "itemCollection_Ammo_KuritaOverTime": [3049, 3058, 3059, 3061],
@@ -315,48 +334,68 @@
       "itemCollection_faction_equipment_Marik": [3034, 3035, 3052, 3057],
       "itemCollection_faction_equipment_Steiner": [3034, 3049, 3052, 3057],
       "itemCollection_faction_equipment_TaurianConcordat": [3063],
-      "itemCollection_factory_AlNair": [3033, 3042, 3044, 3049, 3058],
-      "itemCollection_factory_Alpheratz": [3053],
-      "itemCollection_factory_Asuncion": [3031, 3049],
-      "itemCollection_factory_Augusta": [3048, 3058],
-      "itemCollection_factory_Bernardo": [3031, 3049],
-      "itemCollection_factory_Calloway": [3048, 3049, 3050],
-      "itemCollection_factory_Capella": [3053, 3055, 3056, 3059, 3060],
-      "itemCollection_factory_Carlisle": [3051],
-      "itemCollection_factory_Corey": [3055, 3056],
-      "itemCollection_factory_Coventry": [3042, 3049, 3050, 3054, 3055, 3056, 3057, 3058, 3059, 3060],
-      "itemCollection_factory_Crofton": [3055, 3056, 3058],
-      "itemCollection_factory_Emris": [3056],
-      "itemCollection_factory_Errai": [3039, 3042, 3047, 3048, 3050],
-      "itemCollection_factory_Furillo": [3048, 3049, 3055, 3060],
-      "itemCollection_factory_Gibson": [3050, 3051, 3052, 3055, 3056, 3057, 3058],
+    "itemCollection_factory_AbiyAdi": [3050, 3068],
+    "itemCollection_factory_Aix-la-Chapelle": [3059, 3068],
+    "itemCollection_factory_AlNair": [3033, 3042, 3044, 3049, 3050, 3052, 3053, 3054, 3055, 3058, 3060, 3061, 3062, 3063, 3064],
+    "itemCollection_factory_Alarion": [3050],
+    "itemCollection_factory_Alpheratz": [3027, 3031, 3053, 3054, 3055, 3059, 3068],
+    "itemCollection_factory_Alshain": [3055, 3060, 3063],
+    "itemCollection_factory_Andurien": [3028, 3048],
+    "itemCollection_factory_Ares": [3030, 3044, 3048, 3055, 3058, 3063, 3067],
+    "itemCollection_factory_Asuncion": [3031, 3049],
+    "itemCollection_factory_Augusta": [3048, 3058],
+    "itemCollection_factory_Benjamin": [3068],
+    "itemCollection_factory_Bernardo": [3031, 3049],
+    "itemCollection_factory_Betelgeuse": [3053, 3055, 3057, 3058, 3060, 3062, 3064, 3067, 3068],
+    "itemCollection_factory_Cahokia": [3050, 3051, 3052],
+    "itemCollection_factory_Calloway": [3048, 3049, 3050, 3067],
+    "itemCollection_factory_Canopus": [3050, 3058, 3064, 3067, 3068],
+    "itemCollection_factory_Capella": [3053, 3055, 3056, 3057, 3058, 3060, 3063, 3066, 3067, 3068],
+    "itemCollection_factory_Carlisle": [3033, 3035, 3037, 3045, 3050, 3051, 3063, 3066, 3067, 3068],
+    "itemCollection_factory_Connaught": [3065, 3066],
+    "itemCollection_factory_Corey": [3055, 3056, 3057, 3061, 3062, 3063, 3065, 3068],
+    "itemCollection_factory_Coventry": [3042, 3049, 3050, 3052, 3054, 3055, 3056, 3057, 3058, 3059, 3060, 3061, 3062, 3063, 3067, 3068],
+    "itemCollection_factory_Crofton": [3055, 3056, 3057, 3058, 3060, 3061, 3062, 3063, 3064, 3066, 3068],
+    "itemCollection_factory_Demeter": [3049, 3067],
+    "itemCollection_factory_Detroit": [3059, 3063, 3064, 3066, 3067, 3068],
+    "itemCollection_factory_Dieron": [3055, 3063, 3067],
+    "itemCollection_factory_Dunianshire": [3048, 3058, 3064, 3068],
+    "itemCollection_factory_Emris": [3047, 3056, 3061, 3066, 3068],
+    "itemCollection_factory_Errai": [3039, 3042, 3047, 3048, 3050, 3059, 3067],
+    "itemCollection_factory_Furillo": [3048, 3049, 3054, 3055, 3060, 3062, 3063, 3064, 3065, 3066, 3067],
+    "itemCollection_factory_Gibson": [3050, 3051, 3052, 3055, 3056, 3057, 3058, 3060, 3066, 3067, 3068],
       "itemCollection_factory_GrandBase": [3050],
       "itemCollection_factory_Grumium": [3050, 3059],
       "itemCollection_factory_Hesperus": [3048, 3049, 3050, 3051, 3053, 3055, 3056, 3058, 3060],
       "itemCollection_factory_Inarcs": [3056, 3060],
       "itemCollection_factory_Irian": [3047, 3048, 3049, 3050, 3056, 3057, 3058, 3059, 3060],
       "itemCollection_factory_Kalidasa": [3046, 3048, 3049, 3051, 3052, 3054, 3058, 3059],
-      "itemCollection_factory_Kathil": [3047, 3055, 3056, 3057],
+    "itemCollection_factory_Kathil": [3047, 3053, 3054, 3055, 3056, 3057, 3058, 3062, 3064, 3065, 3067],
       "itemCollection_factory_Kendall": [3058],
       "itemCollection_factory_Keystone": [3048, 3049, 3050, 3052, 3054, 3056, 3057, 3058],
       "itemCollection_factory_Lapida": [3050, 3051, 3056, 3057],
-      "itemCollection_factory_Loburg": [3055, 3056],
+      "itemCollection_factory_Loburg": [3055, 3056, 3058],
       "itemCollection_factory_Loxley": [3055, 3056, 3057, 3058],
       "itemCollection_factory_Luthien": [3038, 3039, 3047, 3048, 3049, 3050, 3052, 3055, 3056, 3057, 3058, 3060],
       "itemCollection_factory_Marduk": [3049, 3050, 3055, 3056, 3057, 3058, 3060],
+    "itemCollection_factory_Midway": [3056, 3062],
+    "itemCollection_factory_Mitchella": [3027, 3058],
       "itemCollection_factory_Nanking": [3050],
-      "itemCollection_factory_NewAvalon": [3047, 3048, 3049, 3050, 3053, 3054, 3055, 3057, 3059, 3060],
-      "itemCollection_factory_NewSamarkand": [3048, 3051],
+      "itemCollection_factory_NewAvalon": [3040, 3047, 3048, 3049, 3050, 3053, 3054, 3055, 3057, 3059, 3060],
+    "itemCollection_factory_NewEarth": [3027, 3028, 3039, 3045, 3053, 3056, 3060, 3063, 3064, 3066, 3067, 3068],
+    "itemCollection_factory_NewSamarkand": [3048, 3051, 3055, 3058, 3060, 3062, 3064, 3067],
       "itemCollection_factory_NewSyrtis": [3048, 3049, 3050, 3058, 3059],
-      "itemCollection_factory_NewValencia": [3053, 3056, 3057],
+    "itemCollection_factory_NewValencia": [3042, 3043, 3049, 3052, 3053, 3056, 3057, 3059, 3060, 3061, 3062, 3064, 3065],
+    "itemCollection_factory_MarauderII": [3049, 3064],
       "itemCollection_factory_Oliver": [3049],
-      "itemCollection_factory_Outreach": [3054, 3058],
-      "itemCollection_special_GAL": [3064, 3067],
+    "itemCollection_factory_Outreach": [3054, 3058],
+    "itemCollection_special_GAL": [3064, 3067],
       "itemCollection_factory_Pandora": [3050],
       "itemCollection_factory_Panpour": [3049, 3055, 3060],
       "itemCollection_factory_Paradise": [3057, 3060],
       "itemCollection_factory_Pinard": [3049],
-      "itemCollection_factory_Quentin": [3047, 3049, 3050, 3053, 3055, 3059],
+    "itemCollection_factory_Quentin": [3047, 3049, 3050, 3053, 3055, 3058, 3059, 3062, 3063, 3064, 3066, 3067],
+    "itemCollection_factory_Salem": [3027, 3054, 3057, 3060, 3062, 3065],
       "itemCollection_factory_Satalice": [3050, 3051],
       "itemCollection_factory_Savannah": [3049, 3057],
       "itemCollection_factory_Sian": [3048, 3050, 3053, 3055, 3057],
@@ -367,6 +406,7 @@
       "itemCollection_factory_St.Ives": [3042, 3049, 3055, 3056, 3057],
       "itemCollection_factory_Storfors": [3060],
       "itemCollection_factory_Sudeten": [3050],
+    "itemCollection_factory_Talcott": [3062, 3067],
       "itemCollection_factory_Talon": [3049, 3050, 3051, 3053, 3056, 3057, 3058, 3059],
       "itemCollection_factory_Tematagi": [3047, 3050, 3051, 3056, 3057, 3060],
       "itemCollection_factory_Tharkad": [3049, 3052, 3053, 3054, 3056],
@@ -378,7 +418,7 @@
       "itemCollection_factory_Vendrell": [3059],
       "itemCollection_factory_Victoria": [3058]
     },
-    
+
     "UnitLogging": false
   },
 

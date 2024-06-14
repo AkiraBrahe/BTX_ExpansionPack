@@ -1,29 +1,29 @@
 {
-    "Name": "BT_Extended_3050",
-    "Enabled": true,
+  "Name": "BT_Extended_3050",
+  "Enabled": true,
 
-	"Version": "1.9.3.6",
-	
-    "Description": "(Optional) Mechs, Vees, technology post the 3025 timeline that comes in with time or from starting in a later timeline.",
-    "Author": "Haree78",
-    "Website": "https://www.nexusmods.com/battletech/mods/387",
-    "Contact": "https://discord.gg/KSmamMz",
-	
-	"DependsOn": [ "BT_Extended", "BT_Extended_CE" ],
-	"OptionallyDependsOn": [ "BT_Extended_Plus" ],
+  "Version": "1.9.3.6",
 
-    "Manifest": [
-		{ "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
-		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
-		{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
-		{ "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
-		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false },
-        { "Type": "MechDef", "Path": "mech" },
-        { "Type": "MechDef", "Path": "mech_merge", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
-        { "Type": "Sprite", "Path": "portraits" },
-		{ "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false  },
-        { "Type": "VehicleDef", "Path": "vehicle", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
-    ]
+  "Description": "(Optional) Mechs, Vees, technology post the 3025 timeline that comes in with time or from starting in a later timeline.",
+  "Author": "Haree78",
+  "Website": "https://www.nexusmods.com/battletech/mods/387",
+  "Contact": "https://discord.gg/KSmamMz",
+
+  "DependsOn": [ "BT_Extended", "BT_Extended_CE" ],
+  "OptionallyDependsOn": [ "BT_Extended_Plus" ],
+
+  "Manifest": [
+    { "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
+    { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
+    { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+    { "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
+    { "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false },
+    { "Type": "MechDef", "Path": "mech" },
+    { "Type": "MechDef", "Path": "mech_merge", "ShouldMergeJSON": true, "AddToDB": false },
+    { "Type": "MovementCapabilitiesDef", "Path": "movement" },
+    { "Type": "Sprite", "Path": "portraits" },
+    { "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false  },
+    { "Type": "VehicleDef", "Path": "vehicle", "ShouldMergeJSON": true, "AddToDB": false },
+    { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
+  ]
 }

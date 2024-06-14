@@ -603,8 +603,17 @@
       "Path": "cc_category"
     },
     {
+      "Type": "CCDefaults",
+      "Path": "cc_defaults"
+    },
+    {
       "Type": "CCTagRestrictions",
       "Path": "cc_tagrestrict"
+    },
+    {
+      "Type": "CombatGameConstants",
+      "Path": "combatgameconstants",
+      "ShouldMergeJSON": true
     }
   ]
 }
