@@ -41,7 +41,7 @@
     "UIName": "Flak AC/5",
     "Id": "Weapon_Autocannon_AC5_2-Kallon",
     "Name": "Flak AC/5",
-    "Details": "A flexible weapon, AC/5s strike a balance between long range, power, and performance. These weapons are commonly found on medium 'Mechs as their primary source of reliable damage. Like all Autocannon weaponry, AC/5s suffer from recoil effects from continuous fire.",
+    "Details": "A flexible weapon, AC/5s strike a balance between long range, power, and performance. These weapons are commonly found on medium 'Mechs as their primary source of reliable damage. Like all Autocannon weaponry, AC/5s suffer from recoil effects from continuous fire\n<color=#ff0000>Only 'Mechs with advanced anti-aircraft targeting can use Flak Autocannons.</color>",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "+ 2 Acc.",
@@ -113,7 +113,8 @@
     "items": [
       "component_type_variant",
       "component_type_variant2",
-      "range_very-long"
+      "range_very-long",
+      "FlakAutocannon"
     ],
     "tagSetSourceFile": ""
   }

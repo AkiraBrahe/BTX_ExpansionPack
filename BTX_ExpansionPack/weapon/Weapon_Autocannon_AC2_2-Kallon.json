@@ -19,10 +19,6 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": -2,
-  "ChassisTagsAccuracyModifiers": {
-    "unit_lam": -2,
-    "unit_vtol": -2
-  },
   "CriticalChanceMultiplier": 1,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -41,7 +37,7 @@
     "UIName": "Flak AC/2",
     "Id": "Weapon_Autocannon_AC2_2-Kallon",
     "Name": "Flak AC/2",
-    "Details": "Intended for use as supporting fire at very long range, AC/2s deal moderate damage with low heat and a large ammunition count per ton. Like all Autocannon weaponry, AC/2s suffer from recoil effects from continuous fire.",
+    "Details": "Intended for use as supporting fire at very long range, AC/2s deal moderate damage with low heat and a large ammunition count per ton. Like all Autocannon weaponry, AC/2s suffer from recoil effects from continuous fire.\n<color=#ff0000>Only 'Mechs with advanced anti-aircraft targeting can use Flak Autocannons.</color>",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "+ 2 Acc.",
@@ -113,7 +109,8 @@
     "items": [
       "component_type_variant",
       "component_type_variant2",
-      "range_extreme"
+      "range_extreme",
+      "FlakAutocannon"
     ],
     "tagSetSourceFile": ""
   }

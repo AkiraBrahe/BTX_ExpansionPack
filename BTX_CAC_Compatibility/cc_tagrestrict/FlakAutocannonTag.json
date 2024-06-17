@@ -1,0 +1,10 @@
+{
+  "Settings": [
+    {
+      "Tag": "FlakAutocannon",
+      "RequiredTags": [
+        "mech_quirk_antiaircraft"
+      ]
+    }
+  ]
+}

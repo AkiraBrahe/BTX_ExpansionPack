@@ -10,7 +10,7 @@ vehicledef_KESTREL_CLAN,12,,12,,12,,19,,22
 vehicledef_APC_HeavyTracked,76,,65,,3,,0,,113
 vehicledef_MAULTIER,269,,227,,195,,334,,334
 vehicledef_RIPPER_ROYAL,63,,54,,46,,79,,79
-vehicledef_GALLEON,114,,97,,5,,0,,191
+vehicledef_GALLEON_GAL-100,114,,97,,5,,0,,191
 vehicledef_RIPPER,127,,107,,92,,157,,157
 vehicledef_NIGHTSHADE,107,,90,,77,,188,,188
 vehicledef_BADGER_C-E,0,,0,,0,,0,3063-01-01T00:00:00Z,1

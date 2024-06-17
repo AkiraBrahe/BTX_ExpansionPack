@@ -18,7 +18,7 @@ vehicledef_APC_HeavyTracked,43,,43,,42,,53,,132
 vehicledef_MAULTIER,197,,202,,204,,189,,472
 vehicledef_RIPPER_ROYAL,33,,34,,34,,44,,111
 vehicledef_SCORPION,0,,0,3055-01-01T00:00:00Z,16,,24,,59
-vehicledef_GALLEON,23,,23,,22,,32,,79
+vehicledef_GALLEON_GAL-100,23,,23,,22,,32,,79
 vehicledef_SCORPION_ML,0,,0,3055-01-01T00:00:00Z,4,,8,,21
 vehicledef_RIPPER,66,,67,,68,,89,,223
 vehicledef_NIGHTSHADE,78,,80,,81,,106,,265

@@ -16,7 +16,7 @@ vehicledef_WARRIOR_H-7A,17,,8,,8,,8
 vehicledef_PACKRAT_ICE,3,,1,,1,,2
 vehicledef_WARRIOR_H-7,23,,11,,11,,11
 vehicledef_SCORPION,95,,45,,45,,45
-vehicledef_GALLEON,67,,32,,32,,29
+vehicledef_GALLEON_GAL-100,67,,32,,32,,29
 vehicledef_SKULKER,27,,13,,13,,13
 vehicledef_PEGASUS_UA,11,,5,,5,,4
 vehicledef_MOBILEHQ,1,,1,,1,,1

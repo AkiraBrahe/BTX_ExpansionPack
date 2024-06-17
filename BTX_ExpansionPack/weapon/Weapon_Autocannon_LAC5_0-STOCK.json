@@ -51,9 +51,7 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "ImprovedBallistic": true,
-  "FireDelayMultiplier": 1,
-  "ProjectileSpeedMultiplier": 0.85,
+  "ImprovedBallistic": false,
   "statusEffects": [],
   "ComponentTags": {
     "items": [

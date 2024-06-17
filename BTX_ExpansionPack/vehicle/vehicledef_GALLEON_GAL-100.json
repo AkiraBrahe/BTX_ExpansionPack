@@ -13,9 +13,9 @@
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "vehiclechassisdef_GALLEON",
+  "ChassisID": "vehiclechassisdef_GALLEON_GAL-100",
   "Description": {
-    "Id": "vehicledef_GALLEON",
+    "Id": "vehicledef_GALLEON_GAL-100",
     "Name": "Galleon Light Tank",
     "UIName": "Galleon Light Tank GAL-100",
     "Details": "<b>Name: <color=#85DBF6>Galleon Light Tank GAL-100</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/12 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe Galleon, a light combat vehicle first produced in 2692, served well during the Amaris Civil War as an economical means of supporting infantry and BattleMechs. It is often paired with the Harasser Missile Platform.\n\nThis first variant of the Galleon is armed with a single Medium Laser and a pair of Small Lasers. These weapons provide decent firepower for its weight class, allowing the Galleon to challenge contemporary 'Mechs of the same tonnage.",
