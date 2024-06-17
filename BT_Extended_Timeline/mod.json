@@ -179,6 +179,7 @@
       },
       "3054-01-01T00:00:00":
       {
+        "starsystemdef_HunHo": "Kurita",
         "starsystemdef_Talcott": "Davion"
       },
       "3055-01-01T00:00:00":
@@ -215,7 +216,7 @@
       "3064-01-01T00:00:00":
       {
         "starsystemdef_Bristol": "Davion"
-      },
+      }
     },
 
     "FactionShopDeletion":
@@ -223,6 +224,10 @@
       "3030-11-23T00:00:00":
       [
         "starsystemdef_Corey"
+      ],
+      "3050-05-10T00:00:00":
+      [
+        "starsystemdef_Jarett"
       ],
       "3051-12-22T00:00:00":
       [
@@ -347,15 +352,16 @@
     "itemCollection_factory_Benjamin": [3068],
     "itemCollection_factory_Bernardo": [3031, 3049],
     "itemCollection_factory_Betelgeuse": [3053, 3055, 3057, 3058, 3060, 3062, 3064, 3067, 3068],
+    "itemCollection_factory_BrokenWheel": [3058],
     "itemCollection_factory_Cahokia": [3050, 3051, 3052],
-    "itemCollection_factory_Calloway": [3048, 3049, 3050, 3067],
+    "itemCollection_factory_Calloway": [3048, 3049, 3050, 3066, 3067],
     "itemCollection_factory_Canopus": [3050, 3058, 3064, 3067, 3068],
     "itemCollection_factory_Capella": [3053, 3055, 3056, 3057, 3058, 3060, 3063, 3066, 3067, 3068],
     "itemCollection_factory_Carlisle": [3033, 3035, 3037, 3045, 3050, 3051, 3063, 3066, 3067, 3068],
     "itemCollection_factory_Connaught": [3065, 3066],
     "itemCollection_factory_Corey": [3055, 3056, 3057, 3061, 3062, 3063, 3065, 3068],
     "itemCollection_factory_Coventry": [3042, 3049, 3050, 3052, 3054, 3055, 3056, 3057, 3058, 3059, 3060, 3061, 3062, 3063, 3067, 3068],
-    "itemCollection_factory_Crofton": [3055, 3056, 3057, 3058, 3060, 3061, 3062, 3063, 3064, 3066, 3068],
+    "itemCollection_factory_Crofton": [3053, 3055, 3056, 3058, 3060, 3061, 3062, 3063, 3064, 3066, 3067, 3068],
     "itemCollection_factory_Demeter": [3049, 3067],
     "itemCollection_factory_Detroit": [3059, 3063, 3064, 3066, 3067, 3068],
     "itemCollection_factory_Dieron": [3055, 3063, 3067],
@@ -364,19 +370,25 @@
     "itemCollection_factory_Errai": [3039, 3042, 3047, 3048, 3050, 3059, 3067],
     "itemCollection_factory_Furillo": [3048, 3049, 3054, 3055, 3060, 3062, 3063, 3064, 3065, 3066, 3067],
     "itemCollection_factory_Gibson": [3050, 3051, 3052, 3055, 3056, 3057, 3058, 3060, 3066, 3067, 3068],
-      "itemCollection_factory_GrandBase": [3050],
-      "itemCollection_factory_Grumium": [3050, 3059],
-      "itemCollection_factory_Hesperus": [3048, 3049, 3050, 3051, 3053, 3055, 3056, 3058, 3060],
-      "itemCollection_factory_Inarcs": [3056, 3060],
-      "itemCollection_factory_Irian": [3047, 3048, 3049, 3050, 3056, 3057, 3058, 3059, 3060],
-      "itemCollection_factory_Kalidasa": [3046, 3048, 3049, 3051, 3052, 3054, 3058, 3059],
-    "itemCollection_factory_Kathil": [3047, 3053, 3054, 3055, 3056, 3057, 3058, 3062, 3064, 3065, 3067],
-      "itemCollection_factory_Kendall": [3058],
-      "itemCollection_factory_Keystone": [3048, 3049, 3050, 3052, 3054, 3056, 3057, 3058],
-      "itemCollection_factory_Lapida": [3050, 3051, 3056, 3057],
-      "itemCollection_factory_Loburg": [3055, 3056, 3058],
-      "itemCollection_factory_Loxley": [3055, 3056, 3057, 3058],
-      "itemCollection_factory_Luthien": [3038, 3039, 3047, 3048, 3049, 3050, 3052, 3055, 3056, 3057, 3058, 3060],
+    "itemCollection_factory_GrandBase": [3028, 3049, 3050, 3055, 3066, 3067, 3068],
+    "itemCollection_factory_Grumium": [3050, 3055, 3058, 3059, 3060, 3062, 3063],
+    "itemCollection_factory_Hesperus": [3027, 3048, 3049, 3050, 3051, 3053, 3054, 3055, 3056, 3057, 3058, 3059, 3060, 3061, 3062, 3063, 3064, 3065, 3066, 3067, 3068],
+    "itemCollection_factory_HunHo": [3050, 3054, 3062, 3064, 3068],
+    "itemCollection_factory_Illiushin": [3049, 3066, 3067],
+    "itemCollection_factory_Inarcs": [3056, 3060],
+    "itemCollection_factory_Indicass": [3055, 3063],
+    "itemCollection_factory_Irian": [3028, 3047, 3048, 3049, 3050, 3053, 3055, 3056, 3057, 3058, 3059, 3060, 3061, 3062, 3063, 3064, 3066, 3067, 3068],
+    "itemCollection_factory_Johnsondale": [3053, 3054, 3057, 3058, 3059, 3061, 3062],
+    "itemCollection_factory_Kalidasa": [3044, 3046, 3048, 3049, 3051, 3052, 3054, 3055, 3056, 3058, 3059, 3062, 3063, 3065, 3068],
+    "itemCollection_factory_Kathil": [3047, 3053, 3054, 3055, 3056, 3057, 3058, 3062, 3064, 3065, 3067, 3068],
+    "itemCollection_factory_Kendall": [3048, 3058, 3062, 3063, 3064, 3066],
+    "itemCollection_factory_Keystone": [3029, 3048, 3049, 3050, 3052, 3054, 3056, 3057, 3058, 3066, 3067],
+    "itemCollection_factory_Kirklin": [3057, 3059, 3062, 3065],
+    "itemCollection_factory_Lapida": [3050, 3051, 3056, 3057, 3060, 3066, 3067, 3068],
+    "itemCollection_factory_Layover": [3027, 3048, 3055, 3058, 3063],
+    "itemCollection_factory_Loburg": [3055, 3056, 3058, 3060, 3061, 3062, 3063, 3064, 3068],
+    "itemCollection_factory_Loxley": [3055, 3056, 3057, 3058, 3059, 3065, 3067, 3068],
+    "itemCollection_factory_Luthien": [3038, 3039, 3047, 3048, 3049, 3050, 3052, 3053, 3055, 3056, 3057, 3058, 3059, 3060, 3061, 3062, 3063, 3064, 3067, 3069],
       "itemCollection_factory_Marduk": [3049, 3050, 3055, 3056, 3057, 3058, 3060],
     "itemCollection_factory_Midway": [3056, 3062],
     "itemCollection_factory_Mitchella": [3027, 3058],

@@ -1,0 +1,12 @@
+vehicledef_SCORPION,Mech,0,1
+vehicledef_SCORPION_LRM,Mech,0,1
+vehicledef_SCORPION_MKII,Mech,0,1
+vehicledef_SCORPION_ML,Mech,0,1
+vehicledef_SCORPION_SRM,Mech,0,1
+vehicledef_HETZER,Mech,0,1
+vehicledef_HETZER_AC10,Mech,0,1
+vehicledef_HETZER_LASER,Mech,0,1
+vehicledef_HETZER_LRM,Mech,0,1
+vehicledef_HETZER_SCOUT,Mech,0,1
+vehicledef_HETZER_SRM,Mech,0,1
+vehicledef_APC_Alsvin,Mech,0,1

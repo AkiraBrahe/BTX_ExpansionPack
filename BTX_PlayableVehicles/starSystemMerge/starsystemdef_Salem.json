@@ -1,0 +1,32 @@
+{
+  "factionShopOwnerID": "Davion",
+  "FactionShopItems": [
+    "itemCollection_factoryHolder_Salem"
+  ],
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_other_battlefield",
+      "planet_name_salem",
+      "planet_size_medium",
+      "planet_climate_water",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_feature_asteroids",
+      "planet_pop_medium",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_boreholes",
+      "planet_other_pirate",
+      "planet_ruins",
+      "planet_faction_davion",
+      "planet_other_factionhq_davion"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

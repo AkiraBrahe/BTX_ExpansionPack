@@ -43,6 +43,7 @@
     { "Type": "MovementCapabilitiesDef", "Path": "movementMerge", "ShouldMergeJSON": true },
     { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
     { "Type": "Sprite", "Path": "portraits" },
+    { "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
     { "Type": "CCUnitTypes", "Path": "unitTypes" },
     { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
     { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
