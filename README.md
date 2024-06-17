@@ -38,115 +38,117 @@ Listed below are a comprehensive list of changes and detailed information about 
 ### General
 
 #### Mechs
-- Over 100 new BattleMechs and 401 new 'Mech variants, utilizing nearly every CAB model that fits the expanded 3025-3067 timeline.
+- Over 100 new BattleMechs and 421 new 'Mech variants, utilizing nearly every CAB model that fits the expanded 3025-3067 timeline.
 
 <details>
   <summary>New Chassis (by Name)</summary>
 
-| Name                              | Class          | Mass     | Intro        | Faction Availability                                                                |
-| :-------------------------------- | :------------: | :------: | :----------: | :---------------------------------------------------------------------------------- |
-| Akuma                             | Assault        | 90       | 3058         | Draconis Combine                                                                    |
-| Albatross                         | Assault        | 95       | 3053         | Free Worlds League, Word of Blake                                                   |
-| Anubis                            | Light          | 30       | 3063         | Capellan Confederation, Magistracy of Canopus, Taurian Concordat                    |
-| Arctic Fox                        | Light          | 30       | 3059         | Clan Wolf-In-exile                                                                  |
-| Arctic Wolf                       | Medium         | 40       | 3059         | Clan Wolf-In-Exile                                                                  |
-| Argus                             | Heavy          | 60       | 3062         | Federated Suns                                                                      |
-| Assassin II                       | Medium         | 45       | 3060         | Federated Suns                                                                      |
-| Barghest                          | Heavy          | 70       | 3058         | Lyran Commonwealth                                                                  |
-| Battle Cobra                      | Medium         | 40       | 2873<br>3063 | Clans<br>ComStar                                                                    |
-| Battle Hawk                       | Light          | 30       | 3053         | Federated Suns, Lyran Commonwealth                                                  |
-| Bellerophon                       | Heavy          | 60       | 2442         | Free Worlds League                                                                  |
-| Bishamon                          | Medium         | 45       | 3060         | Draconis Combine, Free Worlds League                                                |
-| Black Heart                       | Heavy          | 70       | 3069         | Word of Blake (3060+)                                                               |
-| Black Watch                       | Assault        | 85       | 3061         | Successor States                                                                    |
-| Blitzkrieg                        | Medium         | 50       | 3061         | Lyran Commonwealth, Free Worlds League                                              |
-| Bombard                           | Medium         | 50       | 3054         | Lyran Commonwealth                                                                  |
-| Brigand                           | Light          | 25       | 3065         | Pirates                                                                             |
-| Buccaneer                         | Medium         | 55       | 3055         | Free Worlds League, Word of Blake                                                   |
-| Champion LAM                      | Heavy          | 60       | 2699         | Word of Blake                                                                       |
-| Chimera                           | Medium         | 40       | 3063         | FedCom, Draconis Combine, Word of Blake                                             |
-| Cossack                           | Light          | 20       | 3060         | St. Ives Compact, ComStar                                                           |
-| Crosscut                          | Light          | 30       | 2650         | Pirates                                                                             |
-| Dervish IIC                       | Medium         | 55       | 3058         | Clan Smoke Jaguar                                                                   |
-| Dig King /<br>Dig Lord            | Light<br>Heavy | 35<br>65 | 2573<br>3057 | Pirates<br>FedCom                                                                   |
-| Dragoon                           | Heavy          | 70       | 2771         | ComStar                                                                             |
-| Excalibur                         | Heavy          | 70       | 2619         | Clans, ComStar / Word of Blake                                                      |
-| Fafnir                            | Assault        | 100      | 3063         | Lyran Commonwealth                                                                  |
-| Fire Falcon                       | Light          | 25       | 3052         | Clan Jade Falcon, Nova Cat, Steel Viper                                             |
-| Fox                               | Medium         | 50       | 2824         | Clan Ghost Bear                                                                     |
-| Galahad (Glass Spider)            | Heavy          | 60       | 2834         | Clans                                                                               |
-| Gladiator-B (Executioner-B)       | Assault        | 95       | 2873         | Clans                                                                               |
-| Grand Crusader                    | Assault        | 80       | 3053         | Word of Blake                                                                       |
-| Gulon                             | Light          | 25       | 3000         | Outworlds Alliance                                                                  |
-| Gurkha                            | Light          | 35       | 3063         | Word of Blake                                                                       |
-| Hammer                            | Light          | 30       | 3053         | Free Worlds League, Word of Blake, Capellan Confederation                           |
-| Hellfire                          | Heavy          | 60       | 3058         | Clan Steel Viper                                                                    |
-| Hellhound II (Hellcat)            | Medium         | 50       | 3065         | Clan Jade Falcon                                                                    |
-| Hellspawn                         | Medium         | 45       | 3062         | Federated Suns                                                                      |
-| Hybrid Rifleman                   | Heavy          | 60       | 3025         | Unique (Heavy Metal Crate)                                                          |
-| Iron Cheetah                      | Assault        | 100      | 3054         | Clan Smoke Jaguar                                                                   |
-| Jackrabbit                        | Light          | 25       | 2765         | ComStar, Word of Blake                                                              |
-| JagerMech III                     | Heavy          | 65       | 3058         | Federated Suns                                                                      |
-| Jinggau                           | Heavy          | 65       | 3060         | Trinity Alliance (Capellan Confederation, Magistracy of Canopus, Taurian Concordat) |
-| Juggernaut                        | Assault        | 90       | 3053         | Lyran Commonwealth                                                                  |
-| Kabuto                            | Light          | 20       | 3059         | Draconis Combine                                                                    |
-| Kiso                              | Assault        | 100      | 2703         | Draconis Combine                                                                    |
-| Komodo                            | Medium         | 45       | 3053         | Draconis Combine, Free Rasalhague Republic                                          |
-| Lightray                          | Medium         | 55       | 3064         | Word of Blake                                                                       |
-| Lao Hu                            | Heavy          | 75       | 3062         | Capellan Confederation                                                              |
-| Lineholder                        | Medium         | 55       | 3058         | Inner Sphere                                                                        |
-| Lupus                             | Heavy          | 60       | 2857         | Clan Steel Viper                                                                    |
-| Mad Cat Mk II                     | Assault        | 90       | 3062         | Clan Diamond Shark                                                                  |
-| Mantis                            | Light          | 30       | 3052         | Lyran Commonwealth (3061+)                                                          |
-| Marshal                           | Medium         | 55       | 3059         | Trinity Alliance                                                                    |
-| Matar                             | Superheavy     | 110      | 2775         | ComStar (3036+)                                                                     |
-| Men Shen                          | Medium         | 55       | 3060         | Capellan Confederation, Magistracy of Canopus                                       |
-| Mercury II /<br>Coyotl            | Medium         | 40       | 2823<br>2854 | Clan Diamond Shark<br>Clan Wolf (<3058)                                             |
-| Minsk                             | Heavy          | 70       | 2830         | Clan Ghost Bear (3052+)                                                             |
-| Naga                              | Assault        | 80       | 2869         | Clans                                                                               |
-| Nexus                             | Light          | 25       | 3054         | ComStar / Word of Blake                                                             |
-| Night Chanter (Crab Omni)         | Medium         | 45       | 2865         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
-| Nightsky                          | Medium         | 50       | 3053         | FedCom                                                                              |
-| Osiris                            | Light          | 30       | 3063         | Federated Suns                                                                      |
-| Peregrine (Horned Owl)            | Light          | 35       | 2835         | Clans                                                                               |
-| Phantom                           | Medium         | 40       | 3052         | Clan Jade Falcon, Snow Raven, Wolf                                                  |
-| Phoenix Hawk IIC                  | Assault        | 80       | 2851         | Clans                                                                               |
-| Pouncer                           | Medium         | 40       | 3050         | Clan Nova Cat, Wolf                                                                 |
-| Prometheus                        | Heavy          | 75       | 3053         | Federated Suns                                                                      |
-| Pulverizer                        | Assault        | 90       | 2823         | Clan Ghost Bear                                                                     |
-| Raijin                            | Medium         | 50       | 3052         | ComStar / Word of Blake                                                             |
-| Rampage                           | Assault        | 85       | 2735         | Periphery States, ComStar / Word of Blake                                           |
-| Rattlesnake                       | Light          | 35       | 3042         | Federated Suns                                                                      |
-| Razorback                         | Light          | 30       | 3063         | FedCom                                                                              |
-| Rising Star /<br>Legacy           | Assault        | 80       | 2692<br>3064 | ComStar<br>Word of Blake                                                            |
-| Roughneck                         | Heavy          | 65       | 3050         | FedCom                                                                              |
-| Schwerer Gustav                   | Assault        | 100      | 3073         | Free Worlds League (3064+)                                                          |
-| Screamer LAM                      | Medium         | 55       | 2774         | Snord's Irregulars                                                                  |
-| Sentry                            | Medium         | 40       | 3056         | Federated Suns, Word of Blake                                                       |
-| Sha Yu                            | Medium         | 40       | 3063         | Capellan Confederation, Magistracy of Canopus                                       |
-| Shadow Hawk IIC                   | Medium         | 45       | 2831         | Clans                                                                               |
-| Shogun                            | Assault        | 85       | 2777         | Clans, Wolf's Dragoons                                                              |
-| Sidewinder                        | Heavy          | 75       | 3047         | Clan Jade Falcon                                                                    |
-| Slagmaiden                        | Medium         | 55       | 3076         | Arc-Royal DC (3067+)                                                                |
-| Spartan                           | Assault        | 80       | 2764         | ComStar / Word of Blake                                                             |
-| Spirit Walker (Black Knight Omni) | Heavy          | 75       | 2866         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
-| Stag / Stag II                    | Medium         | 45       | 2823         | Clans (3052+)                                                                       |
-| Star Adder (Blood Asp)            | Assault        | 90       | 3060         | Clan Diamond Shark, Steel Viper                                                     |
-| Stiletto                          | Ultralight     | 15       | 2473         | Draconis Combine                                                                    |
-| Storm Giant /<br>Scylla           | Assault        | 100      | 2862<br>3062 | Clan Steel Viper (3051+)<br>Clan Jade Falcon, Snow Raven, Steel Viper               |
-| Tempest                           | Heavy          | 65       | 3055         | Free Worlds League, Word of Blake                                                   |
-| Templar                           | Assault        | 85       | 3062         | Federated Suns                                                                      |
-| Thanatos                          | Heavy          | 75       | 3061         | FedCom                                                                              |
-| Thresher                          | Heavy          | 60       | 2849         | Clans                                                                               |
-| Titan                             | Assault        | 100      | 2765         | Federated Suns                                                                      |
-| Uziel                             | Medium         | 50       | 3063         | FedCom                                                                              |
-| Vanquisher                        | Assault        | 100      | 3063         | Word of Blake                                                                       |
-| Verfolger                         | Heavy          | 65       | 3063         | Lyran Commonwealth                                                                  |
-| Viper                             | Heavy          | 70       | 2832         | Free Worlds League                                                                  |
-| Volkh                             | Medium         | 45       | 3063         | Lyran Commonwealth                                                                  |
-| War Dog                           | Heavy          | 75       | 3052         | Inner Sphere                                                                        |
-| Warthog                           | Assault        | 95       | 3059         | Clans                                                                               |
-| Zeus-X                            | Assault        | 80       | 3054         | Federated Suns                                                                      |
+| Name                              | Class            | Mass     | Intro        | Faction Availability                                                                |
+| :-------------------------------- | :--------------: | :------: | :----------: | :---------------------------------------------------------------------------------- |
+| Akuma                             | Assault          | 90       | 3058         | Draconis Combine                                                                    |
+| Albatross                         | Assault          | 95       | 3053         | Free Worlds League, Word of Blake                                                   |
+| Anubis                            | Light            | 30       | 3063         | Capellan Confederation, Magistracy of Canopus, Taurian Concordat                    |
+| Arctic Fox                        | Light            | 30       | 3059         | Clan Wolf-In-exile                                                                  |
+| Arctic Wolf                       | Medium           | 40       | 3059         | Clan Wolf-In-Exile                                                                  |
+| Argus                             | Heavy            | 60       | 3062         | Federated Suns                                                                      |
+| Assassin II                       | Medium           | 45       | 3060         | Federated Suns                                                                      |
+| Barghest                          | Heavy            | 70       | 3058         | Lyran Commonwealth                                                                  |
+| Battle Cobra                      | Medium           | 40       | 2873<br>3063 | Clans<br>ComStar                                                                    |
+| Battle Hawk                       | Light            | 30       | 3053         | Federated Suns, Lyran Commonwealth                                                  |
+| Bellerophon                       | Heavy            | 60       | 2442         | Free Worlds League                                                                  |
+| Bishamon                          | Medium           | 45       | 3060         | Draconis Combine, Free Worlds League                                                |
+| Black Heart                       | Heavy            | 70       | 3069         | Word of Blake (3060+)                                                               |
+| Black Watch                       | Assault          | 85       | 3061         | Successor States                                                                    |
+| Blitzkrieg                        | Medium           | 50       | 3061         | Lyran Commonwealth, Free Worlds League                                              |
+| Bombard                           | Medium           | 50       | 3054         | Lyran Commonwealth                                                                  |
+| Brigand                           | Light            | 25       | 3065         | Pirates                                                                             |
+| Buccaneer                         | Medium           | 55       | 3055         | Free Worlds League, Word of Blake                                                   |
+| Canis                             | Assault          | 80       | 3058         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
+| Champion LAM                      | Heavy            | 60       | 2699         | Word of Blake                                                                       |
+| Chimera                           | Medium           | 40       | 3063         | FedCom, Draconis Combine, Word of Blake                                             |
+| Cossack                           | Light            | 20       | 3060         | St. Ives Compact, ComStar                                                           |
+| Crosscut                          | Light            | 30       | 2650         | Pirates                                                                             |
+| Dervish IIC                       | Medium           | 55       | 3058         | Clan Smoke Jaguar                                                                   |
+| Dig King /<br>Dig Lord            | Light<br>Heavy   | 35<br>65 | 2573<br>3057 | Pirates<br>FedCom                                                                   |
+| Dragoon                           | Heavy            | 70       | 2771         | ComStar                                                                             |
+| Excalibur                         | Heavy            | 70       | 2619         | Clans, ComStar / Word of Blake                                                      |
+| Fafnir                            | Assault          | 100      | 3063         | Lyran Commonwealth                                                                  |
+| Fire Falcon                       | Light            | 25       | 3052         | Clan Jade Falcon, Nova Cat, Steel Viper                                             |
+| Fox                               | Medium           | 50       | 2824         | Clan Ghost Bear                                                                     |
+| Galahad (Glass Spider)            | Heavy            | 60       | 2834         | Clans                                                                               |
+| Gladiator-B (Executioner-B)       | Assault          | 95       | 2873         | Clans                                                                               |
+| Grand Crusader                    | Assault          | 80       | 3053         | Word of Blake                                                                       |
+| Gulon                             | Light            | 25       | 3000         | Outworlds Alliance                                                                  |
+| Gurkha                            | Light            | 35       | 3063         | Word of Blake                                                                       |
+| Hammer                            | Light            | 30       | 3053         | Free Worlds League, Word of Blake, Capellan Confederation                           |
+| Hellfire                          | Heavy            | 60       | 3058         | Clan Steel Viper                                                                    |
+| Hellhound II (Hellcat)            | Medium           | 50       | 3065         | Clan Jade Falcon                                                                    |
+| Hellspawn                         | Medium           | 45       | 3062         | Federated Suns                                                                      |
+| Hybrid Rifleman                   | Heavy            | 60       | 3025         | Unique (Heavy Metal Crate)                                                          |
+| Iron Cheetah                      | Assault          | 100      | 3054         | Clan Smoke Jaguar                                                                   |
+| Jackrabbit                        | Light            | 25       | 2765         | ComStar, Word of Blake                                                              |
+| JagerMech III                     | Heavy            | 65       | 3058         | Federated Suns                                                                      |
+| Jinggau                           | Heavy            | 65       | 3060         | Trinity Alliance (Capellan Confederation, Magistracy of Canopus, Taurian Concordat) |
+| Juggernaut                        | Assault          | 90       | 3053         | Lyran Commonwealth                                                                  |
+| Kabuto                            | Light            | 20       | 3059         | Draconis Combine                                                                    |
+| Kiso                              | Assault          | 100      | 2703         | Draconis Combine                                                                    |
+| Komodo                            | Medium           | 45       | 3053         | Draconis Combine, Free Rasalhague Republic                                          |
+| Lightray                          | Medium           | 55       | 3064         | Word of Blake                                                                       |
+| Lao Hu                            | Heavy            | 75       | 3062         | Capellan Confederation                                                              |
+| Lineholder                        | Medium           | 55       | 3058         | Inner Sphere                                                                        |
+| Lupus                             | Heavy            | 60       | 2857         | Clan Steel Viper                                                                    |
+| Mad Cat Mk II                     | Assault          | 90       | 3062         | Clan Diamond Shark                                                                  |
+| Mantis                            | Light            | 30       | 3052         | Lyran Commonwealth (3061+)                                                          |
+| Marshal                           | Medium           | 55       | 3059         | Trinity Alliance                                                                    |
+| Matar                             | Superheavy       | 110      | 2775         | ComStar (3036+)                                                                     |
+| Men Shen                          | Medium           | 55       | 3060         | Capellan Confederation, Magistracy of Canopus                                       |
+| Mercury II /<br>Coyotl            | Medium           | 40       | 2823<br>2854 | Clan Diamond Shark<br>Clan Wolf (<3058)                                             |
+| Minsk                             | Heavy            | 70       | 2830         | Clan Ghost Bear (3052+)                                                             |
+| Naga                              | Assault          | 80       | 2869         | Clans                                                                               |
+| Nexus                             | Light            | 25       | 3054         | ComStar / Word of Blake                                                             |
+| Night Chanter (Crab Omni)         | Medium           | 45       | 2865         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
+| Nightsky                          | Medium           | 50       | 3053         | FedCom                                                                              |
+| Osiris                            | Light            | 30       | 3063         | Federated Suns                                                                      |
+| Peregrine (Horned Owl)            | Light            | 35       | 2835         | Clans                                                                               |
+| Phantom                           | Medium           | 40       | 3052         | Clan Jade Falcon, Snow Raven, Wolf                                                  |
+| Phoenix Hawk IIC                  | Assault          | 80       | 2851         | Clans                                                                               |
+| Pouncer                           | Medium           | 40       | 3050         | Clan Nova Cat, Wolf                                                                 |
+| Prometheus                        | Heavy            | 75       | 3053         | Federated Suns                                                                      |
+| Pulverizer                        | Assault          | 90       | 2823         | Clan Ghost Bear                                                                     |
+| Raijin                            | Medium           | 50       | 3052         | ComStar / Word of Blake                                                             |
+| Rampage                           | Assault          | 85       | 2735         | Periphery States, ComStar / Word of Blake                                           |
+| Rattlesnake                       | Light            | 35       | 3042         | Federated Suns                                                                      |
+| Razorback                         | Light            | 30       | 3063         | FedCom                                                                              |
+| Rising Star /<br>Legacy           | Assault          | 80       | 2692<br>3064 | ComStar<br>Word of Blake                                                            |
+| Roughneck                         | Heavy            | 65       | 3050         | FedCom                                                                              |
+| Schwerer Gustav                   | Assault          | 100      | 3073         | Free Worlds League (3064+)                                                          |
+| Screamer LAM                      | Medium           | 55       | 2774         | Snord's Irregulars                                                                  |
+| Sentry                            | Medium           | 40       | 3056         | Federated Suns, Word of Blake                                                       |
+| Sha Yu                            | Medium           | 40       | 3063         | Capellan Confederation, Magistracy of Canopus                                       |
+| Shadow Hawk IIC                   | Medium           | 45       | 2831         | Clans                                                                               |
+| Shogun                            | Assault          | 85       | 2777         | Clans, Wolf's Dragoons                                                              |
+| Sidewinder                        | Heavy            | 75       | 3047         | Clan Jade Falcon                                                                    |
+| Slagmaiden                        | Medium           | 55       | 3076         | Arc-Royal DC (3067+)                                                                |
+| Spartan                           | Assault          | 80       | 2764         | ComStar / Word of Blake                                                             |
+| Spirit Walker (Black Knight Omni) | Heavy            | 75       | 2866         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
+| Stag / Stag II                    | Medium           | 45       | 2823         | Clans (3052+)                                                                       |
+| Star Adder (Blood Asp)            | Assault          | 90       | 3060         | Clan Diamond Shark, Steel Viper                                                     |
+| Stiletto                          | Ultralight       | 15       | 2473         | Draconis Combine                                                                    |
+| Storm Giant /<br>Scylla           | Assault          | 100      | 2862<br>3062 | Clan Steel Viper (3051+)<br>Clan Jade Falcon, Snow Raven, Steel Viper               |
+| Tempest                           | Heavy            | 65       | 3055         | Free Worlds League, Word of Blake                                                   |
+| Templar                           | Assault          | 85       | 3062         | Federated Suns                                                                      |
+| Thanatos                          | Heavy            | 75       | 3061         | FedCom                                                                              |
+| Thresher                          | Heavy            | 60       | 2849         | Clans                                                                               |
+| Titan                             | Assault          | 100      | 2765         | Federated Suns                                                                      |
+| Uziel                             | Medium           | 50       | 3063         | FedCom                                                                              |
+| Vanquisher                        | Assault          | 100      | 3063         | Word of Blake                                                                       |
+| Verfolger                         | Heavy            | 65       | 3063         | Lyran Commonwealth                                                                  |
+| Viper                             | Heavy            | 70       | 2832         | Free Worlds League                                                                  |
+| Volkh                             | Medium           | 45       | 3063         | Lyran Commonwealth                                                                  |
+| War Dog                           | Heavy            | 75       | 3052         | Inner Sphere                                                                        |
+| Warthog                           | Assault          | 95       | 3059         | Clans                                                                               |
+| Woodsman /<br>Naga II             | Heavy<br>Assault | 75<br>80 | 2866         | Clan Wolf (3052+)<br>Clans                                                          |
+| Zeus-X                            | Assault          | 80       | 3054         | Federated Suns                                                                      |
 
 ² Wolf's Dragoons and mercenaries have access to many of these 'Mechs.
 </details>
@@ -154,110 +156,112 @@ Listed below are a comprehensive list of changes and detailed information about 
 <details>
   <summary>New Chassis (by Availability)</summary>
 
-| Name                              | Class          | Mass     | Avail.       | Faction Availability                                                                |
-| :-------------------------------- | :------------: | :------: | :----------: | :---------------------------------------------------------------------------------- |
-| Bellerophon                       | Heavy          | 60       | 3025         | Free Worlds League                                                                  |
-| Champion LAM                      | Heavy          | 60       | 3025         | Word of Blake                                                                       |
-| Crosscut                          | Light          | 30       | 3025         | Pirates                                                                             |
-| Dig King /<br>Dig Lord            | Light<br>Heavy | 35<br>65 | 3025<br>3057 | Pirates<br>FedCom                                                                   |
-| Dragoon                           | Heavy          | 70       | 3025         | ComStar                                                                             |
-| Excalibur                         | Heavy          | 70       | 3025         | Clans, ComStar / Word of Blake                                                      |
-| Gulon                             | Light          | 25       | 3025         | Outworlds Alliance                                                                  |
-| Hybrid Rifleman                   | Heavy          | 60       | 3025         | Unique (Heavy Metal Crate)                                                          |
-| Jackrabbit                        | Light          | 25       | 3025         | ComStar, Word of Blake                                                              |
-| Kiso                              | Assault        | 100      | 3025         | Draconis Combine                                                                    |
-| Rampage                           | Assault        | 85       | 3025         | Periphery States, ComStar / Word of Blake                                           |
-| Rising Star /<br>Legacy           | Assault        | 80       | 3025<br>3064 | ComStar<br>Word of Blake                                                            |
-| Screamer LAM                      | Medium         | 55       | 3025         | Snord's Irregulars                                                                  |
-| Shogun                            | Assault        | 85       | 3025         | Clans, Wolf's Dragoons                                                              |
-| Spartan                           | Assault        | 80       | 3025         | ComStar / Word of Blake                                                             |
-| Stiletto                          | Ultralight     | 15       | 3025         | Draconis Combine                                                                    |
-| Titan                             | Assault        | 100      | 3025         | Federated Suns                                                                      |
-| Viper                             | Heavy          | 70       | 3025         | Free Worlds League                                                                  |
-| Matar                             | Superheavy     | 110      | 3036         | ComStar (3036+)                                                                     |
-| Rattlesnake                       | Light          | 35       | 3042         | Federated Suns                                                                      |
-| Battle Cobra                      | Medium         | 40       | 3049<br>3063 | Clans<br>ComStar                                                                    |
-| Fox                               | Medium         | 50       | 3049         | Clan Ghost Bear                                                                     |
-| Galahad (Glass Spider)            | Heavy          | 60       | 3049         | Clans                                                                               |
-| Gladiator-B (Executioner-B)       | Assault        | 95       | 3049         | Clans                                                                               |
-| Lupus                             | Heavy          | 60       | 3049         | Clan Steel Viper                                                                    |
-| Mercury II /<br>Coyotl            | Medium         | 40       | 3049         | Clan Diamond Shark<br>Clan Wolf (<3058)                                             |
-| Naga                              | Assault        | 80       | 3049         | Clans                                                                               |
-| Peregrine (Horned Owl)            | Light          | 35       | 3049         | Clans                                                                               |
-| Phoenix Hawk IIC                  | Assault        | 80       | 3049         | Clans                                                                               |
-| Pulverizer                        | Assault        | 90       | 3049         | Clan Ghost Bear                                                                     |
-| Shadow Hawk IIC                   | Medium         | 45       | 3049         | Clans                                                                               |
-| Sidewinder                        | Heavy          | 75       | 3049         | Clan Jade Falcon                                                                    |
-| Thresher                          | Heavy          | 60       | 3049         | Clans                                                                               |
-| Pouncer                           | Medium         | 40       | 3050         | Clan Nova Cat, Wolf                                                                 |
-| Roughneck                         | Heavy          | 65       | 3050         | FedCom                                                                              |
-| Storm Giant /<br>Scylla           | Assault        | 100      | 3051<br>3062 | Clan Steel Viper (3051+)<br>Clan Jade Falcon, Snow Raven, Steel Viper               |
-| Fire Falcon                       | Light          | 25       | 3052         | Clan Jade Falcon, Nova Cat, Steel Viper                                             |
-| Minsk                             | Heavy          | 70       | 3052         | Clan Ghost Bear (3052+)                                                             |
-| Phantom                           | Medium         | 40       | 3052         | Clan Jade Falcon, Snow Raven, Wolf                                                  |
-| Raijin                            | Medium         | 50       | 3052         | ComStar / Word of Blake                                                             |
-| Stag / Stag II                    | Medium         | 45       | 3052         | Clans (3052+)                                                                       |
-| War Dog                           | Heavy          | 75       | 3052         | Inner Sphere                                                                        |
-| Albatross                         | Assault        | 95       | 3053         | Free Worlds League, Word of Blake                                                   |
-| Battle Hawk                       | Light          | 30       | 3053         | Federated Suns, Lyran Commonwealth                                                  |
-| Grand Crusader                    | Assault        | 80       | 3053         | Word of Blake                                                                       |
-| Hammer                            | Light          | 30       | 3053         | Free Worlds League, Word of Blake, Capellan Confederation                           |
-| Juggernaut                        | Assault        | 90       | 3053         | Lyran Commonwealth                                                                  |
-| Komodo                            | Medium         | 45       | 3053         | Draconis Combine, Free Rasalhague Republic                                          |
-| Nightsky                          | Medium         | 50       | 3053         | FedCom                                                                              |
-| Prometheus                        | Heavy          | 75       | 3053         | Federated Suns                                                                      |
-| Bombard                           | Medium         | 50       | 3054         | Lyran Commonwealth                                                                  |
-| Iron Cheetah                      | Assault        | 100      | 3054         | Clan Smoke Jaguar                                                                   |
-| Nexus                             | Light          | 25       | 3054         | ComStar / Word of Blake                                                             |
-| Zeus-X                            | Assault        | 80       | 3054         | Federated Suns                                                                      |
-| Buccaneer                         | Medium         | 55       | 3055         | Free Worlds League, Word of Blake                                                   |
-| Tempest                           | Heavy          | 65       | 3055         | Free Worlds League, Word of Blake                                                   |
-| Sentry                            | Medium         | 40       | 3056         | Federated Suns, Word of Blake                                                       |
-| Akuma                             | Assault        | 90       | 3058         | Draconis Combine                                                                    |
-| Barghest                          | Heavy          | 70       | 3058         | Lyran Commonwealth                                                                  |
-| Dervish IIC                       | Medium         | 55       | 3058         | Clan Smoke Jaguar                                                                   |
-| Hellfire                          | Heavy          | 60       | 3058         | Clan Steel Viper                                                                    |
-| JagerMech III                     | Heavy          | 65       | 3058         | Federated Suns                                                                      |
-| Lineholder                        | Medium         | 55       | 3058         | Inner Sphere                                                                        |
-| Arctic Fox                        | Light          | 30       | 3059         | Clan Wolf-In-exile                                                                  |
-| Arctic Wolf                       | Medium         | 40       | 3059         | Clan Wolf-In-Exile                                                                  |
-| Kabuto                            | Light          | 20       | 3059         | Draconis Combine                                                                    |
-| Marshal                           | Medium         | 55       | 3059         | Trinity Alliance                                                                    |
-| Night Chanter (Crab Omni)         | Medium         | 45       | 3059         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
-| Spirit Walker (Black Knight Omni) | Heavy          | 75       | 3059         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
-| Warthog                           | Assault        | 95       | 3059         | Clans                                                                               |
-| Assassin II                       | Medium         | 45       | 3060         | Federated Suns                                                                      |
-| Bishamon                          | Medium         | 45       | 3060         | Draconis Combine, Free Worlds League                                                |
-| Black Heart                       | Heavy          | 70       | 3060         | Word of Blake (3060+)                                                               |
-| Cossack                           | Light          | 20       | 3060         | St. Ives Compact, ComStar                                                           |
-| Jinggau                           | Heavy          | 65       | 3060         | Trinity Alliance (Capellan Confederation, Magistracy of Canopus, Taurian Concordat) |
-| Men Shen                          | Medium         | 55       | 3060         | Capellan Confederation, Magistracy of Canopus                                       |
-| Star Adder (Blood Asp)            | Assault        | 90       | 3060         | Clan Diamond Shark, Steel Viper                                                     |
-| Black Watch                       | Assault        | 85       | 3061         | Successor States                                                                    |
-| Blitzkrieg                        | Medium         | 50       | 3061         | Lyran Commonwealth, Free Worlds League                                              |
-| Mantis                            | Light          | 30       | 3061         | Lyran Commonwealth (3061+)                                                          |
-| Thanatos                          | Heavy          | 75       | 3061         | FedCom                                                                              |
-| Argus                             | Heavy          | 60       | 3062         | Federated Suns                                                                      |
-| Hellspawn                         | Medium         | 45       | 3062         | Federated Suns                                                                      |
-| Lao Hu                            | Heavy          | 75       | 3062         | Capellan Confederation                                                              |
-| Mad Cat Mk II                     | Assault        | 90       | 3062         | Clan Diamond Shark                                                                  |
-| Templar                           | Assault        | 85       | 3062         | Federated Suns                                                                      |
-| Anubis                            | Light          | 30       | 3063         | Capellan Confederation, Magistracy of Canopus, Taurian Concordat                    |
-| Chimera                           | Medium         | 40       | 3063         | FedCom, Draconis Combine, Word of Blake                                             |
-| Fafnir                            | Assault        | 100      | 3063         | Lyran Commonwealth                                                                  |
-| Gurkha                            | Light          | 35       | 3063         | Word of Blake                                                                       |
-| Osiris                            | Light          | 30       | 3063         | Federated Suns                                                                      |
-| Razorback                         | Light          | 30       | 3063         | FedCom                                                                              |
-| Sha Yu                            | Medium         | 40       | 3063         | Capellan Confederation, Magistracy of Canopus                                       |
-| Uziel                             | Medium         | 50       | 3063         | FedCom                                                                              |
-| Vanquisher                        | Assault        | 100      | 3063         | Word of Blake                                                                       |
-| Verfolger                         | Heavy          | 65       | 3063         | Lyran Commonwealth                                                                  |
-| Volkh                             | Medium         | 45       | 3063         | Lyran Commonwealth                                                                  |
-| Lightray                          | Medium         | 55       | 3064         | Word of Blake                                                                       |
-| Schwerer Gustav                   | Assault        | 100      | 3064         | Free Worlds League (3064+)                                                          |
-| Brigand                           | Light          | 25       | 3065         | Pirates                                                                             |
-| Hellhound II (Hellcat)            | Medium         | 50       | 3065         | Clan Jade Falcon                                                                    |
-| Slagmaiden                        | Medium         | 55       | 3067         | Arc-Royal DC (3067+)                                                                |
+| Name                              | Class            | Mass     | Avail.       | Faction Availability                                                                |
+| :-------------------------------- | :--------------: | :------: | :----------: | :---------------------------------------------------------------------------------- |
+| Bellerophon                       | Heavy            | 60       | 3025         | Free Worlds League                                                                  |
+| Champion LAM                      | Heavy            | 60       | 3025         | Word of Blake                                                                       |
+| Crosscut                          | Light            | 30       | 3025         | Pirates                                                                             |
+| Dig King /<br>Dig Lord            | Light<br>Heavy   | 35<br>65 | 3025<br>3057 | Pirates<br>FedCom                                                                   |
+| Dragoon                           | Heavy            | 70       | 3025         | ComStar                                                                             |
+| Excalibur                         | Heavy            | 70       | 3025         | Clans, ComStar / Word of Blake                                                      |
+| Gulon                             | Light            | 25       | 3025         | Outworlds Alliance                                                                  |
+| Hybrid Rifleman                   | Heavy            | 60       | 3025         | Unique (Heavy Metal Crate)                                                          |
+| Jackrabbit                        | Light            | 25       | 3025         | ComStar, Word of Blake                                                              |
+| Kiso                              | Assault          | 100      | 3025         | Draconis Combine                                                                    |
+| Rampage                           | Assault          | 85       | 3025         | Periphery States, ComStar / Word of Blake                                           |
+| Rising Star /<br>Legacy           | Assault          | 80       | 3025<br>3064 | ComStar<br>Word of Blake                                                            |
+| Screamer LAM                      | Medium           | 55       | 3025         | Snord's Irregulars                                                                  |
+| Shogun                            | Assault          | 85       | 3025         | Clans, Wolf's Dragoons                                                              |
+| Spartan                           | Assault          | 80       | 3025         | ComStar / Word of Blake                                                             |
+| Stiletto                          | Ultralight       | 15       | 3025         | Draconis Combine                                                                    |
+| Titan                             | Assault          | 100      | 3025         | Federated Suns                                                                      |
+| Viper                             | Heavy            | 70       | 3025         | Free Worlds League                                                                  |
+| Matar                             | Superheavy       | 110      | 3036         | ComStar (3036+)                                                                     |
+| Rattlesnake                       | Light            | 35       | 3042         | Federated Suns                                                                      |
+| Battle Cobra                      | Medium           | 40       | 3049<br>3063 | Clans<br>ComStar                                                                    |
+| Fox                               | Medium           | 50       | 3049         | Clan Ghost Bear                                                                     |
+| Galahad (Glass Spider)            | Heavy            | 60       | 3049         | Clans                                                                               |
+| Gladiator-B (Executioner-B)       | Assault          | 95       | 3049         | Clans                                                                               |
+| Lupus                             | Heavy            | 60       | 3049         | Clan Steel Viper                                                                    |
+| Mercury II /<br>Coyotl            | Medium           | 40       | 3049         | Clan Diamond Shark<br>Clan Wolf (<3058)                                             |
+| Naga                              | Assault          | 80       | 3049         | Clans                                                                               |
+| Peregrine (Horned Owl)            | Light            | 35       | 3049         | Clans                                                                               |
+| Phoenix Hawk IIC                  | Assault          | 80       | 3049         | Clans                                                                               |
+| Pulverizer                        | Assault          | 90       | 3049         | Clan Ghost Bear                                                                     |
+| Shadow Hawk IIC                   | Medium           | 45       | 3049         | Clans                                                                               |
+| Sidewinder                        | Heavy            | 75       | 3049         | Clan Jade Falcon                                                                    |
+| Thresher                          | Heavy            | 60       | 3049         | Clans                                                                               |
+| Woodsman /<br>Naga II             | Heavy<br>Assault | 75<br>80 | 3049         | Clan Wolf (3052+)<br>Clans                                                          |
+| Pouncer                           | Medium           | 40       | 3050         | Clan Nova Cat, Wolf                                                                 |
+| Roughneck                         | Heavy            | 65       | 3050         | FedCom                                                                              |
+| Storm Giant /<br>Scylla           | Assault          | 100      | 3051<br>3062 | Clan Steel Viper (3051+)<br>Clan Jade Falcon, Snow Raven, Steel Viper               |
+| Fire Falcon                       | Light            | 25       | 3052         | Clan Jade Falcon, Nova Cat, Steel Viper                                             |
+| Minsk                             | Heavy            | 70       | 3052         | Clan Ghost Bear (3052+)                                                             |
+| Phantom                           | Medium           | 40       | 3052         | Clan Jade Falcon, Snow Raven, Wolf                                                  |
+| Raijin                            | Medium           | 50       | 3052         | ComStar / Word of Blake                                                             |
+| Stag / Stag II                    | Medium           | 45       | 3052         | Clans (3052+)                                                                       |
+| War Dog                           | Heavy            | 75       | 3052         | Inner Sphere                                                                        |
+| Albatross                         | Assault          | 95       | 3053         | Free Worlds League, Word of Blake                                                   |
+| Battle Hawk                       | Light            | 30       | 3053         | Federated Suns, Lyran Commonwealth                                                  |
+| Grand Crusader                    | Assault          | 80       | 3053         | Word of Blake                                                                       |
+| Hammer                            | Light            | 30       | 3053         | Free Worlds League, Word of Blake, Capellan Confederation                           |
+| Juggernaut                        | Assault          | 90       | 3053         | Lyran Commonwealth                                                                  |
+| Komodo                            | Medium           | 45       | 3053         | Draconis Combine, Free Rasalhague Republic                                          |
+| Nightsky                          | Medium           | 50       | 3053         | FedCom                                                                              |
+| Prometheus                        | Heavy            | 75       | 3053         | Federated Suns                                                                      |
+| Bombard                           | Medium           | 50       | 3054         | Lyran Commonwealth                                                                  |
+| Iron Cheetah                      | Assault          | 100      | 3054         | Clan Smoke Jaguar                                                                   |
+| Nexus                             | Light            | 25       | 3054         | ComStar / Word of Blake                                                             |
+| Zeus-X                            | Assault          | 80       | 3054         | Federated Suns                                                                      |
+| Buccaneer                         | Medium           | 55       | 3055         | Free Worlds League, Word of Blake                                                   |
+| Tempest                           | Heavy            | 65       | 3055         | Free Worlds League, Word of Blake                                                   |
+| Sentry                            | Medium           | 40       | 3056         | Federated Suns, Word of Blake                                                       |
+| Akuma                             | Assault          | 90       | 3058         | Draconis Combine                                                                    |
+| Barghest                          | Heavy            | 70       | 3058         | Lyran Commonwealth                                                                  |
+| Canis                             | Assault          | 80       | 3058         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
+| Dervish IIC                       | Medium           | 55       | 3058         | Clan Smoke Jaguar                                                                   |
+| Hellfire                          | Heavy            | 60       | 3058         | Clan Steel Viper                                                                    |
+| JagerMech III                     | Heavy            | 65       | 3058         | Federated Suns                                                                      |
+| Lineholder                        | Medium           | 55       | 3058         | Inner Sphere                                                                        |
+| Arctic Fox                        | Light            | 30       | 3059         | Clan Wolf-In-exile                                                                  |
+| Arctic Wolf                       | Medium           | 40       | 3059         | Clan Wolf-In-Exile                                                                  |
+| Kabuto                            | Light            | 20       | 3059         | Draconis Combine                                                                    |
+| Marshal                           | Medium           | 55       | 3059         | Trinity Alliance                                                                    |
+| Night Chanter (Crab Omni)         | Medium           | 45       | 3059         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
+| Spirit Walker (Black Knight Omni) | Heavy            | 75       | 3059         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
+| Warthog                           | Assault          | 95       | 3059         | Clans                                                                               |
+| Assassin II                       | Medium           | 45       | 3060         | Federated Suns                                                                      |
+| Bishamon                          | Medium           | 45       | 3060         | Draconis Combine, Free Worlds League                                                |
+| Black Heart                       | Heavy            | 70       | 3060         | Word of Blake (3060+)                                                               |
+| Cossack                           | Light            | 20       | 3060         | St. Ives Compact, ComStar                                                           |
+| Jinggau                           | Heavy            | 65       | 3060         | Trinity Alliance (Capellan Confederation, Magistracy of Canopus, Taurian Concordat) |
+| Men Shen                          | Medium           | 55       | 3060         | Capellan Confederation, Magistracy of Canopus                                       |
+| Star Adder (Blood Asp)            | Assault          | 90       | 3060         | Clan Diamond Shark, Steel Viper                                                     |
+| Black Watch                       | Assault          | 85       | 3061         | Successor States                                                                    |
+| Blitzkrieg                        | Medium           | 50       | 3061         | Lyran Commonwealth, Free Worlds League                                              |
+| Mantis                            | Light            | 30       | 3061         | Lyran Commonwealth (3061+)                                                          |
+| Thanatos                          | Heavy            | 75       | 3061         | FedCom                                                                              |
+| Argus                             | Heavy            | 60       | 3062         | Federated Suns                                                                      |
+| Hellspawn                         | Medium           | 45       | 3062         | Federated Suns                                                                      |
+| Lao Hu                            | Heavy            | 75       | 3062         | Capellan Confederation                                                              |
+| Mad Cat Mk II                     | Assault          | 90       | 3062         | Clan Diamond Shark                                                                  |
+| Templar                           | Assault          | 85       | 3062         | Federated Suns                                                                      |
+| Anubis                            | Light            | 30       | 3063         | Capellan Confederation, Magistracy of Canopus, Taurian Concordat                    |
+| Chimera                           | Medium           | 40       | 3063         | FedCom, Draconis Combine, Word of Blake                                             |
+| Fafnir                            | Assault          | 100      | 3063         | Lyran Commonwealth                                                                  |
+| Gurkha                            | Light            | 35       | 3063         | Word of Blake                                                                       |
+| Osiris                            | Light            | 30       | 3063         | Federated Suns                                                                      |
+| Razorback                         | Light            | 30       | 3063         | FedCom                                                                              |
+| Sha Yu                            | Medium           | 40       | 3063         | Capellan Confederation, Magistracy of Canopus                                       |
+| Uziel                             | Medium           | 50       | 3063         | FedCom                                                                              |
+| Vanquisher                        | Assault          | 100      | 3063         | Word of Blake                                                                       |
+| Verfolger                         | Heavy            | 65       | 3063         | Lyran Commonwealth                                                                  |
+| Volkh                             | Medium           | 45       | 3063         | Lyran Commonwealth                                                                  |
+| Lightray                          | Medium           | 55       | 3064         | Word of Blake                                                                       |
+| Schwerer Gustav                   | Assault          | 100      | 3064         | Free Worlds League (3064+)                                                          |
+| Brigand                           | Light            | 25       | 3065         | Pirates                                                                             |
+| Hellhound II (Hellcat)            | Medium           | 50       | 3065         | Clan Jade Falcon                                                                    |
+| Slagmaiden                        | Medium           | 55       | 3067         | Arc-Royal DC (3067+)                                                                |
 
 ² Wolf's Dragoons and mercenaries have access to many of these 'Mechs.
 </details>
@@ -302,7 +306,6 @@ Listed below are a comprehensive list of changes and detailed information about 
 | :-------------------------------- | :-------: | :---: | :------------------------ |
 | Light/Medium/Heavy Rifle          | Ballistic |  PS   | *LosTech*                 |
 | Thumper/Sniper/Long Tom Cannon    | Ballistic | 3012  | *Research*                |
-| Magshot                           | Ballistic | 3059  | Steiner                   |
 | Hyper-Velocity AC (HVAC)          | Ballistic | 3059  | Liao                      |
 | Rotary AC (RAC)                   | Ballistic | 3060  | Davion                    |
 | Light AC (LAC)                    | Ballistic | 3062  | Davion                    |
@@ -321,6 +324,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Enhanced LRM (NLRM)               |  Missile  | 3058  | Davion                    |
 |  ----                             |           |       |                           |
 | Fluid Gun                         |  Support  |  PS   | *Chemical*                |
+| Magshot                           |  Support  | 3059  | Steiner                   |
 | Heavy Flamer                      |  Support  | 3063  | Steiner                   |
 | Heavy Machine Gun                 |  Support  | 3063  | Calderon                  |
 | Light Machine Gun                 |  Support  | 3064  | Liao                      |
