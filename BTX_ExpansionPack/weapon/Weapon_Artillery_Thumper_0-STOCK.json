@@ -25,8 +25,8 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
-  "MinMissRadius": 5,
-  "MaxMissRadius": 80,
+  "MinMissRadius": 15,
+  "MaxMissRadius": 45,
   "CriticalChanceMultiplier": 1,
   "AOECapable": true,
   "AOERange": 60,
@@ -68,12 +68,16 @@
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 1,
   "ProjectileSpeedMultiplier": 1,
+  "IsArtillery": true,
+  "ArtilleryReticleColor": { "C":"#F79B26", "I": 1.5 },
+  "ArtilleryReticleRadius": 60,
+  "ArtilleryReticleText": "Thumper",
   "Modes": [
     {
       "Id": "ARTY_Std",
       "UIName": "",
       "Name": "Artillery",
-      "Description": "Fires in an arc toward the target.",
+      "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2,
       "ShotsWhenFired": -1

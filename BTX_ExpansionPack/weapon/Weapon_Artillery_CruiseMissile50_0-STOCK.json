@@ -20,18 +20,18 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
-  "MinMissRadius": 10,
-  "MaxMissRadius": 125,
+  "MinMissRadius": 45,
+  "MaxMissRadius": 135,
   "CriticalChanceMultiplier": 1,
   "AOECapable": true,
-  "AOERange": 240,
-  "AOEDamage": 320,
-  "AOEHeatDamage": 40,
-  "AOEInstability": 160,
+  "AOERange": 180,
+  "AOEDamage": 450,
+  "AOEHeatDamage": 0,
+  "AOEInstability": 337.5,
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
-  "RefireModifier": 4,
+  "RefireModifier": 2,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 2,
@@ -67,12 +67,16 @@
   "MissileVolleyIntervalMultiplier": 1,
   "FireDelayMultiplier": 1,
   "AMSImmune": true,
+  "IsArtillery": true,
+  "ArtilleryReticleColor": { "C":"#991B1B", "I": 1.5 },
+  "ArtilleryReticleRadius": 180,
+  "ArtilleryReticleText": "Cruise Missile",
   "Modes": [
     {
       "Id": "ARTY_Std",
       "UIName": "",
       "Name": "Artillery",
-      "Description": "Fires in an arc toward the target.",
+      "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2
     }
@@ -101,7 +105,7 @@
       "statisticData": {
         "statName": "ReceivedInstabilityMultiplier",
         "operation": "Float_Add",
-        "modValue": "-135.0",
+        "modValue": "-155.0",
         "modType": "System.Single"
       }
     }

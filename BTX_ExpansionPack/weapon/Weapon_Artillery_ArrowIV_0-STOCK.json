@@ -20,8 +20,8 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
-  "MinMissRadius": 5,
-  "MaxMissRadius": 100,
+  "MinMissRadius": 25,
+  "MaxMissRadius": 70,
   "CriticalChanceMultiplier": 1,
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
@@ -62,12 +62,16 @@
   "MissileVolleyIntervalMultiplier": 1,
   "FireDelayMultiplier": 1,
   "AMSImmune": true,
+  "IsArtillery": true,
+  "ArtilleryReticleColor": { "C":"#C62828", "I": 1.5 },
+  "ArtilleryReticleRadius": 90,
+  "ArtilleryReticleText": "Arrow IV",
   "Modes": [
     {
       "Id": "ARTY_Std",
       "UIName": "",
       "Name": "Artillery",
-      "Description": "Fires in an arc toward the target.",
+      "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2
     }

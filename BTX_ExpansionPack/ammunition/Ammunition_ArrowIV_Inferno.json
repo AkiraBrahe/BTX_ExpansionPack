@@ -18,6 +18,8 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
+  "BuildingsDamageModifier": 2,
+  "TurretDamageModifier": 2,
   "EvasivePipsIgnored": 0,
   "AccuracyModifier": 0,
   "DamagePerShot": -40,

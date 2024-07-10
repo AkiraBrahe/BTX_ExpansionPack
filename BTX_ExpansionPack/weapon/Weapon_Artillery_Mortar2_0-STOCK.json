@@ -57,12 +57,13 @@
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 0.5,
   "ProjectileSpeedMultiplier": 0.65,
+  "IsArtillery": false,
   "Modes": [
     {
       "Id": "ARTY_Std",
       "UIName": "",
       "Name": "Artillery",
-      "Description": "Fires in an arc toward the target.",
+      "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2
     }

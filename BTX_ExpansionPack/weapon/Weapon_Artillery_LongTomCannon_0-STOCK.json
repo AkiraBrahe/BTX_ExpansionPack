@@ -25,8 +25,8 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
-  "MinMissRadius": 5,
-  "MaxMissRadius": 100,
+  "MinMissRadius": 25,
+  "MaxMissRadius": 70,
   "CriticalChanceMultiplier": 1,
   "AOECapable": true,
   "AOERange": 120,
@@ -68,12 +68,13 @@
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 1,
   "ProjectileSpeedMultiplier": 0.8,
+  "IsArtillery": false,
   "Modes": [
     {
       "Id": "ARTY_Std",
       "UIName": "",
       "Name": "Artillery",
-      "Description": "Fires in an arc toward the target.",
+      "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2,
       "ShotsWhenFired": -1
@@ -103,7 +104,7 @@
       "statisticData": {
         "statName": "ReceivedInstabilityMultiplier",
         "operation": "Float_Add",
-        "modValue": "-45.0",
+        "modValue": "-60.0",
         "modType": "System.Single"
       }
     }

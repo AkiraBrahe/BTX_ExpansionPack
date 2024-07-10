@@ -17,6 +17,8 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
+  "BuildingsDamageModifier": 2,
+  "TurretDamageModifier": 2,
   "HideIfOnlyVariant": true,
   "AdditionalImpactVFX": "WFX_BELarger",
   "AdditionalImpactVFXScaleX": 4,
