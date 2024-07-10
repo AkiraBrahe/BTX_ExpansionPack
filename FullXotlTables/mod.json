@@ -955,7 +955,96 @@
     },
 
     "UnitReplacement": {
-      "KuritaC14": { "mechdef_panther_PNT-9R" : "mechdef_panther_PNT-9ALAG" }
+      "KuritaA": {
+        "mechdef_avatar_AV1-O": "mechdef_avatar_AV1-O_DC",
+        "mechdef_avatar_AV1-OA": "mechdef_avatar_AV1-OA_DC",
+        "mechdef_avatar_AV1-OB": "mechdef_avatar_AV1-OB_DC",
+        "mechdef_avatar_AV1-OC": "mechdef_avatar_AV1-OC_DC",
+        "mechdef_avatar_AV1-OD": "mechdef_avatar_AV1-OD_DC",
+        "mechdef_avatar_AV1-OE": "mechdef_avatar_AV1-OE_DC",
+        "mechdef_avatar_AV1-OF": "mechdef_avatar_AV1-OF_DC",
+        "mechdef_avatar_AV1-OG": "mechdef_avatar_AV1-OG_DC",
+        "mechdef_avatar_AV1-OR": "mechdef_avatar_AV1-OR_DC" },
+
+      "KuritaA2": {
+        "mechdef_avatar_AV1-O": "mechdef_avatar_AV1-O_DC",
+        "mechdef_avatar_AV1-OA": "mechdef_avatar_AV1-OA_DC",
+        "mechdef_avatar_AV1-OB": "mechdef_avatar_AV1-OB_DC",
+        "mechdef_avatar_AV1-OC": "mechdef_avatar_AV1-OC_DC",
+        "mechdef_avatar_AV1-OD": "mechdef_avatar_AV1-OD_DC",
+        "mechdef_avatar_AV1-OE": "mechdef_avatar_AV1-OE_DC",
+        "mechdef_avatar_AV1-OF": "mechdef_avatar_AV1-OF_DC",
+        "mechdef_avatar_AV1-OG": "mechdef_avatar_AV1-OG_DC",
+        "mechdef_avatar_AV1-OR": "mechdef_avatar_AV1-OR_DC" },
+
+      "KuritaA3": {
+        "mechdef_avatar_AV1-O": "mechdef_avatar_AV1-O_DC",
+        "mechdef_avatar_AV1-OA": "mechdef_avatar_AV1-OA_DC",
+        "mechdef_avatar_AV1-OB": "mechdef_avatar_AV1-OB_DC",
+        "mechdef_avatar_AV1-OC": "mechdef_avatar_AV1-OC_DC",
+        "mechdef_avatar_AV1-OD": "mechdef_avatar_AV1-OD_DC",
+        "mechdef_avatar_AV1-OE": "mechdef_avatar_AV1-OE_DC",
+        "mechdef_avatar_AV1-OF": "mechdef_avatar_AV1-OF_DC",
+        "mechdef_avatar_AV1-OG": "mechdef_avatar_AV1-OG_DC",
+        "mechdef_avatar_AV1-OR": "mechdef_avatar_AV1-OR_DC" },
+
+      "KuritaA4": {
+        "mechdef_avatar_AV1-O": "mechdef_avatar_AV1-O_DC",
+        "mechdef_avatar_AV1-OA": "mechdef_avatar_AV1-OA_DC",
+        "mechdef_avatar_AV1-OB": "mechdef_avatar_AV1-OB_DC",
+        "mechdef_avatar_AV1-OC": "mechdef_avatar_AV1-OC_DC",
+        "mechdef_avatar_AV1-OD": "mechdef_avatar_AV1-OD_DC",
+        "mechdef_avatar_AV1-OE": "mechdef_avatar_AV1-OE_DC",
+        "mechdef_avatar_AV1-OF": "mechdef_avatar_AV1-OF_DC",
+        "mechdef_avatar_AV1-OG": "mechdef_avatar_AV1-OG_DC",
+        "mechdef_avatar_AV1-OR": "mechdef_avatar_AV1-OR_DC" },
+
+      "KuritaA5": {
+        "mechdef_avatar_AV1-O": "mechdef_avatar_AV1-O_DC",
+        "mechdef_avatar_AV1-OA": "mechdef_avatar_AV1-OA_DC",
+        "mechdef_avatar_AV1-OB": "mechdef_avatar_AV1-OB_DC",
+        "mechdef_avatar_AV1-OC": "mechdef_avatar_AV1-OC_DC",
+        "mechdef_avatar_AV1-OD": "mechdef_avatar_AV1-OD_DC",
+        "mechdef_avatar_AV1-OE": "mechdef_avatar_AV1-OE_DC",
+        "mechdef_avatar_AV1-OF": "mechdef_avatar_AV1-OF_DC",
+        "mechdef_avatar_AV1-OG": "mechdef_avatar_AV1-OG_DC",
+        "mechdef_avatar_AV1-OR": "mechdef_avatar_AV1-OR_DC" },
+
+      "KuritaA6": {
+        "mechdef_avatar_AV1-O": "mechdef_avatar_AV1-O_DC",
+        "mechdef_avatar_AV1-OA": "mechdef_avatar_AV1-OA_DC",
+        "mechdef_avatar_AV1-OB": "mechdef_avatar_AV1-OB_DC",
+        "mechdef_avatar_AV1-OC": "mechdef_avatar_AV1-OC_DC",
+        "mechdef_avatar_AV1-OD": "mechdef_avatar_AV1-OD_DC",
+        "mechdef_avatar_AV1-OE": "mechdef_avatar_AV1-OE_DC",
+        "mechdef_avatar_AV1-OF": "mechdef_avatar_AV1-OF_DC",
+        "mechdef_avatar_AV1-OG": "mechdef_avatar_AV1-OG_DC",
+        "mechdef_avatar_AV1-OR": "mechdef_avatar_AV1-OR_DC" },
+
+      "KuritaA7": {
+        "mechdef_avatar_AV1-O": "mechdef_avatar_AV1-O_DC",
+        "mechdef_avatar_AV1-OA": "mechdef_avatar_AV1-OA_DC",
+        "mechdef_avatar_AV1-OB": "mechdef_avatar_AV1-OB_DC",
+        "mechdef_avatar_AV1-OC": "mechdef_avatar_AV1-OC_DC",
+        "mechdef_avatar_AV1-OD": "mechdef_avatar_AV1-OD_DC",
+        "mechdef_avatar_AV1-OE": "mechdef_avatar_AV1-OE_DC",
+        "mechdef_avatar_AV1-OF": "mechdef_avatar_AV1-OF_DC",
+        "mechdef_avatar_AV1-OG": "mechdef_avatar_AV1-OG_DC",
+        "mechdef_avatar_AV1-OR": "mechdef_avatar_AV1-OR_DC" },
+
+      "KuritaA8": {
+        "mechdef_avatar_AV1-O": "mechdef_avatar_AV1-O_DC",
+        "mechdef_avatar_AV1-OA": "mechdef_avatar_AV1-OA_DC",
+        "mechdef_avatar_AV1-OB": "mechdef_avatar_AV1-OB_DC",
+        "mechdef_avatar_AV1-OC": "mechdef_avatar_AV1-OC_DC",
+        "mechdef_avatar_AV1-OD": "mechdef_avatar_AV1-OD_DC",
+        "mechdef_avatar_AV1-OE": "mechdef_avatar_AV1-OE_DC",
+        "mechdef_avatar_AV1-OF": "mechdef_avatar_AV1-OF_DC",
+        "mechdef_avatar_AV1-OG": "mechdef_avatar_AV1-OG_DC",
+        "mechdef_avatar_AV1-OR": "mechdef_avatar_AV1-OR_DC" },
+
+      "KuritaC14": {
+        "mechdef_panther_PNT-9R": "mechdef_panther_PNT-9ALAG" }
     },
 
     "UnitWeightBoost": {

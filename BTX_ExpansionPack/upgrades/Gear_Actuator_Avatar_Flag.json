@@ -1,0 +1,36 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Luthien",
+    "Model": "",
+    "UIName": "Kuritan Banner",
+    "Id": "Gear_Actuator_Avatar_Flag",
+    "Name": "Kuritan Banner",
+    "Details": "A Kuritan Banner affixed to the Avatar, reminiscent of the sashimonos worn by feudal Japanese soldiers during battle.",
+    "Icon": "flying-flag"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "flag",
+  "BattleValue": 0,
+  "InventorySize": 0,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
