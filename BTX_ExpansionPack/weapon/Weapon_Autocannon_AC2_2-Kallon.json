@@ -19,6 +19,10 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": -2,
+  "ChassisTagsAccuracyModifiers": {
+    "unit_lam": -2,
+    "unit_vtol": -2
+  },
   "CriticalChanceMultiplier": 1,
   "AOECapable": false,
   "IndirectFireCapable": false,

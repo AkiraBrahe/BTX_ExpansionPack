@@ -66,7 +66,7 @@
       "Id": "PPCX_OL",
       "UIName": "x3",
       "Name": "Overload",
-      "Description": "Overloads the weapon, allowing it to fire faster and further at the cost of generating more heat.",
+      "Description": "Overloads the weapon, allowing it to fire faster and further at the cost of generating more heat. Chance to jam.",
       "isBaseMode": false,
       "ShortRange": 90,
       "MediumRange": 90,
@@ -74,7 +74,10 @@
       "MaxRange": 90,
       "HeatGenerated": 6,
       "AccuracyModifier": 1,
-      "ProjectilesPerShot": 1
+      "ProjectilesPerShot": 1,
+      "FlatJammingChance": 0.04,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
     }
   ],
   "statusEffects": [

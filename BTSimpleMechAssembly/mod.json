@@ -44,7 +44,7 @@
     "StructurePointBasedSalvageMinPartsFromMech": 1,
     "StructurePointBasedSalvageSalvageBlacklist": [ "Gear_C3_Improved", "Gear_C3_Master", "Gear_C3_Slave", "Gear_Cockpit_CommandConsole", "Gear_Comms_Equipment_1t", "Gear_Comms_Equipment_2t", "Gear_Comms_Equipment_3t", "Gear_Comms_Equipment_4t", "Gear_Comms_Equipment_7t", "Gear_General_Nirasaki-400X_Battle_Computer", "Gear_General_Robinson_TG120_Drive_Train", "Gear_Hover", "Gear_ReactiveArmor", "Gear_Remote_Sensor_Dispenser", "Gear_VTOL", "Gear_VTOL_Jet_Booster" ],
     /*if true, looks for a company tag "StructurePointBasedSalvageMaxParts_X" where x is a int. StructurePointBasedSalvageMaxPartsFromMech gets replaced with X*/
-    "StructurePointBasedSalvageMaxPartsFromCompanyTags": false,
+    "StructurePointBasedSalvageMaxPartsFromCompanyTags": true,
     /*turret components can be salvaged with this probability, set to 0 to disable*/
     "StructurePointBasedSalvageTurretComponentSalvageChance": 0.25,
     /*redirect mech part salvage generation, without adding mech tags: "old": "new"*/
