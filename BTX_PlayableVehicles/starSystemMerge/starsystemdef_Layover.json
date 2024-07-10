@@ -6,8 +6,7 @@
   "Tags": {
     "items": [
       "mod_generate_shops",
-      "planet_other_battlefield",
-            "planet_name_layover",
+      "planet_name_layover",
       "planet_size_medium",
       "planet_climate_arctic",
       "planet_other_megaforest",
@@ -24,6 +23,7 @@
       "planet_industry_recreation",
       "planet_industry_agriculture",
       "planet_industry_research",
+      "planet_other_battlefield",
       "planet_other_comstar",
       "planet_other_hub",
       "planet_other_alienvegetation",

@@ -3,7 +3,7 @@
   "Enabled": true,
   "Version": "0.2",
 
-  "Description": "",
+  "Description": "Allow recruitment of vehicle pilots and add vehicles to the various stores.",
   "Author": "lordruthermore",
 
   "DependsOn": [ "BTX_CAC_Compatibility" ],

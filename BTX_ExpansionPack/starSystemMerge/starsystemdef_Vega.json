@@ -1,0 +1,172 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Vega",
+    "Name": "Vega",
+    "Details": "Vega is a hot arid world rich in minerals, metallic ores, and fresh water.  Thanks to businesses adhering to strict environmental protection laws in support of terraforming efforts made prior joining the Draconis Combine, horses and camels were already thriving here.\nThe Draconis Combine was the last party to join the Star League.  Hehiro Kurita and Ian Cameron signed the Treaty of Vega here in 2569.  Akem Sanders, an eccentric mogul had the Pyramids of New Egypt built here during the age of the Star League.\nVega is no stranger to conflict, as the remains of several cities ruined by the Succession Wars will attest.  It is home to numerous manufacturers and research complexes such as Cosby Myomer Research Firm, notorious for unscrupulous business practices, albeit primarily aimed at Lyrans.",
+    "Icon": ""
+  },
+  "Position": {
+    "x": -3.63,
+    "y": 106.615,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_name_vega",
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_research",
+      "planet_industry_electronics",
+      "planet_other_starleague",
+      "planet_other_battlefield",
+      "planet_other_hub",
+      "planet_faction_kurita"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "desertParched",
+        "badlandsParched",
+        "polarFrozen",
+        "tundraFrozen",
+        "jungleTropical"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 9,
+  "ownerID": "Kurita",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "factionID": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "factionID": "Davion",
+      "Influence": 0
+    },
+    {
+      "factionID": "Liao",
+      "Influence": 0
+    },
+    {
+      "factionID": "Kurita",
+      "Influence": 0
+    },
+    {
+      "factionID": "Marik",
+      "Influence": 0
+    },
+    {
+      "factionID": "Steiner",
+      "Influence": 0
+    },
+    {
+      "factionID": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "factionID": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "factionID": "ComStar",
+      "Influence": 0
+    },
+    {
+      "factionID": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "StarPosition": null,
+  "StarType": "G",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [],
+  "factionShopOwnerID": "INVALID_UNSET",
+  "FactionShopItems": null,
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Vega",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 5,
+  "DifficultyList": [],
+  "DifficultyModes": [],
+  "contractEmployerIDs": [
+    "Kurita",
+    "Locals"
+  ],
+  "contractTargetIDs": [
+    "Steiner",
+    "Marik",
+    "Davion",
+    "Liao",
+    "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
+  ]
+}

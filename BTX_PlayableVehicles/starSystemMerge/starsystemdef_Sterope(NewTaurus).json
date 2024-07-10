@@ -1,0 +1,25 @@
+{
+  "factionShopOwnerID": "TaurianConcordat",
+  "FactionShopItems": [
+    "itemCollection_factoryHolder_Sterope"
+  ],
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_name_sterope(newtaurus)",
+      "planet_size_medium",
+      "planet_climate_arid",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_industry_rich",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_research",
+      "planet_industry_electronics",
+      "planet_faction_taurianconcordat",
+      "planet_other_factionhq_taurianconcordat"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

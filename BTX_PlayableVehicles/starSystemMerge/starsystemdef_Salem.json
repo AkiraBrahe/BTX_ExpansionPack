@@ -6,7 +6,6 @@
   "Tags": {
     "items": [
       "mod_generate_shops",
-      "planet_other_battlefield",
       "planet_name_salem",
       "planet_size_medium",
       "planet_climate_water",
@@ -20,6 +19,7 @@
       "planet_industry_mining",
       "planet_other_hub",
       "planet_other_alienvegetation",
+      "planet_other_battlefield",
       "planet_other_blackmarket",
       "planet_other_boreholes",
       "planet_other_pirate",
