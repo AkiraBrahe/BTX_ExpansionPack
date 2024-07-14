@@ -211,6 +211,14 @@
   "YangsThoughts": "The Barghest is a heavy quad 'Mech powered by an XL engine that can hit speeds of up to 86 km/h. While its overall firepower might be considered a bit light, its massive LB-X Autocannon/20 packs a serious punch. And with that kind of speed, you can close the distance quickly and unleash its devastating firepower.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Earthwerks_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -221,14 +229,6 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_XL_Engine",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Earthwerks_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

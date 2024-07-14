@@ -203,6 +203,14 @@
   "YangsThoughts": "This 5DD variant comes straight out of Davion space, and it's got a bigger engine, which pushes it to a whopping 86.4 km/h. It's packing a Class 2 Rotary Autocannon, supported by an ER Medium Laser. Both weapons are linked to a Targeting Computer, so they're incredibly accurate. I can already feel the pain of any aircraft or light vehicle in its sight. And of course, in close combat, it can still cleave enemies in half without breaking a sweat.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -221,14 +229,6 @@
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_TAC3",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

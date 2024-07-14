@@ -211,6 +211,14 @@
   "YangsThoughts": "The Barghest 2T is better suited for close-quarters engagements, thanks to its Ultra Autocannon/20 and additional armor. To maintain its effectiveness at range, an ER PPC keeps the enemy busy while it closes in for the kill.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Earthwerks_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -221,14 +229,6 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_XL_Engine",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Earthwerks_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

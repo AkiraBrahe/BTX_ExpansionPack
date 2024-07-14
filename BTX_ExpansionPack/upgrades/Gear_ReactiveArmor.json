@@ -14,7 +14,7 @@
     "Details": "Reactive Armor is a type of specialized armor that uses a series of microscopic explosions to reduce the effects of explosive weapons fire like missiles, artillery, and mortars. When these weapons hit a unit with Reactive Armor protecting the area, the damage is reduced by 50%. The microscopic explosives embedded in the armor redirect the force of the weapon away from the protected unit. This force redirect also reduces the armor-piercing effects of Tandem-Charge Missiles, Armor-Piercing autocannon ammunition, and BattleMech Taser spikes.",
     "Icon": "uixSvgIcon_special_Equipment"
   },
-  "BonusValueA": "Halves Indirect Fire Dmg.",
+  "BonusValueA": "Halves Indirect Dmg.",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",

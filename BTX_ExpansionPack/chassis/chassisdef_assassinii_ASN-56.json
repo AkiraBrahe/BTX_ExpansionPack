@@ -239,16 +239,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_5_Slot",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -264,7 +256,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

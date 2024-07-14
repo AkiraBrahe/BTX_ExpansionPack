@@ -1,4 +1,9 @@
 {
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Garm"
+    }
+  },
   "Description": {
     "Cost": 2970000,
     "Rarity": 4,

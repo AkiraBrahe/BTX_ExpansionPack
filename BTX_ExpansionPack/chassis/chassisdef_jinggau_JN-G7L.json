@@ -218,6 +218,14 @@
   "YangsThoughts": "This variant was introduced just after the start of the Jihad, applying the latest Capellan technology to the 'Mech. A pair of Plasma Rifles are mounted in the right arm, while in the left arm, the 'Mech has been given six standard Medium Lasers. To help cope with the heat, the 'Mech's double heat sink count has been raised to fifteen.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -276,14 +284,6 @@
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

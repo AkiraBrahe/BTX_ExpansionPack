@@ -1,0 +1,116 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 400000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "Hardened Armor",
+    "UIName": "Hardened Armor",
+    "Id": "Gear_HardenedArmor",
+    "Name": "Hardened Armor",
+    "Details": "Hardened Armor is a thicker armor type that uses multiple overlapping plates to provide additional protection against enemy fire. Though capable of diverting more damage than standard armor, the increased number of armor plates and their lack of flexibility makes any unit employing it more difficult to pilot, and can affect the speed as well.",
+    "Icon": "uixSvgIcon_special_Equipment"
+  },
+  "BonusValueA": "50% Crit. Defense",
+  "BonusValueB": "Lowers Running Speed",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "Description": {
+        "Id": "StatusEffect-HardenedArmor-CritDefense",
+        "Name": "HARDENED ARMOR",
+        "Details": "This unit takes [AMT] less crits.",
+        "Icon": "uixSvgIcon_special_Equipment"
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "statisticData": {
+        "effectsPersistAfterDestruction": false,
+        "statName": "CriticalHitChanceReceivedMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "0.5",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-HardenedArmor-APProtection",
+        "Name": "HARDENED ARMOR",
+        "Details": "Protects against all types of armor-piercing damage.",
+        "Icon": "uixSvgIcon_ability_fortify"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACAPProtection",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-HardenedArmor-RunSpeed",
+        "Name": "HARDENED ARMOR",
+        "Details": "Reduces running speed by 20%.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "0.80",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

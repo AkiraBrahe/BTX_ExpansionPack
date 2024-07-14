@@ -229,16 +229,16 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_Triple_Strength_Myomer_6",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_C3_Slave",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Triple_Strength_Myomer_6",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

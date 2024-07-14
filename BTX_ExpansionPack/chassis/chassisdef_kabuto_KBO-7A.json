@@ -199,6 +199,14 @@
   "YangsThoughts": "The Kabuto reminds me of a smaller Javelin, packing a similar punch with its twin Streak SRM-4s. This conserves ammo, which is always a good thing. It's also incredibly fast, with a top speed of 118.8 km/h, and it's got decent armor to keep it from getting torn apart. Even the usage of single heat sinks does not hinder the 'Mech much.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -241,14 +249,6 @@
     {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_EndoSteel_4_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

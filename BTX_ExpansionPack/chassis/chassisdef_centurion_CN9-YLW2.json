@@ -217,6 +217,14 @@
   "YangsThoughts": "This upgraded Yen-Lo-Wang traded its AC/20 for a shiny new Gauss Rifle. Long-range sniping, anyone? Three Medium Pulse Lasers add close-range punch, and get this—Triple Strength Myomer makes it both faster and turns the Hatchet into a one-swing wonder. Talk about an upgrade!",
   "FixedEquipment": [
     {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_Corean_B-Tech",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -251,14 +259,6 @@
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_Triple_Strength_Myomer_Idle",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Corean_B-Tech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

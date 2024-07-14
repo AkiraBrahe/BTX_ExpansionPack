@@ -186,7 +186,7 @@
   "VariantName": "LDT-1",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.70-0.65-0.70",
+      "mr-resize-0.7",
       "chassis_DHS",
       "chassis_endo",
       "mech_quirk_nimblejumper"

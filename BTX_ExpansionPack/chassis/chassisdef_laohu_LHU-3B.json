@@ -205,6 +205,14 @@
   "YangsThoughts": "The 3B variant of the Lao Hu is a bit of a trade-off. It's got that fancy C3 Master Computer, which lets you link up with other 'Mechs and make your shots a lot more accurate. But to make room for the computer, they had to downgrade the autocannon to an LB 10-X and drop a ton of armor. It's not ideal, but it's worth it if you can get those sweet, sweet precision shots.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -263,14 +271,6 @@
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_EndoSteel_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

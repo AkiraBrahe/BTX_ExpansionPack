@@ -183,7 +183,7 @@
     "Details": "The Direct Neural Interface (or DNI) was designed to replace the combination Neurohelmet and manual control systems with a direct connection between the MechWarrior and the machine. This connection provides much more accurate but dangerous feedback directly into the MechWarrior's brain, which can be fatal without ingesting a XA-3 compound. Without it, the pilot suffer from prolonged use of the neural implant during combat.",
     "Icon": "UixSvgIcon_specialEquip_System"
   },
-  "BonusValueA": "+ 1 Evasion, Accuracy & Hit Defense,",
+  "BonusValueA": "+ 1 Evasion, Accuracy Arms & Hit Defense,",
   "BonusValueB": "+ 1 Initiative, +5% Injury Chance/Turn",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",

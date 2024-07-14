@@ -19,7 +19,7 @@
   "ChassisID": "chassisdef_bellerophon_BEL-2X",
   "HeraldryID": null,
   "Description": {
-    "Cost": 6570000,
+    "Cost": 6590000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -45,64 +45,64 @@
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "CurrentArmor": 90,
+      "CurrentArmor": 100,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 90,
+      "AssignedArmor": 100,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftTorso",
-      "CurrentArmor": 100,
+      "CurrentArmor": 110,
       "CurrentRearArmor": 30,
       "CurrentInternalStructure": 70,
-      "AssignedArmor": 100,
+      "AssignedArmor": 110,
       "AssignedRearArmor": 30
     },
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "CurrentArmor": 140,
+      "CurrentArmor": 150,
       "CurrentRearArmor": 45,
       "CurrentInternalStructure": 100,
-      "AssignedArmor": 140,
+      "AssignedArmor": 150,
       "AssignedRearArmor": 45
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightTorso",
-      "CurrentArmor": 100,
+      "CurrentArmor": 110,
       "CurrentRearArmor": 30,
       "CurrentInternalStructure": 70,
-      "AssignedArmor": 100,
+      "AssignedArmor": 110,
       "AssignedRearArmor": 30
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
-      "CurrentArmor": 90,
+      "CurrentArmor": 100,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 90,
+      "AssignedArmor": 100,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 125,
+      "CurrentArmor": 140,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 70,
-      "AssignedArmor": 125,
+      "AssignedArmor": 140,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 125,
+      "CurrentArmor": 140,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 70,
-      "AssignedArmor": 125,
+      "AssignedArmor": 140,
       "AssignedRearArmor": -1
     }
   ],
@@ -112,14 +112,6 @@
       "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

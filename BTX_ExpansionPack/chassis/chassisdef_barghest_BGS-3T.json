@@ -211,6 +211,14 @@
   "YangsThoughts": "Another 'Mech to wield the Lyran Alliance's latest and most potent weapon, the Heavy Gauss Rifle. While it only has an ER Large Laser as a backup, I still pity any unfortunate foe that crosses its path…",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Earthwerks_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -221,14 +229,6 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_XL_Engine",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Earthwerks_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

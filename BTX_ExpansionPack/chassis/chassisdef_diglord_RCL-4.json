@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_digking"
   },
   "MovementCapDefID": "movedef_diglord_RCL-4",
-  "PathingCapDefID": "pathingdef_light",
+  "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_digking",
   "PrefabIdentifier": "chrprfmech_digkingbase-001",
   "PrefabBase": "digking",

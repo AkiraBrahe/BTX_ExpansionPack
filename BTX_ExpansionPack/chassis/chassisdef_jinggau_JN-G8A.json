@@ -210,6 +210,14 @@
   "YangsThoughts": "This Jinggau is one of the new Capellan 'Mechs, and it's a vicious little devil. It's got a 65-ton frame, packed with a plethora of ER Medium Lasers and a single Gauss Rifle. With thirteen double heat sinks, it can fire all that power without overheating. It's also nimble, and its armor is decent enough to keep it from getting swiss cheesed. This is one machine you don't want to take lightly.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
@@ -268,14 +276,6 @@
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

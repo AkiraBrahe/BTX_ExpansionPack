@@ -216,6 +216,14 @@
   "YangsThoughts": "Chock-full of experimental technology, the Zeus-X is a radical departure from the original design, pushing its capabilities to the limits. It's got a composite chassis, which saves on weight but also makes it more fragile. To compensate, the arms and legs are reinforced with reactive armor. The heart of the 'Mech is an enormous and expensive 400-rated XXL engine, giving it exceptional speed. As for weaponry, it packs an LB-X Autocannon/20 for main firepower, backed up by an MRM-30 launcher. If the Zeus-X can close the distance, its two Medium X-Pulse Lasers will melt through enemy armor and internals.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Zeus-X_Defiance_Chariot_Type",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_XXL_Engine",
       "ComponentDefType": "Upgrade",
@@ -258,14 +266,6 @@
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_ReactiveArmor_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Zeus-X_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
