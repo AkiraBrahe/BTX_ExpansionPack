@@ -9,13 +9,13 @@
     "Id": "chassisdef_galahad_glass_spider-1",
     "Name": "Galahad",
     "Details": "<color=#F79B26>The Glass Spider is a direct descendant of the Star League Galahad, serving as both direct-fire support for friendly forces and the first line of air defense for most garrison units.</color>\n\nThe weapons on the Glass Spider are simple: two Gauss Rifles, one in each arm. The long-range, powerful guns devastate most opponents quickly and, like the Rifleman's weapons, can rotate completely to cover the rear arc. Five tons of ammunition are stored in cross-linked bins, keeping the coil guns well supplied with forty rounds of ammo. The BattleMech is only protected by ten and a half tons of ferro-fibrous armor, far less than another 'Mech of comparable weight, but given its mission profile, the Glass Spider is best suited to operate outside of direct combat anyway.",
-    "Icon": "uixTxrIcon_gspider"
+    "Icon": "uixTxrIcon_glassspider"
   },
   "MovementCapDefID": "movedef_galahad_glass_spider-1",
   "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_gspider",
-  "PrefabIdentifier": "chrprfmech_gspiderbase-001",
-  "PrefabBase": "gspider",
+  "HardpointDataDefID": "hardpointdatadef_glassspider",
+  "PrefabIdentifier": "chrprfmech_glassspiderbase-001",
+  "PrefabBase": "glassspider",
   "Tonnage": 60,
   "InitialTonnage": 20.53,
   "weightClass": "HEAVY",

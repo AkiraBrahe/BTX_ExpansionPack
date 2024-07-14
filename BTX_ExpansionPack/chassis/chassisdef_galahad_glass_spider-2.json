@@ -9,13 +9,13 @@
     "Id": "chassisdef_galahad_glass_spider-2",
     "Name": "Galahad",
     "Details": "<color=#F79B26>The Glass Spider is a direct descendant of the Star League Galahad, serving as both direct-fire support for friendly forces and the first line of air defense for most garrison units.</color>\n\nThis variant replaces the weapons with an all-energy configuration. The arm-mounted gauss cannons are replaced with two Large Pulse Lasers, while the removal of the ammunition bins allows for two Medium Pulse Lasers in the left torso and three Small Pulse Lasers in the right. All are guided by a Targeting Computer that makes this 'Mech deadly accurate while sixteen double heat sinks keep heat buildup under wraps.",
-    "Icon": "uixTxrIcon_gspider"
+    "Icon": "uixTxrIcon_glassspider"
   },
   "MovementCapDefID": "movedef_galahad_glass_spider-2",
   "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_gspider",
-  "PrefabIdentifier": "chrprfmech_gspiderbase-001",
-  "PrefabBase": "gspider",
+  "HardpointDataDefID": "hardpointdatadef_glassspider",
+  "PrefabIdentifier": "chrprfmech_glassspiderbase-001",
+  "PrefabBase": "glassspider",
   "Tonnage": 60,
   "InitialTonnage": 20.53,
   "weightClass": "HEAVY",

@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_shogun_C",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_scylla",
-  "PrefabIdentifier": "chrprfmech_scyllabase-001",
-  "PrefabBase": "scylla",
+  "HardpointDataDefID": "hardpointdatadef_shogun",
+  "PrefabIdentifier": "chrprfmech_shogunbase-001",
+  "PrefabBase": "shogun",
   "Tonnage": 85,
   "InitialTonnage": 27.5,
   "weightClass": "ASSAULT",
@@ -198,7 +198,6 @@
   "VariantName": "SHG-C",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.80-0.95-0.80",
       "chassis_DHS",
       "chassis_ferro",
       "chassis_clan",

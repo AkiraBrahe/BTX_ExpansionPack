@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_shogun_SHG-2F",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_scylla",
-  "PrefabIdentifier": "chrprfmech_scyllabase-001",
-  "PrefabBase": "scylla",
+  "HardpointDataDefID": "hardpointdatadef_shogun",
+  "PrefabIdentifier": "chrprfmech_shogunbase-001",
+  "PrefabBase": "shogun",
   "Tonnage": 85,
   "InitialTonnage": 28.5,
   "weightClass": "ASSAULT",
@@ -48,7 +48,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -89,7 +94,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 270,
@@ -194,7 +204,6 @@
   "VariantName": "SHG-2F",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.80-0.95-0.80",
       "mech_case_left",
       "mech_case_right",
       "mech_quirk_barrelfist_la",

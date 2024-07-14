@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_behemoth_stone_rhino-4",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_stonerhino",
-  "PrefabIdentifier": "chrprfmech_stonerhinobase-001",
-  "PrefabBase": "stonerhino",
+  "HardpointDataDefID": "hardpointdatadef_mwostonerhino",
+  "PrefabIdentifier": "chrprfmech_mwostonerhinobase-001",
+  "PrefabBase": "mwostonerhino",
   "Tonnage": 100,
   "InitialTonnage": 25.5,
   "weightClass": "ASSAULT",
@@ -226,7 +226,7 @@
   "VariantName": "BHN-4",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.95",
+      "mr-resize-1.1",
       "chassis_DHS",
       "chassis_clan",
       "mech_quirk_barrelfist_la",

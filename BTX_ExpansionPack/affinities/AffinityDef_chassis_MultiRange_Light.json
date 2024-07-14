@@ -3,7 +3,7 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "Duan Gung"
+      "chrprfmech_duangungbase-001_25",
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
