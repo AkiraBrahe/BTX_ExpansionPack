@@ -1,0 +1,287 @@
+{
+  "Description": {
+    "Cost": 9260000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Hunchback",
+    "Id": "chassisdef_hunchback_HBK-7X-4",
+    "Name": "Hunchback",
+    "Details": "",
+    "Icon": "uixTxrIcon_hunchback"
+  },
+  "MovementCapDefID": "movedef_hunchback_HBK-7X-4",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_hunchback",
+  "PrefabIdentifier": "chrprfmech_hunchbackbase-001",
+  "PrefabBase": "hunchback",
+  "Tonnage": 50,
+  "InitialTonnage": 23.52,
+  "weightClass": "MEDIUM",
+  "Heatsinks": 10,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 70,
+  "MeleeInstability": 50,
+  "MeleeToHitModifier": -2,
+  "DFADamage": 65,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
+  "CustomParts": {
+    "CrewLocation": "CenterTorso"
+  },
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 2.5,
+      "y": 4.5,
+      "z": 2
+    },
+    {
+      "x": -2.5,
+      "y": 4.5,
+      "z": 2
+    }
+  ],
+  "VariantName": "HBK-7X-4",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_ferro",
+      "mech_case_left",
+      "mech_quirk_battlefists"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_General_Komiyaba_Grapple_Frame",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_General_Komiyaba_Grapple_Frame",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

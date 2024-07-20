@@ -1,0 +1,272 @@
+{
+  "Description": {
+    "Cost": 3420000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Wight",
+    "Id": "chassisdef_wight_WGT-1LAW-SC",
+    "Name": "Wight",
+    "Details": "",
+    "Icon": "uixTxrIcon_wight"
+  },
+  "MovementCapDefID": "movedef_wight_WGT-1LAW-SC",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_wight",
+  "PrefabIdentifier": "chrprfmech_wightbase-001",
+  "PrefabBase": "wight",
+  "Tonnage": 35,
+  "InitialTonnage": 16.92,
+  "weightClass": "LIGHT",
+  "Heatsinks": 0,
+  "TopSpeed": 86.4,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 50,
+  "MeleeInstability": 35,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 45,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 90,
+  "DFAInstability": 45,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "WGT-1LAW/SC",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.65",
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_ferro",
+      "mech_quirk_exposedactuators",
+      "mech_quirk_weaklegs"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Trooper",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Compact_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_EndoHeavyFerroCombo_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoHeavyFerroCombo_8_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoHeavyFerroCombo_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoHeavyFerroCombo_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoHeavyFerroCombo_8_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_EndoHeavyFerroCombo_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_EndoHeavyFerroCombo_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

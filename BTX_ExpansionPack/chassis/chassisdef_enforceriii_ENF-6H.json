@@ -1,0 +1,268 @@
+{
+  "Description": {
+    "Cost": 9110000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Enforcer III",
+    "Id": "chassisdef_enforceriii_ENF-6H",
+    "Name": "Enforcer III",
+    "Details": "",
+    "Icon": "uixTxrIcon_enforcer"
+  },
+  "MovementCapDefID": "movedef_enforceriii_ENF-6H",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_enforcer",
+  "PrefabIdentifier": "chrPrfMech_enforcerBase-001",
+  "PrefabBase": "enforcer",
+  "Tonnage": 50,
+  "InitialTonnage": 15.5,
+  "weightClass": "MEDIUM",
+  "Heatsinks": 10,
+  "TopSpeed": 86.4,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 60,
+  "MeleeInstability": 50,
+  "MeleeToHitModifier": -1,
+  "DFADamage": 65,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 2.5,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": -2.5,
+      "y": 6,
+      "z": 2.5
+    }
+  ],
+  "VariantName": "ENF-6H",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "mech_case_right",
+      "mech_quirk_battlefists_la"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support & Skirmisher",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoSteel_8_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_General_Dorwinion_Ballistic_Compensators",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

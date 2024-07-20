@@ -1,0 +1,198 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_assault",
+      "unit_role_brawler",
+      "unit_lance_tank",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_jumpOK",
+      "unit_release",
+      "unit_mechpack",
+      "unit_LosTech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_greatturtle_GTR-1",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 13660000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Great Turtle GTR-1",
+    "Id": "mechdef_greatturtle_GTR-1",
+    "Name": "Great Turtle",
+    "Details": "",
+    "Icon": "uixTxrIcon_greatturtle"
+  },
+  "simGameMechPartCost": 1370000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 210,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 210,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 160,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 160,
+      "AssignedRearArmor": 50
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 230,
+      "CurrentRearArmor": 80,
+      "CurrentInternalStructure": 155,
+      "AssignedArmor": 230,
+      "AssignedRearArmor": 80
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 160,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 160,
+      "AssignedRearArmor": 50
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 210,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 210,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 210,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 210,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 210,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 210,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserXPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_LargeLaserXPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}
