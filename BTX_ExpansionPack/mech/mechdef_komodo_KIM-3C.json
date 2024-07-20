@@ -165,7 +165,7 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "CenterTorso",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,

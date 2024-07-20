@@ -222,6 +222,7 @@
   "VariantName": "GOL-5D",
   "ChassisTags": {
     "items": [
+      "mr-resize-0.9",
       "chassis_DHS",
       "mech_case_left",
       "mech_quirk_multitrac",
