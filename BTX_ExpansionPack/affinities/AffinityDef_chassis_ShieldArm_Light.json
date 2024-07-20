@@ -1,10 +1,9 @@
 {
-  "id": "AffinityDef_chassis_MultiRange_Light",
+  "id": "AffinityDef_chassis_ShieldArm_Light",
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_duangungbase-001_25",
-      "chrprfmech_slingbase-001_25"
+      "chrprfmech_valiantbase-001_30"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
@@ -57,20 +56,14 @@
       },
       {
         "missionsRequired": 30,
-        "levelName": "Multi Range+",
-        "decription": "Familiarity with this 'Mech's multi combat role reduces weapon minimum range (-30m Minimum Range)",
+        "levelName": "Shield Arm+",
+        "decription": "Familiarity with this 'Mech's shield arm design improves arm survivability (+Arm Armor)",
         "affinities": [],
         "effectData": [
           {
-            "Description": {
-              "Id": "Affinity_Energy_MinimumRangeReduce",
-              "Name": "BattleMechAffinity",
-              "Details": "Minimum weapon ranges reduced by 30m",
-              "Icon": "UixSvgIcon_specialEquip_System"
-            },
             "durationData": {
               "duration": -1,
-              "stackLimit": 1
+              "stackLimit": -1
             },
             "targetingData": {
               "effectTriggerType": "Passive",
@@ -79,19 +72,18 @@
               "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
+            "Description": {
+              "Id": "Affinity_Shield_LA",
+              "Name": "BattleMechAffinity",
+              "Details": "Reinforced Arm Armor",
+              "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
             "nature": "Buff",
             "statisticData": {
-              "effectsPersistAfterDestruction": false,
-              "statName": "MinRange",
+              "statName": "RightArm.Armor",
               "operation": "Float_Add",
-              "modValue": "-30.0",
-              "modType": "System.Single",
-              "additionalRules": "NotSet",
-              "targetCollection": "Weapon",
-              "targetWeaponCategory": "NotSet",
-              "targetWeaponType": "NotSet",
-              "targetAmmoCategory": "NotSet",
-              "targetWeaponSubType": "NotSet"
+              "modValue": "15",
+              "modType": "System.Single"
             }
           }
         ]

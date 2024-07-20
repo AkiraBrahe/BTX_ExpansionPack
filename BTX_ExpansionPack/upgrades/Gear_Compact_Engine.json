@@ -1,0 +1,67 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 275000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Luthien Armor Works",
+    "Model": "(Compact Fusion Engine)",
+    "UIName": "Compact Engine Shielding",
+    "Id": "Gear_Compact_Engine",
+    "Name": "Compact Engine",
+    "Details": "A Compact Fusion Engine is similar to a fusion engine, but utilizes denser radiation shielding and other features to reduce the engine's volume by half. There is a weight penalty for the density; compact fusion engines are 50% heavier than the standard fusion engine, limiting its use to 'Mechs that require a lot of internal space and/or have tonnage to spare. One benefit of this arrangement is that penetrating hits are less likely to hit the smaller profile of the compact fusion engine than they would a bulkier standard fusion engine.",
+    "Icon": "uixSvgIcon_equipment_Gyro"
+  },
+  "BonusValueA": "+50% Engine Weight",
+  "BonusValueB": "-50% Engine Crits",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 0,
+  "Tonnage": 0,
+  "AllowedLocations": "CenterTorso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-CompactEngine",
+        "Name": "COMPACT ENGINE",
+        "Details": "This unit resists critical hits to the engine.",
+        "Icon": "uixSvgIcon_ability_mastertactician"
+      },
+      "statisticData": {
+        "statName": "CriticalHitChanceReceivedMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "0.5",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "not_critable_wo_components",
+      "BUILT-IN",
+      "BLACKLISTED",
+      "component_engine"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

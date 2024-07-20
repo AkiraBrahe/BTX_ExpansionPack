@@ -51,7 +51,7 @@
     "UIName": "Long Tom Cannon",
     "Id": "Weapon_Artillery_LongTomCannon_0-STOCK",
     "Name": "Long Tom Artillery Cannon",
-    "Details": "The Long Tom Artillery Cannon is a scaled down version of the Long Tom Artillery Piece that can provide artillery support at much closer ranges than its cousin. Because of the shorter barrel length, the weapon does not have the same damage potential.",
+    "Details": "The Long Tom Artillery Cannon is the scaled down version of the Long Tom Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",

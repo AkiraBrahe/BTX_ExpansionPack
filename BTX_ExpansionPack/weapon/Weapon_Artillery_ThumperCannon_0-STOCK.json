@@ -51,7 +51,7 @@
     "UIName": "Thumper Cannon",
     "Id": "Weapon_Artillery_ThumperCannon_0-STOCK",
     "Name": "Thumper Artillery Cannon",
-    "Details": "The Thumper Artillery Cannon is a snub-nosed version of the Thumper Artillery Piece that can provide artillery support at much closer ranges than its cousin. Because of the shorter barrel length, the weapon does not have the same damage potential.",
+    "Details": "The Thumper Artillery Cannon is the scaled down version of the Thumper Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
