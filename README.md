@@ -11,7 +11,7 @@ A BattleTech Extended mod that adds tons of new content, including new 'Mechs, v
 1. Install the latest versions of [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility/releases/latest) and, optionally, [The Big Deal Add-On](https://discourse.modsinexile.com/t/the-big-deal-add-on-for-battletech-extended-3025-3061/631) for BEX + CAC-C.
 2. Update the CAB with the new [CAB installer](https://discourse.modsinexile.com/t/community-assets-bundle-cab/115), as the mod uses the latest models. The old installer, or "Legacy" mode, is no longer supported.
 5. Remove the ".modtek" folder to force Modtek to rebuild the cache.
-6. Remove the "BTX_ExpansionPack" or "BTX_MechPack" mod folders if present.
+6. Remove the "AbilityRealizer", "BTX_ExpansionPack", "BTX_PlayableVehicles", and "Retrainer" mod folders if present.
 7. Unpack the mod folders from the "BTX_ExpansionPack" archive into the "Mods" folder, overwriting when prompted. The archive already includes a modified version of Playable Tanks/VTOLs.
 
 ### Optionals
@@ -38,7 +38,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 ### General
 
 #### Mechs
-- Over 100 new BattleMechs and 421 new 'Mech variants, utilizing nearly every CAB model that fits the expanded 3025-3067 timeline.
+- Over 100 new BattleMechs and 461 new 'Mech variants, utilizing every CAB model that fits the expanded 3025-3067 timeline.
 
 <details>
   <summary>New Chassis (by Name)</summary>
@@ -61,6 +61,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Black Watch                       | Assault          | 85       | 3061         | Successor States                                                                    |
 | Blitzkrieg                        | Medium           | 50       | 3061         | Lyran Commonwealth, Free Worlds League                                              |
 | Bombard                           | Medium           | 50       | 3054         | Lyran Commonwealth                                                                  |
+| Bowman                            | Heavy            | 70       | 2923         | Clan Diamond Shark, Clan Hell's Horses                                              |
 | Brigand                           | Light            | 25       | 3065         | Pirates                                                                             |
 | Buccaneer                         | Medium           | 55       | 3055         | Free Worlds League, Word of Blake                                                   |
 | Canis                             | Assault          | 80       | 3058         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
@@ -71,13 +72,15 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Dervish IIC                       | Medium           | 55       | 3058         | Clan Smoke Jaguar                                                                   |
 | Dig King /<br>Dig Lord            | Light<br>Heavy   | 35<br>65 | 2573<br>3057 | Pirates<br>FedCom                                                                   |
 | Dragoon                           | Heavy            | 70       | 2771         | ComStar                                                                             |
-| Excalibur                         | Heavy            | 70       | 2619         | Clans, ComStar / Word of Blake                                                      |
 | Fafnir                            | Assault          | 100      | 3063         | Lyran Commonwealth                                                                  |
 | Fire Falcon                       | Light            | 25       | 3052         | Clan Jade Falcon, Nova Cat, Steel Viper                                             |
 | Fox                               | Medium           | 50       | 2824         | Clan Ghost Bear                                                                     |
 | Galahad (Glass Spider)            | Heavy            | 60       | 2834         | Clans                                                                               |
+| Ghost Crab [Japanese Crab]        | Heavy            | 75       | 3067         | Capellan Confederation (Non-Canon)                                                  |
 | Gladiator-B (Executioner-B)       | Assault          | 95       | 2873         | Clans                                                                               |
 | Grand Crusader                    | Assault          | 80       | 3053         | Word of Blake                                                                       |
+| Great Turtle                      | Assault          | 100      | 3067         | Lyran Commonwealth                                                                  |
+| Grizzly                           | Heavy            | 70       | 2947         | Clan Ghost Bear                                                                     |
 | Gulon                             | Light            | 25       | 3000         | Outworlds Alliance                                                                  |
 | Gurkha                            | Light            | 35       | 3063         | Word of Blake                                                                       |
 | Hammer                            | Light            | 30       | 3053         | Free Worlds League, Word of Blake, Capellan Confederation                           |
@@ -93,8 +96,8 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Kabuto                            | Light            | 20       | 3059         | Draconis Combine                                                                    |
 | Kiso                              | Assault          | 100      | 2703         | Draconis Combine                                                                    |
 | Komodo                            | Medium           | 45       | 3053         | Draconis Combine, Free Rasalhague Republic                                          |
-| Lightray                          | Medium           | 55       | 3064         | Word of Blake                                                                       |
 | Lao Hu                            | Heavy            | 75       | 3062         | Capellan Confederation                                                              |
+| Lightray                          | Medium           | 55       | 3064         | Word of Blake                                                                       |
 | Lineholder                        | Medium           | 55       | 3058         | Inner Sphere                                                                        |
 | Lupus                             | Heavy            | 60       | 2857         | Clan Steel Viper                                                                    |
 | Mad Cat Mk II                     | Assault          | 90       | 3062         | Clan Diamond Shark                                                                  |
@@ -121,19 +124,20 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Razorback                         | Light            | 30       | 3063         | FedCom                                                                              |
 | Rising Star /<br>Legacy           | Assault          | 80       | 2692<br>3064 | ComStar<br>Word of Blake                                                            |
 | Roughneck                         | Heavy            | 65       | 3050         | FedCom                                                                              |
-| Schwerer Gustav                   | Assault          | 100      | 3073         | Free Worlds League (3064+)                                                          |
+| Schwerer Gustav                   | Assault          | 100      | 3073         | Arc-Royal DC (3064+)                                                                |
 | Screamer LAM                      | Medium           | 55       | 2774         | Snord's Irregulars                                                                  |
 | Sentry                            | Medium           | 40       | 3056         | Federated Suns, Word of Blake                                                       |
 | Sha Yu                            | Medium           | 40       | 3063         | Capellan Confederation, Magistracy of Canopus                                       |
 | Shadow Hawk IIC                   | Medium           | 45       | 2831         | Clans                                                                               |
-| Shogun                            | Assault          | 85       | 2777         | Clans, Wolf's Dragoons                                                              |
 | Sidewinder                        | Heavy            | 75       | 3047         | Clan Jade Falcon                                                                    |
 | Slagmaiden                        | Medium           | 55       | 3076         | Arc-Royal DC (3067+)                                                                |
+| Sling                             | Light            | 25       | 2766         | ComStar, Clan Smoke Jaguar                                                          |
 | Spartan                           | Assault          | 80       | 2764         | ComStar / Word of Blake                                                             |
 | Spirit Walker (Black Knight Omni) | Heavy            | 75       | 2866         | Clan Jade Falcon, Wolf (Harvest Trials)                                             |
 | Stag / Stag II                    | Medium           | 45       | 2823         | Clans (3052+)                                                                       |
 | Star Adder (Blood Asp)            | Assault          | 90       | 3060         | Clan Diamond Shark, Steel Viper                                                     |
-| Stiletto                          | Ultralight       | 15       | 2473         | Draconis Combine                                                                    |
+| Stiletto                          | Light            | 35       | 3061         | Federated Suns, Lyran Commonwealth                                                  |
+| Stiletto [StarDrive]              | Ultralight       | 15       | 2473         | Draconis Combine                                                                    |
 | Storm Giant /<br>Scylla           | Assault          | 100      | 2862<br>3062 | Clan Steel Viper (3051+)<br>Clan Jade Falcon, Snow Raven, Steel Viper               |
 | Tempest                           | Heavy            | 65       | 3055         | Free Worlds League, Word of Blake                                                   |
 | Templar                           | Assault          | 85       | 3062         | Federated Suns                                                                      |
@@ -141,12 +145,14 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Thresher                          | Heavy            | 60       | 2849         | Clans                                                                               |
 | Titan                             | Assault          | 100      | 2765         | Federated Suns                                                                      |
 | Uziel                             | Medium           | 50       | 3063         | FedCom                                                                              |
+| Valiant                           | Light            | 30       | 3066         | Draconis Combine, Federated Suns, Lyran Commonwealth                                |
 | Vanquisher                        | Assault          | 100      | 3063         | Word of Blake                                                                       |
-| Verfolger                         | Heavy            | 65       | 3063         | Lyran Commonwealth                                                                  |
+| Verfolger                         | Heavy            | 65       | 3063         | Arc-Royal DC, Lyran Commonwealth                                                    |
 | Viper                             | Heavy            | 70       | 2832         | Free Worlds League                                                                  |
 | Volkh                             | Medium           | 45       | 3063         | Lyran Commonwealth                                                                  |
 | War Dog                           | Heavy            | 75       | 3052         | Inner Sphere                                                                        |
 | Warthog                           | Assault          | 95       | 3059         | Clans                                                                               |
+| Wight                             | Light            | 35       | 3068         | Draconis Combine, Free Worlds League, Lyran Commonwealth                            |
 | Woodsman /<br>Naga II             | Heavy<br>Assault | 75<br>80 | 2866         | Clan Wolf (3052+)<br>Clans                                                          |
 | Zeus-X                            | Assault          | 80       | 3054         | Federated Suns                                                                      |
 
@@ -163,7 +169,6 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Crosscut                          | Light            | 30       | 3025         | Pirates                                                                             |
 | Dig King /<br>Dig Lord            | Light<br>Heavy   | 35<br>65 | 3025<br>3057 | Pirates<br>FedCom                                                                   |
 | Dragoon                           | Heavy            | 70       | 3025         | ComStar                                                                             |
-| Excalibur                         | Heavy            | 70       | 3025         | Clans, ComStar / Word of Blake                                                      |
 | Gulon                             | Light            | 25       | 3025         | Outworlds Alliance                                                                  |
 | Hybrid Rifleman                   | Heavy            | 60       | 3025         | Unique (Heavy Metal Crate)                                                          |
 | Jackrabbit                        | Light            | 25       | 3025         | ComStar, Word of Blake                                                              |
@@ -171,17 +176,19 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Rampage                           | Assault          | 85       | 3025         | Periphery States, ComStar / Word of Blake                                           |
 | Rising Star /<br>Legacy           | Assault          | 80       | 3025<br>3064 | ComStar<br>Word of Blake                                                            |
 | Screamer LAM                      | Medium           | 55       | 3025         | Snord's Irregulars                                                                  |
-| Shogun                            | Assault          | 85       | 3025         | Clans, Wolf's Dragoons                                                              |
+| Sling                             | Light            | 25       | 3025         | ComStar, Clan Smoke Jaguar                                                          |
 | Spartan                           | Assault          | 80       | 3025         | ComStar / Word of Blake                                                             |
-| Stiletto                          | Ultralight       | 15       | 3025         | Draconis Combine                                                                    |
+| Stiletto [StarDrive]              | Ultralight       | 15       | 3025         | Draconis Combine                                                                    |
 | Titan                             | Assault          | 100      | 3025         | Federated Suns                                                                      |
 | Viper                             | Heavy            | 70       | 3025         | Free Worlds League                                                                  |
 | Matar                             | Superheavy       | 110      | 3036         | ComStar (3036+)                                                                     |
 | Rattlesnake                       | Light            | 35       | 3042         | Federated Suns                                                                      |
 | Battle Cobra                      | Medium           | 40       | 3049<br>3063 | Clans<br>ComStar                                                                    |
+| Bowman                            | Heavy            | 70       | 3049         | Clan Diamond Shark, Clan Hell's Horses                                              |
 | Fox                               | Medium           | 50       | 3049         | Clan Ghost Bear                                                                     |
 | Galahad (Glass Spider)            | Heavy            | 60       | 3049         | Clans                                                                               |
 | Gladiator-B (Executioner-B)       | Assault          | 95       | 3049         | Clans                                                                               |
+| Grizzly                           | Heavy            | 70       | 3049         | Clan Ghost Bear                                                                     |
 | Lupus                             | Heavy            | 60       | 3049         | Clan Steel Viper                                                                    |
 | Mercury II /<br>Coyotl            | Medium           | 40       | 3049         | Clan Diamond Shark<br>Clan Wolf (<3058)                                             |
 | Naga                              | Assault          | 80       | 3049         | Clans                                                                               |
@@ -240,6 +247,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Black Watch                       | Assault          | 85       | 3061         | Successor States                                                                    |
 | Blitzkrieg                        | Medium           | 50       | 3061         | Lyran Commonwealth, Free Worlds League                                              |
 | Mantis                            | Light            | 30       | 3061         | Lyran Commonwealth (3061+)                                                          |
+| Stiletto                          | Light            | 35       | 3061         | Federated Suns, Lyran Commonwealth                                                  |
 | Thanatos                          | Heavy            | 75       | 3061         | FedCom                                                                              |
 | Argus                             | Heavy            | 60       | 3062         | Federated Suns                                                                      |
 | Hellspawn                         | Medium           | 45       | 3062         | Federated Suns                                                                      |
@@ -255,13 +263,17 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Sha Yu                            | Medium           | 40       | 3063         | Capellan Confederation, Magistracy of Canopus                                       |
 | Uziel                             | Medium           | 50       | 3063         | FedCom                                                                              |
 | Vanquisher                        | Assault          | 100      | 3063         | Word of Blake                                                                       |
-| Verfolger                         | Heavy            | 65       | 3063         | Lyran Commonwealth                                                                  |
+| Verfolger                         | Heavy            | 65       | 3063         | Arc-Royal DC, Lyran Commonwealth                                                    |
 | Volkh                             | Medium           | 45       | 3063         | Lyran Commonwealth                                                                  |
 | Lightray                          | Medium           | 55       | 3064         | Word of Blake                                                                       |
-| Schwerer Gustav                   | Assault          | 100      | 3064         | Free Worlds League (3064+)                                                          |
+| Schwerer Gustav                   | Assault          | 100      | 3064         | Arc-Royal DC (3064+)                                                                |
 | Brigand                           | Light            | 25       | 3065         | Pirates                                                                             |
 | Hellhound II (Hellcat)            | Medium           | 50       | 3065         | Clan Jade Falcon                                                                    |
+| Valiant                           | Light            | 30       | 3066         | Draconis Combine, Federated Suns, Lyran Commonwealth                                |
+| Ghost Crab [Japanese Crab]        | Heavy            | 75       | 3067         | Capellan Confederation (Non-Canon)                                                  |
+| Great Turtle                      | Assault          | 100      | 3067         | Lyran Commonwealth                                                                  |
 | Slagmaiden                        | Medium           | 55       | 3067         | Arc-Royal DC (3067+)                                                                |
+| Wight                             | Light            | 35       | 3068         | Draconis Combine, Free Worlds League, Lyran Commonwealth                            |
 
 ² Wolf's Dragoons and mercenaries have access to many of these 'Mechs.
 </details>
@@ -312,6 +324,7 @@ Listed below are a comprehensive list of changes and detailed information about 
 | Improved Heavy Gauss Rifle (iHGR) | Ballistic | 3065  | Steiner                   |
 |  ----                             |           |       |                           |
 | Rail Gun                          |  Energy   | 3051  | Marik                     |
+| PPC-X                             |  Energy   | 3058  | *Solaris*<br>Liao (3067+) |
 | Plasma Rifle                      |  Energy   | 3061  | Liao                      |
 | Heavy PPC                         |  Energy   | 3062  | Kurita                    |
 | Light PPC                         |  Energy   | 3064  | Kurita                    |
@@ -464,37 +477,39 @@ Listed below are a comprehensive list of changes and detailed information about 
 <details>
   <summary>Misc. Fixes</summary>
 
-| Name                   | Changes                                                 |
-| :--------------------- | :------------------------------------------------------ |
-| Annihilator            | Reduced movement to 3/5 hexes (from 4/7)                |
-| Atlas II AS7-D-HT      | Changed armor placement and moved one DHS to the engine |
-| Behemoth (Stone Rhino) | Changed to the official designation "BHN"               |
-| Catapult CPLT-K5       | Added missing DHS in the engine                         |
-| Champion CHP-1N2       | Added missing ferro-fibrous armor                       |
-| Crab 27b "Royal Crab"  | Fixed melee damage (65 dmg. like other Crabs)           |
-| Cyclops 11-series      | Added extra hardpoints (different from the 10-series)   |
-| Enfield                | Switched to its own CAB model                           |
-| Exterminator           | Switched to a new CAB model                             |
-| Firestarter FS9-OF     | Added Large Engine quirk                                |
-| Flashman               | Switched to a new CAB model                             |
-| Flea FLE-14            | Fixed max armor values for an ultralight                |
-| Garm                   | Reduced overall size to better match tonnage            |
-| Grand Dragon DRG-1G    | Fixed energy hadpoints placement                        |
-| Gunslinger             | Switched to a new CAB model                             |
-| Hatamoto 27T & 27V     | Added missing CASE on side torsos                       |
-| Hermes II              | Reduced overall size to better match tonnage            |
-| Hornet HNT-161         | Fixed armor placement                                   |
-| Kodiak 5               | Added missing DHS in the engine                         |
-| Linesman LMN-1PT       | Changed to the correct prefab base model                |
-| Loader King LDK-5C     | Added more armor and missing Cargo Bay                  |
-| Locust LCT-3S          | Fixed available tonnage                                 |
-| Naginata               | Switched to a new CAB model                             |
-| Ost Mechs              | Added cross assembly between Ostroc and Ostsol          |
-| Piranha 1              | Changed to single heat sinks                            |
-| Rifleman RFL-5CS       | Added Large Engine quirk                                |
-| Shadow Hawk            | Added Rugged quirk                                      |
-| Shadow Hawk SHD-3H     | Changed loadout to the official one                     |
-| Thunder THR-1L         | Added missing DHS in the engine                         |
-| Trebuchet TBT-3C       | Added Large Engine quirk                                |
-| UrbanMech              | Reduced movement to 3/5 hexes (from 4/7)                |
+| Name                      | Changes                                                                       |
+| :------------------------ | :---------------------------------------------------------------------------- |
+| Annihilator               | Reduced movement to 3/5 hexes (from 4/7)                                      |
+| Atlas II AS7-D-HT         | Changed armor placement and moved one DHS to the engine                       |
+| Behemoth<br>(Stone Rhino) | Changed to the official "BHN" designation<br>Changed model to the MWO version |
+| Catapult CPLT-K5          | Added missing DHS in the engine                                               |
+| Champion CHP-1N2          | Added missing ferro-fibrous armor                                             |
+| Crab 27b "Royal Crab"     | Fixed melee damage (65 dmg. like other Crabs)                                 |
+| Cyclops 11-series         | Added extra hardpoints (different from the 10-series)                         |
+| Duan Gung                 | Switched to a new CAB model                                                   |
+| Enfield                   | Switched to its own CAB model                                                 |
+| Exterminator              | Switched to a new CAB model                                                   |
+| Firebee                   | Switched to a new CAB model                                                   |
+| Firestarter FS9-OF        | Added Large Engine quirk                                                      |
+| Flashman                  | Switched to a new CAB model                                                   |
+| Flea FLE-14               | Fixed max armor values for an ultralight                                      |
+| Garm                      | Reduced overall size to better match tonnage                                  |
+| Grand Dragon DRG-1G       | Fixed energy hadpoints placement                                              |
+| Gunslinger                | Switched to a new CAB model                                                   |
+| Hatamoto 27T & 27V        | Added missing CASE on side torsos                                             |
+| Hermes II                 | Reduced overall size to better match tonnage                                  |
+| Hornet HNT-161            | Fixed armor placement                                                         |
+| Kodiak 5                  | Added missing DHS in the engine                                               |
+| Linesman LMN-1PT          | Changed to the correct prefab base model                                      |
+| Loader King LDK-5C        | Added more armor and missing Cargo Bay                                        |
+| Locust LCT-3S             | Fixed available tonnage                                                       |
+| Naginata                  | Switched to a new CAB model                                                   |
+| Ost Mechs                 | Added cross assembly between Ostroc and Ostsol                                |
+| Piranha 1                 | Changed to single heat sinks                                                  |
+| Rifleman RFL-5CS          | Added Large Engine quirk                                                      |
+| Shadow Hawk               | Added Rugged quirk                                                            |
+| Shadow Hawk SHD-3H        | Changed loadout to the official one                                           |
+| Thunder THR-1L            | Added missing DHS in the engine                                               |
+| Trebuchet TBT-3C          | Added Large Engine quirk                                                      |
+| UrbanMech                 | Reduced movement to 3/5 hexes (from 4/7)                                      |
 </details>
