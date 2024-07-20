@@ -1,0 +1,97 @@
+09:16:23.7471 Initializing Abilifier - Version 1.4.2.0
+09:16:23.7531 Adding effectData restriction for ExtendedEffectDataDict: {}
+09:16:24.3012 Parsed AbilityRealizerSettings: {
+  "DumpAbilityDefNamesAtAddToTeam": true,
+  "AddTreeAbilities": false,
+  "RemoveNonTreeAbilities": false,
+  "IgnoreAbilities": [],
+  "IgnorePilotsWithTags": [],
+  "FactionAbilities": {
+    "DiamondShark": [
+      "TraitClanner"
+    ],
+    "GhostBear": [
+      "TraitClanner"
+    ],
+    "HellsHorses": [
+      "TraitClanner"
+    ],
+    "JadeFalcon": [
+      "TraitClanner"
+    ],
+    "NovaCat": [
+      "TraitClanner"
+    ],
+    "SmokeJaguar": [
+      "TraitClanner"
+    ],
+    "SnowRaven": [
+      "TraitClanner"
+    ],
+    "SteelViper": [
+      "TraitClanner"
+    ],
+    "Wolf": [
+      "TraitClanner"
+    ],
+    "WolfInExile": [
+      "TraitClanner"
+    ],
+    "WolfsDragoons": [
+      "TraitComstar"
+    ],
+    "BlackWidowCompany": [
+      "TraitComstar"
+    ],
+    "ComStar": [
+      "TraitComstar"
+    ],
+    "ComStarUnknown": [
+      "TraitComstar"
+    ],
+    "WordOfBlake": [
+      "TraitComstar"
+    ]
+  },
+  "TagAbilities": {
+    "commander_player": [
+      "TraitDefIAmMech",
+      "AbilityDef_FirstAid",
+      "AbilityDef_CarefulManeuvers"
+    ],
+    "pilot_mech_pilot": [
+      "TraitDefIAmMech",
+      "AbilityDef_FirstAid",
+      "AbilityDef_CarefulManeuvers"
+    ],
+    "pilot_vehicle_crew": [
+      "TraitDefIAmTank",
+      "AbilityDef_FirstAid",
+      "AbilityDef_CarefulManeuvers",
+      "AbilityDef_HullDown"
+    ],
+    "pilot_defaultTree": [
+      "TraitDefIAmTank",
+      "AbilityDef_FirstAid",
+      "AbilityDef_CarefulManeuvers"
+    ],
+    "pilot_mechwarrior": [
+      "TraitDefIAmMech",
+      "AbilityDef_FirstAid",
+      "AbilityDef_CarefulManeuvers"
+    ],
+    "pilot_backer": [
+      "TraitDefIAmMech",
+      "AbilityDef_FirstAid",
+      "AbilityDef_CarefulManeuvers"
+    ],
+    "pilot_starter": [
+      "TraitDefIAmMech",
+      "AbilityDef_FirstAid",
+      "AbilityDef_CarefulManeuvers"
+    ]
+  },
+  "SwapAIAbilities": {}
+}
+09:16:24.3012 Settings dump: {"debugExpiration":false,"enableTrace":false,"enableLog":true,"usePopUpsForAbilityDesc":false,"debugXP":false,"enableResolverator":false,"disableResolveAttackGround":true,"resolveGenBaseMult":1.0,"resolveCostBaseMult":1.0,"resolveCostHighMult":0.8,"resolveCostLowMult":1.2,"extraFirstTierAbilities":0,"extraAbilities":0,"extraAbilitiesAllowedPerSkill":0,"nonTreeAbilities":2,"cleanUpCombatUI":true,"skillLockThreshold":8,"usingCACabilitySelector":true,"usingHumanResources":false,"disableCalledShotExploit":true,"proceduralTagCleanup":{"pilot_mech_pilot":["pilot_nomech_crew"]},"tagTraitForTree":{"pilot_mech_pilot":"TraitDefIAmMech","pilot_vehicle_crew":"TraitDefIAmTank","pilot_defaultTree":"TraitDefIAmTank"},"defaultTagTraitForTree":{"pilot_vehicle_crew":"TraitDefIAmTank"},"defaultTagTraitException":"pilot_mech_pilot","abilityReqs":{"TraitDefIAmTank":["AbilityDefG5V","AbilityDefG8V","AbilityDefGu5V","AbilityDefGu8V","AbilityDefP5V","AbilityDefP8V","AbilityDefT5AV","AbilityDefT8AV"],"TraitDefIAmMech":["AbilityDefG5","AbilityDefG8","AbilityDefGu5","AbilityDefGu8","AbilityDefP5","AbilityDefP8","AbilityDefT5A","AbilityDefT8A"]},"ticksOnMovementDistanceIDs":[],"retrainerSettings":{"enableRetrainer":true,"cost":500000,"onceOnly":true,"trainingModuleRequired":true,"ignoredAbilities":[],"confirmAbilityText":""}}
+09:16:43.4850 FinishedLoading

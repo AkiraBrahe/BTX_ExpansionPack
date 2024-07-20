@@ -1,11 +1,1 @@
-{
-	"StatusEffect-PotatoAccuracy": {
-		"TargetCollectionForSearch": "Unit",
-		"TargetCollectionTagMatch": [
-			"ImADumbUnitTag"
-		],
-		"TargetComponentTagMatch": [
-			"Potato_Gun"
-		]
-	}
-}
+{}

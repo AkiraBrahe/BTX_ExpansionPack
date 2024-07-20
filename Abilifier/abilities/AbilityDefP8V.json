@@ -2,7 +2,7 @@
   "Description": {
     "Id": "AbilityDefP8V",
     "Name": "EVASIVE RACING",
-    "Details": "PASSIVE: A Vehicle driven by the crew of this Tank Commander has a lower chance to lose evasion when fired upon.  The faster the vehicles, the more evasion can be kept. The maximum amount of evasion is increased by one.",
+    "Details": "PASSIVE: Vehicles driven by this Tank Commander have a lower chance to lose evasion when fired upon. The faster the vehicle, the more evasion can be kept. The maximum amount of evasion is also increased by one.",
     "Icon": "uixSvgIcon_run_n_gun"
   },
   "DisplayParams": "ShowInMWTRay",
@@ -20,18 +20,18 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "AbilityDefP8v",
+        "Id": "AbilityDefP8V",
         "Name": "EVASIVE RACING",
-        "Details": "PASSIVE: A 'Mech piloted by this MechWarrior has a chance to not lose evasion when fired upon.  The faster the BattleMech, the more evasion can be kept. Evasive charge cap increased by one.",
+        "Details": "PASSIVE: Vehicles driven by this Tank Commander have a lower chance to lose evasion when fired upon. The faster the vehicle, the more evasion can be kept. The maximum amount of evasion is also increased by one.",
         "Icon": "uixSvgIcon_run_n_gun"
       },
+      "nature": "Buff",
       "statisticData": {
-		"statName" : "MaxEvasivePips",
-		"operation" : "Int_Add",
-		"modValue" : "1",
-		"modType" : "System.Int32"
-      },
-      "nature": "Buff"
+        "statName": "MaxEvasivePips",
+        "operation": "Int_Add",
+        "modValue": "1",
+        "modType": "System.Int32"
+      }
     }
   ],
   "IsPrimaryAbility": true

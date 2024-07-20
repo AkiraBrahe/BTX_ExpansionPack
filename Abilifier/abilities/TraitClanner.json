@@ -10,159 +10,159 @@
   "DisplayParams": "ShowInPilotToolTip",
   "ActivationTime": "Passive",
   "EffectData": [
-	{
-		"durationData" : {
-			"duration" : -1,
-			"ticksOnActivations" : false,
-			"useActivationsOfTarget" : false,
-			"ticksOnEndOfRound" : false,
-			"ticksOnMovements" : false,
-			"stackLimit" : -1,
-			"clearedWhenAttacked" : false
-		},
-		"targetingData" : {
-			"effectTriggerType" : "Passive",
-			"triggerLimit" : 0,
-			"extendDurationOnTrigger" : 0,
-			"specialRules" : "NotSet",
-			"effectTargetType" : "Creator",
-			"range" : 0,
-			"forcePathRebuild" : false,
-			"forceVisRebuild" : false,
-			"showInTargetPreview" : false,
-			"showInStatusPanel" : false
-		},
-		"effectType" : "StatisticEffect",
-		"Description" : {
-			"Id" : "StatusEffect-ClanPilot-RecoilPenaltyReduce",
-			"Name" : "RECOIL PENALTIES REDUCED",
-			"Details" : "Reduces recoil hit penalties.",
-			"Icon" : "UixSvgIcon_specialEquip_System"
-		},
-		"nature" : "Buff",
-		"statisticData" : {
-			"appliesEachTick" : false,
-			"effectsPersistAfterDestruction" : false,
-			"statName" : "RefireModifier",
-			"operation" : "Int_Add",
-			"modValue" : "-1",
-			"modType" : "System.Int32",
-			"additionalRules" : "NotSet",
-			"targetCollection" : "Weapon",
-			"targetWeaponCategory" : "Ballistic",
-			"targetWeaponType" : "NotSet",
-			"targetAmmoCategory" : "NotSet",
-			"targetWeaponSubType" : "NotSet"
-		},
-		"tagData" : null,
-		"floatieData" : null,
-		"actorBurningData" : null,
-		"vfxData" : null,
-		"instantModData" : null,
-		"poorlyMaintainedEffectData" : null
-	},
-	{
-		"durationData" : {
-			"duration" : -1,
-			"ticksOnActivations" : false,
-			"useActivationsOfTarget" : false,
-			"ticksOnEndOfRound" : false,
-			"ticksOnMovements" : false,
-			"stackLimit" : -1,
-			"clearedWhenAttacked" : false
-		},
-		"targetingData" : {
-			"effectTriggerType" : "Passive",
-			"triggerLimit" : 0,
-			"extendDurationOnTrigger" : 0,
-			"specialRules" : "NotSet",
-			"effectTargetType" : "Creator",
-			"range" : 0,
-			"forcePathRebuild" : false,
-			"forceVisRebuild" : false,
-			"showInTargetPreview" : false,
-			"showInStatusPanel" : false
-		},
-		"effectType" : "StatisticEffect",
-		"Description" : {
-			"Id" : "StatusEffect-ClanPilot-LongRangePenaltyReduce",
-			"Name" : "LONG RANGE PENALTIES REDUCED",
-			"Details" : "Reduces long range hit penalties.",
-			"Icon" : "UixSvgIcon_specialEquip_System"
-		},
-		"nature" : "Buff",
-		"statisticData" : {
-			"appliesEachTick" : false,
-			"effectsPersistAfterDestruction" : false,
-			"statName" : "LongRangeModifier",
-			"operation" : "Float_Subtract",
-			"modValue" : "1.0",
-			"modType" : "System.Single",
-			"additionalRules" : "NotSet",
-			"targetCollection" : "Weapon",
-			"targetWeaponCategory" : "NotSet",
-			"targetWeaponType" : "NotSet",
-			"targetAmmoCategory" : "NotSet",
-			"targetWeaponSubType" : "NotSet"
-		},
-		"tagData" : null,
-		"floatieData" : null,
-		"actorBurningData" : null,
-		"vfxData" : null,
-		"instantModData" : null,
-		"poorlyMaintainedEffectData" : null
-	},
-	{
-		"durationData" : {
-			"duration" : -1,
-			"ticksOnActivations" : false,
-			"useActivationsOfTarget" : false,
-			"ticksOnEndOfRound" : false,
-			"ticksOnMovements" : false,
-			"stackLimit" : -1,
-			"clearedWhenAttacked" : false
-		},
-		"targetingData" : {
-			"effectTriggerType" : "Passive",
-			"triggerLimit" : 0,
-			"extendDurationOnTrigger" : 0,
-			"specialRules" : "NotSet",
-			"effectTargetType" : "Creator",
-			"range" : 0,
-			"forcePathRebuild" : false,
-			"forceVisRebuild" : false,
-			"showInTargetPreview" : false,
-			"showInStatusPanel" : false
-		},
-		"effectType" : "StatisticEffect",
-		"Description" : {
-			"Id" : "StatusEffect-ClanPilot-ShortRangePenaltyIncrease",
-			"Name" : "SHORT RANGE PENALTIES INCREASED",
-			"Details" : "Increases short range hit penalties.",
-			"Icon" : "UixSvgIcon_specialEquip_System"
-		},
-		"nature" : "Buff",
-		"statisticData" : {
-			"appliesEachTick" : false,
-			"effectsPersistAfterDestruction" : false,
-			"statName" : "ShortRangeModifier",
-			"operation" : "Float_Add",
-			"modValue" : "1.0",
-			"modType" : "System.Single",
-			"additionalRules" : "NotSet",
-			"targetCollection" : "Weapon",
-			"targetWeaponCategory" : "NotSet",
-			"targetWeaponType" : "NotSet",
-			"targetAmmoCategory" : "NotSet",
-			"targetWeaponSubType" : "NotSet"
-		},
-		"tagData" : null,
-		"floatieData" : null,
-		"actorBurningData" : null,
-		"vfxData" : null,
-		"instantModData" : null,
-		"poorlyMaintainedEffectData" : null
-	},
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-ClanPilot-RecoilPenaltyReduce",
+        "Name": "RECOIL PENALTIES REDUCED",
+        "Details": "Reduces recoil hit penalties.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "RefireModifier",
+        "operation": "Int_Add",
+        "modValue": "-1",
+        "modType": "System.Int32",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "Ballistic",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-ClanPilot-LongRangePenaltyReduce",
+        "Name": "LONG RANGE PENALTIES REDUCED",
+        "Details": "Reduces long range hit penalties.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "LongRangeModifier",
+        "operation": "Float_Subtract",
+        "modValue": "1.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "ticksOnActivations": false,
+        "useActivationsOfTarget": false,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-ClanPilot-ShortRangePenaltyIncrease",
+        "Name": "SHORT RANGE PENALTIES INCREASED",
+        "Details": "Increases short range hit penalties.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ShortRangeModifier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet"
+      },
+      "tagData": null,
+      "floatieData": null,
+      "actorBurningData": null,
+      "vfxData": null,
+      "instantModData": null,
+      "poorlyMaintainedEffectData": null
+    },
     {
       "durationData": {
         "duration": -1

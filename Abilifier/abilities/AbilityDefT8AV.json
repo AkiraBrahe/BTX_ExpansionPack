@@ -2,7 +2,7 @@
   "Description": {
     "Id": "AbilityDefT8AV",
     "Name": "MASTER TACTICIAN TANK",
-    "Details": "PASSIVE: A Vehicle commanded by this Tank Commander gain +1 Initiative, and can move after shooting if it has not moved yet.",
+    "Details": "PASSIVE: Vehicles driven by this Tank Commander gain +1 Initiative, and can move after shooting if it has not moved yet.",
     "Icon": "uixSvgIcon_ability_mastertactician"
   },
   "DisplayParams": "ShowInMWTRay",
@@ -20,18 +20,18 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "AbilityDefT8Av",
+        "Id": "AbilityDefT8AV",
         "Name": "MASTER TACTICIAN",
-        "Details": "PASSIVE: A Vehicle commanded by this Tank Commander gain +1 Initiative, and can move after shooting if it has not moved yet.",
+        "Details": "PASSIVE: Vehicles driven by this Tank Commander gain +1 Initiative, and can move after shooting if it has not moved yet.",
         "Icon": "uixSvgIcon_ability_mastertactician"
       },
+      "nature": "Buff",
       "statisticData": {
         "statName": "CanMoveAfterShooting",
         "operation": "Set",
         "modValue": "true",
         "modType": "System.Boolean"
-      },
-      "nature": "Buff"
+      }
     },
     {
       "durationData": {
@@ -48,13 +48,13 @@
         "Details": "+1 to base Initiative",
         "Icon": "uixSvgIcon_ability_mastertactician"
       },
+      "nature": "Buff",
       "statisticData": {
         "statName": "BaseInitiative",
         "operation": "Int_Add",
         "modValue": "-1",
         "modType": "System.Int32"
-      },
-      "nature": "Buff"
+      }
     }
   ],
   "IsPrimaryAbility": true

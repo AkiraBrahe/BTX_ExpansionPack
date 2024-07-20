@@ -10,51 +10,51 @@
   "DisplayParams": "ShowInPilotToolTip",
   "ActivationTime": "Passive",
   "EffectData": [
-	{
-	  "durationData": {
-		"duration": -1
-	  },
-	  "targetingData": {
-		"effectTriggerType": "Passive",
-		"effectTargetType": "Creator"
-	  },
-	  "effectType": "StatisticEffect",
-	  "Description": {
-		"Id": "TraitClannerSight",
-		"Name": "Increased view Distance",
-		"Details": "+10% View Distance",
-		"Icon": "uixSvgIcon_ability_mastertactician"
-	  },
-	  "statisticData": {
-		"statName": "SpotterDistanceMultiplier",
-		"operation": "Float_Multiply",
-		"modValue": "1.10",
-		"modType": "System.Single"
-	  },
-	  "nature": "Buff"
-	},
-	{
-	  "durationData": {
-		"duration": -1
-	  },
-	  "targetingData": {
-		"effectTriggerType": "Passive",
-		"effectTargetType": "Creator"
-	  },
-	  "effectType": "StatisticEffect",
-	  "Description": {
-		"Id": "TraitClannerSensors",
-		"Name": "Increased view Distance",
-		"Details": "+10% View Distance",
-		"Icon": "uixSvgIcon_ability_mastertactician"
-	  },
-	  "statisticData": {
-		"statName": "SensorDistanceMultiplier",
-		"operation": "Float_Multiply",
-		"modValue": "1.10",
-		"modType": "System.Single"
-	  },
-	  "nature": "Buff"
-	}
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "TraitClannerSight",
+        "Name": "Increased view Distance",
+        "Details": "+10% View Distance",
+        "Icon": "uixSvgIcon_ability_mastertactician"
+      },
+      "statisticData": {
+        "statName": "SpotterDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.10",
+        "modType": "System.Single"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "TraitClannerSensors",
+        "Name": "Increased view Distance",
+        "Details": "+10% View Distance",
+        "Icon": "uixSvgIcon_ability_mastertactician"
+      },
+      "statisticData": {
+        "statName": "SensorDistanceMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.10",
+        "modType": "System.Single"
+      },
+      "nature": "Buff"
+    }
   ]
 }

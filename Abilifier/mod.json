@@ -1,91 +1,104 @@
 {
-	"Name": "Abilifier",
-	"DLL": "Abilifier.dll",
-	"Enabled": true,
-	"Hidden": true,
-	"Version": "1.1.2.5",
-	"Description": "Allows for choices between abilities when leveling pilots.",
-	"Author": "gnivler, T-Bone",
-	"Website": "",
-	"DependsOn": [
-		"CustomActivatableEquipment"
-	],
-	"OptionallyDependsOn": [
-		"CustomUnits", "BT_Extended_Timeline", "Lifepaths"
-	],
-	"ConflictsWith": [],
-	"CustomResourceTypes": [],
-	"Settings": {
-		"enableTrace": false,
-		"enableLog": true,
-		"usePopUpsForAbilityDesc": false,
-		"debugXP": false,
-		"enableResolverator": false,
-		"resolveGenTacticsMult": 0.02,
-		"resolveCostTacticsMult": 0,
-		"resolveGenBaseMult": 1.0,
-		"resolveCostBaseMult": 1.0,
-		"extraFirstTierAbilities": 0,
-		"extraAbilities": 0,
-		"extraAbilitiesAllowedPerSkill": 0,
-		"nonTreeAbilities": 2,
-		"cleanUpCombatUI": true,
-		"skillLockThreshold": 8,
-		"usingCACabilitySelector": true,
-		"usingHumanResources": false,
-		"disableCalledShotExploit": true,
-		"proceduralTagCleanup": {
-			"pilot_mech_pilot": [
-				"pilot_nomech_crew"
-			]
-		},
-		"tagTraitForTree": {
-			"pilot_vehicle_crew": "TraitDefIAmTank",
-			"pilot_mech_pilot": "TraitDefIAmMech",
-			"pilot_defaultTree": "TraitDefIAmTank"
-		},
-		"defaultTagTraitForTree": {
-			"pilot_vehicle_crew": "TraitDefIAmTank"
-		},
-		"defaultTagTraitException": "pilot_mech_pilot",
-		"abilityReqs": {
-			"TraitDefIAmTank": [
-				"AbilityDefG5V",
-				"AbilityDefG8V",
-				"AbilityDefGu5V",
-				"AbilityDefGu8V",
-				"AbilityDefP5V",
-				"AbilityDefP8V",
-				"AbilityDefT5AV",
-				"AbilityDefT8AV"
-			],
-			"TraitDefIAmMech": [
-				"AbilityDefG5",
-				"AbilityDefG8",
-				"AbilityDefGu5",
-				"AbilityDefGu8",
-				"AbilityDefP5",
-				"AbilityDefP8",
-				"AbilityDefT5A",
-				"AbilityDefT8A"
-			]	
-		}
-		
-	},
-	"Manifest": [
-		{
-			"Type": "AbilityDef",
-			"Path": "abilities"
-		},
-		{ 
-			"Path": "advancedmerge", 
-			"Type": "AdvancedJSONMerge" 
-		},
-		{
-			"Type": "SVGAsset",
-			"Path": "icons",
-			"ShouldMergeJSON": false
-		}
-		
-	]
+  "Name": "Abilifier",
+  "DLL": "Abilifier.dll",
+  "Enabled": true,
+  "Hidden": true,
+  "Version": "1.4.2.0",
+  "Description": "Allows for choices between abilities when leveling pilots.",
+  "Author": "gnivler, T-Bone",
+  "Website": "",
+  "DependsOn": [
+    "CustomActivatableEquipment",
+    "IRBTModUtils"
+  ],
+  "OptionallyDependsOn": [
+    "CustomUnits",
+    "Lifepaths"
+  ],
+  "ConflictsWith": [
+    "AbilityRealizer"
+  ],
+  "CustomResourceTypes": [],
+  "Settings": {
+    "debugExpiration": false,
+    "enableTrace": false,
+    "enableLog": true,
+    "usePopUpsForAbilityDesc": false,
+    "debugXP": false,
+    "enableResolverator": false,
+    "disableResolveAttackGround": true,
+    "resolveGenBaseMult": 1.0,
+    "resolveCostBaseMult": 1.0,
+    "resolveCostHighMult": 0.8,
+    "resolveCostLowMult": 1.2,
+    "extraFirstTierAbilities": 0,
+    "extraAbilities": 0,
+    "extraAbilitiesAllowedPerSkill": 0,
+    "nonTreeAbilities": 2,
+    "cleanUpCombatUI": true,
+    "skillLockThreshold": 8,
+    "usingCACabilitySelector": true,
+    "usingHumanResources": false,
+    "disableCalledShotExploit": true,
+    "proceduralTagCleanup": {
+      "pilot_mech_pilot": [
+        "pilot_nomech_crew"
+      ]
+    },
+    "tagTraitForTree": {
+      "pilot_mech_pilot": "TraitDefIAmMech",
+      "pilot_vehicle_crew": "TraitDefIAmTank",
+      "pilot_defaultTree": "TraitDefIAmTank"
+    },
+    "defaultTagTraitForTree": {
+      "pilot_vehicle_crew": "TraitDefIAmTank"
+    },
+    "defaultTagTraitException": "pilot_mech_pilot",
+    "abilityReqs": {
+      "TraitDefIAmTank": [
+        "AbilityDefG5V",
+        "AbilityDefG8V",
+        "AbilityDefGu5V",
+        "AbilityDefGu8V",
+        "AbilityDefP5V",
+        "AbilityDefP8V",
+        "AbilityDefT5AV",
+        "AbilityDefT8AV"
+      ],
+      "TraitDefIAmMech": [
+        "AbilityDefG5",
+        "AbilityDefG8",
+        "AbilityDefGu5",
+        "AbilityDefGu8",
+        "AbilityDefP5",
+        "AbilityDefP8",
+        "AbilityDefT5A",
+        "AbilityDefT8A"
+      ]
+    },
+    "ticksOnMovementDistanceIDs": [],
+    "retrainerSettings": {
+      "enableRetrainer": true,
+      "cost": 500000,
+      "onceOnly": true,
+      "trainingModuleRequired": true,
+      "ignoredAbilities": [],
+      "confirmAbilityText": ""
+    }
+  },
+  "Manifest": [
+    {
+      "Type": "AbilityDef",
+      "Path": "abilities"
+    },
+    {
+      "Path": "advancedmerge",
+      "Type": "AdvancedJSONMerge"
+    },
+    {
+      "Type": "SVGAsset",
+      "Path": "icons",
+      "ShouldMergeJSON": false
+    }
+  ]
 }

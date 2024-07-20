@@ -1,155 +1,95 @@
 {
-	"Description": {
-		"Id": "AbilityDefGu8V",
-		"Name": "ADV. HULL DOWN",
-		"Details": "ACTION: This Tank Commander's crew can manuever their vehicle into an ideal hull-down position, and make it +6 harder to see and hit. This takes away its movement in the current and following turn.",
-		"Icon": "AdvHulldown"
-	},
-	"DisplayParams": "ShowInMWTRay",
-	"ReqSkill": "Guts",
-	"ReqSkillLevel": 8,
-	"ActivationTime": "ConsumedByMovement",
-	"Targeting": "ActorSelf",
-	"EffectData": [
-		{
-			"durationData": {
-				"duration": 1,
-				"ticksOnActivations": true,
-				"useActivationsOfTarget": true,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "OnActivation",
-				"effectTargetType": "Creator",
-				"forcePathRebuild": true,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-HullDownCruise",
-				"Name": "ADV. HULL DOWN",
-				"Details": "This unit can not move this turn but is +6 harder to hit.",
-				"Icon": "AdvHulldown"
-			},
-			"statisticData": {
-				"statName": "WalkSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "0.01",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": 1,
-				"ticksOnActivations": true,
-				"useActivationsOfTarget": true,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "OnActivation",
-				"effectTargetType": "Creator",
-				"forcePathRebuild": true,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-HullDownFlank",
-				"Name": "ADV. HULL DOWN",
-				"Details": "This unit can not move this turn but is +6 harder to hit.",
-				"Icon": "AdvHulldown"
-			},
-			"statisticData": {
-				"statName": "RunSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "0.01",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},		
-		{
-			"durationData": {
-				"duration": 1,
-				"ticksOnActivations": true,
-				"useActivationsOfTarget": true,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "OnActivation",
-				"effectTargetType": "Creator",
-				"forcePathRebuild": true,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-HullDownCruise",
-				"Name": "ADV. HULL DOWN",
-				"Details": "This unit can not move this turn but is +6 harder to hit.",
-				"Icon": "AdvHulldown"
-			},
-			"statisticData": {
-				"statName": "CruiseSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "0.01",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": 1,
-				"ticksOnActivations": true,
-				"useActivationsOfTarget": true,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "OnActivation",
-				"effectTargetType": "Creator",
-				"forcePathRebuild": true,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-HullDownFlank",
-				"Name": "ADV. HULL DOWN",
-				"Details": "This unit can not move this turn but is +6 harder to hit.",
-				"Icon": "AdvHulldown"
-			},
-			"statisticData": {
-				"statName": "FlankSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "0.01",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": 2,
-				"ticksOnActivations": true,
-				"useActivationsOfTarget": true,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "OnActivation",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-HullDownDmgReduce",
-				"Name": "ADV. HULL DOWN",
-				"Details": "This unit can not move this turn but is +6 harder to hit.",
-				"Icon": "AdvHulldown"
-			},
-			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "6.0",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		}
-	],
-	"IsPrimaryAbility": true
+  "Description": {
+    "Id": "AbilityDefGu8V",
+    "Name": "ADV. HULL DOWN",
+    "Details": "ACTION: Maneuver the vehicle into the ideal hull-down position, making it +6 harder to hit. This keeps it stationary for 2 turns.",
+    "Icon": "AdvHulldown"
+  },
+  "DisplayParams": "ShowInMWTRay",
+  "ReqSkill": "Guts",
+  "ReqSkillLevel": 8,
+  "ActivationTime": "ConsumedByMovement",
+  "Targeting": "ActorSelf",
+  "EffectData": [
+    {
+      "durationData": {
+        "duration": 2,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "Creator",
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-HullDownDmgReduce",
+        "Name": "ADV. HULL DOWN",
+        "Details": "This unit cannot move for 2 turns but is +6 harder to hit.",
+        "Icon": "AdvHulldown"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "ToHitThisActor",
+        "operation": "Float_Add",
+        "modValue": "6.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "Creator",
+        "forcePathRebuild": true,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-HullDownWalk",
+        "Name": "ADV. HULL DOWN",
+        "Details": "This unit cannot move for 2 turns but is +6 harder to hit.",
+        "Icon": "AdvHulldown"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "WalkSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "0.01",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnActivation",
+        "effectTargetType": "Creator",
+        "forcePathRebuild": true,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-HullDownRun",
+        "Name": "ADV. HULL DOWN",
+        "Details": "This unit cannot move for 2 turns but is +6 harder to hit.",
+        "Icon": "AdvHulldown"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "RunSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "0.01",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "IsPrimaryAbility": true
 }
