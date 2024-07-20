@@ -19,6 +19,7 @@ mechdef_ostscout_OTT-7K,0,,0,,0,3067-01-01T00:00:00Z,27
 mechdef_locust_LCT-3V,9,,3,,1,,3
 mechdef_stinger_STG-5R,0,,0,,0,3067-01-01T00:00:00Z,2
 mechdef_stinger_STG-3G,9,,3,,1,,1
+mechdef_wasp_WSP-100,18,,7,,4,,22
 mechdef_urbanmech_UM-R60,27,,7,,2,,5
 mechdef_flea_FLE-17,0,,0,3061-01-01T00:00:00Z,81,,41
 mechdef_mercury_MCY-102,0,,0,,0,3067-01-01T00:00:00Z,46
@@ -75,10 +76,10 @@ mechdef_panther_PNT-10K,0,,0,,0,3067-01-01T00:00:00Z,23
 mechdef_owens_OW-1,0,,0,3060-01-01T00:00:00Z,3,,4
 mechdef_jenner_JR7-D,27,,17,,9,,37
 mechdef_valkyrie_VLK-QD1,0,,0,,0,3067-01-01T00:00:00Z,3
-mechdef_stingerlam_STG-A10,9,,7,,3,,23
+mechdef_stinger_STG-A10,9,,7,,3,,23
 mechdef_valkyrie_VLK-QD3,0,,0,,0,3067-01-01T00:00:00Z,3
 mechdef_mongoose_MON-66GX,0,,0,3058-03-07T00:00:00Z,1,,1
-mechdef_wasplam_WSP-105M,9,,7,,3,,15
+mechdef_wasp_WSP-105M,9,,7,,3,,15
 mechdef_gurkha_GUR-4G,0,,0,,0,3065-01-01T00:00:00Z,28
 mechdef_jackal_JA-KL-1532,98,,70,,90,,128
 mechdef_ostscout_OTT-9CS,0,,0,,0,3064-01-01T00:00:00Z,7
@@ -165,7 +166,7 @@ mechdef_trebuchet_TBT-5N,4,,2,,1,,3
 mechdef_crab_CRB-27_actual,65,,52,,26,,23
 mechdef_wyvern_WVE-10N,0,,0,,0,3065-01-01T00:00:00Z,6
 mechdef_blackjack_BJ2-O,0,3057-01-01T00:00:00Z,9,,9,,7
-mechdef_wyvern_WVE-5Nsl,43,,24,,26,,29
+mechdef_wyvern_WVE-5Nsl,18,,8,,9,,10
 mechdef_lineholder_KW1-LH3,0,,0,3059-01-01T00:00:00Z,11,,13
 mechdef_griffin_GRF-5M,0,,0,,0,3066-01-01T00:00:00Z,11
 mechdef_centurion_CN10-B,0,3057-01-01T00:00:00Z,8,,31,,22
@@ -311,7 +312,7 @@ mechdef_orion_ON1-MA,10,,13,,17,,10
 mechdef_champion_CHP-3P,0,,0,3061-01-01T00:00:00Z,21,,37
 mechdef_koschei_KSC-4L,3,,3,,3,,3
 mechdef_shootist_ST-8A,50,,28,,30,,26
-mechdef_crusader_CRD-1R,52,,27,,31,,35
+mechdef_crusader_CRD-1R,34,,19,,20,,22
 mechdef_grasshopper_GHR-5N,4,,2,,1,,6
 mechdef_koschei_KSC-4I,3,,3,,3,,3
 mechdef_rifleman_RFL-7M,0,,0,,0,3066-01-01T00:00:00Z,21
@@ -467,6 +468,7 @@ mechdef_grandtitan_T-IT-N11M,0,,0,3058-01-01T00:00:00Z,22,,39
 mechdef_cerberus_MR-5M,0,3055-01-01T00:00:00Z,11,,22,,18
 mechdef_vanquisher_VQR-2B,0,,0,,0,3067-01-01T00:00:00Z,6
 mechdef_viking_VKG-2F,0,,0,3059-01-01T00:00:00Z,9,,8
+mechdef_shogun_SHG-2H,3,,2,,2,,2
 mechdef_cerberus_MR-V3,0,,0,,0,3062-01-01T00:00:00Z,13
 mechdef_sirocco_SRC-5C,0,,0,3060-01-01T00:00:00Z,4,,9
 mechdef_cerberus_MR-6B,0,,0,,0,3067-01-01T00:00:00Z,3

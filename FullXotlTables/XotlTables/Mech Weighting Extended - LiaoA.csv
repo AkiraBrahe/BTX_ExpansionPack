@@ -190,7 +190,7 @@ mechdef_atlas_AS7-A,10,,10,,12,,30,,30
 mechdef_highlander_HGN-733,104,,104,,106,,70,,46
 mechdef_kingcrab_KGC-0000,20,,20,,20,,22,,22
 mechdef_awesome_AWS-9M,0,,0,,0,3049-01-01T00:00:00Z,70,,84
-mechdef_pillager_PLG-1N,5,,5,,8,,10,,3
+mechdef_pillager_PLG-1N,4,,5,,5,,11,,3
 mechdef_longbow_LGB-7V,0,,0,,0,3056-01-01T00:00:00Z,8,,22
 mechdef_highlander_HGN-733C,20,,20,,20,,8,,7
 mechdef_highlander_HGN-733P,20,,20,,20,,8,,7

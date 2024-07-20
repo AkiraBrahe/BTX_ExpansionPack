@@ -159,7 +159,7 @@ mechdef_stalker_STK-3H,7,,7,,6,,6,,6
 mechdef_zeus_ZEU-9S,0,,0,3048-01-01T00:00:00Z,31,,31,,31
 mechdef_atlas_AS7-A,13,,13,,11,,11,,11
 mechdef_kingcrab_KGC-0000,13,,13,,11,,11,,11
-mechdef_pillager_PLG-1N,7,,7,,6,,6,,6
+mechdef_pillager_PLG-1N,5,,5,,4,,4,,4
 mechdef_nightstar_NSR-10C,7,,7,,7,,7,,7
 mechdef_atlas_AS7-RS,13,,7,,6,,6,,6
 mechdef_devastator_DVS-1D,0,3036-01-01T00:00:00Z,7,,6,,6,,6

@@ -743,7 +743,7 @@ mechdef_gladiator_executioner-E,0,,0,,0,3061-01-01T00:00:00Z,1,,2
 mechdef_daishi_dire_wolf-H,0,,0,,0,3060-01-01T00:00:00Z,3,,5
 mechdef_masakari_warhawk-C,0,,0,,0,3059-01-01T00:00:00Z,2,,5
 mechdef_masakari_warhawk-I,0,,0,,0,3060-01-01T00:00:00Z,2,,5
-mechdef_shogun_SHG_C,0,,0,,0,3055-01-01T00:00:00Z,30,,20
+mechdef_shogun_C,0,,0,,0,3055-01-01T00:00:00Z,30,,20
 mechdef_gladiator_executioner-H,0,,0,,0,3061-01-01T00:00:00Z,1,,2
 mechdef_imp_C,0,,0,3050-01-01T00:00:00Z,1,,14,,6
 mechdef_gladiator_executioner-A,0,,0,,0,3058-01-01T00:00:00Z,4,,7

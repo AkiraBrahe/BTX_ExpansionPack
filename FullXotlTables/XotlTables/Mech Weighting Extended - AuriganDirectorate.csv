@@ -40,7 +40,7 @@ mechdef_phoenixhawk_PXH-1,204,,204,,204,,204,,204
 mechdef_shadowhawk_SHD-2H,102,,102,,102,,102,,102
 mechdef_hunchback_HBK-4H,7,,7,,7,,7,,7
 mechdef_hunchback_HBK-4N,7,,7,,7,,7,,7
-mechdef_rifleman_RFL-2N,67,,67,,67,,67,,67
+mechdef_rifleman_RFL-2N,3,,3,,3,,3,,3
 mechdef_wolverine_WVR-6R,102,,102,,102,,102,,102
 mechdef_hunchback_HBK-4P,7,,7,,7,,7,,7
 mechdef_crab_CRB-20,7,,7,,7,,7,,7
@@ -92,5 +92,5 @@ mechdef_awesome_AWS-8Q,121,,121,,121,,121,,121
 mechdef_longbow_LGB-7Q,42,,42,,42,,42,,42
 mechdef_stalker_STK-3H,42,,42,,42,,42,,42
 mechdef_atlas_AS7-A,6,,6,,6,,6,,6
-mechdef_pillager_PLG-1N,6,,6,,6,,6,,6
+mechdef_pillager_PLG-1N,3,,3,,3,,3,,3
 mechdef_atlas_AS7-D,6,,6,,6,,6,,6

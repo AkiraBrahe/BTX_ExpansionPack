@@ -28,7 +28,7 @@ mechdef_javelin_JVN-10F,5,,5,,5,,4
 Mediums,,,,,,,
 mechdef_vulcan_VL-2T,45,,44,,41,,44
 mechdef_cicada_CDA-2A,28,,28,,25,,28
-mechdef_kyudo_KY2-D-01,5,,5,,5,,5
+mechdef_kyudo_KY2-D-01,3,,3,,3,,3
 mechdef_assassin_ASN-21,14,,14,,13,,14
 mechdef_clint_CLNT-2-3T,3,,3,,3,,3
 mechdef_hermesII_HER-2S,140,,138,,126,,91
@@ -47,7 +47,7 @@ mechdef_hunchback_HBK-4SP,0,3025-09-01T00:00:00Z,8,,7,,8
 mechdef_shadowhawk_SHD-2H,45,,44,,41,,44
 mechdef_hunchback_HBK-4H,5,,5,,5,,5
 mechdef_hunchback_HBK-4N,5,,5,,5,,5
-mechdef_rifleman_RFL-2N,38,,39,,37,,77
+mechdef_rifleman_RFL-2N,3,,3,,3,,3
 mechdef_wolverine_WVR-6R,28,,28,,25,,28
 mechdef_hunchback_HBK-4P,8,,8,,5,,5
 mechdef_crab_CRB-20,5,,5,,5,,5

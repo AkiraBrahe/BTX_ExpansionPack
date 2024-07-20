@@ -152,8 +152,24 @@
         "overrideName": "Archer"
       },
       {
+        "prefabId": "chrPrfMech_atlasBase-001_100",
+        "overrideName": "Atlas"
+      },
+      {
+        "prefabId": "chrPrfMech_awesomeBase-001_80",
+        "overrideName": "Awesome"
+      },
+      {
+        "prefabId": "chrPrfMech_bansheeBase-001_95",
+        "overrideName": "Banshee"
+      },
+      {
         "prefabId": "chrprfmech_battleaxebase-001_70",
         "overrideName": "BattleAxe"
+      },
+      {
+        "prefabId": "chrPrfMech_battlemasterBase-001_85",
+        "overrideName": "BattleMaster"
       },
       {
         "prefabId": "chrPrfMech_cataphractBase-001_70",
@@ -164,8 +180,16 @@
         "overrideName": "Catapult"
       },
       {
+        "prefabId": "chrPrfMech_centurionBase-001_50",
+        "overrideName": "Centurion"
+      },
+      {
         "prefabId": "chrPrfMech_centurionBase-001_55",
         "overrideName": "Centurion"
+      },
+      {
+        "prefabId": "chrprfmech_championbase-001_60",
+        "overrideName": "Champion"
       },
       {
         "prefabId": "chrPrfMech_cicadaBase-001_40",
@@ -188,8 +212,20 @@
         "overrideName": "Crosscut"
       },
       {
+        "prefabId": "chrPrfMech_cyclopsBase-001_90",
+        "overrideName": "Cyclops"
+      },
+      {
         "prefabId": "chrprfmech_dervishbase-001_55",
         "overrideName": "Dervish"
+      },
+      {
+        "prefabId": "chrprfmech_emperorbase-001_90",
+        "overrideName": "Emperor"
+      },
+      {
+        "prefabId": "chrprfmech_exterminatorbase-001_65",
+        "overrideName": "Exterminator"
       },
       {
         "prefabId": "chrPrfMech_vaporeagleBase-001_55",
@@ -208,8 +244,12 @@
         "overrideName": "Gulon"
       },
       {
-        "prefabId": "chrprfmech_battleaxebase-001_75",
+        "prefabId": "chrprfmech_hammerhandsbase-001_75",
         "overrideName": "Hammerhands"
+      },
+      {
+        "prefabId": "chrPrfMech_hatchetmanBase-001_45",
+        "overrideName": "Hatchetman"
       },
       {
         "prefabId": "chrprfmech_helepolisbase-001_75",
@@ -224,7 +264,19 @@
         "overrideName": "Hunchback"
       },
       {
+        "prefabId": "chrprfmech_hussarbase-001_30",
+        "overrideName": "Hussar"
+      },
+      {
+        "prefabId": "chrprfmech_icarusiibase-001_40",
+        "overrideName": "Icarus II"
+      },
+      {
         "prefabId": "chrPrfMech_jagermechBase-001_65",
+        "overrideName": "Jagermech"
+      },
+      {
+        "prefabId": "chrPrfMech_jagermechBase-001_70",
         "overrideName": "Jagermech"
       },
       {
@@ -234,6 +286,10 @@
       {
         "prefabId": "chrPrfMech_jennerBase-001_35",
         "overrideName": "Jenner"
+      },
+      {
+        "prefabId": "chrPrfMech_kingcrabBase-001_100",
+        "overrideName": "King Crab"
       },
       {
         "prefabId": "chrprfmech_kodiakbase-001_100",
@@ -252,6 +308,14 @@
         "overrideName": "Marauder"
       },
       {
+        "prefabId": "chrprfmech_maulerbase-001_90",
+        "overrideName": "Mauler"
+      },
+      {
+        "prefabId": "chrprfmech_nightstarbase-001_95",
+        "overrideName": "Nightstar"
+      },
+      {
         "prefabId": "chrPrfMech_orionBase-001_75",
         "overrideName": "Orion"
       },
@@ -260,8 +324,20 @@
         "overrideName": "Panther"
       },
       {
+        "prefabId": "chrprfmech_pillagerbase-001_100",
+        "overrideName": "Pillager"
+      },
+      {
+        "prefabId": "chrPrfMech_quickdrawBase-001_60",
+        "overrideName": "Quickdraw"
+      },
+      {
         "prefabId": "chrPrfMech_riflemanBase-001_60",
         "overrideName": "Rifleman"
+      },
+      {
+        "prefabId": "chrprfmech_sentinelbase-001_40",
+        "overrideName": "Sentinel"
       },
       {
         "prefabId": "chrPrfMech_shadowhawkBase-001_55",
@@ -272,12 +348,40 @@
         "overrideName": "Stalker"
       },
       {
+        "prefabId": "chrPrfMech_stingerHotD-001_20",
+        "overrideName": "Stinger"
+      },
+      {
+        "prefabId": "chrprfmech_swdbase-001_40",
+        "overrideName": "Swordsman"
+      },
+      {
+        "prefabId": "chrPrfMech_thugBase-001_80",
+        "overrideName": "Thug"
+      },
+      {
+        "prefabId": "chrPrfMech_thunderboltBase-001_65",
+        "overrideName": "Thunderbolt"
+      },
+      {
+        "prefabId": "chrprfmech_thunderhawkbase-001_100",
+        "overrideName": "Thunder Hawk"
+      },
+      {
         "prefabId": "chrPrfMech_trebuchetBase-001_50",
         "overrideName": "Trebuchet"
       },
       {
         "prefabId": "chrPrfMech_urbanmechBase-001_30",
         "overrideName": "UrbanMech"
+      },
+      {
+        "prefabId": "chrprfmech_valkyriehotd-001_30",
+        "overrideName": "Valkyrie"
+      },
+      {
+        "prefabId": "chrPrfMech_victorBase-001_80",
+        "overrideName": "Victor"
       },
       {
         "prefabId": "chrPrfMech_vindicatorBase-001_45",
@@ -290,6 +394,14 @@
       {
         "prefabId": "chrPrfMech_wolverineBase-001_55",
         "overrideName": "Wolverine"
+      },
+      {
+        "prefabId": "chrprfmech_ymirbase-001_90",
+        "overrideName": "Ymir"
+      },
+      {
+        "prefabId": "chrPrfMech_zeusBase-001_80",
+        "overrideName": "Zeus"
       }
     ]
   },
@@ -304,7 +416,7 @@
   },
   "stablePilotingSettings": {
     "reductionPerPiloting": 0.02,
-    "increasePerInjury": 0.05,
+    "increasePerInjury": 0.0,
     "tagEffects": [],
     "InverseMax": 20
   },

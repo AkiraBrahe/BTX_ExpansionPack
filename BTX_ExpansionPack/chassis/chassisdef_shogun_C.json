@@ -61,6 +61,10 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -73,11 +77,19 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Missile",
           "Omni": false
         },
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -110,6 +122,10 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -123,6 +139,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -154,45 +174,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 12,
-      "z": 1
-    },
-    {
-      "x": 4,
-      "y": 12,
+      "y": 15,
       "z": 0
     },
     {
-      "x": -4,
-      "y": 12,
-      "z": 0
+      "x": 3.5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -3.5,
+      "y": 16,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 12,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -3.5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
       "z": 1
     },
     {
-      "x": 4,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": -4,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 5,
-      "z": 0
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
     }
   ],
   "VariantName": "SHG-C",
@@ -208,7 +228,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Brawler & Close Assault",
+  "StockRole": "Juggernaut & Heavy Fire Support",
   "YangsThoughts": "A complete redesign of the Shogun using Clan technology that is used exclusively by Wolf's Dragoons, the Shogun C is armed with two LRM-20 missile racks with an Artemis IV fire control system for greater missile accuracy. The 'Mech also carries an ER PPC and four Streak SRM-6 launchers, giving it a devastating close range damage capability.",
   "FixedEquipment": []
 }

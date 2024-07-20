@@ -296,7 +296,7 @@ mechdef_sunder_SD1-O,0,,0,,0,,0,3058-01-01T00:00:00Z,17
 mechdef_atlas_AS7-A,26,,26,,22,,20,,17
 mechdef_templar_TLR1-OB,0,,0,,0,,0,3062-01-01T00:00:00Z,2
 mechdef_kingcrab_KGC-0000,26,,26,,22,,13,,6
-mechdef_pillager_PLG-1N,7,,7,,6,,7,,3
+mechdef_pillager_PLG-1N,0,,0,,0,,5,,3
 mechdef_nightstar_NSR-10C,7,,7,,7,,7,,3
 mechdef_longbow_LGB-7V,0,,0,,0,3056-01-01T00:00:00Z,13,,26
 mechdef_awesome_AWS-9Ma,0,,0,,0,3051-01-01T00:00:00Z,35,,40

@@ -46,7 +46,7 @@ mechdef_phoenixhawk_PXH-1,191,,191,,163,,163
 mechdef_shadowhawk_SHD-2H,192,,192,,163,,163
 mechdef_hunchback_HBK-4H,6,,6,,5,,3
 mechdef_hunchback_HBK-4N,6,,6,,5,,3
-mechdef_rifleman_RFL-2N,44,,44,,46,,19
+mechdef_rifleman_RFL-2N,3,,3,,3,,3
 mechdef_hunchback_HBK-5H,0,,0,,0,3064-01-01T00:00:00Z,18
 mechdef_wolverine_WVR-6R,96,,96,,83,,76
 mechdef_hunchback_HBK-4P,6,,6,,18,,18
@@ -120,7 +120,7 @@ mechdef_stalker_STK-3H,84,,84,,84,,84
 mechdef_stalker_STK-5M,0,,0,3050-01-01T00:00:00Z,12,,21
 mechdef_victor_VTR-9K,0,,0,3050-01-01T00:00:00Z,12,,21
 mechdef_atlas_AS7-A,12,,12,,12,,12
-mechdef_pillager_PLG-1N,6,,6,,6,,6
+mechdef_pillager_PLG-1N,4,,4,,3,,2
 mechdef_longbow_LGB-7V,0,,0,3056-01-01T00:00:00Z,5,,21
 mechdef_grandtitan_T-IT-N10M,0,,0,,0,3060-01-01T00:00:00Z,9
 mechdef_awesome_AWS-9Q,0,,0,,0,3057-01-01T00:00:00Z,50

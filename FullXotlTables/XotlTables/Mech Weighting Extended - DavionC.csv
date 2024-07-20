@@ -71,7 +71,7 @@ mechdef_watchman_WTC-4M,0,3055-01-01T00:00:00Z,34,,51
 mechdef_sentry_SNT-04,0,3056-01-01T00:00:00Z,34,,69
 mechdef_phoenixhawk_PXH-1D,24,,24,,29
 mechdef_hunchback_HBK-4N,3,,3,,5
-mechdef_rifleman_RFL-2N,5,,5,,5
+mechdef_rifleman_RFL-2N,3,,3,,3
 mechdef_wolverine_WVR-6R,24,,24,,18
 mechdef_wolverine_WVR-6D,17,,17,,21
 mechdef_centurion_CN9-D,0,3049-01-01T00:00:00Z,24,,23
@@ -173,7 +173,7 @@ mechdef_banshee_BNC-3S,0,3050-01-01T00:00:00Z,32,,32
 mechdef_zeus_ZEU-9S2,0,3051-01-01T00:00:00Z,18,,18
 mechdef_atlas_AS7-A,18,,18,,18
 mechdef_kingcrab_KGC-0000,8,,8,,8
-mechdef_pillager_PLG-1N,6,,6,,6
+mechdef_pillager_PLG-1N,5,,5,,10
 mechdef_atlas_AS7-RS,12,,12,,12
 mechdef_devastator_DVS-1D,32,,32,,32
 mechdef_atlas_AS7-D,45,,45,,50

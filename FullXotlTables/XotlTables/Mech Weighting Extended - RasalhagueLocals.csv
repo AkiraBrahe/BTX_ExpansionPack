@@ -28,7 +28,7 @@ mechdef_jenner_JR7-F,4
 Mediums,
 mechdef_vulcan_VL-2T,41
 mechdef_cicada_CDA-2A,29
-mechdef_kyudo_KY2-D-01,4
+mechdef_kyudo_KY2-D-01,3
 mechdef_assassin_ASN-21,29
 mechdef_clint_CLNT-2-3T,6
 mechdef_whitworth_WTH-1S,6
@@ -49,7 +49,7 @@ mechdef_shadowhawk_SHD-2H,41
 mechdef_hunchback_HBK-4H,6
 mechdef_phoenixhawk_PXH-1K,59
 mechdef_hunchback_HBK-4N,6
-mechdef_rifleman_RFL-2N,44
+mechdef_rifleman_RFL-2N,3
 mechdef_wolverine_WVR-6R,59
 mechdef_hunchback_HBK-4P,6
 mechdef_crab_CRB-20,11

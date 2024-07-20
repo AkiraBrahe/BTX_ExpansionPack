@@ -100,7 +100,8 @@
       "WordOfBlake" : "planet_faction_wordofblake",
       "Arc-RoyalDC" : "planet_faction_arcroyaldc",
       "ChaosMarch" : "planet_faction_chaosmarch",
-      "NewColonyRegion" : "planet_faction_newcolonyregion"
+      "NewColonyRegion" : "planet_faction_newcolonyregion",
+      "Solaris7" : "planet_faction_solaris7"
     },
 
     "StandardShopCreation":
@@ -209,22 +210,6 @@
       {
         "starsystemdef_Aix-la-Chapelle": "Kurita",
         "starsystemdef_Detroit": "NewColonyRegion"
-      },
-      "3063-01-01T00:00:00":
-      {
-        "starsystemdef_Vega": "Kurita"
-      },
-      "3064-01-01T00:00:00":
-      {
-        "starsystemdef_Bristol": "Davion"
-      },
-      "3067-01-01T00:00:00":
-      {
-        "starsystemdef_Ramora": "Outworld"
-      },
-      "3068-01-01T00:00:00":
-      {
-        "starsystemdef_Benet": "Davion"
       }
     },
 
@@ -241,11 +226,7 @@
       "3051-12-22T00:00:00":
       [
         "starsystemdef_Irece"
-      ],
-      "3068-09-01T00:00:00":
-      [
-        "starsystemdef_Wyatt"
-      ],
+      ]
     },
 
     "ShopSwitch": {

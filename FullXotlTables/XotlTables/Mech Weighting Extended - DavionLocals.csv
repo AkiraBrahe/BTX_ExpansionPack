@@ -43,7 +43,7 @@ mechdef_clint_CLNT-2-4T,3,,3,,3,,0
 mechdef_vulcan_VL-2T,16,,16,,15,,17
 mechdef_cicada_CDA-2A,16,,16,,15,,17
 mechdef_clint_CLNT-1-2R,3,,3,,3,,0
-mechdef_kyudo_KY2-D-01,6,,6,,6,,6
+mechdef_kyudo_KY2-D-01,3,,3,,3,,3
 mechdef_assassin_ASN-21,16,,16,,15,,9
 mechdef_assassin_ASN-101,3,,3,,3,,0
 mechdef_clint_CLNT-2-3T,6,,6,,5,,0
@@ -79,7 +79,7 @@ mechdef_hunchback_HBK-4H,3,,3,,3,,3
 mechdef_watchman_WTC-4M,0,,0,,0,3055-01-01T00:00:00Z,34
 mechdef_phoenixhawk_PXH-1D,31,,31,,29,,24
 mechdef_hunchback_HBK-4N,3,,3,,3,,3
-mechdef_rifleman_RFL-2N,3,,3,,3,,5
+mechdef_rifleman_RFL-2N,3,,3,,3,,3
 mechdef_wolverine_WVR-6R,28,,28,,26,,24
 mechdef_wolverine_WVR-6D,24,,22,,20,,17
 mechdef_hunchback_HBK-4P,3,,3,,3,,3

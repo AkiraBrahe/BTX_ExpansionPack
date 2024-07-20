@@ -50,7 +50,7 @@ mechdef_chameleon_CLN-7V,6
 mechdef_shadowhawk_SHD-2H,123
 mechdef_hunchback_HBK-4H,6
 mechdef_hunchback_HBK-4N,6
-mechdef_rifleman_RFL-2N,64
+mechdef_rifleman_RFL-2N,6
 mechdef_wolverine_WVR-6R,92
 mechdef_hunchback_HBK-4P,6
 mechdef_crab_CRB-20,6
@@ -111,5 +111,5 @@ mechdef_awesome_AWS-8Q,107
 mechdef_longbow_LGB-7Q,37
 mechdef_stalker_STK-3H,37
 mechdef_atlas_AS7-A,5
-mechdef_pillager_PLG-1N,5
+mechdef_pillager_PLG-1N,3
 mechdef_atlas_AS7-D,5

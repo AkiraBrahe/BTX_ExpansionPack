@@ -36,7 +36,7 @@ mechdef_cicada_CDA-2B,5,,4,,5,,6
 mechdef_vulcan_VL-2T,23,,22,,5,,6
 mechdef_cicada_CDA-2A,23,,22,,23,,15
 mechdef_clint_CLNT-1-2R,5,,4,,5,,6
-mechdef_kyudo_KY2-D-01,5,,4,,0,,0
+mechdef_kyudo_KY2-D-01,5,,4,,5,,6
 mechdef_clint_CLNT-2-3T,8,,8,,8,,6
 mechdef_cicada_CDA-3C,5,,4,,5,,6
 mechdef_vulcan_VL-5T,5,,4,,5,,6
@@ -56,7 +56,7 @@ mechdef_shadowhawk_SHD-3H,5,,5,,5,,5
 mechdef_shadowhawk_SHD-2H,72,,72,,74,,55
 mechdef_hunchback_HBK-4H,5,,4,,5,,6
 mechdef_hunchback_HBK-4N,5,,4,,5,,6
-mechdef_rifleman_RFL-2N,98,,92,,37,,45
+mechdef_rifleman_RFL-2N,5,,4,,5,,6
 mechdef_wolverine_WVR-6R,72,,72,,74,,88
 mechdef_hunchback_HBK-4P,5,,4,,5,,6
 mechdef_crab_CRB-20,8,,8,,8,,6
@@ -134,7 +134,7 @@ mechdef_stalker_STK-3H,5,,5,,5,,7
 mechdef_atlas_AS7-A,10,,10,,10,,0
 mechdef_highlander_HGN-733,54,,54,,53,,49
 mechdef_kingcrab_KGC-0000,10,,10,,10,,0
-mechdef_pillager_PLG-1N,8,,8,,10,,9
+mechdef_pillager_PLG-1N,5,,5,,5,,7
 mechdef_highlander_HGN-733C,10,,10,,10,,0
 mechdef_highlander_HGN-733P,10,,10,,10,,0
 mechdef_atlas_AS7-LL,1,,1,,1,,1
