@@ -3,7 +3,7 @@
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
   "Description": {
-    "Cost": 43125,
+    "Cost": 25000,
     "Rarity": 99,
     "Purchasable": false,
     "Manufacturer": "Varied",
@@ -14,7 +14,7 @@
     "Details": "Endo Steel was designed especially for use in BattleMech skeletons. Using zero-G manufacturing techniques that uniformly mix high-density steel with lower-density titanium and aluminum, the process produces a metal twice as strong per unit of weight as standard skeleton materials thus halving the weight of the chassis, but at an increase in overall bulk.  Modifying the amount of diamond in the armor, Heavy Ferro-Fibrous Armor doubles the protection of standard Ferro-Fibrous while taking up the same amount of space as both light and standard Ferro-Fibrous combined.",
     "Icon": "uixSvgIcon_special_Equipment"
   },
-  "BonusValueA": "Saves Weight",
+  "BonusValueA": "Reduces All Dmg.",
   "BonusValueB": "Takes Spaces",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -25,7 +25,34 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-HeavyFerroArmor-DmgReduction",
+        "Name": "HEAVY FERRO ARMOR",
+        "Details": "Reduces damage taken by [AMT] on protected locations.",
+        "Icon": "uixSvgIcon_status_ECM-missileDef"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": "0.8",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "not_critable",

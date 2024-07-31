@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
   "PrefabBase": "hatchetman",
   "Tonnage": 45,
-  "InitialTonnage": 0,
+  "InitialTonnage": 13,
   "weightClass": "MEDIUM",
   "Heatsinks": 10,
   "TopSpeed": 64.8,

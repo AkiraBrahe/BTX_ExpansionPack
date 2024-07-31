@@ -203,6 +203,7 @@
   "VariantName": "STM-G2",
   "ChassisTags": {
     "items": [
+      "mr-resize-0.97",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",

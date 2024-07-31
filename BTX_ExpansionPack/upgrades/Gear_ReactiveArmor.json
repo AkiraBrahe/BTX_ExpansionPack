@@ -3,7 +3,7 @@
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
   "Description": {
-    "Cost": 280000,
+    "Cost": 40000,
     "Rarity": 99,
     "Purchasable": false,
     "Manufacturer": "Varied",
@@ -15,7 +15,7 @@
     "Icon": "uixSvgIcon_special_Equipment"
   },
   "BonusValueA": "Halves Indirect Dmg.",
-  "BonusValueB": "",
+  "BonusValueB": "Takes Spaces",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",

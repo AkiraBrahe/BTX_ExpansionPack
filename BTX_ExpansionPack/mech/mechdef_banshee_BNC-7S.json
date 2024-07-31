@@ -11,8 +11,7 @@
       "unit_speed_medium",
       "unit_hot",
       "unit_release",
-      "unit_LosTech",
-      "unit_new"
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Id": "AbilityDefG8V",
-    "Name": "BREACHING SHOT TANK ",
+    "Name": "BREACHING SHOT TANK",
     "Details": "PASSIVE: Attacks with a single weapon ignore COVER and GUARDED on the target. Such an attack also has +1 accuracy.",
     "Icon": "uixSvgIcon_ability_precisionstrike"
   },
@@ -48,10 +48,10 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "BREACHING SHOT",
+        "Id": "AbilityDefG8V",
         "Name": "WEAPON HIT CHANCE IMPROVED",
         "Details": "Weapon attacks have their hit improved by [AMT].",
-        "Icon": "uixSvgIcon_action_multitarget"
+        "Icon": "uixSvgIcon_ability_precisionstrike"
       },
       "nature": "Buff",
       "statisticData": {

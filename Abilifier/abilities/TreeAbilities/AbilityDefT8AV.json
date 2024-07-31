@@ -43,7 +43,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "AbilityDefT8Av",
+        "Id": "AbilityDefT8AV",
         "Name": "MASTER TACTICIAN",
         "Details": "+1 to base Initiative",
         "Icon": "uixSvgIcon_ability_mastertactician"

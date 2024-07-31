@@ -1,0 +1,115 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 30000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "Endo Steel / Reactive",
+    "UIName": "Endo Steel / Reactive",
+    "Id": "Gear_EndoReactiveCombo_5_Slot",
+    "Name": "Endo Steel / Reactive",
+    "Details": "Endo Steel was designed especially for use in BattleMech skeletons. Using zero-G manufacturing techniques that uniformly mix high-density steel with lower-density titanium and aluminum, the process produces a metal twice as strong per unit of weight as standard skeleton materials thus halving the weight of the chassis, but at an increase in overall bulk.  Reactive Armor is a type of specialized armor that uses a series of microscopic explosions to reduce the effects of explosive weapons fire like missiles, artillery, and mortars. When these weapons hit a unit with Reactive Armor, the damage is halved.",
+    "Icon": "uixSvgIcon_special_Equipment"
+  },
+  "BonusValueA": "Halves Indirect Dmg.",
+  "BonusValueB": "Takes Spaces",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 5,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-ReactiveArmor-MissileDmgReduction",
+        "Name": "REACTIVE ARMOR",
+        "Details": "Reduces the damage taken by [AMT] from explosive weapons such as missiles and artillery on protected locations.",
+        "Icon": "uixSvgIcon_status_ECM-missileDef"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "DamageReductionMultiplierMissile",
+        "operation": "Float_Multiply",
+        "modValue": "0.5",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-ReactiveArmor-AoEDmgReduction",
+        "Name": "REACTIVE ARMOR",
+        "Details": "Reduces the damage taken from explosions by [AMT].",
+        "Icon": "uixSvgIcon_status_ECM-missileDef"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACAoEDamageMult",
+        "operation": "Float_Multiply",
+        "modValue": "0.5",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-ReactiveArmor-APProtection",
+        "Name": "REACTIVE ARMOR",
+        "Details": "Protects against all types of armor-piercing damage.",
+        "Icon": "uixSvgIcon_status_ECM-missileDef"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACAPProtection",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

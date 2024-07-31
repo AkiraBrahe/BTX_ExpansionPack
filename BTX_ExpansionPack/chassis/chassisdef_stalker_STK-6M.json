@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
   "PrefabBase": "stalker",
   "Tonnage": 85,
-  "InitialTonnage": 28.56,
+  "InitialTonnage": 30.56,
   "weightClass": "ASSAULT",
   "Heatsinks": 22,
   "TopSpeed": 54,
@@ -99,6 +99,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false

@@ -11,8 +11,7 @@
       "unit_jumpOK",
       "unit_release",
       "unit_mechpack",
-      "unit_LosTech",
-      "unit_new"
+      "unit_LosTech"
     ],
     "tagSetSourceFile": ""
   },

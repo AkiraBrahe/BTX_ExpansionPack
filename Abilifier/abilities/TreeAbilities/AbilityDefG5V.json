@@ -26,7 +26,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "MULTI-TARGET-TANK",
+        "Id": "AbilityDefG5V",
         "Name": "WEAPON HIT CHANCE IMPROVED",
         "Details": "Weapon attacks have their hit improved by [AMT].",
         "Icon": "uixSvgIcon_action_multitarget"

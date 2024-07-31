@@ -198,6 +198,7 @@
   "VariantName": "GLH-2",
   "ChassisTags": {
     "items": [
+      "mr-resize-0.95",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",

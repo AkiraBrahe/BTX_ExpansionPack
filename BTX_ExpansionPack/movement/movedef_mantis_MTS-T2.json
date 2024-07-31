@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_mantis_MTS-T2",
+    "Name": "MovementCapabilitiesDef for Mantis MTS-T2",
+    "Details": "270 XL Fusion Engine - 10/17 movement",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 235.0,
+  "MaxSprintDistance": 390.0,
+  "WalkVelocity": 18.0,
+  "RunVelocity": 30.0,
+  "SprintVelocity": 36.0,
+  "LimpVelocity": 9.0,
+  "WalkAcceleration": 25.0,
+  "SprintAcceleration": 35.0,
+  "MaxRadialVelocity": 40.0,
+  "MaxRadialAcceleration": 180.0,
+  "MaxJumpVel": 50.0,
+  "MaxJumpAccel": 20.0,
+  "MaxJumpVerticalAccel": 45.0
+}

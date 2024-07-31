@@ -26,7 +26,7 @@
     /*defines which mech statistics have to match*/
     "CrossAssemblySpeedMatch": true,
     "CrossAssemblyTonnsMatch": true,
-    "CrossAssemblyTagsMatch": [ "chassis_endo", "chassis_ferro", "chassis_DHS" ],
+    "CrossAssemblyTagsMatch": [ "chassis_DHS", "chassis_endo", "chassis_composite", "chassis_ferro", "chassis_hardened", "chassis_reactive", "chassis_reflective", "chassis_stealth" ],
     "CrossAssemblyInventoryMatch": [ "Gear_Light_Engine", "Gear_XL_Engine", "Gear_XL_Engine_Clan", "Gear_XL_Engine_Clan_2", "Gear_XXL_Engine" ],
     /*exclude mechs from crossassembly (if you dont want to add tags to them)*/
     "CrossAssemblyExcludedMechs": [ "mechdef_mad_cat_timber_wolf-PRYDE", "mechdef_vulture_mad_dog-FURY" ],
