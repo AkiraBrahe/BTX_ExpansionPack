@@ -232,6 +232,14 @@
   "YangsThoughts": "Now, this is one 'Mech that's earned its place in the annals of BattleMech failures. The Champion LAM, you see, was a bit of a misfire, even if it could transition from land to air mode pretty smoothly. The problem was the flight itself. This thing handled like a brick, even with those massive jump thrusters. And don't even get me started on its firepower. Just three Medium Lasers and an SRM-6? That's hardly enough to make a dent in most BattleMechs.",
   "FixedEquipment": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_LAM_Systems",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy",
       "ComponentDefType": "JumpJet",
@@ -243,14 +251,6 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_JumpJet_LAMJet_Heavy_Idle",
       "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_LAM_Systems",
-      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false

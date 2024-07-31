@@ -1,0 +1,31 @@
+{
+  // Minimum grade (slope) a unit can traverse. A value of 0.1 means a 10% incline is the minimum.
+  "MinGrade": 0.1,
+
+  // Maximum grade (slope) a unit can traverse. A value of 0.8 means an 80% incline is the maximum.
+  "MaxGrade": 0.8,
+
+  // Maximum steepness a unit can handle without penalties. Measured in degrees.
+  "MaxSteepness": 40.0,
+
+  // Multiplier applied to movement cost based on slope. A value of 0.5 means moving uphill costs 50% more.
+  "GradeMultiplier": 0.5,
+
+  // Maximum multiplier for movement cost when ascending. Likely a placeholder with no practical effect.
+  "GradeMultMaxAscending": 99999.9,
+
+  // Maximum multiplier for movement cost when descending. Likely a placeholder with no practical effect.
+  "GradeMultMaxDescending": 99999.9,
+
+  // Maximum height of a step or cliff a unit can climb without penalties.
+  "MaxStairSize": 4.0,
+
+  // Base movement cost for moving forward.
+  "MoveCostNormal": 1.05,
+
+  // Base movement cost for moving backward.
+  "MoveCostBackward": 1.5,
+
+  // Influence of pathing angle on movement cost. A value of 0.0 means no effect.
+  "PathingAngleCost": 0.0
+}

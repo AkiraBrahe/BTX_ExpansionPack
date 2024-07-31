@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_goliath"
   },
   "MovementCapDefID": "movedef_zeus_ZEU-6S",
-  "PathingCapDefID": "pathingdef_assault",
+  "PathingCapDefID": "pathingdef_assault_quad",
   "HardpointDataDefID": "hardpointdatadef_cugoliath",
   "PrefabIdentifier": "chrprfmech_goliath",
   "PrefabBase": "cugoliath",
@@ -39,12 +39,12 @@
   "Radius": 8,
   "PunchesWithLeftArm": true,
   "MeleeDamage": 70,
-  "MeleeInstability": 20,
+  "MeleeInstability": 80,
   "MeleeToHitModifier": 0,
-  "DFADamage": 80,
+  "DFADamage": 100,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 80,
-  "DFAInstability": 40,
+  "DFASelfDamage": 100,
+  "DFAInstability": 100,
   "CustomParts": {
     "Unaffected": {
       "DesignMasks": "false",

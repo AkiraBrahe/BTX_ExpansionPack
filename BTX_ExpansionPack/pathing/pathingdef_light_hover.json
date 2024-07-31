@@ -11,7 +11,7 @@
   "GradeMultiplier": 0.7,
   "GradeMultMaxAscending": 99999.9,
   "GradeMultMaxDescending": 99999.9,
-  "MaxStairSize": 4.0,
+  "MaxStairSize": 10.0,
   "MoveCostNormal": 1.05,
   "MoveCostBackward": 1.5,
   "PathingAngleCost": 0.5

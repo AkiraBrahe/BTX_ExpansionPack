@@ -1,29 +1,27 @@
 {
   "Description": {
-    "Cost": 10160000,
-    "Rarity": 4,
+    "Cost": 28100000,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Sirocco",
-    "Id": "chassisdef_sirocco_SRC-3C",
-    "Name": "Sirocco",
-    "Details": "",
-    "Icon": "uixTxrIcon_sirocco"
+    "UIName": "Bull Shark",
+    "Id": "chassisdef_bullshark_BSK-M3",
+    "Name": "Bull Shark",
+    "Details": "Outfitted with conventional Inner Sphere weaponry, the M3 lacks the long-range artillery piece of the BSK-MAZ. Instead, each arm is fitted with an AC/10 and AC/5, and both side torsos mount two standard Medium Lasers and a pair of LRM-5s. In addition, the double heat sinks in the engine have been replaced by standard Inner Sphere single models. It retains the endo steel chassis and extralight fusion engine of the BSK-MAZ model, however, which brings its C-Bill price far above any other individual BattleMech available.",
+    "Icon": "uixTxrIcon_bullshark"
   },
-  "MovementCapDefID": "movedef_sirocco_SRC-3C",
+  "MovementCapDefID": "movedef_bullshark_BSK-M3",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_cusirocco",
-  "PrefabIdentifier": "chrprfmech_cusiroccobase-001",
-  "PrefabBase": "cusirocco",
+  "HardpointDataDefID": "hardpointdatadef_bullshark",
+  "PrefabIdentifier": "chrPrfMech_bullsharkBase-001",
+  "PrefabBase": "bullshark",
   "Tonnage": 95,
-  "InitialTonnage": 33.19,
+  "InitialTonnage": 19.5,
   "weightClass": "ASSAULT",
-  "Heatsinks": 16,
-  "TopSpeed": 54,
-  "TurnRadius": 90,
+  "Heatsinks": 10,
   "MaxJumpjets": 0,
-  "Stability": 300,
+  "Stability": 200,
   "StabilityDefenses": [
     0,
     0,
@@ -38,33 +36,17 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 85,
+  "MeleeDamage": 130,
   "MeleeInstability": 95,
   "MeleeToHitModifier": 0,
   "DFADamage": 120,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 120,
   "DFAInstability": 120,
-  "CustomParts": {
-    "FiringArc": 360,
-    "Unaffected": {
-      "DesignMasks": "false",
-      "Pathing": "false",
-      "Fire": "false",
-      "Landmines": "false"
-    },
-    "ArmsCountedAsLegs": true,
-    "CustomParts": []
-  },
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -75,29 +57,37 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 200,
+      "MaxArmor": 160,
       "MaxRearArmor": -1,
-      "InternalStructure": 100
+      "InternalStructure": 80
     },
     {
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Energy",
           "Omni": false
         },
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -120,15 +110,19 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Energy",
           "Omni": false
         },
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -142,15 +136,19 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 200,
+      "MaxArmor": 160,
       "MaxRearArmor": -1,
-      "InternalStructure": 100
+      "InternalStructure": 80
     },
     {
       "Location": "LeftLeg",
@@ -174,81 +172,75 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 14,
-      "z": 0
+      "y": 15,
+      "z": 1
     },
     {
-      "x": 4,
-      "y": 15,
+      "x": 6,
+      "y": 13.5,
       "z": -1
     },
     {
-      "x": -4,
-      "y": 15,
+      "x": -6,
+      "y": 13.5,
       "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 14,
-      "z": 0
+      "y": 15,
+      "z": 1
     },
     {
-      "x": 4,
-      "y": 15,
+      "x": 6,
+      "y": 13.5,
       "z": -1
     },
     {
-      "x": -4,
-      "y": 15,
+      "x": -6,
+      "y": 13.5,
       "z": -1
     },
     {
       "x": 3.5,
-      "y": 5.5,
-      "z": 1
+      "y": 7,
+      "z": -1
     },
     {
       "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "y": 7,
+      "z": -1
     }
   ],
-  "VariantName": "SRC-3C",
+  "VariantName": "BSK-M3",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.9",
       "chassis_DHS",
-      "mech_quirk_directionaltorsomount",
-      "mech_quirk_difficulttomaintain"
+      "chassis_endo",
+      "chassis_clan",
+      "mech_quirk_distracting"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Weapons Platform",
-  "YangsThoughts": "",
+  "StockRole": "Heavy Brawler",
+  "YangsThoughts": "This is something brand-new to me, Commander. I don't know where this 'Mech came from, but it's a serious force to be reckoned with because of its heavy weaponry and nearly impenetrable armor. Quite a find!",
   "FixedEquipment": [
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Quad_Actuators",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Quad_Actuators",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

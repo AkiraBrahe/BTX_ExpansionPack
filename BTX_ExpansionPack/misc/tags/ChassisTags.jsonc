@@ -10,9 +10,10 @@
       "chassis_composite",
       
       "chassis_ferro",
-      "chassis_reactive",
-      "chassis_stealth",
       "chassis_hardened",
+      "chassis_reactive",
+      "chassis_reflective",
+      "chassis_stealth",
 
     /* CASE */
       "mech_case_centre",

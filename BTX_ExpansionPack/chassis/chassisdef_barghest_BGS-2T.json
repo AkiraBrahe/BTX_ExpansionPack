@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_barghest"
   },
   "MovementCapDefID": "movedef_barghest_BGS-2T",
-  "PathingCapDefID": "pathingdef_medium_quad",
+  "PathingCapDefID": "pathingdef_heavy_quad",
   "HardpointDataDefID": "hardpointdatadef_cubarghest",
   "PrefabIdentifier": "chrprfmech_barghest",
   "PrefabBase": "cubarghest",

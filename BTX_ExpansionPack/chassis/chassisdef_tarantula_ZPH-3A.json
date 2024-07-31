@@ -1,0 +1,306 @@
+{
+  "Description": {
+    "Cost": 3560000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Tarantula",
+    "Id": "chassisdef_tarantula_ZPH-3A",
+    "Name": "Tarantula",
+    "Details": "The 3A variant, which aims to increase the Tarantula's life expectancy in an engagement, removes the Medium Lasers, the Streak SRM-2 launcher, and one jump jet. This free weight is used to mount a pair of Medium Pulse Lasers and two additional tons of armor, bringing the total protection to six and a half tons.",
+    "Icon": "uixTxrIcon_tarantula"
+  },
+  "MovementCapDefID": "movedef_tarantula_ZPH-3A",
+  "PathingCapDefID": "pathingdef_light_quad",
+  "HardpointDataDefID": "hardpointdatadef_cutarantula",
+  "PrefabIdentifier": "chrprfmech_cutarantulabase-001",
+  "PrefabBase": "cutarantulabase",
+  "Tonnage": 25,
+  "InitialTonnage": 12,
+  "weightClass": "LIGHT",
+  "Heatsinks": 10,
+  "TopSpeed": 129.6,
+  "TurnRadius": 90,
+  "MaxJumpjets": 7,
+  "Stability": 150,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 25,
+  "MeleeInstability": 25,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 30,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 30,
+  "DFAInstability": 30,
+  "CustomParts": {
+    "Unaffected": {
+      "DesignMasks": "false",
+      "Pathing": "false",
+      "Fire": "false",
+      "Landmines": "false"
+    },
+    "ArmsCountedAsLegs": true,
+    "CustomParts": []
+  },
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "ZPH-3A",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "mech_quirk_easytopilot",
+      "mech_quirk_extendedtorsotwistquad",
+      "mech_quirk_exposedactuators"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Scout",
+  "YangsThoughts": "The Tarantula is lightly armed but incredibly nimble.  Our pilots won't be taking down Clan 'Mechs in this thing, but they can help spot them cheaply and with so much speed that it will probably keep them alive.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Quad_Actuators",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Quad_Actuators",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}
