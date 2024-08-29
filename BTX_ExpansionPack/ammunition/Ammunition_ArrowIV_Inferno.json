@@ -60,12 +60,11 @@
       "Description": {
         "Id": "StatusEffect-HeatDamageReduction",
         "Name": "Inferno VFX",
-        "Details": "Reduces incoming heat damage by 2%, stacks.",
+        "Details": "Reduces incoming heat damage by 2%. Stacks.",
         "Icon": "uixSvgIcon_statusOnFire"
       },
       "nature": "Buff",
       "statisticData": {
-        "appliesEachTick": false,
         "statName": "CACIncomingHeatMult",
         "operation": "Float_Multiply",
         "modValue": "0.98",
@@ -79,6 +78,7 @@
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
         "showInStatusPanel": false,
         "hideApplicationFloatie": true
       },

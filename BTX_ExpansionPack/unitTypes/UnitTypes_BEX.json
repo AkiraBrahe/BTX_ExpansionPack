@@ -17,6 +17,7 @@
 
     { "Name" : "Squad", "AnyTags" : [ "ProtoMechPoint", "PowerArmor", "unit_powerarmor", "unit_infantry" ] },
     { "Name" : "Vehicle", "AnyTags" : [ "unit_vehicle", "fake_vehicle_chassis" ] },
+    { "Name" : "VTOL", "RequiredTags" : [ "unit_vehicle", "unit_vtol" ] },
     { "Name" : "Turret", "RequiredTags" : [ "unit_turret" ] },
 
     { "Name" : "IgnoreAutofix", "AnyTags" : [ "ignore_autofix", "noautofix", "fake_vehicle_chassis" ] },

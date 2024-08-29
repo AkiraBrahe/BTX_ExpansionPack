@@ -10,6 +10,7 @@
       "unit_armor_medium",
       "unit_speed_medium",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""

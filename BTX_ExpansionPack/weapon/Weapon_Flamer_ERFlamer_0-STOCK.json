@@ -19,10 +19,10 @@
   "DamageVariance": 0,
   "DistantVariance": 0.5,
   "DistantVarianceReversed": false,
+  "isDamageVariation": false,
   "isHeatVariation": true,
   "HeatDamage": 20,
   "AccuracyModifier": 0,
-  "isDamageVariation": false,
   "CriticalChanceMultiplier": 1,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -73,14 +73,14 @@
       "Description": {
         "Id": "StatusEffect-HeatDamageReduction",
         "Name": "Inferno VFX",
-        "Details": "Reduces incoming heat damage by 1%, stacks.",
+        "Details": "Reduces incoming heat damage by 2%. Stacks.",
         "Icon": "uixSvgIcon_statusOnFire"
       },
       "nature": "Buff",
       "statisticData": {
         "statName": "CACIncomingHeatMult",
         "operation": "Float_Multiply",
-        "modValue": "0.99",
+        "modValue": "0.98",
         "modType": "System.Single"
       }
     },
@@ -91,6 +91,7 @@
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
         "showInStatusPanel": false,
         "hideApplicationFloatie": true
       },

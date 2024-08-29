@@ -11,6 +11,7 @@
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
