@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_jinggau_JN-G7L",
   "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_balar",
-  "PrefabIdentifier": "chrprfmech_balarbase-001",
-  "PrefabBase": "balar",
+  "HardpointDataDefID": "hardpointdatadef_jinggau",
+  "PrefabIdentifier": "chrprfmech_jinggaubase-001",
+  "PrefabBase": "jinggau",
   "Tonnage": 65,
   "InitialTonnage": 25.5,
   "weightClass": "HEAVY",
@@ -205,7 +205,7 @@
   "VariantName": "JN-G7L",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.9",
+      "mr-resize-0.87",
       "chassis_DHS",
       "chassis_endo",
       "mech_quirk_narrowlowprofile",
