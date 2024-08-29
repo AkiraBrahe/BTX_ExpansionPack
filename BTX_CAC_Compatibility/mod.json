@@ -4,7 +4,7 @@
   "Description": "Modifies BTX (and BTXMinusWeapons) for CAC.",
   "Author": "mcb",
   "Website": "",
-  "Version": "0.1.22.1",
+  "Version": "0.1.22.3",
   "DependsOn": [
     "BT_Extended",
     "BT_Extended_Timeline",
@@ -540,6 +540,11 @@
       "Path": "jumpjets"
     },
     {
+      "Type": "JumpJetDef",
+      "Path": "jumpjet_merge",
+      "ShouldMergeJSON": true
+    },
+    {
       "Type": "UpgradeDef",
       "Path": "upgradesNew"
     },
@@ -614,8 +619,16 @@
       "Path": "cc_defaults"
     },
     {
+      "Type": "CCCEquipLocationTag",
+      "Path": "cc_equiplocationtags"
+    },
+    {
       "Type": "CCTagRestrictions",
       "Path": "cc_tagrestrict"
+    },
+    {
+      "Type": "CCUnitTypes",
+      "Path": "cc_unittypes"
     },
     {
       "Type": "CombatGameConstants",

@@ -2,7 +2,14 @@
   "Settings": [
     {
       "Name": "TAC",
-      "MaxEquiped": 1
+      "AllowMinOverflow": false,
+      "BaseLimits": [
+        {
+          "Location": "All",
+          "Min": 0,
+          "Max": 1
+        }
+      ]
     }
   ]
 }
