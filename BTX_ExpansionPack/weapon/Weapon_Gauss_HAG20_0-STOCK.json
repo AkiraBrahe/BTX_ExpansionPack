@@ -52,6 +52,7 @@
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "ImprovedBallistic": true,
+  "HitGenerator": "Cluster",
   "BallisticDamagePerPallet": true,
   "Modes": [
     {

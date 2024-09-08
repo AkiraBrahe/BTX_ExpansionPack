@@ -1,4 +1,6 @@
 {
+  "DirectFireModifier": -1,
+  "IndirectFireCapable": true,
   "Description": {
     "Cost": 1125000
   },
@@ -7,7 +9,8 @@
       "component_type_stock",
       "component_type_clan",
       "component_type_lostech",
-      "range_standard"
+      "range_standard",
+      "component_atm"
     ],
     "tagSetSourceFile": ""
   }

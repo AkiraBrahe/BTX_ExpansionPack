@@ -69,7 +69,7 @@
       "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
       "HitGenerator": "Cluster",
       "ClusteringModifier": 10,
-      "AccuracyModifier": -4
+      "DirectFireModifier": -4
     },
     {
       "Id": "SRM",
@@ -90,7 +90,7 @@
       "WeaponEffectID": "WeaponEffect-Weapon_SRM4",
       "HitGenerator": "Cluster",
       "ClusteringModifier": 10,
-      "AccuracyModifier": -4
+      "DirectFireModifier": -4
     }
   ],
   "statusEffects": [],

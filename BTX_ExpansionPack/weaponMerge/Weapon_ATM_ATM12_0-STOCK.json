@@ -1,4 +1,6 @@
 {
+  "AccuracyModifier": -1,
+  "IndirectFireCapable": true,
   "Description": {
     "Cost": 1750000
   },

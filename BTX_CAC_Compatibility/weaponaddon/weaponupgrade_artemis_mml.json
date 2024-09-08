@@ -9,13 +9,13 @@
     {
       "Id": "LRM",
       "ClusteringModifier": 10,
-      "AccuracyModifier": -4
+      "DirectFireModifier": -4
     },
     {
       "Id": "SRM",
       "HitGenerator": "Cluster",
       "ClusteringModifier": 10,
-      "AccuracyModifier": -4
+      "DirectFireModifier": -4
     }
   ]
 }

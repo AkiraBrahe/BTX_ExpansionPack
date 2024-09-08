@@ -1,4 +1,6 @@
 {
+  "DirectFireModifier": -1,
+  "IndirectFireCapable": true,
   "Description": {
     "Cost": 250000
   },

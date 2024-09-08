@@ -1,4 +1,10 @@
 {
+  "Custom": {
+    "Flags": [
+      "not_broken",
+      "no_salvage"
+    ]
+  },
   "Description": {
     "Cost": 1000,
     "Rarity": 99,
