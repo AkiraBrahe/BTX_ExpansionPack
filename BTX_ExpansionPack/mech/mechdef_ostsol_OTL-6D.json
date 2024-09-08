@@ -1,0 +1,199 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_heavy",
+      "unit_role_brawler",
+      "unit_lance_vanguard",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_hot",
+      "unit_release",
+      "unit_mechpack",
+      "unit_LosTech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_ostsol_OTL-6D",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 13120000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Ostsol OTL-6D",
+    "Id": "mechdef_ostsol_OTL-6D",
+    "Name": "Ostsol",
+    "Details": "",
+    "Icon": "uixTxrIcon_ostsol"
+  },
+  "simGameMechPartCost": 1310000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 100,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 100,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 105,
+      "CurrentRearArmor": 35,
+      "CurrentInternalStructure": 70,
+      "AssignedArmor": 105,
+      "AssignedRearArmor": 35
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 150,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 100,
+      "AssignedArmor": 150,
+      "AssignedRearArmor": 50
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 105,
+      "CurrentRearArmor": 35,
+      "CurrentInternalStructure": 70,
+      "AssignedArmor": 105,
+      "AssignedRearArmor": 35
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 100,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 100,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 140,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 70,
+      "AssignedArmor": 140,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 140,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 70,
+      "AssignedArmor": 140,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

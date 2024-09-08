@@ -1,0 +1,269 @@
+{
+  "Description": {
+    "Cost": 7840000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Wolfhound",
+    "Id": "chassisdef_wolfhound_WLF-3S",
+    "Name": "Wolfhound",
+    "Details": "",
+    "Icon": "uixTxrIcon_wolfhound"
+  },
+  "MovementCapDefID": "movedef_wolfhound_WLF-3S",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_wolfhound",
+  "PrefabIdentifier": "chrprfmech_wolfhoundbase-001",
+  "PrefabBase": "wolfhound",
+  "Tonnage": 35,
+  "InitialTonnage": 16.5,
+  "weightClass": "LIGHT",
+  "Heatsinks": 10,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 45,
+  "MeleeInstability": 35,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 35,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 35,
+  "DFAInstability": 35,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 1,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 12,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "WLF-3S",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "mech_quirk_easytomaintain",
+      "mech_quirk_fullheadejection",
+      "mech_quirk_goodreputation"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Light Brawler",
+  "YangsThoughts": "",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Light_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Light_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoSteel_5_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoSteel_5_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

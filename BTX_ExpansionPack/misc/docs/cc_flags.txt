@@ -1,0 +1,16 @@
+InvUnlimited = flags.IsSet("inv_unlimited");
+
+Default = flags.IsSet("default");
+AutoRepair = Default || flags.IsSet("autorepair");
+NoRemove = Default || flags.IsSet("no_remove");
+NoSalvage = Default || InvUnlimited || flags.IsSet("no_salvage");
+HideFromInv = Default || flags.IsSet("hide");
+
+HideFromEquip = flags.IsSet("hide_equip");
+HideFromCombat = flags.IsSet("hide_combat");
+NotBroken = flags.IsSet("not_broken");
+Vital = flags.IsSet("vital");
+NotDestroyed = flags.IsSet("not_destroyed");
+Invalid = flags.IsSet("invalid");
+
+All items that every member of the squad share have the flags "not_broken, not_destroyed, ignore_damage, no_salvage"
