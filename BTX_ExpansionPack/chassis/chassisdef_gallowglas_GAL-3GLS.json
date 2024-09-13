@@ -210,6 +210,7 @@
       "ComponentDefID": "Gear_Light_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -218,6 +219,7 @@
       "ComponentDefID": "Gear_Light_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,6 +228,7 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,6 +237,7 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,6 +246,7 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_1_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -250,6 +255,7 @@
       "ComponentDefID": "Gear_Triple_Strength_Myomer_1_Idle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,6 +264,7 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -266,6 +273,7 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -274,6 +282,7 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -282,6 +291,7 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -290,6 +300,7 @@
       "ComponentDefID": "Gear_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -298,6 +309,7 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -306,6 +318,7 @@
       "ComponentDefID": "Gear_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -314,6 +327,7 @@
       "ComponentDefID": "Gear_TAC7",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

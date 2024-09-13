@@ -225,6 +225,7 @@
       "ComponentDefID": "Gear_SensorCAC_BeagleClan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

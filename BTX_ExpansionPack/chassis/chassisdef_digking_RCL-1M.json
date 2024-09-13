@@ -196,6 +196,7 @@
       "ComponentDefID": "Gear_Actuator_DigKing_RockCutter",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

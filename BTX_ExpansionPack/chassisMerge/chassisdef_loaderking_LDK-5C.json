@@ -181,6 +181,7 @@
       "ComponentDefID": "Gear_Extended_Fuel_Tank_2t",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -189,6 +190,7 @@
       "ComponentDefID": "Gear_CargoBay_Container",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -197,6 +199,7 @@
       "ComponentDefID": "Gear_Actuator_LiftHoist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

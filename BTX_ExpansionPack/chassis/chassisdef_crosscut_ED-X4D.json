@@ -184,6 +184,7 @@
       "ComponentDefID": "Weapon_Industrial_LiftHoist",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -192,6 +193,7 @@
       "ComponentDefID": "Gear_Actuator_Crosscut_DualSaw",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

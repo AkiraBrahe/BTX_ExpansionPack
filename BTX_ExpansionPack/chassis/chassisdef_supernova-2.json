@@ -209,6 +209,7 @@
       "ComponentDefID": "Gear_TAC2_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

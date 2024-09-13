@@ -221,6 +221,7 @@
       "ComponentDefID": "Gear_General_Earthwerks_Chassis",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

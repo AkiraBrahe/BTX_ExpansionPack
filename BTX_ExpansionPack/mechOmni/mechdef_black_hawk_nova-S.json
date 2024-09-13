@@ -73,6 +73,14 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",

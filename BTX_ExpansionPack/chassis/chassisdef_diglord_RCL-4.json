@@ -198,6 +198,7 @@
       "ComponentDefID": "Gear_Extended_Fuel_Tank_1t",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -206,6 +207,7 @@
       "ComponentDefID": "Gear_Actuator_DigKing_MiningDrill",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -214,6 +216,7 @@
       "ComponentDefID": "Gear_Actuator_DigKing_RockCutter",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

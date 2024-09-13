@@ -202,6 +202,7 @@
       "ComponentDefID": "Gear_Actuator_Valiant_Hatchet",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -210,6 +211,7 @@
       "ComponentDefID": "Gear_MASC_2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

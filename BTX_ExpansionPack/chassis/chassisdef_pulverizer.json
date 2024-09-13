@@ -224,6 +224,7 @@
       "ComponentDefID": "Gear_SensorCAC_GuardianClan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

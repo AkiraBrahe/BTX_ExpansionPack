@@ -221,6 +221,7 @@
       "ComponentDefID": "Gear_Cockpit_CommandConsole",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

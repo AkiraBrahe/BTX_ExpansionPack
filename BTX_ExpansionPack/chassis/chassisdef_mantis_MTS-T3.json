@@ -209,6 +209,7 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -217,6 +218,7 @@
       "ComponentDefID": "Gear_XL_Gyro",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -225,6 +227,7 @@
       "ComponentDefID": "Gear_XL_Engine",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -233,6 +236,7 @@
       "ComponentDefID": "Gear_EndoReactiveCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -241,6 +245,7 @@
       "ComponentDefID": "Gear_EndoReactiveCombo_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -249,6 +254,7 @@
       "ComponentDefID": "Gear_EndoReactiveCombo_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -257,6 +263,7 @@
       "ComponentDefID": "Gear_EndoReactiveCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -265,6 +272,7 @@
       "ComponentDefID": "Gear_EndoReactiveCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -273,6 +281,7 @@
       "ComponentDefID": "Gear_EndoReactiveCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -281,6 +290,7 @@
       "ComponentDefID": "Gear_Actuator_Mantis_Claws",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -289,6 +299,7 @@
       "ComponentDefID": "Gear_MASC_2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -297,6 +308,7 @@
       "ComponentDefID": "Gear_Actuator_Mantis_Claws",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     }

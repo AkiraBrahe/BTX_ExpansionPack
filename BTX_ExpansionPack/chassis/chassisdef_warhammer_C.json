@@ -220,6 +220,7 @@
       "ComponentDefID": "Gear_General_Optimized_Capacitors",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

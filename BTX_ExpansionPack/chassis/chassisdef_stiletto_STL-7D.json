@@ -200,6 +200,7 @@
       "ComponentDefID": "Gear_General_Targeting_Baffle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -208,6 +209,7 @@
       "ComponentDefID": "Gear_General_Targeting_Baffle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -210,6 +210,7 @@
       "ComponentDefID": "Gear_Cockpit_CommandConsole",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -218,6 +219,7 @@
       "ComponentDefID": "Gear_Quad_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -226,6 +228,7 @@
       "ComponentDefID": "Gear_Sensor_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -234,6 +237,7 @@
       "ComponentDefID": "Gear_Sensor_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -242,6 +246,7 @@
       "ComponentDefID": "Gear_Comms_Equipment_3t",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -250,6 +255,7 @@
       "ComponentDefID": "Weapon_Industrial_LiftHoist_Small",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -258,6 +264,7 @@
       "ComponentDefID": "Weapon_Industrial_RockCutter",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -266,6 +273,7 @@
       "ComponentDefID": "Gear_CargoBay_Container",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -274,6 +282,7 @@
       "ComponentDefID": "Gear_CargoBay_Container",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -282,6 +291,7 @@
       "ComponentDefID": "Weapon_Industrial_LiftHoist_Small",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -290,6 +300,7 @@
       "ComponentDefID": "Weapon_Industrial_PileDriver",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -298,6 +309,7 @@
       "ComponentDefID": "Gear_Quad_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -306,6 +318,7 @@
       "ComponentDefID": "Gear_Sensor_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -314,6 +327,7 @@
       "ComponentDefID": "Gear_Sensor_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -322,6 +336,7 @@
       "ComponentDefID": "Gear_Sensor_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -330,6 +345,7 @@
       "ComponentDefID": "Gear_Sensor_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -338,6 +354,7 @@
       "ComponentDefID": "Gear_Sensor_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -346,6 +363,7 @@
       "ComponentDefID": "Gear_Sensor_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -184,6 +184,7 @@
       "ComponentDefID": "Gear_CargoBay_Small",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -192,6 +193,7 @@
       "ComponentDefID": "Gear_Actuator_Crosscut_Chainsaw",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

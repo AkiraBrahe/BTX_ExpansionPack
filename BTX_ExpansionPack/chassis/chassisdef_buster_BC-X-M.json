@@ -183,6 +183,7 @@
       "ComponentDefID": "Gear_Actuator_Backhoe",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -191,6 +192,7 @@
       "ComponentDefID": "Gear_Actuator_ExcavatorClaw",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

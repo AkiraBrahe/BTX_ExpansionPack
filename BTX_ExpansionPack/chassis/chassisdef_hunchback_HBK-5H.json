@@ -208,6 +208,7 @@
       "ComponentDefID": "Gear_General_Komiyaba_Grapple_Frame",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -216,6 +217,7 @@
       "ComponentDefID": "Gear_General_Komiyaba_Grapple_Frame",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }

@@ -225,6 +225,7 @@
       "ComponentDefID": "Gear_Cockpit_CommandConsole_with_B2000",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
