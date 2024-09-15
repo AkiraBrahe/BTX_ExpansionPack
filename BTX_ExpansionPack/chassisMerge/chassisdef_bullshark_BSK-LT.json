@@ -7,7 +7,7 @@
           "Type": "MechDef"
         },
         {
-          "Id": "Weapon_MortarCAC_LongTom",
+          "Id": "Weapon_Artillery_LongTomCannon_0-STOCK",
           "Type": "WeaponDef"
         }
       ]
@@ -22,7 +22,7 @@
     "UIName": "Bull Shark",
     "Id": "chassisdef_bullshark_BSK-LT",
     "Name": "Bull Shark",
-    "Details": "The BSK-LT variant replaces the Thumper of the BSK-MAZ with a Long Tom Artillery Cannon. To fit the massive weapon on the Bull Shark, one of the two UAC/5s and two ER Medium Lasers had to be removed.",
+    "Details": "The BSK-LT variant replaces the Thumper of the BSK-MAZ with a Long Tom Artillery Cannon. To fit the massive weapon on the Bull Shark, one of the two LB 10-X ACs and two ER Medium Lasers had to be removed.",
     "Icon": "uixTxrIcon_bullshark"
   },
   "MovementCapDefID": "movedef_bullshark_BSK-MAZ",
@@ -253,15 +253,6 @@
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Addon_Artillery_Loader_BSK",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "TargetComponentGUID": "ArtilleryLoader0"
     }
   ]
 }

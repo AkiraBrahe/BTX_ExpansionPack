@@ -172,6 +172,15 @@
     },
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Addon_Artillery_Loader_BSK",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "ArtilleryLoader0"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -184,7 +193,7 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "LocalGUID": "LoadingMechanism0"
+      "LocalGUID": "ArtilleryLoader0"
     },
     {
       "MountedLocation": "RightArm",
