@@ -357,11 +357,8 @@ Listed below are a comprehensive list of changes and detailed information about 
 	² with High-Explosive, Laser-Guided, Cluster, and Inferno Bombs.
 	</details>
 
-### Timeline Expansion (WIP - v0.9 update)
-
-#### In-Game Map
-- Timeline has been expanded to encompass the FedCom Civil War era (3061-3067), with the map now spanning from 3025 to 3067. **WIP**
-- Clans Hell's Horses and Snow Raven have joined the other Clans in the Inner Sphere. Both factions can be fought and have their own rosters, with the Hell's Horses specializing in combat vehicles. **WIP**
+### Timeline Expansion
+ _**Note:** The timeline will be fully extended to 3067 with the next update (v1.0)._
 
 #### Faction Stores
 - All the faction stores (accessible when allied to a faction) have been updated with the new 'Mechs and vehicles. **NEW**
@@ -369,7 +366,6 @@ Listed below are a comprehensive list of changes and detailed information about 
 
 #### Faction Rosters
 - MegaMek-generated rarity tables replace Xtol's RAT tables for vehicles. This allows for a wider variety of combat vehicles for all factions, as well as more accurate vehicle rosters for the expanded 3025-3067 timeline. The Great Houses and Periphery States also have an "elite" version of their vehicle table that favors A-rated units.
-- 'Mechs are also more varied, with the Clans and ComStar/Word of Blake having entirely new rosters, again generated with MegaMek. **WIP**
 - Additionally, some factions that didn't have a RAT table before have one now, including:
 
 	<details>
@@ -379,8 +375,6 @@ Listed below are a comprehensive list of changes and detailed information about 
 	| :----------------------------------- | :-----------------------: | :-------------------------------------- |
 	| Arc-Royal Defense Cordon             |        3058-3067          | C/Regulars                              |
 	| Chaos March                          |        3057-3073          | F/Locals                                |
-	| Clan Hell's Horses                   |        2807-Present       | B/Front Lines                           |
-	| Clan Snow Raven𓅪 /<br>Raven Alliance | 2807-3082<br>3083-Present | B/Front Lines<br>F/Provisional Garrison |
 	| Clan Wolf-in-Exile                   |        3057-3151          | B/Front Lines                           |
 	| Duchy of Andurien                    | 3030-3040<br>3079-Present | C/Regulars                              |
 	| New Colony Region /<br>Fronc Reaches | 3060-3066<br>3067-Present | C/Regulars                              |
