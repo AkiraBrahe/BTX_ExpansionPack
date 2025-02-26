@@ -1,3 +1,0 @@
-header: self_id, collectionType="Collection", desc_Name, desc_Details, WeightedListType
-entry: id, ShopItemType, shopCount, weight
-ref: id, "Reference", numOfItemsFromList, weight
