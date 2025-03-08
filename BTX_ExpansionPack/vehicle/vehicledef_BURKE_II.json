@@ -1,0 +1,174 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-2",
+      "unit_vehicle",
+      "unit_assault",
+      "unit_tracks",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_BURKE_II",
+  "Description": {
+    "Id": "vehicledef_BURKE_II",
+    "Name": "Burke II Superheavy Tank",
+    "UIName": "Burke II Superheavy Tank (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Burke II Superheavy Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>2/3 (Tracked)</color>\tEngine: <color=#85DBF6>280 Fusion</color></b>\n\nA behemoth on the battlefield, the Burke II was a 140-ton experimental superheavy tank for the Rim Worlds Republic. Prioritizing raw firepower, it sported a massive turret housing four Class-20 autocannons, capable of unleashing ten volleys of destruction before running out of ammunition. Six tons of ferro-fibrous armor offered some protection, while a pair of forward-mounted LRM-5s added punch at range.",
+    "Icon": "uixVhclIcon_burke",
+    "Cost": 10760000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 145,
+      "CurrentInternalStructure": 98,
+      "AssignedArmor": 145,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 98,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 98,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 98,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 98,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2776-01-01T00:00:00Z"
+}

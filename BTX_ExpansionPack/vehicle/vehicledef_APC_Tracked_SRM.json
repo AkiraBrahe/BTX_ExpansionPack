@@ -1,0 +1,77 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.3-1.15-1.15",
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_light",
+      "unit_tracks",
+      "unit_noncombatant",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_APC_Tracked_SRM",
+  "Description": {
+    "Id": "vehicledef_APC_Tracked_SRM",
+    "Name": "Tracked APC",
+    "UIName": "Tracked APC (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Tracked APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. More expensive to build, Tracked APCs can operate in a far wider variety of terrain.\n\nThe SRM variant of the Tracked APC keeps the infantry bay and replaces the machine gun with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
+    "Icon": "uixVhclIcon_trackedapc",
+    "Cost": 96000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2500-01-01T00:00:00Z"
+}

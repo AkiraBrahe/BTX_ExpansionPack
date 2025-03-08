@@ -1,0 +1,123 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Hi-Scout",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_HI-SCOUT",
+    "Name": "Hi-Scout",
+    "Details": "<b>Name: <color=#85DBF6>Hi-Scout Drone Carrier</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Hi-Scout Drone Carrier is a specialized reconnaissance vehicle. Designed to provide early warning and battlefield intelligence, its advanced tracking and communication systems made it a highly effective scout, particularly during the Succession Wars.\n\nArmed with only a single SRM-2 and one ton of ammunition, the Hi-Scout relies on stealth and evasion rather than direct combat. While 5.5 tons of ArcShield armor offer some protection against light scout vehicles, anything heavier would pose a significant threat.",
+    "Icon": "uixVhclIcon_hi-scout",
+    "Cost": 713000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_heavy_tracked",
+  "HardpointDataDefID": "hardpointdatadef_mlrs2",
+  "PrefabIdentifier": "chrprfvhcl_mlrs2",
+  "PrefabBase": "mlrs2",
+  "Tonnage": 60,
+  "weightClass": "HEAVY",
+  "BattleValue": 1735000,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": -3.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 30
+    }
+  ]
+}

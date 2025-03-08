@@ -1,0 +1,134 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_lance_tank",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_vehicle_case",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MUSKETEER",
+  "Description": {
+    "Id": "vehicledef_MUSKETEER",
+    "Name": "Musketeer Hover Tank",
+    "UIName": "Musketeer Hover Tank (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Musketeer Hover Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>\n\nThe Musketeer is a cost-effective combat vehicle designed for rapid deployment and concentrated firepower. Protected by seven tons of ferro-fibrous armor and equipped with CASE, it offers excellent survivability for a hover vehicle.\n\nArmed with a Rotary Autocannon/5 and two Streak SRM-2 launchers, the Musketeer delivers a devastating combination of firepower. The autocannon's sustained rate of fire and the SRM-2's scattershot effect can quickly incapacitate enemy tanks and damage critical systems.",
+    "Icon": "uixVhclIcon_musketeer",
+    "Cost": 1847000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 180,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 180,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 135,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 135,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 135,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 135,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_TAG_Standard_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RAC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
+}

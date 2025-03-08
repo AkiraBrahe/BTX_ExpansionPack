@@ -1,0 +1,106 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.25",
+      "unit_vehicle",
+      "unit_vehicle_carrier",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_lance_assassin",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_CARRIER_MPL",
+  "Description": {
+    "Id": "vehicledef_CARRIER_MPL",
+    "Name": "Laser Carrier",
+    "UIName": "Laser Carrier (MPL)",
+    "Details": "<b>Name: <color=#85DBF6>Laser Carrier (MPL)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nFor centuries, mobile missile systems have been a staple of military forces. Missile Carriers play a crucial role in battles across the Inner Sphere, offering a potent mix of firepower and mobility.\n\nThe 3057 upgrade of the Laser Carrier replaces its original lasers with six Medium Pulse Lasers. This modification sacrifices range for increased armor protection, allowing the vehicle to engage in close-range combat.",
+    "Icon": "uixVhclIcon_carrier",
+    "Cost": 2421000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 4,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 5,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3057-01-01T00:00:00Z"
+}

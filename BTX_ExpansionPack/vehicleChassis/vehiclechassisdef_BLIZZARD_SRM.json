@@ -1,0 +1,128 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Blizzard",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_BLIZZARD_SRM",
+    "Name": "Blizzard (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Blizzard Hover Transport (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>95 ICE</color></b>\n\nThe Blizzard Hover Transport is a fast and cheap troop carrier that was originally intended for use against the Clans. It gained notoriety in the Chaos March and proved its effectiveness in the Capellan-St. Ives War.\n\nThis simple 3062 variant swaps out the LRM for two SRM-2s. It is otherwise identical to the standard loadout.",
+    "Icon": "uixVhclIcon_blizzard",
+    "Cost": 314000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_9",
+  "PathingCapDefID": "pathingdef_light_hover",
+  "HardpointDataDefID": "hardpointdatadef_beagle",
+  "PrefabIdentifier": "chrprfvhcl_beagle",
+  "PrefabBase": "beagle",
+  "Tonnage": 25,
+  "weightClass": "LIGHT",
+  "BattleValue": 1320000,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 45,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 45,
+      "InternalStructure": 15
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Hachiman",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_HACHIMAN",
+    "Name": "Hachiman",
+    "Details": "<b>Name: <color=#85DBF6>Hachiman Fire Support Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>200 Fusion</color></b>\n\nThe Hachiman Fire Support Tank is a second-line missile carrier with a compartmentalized crew area that increases crew survivability but decreases communication. Despite its limitations, some Clans continue to use it offensively due to its decent top speed and respectable armor.\n\nThe fire support vehicle's main armament is its twin, turret-mounted LRM-20s that are used to devastate opponents from long range. Each of these is slaved to an Artemis IV Fire Control System, making the missiles more accurate. Should an enemy manage to close with a Hachiman, its crew can unleash its pair of ER Medium Lasers and the front-mounted Streak SRM-4.",
+    "Icon": "uixVhclIcon_hachiman",
+    "Cost": 3275000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_medium_tracked",
+  "HardpointDataDefID": "hardpointdatadef_mlptank",
+  "PrefabIdentifier": "chrprfvhcl_mlptank",
+  "PrefabBase": "mlptank",
+  "Tonnage": 50,
+  "weightClass": "MEDIUM",
+  "BattleValue": 7420000,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 145,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 145,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 95,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 135,
+      "InternalStructure": 25
+    }
+  ]
+}

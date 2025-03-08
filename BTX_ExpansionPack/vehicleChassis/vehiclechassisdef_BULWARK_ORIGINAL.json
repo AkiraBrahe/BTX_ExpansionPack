@@ -1,0 +1,128 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Bulwark",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_BULWARK_ORIGINAL",
+    "Name": "Bulwark",
+    "Details": "<b>Name: <color=#85DBF6>Bulwark Assault Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>340 XL</color></b>\n\nDeveloped at the dawn of the Jihad, the Bulwark assault vehicle incorporates cutting-edge technology. Despite limited production due to critical component shortages, it has already found its way into the arsenals of Free Worlds League and elite mercenary commands.\n\nThe Bulwark boasts two anti-BattleMech weapons, either of which is capable of disabling any opponent. Its primary armament is a highly accurate Improved Heavy Gauss Rifle, fed by 16 rounds of ammunition. A turret-mounted Heavy Particle Projection Cannon provides additional firepower.",
+    "Icon": "uixVhclIcon_bulwark",
+    "Cost": 16621000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_devastator",
+  "PrefabIdentifier": "chrprfvhcl_devastatorbase",
+  "PrefabBase": "devastator",
+  "Tonnage": 85,
+  "weightClass": "ASSAULT",
+  "BattleValue": 8405000,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 275,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 110,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 45
+    }
+  ]
+}

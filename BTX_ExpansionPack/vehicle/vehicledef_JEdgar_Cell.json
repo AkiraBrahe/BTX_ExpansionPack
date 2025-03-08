@@ -1,0 +1,111 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1-1-0.85",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_JEdgar_Cell",
+  "Description": {
+    "Id": "vehicledef_JEdgar_Cell",
+    "Name": "J. Edgar Light Hover Tank",
+    "UIName": "J. Edgar Light Hover Tank (Cell)",
+    "Details": "<b>Name: <color=#85DBF6>J. Edgar Light Hover Tank (Cell)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/17 (Hover)</color>\tEngine: <color=#85DBF6>145 Fuel Cell</color></b>\n\nDesigned as a fast, cheap, and effective raider, the J.Edgar was the last military vehicle that Alphard Trading Corporation manufactured before they disappeared during the conflagration of the Succession Wars.\n\nScarborough Manufacturers' experimental refit used a fuel cell engine to replace the increasingly rare fusion engine. While the vehicle's speed and armor remained unchanged, its armament was significantly reduced, with laser and missile systems replaced by a Light Rifle and twin Machine Guns. The design suffered from its ineffective armament and overheating issues caused by the new engine, and the project was canceled in 2998.",
+    "Icon": "uixVhclIcon_jedgar",
+    "Cost": 564000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Rifle_RifleLight_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_RifleLight",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2998-01-01T00:00:00Z"
+}

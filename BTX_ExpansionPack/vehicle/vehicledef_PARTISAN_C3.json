@@ -1,0 +1,119 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.5",
+      "unit_vehicle",
+      "unit_assault",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_low",
+      "unit_vehicle_case",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_PARTISAN_C3",
+  "Description": {
+    "Id": "vehicledef_PARTISAN_C3",
+    "Name": "Partisan Heavy Tank",
+    "UIName": "Partisan Heavy Tank (C3)",
+    "Details": "<b>Name: <color=#85DBF6>Partisan Heavy Tank (C3)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nKallon Industries, known for their anti-aircraft 'Mechs, designed the Partisan to offer a cheaper, more easily produced vehicle with a targeting system capable of tracking up to 200 targets, computing optimal targets, and linking to other Partisans' systems.\n\nDuring the FedCom Civil War, militias modified the Partisan by removing the machine guns and adding a CASE system for crew protection. A C3 slave unit was also installed to create an inexpensive but helpful C3 lancemate. To compensate for the obsolete weapons, militias often invested in various special munitions, making the guns more accurate and powerful on the cheap.",
+    "Icon": "uixVhclIcon_partisan",
+    "Cost": 2388000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2_Flak",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2_Flak",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
+}

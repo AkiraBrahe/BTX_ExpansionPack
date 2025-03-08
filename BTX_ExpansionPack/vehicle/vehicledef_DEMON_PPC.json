@@ -1,0 +1,84 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.5",
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_wheels",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_vehicle_case",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_DEMON_PPC",
+  "Description": {
+    "Id": "vehicledef_DEMON_PPC",
+    "Name": "Demon Tank",
+    "UIName": "Demon Tank (PPC)",
+    "Details": "<b>Name: <color=#85DBF6>Demon Tank (PPC)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nOriginally created by the SLDF as its standard fighting vehicle, the Demon is a match for any light or medium BattleMech thanks to its powerful Gauss Rifle.\n\nThis variant was created to make a supply-independent version of the tank for the SLDF. The vehicle trades all of its weapons for two Particle Projector Cannons. While better than the original, it was not well received and thus relegated to the Hegemony's militia.",
+    "Icon": "uixVhclIcon_demon",
+    "Cost": 2005000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 240,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 240,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 140,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 140,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 140,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 140,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 145,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 145,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2729-01-01T00:00:00Z"
+}

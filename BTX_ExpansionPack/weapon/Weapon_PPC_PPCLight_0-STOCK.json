@@ -1,0 +1,117 @@
+{
+  "Custom": {
+    "Sorter": 70
+  },
+  "Category": "Energy",
+  "Type": "PPC",
+  "WeaponSubType": "PPC",
+  "MinRange": 90,
+  "MaxRange": 540,
+  "RangeSplit": [
+    180,
+    360,
+    540
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 15,
+  "Damage": 25,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 3,
+  "Instability": 10,
+  "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+  "Description": {
+    "Cost": 150000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Defiance",
+    "Model": "Particle Projector Cannon",
+    "UIName": "Light PPC",
+    "Id": "Weapon_PPC_PPCLight_0-STOCK",
+    "Name": "Light PPC",
+    "Details": "The Light PPC is a smaller version of the Particle Projector Cannon. Although it shares the same long-range profile as the standard PPC, it more closely resembles an ER Medium Laser in terms of damage and heat buildup. Light PPCs also generate a mild EM field that degrades the firing capability of their target.",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "PPC",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 3,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "PPCMode_FI_ON",
+      "UIName": "FI ON",
+      "Name": "Field Inhibitor ON",
+      "Description": "Standard operation. Heavy PPC functions normally.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "PPCMode_FI_OFF",
+      "UIName": "FI OFF",
+      "Name": "Field Inhibitor OFF",
+      "Description": "Disabling the field inhibitor removes the minimum range, but introduces a chance of misfires.",
+      "isBaseMode": false,
+      "DamageOnJamming": true,
+      "AccuracyModifier": 1.0,
+      "FlatJammingChance": 0.1,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.04,
+      "MinRange": -90
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": 0
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityDefPPC",
+        "Name": "SENSORS IMPAIRED",
+        "Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_very-long",
+      "component_type_lostech",
+      "component_lightppc",
+      "ppc_capacitor_attachable",
+      "energy_tts_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

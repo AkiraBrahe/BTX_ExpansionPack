@@ -1,0 +1,90 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1-1-1.2",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_HARASSER_LASER",
+  "Description": {
+    "Id": "vehicledef_HARASSER_LASER",
+    "Name": "Harasser Laser Platform",
+    "UIName": "Harasser Laser Platform (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Harasser Laser Platform</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>120 ICE</color></b>\n\nThe Harasser is a low-cost hover tank equipped with a variety of missile launchers that was widely integrated into Galleon Light Tank units in the Free Worlds League.\n\nA common field refit of the Harasser replaces the missile launchers with two Medium Lasers salvaged from damaged or destroyed Galleon Light Tanks.",
+    "Icon": "uixVhclIcon_harasser",
+    "Cost": 389000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 20,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 20,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2957-01-01T00:00:00Z"
+}

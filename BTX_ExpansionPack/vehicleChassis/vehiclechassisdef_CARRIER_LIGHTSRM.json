@@ -1,0 +1,139 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Light SRM Carrier",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_CARRIER_LIGHTSRM",
+    "Name": "Light SRM Carrier",
+    "Details": "<b>Name: <color=#85DBF6>Light SRM Carrier</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nFor centuries, mobile missile systems have been a staple of military forces. Missile Carriers play a crucial role in battles across the Inner Sphere, offering a potent mix of firepower and mobility.\n\nThe Light SRM carrier is a Taurian Concordat design that improves upon the classic SRM Carrier, allowing it to be smaller, faster, and built on a wheeled chassis. While packing four and a half tons of armor and a reliable internal combustion engine, its focus is purely offensive. Five SRM-6 launchers with three tons of ammo make it a disposable striker, ideal for quickly crippling damaged opponents.",
+    "Icon": "uixVhclIcon_lightsrmcarrier",
+    "Cost": 824000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_medium_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_carrierhtsrm",
+  "PrefabIdentifier": "chrprfvhcl_carrierhtsrm",
+  "PrefabBase": "carrierhtsrm",
+  "Tonnage": 40,
+  "weightClass": "MEDIUM",
+  "BattleValue": 2890000,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": -3.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 60,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 20
+    }
+  ]
+}

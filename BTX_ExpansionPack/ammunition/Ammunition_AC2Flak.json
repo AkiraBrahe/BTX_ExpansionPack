@@ -1,0 +1,30 @@
+{
+  "Description": {
+    "Id": "Ammunition_AC2Flak",
+    "Name": "Flak AC/2 Ammo",
+    "UIName": "Flak",
+    "Details": "Small caliber anti-aircraft ammunition designed for long range fire in an AC/2.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "AC2",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 0.6,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1.25,
+  "HasShells": true,
+  "ShellsRadius": 135,
+  "MinShellsDistance": 150,
+  "MaxShellsDistance": 20,
+  "UnseparatedDamageMult": 0.7,
+  "HitGenerator": "Cluster",
+  "ProjectilesPerShot": 17,
+  "AirMechDamageModifier": 2,
+  "VTOLDamageModifier": 2
+}

@@ -1,0 +1,125 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.5",
+      "unit_vehicle",
+      "unit_medium",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_DRILLSON_ERLL",
+  "Description": {
+    "Id": "vehicledef_DRILLSON_ERLL",
+    "Name": "Drillson Heavy Hover Tank",
+    "UIName": "Drillson Heavy Hover Tank (ERLL)",
+    "Details": "<b>Name: <color=#85DBF6>Drillson Heavy Hover Tank (ERLL)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Drillson is a heavy hovertank that entered service with the Lyran Commonwealth's military in 3025. It is one of the best hover tanks of its type, and is known for its heavy armor and powerful armament.\n\nA variant rumored to be under development around the War of 3039, it was supposedly a testbed for the then experimental Cyclops XII ER Large Laser.",
+    "Icon": "uixVhclIcon_drillson",
+    "Cost": 2666000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3039-01-01T00:00:00Z"
+}

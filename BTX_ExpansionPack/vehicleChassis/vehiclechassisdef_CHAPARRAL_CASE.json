@@ -1,0 +1,130 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Chaparral",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_CHAPARRAL_CASE",
+    "Name": "Chaparral (CASE)",
+    "Details": "<b>Name: <color=#85DBF6>Chaparral Missile Artillery Tank (CASE)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>200 Fusion</color></b>\n\nThe Chaparral Missile Tank was designed to provide close-range artillery support for the SLDF. Its rapid missile delivery and decent protection made it popular, despite its limited range. After becoming scarce during the Succession Wars, the Chaparral's production resumed on a large scale following the ComStar Schism.\n\nA simple refit by the Word of Blake in 3071 upgrades the protection of the tank by including CASE and ferro-fibrous armor.",
+    "Icon": "uixVhclIcon_chaparral",
+    "Cost": 2346000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_medium_tracked",
+  "HardpointDataDefID": "hardpointdatadef_chaparral",
+  "PrefabIdentifier": "chrprfvhcl_chaparral",
+  "PrefabBase": "chaparral",
+  "Tonnage": 50,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4070000,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 185,
+      "InternalStructure": 25
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 2500000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Tanadi Computers",
+    "Model": "Coordinator",
+    "UIName": "C3 Master Computer",
+    "Id": "Gear_C3_Master_Dual",
+    "Name": "C3 Master Computer",
+    "Details": "Intended for reconnaissance 'Mechs or vehicles, the C3 Command Unit, also known as C3 Master Computer, is the central hub of a C3 Network and allows linked units to share radar and targeting data on the lance or company levels. By sharing targeting data lance mates gain an increase to the distance a weapon is considered in optimal range. Pairing this C3 Master Computer with another creates a company-level network, granting a further defensive bonus against incoming attacks for all lancemates.",
+    "Icon": "uixSvgIcon_equipment_TTS"
+  },
+  "BonusValueA": "C3 Network",
+  "BonusValueB": "- 10% Dmg. (Company)",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 4,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "AllLanceMates",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "C3Network_MediumRangeBuff",
+        "Name": "C3 NETWORK RANGE BUFF",
+        "Details": "Friendly units within a C3 Network gain [AMT] increase in optimal weapon range.",
+        "Icon": "uixSvgIcon_statusMarked"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "ADD_ENCOUNTER_TAG_C3_network",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "AllLanceMates",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-C3M-DamageReduction",
+        "Name": "DUAL C3 MASTER COMPUTER",
+        "Details": "Units in this company take [AMT] less damage.",
+        "Icon": "uixSvgIcon_special_Equipment"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "DamageReductionMultiplierAll",
+        "operation": "Float_Multiply",
+        "modValue": "0.95",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

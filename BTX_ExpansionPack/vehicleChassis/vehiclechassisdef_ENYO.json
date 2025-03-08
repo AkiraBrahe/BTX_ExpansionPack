@@ -1,0 +1,146 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Enyo",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_ENYO",
+    "Name": "Enyo",
+    "Details": "<b>Name: <color=#85DBF6>Enyo Strike Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>330 XL</color></b>\n\nThe Enyo Strike Tank, a Clan Hell's Horses design, is a fast, agile main battle tank. Its lightweight XL engine and substantial armor enable it to outmaneuver Clan medium 'Mechs.\n\nThe Enyo's main weapon is a highly accurate Large Pulse Laser mounted in the turret, offering respectable range and unlimited ammunition. Supporting this firepower are three Streak SRM-6 launchers, each with its own ammunition bin for sustained fire. One launcher joins the laser in the turret, while the other two are mounted on the front of the tank. Machine guns on each side provide protection against infantry.",
+    "Icon": "uixVhclIcon_enyo",
+    "Cost": 8964000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_6",
+  "PathingCapDefID": "pathingdef_medium_tracked",
+  "HardpointDataDefID": "hardpointdatadef_morrigu",
+  "PrefabIdentifier": "chrprfvhcl_morrigubase",
+  "PrefabBase": "morrigu",
+  "Tonnage": 55,
+  "weightClass": "MEDIUM",
+  "BattleValue": 7520000,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 145,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 145,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 145,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 135,
+      "InternalStructure": 30
+    }
+  ]
+}

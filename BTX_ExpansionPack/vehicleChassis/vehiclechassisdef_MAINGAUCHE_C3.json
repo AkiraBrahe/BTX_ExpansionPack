@@ -1,0 +1,119 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Main Gauche",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_MAINGAUCHE_C3",
+    "Name": "Main Gauche (C3)",
+    "Details": "<b>Name: <color=#85DBF6>Main Gauche Light Support Tank (C3)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>120 Fusion</color></b>\n\nThe Main Gauche is a fire support tank designed to complement Brooks Incorporated's Galleon. Though slower, its five tons of protection and long-range capabilities make it an ideal companion.\n\nIntroduced in 3066, this variant replaces the Machine Guns with a C3 Slave Unit and an ER Small Laser. While this lessens short-range damage potential, it makes the Light Gauss Rifle much more accurate if another unit in its C3 network is close to the Main Gauche's target. This makes it even more advantageous for the light tank to stay at extreme range.",
+    "Icon": "uixVhclIcon_maingauche",
+    "Cost": 1159000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_light_tracked",
+  "HardpointDataDefID": "hardpointdatadef_maingauche",
+  "PrefabIdentifier": "chrprfvhcl_maingauche",
+  "PrefabBase": "maingauche",
+  "Tonnage": 30,
+  "weightClass": "LIGHT",
+  "BattleValue": 2360000,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 145,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 95,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 95,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 65,
+      "InternalStructure": 15
+    }
+  ]
+}

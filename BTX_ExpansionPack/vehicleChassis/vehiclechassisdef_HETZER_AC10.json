@@ -1,0 +1,115 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Hetzer",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_HETZER_AC10",
+    "Name": "Hetzer (AC/10)",
+    "Details": "<b>Name: <color=#85DBF6>Hetzer Wheeled Assault Gun (AC/10)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Hetzer Wheeled Assault Gun is designed as a cheap, self-propelled artillery-piece to be stationed on worlds deemed worthy to defend, but not valuable enough to station a complete garrison force or even BattleMechs.\n\nThis field refit, introduced in 2893, exchanges the autocannon for a smaller class 10 version with five tons of ammunition, and also increases the armor slightly.",
+    "Icon": "uixVhclIcon_hetzer",
+    "Cost": 544000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_medium_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_hetzer",
+  "PrefabIdentifier": "chrprfvhcl_hetzerbase",
+  "PrefabBase": "hetzer",
+  "Tonnage": 40,
+  "weightClass": "MEDIUM",
+  "BattleValue": 2680000,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.25,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.25,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 170,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 20
+    }
+  ]
+}

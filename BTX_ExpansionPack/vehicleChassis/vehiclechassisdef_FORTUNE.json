@@ -1,0 +1,127 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Fortune",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_FORTUNE",
+    "Name": "Fortune",
+    "Details": "<b>Name: <color=#85DBF6>Fortune Wheeled Assault Vehicle</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nThe Fortune Wheeled Assault Vehicle, a more expensive upgrade to the Hetzer, was designed by Defiance Industries during the buildup to the FedCom Civil War. Boasting twice the firepower of its predecessor, the Fortune mounts two LB-X Autocannon/20s in a turret. Eight tons of ammunition offer flexibility in munition selection, including cluster ammo for damaging critical systems and slug ammo for armor penetration.",
+    "Icon": "uixVhclIcon_fortune",
+    "Cost": 4010000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_3",
+  "PathingCapDefID": "pathingdef_assault_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_fortune",
+  "PrefabIdentifier": "chrprfvhcl_fortune",
+  "PrefabBase": "fortune",
+  "Tonnage": 80,
+  "weightClass": "ASSAULT",
+  "BattleValue": 6745000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 250,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 225,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 225,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 175,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 245,
+      "InternalStructure": 40
+    }
+  ]
+}

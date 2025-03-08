@@ -1,0 +1,99 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.7",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_noncombatant",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_short",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_RIPPER_MG",
+  "Description": {
+    "Id": "vehicledef_RIPPER_MG",
+    "Name": "Ripper Infantry Transport",
+    "UIName": "Ripper Infantry Transport (MG)",
+    "Details": "<b>Name: <color=#85DBF6>Ripper Infantry Transport (MG)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (VTOL)</color>\tEngine: <color=#85DBF6>70 Fusion</color></b>\n\nThe Ripper is a VTOL aircraft that can carry a squad of infantry and their equipment. It was designed for quick response and deployment, and is often used to transport elite or jump infantry.\n\nDesigned to counter infantry threats, this variant replaces the Medium Lasers with either two Small Pulse Lasers or two Machine Guns.",
+    "Icon": "uixVhclIcon_ripper",
+    "Cost": 190000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
+}

@@ -1,0 +1,7 @@
+itemCollection_major_Locals,,,
+itemCollection_Ammo_all,Reference,0,1
+itemCollection_Components_base,Reference,0,1
+itemCollection_shopItems_weapons,Reference,9,1
+itemCollection_systemStores_MechParts_common,Reference,10,1
+itemCollection_systemStores_Mechs_common,Reference,6,1
+itemCollection_Vehicles_common,Reference,6,1

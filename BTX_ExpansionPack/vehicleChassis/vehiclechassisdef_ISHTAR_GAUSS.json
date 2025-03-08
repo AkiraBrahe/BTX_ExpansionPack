@@ -1,0 +1,140 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Ishtar",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_ISHTAR_GAUSS",
+    "Name": "Ishtar (Gauss)",
+    "Details": "<b>Name: <color=#85DBF6>Ishtar Heavy Fire Support Tank (Gauss)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>3/5 (Wheeled)</color>\tEngine: <color=#85DBF6>175 Fusion</color></b>\n\nThe Ishtar Heavy Fire Support Tank is less popular than smaller, more maneuverable Clan vehicles, but its heavy firepower makes it a staple of heavy garrison units.\n\nIntroduced at the start of the Jihad, this Ishtar variant replaces the modern version's LB-X and Ultra Autocannons with a Gauss Rifle and a Class 20 Hyper-Assault Gauss Rifle, each with two tons of ammunition. The anti-missile system is removed.",
+    "Icon": "uixVhclIcon_ishtar",
+    "Cost": 3280000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_3",
+  "PathingCapDefID": "pathingdef_heavy_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_cuishtar",
+  "PrefabIdentifier": "chrprfmech_ishtar_tank",
+  "PrefabBase": "cuishtar",
+  "Tonnage": 65,
+  "weightClass": "HEAVY",
+  "BattleValue": 8080000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 160,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 120,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 140,
+      "InternalStructure": 35
+    }
+  ]
+}

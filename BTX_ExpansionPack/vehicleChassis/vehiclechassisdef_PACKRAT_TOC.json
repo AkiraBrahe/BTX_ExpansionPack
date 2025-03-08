@@ -1,0 +1,110 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Packrat",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_PACKRAT_TOC",
+    "Name": "Packrat (Mobile TacOps)",
+    "Details": "<b>Name: <color=#85DBF6>Packrat LRPV PKR-T5 (Mobile TacOps)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Wheeled)</color>\tEngine: <color=#85DBF6>120 Fusion</color></b>\n\nThe Packrat is a speedy eight-wheeled vehicle designed for deep infiltration and sabotage. First produced by Robertson Technologies, the vehicle is meant to operate on its own deep behind enemy lines for extended periods of time.\n\nThis 3050 variant of the PKR-T5 is designed as a mobile HQ, sacrificing its weaponry for a Cockpit Command Console, a Guardian ECM Suite, and additional Comms Equipment.",
+    "Icon": "uixVhclIcon_packrat",
+    "Cost": 1045000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_7",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_packrat",
+  "PrefabIdentifier": "chrPrfVhcl_packrat",
+  "PrefabBase": "packrat",
+  "Tonnage": 20,
+  "weightClass": "LIGHT",
+  "BattleValue": 1395000,
+  "TopSpeed": 118.8,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.25,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.25,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 10
+    }
+  ]
+}

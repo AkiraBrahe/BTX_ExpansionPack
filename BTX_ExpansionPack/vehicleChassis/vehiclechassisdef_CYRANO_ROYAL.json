@@ -1,0 +1,143 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Cyrano",
+      "Exclude": true
+    }
+  },
+  "CustomParts": {
+    "AOEHeight": 45,
+    "FiringArc": 50,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "MoveClamp": 1.0
+    }
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_CYRANO_ROYAL",
+    "Name": "Cyrano (Royal)",
+    "Details": "<b>Name: <color=#85DBF6>Cyrano Gunship (Royal)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (VTOL)</color>\tEngine: <color=#85DBF6>220 XL</color></b>\n\nThe Cyrano is a heavy VTOL that served as the SLDF's primary attack gunship. Production ceased after its manufacturing facility was destroyed in 2840.\n\nThe SLDF Royal units used an upgraded model that replaced the standard engine with an extralight version. The weight saving allows the VTOL to carry an extra one and a half tons of armor and two side-mounted Anti-Missile Systems. It also swaps its trademark laser for an extended range model and adds a TAG for good measure.",
+    "Icon": "uixVhclIcon_cyrano",
+    "Cost": 5266000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_12",
+  "PathingCapDefID": "pathingdef_light_vtol",
+  "HardpointDataDefID": "hardpointdatadef_cuunnsvin",
+  "PrefabIdentifier": "chrprfmech_unnsvin_vtol",
+  "PrefabBase": "cuunnsvin",
+  "Tonnage": 30,
+  "weightClass": "LIGHT",
+  "BattleValue": 3700000,
+  "TopSpeed": 194.4,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 60,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 10,
+      "InternalStructure": 15
+    }
+  ]
+}

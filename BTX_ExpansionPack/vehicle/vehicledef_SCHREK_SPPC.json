@@ -1,0 +1,92 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.6",
+      "unit_vehicle",
+      "unit_vehicle_carrier",
+      "unit_assault",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_lance_assassin",
+      "unit_range_long",
+      "unit_armor_low",
+      "unit_speed_low",
+      "unit_release",
+      "unit_dlc"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_SCHREK_SPPC",
+  "Description": {
+    "Id": "vehicledef_SCHREK_SPPC",
+    "Name": "Schrek SPPC Carrier",
+    "UIName": "Schrek PPC Carrier (SPPC)",
+    "Details": "<b>Name: <color=#85DBF6>Schrek PPC Carrier (SPPC)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nDesigned for extended, long-range bombardments, the Schrek PPC carrier is capable of unleashing a deadly rain of particle fire.\n\nThis rare Schrek variant replaces the standard PPCs with Star League-era Snub-Nose PPCs. The shorter range of the Snub-Nose PPCs and Comstar's inability to repair them severely limited their use. The few prototype models were stored in a forgotten warehouse on Terra.",
+    "Icon": "uixVhclIcon_schrek",
+    "Cost": 4365000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 125,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 125,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_PPC_PPCSnub_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_PPC_PPCSnub_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_PPC_PPCSnub_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3058-01-01T00:00:00Z"
+}

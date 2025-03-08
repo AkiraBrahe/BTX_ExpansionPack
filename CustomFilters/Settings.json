@@ -1,0 +1,105 @@
+{
+  "Logging": {
+    "DefaultLogLevel": "Debug",
+    "TraceEnabled": true
+  },
+  "MechLab": {
+    "TabsConfigFile": "VanillaTabs.json"
+  },
+  "MechBay": {
+    "DefaultSortOrder": [
+      "ChassisName",
+      "MechName"
+    ],
+    "MechUnitValidationEnabled": true,
+    "MechUnitValidationLevel": "Full",
+    "MechUnitValidationWarnings": [
+      "Underweight",
+      "StructureDamaged",
+      "AmmoMissing",
+      "AmmoUnneeded"
+    ]
+  },
+  "TagManager": {
+    "disabled_SimGameItemsMinCount": 20,
+    "LostechStockWeaponVariantFix": true,
+    "SkirmishDefault": {
+      "Components": {
+        "ContainsAny": [
+          "component_type_stock",
+          "component_type_variant",
+          "component_type_lostech"
+        ],
+        "NotContainsAny": null
+      },
+      "Mechs": {
+        "ContainsAny": [
+          "unit_release"
+        ],
+        "NotContainsAny": [
+          "unit_unlocked",
+          "BLACKLISTED"
+        ]
+      }
+    },
+    "SkirmishOptionsShow": true,
+    "SkirmishOptionsPresets": [
+      {
+        "Label": "Mechs",
+        "Components": {
+          "ContainsAny": [
+            "component_type_stock"
+          ],
+          "NotContainsAny": [
+            "BLACKLISTED"
+          ]
+        },
+        "Mechs": {
+          "ContainsAny": [
+            "unit_mech"
+          ],
+          "NotContainsAny": [
+            "BLACKLISTED"
+          ]
+        },
+        "Pilots": {
+          "ContainsAny": null,
+          "NotContainsAny": null
+        },
+        "Lances": {
+          "ContainsAny": null,
+          "NotContainsAny": null
+        }
+      },
+      {
+        "Label": "Vehicles",
+        "Components": {
+          "ContainsAny": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_lostech"
+          ],
+          "NotContainsAny": [
+            "BLACKLISTED"
+          ]
+        },
+        "Mechs": {
+          "ContainsAny": [
+            "unit_vehicle"
+          ],
+          "NotContainsAny": [
+            "BLACKLISTED"
+          ]
+        },
+        "Pilots": {
+          "ContainsAny": null,
+          "NotContainsAny": null
+        },
+        "Lances": {
+          "ContainsAny": null,
+          "NotContainsAny": null
+        }
+      }
+    ]
+  }
+}

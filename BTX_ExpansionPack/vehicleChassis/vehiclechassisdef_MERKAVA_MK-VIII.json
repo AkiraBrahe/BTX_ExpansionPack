@@ -1,0 +1,140 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Merkava",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_MERKAVA_MK-VIII",
+    "Name": "Merkava Mk VIII",
+    "Details": "<b>Name: <color=#85DBF6>Merkava Heavy Tank Mk VIII</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>300 Fusion</color></b>\n\nThe Merkava, Hebrew for \"chariot\", was the main heavy tank of the Terran Alliance and later the Terran Hegemony, with variants of the venerable design serving continuously from the late 23rd century to the end of the 26th century.\n\nThe Mark VI is the last Merkava variant with an internal combustion engine. It shares a similar loadout to the original model, with an AC/5, SRM-4, LRM-10, and Machine Gun, each with a ton of reloads. However, its biggest problem is its armor protection, with only four and a half tons of armor. Several Mark VIs had their LRM launchers removed to create remote-controlled versions of the tank, which were used to test the prototype Mackie BattleMech in combat.",
+    "Icon": "uixVhclIcon_merkava",
+    "Cost": 3828000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_heavy_tracked",
+  "HardpointDataDefID": "hardpointdatadef_merkava",
+  "PrefabIdentifier": "chrprfvhcl_merkavabase",
+  "PrefabBase": "merkava",
+  "Tonnage": 75,
+  "weightClass": "HEAVY",
+  "BattleValue": 4395000,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    },
+    {
+      "x": -3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 180,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 160,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 160,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 170,
+      "InternalStructure": 40
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.35",
+      "unit_vehicle",
+      "unit_assault",
+      "unit_tracks",
+      "unit_lance_vanguard",
+      "unit_lance_tank",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_DEMOLISHER",
+  "Description": {
+    "Id": "vehicledef_DEMOLISHER",
+    "Name": "Demolisher Heavy Tank",
+    "UIName": "Demolisher Heavy Tank (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Demolisher Heavy Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nTall, squat, and using four treads, the Demolisher has a well-earned, though sometimes exaggerated, reputation as one of the most deadly vehicles on the battlefield.\n\nThe Demolisher is armed with two AC/20s, which are enough to make any other unit pause. The relatively short range of the guns means that units with long-range weaponry can outmaneuver the Demolisher. It utilizes 10 tons of armor for protection, and the tank lacks any form of secondary weapons, which can be detrimental when the massive cannons run dry.",
+    "Icon": "uixVhclIcon_demolisher",
+    "Cost": 2151000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2823-01-01T00:00:00Z"
+}

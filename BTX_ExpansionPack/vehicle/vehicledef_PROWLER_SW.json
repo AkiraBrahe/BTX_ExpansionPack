@@ -1,0 +1,111 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1-1.5-1.5",
+      "unit_vehicle",
+      "unit_medium",
+      "unit_tracks",
+      "unit_noncombatant",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_PROWLER_SW",
+  "Description": {
+    "Id": "vehicledef_PROWLER_SW",
+    "Name": "Prowler Multi-Terrain Vehicle",
+    "UIName": "Prowler Multi-Terrain Vehicle (Succession Wars)",
+    "Details": "<b>Name: <color=#85DBF6>Prowler Multi-Terrain Vehicle (Succession Wars)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nThe Prowler was the most common hostile and exotic environment military-grade exploration vehicle developed during the Star League era.\n\nThis variant introduced during the Second Succession War replaces the Medium Pulse Lasers with standard models and removes the BeagLe Active Probe, providing extra room for a slightly larger crew and an 8-ton cargo bay.",
+    "Icon": "uixVhclIcon_prowler",
+    "Cost": 1966000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 125,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 125,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 115,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 115,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 115,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 115,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 115,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 115,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2863-01-01T00:00:00Z"
+}

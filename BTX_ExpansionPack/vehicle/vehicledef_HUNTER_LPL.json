@@ -1,0 +1,96 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.55-0.8-0.8",
+      "unit_vehicle",
+      "unit_light",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_HUNTER_LPL",
+  "Description": {
+    "Id": "vehicledef_HUNTER_LPL",
+    "Name": "Hunter Light Support Tank",
+    "UIName": "Hunter Light Support Tank (LPL)",
+    "Details": "<b>Name: <color=#85DBF6>Hunter Light Support Tank (LPL)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>140 Fusion</color></b>\n\nThe Hunter Light Support Tank, popular among planetary militias and second-line units, is a cheap, reliable, and effective combat vehicle designed by Defiance Industries to provide covering fire support for withdrawing combat units from the front lines.\n\nBased on the Hunter redesign, this 3061 model removes one LRM-15 rack and replaces it with a Large Pulse Laser to make use of the heat reduction capabilities of the fusion engine while also enabling the tank to carry an additional two tons of ammunition for the remaining LRM-15 rack.",
+    "Icon": "uixVhclIcon_hunter",
+    "Cost": 1474000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 135,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 135,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_LargeLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3061-01-01T00:00:00Z"
+}

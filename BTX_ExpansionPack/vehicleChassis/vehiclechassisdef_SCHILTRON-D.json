@@ -1,0 +1,136 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Schiltron",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_SCHILTRON-D",
+    "Name": "Schiltron D",
+    "Details": "<b>Name: <color=#85DBF6>Schiltron Mobile Fire-Support Platform D</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Wheeled)</color>\tEngine: <color=#85DBF6>220 XL</color></b>\n\nThe Schiltron is designed to coordinate and support allied forces. Its modular design allows for quick reconfiguration to adapt to various mission parameters, while its C3 computer and ECM Suite enhance its command and control capabilities.\n\nThe D configuration, incorporating Federated Suns technology, features two Rotary Autocannon/5s enhanced by a Targeting Computer. An LRM-15 with Artemis IV FCS provides additional long-range support. While lacking energy weapon backup, the Schiltron D compensates with ample ammunition for sustained firepower.",
+    "Icon": "uixVhclIcon_schiltron",
+    "Cost": 13738000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_3",
+  "PathingCapDefID": "pathingdef_assault_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_gurzil",
+  "PrefabIdentifier": "chrprfvhcl_gurzilbase",
+  "PrefabBase": "gurzil",
+  "Tonnage": 80,
+  "weightClass": "ASSAULT",
+  "BattleValue": 8015000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 230,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 170,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 170,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 40
+    }
+  ]
+}

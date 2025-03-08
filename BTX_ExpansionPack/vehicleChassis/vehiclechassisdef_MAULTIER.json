@@ -1,0 +1,116 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Maultier",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_MAULTIER",
+    "Name": "Maultier",
+    "Details": "<b>Name: <color=#85DBF6>Maultier Hover APC</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe Maultier is a 15-ton hover APC that was designed to transport an entire platoon of infantry, like its larger cousin the Maxim.\n\nLike many APCs, the Maultier carries a single defensive weapon: a Streak SRM-2 rack. The Streak launcher doesn't fire until a solid target lock is acquired, ensuring it maximizes the single ton of ammunition.",
+    "Icon": "uixVhclIcon_maultier",
+    "Cost": 242000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_9",
+  "PathingCapDefID": "pathingdef_light_hover",
+  "HardpointDataDefID": "hardpointdatadef_maxim",
+  "PrefabIdentifier": "chrprfvhcl_maxim",
+  "PrefabBase": "maxim",
+  "Tonnage": 15,
+  "weightClass": "LIGHT",
+  "BattleValue": 1045000,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 10
+    }
+  ]
+}

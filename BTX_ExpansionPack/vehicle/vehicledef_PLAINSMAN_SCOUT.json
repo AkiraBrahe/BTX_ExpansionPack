@@ -1,0 +1,111 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.9",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_PLAINSMAN_SCOUT",
+  "Description": {
+    "Id": "vehicledef_PLAINSMAN_SCOUT",
+    "Name": "Plainsman Medium Hovertank",
+    "UIName": "Plainsman Medium Hovertank (Scout)",
+    "Details": "<b>Name: <color=#85DBF6>Plainsman Medium Hovertank (Scout)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Plainsman is a fast and hard-hitting hovertank designed by Pinard Protectorates Limited at the request of Wolf's Dragoons. It became a staple of many second-line forces throughout the Inner Sphere.\n\nThis 3065 variant replaces the front-mounted SRM-2 and its ammo with a Beagle Active Probe. This change allows for an additional half-ton of armor in critical areas to compensate for the loss of firepower.",
+    "Icon": "uixVhclIcon_plainsman",
+    "Cost": 1157000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 85,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 85,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 85,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 85,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_BeagleHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
+}

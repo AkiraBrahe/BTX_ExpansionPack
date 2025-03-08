@@ -1,0 +1,133 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Igor",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "AOEHeight": 45,
+    "FiringArc": 50,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "MoveClamp": 1.0
+    }
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_IGOR_AC10",
+    "Name": "Igor UAC-77 (AC/10)",
+    "Details": "<b>Name: <color=#85DBF6>Igor Superheavy Gunship UAC-77 (AC/10)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (VTOL)</color>\tEngine: <color=#85DBF6>130 Fusion</color></b>\n\nThe Igor is a superheavy VTOL with a four-engined tiltjet design, similar to the Anhur. Its modular design allows it to quickly transport heavy armor across the battlefield or serve as a powerful attack vehicle.\n\nThis rarer variant carries twin Autocannon/10s with three tons of ammunition, allowing for greater armor penetration.",
+    "Icon": "uixVhclIcon_igor",
+    "Cost": 4134000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_6",
+  "PathingCapDefID": "pathingdef_heavy_vtol",
+  "HardpointDataDefID": "hardpointdatadef_curedkite",
+  "PrefabIdentifier": "chrprfmech_redkite_vtol",
+  "PrefabBase": "curedkite",
+  "Tonnage": 60,
+  "weightClass": "HEAVY",
+  "BattleValue": 3610000,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 120,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 105,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 105,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 60,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 10,
+      "InternalStructure": 30
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Donar",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "AOEHeight": 45,
+    "FiringArc": 50,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "MoveClamp": 1.0
+    }
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_DONAR",
+    "Name": "Donar",
+    "Details": "<b>Name: <color=#85DBF6>Donar Assault Helicopter</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/14 (VTOL)</color>\tEngine: <color=#85DBF6>50 Fusion</color></b>\n\nThe Donar Assault Helicopter is a versatile VTOL used by Clans for scouting and light attack roles. Its durable design and powerful armament make it a valuable asset on the battlefield.\n\nAs its name suggests, the Donar excels at softening an enemy up at range, using its Large Laser against targets up to 750 meters away. It then darts in to exploit the resulting openings with its twin Streak SRM-2 launchers. Originally designed for quick fire support, the Donar's missile loadout is perfectly suited to this role.",
+    "Icon": "uixVhclIcon_donar",
+    "Cost": 1034000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_9",
+  "PathingCapDefID": "pathingdef_light_vtol",
+  "HardpointDataDefID": "hardpointdatadef_custrix",
+  "PrefabIdentifier": "chrprfmech_strix_vtol",
+  "PrefabBase": "custrix",
+  "Tonnage": 21,
+  "weightClass": "LIGHT",
+  "BattleValue": 4575000,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 55,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 10,
+      "InternalStructure": 15
+    }
+  ]
+}

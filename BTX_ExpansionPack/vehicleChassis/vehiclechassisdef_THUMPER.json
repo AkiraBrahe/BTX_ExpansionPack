@@ -1,0 +1,132 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Thumper",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_THUMPER",
+    "Name": "Thumper",
+    "Details": "<b>Name: <color=#85DBF6>Thumper Artillery Vehicle</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>220 ICE</color></b>\n\nThe Thumper is a cheaper alternative to the SLDF's Thor Artillery Vehicle. Mass-produced by Brooks Incorporated, it was replaced by more advanced designs following the Fourth Succession War.\n\nThe vehicle's primary weapon is a Thumper artillery piece with two tons of ammunition. For close-in defense, it is equipped with four Machine Guns, mounted in pairs on each side of the vehicle. The machine guns share a single ton of ammunition and were initially protected by CASE, which was later replaced with additional armor.",
+    "Icon": "uixVhclIcon_thumper",
+    "Cost": 829000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_heavy_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_gallant",
+  "PrefabIdentifier": "chrPrfVhcl_gallant",
+  "PrefabBase": "gallant",
+  "Tonnage": 60,
+  "weightClass": "HEAVY",
+  "BattleValue": 2840000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    },
+    {
+      "x": -3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 320,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 210,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 210,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 140,
+      "InternalStructure": 30
+    }
+  ]
+}

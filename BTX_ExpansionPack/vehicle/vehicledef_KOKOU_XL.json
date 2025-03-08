@@ -1,0 +1,105 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.3",
+      "unit_vehicle",
+      "unit_assault",
+      "unit_tracks",
+      "unit_lance_tank",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack",
+      "unit_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_KOKOU_XL",
+  "Description": {
+    "Id": "vehicledef_KOKOU_XL",
+    "Name": "Kokou Defense Tank",
+    "UIName": "Kokou Defense Tank (XL)",
+    "Details": "<b>Name: <color=#85DBF6>Kokou Defense Tank (XL)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>210 XL</color></b>\n\nThe Kokou is an early Clan combat vehicle first developed by Clan Star Adder from the SLDF's Royal Burke. Given its low speed, the Kokou is used primarily as a defensive unit.\n\nThis variant differs little from the standard model with the exception of the extralight fusion engine, which increases its maximum speed to 54 km/h.",
+    "Icon": "uixVhclIcon_kokou",
+    "Cost": 8432000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 225,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 225,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 225,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 225,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_LRM_CLRM10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2843-01-01T00:00:00Z"
+}

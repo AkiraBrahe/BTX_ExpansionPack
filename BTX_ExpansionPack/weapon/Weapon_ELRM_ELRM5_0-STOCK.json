@@ -1,0 +1,113 @@
+{
+  "Custom": {
+    "Clustering": {
+      "Base": 0.6333333,
+      "DeadfireBase": 0.54320985,
+      "ArtemisBase": 0.76666665,
+      "Steps": [
+        {
+          "GunnerySkill": 6,
+          "Mod": 0.03
+        },
+        {
+          "GunnerySkill": 10,
+          "Mod": 0.03
+        }
+      ]
+    },
+    "Sorter": 103
+  },
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM5",
+  "MinRange": 300,
+  "MaxRange": 1140,
+  "RangeSplit": [
+    360,
+    660,
+    1140
+  ],
+  "ammoCategoryID": "ELRM",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 9,
+  "Damage": 5,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": true,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 5,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 3,
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+  "Description": {
+    "Cost": 60000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Coventry",
+    "Model": "Extended LRM Launcher",
+    "UIName": "ELRM5",
+    "Id": "Weapon_ELRM_ELRM5_0-STOCK",
+    "Name": "Extended LRM5",
+    "Details": "Extended LRMs (ELRMs) were developed by the Federated Commonwealth to compensate for the incredible range advantage of most Clan weapons. The ELRM pairs a standard LRM to a booster system that gives the missile more fuel, and thus, more range. However, this increased reach comes at the cost of a 50% higher minimum range, a heavier, bulkier launcher, and incompatiblity with Narc Missile Beacons and TAG.",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm5",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 6,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "MissileVolleySize": 5,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "HitGenerator": "Cluster",
+  "ProjectileSpeedMultiplier": 1.15,
+  "MissileHealth": 1,
+  "Modes": [
+    {
+      "Id": "ELRM_Std",
+      "UIName": "STD",
+      "Name": "Standard",
+      "Description": "Fired missiles arm after they leave the launcher.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "ELRM_HotLoad",
+      "UIName": "HL",
+      "Name": "Hot Load",
+      "Description": "Missiles are pre-armed inside the launcher, removing the minimum range but leaving some missiles unable to arm.",
+      "isBaseMode": false,
+      "DamageOnJamming": true,
+      "AccuracyModifier": 1.0,
+      "FlatJammingChance": 0.1,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.04,
+      "MinRange": -300
+    }
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme",
+      "component_elrm",
+      "component_usesnarc",
+      "missle_tts_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

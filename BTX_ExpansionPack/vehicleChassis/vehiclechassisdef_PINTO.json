@@ -1,0 +1,141 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Pinto",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "AOEHeight": 45,
+    "FiringArc": 50,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "MoveClamp": 1.0
+    }
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_PINTO",
+    "Name": "Pinto",
+    "Details": "<b>Name: <color=#85DBF6>Pinto Attack VTOL</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (VTOL)</color>\tEngine: <color=#85DBF6>160 Fusion</color></b>\n\nThe Pinto is a fast and well-armored VTOL design that entered full production in 3055. Popular with the Explorer Corps and Com Guards, it also served the Word of Blake Militia after their takeover of Terra.\n\nThe Pinto's armament consists of three Medium Lasers for high-speed attack runs. For engagements where close combat is less desirable, it also carries an LRM-5 launcher guided by an Artemis IV FCS. A one-ton cargo bay allows for the transport of an infantry squad.",
+    "Icon": "uixVhclIcon_pinto",
+    "Cost": 2150000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_10",
+  "PathingCapDefID": "pathingdef_light_vtol",
+  "HardpointDataDefID": "hardpointdatadef_cuwarriorvtol",
+  "PrefabIdentifier": "chrprfmech_warrior_vtol",
+  "PrefabBase": "cuwarriorvtol",
+  "Tonnage": 30,
+  "weightClass": "LIGHT",
+  "BattleValue": 3550000,
+  "TopSpeed": 162,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 100,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 65,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 10,
+      "InternalStructure": 15
+    }
+  ]
+}

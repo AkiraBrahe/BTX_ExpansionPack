@@ -1,0 +1,104 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.5",
+      "unit_vehicle",
+      "unit_medium",
+      "unit_hover",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_FALCON",
+  "Description": {
+    "Id": "vehicledef_FALCON",
+    "Name": "Falcon Hover Tank",
+    "UIName": "Falcon Hover Tank (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Falcon Hover Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>215 ICE</color></b>\n\nThe Falcon, an upgraded variant of the LTV-4, is a versatile front-line combat hovertank designed to defend against bandits. Its more powerful engine allows it to outmaneuver enemy BattleMechs and destroy the vehicle's motive systems, crippling raid forces that rely on their speed. The hovertank is equipped with a Medium Laser and two SRM-6 racks for flanking and anti-armor missions. It has five and a half tons of standard armor, the same as the LTV-4. It also has a cargo bay for light-weight courier missions and extended patrols, although its internal combustion engine limits its range.",
+    "Icon": "uixVhclIcon_falcon",
+    "Cost": 1316000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3023-01-01T00:00:00Z"
+}

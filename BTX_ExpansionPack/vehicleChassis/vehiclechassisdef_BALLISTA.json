@@ -1,0 +1,137 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Ballista",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_BALLISTA",
+    "Name": "Ballista",
+    "Details": "<b>Name: <color=#85DBF6>Ballista Self-Propelled Artillery Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>\n\nThe Ballista is an artillery vehicle designed specifically for long-range artillery support. It is appropriately armed with a Sniper Artillery Piece mounted in the turret. While the vehicle only carries three tons of ammunition onboard, a trailer hitch allows for additional ammunition. The Ballista's secondary weaponry only includes three Machine Guns, mounting two forward and one in the rear.",
+    "Icon": "uixVhclIcon_ballista",
+    "Cost": 1015000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_3",
+  "PathingCapDefID": "pathingdef_medium_tracked",
+  "HardpointDataDefID": "hardpointdatadef_ballista",
+  "PrefabIdentifier": "chrprfvhcl_ballista",
+  "PrefabBase": "ballista",
+  "Tonnage": 55,
+  "weightClass": "MEDIUM",
+  "BattleValue": 2655000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": -3.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 75,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 30
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Glory",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_GLORY",
+    "Name": "Glory",
+    "Details": "<b>Name: <color=#85DBF6>Glory Heavy Fire Support Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>\n\nThe Glory was initially a larger version of the Goblin but evolved into a standalone fire support vehicle due to the AFFC's request for a platform for their new rotary autocannon. Despite delays, it eventually saw widespread use during the Jihad, where it served with Devlin Stone's coalition.\n\nA heavily armored, slow-moving support vehicle, the Glory's primary weapon is a powerful Rotary Autocannon/5, backed up by twin LRM-15 launchers guided by Artemis V FCS. For additional protection and close-range defense, it is equipped with a Guardian ECM Suite and a pair of ER Medium Lasers. Its role is to provide fire support from the rear lines, leveraging its heavy armor and long-range weaponry.",
+    "Icon": "uixVhclIcon_glory",
+    "Cost": 6136000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_3",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_skanda",
+  "PrefabIdentifier": "chrprfvhcl_skanda",
+  "PrefabBase": "skanda",
+  "Tonnage": 85,
+  "weightClass": "ASSAULT",
+  "BattleValue": 8420000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 300,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 250,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 250,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 300,
+      "InternalStructure": 45
+    }
+  ]
+}

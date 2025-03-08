@@ -1,0 +1,119 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Hover Scout",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_HOVERSCOUT",
+    "Name": "Hover Scout",
+    "Details": "<b>Name: <color=#85DBF6>Hover Scout</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (Hover)</color>\tEngine: <color=#85DBF6>80 Fusion</color></b>\n\nA generic design with no specific origin, the Hover Scout is a 10-ton hovercraft powered by a fusion engine. It has been encountered throughout the Inner Sphere and Periphery since at least 2801, although the use of a fusion engine is unusual for the lostech era.\n\nThe Hover Scout's armament consists of a turret-mounted Medium Laser. It also carries 1.65 tons of unspecified sensor equipment and one ton of armor, distributed almost evenly with a slight emphasis on the front.",
+    "Icon": "uixVhclIcon_hoverapc",
+    "Cost": 169000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_12",
+  "PathingCapDefID": "pathingdef_light_hover",
+  "HardpointDataDefID": "hardpointdatadef_plainsman",
+  "PrefabIdentifier": "chrprfvhcl_plainsman",
+  "PrefabBase": "plainsman",
+  "Tonnage": 10,
+  "weightClass": "LIGHT",
+  "BattleValue": 945000,
+  "TopSpeed": 194.4,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    },
+    {
+      "x": -1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 20,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 15,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 15,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 15,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 15,
+      "InternalStructure": 5
+    }
+  ]
+}

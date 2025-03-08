@@ -1,0 +1,124 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Regulator",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_REGULATOR_ARROWIV",
+    "Name": "Regulator (Arrow IV)",
+    "Details": "<b>Name: <color=#85DBF6>Regulator Hovertank (Arrow IV)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>170 Fusion</color></b>\n\nThe Regulator hovertank was the result of the Capellan Confederation refining its surviving industries to produce better combat vehicles after the Fourth Succession War and the revival of Star League technology from the Helm Memory Core.\n\nThis 3064 variant replaces the Regulator's Gauss Rifle with an Arrow IV missile system, requiring a reduction in armor to accommodate the weapon and its 15 rounds of ammunition.",
+    "Icon": "uixVhclIcon_regulator",
+    "Cost": 2399000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_9",
+  "PathingCapDefID": "pathingdef_medium_hover",
+  "HardpointDataDefID": "hardpointdatadef_regulator",
+  "PrefabIdentifier": "chrprfvhcl_regulator",
+  "PrefabBase": "regulator",
+  "Tonnage": 45,
+  "weightClass": "MEDIUM",
+  "BattleValue": 5080000,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 110,
+      "InternalStructure": 25
+    }
+  ]
+}

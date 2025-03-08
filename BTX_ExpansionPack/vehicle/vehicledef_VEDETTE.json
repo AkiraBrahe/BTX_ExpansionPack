@@ -1,0 +1,96 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.5",
+      "unit_vehicle",
+      "unit_medium",
+      "unit_tracks",
+      "unit_lance_vanguard",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_VEDETTE",
+  "Description": {
+    "Id": "vehicledef_VEDETTE",
+    "Name": "Vedette Medium Tank",
+    "UIName": "Vedette Medium Tank (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Vedette Medium Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>250 ICE</color></b>\n\nThe Vedette Medium Tank is one of the most popular and common combat vehicles in the Inner Sphere, owing to its combination of speed and tightly focused armament. It works best in concert with other vehicle types or as a pack hunter with other Vedettes.\n\nThe Vedette's armament is limited to one main weapon, a turret-mounted AC/5, and one secondary weapon, a Machine Gun mounted on the bow of the tank. However, the Vedette remains an effective vehicle due to its speed. It can quickly move into optimum range, open fire, and then retreat before enemy forces can retaliate.",
+    "Icon": "uixVhclIcon_vedette",
+    "Cost": 726000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2943-01-01T00:00:00Z"
+}

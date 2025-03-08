@@ -1,0 +1,143 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Warrior",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "AOEHeight": 45,
+    "FiringArc": 50,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "MoveClamp": 1.0
+    }
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_WARRIOR_H-7B",
+    "Name": "Warrior H-7B",
+    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-7B</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (VTOL)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe Warrior attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nThis Federated Suns field modification has become popular with mercenaries and planetary defenders. Designed for maximum firepower and ease of use, it replaces the Autocannon/2 and SRM-4 with a Medium Laser and two wing-mounted SRM-2 launchers, shifting the Warrior's role from long-range sniper to close air support.",
+    "Icon": "uixVhclIcon_warrior",
+    "Cost": 511000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_9",
+  "PathingCapDefID": "pathingdef_light_vtol",
+  "HardpointDataDefID": "hardpointdatadef_cuwarriorvtol",
+  "PrefabIdentifier": "chrprfmech_warrior_vtol",
+  "PrefabBase": "cuwarriorvtol",
+  "Tonnage": 21,
+  "weightClass": "LIGHT",
+  "BattleValue": 2070000,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 1,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 75,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 55,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 55,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 45,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 10,
+      "InternalStructure": 15
+    }
+  ]
+}

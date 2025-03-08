@@ -1,0 +1,154 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Huitzilopochtli",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_HUITZILOPOCHTLI",
+    "Name": "\"Huey\"",
+    "Details": "<b>Name: <color=#85DBF6>Huitzilopochtli Assault Tank \"Huey\"</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>2/3 (Tracked)</color>\tEngine: <color=#85DBF6>170 ICE</color></b>\n\nThe Huitzilopochtli, or \"Huey\", is a Clan combat vehicle designed as a mobile artillery platform. However, due to Clan disdain for both artillery and combat vehicles, it was built with an internal combustion engine and minimal armor, often requiring DropShip transport.\n\nThe Huey's primary weapon is a pair of Arrow IV launchers with four tons of ammunition for flexibility. Defensive capabilities include an Ultra Autocannon/5, two Medium Pulse Lasers, an ER Small Laser, and two Machine Guns. Additionally, an ECM Suite provides protection against enemy detection and electronic warfare.",
+    "Icon": "uixVhclIcon_huitzilopochtli",
+    "Cost": 3733000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_2",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_paladin",
+  "PrefabIdentifier": "chrprfvhcl_paladin",
+  "PrefabBase": "paladin",
+  "Tonnage": 85,
+  "weightClass": "ASSAULT",
+  "BattleValue": 5800000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 100,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 90,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 45
+    }
+  ]
+}

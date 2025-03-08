@@ -1,0 +1,69 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.1-1.1-0.9",
+      "unit_vehicle",
+      "unit_weaponless",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_lance_vanguard",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_SWIFTWIND",
+  "Description": {
+    "Id": "vehicledef_SWIFTWIND",
+    "Name": "Swift Wind Scout Car",
+    "UIName": "Swift Wind Scout Car (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Swift Wind Scout Car</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Wheeled)</color>\tEngine: <color=#85DBF6>60 Fusion</color></b>\n\nThe Swift Wind is a one-person scout car designed for the Capellan Confederation Armed Forces. It boasts advanced communication gear and fast speed, ensuring the pilot gets where they need to be and get out of there just as quickly, all while relaying information.\n\nThe Swift Wind has no weapons to speak of. It is, however, equipped with two tons of powerful communications equipment that can prove to be more deadly than any weapon.",
+    "Icon": "uixVhclIcon_swiftwind",
+    "Cost": 86000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Gear_Comms_Equipment_2t",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2817-01-01T00:00:00Z"
+}

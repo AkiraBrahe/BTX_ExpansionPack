@@ -1,0 +1,123 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Packrat",
+      "Exclude": true
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_PACKRAT",
+    "Name": "Packrat (Support)",
+    "Details": "<b>Name: <color=#85DBF6>Packrat Support Vehicle</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Wheeled)</color>\tEngine: <color=#85DBF6>120 Fusion</color></b>\n\nThe Packrat is a speedy eight-wheeled vehicle designed for deep infiltration and sabotage. First produced by Robertson Technologies, the vehicle is meant to operate on its own deep behind enemy lines for extended periods of time.\n\nThis fusion-powered variant of the Packrat, introduced in 3045, is five tons heavier than the original model and uses an actual Guardian ECM to protect itself from electronic warfare. This variant is outfitted with a Large Laser instead of the original's SRM-6/Flamer combo.",
+    "Icon": "uixVhclIcon_packrat",
+    "Cost": 727000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_7",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_packrat",
+  "PrefabIdentifier": "chrPrfVhcl_packrat",
+  "PrefabBase": "packrat",
+  "Tonnage": 25,
+  "weightClass": "LIGHT",
+  "BattleValue": 2670000,
+  "TopSpeed": 118.8,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.25,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.25,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 60,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 60,
+      "InternalStructure": 15
+    }
+  ]
+}

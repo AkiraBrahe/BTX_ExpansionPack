@@ -1,0 +1,125 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.3",
+      "unit_vehicle",
+      "unit_assault",
+      "unit_tracks",
+      "unit_lance_assassin",
+      "unit_lance_tank",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_ALACORN_MK-VI",
+  "Description": {
+    "Id": "vehicledef_ALACORN_MK-VI",
+    "Name": "Alacorn Heavy Tank",
+    "UIName": "Alacorn Heavy Tank Mk VI",
+    "Details": "<b>Name: <color=#85DBF6>Alacorn Heavy Tank Mk VI</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>285 XL</color></b>\n\nDeveloped by the New Earth Trading Company in 2561, the Alacorn quickly gained a reputation in the SLDF as an effective and dependable tank.\n\nThe Alacorn Mk VI is a popular design because of its heavy offensive weaponry and thirteen tons of armor. However, this payload is only possible through the use of an expensive and fragile 285 XL Engine. The three turret-mounted Gauss Rifles allow the Alacorn to unleash devastating barrages at range, with five tons of reloads offering excellent endurance in combat.",
+    "Icon": "uixVhclIcon_alacorn",
+    "Cost": 16609000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 250,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 250,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 140,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 140,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 250,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 250,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Gauss_Gauss_Sa_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Gauss_Gauss_Sa_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Gauss_Gauss_Sa_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2590-01-01T00:00:00Z"
+}

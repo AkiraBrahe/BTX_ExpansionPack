@@ -1,0 +1,133 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.6",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_CYRANO_ML",
+  "Description": {
+    "Id": "vehicledef_CYRANO_ML",
+    "Name": "Cyrano Gunship",
+    "UIName": "Cyrano Gunship (ML)",
+    "Details": "<b>Name: <color=#85DBF6>Cyrano Gunship (ML)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (VTOL)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nThe Cyrano is a heavy VTOL that served as the SLDF's primary attack gunship. Production ceased after its manufacturing facility was destroyed in 2840.\n\nThis modern variant, the first new design in over two centuries, became available on the open market in the early 3070s. It replaces the original Large Laser with a pair of Medium Lasers and adds five Rocket Launcher 10s. The remaining half-ton is used for additional armor.",
+    "Icon": "uixVhclIcon_cyrano",
+    "Cost": 1980000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 15,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 15,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 4,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 5,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 6,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_BeagleHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3071-01-01T00:00:00Z"
+}

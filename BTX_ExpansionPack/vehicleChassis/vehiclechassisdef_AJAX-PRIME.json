@@ -1,0 +1,139 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Ajax",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_AJAX-PRIME",
+    "Name": "Ajax PRIME",
+    "Details": "<b>Name: <color=#85DBF6>Ajax Assault Tank Prime</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>270 XL</color></b>\n\nThe Ajax Assault Tank, successor to the Challenger X MBT, prioritizes defense and battlefield adaptability with 19 tons of armor and an Omni-capable design, ensuring its place on the front lines.\n\nThe primary configuration carries an Ultra Autocannon/10 and a Gauss rifle, with sufficient ammunition for most engagements. For backup, the Ajax mounts a pair of Medium Pulse Lasers and a Streak SRM-4. All the weapons are mounted in a turret, allowing the crew of the Ajax to bring them all to bear on any target within range. A C3 slave unit allows the Assault Tank to tie into a C3 network, making its weapons fire all the more accurate.",
+    "Icon": "uixVhclIcon_ajax",
+    "Cost": 19196000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_3",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_schildkrote",
+  "PrefabIdentifier": "chrprfvhcl_schildkrotebase",
+  "PrefabBase": "schildkrote",
+  "Tonnage": 90,
+  "weightClass": "ASSAULT",
+  "BattleValue": 8945000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": -3.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 380,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 300,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 300,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 340,
+      "InternalStructure": 45
+    }
+  ]
+}

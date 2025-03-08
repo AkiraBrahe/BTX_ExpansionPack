@@ -1,0 +1,98 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.25",
+      "unit_vehicle",
+      "unit_light",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_lance_assassin",
+      "unit_range_laser",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_GALLEON_GAL-104",
+  "Description": {
+    "Id": "vehicledef_GALLEON_GAL-104",
+    "Name": "Galleon Light Tank",
+    "UIName": "Galleon Light Tank GAL-104",
+    "Details": "<b>Name: <color=#85DBF6>Galleon Light Tank GAL-104</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Tracked)</color>\tEngine: <color=#85DBF6>210 XL</color></b>\n\nThe Galleon, a light combat vehicle first produced in 2692, served well during the Amaris Civil War as an economical means of supporting infantry and BattleMechs. It is often paired with the Harasser Missile Platform.\n\nThis 3066 variant transforms the Galleon into a fire support tank by removing the weapons and electronics except for the C3i Computer and installing an ER Large Laser linked to a Targeting Computer.",
+    "Icon": "uixVhclIcon_galleon",
+    "Cost": 3681000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 140,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 140,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 145,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 145,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_C3_Improved",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_BeagleHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_TAC2",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3066-01-01T00:00:00Z"
+}

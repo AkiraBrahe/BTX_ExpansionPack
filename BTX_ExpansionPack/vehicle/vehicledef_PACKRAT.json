@@ -1,0 +1,86 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.2",
+      "unit_vehicle",
+      "unit_light",
+      "unit_wheels",
+      "unit_role_ecmcarrier",
+      "unit_electronicWarfare",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_dlc"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_PACKRAT",
+  "Description": {
+    "Id": "vehicledef_PACKRAT",
+    "Name": "Packrat Support Vehicle",
+    "UIName": "Packrat Support Vehicle (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Packrat Support Vehicle</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Wheeled)</color>\tEngine: <color=#85DBF6>120 Fusion</color></b>\n\nThe Packrat is a speedy eight-wheeled vehicle designed for deep infiltration and sabotage. First produced by Robertson Technologies, the vehicle is meant to operate on its own deep behind enemy lines for extended periods of time.\n\nThis fusion-powered variant of the Packrat, introduced in 3045, is five tons heavier than the original model and uses an actual Guardian ECM to protect itself from electronic warfare. This variant is outfitted with a Large Laser instead of the original's SRM-6/Flamer combo.",
+    "Icon": "uixVhclIcon_packrat",
+    "Cost": 727000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3045-01-01T00:00:00Z"
+}

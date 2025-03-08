@@ -1,0 +1,12 @@
+{
+  "Name": "ColourfulFlashPoints",
+  "Enabled": true,
+  "Hidden": true,
+  "Version": "1.1.0",
+  
+  "Description": "Customizes the colour of the flashpoint indicators and contract cards.",
+  "Author": "Jamie Wolf",
+  "Website": "https://github.com/wmtorode/ColourfulFlashPoints",
+  "DLL": "ColourfulFlashPoints.dll",
+  "DLLEntryPoint": "ColourfulFlashPoints.Main.Init"
+}

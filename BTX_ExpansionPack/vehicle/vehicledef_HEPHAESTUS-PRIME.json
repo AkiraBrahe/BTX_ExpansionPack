@@ -1,0 +1,116 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.9",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_role_ecmcarrier",
+      "unit_electronicWarfare",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_short",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_clan",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_HEPHAESTUS-PRIME",
+  "Description": {
+    "Id": "vehicledef_HEPHAESTUS-PRIME",
+    "Name": "Hephaestus Scout Tank",
+    "UIName": "Hephaestus Scout Tank PRIME",
+    "Details": "<b>Name: <color=#85DBF6>Hephaestus Scout Tank Prime</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>8/12 (Hover)</color>\tEngine: <color=#85DBF6>110 Fusion</color></b>\n\nThe Hephaestus Scout Tank, an OmniVehicle developed by Clan Hell's Horses, is a versatile platform based on the Star League-era Kanga. With a four-ton cargo bay, a fixed Active Probe, and five tons of armor, it offers moderate protection and utility.\n\nThe primary configuration is designed for electronic warfare with the addition of a TAG and an ECM Suite in pod mounts. While armed with only two Medium Pulse Lasers, its accurate weaponry can harass targets and effectively engage light armor. However, its true strength lies in its ability to control the battlefield through electronic warfare.",
+    "Icon": "uixVhclIcon_hephaestus",
+    "Cost": 1995000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_TAG_Clan_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_BeagleClan",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_GuardianClan",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
+}

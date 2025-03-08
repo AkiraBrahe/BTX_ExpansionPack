@@ -1,0 +1,127 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Tokugawa",
+      "Exclude": true
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_TOKUGAWA_YUMI",
+    "Name": "Tokugawa Yumi",
+    "Details": "<b>Name: <color=#85DBF6>Tokugawa Heavy Tank Yumi</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Mixed-tech</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>280 XXL</color></b>\n\nThe Tokugawa is a wheeled heavy tank designed in the Draconis Combine. It is an older design, dating back to the First Succession War, but it has remained in service ever since, even seeing extensive use after the Clan Invasion.\n\nThis experimental prototype is a testbed for a new type of LRM launcher. The vehicle is equipped with an Extended LRM-15 launcher and a Class 10 Hyper-Velocity Autocannon. To accommodate these weapons, the engine is upgraded to a 280-rated XXL fusion engine. The Yumi is well-armored with 8.5 tons of Clan-spec ferro-fibrous armor and includes a C3 Slave computer for enhanced coordination with other units.",
+    "Icon": "uixVhclIcon_tokugawa",
+    "Cost": 30843000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_5",
+  "PathingCapDefID": "pathingdef_heavy_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_tokugawa",
+  "PrefabIdentifier": "chrprfvhcl_tokugawa",
+  "PrefabBase": "tokugawa",
+  "Tonnage": 60,
+  "weightClass": "HEAVY",
+  "BattleValue": 5625000,
+  "TopSpeed": 86.4,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 180,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 165,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 165,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 155,
+      "InternalStructure": 30
+    }
+  ]
+}

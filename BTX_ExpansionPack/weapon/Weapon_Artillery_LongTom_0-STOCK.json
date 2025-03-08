@@ -1,0 +1,126 @@
+{
+  "Custom": {
+    "RequiresLoader": {
+      "LoaderType": "CAC_C_ArtilleryLoader"
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC20",
+  "MinRange": 180,
+  "MaxRange": 3000,
+  "RangeSplit": [
+    3000,
+    3000,
+    3000
+  ],
+  "ForbiddenRange": 180,
+  "ammoCategoryID": "LongTom",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 60,
+  "Damage": 80,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "MinMissRadius": 30,
+  "MaxMissRadius": 90,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": true,
+  "AOERange": 120,
+  "AOEDamage": 225,
+  "AOEHeatDamage": 0,
+  "AOEInstability": 168.75,
+  "IndirectFireCapable": true,
+  "AlwaysIndirectVisuals": true,
+  "CantHitUnaffecedByPathing": true,
+  "RefireModifier": 4,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 40,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+  "Description": {
+    "Cost": 450000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Armstrong",
+    "Model": "Heavy Artillery",
+    "UIName": "Long Tom",
+    "Id": "Weapon_Artillery_LongTom_0-STOCK",
+    "Name": "Long Tom Artillery Piece",
+    "Details": "The Long Tom Artillery Piece is the largest conventional artillery piece that can be mounted on a vehicle. As with all artillery types, the Long Tom always fires indirectly and deals damage in the area of impact.",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "artillery",
+  "BattleValue": 0,
+  "InventorySize": 12,
+  "Tonnage": 30,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 1,
+  "ProjectileSpeedMultiplier": 1,
+  "IsArtillery": true,
+  "ArtilleryReticleColor": {
+    "C": "#C95410",
+    "I": 1.5
+  },
+  "ArtilleryReticleRadius": 120,
+  "ArtilleryReticleText": "Long Tom",
+  "Modes": [
+    {
+      "Id": "ARTY",
+      "UIName": "",
+      "Name": "Artillery",
+      "Description": "Fire in a high arc at ground targets.",
+      "isBaseMode": true,
+      "DirectFireModifier": 2,
+      "ShotsWhenFired": -1
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true,
+        "hideApplicationFloatie": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Arty-SelfKnockdown",
+        "Name": "SELF-KNOCKDOWN",
+        "Details": "Artillery fire lowers stability.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "-75.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme",
+      "artillery_loader_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

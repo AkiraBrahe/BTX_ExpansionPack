@@ -1,0 +1,110 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.35",
+      "unit_vehicle",
+      "unit_medium",
+      "unit_wheels",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_speed_medium",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_STRIKER_3061",
+  "Description": {
+    "Id": "vehicledef_STRIKER_3061",
+    "Name": "Striker Light Tank",
+    "UIName": "Striker Light Tank (3061 Upgrade)",
+    "Details": "<b>Name: <color=#85DBF6>Striker Light Tank (3061 Upgrade)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>\n\nThe Striker Light Tank, a joint venture between Valiant Systems and Wunderland Enterprises, was introduced in the early 31st century as a low-cost light fire support tank. It quickly became a mainstay in the AFFS, outstripping production capacity.\n\nA Draconis Combine version of the 3053 Striker. The SRM launchers and their ammunition are dropped for a single turret-mounted ER Medium Laser, the LRM-15's ammunition is brought up to 16 rounds, and the tank is also given a Guardian ECM Suite and a C3 slave computer.",
+    "Icon": "uixVhclIcon_striker",
+    "Cost": 1735000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 115,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 115,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 115,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 115,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3061-01-01T00:00:00Z"
+}

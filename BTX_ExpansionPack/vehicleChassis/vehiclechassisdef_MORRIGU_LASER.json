@@ -1,0 +1,131 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Morrigu",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_MORRIGU_LASER",
+    "Name": "Morrigu (Laser)",
+    "Details": "<b>Name: <color=#85DBF6>Morr�g� Fire Support Vehicle (Laser)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>n\nThe Morr�g�, named after a Celtic goddess of war, is a Clan Blood Spirit fire support vehicle designed to deliver maximum firepower at enemies from a distance using inexpensive and efficient weapons favored by the Spirits.\n\nThe Laser variant reduces the ammunition dependency of the Morr�g� by replacing the missile launchers and ECM Suite with a third ER Large Laser. In order to accommodate the extra heat sinks, two tons of armor had to be removed.",
+    "Icon": "uixVhclIcon_morrigu",
+    "Cost": 3905000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_3",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_morrigu",
+  "PrefabIdentifier": "chrprfvhcl_morrigubase",
+  "PrefabBase": "morrigu",
+  "Tonnage": 80,
+  "weightClass": "ASSAULT",
+  "BattleValue": 6620000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 265,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 175,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 175,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 120,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 145,
+      "InternalStructure": 40
+    }
+  ]
+}

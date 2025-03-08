@@ -1,0 +1,96 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.25",
+      "unit_vehicle",
+      "unit_light",
+      "unit_tracks",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_GALLEON_GAL-200",
+  "Description": {
+    "Id": "vehicledef_GALLEON_GAL-200",
+    "Name": "Galleon Light Tank",
+    "UIName": "Galleon Light Tank GAL-200",
+    "Details": "<b>Name: <color=#85DBF6>Galleon Light Tank GAL-200</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe Galleon, a light combat vehicle first produced in 2692, served well during the Amaris Civil War as an economical means of supporting infantry and BattleMechs. It is often paired with the Harasser Missile Platform.\n\nThe GAL-200 variant replaces the Small Lasers with Machine Guns. This 2915 version is used by House Kurita, although some have been captured by the Lyran Commonwealth.",
+    "Icon": "uixVhclIcon_galleon",
+    "Cost": 324000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 65,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 65,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 65,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 65,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Left",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Right",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2915-01-01T00:00:00Z"
+}

@@ -1,0 +1,147 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Svantovit",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_SVANTOVIT",
+    "Name": "Svantovit",
+    "Details": "<b>Name: <color=#85DBF6>Svantovit Infantry Fighting Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>175 Fusion</color></b>\n\nThe Svantovit infantry fighting vehicle is designed for use with second-line units to deliver a full Elemental Point to the battlefield.\n\nIn addition to carrying infantry, the Svantovit provides fire support with its paired LRM-5s and Streak SRM-2s. The latter are mounted in a turret to give them a full 360� field of fire. Machine Guns on each side protect against infantry threats.",
+    "Icon": "uixVhclIcon_svantovit",
+    "Cost": 1412000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_10",
+  "PathingCapDefID": "pathingdef_light_hover",
+  "HardpointDataDefID": "hardpointdatadef_svantovit",
+  "PrefabIdentifier": "chrprfvhcl_svantovitbase",
+  "PrefabBase": "svantovit",
+  "Tonnage": 35,
+  "weightClass": "LIGHT",
+  "BattleValue": 3490000,
+  "TopSpeed": 162,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 55,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 55,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 55,
+      "InternalStructure": 20
+    }
+  ]
+}

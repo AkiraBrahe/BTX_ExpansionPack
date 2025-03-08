@@ -1,0 +1,91 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.75",
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_vtol",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_SOKOL_PPC",
+  "Description": {
+    "Id": "vehicledef_SOKOL_PPC",
+    "Name": "Sokol Superheavy VTOL",
+    "UIName": "Sokol Superheavy VTOL (PPC)",
+    "Details": "<b>Name: <color=#85DBF6>Sokol Superheavy VTOL (PPC)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (VTOL)</color>\tEngine: <color=#85DBF6>70 XL</color></b>\n\nThe Sokol is an evolution of the Igor featuring advanced technologies like an extralight engine and ferro-fibrous armor. Its high cost limits its use to elite forces within the Inner Sphere.\n\nThis Draconis Combine variant utilizes two ER PPCs for powerful long-range firepower, though it requires 20 tons of heat sinks.",
+    "Icon": "uixVhclIcon_sokol",
+    "Cost": 6810000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 160,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 160,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_PPC_PPCER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_PPC_PPCER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": null
+}

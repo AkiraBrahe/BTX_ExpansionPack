@@ -1,0 +1,83 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.1-1.1-0.9",
+      "unit_vehicle",
+      "unit_light",
+      "unit_wheels",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_DARTER_C3",
+  "Description": {
+    "Id": "vehicledef_DARTER_C3",
+    "Name": "Darter Scout Car",
+    "UIName": "Darter Scout Car (C3)",
+    "Details": "<b>Name: <color=#85DBF6>Darter Scout Car (C3)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Wheeled)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>\n\nThe Darter owes its existence to the destructive nature of the First Succession War, and the need to support combat units without using up precious resources.\n\nThis version replaces one ton of cargo space with a C3 Slave Unit to send targeting data to friendly forces. It is otherwise identical to the standard Darter.",
+    "Icon": "uixVhclIcon_darter",
+    "Cost": 339000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 35,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 35,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 35,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 35,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3057-01-01T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "Description": {
+    "Id": "FakeVehicleClass",
+    "Name": "__/PILOTING.VEHICLE/__",
+    "Details": "Vehicles"
+  },
+  "UnitTags": ["fake_vehicle_crew_tag"],
+  "PilotTags": ["can_pilot_generic_vehicle"],
+  "ExcludeClasses": [],
+  "expertiseGenerationChance": 1,
+  "expertiseGenerationMinCount": 1
+}

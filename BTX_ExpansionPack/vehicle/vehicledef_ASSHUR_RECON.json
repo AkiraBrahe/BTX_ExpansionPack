@@ -1,0 +1,127 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_playable_tanks",
+      "unit_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_ASSHUR_RECON",
+  "Description": {
+    "Id": "vehicledef_ASSHUR_RECON",
+    "Name": "Asshur Fast Reconnaissance Vehicle",
+    "UIName": "Asshur Fast Reconnaissance Vehicle (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Asshur Fast Reconnaissance Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>95 Fusion</color></b>\n\nThe Asshur is a swift hovercraft designed to move quickly, using its speed as its primary defense. With only three tons of ferro-fibrous armor, it is vulnerable to enemy fire.\n\nThis recon variant of the Asshur, introduced during the Succession Wars era, retains its ER Medium Lasers but substitutes the TAG for a pair of Machine Guns with a half ton of ammunition.",
+    "Icon": "uixVhclIcon_asshur",
+    "Cost": 915000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 65,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 65,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 55,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 55,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 55,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 55,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 65,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 65,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2842-01-01T00:00:00Z"
+}

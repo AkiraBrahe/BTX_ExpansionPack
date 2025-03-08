@@ -1,0 +1,106 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.25",
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_medium",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_BANDIT_C-PRIME",
+  "Description": {
+    "Id": "vehicledef_BANDIT_C-PRIME",
+    "Name": "Bandit (C) Hovercraft",
+    "UIName": "Bandit (C) Hovercraft PRIME",
+    "Details": "<b>Name: <color=#85DBF6>Bandit (C) Hovercraft Prime</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Bandit C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Bandit C offers valuable flexibility in its various configurations.\n\nThe first variant is similar to the standard “C” model by mounting two Streak SRM-6 launchers in the turret.",
+    "Icon": "uixVhclIcon_bandit",
+    "Cost": 3687000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 160,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 160,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2875-01-01T00:00:00Z"
+}

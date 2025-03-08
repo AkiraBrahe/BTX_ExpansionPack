@@ -1,0 +1,126 @@
+{
+  "Custom": {
+    "RequiresLoader": {
+      "LoaderType": "CAC_C_ArtilleryLoader"
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC20",
+  "MinRange": 180,
+  "MaxRange": 3000,
+  "RangeSplit": [
+    3000,
+    3000,
+    3000
+  ],
+  "ForbiddenRange": 180,
+  "ammoCategoryID": "Thumper",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 18,
+  "Damage": 40,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "MinMissRadius": 15,
+  "MaxMissRadius": 45,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": true,
+  "AOERange": 60,
+  "AOEDamage": 100,
+  "AOEHeatDamage": 0,
+  "AOEInstability": 75,
+  "IndirectFireCapable": true,
+  "AlwaysIndirectVisuals": true,
+  "CantHitUnaffecedByPathing": true,
+  "RefireModifier": 3,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 3,
+  "Instability": 20,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+  "Description": {
+    "Cost": 187500,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Defiance",
+    "Model": "Light Artillery",
+    "UIName": "Thumper",
+    "Id": "Weapon_Artillery_Thumper_0-STOCK",
+    "Name": "Thumper Artillery Piece",
+    "Details": "The Thumper Artillery Piece is the smallest conventional artillery piece with an effective range of 10.5 kilometers. As with all artillery types, the Thumper always fires indirectly and deals damage in the area of impact.",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "artillery",
+  "BattleValue": 0,
+  "InventorySize": 5,
+  "Tonnage": 15,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 1,
+  "ProjectileSpeedMultiplier": 1,
+  "IsArtillery": true,
+  "ArtilleryReticleColor": {
+    "C": "#F79B26",
+    "I": 1.5
+  },
+  "ArtilleryReticleRadius": 60,
+  "ArtilleryReticleText": "Thumper",
+  "Modes": [
+    {
+      "Id": "ARTY",
+      "UIName": "",
+      "Name": "Artillery",
+      "Description": "Fire in a high arc at ground targets.",
+      "isBaseMode": true,
+      "DirectFireModifier": 2,
+      "ShotsWhenFired": -1
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true,
+        "hideApplicationFloatie": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Arty-SelfKnockdown",
+        "Name": "SELF-KNOCKDOWN",
+        "Details": "Artillery fire lowers stability.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "-35.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme",
+      "artillery_loader_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.1",
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_lance_tank",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MARSDEN_II-A_LBX",
+  "Description": {
+    "Id": "vehicledef_MARSDEN_II-A_LBX",
+    "Name": "Marsden II Main battle Tank",
+    "UIName": "Marsden MBT II-A (LB-X)",
+    "Details": "<b>Name: <color=#85DBF6>Marsden MBT II-A (LB-X)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>180 ICE</color></b>\n\nThe Marsden II Main Battle Tank, introduced in 2463 by Arcturan Arms, replaced its predecessor after 70 years of service. Using improved technical knowledge from Operation Prometheus, it was five tons lighter and boasted excellent firepower and thick armor.\n\nA Jihad-era production variant of the Marsden II-A, this tank receives an infusion of modern weaponry. The autocannon is replaced by an LB-X AC/10 with two tons of ammunition, the SRM-6 by two Streak SRM-2 launchers, and the turret regains the original II model's paired machine guns for anti-infantry defense.",
+    "Icon": "uixVhclIcon_marsdenii",
+    "Cost": 1622000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 260,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 260,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 260,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 260,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 260,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 260,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 255,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 255,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 205,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 205,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_LB10X_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3068-01-01T00:00:00Z"
+}

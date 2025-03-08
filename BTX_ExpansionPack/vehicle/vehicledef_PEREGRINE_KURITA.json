@@ -1,0 +1,112 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.6",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_assassin",
+      "unit_range_short",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_PEREGRINE_KURITA",
+  "Description": {
+    "Id": "vehicledef_PEREGRINE_KURITA",
+    "Name": "Peregrine Attack VTOL",
+    "UIName": "Peregrine Attack VTOL (Kurita)",
+    "Details": "<b>Name: <color=#85DBF6>Peregrine Attack VTOL (Kurita)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (VTOL)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nThe Peregrine, one of two VTOLs built by Blackwell for Wolf's Dragoons, is known for its high speed but suffers from poor maneuverability and unreliable components. Its high cost limited its widespread adoption, with only a few houses using it in police or reserve forces.\n\nThis version of the Peregrine was pushed into combat during the Clan Invasion. It removes the machine guns and replaces them with a pair of Medium Lasers. Unfortunately, these modified Peregrines were no more effective in combat than the original.",
+    "Icon": "uixVhclIcon_peregrine",
+    "Cost": 1674000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 5,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 5,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 5,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 5,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Left",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Right",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3033-01-01T00:00:00Z"
+}

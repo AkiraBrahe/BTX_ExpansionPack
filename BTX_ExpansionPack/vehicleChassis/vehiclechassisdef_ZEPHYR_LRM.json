@@ -1,0 +1,137 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Zephyr",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_ZEPHYR_LRM",
+    "Name": "Zephyr (LRM)",
+    "Details": "<b>Name: <color=#85DBF6>Zephyr Hovertank (LRM)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>185 Fusion</color></b>\n\nThe Zephyr, designed by the Star League Defense Force to be a medium-duty, fast-response infantry support tank, instead saw the Zephyr as the ideal support vehicle for its Chaparral Arrow IV artillery tank.\n\nLess common among Blakist forces, this variant drops the standard equipment and replaces it with a C3i system, two ER Medium Lasers, and two nose-mounted LRM launchers. Its blockier appearance earned it the nickname \"Pug\".",
+    "Icon": "uixVhclIcon_zephyr",
+    "Cost": 3269000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_9",
+  "PathingCapDefID": "pathingdef_medium_hover",
+  "HardpointDataDefID": "hardpointdatadef_zephyr",
+  "PrefabIdentifier": "chrprfvhcl_zephyr",
+  "PrefabBase": "zephyr",
+  "Tonnage": 40,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4445000,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 155,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 100,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 155,
+      "InternalStructure": 20
+    }
+  ]
+}

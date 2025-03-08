@@ -1,0 +1,92 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.25",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_support",
+      "unit_electronicWarfare",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_NIGHTSHADE",
+  "Description": {
+    "Id": "vehicledef_NIGHTSHADE",
+    "Name": "Nightshade ECM VTOL",
+    "UIName": "Nightshade ECM VTOL (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Nightshade ECM VTOL</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>14/21 (VTOL)</color>\tEngine: <color=#85DBF6>210 Fusion</color></b>\n\nThe Nightshade is a light VTOL designed specifically to carry a Guardian ECM Suite. Its limited armament and light protection made it highly unpopular, leading to its relegation to second-line militias and ComStar's Terran stockpiles.\n\nAdded almost as an afterthought, the Nightshade carries a single nose-mounted Medium Laser. While a dependable weapon, made highly accurate by being linked to track the movement of the pilot's helmet, it adds negligible firepower to a battle.",
+    "Icon": "uixVhclIcon_nightshade",
+    "Cost": 1377000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_Guardian",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2597-01-01T00:00:00Z"
+}

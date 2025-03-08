@@ -1,0 +1,84 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_vehicle_ammoTransport",
+      "unit_light",
+      "unit_tracks",
+      "unit_noncombatant",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_J-37_ORIGINAL",
+  "Description": {
+    "Id": "vehicledef_J-37_ORIGINAL",
+    "Name": "J-37 Ordnance Transport",
+    "UIName": "J-37 Ordnance Transport (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>J-37 Ordnance Transport</color>\nArmor: <color=#85DBF6>BAR 5 Armor</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>230 Fusion</color></b>\n\nThe J-37 Ordnance Transport, an upgrade of the J-27 chassis, is produced by Ceres Metals in the Capellan Confederation. With a 17-ton cargo capacity, 5.5 tons of armor, and a one-ton infantry transport bay, the J-37 is well-protected and versatile. While its primary role is transportation, it is equipped with an ER small laser for self-defense, manned by a dedicated gunner.",
+    "Icon": "uixVhclIcon_j37",
+    "Cost": 275000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 125,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 125,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_General_Robinson_TG120_Drive_Train",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2824-01-01T00:00:00Z"
+}

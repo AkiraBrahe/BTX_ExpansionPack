@@ -1,0 +1,106 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_short",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_CENTIPEDE_TAG",
+  "Description": {
+    "Id": "vehicledef_CENTIPEDE_TAG",
+    "Name": "Centipede Scout Car",
+    "UIName": "Centipede Scout Car (TAG)",
+    "Details": "<b>Name: <color=#85DBF6>Centipede Scout Car (TAG)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/12 (Hover)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>\n\nThe Centipede, produced by Gienah Combat Vehicles and Red Devil Industries in 3053, is designed for reconnaissance and replaces the Skulker scout vehicle.\n\nThe Centipede's reconnaissance capabilities were further enhanced in 3067 with a customer-ordered variant, first delivered to the 7th Donegal Guards' Armor Brigade. This variant trades its Medium Laser for a TAG and Guardian ECM. Additionally, increased armor protection improves its survivability on the battlefield.",
+    "Icon": "uixVhclIcon_centipede",
+    "Cost": 852000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_TAG_Standard_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Rear",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Flamer",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_BeagleHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3067-01-01T00:00:00Z"
+}

@@ -1,0 +1,115 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Tracked APC",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_APC_Tracked_SRM",
+    "Name": "Tracked APC (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Tracked APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. More expensive to build, Tracked APCs can operate in a far wider variety of terrain.\n\nThe SRM variant of the Tracked APC keeps the infantry bay and replaces the machine gun with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
+    "Icon": "uixVhclIcon_trackedapc",
+    "Cost": 96000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_6",
+  "PathingCapDefID": "pathingdef_light_tracked",
+  "HardpointDataDefID": "hardpointdatadef_bmp",
+  "PrefabIdentifier": "chrprfvhcl_bmp",
+  "PrefabBase": "bmp",
+  "Tonnage": 10,
+  "weightClass": "LIGHT",
+  "BattleValue": 840000,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    },
+    {
+      "x": -1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 5
+    }
+  ]
+}

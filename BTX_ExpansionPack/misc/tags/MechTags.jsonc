@@ -1,0 +1,132 @@
+{
+  "items" : [
+
+    /* Mech Type */
+      "unit_industrial",            /* IndustrialMech */
+      "unit_protomech",             /* ProtoMech */
+      "unit_quad",                  /* QuadMech */
+      "unit_lam",                   /* LandAirMech */
+      "unit_powerarmor",            /* PowerArmor */
+
+    /* Type */
+      "unit_mech",
+
+    /* Class */
+      "unit_light",
+      "unit_medium",
+      "unit_heavy",
+      "unit_assault",
+
+    /* Roles */
+      "unit_role_activeprobe",
+      "unit_role_brawler",
+      "unit_role_ecmcarrier",
+      "unit_role_ewe",
+      "unit_role_flanker",
+      "unit_role_lastmanstanding",
+      "unit_role_meleeonly",
+      "unit_role_noncombatant",
+      "unit_role_scout",
+      "unit_role_sniper",
+      "unit_role_spotter",
+      "unit_role_suppression",
+      "unit_role_turret",
+      "unit_role_vehicle",
+
+      "unit_lance_vanguard",        /* light scout & battle */
+      "unit_lance_support",         /* support */
+      "unit_lance_assassin",        /* light fire */
+      "unit_lance_tank",            /* heavy battle */
+
+    /* Range */
+      "unit_range_long",
+      "unit_range_medium",
+      "unit_range_short",
+
+      "unit_indirectFire",
+
+    /* Armor */
+      "unit_armor_high",
+      "unit_armor_medium",
+      "unit_armor_low",
+
+    /* Speed */
+      "unit_speed_high",
+      "unit_speed_medium",
+      "unit_speed_low",
+
+      "unit_jumpOK",
+
+    /* C3 Network */
+      "unit_c3_master",
+      "unit_c3_slave",
+      "unit_c3_improved",
+
+    /* Special */
+      "unit_electronicWarfare",
+      "unit_hot",
+
+      "unit_release",
+      "unit_dlc",
+
+      "unit_LosTech",
+      "unit_clan",
+      "unit_omni",        /* OmniMech */
+      "unit_primitive",
+      "unit_prototype",
+
+      "BLACKLISTED",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Unused */
+      "unit_approval_Beta",
+
+      "unit_bracket_skirmish",
+      "unit_bracket_low",
+      "unit_bracket_med",
+      "unit_bracket_high",
+
+      "Marik",
+      "Liao",
+      "Steiner",
+      "Kurita",
+      "Davion",
+      "MagistracyOfCanopus",
+      "TaurianConcordat",
+      "NoFaction",
+      "AuriganDirectorate",
+      "AuriganRestoration",
+      "ComStar",
+      "MercenaryReviewBoard",
+      "AuriganPirates",
+      "AuriganMercenaries",
+
+      "unit_ready",
+      "unit_release_ksbeta",
+      "unit_release_privatebeta",
+      "test",
+      "PlaceholderImpostorMaterial",
+      "{CUR_TEAM.Faction}",
+
+      "unit_common",
+      "unit_fallback",
+      "unit_hatchetman",
+      "unit_urbie"
+  ],
+  "tagSetSourceFile": ""
+}

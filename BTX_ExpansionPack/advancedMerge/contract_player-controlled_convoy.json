@@ -1,0 +1,38 @@
+{
+  "TargetIDs": [
+    "CaptureEscort_AbortedColony",
+    "CaptureEscort_AmmoConvoy",
+    "CaptureEscort_BlownOperation",
+    "CaptureEscort_BlownOperation_Alt",
+    "CaptureEscort_CivilianExtraction",
+    "CaptureEscort_GrandTheftAuto",
+    "CaptureEscort_GrandTheftAuto_Alt",
+    "CaptureEscort_HostageRescue",
+    "CaptureEscort_HostileAcquisition",
+    "CaptureEscort_HostileAcquisition_Hard",
+    "CaptureEscort_Humanitarians",
+    "CaptureEscort_InsurrectionProtection",
+    "CaptureEscort_ManOfThePeople",
+    "CaptureEscort_PenitentJustice",
+    "CaptureEscort_Pirate_KeyPersonnel",
+    "CaptureEscort_Pirate_UnexpectedGuests",
+    "CaptureEscort_PriceOfDiscretion",
+    "CaptureEscort_ProfessionalLifestyle",
+    "CaptureEscort_ProofOfGuilt",
+    "CaptureEscort_Redirection",
+    "CaptureEscort_SaveThePrototype",
+    "CaptureEscort_SaveThePrototype_Hard",
+    "CaptureEscort_ShowOfForce",
+    "CaptureEscort_SupplyConvoy",
+    "CaptureEscort_ThePrisoner"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.employerTeam.lanceOverrideList[0].spawnEffectTags.items",
+      "Action": "Replace",
+      "Value": [
+        "convoy_player_control"
+      ]
+    }
+  ]
+}

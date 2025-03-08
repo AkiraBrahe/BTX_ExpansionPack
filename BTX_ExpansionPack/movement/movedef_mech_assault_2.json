@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_mech_assault_2",
+    "Name": "MovementCapabilitiesDef for a movement 2 assault 'Mech",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 70.0,
+  "MaxSprintDistance": 125.0,
+  "WalkVelocity": 14.0,
+  "RunVelocity": 20.0,
+  "SprintVelocity": 24.0,
+  "LimpVelocity": 8.0,
+  "WalkAcceleration": 12.0,
+  "SprintAcceleration": 18.0,
+  "MaxRadialVelocity": 60.0,
+  "MaxRadialAcceleration": 180.0,
+  "MaxJumpVel": 30.0,
+  "MaxJumpAccel": 15.0,
+  "MaxJumpVerticalAccel": 30.0
+}

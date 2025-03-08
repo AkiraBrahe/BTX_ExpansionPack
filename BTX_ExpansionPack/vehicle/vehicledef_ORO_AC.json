@@ -1,0 +1,105 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.6",
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack",
+      "unit_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_ORO_AC",
+  "Description": {
+    "Id": "vehicledef_ORO_AC",
+    "Name": "Oro Heavy Tank",
+    "UIName": "Oro Heavy Tank (AC)",
+    "Details": "<b>Name: <color=#85DBF6>Oro Heavy Tank (AC)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Oro is a heavy tank designed to counter conventional vehicles. Its modest speed and armor are offset by powerful weaponry. Upgraded by Clan Steel Viper to counter aerospace threats, the Oro has become a valuable training tool for Clan Snow Raven's fighter pilots.\n\nThe original Oro model uses a standard Autocannon/20, a less versatile weapon than the LB-X version. While it has an extra ton of ammunition, the autocannon is supplemented by only a single Large Pulse Laser.",
+    "Icon": "uixVhclIcon_oro",
+    "Cost": 2812000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 85,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 85,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2815-01-01T00:00:00Z"
+}

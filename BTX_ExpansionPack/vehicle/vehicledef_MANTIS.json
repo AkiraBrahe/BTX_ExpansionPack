@@ -1,0 +1,125 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.25-0.25-0.19",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_support",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MANTIS",
+  "Description": {
+    "Id": "vehicledef_MANTIS",
+    "Name": "Mantis Light Attack VTOL",
+    "UIName": "Mantis Light Attack VTOL (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Mantis Light Attack VTOL</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/17 (VTOL)</color>\tEngine: <color=#85DBF6>40 Fusion</color></b>\n\nThe Mantis light attack VTOL is produced by the most prolific creator of VTOLs, Michaelson Heavy Industries. Still a prototype, it is incredibly fast and capable of dealing great damage for its size.\n\nArmed with five ER Small Lasers, the Mantis can unleash a devastating barrage. Its fifteen-ton frame supports two and a half tons of armor, a significant amount for a vehicle of its size. Additionally, a Beagle Active Probe and Guardian ECM Suite enhance its scouting capabilities.",
+    "Icon": "uixVhclIcon_mantis",
+    "Cost": 954000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 4,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_BeagleHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3061-01-01T00:00:00Z"
+}

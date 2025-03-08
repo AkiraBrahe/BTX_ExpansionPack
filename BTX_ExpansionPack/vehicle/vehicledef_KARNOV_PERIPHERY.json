@@ -1,0 +1,146 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.85",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_assassin",
+      "unit_range_long",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_KARNOV_PERIPHERY",
+  "Description": {
+    "Id": "vehicledef_KARNOV_PERIPHERY",
+    "Name": "Karnov UR Transport",
+    "UIName": "Karnov UR Transport (Periphery)",
+    "Details": "<b>Name: <color=#85DBF6>Karnov UR Transport (Periphery)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (VTOL)</color>\tEngine: <color=#85DBF6>160 ICE</color></b>\n\nThe Karnov UR Transport is a heavy-lift VTOL used by the Successor State armed forces and mercenary units for supply and logistics missions for centuries.\n\nThis quick-strike variant sacrifices capacity to mount four rocket launcher 20s and six rocket launcher 10s, all firing forward.",
+    "Icon": "uixVhclIcon_karnov",
+    "Cost": 1088000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_RL_RL20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 4,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 5,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 6,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 7,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 8,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_RL_RL10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 9,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
+}

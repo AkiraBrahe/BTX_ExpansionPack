@@ -1,0 +1,112 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.75",
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_vtol",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_medium",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_IGOR_AC10",
+  "Description": {
+    "Id": "vehicledef_IGOR_AC10",
+    "Name": "Igor Superheavy Gunship",
+    "UIName": "Igor Superheavy Gunship UAC-77 (AC/10)",
+    "Details": "<b>Name: <color=#85DBF6>Igor Superheavy Gunship UAC-77 (AC/10)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (VTOL)</color>\tEngine: <color=#85DBF6>130 Fusion</color></b>\n\nThe Igor is a superheavy VTOL with a four-engined tiltjet design, similar to the Anhur. Its modular design allows it to quickly transport heavy armor across the battlefield or serve as a powerful attack vehicle.\n\nThis rarer variant carries twin Autocannon/10s with three tons of ammunition, allowing for greater armor penetration.",
+    "Icon": "uixVhclIcon_igor",
+    "Cost": 4134000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": null
+}

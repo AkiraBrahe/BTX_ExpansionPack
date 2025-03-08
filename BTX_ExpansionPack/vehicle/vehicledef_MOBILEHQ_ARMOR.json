@@ -1,0 +1,83 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_vehicle_mobileHQ",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_medium",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MOBILEHQ_ARMOR",
+  "Description": {
+    "Id": "vehicledef_MOBILEHQ_ARMOR",
+    "Name": "Mobile HQ",
+    "UIName": "Mobile HQ (Armor)",
+    "Details": "<b>Name: <color=#85DBF6>Mobile HQ (Armor)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (Wheeled)</color>\tEngine: <color=#85DBF6>130 Fusion</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nThis 3025 Mobile HQ variant adds three more tons of armor and a cargo bay that can accommodate a platoon of infantry. In return, the command vehicle only carries one ton of communications gear.",
+    "Icon": "uixVhclIcon_mobilehq",
+    "Cost": 438000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 125,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 125,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 125,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 125,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 125,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 125,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Comms_Equipment_1t",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": null
+}

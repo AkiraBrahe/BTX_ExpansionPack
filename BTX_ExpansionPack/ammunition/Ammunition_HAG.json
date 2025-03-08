@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "Ammunition_HAG",
+    "Name": "Hyper-Assault Gauss Rifle Ammo",
+    "Details": "Gauss slugs sized for a Hyper-Assault Gauss Rifle and fired as clusters of slugs.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "HAG",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "HideIfOnlyVariant": true
+}

@@ -1,0 +1,91 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.7",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_noncombatant",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_RIPPER",
+  "Description": {
+    "Id": "vehicledef_RIPPER",
+    "Name": "Ripper Infantry Transport",
+    "UIName": "Ripper Infantry Transport (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Ripper Infantry Transport</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (VTOL)</color>\tEngine: <color=#85DBF6>70 Fusion</color></b>\n\nThe Ripper is a VTOL aircraft that can carry a squad of infantry and their equipment. It was designed for quick response and deployment, and is often used to transport elite or jump infantry.\n\nThe standard Ripper is armed with two nose-mounted Medium Lasers, used more to intimidate than to strike an enemy. The pilot would fire the twin lasers around the intended landing zone and then as they fly off to convince an unprepared foe to steer clear.",
+    "Icon": "uixVhclIcon_ripper",
+    "Cost": 282000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2680-01-01T00:00:00Z"
+}

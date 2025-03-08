@@ -1,0 +1,96 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.2",
+      "unit_vehicle",
+      "unit_light",
+      "unit_tracks",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_low",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_SCORPION_ML",
+  "Description": {
+    "Id": "vehicledef_SCORPION_ML",
+    "Name": "Scorpion Light Tank",
+    "UIName": "Scorpion Light Tank (ML)",
+    "Details": "<b>Name: <color=#85DBF6>Scorpion Light Tank (ML)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nThe Scorpion tank, produced by Quikscell Company in 2807, is known for its low cost, easy repair, and availability in numbers. Known as \"The Budget Tank\", it is found on many backwater and Periphery worlds.\n\nThis laser-armed Scorpion, typically used as a scout, mounts two Medium Lasers instead of an autocannon, along with the necessary heat sinks and power amplifiers to fire them safely. It also has slightly over a ton of cargo space.",
+    "Icon": "uixVhclIcon_scorpion",
+    "Cost": 291000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 55,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 55,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 55,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 55,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2875-01-01T00:00:00Z"
+}

@@ -1,0 +1,92 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_vehicle_carrier",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_range_short",
+      "unit_armor_low",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_HI-SCOUT",
+  "Description": {
+    "Id": "vehicledef_HI-SCOUT",
+    "Name": "Hi-Scout Drone Carrier",
+    "UIName": "Hi-Scout Drone Carrier (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Hi-Scout Drone Carrier</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Hi-Scout Drone Carrier is a specialized reconnaissance vehicle. Designed to provide early warning and battlefield intelligence, its advanced tracking and communication systems made it a highly effective scout, particularly during the Succession Wars.\n\nArmed with only a single SRM-2 and one ton of ammunition, the Hi-Scout relies on stealth and evasion rather than direct combat. While 5.5 tons of ArcShield armor offer some protection against light scout vehicles, anything heavier would pose a significant threat.",
+    "Icon": "uixVhclIcon_hi-scout",
+    "Cost": 713000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Drone_Carrier_Control_System",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3000-01-01T00:00:00Z"
+}

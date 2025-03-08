@@ -1,0 +1,78 @@
+[
+  {
+    "durationData": {
+      "duration": -1,
+      "stackLimit": 1
+    },
+    "targetingData": {
+      "effectTriggerType": "OnHit",
+      "showInTargetPreview": false,
+      "showInStatusPanel": false
+    },
+    "effectType": "StatisticEffect",
+    "Description": {
+      "Id": "motiveSystemLoss",
+      "Name": "MOTIVE SYSTEM DAMAGE",
+      "Details": "Damage to the vehicle's motive system is removing [AMT]m movement.",
+      "Icon": "uixSvgIcon_equipment_ActuatorArm"
+    },
+    "nature": "Debuff",
+    "statisticData": {
+      "statName": "CruiseSpeed",
+      "operation": "Float_Subtract",
+      "modValue": "24",
+      "modType": "System.Single"
+    }
+  },
+  {
+    "durationData": {
+      "duration": -1,
+      "stackLimit": 1
+    },
+    "targetingData": {
+      "effectTriggerType": "OnHit",
+      "showInTargetPreview": false,
+      "showInStatusPanel": false
+    },
+    "effectType": "StatisticEffect",
+    "Description": {
+      "Id": "motiveSystemLossSprint",
+      "Name": "MOTIVE SYSTEM DAMAGE HIDDEN",
+      "Details": "Damage to the vehicle's motive system is removing [AMT]m movement.",
+      "Icon": "uixSvgIcon_equipment_ActuatorArm"
+    },
+    "nature": "Debuff",
+    "statisticData": {
+      "statName": "FlankSpeed",
+      "operation": "Float_Subtract",
+      "modValue": "36",
+      "modType": "System.Single"
+    }
+  },
+  {
+    "durationData": {
+      "duration": -1,
+      "stackLimit": 1
+    },
+    "targetingData": {
+      "effectTriggerType": "OnActivation",
+      "effectTargetType": "Creator",
+      "showInTargetPreview": false,
+      "showInStatusPanel": false
+    },
+    "effectType": "StatisticEffect",
+    "Description": {
+      "Id": "motiveSystemLoss",
+      "Name": "MOTIVE SYSTEM REPAIR",
+      "Details": "ACTION: Repairs the vehicle's motive system. Must be used before movement and consumes the unit's entire turn.",
+      "Icon": "spanner"
+    },
+    "nature": "Buff",
+    "statisticData": {
+      "statName": "CruiseSpeed",
+      "operation": "Float_Multiply",
+      "modValue": "0.01",
+      "modType": "System.Single"
+    }
+  }
+]

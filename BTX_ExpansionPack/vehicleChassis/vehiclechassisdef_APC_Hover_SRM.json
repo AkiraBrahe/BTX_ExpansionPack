@@ -1,0 +1,116 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Hover APC",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_APC_Hover_SRM",
+    "Name": "Hover APC (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Hover APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Prioritizing speed and agility over armor, Hover APCs excel at rapid deployments across open terrain.\n\nThe SRM variant of the Hover APC keeps the infantry bay and replaces the machine guns with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
+    "Icon": "uixVhclIcon_hoverapc",
+    "Cost": 116000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_10",
+  "PathingCapDefID": "pathingdef_light_hover",
+  "HardpointDataDefID": "hardpointdatadef_plainsman",
+  "PrefabIdentifier": "chrprfvhcl_plainsman",
+  "PrefabBase": "plainsman",
+  "Tonnage": 10,
+  "weightClass": "LIGHT",
+  "BattleValue": 655000,
+  "TopSpeed": 162,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    },
+    {
+      "x": -1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 5
+    }
+  ]
+}

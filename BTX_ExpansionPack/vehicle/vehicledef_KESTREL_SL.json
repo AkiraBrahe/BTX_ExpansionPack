@@ -1,0 +1,90 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.65-0.55-0.65",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_KESTREL_SL",
+  "Description": {
+    "Id": "vehicledef_KESTREL_SL",
+    "Name": "Kestrel VTOL",
+    "UIName": "Kestrel VTOL (SL)",
+    "Details": "<b>Name: <color=#85DBF6>Kestrel VTOL (SL)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (VTOL)</color>\tEngine: <color=#85DBF6>160 ICE</color></b>\n\nThe Kestrel is a VTOL designed by Wolf's Dragoons for their special operations teams. Prioritizing stealth over armor and firepower, the Kestrel is a potent tool for infiltration and extraction.\n\nIntroduced in 3017, this field variant replaces the machine guns with paired Small Lasers. While less powerful, the lasers offer improved accuracy and don't require ammo. However, the added power amplifiers and heat sinks to mount them reduce cargo space by half.",
+    "Icon": "uixVhclIcon_kestrel",
+    "Cost": 473000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 20,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 20,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3017-01-01T00:00:00Z"
+}

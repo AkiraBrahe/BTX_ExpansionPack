@@ -1,0 +1,112 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1-1-1.2",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_HARASSER_Mini-Peggy",
+  "Description": {
+    "Id": "vehicledef_HARASSER_Mini-Peggy",
+    "Name": "Harasser Missile Platform",
+    "UIName": "\"Mini-Peggy\"",
+    "Details": "<b>Name: <color=#85DBF6>Harasser Missile Platform \"Mini-Peggy\"</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>120 ICE</color></b>\n\nThe Harasser is a low-cost hover tank equipped with a variety of missile launchers that was widely integrated into Galleon Light Tank units in the Free Worlds League.\n\nThis 3028 variant is a simple scouting vehicle. The SRM-6s are decreased to four packs and a Remote Sensor Dispenser is added. Armor is also increased by a ton.",
+    "Icon": "uixVhclIcon_harasser",
+    "Cost": 589000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Remote_Sensor_Dispenser",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3028-01-01T00:00:00Z"
+}

@@ -1,0 +1,45 @@
+{
+  "debug": false,
+  "enableSettingsHotReload": true,
+  "markers": [],
+  "contractMarkers": [
+    {
+      "type": "ContractId",
+      "contractIds": [
+        "ThreeWayBattle_SearchDenialCS",
+        "ThreeWayBattle_SearchDenialCS_Easy",
+        "ThreeWayBattle_SearchDenialCS_Hard",
+        "ThreeWayBattle_TagTeam_CS",
+        "ThreeWayBattle_TagTeam_CS_Alt",
+        "ThreeWayBattle_TagTeam_CS_Betray"
+      ],
+      "colour": {
+        "Colour": "#878681", // Titanium
+        "Alpha": 0.5
+      }
+    },
+    {
+      "type": "ContractId",
+      "contractIds": [
+        "ThreeWayBattle_SearchDenialWoB",
+        "ThreeWayBattle_SearchDenialWoB_Easy"
+      ],
+      "colour": {
+        "Colour": "#878681", // Titanium
+        "Alpha": 0.5
+      }
+    },
+    {
+      "type": "ContractId",
+      "contractIds": [
+        "CaptureBase_ThisWarOfMine",
+        "CaptureBase_YearningToBreatheFree",
+        "Rescue_MinorInfraction"
+      ],
+      "colour": {
+        "Colour": "#C00008", // Wolf's Dragoons Red
+        "Alpha": 0.5
+      }
+    }
+  ]
+}

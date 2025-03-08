@@ -1,0 +1,113 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.6",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_assassin",
+      "unit_lance_support",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_WARRIOR_H-7B",
+  "Description": {
+    "Id": "vehicledef_WARRIOR_H-7B",
+    "Name": "Warrior Attack Helicopter",
+    "UIName": "Warrior Attack Helicopter H-7B",
+    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-7B</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (VTOL)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe Warrior attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nThis Federated Suns field modification has become popular with mercenaries and planetary defenders. Designed for maximum firepower and ease of use, it replaces the Autocannon/2 and SRM-4 with a Medium Laser and two wing-mounted SRM-2 launchers, shifting the Warrior's role from long-range sniper to close air support.",
+    "Icon": "uixVhclIcon_warrior",
+    "Cost": 511000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 55,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 55,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 55,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 55,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Left",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Right",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3015-01-01T00:00:00Z"
+}

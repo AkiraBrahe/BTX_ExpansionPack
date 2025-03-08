@@ -1,0 +1,8 @@
+itemCollection_major_Davion,,,
+itemCollection_Ammo_Davion,Reference,0,1
+itemCollection_Components_base,Reference,0,1
+itemCollection_shopItems_weapons_davion,Reference,9,1
+itemCollection_systemStores_MechParts_Davion,Reference,10,1
+itemCollection_systemStores_Mechs_Davion,Reference,6,10
+itemCollection_timebased_GreatHouse,Reference,2,1
+itemCollection_Vehicles_Davion,Reference,8,1

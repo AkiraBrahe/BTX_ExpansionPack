@@ -1,0 +1,100 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_vehicle_mobileHQ",
+      "unit_light",
+      "unit_tracks",
+      "unit_noncombatant",
+      "unit_lance_support",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_vehicle_case",
+      "unit_speed_medium",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_BROWNING_HT",
+  "Description": {
+    "Id": "vehicledef_BROWNING_HT",
+    "Name": "Browning Mobile HQ",
+    "UIName": "Browning Mobile HQ (Half-Track)",
+    "Details": "<b>Name: <color=#85DBF6>Browning Mobile HQ (Half-Track)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nThis version of the Browning employs a half-track system, with wheels at the front for steering and continuous tracks at the rear to propel the vehicle and carry most of the load. This improves driving through rough terrain while sacrificing some speed.",
+    "Icon": "uixVhclIcon_browning",
+    "Cost": 912000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_AMSCAC_0SLDF",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Comms_Equipment_4t",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2625-01-01T00:00:00Z"
+}

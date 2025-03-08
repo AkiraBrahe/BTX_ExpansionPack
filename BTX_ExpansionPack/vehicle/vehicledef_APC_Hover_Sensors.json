@@ -1,0 +1,84 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.7-0.7-0.85",
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_weaponless",
+      "unit_light",
+      "unit_hover",
+      "unit_noncombatant",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_APC_Hover_Sensors",
+  "Description": {
+    "Id": "vehicledef_APC_Hover_Sensors",
+    "Name": "Hover APC",
+    "UIName": "Hover APC (Sensors)",
+    "Details": "<b>Name: <color=#85DBF6>Hover APC (Sensors)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Prioritizing speed and agility over armor, Hover APCs excel at rapid deployments across open terrain.\n\nThis variant sacrifices its machine guns and ammunition for a Remote Sensor Dispenser. Once it delivers its infantry squad, it excels as a scout, blanketing the battlefield with sensors.",
+    "Icon": "uixVhclIcon_hoverapc",
+    "Cost": 133000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 20,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 20,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Gear_Remote_Sensor_Dispenser",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2620-01-01T00:00:00Z"
+}

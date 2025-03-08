@@ -1,0 +1,20 @@
+{
+  "Name": "BTX_PlayableVehicles",
+  "Enabled": true,
+  "Version": "1.0-alpha",
+
+  "Description": "Allow recruitment of vehicle pilots and add vehicles to the various stores.",
+  "Author": "lordruthermore",
+
+  "DependsOn": [ "BTX_CAC_Compatibility" ],
+  "OptionallyDependsOn": [ "BTX_ExpansionPack" ],
+
+  "Manifest": [
+    { "Type": "AdvancedJSONMerge", "Path": "advancedMerge" },
+    //{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
+    //{ "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
+    //{ "Type": "ItemCollectionDef", "Path": "itemCollectionsNew", "AddToDB": true },
+    { "Type": "PilotingClassDef", "Path": "piloting_classes" },
+    //{ "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
+  ]
+}

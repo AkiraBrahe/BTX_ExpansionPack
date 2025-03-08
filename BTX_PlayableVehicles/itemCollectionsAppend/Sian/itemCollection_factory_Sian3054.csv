@@ -1,0 +1,15 @@
+vehicledef_SCORPION,Mech,0,1
+vehicledef_SCORPION_LRM,Mech,0,1
+vehicledef_SCORPION_MKII,Mech,0,1
+vehicledef_SCORPION_ML,Mech,0,1
+vehicledef_SCORPION_SRM,Mech,0,1
+vehicledef_PEGASUS,Mech,0,1
+vehicledef_PEGASUS_MG,Mech,0,1
+vehicledef_PEGASUS_MISSILE,Mech,0,1
+vehicledef_PEGASUS_SENSORS,Mech,0,1
+vehicledef_APC_Maxim,Mech,0,1
+vehicledef_VEDETTE,Mech,0,1
+vehicledef_VEDETTE_AC2,Mech,0,1
+vehicledef_VEDETTE_AC10,Mech,0,1
+vehicledef_VEDETTE_LIAO,Mech,0,1
+vehicledef_VEDETTE_ULTRA,Mech,0,1

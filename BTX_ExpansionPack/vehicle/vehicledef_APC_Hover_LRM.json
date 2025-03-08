@@ -1,0 +1,84 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.7-0.7-0.85",
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_light",
+      "unit_hover",
+      "unit_noncombatant",
+      "unit_range_long",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_APC_Hover_LRM",
+  "Description": {
+    "Id": "vehicledef_APC_Hover_LRM",
+    "Name": "Hover APC",
+    "UIName": "Hover APC (LRM)",
+    "Details": "<b>Name: <color=#85DBF6>Hover APC (LRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Prioritizing speed and agility over armor, Hover APCs excel at rapid deployments across open terrain.\n\nThe LRM variant of the Hover APC replaces the infantry bay and machine guns with a single LRM-5 launcher to provide long-range fire support.",
+    "Icon": "uixVhclIcon_hoverapc",
+    "Cost": 144000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2500-01-01T00:00:00Z"
+}

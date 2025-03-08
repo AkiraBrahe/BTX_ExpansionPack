@@ -1,0 +1,99 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.3",
+      "unit_vehicle",
+      "unit_medium",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_lance_assassin",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_release",
+      "unit_playable_tanks",
+      "unit_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_ARES",
+  "Description": {
+    "Id": "vehicledef_ARES",
+    "Name": "Ares Medium Tank",
+    "UIName": "Ares Medium Tank (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Ares Medium Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>200 Fusion</color></b>\n\nThe Ares is a medium tank designed for long-range fire support. Fast and maneuverable, but with relatively light armor, it is best used in conjunction with APCs to support infantry. Its main weapon is an ER Large Laser mounted in the turret, supplemented by an LRM-15 and LRM-10 with Artemis IV FCS mounted in the front.",
+    "Icon": "uixVhclIcon_ares",
+    "Cost": 2149000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 85,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 85,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 85,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 85,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 85,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 85,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_LRM_CALRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_CALRM10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2842-01-01T00:00:00Z"
+}

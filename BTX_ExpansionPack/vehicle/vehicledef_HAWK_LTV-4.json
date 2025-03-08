@@ -1,0 +1,97 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.5",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_lance_assassin",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_HAWK_LTV-4",
+  "Description": {
+    "Id": "vehicledef_HAWK_LTV-4",
+    "Name": "Hawk Hover Tank",
+    "UIName": "Hawk Hover Tank (LTV-4)",
+    "Details": "<b>Name: <color=#85DBF6>Hawk Hover Tank (LTV-4)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>\n\nThe LTV-4 Hover Tank, nicknamed \"Hawk\", was developed by Lucas Technologies to counter the proliferation of BattleMech technologies stolen from the Terran Hegemony. The vehicle is designed to swarm early BattleMechs in groups and use their combined firepower to hold them until other forces can close in and eliminate them.\n\nTo achieve this, the Hawk is armed with a Particle Projector Cannon mounted in the turret and a single 4-tube Short Range Missile launcher. It is powered by a 115-rated internal combustion engine that gives it a respectable speed of 110 km/h. The crowning achievement of the design is its prototype standard-grade armor, which encases the vehicle's hull in 5.5 tons of material.",
+    "Icon": "uixVhclIcon_hawk",
+    "Cost": 1316000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2464-01-01T00:00:00Z"
+}

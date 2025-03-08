@@ -1,0 +1,97 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.65-0.55-0.65",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_KESTREL",
+  "Description": {
+    "Id": "vehicledef_KESTREL",
+    "Name": "Kestrel VTOL",
+    "UIName": "Kestrel VTOL (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Kestrel VTOL</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (VTOL)</color>\tEngine: <color=#85DBF6>160 ICE</color></b>\n\nThe Kestrel is a VTOL designed by Wolf's Dragoons for their special operations teams. Prioritizing stealth over armor and firepower, the Kestrel is a potent tool for infiltration and extraction.\n\nAs a special operations transport, the Kestrel relies on stealth and speed more than weaponry. To encourage this mindset, the Kestrel only mounts a pair of Machine Guns.",
+    "Icon": "uixVhclIcon_kestrel",
+    "Cost": 426000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 20,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 20,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3007-01-01T00:00:00Z"
+}

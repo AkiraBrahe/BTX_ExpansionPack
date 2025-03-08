@@ -1,0 +1,84 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.7-0.7-0.85",
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_light",
+      "unit_hover",
+      "unit_noncombatant",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_APC_Hover_SRM",
+  "Description": {
+    "Id": "vehicledef_APC_Hover_SRM",
+    "Name": "Hover APC",
+    "UIName": "Hover APC (SRM)",
+    "Details": "<b>Name: <color=#85DBF6>Hover APC (SRM)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>60 ICE</color></b>\n\nAPCs, the backbone of vehicular military units, transport infantry on the battlefield. Prioritizing speed and agility over armor, Hover APCs excel at rapid deployments across open terrain.\n\nThe SRM variant of the Hover APC keeps the infantry bay and replaces the machine guns with a single SRM-2 and a ton of ammunition, giving it more firepower without sacrificing its troop transport capabilities.",
+    "Icon": "uixVhclIcon_hoverapc",
+    "Cost": 116000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2500-01-01T00:00:00Z"
+}

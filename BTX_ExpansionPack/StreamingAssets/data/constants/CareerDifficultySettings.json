@@ -1,0 +1,1946 @@
+{
+  "difficultyList": [
+    {
+      "ID": "diff_ironMan",
+      "Name": "Ironman Mode",
+      "TelemetryEventName": "",
+      "UIOrder": -1,
+      "Tooltip": "Ironman Mode restricts you to only one save file. All consequences, including 'Mech loss, MechWarrior death, and failed missions are <i>permanent</i>. <color=#F79B26>Running out of funds <i>or</i> failing any Priority Mission will result in career loss. This setting is intended for veterans and those seeking a significant challenge.</color>",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": true,
+      "StartOnly": true,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_IM_off",
+          "Name": "Off",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "IronManMode",
+              "ConstantValue": "False"
+            }
+          ]
+        },
+        {
+          "ID": "diff_IM_on",
+          "Name": "On",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 3,
+          "CareerScoreModifier": 0.2,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "IronmanMode",
+              "ConstantValue": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_rndStartingMechs",
+      "Name": "Randomize starting 'Mechs",
+      "TelemetryEventName": "",
+      "UIOrder": 0,
+      "Tooltip": "When active, this setting randomizes your starting set of five 'Mechs.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": true,
+      "StartOnly": true,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_RNDMECHS_off",
+          "Name": "Off",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": -1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartWithRandomMechs",
+              "ConstantValue": "False"
+            }
+          ]
+        },
+        {
+          "ID": "diff_RNDMECHS_on",
+          "Name": "On",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": -1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartWithRandomMechs",
+              "ConstantValue": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_equipNewMech",
+      "Name": "Unequipped 'Mechs",
+      "TelemetryEventName": "",
+      "UIOrder": 1,
+      "Tooltip": "When this setting is enabled, new 'Mechs you acquire through salvage will not come with equipped weapons or components, and will need to be customized from scratch.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": true,
+      "StartOnly": true,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_EMS_off",
+          "Name": "Off",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "EquipMechOnSalvage",
+              "ConstantValue": "True"
+            }
+          ]
+        },
+        {
+          "ID": "diff_EMS_on",
+          "Name": "On",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.2,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "EquipMechOnSalvage",
+              "ConstantValue": "False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_mechConstruction",
+      "Name": "Parts for 'Mech Assembly",
+      "TelemetryEventName": "",
+      "UIOrder": 2,
+      "Tooltip": "This setting controls the number of salvaged or purchased 'Mech parts you must acquire to assemble a new 'Mech. Increase this value to make new 'Mechs rarer and more difficult to obtain. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": true,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_MC_easy",
+          "Name": "3",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "DefaultMechPartMax",
+              "ConstantValue": "3"
+            }
+          ]
+        },
+        {
+          "ID": "diff_MC_easymed",
+          "Name": "4",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "DefaultMechPartMax",
+              "ConstantValue": "4"
+            }
+          ]
+        },
+        {
+          "ID": "diff_MC_med",
+          "Name": "5",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 2,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "DefaultMechPartMax",
+              "ConstantValue": "5"
+            }
+          ]
+        },
+        {
+          "ID": "diff_MC_medhard",
+          "Name": "6",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 3,
+          "CareerScoreModifier": 0.15,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "DefaultMechPartMax",
+              "ConstantValue": "6"
+            }
+          ]
+        },
+        {
+          "ID": "diff_MC_hard",
+          "Name": "7",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 4,
+          "CareerScoreModifier": 0.2,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "DefaultMechPartMax",
+              "ConstantValue": "7"
+            }
+          ]
+        },
+        {
+          "ID": "diff_MC_vhard",
+          "Name": "8",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 5,
+          "CareerScoreModifier": 0.25,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "DefaultMechPartMax",
+              "ConstantValue": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_argoUpgradeCost",
+      "Name": "Reduced Argo Upgrade Costs",
+      "TelemetryEventName": "argo_upgrade_cost",
+      "UIOrder": 3,
+      "Tooltip": "This setting controls the costs of Argo Upgrades. If this setting is Enabled, Argo Ship Upgrades will cost less for both the upfront Purchase Costs as well as the Additional Costs paid each month for completed upgrades.",
+      "Enabled": false,
+      "Visible": false,
+      "Toggle": true,
+      "StartOnly": true,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_AUCR_off",
+          "Name": "Full Argo Upgrade Cost",
+          "TelemetryEventDesc": "0",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "ArgoUpgradeCostMultiplier",
+              "ConstantValue": "1"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "ArgoMaintenanceMultiplier",
+              "ConstantValue": "1"
+            }
+          ]
+        },
+        {
+          "ID": "diff_AUCR_on",
+          "Name": "Half Argo Upgrade Cost",
+          "TelemetryEventDesc": "1",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "ArgoUpgradeCostMultiplier",
+              "ConstantValue": "0.5"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "ArgoMaintenanceMultiplier",
+              "ConstantValue": "0.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_startdate",
+      "Name": "Starting Year",
+      "TelemetryEventName": "",
+      "UIOrder": 4,
+      "Tooltip": "This setting determines your start date:\n\n3025\t- End of Third Succession War\n3028\t- Fourth Succession War\n3030\t- Andurien/St. Ives Seccessions\n3034\t- Rasalhague Independence\n3039\t- War of 3039\n3047\t- Helm Memory Core Technology Renaissance\n3049\t- Clan Invasion\n3053\t- Post Truce of Tukayyid\n3057\t- Lyran Secession\n3059\t- Clan Smoke Jaguar Annihilation\n3061\t- Prior to FedCom Civil War\n\nNew technologies begin to appear in 3047 but remain rare until the mid-3050s. Clans arrive in August 3049.\n\nThe timeline will hold in map and technology up to 3061 prior to the FedCom Civil War.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": true,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_startdate3025",
+          "Name": "3025",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3028",
+          "Name": "3028",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3030",
+          "Name": "3030",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3034",
+          "Name": "3034",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3039",
+          "Name": "3039",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3047",
+          "Name": "3047",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3049",
+          "Name": "3049",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3053",
+          "Name": "3053",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3057",
+          "Name": "3057",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3059",
+          "Name": "3059",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        },
+        {
+          "ID": "diff_startdate3061",
+          "Name": "3061",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3025"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3028"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3030"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3034"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3039"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3047"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3049"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3053"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3057"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "start_timeline_3059"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "start_timeline_3061"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_startingplanet",
+      "Name": "Starting Planet",
+      "UIOrder": 5,
+      "Tooltip": "This setting determines your starting planet and gives you 'Mechs favored by your chosen faction:\n\n<b>Successor States:</b>\n• Capellan Confederation (Liao)\tHousekarle\n• Draconis Combine (Kurita)\t\tAncha\n• Federated Suns (Davion)\t\tLindsay\n• Free Worlds League (Marik)\t\tWing\n• Lyran Commonwealth (Steiner)\tSakhalin\n\n<b>Minor States:</b>\n• Free Rasalhague Republic\t\tGrumium\n• St. Ives Compact\t\t\tSt.Ives\n\n<b>Periphery States:</b>\n• Aurigan Coalition\t\t\tPanzyr\n• Magistracy of Canopus\t\tNew Abilene\n• Outworlds Alliance\t\t\tSevon\n• Taurian Concordat\t\t\tIlliushin\n\n<b>Special Starts:</b>\n• No Faction\t\t\t\tLyreton\n• Ultralights Only\t\t\t\tWaypoint\n• Vehicles Only\t\t\t\tAndurien\n• SLDF Cache\t\t\t\tWoodstock\n• Established Company\t\t\tIndependence",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": true,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_Liao",
+          "Name": "Liao",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Housekarle"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Liao_worst,itemCollection_Mechs_Liao_best,itemCollection_Mechs_Liao_support,itemCollection_Mechs_Liao_20s,itemCollection_Mechs_Liao_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Kurita",
+          "Name": "Kurita",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Ancha"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Kurita_worst,itemCollection_Mechs_Kurita_best,itemCollection_Mechs_Kurita_support,itemCollection_Mechs_Kurita_20s,itemCollection_Mechs_Kurita_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Davion",
+          "Name": "Davion",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Lindsay"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Davion_worst,itemCollection_Mechs_Davion_best,itemCollection_Mechs_Davion_support,itemCollection_Mechs_Davion_20s,itemCollection_Mechs_Davion_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Marik",
+          "Name": "Marik",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Wing"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Marik_support,itemCollection_Mechs_Marik_best,itemCollection_Mechs_Marik_worst,itemCollection_Mechs_Marik_20s,itemCollection_Mechs_Marik_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Steiner",
+          "Name": "Steiner",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Sakhalin(LC)"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Steiner_worst,itemCollection_Mechs_Steiner_best,itemCollection_Mechs_Steiner_support,itemCollection_Mechs_Steiner_20s,itemCollection_Mechs_Steiner_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Rasalhague",
+          "Name": "Rasalhague",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Grumium"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Rasalhague_worst,itemCollection_Mechs_Rasalhague_best,itemCollection_Mechs_Rasalhague_support,itemCollection_Mechs_Rasalhague_20s,itemCollection_Mechs_Rasalhague_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Ives",
+          "Name": "St. Ives",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "St.Ives"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Ives_worst,itemCollection_Mechs_Ives_best,itemCollection_Mechs_Ives_support,itemCollection_Mechs_Ives_20s,itemCollection_Mechs_Ives_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Aurigan",
+          "Name": "Arano",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Panzyr"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Aurigan_worst,itemCollection_Mechs_Aurigan_best,itemCollection_Mechs_Aurigan_support,itemCollection_Mechs_Aurigan_20s,itemCollection_Mechs_Aurigan_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Magistracy",
+          "Name": "Magistracy",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "NewAbilene"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Periphery_worst,itemCollection_Mechs_Periphery_best,itemCollection_Mechs_Canopus_support,itemCollection_Mechs_Canopus_20s,itemCollection_Mechs_Canopus_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Outworld",
+          "Name": "Outworlds",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Sevon"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Outworld_worst,itemCollection_Mechs_Outworld_best,itemCollection_Mechs_Outworld_support,itemCollection_Mechs_Outworld_20s,itemCollection_Mechs_Outworld_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Taurian",
+          "Name": "Taurian",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Illiushin"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Periphery_worst,itemCollection_Mechs_Periphery_best,itemCollection_Mechs_Taurian_support,itemCollection_Mechs_Taurian_20s,itemCollection_Mechs_Taurian_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_NoFaction",
+          "Name": "No Faction",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Lyreton"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Periphery_worst,itemCollection_Mechs_Periphery_best,itemCollection_Mechs_Periphery_support,itemCollection_Mechs_Periphery_20s,itemCollection_Mechs_Periphery_20s"
+            }
+          ]
+        },
+        {
+          "ID": "diff_UltralightsOnly",
+          "Name": "Ultralight",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.10,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Waypoint"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_UltraLight_1,itemCollection_Mechs_UltraLight_2,itemCollection_Mechs_UltraLight_3,itemCollection_Mechs_UltraLight_4,itemCollection_Mechs_UltraLight_5,"
+            }
+          ]
+        },
+        {
+          "ID": "diff_VehiclesOnly",
+          "Name": "Vehicles Only",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Andurien"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Industrial_medium,itemCollection_Mechs_Industrial_light,itemCollection_Mechs_Industrial_light,itemCollection_Mechs_Industrial_light,itemCollection_Mechs_Periphery_support"
+            }
+          ]
+        },
+        {
+          "ID": "diff_SLDF",
+          "Name": "SLDF Cache",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": -0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Woodstock"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Starleague_worst,itemCollection_Mechs_Starleague_best,itemCollection_Mechs_Starleague_support1,itemCollection_Mechs_Starleague_support2,itemCollection_Mechs_Starleague_royal"
+            }
+          ]
+        },
+        {
+          "ID": "diff_SF_established",
+          "Name": "Established Company",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": -0.10,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingSystems",
+              "ConstantValue": "Independence"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingRandomMechLists",
+              "ConstantValue": "itemCollection_Mechs_Starting_0,itemCollection_Mechs_Starting_1,itemCollection_Mechs_Starting_2,itemCollection_Mechs_Starting_3,itemCollection_Mechs_Starting_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_difficulty",
+      "Name": "Extended Difficulty",
+      "UIOrder": 6,
+      "Tooltip": "This setting controls the underlying difficulty of the mod's effects and the tightening of vanilla exploitable mechanics.\n\n<b>Easy:</b> Career starting values are much softer. Enemy pilots are randomly skilled. Enemies will rarely be equiped with appropriate munitions. Vanilla Bulwark is returned as a player crutch.\n\n<b>Normal:</b> Increases the difficulty in combat late game, including the AI using appropriate pilot skills, and lessening late game Resolve bonuses. Enemies may be equiped with appropriate munition types. Bulwark has a new effect to bring it in line with other tier 1 skill choices.\n\n<b>Hard:</b> Enemies will more commonly be equiped with appropriate munition types. The To Hit bonus provided by Precision Strike is reduced, delaying the point at which the game becomes too easy with progression.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": false,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_Easy",
+          "Name": "Easy",
+          "DifficultyValue": -1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMedTechSkill",
+              "ConstantValue": "6"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "ContractDifficultyVariance",
+              "ConstantValue": "1"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MaxMechWarriorsPerPod",
+              "ConstantValue": "8"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MechReadyTime",
+              "ConstantValue": "6000"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMorale",
+              "ConstantValue": "25"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMechTechSkill",
+              "ConstantValue": "3000"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MaximumDebt",
+              "ConstantValue": "0"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Normal",
+          "Name": "Normal",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMedTechSkill",
+              "ConstantValue": "4"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "ContractDifficultyVariance",
+              "ConstantValue": "1"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MaxMechWarriorsPerPod",
+              "ConstantValue": "8"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MechReadyTime",
+              "ConstantValue": "30000"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMorale",
+              "ConstantValue": "20"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMechTechSkill",
+              "ConstantValue": "2500"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MaximumDebt",
+              "ConstantValue": "42"
+            }
+          ]
+        },
+        {
+          "ID": "diff_Hard",
+          "Name": "Hard",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.10,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMedTechSkill",
+              "ConstantValue": "4"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "ContractDifficultyVariance",
+              "ConstantValue": "1"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MaxMechWarriorsPerPod",
+              "ConstantValue": "8"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MechReadyTime",
+              "ConstantValue": "30000"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMorale",
+              "ConstantValue": "20"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "StartingMechTechSkill",
+              "ConstantValue": "2500"
+            },
+            {
+              "ConstantType": "Story",
+              "ConstantName": "MaximumDebt",
+              "ConstantValue": "63"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_pilotProgression",
+      "Name": "MechWarrior Progression",
+      "TelemetryEventName": "mech_warrior_progression",
+      "UIOrder": 7,
+      "Tooltip": "This setting controls the amount of experience MechWarriors gain after each mission. Change this setting to adjust the rate at which MechWarriors improve their stats and gain new skills.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": false,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_PP_easy",
+          "Name": "Normal",
+          "TelemetryEventDesc": "normal",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "BaseXPGainPerMission",
+              "ConstantValue": "400"
+            }
+          ]
+        },
+        {
+          "ID": "diff_PP_med",
+          "Name": "Slow",
+          "TelemetryEventDesc": "slow",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "BaseXPGainPerMission",
+              "ConstantValue": "200"
+            }
+          ]
+        },
+        {
+          "ID": "diff_PP_hard",
+          "Name": "Very Slow",
+          "TelemetryEventDesc": "very_slow",
+          "DifficultyValue": 2,
+          "CareerScoreModifier": 0.2,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "BaseXPGainPerMission",
+              "ConstantValue": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_contractDifficulty",
+      "Name": "Enemy Force Strength",
+      "TelemetryEventName": "enemy_force_strength",
+      "UIOrder": 8,
+      "Tooltip": "This setting modifies the overall strength of enemy forces. At higher difficulties, you will encounter heavier 'Mechs.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": false,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_CMD_easy",
+          "Name": "Easy",
+          "TelemetryEventDesc": "easy",
+          "DifficultyValue": -1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "ContractDifficultyMod",
+              "ConstantValue": "-1"
+            }
+          ]
+        },
+        {
+          "ID": "diff_CMD_med",
+          "Name": "Normal",
+          "TelemetryEventDesc": "normal",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "ContractDifficultyMod",
+              "ConstantValue": "0"
+            }
+          ]
+        },
+        {
+          "ID": "diff_CMD_hard",
+          "Name": "Hard",
+          "TelemetryEventDesc": "hard",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "ContractDifficultyMod",
+              "ConstantValue": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_advancedPilots",
+      "Name": "Advanced MechWarriors",
+      "TelemetryEventName": "advanced_mech_warriors",
+      "UIOrder": 9,
+      "Tooltip": "In the later parts of the game, new MechWarriors in the Hiring Hall will often have better stats and skills than in the early parts of the game. Modify this setting to change the frequency of new MechWarriors having these improvements.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": false,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_CMD_easy",
+          "Name": "Often",
+          "TelemetryEventDesc": "often",
+          "DifficultyValue": -1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "ContractDifficultyMod",
+              "ConstantValue": "0.12"
+            }
+          ]
+        },
+        {
+          "ID": "diff_CMD_med",
+          "Name": "Normal",
+          "TelemetryEventDesc": "normal",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "ContractDifficultyMod",
+              "ConstantValue": "0.08"
+            }
+          ]
+        },
+        {
+          "ID": "diff_CMD_hard",
+          "Name": "Rare",
+          "TelemetryEventDesc": "rare",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "ContractDifficultyMod",
+              "ConstantValue": "0.04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_contractPayment",
+      "Name": "Contract Payment",
+      "TelemetryEventName": "contract_payment",
+      "UIOrder": 10,
+      "Tooltip": "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": false,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_CP_easy",
+          "Name": "Generous",
+          "TelemetryEventDesc": "generous",
+          "DifficultyValue": -1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Finances",
+              "ConstantName": "ContractPricePerDifficulty",
+              "ConstantValue": "200000"
+            }
+          ]
+        },
+        {
+          "ID": "diff_CP_med",
+          "Name": "Normal",
+          "TelemetryEventDesc": "normal",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Finances",
+              "ConstantName": "ContractPricePerDifficulty",
+              "ConstantValue": "180000"
+            }
+          ]
+        },
+        {
+          "ID": "diff_CP_hard",
+          "Name": "Stingy",
+          "TelemetryEventDesc": "stingy",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.15,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Finances",
+              "ConstantName": "ContractPricePerDifficulty",
+              "ConstantValue": "150000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_baseSalvage",
+      "Name": "Salvage",
+      "TelemetryEventName": "salvage",
+      "UIOrder": 11,
+      "Tooltip": "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": false,
+      "DefaultIndex": 1,
+      "Options": [
+        {
+          "ID": "diff_BS_high",
+          "Name": "Generous",
+          "TelemetryEventDesc": "generous",
+          "DifficultyValue": -1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Finances",
+              "ConstantName": "ContractFloorSalvageBonus",
+              "ConstantValue": "4"
+            }
+          ]
+        },
+        {
+          "ID": "diff_BS_med",
+          "Name": "Normal",
+          "TelemetryEventDesc": "normal",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Finances",
+              "ConstantName": "ContractFloorSalvageBonus",
+              "ConstantValue": "2"
+            }
+          ]
+        },
+        {
+          "ID": "diff_BS_low",
+          "Name": "Stingy",
+          "TelemetryEventDesc": "hard",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.15,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Finances",
+              "ConstantName": "ContractFloorSalvageBonus",
+              "ConstantValue": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_opforcomp",
+      "Name": "Enemy Components",
+      "TelemetryEventName": "enemy_components",
+      "UIOrder": 12,
+      "Tooltip": "This setting enables upgraded components on enemy and allied 'Mechs based on their equipment rating.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": false,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_opforcompoff",
+          "Name": "Default",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "CAC_C_UpgradedComponents"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "CAC_C_UpgradedComponentsCSP"
+            }
+          ]
+        },
+        {
+          "ID": "diff_opforcompon",
+          "Name": "Upgraded",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "CAC_C_UpgradedComponents"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "CAC_C_UpgradedComponentsCSP"
+            }
+          ]
+        },
+        {
+          "ID": "diff_opforcompplus",
+          "Name": "Upgraded+",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0.10,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "CAC_C_UpgradedComponents"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "CAC_C_UpgradedComponentsCSP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_rareItems",
+      "Name": "No Rare Salvage",
+      "TelemetryEventName": "no_rare_salvage",
+      "UIOrder": 13,
+      "Tooltip": "This setting controls whether \"+\" and \"++\" items can be found as salvage after a battle. If this setting is enabled, only basic items will be found.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": true,
+      "StartOnly": false,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_RI_off",
+          "Name": "Off",
+          "TelemetryEventDesc": "0",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "RareWeaponChance",
+              "ConstantValue": "-3"
+            },
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "RareUpgradeChance",
+              "ConstantValue": "-5"
+            },
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "VeryRareWeaponChance",
+              "ConstantValue": "-4"
+            },
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "VeryRareUpgradeChance",
+              "ConstantValue": "-6"
+            }
+          ]
+        },
+        {
+          "ID": "diff_RI_on",
+          "Name": "On",
+          "TelemetryEventDesc": "1",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "RareWeaponChance",
+              "ConstantValue": "-10"
+            },
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "RareUpgradeChance",
+              "ConstantValue": "-10"
+            },
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "VeryRareWeaponChance",
+              "ConstantValue": "-10"
+            },
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "VeryRareUpgradeChance",
+              "ConstantValue": "-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_mechDestruction",
+      "Name": "'Mech Destruction",
+      "TelemetryEventName": "mech_destruction",
+      "UIOrder": 14,
+      "Tooltip": "When active, this setting will cause any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": true,
+      "StartOnly": false,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_MD_off",
+          "Name": "Off",
+          "TelemetryEventDesc": "0",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "DestroyedMechRecoveryChance",
+              "ConstantValue": "1"
+            }
+          ]
+        },
+        {
+          "ID": "diff_MD_on",
+          "Name": "On",
+          "TelemetryEventDesc": "1",
+          "DifficultyValue": 2,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "DestroyedMechRecoveryChance",
+              "ConstantValue": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_lethality",
+      "Name": "Lethality",
+      "TelemetryEventName": "lethality",
+      "UIOrder": 15,
+      "Tooltip": "When this setting is enabled, MechWarriors that are incapacitated in combat will always be killed.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": true,
+      "StartOnly": false,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_LTH_off",
+          "Name": "Normal",
+          "TelemetryEventDesc": "0",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "IncapacitatedDeathChance",
+              "ConstantValue": "0.9"
+            },
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "GutsDeathReduction",
+              "ConstantValue": "0.05"
+            }
+          ]
+        },
+        {
+          "ID": "diff_LTH_on",
+          "Name": "Lethal",
+          "TelemetryEventDesc": "1",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "IncapacitatedDeathChance",
+              "ConstantValue": "1.05"
+            },
+            {
+              "ConstantType": "Pilot",
+              "ConstantName": "GutsDeathReduction",
+              "ConstantValue": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

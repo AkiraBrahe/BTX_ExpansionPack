@@ -1,0 +1,90 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_SALADIN_ARMOR",
+  "Description": {
+    "Id": "vehicledef_SALADIN_ARMOR",
+    "Name": "Saladin Assault Hover Tank",
+    "UIName": "Saladin Assault Hover Tank (Armor)",
+    "Details": "<b>Name: <color=#85DBF6>Saladin Assault Hover Tank (Armor)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/12 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Saladin is a medium hover tank built by Scarborough, the company that also made the Saracen and Scimitar. Unlike its brothers, the Saladin has no turret and only carries a single short-range weapon. Despite this, it became quite popular throughout the Inner Sphere.\n\nThis variant of the Saladin, introduced in 2960, drops one ton of ammunition for an additional ton of armor, doubling the armor on the sides and rear.",
+    "Icon": "uixVhclIcon_saladin",
+    "Cost": 912000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2960-01-01T00:00:00Z"
+}

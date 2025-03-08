@@ -1,0 +1,110 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1-1-0.85",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_JEdgar_KURITA",
+  "Description": {
+    "Id": "vehicledef_JEdgar_KURITA",
+    "Name": "J. Edgar Light Hover Tank",
+    "UIName": "J. Edgar Light Hover Tank (Kurita)",
+    "Details": "<b>Name: <color=#85DBF6>J. Edgar Light Hover Tank (Kurita)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/17 (Hover)</color>\tEngine: <color=#85DBF6>145 Fusion</color></b>\n\nDesigned as a fast, cheap, and effective raider, the J.Edgar was the last military vehicle that Alphard Trading Corporation manufactured before they disappeared during the conflagration of the Succession Wars.\n\nThe Kurita variant drops both SRM-2 packs of the standard model in order to add two additional Medium Lasers plus one Small Laser to the turret. It also is equipped with a C3 Slave to connect to other C3 units. Like the TAG variant, this carries 6 tons of ferro-fibrous armor.",
+    "Icon": "uixVhclIcon_jedgar",
+    "Cost": 1253000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 155,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 155,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
+}

@@ -1,0 +1,117 @@
+{
+  "Custom": {
+    "Sorter": 70
+  },
+  "Category": "Energy",
+  "Type": "PPC",
+  "WeaponSubType": "PPC",
+  "MinRange": 90,
+  "MaxRange": 540,
+  "RangeSplit": [
+    180,
+    360,
+    540
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 45,
+  "Damage": 75,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 3,
+  "Instability": 30,
+  "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+  "Description": {
+    "Cost": 250000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Luthien",
+    "Model": "Particle Projector Cannon",
+    "UIName": "Heavy PPC",
+    "Id": "Weapon_PPC_PPCHeavy_0-STOCK",
+    "Name": "Heavy PPC",
+    "Details": "Developed by the Draconis Combine, the Heavy PPC is a larger, more potent version of the Particle Projector Cannon. The Heavy PPC has the same damage potential and heat buildup of a Clan ER PPC. However, it lacks the range of that weapon, as well as possessing greatly increased weight and bulk. Heavy PPCs also generate a mild EM field that degrades the firing capability of their target.",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "PPC",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 10,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "PPCMode_FI_ON",
+      "UIName": "FI ON",
+      "Name": "Field Inhibitor ON",
+      "Description": "Standard operation. Heavy PPC functions normally.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "PPCMode_FI_OFF",
+      "UIName": "FI OFF",
+      "Name": "Field Inhibitor OFF",
+      "Description": "Disabling the field inhibitor removes the minimum range, but introduces a chance of misfires.",
+      "isBaseMode": false,
+      "DamageOnJamming": true,
+      "AccuracyModifier": 1.0,
+      "FlatJammingChance": 0.1,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.04,
+      "MinRange": -90
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": 0
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityDefPPC",
+        "Name": "SENSORS IMPAIRED",
+        "Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_very-long",
+      "component_type_lostech",
+      "component_heavyppc",
+      "ppc_capacitor_attachable",
+      "energy_tts_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

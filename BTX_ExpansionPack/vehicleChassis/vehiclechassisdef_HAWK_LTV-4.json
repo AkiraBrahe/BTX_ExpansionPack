@@ -1,0 +1,128 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Hawk",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_HAWK_LTV-4",
+    "Name": "Hawk (LTV-4)",
+    "Details": "<b>Name: <color=#85DBF6>Hawk Hover Tank (LTV-4)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>\n\nThe LTV-4 Hover Tank, nicknamed \"Hawk\", was developed by Lucas Technologies to counter the proliferation of BattleMech technologies stolen from the Terran Hegemony. The vehicle is designed to swarm early BattleMechs in groups and use their combined firepower to hold them until other forces can close in and eliminate them.\n\nTo achieve this, the Hawk is armed with a Particle Projector Cannon mounted in the turret and a single 4-tube Short Range Missile launcher. It is powered by a 115-rated internal combustion engine that gives it a respectable speed of 110 km/h. The crowning achievement of the design is its prototype standard-grade armor, which encases the vehicle's hull in 5.5 tons of material.",
+    "Icon": "uixVhclIcon_hawk",
+    "Cost": 1316000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_7",
+  "PathingCapDefID": "pathingdef_medium_hover",
+  "HardpointDataDefID": "hardpointdatadef_sldfdrone",
+  "PrefabIdentifier": "chrPrfVhcl_sldfdrone",
+  "PrefabBase": "sldfdrone",
+  "Tonnage": 50,
+  "weightClass": "MEDIUM",
+  "BattleValue": 3420000,
+  "TopSpeed": 118.8,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 120,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 25
+    }
+  ]
+}

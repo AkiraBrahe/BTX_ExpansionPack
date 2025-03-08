@@ -1,0 +1,132 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Chevalier",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_CHEVALIER",
+    "Name": "Chevalier",
+    "Details": "<b>Name: <color=#85DBF6>Chevalier Light Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (Wheeled)</color>\tEngine: <color=#85DBF6>190 Fusion</color></b>\n\nThe Chevalier Light Tank, originally produced for the Star League, suffered heavy losses during the Succession Wars as Successor States cannibalized its design for parts. Only Millennium Industries continued production, later acquired by ComStar.\n\nDespite its weak armament compared to modern designs, the Chevalier is extremely ammunition-efficient, allowing it to stay in the fight longer than other vehicles of the same weight class. It mounts an ER Large Laser in its turret and a pair of front-mounted Streak SRM-2s to exploit any weaknesses in an opponent's armor.",
+    "Icon": "uixVhclIcon_chevalier",
+    "Cost": 1003000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_6",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_chevalier",
+  "PrefabIdentifier": "chrprfvhcl_chevalier",
+  "PrefabBase": "chevalier",
+  "Tonnage": 35,
+  "weightClass": "LIGHT",
+  "BattleValue": 3340000,
+  "TopSpeed": 97.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 3,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.25,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.25,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 130,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 100,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 100,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 110,
+      "InternalStructure": 20
+    }
+  ]
+}

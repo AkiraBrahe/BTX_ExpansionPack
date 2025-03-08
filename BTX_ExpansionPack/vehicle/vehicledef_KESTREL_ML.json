@@ -1,0 +1,83 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.65-0.55-0.65",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_KESTREL_ML",
+  "Description": {
+    "Id": "vehicledef_KESTREL_ML",
+    "Name": "Kestrel VTOL",
+    "UIName": "Kestrel VTOL (ML)",
+    "Details": "<b>Name: <color=#85DBF6>Kestrel VTOL (ML)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>12/18 (VTOL)</color>\tEngine: <color=#85DBF6>160 ICE</color></b>\n\nThe Kestrel is a VTOL designed by Wolf's Dragoons for their special operations teams. Prioritizing stealth over armor and firepower, the Kestrel is a potent tool for infiltration and extraction.\n\nThis field variant, first seen during the Fourth Succession War, replaces the machine guns with a single Medium Laser, power amplifier, and heat sinks. This dramatically reduces the cargo space available.",
+    "Icon": "uixVhclIcon_kestrel",
+    "Cost": 509000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 20,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 20,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3030-01-01T00:00:00Z"
+}

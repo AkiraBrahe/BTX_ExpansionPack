@@ -1,0 +1,52 @@
+{
+  "TargetIDs": [
+    "vehicledef_APC_Alsvin",
+    "vehicledef_APC_Arvakr",
+    "vehicledef_APC_Maultier",
+    "vehicledef_APC_Maultier_Basic",
+    "vehicledef_APC_Maultier_Interm",
+    "vehicledef_APC_Maxim",
+    "vehicledef_APC_Maxim_3052AP",
+    "vehicledef_APC_Maxim_3052FS",
+    "vehicledef_APC_Maxim_3052U",
+    "vehicledef_APC_Maxim_SRM2",
+    "vehicledef_APC_Maxim_SRM4",
+    "vehicledef_APC_Sleipnir",
+    "vehicledef_APC_Sleipnir_LRM",
+    "vehicledef_APC_Sleipnir_ML",
+    "vehicledef_APC_Sleipnir_SRM",
+    "vehicledef_APC_Turhan",
+    "vehicledef_APC_Vargr",
+    "vehicledef_APC_Vargr_LL",
+    "vehicledef_APC_Vargr_LRM",
+    "vehicledef_APC_Vargr_SRM",
+    "vehicledef_BADGER",
+    "vehicledef_BANDIT",
+    "vehicledef_BURKEII",
+    "vehicledef_CARRIER_SRM_NARC",
+    "vehicledef_CHALLENGER_MBT-X",
+    "vehicledef_CHALLENGER_MBT-XI",
+    "vehicledef_DEMOLISHERII",
+    "vehicledef_FURYII",
+    "vehicledef_GALLEON",
+    "vehicledef_GALLEON_GAL102",
+    "vehicledef_GALLEON_GAL200",
+    "vehicledef_MARSDENII",
+    "vehicledef_MARSDENII-A",
+    "vehicledef_MERKAVA_VIII",
+    "vehicledef_MOBILEHQ_ARMORED",
+    "vehicledef_PARTISAN_COM",
+    "vehicledef_PO_LG",
+    "vehicledef_PREDATOR",
+    "vehicledef_SWIFTWIND_ARMORED"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "VehicleTags.items",
+      "Action": "ArrayConcat",
+      "Value": [
+        "BLACKLISTED"
+      ]
+    }
+  ]
+}

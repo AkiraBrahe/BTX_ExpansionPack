@@ -1,0 +1,76 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.85",
+      "unit_vehicle",
+      "unit_weaponless",
+      "unit_light",
+      "unit_vtol",
+      "unit_noncombatant",
+      "unit_lance_support",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_KARNOV",
+  "Description": {
+    "Id": "vehicledef_KARNOV",
+    "Name": "Karnov UR Transport",
+    "UIName": "Karnov UR Transport (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Karnov UR Transport</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>11/17 (VTOL)</color>\tEngine: <color=#85DBF6>190 ICE</color></b>\n\nThe Karnov UR Transport is a heavy-lift VTOL used by the Successor State armed forces and mercenary units for supply and logistics missions for centuries.\n\nLike most support vehicles, the Karnov UR is not designed for combat. While its Star Slab armor gives the Karnov a reasonable amount of protection against light weapons, the slow and vulnerable tiltrotor is a sitting duck for any combat unit.",
+    "Icon": "uixVhclIcon_karnov",
+    "Cost": 550000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2600-01-01T00:00:00Z"
+}

@@ -1,0 +1,286 @@
+{
+  "Custom": {
+    "ActivatableComponent": {
+      "ButtonName": "ECM",
+      "CanActivateAfterMove": true,
+      "CanActivateAfterFire": false,
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": false,
+      "ActiveByDefault": false,
+      "ActivationMessage": "ECCM Mode",
+      "DeactivationMessage": "ECM Mode",
+      "statusEffects": []
+    }
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 7500000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "DCMS",
+    "Model": "Angel",
+    "UIName": "Angel ECM",
+    "Id": "Gear_Sensor_Angel_ECM",
+    "Name": "Angel ECM",
+    "Details": "The Angel ECM Suite is an advanced version of the Guardian ECM Suite operating on a broader spectrum. Interferes with enemy targetings computers, sensors and comms. Decreasing accuracy against nearby allied forces and preventing most enemy comms.",
+    "Icon": "UixSvgIcon_specialEquip_Sensors"
+  },
+  "BonusValueA": "+ 240m ECM Field",
+  "BonusValueB": "- 40% Detectability",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "Prototype_ElectronicWarfare",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 2,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Auras": [
+    {
+      "Id": "Gear_Sensor_Angel_ECMAura",
+      "MinefieldDetector": false,
+      "LineType": "Dashes",
+      "isSpining": false,
+      "Name": "Angel ECM",
+      "ReticleColor": "blue",
+      "Range": 240,
+      "RangeStatistic": "",
+      "RemoveOnSensorLock": true,
+      "State": "Offline",
+      "HideOnNotSelected": false,
+      "FloatieAtEndOfMove": true,
+      "ApplySelf": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": true,
+      "IsNegativeToAlly": false,
+      "IsNegativeToEnemy": false,
+      "IsPositiveToEnemy": false,
+      "onlineVFX": [],
+      "targetVFX": [],
+      "removeTargetVFX": [],
+      "ownerSFX": [],
+      "targetSFX": [],
+      "removeOwnerSFX": [],
+      "removeTargetSFX": [],
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "AlliesWithinRange",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECMAura-Indirect",
+            "Details": "Friendly units within an ECM field gain immunity to indirect fire.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "IndirectImmuneFloat",
+            "operation": "Float_Add",
+            "modValue": "1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "AlliesWithinRange",
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECMAura-ToHit",
+            "Name": "ECM Affected",
+            "Details": "Friendly units within an ECM field gain +4 Difficulty to attacks against them and immunity to Indirect Fire and Sensor Locks.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "DefendedByECM",
+            "operation": "Float_Add",
+            "modValue": "1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "AlliesWithinRange",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECMAura-SensorLock",
+            "Name": "ECM Affected",
+            "Details": "Friendly units within an ECM field are immune to Sensor Locks.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "SensorLockDefense",
+            "operation": "Float_Add",
+            "modValue": "2.0",
+            "modType": "System.Single"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "Gear_Sensor_Angel_ECCMAura",
+      "MinefieldDetector": false,
+      "LineType": "Dashes",
+      "Name": "Angel ECCM",
+      "ReticleColor": "cyan",
+      "Range": 240,
+      "RemoveOnSensorLock": true,
+      "State": "Online",
+      "ApplySelf": false,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": false,
+      "IsNegativeToAlly": false,
+      "IsNegativeToEnemy": true,
+      "IsPositiveToEnemy": false,
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECCMAura-Indirect",
+            "Name": "ECCM Affected",
+            "Details": "Enemy units within an ECCM field lose their immunity to indirect fire.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "IndirectImmuneFloat",
+            "operation": "Float_Add",
+            "modValue": "-1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECCMAura-ToHit",
+            "Name": "ECCM Affected",
+            "Details": "Enemy units within an ECCM field have their boni from ECM negated.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "DefendedByECM",
+            "operation": "Float_Add",
+            "modValue": "-1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECCMAura-SensorLock",
+            "Name": "ECCM Affected",
+            "Details": "Enemy units within an ECCM field lose their resistance to Sensor Lock.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "SensorLockDefense",
+            "operation": "Float_Add",
+            "modValue": "-2.0",
+            "modType": "System.Single"
+          }
+        }
+      ]
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-SensorDecrease",
+        "Name": "Detectability decreased",
+        "Details": "Decreases sensor detectability distance by 40%.",
+        "Icon": "uixSvgIcon_status_ECM-missileDef"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "SensorSignatureModifier",
+        "operation": "Float_Multiply",
+        "modValue": "-0.4",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "BLACKLISTED",
+      "cae_ai_defence"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

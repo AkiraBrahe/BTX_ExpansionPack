@@ -1,0 +1,30 @@
+{
+  "Description": {
+    "Id": "Ammunition_AC20Flak",
+    "Name": "Flak AC/20 Ammo",
+    "UIName": "Flak",
+    "Details": "Massive anti-aircraft rounds designed for devastating impact, to be used in an AC/20.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "AC20",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 0.6,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1.25,
+  "HasShells": true,
+  "ShellsRadius": 135,
+  "MinShellsDistance": 30,
+  "MaxShellsDistance": 20,
+  "UnseparatedDamageMult": 0.7,
+  "HitGenerator": "Cluster",
+  "ProjectilesPerShot": 8,
+  "AirMechDamageModifier": 2,
+  "VTOLDamageModifier": 2
+}

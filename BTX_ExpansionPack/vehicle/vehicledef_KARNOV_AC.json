@@ -1,0 +1,96 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.85",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_KARNOV_AC",
+  "Description": {
+    "Id": "vehicledef_KARNOV_AC",
+    "Name": "Karnov UR Transport",
+    "UIName": "Karnov UR Transport (AC)",
+    "Details": "<b>Name: <color=#85DBF6>Karnov UR Transport (AC)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/12 (VTOL)</color>\tEngine: <color=#85DBF6>100 Fusion</color></b>\n\nThe Karnov UR Transport is a heavy-lift VTOL used by the Successor State armed forces and mercenary units for supply and logistics missions for centuries.\n\nThis variant is equipped with a fusion engine, somewhat heavier armor, and mounts an Autocannon/20 with two tons of ammunition. The added weight of the armament reduces the machine's cruising speed to 86 km/h.",
+    "Icon": "uixVhclIcon_karnov",
+    "Cost": 1410000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 35,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 35,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 35,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 35,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Left",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3039-01-01T00:00:00Z"
+}

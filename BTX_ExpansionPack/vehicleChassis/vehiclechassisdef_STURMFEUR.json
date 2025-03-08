@@ -1,0 +1,136 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Sturmfeur",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_STURMFEUR",
+    "Name": "Sturmfeur",
+    "Details": "<b>Name: <color=#85DBF6>SturmFeur Heavy Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>255 ICE</color></b>\n\nThe SturmFeur is the largest combat vehicle dedicated to providing missile support. It is a slow but well-armored vehicle that can withstand a determined counterassault before needing to withdraw. Its name is a misspelling of \"Assault Fire\".\n\nThe primary armament on the SturmFeur consists of two LRM-20s, enabling it to deliver devastating supporting fire while staying out of reach of most enemy units. Due to targeting limitations during the Third Succession War, the launchers were separated to prevent accidental damage to friendly forces. One LRM is mounted in a turret for flexible targeting, while the other is mounted frontally for direct, forward-firing support. The tank's only secondary weapons are two Machine Guns for anti-infantry defense.",
+    "Icon": "uixVhclIcon_sturmfeur",
+    "Cost": 2395000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_3",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_sturmfeur",
+  "PrefabIdentifier": "chrprfvhcl_sturmfeur",
+  "PrefabBase": "sturmfeur",
+  "Tonnage": 85,
+  "weightClass": "ASSAULT",
+  "BattleValue": 7000000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 330,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 330,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 330,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 240,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 330,
+      "InternalStructure": 45
+    }
+  ]
+}

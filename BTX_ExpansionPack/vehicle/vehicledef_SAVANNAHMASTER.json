@@ -1,0 +1,75 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.65",
+      "unit_vehicle",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_SAVANNAHMASTER",
+  "Description": {
+    "Id": "vehicledef_SAVANNAHMASTER",
+    "Name": "Savannah Master Hovercraft",
+    "UIName": "Savannah Master Hovercraft (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Savannah Master Hovercraft</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>13/20 (Hover)</color>\tEngine: <color=#85DBF6>25 Fusion</color></b>\n\nThe Savannah Master, named after the MechWarrior it defeated in its trial run, is notable for its fusion engine and high speed, which allow it to stay mobile and wear down heavier units. It is primarily a light recon unit, armed with just a single Medium Laser, and relies on its superior mobility to keep it safe.",
+    "Icon": "uixVhclIcon_savannahmaster",
+    "Cost": 92000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3025-01-01T00:00:00Z"
+}

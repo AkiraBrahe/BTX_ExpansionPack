@@ -1,0 +1,115 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.75",
+      "unit_vehicle",
+      "unit_vehicle_artillery",
+      "unit_heavy",
+      "unit_wheels",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_vehicle_case",
+      "unit_speed_medium",
+      "unit_release",
+      "unit_playable_tanks"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_THOR",
+  "Description": {
+    "Id": "vehicledef_THOR",
+    "Name": "Thor Artillery Vehicle",
+    "UIName": "Thor Artillery Vehicle (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>\n\nThe Thor is a self-propelled artillery piece used by the Star League Defense Force in the 26th century. It was designed to provide mobile fire support to SLDF units and was armed with a 15-ton Thumper artillery piece.\n\nThe standard loadout of the Thor is a Thumper artillery piece with forty rounds of ammunition and two Medium Lasers for self-defense purposes. The artillery vehicle is well-armored, boasting seven and a half tons of ferro-fibrous armor. However, it primarily relies on its long range and speed for protection.",
+    "Icon": "uixVhclIcon_thor",
+    "Cost": 1898000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 145,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 145,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 115,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 115,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 115,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 115,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 140,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 140,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Artillery_Thumper_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "LocalGUID": "ArtilleryLoader0"
+    },
+    {
+      "ComponentDefID": "Gear_Addon_Artillery_Loader",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "ArtilleryLoader0"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thumper",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thumper",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2680-01-01T00:00:00Z"
+}

@@ -1,0 +1,111 @@
+{
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_light",
+      "unit_tracks",
+      "unit_lance_support",
+      "unit_range_long",
+      "unit_armor_low",
+      "unit_speed_low",
+      "unit_release",
+      "unit_clan",
+      "unit_playable_tanks"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_ZORYA",
+  "Description": {
+    "Id": "vehicledef_ZORYA",
+    "Name": "Zorya Light Tank",
+    "UIName": "Zorya Light Tank (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Zorya Light Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>140 ICE</color></b>\n\nThe Zorya Light Tank is an inexpensive combat vehicle whose biggest asset is its simplicity of use. This made it the most prevalent vehicle in use by the Clans.\n\nDesigned to stay out of range of most enemy guns, the Zorya's scant three and a half tons of armor cannot offer much protection. The turret carries both its weapons, an LB-X Autocannon/5 and an LRM-10 launcher with an Artemis IV Fire Control System. Both weapons have a long range and can be effective against VTOLs, making the Zorya quite capable against them.",
+    "Icon": "uixVhclIcon_zorya",
+    "Cost": 1297000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_CLB5X_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_CALRM10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_SensorCAC_GuardianClan",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2842-01-01T00:00:00Z"
+}

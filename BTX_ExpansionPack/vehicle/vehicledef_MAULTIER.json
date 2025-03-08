@@ -1,0 +1,85 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.75-0.5-0.75",
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_light",
+      "unit_hover",
+      "unit_lance_vanguard",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MAULTIER",
+  "Description": {
+    "Id": "vehicledef_MAULTIER",
+    "Name": "Maultier Hover APC",
+    "UIName": "Maultier Hover APC (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Maultier Hover APC</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe Maultier is a 15-ton hover APC that was designed to transport an entire platoon of infantry, like its larger cousin the Maxim.\n\nLike many APCs, the Maultier carries a single defensive weapon: a Streak SRM-2 rack. The Streak launcher doesn't fire until a solid target lock is acquired, ensuring it maximizes the single ton of ammunition.",
+    "Icon": "uixVhclIcon_maultier",
+    "Cost": 242000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2647-01-01T00:00:00Z"
+}

@@ -1,0 +1,111 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Saladin",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_SALADIN_CARGO",
+    "Name": "Saladin (Clan Cargo)",
+    "Details": "<b>Name: <color=#85DBF6>Saladin Assault Hover Tank (Clan Cargo)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/12 (Hover)</color>\tEngine: <color=#85DBF6>105 ICE</color></b>\n\nThe Saladin is a medium hover tank built by Scarborough, the company that also made the Saracen and Scimitar. Unlike its brothers, the Saladin has no turret and only carries a single short-range weapon. Despite this, it became quite popular throughout the Inner Sphere.\n\nDuring the Clan Invasion, captured Saladins were repurposed by the Clans as armored transport vehicles. The autocannons were removed and replaced with a large cargo bay and additional armor, allowing the Clans to safely transport troops, parts, and ammunition to the front lines.",
+    "Icon": "uixVhclIcon_saladin",
+    "Cost": 386000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_8",
+  "PathingCapDefID": "pathingdef_light_hover",
+  "HardpointDataDefID": "hardpointdatadef_saladin",
+  "PrefabIdentifier": "chrprfvhcl_saladin",
+  "PrefabBase": "saladin",
+  "Tonnage": 35,
+  "weightClass": "LIGHT",
+  "BattleValue": 750000,
+  "TopSpeed": 129.6,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3,
+      "z": -0.5
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 3.5
+    },
+    {
+      "x": -2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 1.6,
+      "z": -4.0
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 85,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 35,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 35,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 35,
+      "InternalStructure": 20
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Browning",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_BROWNING",
+    "Name": "Browning",
+    "Details": "<b>Name: <color=#85DBF6>Browning Mobile HQ</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Wheeled)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>\n\nMobile HQ vehicles were first developed by the SLDF for large-scale planetary operations. However, their numbers dwindled during the Succession Wars, as their remaining functional equipment was removed and installed in smaller command vans.\n\nAn alternative to the original SLDF configuration and lacking the full communication suite, this variant carries a Guardian ECM Suite and an Anti-Missile System with a single ton of CASE-protected ammunition.",
+    "Icon": "uixVhclIcon_browning",
+    "Cost": 830000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_7",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_mobilehq",
+  "PrefabIdentifier": "chrPrfVhcl_mobilehq",
+  "PrefabBase": "mobilehq",
+  "Tonnage": 25,
+  "weightClass": "LIGHT",
+  "BattleValue": 1825000,
+  "TopSpeed": 118.8,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 6,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": 7
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": 7
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": -9
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 75,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 75,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 75,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 75,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 60,
+      "InternalStructure": 15
+    }
+  ]
+}

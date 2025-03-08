@@ -1,0 +1,140 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Indra",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_INDRA",
+    "Name": "Indra",
+    "Details": "<b>Name: <color=#85DBF6>Indra Infantry Transport</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>155 Fusion</color></b>\n\nThe Indra is a Clan infantry transport vehicle that excels at its role as a personnel carrier. While not as fast as some other transports, it compensates with five tons of ferro-fibrous armor, keeping its crew safe from even the most damaging Clan weapons.\n\nIts name, taken from the Hindu god of weather and war, likely comes from the ER PPC mounted on the front of the vehicle, which resembles a lightning bolt. This man-made lightning bolt can inflict heavy damage on enemies in its path, enabling the Indra's crew to clear a path. Four turret-mounted Machine Guns provide additional support for its own infantry forces in battle against enemy infantry and vehicles.",
+    "Icon": "uixVhclIcon_indra",
+    "Cost": 1057000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_5",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_glaive",
+  "PrefabIdentifier": "chrprfvhcl_glaive",
+  "PrefabBase": "glaive",
+  "Tonnage": 35,
+  "weightClass": "LIGHT",
+  "BattleValue": 4485000,
+  "TopSpeed": 86.4,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    },
+    {
+      "x": -1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 125,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 100,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 100,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 70,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 85,
+      "InternalStructure": 20
+    }
+  ]
+}

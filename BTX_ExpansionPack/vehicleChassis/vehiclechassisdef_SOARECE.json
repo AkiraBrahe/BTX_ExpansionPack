@@ -1,0 +1,136 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Soarece",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_SOARECE",
+    "Name": "Soarece",
+    "Details": "<b>Name: <color=#85DBF6>Soarece Superheavy MBT</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>2/3 (Tracked)</color>\tEngine: <color=#85DBF6>350 Fuel Cell</color></b>\n\nThe Soarece was a superheavy tank developed by the Free Worlds League during the Third Succession War. Intended to provide a cost-effective and durable platform, it proved to be slower and less versatile than the Ontos, prompting its discontinuation.\n\nDesigned as a heavy-hitting armored vehicle, the Soarece sports three classes of autocannon: a Class 2 for anti-aircraft defense, and Class 10 and 20 autocannons for the tank's offensive punch. All three cannons have plenty of ammunition, allowing the tank to stay active on the field in a prolonged fight. A front-mounted Machine Gun provides anti-infantry capabilities. This mammoth tank is protected by 40.5 tons of armor.",
+    "Icon": "uixVhclIcon_soarece",
+    "Cost": 12243000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_2",
+  "PathingCapDefID": "pathingdef_assault_tracked",
+  "HardpointDataDefID": "hardpointdatadef_myrmidon",
+  "PrefabIdentifier": "chrprfvhcl_myrmidonbase",
+  "PrefabBase": "myrmidon",
+  "Tonnage": 175,
+  "weightClass": "ASSAULT",
+  "BattleValue": 12330000,
+  "TopSpeed": 32.4,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 3
+    },
+    {
+      "x": -1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": -3.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 780,
+      "InternalStructure": 126
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 690,
+      "InternalStructure": 126
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 690,
+      "InternalStructure": 126
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 415,
+      "InternalStructure": 126
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 665,
+      "InternalStructure": 126
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Name": "Lifepaths",
+  "Enabled": true,
+  "Version": "0.1",
+
+  "Description": "Lifepath Changes to add CU-style vehicle/mech piloting capability tags to pilots.",
+  "Author": "lordruthermore",
+
+  "DependsOn": [ "BT_Extended_Timeline" ],
+
+  "Manifest": [
+    {
+      "Type": "LifepathNodeDef",
+      "Path": "lifepathNode",
+      "AddToDB": false
+    }
+  ]
+}

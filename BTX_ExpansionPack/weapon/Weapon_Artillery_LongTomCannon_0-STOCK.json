@@ -1,0 +1,121 @@
+{
+  "Custom": {
+    "RequiresLoader": {
+      "LoaderType": "CAC_C_ArtilleryLoader"
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC20",
+  "MinRange": 120,
+  "MaxRange": 780,
+  "RangeSplit": [
+    180,
+    390,
+    600
+  ],
+  "ForbiddenRange": 120,
+  "ammoCategoryID": "LongTom",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 60,
+  "Damage": 80,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "MinMissRadius": 25,
+  "MaxMissRadius": 70,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": true,
+  "AOERange": 120,
+  "AOEDamage": 150,
+  "AOEHeatDamage": 0,
+  "AOEInstability": 75,
+  "IndirectFireCapable": true,
+  "AlwaysIndirectVisuals": true,
+  "CantHitUnaffecedByPathing": true,
+  "RefireModifier": 3,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 40,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+  "Description": {
+    "Cost": 650000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Armstrong",
+    "Model": "Heavy Artillery",
+    "UIName": "Long Tom Cannon",
+    "Id": "Weapon_Artillery_LongTomCannon_0-STOCK",
+    "Name": "Long Tom Artillery Cannon",
+    "Details": "The Long Tom Artillery Cannon is the scaled down version of the Long Tom Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "artillery",
+  "BattleValue": 0,
+  "InventorySize": 8,
+  "Tonnage": 20,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 1,
+  "ProjectileSpeedMultiplier": 0.8,
+  "IsArtillery": false,
+  "Modes": [
+    {
+      "Id": "ARTY",
+      "UIName": "",
+      "Name": "Artillery",
+      "Description": "Fire in a high arc at ground targets.",
+      "isBaseMode": true,
+      "DirectFireModifier": 2,
+      "ShotsWhenFired": -1
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnWeaponFire",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true,
+        "hideApplicationFloatie": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Arty-SelfKnockdown",
+        "Name": "SELF-KNOCKDOWN",
+        "Details": "Artillery fire lowers stability.",
+        "Icon": "uixSvgIcon_equipment_Gyro"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "ReceivedInstabilityMultiplier",
+        "operation": "Float_Add",
+        "modValue": "-60.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_very-long",
+      "artillery_loader_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

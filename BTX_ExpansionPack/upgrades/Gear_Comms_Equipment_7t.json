@@ -1,0 +1,190 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 840000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Generic",
+    "Model": "Communications Equipment",
+    "UIName": "Comms Equipment (7t)",
+    "Id": "Gear_Comms_Equipment_7t",
+    "Name": "Comms Equipment (7t)",
+    "Details": "Additional communications equipment is carried by some support vehicles to improve the coordination and effectiveness of the lance. The more equipment, the more effective it is at countering enemy ECM, and can even act as an ECCM field when carrying seven tons or more of equipment.",
+    "Icon": "uixSvgIcon_equipment_Comms"
+  },
+  "BonusValueA": "+ 2 Lance Initiative, + 7 Resolve Gain",
+  "BonusValueB": "+ Counter ECM",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 7,
+  "Tonnage": 7,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "AllLanceMates",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Initiative_Gain-T2",
+        "Name": "LANCE INITIATIVE INCREASED",
+        "Details": "Provides a [INVERSE_AMT] bonus to Lance Initiative.",
+        "Icon": "uixSvgIcon_special_Equipment"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "BaseInitiative",
+        "operation": "Int_Add",
+        "modValue": "-2",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Morale_Gain-T7",
+        "Name": "RESOLVE GENERATION INCREASED",
+        "Details": "Provides a [AMT] bonus to actions that generate Resolve.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "MoraleBonusGain",
+        "operation": "Int_Add",
+        "modValue": "7",
+        "modType": "System.Int32"
+      }
+    }
+  ],
+  "Auras": [
+    {
+      "Id": "CommsEquipmentAura-T3",
+      "LineType": "Dashes",
+      "Name": "Improved Comms",
+      "ReticleColor": "darkgreen",
+      "Range": 300,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": false,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": false,
+      "IsNegativeToAlly": false,
+      "IsNegativeToEnemy": true,
+      "IsPositiveToEnemy": false,
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": 1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECCMAura-Indirect",
+            "Name": "ECCM Affected",
+            "Details": "Enemy units within visual range of a Comms vehicle have their boni from ECM negated.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Debuff",
+          "statisticData": {
+            "statName": "IndirectImmuneFloat",
+            "operation": "Float_Add",
+            "modValue": "-1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECCMAura-ToHit",
+            "Name": "ECCM Affected",
+            "Details": "Enemy units within visual range of a Comms vehicle lose their resistance to attacks against them.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Debuff",
+          "statisticData": {
+            "statName": "DefendedByECM",
+            "operation": "Float_Add",
+            "modValue": "-1.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "EnemiesWithinRange",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "StatusEffect-ECCMAura-SensorLock",
+            "Name": "ECCM Affected",
+            "Details": "Enemy units within visual range of a Comms vehicle lose their immunity to Sensor Lock.",
+            "Icon": "uixSvgIcon_status_ECM-missileDef"
+          },
+          "nature": "Debuff",
+          "statisticData": {
+            "statName": "SensorLockDefense",
+            "operation": "Float_Add",
+            "modValue": "-1.0",
+            "modType": "System.Single"
+          }
+        }
+      ]
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

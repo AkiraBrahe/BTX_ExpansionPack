@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_mech_medium_2",
+    "Name": "MovementCapabilitiesDef for a movement 2 medium 'Mech",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 70.0,
+  "MaxSprintDistance": 125.0,
+  "WalkVelocity": 14.0,
+  "RunVelocity": 24.0,
+  "SprintVelocity": 32.0,
+  "LimpVelocity": 8.0,
+  "WalkAcceleration": 25.0,
+  "SprintAcceleration": 35.0,
+  "MaxRadialVelocity": 80.0,
+  "MaxRadialAcceleration": 240.0,
+  "MaxJumpVel": 50.0,
+  "MaxJumpAccel": 20.0,
+  "MaxJumpVerticalAccel": 45.0
+}

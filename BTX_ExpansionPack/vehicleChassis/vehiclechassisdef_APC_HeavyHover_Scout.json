@@ -1,0 +1,116 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Heavy Hover APC",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 60
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_APC_HeavyHover_Scout",
+    "Name": "Heavy Hover APC (Scout Tank)",
+    "Details": "<b>Name: <color=#85DBF6>Heavy Hover APC (Scout Tank)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/12 (Hover)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>\n\nThe Heavy Hover APC is a larger version of the Hover APC that can carry up to two platoons of infantry.\n\nIntroduced during the Jihad, this Scout Tank variant is completely redesigned for its new reconnaissance role. Its original weaponry and infantry capacity are removed, replaced by a front-mounted Class 5 Light Autocannon with 40 rounds of ammunition. The crew benefits from slightly increased armor and CASE protection in the ammunition bay.",
+    "Icon": "uixVhclIcon_heavyhoverapc",
+    "Cost": 525000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_8",
+  "PathingCapDefID": "pathingdef_light_hover",
+  "HardpointDataDefID": "hardpointdatadef_plainsman",
+  "PrefabIdentifier": "chrprfvhcl_plainsman",
+  "PrefabBase": "plainsman",
+  "Tonnage": 20,
+  "weightClass": "LIGHT",
+  "BattleValue": 1650000,
+  "TopSpeed": 129.6,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 2.5,
+      "z": 4
+    },
+    {
+      "x": -1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 2.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 2.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 110,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 75,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 75,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 10
+    }
+  ]
+}

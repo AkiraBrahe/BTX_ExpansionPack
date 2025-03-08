@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_vee_15",
+    "Name": "MovementCapabilitiesDef for a movement 15 vehicle",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 380.0,
+  "MaxSprintDistance": 620.0,
+  "WalkVelocity": 20.0,
+  "RunVelocity": 28.0,
+  "SprintVelocity": 31.0,
+  "LimpVelocity": 8.0,
+  "WalkAcceleration": 15.0,
+  "SprintAcceleration": 20.0,
+  "MaxRadialVelocity": 60.0,
+  "MaxRadialAcceleration": 180.0,
+  "MaxJumpVel": 80.0,
+  "MaxJumpAccel": 30.0,
+  "MaxJumpVerticalAccel": 60.0
+}
