@@ -1,0 +1,14 @@
+itemCollection_Vehicles_VehiclesOnly_20s,,,
+vehicledef_HARASSER,Mech,1,5
+vehicledef_HARASSER_FLAMER,Mech,1,1
+vehicledef_JEdgar,Mech,1,3
+vehicledef_JEdgar_Flamer,Mech,1,1
+vehicledef_JEdgar_ICE,Mech,1,1
+vehicledef_JEdgar_MG,Mech,1,1
+vehicledef_SCORPION,Mech,1,14
+vehicledef_SCORPION_LRM,Mech,1,4
+vehicledef_SCORPION_ML,Mech,1,4
+vehicledef_SCORPION_SRM,Mech,1,8
+vehicledef_SKULKER,Mech,1,3
+vehicledef_SKULKER_MG,Mech,1,1
+vehicledef_SKULKER_SRM,Mech,1,1

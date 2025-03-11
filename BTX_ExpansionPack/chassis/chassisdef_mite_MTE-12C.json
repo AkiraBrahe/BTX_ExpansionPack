@@ -1,0 +1,187 @@
+{
+  "Description": {
+    "Cost": 770000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Mite",
+    "Id": "chassisdef_mite_MTE-12C",
+    "Name": "Mite",
+    "Details": "PLACEHOLDER",
+    "Icon": "uixTxrIcon_mite"
+  },
+  "MovementCapDefID": "movedef_mech_light_10",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_mite",
+  "PrefabIdentifier": "chrprfmech_mitebase-001",
+  "PrefabBase": "mite",
+  "Tonnage": 10,
+  "InitialTonnage": 8,
+  "weightClass": "LIGHT",
+  "BattleValue": 875000,
+  "Heatsinks": 10,
+  "TopSpeed": 162,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 10,
+  "MeleeInstability": 15,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 15,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 15,
+  "DFAInstability": 15,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 10,
+      "MaxRearArmor": -1,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 30,
+      "MaxRearArmor": 15,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": 20,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 30,
+      "MaxRearArmor": 15,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 10,
+      "MaxRearArmor": -1,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 20,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 20,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 6.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 6.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 6.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.25,
+      "y": 3.5,
+      "z": 0
+    },
+    {
+      "x": -1.25,
+      "y": 3.5,
+      "z": 0
+    }
+  ],
+  "VariantName": "MTE-12C",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.8"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "PLACEHOLDER",
+  "YangsThoughts": "PLACEHOLDER",
+  "FixedEquipment": []
+}

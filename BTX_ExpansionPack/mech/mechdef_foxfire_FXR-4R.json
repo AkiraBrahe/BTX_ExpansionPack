@@ -1,0 +1,125 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_ultralight",
+      "unit_mech",
+      "unit_light",
+      "unit_role_scout",
+      "unit_lance_vanguard",
+      "unit_lance_support",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_release",
+      "unit_mechpack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_foxfire_FXR-4R",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 1280000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Foxfire FXR-4R",
+    "Id": "mechdef_foxfire_FXR-4R",
+    "Name": "Foxfire",
+    "Details": "PLACEHOLDER",
+    "Icon": "uixTxrIcon_foxfire"
+  },
+  "simGameMechPartCost": 130000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 10,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 10,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 25,
+      "CurrentRearArmor": 5,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 25,
+      "AssignedRearArmor": 5
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": 5,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": 5
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 25,
+      "CurrentRearArmor": 5,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 25,
+      "AssignedRearArmor": 5
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 10,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 10,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 20,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 20,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 20,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 20,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

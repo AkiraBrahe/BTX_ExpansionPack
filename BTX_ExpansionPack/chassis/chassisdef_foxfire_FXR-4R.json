@@ -1,0 +1,191 @@
+{
+  "Description": {
+    "Cost": 1280000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Foxfire",
+    "Id": "chassisdef_foxfire_FXR-4R",
+    "Name": "Foxfire",
+    "Details": "PLACEHOLDER",
+    "Icon": "uixTxrIcon_foxfire"
+  },
+  "MovementCapDefID": "movedef_mech_light_9",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_foxfire",
+  "PrefabIdentifier": "chrprfmech_foxfirebase-001",
+  "PrefabBase": "foxfire",
+  "Tonnage": 15,
+  "InitialTonnage": 11,
+  "weightClass": "LIGHT",
+  "BattleValue": 1350000,
+  "Heatsinks": 10,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 15,
+  "MeleeInstability": 15,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 20,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 20,
+  "DFAInstability": 20,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 20,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 40,
+      "MaxRearArmor": 20,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 40,
+      "MaxRearArmor": 20,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 20,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 6.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 6.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 6.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.25,
+      "y": 3.5,
+      "z": 0
+    },
+    {
+      "x": -1.25,
+      "y": 3.5,
+      "z": 0
+    }
+  ],
+  "VariantName": "FXR-4R",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.7"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "PLACEHOLDER",
+  "YangsThoughts": "PLACEHOLDER",
+  "FixedEquipment": []
+}

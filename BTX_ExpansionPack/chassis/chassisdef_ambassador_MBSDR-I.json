@@ -1,0 +1,183 @@
+{
+  "Description": {
+    "Cost": 1360000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Ambassador",
+    "Id": "chassisdef_ambassador_MBSDR-I",
+    "Name": "Ambassador",
+    "Details": "PLACEHOLDER",
+    "Icon": "uixTxrIcon_ambassador"
+  },
+  "MovementCapDefID": "movedef_mech_light_11",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_cuambassador",
+  "PrefabIdentifier": "chrprfmech_cuambassadorbase-001",
+  "PrefabBase": "cuambassador",
+  "Tonnage": 15,
+  "InitialTonnage": 12.5,
+  "weightClass": "LIGHT",
+  "BattleValue": 950000,
+  "Heatsinks": 10,
+  "TopSpeed": 183.6,
+  "TurnRadius": 90,
+  "MaxJumpjets": 2,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 15,
+  "MeleeInstability": 15,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 20,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 20,
+  "DFAInstability": 20,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 5,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 20,
+      "MaxRearArmor": 10,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 15,
+      "MaxRearArmor": 7.5,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 20,
+      "MaxRearArmor": 10,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 5,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 5,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 5,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 6.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 6.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 6.5,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 6.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.25,
+      "y": 3.5,
+      "z": 0
+    },
+    {
+      "x": -1.25,
+      "y": 3.5,
+      "z": 0
+    }
+  ],
+  "VariantName": "MBSDR-I",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.67",
+      "chassis_DHS"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "PLACEHOLDER",
+  "YangsThoughts": "PLACEHOLDER",
+  "FixedEquipment": []
+}

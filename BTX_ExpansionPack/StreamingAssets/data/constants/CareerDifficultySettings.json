@@ -1223,7 +1223,7 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingRandomMechLists",
-              "ConstantValue": "itemCollection_Mechs_UltraLight_1,itemCollection_Mechs_UltraLight_2,itemCollection_Mechs_UltraLight_3,itemCollection_Mechs_UltraLight_4,itemCollection_Mechs_UltraLight_5,"
+              "ConstantValue": "itemCollection_Mechs_Ultralight_worst,itemCollection_Mechs_Ultralight_best,itemCollection_Mechs_Ultralight_all,itemCollection_Mechs_Ultralight_15s,itemCollection_Mechs_Ultralight_10s,"
             }
           ]
         },
@@ -1241,7 +1241,7 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingRandomMechLists",
-              "ConstantValue": "itemCollection_Mechs_Industrial_medium,itemCollection_Mechs_Industrial_light,itemCollection_Mechs_Industrial_light,itemCollection_Mechs_Industrial_light,itemCollection_Mechs_Periphery_support"
+              "ConstantValue": "itemCollection_Vehicles_VehiclesOnly_best,itemCollection_Vehicles_VehiclesOnly_mixed,itemCollection_Vehicles_VehiclesOnly_mixed,itemCollection_Vehicles_VehiclesOnly_20s, itemCollection_Vehicles_VehiclesOnly_20s"
             }
           ]
         },
