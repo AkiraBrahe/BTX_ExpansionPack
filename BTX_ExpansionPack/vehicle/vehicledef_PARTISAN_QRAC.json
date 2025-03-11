@@ -3,6 +3,7 @@
     "items": [
       "mr-resize-1.5",
       "unit_vehicle",
+      "unit_vehicle_airDefense",
       "unit_assault",
       "unit_tracks",
       "unit_lance_tank",
@@ -124,6 +125,13 @@
     },
     {
       "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_General_AntiAir_Flak_Systems-1",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

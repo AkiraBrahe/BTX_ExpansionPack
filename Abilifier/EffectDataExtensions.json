@@ -1,1 +1,13 @@
-{}
+{
+  "AntiAircraftTargeting": {
+    "TargetCollectionsForSearch": {
+      "Unit": {
+        "MustMatchAll": false,
+        "TargetCollectionTagMatch": [
+          "unit_lam",
+          "unit_vtol"
+        ]
+      }
+    }
+  }
+}

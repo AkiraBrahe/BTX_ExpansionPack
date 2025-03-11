@@ -1,0 +1,11 @@
+{
+  "Settings": [
+    {
+      "Tag": "RapidFireAutocannon",
+      "AnyTags": [
+        "unit_vehicle_airDefense",
+        "mech_quirk_antiaircraft"
+      ]
+    }
+  ]
+}

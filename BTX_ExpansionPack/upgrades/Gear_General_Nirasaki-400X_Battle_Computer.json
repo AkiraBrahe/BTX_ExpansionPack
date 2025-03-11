@@ -39,7 +39,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "Fury_ShortRangeBuff",
+        "Id": "StatusEffect-Nirasaki400X-ShortRangeBuff",
         "Name": "LANCE RANGE BUFF",
         "Details": "Friendly units supported by a Fury Command Tank gain [AMT] increase in optimal weapon range.",
         "Icon": "uixSvgIcon_statusMarked"
@@ -66,7 +66,7 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "Fury_MediumRangeBuff",
+        "Id": "StatusEffect-Nirasaki400X-MediumRangeBuff",
         "Name": "LANCE RANGE BUFF",
         "Details": "Friendly units supported by a Fury Command Tank gain [AMT] increase in optimal weapon range.",
         "Icon": "uixSvgIcon_statusMarked"

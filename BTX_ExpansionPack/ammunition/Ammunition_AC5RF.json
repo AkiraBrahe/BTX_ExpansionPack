@@ -1,0 +1,22 @@
+{
+  "Description": {
+    "Id": "Ammunition_AC5RF",
+    "Name": "Rapid-Fire AC/5 Ammo",
+    "UIName": "Rapid-Fire",
+    "Details": "Moderate caliber rounds, suitable for long range fire in an Rapid-Fire AC/5.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "AC5RF",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "HideIfOnlyVariant": true
+}

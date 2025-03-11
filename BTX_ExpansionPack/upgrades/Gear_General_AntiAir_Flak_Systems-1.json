@@ -1,0 +1,65 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 40000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Kallon Industries",
+    "Model": "AntiAir Flak Systems-1",
+    "UIName": "Anti-Air TTS",
+    "Id": "Gear_General_AntiAir_Flak_Systems-1",
+    "Name": "Anti-Air TTS",
+    "Details": "Designed by Kallon Industries, the AntiAir Flak Systems-1 is a dedicated anti-aircraft targeting and tracking system (TTS) with impressive capabilities. It can simultaneously track 200 targets, prioritize threats, and seamlessly links data with other units. Kallon Industries exclusively integrated this system into their Partisan heavy tank.",
+    "Icon": "uixSvgIcon_equipment_TTS"
+  },
+  "BonusValueA": "+3 Acc. vs. Air",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "EnemiesWithinRange",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-AntiAir-ToHit",
+        "Name": "ANTI-AIRCRAFT TARGETING",
+        "Details": "Weapon attacks against air units have their hit improved by [AMT].",
+        "Icon": "uixSvgIcon_equipment_TTS"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "abilifierId": "AntiAircraftTargeting",
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "ToHitThisActor",
+        "operation": "Float_Add",
+        "modValue": "-3.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

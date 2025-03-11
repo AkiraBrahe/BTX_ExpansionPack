@@ -3,6 +3,7 @@
     "items": [
       "mr-resize-1.5",
       "unit_vehicle",
+      "unit_vehicle_airDefense",
       "unit_assault",
       "unit_tracks",
       "unit_lance_support",
@@ -66,42 +67,42 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
+      "ComponentDefID": "Weapon_Autocannon_AC2RF_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
+      "ComponentDefID": "Weapon_Autocannon_AC2RF_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
+      "ComponentDefID": "Weapon_Autocannon_AC2RF_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 2,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Autocannon_AC2_2-Kallon",
+      "ComponentDefID": "Weapon_Autocannon_AC2RF_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 3,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2_Flak",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2RF",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2_Flak",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2RF",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
@@ -109,6 +110,13 @@
     },
     {
       "ComponentDefID": "Gear_C3_Slave",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_General_AntiAir_Flak_Systems-1",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
