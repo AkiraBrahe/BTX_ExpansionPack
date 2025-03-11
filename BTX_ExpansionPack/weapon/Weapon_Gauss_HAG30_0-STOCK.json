@@ -5,7 +5,7 @@
   "MinRange": 60,
   "MaxRange": 720,
   "RangeSplit": [
-    480,
+    240,
     480,
     720
   ],

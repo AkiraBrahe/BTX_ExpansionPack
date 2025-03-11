@@ -1,0 +1,32 @@
+{
+  "Description": {
+    "Id": "Ammunition_Mortar",
+    "Name": "Mortar Ammo",
+    "UIName": "Standard",
+    "Details": "Standard mortar shells capable of inflicting damage on the target area.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "Mortar",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "AccuracyModifier": 0,
+  "AOECapable": true,
+  "AOERange": 30,
+  "AOEDamage": 5,
+  "AOEHeatDamage": 0,
+  "AOEInstability": 2,
+  "CantHitUnaffecedByPathing": true,
+  "AdditionalImpactVFX": "WFX_BELarger",
+  "AdditionalImpactVFXScaleX": 1,
+  "AdditionalImpactVFXScaleY": 1,
+  "AdditionalImpactVFXScaleZ": 1
+}

@@ -1,0 +1,243 @@
+{
+  "Description": {
+    "Cost": 27900000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Bull Shark",
+    "Id": "chassisdef_bullshark_BSK-MAZ",
+    "Name": "Bull Shark",
+    "Details": "The Bull Shark is a 95-ton Assault 'Mech with an otherworldly design and an unusual arsenal that allows it to engage targets across a fairly wide range bracket. Its main weapon is a Thumper Artillery Cannon that takes up most of the right torso. However, most of its firepower comes from an LB 10-X AC and Ultra AC/5 mounted in each arm, backed up by two ER Medium Lasers in each torso. Fourteen double heat sinks attempt to keep the very high heat generation of its lasers in check.",
+    "Icon": "uixTxrIcon_bullshark"
+  },
+  "MovementCapDefID": "movedef_mech_assault_3",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_bullshark",
+  "PrefabIdentifier": "chrPrfMech_bullsharkBase-001",
+  "PrefabBase": "bullshark",
+  "Tonnage": 95,
+  "InitialTonnage": 21.5,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 16,
+  "MaxJumpjets": 0,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 130,
+  "MeleeInstability": 95,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 120,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 120,
+  "DFAInstability": 120,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1
+    },
+    {
+      "x": 6,
+      "y": 13.5,
+      "z": -1
+    },
+    {
+      "x": -6,
+      "y": 13.5,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1
+    },
+    {
+      "x": 6,
+      "y": 13.5,
+      "z": -1
+    },
+    {
+      "x": -6,
+      "y": 13.5,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 7,
+      "z": -1
+    },
+    {
+      "x": -3.5,
+      "y": 7,
+      "z": -1
+    }
+  ],
+  "VariantName": "BSK-MAZ",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "mech_quirk_distracting"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Brawler",
+  "YangsThoughts": "I've never seen anything like this, Commander. This 'Mech oozes deadly grace and can obviously devastate anything in its path. It's… otherworldly, but clearly influenced by Star League tech. It has a mounted artillery cannon to boot—I wonder where it came from.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

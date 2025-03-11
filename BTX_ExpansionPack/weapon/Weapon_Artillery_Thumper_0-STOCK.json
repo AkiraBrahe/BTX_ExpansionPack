@@ -119,6 +119,7 @@
     "items": [
       "component_type_stock",
       "range_extreme",
+      "ballistic_artillery",
       "artillery_loader_attachable"
     ],
     "tagSetSourceFile": ""

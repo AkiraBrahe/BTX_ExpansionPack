@@ -5,7 +5,7 @@
   "MinRange": 90,
   "MaxRange": 1050,
   "RangeSplit": [
-    600,
+    300,
     600,
     1050
   ],

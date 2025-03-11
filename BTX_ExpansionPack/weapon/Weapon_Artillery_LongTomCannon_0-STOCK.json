@@ -114,6 +114,7 @@
       "component_type_stock",
       "component_type_lostech",
       "range_very-long",
+      "ballistic_artillery",
       "artillery_loader_attachable"
     ],
     "tagSetSourceFile": ""

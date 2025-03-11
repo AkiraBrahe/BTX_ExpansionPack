@@ -5,6 +5,7 @@
       "unit_vehicle",
 
     /* Support Type */
+      "unit_vehicle_airDefense",
       "unit_vehicle_ammoTransport",
       "unit_vehicle_apc",
       "unit_vehicle_artillery",

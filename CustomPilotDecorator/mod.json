@@ -16,7 +16,7 @@
   "ConflictsWith": [],
 
   "Settings": {
-    "debugLog": true
+    "debugLog": false
   },
 
   "CustomResourceTypes": [ "PilotDecorationDef" ],

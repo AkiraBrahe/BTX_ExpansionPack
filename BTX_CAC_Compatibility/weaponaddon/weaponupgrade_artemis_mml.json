@@ -1,0 +1,36 @@
+{
+  "Id": "weaponupgrade_artemis_mml",
+  "autoTarget": true,
+  "installedLocationOnly": true,
+  "targetComponentTags": [
+    "artemis_mml_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "LRM",
+      "UIName": "ALRM",
+      "Name": "ALRM Mode",
+      "Description": "Artemis IV guidance system enabled, improving direct-fire accuracy and clustering.\r\nOnly compatible with regular LRM ammo.",
+      "ClusteringModifier": 10,
+      "DirectFireModifier": -4,
+      "IndirectFireCapable": false,
+      "isBaseMode": true,
+      "RestrictedAmmo": [
+        "Ammunition_LRM_DF"
+      ]
+    },
+    {
+      "Id": "SRM",
+      "UIName": "ASRM",
+      "Name": "ASRM Mode",
+      "Description": "Artemis IV guidance system enabled, improving accuracy and clustering.\r\nOnly compatible with regular SRM ammo.",
+      "HitGenerator": "Cluster",
+      "ClusteringModifier": 10,
+      "DirectFireModifier": -4,
+      "RestrictedAmmo": [
+        "Ammunition_SRMInferno",
+        "Ammunition_SRM_DF"
+      ]
+    }
+  ]
+}

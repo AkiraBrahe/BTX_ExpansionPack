@@ -1,0 +1,37 @@
+{
+  "Description": {
+    "Id": "Ammunition_Mortar_Airburst",
+    "Name": "Airburst Mortar Ammo",
+    "UIName": "Airburst",
+    "Details": "Airburst mortar shells that separate into bomblets in mid-air to inflict damage on a single target.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "Mortar",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1.25,
+  "EvasivePipsIgnored": 2,
+  "AccuracyModifier": -1,
+  "ChassisTagsAccuracyModifiers": {
+    "unit_lam": -2,
+    "unit_vtol": -2
+  },
+  "HasShells": true,
+  "ShellsRadius": 90,
+  "MinShellsDistance": 210,
+  "MaxShellsDistance": 60,
+  "UnseparatedDamageMult": 0.7,
+  "HitGenerator": "Cluster",
+  "ProjectilesPerShot": 4,
+  "AirMechDamageModifier": 1.5,
+  "VTOLDamageModifier": 1.5,
+  "CantHitUnaffecedByPathing": false
+}
