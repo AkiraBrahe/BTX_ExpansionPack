@@ -68,7 +68,7 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_AMSCAC_0SLDF",
+      "ComponentDefID": "Weapon_AMSCAC_0",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
@@ -89,7 +89,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefID": "Gear_SensorCAC_Guardian",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

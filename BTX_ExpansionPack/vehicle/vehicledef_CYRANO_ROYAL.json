@@ -81,14 +81,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_AMSCAC_0SLDF",
+      "ComponentDefID": "Weapon_AMSCAC_0",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Left",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_AMSCAC_0SLDF",
+      "ComponentDefID": "Weapon_AMSCAC_0",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Right",
       "HardpointSlot": 0,
@@ -109,7 +109,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_SensorCAC_BeagleHC",
+      "ComponentDefID": "Gear_SensorCAC_Beagle",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

@@ -87,7 +87,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_SensorCAC_BeagleHC",
+      "ComponentDefID": "Gear_SensorCAC_Beagle",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

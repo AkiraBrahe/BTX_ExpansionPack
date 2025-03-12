@@ -72,14 +72,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_AMSCAC_0SLDF",
+      "ComponentDefID": "Weapon_AMSCAC_0",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_AMSCAC_0SLDF",
+      "ComponentDefID": "Weapon_AMSCAC_0",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Rear",
       "HardpointSlot": 0,

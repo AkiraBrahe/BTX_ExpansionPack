@@ -1,4 +1,9 @@
 {
+  "Custom": {
+    "RequiresLoader": {
+      "LoaderType": "CAC_C_ArtilleryLoader"
+    }
+  },
   "Category": "Missile",
   "Type": "LRM",
   "WeaponSubType": "LRM20",
@@ -118,6 +123,7 @@
       "component_type_stock",
       "component_type_lostech",
       "range_extreme",
+      "artillery_loader_attachable",
       "BLACKLISTED",
       "LootMagnetBlacklist"
     ],

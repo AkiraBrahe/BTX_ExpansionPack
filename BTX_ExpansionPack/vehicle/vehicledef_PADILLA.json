@@ -63,7 +63,16 @@
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional"
+      "DamageLevel": "Functional",
+      "LocalGUID": "ArtilleryLoader0"
+    },
+    {
+      "ComponentDefID": "Gear_Addon_Artillery_Loader",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "ArtilleryLoader0"
     },
     {
       "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Sa_0-STOCK",
@@ -80,7 +89,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_AMSCAC_0SLDF",
+      "ComponentDefID": "Weapon_AMSCAC_0",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 3,

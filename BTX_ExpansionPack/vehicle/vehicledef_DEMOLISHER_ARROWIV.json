@@ -85,14 +85,32 @@
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional"
+      "DamageLevel": "Functional",
+      "LocalGUID": "ArtilleryLoader0"
+    },
+    {
+      "ComponentDefID": "Gear_Addon_Artillery_Loader",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "ArtilleryLoader0"
     },
     {
       "ComponentDefID": "Weapon_Artillery_ArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,
-      "DamageLevel": "Functional"
+      "DamageLevel": "Functional",
+      "LocalGUID": "ArtilleryLoader1"
+    },
+    {
+      "ComponentDefID": "Gear_Addon_Artillery_Loader",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "TargetComponentGUID": "ArtilleryLoader1"
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",

@@ -94,14 +94,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_SensorCAC_BeagleHC",
+      "ComponentDefID": "Gear_SensorCAC_Beagle",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefID": "Gear_SensorCAC_Guardian",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Turret",
       "HardpointSlot": -1,

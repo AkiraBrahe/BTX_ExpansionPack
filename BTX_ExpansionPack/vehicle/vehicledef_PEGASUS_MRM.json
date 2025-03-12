@@ -94,7 +94,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_SensorCAC_GuardianHC",
+      "ComponentDefID": "Gear_SensorCAC_Guardian",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

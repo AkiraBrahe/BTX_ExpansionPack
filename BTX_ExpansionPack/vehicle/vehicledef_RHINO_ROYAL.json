@@ -101,7 +101,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_AMSCAC_0SLDF",
+      "ComponentDefID": "Weapon_AMSCAC_0",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 4,

@@ -1,6 +1,6 @@
 {
-  "ID": "ThreeWayBattle_SearchDenialCS_Easy",
-  "contractName": "Search Denial",
+  "ID": "ThreeWayBattle_TagTeam_CS",
+  "contractName": "Tag Team",
   "contractDisplayStyle": "BaseCampaignNormal",
   "difficulty": 5,
   "difficultyUIModifier": 0,
@@ -11,69 +11,88 @@
   "missionSuccessStatementOverride": "",
   "badFaithStatementOverride": "",
   "goodFaithStatementOverride": "",
-  "shortDescription": "A prospector with a loose tongue mentioned that he'd located a possible cache of Star League technology on this planet. We've assembled an expert team along with a military force to protect them. They're prepared to investigate, but we've received word that {TEAM_TAR.FactionDef.ShortName} also learned of this cache, and dispatched their own lance to find and secure it. We'd like you to intercept this hostile lance and destroy it while the {TEAM_EMP.FactionDef.Demonym} team conducts a thorough search.\nVariant: <color=#F79B26>Easy (Mixed Level II)</color>",
-  "longDescription": "One guy in a spacer bar says the wrong thing and every major power goes scrambling after LosTech.",
+  "shortDescription": "We have a situation here and we'd like your help. We've detected a joint task force of {TEAM_TAR.FactionDef.Demonym} units operating openly on the planet. We need to hunt them down and turn them to scrap, but even if we do manage to find them, our own forces aren't up to the task of engaging that many enemies at once. We'd like you to send a lance to accompany our own team; the two of you can then engage the enemy together and negate their numerical advantage.\nVariant: <color=#F79B26>Default</color>",
+  "longDescription": "This is an odd one commander, Alpha lance just sent through new coordinates, Meyer has been updated on the new AO.",
   "salvagePotential": 16,
   "requirementList": [
     {
       "Scope": "StarSystem",
       "RequirementTags": {
         "items": [
-          "planet_other_starleague"
+          "planet_other_comstar",
+          "timeline_3025"
         ],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
         "items": [
-          "timeline_3053"
+          "timeline_3052"
         ],
         "tagSetSourceFile": ""
       },
       "RequirementComparisons": [
         {
-          "obj": "Employer.AuriganRestoration",
+          "obj": "Employer.CorpKurita",
           "op": "Equal",
           "val": 0,
           "valueConstant": null
         },
         {
-          "obj": "Target.JadeFalcon",
+          "obj": "Employer.CorpDavion",
           "op": "Equal",
           "val": 0,
           "valueConstant": null
         },
         {
-          "obj": "Target.SteelViper",
+          "obj": "Employer.CorpLiao",
           "op": "Equal",
           "val": 0,
           "valueConstant": null
         },
         {
-          "obj": "Target.Wolf",
+          "obj": "Employer.CorpMarik",
           "op": "Equal",
           "val": 0,
           "valueConstant": null
         },
         {
-          "obj": "Target.GhostBear",
+          "obj": "Employer.CorpSteiner",
           "op": "Equal",
           "val": 0,
           "valueConstant": null
         },
         {
-          "obj": "Target.SmokeJaguar",
+          "obj": "Employer.CorpRasalhague",
           "op": "Equal",
           "val": 0,
           "valueConstant": null
         },
         {
-          "obj": "Target.NovaCat",
+          "obj": "Employer.CorpOutworld",
           "op": "Equal",
           "val": 0,
           "valueConstant": null
         },
         {
-          "obj": "Target.DiamondShark",
+          "obj": "Employer.CorpTaurian",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpMagistracy",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Target.AuriganPirates",
+          "op": "Equal",
+          "val": 1,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.ComStar",
           "op": "Equal",
           "val": 0,
           "valueConstant": null
@@ -106,13 +125,13 @@
       "contractObjective": {
         "EncounterObjectGuid": "8d7e4513-f6c4-4914-a08f-d7baa89672be"
       },
-      "title": "Intercept the Enemy Lance",
+      "title": "Destroy Joint Task Force",
       "description": "",
       "isPrimary": true,
       "forPlayer": "Player1",
       "objectiveGuids": [
-        "233d3dd3-dd4d-4722-9d79-5e4550c94c67",
-        "bd721209-539f-4c39-afa9-f6d3a83a0b06",
+        "62fad70b-c2a9-478d-b6a2-cb13ba99a573",
+        "5e616f80-706e-43c8-b747-b04122ba5232",
         "48c4aa0a-8408-4549-a9ec-b38e990005ae",
         "d5ee674b-8993-4804-9fa2-b0a73be466e4",
         "cb9c173c-89b3-4447-b3a0-26193cbeb601",
@@ -120,10 +139,10 @@
         "3d9f8ebf-d0a8-4a95-b59d-1919f3b4f11d",
         "f55ef49e-4035-42eb-97fa-ba0063e1306b",
         "7b5ce847-7978-459b-97ee-3bf90ef951fb",
-        "438f6ead-f05c-40d7-9e85-6f18b878782b",
-        "699fc05a-9514-4058-ba39-7a366a09acbf",
-        "51aa5837-b540-42be-b8be-26b37bfcf976",
-        "658372a8-8e43-4f74-af9c-f4d60bb103ec"
+        "cb5625ef-c8c8-4768-b21a-d22abf5b91f9",
+        "ef1d7752-73cf-40bc-9382-d398e80d1e49",
+        "ac4199e4-c42e-4a41-ae0e-cf10f7dfcf8a",
+        "4222c6f6-975a-45aa-aa3e-cbfaf0c50026"
       ]
     }
   ],
@@ -132,7 +151,7 @@
       "objective": {
         "EncounterObjectGuid": "d5ee674b-8993-4804-9fa2-b0a73be466e4"
       },
-      "title": "Destroy Enemy Units",
+      "title": "Destroy Agamemnon's Traitorous Forces",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -144,7 +163,7 @@
       "objective": {
         "EncounterObjectGuid": "cb9c173c-89b3-4447-b3a0-26193cbeb601"
       },
-      "title": "Destroy Opposing Com Guard Forces",
+      "title": "Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -156,7 +175,7 @@
       "objective": {
         "EncounterObjectGuid": "13912235-2a9a-4917-82be-ae2638ab753f"
       },
-      "title": "Objective_Empty_HiddenFlag_HostileToAllChunkActive",
+      "title": "(HIDDEN) Objective_Empty_HiddenFlag_HostileToAllChunkActive",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -168,7 +187,7 @@
       "objective": {
         "EncounterObjectGuid": "4b18da74-682d-467c-bd41-103e525d91f0"
       },
-      "title": "Hidden Hostile to All Drop Timer",
+      "title": "(HIDDEN) Hidden Hostile to All Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -180,7 +199,7 @@
       "objective": {
         "EncounterObjectGuid": "efd78ca4-a05b-4281-8b0a-245bf436a4aa"
       },
-      "title": "Hidden Hostile to ALL AI Timer",
+      "title": "(HIDDEN) Hidden Hostile to ALL AI Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -192,7 +211,7 @@
       "objective": {
         "EncounterObjectGuid": "49d5a311-1507-4c2b-8485-46ba1ea99d43"
       },
-      "title": "Destroy Intervening Com Guard Forces",
+      "title": "Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -211,7 +230,7 @@
             {
               "typeString": "System.Single",
               "name": "ContractBonusRewardPct",
-              "value": "0.2",
+              "value": "0.1",
               "set": false,
               "valueConstant": null
             }
@@ -230,7 +249,7 @@
       "objective": {
         "EncounterObjectGuid": "cbee541c-3104-4bc4-829a-dc396601f4c8"
       },
-      "title": "Objective_Empty_HostileToAll_Flag_Secondary",
+      "title": "(HIDDEN) Objective_Empty_HostileToAll_Flag_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -242,7 +261,7 @@
       "objective": {
         "EncounterObjectGuid": "234238e2-31c2-4594-ab52-3621df45e2ac"
       },
-      "title": "Hidden Hostile to All Drop Timer",
+      "title": "(HIDDEN) Hidden Hostile to All Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -254,7 +273,7 @@
       "objective": {
         "EncounterObjectGuid": "3637411e-ca46-4d4f-bc29-ffee20e63548"
       },
-      "title": "Hidden Hostile to ALL AI Timer",
+      "title": "(HIDDEN) Hidden Hostile to ALL AI Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -266,7 +285,7 @@
       "objective": {
         "EncounterObjectGuid": "c02cca7e-6e2c-4a3d-beb0-f9af713a466f"
       },
-      "title": "Destroy Enemy Reinforcements",
+      "title": "Destroy Additional Enemy Forces",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -278,7 +297,7 @@
       "objective": {
         "EncounterObjectGuid": "103a6c2a-7464-4e11-9409-636ca6fe7a47"
       },
-      "title": "Hidden Target Primary Drop Timer",
+      "title": "(HIDDEN) Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -290,7 +309,7 @@
       "objective": {
         "EncounterObjectGuid": "a5fe3072-8cc6-4909-815d-25fcc2efa6ec"
       },
-      "title": "Hidden Target Primary AI Swap Timer",
+      "title": "(HIDDEN) Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -302,7 +321,7 @@
       "objective": {
         "EncounterObjectGuid": "ec1afdf8-94ac-4091-a3d2-1d82732ffad2"
       },
-      "title": "Empty Do Additional Forces Primary Autocomplete Flag",
+      "title": "(HIDDEN) Empty Do Additional Forces Primary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -314,7 +333,7 @@
       "objective": {
         "EncounterObjectGuid": "4becbae5-72de-451f-8b9b-028e2188fa89"
       },
-      "title": "Destroy Enemy Reinforcements",
+      "title": "Destroy Additional Enemy Forces",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -333,7 +352,7 @@
             {
               "typeString": "System.Single",
               "name": "ContractBonusRewardPct",
-              "value": "0.2",
+              "value": "0.1",
               "set": false,
               "valueConstant": null
             }
@@ -352,7 +371,7 @@
       "objective": {
         "EncounterObjectGuid": "f4995165-3394-44af-8401-cbbffcb177b9"
       },
-      "title": "Hidden Target Primary Drop Timer",
+      "title": "(HIDDEN) Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -364,7 +383,7 @@
       "objective": {
         "EncounterObjectGuid": "55df7bc4-d367-45b7-92f4-ca24673d4e5c"
       },
-      "title": "Hidden Target Primary AI Swap Timer",
+      "title": "(HIDDEN) Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -376,7 +395,7 @@
       "objective": {
         "EncounterObjectGuid": "0eefd1b5-f890-4ad2-b28a-d291c059da7e"
       },
-      "title": "Empty Do Additional Forces Secondary Autocomplete Flag",
+      "title": "(HIDDEN) Empty Do Additional Forces Secondary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -388,7 +407,7 @@
       "objective": {
         "EncounterObjectGuid": "3d9f8ebf-d0a8-4a95-b59d-1919f3b4f11d"
       },
-      "title": "Destroy Enemy Reinforcements",
+      "title": "Destroy Additional Enemy Reinforcements",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -400,7 +419,7 @@
       "objective": {
         "EncounterObjectGuid": "aae568ef-1d56-42ef-913c-1af865cc4310"
       },
-      "title": "Hidden Target Primary Drop Timer",
+      "title": "(HIDDEN) Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -412,7 +431,7 @@
       "objective": {
         "EncounterObjectGuid": "a5be8217-b71c-477c-b7f9-bd8b57fe8411"
       },
-      "title": "Hidden Target Primary AI Swap Timer",
+      "title": "(HIDDEN) Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -424,7 +443,7 @@
       "objective": {
         "EncounterObjectGuid": "c1a9059b-4fd1-4def-9419-6dd4a3b3bd4d"
       },
-      "title": "Empty Do Additional Forces 2 Primary Autocomplete Flag",
+      "title": "(HIDDEN) Empty Do Additional Forces 2 Primary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -455,7 +474,7 @@
             {
               "typeString": "System.Single",
               "name": "ContractBonusRewardPct",
-              "value": "0.2",
+              "value": "0.1",
               "set": false,
               "valueConstant": null
             }
@@ -474,7 +493,7 @@
       "objective": {
         "EncounterObjectGuid": "04a65aa6-d0f2-49d4-8c8a-c1f90e43f2f9"
       },
-      "title": "Hidden Target Primary Drop Timer",
+      "title": "(HIDDEN) Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -486,7 +505,7 @@
       "objective": {
         "EncounterObjectGuid": "431ce2f5-dc6a-4daf-9965-ea58cd44c0e6"
       },
-      "title": "Hidden Target Primary AI Swap Timer",
+      "title": "(HIDDEN) Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -498,7 +517,7 @@
       "objective": {
         "EncounterObjectGuid": "ddc899c1-eb4e-47a1-a636-d92813c10571"
       },
-      "title": "Empty Do Additional Forces 2 Secondary Autocomplete Flag",
+      "title": "(HIDDEN) Empty Do Additional Forces 2 Secondary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -522,7 +541,7 @@
       "objective": {
         "EncounterObjectGuid": "85c94315-09ae-4e9b-8fc0-7e198be51510"
       },
-      "title": "Hidden Target Primary Drop Timer",
+      "title": "(HIDDEN) Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -534,7 +553,7 @@
       "objective": {
         "EncounterObjectGuid": "07dd31b8-82ae-4926-8a2e-84aab3eab8b7"
       },
-      "title": "Hidden Target Primary AI Swap Timer",
+      "title": "(HIDDEN) Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -546,7 +565,7 @@
       "objective": {
         "EncounterObjectGuid": "9d26ed13-ed7b-480e-a34d-24e17264eeef"
       },
-      "title": "Empty Do Additional Forces Primary Autocomplete Flag",
+      "title": "(HIDDEN) Empty Do Additional Forces Primary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -577,7 +596,7 @@
             {
               "typeString": "System.Single",
               "name": "ContractBonusRewardPct",
-              "value": "0.2",
+              "value": "0.1",
               "set": false,
               "valueConstant": null
             }
@@ -596,7 +615,7 @@
       "objective": {
         "EncounterObjectGuid": "7fdcb563-ac34-4cf1-a358-d373b4f24050"
       },
-      "title": "Hidden Target Primary Drop Timer",
+      "title": "(HIDDEN) Hidden Target Primary Drop Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -608,7 +627,7 @@
       "objective": {
         "EncounterObjectGuid": "29a4d1d2-075f-4efe-8e88-f4d32b802f49"
       },
-      "title": "Hidden Target Primary AI Swap Timer",
+      "title": "(HIDDEN) Hidden Target Primary AI Swap Timer",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -620,7 +639,7 @@
       "objective": {
         "EncounterObjectGuid": "76eb94bb-3e37-4ecc-bad6-a5a9543bf670"
       },
-      "title": "Empty Do Additional Forces Secondary Autocomplete Flag",
+      "title": "(HIDDEN) Empty Do Additional Forces Secondary Autocomplete Flag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -632,36 +651,10 @@
       "objective": {
         "EncounterObjectGuid": "7b5ce847-7978-459b-97ee-3bf90ef951fb"
       },
-      "title": "Destroy the Enemy Allied Forces",
+      "title": "Destroy {TEAM_TAR_ALLY.FactionDef.Demonym} Forces",
       "description": "",
       "isPrimary": true,
-      "OnSuccessResults": [
-        {
-          "Scope": "Company",
-          "Requirements": null,
-          "AddedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "Stats": [
-            {
-              "typeString": "System.Single",
-              "name": "ContractBonusRewardPct",
-              "value": "0.2",
-              "set": false,
-              "valueConstant": null
-            }
-          ],
-          "Actions": [],
-          "ForceEvents": [],
-          "TemporaryResult": false,
-          "ResultDuration": 0
-        }
-      ],
+      "OnSuccessResults": [],
       "OnFailureResults": [],
       "OnSuccessDialogueGUID": "",
       "OnFailureDialogueGUID": ""
@@ -670,7 +663,7 @@
       "objective": {
         "EncounterObjectGuid": "40ade58a-6556-4a37-9333-45be8deb23d9"
       },
-      "title": "Objective_Empty_HasSeenEnemyAllyLance_Primary",
+      "title": "(HIDDEN) Objective_Empty_HasSeenEnemyAllyLance_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -701,7 +694,7 @@
             {
               "typeString": "System.Single",
               "name": "ContractBonusRewardPct",
-              "value": "0.2",
+              "value": "0.1",
               "set": false,
               "valueConstant": null
             }
@@ -720,7 +713,7 @@
       "objective": {
         "EncounterObjectGuid": "e4cd3f97-ae4b-416a-8c4b-3ec6288be4fd"
       },
-      "title": "Objective_Empty_HasSeenEnemyAllyLance_Secondary",
+      "title": "(HIDDEN) Objective_Empty_HasSeenEnemyAllyLance_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -763,7 +756,7 @@
             {
               "typeString": "System.Single",
               "name": "ContractBonusRewardPct",
-              "value": "0.1",
+              "value": "0.2",
               "set": false,
               "valueConstant": null
             }
@@ -844,7 +837,7 @@
       "objective": {
         "EncounterObjectGuid": "c0c0e8d1-92f7-4941-b438-91963dbf0fb2"
       },
-      "title": "Objective_Empty_FirstContractFlag",
+      "title": "(HIDDEN) Objective_Empty_FirstContractFlag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -856,7 +849,7 @@
       "objective": {
         "EncounterObjectGuid": "28b3d4e1-8a28-4138-93cf-a56b13ddd7b2"
       },
-      "title": "Hidden Open Player Evac Objective",
+      "title": "(HIDDEN) Hidden Open Player Evac Objective",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -868,7 +861,7 @@
       "objective": {
         "EncounterObjectGuid": "5249099f-0b81-4d47-8c04-07aeffd0f4cd"
       },
-      "title": "OFF",
+      "title": "(HIDDEN) OFF",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -883,33 +876,7 @@
       "title": "Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.",
       "description": "",
       "isPrimary": true,
-      "OnSuccessResults": [
-        {
-          "Scope": "Company",
-          "Requirements": null,
-          "AddedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "Stats": [
-            {
-              "typeString": "System.Single",
-              "name": "ContractBonusRewardPct",
-              "value": "0.1",
-              "set": false,
-              "valueConstant": null
-            }
-          ],
-          "Actions": [],
-          "ForceEvents": [],
-          "TemporaryResult": false,
-          "ResultDuration": 0
-        }
-      ],
+      "OnSuccessResults": [],
       "OnFailureResults": [],
       "OnSuccessDialogueGUID": "",
       "OnFailureDialogueGUID": ""
@@ -918,7 +885,7 @@
       "objective": {
         "EncounterObjectGuid": "233d3dd3-dd4d-4722-9d79-5e4550c94c67"
       },
-      "title": "Escort {TEAM_EMP.FactionDef.Demonym} Lance to Evac LZ",
+      "title": "The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -930,7 +897,7 @@
       "objective": {
         "EncounterObjectGuid": "2f1e0162-3ff4-4f73-99d5-cdb2c0d5396b"
       },
-      "title": "Empty_Employer_IsActiveFlag_Primary",
+      "title": "(HIDDEN) Empty_Employer_IsActiveFlag_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -942,7 +909,7 @@
       "objective": {
         "EncounterObjectGuid": "8dd88858-0b5c-47a2-8d48-90daf913c861"
       },
-      "title": "OFF",
+      "title": "(HIDDEN) OFF",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -957,33 +924,7 @@
       "title": "Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.",
       "description": "",
       "isPrimary": false,
-      "OnSuccessResults": [
-        {
-          "Scope": "Company",
-          "Requirements": null,
-          "AddedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "Stats": [
-            {
-              "typeString": "System.Single",
-              "name": "ContractBonusRewardPct",
-              "value": "0.2",
-              "set": false,
-              "valueConstant": null
-            }
-          ],
-          "Actions": [],
-          "ForceEvents": [],
-          "TemporaryResult": false,
-          "ResultDuration": 0
-        }
-      ],
+      "OnSuccessResults": [],
       "OnFailureResults": [],
       "OnSuccessDialogueGUID": "",
       "OnFailureDialogueGUID": ""
@@ -992,7 +933,7 @@
       "objective": {
         "EncounterObjectGuid": "62fad70b-c2a9-478d-b6a2-cb13ba99a573"
       },
-      "title": "Escort {TEAM_EMP.FactionDef.Demonym} Lance to Evac LZ",
+      "title": "The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -1030,7 +971,7 @@
       "objective": {
         "EncounterObjectGuid": "25093242-ea45-451c-a189-d3d54f132d26"
       },
-      "title": "Empty_Employer_IsActiveFlag_Secondary",
+      "title": "(HIDDEN) Empty_Employer_IsActiveFlag_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1042,7 +983,7 @@
       "objective": {
         "EncounterObjectGuid": "b1862952-8197-4347-8c93-94aadd34fbd7"
       },
-      "title": "OFF",
+      "title": "(HIDDEN) OFF",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1066,7 +1007,7 @@
       "objective": {
         "EncounterObjectGuid": "bd721209-539f-4c39-afa9-f6d3a83a0b06"
       },
-      "title": "Escort {TEAM_EMP_ALLY.FactionDef.Demonym} Lance to Evac LZ",
+      "title": "The {TEAM_EMP_ALLY.FactionDef.Demonym} lance must reach the evac zone",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults": [],
@@ -1078,7 +1019,7 @@
       "objective": {
         "EncounterObjectGuid": "eb2cdf1f-7f49-4fca-9f3c-328d653e5169"
       },
-      "title": "Empty_EmployerAlly_IsActiveFlag_Primary",
+      "title": "(HIDDEN) Empty_EmployerAlly_IsActiveFlag_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1090,7 +1031,7 @@
       "objective": {
         "EncounterObjectGuid": "5685d07f-ea41-468f-99e6-93f99ed64703"
       },
-      "title": "OFF",
+      "title": "(HIDDEN) OFF",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1105,33 +1046,7 @@
       "title": "Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.",
       "description": "",
       "isPrimary": false,
-      "OnSuccessResults": [
-        {
-          "Scope": "Company",
-          "Requirements": null,
-          "AddedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-          },
-          "Stats": [
-            {
-              "typeString": "System.Single",
-              "name": "ContractBonusRewardPct",
-              "value": "0.2",
-              "set": false,
-              "valueConstant": null
-            }
-          ],
-          "Actions": [],
-          "ForceEvents": [],
-          "TemporaryResult": false,
-          "ResultDuration": 0
-        }
-      ],
+      "OnSuccessResults": [],
       "OnFailureResults": [],
       "OnSuccessDialogueGUID": "",
       "OnFailureDialogueGUID": ""
@@ -1140,7 +1055,7 @@
       "objective": {
         "EncounterObjectGuid": "5e616f80-706e-43c8-b747-b04122ba5232"
       },
-      "title": "Escort {TEAM_EMP_ALLY.FactionDef.Demonym} Lance to Evac LZ",
+      "title": "The {TEAM_EMP_ALLY.FactionDef.Demonym} lance must reach the evac zone",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [
@@ -1159,7 +1074,7 @@
             {
               "typeString": "System.Single",
               "name": "ContractBonusRewardPct",
-              "value": "0.2",
+              "value": "0.1",
               "set": false,
               "valueConstant": null
             }
@@ -1178,7 +1093,7 @@
       "objective": {
         "EncounterObjectGuid": "aa4e4b60-369e-43b6-82e3-e9140cfa4d16"
       },
-      "title": "Empty_EmployerAlly_IsActiveFlag_Secondary",
+      "title": "(HIDDEN) Empty_EmployerAlly_IsActiveFlag_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1190,7 +1105,7 @@
       "objective": {
         "EncounterObjectGuid": "b560361d-e4dd-4a94-b9b1-f8d8c283cfc3"
       },
-      "title": "AllPrimaryTargetsDestroyedFlag",
+      "title": "(HIDDEN) AllPrimaryTargetsDestroyedFlag",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1202,7 +1117,7 @@
       "objective": {
         "EncounterObjectGuid": "6e17e73a-7403-41f2-b8a0-f88a63c30116"
       },
-      "title": "TimerObjective_HostileToAll_Primary",
+      "title": "(HIDDEN) Objective_Hidden_NoSecondaryKills",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1214,7 +1129,7 @@
       "objective": {
         "EncounterObjectGuid": "969d3cdb-0d1b-4c88-a3bf-42ffa86a445e"
       },
-      "title": "TimerObjective_HostileToAll_Secondary",
+      "title": "(HIDDEN) TimerObjective_HostileToAll_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1226,7 +1141,7 @@
       "objective": {
         "EncounterObjectGuid": "9aa12439-4225-412d-a4f8-0058e6ef8dc4"
       },
-      "title": "TimerObjective_1RoundSafety_AddForces_Primary",
+      "title": "(HIDDEN) TimerObjective_HostileToAll_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1238,7 +1153,7 @@
       "objective": {
         "EncounterObjectGuid": "21da44e2-6d5a-4abb-92b5-cc673009e073"
       },
-      "title": "TimerObjective_1RoundSafety_AddForces_Secondary",
+      "title": "(HIDDEN) TimerObjective_1RoundSafety_AddForces_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1250,7 +1165,7 @@
       "objective": {
         "EncounterObjectGuid": "b43a75b5-b10c-4987-80a4-c3603401e259"
       },
-      "title": "TimerObjective_1RoundSafety_AddForces2_Primary",
+      "title": "(HIDDEN) TimerObjective_1RoundSafety_AddForces_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1262,7 +1177,7 @@
       "objective": {
         "EncounterObjectGuid": "8d55b7bc-1e4a-4772-b363-db2876e8b807"
       },
-      "title": "TimerObjective_1RoundSafety_AddForces2_Secondary",
+      "title": "(HIDDEN) TimerObjective_1RoundSafety_AddForces2_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1274,7 +1189,7 @@
       "objective": {
         "EncounterObjectGuid": "7cbe923d-b6b1-442a-8bd7-3ead2bdf1787"
       },
-      "title": "TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary",
+      "title": "(HIDDEN) TimerObjective_1RoundSafety_AddForces2_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1286,7 +1201,7 @@
       "objective": {
         "EncounterObjectGuid": "b62e57a4-31c4-44de-9a27-bcc17d05961b"
       },
-      "title": "TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary",
+      "title": "(HIDDEN) TimerObjective_1RoundSafety_AddForces_EnemyAlly_Primary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1298,7 +1213,7 @@
       "objective": {
         "EncounterObjectGuid": "380ef189-c85c-4b73-bb4e-05c25c3aa66e"
       },
-      "title": "TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary",
+      "title": "(HIDDEN) TimerObjective_1RoundSafety_AddForces_EnemyAlly_Secondary",
       "description": "",
       "isPrimary": false,
       "OnSuccessResults": [],
@@ -1315,7 +1230,7 @@
       "encounterChunk": {
         "EncounterObjectGuid": "8c5cfff4-066b-44be-9a28-c462461a757a"
       },
-      "enableChunkFromContract": true,
+      "enableChunkFromContract": false,
       "controlledByContractChunkGroupList": [
         "Hostile to All Chunk Group"
       ],
@@ -1326,7 +1241,7 @@
       "encounterChunk": {
         "EncounterObjectGuid": "823304d4-356b-42e4-a804-90c957ee3416"
       },
-      "enableChunkFromContract": true,
+      "enableChunkFromContract": false,
       "controlledByContractChunkGroupList": [
         "Hostile to All Chunk Group"
       ],
@@ -1407,7 +1322,7 @@
       "encounterChunk": {
         "EncounterObjectGuid": "7f7e150a-d8e3-4587-9d79-3c2dfe928855"
       },
-      "enableChunkFromContract": false,
+      "enableChunkFromContract": true,
       "controlledByContractChunkGroupList": [
         "Enemy Ally Landed Forces Chunk Group"
       ],
@@ -1698,14 +1613,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Our employer's intel was accurate, Commander. We've spotted our targets.",
+          "words": "All right, Alpha Lance, lets get this done.  Merc, now you get to see how the professionals get things done.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_Contract_TagTeam_Leader",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe",
@@ -1714,7 +1629,39 @@
           "revealRadius": -1
         },
         {
-          "words": "Move up to this area and make contact, and then engage and destroy them.",
+          "words": "Agamemnon, what is happening here, command sent me over to find out why you're in the wrong AO.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Rival",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Oh, right. Listen, <i>Aeggy</i>, do us all a favor and stay out of the way or I'll deal with you too.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Leader",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "I'll get in touch with our employer and see what is going on, hang tight and keep an eye out for those ambushing reinforcements.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1724,20 +1671,36 @@
           "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "3f899376-6d15-413c-a260-a5f0aecff9bd",
+          "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
         },
         {
-          "words": "Good hunting, Commander.",
+          "words": "Saddle up, Alpha; let's clear this AO of all these amateurs.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_Contract_TagTeam_Leader",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Shit, boss, this guy seems like a fool, try and keep my overtime hours to a minimum, ok.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_YangDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe",
@@ -1755,7 +1718,23 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "I'm telling you that was the Com Guard. I'm not sure anyone will believe us if we tell them. Good job Commander.",
+          "words": "Well, Darius? Who were these <i>professionals</i> we were dealing with?",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "The targets are down and the good guys won. That's all that matters, Meyer.  I'm getting apologies from our employer as we speak, lets debrief back in orbit.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1763,6 +1742,22 @@
             "a": 1
           },
           "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "{COMMANDER.Name} you're on my shit list, watch your back.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_ComStarRogue",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -1780,14 +1775,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "What a damn mess. I'm telling you that was the Com Guard. I'm not sure anyone will believe us if we tell them.",
+          "words": "Did you see those mechs boss, impressive, don't feel bad about dropping this one.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_YangDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -1805,7 +1800,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "New contacts on sensors, Commander. These units aren't identifying themselves. We've got a new player on the field.",
+          "words": "PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1830,14 +1825,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We're tak-- [static] --vy fire, Argo! We need backup!",
+          "words": "Command, this is Beta Lance; we're under heavy fire- [static]",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
+          "selectedCastDefId": "castDef_Contract_TagTeam_Wife",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -1846,7 +1841,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Commander, we may need our support to get us through this. Do what you can.",
+          "words": "Commander, try and keep our allies alive down there.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1871,7 +1866,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "This is the {TEAM_EMP_ALLY.FactionDef.Demonym} lance captain. We're taking serious fire out here.",
+          "words": "PLACEHOLDER We lost Quebec Two Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1887,14 +1882,14 @@
           "revealRadius": -1
         },
         {
-          "words": "Roger, Captain. Argo, we need to provide support or this operation's going to fall apart.",
+          "words": "PLACEHODLER This is Quebec actual return fire and check your rear arc!",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
+          "selectedCastDefId": "castDef_TeamLeader_EmployersAlly",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -1912,14 +1907,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Dammit. Commander, the {TEAM_EMP.FactionDef.Demonym} lance is out of the picture.",
+          "words": "Shit. Keep it together down there Commander, looks like both our new friends punched out. Tracking them now and will get them on the comms.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_SumireDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -1937,7 +1932,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Dammit. Commander, the {TEAM_EMP.FactionDef.Demonym} lance is out of the picture.",
+          "words": "PLACEHOLDER our employer's ally forces are lost commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1962,23 +1957,23 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys are here too. Don't that beat it all. This is the primary objective version.",
+          "words": "This is tiresome, I grow bored easily Agamemnon, time to clean this up.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_ComStarRogue",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "",
+          "cameraFocusGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
         },
         {
-          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.",
+          "words": "Take these down commander, our employer wants to know why these guys have messed with their operation.  And frankly I do too.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -1988,7 +1983,23 @@
           "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "",
+          "cameraFocusGuid": "1df4e32a-9bdb-4be4-89c4-01f8ebeeafa0",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "There's those stark white mechs on the field {COMMANDER.Name} and it doesn't look like Steiner forces.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "facf893c-7ed1-48ac-8e9d-1fda02a9c059",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -2003,7 +2014,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys are here too. Don't that beat it all. This is the secondary objective version.",
+          "words": "PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys  are here too. Don't that beat it all. This is the secondary objective version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2044,7 +2055,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Primary targets destroyed Commander. Evac is available.",
+          "words": "All our targets are down, Commander. Time to bug out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2060,7 +2071,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Coming in hot, ready when you are Commander.",
+          "words": "Roger that, Darius. Commander, I'm inbound to the LZ. Don't keep me waiting!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2085,7 +2096,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, unidentified units have just arrived to the fight.",
+          "words": "PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Primary Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2101,7 +2112,7 @@
           "revealRadius": -1
         },
         {
-          "words": "The contract stipulates we need to take out these forces if we want to get paid.",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to the contract. If we want to get paid we need to take them out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2126,23 +2137,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Hey, Commander, I don't mean to stress you out or anything but... I'm seeing more engine power-ups out there.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_SumireDefault",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "facf893c-7ed1-48ac-8e9d-1fda02a9c059",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Commander, I don't know who those guys are; if they start firing on our forces, take them down. Sumire, see if you can ID them.",
+          "words": "PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Secondary Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2158,14 +2153,14 @@
           "revealRadius": -1
         },
         {
-          "words": "Gotcha. Getting eyes on... they're not flying any colors, there's no way to identify them. I'm guessing they're not here to make friends.",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_SumireDefault",
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "facf893c-7ed1-48ac-8e9d-1fda02a9c059",
@@ -2183,14 +2178,30 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Our objectives are complete, Argo actual; we're headed for our evac LZ.",
+          "words": "That's all our targets, people. Let's head to our evac point.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
+          "selectedCastDefId": "castDef_Contract_TagTeam_Leader",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "287b3743-7ff2-4179-8951-f48c86b8c696",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "As long as they're still in the AO, they're still at risk, Commander. Keep those our new friends covered till they evac.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -2208,7 +2219,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Our objectives are complete, Argo actual; we're headed for our evac LZ.",
+          "words": "PLACEHOLDER All our objectives are complete, cover our withdraw Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2224,7 +2235,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Let's ensure they evac before we leave, Commander. Just to make sure we get payed for it.",
+          "words": "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2249,17 +2260,33 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We're clear, Commander. Superb work out there.",
+          "words": "Our new friends are away and safe.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "287b3743-7ff2-4179-8951-f48c86b8c696",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Glad we got to shoot up that Agamemnon arsehole. Let's get out of here, boss.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -2274,7 +2301,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We're clear, Commander. Superb work out there.",
+          "words": "PLACEHOLDER Thanks for the assist, we're clear.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2299,7 +2326,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "All targets down; let's get out of here. Headed for evac.",
+          "words": "PLACEHOLDER, That's it Commander we did what we came here to do.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2324,7 +2351,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "All targets down; let's get out of here. Headed for evac.",
+          "words": "PLACEHOLDER, That's it Commander we did what we came here to do.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2340,7 +2367,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Let's ensure they evac before we leave, Commander. Just to make sure we get payed for it.",
+          "words": "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2365,7 +2392,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Leaving the AO, Argo. Good working with you.",
+          "words": "PLACEHOLDER, we're clear of the AO, thanks Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2390,7 +2417,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Leaving the AO, Argo. Good working with you.",
+          "words": "PLACEHOLDER, we're clear of the AO, thanks Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2456,7 +2483,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.",
+          "words": "Attention {TEAM_EMP.FactionDef.Demonym} lance: you screwed with the wrong people. You should probably start running now. [PLACEHOLDER]",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2497,7 +2524,55 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "The other enemy Leopard just made its dropoff. Looks like more {TEAM_TAR.FactionDef.Demonym} 'Mechs on the field. It's getting crowded down there.",
+          "words": "Attention {TEAM_EMP.FactionDef.Demonym} lance: you screwed with the wrong people. You should probably start running now.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_OpFor",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "c76a6d7f-2e68-46f8-b2b1-797b5c46462c",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Ah... Command? its getting messy down here, back up might be nice right about now.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Wife",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "How much you want to bet that back up wont be coming soon.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "I don't make losing bets, Meyer. Commander, you're going to have to handle that lance, too, whether we like it or not.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2513,17 +2588,17 @@
           "revealRadius": -1
         },
         {
-          "words": "The contract says all Davion Brigade of Guards forces. If we want to get paid we need to take them out.",
+          "words": "{COMMANDER.Name} we'll be taking that tech you hold so dear and place it out of reach where it belongs.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_ComStarRogue",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "c76a6d7f-2e68-46f8-b2b1-797b5c46462c",
+          "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -2538,14 +2613,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "The other enemy Leopard just made its dropoff. Looks like more {TEAM_TAR.FactionDef.Demonym} 'Mechs on the field. It's getting crowded down there.",
+          "words": "PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_SumireDefault",
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "a7944fc0-efe6-44e4-a5fc-b32fb14dbb3b",
@@ -2554,7 +2629,7 @@
           "revealRadius": -1
         },
         {
-          "words": "That's not part of our brief either, Commander. Engage at your discretion.",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2579,7 +2654,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That {TEAM_TAR.FactionDef.Demonym} Leopard's arriving, Commander. More friends coming to the party, I bet.",
+          "words": "PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2595,7 +2670,7 @@
           "revealRadius": -1
         },
         {
-          "words": "This lance is part of the contract too.",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2620,14 +2695,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That {TEAM_TAR.FactionDef.Demonym} Leopard's arriving, Commander. More friends coming to the party, I bet.",
+          "words": "PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Secondary Objective Version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_SumireDefault",
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "9cd2da77-9a07-4c41-afbe-bbfdfbe0a257",
@@ -2636,7 +2711,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Reinforcements aren't part of our contract. Engage at your discretion.",
+          "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2685,7 +2760,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander I'm seeing an inbound Dropship, I've marked their projected landing zone.",
+          "words": "PLACHEHOLDER (Hostile to All Primary). In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2710,14 +2785,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Unmarked Leopard coming in hot, Commander. I've marked its LZ for you. I'm guessing more bad guys.",
+          "words": "PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_SumireDefault",
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "143910b7-d02e-4381-9ec4-571286ce7707",
@@ -2735,17 +2810,17 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, I'm seeing an inbound Leopard. Marking its destination for you.",
+          "words": "This is tiresome, I grow bored with your efforts Agamemnon, time to clean this up. [PLACEHOLDER]",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_ComStarRogue",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "a844b4c9-7a04-4675-af2a-95cfacf313f8",
+          "cameraFocusGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -2760,17 +2835,17 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, I'm seeing an inbound Leopard. Marking its destination for you.",
+          "words": "I told you I was easily bored, your time will soon be at an end {COMMANDER.Name}! [PLACEHOLDER]",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_SumireDefault",
+          "selectedCastDefId": "castDef_ComStarRogue",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "7138dd09-10ef-4e9c-977c-1df13a11f126",
+          "cameraFocusGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -2785,7 +2860,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Another Leopard coming in fast and low, Commander.",
+          "words": "Aegisthus, this is <i>Argo</i> actual. We're seeing another DropShip inbound to this location; could be enemy reinforcements.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2796,6 +2871,38 @@
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "232245a7-d9d4-486b-8770-c7dbd070fd46",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Beta Lance, do you copy?",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Sorry guys Aeggy is having stern words with Agamemnon, must be switched to the company channel, I'll let him know.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Wife",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -2810,17 +2917,17 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Another Leopard coming in fast and low, Commander.",
+          "words": "Aegisthus, this is <i>Argo</i> actual. We're seeing another DropShip inbound to this location; could be enemy reinforcements. [PLACEHOLDER]",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_SumireDefault",
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "1c0709e8-70fa-4001-8884-e174f6b73b8f",
+          "cameraFocusGuid": "232245a7-d9d4-486b-8770-c7dbd070fd46",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -2885,14 +2992,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Argo actual, this is the {TEAM_EMP.FactionDef.Demonym} lance captain. Good to have you with us.",
+          "words": "This is <i>Argo</i> actual, {TEAM_EMP.FactionDef.Demonym} lance. We'll cover your advance and-",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
@@ -2901,23 +3008,103 @@
           "revealRadius": -1
         },
         {
-          "words": "Once our objectives are complete, we'll move to our evac LZ.",
+          "words": "That won't be necessary, Argo. We've got this. Just stay put and we'll deal with you soon.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
+          "selectedCastDefId": "castDef_Contract_TagTeam_Leader",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "287b3743-7ff2-4179-8951-f48c86b8c696",
+          "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
         },
         {
-          "words": "Captain, this is Argo actual. Understood; let's get this done.",
+          "words": "Understood, Agamemnon, but we're under contract to-",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Agamemnon what are you doing? This is not the target zone for this operation.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Rival",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Aegisthus and I see you brought Clytemnestra with you.  I guess this stone can target more than one bird.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Leader",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Enough! We're here to deal with this upstart mercenary outfit.  Agamemnon do the job we paid you to do and attack {commander.name}.  I grow bored.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_ComStarRogue",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "3f899376-6d15-413c-a260-a5f0aecff9bd",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Darius, I'm seeing strange white mechs in the field.  Is this another one of your special contacts?",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Meyer, we've got no time for this now. Commander, lets get this done by the numbers and we can chat about it after.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2942,39 +3129,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Argo actual, this is the {TEAM_EMP.FactionDef.Demonym} lance captain. Good to have you with us.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "38efff2a-29a9-4886-a145-c5a7ca747fb7",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Once our objectives are complete, we'll move to our evac LZ.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Captain, this is Argo actual. Understood; let's get this done.",
+          "words": "This is <i>Argo</i> actual, {TEAM_EMP.FactionDef.Demonym} lance. We'll cover your advance and-",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -2984,7 +3139,119 @@
           "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
-          "cameraFocusGuid": "38efff2a-29a9-4886-a145-c5a7ca747fb7",
+          "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "That won't be necessary, Argo. We've got this. Just stay put and we'll deal with you soon.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Leader",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Understood, Agamemnon, but we're under contract to-",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Agamemnon what are you doing? This is not the target zone for this operation.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Rival",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Aegisthus and I see you brought Clytemnestra with you.  I guess this stone can target more than one bird.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Contract_TagTeam_Leader",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Enough! We're here to deal with this upstart mercenary outfit.  Agamemnon do the job we paid you to do and attack {commander.name}.  I grow bored.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_ComStarRogue",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "3f899376-6d15-413c-a260-a5f0aecff9bd",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Darius, I'm seeing strange white mechs in the field.  Is this another one of your special contacts?",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_SumireDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Meyer, we've got no time for this now. Commander, lets get this done by the numbers and we can chat about it after.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -2999,23 +3266,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Argo actual, {TEAM_EMP.FactionDef.Demonym} lance captain. Our allied lance has arrived in the AO and will be assisting us with our primary objectives.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_TeamLeader_Employer",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "ecaf6a4d-d3b1-43bc-bb17-0711e700d44a",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Captain, Argo actual. We copy. Let's wreck some metal.",
+          "words": "PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -3025,7 +3276,39 @@
           "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
+          "cameraFocusGuid": "ecaf6a4d-d3b1-43bc-bb17-0711e700d44a",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_TeamLeader_EmployersAlly",
+          "emote": "Default",
+          "audioName": "NONE",
           "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "PLACEHOLDER. Copy that lance leader.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "ecaf6a4d-d3b1-43bc-bb17-0711e700d44a",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
@@ -3337,7 +3620,8 @@
         "lanceTagSet": {
           "items": [
             "lance_type_dynamic_difficulty",
-            "lance_type_battle"
+            "lance_type_fast",
+            "lance_type_mech"
           ],
           "tagSetSourceFile": "tags/LanceTags"
         },
@@ -3349,7 +3633,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -1,
+        "lanceDifficultyAdjustment": 2,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -3427,7 +3711,7 @@
             "customUnitName": "",
             "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -3460,7 +3744,7 @@
             "customUnitName": "",
             "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -3496,19 +3780,24 @@
         "lanceDefId": "Tagged",
         "lanceTagSet": {
           "items": [
-            "lance_type_dynamic_difficulty"
+            "lance_type_dynamic_difficulty",
+            "lance_type_fast",
+            "lance_type_mech"
           ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_convoy",
+            "lance_type_turret"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -1,
+        "lanceDifficultyAdjustment": 2,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -3533,7 +3822,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "pilot_contract_TagTeam_Rival",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
@@ -3566,7 +3855,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "pilot_contract_TagTeam_Wife",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
@@ -3586,7 +3875,7 @@
             "customUnitName": "",
             "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -3619,7 +3908,7 @@
             "customUnitName": "",
             "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "mechDef_None",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -3663,9 +3952,12 @@
           "EncounterObjectGuid": "3f899376-6d15-413c-a260-a5f0aecff9bd"
         },
         "name": "Lance_Target_EnemyForce",
-        "lanceDefId": "lancedef_mech_dynamic_ATeam",
+        "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_dynamic_difficulty",
+            "lance_type_mech"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -3676,7 +3968,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -2,
+        "lanceDifficultyAdjustment": 1,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -3701,7 +3993,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "pilot_contract_TagTeam_Leader",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
@@ -3718,7 +4010,7 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "fb517114-a960-4d21-ac59-7af694107ab1"
             },
-            "customUnitName": "",
+            "customUnitName": "Odysseus",
             "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
@@ -3751,7 +4043,7 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "4c74c107-23a4-4648-b758-11f8a8917d64"
             },
-            "customUnitName": "",
+            "customUnitName": "Achilles",
             "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
@@ -3784,7 +4076,7 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "666fff26-8734-4d15-858d-12ed74f036d2"
             },
-            "customUnitName": "",
+            "customUnitName": "Melanus",
             "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
@@ -3820,20 +4112,25 @@
           "EncounterObjectGuid": "fddf5e8b-07c6-492b-861e-2d9c2bde80ee"
         },
         "name": "DestroyLanceSpawner_Tarqet_AdditionalForces_Primary (Optional)",
-        "lanceDefId": "lancedef_mech_dynamic_ATeam",
+        "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_notallvehicles"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_turret",
+            "lance_type_convoy"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -2,
+        "lanceDifficultyAdjustment": 0,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -3977,20 +4274,25 @@
           "EncounterObjectGuid": "9cd2da77-9a07-4c41-afbe-bbfdfbe0a257"
         },
         "name": "DestroyLanceSpawner_Tarqet_AdditionalForces_Secondary (Optional)",
-        "lanceDefId": "lancedef_mech_dynamic_ATeam",
+        "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_notallvehicles"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_turret",
+            "lance_type_convoy"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -2,
+        "lanceDifficultyAdjustment": 0,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -4134,9 +4436,12 @@
           "EncounterObjectGuid": "c76a6d7f-2e68-46f8-b2b1-797b5c46462c"
         },
         "name": "DestroyLanceSpawner_Tarqet_AdditionalForces_2_Primary (Optional)",
-        "lanceDefId": "lancedef_mech_dynamic_ATeam",
+        "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_dynamic_difficulty",
+            "lance_type_support"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -4147,7 +4452,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -2,
+        "lanceDifficultyAdjustment": 0,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -4291,20 +4596,25 @@
           "EncounterObjectGuid": "a7944fc0-efe6-44e4-a5fc-b32fb14dbb3b"
         },
         "name": "DestroyLanceSpawner_Tarqet_AdditionalForces_2_Secondary (Optional)",
-        "lanceDefId": "lancedef_mech_dynamic_ATeam",
+        "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_notallvehicles"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_turret",
+            "lance_type_convoy"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -2,
+        "lanceDifficultyAdjustment": 0,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -4451,7 +4761,7 @@
     },
     "teamGuid": "31151ed6-cfc2-467e-98c4-9ae5bea784cf",
     "teamName": "TargetsAllyTeam",
-    "faction": "INVALID_UNSET",
+    "faction": "ComStar",
     "teamLeaderCastDefId": "castDef_TeamLeader_Current",
     "lanceOverrideList": [
       {
@@ -4459,11 +4769,9 @@
           "EncounterObjectGuid": "675af3cb-60f8-4525-a204-c047dfa91801"
         },
         "name": "DestroyLanceSpawner_Tarqet_AdditionalForces_EnemyAlly_Primary (Optional)",
-        "lanceDefId": "Tagged",
+        "lanceDefId": "lancedef_comstar_dynamic_battle1",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic_difficulty"
-          ],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -4549,7 +4857,7 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "f618b4a6-dd79-45c8-aae1-c646e6b6c65a"
             },
-            "customUnitName": "",
+            "customUnitName": "Achilles",
             "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
@@ -4582,7 +4890,7 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "1af71078-185f-44b2-a01a-4cf524199169"
             },
-            "customUnitName": "",
+            "customUnitName": "Odysseus",
             "customHeraldryDefId": "",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
@@ -4618,11 +4926,9 @@
           "EncounterObjectGuid": "af277092-16fb-4e01-80b8-9be5052c8caf"
         },
         "name": "DestroyLanceSpawner_Tarqet_AdditionalForces_EnemyAlly_Secondary (Optional)",
-        "lanceDefId": "Tagged",
+        "lanceDefId": "lancedef_comstar_dynamic_battle1",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic_difficulty"
-          ],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -4777,11 +5083,9 @@
           "EncounterObjectGuid": "1df4e32a-9bdb-4be4-89c4-01f8ebeeafa0"
         },
         "name": "Enemy Ally Optional LanceSpawner Primary",
-        "lanceDefId": "Tagged",
+        "lanceDefId": "lancedef_comstar_dynamic_battle1",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic_difficulty"
-          ],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -4936,11 +5240,9 @@
           "EncounterObjectGuid": "ab5a8dd2-01da-4100-9dd9-4431eabc6e7a"
         },
         "name": "Enemy Ally Optional LanceSpawner Secondary",
-        "lanceDefId": "Tagged",
+        "lanceDefId": "lancedef_comstar_dynamic_battle1",
         "lanceTagSet": {
-          "items": [
-            "lance_type_dynamic_difficulty"
-          ],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -5108,7 +5410,7 @@
     },
     "teamGuid": "3c9f3a20-ab03-4bcb-8ab6-b1ef0442bbf0",
     "teamName": "HostileToAllTeam",
-    "faction": "ComStar",
+    "faction": "INVALID_UNSET",
     "teamLeaderCastDefId": "castDef_TeamLeader_Current",
     "lanceOverrideList": [
       {
@@ -5116,20 +5418,26 @@
           "EncounterObjectGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369"
         },
         "name": "Lance_HostileAll_Primary",
-        "lanceDefId": "lancedef_comstar_mixed_dynamic_battle1",
+        "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_dynamic_difficulty",
+            "lance_type_mech"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_convoy",
+            "lance_type_turret"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -1,
+        "lanceDifficultyAdjustment": 2,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -5239,8 +5547,8 @@
             },
             "customUnitName": "",
             "customHeraldryDefId": "",
-            "unitType": "Vehicle",
-            "unitDefId": "vehicleDef_InheritLance",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -5273,13 +5581,19 @@
           "EncounterObjectGuid": "facf893c-7ed1-48ac-8e9d-1fda02a9c059"
         },
         "name": "Lance_HostileAll_Secondary",
-        "lanceDefId": "lancedef_comstar_mixed_dynamic_battle1",
+        "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_rangeLong",
+            "lance_type_mech"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_turret",
+            "lance_type_convoy"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
@@ -5396,8 +5710,8 @@
             },
             "customUnitName": "",
             "customHeraldryDefId": "",
-            "unitType": "Vehicle",
-            "unitDefId": "vehicleDef_InheritLance",
+            "unitType": "Mech",
+            "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -5444,13 +5758,15 @@
         "lanceDefId": "Tagged",
         "lanceTagSet": {
           "items": [
-            "lance_type_dynamic_difficulty",
-            "lance_type_support"
+            "lance_type_mech"
           ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_turret",
+            "lance_type_convoy"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
@@ -5604,12 +5920,15 @@
         "lanceDefId": "Tagged",
         "lanceTagSet": {
           "items": [
-            "lance_type_dynamic_difficulty"
+            "lance_type_mech"
           ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": [],
+          "items": [
+            "lance_type_turret",
+            "lance_type_convoy"
+          ],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
