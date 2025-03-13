@@ -45,7 +45,7 @@
     //{ "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
     { "Type": "CCUnitTypes", "Path": "unitTypes" },
     { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
-    //{ "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
+    { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
     { "Type": "CCTagRestrictions", "Path": "tagRestrict" },
     { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
     { "Type": "WeaponDef", "Path": "weaponMerge", "ShouldMergeJSON": true },

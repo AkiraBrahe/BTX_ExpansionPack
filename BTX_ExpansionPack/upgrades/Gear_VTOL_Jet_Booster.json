@@ -2,6 +2,7 @@
   "Custom": {
     "Flags": [
       "not_broken",
+      "autorepair",
       "no_salvage"
     ]
   },
@@ -17,7 +18,7 @@
     "Details": "The VTOL Jet Booster is a piece of equipment used to increase the speed of any VTOL. Cal-Boeing developed the booster in its modern versions in 3009, but it remained experimental until the late Jihad, when it entered limited production.",
     "Icon": "uixSvgIcon_special_Equipment"
   },
-  "BonusValueA": "+ 100% Speed",
+  "BonusValueA": "+ 50% Speed",
   "BonusValueB": "",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -37,21 +38,47 @@
       "targetingData": {
         "effectTriggerType": "Passive",
         "effectTargetType": "Creator",
-        "showInTargetPreview": false,
+        "forcePathRebuild": true,
         "showInStatusPanel": true
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "SuperchargerWalk",
+        "Id": "StatusEffect-JetBooster-CruiseSpeed",
         "Name": "VTOL JET BOOSTER",
-        "Details": "The VTOL Jet Booster doubles the movement speed.",
+        "Details": "The unit gain [AMT] movement speed.",
         "Icon": "uixSvgIcon_action_evasivemove"
       },
       "nature": "Buff",
       "statisticData": {
-        "statName": "WalkSpeed",
+        "statName": "CruiseSpeed",
         "operation": "Float_Multiply",
-        "modValue": "2",
+        "modValue": "1.5",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "forcePathRebuild": true,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-JetBooster-FlankSpeed",
+        "Name": "VTOL JET BOOSTER",
+        "Details": "The unit gain [AMT] movement speed.",
+        "Icon": "uixSvgIcon_action_evasivemove"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "FlankSpeed",
+        "operation": "Float_Multiply",
+        "modValue": "1.5",
         "modType": "System.Single"
       }
     }

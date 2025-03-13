@@ -1,0 +1,124 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Regulator",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5,
+    "FiringArc": 360
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_REGULATOR_RAC",
+    "Name": "Regulator (RAC)",
+    "Details": "<b>Name: <color=#85DBF6>Regulator Hovertank (RAC)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>170 Fusion</color></b>\n\nThe Regulator hovertank was the result of the Capellan Confederation refining its surviving industries to produce better combat vehicles after the Fourth Succession War and the revival of Star League technology from the Helm Memory Core.\n\nThis field refit first appeared during George Hasek's War in 3068. It replaces the Gauss rifle and its ammunition with a Rotary AC/5 linked to a Targeting Computer salvaged from Davion wrecks. Among the Capellan forces, this variant's deadly accuracy has become legend. Due in part to the rarity of salvage to put such a refit together, the vehicle's four tons of ammunition are protected by CASE.",
+    "Icon": "uixVhclIcon_regulator",
+    "Cost": 2276000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "MovementCapDefID": "movedef_vee_9",
+  "PathingCapDefID": "pathingdef_medium_hover",
+  "HardpointDataDefID": "hardpointdatadef_regulator",
+  "PrefabIdentifier": "chrprfvhcl_regulator",
+  "PrefabBase": "regulator",
+  "Tonnage": 45,
+  "weightClass": "MEDIUM",
+  "BattleValue": 6410000,
+  "TopSpeed": 151.2,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 1.5,
+      "z": 4.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4.5
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 150,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 80,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 145,
+      "InternalStructure": 25
+    }
+  ]
+}

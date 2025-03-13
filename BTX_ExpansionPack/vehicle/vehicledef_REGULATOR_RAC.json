@@ -1,0 +1,121 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1",
+      "unit_vehicle",
+      "unit_medium",
+      "unit_hover",
+      "unit_lance_support",
+      "unit_lance_assassin",
+      "unit_range_long",
+      "unit_armor_medium",
+      "unit_vehicle_case",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack",
+      "unit_new"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_REGULATOR_RAC",
+  "Description": {
+    "Id": "vehicledef_REGULATOR_RAC",
+    "Name": "Regulator Hovertank",
+    "UIName": "Regulator Hovertank (RAC)",
+    "Details": "<b>Name: <color=#85DBF6>Regulator Hovertank (RAC)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>170 Fusion</color></b>\n\nThe Regulator hovertank was the result of the Capellan Confederation refining its surviving industries to produce better combat vehicles after the Fourth Succession War and the revival of Star League technology from the Helm Memory Core.\n\nThis field refit first appeared during George Hasek's War in 3068. It replaces the Gauss rifle and its ammunition with a Rotary AC/5 linked to a Targeting Computer salvaged from Davion wrecks. Among the Capellan forces, this variant's deadly accuracy has become legend. Due in part to the rarity of salvage to put such a refit together, the vehicle's four tons of ammunition are protected by CASE.",
+    "Icon": "uixVhclIcon_regulator",
+    "Cost": 2276000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 145,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 145,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_TAC3",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3068-01-01T00:00:00Z"
+}

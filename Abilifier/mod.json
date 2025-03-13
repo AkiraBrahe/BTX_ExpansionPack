@@ -33,7 +33,8 @@
     "usingHumanResources": false,
     "disableCalledShotExploit": true,
     "proceduralTagCleanup": {
-      "pilot_mech_pilot": [ "pilot_nomech_crew" ]
+      "pilot_mech_pilot": [ "pilot_nomech_crew" ],
+      "pilot_nomech_crew": [ "pilot_mechwarrior" ]
     },
     "tagTraitForTree": {},
     "defaultTagTraitForTree": {},
