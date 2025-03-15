@@ -11,6 +11,11 @@ A BattleTech Extended mod that adds tons of new content, including new 'Mechs, v
 3. When updating the mod, remove the "BTX_ExpansionPack" and "BTX_PlayableVehicles" mod folders.
 4. Unpack the mod folders from the "BTX_ExpansionPack" archive into your game folder, overwriting when prompted.
 
+### Optional:
+- **To disable playable vehicles**:
+  - In the `BTSimpleMechAssembly` mod.json file, change `"SalvageAndAssembleVehicles"` to `"false"`.
+  - Remove these mods from your mods folder: BTX_CustomPilotDecorator, BTX_PlayableVehicles, and Lifepaths.
+
 ## Credits
 
 This mod is bundled with a modified version of Playable Tanks by [LordRuthermore](https://github.com/lordruthermore).
@@ -19,10 +24,4 @@ Special thanks to [mcb](https://github.com/mcb5637) for enabling the display of 
 
 ## Features
 
-The mod is currently focused on improving the vehicle aspects of BattleTech Extended. This initial release for BEX 2.0 includes:
-- Playable vehicles with over 300 new variants, including VTOLs,
-- Improved and more varied vehicle rosters for all factions,
-- Vehicle factories with new vehicles available for purchase over time,
-- And various QoL features from previous versions, as well as new ones.
-
-Future updates will bring back the 100+ new 'Mechs and extend the timeline to the FedCom Civil War, among other things.
+The mod is currently focused on improving the vehicle aspects of BattleTech Extended.<br>Future updates will bring back the 100+ new 'Mechs and extend the timeline to the FedCom Civil War, among other things.
