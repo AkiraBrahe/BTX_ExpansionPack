@@ -1,6 +1,6 @@
 itemCollection_factory_Kathil3053,,,
-mechdef_marauder_MAD-3R,Mech,0,10
-mechdef_marauder_MAD-5D,Mech,0,10
+mechdef_marauder_MAD-3R,Mech,0,1
+mechdef_marauder_MAD-5D,Mech,0,1
 vehicledef_DARTER,Mech,0,1
 vehicledef_DARTER_BAP,Mech,0,1
 vehicledef_DARTER_SRM,Mech,0,1

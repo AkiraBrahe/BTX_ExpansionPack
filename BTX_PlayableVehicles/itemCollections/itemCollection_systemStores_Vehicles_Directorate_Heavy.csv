@@ -11,9 +11,9 @@ vehicledef_PIKE,Mech,1,3
 vehicledef_PIKE_AC5,Mech,1,1
 vehicledef_BULLDOG_LRM,Mech,1,4
 vehicledef_CARRIER_SRM,Mech,1,10
-vehicledef_APC_Vargr,Mech,1,7
+vehicledef_VARGR,Mech,1,7
 vehicledef_CARRIER_LRM,Mech,1,10
-vehicledef_APC_Vargr_LRM,Mech,1,7
+vehicledef_VARGR_LRM,Mech,1,7
 vehicledef_MANTICORE,Mech,1,10
 vehicledef_MANTICORE,Mech,1,7
 vehicledef_VONLUCKNER_VNL-K65N,Mech,1,2

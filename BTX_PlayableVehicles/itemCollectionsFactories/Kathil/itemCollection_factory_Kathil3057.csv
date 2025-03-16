@@ -1,9 +1,9 @@
 itemCollection_factory_Kathil3057,,,
-mechdef_marauder_MAD-3R,Mech,0,10
-mechdef_marauder_MAD-5D,Mech,0,10
-mechdef_rakshasa_MDG-1A,Mech,0,10
-mechdef_rakshasa_MDG-1B,Mech,0,10
-mechdef_maelstrom_MTR-5K,Mech,0,10
+mechdef_marauder_MAD-3R,Mech,0,1
+mechdef_marauder_MAD-5D,Mech,0,1
+mechdef_rakshasa_MDG-1A,Mech,0,1
+mechdef_rakshasa_MDG-1B,Mech,0,1
+mechdef_maelstrom_MTR-5K,Mech,0,1
 mechdef_nightstar_NSR-9FC,Mech,0,1
 vehicledef_DARTER,Mech,0,1
 vehicledef_DARTER_BAP,Mech,0,1

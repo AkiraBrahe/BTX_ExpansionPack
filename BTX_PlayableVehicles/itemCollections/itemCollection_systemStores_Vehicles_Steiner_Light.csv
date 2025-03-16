@@ -1,7 +1,7 @@
 itemCollection_systemStores_Vehicles_Steiner_Light,,,
 itemCollection_systemStores_Vehicles_Kurita_Light,Reference,1,5
 itemCollection_systemStores_Vehicles_Marik_Light,Reference,1,2
-vehicledef_GALLEON,Mech,1,2
+vehicledef_GALLEON_GAL-100,Mech,1,2
 vehicledef_SAVANNAHMASTER,Mech,1,4
 vehicledef_SCORPION,Mech,1,10
 vehicledef_SCORPION,Mech,1,1

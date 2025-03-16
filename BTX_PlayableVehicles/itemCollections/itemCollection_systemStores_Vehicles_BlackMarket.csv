@@ -1,5 +1,5 @@
 itemCollection_systemStores_Vehicles_BlackMarket,,,
-vehicledef_APC_Turhan,Mech,1,1
+vehicledef_TURHAN,Mech,1,1
 vehicledef_BEHEMOTH,Mech,1,1
 vehicledef_BRUTUS,Mech,1,1
 vehicledef_MOBILEHQ,Mech,1,1
@@ -15,7 +15,7 @@ vehicledef_STURMFEUR,Mech,1,1
 vehicledef_TOKUGAWA_TKG-150,Mech,1,1
 vehicledef_VONLUCKNER_VNL-K65N,Mech,1,1
 vehicledef_ZHUKOV,Mech,1,1
-vehicledef_APC_Maxim,Mech,1,1
+vehicledef_MAXIM,Mech,1,1
 vehicledef_CONDOR,Mech,1,1
 vehicledef_DRILLSON,Mech,1,1
 vehicledef_HUNTER,Mech,1,1

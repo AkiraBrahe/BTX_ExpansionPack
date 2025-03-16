@@ -1,7 +1,7 @@
 itemCollection_systemStores_Vehicles_Directorate_Light,,,
 itemCollection_systemStores_Vehicles_Liao_Light,Reference,1,5
 itemCollection_systemStores_Vehicles_Taurian_Light,Reference,1,5
-vehicledef_GALLEON,Mech,1,8
+vehicledef_GALLEON_GAL-100,Mech,1,8
 vehicledef_SCORPION,Mech,1,10
 vehicledef_SCORPION,Mech,1,5
 vehicledef_SCORPION_ML,Mech,1,2

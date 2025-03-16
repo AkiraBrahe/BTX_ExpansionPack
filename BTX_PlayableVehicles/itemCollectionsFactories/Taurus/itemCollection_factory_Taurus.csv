@@ -1,0 +1,11 @@
+itemCollection_factory_Taurus,,,
+mechdef_locust_LCT-1V,Mech,0,1
+mechdef_wasp_WSP-1A,Mech,0,1
+mechdef_wolverine_WVR-6T,Mech,0,1
+mechdef_thunderbolt_TDR-5S,Mech,0,1
+mechdef_warhammer_WHM-6R,Mech,0,1
+mechdef_marauder_MAD-3R,Mech,0,1
+vehicledef_SLEIPNIR,Mech,0,1
+vehicledef_SLEIPNIR_LRM,Mech,0,1
+vehicledef_SLEIPNIR_ML,Mech,0,1
+vehicledef_SLEIPNIR_SRM,Mech,0,1
