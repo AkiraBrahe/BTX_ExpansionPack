@@ -17,8 +17,8 @@
   "ForbiddenRange": 60,
   "ammoCategoryID": "Sniper",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 30,
-  "Damage": 60,
+  "HeatGenerated": 20,
+  "Damage": 40,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -40,7 +40,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,
-  "Instability": 30,
+  "Instability": 20,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 475000,
@@ -54,8 +54,8 @@
     "Details": "The Sniper Artillery Cannon is the scaled down version of the Sniper Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "",
-  "BonusValueB": "",
+  "BonusValueA": "100 AoE Dmg.",
+  "BonusValueB": "90m AoE Range",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -104,7 +104,7 @@
       "statisticData": {
         "statName": "ReceivedInstabilityMultiplier",
         "operation": "Float_Add",
-        "modValue": "-40.0",
+        "modValue": "-35.0",
         "modType": "System.Single"
       }
     }

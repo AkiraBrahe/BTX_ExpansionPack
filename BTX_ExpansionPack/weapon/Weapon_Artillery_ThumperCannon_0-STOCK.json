@@ -17,8 +17,8 @@
   "ForbiddenRange": 90,
   "ammoCategoryID": "Thumper",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 18,
-  "Damage": 40,
+  "HeatGenerated": 12,
+  "Damage": 25,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -40,7 +40,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 3,
-  "Instability": 20,
+  "Instability": 12.5,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 200000,
@@ -54,8 +54,8 @@
     "Details": "The Thumper Artillery Cannon is the scaled down version of the Thumper Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "",
-  "BonusValueB": "",
+  "BonusValueA": "65 AoE Dmg.",
+  "BonusValueB": "60m AoE Range",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -104,7 +104,7 @@
       "statisticData": {
         "statName": "ReceivedInstabilityMultiplier",
         "operation": "Float_Add",
-        "modValue": "-30.0",
+        "modValue": "-25.0",
         "modType": "System.Single"
       }
     }

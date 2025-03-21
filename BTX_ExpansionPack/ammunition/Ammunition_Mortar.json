@@ -21,12 +21,12 @@
   "AccuracyModifier": 0,
   "AOECapable": true,
   "AOERange": 30,
-  "AOEDamage": 5,
+  "AOEDamage": 15,
   "AOEHeatDamage": 0,
-  "AOEInstability": 2,
+  "AOEInstability": 10,
   "CantHitUnaffecedByPathing": true,
-  "AdditionalImpactVFX": "WFX_BELarger",
-  "AdditionalImpactVFXScaleX": 1,
-  "AdditionalImpactVFXScaleY": 1,
-  "AdditionalImpactVFXScaleZ": 1
+  "AdditionalImpactVFX": "WFX_BESmaller",
+  "AdditionalImpactVFXScaleX": 2,
+  "AdditionalImpactVFXScaleY": 2,
+  "AdditionalImpactVFXScaleZ": 2
 }

@@ -13,8 +13,8 @@
     "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nMortar shells deliver a small explosive payload that causes minor damage to the target area. Mortar Ammo Bins each contain 24 rounds and may feed multiple weapons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
-  "BonusValueA": "10/4 Dmg.",
-  "BonusValueB": "30m AoE",
+  "BonusValueA": "",
+  "BonusValueB": "",
   "ComponentType": "AmmunitionBox",
   "ComponentSubType": "Ammunition",
   "PrefabIdentifier": "",

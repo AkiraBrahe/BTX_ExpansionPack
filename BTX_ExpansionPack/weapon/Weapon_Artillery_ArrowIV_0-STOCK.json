@@ -49,8 +49,8 @@
     "Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. Arrow IV launchers can be equipped with standard unguided area saturation missiles, causing massive damage to any unit within its 45-meter blast radius.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA": "",
-  "BonusValueB": "",
+  "BonusValueA": "120 AoE Dmg.",
+  "BonusValueB": "90m AoE Range",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "arrow",
@@ -108,7 +108,7 @@
       "statisticData": {
         "statName": "ReceivedInstabilityMultiplier",
         "operation": "Float_Add",
-        "modValue": "-45.0",
+        "modValue": "-40.0",
         "modType": "System.Single"
       }
     }
