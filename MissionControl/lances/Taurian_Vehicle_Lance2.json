@@ -1,0 +1,45 @@
+{
+  "lanceKey": "Taurian_Vehicle_Lance2",
+  "lanceDefId": "lancedef_taurian_vee_dynamic_battle2",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitTagSet": {
+        "items": ["unit_vehicle_apc"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitTagSet": {
+        "items": ["unit_vehicle_apc"]
+      }
+    }
+  ]
+}

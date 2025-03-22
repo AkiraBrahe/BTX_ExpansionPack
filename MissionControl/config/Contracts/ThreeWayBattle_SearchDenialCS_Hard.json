@@ -1,0 +1,33 @@
+{
+  "ID": "ThreeWayBattle_SearchDenialCS_Hard",
+  "RandomSpawns": {
+    "Enable": true
+  },
+  "HotDropProtection": {
+    "Enable": true
+  },
+  "AdditionalLances": {
+    "Enable": true,
+    "EnemyLanceCount": 1,
+    "AllyLanceCount": 1
+  },
+  "ExtendedLances": {
+    "Enable": true,
+    "TargetLanceSize": 4,
+    "EmployerLanceSize": 4,
+    "TargetAllyLanceSize": 4,
+    "EmployerAllyLanceSize": 4,
+    "HostileToAllLanceSize": 6,
+    "NeutralToAllLanceSize": 4
+  },
+  "ExtendedBoundaries": {
+    "Enable": true,
+    "IncreaseBoundarySizeByPercentage": 0.5
+  },
+  "DynamicWithdraw": {
+    "Enable": true
+  },
+  "AdditionalPlayerMechs": {
+    "Enable": true
+  }
+}

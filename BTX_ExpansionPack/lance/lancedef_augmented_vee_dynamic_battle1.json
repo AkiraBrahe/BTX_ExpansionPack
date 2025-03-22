@@ -1,7 +1,7 @@
 {
   "Description": {
     "Id": "lancedef_augmented_vee_dynamic_battle1",
-    "Name": "Augmented Vehicle Lance #1",
+    "Name": "Augmented Vehicle Lance",
     "Details": "1x command vehicle + 5x combat vehicles",
     "Icon": "",
     "Cost": 0,
@@ -62,6 +62,7 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
+          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -89,6 +90,7 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
+          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -116,6 +118,7 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
+          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "lancedef_arty_dynamic_battle1",
     "Name": "Artillery Lance",
-    "Details": "3x artillery vehicles + 1x APC",
+    "Details": "3x artillery vehicles + 1x TAG spotter",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -108,13 +108,14 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_vehicle_apc",
-          "unit_none_{CUR_TEAM.faction}"
+          "unit_vehicle_spotter"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "excludedUnitTagSet": {
-        "items": [],
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "pilotTagSet": {

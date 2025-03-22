@@ -1,0 +1,33 @@
+{
+  "lanceKey": "ComStar_Mixed_Lance2",
+  "lanceDefId": "lancedef_comstar_mixed_dynamic_battle2",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    }
+  ]
+}

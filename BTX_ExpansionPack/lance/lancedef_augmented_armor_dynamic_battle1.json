@@ -35,6 +35,7 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
+          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -62,6 +63,7 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
+          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -89,6 +91,7 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
+          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -116,6 +119,7 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
+          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"

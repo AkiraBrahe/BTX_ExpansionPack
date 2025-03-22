@@ -31,6 +31,60 @@
       },
       "RequirementComparisons": [
         {
+          "obj": "Employer.CorpKurita",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpDavion",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpLiao",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpMarik",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpSteiner",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpRasalhague",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpOutworld",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpTaurian",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.CorpMagistracy",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
           "obj": "Employer.AuriganRestoration",
           "op": "Equal",
           "val": 0,
