@@ -1,0 +1,45 @@
+{
+  "TargetIDs": [
+    "mechdef_atlas_AS7-C",
+    "mechdef_avatar_AV1-OD",
+    "mechdef_blackhawk-ku_BHKU-OX",
+    "mechdef_blackjack_BJ2-OB",
+    "mechdef_catapult_CPLT-K5",
+    "mechdef_charger_CGR-C",
+    "mechdef_crab_CRB-C",
+    "mechdef_firestarter_FS9-OB",
+    "mechdef_firestarter_FS9-OC",
+    "mechdef_firestarter_FS9-OD",
+    "mechdef_grasshopper_GHR-C",
+    "mechdef_hatamotochi_HTM-28T",
+    "mechdef_hatamotohi_HTM-C",
+    "mechdef_helios_HEL-C",
+    "mechdef_hermes_HER-4K",
+    "mechdef_jenner_JR7-C",
+    "mechdef_katana_CRK-5003-C",
+    "mechdef_kintaro_KTO-C",
+    "mechdef_kintaro_KTO-K",
+    "mechdef_mauler_MAL-C",
+    "mechdef_orion_ON1-MC",
+    "mechdef_owens_OW-1",
+    "mechdef_owens_OW-1A",
+    "mechdef_owens_OW-1B",
+    "mechdef_owens_OW-1C",
+    "mechdef_owens_OW-1D",
+    "mechdef_owens_OW-1E",
+    "mechdef_quickdraw_QKD-C",
+    "mechdef_raptor_RTX-OD",
+    "mechdef_strider_SR1-OA",
+    "mechdef_strider_SR1-OC",
+    "mechdef_strider_SR1-OD",
+    "mechdef_sunder_SD1-OC",
+    "mechdef_trebuchet_TBT-9K"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "MechTags.items",
+      "Action": "ArrayAddBefore",
+      "Value": "unit_c3_slave"
+    }
+  ]
+}

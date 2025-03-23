@@ -1,0 +1,132 @@
+{
+  "Description": {
+    "Id": "lancedef_c3_vee_dynamic_battle1",
+    "Name": "C3 Vehicle Lance",
+    "Details": "4x C3 combat vehicles",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Difficulty": -1,
+  "LanceTags": {
+    "items": [
+      "lance_type_dynamic",
+      "lance_type_dynamic_difficulty",
+      "lance_type_vehicle",
+      "lance_type_battle",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": "Tags/LanceTags, mc_force_extended_lance"
+  },
+  "LanceUnits": [
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_c3_master",
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_c3_slave",
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_c3_slave",
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_c3_slave",
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    }
+  ]
+}

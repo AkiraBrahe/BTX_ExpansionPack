@@ -3,6 +3,7 @@
     "items": [
       "mr-resize-0.6-0.6-0.45",
       "unit_vehicle",
+      "unit_vehicle_spotter",
       "unit_light",
       "unit_vtol",
       "unit_lance_vanguard",

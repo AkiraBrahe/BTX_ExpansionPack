@@ -3,6 +3,7 @@
     "items": [
       "mr-resize-0.9",
       "unit_vehicle",
+      "unit_vehicle_spotter",
       "unit_light",
       "unit_hover",
       "unit_role_ecmcarrier",

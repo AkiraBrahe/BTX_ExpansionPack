@@ -1,0 +1,16 @@
+{
+  "TargetIDs": [
+    "mechdef_atlas_AS7-CM",
+    "mechdef_avatar_AV1-OC",
+    "mechdef_cyclops_CP-11-C",
+    "mechdef_katana_CRK-5003-CM",
+    "mechdef_naginata_NG-C3A"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "MechTags.items",
+      "Action": "ArrayAddBefore",
+      "Value": "unit_c3_master"
+    }
+  ]
+}

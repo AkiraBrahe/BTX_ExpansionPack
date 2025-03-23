@@ -1,0 +1,133 @@
+{
+  "Description": {
+    "Id": "lancedef_steiner_scout_dynamic_battle1",
+    "Name": "Steiner Scout Lance",
+    "Details": "4x assault 'Mechs",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Difficulty": -1,
+  "LanceTags": {
+    "items": [
+      "lance_type_dynamic",
+      "lance_type_dynamic_difficulty",
+      "lance_type_mech",
+      "lance_type_notallvehicles",
+      "lance_type_battle",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": "Tags/LanceTags, mc_force_extended_lance"
+  },
+  "LanceUnits": [
+    {
+      "unitType": "Mech",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_assault",
+          "unit_mech"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_assault",
+          "unit_mech"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_assault",
+          "unit_mech"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_assault",
+          "unit_mech"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    }
+  ]
+}

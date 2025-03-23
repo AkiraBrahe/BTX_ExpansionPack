@@ -1,0 +1,35 @@
+{
+  "lanceKey": "C3_Mech_Lance",
+  "lanceDefId": "lancedef_c3_mech_dynamic_battle1",
+  "lanceTagSet": {
+    "items": [
+      "lance_type_battle"
+    ]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+        "items": ["unit_c3_master"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+        "items": ["unit_c3_slave"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+        "items": ["unit_c3_slave"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+        "items": ["unit_c3_slave"]
+      }
+    }
+  ]
+}

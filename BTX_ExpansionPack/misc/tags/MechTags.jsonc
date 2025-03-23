@@ -17,6 +17,11 @@
       "unit_heavy",
       "unit_assault",
 
+    /* C3 Network */
+    "unit_c3_master",
+    "unit_c3_slave",
+    "unit_c3_improved",
+    
     /* Roles */
       "unit_role_activeprobe",
       "unit_role_brawler",
@@ -56,11 +61,6 @@
       "unit_speed_low",
 
       "unit_jumpOK",
-
-    /* C3 Network */
-      "unit_c3_master",
-      "unit_c3_slave",
-      "unit_c3_improved",
 
     /* Special */
       "unit_electronicWarfare",

@@ -28,6 +28,11 @@
       "unit_heavy",
       "unit_assault",
 
+    /* C3 Network */
+    "unit_c3_master",
+    "unit_c3_slave",
+    "unit_c3_improved",
+    
     /* Roles */
       "unit_lance_vanguard",
       "unit_lance_support",
