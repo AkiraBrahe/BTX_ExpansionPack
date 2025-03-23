@@ -2,7 +2,9 @@
   "Custom": {
     "Sorter": 0,
     "Flags": [
+      "hide_equip",
       "not_broken",
+      "not_destroyed",
       "autorepair",
       "no_salvage"
     ]
