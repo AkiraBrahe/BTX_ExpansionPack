@@ -1,0 +1,15 @@
+{
+  "TargetID": "vehiclechassisdef_GOBLIN_II",
+  "Instructions": [
+    {
+      "JSONPath": "$.Locations[?(@.Location == 'Front')].Hardpoints",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ]
+    }
+  ]
+}

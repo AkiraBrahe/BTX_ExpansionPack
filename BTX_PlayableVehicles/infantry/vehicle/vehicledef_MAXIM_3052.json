@@ -1,0 +1,18 @@
+{
+  "TargetID": "vehicledef_MAXIM_3052",
+  "Instructions": [
+    {
+      "JSONPath": "inventory",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "ComponentDefID": "Weapon_Infantry_Platoon",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}

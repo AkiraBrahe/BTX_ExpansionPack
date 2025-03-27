@@ -1,0 +1,39 @@
+{
+  "TargetID": "vehicledef_SKULKER_MG",
+  "Instructions": [
+    {
+      "JSONPath": "inventory",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "ComponentDefID": "Weapon_Infantry_Squad",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        },
+        {
+          "ComponentDefID": "Weapon_Infantry_Squad",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        },
+        {
+          "ComponentDefID": "Weapon_Infantry_FireTeam",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        },
+        {
+          "ComponentDefID": "Weapon_Infantry_FireTeam",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}

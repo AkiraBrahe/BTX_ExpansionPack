@@ -1,0 +1,18 @@
+{
+  "TargetID": "vehicledef_FERRET",
+  "Instructions": [
+    {
+      "JSONPath": "inventory",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "ComponentDefID": "Weapon_Infantry_Jump_FireTeam",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}

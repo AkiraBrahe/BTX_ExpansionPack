@@ -1,0 +1,35 @@
+{
+  "TargetID": "vehiclechassisdef_BADGER-F",
+  "Instructions": [
+    {
+      "JSONPath": "$.Locations[?(@.Location == 'Front')].Hardpoints",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ]
+    }
+  ]
+}

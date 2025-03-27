@@ -1,0 +1,25 @@
+{
+  "TargetID": "vehicledef_BADGER_C-A",
+  "Instructions": [
+    {
+      "JSONPath": "inventory",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "ComponentDefID": "Weapon_Infantry_Platoon_Clan",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        },
+        {
+          "ComponentDefID": "Weapon_Infantry_Platoon_Clan",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}

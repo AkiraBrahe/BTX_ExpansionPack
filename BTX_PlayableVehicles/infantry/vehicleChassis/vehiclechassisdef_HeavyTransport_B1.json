@@ -1,0 +1,27 @@
+{
+  "TargetID": "vehiclechassisdef_HeavyTransport_B1",
+  "Instructions": [
+    {
+      "JSONPath": "$.Locations[?(@.Location == 'Front')].Hardpoints",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ]
+    }
+  ]
+}

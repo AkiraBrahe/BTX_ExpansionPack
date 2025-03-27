@@ -1,0 +1,19 @@
+{
+  "TargetID": "vehiclechassisdef_BADGER_C-A",
+  "Instructions": [
+    {
+      "JSONPath": "$.Locations[?(@.Location == 'Front')].Hardpoints",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ]
+    }
+  ]
+}

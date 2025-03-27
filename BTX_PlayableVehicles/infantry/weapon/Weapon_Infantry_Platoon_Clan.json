@@ -1,0 +1,86 @@
+{
+  "Custom": {
+    "Color": "WhiteHalf",
+    "Flags": [
+      "not_broken",
+      "not_destroyed",
+      "ignore_damage",
+      "no_salvage"
+    ]
+  },
+  "Category": "AntiPersonnel",
+  "Type": "MachineGun",
+  "WeaponSubType": "MachineGun",
+  "MinRange": 0,
+  "MaxRange": 90,
+  "RangeSplit": [
+    30,
+    60,
+    90
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 0,
+  "Damage": 1,
+  "ISDamageModifier": 2.5,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CACMinRangeAccuracyMod": -2,
+  "CACShortRangeAccuracyMod": 0,
+  "CACMediumRangeAccuracyMod": 2,
+  "CACLongRangeAccuracyMod": 4,
+  "CriticalChanceMultiplier": 0.1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 25,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 0,
+  "Instability": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+  "Description": {
+    "Cost": 586000,
+    "Rarity": 10,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "Foot Infantry",
+    "UIName": "Clan Point",
+    "Id": "Weapon_Infantry_Platoon_Clan",
+    "Name": "Clan Point",
+    "Details": "<b>Name: <color=#85DBF6>Clan Foot Point (Rifle)</color>\tSoldiers: <color=#85DBF6>25 (5/5)</color>\nPrimary Weapon: <color=#85DBF6>Modern Auto-Rifle</color>\nSecondary Weapon: <color=#85DBF6>None</color></b>\n\nA Foot Platoon deployed from an APC/Transport. These infantry are equipped for standard combat engagements and work closely with their transport vehicle.",
+    "Icon": "famas"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "MachineGun",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 2.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 1,
+  "ProjectileScale": {
+    "x": 0.5,
+    "y": 0.5,
+    "z": 0.5
+  },
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_close",
+      "BLACKLISTED",
+      "LootMagnetBlacklist",
+      "VehicleCategory-FootInfantry"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

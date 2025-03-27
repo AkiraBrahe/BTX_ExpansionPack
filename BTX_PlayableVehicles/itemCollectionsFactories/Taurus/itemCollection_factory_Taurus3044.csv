@@ -11,4 +11,7 @@ vehicledef_SLEIPNIR,Mech,0,1
 vehicledef_SLEIPNIR_LRM,Mech,0,1
 vehicledef_SLEIPNIR_ML,Mech,0,1
 vehicledef_SLEIPNIR_SRM,Mech,0,1
-vehicledef_SLEIPNIR_SRM,Mech,0,1
+vehicledef_VARGR,Mech,0,1
+vehicledef_VARGR_LL,Mech,0,1
+vehicledef_VARGR_LRM,Mech,0,1
+vehicledef_VARGR_SRM,Mech,0,1

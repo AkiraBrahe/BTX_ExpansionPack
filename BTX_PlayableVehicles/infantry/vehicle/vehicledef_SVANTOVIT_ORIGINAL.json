@@ -1,0 +1,25 @@
+{
+  "TargetID": "vehicledef_SVANTOVIT_ORIGINAL",
+  "Instructions": [
+    {
+      "JSONPath": "inventory",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "ComponentDefID": "Weapon_Infantry_Platoon_Clan",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        },
+        {
+          "ComponentDefID": "Weapon_Infantry_Platoon_Clan",
+          "ComponentDefType": "Weapon",
+          "MountedLocation": "Front",
+          "HardpointSlot": -1,
+          "DamageLevel": "Functional"
+        }
+      ]
+    }
+  ]
+}

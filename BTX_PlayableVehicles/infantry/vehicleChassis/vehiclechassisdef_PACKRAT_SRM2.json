@@ -1,0 +1,15 @@
+{
+  "TargetID": "vehiclechassisdef_PACKRAT_SRM2",
+  "Instructions": [
+    {
+      "JSONPath": "$.Locations[?(@.Location == 'Front')].Hardpoints",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ]
+    }
+  ]
+}

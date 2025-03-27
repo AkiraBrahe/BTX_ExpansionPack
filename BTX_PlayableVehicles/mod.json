@@ -3,7 +3,7 @@
   "Enabled": true,
   "Version": "1.0-alpha",
 
-  "Description": "Allow recruitment of vehicle pilots and add vehicles to the various stores.",
+  "Description": "Allow recruitment of vehicle pilots and add vehicles to the various stores.<br>Optionally, add infantry complements as weapons for APCs and VTOL transport units.",
   "Author": "lordruthermore",
 
   "DependsOn": [ "BTX_CAC_Compatibility" ],
@@ -16,5 +16,9 @@
     { "Type": "ItemCollectionDef", "Path": "itemCollectionsFactories", "AddToDB": true },
     { "Type": "PilotingClassDef", "Path": "piloting_classes" },
     { "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
+
+    { "Type": "AdvancedJSONMerge", "Path": "infantry/vehicle" },
+    { "Type": "AdvancedJSONMerge", "Path": "infantry/vehicleChassis" },
+    { "Type": "WeaponDef", "Path": "infantry/weapon", "AddToDB": true }
   ]
 }
