@@ -1,7 +1,6 @@
 {
   "Custom": {
     "Flags": [
-      "hide_equip",
       "not_broken",
       "autorepair",
       "no_salvage"

@@ -25,8 +25,8 @@
   "AOEHeatDamage": 0,
   "AOEInstability": 10,
   "CantHitUnaffecedByPathing": true,
-  "AdditionalImpactVFX": "WFX_BESmaller",
-  "AdditionalImpactVFXScaleX": 2,
-  "AdditionalImpactVFXScaleY": 2,
-  "AdditionalImpactVFXScaleZ": 2
+  "AdditionalImpactVFX": "WFX_BELarger",
+  "AdditionalImpactVFXScaleX": 1,
+  "AdditionalImpactVFXScaleY": 1,
+  "AdditionalImpactVFXScaleZ": 1
 }

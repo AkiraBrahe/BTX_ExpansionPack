@@ -19,6 +19,7 @@
           "targetingData": {
             "effectTriggerType": "Passive",
             "effectTargetType": "Creator",
+            "forceVisRebuild": true,
             "showInTargetPreview": false,
             "showInStatusPanel": true
           },
