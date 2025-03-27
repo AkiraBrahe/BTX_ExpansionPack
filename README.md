@@ -11,10 +11,12 @@ A BattleTech Extended mod that adds tons of new content, including new 'Mechs, v
 3. When updating the mod, remove the "BTX_ExpansionPack" and "BTX_PlayableVehicles" mod folders.
 4. Unpack the mod folders from the "BTX_ExpansionPack" archive into your game folder, overwriting when prompted.
 
-### Optional:
+### Optionals:
 - **To disable playable vehicles**:
   - In the `BTSimpleMechAssembly` mod.json file, change `"SalvageAndAssembleVehicles"` to `"false"`.
   - Remove these mods from your mods folder: BTX_CustomPilotDecorator, BTX_PlayableVehicles, and Lifepaths.
+- **To disable infantry complements**:
+  - In the `BTX_PlayableVehicles` mod.json file, remove or comment out the last three lines of the manifest.
 
 ## Credits
 
