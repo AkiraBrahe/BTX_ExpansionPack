@@ -84,6 +84,9 @@
 		"BaysCountExternalControl": true,
 		"baysWidgetsCount": 6,
 		"AllowVehiclesEdit": false,
+		"VehicleComponentOneAllowed": "VehicleLimited",
+		"VehicleComponentForbiddenTag": "VehicleForbidden",
+		"VehicleComponentCategoryTagPrefix": "VehicleCategory-",
 		"WeaponPrefabMappings": [
 			{
 				"PrefabIdentifier": "AC2",

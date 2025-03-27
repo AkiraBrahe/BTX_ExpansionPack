@@ -119,7 +119,9 @@
       "component_type_clan",
       "component_type_lostech",
       "range_extreme",
-      "artillery_loader_attachable"
+      "artillery_tts_attachable",
+      "artillery_loader_attachable",
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

@@ -9,5 +9,16 @@
         ]
       }
     }
+  },
+  "NoAirManeuvers": {
+    "TargetCollectionsForSearch": {
+      "Unit": {
+        "MustMatchAll": false,
+        "TargetCollectionNotMatch": [
+          "unit_lam",
+          "unit_vtol"
+        ]
+      }
+    }
   }
 }

@@ -113,7 +113,8 @@
     "items": [
       "BUILT-IN",
       "BLACKLISTED",
-      "range_extreme"
+      "range_extreme",
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

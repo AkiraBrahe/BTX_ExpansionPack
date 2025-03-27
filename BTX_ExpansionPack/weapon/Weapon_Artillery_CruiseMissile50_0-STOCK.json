@@ -123,9 +123,11 @@
       "component_type_stock",
       "component_type_lostech",
       "range_extreme",
+      "artillery_tts_attachable",
       "artillery_loader_attachable",
       "BLACKLISTED",
-      "LootMagnetBlacklist"
+      "LootMagnetBlacklist",
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

@@ -1,0 +1,85 @@
+{
+  "BonusValueA": "- LRM Ev/Indirect",
+  "BonusValueB": "+ 2 Acc.",
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 80,
+        "ticksOnMovements": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-TAG-IncomingAttBonus",
+        "Name": "TAG MARKED",
+        "Details": "When targeted by non-Clan LRMs/NLRMs, this unit's movement modifiers are ignored, and indirect fire suffers no accuracy penalty. These effects do not stack with Artemis IV or a Narc Missile Beacon.",
+        "Icon": "uixSvgIcon_statusMarked"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "statName": "TAGCount",
+        "operation": "Float_Add",
+        "modValue": "1",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 80,
+        "ticksOnMovements": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-TAG-AoEDamageMult",
+        "Name": "TAG MARKED",
+        "Details": "This unit takes [AMT] more artillery damage.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "CACAoEDamageMult",
+        "operation": "Float_Add",
+        "modValue": "0.125",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": 80,
+        "ticksOnMovements": true,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "hideApplicationFloatie": true
+      },
+      "effectType": "VFXEffect",
+      "Description": {
+        "Id": "StatusEffect-TAG-IndicatorVFX",
+        "Name": "TAG Indicator VFX",
+        "Details": "Visual indicator of the TAG effect",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "vfxData": {
+        "vfxName": "vfxPrfPrtl_TAGmarker_loop",
+        "attachToImpactPoint": true,
+        "location": -1,
+        "isAttached": true,
+        "facesAttacker": false,
+        "isOneShot": false,
+        "duration": -1.0
+      }
+    }
+  ]
+}

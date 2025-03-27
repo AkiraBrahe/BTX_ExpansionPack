@@ -27,7 +27,7 @@
     "extraAbilities": 0,
     "extraAbilitiesAllowedPerSkill": 0,
     "nonTreeAbilities": 1,
-    "cleanUpCombatUI": false,
+    "cleanUpCombatUI": true,
     "skillLockThreshold": 8,
     "usingCACabilitySelector": true,
     "usingHumanResources": false,
@@ -40,7 +40,10 @@
     "defaultTagTraitForTree": {},
     "defaultTagTraitException": "",
     "abilityReqs": {},
-    "ticksOnMovementDistanceIDs": [],
+    "ticksOnMovementDistanceIDs": [
+      "StatusEffect-TAG-IncomingAttBonus",
+      "StatusEffect-TAG-IndicatorVFX"
+    ],
     "retrainerSettings": {
       "enableRetrainer": true,
       "cost": 500000,

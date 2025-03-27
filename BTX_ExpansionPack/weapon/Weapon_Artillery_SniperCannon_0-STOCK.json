@@ -115,7 +115,9 @@
       "component_type_lostech",
       "range_long",
       "ballistic_artillery",
-      "artillery_loader_attachable"
+      "artillery_tts_attachable",
+      "artillery_loader_attachable",
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

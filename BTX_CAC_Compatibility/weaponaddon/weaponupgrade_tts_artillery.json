@@ -1,0 +1,9 @@
+{
+	"Id": "weaponupgrade_tts_artillery",
+	"autoTarget": true,
+	"installedLocationOnly": false,
+	"targetComponentTags": [
+		"artillery_tts_attachable"
+	],
+	"modes": []
+}
