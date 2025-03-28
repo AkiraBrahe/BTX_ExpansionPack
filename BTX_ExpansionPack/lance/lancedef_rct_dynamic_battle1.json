@@ -2,7 +2,7 @@
   "Description": {
     "Id": "lancedef_rct_dynamic_battle1",
     "Name": "Regimental Combat Team",
-    "Details": "2x 'Mechs + 2x combat vehicles + 2x VTOLs + 1 artillery vehicle",
+    "Details": "2x 'Mechs + 2x Combat Vehicles + 2x VTOLs + 1 Artillery Vehicle",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -34,6 +34,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -60,6 +61,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -196,7 +198,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
-          "unit_assault",
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"

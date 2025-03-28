@@ -2,7 +2,7 @@
   "Description": {
     "Id": "lancedef_comstar_mixed_dynamic_battle2",
     "Name": "ComStar Mixed Level II #2",
-    "Details": "4x 'Mechs + 2x combat vehicles",
+    "Details": "4x 'Mechs + 2x Combat Vehicles",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -34,6 +34,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -60,6 +61,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -86,6 +88,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -112,6 +115,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"

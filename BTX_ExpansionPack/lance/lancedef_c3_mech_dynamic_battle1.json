@@ -35,6 +35,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -62,6 +63,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -76,7 +78,7 @@
       }
     },
     {
-      "unitType": "Vehicle",
+      "unitType": "Mech",
       "unitId": "Tagged",
       "pilotId": "Tagged",
       "dynamicDifficulty": true,
@@ -89,6 +91,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -103,7 +106,7 @@
       }
     },
     {
-      "unitType": "Vehicle",
+      "unitType": "Mech",
       "unitId": "Tagged",
       "pilotId": "Tagged",
       "dynamicDifficulty": true,
@@ -116,6 +119,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"

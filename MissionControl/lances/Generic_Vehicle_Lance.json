@@ -6,28 +6,16 @@
   },
   "unitSpawnPointOverrideList": [
     {
-      "unitType": "Vehicle",
-      "unitExcludedTagSet": {
-        "items": ["unit_noncombatant"]
-      }
+      "unitType": "Vehicle"
     },
     {
-      "unitType": "Vehicle",
-      "unitExcludedTagSet": {
-        "items": ["unit_noncombatant"]
-      }
+      "unitType": "Vehicle"
     },
     {
-      "unitType": "Vehicle",
-      "unitExcludedTagSet": {
-        "items": ["unit_noncombatant"]
-      }
+      "unitType": "Vehicle"
     },
     {
-      "unitType": "Vehicle",
-      "unitExcludedTagSet": {
-        "items": ["unit_noncombatant"]
-      }
+      "unitType": "Vehicle"
     }
   ]
 }

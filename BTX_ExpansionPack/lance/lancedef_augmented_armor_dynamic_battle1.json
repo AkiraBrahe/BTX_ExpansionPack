@@ -2,7 +2,7 @@
   "Description": {
     "Id": "lancedef_augmented_armor_dynamic_battle1",
     "Name": "Augmented Armor Lance",
-    "Details": "4x combat vehicles + 2x 'Mechs",
+    "Details": "4x Combat Vehicles + 2x 'Mechs",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -146,6 +146,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -172,6 +173,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"

@@ -2,9 +2,7 @@
   "lanceKey": "Steiner_Scout_Lance",
   "lanceDefId": "lancedef_steiner_scout_dynamic_battle1",
   "lanceTagSet": {
-    "items": [
-      "lance_type_battle"
-    ]
+    "items": ["lance_type_battle"]
   },
   "unitSpawnPointOverrideList": [
     {

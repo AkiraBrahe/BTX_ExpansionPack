@@ -2,7 +2,7 @@
   "Description": {
     "Id": "lancedef_c3_vee_dynamic_battle1",
     "Name": "C3 Vehicle Lance",
-    "Details": "4x C3 combat vehicles",
+    "Details": "4x C3 Combat Vehicles",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -34,6 +34,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -61,6 +62,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -88,6 +90,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -115,6 +118,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"

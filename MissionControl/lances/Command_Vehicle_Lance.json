@@ -1,15 +1,15 @@
 {
-  "lanceKey": "Clan_Vehicle_Lance",
-  "lanceDefId": "lancedef_clan_vee_dynamic_battle1",
+  "lanceKey": "Command_Vehicle_Lance",
+  "lanceDefId": "lancedef_command_vee_dynamic_battle1",
   "lanceTagSet": {
     "items": ["lance_type_battle"]
   },
   "unitSpawnPointOverrideList": [
     {
-      "unitType": "Vehicle"
-    },
-    {
-      "unitType": "Vehicle"
+      "unitType": "Vehicle",
+      "unitTagSet": {
+        "items": ["unit_vehicle_mobileHQ"]
+      }
     },
     {
       "unitType": "Vehicle"
