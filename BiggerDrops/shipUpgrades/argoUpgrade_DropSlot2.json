@@ -1,0 +1,49 @@
+{
+  "Description": {
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": true,
+    "UIName": "",
+    "Id": "argoUpgrade_DropSlot2",
+    "Name": "Drop Pod Launch Systems",
+    "Details": "Adapting the Leopard for drop pod deployment is demanding. Fabricating the ablative shells and integrating launch mechanisms requires precision. If we try to insert the pod from orbit with anything less than an absolutely perfect balanced load, there's a very real chance of total pod loss. We must replace, recalibrate, and test thoroughly before deployment, Commander.",
+    "Icon": "uixSvgIcon_shipUpgrade_automation"
+  },
+  "Illustration": "uixTxrSpot_YangWorking",
+  "Location": "UNKNOWN",
+  "shipUpgradeCategoryID": "BDMechDrops",
+  "AssignedCastDefId": "castDef_SumireDefault",
+  "AssignedCastDescription": "Making sure our people can make it to the mission is the first real step to victory.",
+  "RequiredModules": {
+    "items": [
+      "argoUpgrade_DropSlot1",
+      "argoUpgrade_mechBay2"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Requirements": [],
+  "TechCost": 8,
+  "PurchaseCost": 420000,
+  "AdditionalCost": 7000,
+  "Tags": {
+    "items": [
+      "JunkyardLeopard_Dropslot2"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Stats": [
+    {
+      "typeString": "System.Int32",
+      "name": "BiggerDrops_HotDropMechSlots",
+      "value": 2,
+      "valueConstant": ""
+    },
+    {
+      "typeString": "System.Int32",
+      "name": "BiggerDrops_HotDropMechSlots_Display",
+      "value": 2,
+      "set": true,
+      "valueConstant": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Description": {
+    "Id": "SimGameStatDesc_BiggerDrops_JunkyardLeopard_Display",
+    "Name": "BiggerDrops_JunkyardLeopard_Display",
+    "Details": "",
+    "Icon": null
+  },
+  "setResult": "",
+  "positiveResult": "",
+  "negativeResult": "",
+  "temporalSetResult": "",
+  "temporalPositiveResult": "",
+  "temporalNegativeResult": "",
+  "infinitiveSetResult": "Obtain a second Leopard for deployment",
+  "infinitivePositiveResult": "",
+  "infinitiveNegativeResult": ""
+}

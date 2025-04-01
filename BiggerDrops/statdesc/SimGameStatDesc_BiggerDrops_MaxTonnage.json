@@ -1,0 +1,17 @@
+{
+  "Description": {
+    "Id": "SimGameStatDesc_BiggerDrops_MaxTonnage",
+    "Name": "BiggerDrops_MaxTonnage",
+    "Details": "",
+    "Icon": null
+  },
+  "setResult": "",
+  "positiveResult": "",
+  "negativeResult": "",
+  "temporalSetResult": "",
+  "temporalPositiveResult": "",
+  "temporalNegativeResult": "",
+  "infinitiveSetResult": "Increases max drop tonnage by {RES_VALUE.ToString} tons",
+  "infinitivePositiveResult": "",
+  "infinitiveNegativeResult": ""
+}

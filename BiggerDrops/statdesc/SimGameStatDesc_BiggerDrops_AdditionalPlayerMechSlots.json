@@ -1,0 +1,18 @@
+{
+  "Description": {
+    "Id": "SimGameStatDesc_BiggerDrops_AdditionalPlayerMechSlots",
+    "Name": "BiggerDrops_AdditionalPlayerMechSlots",
+    "Details": "",
+    "Icon": null
+  },
+  "setResult": "",
+  "positiveResult": "",
+  "negativeResult": "",
+  "temporalSetResult": "",
+  "temporalPositiveResult": "",
+  "temporalNegativeResult": "",
+  "infinitiveSetResult": "",
+  "infinitivePositiveResult": "",
+  "infinitiveNegativeResult": "",
+  "hidden": true
+}

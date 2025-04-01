@@ -1,0 +1,17 @@
+{
+  "Description": {
+    "Id": "SimGameStatDesc_BiggerDrops_AdditionalMechSlots_Display",
+    "Name": "BiggerDrops_AdditionalMechSlots_Display",
+    "Details": "",
+    "Icon": null
+  },
+  "setResult": "",
+  "positiveResult": "",
+  "negativeResult": "",
+  "temporalSetResult": "",
+  "temporalPositiveResult": "",
+  "temporalNegativeResult": "",
+  "infinitiveSetResult": "The second Leopard can deploy {RES_VALUE.ToString} BattleMechs",
+  "infinitivePositiveResult": "",
+  "infinitiveNegativeResult": ""
+}
