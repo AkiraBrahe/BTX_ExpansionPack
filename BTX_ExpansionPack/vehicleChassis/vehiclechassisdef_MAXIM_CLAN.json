@@ -12,7 +12,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_MAXIM_CLAN",
-    "Name": "Maxim-C",
+    "Name": "Maxim (Clan)",
     "Details": "<b>Name: <color=#85DBF6>Maxim Heavy Hover Transport (Clan)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>8/12 (Hover)</color>\tEngine: <color=#85DBF6>165 ICE</color></b>\n\nThe Maxim is a hover APC designed to provide cover fire for deploying infantry and to support them in the field. To that end, the Maxim is heavily armored for an APC and is outfitted with a variety of weapons.\n\nRetrofitted with Clan technology, the Maxim-C utilizes a fusion engine and lighter missile systems to free up weight for a larger array of weapons and a 6-ton infantry bay. A front-mounted LRM-15 provides adequate long range firepower, while side-mounted SRM-2s, and a turret-mounted Streak SRM-6 partnered with twin Machine Guns provides close range support. While it does not utilize the ferro-fibrous armor seen in updated IS versions of the Maxim, its seven tons of standard armor provides similar levels of protection, augmented by the use of an ECM Suite and CASE.",
     "Icon": "uixVhclIcon_maxim",
     "Cost": 2283000,

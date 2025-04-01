@@ -19,9 +19,9 @@
   "ChassisID": "vehiclechassisdef_BANDIT_C-PRIME",
   "Description": {
     "Id": "vehicledef_BANDIT_C-PRIME",
-    "Name": "Bandit (C) Hovercraft",
-    "UIName": "Bandit (C) Hovercraft PRIME",
-    "Details": "<b>Name: <color=#85DBF6>Bandit (C) Hovercraft Prime</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Bandit C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Bandit C offers valuable flexibility in its various configurations.\n\nThe first variant is similar to the standard “C” model by mounting two Streak SRM-6 launchers in the turret.",
+    "Name": "Bandit-C Hovercraft",
+    "UIName": "Bandit-C Hovercraft PRIME",
+    "Details": "<b>Name: <color=#85DBF6>Bandit-C Hovercraft Prime</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Bandit C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Bandit C offers valuable flexibility in its various configurations.\n\nThe first variant is similar to the standard “C” model by mounting two Streak SRM-6 launchers in the turret.",
     "Icon": "uixVhclIcon_bandit",
     "Cost": 3687000,
     "Rarity": 0,

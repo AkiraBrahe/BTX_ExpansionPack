@@ -20,9 +20,9 @@
   "ChassisID": "vehiclechassisdef_BADGER_C-B",
   "Description": {
     "Id": "vehicledef_BADGER_C-B",
-    "Name": "Badger (C) Tracked Transport",
-    "UIName": "Badger (C) Tracked Transport B",
-    "Details": "<b>Name: <color=#85DBF6>Badger (C) Tracked Transport B</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Badger C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Badger C offers valuable flexibility in its various configurations.\n\nThis variant carries a turret-mounted Medium Pulse Laser and Streak SRM-2.",
+    "Name": "Badger-C Tracked Transport",
+    "UIName": "Badger-C Tracked Transport B",
+    "Details": "<b>Name: <color=#85DBF6>Badger-C Tracked Transport B</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Badger C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Badger C offers valuable flexibility in its various configurations.\n\nThis variant carries a turret-mounted Medium Pulse Laser and Streak SRM-2.",
     "Icon": "uixVhclIcon_badger",
     "Cost": 1042000,
     "Rarity": 0,

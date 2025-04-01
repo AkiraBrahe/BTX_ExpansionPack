@@ -1,7 +1,7 @@
 {
   "Custom": {
     "VAssemblyVariant": {
-      "PrefabID": "Bandit (C)",
+      "PrefabID": "Bandit-C",
       "Exclude": false
     }
   },
@@ -12,8 +12,8 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_BANDIT_C-A",
-    "Name": "Bandit (C) A",
-    "Details": "<b>Name: <color=#85DBF6>Bandit (C) Hovercraft A</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Bandit C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Bandit C offers valuable flexibility in its various configurations.\n\nThe second variant mounts an ER Large Laser and a standard SRM-2 rack in the turret, with a second SRM-2 launcher fixed forward.",
+    "Name": "Bandit-C A",
+    "Details": "<b>Name: <color=#85DBF6>Bandit-C Hovercraft A</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>215 Fusion</color></b>\n\nThe Bandit C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Bandit C offers valuable flexibility in its various configurations.\n\nThe second variant mounts an ER Large Laser and a standard SRM-2 rack in the turret, with a second SRM-2 launcher fixed forward.",
     "Icon": "uixVhclIcon_bandit",
     "Cost": 3438000,
     "Rarity": 0,

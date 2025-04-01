@@ -20,9 +20,9 @@
   "ChassisID": "vehiclechassisdef_BADGER_C-C",
   "Description": {
     "Id": "vehicledef_BADGER_C-C",
-    "Name": "Badger (C) Tracked Transport",
-    "UIName": "Badger (C) Tracked Transport C",
-    "Details": "<b>Name: <color=#85DBF6>Badger (C) Tracked Transport C</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Badger C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Badger C offers valuable flexibility in its various configurations.\n\nA fire support vehicle, this version carries an LRM-10 with an ER Small Laser as a backup weapon.",
+    "Name": "Badger-C Tracked Transport",
+    "UIName": "Badger-C Tracked Transport C",
+    "Details": "<b>Name: <color=#85DBF6>Badger-C Tracked Transport C</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>6/9 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Badger C was originally a Clan design before being downgraded for the Inner Sphere by the Wolf's Dragoons. While its infantry transport role limits its use of this technology, the Badger C offers valuable flexibility in its various configurations.\n\nA fire support vehicle, this version carries an LRM-10 with an ER Small Laser as a backup weapon.",
     "Icon": "uixVhclIcon_badger",
     "Cost": 1062000,
     "Rarity": 0,
