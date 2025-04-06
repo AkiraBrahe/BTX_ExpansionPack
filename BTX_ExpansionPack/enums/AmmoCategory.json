@@ -86,6 +86,34 @@
     },
     {
       "ID": 81,
+      "Name": "AC10RF",
+      "FriendlyName": "Rapid-Fire AC/10",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC10"
+    },
+    {
+      "ID": 82,
+      "Name": "AC20RF",
+      "FriendlyName": "Rapid-Fire AC/20",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
+    },
+    {
+      "ID": 83,
       "Name": "HVAC2",
       "FriendlyName": "HVAC/2",
       "IsBallistic": true,
@@ -99,7 +127,7 @@
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC2"
     },
     {
-      "ID": 82,
+      "ID": 84,
       "Name": "HVAC5",
       "FriendlyName": "HVAC/5",
       "IsBallistic": true,
@@ -113,7 +141,7 @@
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC5"
     },
     {
-      "ID": 83,
+      "ID": 85,
       "Name": "HVAC10",
       "FriendlyName": "HVAC/10",
       "IsBallistic": true,
@@ -127,7 +155,7 @@
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_AC10"
     },
     {
-      "ID": 84,
+      "ID": 86,
       "Name": "HAG",
       "FriendlyName": "Hyper-Assault Gauss",
       "IsBallistic": true,
@@ -141,7 +169,7 @@
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
     },
     {
-      "ID": 85,
+      "ID": 87,
       "Name": "CM50",
       "FriendlyName": "Cruise Missile/50",
       "IsBallistic": false,
@@ -155,7 +183,7 @@
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
     },
     {
-      "ID": 86,
+      "ID": 88,
       "Name": "Fluid",
       "FriendlyName": "Fluid",
       "IsBallistic": false,

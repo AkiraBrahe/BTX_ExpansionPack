@@ -1,16 +1,16 @@
 {
   "Description": {
-    "Id": "Ammunition_AC2RF",
-    "Name": "Rapid-Fire AC/2 Ammo",
+    "Id": "Ammunition_AC20RF",
+    "Name": "Rapid-Fire AC/20 Ammo",
     "UIName": "Rapid-Fire",
-    "Details": "Small caliber ammunition designed for long range fire in a Rapid-Fire AC/2.",
+    "Details": "Massive rounds, designed for devastating impact, to be used in a Rapid-Fire AC/20.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
     "Purchasable": false
   },
   "Type": "Normal",
-  "Category": "AC2RF",
+  "Category": "AC20RF",
   "HeatGenerated": 0,
   "DamageMultiplier": 1,
   "InstabilityMultiplier": 1,
