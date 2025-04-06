@@ -33,6 +33,7 @@
   "AOEDamage": 75,
   "AOEHeatDamage": 0,
   "AOEInstability": 37.5,
+  "AoEDmgFalloffType": "Cubic",
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,

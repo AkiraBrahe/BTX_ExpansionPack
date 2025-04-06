@@ -26,6 +26,7 @@
   "AOEDamage": 120,
   "AOEHeatDamage": 0,
   "AOEInstability": 60,
+  "AoEDmgFalloffType": "SquareRoot",
   "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
   "ProjectileScale": {
     "x": 5,

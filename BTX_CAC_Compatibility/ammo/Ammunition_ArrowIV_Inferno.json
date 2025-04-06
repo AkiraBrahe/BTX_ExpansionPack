@@ -28,6 +28,7 @@
   "AOEDamage": 40,
   "AOEHeatDamage": 40,
   "AOEInstability": 20,
+  "AoEDmgFalloffType": "SquareRoot",
   "FireOnSuccessHit": true,
   "FireTerrainChance": 0.65,
   "FireDurationWithoutForest": 3,

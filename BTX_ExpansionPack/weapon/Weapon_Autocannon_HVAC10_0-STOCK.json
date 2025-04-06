@@ -19,6 +19,7 @@
   "DamageVariance": 0,
   "DistantVariance": 1.15,
   "DistantVarianceReversed": true,
+  "RangedDmgFalloffType": "Quadratic",
   "HeatDamage": 0,
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
@@ -43,7 +44,7 @@
     "UIName": "HVAC/10",
     "Id": "Weapon_Autocannon_HVAC10_0-STOCK",
     "Name": "HVAC/10",
-    "Details": "Hyper-Velocity Autocannons can fire much further than standard Autocannons while dealing the same amount of damage. However, to achieve the increased ballistic range, the hyper-velocity ammo is larger and uses a unique type of propellant, reducing the number of shots per ton of ammo and making the weapon prone to exploding.",
+    "Details": "Hyper-Velocity Autocannons can fire much further than standard autocannons while dealing the same amount of damage. To achieve this, hyper-velocity ammo is larger and uses a unique type of propellant, reducing the number of shots per ton of ammo and making the weapon prone to exploding. Their high velocity also amplifies their lethality at close range, boosting damage by up to 15% at minimum range.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
@@ -65,7 +66,9 @@
     "items": [
       "component_type_stock",
       "component_type_lostech",
-      "range_very-long"
+      "range_very-long",
+      "ballistic_tts_attachable",
+      "component_hvac"
     ],
     "tagSetSourceFile": ""
   }

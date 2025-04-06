@@ -1,0 +1,17 @@
+{
+  "TargetIDs": [
+    "Weapon_ATM_ATM3_0-STOCK",
+    "Weapon_ATM_ATM6_0-STOCK",
+    "Weapon_ATM_ATM9_0-STOCK",
+    "Weapon_ATM_ATM12_0-STOCK"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "IndirectFireCapable": true
+      }
+    }
+  ]
+}

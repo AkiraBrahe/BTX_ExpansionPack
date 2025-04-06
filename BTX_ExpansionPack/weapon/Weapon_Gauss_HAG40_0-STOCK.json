@@ -38,7 +38,7 @@
     "UIName": "Clan HAG/40",
     "Id": "Weapon_Gauss_HAG40_0-STOCK",
     "Name": "Clan HAG/40",
-    "Details": "The Hyper-Assault Gauss Rifle is a variation on the Gauss rifle developed by Clan Hell's Horses. Hoping to stay ahead of the increasing technological curve, it uses similar design principles to the Lyran Alliance's Heavy Gauss Rifle. To compensate for its drawbacks, however, Horse scientists used a series of capacitors and launching tubes to fire a multitude of smaller-caliber Gauss slugs. The resulting high rate of fire, akin almost to Rotary Autocannons, makes these weapons very effective against battle armor and combat vehicles.\n\nGauss Rifles explode if destroyed, taking the entire mounted location with them.",
+    "Details": "The Hyper-Assault Gauss Rifle is a variation on the Gauss rifle developed by Clan Hell's Horses. By employing multiple launch tubes and smaller-caliber Gauss slugs, HAGs achieve a high-rate-of-fire akin almost to Rotary Autocannons, making them very effective against battle armor and combat vehicles.\n\nGauss Rifles explode if destroyed, taking the entire mounted location with them.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",
@@ -60,36 +60,36 @@
       "UIName": "x1",
       "Description": "Fires 1 set of projectile.",
       "isBaseMode": false,
-      "RefireModifier": -3,
-      "HeatGenerated": -18,
-      "ShotsWhenFired": -3
+      "ShotsWhenFired": -3,
+      "AccuracyModifier": 0,
+      "HeatGenerated": -18
     },
     {
       "Id": "HAG_x2",
       "UIName": "x2",
-      "Description": "Fires 2 set of projectiles.",
+      "Description": "Fires 2 sets of projectiles with an accuracy penalty.",
       "isBaseMode": false,
-      "RefireModifier": -2,
-      "HeatGenerated": -12,
-      "ShotsWhenFired": -2
+      "ShotsWhenFired": -2,
+      "AccuracyModifier": 3,
+      "HeatGenerated": -12
     },
     {
       "Id": "HAG_x3",
       "UIName": "x3",
-      "Description": "Fires 3 set of projectiles.",
+      "Description": "Fires 3 sets of projectiles with an accuracy penalty.",
       "isBaseMode": false,
-      "RefireModifier": -1,
-      "HeatGenerated": -6,
-      "ShotsWhenFired": -1
+      "ShotsWhenFired": -1,
+      "AccuracyModifier": 3,
+      "HeatGenerated": -6
     },
     {
       "Id": "HAG_x4",
       "UIName": "x4",
-      "Description": "Fires 4 set of projectiles.",
+      "Description": "Fires 4 sets of projectiles with an accuracy penalty.",
       "isBaseMode": true,
-      "RefireModifier": 0,
-      "HeatGenerated": 0,
-      "ShotsWhenFired": 0
+      "ShotsWhenFired": 0,
+      "AccuracyModifier": 4,
+      "HeatGenerated": 0
     }
   ],
   "statusEffects": [],
@@ -99,6 +99,7 @@
       "component_type_clan",
       "component_type_lostech",
       "range_long",
+      "ballistic_tts_attachable",
       "component_hypergauss"
     ],
     "tagSetSourceFile": ""

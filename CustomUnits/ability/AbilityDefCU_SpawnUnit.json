@@ -2,7 +2,7 @@
   "Description": {
     "Id": "AbilityDefCU_SpawnUnit",
     "Name": "REQUEST HOT DROP",
-    "Details": "Request hot drop unit",
+    "Details": "ACTION: Hot drop a single unit to the target location.\r\n<i>ALT+CLICK: Hot drop the entire lance.</i>",
     "Icon": "parachute"
   },
   "ActivationTime": "ConsumedByFiring",
@@ -11,6 +11,6 @@
   "Targeting": "CommandTargetSinglePoint",
   "FloatParam1": 10,
   "IntParam1": 10,
-  "IntParam2": 90,
+  "IntParam2": 120,
   "Priority": 98
 }
