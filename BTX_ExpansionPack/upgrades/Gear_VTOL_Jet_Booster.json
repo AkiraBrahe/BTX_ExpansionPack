@@ -1,5 +1,6 @@
 {
   "Custom": {
+    "Sorter": 0,
     "Flags": [
       "not_broken",
       "autorepair",

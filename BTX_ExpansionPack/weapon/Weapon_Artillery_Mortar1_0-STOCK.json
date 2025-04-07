@@ -1,4 +1,7 @@
 {
+  "Custom": {
+    "Sorter": 2
+  },
   "Category": "Ballistic",
   "Type": "Autocannon",
   "WeaponSubType": "AC20",

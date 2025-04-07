@@ -44,7 +44,7 @@
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "14-20 dmg. (0-3 guaranteed misses)",
-  "BonusValueB": "* Ignores 4 Evasion",
+  "BonusValueB": "Ignores 4 Evasion",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "AC2",

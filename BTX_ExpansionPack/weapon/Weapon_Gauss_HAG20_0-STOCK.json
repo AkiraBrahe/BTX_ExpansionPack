@@ -1,4 +1,7 @@
 {
+  "Custom": {
+    "Sorter": 50
+  },
   "Category": "Ballistic",
   "Type": "Gauss",
   "WeaponSubType": "Gauss",

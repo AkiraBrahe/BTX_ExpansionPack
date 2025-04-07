@@ -31,5 +31,8 @@
       "component_type_stock"
     ],
     "tagSetSourceFile": ""
+  },
+  "Custom": {
+    "Sorter": 170
   }
 }

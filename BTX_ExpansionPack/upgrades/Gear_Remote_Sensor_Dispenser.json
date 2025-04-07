@@ -1,5 +1,6 @@
 {
   "Custom": {
+    "Sorter": 0,
     "ActivatableComponent": {
       "ButtonName": "Remote Sensors",
       "CanActivateAfterMove": false,

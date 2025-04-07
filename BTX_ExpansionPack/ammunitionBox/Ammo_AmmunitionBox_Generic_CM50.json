@@ -32,5 +32,8 @@
       "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
+  },
+  "Custom": {
+    "Sorter": 150
   }
 }

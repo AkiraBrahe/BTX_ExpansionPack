@@ -1,4 +1,7 @@
 {
+  "Custom": {
+    "Sorter": 2
+  },
   "Category": "Missile",
   "Type": "LRM",
   "WeaponSubType": "LRM20",

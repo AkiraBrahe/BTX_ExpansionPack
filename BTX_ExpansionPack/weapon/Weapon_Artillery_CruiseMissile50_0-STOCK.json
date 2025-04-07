@@ -1,5 +1,6 @@
 {
   "Custom": {
+    "Sorter": 2,
     "RequiresLoader": {
       "LoaderType": "CAC_C_ArtilleryLoader"
     }

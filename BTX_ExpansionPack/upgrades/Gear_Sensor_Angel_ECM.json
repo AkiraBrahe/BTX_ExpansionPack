@@ -1,5 +1,6 @@
 {
   "Custom": {
+    "Sorter": 0,
     "ActivatableComponent": {
       "ButtonName": "ECM",
       "CanActivateAfterMove": true,
