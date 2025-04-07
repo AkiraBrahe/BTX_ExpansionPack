@@ -1,0 +1,24 @@
+{
+  "TargetIDs": [
+    "mechdef_jagermech_JM6-DDa",
+    "mechdef_jagermech_JM6-S",
+    "mechdef_lancelot_LNC25-03",
+    "mechdef_rifleman_RFL-3N"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.inventory[?(@ComponentDefID == 'Weapon_Autocannon_AC5_0-STOCK')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ComponentDefID": "Weapon_Autocannon_AC5RF_0-STOCK"
+      }
+    },
+    {
+      "JSONPath": "$.inventory[?(@ComponentDefID == 'Ammo_AmmunitionBox_Generic_AC5')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5RF"
+      }
+    }
+  ]
+}

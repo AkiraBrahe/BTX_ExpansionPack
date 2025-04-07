@@ -1,0 +1,23 @@
+{
+  "TargetIDs": [
+    "mechdef_jagermech_JM6-A",
+    "mechdef_jagermech_JM6-DD",
+    "mechdef_jagermech_JM6-S"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.inventory[?(@ComponentDefID == 'Weapon_Autocannon_AC2_0-STOCK')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ComponentDefID": "Weapon_Autocannon_AC2RF_0-STOCK"
+      }
+    },
+    {
+      "JSONPath": "$.inventory[?(@ComponentDefID == 'Ammo_AmmunitionBox_Generic_AC2')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2RF"
+      }
+    }
+  ]
+}

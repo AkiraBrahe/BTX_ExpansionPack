@@ -1,0 +1,27 @@
+{
+  "TargetIDs": [
+    "mechdef_hatchetman_HCT-3F",
+    "mechdef_orion_ON1-K",
+    "mechdef_orion_ON1-V",
+    "mechdef_orion_ON1-V-DC",
+    "mechdef_orion_ON1-VA",
+    "mechdef_rifleman_RFL-3C",
+    "mechdef_rifleman_RFL-3Cr"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.inventory[?(@ComponentDefID == 'Weapon_Autocannon_AC10_0-STOCK')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ComponentDefID": "Weapon_Autocannon_AC10RF_0-STOCK"
+      }
+    },
+    {
+      "JSONPath": "$.inventory[?(@ComponentDefID == 'Ammo_AmmunitionBox_Generic_AC10')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10RF"
+      }
+    }
+  ]
+}

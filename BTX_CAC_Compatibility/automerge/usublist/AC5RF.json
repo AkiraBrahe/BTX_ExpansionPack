@@ -1,0 +1,95 @@
+{
+  "MainUpgradePath": [
+    {
+      "ID": "Weapon_Autocannon_AC5_0-STOCK",
+      "Weight": 0,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": true,
+      "AllowDowngrade": true
+    },
+    {
+      "ID": "Weapon_Autocannon_AC5RF_0-STOCK",
+      "Weight": 1,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": false,
+      "AllowDowngrade": true
+    },
+    {
+      "ID": "Weapon_Autocannon_AC5RF_1-Armstrong",
+      "Weight": 2,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": false,
+      "AllowDowngrade": false
+    },
+    {
+      "ID": "Weapon_Autocannon_AC5RF_2-Armstrong",
+      "Weight": 3,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": false,
+      "AllowDowngrade": false
+    },
+    {
+      "ID": "Weapon_Autocannon_LAC5_0-STOCK",
+      "Weight": 5,
+      "RandomLimit": 0.0,
+      "MinDate": "3065-01-01T00:00:00",
+      "ListLink": true,
+      "AllowDowngrade": false
+    },
+    {
+      "ID": "Weapon_Autocannon_LB5X_NU_0-STOCK",
+      "Weight": 5,
+      "RandomLimit": 0.0,
+      "MinDate": "3050-01-01T00:00:00",
+      "ListLink": true,
+      "AllowDowngrade": false
+    },
+    {
+      "ID": "Weapon_Autocannon_RAC5_0-STOCK",
+      "Weight": 5,
+      "RandomLimit": 0.0,
+      "MinDate": "3065-01-01T00:00:00",
+      "ListLink": true,
+      "AllowDowngrade": false
+    },
+    {
+      "ID": "Weapon_Autocannon_UAC5_NU_0-STOCK",
+      "Weight": 5,
+      "RandomLimit": 0.0,
+      "MinDate": "3050-01-01T00:00:00",
+      "ListLink": true,
+      "AllowDowngrade": false
+    },
+    {
+      "ID": "Weapon_Autocannon_LB5X_0-STOCK",
+      "Weight": 6,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": true,
+      "AllowDowngrade": false
+    },
+    {
+      "ID": "Weapon_Autocannon_UAC5_0-STOCK",
+      "Weight": 6,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": true,
+      "AllowDowngrade": false
+    }
+  ],
+  "AmmoTypes": [
+    {
+      "ID": "Ammo_AmmunitionBox_Generic_AC5RF",
+      "Weight": 1,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": false,
+      "AllowDowngrade": false
+    }
+  ],
+  "Addons": []
+}
