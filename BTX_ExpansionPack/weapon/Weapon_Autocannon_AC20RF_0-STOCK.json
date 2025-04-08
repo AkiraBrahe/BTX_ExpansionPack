@@ -19,7 +19,7 @@
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 2,
-  "DamageVariance": 10,
+  "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
@@ -40,7 +40,7 @@
     "UIName": "AC/20-RF",
     "Id": "Weapon_Autocannon_AC20RF_0-STOCK",
     "Name": "AC/20-RF",
-    "Details": "Rapid-Fire Autocannons are specialized autocannons designed for maximum rate of fire. They excel against fast-moving targets and lightly armored units, offering superior target saturation and disruption capabilities. Notably, the Rapid-Fire AC/20 variant is capable of intercepting incoming missiles within a 45-meter radius.\n\nOnly 'Mechs with advanced anti-aircraft targeting can use Rapid-Fire Autocannons.",
+    "Details": "Rapid-Fire Autocannons are specialized autocannons designed for maximum rate of fire. They excel against fast-moving targets and lightly armored units, offering superior target saturation and disruption capabilities. Notably, the Rapid-Fire AC/20 variant is capable of intercepting incoming missiles within a 70-meter radius.\n\nOnly 'Mechs with advanced anti-aircraft targeting can use Rapid-Fire Autocannons.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "60-80 Dmg. (1-2 guaranteed misses)",
@@ -66,7 +66,8 @@
       "Name": "Rapid-Fire",
       "Description": "Standard fire mode.",
       "isBaseMode": true,
-      "ShotsPerAmmo": 0.2
+      "ShotsPerAmmo": 0.2,
+      "DamageVariance": 10
     },
     {
       "Id": "AMS",
@@ -80,13 +81,12 @@
       "AMSHitChance": 0.9,
       "AMSActivationsPerTurn": 2,
       "DamagePerShot": -50,
-      "DamageVariance": -10,
       "ShotsWhenFired": 4,
       "ProjectilesPerShot": -4,
-      "ShortRange": -45,
+      "ShortRange": -65,
       "MediumRange": -135,
-      "LongRange": -225,
-      "MaxRange": -225
+      "LongRange": -200,
+      "MaxRange": -200
     },
     {
       "Id": "AMS_Plus",
@@ -102,10 +102,10 @@
       "DamagePerShot": -50,
       "ShotsWhenFired": 4,
       "ProjectilesPerShot": -4,
-      "ShortRange": -45,
+      "ShortRange": -65,
       "MediumRange": -135,
-      "LongRange": -225,
-      "MaxRange": -225
+      "LongRange": -200,
+      "MaxRange": -200
     }
   ],
   "Auras": [
@@ -113,10 +113,10 @@
       "Id": "AMS",
       "Name": "AMS",
       "ReticleColor": "red",
-      "Range": 10,
+      "Range": 90,
       "RemoveOnSensorLock": false,
       "State": "Persistent",
-      "ApplySelf": false,
+      "ApplySelf": true,
       "HideOnNotSelected": true,
       "AllyStealthAffection": "None",
       "EnemyStealthAffection": "None",
