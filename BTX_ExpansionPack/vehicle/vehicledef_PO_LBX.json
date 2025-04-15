@@ -1,0 +1,119 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.5",
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_lance_vanguard",
+      "unit_lance_tank",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_PO_LBX",
+  "Description": {
+    "Id": "vehicledef_PO_LBX",
+    "Name": "Po Heavy Tank",
+    "UIName": "Po Heavy Tank (LB-X)",
+    "Details": "<b>Name: <color=#85DBF6>Po Heavy Tank (LB-X)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Po Heavy Tank is a simple and reliable combat vehicle, often derided as a poor man's Patton/Rommel tank. It is named after the mischievous and vengeful spirit of Chinese tradition, and has become the principal combat vehicle on Capellan worlds lacking BattleMech units.\n\nFirst seen in 3069 and prevalent in CCAF \"shadow lances\", this variant upgrades the standard autocannon to an LB 10-X AC. This change frees up enough weight for an additional ton of ammunition, granting it the flexibility of both standard and cluster rounds and doubling its combat endurance.",
+    "Icon": "uixVhclIcon_po",
+    "Cost": 1436000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 160,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 160,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 160,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 160,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 170,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 170,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_LB10X_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3069-01-01T00:00:00Z"
+}

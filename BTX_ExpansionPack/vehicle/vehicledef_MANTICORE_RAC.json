@@ -1,0 +1,126 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.2",
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_lance_assassin",
+      "unit_lance_tank",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_speed_low",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MANTICORE_RAC",
+  "Description": {
+    "Id": "vehicledef_MANTICORE_RAC",
+    "Name": "Manticore Heavy Tank",
+    "UIName": "Manticore Heavy Tank (RAC)",
+    "Details": "<b>Name: <color=#85DBF6>Manticore Heavy Tank (RAC)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nThe Manticore is one of the most powerful and well-designed tanks ever created. While not matching the raw firepower of super-heavy vehicles like the Demolisher or Behemoth, its combination of heavy armor and diverse weaponry makes it a highly effective platform against most threats.\n\nAn experimental version developed in 3069 by Jalastar, this variant replaces the large pulse laser and LRM launcher with an RAC/5 and a Targeting Computer, also switching out the Streak launcher for two ER Medium Lasers.",
+    "Icon": "uixVhclIcon_manticore",
+    "Cost": 3169000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 215,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 215,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 170,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 170,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 170,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 170,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 210,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 210,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_ASRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_TAC3",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3069-01-01T00:00:00Z"
+}

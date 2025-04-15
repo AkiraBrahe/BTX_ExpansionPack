@@ -16,11 +16,11 @@
     }
   },
   "Description": {
-    "Id": "vehiclechassisdef_WARRIOR_H-8",
-    "Name": "Warrior H-8",
-    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-8</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (VTOL)</color>\tEngine: <color=#85DBF6>105 Fusion</color></b>\n\nThe Warrior attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nThe H-8 upgrade uses recovered technology to enhance the Warrior's performance. It features a fusion engine, ferro-fibrous armor, an LRM-5, and two Streak SRM-2 launchers.",
+    "Id": "vehiclechassisdef_WARRIOR_H-10",
+    "Name": "Warrior H-10",
+    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-10</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (VTOL)</color>\tEngine: <color=#85DBF6>105 Fusion</color></b>\n\nThe Warrior attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nA radical H-8 redesign, the H-10 becomes a battle armor transport by trading all weaponry for two Heavy Machine Guns and a five-ton infantry bay.",
     "Icon": "uixVhclIcon_warrior",
-    "Cost": 740000,
+    "Cost": 518000,
     "Rarity": 0,
     "Purchasable": true
   },
@@ -31,7 +31,7 @@
   "PrefabBase": "cuwarriorvtol",
   "Tonnage": 21,
   "weightClass": "LIGHT",
-  "BattleValue": 2095000,
+  "BattleValue": 900000,
   "TopSpeed": 162,
   "TurnRadius": 90,
   "movementType": "Wheeled",
@@ -84,15 +84,11 @@
       "Location": "Front",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],

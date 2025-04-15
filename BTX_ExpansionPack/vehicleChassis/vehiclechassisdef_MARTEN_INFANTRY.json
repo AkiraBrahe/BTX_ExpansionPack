@@ -1,8 +1,8 @@
 {
   "Custom": {
     "VAssemblyVariant": {
-      "PrefabID": "Warrior (Fusion)",
-      "Exclude": false
+      "PrefabID": "Marten",
+      "Exclude": true
     }
   },
   "CustomParts": {
@@ -16,23 +16,23 @@
     }
   },
   "Description": {
-    "Id": "vehiclechassisdef_WARRIOR_H-8",
-    "Name": "Warrior H-8",
-    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-8</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (VTOL)</color>\tEngine: <color=#85DBF6>105 Fusion</color></b>\n\nThe Warrior attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nThe H-8 upgrade uses recovered technology to enhance the Warrior's performance. It features a fusion engine, ferro-fibrous armor, an LRM-5, and two Streak SRM-2 launchers.",
-    "Icon": "uixVhclIcon_warrior",
-    "Cost": 740000,
+    "Id": "vehiclechassisdef_MARTEN_INFANTRY",
+    "Name": "Marten (Infantry)",
+    "Details": "<b>Name: <color=#85DBF6>Marten Scout VTOL (Infantry)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>13/20 (VTOL)</color>\tEngine: <color=#85DBF6>100 ICE</color></b>\n\nCal-Boeing's Marten Light Scout VTOL was a less fragile follow-up to their Ferret \"Wild Weasel\". Designed for light transport and recon, its high cost and the Ferret's poor reputation hindered sales despite its effectiveness.\n\nThis variant trades the missile launcher and its ammunition for an expanded three-ton infantry bay, capable of carrying two jump squads.",
+    "Icon": "uixVhclIcon_marten",
+    "Cost": 264000,
     "Rarity": 0,
     "Purchasable": true
   },
-  "MovementCapDefID": "movedef_vee_10",
+  "MovementCapDefID": "movedef_vee_13",
   "PathingCapDefID": "pathingdef_light_vtol",
   "HardpointDataDefID": "hardpointdatadef_cuwarriorvtol",
   "PrefabIdentifier": "chrprfmech_warrior_vtol",
   "PrefabBase": "cuwarriorvtol",
-  "Tonnage": 21,
+  "Tonnage": 15,
   "weightClass": "LIGHT",
-  "BattleValue": 2095000,
-  "TopSpeed": 162,
+  "BattleValue": 535000,
+  "TopSpeed": 248.4,
   "TurnRadius": 90,
   "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1,
@@ -82,23 +82,10 @@
   "Locations": [
     {
       "Location": "Front",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 70,
+      "MaxArmor": 40,
       "InternalStructure": 10
     },
     {
@@ -106,7 +93,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 50,
+      "MaxArmor": 25,
       "InternalStructure": 10
     },
     {
@@ -114,7 +101,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 50,
+      "MaxArmor": 25,
       "InternalStructure": 10
     },
     {
@@ -122,7 +109,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 40,
+      "MaxArmor": 20,
       "InternalStructure": 10
     },
     {

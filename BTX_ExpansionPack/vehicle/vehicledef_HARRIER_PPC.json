@@ -20,7 +20,7 @@
     "Id": "vehicledef_HARRIER_PPC",
     "Name": "Harrier Heavy Hover Tank",
     "UIName": "Harrier Heavy Hover Tank (PPC)",
-    "Details": "<b>Name: <color=#85DBF6>Harrier Heavy Hover Tank (PPC)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>n/a Fusion</color></b>\n\nOriginally commissioned by the SLDF for BattleMech operations, the Harrier was primarily used for cavalry and reconnaissance. The design experienced a resurgence following the Drillson's revival of fusion-powered hovercrafts and the Federated Commonwealth's capture of Carver V during the Fourth Succession War.\n\nThe Harrier gained a PPC upgrade at the expense of its lasers when the Federated Commonwealth occupied Carver V. This type is coveted by mercenaries as a striker and raider, and it remains in use.",
+    "Details": "<b>Name: <color=#85DBF6>Harrier Heavy Hover Tank (PPC)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>265 Fusion</color></b>\n\nOriginally commissioned by the SLDF for BattleMech operations, the Harrier was primarily used for cavalry and reconnaissance. The design experienced a resurgence following the Drillson's revival of fusion-powered hovercrafts and the Federated Commonwealth's capture of Carver V during the Fourth Succession War.\n\nThe Harrier gained a PPC upgrade at the expense of its lasers when the Federated Commonwealth occupied Carver V. This type is coveted by mercenaries as a striker and raider, and it remains in use.",
     "Icon": "uixVhclIcon_harrier",
     "Cost": 2841000,
     "Rarity": 0,

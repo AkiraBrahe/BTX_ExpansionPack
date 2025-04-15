@@ -1,0 +1,90 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.6",
+      "unit_vehicle",
+      "unit_light",
+      "unit_vtol",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_low",
+      "unit_speed_high",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MARTEN",
+  "Description": {
+    "Id": "vehicledef_MARTEN",
+    "Name": "Marten Light Attack VTOL",
+    "UIName": "Marten Light Attack VTOL (Standard)",
+    "Details": "<b>Name: <color=#85DBF6>Marten Scout VTOL</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>13/20 (VTOL)</color>\tEngine: <color=#85DBF6>100 Fusion</color></b>\n\nCal-Boeing's Marten Light Scout VTOL was a less fragile follow-up to their Ferret \"Wild Weasel\". Designed for light transport and recon, its high cost and the Ferret's poor reputation hindered sales despite its effectiveness.\n\nThe Marten is armed with a front-mounted SRM-2 launcher with one ton of ammunition. It also features a one-ton infantry bay and a Remote Sensor Dispenser, increasing the Marten's utility as a scout craft.",
+    "Icon": "uixVhclIcon_marten",
+    "Cost": 432000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 40,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 25,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 20,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 20,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 10,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 10,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_VTOL",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3021-01-01T00:00:00Z"
+}

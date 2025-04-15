@@ -12,9 +12,9 @@
   "Description": {
     "Id": "vehiclechassisdef_GALLEON_TAG",
     "Name": "Galleon GAL-102 (TAG)",
-    "Details": "<b>Name: <color=#85DBF6>Galleon Light Tank GAL-102 (TAG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Tracked)</color>\tEngine: <color=#85DBF6>210 Fusion</color></b>\n\nThe Galleon, a light combat vehicle first produced in 2692, served well during the Amaris Civil War as an economical means of supporting infantry and BattleMechs. It is often paired with the Harasser Missile Platform.\n\nThis variant of the Galleon, introduced the same year as the GAL-102, uses a loadout similar to the original GAL-100, but with a modern fusion engine. The expensive Beagle Active Probe and ferro-fibrous armor are replaced with even more armor and a completely different loadout consisting of a Target Acquisition Gear (TAG) and two Small Lasers.",
+    "Details": "<b>Name: <color=#85DBF6>Galleon Light Tank GAL-102 (TAG)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Tracked)</color>\tEngine: <color=#85DBF6>210 Fusion</color></b>\n\nThe Galleon, a light combat vehicle first produced in 2692, served well during the Amaris Civil War as an economical means of supporting infantry and BattleMechs. It is often paired with the Harasser Missile Platform.\n\nIntroduced the same year as the GAL-102, this Galleon variant trades the Beagle Active Probe and ferro-fibrous armor for increased standard armor and a TAG system, making it exceptionally durable for a light tank.",
     "Icon": "uixVhclIcon_galleon",
-    "Cost": 826000,
+    "Cost": 900000,
     "Rarity": 0,
     "Purchasable": true
   },
@@ -25,7 +25,7 @@
   "PrefabBase": "galleon",
   "Tonnage": 30,
   "weightClass": "LIGHT",
-  "BattleValue": 2715000,
+  "BattleValue": 3415000,
   "TopSpeed": 118.8,
   "TurnRadius": 90,
   "movementType": "Tracked",
@@ -86,7 +86,7 @@
       "Location": "Left",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -99,7 +99,7 @@
       "Location": "Right",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -119,6 +119,10 @@
     {
       "Location": "Turret",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false

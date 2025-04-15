@@ -6,8 +6,7 @@
       "unit_light",
       "unit_vtol",
       "unit_lance_support",
-      "unit_lance_assassin",
-      "unit_range_medium",
+      "unit_range_short",
       "unit_armor_medium",
       "unit_speed_high",
       "unit_release",
@@ -15,14 +14,14 @@
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "vehiclechassisdef_WARRIOR_H-8",
+  "ChassisID": "vehiclechassisdef_WARRIOR_H-10",
   "Description": {
-    "Id": "vehicledef_WARRIOR_H-8",
+    "Id": "vehicledef_WARRIOR_H-10",
     "Name": "Warrior Attack Helicopter",
-    "UIName": "Warrior Attack Helicopter H-8",
-    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-8</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (VTOL)</color>\tEngine: <color=#85DBF6>105 Fusion</color></b>\n\nThe Warrior attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nThe H-8 upgrade uses recovered technology to enhance the Warrior's performance. It features a fusion engine, ferro-fibrous armor, an LRM-5, and two Streak SRM-2 launchers.",
+    "UIName": "Warrior Attack Helicopter H-10",
+    "Details": "<b>Name: <color=#85DBF6>Warrior Attack Helicopter H-10</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (VTOL)</color>\tEngine: <color=#85DBF6>105 Fusion</color></b>\n\nThe Warrior attack helicopter is a common sight across the Inner Sphere. Once dismissed as a worthless \"flying toy\" by the Lyran High Command, it has proven to be a vital military tool, providing quick response fire support.\n\nA radical H-8 redesign, the H-10 becomes a battle armor transport by trading all weaponry for two Heavy Machine Guns and a five-ton infantry bay.",
     "Icon": "uixVhclIcon_warrior",
-    "Cost": 740000,
+    "Cost": 518000,
     "Rarity": 0,
     "Purchasable": true
   },
@@ -66,35 +65,21 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Front",
-      "HardpointSlot": 2,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Rear",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Rear",
       "HardpointSlot": -1,
@@ -108,5 +93,5 @@
       "DamageLevel": "Functional"
     }
   ],
-  "MinAppearanceDate": "3054-01-01T00:00:00Z"
+  "MinAppearanceDate": "3070-01-01T00:00:00Z"
 }
