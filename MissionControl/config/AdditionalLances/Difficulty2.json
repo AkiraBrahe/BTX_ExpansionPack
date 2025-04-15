@@ -366,19 +366,19 @@
     "FACTION:Outworld4:-100:100": [ "Generic_APC_Lance" ],
     "FACTION:Outworld5:-100:100": [ "Generic_APC_Lance" ],
 
-    "FACTION:TaurianConcordat:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordatA1:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordatA2:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordatA3:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat1:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat2:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat3:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat4:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat5:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat6:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat7:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat8:-100:100": [ "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat9:-100:100": [ "Taurian_Vehicle_Lance3" ],
+    "FACTION:TaurianConcordat:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordatA1:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordatA2:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordatA3:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat1:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat2:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat3:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat4:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat5:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat6:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat7:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat8:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat9:-100:100": [ "Generic_APC_Lance" ],
 
   /* Mercenaries */
     "FACTION:Merc1:-100:100": [ "Generic_Mixed_Lance", "Generic_Vehicle_Lance" ],
@@ -455,9 +455,9 @@
       }
   ],
   "Enemy": {
-    "Max": 0,
+    "Max": 1,
     "ExcludeContractTypes": [],
-    "ChanceToSpawn": 0,
+    "ChanceToSpawn": 0.1,
     "EliteLances": {
       "Conditions": ["IsEnemy"],
       "Suffix": "_Elite",
@@ -473,8 +473,8 @@
     "EliteLances": {
       "Conditions": ["IsAlly"],
       "Overrides": {
-        "Max": 1,
-        "ChanceToSpawn": 0.2
+        "Max": 0,
+        "ChanceToSpawn": 0
       }
     }
   }

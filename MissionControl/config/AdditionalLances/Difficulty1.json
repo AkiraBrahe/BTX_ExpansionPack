@@ -340,6 +340,46 @@
     "FACTION:Rasalhague5:-100:100": [ "Generic_Vehicle_Lance" ],
     "FACTION:Tikonov:-100:100": [ "Generic_Vehicle_Lance" ],
 
+  /* Periphery */
+    "FACTION:MagistracyOfCanopus:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopusA1:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopusA2:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopusA3:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus1:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus2:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus3:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus4:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus5:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus6:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus7:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus8:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus9:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus10:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus11:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus12:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus13:-100:100": [ "Generic_APC_Lance" ],
+
+    "FACTION:Outworld:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:Outworld1:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:Outworld2:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:Outworld3:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:Outworld4:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:Outworld5:-100:100": [ "Generic_APC_Lance" ],
+
+    "FACTION:TaurianConcordat:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordatA1:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordatA2:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordatA3:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat1:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat2:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat3:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat4:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat5:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat6:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat7:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat8:-100:100": [ "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat9:-100:100": [ "Generic_APC_Lance" ],
+
   /* Mercenaries */
     "FACTION:Merc1:-100:100": [ "Generic_Vehicle_Lance" ],
     "FACTION:Merc2:-100:100": [ "Generic_Vehicle_Lance" ],
@@ -423,7 +463,7 @@
       "Suffix": "_Elite",
       "Overrides": {
         "Max": 1,
-        "ChanceToSpawn": 0.2
+        "ChanceToSpawn": 0.15
       }
     }
   },
@@ -433,8 +473,8 @@
     "EliteLances": {
       "Conditions": ["IsAlly"],
       "Overrides": {
-        "Max": 1,
-        "ChanceToSpawn": 0.2
+        "Max": 0,
+        "ChanceToSpawn": 0
       }
     }
   }

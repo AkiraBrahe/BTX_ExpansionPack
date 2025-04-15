@@ -1,0 +1,24 @@
+{
+  "lanceKey": "Command_Battle_Lance",
+  "lanceDefId": "lancedef_command_dynamic_battle1",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech",
+      "unitTagSet": {
+        "items": ["unit_lance_support"]
+      }
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    }
+  ]
+}

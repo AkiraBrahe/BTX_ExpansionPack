@@ -340,21 +340,6 @@
     "FACTION:Rasalhague5:-100:100": [ "Generic_Battle_Lance" ],
     "FACTION:Tikonov:-100:100": [ "Generic_Battle_Lance" ],
 
-  /* Periphery */
-    "FACTION:TaurianConcordat:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordatA1:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordatA2:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordatA3:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat1:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat2:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat3:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat4:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat5:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat6:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat7:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat8:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-    "FACTION:TaurianConcordat9:-100:100": [ "Taurian_Vehicle_Lance2", "Taurian_Vehicle_Lance3" ],
-
   /* Mercenaries */
     "FACTION:Merc1:-100:100": [ "Generic_Battle_Lance" ],
     "FACTION:Merc2:-100:100": [ "Generic_Battle_Lance" ],
@@ -432,24 +417,24 @@
   "Enemy": {
     "Max": 1,
     "ExcludeContractTypes": [],
-    "ChanceToSpawn": 0.05,
+    "ChanceToSpawn": 0.12,
     "EliteLances": {
       "Conditions": ["IsEnemy"],
       "Suffix": "_Elite",
       "Overrides": {
-        "Max": 1,
+        "Max": 2,
         "ChanceToSpawn": 0.25
       }
     }
   },
   "Allies": {
-    "Max": 0,
-    "ChanceToSpawn": 0,
+    "Max": 1,
+    "ChanceToSpawn": 0.12,
     "EliteLances": {
       "Conditions": ["IsAlly"],
       "Overrides": {
         "Max": 1,
-        "ChanceToSpawn": 0.2
+        "ChanceToSpawn": 0.25
       }
     }
   }

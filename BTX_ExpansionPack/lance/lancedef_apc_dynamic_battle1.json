@@ -1,8 +1,8 @@
 {
   "Description": {
-    "Id": "lancedef_vtol_dynamic_battle1",
-    "Name": "VTOL Lance",
-    "Details": "4x VTOLs",
+    "Id": "lancedef_apc_dynamic_battle1",
+    "Name": "APC Lance",
+    "Details": "4x APCs",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -27,8 +27,7 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_light",
-          "unit_vtol"
+          "unit_vehicle_apc"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -55,8 +54,7 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_light",
-          "unit_vtol"
+          "unit_vehicle_apc"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -83,8 +81,7 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_light",
-          "unit_vtol"
+          "unit_vehicle_apc"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -111,8 +108,7 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_light",
-          "unit_vtol"
+          "unit_vehicle_apc"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },

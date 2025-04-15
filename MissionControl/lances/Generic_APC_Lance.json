@@ -1,0 +1,33 @@
+{
+  "lanceKey": "Generic_APC_Lance",
+  "lanceDefId": "lancedef_apc_dynamic_battle1",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Vehicle",
+      "unitTagSet": {
+        "items": ["unit_vehicle_apc"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitTagSet": {
+        "items": ["unit_vehicle_apc"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitTagSet": {
+        "items": ["unit_vehicle_apc"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitTagSet": {
+        "items": ["unit_vehicle_apc"]
+      }
+    }
+  ]
+}

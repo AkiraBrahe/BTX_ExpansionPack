@@ -2,7 +2,7 @@
   "Description": {
     "Id": "lancedef_command_vee_dynamic_battle1",
     "Name": "Command Vehicle Lance",
-    "Details": "1x Command Vehicle + 3x Combat Vehicles",
+    "Details": "1x Command Vehicle + 3x Elite Vehicles",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -27,14 +27,42 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_noncombatant",
           "unit_vehicle_mobileHQ",
-          "unit_vehicle"
+          "unit_noncombatant"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": true,
+      "unitTagSet": {
+        "items": [
+          "unit_vehicle",
+          "xotl_min_0.3333"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_light",
+          "unit_medium",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
@@ -56,14 +84,16 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_vehicle"
+          "unit_vehicle",
+          "xotl_min_0.3333"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_light",
+          "unit_medium",
           "unit_noncombatant",
-          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -84,42 +114,16 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_vehicle"
+          "unit_vehicle",
+          "xotl_min_0.3333"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_light",
+          "unit_medium",
           "unit_noncombatant",
-          "unit_vtol",
-          "unit_none_{CUR_TEAM.faction}"
-        ],
-        "tagSetSourceFile": "Tags/UnitTags"
-      },
-      "pilotTagSet": {
-        "items": [],
-        "tagSetSourceFile": "Tags/PilotTags"
-      },
-      "excludedPilotTagSet": {
-        "items": null,
-        "tagSetSourceFile": "Tags/PilotTags"
-      }
-    },
-    {
-      "unitType": "Vehicle",
-      "unitId": "Tagged",
-      "pilotId": "Tagged",
-      "dynamicDifficulty": true,
-      "unitTagSet": {
-        "items": [
-          "unit_vehicle"
-        ],
-        "tagSetSourceFile": "Tags/UnitTags"
-      },
-      "excludedUnitTagSet": {
-        "items": [
-          "unit_noncombatant",
-          "unit_vtol",
           "unit_none_{CUR_TEAM.faction}"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
