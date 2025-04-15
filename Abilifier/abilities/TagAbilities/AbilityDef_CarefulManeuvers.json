@@ -2,7 +2,7 @@
   "Description": {
     "Id": "AbilityDef_CarefulManeuvers",
     "Name": "CAREFUL MANEUVERS",
-    "Details": "ACTION: Brings movement to a crawl, but allows the unit to ignore all pathing and terrain restrictions for the turn in order to unstick itself from bad terrain.\r\nHas no effect on LAMs or VTOLs",
+    "Details": "ACTION: Brings movement to a crawl, but allows the unit to ignore all pathing and terrain restrictions for the turn in order to unstick itself from bad terrain.\r\n<i>No effect on LAMs or VTOLs.</i>",
     "Icon": "journey"
   },
   "ActivationTime": "ConsumedByMovement",

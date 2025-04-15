@@ -1,0 +1,16 @@
+{
+  "TargetIDs": [
+    "Weapon_RL_RL10_0-STOCK",
+    "Weapon_RL_RL15_0-STOCK",
+    "Weapon_RL_RL20_0-STOCK"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$[-1]",
+      "Action": "Arrayadd",
+      "Value": {
+        "MissBehavior": "Unguided"
+      }
+    }
+  ]
+}

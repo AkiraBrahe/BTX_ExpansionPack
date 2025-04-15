@@ -16,7 +16,8 @@
       "IndirectFireCapable": false,
       "isBaseMode": true,
       "RestrictedAmmo": [
-        "Ammunition_LRM_DF"
+				"Ammunition_LRM_DF",
+				"Ammunition_LRM_Inferno"
       ]
     },
     {

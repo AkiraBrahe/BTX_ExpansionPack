@@ -1,0 +1,114 @@
+{
+  "Custom": {
+    "ActivatableComponent": {
+      "ButtonName": "Supercharger",
+      "CanActivateAfterMove": false,
+      "CanActivateAfterFire": true,
+      "FailRoundsStart": 2,
+      "FailFlatChance": 0.15,
+      "FailChancePerTurn": 0.15,
+      "SelfCrit": true,
+      "FailCritComponents": true,
+      "FailCritLocations": [
+        "CenterTorso"
+      ],
+      "FailCritOnlyComponentsTags": [
+        "component_engine"
+      ],
+      "FailPilotingBase": 3,
+      "FailPilotingMult": 0.1,
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": false,
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "forcePathRebuild": true,
+            "forceVisRebuild": false,
+            "showInTargetPreview": true,
+            "showInStatusPanel": true
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "SuperchargerWalk",
+            "Name": "SUPERCHARGER",
+            "Details": "Supercharger doubles movement speed.",
+            "Icon": "uixSvgIcon_action_evasivemove"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "WalkSpeed",
+            "operation": "Float_Multiply",
+            "modValue": "2",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "forcePathRebuild": true,
+            "forceVisRebuild": false,
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "Description": {
+            "Id": "SuperchargerWalk",
+            "Name": "SUPERCHARGER",
+            "Details": "Supercharger doubles movement speed.",
+            "Icon": "uixSvgIcon_action_evasivemove"
+          },
+          "nature": "Buff",
+          "statisticData": {
+            "statName": "RunSpeed",
+            "operation": "Float_Multiply",
+            "modValue": "2",
+            "modType": "System.Single"
+          }
+        }
+      ]
+    }
+  },
+  "Description": {
+    "Cost": 800000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "NAIS",
+    "Model": "",
+    "UIName": "Supercharger",
+    "Id": "Gear_Supercharger_1",
+    "Name": "Supercharger",
+    "Details": "The Supercharger is a device that enhances a BattleMech's speed by temporarily exceeding the normal safe operating levels of the engine. While it can double a BattleMech's speed, prolonged use can strain and damage the engine. To minimize the risk of damage, cautious MechWarriors employ the Supercharger judiciously during combat.",
+    "Icon": "uixSvgIcon_special_Equipment"
+  },
+  "BonusValueA": "* 2 Speed",
+  "BonusValueB": "Fail chance",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Torso",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "cae_ai_explode",
+      "cae_ai_speed"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

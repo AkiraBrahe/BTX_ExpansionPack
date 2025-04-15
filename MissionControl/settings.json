@@ -9,7 +9,7 @@
   "EnableStoryOverrides": true,
   "EnableAdditionalPlayerMechsForStory": true,
   "RandomSpawns": {
-    "Enable": true,
+    "Enable": false,
     "EnableForFlashpoints": false,
     "EnableForStory": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"]
@@ -83,7 +83,7 @@
         { "Faction": "GhostBear", "DifficultyMod": 0 },
         { "Faction": "HellsHorses", "DifficultyMod": 0 },
         { "Faction": "JadeFalcon", "DifficultyMod": 0 },
-        { "Faction": "Marian", "DifficultyMod": 0 },
+        { "Faction": "Marian", "DifficultyMod": -1 },
         { "Faction": "NovaCat", "DifficultyMod": 0 },
         { "Faction": "RavenAlliance", "DifficultyMod": 0 },
         { "Faction": "SmokeJaguar", "DifficultyMod": 0 },
