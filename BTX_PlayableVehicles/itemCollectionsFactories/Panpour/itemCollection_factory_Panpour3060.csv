@@ -11,3 +11,5 @@ vehicledef_CONDOR,Mech,0,1
 vehicledef_CONDOR_DAVION,Mech,0,1
 vehicledef_CONDOR_FLAMER,Mech,0,1
 vehicledef_MANTICORE,Mech,0,1
+vehicledef_TYPHOON,Mech,0,1
+vehicledef_TYPHOON_TRACKED,Mech,0,1

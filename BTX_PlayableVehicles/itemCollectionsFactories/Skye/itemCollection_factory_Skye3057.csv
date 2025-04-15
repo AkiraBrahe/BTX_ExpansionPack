@@ -1,5 +1,7 @@
 itemCollection_factory_Skye3057,,,
 mechdef_firestarter_FS9-M,Mech,0,1
 vehicledef_MAXIM,Mech,0,1
+vehicledef_MAXIM_SRM2,Mech,0,1
+vehicledef_MAXIM_SRM4,Mech,0,1
 vehicledef_DRILLSON,Mech,0,1
 vehicledef_FULCRUM,Mech,0,1

@@ -1,0 +1,28 @@
+{
+  "factionShopOwnerID": "Davion",
+  "FactionShopItems": [
+    "itemCollection_factoryHolder_Belladonna"
+  ],
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_other_battlefield",
+      "planet_name_belladonna",
+      "planet_size_small",
+      "planet_climate_terran",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_civ_innersphere",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_industry_electronics",
+      "planet_other_comstar",
+      "planet_faction_davion",
+      "planet_other_factionhq_davion"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

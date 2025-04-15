@@ -13,5 +13,9 @@ mechdef_clint_CLNT-2-4T,Mech,0,1
 mechdef_axman_AXM-3S,Mech,0,1
 vehicledef_WARRIOR_H-7,Mech,0,1
 vehicledef_WARRIOR_H-7A,Mech,0,1
+vehicledef_WARRIOR_H-7B,Mech,0,1
 vehicledef_WARRIOR_H-7C,Mech,0,1
 vehicledef_WARRIOR_H-8,Mech,0,1
+vehicledef_SOKOL,Mech,0,1
+vehicledef_SOKOL_LRM,Mech,0,1
+vehicledef_SOKOL_PPC,Mech,0,1

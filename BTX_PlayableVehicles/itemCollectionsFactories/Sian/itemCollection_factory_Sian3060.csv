@@ -23,6 +23,8 @@ vehicledef_PEGASUS_MG,Mech,0,1
 vehicledef_PEGASUS_MISSILE,Mech,0,1
 vehicledef_PEGASUS_SENSORS,Mech,0,1
 vehicledef_MAXIM,Mech,0,1
+vehicledef_MAXIM_SRM2,Mech,0,1
+vehicledef_MAXIM_SRM4,Mech,0,1
 vehicledef_VEDETTE,Mech,0,1
 vehicledef_VEDETTE_AC2,Mech,0,1
 vehicledef_VEDETTE_AC10,Mech,0,1

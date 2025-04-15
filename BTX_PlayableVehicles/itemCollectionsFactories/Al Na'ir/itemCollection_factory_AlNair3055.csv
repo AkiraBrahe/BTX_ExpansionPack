@@ -19,7 +19,7 @@ vehicledef_SARACEN,Mech,0,1
 vehicledef_SCIMITAR,Mech,0,1
 vehicledef_SCIMITAR_MISSILE,Mech,0,1
 vehicledef_SCIMITAR_TAG,Mech,0,1
-vehicledef_MAXIM_AP,Mech,0,1
-vehicledef_MAXIM_FS,Mech,0,1
 vehicledef_MAXIM_3052,Mech,0,1
+vehicledef_MAXIM_AP,Mech,0,1
 vehicledef_MAXIM_BA,Mech,0,1
+vehicledef_MAXIM_FS,Mech,0,1

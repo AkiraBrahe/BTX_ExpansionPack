@@ -2,6 +2,10 @@ itemCollection_factory_Skye3068,,,
 vehicledef_GLAIVE,Mech,0,1
 vehicledef_GLAIVE_MFB,Mech,0,1
 vehicledef_MAXIM,Mech,0,1
+vehicledef_MAXIM_C3M,Mech,0,1
+vehicledef_MAXIM_C3S,Mech,0,1
+vehicledef_MAXIM_SRM2,Mech,0,1
+vehicledef_MAXIM_SRM4,Mech,0,1
 vehicledef_DRILLSON,Mech,0,1
 vehicledef_FULCRUM,Mech,0,1
 vehicledef_FULCRUM_II,Mech,0,1

@@ -14,3 +14,5 @@ vehicledef_SARACEN,Mech,0,1
 vehicledef_SCIMITAR,Mech,0,1
 vehicledef_SCIMITAR_MISSILE,Mech,0,1
 vehicledef_MAXIM,Mech,0,1
+vehicledef_MAXIM_SRM2,Mech,0,1
+vehicledef_MAXIM_SRM4,Mech,0,1

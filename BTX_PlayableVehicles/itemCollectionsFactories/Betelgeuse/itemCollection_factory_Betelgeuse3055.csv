@@ -10,6 +10,7 @@ vehicledef_DEMOLISHER_MG,Mech,0,1
 vehicledef_DEMOLISHER_GAUSS,Mech,0,1
 vehicledef_SCHREK,Mech,0,1
 vehicledef_SCHREK_AC,Mech,0,1
+vehicledef_SCHREK_MG,Mech,0,1
 vehicledef_BEHEMOTH,Mech,0,1
 vehicledef_BEHEMOTH_ARMOR,Mech,0,1
 vehicledef_BEHEMOTH_FLAMER,Mech,0,1
