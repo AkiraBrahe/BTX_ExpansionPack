@@ -1,0 +1,28 @@
+{
+  "Description": {
+    "Id": "Ammunition_LRM_Swarm-I",
+    "Name": "Improved Swarm LRM Ammo",
+    "UIName": "Swarm-I",
+    "Details": "Swarm-I missiles capable of homing in and striking any nearby targets if they miss their intended target.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "LRM",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "AccuracyModifier": -1,
+  "MaxMissRadius": 60,
+  "SpreadRange": 60,
+  "IgnoreCover": true,
+  "AlwaysIndirectVisuals": true,
+  "MissileHealth": 1,
+  "IFFDef": "IFFSelf"
+}

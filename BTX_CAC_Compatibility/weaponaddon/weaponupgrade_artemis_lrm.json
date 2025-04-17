@@ -17,7 +17,9 @@
 			"isBaseMode": true,
 			"RestrictedAmmo": [
 				"Ammunition_LRM_DF",
-				"Ammunition_LRM_Inferno"
+				"Ammunition_LRM_Inferno",
+				"Ammunition_LRM_Swarm",
+				"Ammunition_LRM_Swarm-I"
 			]
 		}
 	]

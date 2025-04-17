@@ -1,0 +1,25 @@
+{
+  "Description": {
+    "Id": "Ammunition_AC10AP",
+    "Name": "Armor-Piercing AC/10 Ammo",
+    "UIName": "Armor-Piercing",
+    "Details": "Large caliber armor-piercing rounds capable of dealing heavy damage and designed to be used in an AC/10.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "AC10",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "AccuracyModifier": 1,
+  "CriticalDamageModifier": 1,
+  "CriticalChanceMultiplier": 0,
+  "APArmorShardsMod": -1,
+  "APCriticalChanceMultiplier": 0.12
+}
