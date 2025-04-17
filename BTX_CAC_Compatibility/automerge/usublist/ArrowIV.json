@@ -1,0 +1,31 @@
+{
+  "MainUpgradePath": [
+    {
+      "ID": "Weapon_Artillery_ArrowIV_0-STOCK",
+      "Weight": 1,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": false,
+      "AllowDowngrade": true
+    }
+  ],
+  "AmmoTypes": [
+    {
+      "ID": "Ammo_AmmunitionBox_Generic_ArrowIV",
+      "Weight": 1,
+      "RandomLimit": 0.0,
+      "MinDate": "0001-01-01T00:00:00",
+      "ListLink": false,
+      "AllowDowngrade": false
+    },
+    {
+      "ID": "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno",
+      "Weight": 3,
+      "RandomLimit": 0.0,
+      "MinDate": "3050-01-01T00:00:00",
+      "ListLink": false,
+      "AllowDowngrade": false
+    }
+  ],
+  "Addons": []
+}
