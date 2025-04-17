@@ -10,7 +10,7 @@
     "UIName": "Armor-Piercing AC/20 Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_AC20AP",
     "Name": "Armor-Piercing AC/20 Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nArmor-piercing AC/20 Ammo Bins each contain 2 rounds and may feed multiple weapons.\n\nArmor-piercing rounds rely on improved anti-armor warheads to punch through armor and damage internal systems, at the expense of being heavier and reducing the weapon accuracy.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nArmor-piercing rounds rely on improved anti-armor warheads to punch through armor and damage internal systems, at the expense of being heavier and reducing the weapon accuracy.\n\nArmor-piercing AC/20 Ammo Bins each contain 2 rounds and may feed multiple weapons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
   "BonusValueA": "Through Armor Criticals",

@@ -18,9 +18,9 @@
       "unit_assault",
 
     /* C3 Network */
-    "unit_c3_master",
-    "unit_c3_slave",
-    "unit_c3_improved",
+      "unit_c3_master",
+      "unit_c3_slave",
+      "unit_c3_improved",
     
     /* Roles */
       "unit_role_activeprobe",
