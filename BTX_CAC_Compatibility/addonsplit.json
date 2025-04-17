@@ -163,8 +163,20 @@
 		"Link": false,
 		"WeaponType": "Upgrade"
 	},
-	"Ammo_AmmunitionBox_Generic_SRM_Inferno_Half": {
-		"WeaponId": "Ammo_AmmunitionBox_Generic_SRMInferno_Half",
+	"Ammo_AmmunitionBox_Generic_SRMInferno": {
+		"WeaponId": "Ammo_AmmunitionBox_Generic_SRM_Inferno",
+		"AddonId": null,
+		"Link": false,
+		"WeaponType": "AmmunitionBox"
+	},
+	"Ammo_AmmunitionBox_Generic_SRMInferno_Half": {
+		"WeaponId": "Ammo_AmmunitionBox_Generic_SRM_Inferno_Half",
+		"AddonId": null,
+		"Link": false,
+		"WeaponType": "AmmunitionBox"
+	},
+	"Ammo_AmmunitionBox_Generic_SRMInferno_Double": {
+		"WeaponId": "Ammo_AmmunitionBox_Generic_SRM_Inferno_Double",
 		"AddonId": null,
 		"Link": false,
 		"WeaponType": "AmmunitionBox"
@@ -174,7 +186,6 @@
 		"AddonId": null,
 		"Link": false
 	},
-
 	"Weapon_MortarCAC_LongTom": {
 		"WeaponId": "Weapon_Artillery_LongTomCannon_0-STOCK",
 		"AddonId": null,

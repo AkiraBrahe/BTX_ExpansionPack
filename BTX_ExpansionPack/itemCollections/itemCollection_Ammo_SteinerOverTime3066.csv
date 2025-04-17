@@ -28,8 +28,8 @@ Ammo_AmmunitionBox_Generic_LRM_Swarm,AmmunitionBox,1,1
 Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,3,2
 Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,2,2
 Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,1,2
-Ammo_AmmunitionBox_Generic_SRMInferno,AmmunitionBox,2,2
-Ammo_AmmunitionBox_Generic_SRMInferno,AmmunitionBox,1,2
+Ammo_AmmunitionBox_Generic_SRM_Inferno,AmmunitionBox,2,2
+Ammo_AmmunitionBox_Generic_SRM_Inferno,AmmunitionBox,1,2
 Ammo_AmmunitionBox_Generic_MG_Half,AmmunitionBox,1,4
 Ammo_AmmunitionBox_Generic_LB2X,AmmunitionBox,1,2
 Ammo_AmmunitionBox_Generic_LB5X,AmmunitionBox,1,2
