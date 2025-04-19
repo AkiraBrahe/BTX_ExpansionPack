@@ -69,11 +69,15 @@
       "CriminalRedCobraTriad": { "PrimaryFaction": "MercenariesC", "Vehicles": "Davion", "SecondaryFaction": "SteinerC", "SecondaryChance": 10.0, "TertiaryFaction": "MarikC", "TertiaryChance": 10.0 },
       "CriminalMalthus":     { "PrimaryFaction": "MercenariesC", "Vehicles": "Steiner", "SecondaryFaction": "SteinerC", "SecondaryChance": 20.0 },
       "CriminalYakuza":    { "PrimaryFaction": "MercenariesC", "Vehicles": "Kurita", "SecondaryFaction": "KuritaC", "SecondaryChance": 20.0 },
+      "PiratesAurigan": { "PrimaryFaction": "PiratesAurigan", "Vehicles": "Aurigan" },
+      "PiratesBelt": { "PrimaryFaction": "PiratesBelt", "Vehicles": "Belt" },
       "PiratesCircinus":  { "PrimaryFaction": "Circinus", "Vehicles": "Circinus" },
+      "PiratesDamned": { "PrimaryFaction": "PiratesDamned", "Vehicles": "Antallos" },
       "PiratesExtractor": { "PrimaryFaction": "Rim", "Vehicles": "Rim" },
       "PiratesMarch":   { "PrimaryFaction": "MercenariesC", "Vehicles": "ChaosMarch" },
       "PiratesMarian":  { "PrimaryFaction": "Marian", "Vehicles": "Marian" },
       "PiratesOberon":  { "PrimaryFaction": "Oberon", "Vehicles": "Oberon" },
+      "PiratesSantander": { "PrimaryFaction": "PiratesSantander", "Vehicles": "Santander" },
       "PiratesTortuga":   { "PrimaryFaction": "Tortuga", "Vehicles": "Tortuga" },
       "PiratesValkyrate": { "PrimaryFaction": "Valkyrate", "Vehicles": "Valkyrate" },
       "ChaosMarch1":  { "PrimaryFaction": "MercenariesF", "Vehicles": "Kurita" },
@@ -511,18 +515,26 @@
       "Merc123": { "PrimaryFaction": "MagistracyOfCanopus", "Vehicles": "MagistracyOfCanopus", "SecondaryFaction": "MercenariesC", "SecondaryChance": 10.0 },
       "Merc124": { "PrimaryFaction": "LiaoC", "Vehicles": "Liao", "SecondaryFaction": "MercenariesC", "SecondaryChance": 50.0 },
       "Merc125": { "PrimaryFaction": "DavionC", "Vehicles": "Davion", "SecondaryFaction": "MercenariesC", "SecondaryChance": 90.0 },
-
       "Andurien": { "PrimaryFaction": "MarikC", "Vehicles": "Marik" },
+      "BlackCalderaDefense": { "PrimaryFaction": "MarikLocals", "Vehicles": "Marik" },
+      "BlackSabbath": { "PrimaryFaction": "AuriganPirates", "Vehicles": "Pirates" },
       "BlackWidowCompany": { "PrimaryFaction": "WolfsDragoons", "Vehicles": "WolfsDragoons" },
+      "BaumannGroup": { "PrimaryFaction": "MercenariesD", "Vehicles": "Mercenaries" },
       "BountyHunterAssociates": { "PrimaryFaction": "MercenariesA", "Vehicles": "Mercenaries" },
+      "ComStarUnknown": { "PrimaryFaction": "ComStar", "Vehicles": "ComStar" },
+      "DCRecords": { "PrimaryFaction": "MercenariesF", "Vehicles": "SecurityForces" },
       "DuchyOfAndurien": { "PrimaryFaction": "MarikC", "Vehicles": "Andurien" },
       "EmeraldDawn": { "PrimaryFaction": "DavionLocals", "Vehicles": "Davion" },
+      "FirestarterRecords": { "PrimaryFaction": "MercenariesF", "Vehicles": "SecurityForces" },
+      "FlakJackals": { "PrimaryFaction": "AuriganPirates", "Vehicles": "Pirates" },
       "GrayDeathLegion": { "PrimaryFaction": "SteinerB", "Vehicles": "Steiner", "SecondaryFaction": "MercenariesB", "SecondaryChance": 10.0 },
+      "HadleyCrew": { "PrimaryFaction": "AuriganPirates", "Vehicles": "Pirates" },
       "HouseKhulan": { "PrimaryFaction": "LiaoC", "Vehicles": "Liao" },
       "HouseNakano": { "PrimaryFaction": "KuritaD", "Vehicles": "Kurita" },
       "KellHounds": { "PrimaryFaction": "DavionA", "Vehicles": "Mercenaries", "SecondaryFaction": "MercenariesA", "SecondaryChance": 10.0 },
       "MasonsMarauders": { "PrimaryFaction": "MercenariesC", "Vehicles": "Mercenaries" },
       "NewColonyRegion": { "PrimaryFaction": "FroncReaches", "Vehicles": "FroncReaches" },
+      "PaladinProtectionLLC": { "PrimaryFaction": "MercenariesF", "Vehicles": "SecurityForces" },
       "RazorbackMercs": { "PrimaryFaction": "MercenariesC", "Vehicles": "Mercenaries" },
       "RedHareRegiment": { "PrimaryFaction": "MercenariesC", "Vehicles": "Liao" },
       "SianTriumphant": { "PrimaryFaction": "DavionLocals", "Vehicles": "Davion" },
@@ -539,53 +551,61 @@
     "UnitWeightBoost": {
       "LiaoA11": {
         "mechdef_catapult_CPLT-A1": 2.0,
-        "mechdef_catapult_CPLT-C4": 2.0,
-        "mechdef_catapult_CPLT-C3": 2.0,
         "mechdef_catapult_CPLT-C1": 2.0,
+        "mechdef_catapult_CPLT-C3": 2.0,
+        "mechdef_catapult_CPLT-C4": 2.0,
         "mechdef_catapult_CPLT-C4C": 2.0,
         "mechdef_thunderbolt_TDR-5S": 2.0,
         "mechdef_thunderbolt_TDR-7M": 2.0 },
       "LiaoC11": {
         "mechdef_ostscout_OTT-7J": 2.0,
-        "mechdef_warhammer_WHM-6R": 2.0,
-        "mechdef_warhammer_WHM-6L": 2.0 },
-      "LiaoC21": {
-        "mechdef_ostscout_OTT-7J": 2.0,
-        "mechdef_warhammer_WHM-6R": 2.0,
-        "mechdef_warhammer_WHM-6L": 2.0 },
+        "mechdef_warhammer_WHM-6L": 2.0,
+        "mechdef_warhammer_WHM-6R": 2.0 },
       "LiaoC13": {
         "mechdef_ostscout_OTT-7J": 2.0 },
       "LiaoC14": {
-        "mechdef_wasp_WSP-1L": 2.0,
         "mechdef_wasp_WSP-1A": 2.0,
+        "mechdef_wasp_WSP-1L": 2.0,
         "mechdef_catapult_CPLT-A1": 4.0,
-        "mechdef_catapult_CPLT-C4": 4.0,
-        "mechdef_catapult_CPLT-C1": 4.0 },
+        "mechdef_catapult_CPLT-C1": 4.0,
+        "mechdef_catapult_CPLT-C4": 4.0 },
       "LiaoC16": {
         "mechdef_archer_ARC-2R": 2.0 },
-
       "Ives7": {
         "mechdef_archer_ARC-2R": 2.0 },
+      "LiaoC21": {
+        "mechdef_ostscout_OTT-7J": 2.0,
+        "mechdef_warhammer_WHM-6L": 2.0,
+        "mechdef_warhammer_WHM-6R": 2.0 },
 
       "MarikA10": {
         "mechdef_albatross_ALB-3U": 3.0 },
       "MarikC2": {
-        "mechdef_hermesII_HER-2S": 2.0,
         "mechdef_hermesII_HER-2M": 2.0,
+        "mechdef_hermesII_HER-2S": 2.0,
         "mechdef_hermesII_HER-5S": 2.0 },
 
+      "SteinerC27": {
+        "mechdef_firestarter_FS9-M": 2.0 },
+      "SteinerC28": {
+        "mechdef_firestarter_FS9-M": 2.0 },
+      "SteinerC29": {
+        "mechdef_firestarter_FS9-M": 2.0 },
+      "SteinerC30": {
+        "mechdef_firestarter_FS9-M": 2.0 },
+
       "Merc32": {
+        "mechdef_locust_LCT-1E": 2.0,
         "mechdef_locust_LCT-1V": 2.0,
         "mechdef_locust_LCT-3V": 2.0,
-        "mechdef_locust_LCT-1E": 2.0,
         "mechdef_ostroc_OSR-2C": 2.0,
         "mechdef_ostroc_OSR-2L": 2.0,
         "mechdef_ostroc_OSR-3C": 2.0 },
       "Merc46": {
         "mechdef_ostsol_OTL-4D": 3.0 },
       "Merc55": {
-        "mechdef_warhammer_WHM-6R": 2.0,
-        "mechdef_warhammer_WHM-6L": 2.0 },
+        "mechdef_warhammer_WHM-6L": 2.0,
+        "mechdef_warhammer_WHM-6R": 2.0 },
       "Merc119": {
         "mechdef_cossack_C-SK1": 1.5 }
     },
@@ -613,7 +633,7 @@
       "ChaosMarch7": { "DavionLocals": 3057 },
       "ChaosMarch11": { "MarikB": 3057 },
       "ChaosMarch12": { "DavionB": 3057 },
-        "ChaosMarch13": { "SteinerC": 3057 },
+      "ChaosMarch13": { "SteinerC": 3057 },
       "ChaosMarch15": { "LiaoB": 3057 },
       "Merc4": { "LiaoB": 3029 },
       "Merc8": { "LiaoLocals": 3025 },
