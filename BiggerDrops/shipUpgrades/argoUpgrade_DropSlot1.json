@@ -35,7 +35,8 @@
     {
       "typeString": "System.Int32",
       "name": "BiggerDrops_AdditionalMechSlots",
-      "value": 2,
+      "value": 4,
+      "set": true,
       "valueConstant": ""
     },
     {

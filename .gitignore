@@ -1,2 +1,9 @@
-BTX_ExpansionPack/README.md
+# Visual Studio build outputs
+.vs/
+bin/
+obj/
+
+# Mod duplicate files
 BTX_ExpansionPack/misc/overrides/*
+BTX_ExpansionPack/BTX_ExpansionPack.dll
+BTX_ExpansionPack/README.md

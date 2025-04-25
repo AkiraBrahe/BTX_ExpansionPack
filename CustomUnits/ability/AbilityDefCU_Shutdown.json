@@ -2,7 +2,7 @@
   "Description": {
     "Id": "AbilityDefCU_Shutdown",
     "Name": "SHUTDOWN",
-    "Details": "ACTION: Manually shutdown the 'Mech to prevent overheating (-[FloatParam1] heat). Skips this turn. Must reactivate on next turn.",
+    "Details": "Manually shuts down the 'Mech to prevent overheating, immediately reducing heat by [FloatParam1]. This action skips the current turn, and the 'Mech must be reactivated on the next turn.",
     "Icon": "power-button"
   },
   "ActivationTime": "ConsumedByFiring",

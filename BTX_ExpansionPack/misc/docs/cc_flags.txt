@@ -1,16 +1,16 @@
-InvUnlimited = flags.IsSet("inv_unlimited");
+InvUnlimited = flags.IsSet("inv_unlimited"); // Allows unlimited quantity of this item in inventory.
 
-Default = flags.IsSet("default");
-AutoRepair = Default || flags.IsSet("autorepair");
-NoRemove = Default || flags.IsSet("no_remove");
-NoSalvage = Default || InvUnlimited || flags.IsSet("no_salvage");
-HideFromInv = Default || flags.IsSet("hide");
+Default = flags.IsSet("default"); // Component is auto-added/removed (e.g. empty bomb bays).
+AutoRepair = Default || flags.IsSet("autorepair"); // Component automatically repairs.
+NoRemove = Default || flags.IsSet("no_remove"); // Component cannot be removed.
+NoSalvage = Default || InvUnlimited || flags.IsSet("no_salvage"); // Component cannot be salvaged.
+HideFromInv = Default || flags.IsSet("hide"); // Component is hidden from the MechLab inventory UI.
 
-HideFromEquip = flags.IsSet("hide_equip");
-HideFromCombat = flags.IsSet("hide_combat");
-NotBroken = flags.IsSet("not_broken");
-Vital = flags.IsSet("vital");
-NotDestroyed = flags.IsSet("not_destroyed");
-Invalid = flags.IsSet("invalid");
+HideFromEquip = flags.IsSet("hide_equip"); // Component cannot be logically mounted on a Mech.
+HideFromCombat = flags.IsSet("hide_combat"); // Component is hidden from combat UI and calculations.
+NotBroken = flags.IsSet("not_broken"); // Component resists any level of damage.
+Vital = flags.IsSet("vital"); // Component is critical for the Mech's functionality.
+NotDestroyed = flags.IsSet("not_destroyed"); // Component resists complete destruction.
+Invalid = flags.IsSet("invalid"); // Component has an invalid configuration or data.
 
-All items that every member of the squad share have the flags "not_broken, not_destroyed, ignore_damage, no_salvage"
+Note: All items that every member of a battle armor squad share have the flags "not_broken, not_destroyed, ignore_damage, no_salvage".

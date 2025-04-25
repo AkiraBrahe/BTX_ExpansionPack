@@ -36,7 +36,10 @@
         "stackLimit": 1
       },
       "targetingData": {
-        "effectTriggerType": "OnHit"
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "hideApplicationFloatie": true
       },
       "effectType": "StatisticEffect",
       "Description": {
@@ -61,6 +64,8 @@
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
         "hideApplicationFloatie": true
       },
       "effectType": "VFXEffect",

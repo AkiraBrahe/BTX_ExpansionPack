@@ -11,8 +11,7 @@
   "temporalSetResult": "",
   "temporalPositiveResult": "",
   "temporalNegativeResult": "",
-  "infinitiveSetResult": "",
+  "infinitiveSetResult": "Allows you to command {RES_VALUE.ToString} MechWarriors directly",
   "infinitivePositiveResult": "",
-  "infinitiveNegativeResult": "",
-  "hidden": true
+  "infinitiveNegativeResult": ""
 }

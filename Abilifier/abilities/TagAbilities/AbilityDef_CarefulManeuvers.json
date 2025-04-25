@@ -2,7 +2,7 @@
   "Description": {
     "Id": "AbilityDef_CarefulManeuvers",
     "Name": "CAREFUL MANEUVERS",
-    "Details": "ACTION: Brings movement to a crawl, but allows the unit to ignore all pathing and terrain restrictions for the turn in order to unstick itself from bad terrain.\r\n<i>No effect on LAMs or VTOLs.</i>",
+    "Details": "ACTION: Bring movement to a crawl, but allows the unit to ignore all pathing and terrain restrictions for the turn in order to unstick itself from bad terrain.\r\n<i>No effect on LAMs or VTOLs.</i>",
     "Icon": "journey"
   },
   "ActivationTime": "ConsumedByMovement",
@@ -25,7 +25,7 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-CarefulWalkReduce",
-        "Name": "Careful Maneuvering",
+        "Name": "CAREFUL MANEUVERING",
         "Details": "This unit ignores terrain bonuses and penalties this turn but has massively reduced movement.",
         "Icon": "journey"
       },
@@ -52,7 +52,7 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-CarefulRunReduce",
-        "Name": "Careful Maneuvering",
+        "Name": "CAREFUL MANEUVERING",
         "Details": "This unit ignores terrain bonuses and penalties this turn but has massively reduced movement.",
         "Icon": "journey"
       },
@@ -79,7 +79,7 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-CarefulCruiseReduce",
-        "Name": "Careful Maneuvering",
+        "Name": "CAREFUL MANEUVERING",
         "Details": "This unit ignores terrain bonuses and penalties this turn but has massively reduced movement.",
         "Icon": "journey"
       },
@@ -106,7 +106,7 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-CarefulFlankReduce",
-        "Name": "Careful Maneuvering",
+        "Name": "CAREFUL MANEUVERING",
         "Details": "This unit ignores terrain bonuses and penalties this turn but has massively reduced movement.",
         "Icon": "journey"
       },
@@ -133,7 +133,7 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-CarefulDesignIgnore",
-        "Name": "Careful Maneuvering",
+        "Name": "CAREFUL MANEUVERING",
         "Details": "This unit ignores terrain bonuses and penalties this turn but has massively reduced movement.",
         "Icon": "journey"
       },
@@ -159,7 +159,7 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-CarefulPathing",
-        "Name": "Careful Maneuvering",
+        "Name": "CAREFUL MANEUVERING",
         "Details": "This unit ignores terrain bonuses and penalties this turn but has massively reduced movement.",
         "Icon": "journey"
       },

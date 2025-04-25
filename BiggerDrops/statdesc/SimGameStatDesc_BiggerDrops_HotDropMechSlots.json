@@ -11,8 +11,7 @@
   "temporalSetResult": "",
   "temporalPositiveResult": "",
   "temporalNegativeResult": "",
-  "infinitiveSetResult": "",
+  "infinitiveSetResult": "Enables hot dropping of {RES_VALUE.ToString} BattleMechs",
   "infinitivePositiveResult": "",
-  "infinitiveNegativeResult": "",
-  "hidden": true
+  "infinitiveNegativeResult": ""
 }

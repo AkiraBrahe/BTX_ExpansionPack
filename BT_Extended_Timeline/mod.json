@@ -301,7 +301,7 @@
 
     "ShopSwitch": {
       "itemCollection_loot_FP_allianceSteiner_Mech": [3050],
-      "itemCollection_Ammo_OverTime": [3049, 3052, 3057,3058,3062,3064],
+      "itemCollection_Ammo_OverTime": [3049, 3052, 3057, 3058, 3062, 3064],
       "itemCollection_Ammo_DavionOverTime": [3035, 3040, 3043, 3049, 3051, 3053, 3054, 3055, 3058, 3059, 3062, 3063, 3064, 3066],
       "itemCollection_Ammo_KuritaOverTime": [3040, 3049, 3052, 3054, 3058, 3060, 3062, 3063, 3064, 3066],
       "itemCollection_Ammo_LiaoOverTime": [3040, 3044, 3045, 3049, 3053, 3054, 3056, 3058, 3060, 3061, 3062, 3063, 3064, 3066],

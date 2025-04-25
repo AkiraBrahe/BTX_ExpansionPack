@@ -6,8 +6,8 @@
   ],
   "Instructions": [
     {
-      "JSONPath": "$[-1]",
-      "Action": "Arrayadd",
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
       "Value": {
         "MissBehavior": "Unguided"
       }
