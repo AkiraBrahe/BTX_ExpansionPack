@@ -10,6 +10,8 @@
   "DependsOn": [ "BTX_CAC_Compatibility" ],
   "OptionallyDependsOn": [ "The_Big_Deal_Campaign_Add-on" ],
 
+  "DLL": "BTX_ExpansionPack.dll",
+  
   "DataAddendumEntries": [
     { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" }
   ],

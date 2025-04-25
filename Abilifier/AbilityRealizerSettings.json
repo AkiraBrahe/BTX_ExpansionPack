@@ -7,7 +7,8 @@
   "FactionAbilities": {},
   "TagAbilities": {
     "commander_player": [ "AbilityDef_CarefulManeuvers" ],
-    "PqMarked": [ "AbilityDef_CarefulManeuvers" ]
+    "PqMarked": [ "AbilityDef_CarefulManeuvers" ],
+    "pilot_vehicle_crew": [ "AbilityDef_MotiveRepair" ]
   },
   "SwapAIAbilities": {}
 }

@@ -1,0 +1,18 @@
+Patch Name,Patched Classes,Description
+InfernoAmmoPatches,"GetFlexDamage
+InfernoExplode
+Mech_OnActivationEnd","Improved support for Thunder-Inferno (LRM) and Arrow IV Inferno:
+- Upgraded LRMs with inferno ammo deal bonus heat damage.
+- Arrow IV inferno explosions heat calculations include AoE damage.
+- Any inferno ammo type can explode when a 'Mech overheats."
+MotiveRepair,Vehicle_OnActivationEnd,Vehicle pilots can use an ability to repair damage to their vehicle's motive systems.
+NewArmorTypes,"BlockerCategory
+BlockerDatabase ",Introduces Light and Heavy Ferro as new armor types that automatically adjust within the 'Mech.
+SpecialAmmoPatches,Mech_InitStats,Factions gain access to various specialized ammunition types over time.
+VehicleCASE,"AmmunitionBox_DamageComponent_CASE
+MechComponent_DamageComponent_CASE","Vehicles tagged with ""unit_clan"" or ""unit_vehicle_case"" are CASE-protected.
+- Ammunition/component explosions on them is directed to the rear armor (if present) and don't injure the pilot."
+VehiclePilotInjuries,"Vehicle_DamageLocation
+Mech_DamageLocation
+AmmunitionBox_DamageComponent_NoCASE
+MechComponent_DamageComponent_NoCASE",Vehicle pilots sustain a single injury for each component explosion and upon vehicle destruction.
