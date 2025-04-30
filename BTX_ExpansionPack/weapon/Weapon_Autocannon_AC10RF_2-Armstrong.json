@@ -110,17 +110,17 @@
   ],
   "Auras": [
     {
-      "Id": "AMS",
+      "Id": "RFAMS",
       "Name": "AMS",
       "ReticleColor": "red",
-      "Range": 150,
+      "Range": 115,
       "RemoveOnSensorLock": false,
-      "State": "Persistent",
-      "ApplySelf": true,
+      "State": "Online",
+      "ApplySelf": false,
       "HideOnNotSelected": true,
       "AllyStealthAffection": "None",
       "EnemyStealthAffection": "None",
-      "IsPositiveToAlly": false
+      "IsPositiveToAlly": true
     }
   ],
   "statusEffects": [],

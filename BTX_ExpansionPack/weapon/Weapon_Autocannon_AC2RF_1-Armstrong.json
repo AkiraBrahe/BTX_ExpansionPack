@@ -15,7 +15,7 @@
   "ammoCategoryID": "AC2RF",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 3,
-  "Damage": 14,
+  "Damage": 15,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 3,
@@ -67,7 +67,7 @@
       "Description": "Standard fire mode.",
       "isBaseMode": true,
       "ShotsPerAmmo": 0.1,
-      "DamageVariance": 2
+      "DamageVariance": 3
     },
     {
       "Id": "AMS",
@@ -80,7 +80,7 @@
       "AMSDamage": 2,
       "AMSHitChance": 0.9,
       "AMSActivationsPerTurn": 18,
-      "DamagePerShot": -12,
+      "DamagePerShot": -13,
       "ShotsWhenFired": 9,
       "ProjectilesPerShot": -9,
       "MinRange": -120,
@@ -100,7 +100,7 @@
       "AMSDamage": 2,
       "AMSHitChance": 0.9,
       "AMSShootsEveryAttack": true,
-      "DamagePerShot": -12,
+      "DamagePerShot": -13,
       "ShotsWhenFired": 9,
       "ProjectilesPerShot": -9,
       "MinRange": -120,
@@ -112,17 +112,17 @@
   ],
   "Auras": [
     {
-      "Id": "AMS",
+      "Id": "RFAMS",
       "Name": "AMS",
       "ReticleColor": "red",
-      "Range": 240,
+      "Range": 180,
       "RemoveOnSensorLock": false,
-      "State": "Persistent",
-      "ApplySelf": true,
+      "State": "Online",
+      "ApplySelf": false,
       "HideOnNotSelected": true,
       "AllyStealthAffection": "None",
       "EnemyStealthAffection": "None",
-      "IsPositiveToAlly": false
+      "IsPositiveToAlly": true
     }
   ],
   "statusEffects": [],
