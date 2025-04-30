@@ -10,6 +10,8 @@
       "unit_range_medium",
       "unit_armor_low",
       "unit_speed_low",
+      "NoBiome_lunarVacuum",
+      "NoBiome_martianVacuum",
       "unit_release"
     ],
     "tagSetSourceFile": ""

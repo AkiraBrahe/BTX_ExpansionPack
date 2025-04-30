@@ -1,0 +1,33 @@
+{
+  "lanceKey": "Low_Atmo_Vehicle_Lance",
+  "lanceDefId": "lancedef_latm_vee_dynamic_battle1",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["NoBiome_lunarVacuum", "NoBiome_martianVacuum"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["NoBiome_lunarVacuum", "NoBiome_martianVacuum"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["NoBiome_lunarVacuum", "NoBiome_martianVacuum"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["NoBiome_lunarVacuum", "NoBiome_martianVacuum"]
+      }
+    }
+  ]
+}

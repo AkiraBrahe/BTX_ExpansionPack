@@ -12,6 +12,8 @@
       "unit_range_medium",
       "unit_armor_medium",
       "unit_speed_high",
+      "NoBiome_lunarVacuum",
+      "NoBiome_martianVacuum",
       "unit_release",
       "unit_veepack",
       "unit_new"

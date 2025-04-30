@@ -1,6 +1,19 @@
 {
   "LancePool": {
-    "ALL": [ "Generic_VTOL_Lance" ],
+    "ALL": [],
+    "BIOME:highlandsSpring": [ "Generic_VTOL_Lance" ],
+    "BIOME:highlandsFall": [ "Generic_VTOL_Lance" ],
+    "BIOME:lowlandsSpring": [ "Generic_VTOL_Lance" ],
+    "BIOME:lowlandsFall": [ "Generic_VTOL_Lance" ],
+    "BIOME:desertParched": [ "Generic_VTOL_Lance" ],
+    "BIOME:badlandsParched": [ "Generic_VTOL_Lance" ],
+    "BIOME:lowlandsCoastal": [ "Generic_VTOL_Lance" ],
+    "BIOME:lunarVacuum": [ "Low_Atmo_Vehicle_Lance" ],
+    "BIOME:martianVacuum": [ "Low_Atmo_Vehicle_Lance" ],
+    "BIOME:polarFrozen": [ "Generic_VTOL_Lance" ],
+    "BIOME:tundraFrozen": [ "Generic_VTOL_Lance" ],
+    "BIOME:jungleTropical": [ "Generic_VTOL_Lance" ],
+    "BIOME:urbanHighTech": [ "Generic_VTOL_Lance" ],
 
     "FACTION:DiamondShark:-100:100": [ "Clan_Vehicle_Lance" ],
     "FACTION:GhostBear:-100:100": [ "Clan_Vehicle_Lance" ],

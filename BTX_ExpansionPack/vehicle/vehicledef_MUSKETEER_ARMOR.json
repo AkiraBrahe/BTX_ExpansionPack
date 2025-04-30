@@ -12,6 +12,8 @@
       "unit_armor_high",
       "unit_vehicle_case",
       "unit_speed_high",
+      "NoBiome_lunarVacuum",
+      "NoBiome_martianVacuum",
       "unit_release",
       "unit_veepack"
     ],

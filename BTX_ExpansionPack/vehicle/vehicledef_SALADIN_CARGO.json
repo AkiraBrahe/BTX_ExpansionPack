@@ -10,6 +10,8 @@
       "unit_lance_support",
       "unit_armor_low",
       "unit_speed_high",
+      "NoBiome_lunarVacuum",
+      "NoBiome_martianVacuum",
       "unit_release",
       "unit_veepack",
       "unit_new"

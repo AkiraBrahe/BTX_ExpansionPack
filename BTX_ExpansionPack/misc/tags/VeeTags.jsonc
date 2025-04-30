@@ -56,6 +56,10 @@
       "unit_speed_medium",
       "unit_speed_low",
 
+    /* Biome Restricts */
+      "NoBiome_lunarVacuum",
+      "NoBiome_martianVacuum",
+
     /* Special */
       "unit_release",
       "unit_dlc",

@@ -10,6 +10,8 @@
       "unit_range_short",
       "unit_armor_high",
       "unit_speed_low",
+      "NoBiome_lunarVacuum",
+      "NoBiome_martianVacuum",
       "unit_release",
       "unit_veepack",
       "unit_new"
