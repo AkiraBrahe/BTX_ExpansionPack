@@ -32,6 +32,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Fixes.cs" />
+    <Compile Include="Fixes\AMSAuras.cs" />
+    <Compile Include="Fixes\NoBiome.cs" />
     <Compile Include="SpecialAmmoOverTime.cs" />
     <Compile Include="VehiclePilotInjuries.cs" />
     <Compile Include="MotiveRepair.cs" />

@@ -16,10 +16,10 @@ namespace BTX_ExpansionPack
             {
                 if (applyEffects && damageLevel == ComponentDamageLevel.Destroyed && __instance.componentDef.CanExplode)
                 {
-                    if (__instance.parent is Mech parentMech && parentMech.FakeVehicle())
+                    if (__instance.parent is FakeVehicleMech vehicle)
                     {
-                        Main.Log.LogDebug($"[VehicleCASE] Parent is a fake vehicle: {parentMech.DisplayName} (ID: {parentMech.GUID})");
-                        VehicleDef vehicleDef = parentMech.MechDef?.toVehicleDef(parentMech.MechDef.DataManager);
+                        Main.Log.LogDebug($"[VehicleCASE] Parent is a fake vehicle: {vehicle.DisplayName}");
+                        VehicleDef vehicleDef = vehicle.MechDef?.toVehicleDef(vehicle.MechDef.DataManager);
                         if (vehicleDef != null)
                         {
                             bool hasClanCASE = vehicleDef.VehicleTags.Contains("unit_clan");
@@ -27,39 +27,40 @@ namespace BTX_ExpansionPack
                             if (hasClanCASE || hasISCASE)
                             {
                                 Main.Log.LogDebug($"[VehicleCASE] CASE detected for {__instance.Name}");
-                                float currentAmmo = (float)___statCollection.GetValue<int>("CurrentAmmo");
-                                int capacity = __instance.ammunitionBoxDef.Capacity;
+                                float currentAmmo = __instance.CurrentAmmo;
+                                int capacity = __instance.AmmoCapacity;
                                 if (currentAmmo / capacity >= 0.5f)
                                 {
-                                    float currentRearArmor = parentMech.GetCurrentArmor(ArmorLocation.RightArm);
-                                    float totalRearArmor = parentMech.GetMaxArmor(ArmorLocation.RightArm);
+                                    ArmorLocation rearArmorLocation = VehicleChassisLocations.Rear.toFakeArmor();
+                                    float currentRearArmor = vehicle.GetCurrentArmor(rearArmorLocation);
+                                    float totalRearArmor = vehicle.GetMaxArmor(rearArmorLocation);
                                     float damageToApply = Mathf.Min(currentRearArmor, totalRearArmor / 2f);
 
                                     if (currentRearArmor > 0)
                                     {
-                                        Main.Log.LogDebug($"[VehicleCASE] Ammo box is at least 50% full, applied {damageToApply} rear damage to {parentMech.DisplayName}.");
-                                        parentMech.ApplyArmorStatDamage(ArmorLocation.RightArm, damageToApply, hitInfo);
+                                        Main.Log.LogDebug($"[VehicleCASE] Ammo box is at least 50% full, applied {damageToApply} rear damage to {vehicle.DisplayName}.");
+                                        vehicle.ApplyArmorStatDamage(rearArmorLocation, damageToApply, hitInfo);
                                     }
 
                                     string floatieText = $"{__instance.Name} EXPLOSION CASE PROTECTED";
-                                    parentMech.Combat.MessageCenter.PublishMessage(new FloatieMessage(parentMech.GUID, parentMech.GUID, floatieText, FloatieMessage.MessageNature.CriticalHit));
+                                    vehicle.Combat.MessageCenter.PublishMessage(new FloatieMessage(vehicle.GUID, vehicle.GUID, floatieText, FloatieMessage.MessageNature.CriticalHit));
                                 }
                                 else
                                 {
-                                    Main.Log.LogDebug($"[VehicleCASE] Ammo box is less than 50% full, no rear damage applied to {parentMech.DisplayName}.");
+                                    Main.Log.LogDebug($"[VehicleCASE] Ammo box is less than 50% full, no rear damage applied to {vehicle.DisplayName}.");
                                     string floatieText = $"{__instance.Name} EXPLOSION CASE PROTECTED";
-                                    parentMech.Combat.MessageCenter.PublishMessage(new FloatieMessage(parentMech.GUID, parentMech.GUID, floatieText, FloatieMessage.MessageNature.Neutral));
+                                    vehicle.Combat.MessageCenter.PublishMessage(new FloatieMessage(vehicle.GUID, vehicle.GUID, floatieText, FloatieMessage.MessageNature.Neutral));
                                 }
                                 return false;
                             }
                             else
                             {
-                                Main.Log.LogDebug($"[VehicleCASE] No CASE detected for {parentMech.DisplayName}, allowing standard explosion and injury.");
+                                Main.Log.LogDebug($"[VehicleCASE] No CASE detected for {vehicle.DisplayName}, allowing standard explosion and injury.");
                             }
                         }
                         else
                         {
-                            Main.Log.LogWarning($"[VehicleCASE] Could not convert MechDef to VehicleDef for {parentMech.DisplayName}");
+                            Main.Log.LogWarning($"[VehicleCASE] Could not convert MechDef to VehicleDef for {vehicle.DisplayName}");
                         }
                     }
                     else
@@ -79,10 +80,10 @@ namespace BTX_ExpansionPack
             {
                 if (applyEffects && damageLevel == ComponentDamageLevel.Destroyed && __instance.componentDef.CanExplode && __instance.componentDef.ComponentType != ComponentType.AmmunitionBox)
                 {
-                    if (__instance.parent is Mech parentMech && parentMech.FakeVehicle())
+                    if (__instance.parent is FakeVehicleMech vehicle)
                     {
-                        Main.Log.LogDebug($"[VehicleCASE] Parent is a fake vehicle: {parentMech.DisplayName} (ID: {parentMech.GUID})");
-                        VehicleDef vehicleDef = parentMech.MechDef?.toVehicleDef(parentMech.MechDef.DataManager);
+                        Main.Log.LogDebug($"[VehicleCASE] Parent is a fake vehicle: {vehicle.DisplayName}");
+                        VehicleDef vehicleDef = vehicle.MechDef?.toVehicleDef(vehicle.MechDef.DataManager);
                         if (vehicleDef != null)
                         {
                             bool hasClanCASE = vehicleDef.VehicleTags.Contains("unit_clan");
@@ -90,29 +91,29 @@ namespace BTX_ExpansionPack
                             if (hasClanCASE || hasISCASE)
                             {
                                 Main.Log.LogDebug($"[VehicleCASE] CASE detected for {__instance.Name}");
-                                ArmorLocation rearArmorLocation = ArmorLocation.RightArm;
-                                float currentRearArmor = parentMech.GetCurrentArmor(rearArmorLocation);
-                                float totalRearArmor = parentMech.GetMaxArmor(rearArmorLocation);
+                                ArmorLocation rearArmorLocation = VehicleChassisLocations.Rear.toFakeArmor();
+                                float currentRearArmor = vehicle.GetCurrentArmor(rearArmorLocation);
+                                float totalRearArmor = vehicle.GetMaxArmor(rearArmorLocation);
                                 float damageToApply = Mathf.Min(currentRearArmor, totalRearArmor / 2f);
 
                                 if (currentRearArmor > 0)
                                 {
-                                    Main.Log.LogDebug($"[VehicleCASE] Applied {damageToApply} rear damage to {parentMech.DisplayName}.");
-                                    parentMech.ApplyArmorStatDamage(ArmorLocation.RightArm, damageToApply, hitInfo);
+                                    Main.Log.LogDebug($"[VehicleCASE] Applied {damageToApply} rear damage to {vehicle.DisplayName}.");
+                                    vehicle.ApplyArmorStatDamage(rearArmorLocation, damageToApply, hitInfo);
                                 }
 
                                 string floatieText = $"{__instance.Name} EXPLOSION CASE PROTECTED";
-                                parentMech.Combat.MessageCenter.PublishMessage(new FloatieMessage(parentMech.GUID, parentMech.GUID, floatieText, FloatieMessage.MessageNature.CriticalHit));
+                                vehicle.Combat.MessageCenter.PublishMessage(new FloatieMessage(vehicle.GUID, vehicle.GUID, floatieText, FloatieMessage.MessageNature.CriticalHit));
                                 return false;
                             }
                             else
                             {
-                                Main.Log.LogDebug($"[VehicleCASE] No CASE detected for {parentMech.DisplayName}, allowing standard explosion and injury.");
+                                Main.Log.LogDebug($"[VehicleCASE] No CASE detected for {vehicle.DisplayName}, allowing standard explosion and injury.");
                             }
                         }
                         else
                         {
-                            Main.Log.LogWarning($"[VehicleCASE] Could not convert MechDef to VehicleDef for {parentMech.DisplayName}");
+                            Main.Log.LogWarning($"[VehicleCASE] Could not convert MechDef to VehicleDef for {vehicle.DisplayName}");
                         }
                     }
                     else

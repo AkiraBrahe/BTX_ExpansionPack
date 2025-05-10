@@ -7,55 +7,61 @@ namespace BTX_ExpansionPack
 {
     internal class MotiveRepair
     {
-        [HarmonyPatch(typeof(Mech), "OnActivationEnd")]
-        public static class Mech_OnActivationEnd
+        [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]
+        public static class AbstractActor_OnActivationEnd
         {
             [HarmonyPrefix]
-            public static void Prefix(Mech __instance)
+            public static void Prefix(AbstractActor __instance)
             {
-                Main.Log.LogDebug($"[MotiveRepair] Prefix triggered for: {__instance.Description.UIName}");
-
-                if (__instance.FakeVehicle() && __instance.Combat.EffectManager.GetAllEffectsWithID("motiveSystemGain")
-                        .Any(effect => effect.Target == __instance))
+                if (__instance.FakeVehicle() && __instance.Combat.EffectManager.GetAllEffectsTargetingWithBaseID(__instance, "motiveSystemGain").Any())
                 {
-                    Main.Log.LogDebug($"[MotiveRepair] Custom Unit Vehicle '{__instance.Description.UIName}' has 'motiveSystemGain' effect.");
                     int removedCruiseDebuffs = 0;
                     int removedFlankDebuffs = 0;
 
-                    var motiveLossEffects = __instance.Combat.EffectManager.GetAllEffectsWithID("motiveSystemLoss")
-                        .Where(effect => effect.Target == __instance)
-                        .Concat(__instance.Combat.EffectManager.GetAllEffectsWithID("motiveSystemLossSprint")
-                            .Where(effect => effect.Target == __instance))
+                    var motiveLossEffects = __instance.Combat.EffectManager.GetAllEffectsTargeting(__instance)
+                        .Where(effect => effect.EffectData?.Description?.Id == "motiveSystemLoss" || effect.EffectData?.Description?.Id == "motiveSystemLossSprint")
                         .ToList();
 
                     foreach (Effect debuffEffect in motiveLossEffects)
                     {
-                        if (removedCruiseDebuffs < 2 && debuffEffect?.EffectData?.statisticData?.statName == "CruiseSpeed")
+                        if (removedCruiseDebuffs < 3 && debuffEffect?.EffectData?.statisticData?.statName == "CruiseSpeed")
                         {
-                            Main.Log.LogDebug($"[MotiveRepair] Removing CruiseSpeed debuff from '{__instance.Description.UIName}'.");
                             __instance.Combat.EffectManager.CancelEffect(debuffEffect, true);
                             removedCruiseDebuffs++;
                         }
-                        else if (removedFlankDebuffs < 2 && debuffEffect?.EffectData?.statisticData?.statName == "FlankSpeed")
+                        else if (removedFlankDebuffs < 3 && debuffEffect?.EffectData?.statisticData?.statName == "FlankSpeed")
                         {
-                            Main.Log.LogDebug($"[MotiveRepair] Removing FlankSpeed debuff from '{__instance.Description.UIName}'.");
                             __instance.Combat.EffectManager.CancelEffect(debuffEffect, true);
                             removedFlankDebuffs++;
                         }
-                        if (removedCruiseDebuffs >= 2 && removedFlankDebuffs >= 2)
+                        if (removedCruiseDebuffs >= 3 && removedFlankDebuffs >= 3)
                         {
-                            Main.Log.LogDebug($"[MotiveRepair] Removed max debuffs for '{__instance.Description.UIName}'.");
+                            Main.Log.LogDebug($"[MotiveRepair] Removed motive system debuffs from '{__instance.DisplayName}'.");
                             break;
                         }
                     }
                 }
-                else if (__instance.FakeVehicle())
+            }
+        }
+
+        [HarmonyPatch(typeof(Contract), "CompleteContract")]
+        public static class Contract_CompleteContract_TempFix
+        {
+            [HarmonyPrefix]
+            public static void Prefix(Contract __instance)
+            {
+                if (__instance.State == Contract.ContractState.InProgress)
                 {
-                    Main.Log.LogDebug($"[MotiveRepair] Fake Vehicle '{__instance.Description.UIName}' does not have 'motiveSystemGain' effect.");
-                }
-                else
-                {
-                    Main.Log.LogDebug($"[MotiveRepair] '{__instance.Description.UIName}' is not a fake vehicle.");
+                    var allActors = __instance.BattleTechGame.Combat.AllActors.ToList();
+                    foreach (var actor in allActors)
+                    {
+                        if (actor is Mech mech && mech.MechDef.MechTags.Contains("fake_vehicle"))
+                        {
+                            Main.Log.LogDebug($"[TempFix] Removed BEX_Motive_System components from {mech.MechDef.Description.UIName} at contract start.");
+                            mech.allComponents.RemoveAll((MechComponent mechComponent) => mechComponent.Description.Id == "Gear_BEX_MotiveSystem");
+                            mech.miscComponents.RemoveAll((MechComponent mechComponent) => mechComponent.Description.Id == "Gear_BEX_MotiveSystem");
+                        }
+                    }
                 }
             }
         }
