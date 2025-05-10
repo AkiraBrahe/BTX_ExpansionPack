@@ -605,16 +605,16 @@
     },
 
     "PirateFactions": {
-      "PiratesSantander": [77.74, 481.02],
-      "PiratesDamned": [463.23, 281.42],
-      "PiratesTortuga": [424.96, -349.83],
+      "PiratesSantander": [77.739, 481.02],
+      "PiratesDamned": [463.228, 281.417],
+      "PiratesTortuga": [421.692, -354.196],
       "PiratesAurigan": [58.73, -430.11],
-      "PiratesMarian": [-370.91, -298.4],
-      "PiratesCircinus": [-388.56, -66.82],
-      "PiratesExtractor": [-408.67, 349.65],
-      "PiratesValkyrate": [-179.6, 465.61],
-      "PiratesOberon": [-111.42, 473.25],
-      "PiratesBelt": [-83.24, 432.15]
+      "PiratesMarian": [-405.914, -298.395],
+      "PiratesCircinus": [-388.555, -66.824],
+      "PiratesExtractor": [-408.667, 349.654],
+      "PiratesValkyrate": [-179.596, 465.608],
+      "PiratesOberon": [-111.419, 473.251],
+      "PiratesBelt": [-83.24, 432.154]
     },
     "CriminalFactions": {
       "CriminalYakuza": [167.621, 250.493],

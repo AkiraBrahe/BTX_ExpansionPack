@@ -8,7 +8,7 @@
   ],
   "Instructions": [
     {
-      "JSONPath": "MechTags.items",
+      "JSONPath": "MechTags.items[2]",
       "Action": "ArrayAddBefore",
       "Value": "unit_c3_master"
     }

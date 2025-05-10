@@ -59,16 +59,16 @@
     "FileName": "",
     "Name": "DROP.BAD_BIOME.TITLE",
     "Localization": {
-      "CULTURE_EN_US": "HEY LISTEN!",
-      "CULTURE_RU_RU": "ВНИМАНИЕ"
+      "CULTURE_EN_US": "CAN'T DEPLOY {0}",
+      "CULTURE_RU_RU": "НЕВОЗМОЖНО РАЗВЕРНУТЬ {0}"
     }
   },
   {
     "FileName": "",
     "Name": "DROP.BAD_BIOME.MESSAGE",
     "Localization": {
-      "CULTURE_EN_US": "<b>Deployment blocked for: {0}</b>\n\nRemember, ICE-powered units can't operate on thin atmosphere environments like Martian or Lunar biomes. Also, keep in mind that VTOLs won't fly in Lunar biomes.",
-      "CULTURE_RU_RU": "<b>Развертывание заблокировано для: {0}</b>\n\nПомните, что машины на ДВС не могут работать в условиях разреженной атмосферы, например, в марсианских или лунных биомах. Также имейте в виду, что VTOL не будут летать в лунных биомах."
+      "CULTURE_EN_US": "Remember, ICE-powered units can't operate on thin atmosphere environments like Martian or Lunar biomes. Also keep in mind that VTOLs won't fly in Lunar biomes.",
+      "CULTURE_RU_RU": "Помните, что машины на ДВС не могут работать в условиях разреженной атмосферы, например, в марсианских или лунных биомах. Также имейте в виду, что VTOL не будут летать в лунных биомах."
     }
   }
 ]

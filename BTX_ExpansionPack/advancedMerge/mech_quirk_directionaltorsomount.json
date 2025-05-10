@@ -1,0 +1,20 @@
+{
+  "TargetIDs": [
+    "chassisdef_hussar_HSR-200-D",
+    "chassisdef_hussar_HSR-200-Db",
+    "chassisdef_hussar_HSR-300-D",
+    "chassisdef_hussar_HSR-350-D",
+    "chassisdef_hussar_HSR-400-D",
+    "chassisdef_hussar_HSR-500-D",
+    "chassisdef_marauder_MAD-1R"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "ChassisTags.items",
+      "Action": "ArrayConcat",
+      "Value": [
+        "mech_quirk_directionaltorsomount"
+      ]
+    }
+  ]
+}

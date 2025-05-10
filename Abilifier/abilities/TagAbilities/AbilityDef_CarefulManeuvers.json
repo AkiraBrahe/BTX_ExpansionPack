@@ -8,7 +8,10 @@
   "ActivationTime": "ConsumedByMovement",
   "ActivationCooldown": 0,
   "Targeting": "ActorSelf",
-  "ResolveCost": 0,
+  "RestrictedTags": [
+    "unit_lam",
+    "unit_vtol"
+  ],
   "DisplayParams": "ShowInMWTRay",
   "EffectData": [
     {

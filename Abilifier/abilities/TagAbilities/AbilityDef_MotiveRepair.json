@@ -2,15 +2,15 @@
   "Description": {
     "Id": "AbilityDef_MotiveRepair",
     "Name": "MOTIVE REPAIR",
-    "Details": "ACTION: Repair the vehicle's motive system, removing up to two stacks of MOTIVE SYSTEM DAMAGE. There is a 4 round cooldown.",
+    "Details": "ACTION: Repair the motive system, removing up to three stacks of MOTIVE SYSTEM DAMAGE. There is a 4 round cooldown.",
+    //"Details": "ACTION: Repair the vehicle's motive system, removing three stacks of MOTIVE SYSTEM DAMAGE. There is a 4 round cooldown.",
     "Icon": "spanner"
   },
   "ActivationTime": "ConsumedByMovement",
-  "Resource": "ConsumesMovement",
   "ActivationCooldown": 4,
   "Targeting": "ActorSelf",
   "RestrictedTags": [
-    "unit_vehicle"
+    "unit_mech"
   ],
   "DisplayParams": "ShowInMWTRay",
   "EffectData": [
@@ -37,7 +37,7 @@
       "statisticData": {
         "statName": "CruiseSpeed",
         "operation": "Float_Add",
-        "modValue": "0.0",
+        "modValue": "5.0",
         "modType": "System.Single"
       }
     }
