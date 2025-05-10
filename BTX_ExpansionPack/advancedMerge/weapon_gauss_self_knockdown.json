@@ -1,0 +1,42 @@
+{
+  "TargetIDs": [
+    "Weapon_Gauss_CGauss_0-STOCK",
+    "Weapon_Gauss_CGauss_1-EMRG",
+    "Weapon_Gauss_CGauss_1-Omega",
+    "Weapon_Gauss_CGauss_1-Thunderstroke",
+    "Weapon_Gauss_CGauss_2-EMRG",
+    "Weapon_Gauss_CGauss_2-Omega",
+    "Weapon_Gauss_CGauss_2-Thunderstroke",
+    "Weapon_Gauss_Gauss_0-STOCK",
+    "Weapon_Gauss_Gauss_1-M7",
+    "Weapon_Gauss_Gauss_2-M9",
+    "Weapon_Gauss_Gauss_NU_0-STOCK",
+    "Weapon_Gauss_Gauss_NU_1-Grizzard",
+    "Weapon_Gauss_Gauss_NU_1-Imperator",
+    "Weapon_Gauss_Gauss_NU_1-Kali_Yama",
+    "Weapon_Gauss_Gauss_NU_2-Grizzard",
+    "Weapon_Gauss_Gauss_NU_2-Imperator",
+    "Weapon_Gauss_Gauss_NU_2-Kali_Yama",
+    "Weapon_Gauss_Gauss_Sa_0-STOCK",
+    "Weapon_Gauss_GaussMagshot_0-STOCK",
+    "Weapon_Gauss_HeavyGauss_0-STOCK",
+    "Weapon_Gauss_HeavyGauss_1-Defiance",
+    "Weapon_Gauss_HeavyGauss_2-Defiance",
+    "Weapon_Gauss_LightGauss_0-STOCK",
+    "Weapon_Gauss_LightGauss_1-Corean",
+    "Weapon_Gauss_LightGauss_1-Imperator",
+    "Weapon_Gauss_LightGauss_1-Krupp",
+    "Weapon_Gauss_LightGauss_2-Corean",
+    "Weapon_Gauss_LightGauss_2-Imperator",
+    "Weapon_Gauss_Silver_Bullet_Gauss_0-STOCK"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.ComponentTags.items",
+      "Action": "ArrayConcat",
+      "Value": [
+        "SelfKnockdown"
+      ]
+    }
+  ]
+}

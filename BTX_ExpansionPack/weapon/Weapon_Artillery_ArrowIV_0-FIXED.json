@@ -83,41 +83,14 @@
       "ShotsWhenFired": -1
     }
   ],
-  "statusEffects": [
-    {
-      "durationData": {
-        "duration": -1,
-        "stackLimit": -1
-      },
-      "targetingData": {
-        "effectTriggerType": "OnWeaponFire",
-        "effectTargetType": "Creator",
-        "showInTargetPreview": false,
-        "showInStatusPanel": true,
-        "hideApplicationFloatie": true
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "StatusEffect-Arty-SelfKnockdown",
-        "Name": "SELF-KNOCKDOWN",
-        "Details": "Artillery fire lowers stability.",
-        "Icon": "uixSvgIcon_equipment_Gyro"
-      },
-      "nature": "Debuff",
-      "statisticData": {
-        "statName": "ReceivedInstabilityMultiplier",
-        "operation": "Float_Add",
-        "modValue": "-45.0",
-        "modType": "System.Single"
-      }
-    }
-  ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "BUILT-IN",
       "BLACKLISTED",
       "range_extreme",
-      "VehicleCategory-Artillery"
+      "VehicleCategory-Artillery",
+      "SelfKnockdown"
     ],
     "tagSetSourceFile": ""
   }
