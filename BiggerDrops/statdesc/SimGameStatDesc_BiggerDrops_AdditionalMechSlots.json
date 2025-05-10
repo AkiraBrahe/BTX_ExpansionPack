@@ -11,8 +11,7 @@
   "temporalSetResult": "",
   "temporalPositiveResult": "",
   "temporalNegativeResult": "",
-  "infinitiveSetResult": "",
+  "infinitiveSetResult": "The second Leopard can deploy {RES_VALUE.ToString} BattleMechs",
   "infinitivePositiveResult": "",
-  "infinitiveNegativeResult": "",
-  "hidden": true
+  "infinitiveNegativeResult": ""
 }

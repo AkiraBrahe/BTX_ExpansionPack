@@ -34,13 +34,6 @@
   "Stats": [
     {
       "typeString": "System.Int32",
-      "name": "BiggerDrops_AdditionalMechSlots",
-      "value": 4,
-      "set": true,
-      "valueConstant": ""
-    },
-    {
-      "typeString": "System.Int32",
       "name": "BiggerDrops_HotDropMechSlots",
       "value": 4,
       "set": true,
