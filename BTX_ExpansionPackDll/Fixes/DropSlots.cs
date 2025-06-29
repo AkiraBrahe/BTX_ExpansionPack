@@ -1,87 +1,89 @@
-﻿using System;
-using System.Linq;
-using BattleTech;
+﻿using BattleTech;
 using BiggerDrops.Features;
-using HarmonyLib;
+using System;
+using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
 {
     internal class DropSlots
     {
-        public static int GetUpgradeStat(SimGameState simState, string upgradeStat)
+        [HarmonyPatch]
+        public static void Patch(Harmony harmony)
         {
-            int maxValue = 0;
-
-            foreach (ShipModuleUpgrade shipModuleUpgrade in simState.ShipUpgrades)
-            {
-                if (simState.HasShipUpgrade(shipModuleUpgrade.Description.Id, null))
-                {
-                    foreach (SimGameStat simGameStat in shipModuleUpgrade.Stats)
-                    {
-                        if (simGameStat.name == upgradeStat && simGameStat.set)
-                        {
-                            int currentValue = simGameStat.ToInt();
-                            if (currentValue > maxValue)
-                            {
-                                maxValue = currentValue;
-                            }
-                        }
-                    }
-                }
-            }
-            return maxValue;
+            HarmonyMethod postfixMethod = new(AccessTools.DeclaredMethod(typeof(DropSlots), "Postfix")) { after = ["de.morphyum.BiggerDrops"] };
+            harmony.Patch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), null, postfixMethod, null);
+            harmony.Patch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), null, postfixMethod, null);
         }
+
+        private const string BaseMechSlotsStat = "BiggerDrops_BaseMechSlots";
+        private const string AdditionalMechSlotsStat = "BiggerDrops_AdditionalMechSlots";
+        private const string HotDropMechSlotsStat = "BiggerDrops_HotDropMechSlots";
 
         public static void Postfix(SimGameState __instance)
         {
-            bool flag = false;
-            bool BroadswordModIsActive = AppDomain.CurrentDomain.GetAssemblies().Any(asm => asm.FullName.Equals("BroadswordDropShip"));
+            bool updated = false;
+            bool BroadswordModIsActive = AppDomain.CurrentDomain.GetAssemblies().Any(asm => asm.GetName().Name.Equals("BroadswordDropShip"));
 
-            if (!BroadswordModIsActive && __instance.CompanyStats.GetValue<int>("BiggerDrops_BaseMechSlots") != 4)
+            if (!BroadswordModIsActive && __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 4)
             {
-                __instance.CompanyStats.RemoveStatistic("BiggerDrops_BaseMechSlots");
-                __instance.CompanyStats.AddStatistic<int>("BiggerDrops_BaseMechSlots", 4);
-                flag = true;
+                UpdateStatistic(__instance, BaseMechSlotsStat, 4);
+                updated = true;
             }
-            else if (BroadswordModIsActive && __instance.CompanyStats.GetValue<int>("BiggerDrops_BaseMechSlots") != 5)
+            else if ((Main.Settings.Debug.AllDropShipUpgrades || BroadswordModIsActive) && __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 5)
             {
-                __instance.CompanyStats.RemoveStatistic("BiggerDrops_BaseMechSlots");
-                __instance.CompanyStats.AddStatistic<int>("BiggerDrops_BaseMechSlots", 5);
-                flag = true;
+                UpdateStatistic(__instance, BaseMechSlotsStat, 5);
+                updated = true;
             }
 
-            int additionalSlots = GetUpgradeStat(__instance, "BiggerDrops_AdditionalMechSlots");
-            if (__instance.CompanyStats.GetValue<int>("BiggerDrops_AdditionalMechSlots") != additionalSlots)
+            if (Main.Settings.Debug.AllDropShipUpgrades && __instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat) != 5 && __instance.CompanyStats.GetValue<int>(HotDropMechSlotsStat) != 5)
             {
-                __instance.CompanyStats.RemoveStatistic("BiggerDrops_AdditionalMechSlots");
-                __instance.CompanyStats.AddStatistic<int>("BiggerDrops_AdditionalMechSlots", additionalSlots);
-                flag = true;
+                UpdateStatistic(__instance, AdditionalMechSlotsStat, 5);
+                UpdateStatistic(__instance, HotDropMechSlotsStat, 5);
+                updated = true;
+            }
+            else
+            {
+                int additionalSlots = GetUpgradeStat(__instance, AdditionalMechSlotsStat);
+                if (__instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat) != additionalSlots)
+                {
+                    UpdateStatistic(__instance, AdditionalMechSlotsStat, additionalSlots);
+                    updated = true;
+                }
+
+                int hotdropSlots = GetUpgradeStat(__instance, HotDropMechSlotsStat);
+                if (__instance.CompanyStats.GetValue<int>(HotDropMechSlotsStat) != hotdropSlots)
+                {
+                    UpdateStatistic(__instance, HotDropMechSlotsStat, hotdropSlots);
+                    updated = true;
+                }
             }
 
-            int hotdropSlots = GetUpgradeStat(__instance, "BiggerDrops_HotDropMechSlots");
-            if (__instance.CompanyStats.GetValue<int>("BiggerDrops_HotDropMechSlots") != hotdropSlots)
-            {
-                __instance.CompanyStats.RemoveStatistic("BiggerDrops_HotDropMechSlots");
-                __instance.CompanyStats.AddStatistic<int>("BiggerDrops_HotDropMechSlots", hotdropSlots);
-                flag = true;
-            }
-
-            if (flag) { DropManager.UpdateCULances(); }
-            Main.Log.Log(string.Format("dropslot stats: BiggerDrops_BaseMechSlots: {0}, BiggerDrops_AdditionalMechSlots: {1}, BiggerDrops_HotDropMechSlots: {2}",
-                __instance.CompanyStats.GetValue<int>("BiggerDrops_BaseMechSlots"),
-                __instance.CompanyStats.GetValue<int>("BiggerDrops_AdditionalMechSlots"),
-                __instance.CompanyStats.GetValue<int>("BiggerDrops_HotDropMechSlots")
-            ));
+            if (updated) DropManager.UpdateCULances();
+            Main.Log.Log($"Dropslot stats: " +
+                $"{BaseMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(BaseMechSlotsStat)}, " +
+                $"{AdditionalMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat)}, " +
+                $"{HotDropMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(HotDropMechSlotsStat)}"
+            );
         }
 
-        public static void Patch(Harmony harmony)
+        private static int GetUpgradeStat(SimGameState simState, string upgradeStat)
         {
-            HarmonyMethod harmonyMethod = new HarmonyMethod(AccessTools.DeclaredMethod(typeof(DropSlots), "Postfix", null, null))
+            return simState.ShipUpgrades
+                .Where(upg => simState.HasShipUpgrade(upg.Description.Id, null))
+                .SelectMany(upg => upg.Stats)
+                .Where(stat => stat.name == upgradeStat && stat.set)
+                .Select(stat => stat.ToInt())
+                .DefaultIfEmpty(0)
+                .Max();
+        }
+
+        private static void UpdateStatistic(SimGameState simState, string statName, int value)
+        {
+            if (simState.CompanyStats.GetValue<int>(statName) != value)
             {
-                after = new string[] { "de.morphyum.BiggerDrops" }
-            };
-            harmony.Patch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate", null, null), null, harmonyMethod, null, null, null);
-            harmony.Patch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats", null, null), null, harmonyMethod, null, null, null);
+                simState.CompanyStats.RemoveStatistic(statName);
+                simState.CompanyStats.AddStatistic(statName, value);
+            }
         }
     }
 }

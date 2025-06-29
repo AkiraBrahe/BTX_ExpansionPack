@@ -1,41 +1,39 @@
-﻿using System;
+﻿using BattleTech;
+using CustAmmoCategories;
+using Extended_CE;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
-using BattleTech;
-using CustAmmoCategories;
-using Extended_CE;
-using HarmonyLib;
 
 namespace BTX_ExpansionPack
 {
     internal class InfernoAmmoTypes
     {
+        private static readonly HashSet<string> InfernoAmmoIds =
+        [
+            "Ammunition_SRM_Inferno",
+            "Ammunition_LRM_Inferno",
+            "Ammunition_ArrowIV_Inferno"
+        ];
+
         [HarmonyPatch(typeof(BTX_CAC_CompatibilityDll.RandomPatches), "GetFlexDamage")]
         public static class GetFlexDamage
         {
             [HarmonyPostfix]
-            public static void Postfix(Weapon w, ref float __result)
+            public static void Postfix(Weapon weapon, ref float __result)
             {
-                ExtAmmunitionDef ammunitionDef = w.ammo();
-                if (ammunitionDef.Id == "Ammunition_SRM_Inferno")
+                ExtAmmunitionDef ammo = weapon.ammo();
+                if (ammo.Id == "Ammunition_SRM_Inferno")
                 {
-                    float bonusDamage = w.weaponDef.Damage - 10.0f;
-
-                    if (bonusDamage > 0)
-                    {
-                        __result = bonusDamage;
-                    }
+                    float bonusDamage = weapon.weaponDef.Damage - 10f;
+                    __result = Math.Max(bonusDamage, 0f);
                 }
-                else if (ammunitionDef.Id == "Ammunition_LRM_Inferno")
+                else if (ammo.Id == "Ammunition_LRM_Inferno")
                 {
-                    float bonusDamage = w.weaponDef.Damage - 5.0f;
-
-                    if (bonusDamage > 0)
-                    {
-                        __result = bonusDamage;
-                    }
+                    float bonusDamage = weapon.weaponDef.Damage - 5f;
+                    __result = Math.Max(bonusDamage, 0f);
                 }
             }
         }
@@ -45,23 +43,26 @@ namespace BTX_ExpansionPack
         {
             [HarmonyPrefix]
             [HarmonyBefore("com.github.mcb5637.BTX_CAC_Compatibility")]
+            [HarmonyWrapSafe]
             public static bool Prefix(AmmunitionBox __instance, ComponentDamageLevel damageLevel, bool applyEffects, WeaponHitInfo hitInfo)
             {
-                if (applyEffects && damageLevel == ComponentDamageLevel.Destroyed && __instance.componentDef.CanExplode && __instance.componentDef.ComponentTags.Contains("component_infernoExplosion"))
+                if (applyEffects && damageLevel == ComponentDamageLevel.Destroyed &&
+                    __instance.componentDef.CanExplode &&
+                    __instance.componentDef.ComponentTags?.Contains("component_infernoExplosion") == true)
                 {
-                    Main.Log.LogDebug($"[InfernoAmmoTypes] InfernoExplode triggered for {__instance.ammoDef.Description.Id}");
-                    if (__instance.parent is Mech mech)
+                    if (__instance.parent is Mech mech && __instance.componentDef is AmmunitionBoxDef ammunitionBoxDef)
                     {
-                        AmmunitionBoxDef ammunitionBoxDef = __instance.componentDef as AmmunitionBoxDef;
+                        var extDef = ammunitionBoxDef.Ammo?.extDef();
+                        if (extDef == null) return false;
 
-                        int heatDamage = (int)ammunitionBoxDef.Ammo.extDef().HeatDamagePerShot;
-                        int aoeHeatDamage = (int)ammunitionBoxDef.Ammo.extDef().AOEHeatDamage;
+                        int heatDamage = (int)extDef.HeatDamagePerShot;
+                        int aoeHeatDamage = (int)extDef.AOEHeatDamage;
                         int currentAmmo = __instance.StatCollection.GetValue<int>("CurrentAmmo");
                         int totalHeat = (heatDamage + aoeHeatDamage) * currentAmmo / 2;
 
                         mech.AddExternalHeat("inferno explosion", totalHeat);
 
-                        foreach (EffectData effectData in ammunitionBoxDef.Ammo.extDef().statusEffects.Where((effectData) => effectData.effectType == EffectType.StatisticEffect))
+                        foreach (var effectData in extDef.statusEffects?.Where(e => e.effectType == EffectType.StatisticEffect) ?? [])
                         {
                             mech.Combat.EffectManager.CreateEffect(effectData, effectData.Description.Id, hitInfo.attackSequenceId, mech, mech, default, -1, false);
                         }
@@ -82,7 +83,7 @@ namespace BTX_ExpansionPack
             {
                 var codes = new List<CodeInstruction>(instructions);
                 bool found = false;
-                MethodInfo hasInfernoMethod = AccessTools.Method(typeof(InfernoAmmoTypes), nameof(HasInferno), new Type[] { typeof(Mech) });
+                MethodInfo hasInfernoMethod = AccessTools.Method(typeof(InfernoAmmoTypes), nameof(HasInferno), [typeof(Mech)]);
 
                 for (int i = 0; i < codes.Count; i++)
                 {
@@ -109,7 +110,7 @@ namespace BTX_ExpansionPack
 
                 if (!found)
                 {
-                    Main.Log.LogWarning("[InfernoAmmoTypes] Could not find the IL sequence to replace for the flag36 check.");
+                    Main.Log.LogError("[InfernoAmmoTypes] Could not find the IL sequence to replace for the flag36 check.");
                 }
 
                 foreach (var code in codes)
@@ -119,21 +120,9 @@ namespace BTX_ExpansionPack
             }
         }
 
-        public static bool HasInferno(Mech __instance)
-        {
-            List<AmmunitionBox> list = new List<AmmunitionBox>();
-            foreach (AmmunitionBox ammunitionBox in __instance.ammoBoxes)
-            {
-                string Id = ammunitionBox.ammoDef.Description.Id;
-                if (Id == "Ammunition_SRM_Inferno" || Id == "Ammunition_LRM_Inferno" || Id == "Ammunition_ArrowIV_Inferno")
-                {
-                    if (ammunitionBox.StatCollection.GetValue<int>("CurrentAmmo") > 0)
-                    {
-                        list.Add(ammunitionBox);
-                    }
-                }
-            }
-            return list.Count > 0;
-        }
+        public static bool HasInferno(Mech __instance) =>
+            __instance.ammoBoxes.Any(ammoBox =>
+                InfernoAmmoIds.Contains(ammoBox.ammoDef.Description.Id) &&
+                ammoBox.StatCollection.GetValue<int>("CurrentAmmo") > 0);
     }
 }

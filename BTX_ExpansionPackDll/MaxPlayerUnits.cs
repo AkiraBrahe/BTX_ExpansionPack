@@ -1,55 +1,50 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using BattleTech.Framework;
 using System.Linq;
-using System.Reflection;
-using System.Reflection.Emit;
-using BattleTech.Framework;
-using HarmonyLib;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Fixes
 {
     internal class MaxPlayerUnits
     {
-        [HarmonyPatch]
-        public static class ContractOverride_PatchContract
+
+        [HarmonyPatch(typeof(ContractOverride), "FromJSONFull")]
+        public static class ContractOverride_FromJSONFull
         {
-            public static MethodInfo TargetMethod()
+            [HarmonyPostfix]
+            public static void Postfix(ContractOverride __instance)
             {
-                Type internalClassType = Type.GetType("BTX_CAC_CompatibilityDll.ContractOverride_FromJSONFull, BTX_CAC_CompatibilityDll");
-                if (internalClassType != null)
-                {
-                    return AccessTools.Method(internalClassType, "PatchContract", new Type[] { typeof(ContractOverride) });
-                }
-                return null;
-            }
-
-            [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
-            {
-                var codes = new List<CodeInstruction>(instructions);
-                bool found = false;
-
-                for (int i = 1; i < codes.Count; i++)
-                {
-                    if (codes[i].opcode == OpCodes.Stfld &&
-                        codes[i].operand is FieldInfo field &&
-                        field.Name == "maxNumberOfPlayerUnits" &&
-                        field.FieldType == typeof(int) &&
-                        codes[i + 1].opcode == OpCodes.Ret)
-                    {
-                        codes[i - 1] = new CodeInstruction(OpCodes.Ldc_I4, 16);
-                        found = true;
-                        break;
-                    }
-                }
-
-                if (!found)
-                {
-                    Main.Log.LogWarning("[MaxPlayerUnits] Could not find Ldc_I4 8 to transpile in CAC-C.");
-                }
-
-                return codes.AsEnumerable();
+                PatchContract(__instance);
             }
         }
+
+        [HarmonyPatch(typeof(ContractOverride), "FullRehydrate")]
+        public static class ContractOverride_FullRehydrate
+        {
+            [HarmonyPostfix]
+            public static void Postfix(ContractOverride __instance)
+            {
+                PatchContract(__instance);
+            }
+        }
+
+        [HarmonyPatch]
+        public static void PatchContract(ContractOverride __instance)
+        {
+            if (Main.Settings.Gameplay.Use4LimitOnStoryMissions && IsAnyStoryContract(__instance))
+            {
+                return;
+            }
+
+            if (__instance.maxNumberOfPlayerUnits >= 4 && !IsContractLimitedTo4Units(__instance))
+            {
+                __instance.maxNumberOfPlayerUnits = 12;
+            }
+        }
+
+        private static bool IsAnyStoryContract(ContractOverride contractOverride) =>
+            contractOverride.contractDisplayStyle == ContractDisplayStyle.BaseCampaignStory ||
+            contractOverride.contractDisplayStyle == ContractDisplayStyle.BaseCampaignRestoration;
+
+        private static bool IsContractLimitedTo4Units(ContractOverride contractOverride) =>
+            BTX_CAC_CompatibilityDll.Main.Sett.Use4LimitOnContractIds.Contains(contractOverride.ID);
     }
 }

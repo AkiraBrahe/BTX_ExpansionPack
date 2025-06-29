@@ -1,7 +1,6 @@
-﻿using System.Linq;
-using BattleTech;
+﻿using BattleTech;
 using CustAmmoCategories;
-using HarmonyLib;
+using System.Linq;
 
 namespace BTX_ExpansionPack
 {
@@ -13,34 +12,32 @@ namespace BTX_ExpansionPack
             [HarmonyPrefix]
             public static void Prefix(AbstractActor __instance)
             {
-                if (__instance.FakeVehicle() && __instance.Combat.EffectManager.GetAllEffectsTargetingWithBaseID(__instance, "motiveSystemGain").Any())
+                if (__instance.FakeVehicle() &&
+                    __instance.Combat.EffectManager.GetAllEffectsTargetingWithBaseID(__instance, "motiveSystemGain").Any())
                 {
-                    int removedCruiseDebuffs = 0;
-                    int removedFlankDebuffs = 0;
+                    int removedCruise = RemoveDebuffs(__instance, "motiveSystemLoss", "CruiseSpeed", 3);
+                    int removedFlank = RemoveDebuffs(__instance, "motiveSystemLossSprint", "FlankSpeed", 3);
 
-                    var motiveLossEffects = __instance.Combat.EffectManager.GetAllEffectsTargeting(__instance)
-                        .Where(effect => effect.EffectData?.Description?.Id == "motiveSystemLoss" || effect.EffectData?.Description?.Id == "motiveSystemLossSprint")
-                        .ToList();
-
-                    foreach (Effect debuffEffect in motiveLossEffects)
+                    if (removedCruise > 0 || removedFlank > 0)
                     {
-                        if (removedCruiseDebuffs < 3 && debuffEffect?.EffectData?.statisticData?.statName == "CruiseSpeed")
-                        {
-                            __instance.Combat.EffectManager.CancelEffect(debuffEffect, true);
-                            removedCruiseDebuffs++;
-                        }
-                        else if (removedFlankDebuffs < 3 && debuffEffect?.EffectData?.statisticData?.statName == "FlankSpeed")
-                        {
-                            __instance.Combat.EffectManager.CancelEffect(debuffEffect, true);
-                            removedFlankDebuffs++;
-                        }
-                        if (removedCruiseDebuffs >= 3 && removedFlankDebuffs >= 3)
-                        {
-                            Main.Log.LogDebug($"[MotiveRepair] Removed motive system debuffs from '{__instance.DisplayName}'.");
-                            break;
-                        }
+                        Main.Log.LogDebug($"[MotiveRepair] Removed {removedCruise} cruise and {removedFlank} flank debuffs from {__instance.DisplayName}.");
                     }
                 }
+            }
+
+            private static int RemoveDebuffs(AbstractActor actor, string effectId, string statName, int maxToRemove)
+            {
+                int removed = 0;
+                var effects = actor.Combat.EffectManager.GetAllEffectsTargeting(actor)
+                    .Where(effect => (effect.EffectData?.Description?.Id == effectId) &&
+                                     (effect.EffectData?.statisticData?.statName == statName));
+                foreach (var effect in effects)
+                {
+                    if (removed >= maxToRemove) break;
+                    actor.Combat.EffectManager.CancelEffect(effect, true);
+                    removed++;
+                }
+                return removed;
             }
         }
 
@@ -55,11 +52,10 @@ namespace BTX_ExpansionPack
                     var allActors = __instance.BattleTechGame.Combat.AllActors.ToList();
                     foreach (var actor in allActors)
                     {
-                        if (actor is Mech mech && mech.MechDef.MechTags.Contains("fake_vehicle"))
+                        if (actor is Mech mech && mech.MechDef.IsVehicle())
                         {
-                            Main.Log.LogDebug($"[TempFix] Removed BEX_Motive_System components from {mech.MechDef.Description.UIName} at contract start.");
-                            mech.allComponents.RemoveAll((MechComponent mechComponent) => mechComponent.Description.Id == "Gear_BEX_MotiveSystem");
-                            mech.miscComponents.RemoveAll((MechComponent mechComponent) => mechComponent.Description.Id == "Gear_BEX_MotiveSystem");
+                            mech.allComponents.RemoveAll(mechComponent => mechComponent.Description.Id == "Gear_BEX_MotiveSystem");
+                            mech.miscComponents.RemoveAll(mechComponent => mechComponent.Description.Id == "Gear_BEX_MotiveSystem");
                         }
                     }
                 }
