@@ -4,12 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B4A74F96-934B-479E-AA50-D296E02B4519}</ProjectGuid>
+    <ProjectGuid>{F893A829-DB9F-4AF2-B80F-069180B78397}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BTX_ExpansionPack</RootNamespace>
     <AssemblyName>BTX_ExpansionPack</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -17,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\BTX_ExpansionPack\</OutputPath>
+    <OutputPath>..\..\..\..\..\..\Program Files %28x86%29\Steam\Steamapps\common\BattleTech\Mods\BTX_ExpansionPack\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -30,91 +31,126 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <PublicizerRuntimeStrategies>Unsafe</PublicizerRuntimeStrategies>
+  </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Fixes.cs" />
-    <Compile Include="Fixes\AMSAuras.cs" />
-    <Compile Include="Fixes\NoBiome.cs" />
-    <Compile Include="SpecialAmmoOverTime.cs" />
-    <Compile Include="VehiclePilotInjuries.cs" />
-    <Compile Include="MotiveRepair.cs" />
-    <Compile Include="Main.cs" />
-    <Compile Include="InfernoAmmoTypes.cs" />
-    <Compile Include="VehicleCASE.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <PackageReference Include="HarmonyX" Version="2.10.1">
+      <IncludeAssets>compile</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />
+    <Publicize Include="Assembly-CSharp" />
+    <Publicize Include="BEXTimeline" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Main" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
+    <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
+    <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
+    <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\ModTek\lib\0Harmony.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
+    <Compile Include="Features\InfernoAmmoTypes.cs" />
+    <Compile Include="Features\MotiveRepair.cs" />
+    <Compile Include="Features\SelfKnockdown.cs" />
+    <Compile Include="Features\SpecialAmmoOverTime.cs" />
+    <Compile Include="Features\VehicleCASE.cs" />
+    <Compile Include="Features\VehiclePilotInjuries.cs" />
+    <Compile Include="Fixes\AMSAuras.cs" />
+    <Compile Include="Fixes\DropSlots.cs" />
+    <Compile Include="Fixes\FiringArcs.cs" />
+    <Compile Include="Fixes\LanceRestrictions.cs" />
+    <Compile Include="Fixes\MaxPlayerUnits.cs" />
+    <Compile Include="Fixes\MechLabUI.cs" />
+    <Compile Include="Fixes\PilotSpecialization.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\PirateSystemLogger.cs" />
+    <Compile Include="GlobalUsings.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="ModSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\.modtek\AssembliesInjected\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="BEXTimeline">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\BT_Extended_Timeline\BEXTimeline.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_Timeline\BEXTimeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="BiggerDrops">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\BiggerDrops\BiggerDrops.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\BiggerDrops\BiggerDrops.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="BTX_CAC_CompatibilityDll">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\BTX_CAC_Compatibility\BTX_CAC_CompatibilityDll.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\BTX_CAC_Compatibility\BTX_CAC_CompatibilityDll.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CustomActivatableEquipment">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\CustomActivatableEquipment\CustomActivatableEquipment.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\CustomActivatableEquipment\CustomActivatableEquipment.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CustomAmmoCategories">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\CustomAmmoCategories\CustomAmmoCategories.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\CustomAmmoCategories\CustomAmmoCategories.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CustomComponents">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\CustomComponents\CustomComponents.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\CustomComponents\CustomComponents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CustomUnits">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\CustomUnits\CustomUnits.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\CustomUnits\CustomUnits.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Extended_CE">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\BT_Extended_CE\Extended_CE.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_CE\Extended_CE.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FullXotlTables">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\FullXotlTables\FullXotlTables.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\FullXotlTables\FullXotlTables.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="InControl">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\BattleTech_Data\Managed\InControl.dll</HintPath>
+    <Reference Include="ISM3025">
+      <HintPath>$(BattleTechGameDir)\Mods\ISM3025\ISM3025.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MechAffinity">
+      <HintPath>$(BattleTechGameDir)\Mods\MechAffinity\MechAffinity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MechQuirks">
+      <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_Quirks\MechQuirks.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\BattleTech_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\BattleTech_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\BattleTech_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\BattleTech_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\BattleTech_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\BattleTech_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

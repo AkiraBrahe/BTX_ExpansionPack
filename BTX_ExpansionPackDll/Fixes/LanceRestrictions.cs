@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace BTX_ExpansionPack.Fixes
 {
-    internal static class NoBiome
+    internal static class LanceRestrictions
     {
         [HarmonyPatch(typeof(LanceConfiguratorPanel), "OnConfirmClicked")]
         public static class LanceConfiguratorPanel_OnConfirmClicked_NoBiome

@@ -9,19 +9,19 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class MechLabUI
     {
-        [HarmonyPatch(typeof(TooltipPrefab_Mech), "SetData", [typeof(object)])]
-        public class TooltipPrefab_Mech_SetData
-        {
-            [HarmonyPostfix]
-            public static void Postfix(object data, LocalizableText ___RoleField)
-            {
-                if (data is MechDef mechDef)
-                {
-                    bool isVehicle = mechDef.IsVehicle();
-                    ___RoleField.gameObject.SetActive(!isVehicle);
-                }
-            }
-        }
+        //[HarmonyPatch(typeof(TooltipPrefab_Mech), "SetData", [typeof(object)])]
+        //public class TooltipPrefab_Mech_SetData
+        //{
+        //    [HarmonyPostfix]
+        //    public static void Postfix(object data, LocalizableText ___RoleField)
+        //    {
+        //        if (data is MechDef mechDef)
+        //        {
+        //            bool isVehicle = mechDef.IsVehicle();
+        //            ___RoleField.gameObject.SetActive(!isVehicle);
+        //        }
+        //    }
+        //}
 
         [HarmonyPatch(typeof(PilotAffinityManager), "getMechChassisAffinityDescription", [typeof(ChassisDef)])]
         public static class PilotAffinityManager_getMechChassisAffinityDescription
