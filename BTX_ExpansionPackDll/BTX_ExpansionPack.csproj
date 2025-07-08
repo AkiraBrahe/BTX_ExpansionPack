@@ -46,6 +46,7 @@
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
+    <Publicize Include="MechQuirks:Quirks.MechQuirks.modSettings" />
     <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +58,8 @@
     <Compile Include="Features\VehicleCASE.cs" />
     <Compile Include="Features\VehiclePilotInjuries.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
+    <Compile Include="Fixes\AntiAirTargeting.cs" />
+    <Compile Include="Fixes\BuildingTargetingExploitFix.cs" />
     <Compile Include="Fixes\DropSlots.cs" />
     <Compile Include="Fixes\FiringArcs.cs" />
     <Compile Include="Fixes\HomingAmmo.cs" />

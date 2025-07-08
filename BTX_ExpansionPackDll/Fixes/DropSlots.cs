@@ -22,14 +22,14 @@ namespace BTX_ExpansionPack.Fixes
         public static void Postfix(SimGameState __instance)
         {
             bool updated = false;
-            bool BroadswordModIsActive = AppDomain.CurrentDomain.GetAssemblies().Any(asm => asm.GetName().Name.Equals("BroadswordDropShip"));
+            bool hasBroadsword = AppDomain.CurrentDomain.GetAssemblies().Any(asm => asm.GetName().Name.Equals("BroadswordDropShip"));
 
-            if (!BroadswordModIsActive && __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 4)
+            if (!hasBroadsword && __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 4)
             {
                 UpdateStatistic(__instance, BaseMechSlotsStat, 4);
                 updated = true;
             }
-            else if ((Main.Settings.Debug.AllDropShipUpgrades || BroadswordModIsActive) && __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 5)
+            else if ((Main.Settings.Debug.AllDropShipUpgrades || hasBroadsword) && __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 5)
             {
                 UpdateStatistic(__instance, BaseMechSlotsStat, 5);
                 updated = true;
