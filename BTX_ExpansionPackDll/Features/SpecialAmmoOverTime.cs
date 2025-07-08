@@ -8,8 +8,8 @@ namespace BTX_ExpansionPack
 {
     internal class SpawningActorInfo
     {
-        public static bool spawningActorIsClan { get; set; } = false;
-        public static string spawningActorFactionShortName { get; set; } = "";
+        public static bool IsClan { get; set; } = false;
+        public static string FactionShortName { get; set; } = "";
 
         [HarmonyPatch(typeof(UnitSpawnPointGameLogic), "initializeActor")]
         public static class UnitSpawnPointGameLogic_initializeActor
@@ -19,13 +19,13 @@ namespace BTX_ExpansionPack
             {
                 if (team != null && team.FactionValue != null && team.FactionValue.FactionDef != null && !team.IsLocalPlayer)
                 {
-                    spawningActorIsClan = team.FactionValue.IsClan;
-                    spawningActorFactionShortName = team.FactionValue.FactionDef.ShortName;
+                    IsClan = team.FactionValue.IsClan;
+                    FactionShortName = team.FactionValue.FactionDef.ShortName;
                 }
                 else
                 {
-                    spawningActorIsClan = false;
-                    spawningActorFactionShortName = "";
+                    IsClan = false;
+                    FactionShortName = "";
                 }
             }
         }
@@ -33,8 +33,8 @@ namespace BTX_ExpansionPack
 
     internal class SpecialAmmoOverTime
     {
-        private static bool IsClan => SpawningActorInfo.spawningActorIsClan;
-        private static string FactionShortName => SpawningActorInfo.spawningActorFactionShortName;
+        private static bool IsClan => SpawningActorInfo.IsClan;
+        private static string FactionShortName => SpawningActorInfo.FactionShortName;
 
         [HarmonyPatch(typeof(Mech), "InitStats")]
         public static class Mech_InitStats
@@ -92,6 +92,11 @@ namespace BTX_ExpansionPack
                 if (IsClan || FactionShortName == "Black Widow Company")
                 {
                     ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_LRM", "Ammo_AmmunitionBox_Generic_LRM_Swarm", 0.10f);
+                }
+
+                if (!IsClan && Helpers.AnyAllyHasTAG(__instance))
+                { 
+                    ReplaceAmmo(__instance, "Ammunition_ArrowIV", "Ammunition_ArrowIV_Homing", 0.25f);
                 }
             }
 
