@@ -22,7 +22,14 @@
 
     public class UISettings
     {
+        public IntelSettings ContractIntel { get; set; } = new IntelSettings();
         public MechTooltipSettings MechTooltips { get; set; } = new MechTooltipSettings();
+    }
+
+    public class IntelSettings
+    {
+        public bool IntelShowTarget { get; set; } = true;
+        public bool IntelShowVariant { get; set; } = true;
     }
 
     public class MechTooltipSettings

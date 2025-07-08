@@ -49,6 +49,7 @@
     <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\ContractIntel.cs" />
     <Compile Include="Features\InfernoAmmoTypes.cs" />
     <Compile Include="Features\MotiveRepair.cs" />
     <Compile Include="Features\SelfKnockdown.cs" />

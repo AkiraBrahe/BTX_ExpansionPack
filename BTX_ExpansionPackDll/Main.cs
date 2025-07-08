@@ -1,8 +1,7 @@
-﻿using BattleTech;
-using BattleTech.Framework;
-using HBS.Logging;
+﻿using HBS.Logging;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Reflection;
 
 namespace BTX_ExpansionPack
@@ -39,19 +38,42 @@ namespace BTX_ExpansionPack
 
         internal static void ApplyHarmonyPatches()
         {
-            // Drop Slots Fix
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            var patchesToUnpatch = new List<(string harmonyId, string typeName, string methodName, HarmonyPatchType patchType)>
+            {
+                // --- BattleTech Extended ---
+                /* Weather Conditions */
+                ("BEX.BattleTech.Extended_CE", "Contract", "get_ShortDescription", HarmonyPatchType.Postfix),
+                /* Temp Jump Jets */
+                ("BEX.BattleTech.Extended_CE", "AbstractActor", "get_WorkingJumpjets", HarmonyPatchType.Postfix),
+                /* Firing Arc Quirks */
+                ("BEX.BattleTech.MechQuirks", "Mech", "IsTargetPositionInFiringArc", HarmonyPatchType.Postfix),
 
-            // Max Player Units Fix
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FromJSONFull"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+                // --- CAC-C ---
+                /* Drop Slots Fix */
+                ("com.github.mcb5637.BTX_CAC_Compatibility", "SimGameState", "InitCompanyStats", HarmonyPatchType.Postfix),
+                ("com.github.mcb5637.BTX_CAC_Compatibility", "SimGameState", "Rehydrate", HarmonyPatchType.Postfix),
+                /* Max Player Units Fix */
+                ("com.github.mcb5637.BTX_CAC_Compatibility", "ContractOverride", "FromJSONFull", HarmonyPatchType.Postfix),
+                ("com.github.mcb5637.BTX_CAC_Compatibility", "ContractOverride", "FullRehydrate", HarmonyPatchType.Postfix)
+            };
 
-            // Firing Arc Quirks
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+            foreach (var patch in patchesToUnpatch)
+            {
+                var type = AccessTools.TypeByName(patch.typeName);
+                if (type == null) continue;
 
-            // Temp Jump Jets
-            harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+                MethodBase method = AccessTools.DeclaredMethod(type, patch.methodName);
+
+                if (method == null)
+                {
+                    var propInfo = AccessTools.Property(type, patch.methodName.Replace("get_", ""));
+                    method = propInfo?.GetGetMethod(true);
+                }
+                if (method != null)
+                {
+                    harmony.Unpatch(method, patch.patchType, patch.harmonyId);
+                }
+            }
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
