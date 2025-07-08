@@ -1,9 +1,5 @@
 {
   "Story": {
-    "DefaultPilotsPerSystem": 6,
     "DefaultRoninHiringChance": 0.15
-  },
-  "Pilot": {
-    "AdvancedPilotBaseChance": 0.0
   }
 }
