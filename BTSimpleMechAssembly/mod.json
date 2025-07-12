@@ -2,7 +2,7 @@
   "Name": "BTSimpleMechAssembly",
   "Enabled": true,
 
-  "Version": "1.2.4.0",
+  "Version": "1.2.5.2",
   "Description": "",
   "Author": "mcb",
   "Website": "https://github.com/mcb5637/BTSimpleMechAssembly",
@@ -20,14 +20,14 @@
   */
   "Settings": {
     /*set to null for no upgrade required*/
-    "CrossAssemblyUpgradeRequired": "argoUpgrade_mechBay_machineShop",
+    "CrossAssemblyUpgradeRequired": null,
     /*BEX simulation difficulty compatibility*/
     "BTXCrossAssemblyAlwaysAllowIfSimulation": true,
     /*defines which mech statistics have to match*/
     "CrossAssemblySpeedMatch": true,
     "CrossAssemblyTonnsMatch": true,
     "CrossAssemblyTagsMatch": [ "chassis_endo", "chassis_DHS" ],
-    "CrossAssemblyInventoryMatch": [ "Gear_XL_Engine", "Gear_XL_Engine_Clan", "Gear_XL_Engine_Clan_2" ],
+    "CrossAssemblyInventoryMatch": [ "Gear_XL_Engine", "Gear_XL_Engine_Clan", "Gear_XL_Engine_Clan_2", "Gear_Light_Engine" ],
     /*exclude mechs from crossassembly (if you dont want to add tags to them)*/
     "CrossAssemblyExcludedMechs": [ "mechdef_mad_cat_timber_wolf-PRYDE" ],
     /*set to a string to enable omni mode for them (on ready you can choose which variant you want to ready, provided you know the variant)*/
@@ -44,7 +44,7 @@
     "StructurePointBasedSalvageMinPartsFromMech": 1,
     "StructurePointBasedSalvageSalvageBlacklist": [ "Gear_General_Robinson_TG120_Drive_Train", "Gear_Cockpit_Tacticon_B2000_Battle_Computer" ],
     /*if true, looks for a company tag "StructurePointBasedSalvageMaxParts_X" where x is a int. StructurePointBasedSalvageMaxPartsFromMech gets replaced with X*/
-    "StructurePointBasedSalvageMaxPartsFromCompanyTags": true,
+    "StructurePointBasedSalvageMaxPartsFromCompanyTags": false,
     /*turret components can be salvaged with this probability, set to 0 to disable*/
     "StructurePointBasedSalvageTurretComponentSalvageChance": 0.25,
     /*redirect mech part salvage generation, without adding mech tags: "old": "new"*/

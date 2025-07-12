@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
 {
-    internal class HomingAmmo
+    internal class HomingTargeting
     {
         [HarmonyPatch(typeof(BTX_CAC_CompatibilityDll.Main), "A4_Tag_Effect")]
         public static class BTX_CAC_CompatibilityDll_A4_Tag_Effect
@@ -25,7 +25,7 @@ namespace BTX_ExpansionPack.Fixes
         }
 
         [HarmonyPatch(typeof(AttackEvaluator), "MakeAttackOrder")]
-        public static class AttackEvaluator_MakeAttackOrder_HomingTargeting
+        public static class AttackEvaluator_MakeAttackOrder
         {
             [HarmonyPrefix]
             [HarmonyWrapSafe]

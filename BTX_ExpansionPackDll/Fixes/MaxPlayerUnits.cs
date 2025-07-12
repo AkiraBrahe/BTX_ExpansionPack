@@ -7,7 +7,6 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class MaxPlayerUnits
     {
-
         [HarmonyPatch(typeof(ContractOverride), "FromJSONFull")]
         public static class ContractOverride_FromJSONFull
         {
@@ -33,7 +32,6 @@ namespace BTX_ExpansionPack.Fixes
                 __instance.maxNumberOfPlayerUnits = 12;
             }
         }
-
 
         [HarmonyPatch(typeof(LanceConfiguratorPanel), "SetData")]
         public static class LanceConfiguratorPanel_SetData

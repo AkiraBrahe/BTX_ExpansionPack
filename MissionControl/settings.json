@@ -130,10 +130,10 @@
         "ContractTypeName": "SimpleBattle",
         "IncreaseBoundarySizeByPercentage": 0.55
       },
-	  {
-		"ContractTypeName": "AmbushConvoy",
-		"IncreaseBoundarySizeByPercentage": 0.2
-	  }
+      {
+        "ContractTypeName": "AmbushConvoy",
+        "IncreaseBoundarySizeByPercentage": 0.2
+      }
     ]
   },
   "DynamicWithdraw": {

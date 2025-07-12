@@ -89,13 +89,13 @@ namespace BTX_ExpansionPack
                         break;
                 }
 
-                if (IsClan || FactionShortName == "Black Widow Company")
+                if (IsClan || FactionShortName == "Black Widow Company" || FactionShortName == "Wolf's Dragoons")
                 {
                     ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_LRM", "Ammo_AmmunitionBox_Generic_LRM_Swarm", 0.10f);
                 }
 
                 if (!IsClan && Helpers.AnyAllyHasTAG(__instance))
-                { 
+                {
                     ReplaceAmmo(__instance, "Ammunition_ArrowIV", "Ammunition_ArrowIV_Homing", 0.25f);
                 }
             }

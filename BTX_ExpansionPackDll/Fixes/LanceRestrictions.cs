@@ -12,8 +12,8 @@ namespace BTX_ExpansionPack.Fixes
         public static class LanceConfiguratorPanel_OnConfirmClicked_NoBiome
         {
             [HarmonyPrefix]
-            [HarmonyBefore("io.mission.customunits")]
             [HarmonyWrapSafe]
+            [HarmonyBefore("io.mission.customunits")]
             public static bool Prefix(ref bool __runOriginal, LanceConfiguratorPanel __instance)
             {
                 if (__instance?.sim != null && __instance.activeContract != null)
@@ -88,8 +88,8 @@ namespace BTX_ExpansionPack.Fixes
         public static class LanceConfiguratorPanel_ValidateLance_NoVehicleDuel
         {
             [HarmonyPrefix]
-            [HarmonyBefore("io.mission.customunits")]
             [HarmonyWrapSafe]
+            [HarmonyBefore("io.mission.customunits")]
             public static void Prefix(ref bool __runOriginal, LanceConfiguratorPanel __instance, ref bool __result)
             {
                 if (__instance.activeContract != null && __instance.activeContract.IsDuelContract())

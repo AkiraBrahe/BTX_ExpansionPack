@@ -10,8 +10,8 @@ namespace BTX_ExpansionPack.Fixes
         public static class FiringArcOverrideLogic
         {
             [HarmonyPrefix]
-            [HarmonyBefore("io.mission.customunits")]
             [HarmonyWrapSafe]
+            [HarmonyBefore("io.mission.customunits")]
             public static bool Prefix(ref bool __runOriginal, Mech __instance, ICombatant targetUnit, Vector3 attackPosition, Quaternion attackRotation, Vector3 targetPosition, ref bool __result)
             {
                 // Special case: Standing on building

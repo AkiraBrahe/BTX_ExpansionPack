@@ -39,7 +39,7 @@
   "CriticalComponent": false,
   "ComponentTags": {
     "items": [
-      "BUILT-IN",
+      "BLACKLISTED",
       "CAC_C_ArtilleryLoader"
     ],
     "tagSetSourceFile": ""

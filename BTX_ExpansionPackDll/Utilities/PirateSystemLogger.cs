@@ -44,7 +44,7 @@ namespace BTX_ExpansionPack.Utilities
                 if (!Main.Settings.Debug.PirateSystemLogging) return;
 
                 List<string> assignedPirates = [.. system.Def.ContractEmployerIDList
-                    .Where(factionID => Core.Settings.PirateFactions.ContainsKey(factionID) || 
+                    .Where(factionID => Core.Settings.PirateFactions.ContainsKey(factionID) ||
                                         Core.Settings.CriminalFactions.ContainsKey(factionID))];
 
                 foreach (string factionID in assignedPirates)

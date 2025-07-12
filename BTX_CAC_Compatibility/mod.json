@@ -1,0 +1,274 @@
+﻿{
+  "Name": "BTX_CAC_Compatibility",
+  "Enabled": true,
+  "Description": "Modifies BTX (and BTXMinusWeapons) for CAC.",
+  "Author": "mcb",
+  "Website": "",
+  "Version": "2.0.2.0",
+  "DependsOn": [
+    "BT_Extended",
+    "BT_Extended_Timeline",
+    "BT_Extended_CE",
+    "BT_Extended_3050",
+    "BT_Extended_Clans",
+    "BT_Extended_Quirks",
+    "Custom Ammo Categories",
+    "CustomActivatableEquipment",
+    "CustomUnits",
+    "CustomVoices",
+    "IRTweaks",
+    "MechAffinity",
+    "BTRandomMechComponentUpgrader"
+  ],
+  "OptionallyDependsOn": [
+    "BTXMinusWeapons"
+  ],
+  "ConflictsWith": [
+    "MechResizer",
+    "BTMLColorLOSMod"
+  ],
+  "DLL": "BTX_CAC_CompatibilityDll.dll",
+  "Settings": {
+    "FixDropslotsInOldSaves": true,
+    "Use4LimitOnContractIds": [
+      "uw1_4_destroyBase",
+      "tournament_1_3wayBattle",
+      "tournament_a1_3wayBattle",
+      "Story_6B_TreasureTrove_Default",
+      "Story_9_Downfall_Default",
+      "c_fp_scoundrel_1_captureEscort",
+      "c_fp_scoundrel_2_defendBase",
+      "c_fp_scoundrel_a1_target",
+      "c_fp_scoundrel_b1_captureEscort",
+      "c_fp_mechsMercsRnR_1_capture_base",
+      "c_fp_mechsMercsRnR_2_simpleBattle",
+      "c_fp_mechsMercsRnR_3a_defendBase",
+      "c_fp_mechsMercsRnR_3b_destroyBase",
+      "c_fp_mechsMercsRnR_4a_simpleBattle",
+      "c_fp_wildWedding_1A_AmbushConvoy",
+      "c_fp_wildWedding_1B_SimpleBattle",
+      "c_fp_wildWedding_2A_SimpleBattle",
+      "c_fp_wildWedding_2B_CaptureEscort",
+      "c_fp_wildWedding_3A_DefendBase",
+      "c_fp_blackSabbath_1_DestroyBase",
+      "c_fp_blackSabbath_2_DestroyBase",
+      "c_fp_blackSabbath_3A_SimpleBattle",
+      "c_fp_blackSabbath_3B_Assasinate",
+      "c_fp_blackSabbath_4A_Assasinate",
+      "c_fp_blackSabbath_4B_3wayBattle",
+      "c_fp_rTTJ_1_SimpleBattle",
+      "c_fp_rTTJ_2_captureEscort",
+      "c_fp_rTTJ_3_fireMission",
+      "c_fp_rTTJ_4_Assasinate",
+      "c_fp_theBigDeal_1_DestroyBase",
+      "c_fp_theBigDeal_2_Assasinate",
+      "c_fp_theBigDeal_3A_CaptureBase",
+      "c_fp_theBigDeal_3B_DefendBase",
+      "c_fp_theBigDeal_4A_3wayBattle",
+      "c_fp_theBigDeal_4B_CaptureEscort",
+      "c_fp_theBigDeal_5A_CaptureEscort",
+      "c_fp_sAV_1_CaptureBase",
+      "c_fp_sAV_1_CaptureBase",
+      "c_special_sAV_1_CaptureBase",
+      "c_special_sAV_2_ThreeWayBattle",
+      "c_special_sAV_3_captureEscort",
+      "c_special_sAV_4_ThreeWayBattle",
+      "c_fp_underTheSun_1_CaptureBase",
+      "c_fp_underTheSun_2_CaptureBase",
+      "c_fp_oWANF_1_Battle",
+      "c_fp_oWANF_2_Battle",
+      "c_fp_oWANF_3_DefendBase",
+      "c_fp_betterLeftBuried_1_Battle",
+      "c_fp_betterLeftBuried_2_CaptureBase",
+      "c_fp_tMTM_1_CaptureBase",
+      "c_fp_tMTM_2A_ThreeWayBattle",
+      "c_fp_tMTM_2B_CaptureBase",
+      "c_fp_tMTM_3B_ThreeWayBattle"
+    ],
+    "ReplaceInItemCollections": {},
+    "SplitAddons": {}
+  },
+  "DataAddendumEntries": [
+    {
+      "name": "BattleTech.AmmoCategoryEnumeration",
+      "path": "enums/AmmoCategory.json"
+    }
+  ],
+  "Manifest": [
+    {
+      "Type": "WeaponDef",
+      "Path": "weaponoverride"
+    },
+    {
+      "Type": "WeaponDef",
+      "Path": "automerge/weapon",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "AmmunitionDef",
+      "Path": "ammo"
+    },
+    {
+      "Type": "AmmunitionDef",
+      "Path": "ammomerge",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "AmmunitionBoxDef",
+      "Path": "ammobox"
+    },
+    {
+      "Type": "AmmunitionBoxDef",
+      "Path": "automerge/ammoboxnew"
+    },
+    {
+      "Type": "AmmunitionBoxDef",
+      "Path": "ammoboxmerge",
+      "ShouldMergeJSON": true
+    },
+    //{
+    //  "Type": "ItemCollectionDef",
+    //  "Path": "itemCollectionAppend",
+    //  "ShouldAppendText": true
+    //},
+    //{
+    //  "Type": "ItemCollectionDef",
+    //  "Path": "itemCollectionAdd"
+    //},
+    {
+      "Type": "ItemCollectionDef",
+      "Path": "automerge/itemcollections"
+    },
+    {
+      "Type": "ShipModuleUpgrade",
+      "Path": "shipUpgrades"
+    },
+    //{
+    //  "Type": "AdvancedJSONMerge",
+    //  "Path": "advancedMerge"
+    //},
+    {
+      "Type": "ChassisDef",
+      "Path": "chassis",
+      "AddToDB": true
+    },
+    {
+      "Type": "ChassisDef",
+      "Path": "chassismerge",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "MechDef",
+      "Path": "mech",
+      "AddToDB": true
+    },
+    {
+      "Type": "JumpJetDef",
+      "Path": "jumpjets"
+    },
+    {
+      "Type": "JumpJetDef",
+      "Path": "jumpjet_merge",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "upgradesNew"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "upgradesMerge",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "AbilityDef",
+      "Path": "abilityNew"
+    },
+    {
+      "Type": "GameTip",
+      "Path": "GameTips",
+      "ShouldAppendText": true
+    },
+    {
+      "Type": "Sprite",
+      "Path": "sprites"
+    },
+    {
+      "Type": "StarSystemDef",
+      "Path": "starsystems",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "ContractOverride",
+      "Path": "contract",
+      "AddToDB": true
+    },
+    {
+      "Type": "HeatSinkDef",
+      "Path": "heatsinks",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "DropSlotDef",
+      "Path": "dropslots"
+    },
+    {
+      "Type": "PilotingClassDef",
+      "Path": "piloting_classes"
+    },
+    {
+      "Type": "MovementCapabilitiesDef",
+      "Path": "movementdef"
+    },
+    {
+      "Type": "WeaponAddonDef",
+      "Path": "weaponaddon"
+    },
+    {
+      "Type": "PathingCapabilitiesDef",
+      "Path": "pathing"
+    },
+    {
+      "Type": "AffinitiesDef",
+      "Path": "affinities"
+    },
+    {
+      "Type": "HardpointDataDef",
+      "Path": "hardpointdata",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "CCCategories",
+      "Path": "cc_category"
+    },
+    {
+      "Type": "CCDefaults",
+      "Path": "cc_defaults"
+    },
+    {
+      "Type": "CCUnitTypes",
+      "Path": "cc_unittypes"
+    },
+    {
+      "Type": "CCCEquipLocationTag",
+      "Path": "cc_equiplocationtags"
+    },
+    {
+      "Type": "CombatGameConstants",
+      "Path": "combatgameconstants",
+      "ShouldMergeJSON": true
+    },
+    {
+      "Type": "AdvancedJSONMerge",
+      "Path": "automerge/adv"
+    },
+    {
+      "Type": "ComponentUpgradeList",
+      "Path": "automerge/ulist"
+    },
+    {
+      "Type": "ComponentUpgradeSubList",
+      "Path": "automerge/usublist"
+    }
+  ]
+}
