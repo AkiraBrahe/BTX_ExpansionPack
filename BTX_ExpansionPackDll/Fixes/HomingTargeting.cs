@@ -1,6 +1,5 @@
 ﻿using BattleTech;
 using CustAmmoCategories;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
@@ -11,16 +10,20 @@ namespace BTX_ExpansionPack.Fixes
         public static class BTX_CAC_CompatibilityDll_A4_Tag_Effect
         {
             [HarmonyPrefix]
-            public static float Prefix(Weapon weapon, ICombatant target)
+            public static bool Prefix(Weapon wep, ICombatant target, out float __result)
             {
-                if (weapon.ammo().Id == "Ammunition_ArrowIV_Homing" &&
+                var weapon = wep;
+                if (weapon.mode()?.Id == "ARTY_Guided" &&
+                    weapon.ammo()?.Id == "Ammunition_ArrowIV_Homing" &&
                     target.StatCollection.GetValue<float>("TAGCount") +
                     target.StatCollection.GetValue<float>("TAGCountClan") <= 0f)
                 {
-                    return 100f;
+                    __result = 100f;
+                    return false;
                 }
 
-                return 0f;
+                __result = 0f;
+                return false;
             }
         }
 

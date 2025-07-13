@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 
 namespace BTX_ExpansionPack
@@ -27,7 +28,7 @@ namespace BTX_ExpansionPack
                 Settings = JsonConvert.DeserializeObject<ModSettings>(settingsJSON) ?? new ModSettings();
                 harmony = new Harmony(HarmonyInstanceId);
                 ApplyHarmonyPatches();
-                OverrideDHSEngineCooling();
+                ApplySettings();
                 Log.Log($"{ModName} Initialized!");
             }
             catch (Exception ex)
@@ -57,32 +58,47 @@ namespace BTX_ExpansionPack
                 ("com.github.mcb5637.BTX_CAC_Compatibility", "ContractOverride", "FullRehydrate", HarmonyPatchType.Postfix)
             };
 
-            foreach (var patch in patchesToUnpatch)
+            foreach (var (harmonyId, typeName, methodName, patchType) in patchesToUnpatch)
             {
-                var type = AccessTools.TypeByName(patch.typeName);
+                var type = AccessTools.TypeByName(typeName);
                 if (type == null) continue;
 
-                MethodBase method = AccessTools.DeclaredMethod(type, patch.methodName);
+                MethodBase method = AccessTools.DeclaredMethod(type, methodName);
 
                 if (method == null)
                 {
-                    var propInfo = AccessTools.Property(type, patch.methodName.Replace("get_", ""));
+                    var propInfo = AccessTools.Property(type, methodName.Replace("get_", ""));
                     method = propInfo?.GetGetMethod(true);
                 }
                 if (method != null)
                 {
-                    harmony.Unpatch(method, patch.patchType, patch.harmonyId);
+                    harmony.Unpatch(method, patchType, harmonyId);
                 }
             }
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
-        internal static void OverrideDHSEngineCooling()
+        internal static void ApplySettings()
         {
             if (Settings.Gameplay.OverrideDHSEngineCooling)
             {
                 Extended_CE.Core.Settings.DHSEngineCooling = (int)Math.Round(30 * Settings.Gameplay.DHSEngineCoolingMultiplier);
+            }
+
+            if (Settings.Gameplay.DisableNonStandardAmmoBins)
+            {
+                if (BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces != null)
+                {
+                    List<string> keysToRemove = [.. BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces
+                        .Keys
+                        .Where(key => key.StartsWith("Ammo_"))];
+            
+                    foreach (string key in keysToRemove)
+                    {
+                        BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces.Remove(key);
+                    } 
+                }
             }
         }
     }

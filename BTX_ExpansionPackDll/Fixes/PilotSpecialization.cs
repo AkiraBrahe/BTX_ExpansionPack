@@ -42,8 +42,9 @@ namespace BTX_ExpansionPack.Fixes
         public static class SGBarracksMWDetailPanel_DisplayPilot
         {
             [HarmonyPostfix]
-            public static void Postfix(Pilot pilot)
+            public static void Postfix(Pilot p)
             {
+                var pilot = p;
                 if (pilot == null || pilot.pilotDef == null || pilot.pilotDef.PilotTags == null)
                     return;
 

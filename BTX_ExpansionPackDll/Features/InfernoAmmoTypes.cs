@@ -22,8 +22,9 @@ namespace BTX_ExpansionPack
         public static class GetFlexDamage
         {
             [HarmonyPostfix]
-            public static void Postfix(Weapon weapon, ref float __result)
+            public static void Postfix(Weapon w, ref float __result)
             {
+                var weapon = w;
                 ExtAmmunitionDef ammo = weapon.ammo();
                 if (ammo.Id == "Ammunition_SRM_Inferno")
                 {

@@ -44,6 +44,8 @@
     <Publicize Include="BEXTimeline" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Main" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionReplace" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
     <Publicize Include="MechQuirks:Quirks.MechQuirks.modSettings" />

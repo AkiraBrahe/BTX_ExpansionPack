@@ -39,11 +39,11 @@ namespace BTX_ExpansionPack.Utilities
             }
 
             [HarmonyPostfix]
-            public static void Postfix(StarSystem system)
+            public static void Postfix(StarSystem theSystem)
             {
                 if (!Main.Settings.Debug.PirateSystemLogging) return;
 
-                List<string> assignedPirates = [.. system.Def.ContractEmployerIDList
+                List<string> assignedPirates = [.. theSystem.Def.ContractEmployerIDList
                     .Where(factionID => Core.Settings.PirateFactions.ContainsKey(factionID) ||
                                         Core.Settings.CriminalFactions.ContainsKey(factionID))];
 

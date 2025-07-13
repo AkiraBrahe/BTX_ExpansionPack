@@ -12,7 +12,7 @@ namespace BTX_ExpansionPack.Fixes
         {
             [HarmonyPostfix]
             [HarmonyAfter("BEX.BattleTech.MechQuirks")]
-            public static void Postfix(ref string __result, AbstractActor attacker, Weapon weapon, ICombatant target)
+            public static void Postfix(ref string __result, AbstractActor attacker, ICombatant target)
             {
                 Mech attackingMech = attacker as Mech;
                 bool hasAntiAirQuirk = MechQuirkInfo.MechQuirkStore[attackingMech.MechDef.Chassis.Description.Id].AntiAircraftTargeting;
@@ -20,14 +20,16 @@ namespace BTX_ExpansionPack.Fixes
 
                 bool isAirborneTarget = false;
 
-                FakeVehicleMech vtolTarget = target as FakeVehicleMech;
-                if (vtolTarget != null && vtolTarget.MechDef != null && vtolTarget.MechDef.MechTags.Contains("unit_vtol"))
+                if (target is FakeVehicleMech vtolTarget &&
+                    vtolTarget.MechDef != null &&
+                    vtolTarget.MechDef.MechTags.Contains("unit_vtol"))
                 {
                     isAirborneTarget = true;
                 }
 
-                Mech lamTarget = target as Mech;
-                if (lamTarget != null && lamTarget.EncounterTags != null && lamTarget.EncounterTags.Contains("unit_lam"))
+                if (target is Mech lamTarget &&
+                    lamTarget.EncounterTags != null &&
+                    lamTarget.EncounterTags.Contains("unit_lam"))
                 {
                     isAirborneTarget = true;
                 }

@@ -18,9 +18,10 @@
         public bool AllowVehiclesInMechDuels { get; set; } = false;
         public bool OverrideDHSEngineCooling { get; set; } = true;
         public double DHSEngineCoolingMultiplier { get; set; } = 1.5;
+        public bool DisableNonStandardAmmoBins { get; set; } = false;
     }
 
-    public class UISettings
+        public class UISettings
     {
         public IntelSettings ContractIntel { get; set; } = new IntelSettings();
         public MechTooltipSettings MechTooltips { get; set; } = new MechTooltipSettings();
