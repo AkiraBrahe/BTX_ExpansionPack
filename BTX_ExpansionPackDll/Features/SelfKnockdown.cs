@@ -1,13 +1,15 @@
 ﻿using BattleTech;
 using CustomAmmoCategoriesPatches;
-using System.Collections.Concurrent;
-using System.Linq;
 
 namespace BTX_ExpansionPack
 {
     internal class SelfKnockdown
     {
-        private static readonly ConcurrentDictionary<int, float> InstabilityBySequence = new();
+        public static class WeaponInfo
+        {
+            public static bool ShouldApplySelfInstability { get; set; } = false;
+            public static float SelfInstabilityWeaponTonnage { get; set; } = 0f;
+        }
 
         [HarmonyPatch(typeof(Weapon), "ProcessOnFiredFloatieEffects")]
         public static class Weapon_ProcessOnFiredFloatieEffects
@@ -18,13 +20,11 @@ namespace BTX_ExpansionPack
                 if (__instance?.parent is not Mech mech || !mech.isHasStability())
                     return;
 
-                var attackDirector = mech.Combat?.AttackDirector;
-                if (attackDirector?.allAttackSequences is { Count: > 0 } sequences)
-                {
-                    var lastSeqId = sequences.Keys.Max();
-                    InstabilityBySequence[lastSeqId] = __instance.tonnage;
-                    Main.Log.LogDebug($"[SelfKnockdown] {__instance.Name} has SelfKnockdown tag. Flag set for sequence {lastSeqId}.");
-                }
+                bool hasSelfKnockdown = __instance.defId.StartsWith("Weapon_Artillery") ||
+                                        __instance.defId.StartsWith("Weapon_Gauss");
+
+                WeaponInfo.ShouldApplySelfInstability = hasSelfKnockdown;
+                WeaponInfo.SelfInstabilityWeaponTonnage = hasSelfKnockdown ? __instance.tonnage : 0f;
             }
         }
 
@@ -34,21 +34,23 @@ namespace BTX_ExpansionPack
             [HarmonyPrefix]
             public static void Prefix(AttackDirector __instance, MessageCenterMessage message)
             {
-                if (message is not AttackCompleteMessage attackCompleteMessage)
-                    return;
-
-                var sequenceId = attackCompleteMessage.sequenceId;
-                if (InstabilityBySequence.TryRemove(sequenceId, out var tonnage))
+                if (WeaponInfo.ShouldApplySelfInstability)
                 {
-                    var attackSequence = __instance.GetAttackSequence(sequenceId);
+                    WeaponInfo.ShouldApplySelfInstability = false;
+
+                    if (message is not AttackCompleteMessage attackCompleteMessage)
+                        return;
+
+                    var sequenceId = attackCompleteMessage.sequenceId;
+                    AttackDirector.AttackSequence attackSequence = __instance.GetAttackSequence(sequenceId);
                     if (attackSequence?.attacker is Mech mech && mech.isHasStability())
                     {
-                        var selfInstability = tonnage * 1.5f;
+                        var selfInstability = WeaponInfo.SelfInstabilityWeaponTonnage * 1.5f;
                         var instabilityToApply = (!mech.BracedLastRound || mech.DistMovedThisRound > 20f)
                             ? selfInstability
                             : selfInstability / 2f;
 
-                        Main.Log.LogDebug($"[SelfKnockdown] Applying {instabilityToApply} instability to {mech.DisplayName} (sequence {sequenceId}).");
+                        Main.Log.LogDebug($"[SelfKnockdown] Applied {instabilityToApply} instability to {mech.DisplayName}.");
                         mech.AddAbsoluteInstability(instabilityToApply, StabilityChangeSource.Effect, mech.GUID);
 
                         if (!mech.NeedsInstabilityCheck) return;

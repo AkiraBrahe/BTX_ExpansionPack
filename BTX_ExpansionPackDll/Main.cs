@@ -1,4 +1,6 @@
-﻿using HBS.Logging;
+﻿using BattleTech;
+using BattleTech.Framework;
+using HBS.Logging;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -39,42 +41,20 @@ namespace BTX_ExpansionPack
 
         internal static void ApplyHarmonyPatches()
         {
-            var patchesToUnpatch = new List<(string harmonyId, string typeName, string methodName, HarmonyPatchType patchType)>
-            {
-                // --- BattleTech Extended ---
-                /* Weather Conditions */
-                ("BEX.BattleTech.Extended_CE", "Contract", "get_ShortDescription", HarmonyPatchType.Postfix),
-                /* Temp Jump Jets */
-                ("BEX.BattleTech.Extended_CE", "AbstractActor", "get_WorkingJumpjets", HarmonyPatchType.Postfix),
-                /* Firing Arc Quirks */
-                ("BEX.BattleTech.MechQuirks", "Mech", "IsTargetPositionInFiringArc", HarmonyPatchType.Postfix),
-
-                // --- CAC-C ---
-                /* Drop Slots Fix */
-                ("com.github.mcb5637.BTX_CAC_Compatibility", "SimGameState", "InitCompanyStats", HarmonyPatchType.Postfix),
-                ("com.github.mcb5637.BTX_CAC_Compatibility", "SimGameState", "Rehydrate", HarmonyPatchType.Postfix),
-                /* Max Player Units Fix */
-                ("com.github.mcb5637.BTX_CAC_Compatibility", "ContractOverride", "FromJSONFull", HarmonyPatchType.Postfix),
-                ("com.github.mcb5637.BTX_CAC_Compatibility", "ContractOverride", "FullRehydrate", HarmonyPatchType.Postfix)
-            };
-
-            foreach (var (harmonyId, typeName, methodName, patchType) in patchesToUnpatch)
-            {
-                var type = AccessTools.TypeByName(typeName);
-                if (type == null) continue;
-
-                MethodBase method = AccessTools.DeclaredMethod(type, methodName);
-
-                if (method == null)
-                {
-                    var propInfo = AccessTools.Property(type, methodName.Replace("get_", ""));
-                    method = propInfo?.GetGetMethod(true);
-                }
-                if (method != null)
-                {
-                    harmony.Unpatch(method, patchType, harmonyId);
-                }
-            }
+            // --- BattleTech Extended ---
+            /* Weather Conditions */
+            harmony.Unpatch(AccessTools.PropertyGetter(typeof(Contract), "ShortDescription"), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+            /* Temp Jump Jets */
+            harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+            /* Firing Arc Quirks */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+            // --- CAC-C ---
+            /* Drop Slots Fix */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            /* Max Player Units Fix */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FromJSONFull"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
@@ -93,11 +73,11 @@ namespace BTX_ExpansionPack
                     List<string> keysToRemove = [.. BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces
                         .Keys
                         .Where(key => key.StartsWith("Ammo_"))];
-            
+
                     foreach (string key in keysToRemove)
                     {
                         BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces.Remove(key);
-                    } 
+                    }
                 }
             }
         }
