@@ -57,6 +57,7 @@
     <Compile Include="Features\MotiveRepair.cs" />
     <Compile Include="Features\SelfKnockdown.cs" />
     <Compile Include="Features\SpecialAmmoOverTime.cs" />
+    <Compile Include="Features\UrbanDevastation.cs" />
     <Compile Include="Features\VehicleCASE.cs" />
     <Compile Include="Features\VehiclePilotInjuries.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Fixes\MechLabUI.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\MechSizeCalculator.cs" />
     <Compile Include="Utilities\PirateSystemLogger.cs" />
     <Compile Include="GlobalUsings.cs" />
     <Compile Include="Helpers.cs" />
