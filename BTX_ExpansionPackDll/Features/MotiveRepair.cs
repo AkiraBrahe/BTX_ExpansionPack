@@ -6,20 +6,31 @@ namespace BTX_ExpansionPack
 {
     internal class MotiveRepair
     {
+        [HarmonyPatch(typeof(AbstractActor), "InitEffectStats")]
+        public static class AbstractActor_InitEffectStats
+        {
+            [HarmonyPostfix]
+            public static void Postfix(AbstractActor __instance)
+            {
+                __instance.StatCollection.AddStatistic("MotiveRepairActive", false);
+            }
+        }
+
         [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]
         public static class AbstractActor_OnActivationEnd
         {
             [HarmonyPrefix]
             public static void Prefix(AbstractActor __instance)
             {
-                if (__instance.FakeVehicle() &&
-                    __instance.Combat.EffectManager.GetAllEffectsTargetingWithBaseID(__instance, "motiveSystemGain").Any())
+                bool isRepairActive = __instance.StatCollection.GetStatistic("MotiveRepairActive").Value<bool>();
+                if (__instance.FakeVehicle() && isRepairActive)
                 {
                     int removedCruise = RemoveDebuffs(__instance, "motiveSystemLoss", "CruiseSpeed", 3);
                     int removedFlank = RemoveDebuffs(__instance, "motiveSystemLossSprint", "FlankSpeed", 3);
 
                     if (removedCruise > 0 || removedFlank > 0)
                     {
+                        __instance.StatCollection.Set("MotiveRepairActive", false);
                         Main.Log.LogDebug($"[MotiveRepair] Removed {removedCruise} cruise and {removedFlank} flank debuffs from {__instance.DisplayName}.");
                     }
                 }
@@ -54,8 +65,8 @@ namespace BTX_ExpansionPack
                     {
                         if (actor is Mech mech && mech.MechDef.IsVehicle())
                         {
-                            mech.allComponents.RemoveAll(mechComponent => mechComponent.Description.Id == "Gear_BEX_MotiveSystem");
-                            mech.miscComponents.RemoveAll(mechComponent => mechComponent.Description.Id == "Gear_BEX_MotiveSystem");
+                            mech.allComponents.RemoveAll(mechComponent => mechComponent.defId == "Gear_BEX_MotiveSystem");
+                            mech.miscComponents.RemoveAll(mechComponent => mechComponent.defId == "Gear_BEX_MotiveSystem");
                         }
                     }
                 }

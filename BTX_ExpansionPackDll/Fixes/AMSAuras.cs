@@ -48,25 +48,24 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPrefix]
             public static bool Prefix(AuraBubble aura, bool isAlly, AuraActorBody __instance)
             {
-                if (isAlly && aura?.Def != null && aura.Def.IsPositiveToAlly &&
-                    __instance?.owner?.Combat?.MessageCenter != null)
+                if (!isAlly || aura?.Def == null || !aura.Def.IsPositiveToAlly ||
+                    __instance?.owner?.Combat?.MessageCenter == null) return true;
+
+                if (!string.IsNullOrEmpty(aura.Def.Name) &&
+                    aura.Def.Name.Contains("AMS"))
                 {
-                    if (!string.IsNullOrEmpty(aura.Def.Name) &&
-                        aura.Def.Name.Contains("AMS"))
+                    if (protectedAllies.Add(__instance.owner.GUID))
                     {
-                        if (protectedAllies.Add(__instance.owner.GUID))
-                        {
-                            __instance.owner.Combat.MessageCenter.PublishMessage(
-                                new FloatieMessage(
-                                    aura.owner.GUID,
-                                    __instance.owner.GUID,
-                                    new Text("{0} PROTECTED", [aura.Def.Name]),
-                                    FloatieMessage.MessageNature.Buff
-                                )
-                            );
-                        }
-                        return false;
+                        __instance.owner.Combat.MessageCenter.PublishMessage(
+                            new FloatieMessage(
+                                aura.owner.GUID,
+                                __instance.owner.GUID,
+                                new Text("{0} PROTECTED", [aura.Def.Name]),
+                                FloatieMessage.MessageNature.Buff
+                            )
+                        );
                     }
+                    return false;
                 }
                 return true;
             }

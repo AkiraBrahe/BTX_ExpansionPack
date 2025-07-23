@@ -15,23 +15,17 @@ namespace BTX_ExpansionPack.Fixes
             public static void Postfix(ref string __result, AbstractActor attacker, ICombatant target)
             {
                 Mech attackingMech = attacker as Mech;
-                bool hasAntiAirQuirk = MechQuirkInfo.MechQuirkStore[attackingMech.MechDef.Chassis.Description.Id].AntiAircraftTargeting;
+                bool hasAntiAirQuirk = MechQuirkInfo.MechQuirkStore[attackingMech.MechDef.chassisID].AntiAircraftTargeting;
                 if (attackingMech == null || !hasAntiAirQuirk) return;
 
                 bool isAirborneTarget = false;
-
-                if (target is FakeVehicleMech vtolTarget &&
-                    vtolTarget.MechDef != null &&
-                    vtolTarget.MechDef.MechTags.Contains("unit_vtol"))
+                if (target is AbstractActor unit)
                 {
-                    isAirborneTarget = true;
-                }
-
-                if (target is Mech lamTarget &&
-                    lamTarget.EncounterTags != null &&
-                    lamTarget.EncounterTags.Contains("unit_lam"))
-                {
-                    isAirborneTarget = true;
+                    if (unit.GetTags().Contains("unit_vtol") ||
+                        unit.GetTags().Contains("unit_lam"))
+                    {
+                        isAirborneTarget = true;
+                    }
                 }
 
                 if (isAirborneTarget)

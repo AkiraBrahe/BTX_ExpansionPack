@@ -13,7 +13,7 @@ namespace BTX_ExpansionPack
                 {
                     foreach (Weapon weapon in allyMech.Weapons)
                     {
-                        if (weapon.weaponDef.Description.Id.StartsWith("Weapon_TAG"))
+                        if (weapon.defId.StartsWith("Weapon_TAG"))
                         {
                             return true;
                         }
@@ -23,7 +23,7 @@ namespace BTX_ExpansionPack
                 {
                     foreach (Weapon weapon in allyVehicle.Weapons)
                     {
-                        if (weapon.weaponDef.Description.Id.StartsWith("Weapon_TAG"))
+                        if (weapon.defId.StartsWith("Weapon_TAG"))
                         {
                             return true;
                         }
@@ -37,7 +37,7 @@ namespace BTX_ExpansionPack
         {
             foreach (MechComponent mechComponent in mech.allComponents)
             {
-                if (mechComponent.componentDef.Description.Id.StartsWith("Gear_Addon_Artemis"))
+                if (mechComponent.defId.StartsWith("Gear_Addon_Artemis"))
                 {
                     return true;
                 }

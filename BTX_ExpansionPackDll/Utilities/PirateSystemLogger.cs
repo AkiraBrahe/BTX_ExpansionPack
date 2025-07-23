@@ -59,29 +59,29 @@ namespace BTX_ExpansionPack.Utilities
                     }
                 }
             }
+        }
 
-            [HarmonyPatch(typeof(UpdateOwnership), "UpdateTheMap")]
-            public static class UpdateOwnership_UpdateTheMap
+        [HarmonyPatch(typeof(UpdateOwnership), "UpdateTheMap")]
+        public static class UpdateOwnership_UpdateTheMap
+        {
+            [HarmonyPostfix]
+            public static void Postfix()
             {
-                [HarmonyPostfix]
-                public static void Postfix()
-                {
-                    if (!Main.Settings.Debug.PirateSystemLogging) return;
+                if (!Main.Settings.Debug.PirateSystemLogging) return;
 
-                    Logger.LogDebug("--- Pirate Faction System Counts ---");
-                    if (pirateSystemCounts.Any())
+                Logger.LogDebug("--- Pirate Faction System Counts ---");
+                if (pirateSystemCounts.Any())
+                {
+                    foreach (var entry in pirateSystemCounts.OrderByDescending(e => e.Value))
                     {
-                        foreach (var entry in pirateSystemCounts.OrderByDescending(e => e.Value))
-                        {
-                            Logger.LogDebug($"  {entry.Key}: {entry.Value} systems");
-                        }
+                        Logger.LogDebug($"  {entry.Key}: {entry.Value} systems");
                     }
-                    else
-                    {
-                        Logger.LogDebug("  No pirate system data collected yet, or no pirate systems found.");
-                    }
-                    Logger.LogDebug("------------------------------------");
                 }
+                else
+                {
+                    Logger.LogDebug("  No pirate system data collected yet, or no pirate systems found.");
+                }
+                Logger.LogDebug("------------------------------------");
             }
         }
     }

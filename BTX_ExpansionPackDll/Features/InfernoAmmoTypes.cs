@@ -123,7 +123,7 @@ namespace BTX_ExpansionPack
 
         public static bool HasInferno(Mech __instance) =>
             __instance.ammoBoxes.Any(ammoBox =>
-                InfernoAmmoIds.Contains(ammoBox.ammoDef.Description.Id) &&
+                InfernoAmmoIds.Contains(ammoBox.defId) &&
                 ammoBox.StatCollection.GetValue<int>("CurrentAmmo") > 0);
     }
 }

@@ -61,7 +61,7 @@
     <Compile Include="Features\VehiclePilotInjuries.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
     <Compile Include="Fixes\AntiAirTargeting.cs" />
-    <Compile Include="Fixes\BuildingTargetingExploitFix.cs" />
+    <Compile Include="Fixes\BuildingTargetingExploit.cs" />
     <Compile Include="Fixes\DropSlots.cs" />
     <Compile Include="Fixes\FiringArcs.cs" />
     <Compile Include="Fixes\HomingTargeting.cs" />

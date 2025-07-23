@@ -31,14 +31,14 @@
         "Id": "motiveSystemGain",
         "Name": "MOTIVE REPAIR",
         "Details": "Motive systems partially repaired.",
-        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+        "Icon": "uixSvgIcon_damage_motive"
       },
       "nature": "Buff",
       "statisticData": {
-        "statName": "CruiseSpeed",
-        "operation": "Float_Add",
-        "modValue": "5.0",
-        "modType": "System.Single"
+        "statName": "MotiveRepairActive",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
       }
     }
   ],

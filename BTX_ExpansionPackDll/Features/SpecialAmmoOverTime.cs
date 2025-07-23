@@ -122,7 +122,7 @@ namespace BTX_ExpansionPack
                 List<AmmunitionBox> ammoBoxesToReplace = [];
                 foreach (AmmunitionBox ammoBox in mech.ammoBoxes)
                 {
-                    if (ammoBox.ammoDef.Description.Id == originalAmmoID && Random.Range(0f, 1f) < actualChance)
+                    if (ammoBox.defId == originalAmmoID && Random.Range(0f, 1f) < actualChance)
                     {
                         ammoBoxesToReplace.Add(ammoBox);
                     }
