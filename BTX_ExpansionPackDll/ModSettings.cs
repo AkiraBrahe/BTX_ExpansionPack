@@ -10,6 +10,7 @@
     {
         public bool AllDropShipUpgrades { get; set; } = false;
         public bool PirateSystemLogging { get; set; } = false;
+        public bool MechSizeLogging { get; set; } = true;
     }
 
     public class GameplaySettings
@@ -21,7 +22,7 @@
         public bool DisableNonStandardAmmoBins { get; set; } = false;
     }
 
-        public class UISettings
+    public class UISettings
     {
         public IntelSettings ContractIntel { get; set; } = new IntelSettings();
         public MechTooltipSettings MechTooltips { get; set; } = new MechTooltipSettings();

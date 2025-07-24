@@ -1,22 +1,26 @@
-﻿using CustomUnits;
+﻿using BattleTech.UI;
+using CustomUnits;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using BattleTech.UI;
 
 namespace BTX_ExpansionPack.Utilities
 {
     internal class MechSizeCalculator
     {
+        private const float UnityUnitToMeter = 0.91f;
         private static readonly HashSet<string> LoggedChassis = [];
 
         [HarmonyPatch(typeof(CustomMechRepresentation), "Init")]
-        public static class CustomMechRepresentation_Init 
+        public static class CustomMechRepresentation_Init
         {
+            [HarmonyPrepare]
+            public static bool Prepare() => Main.Settings.Debug.MechSizeLogging;
+
             [HarmonyPostfix]
             public static void Postfix(CustomMech mech)
             {
-                if (!Main.Settings.Debug.MechSizeLogging || mech == null || mech.MechDef == null || mech.MechDef.Chassis == null)
+                if (mech == null || mech.MechDef == null || mech.MechDef.Chassis == null)
                     return;
 
                 string chassisName = mech.MechDef.Chassis.Description.Name;
@@ -36,8 +40,8 @@ namespace BTX_ExpansionPack.Utilities
                         for (int i = 1; i < renderers.Length; i++)
                             bounds.Encapsulate(renderers[i].bounds);
 
-                        height = bounds.size.y;
-                        volume = bounds.size.x * bounds.size.y * bounds.size.z;
+                        height = bounds.size.y * UnityUnitToMeter;
+                        volume = (bounds.size.x * bounds.size.y * bounds.size.z) * (float)Math.Pow(UnityUnitToMeter, 3);
                     }
                 }
                 catch (Exception ex)
@@ -50,19 +54,19 @@ namespace BTX_ExpansionPack.Utilities
         }
 
         [HarmonyPatch(typeof(SGRoomController_MechBay), "EnterRoom")]
-        public static class SGRoomController_MechBay_EnterRoom 
+        public static class SGRoomController_MechBay_EnterRoom
         {
+            [HarmonyPrepare]
+            public static bool Prepare() => Main.Settings.Debug.MechSizeLogging;
+
             private static bool logged = false;
 
             [HarmonyPostfix]
             public static void Postfix(SGRoomController_MechBay __instance)
             {
-                if (!Main.Settings.Debug.MechSizeLogging || __instance == null)
-                    return;
-
-                if (logged) return;
+                if (logged || __instance == null) return;
                 logged = true;
-
+        
                 string[] humanModels = [
                     "chrPrfCrew_backgroundActor_mechF",
                     "chrPrfCrew_backgroundActor_mechM",
@@ -81,9 +85,9 @@ namespace BTX_ExpansionPack.Utilities
                             Bounds bounds = renderers[0].bounds;
                             for (int i = 1; i < renderers.Length; i++)
                                 bounds.Encapsulate(renderers[i].bounds);
-
-                            float height = bounds.size.y;
-                            float volume = bounds.size.x * bounds.size.y * bounds.size.z;
+        
+                            float height = bounds.size.y * UnityUnitToMeter;
+                            float volume = (bounds.size.x * bounds.size.y * bounds.size.z) * (float)Math.Pow(UnityUnitToMeter, 3); ;
                             Main.Log.LogDebug($"Human: {name}, Height: {height:F2}, Volume: {volume:F2}");
                         }
                         else

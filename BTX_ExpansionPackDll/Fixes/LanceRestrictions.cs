@@ -87,6 +87,9 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(LanceConfiguratorPanel), "ValidateLance")]
         public static class LanceConfiguratorPanel_ValidateLance_NoVehicleDuel
         {
+            [HarmonyPrepare]
+            public static bool Prepare() => Main.Settings.Gameplay.AllowVehiclesInMechDuels == false;
+
             [HarmonyPrefix]
             [HarmonyWrapSafe]
             [HarmonyBefore("io.mission.customunits")]
@@ -94,8 +97,6 @@ namespace BTX_ExpansionPack.Fixes
             {
                 if (__instance.activeContract != null && __instance.activeContract.IsDuelContract())
                 {
-                    if (Main.Settings.Gameplay.AllowVehiclesInMechDuels) return;
-
                     bool foundVehicle = false;
                     var deployedUnits = new List<MechDef>();
 

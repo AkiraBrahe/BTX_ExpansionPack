@@ -13,9 +13,9 @@ namespace BTX_ExpansionPack.Utilities
         public static class PirateHelper_AddPiratesToSystem
         {
             [HarmonyPrepare]
-            public static void Prepare()
+            public static bool Prepare()
             {
-                if (!Main.Settings.Debug.PirateSystemLogging) return;
+                if (!Main.Settings.Debug.PirateSystemLogging) return false;
 
                 pirateSystemCounts.Clear();
 
@@ -35,14 +35,12 @@ namespace BTX_ExpansionPack.Utilities
                     }
                 }
 
-                return;
+                return true;
             }
 
             [HarmonyPostfix]
             public static void Postfix(StarSystem theSystem)
             {
-                if (!Main.Settings.Debug.PirateSystemLogging) return;
-
                 List<string> assignedPirates = [.. theSystem.Def.ContractEmployerIDList
                     .Where(factionID => Core.Settings.PirateFactions.ContainsKey(factionID) ||
                                         Core.Settings.CriminalFactions.ContainsKey(factionID))];
@@ -64,11 +62,12 @@ namespace BTX_ExpansionPack.Utilities
         [HarmonyPatch(typeof(UpdateOwnership), "UpdateTheMap")]
         public static class UpdateOwnership_UpdateTheMap
         {
+            [HarmonyPrepare]
+            public static bool Prepare() => Main.Settings.Debug.PirateSystemLogging;
+
             [HarmonyPostfix]
             public static void Postfix()
             {
-                if (!Main.Settings.Debug.PirateSystemLogging) return;
-
                 Logger.LogDebug("--- Pirate Faction System Counts ---");
                 if (pirateSystemCounts.Any())
                 {

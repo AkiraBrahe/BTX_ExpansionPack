@@ -1,5 +1,6 @@
 ﻿using BattleTech;
 using BattleTech.Framework;
+using BattleTech.Save.SaveGameStructure;
 using HBS.Logging;
 using Newtonsoft.Json;
 using System;
@@ -55,6 +56,9 @@ namespace BTX_ExpansionPack
             /* Max Player Units Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FromJSONFull"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            // --- VMMWSGC ---
+            /* Autosaves */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(GameInstance), "Save", [typeof(SaveReason)]),HarmonyPatchType.Prefix, "github.com.0x1d7.vmmwsgc");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
