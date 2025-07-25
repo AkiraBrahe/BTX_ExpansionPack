@@ -25,8 +25,8 @@ namespace BTX_ExpansionPack
                     bool hasCASE = HasCASE(vehicleDef);
                     if (hasCASE)
                     {
-                        var currentAmmo = __instance.CurrentAmmo;
-                        var capacity = __instance.AmmoCapacity;
+                        float currentAmmo = __instance.CurrentAmmo;
+                        float capacity = __instance.AmmoCapacity;
                         if (capacity > 0 && currentAmmo / capacity >= 0.5f)
                         {
                             Main.Log.LogDebug($"[VehicleCASE] Ammo box is 50% or more full, applying rear damage to {vehicle.DisplayName}.");
@@ -95,10 +95,10 @@ namespace BTX_ExpansionPack
 
         private static void ApplyCASEProtection(FakeVehicleMech vehicle, string componentName, WeaponHitInfo hitInfo, bool applyDamage)
         {
-            var rearArmorLocation = VehicleChassisLocations.Rear.toFakeArmor();
-            var currentRearArmor = vehicle.GetCurrentArmor(rearArmorLocation);
-            var totalRearArmor = vehicle.GetMaxArmor(rearArmorLocation);
-            var damageToApply = Mathf.Min(currentRearArmor, totalRearArmor / 2f);
+            ArmorLocation rearArmorLocation = VehicleChassisLocations.Rear.toFakeArmor();
+            float currentRearArmor = vehicle.GetCurrentArmor(rearArmorLocation);
+            float totalRearArmor = vehicle.GetMaxArmor(rearArmorLocation);
+            float damageToApply = Mathf.Min(currentRearArmor, totalRearArmor / 2f);
 
             if (applyDamage && currentRearArmor > 0)
             {
@@ -106,7 +106,7 @@ namespace BTX_ExpansionPack
                 vehicle.ApplyArmorStatDamage(rearArmorLocation, damageToApply, hitInfo);
             }
 
-            var floatieText = $"{componentName} EXPLOSION CASE PROTECTED";
+            string floatieText = $"{componentName} EXPLOSION CASE PROTECTED";
             var nature = applyDamage ? FloatieMessage.MessageNature.CriticalHit : FloatieMessage.MessageNature.Neutral;
             vehicle.Combat.MessageCenter.PublishMessage(new FloatieMessage(vehicle.GUID, vehicle.GUID, floatieText, nature));
         }

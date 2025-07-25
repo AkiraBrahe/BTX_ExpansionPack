@@ -144,7 +144,7 @@ namespace BTX_ExpansionPack
                 double totalDays = (commonDate - productionDate).TotalDays;
 
                 float interpolationFactor = (float)(currentDays / totalDays);
-                return minChance + (maxChance - minChance) * interpolationFactor;
+                return minChance + ((maxChance - minChance) * interpolationFactor);
             }
         }
     }

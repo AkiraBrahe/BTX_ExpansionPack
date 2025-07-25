@@ -43,7 +43,9 @@ namespace BTX_ExpansionPack
                     {
                         string targetFactionName = contract.Override.targetTeam.FactionDef?.Name ?? factionId;
                         if (targetFactionName.StartsWith("the ", StringComparison.OrdinalIgnoreCase))
+                        {
                             targetFactionName = targetFactionName.Substring(4);
+                        }
 
                         targetText = SetupTextComponent(
                             targetText,
@@ -92,6 +94,7 @@ namespace BTX_ExpansionPack
                         newText.gameObject.name = name;
                         newText.SetText(text);
                     }
+
                     return newText;
                 }
                 else

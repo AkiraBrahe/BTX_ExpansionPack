@@ -58,7 +58,7 @@ namespace BTX_ExpansionPack.Fixes
                     return 90f;
                 }
 
-                if (mech is (Mech or QuadMech) && mech is not TrooperSquad)
+                if (mech is (Mech or QuadMech) and not TrooperSquad)
                 {
                     float distance = Vector3.Distance(attackPosition, targetUnit.CurrentPosition);
                     if (distance < Core.Settings.CloseRangeFiringArcDistance)

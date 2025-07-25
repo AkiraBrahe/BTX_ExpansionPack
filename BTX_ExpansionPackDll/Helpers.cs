@@ -7,6 +7,7 @@ namespace BTX_ExpansionPack
         public static bool AnyAllyHasTAG(Mech mech)
         {
             if (mech?.team == null) return false;
+
             foreach (ICombatant ally in mech.team.units)
             {
                 if (ally is Mech allyMech && allyMech != mech)
@@ -30,6 +31,7 @@ namespace BTX_ExpansionPack
                     }
                 }
             }
+
             return false;
         }
 
@@ -42,6 +44,7 @@ namespace BTX_ExpansionPack
                     return true;
                 }
             }
+
             return false;
         }
     }

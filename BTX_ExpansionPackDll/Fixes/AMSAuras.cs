@@ -49,7 +49,10 @@ namespace BTX_ExpansionPack.Fixes
             public static bool Prefix(AuraBubble aura, bool isAlly, AuraActorBody __instance)
             {
                 if (!isAlly || aura?.Def == null || !aura.Def.IsPositiveToAlly ||
-                    __instance?.owner?.Combat?.MessageCenter == null) return true;
+                    __instance?.owner?.Combat?.MessageCenter == null)
+                {
+                    return true;
+                }
 
                 if (!string.IsNullOrEmpty(aura.Def.Name) &&
                     aura.Def.Name.Contains("AMS"))

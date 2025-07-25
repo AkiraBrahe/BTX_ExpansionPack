@@ -66,7 +66,7 @@ namespace BTX_ExpansionPack.Utilities
             {
                 if (logged || __instance == null) return;
                 logged = true;
-        
+
                 string[] humanModels = [
                     "chrPrfCrew_backgroundActor_mechF",
                     "chrPrfCrew_backgroundActor_mechM",
@@ -85,7 +85,7 @@ namespace BTX_ExpansionPack.Utilities
                             Bounds bounds = renderers[0].bounds;
                             for (int i = 1; i < renderers.Length; i++)
                                 bounds.Encapsulate(renderers[i].bounds);
-        
+
                             float height = bounds.size.y * UnityUnitToMeter;
                             float volume = (bounds.size.x * bounds.size.y * bounds.size.z) * (float)Math.Pow(UnityUnitToMeter, 3); ;
                             Main.Log.LogDebug($"Human: {name}, Height: {height:F2}, Volume: {volume:F2}");

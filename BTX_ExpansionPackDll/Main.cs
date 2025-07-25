@@ -58,7 +58,7 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             // --- VMMWSGC ---
             /* Autosaves */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(GameInstance), "Save", [typeof(SaveReason)]),HarmonyPatchType.Prefix, "github.com.0x1d7.vmmwsgc");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(GameInstance), "Save", [typeof(SaveReason)]), HarmonyPatchType.Prefix, "github.com.0x1d7.vmmwsgc");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
