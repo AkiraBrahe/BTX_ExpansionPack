@@ -48,17 +48,15 @@ namespace BTX_ExpansionPack.Fixes
 
             private static float GetFiringArc(Mech mech, ICombatant targetUnit, Vector3 attackPosition)
             {
-                float firingArc = mech.Combat.Constants.ToHit.FiringArcDegrees; // Default
+                float firingArc = mech.Combat.Constants.ToHit.FiringArcDegrees;
 
                 if (mech is FakeVehicleMech)
                 {
                     var vehicleDef = mech.MechDef?.toVehicleDef(mech.MechDef.DataManager);
-                    if (vehicleDef?.Chassis != null)
-                        return vehicleDef.Chassis.HasTurret ? 360f : 90f;
-                    return 90f;
+                    return vehicleDef?.Chassis != null ? vehicleDef.Chassis.HasTurret ? 360f : 90f : 90f;
                 }
 
-                if (mech is (Mech or QuadMech) && mech is not TrooperSquad)
+                if (mech is (Mech or QuadMech) and not TrooperSquad)
                 {
                     float distance = Vector3.Distance(attackPosition, targetUnit.CurrentPosition);
                     if (distance < Core.Settings.CloseRangeFiringArcDistance)

@@ -1,7 +1,4 @@
 ﻿using BattleTech;
-using BattleTech.UI.TMProWrapper;
-using BattleTech.UI.Tooltips;
-using CustomUnits;
 using MechAffinity;
 using System.Text.RegularExpressions;
 
@@ -27,10 +24,8 @@ namespace BTX_ExpansionPack.Fixes
         public static class PilotAffinityManager_getMechChassisAffinityDescription
         {
             [HarmonyPostfix]
-            public static void Postfix(ref string __result)
-            {
+            public static void Postfix(ref string __result) =>
                 __result = __result.Replace("\n<b> Unlockable Affinities: </b>", "");
-            }
         }
 
         [HarmonyPatch(typeof(Quirks.Tooltips.QuirkToolTips), "DetailMechQuirks", [typeof(ChassisDef)])]

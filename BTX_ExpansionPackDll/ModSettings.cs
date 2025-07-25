@@ -8,9 +8,10 @@
     }
     public class ModDebugSettings
     {
+        public bool SaveBetweenConsecutiveDrops { get; set; } = true;
         public bool AllDropShipUpgrades { get; set; } = false;
         public bool PirateSystemLogging { get; set; } = false;
-        public bool MechSizeLogging { get; set; } = true;
+        public bool MechSizeLogging { get; set; } = false;
     }
 
     public class GameplaySettings

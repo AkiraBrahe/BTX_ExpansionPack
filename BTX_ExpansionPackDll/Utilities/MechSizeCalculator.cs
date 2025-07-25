@@ -41,7 +41,7 @@ namespace BTX_ExpansionPack.Utilities
                             bounds.Encapsulate(renderers[i].bounds);
 
                         height = bounds.size.y * UnityUnitToMeter;
-                        volume = (bounds.size.x * bounds.size.y * bounds.size.z) * (float)Math.Pow(UnityUnitToMeter, 3);
+                        volume = bounds.size.x * bounds.size.y * bounds.size.z * (float)Math.Pow(UnityUnitToMeter, 3);
                     }
                 }
                 catch (Exception ex)
@@ -49,7 +49,7 @@ namespace BTX_ExpansionPack.Utilities
                     Main.Log.LogDebug($"Error calculating bounds for {chassisName}: {ex}");
                 }
 
-                Main.Log.LogDebug($"Mech: {chassisName}, Tonnage: {tonnage}, Height: {height:F2}, Volume: {volume:F2}");
+                Main.Log.LogDebug($"Mech: {chassisName}, Tonnage: {tonnage} tons, Height: {height:F2}m, Volume: {volume:F2}m³");
             }
         }
 
@@ -66,7 +66,7 @@ namespace BTX_ExpansionPack.Utilities
             {
                 if (logged || __instance == null) return;
                 logged = true;
-        
+
                 string[] humanModels = [
                     "chrPrfCrew_backgroundActor_mechF",
                     "chrPrfCrew_backgroundActor_mechM",
@@ -85,10 +85,10 @@ namespace BTX_ExpansionPack.Utilities
                             Bounds bounds = renderers[0].bounds;
                             for (int i = 1; i < renderers.Length; i++)
                                 bounds.Encapsulate(renderers[i].bounds);
-        
+
                             float height = bounds.size.y * UnityUnitToMeter;
-                            float volume = (bounds.size.x * bounds.size.y * bounds.size.z) * (float)Math.Pow(UnityUnitToMeter, 3); ;
-                            Main.Log.LogDebug($"Human: {name}, Height: {height:F2}, Volume: {volume:F2}");
+                            float volume = bounds.size.x * bounds.size.y * bounds.size.z * (float)Math.Pow(UnityUnitToMeter, 3); ;
+                            Main.Log.LogDebug($"Human: {name}, Height: {height:F2}m, Volume: {volume:F2}m³");
                         }
                         else
                         {

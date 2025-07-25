@@ -1,6 +1,7 @@
 ﻿using BattleTech;
 using BattleTech.Framework;
 using BattleTech.Save.SaveGameStructure;
+using CustAmmoCategories;
 using HBS.Logging;
 using Newtonsoft.Json;
 using System;
@@ -58,18 +59,22 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             // --- VMMWSGC ---
             /* Autosaves */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(GameInstance), "Save", [typeof(SaveReason)]),HarmonyPatchType.Prefix, "github.com.0x1d7.vmmwsgc");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(GameInstance), "Save", [typeof(SaveReason)]), HarmonyPatchType.Prefix, "github.com.0x1d7.vmmwsgc");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
         internal static void ApplySettings()
         {
-            if (Settings.Gameplay.OverrideDHSEngineCooling)
-            {
-                Extended_CE.Core.Settings.DHSEngineCooling = (int)Math.Round(30 * Settings.Gameplay.DHSEngineCoolingMultiplier);
-            }
+            // Re-enable saves between consecutive drops
+            PreForceTakeContractSave.SkipSave = !Settings.Debug.SaveBetweenConsecutiveDrops;
 
+            // Override DHS engine cooling
+            Extended_CE.Core.Settings.DHSEngineCooling = Settings.Gameplay.OverrideDHSEngineCooling
+                ? (int)Math.Round(30 * Settings.Gameplay.DHSEngineCoolingMultiplier)
+                : Extended_CE.Core.Settings.DHSEngineCooling;
+
+            // Remove non-standard ammo bins from shops
             if (Settings.Gameplay.DisableNonStandardAmmoBins)
             {
                 if (BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces != null)

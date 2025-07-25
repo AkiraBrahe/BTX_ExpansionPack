@@ -41,14 +41,14 @@ namespace BTX_ExpansionPack
                     if (message is not AttackCompleteMessage attackCompleteMessage)
                         return;
 
-                    var sequenceId = attackCompleteMessage.sequenceId;
+                    int sequenceId = attackCompleteMessage.sequenceId;
                     AttackDirector.AttackSequence attackSequence = __instance.GetAttackSequence(sequenceId);
                     if (attackSequence?.attacker is Mech mech && mech.isHasStability())
                     {
-                        var selfInstability = WeaponInfo.SelfInstabilityWeaponTonnage * 1.5f;
-                        var instabilityToApply = (!mech.BracedLastRound || mech.DistMovedThisRound > 20f)
-                            ? selfInstability
-                            : selfInstability / 2f;
+                        float selfInstability = WeaponInfo.SelfInstabilityWeaponTonnage * 1.5f;
+                        float instabilityToApply = (!mech.BracedLastRound || mech.DistMovedThisRound > 20f) ?
+                            selfInstability :
+                            selfInstability / 2f;
 
                         Main.Log.LogDebug($"[SelfKnockdown] Applied {instabilityToApply} instability to {mech.DisplayName}.");
                         mech.AddAbsoluteInstability(instabilityToApply, StabilityChangeSource.Effect, mech.GUID);

@@ -10,10 +10,8 @@ namespace BTX_ExpansionPack
         public static class AbstractActor_InitEffectStats
         {
             [HarmonyPostfix]
-            public static void Postfix(AbstractActor __instance)
-            {
+            public static void Postfix(AbstractActor __instance) =>
                 __instance.StatCollection.AddStatistic("MotiveRepairActive", false);
-            }
         }
 
         [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]

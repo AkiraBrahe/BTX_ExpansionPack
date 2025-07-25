@@ -63,10 +63,10 @@ namespace BTX_ExpansionPack
                         break;
 
                     case "Liao":
-                        ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_SRM", "Ammo_AmmunitionBox_Generic_SRM_Inferno", 1.00f);
+                        ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_SRM", "Ammo_AmmunitionBox_Generic_SRM_Inferno", 0.15f);
                         ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_LRM", "Ammo_AmmunitionBox_Generic_LRM_Inferno", 0.10f, new DateTime(3056, 1, 1), new DateTime(3062, 1, 1));
                         ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_ArrowIV", "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno", 0.01f);
-                        Main.Log.LogDebug("[SpecialAmmoOverTime] The Capellans got their infernos!");
+                        // Main.Log.LogDebug("[SpecialAmmoOverTime] The Capellans got their infernos!");
                         break;
 
                     case "Marik":
@@ -100,14 +100,7 @@ namespace BTX_ExpansionPack
                 }
             }
 
-            private static void ReplaceAmmo(
-                Mech mech,
-                string originalAmmoID,
-                string replacementAmmoID,
-                float chance,
-                DateTime? productionDate = null,
-                DateTime? commonDate = null,
-                float minChance = 0.05f)
+            private static void ReplaceAmmo(Mech mech, string originalAmmoID, string replacementAmmoID, float chance, DateTime? productionDate = null, DateTime? commonDate = null, float minChance = 0.05f)
             {
                 float actualChance = chance;
                 SimGameState simulation = UnityGameInstance.BattleTechGame.Simulation;
@@ -116,8 +109,6 @@ namespace BTX_ExpansionPack
                 {
                     actualChance = InterpolateChance(simulation.CurrentDate, productionDate.Value, commonDate.Value, chance, minChance);
                 }
-
-                Main.Log.LogDebug($"[SpecialAmmoOverTime] Attempting to replace '{originalAmmoID}' with '{replacementAmmoID}' with {actualChance:P0} chance for {mech.DisplayName}.");
 
                 List<AmmunitionBox> ammoBoxesToReplace = [];
                 foreach (AmmunitionBox ammoBox in mech.ammoBoxes)
@@ -144,7 +135,7 @@ namespace BTX_ExpansionPack
                 double totalDays = (commonDate - productionDate).TotalDays;
 
                 float interpolationFactor = (float)(currentDays / totalDays);
-                return minChance + (maxChance - minChance) * interpolationFactor;
+                return minChance + ((maxChance - minChance) * interpolationFactor);
             }
         }
     }

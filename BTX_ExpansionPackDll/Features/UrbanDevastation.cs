@@ -6,7 +6,6 @@ namespace BTX_ExpansionPack
 {
     internal class UrbanDevastation
     {
-
         [HarmonyPatch(typeof(TurnDirector), "OnInitializeContractComplete")]
         public static class TurnDirector_OnInitializeContractComplete
         {
@@ -15,7 +14,7 @@ namespace BTX_ExpansionPack
             [HarmonyPostfix]
             public static void Postfix(TurnDirector __instance)
             {
-                var combat = __instance.Combat;
+                CombatGameState combat = __instance.Combat;
                 if (combat == null || combat.ActiveContract.ContractBiome != Biome.BIOMESKIN.urbanHighTech)
                     return;
 
@@ -41,8 +40,8 @@ namespace BTX_ExpansionPack
 
                 Shuffle(candidateBuildings);
 
-                float minDevastation = 0.60f;   float maxDevastation = 0.90f;
-                float destroyPercent = (float)(rng.NextDouble() * (maxDevastation - minDevastation) + minDevastation);
+                float minDevastation = 0.60f; float maxDevastation = 0.90f;
+                float destroyPercent = (float)((rng.NextDouble() * (maxDevastation - minDevastation)) + minDevastation);
                 int destroyCount = (int)Math.Floor(candidateBuildings.Count * destroyPercent);
                 destroyCount = Math.Min(destroyCount, candidateBuildings.Count);
 

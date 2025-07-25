@@ -29,7 +29,7 @@ namespace BTX_ExpansionPack
                     return;
 
                 var cLoc = MechStructureRules.GetChassisLocationFromArmorLocation(aLoc);
-                if (cLoc == ChassisLocations.None || cLoc == ChassisLocations.Arms || cLoc == ChassisLocations.MainBody)
+                if (cLoc is ChassisLocations.None or ChassisLocations.Arms or ChassisLocations.MainBody)
                     return;
 
                 TryApplyPilotInjury(
@@ -47,8 +47,7 @@ namespace BTX_ExpansionPack
         public static class Vehicle_DamageLocation
         {
             [HarmonyPrefix]
-            public static void Prefix(Vehicle __instance, WeaponHitInfo hitInfo, VehicleChassisLocations vLoc, float totalArmorDamage, float directStructureDamage)
-            {
+            public static void Prefix(Vehicle __instance, WeaponHitInfo hitInfo, VehicleChassisLocations vLoc, float totalArmorDamage, float directStructureDamage) =>
                 TryApplyPilotInjury(
                     __instance,
                     vLoc,
@@ -57,7 +56,6 @@ namespace BTX_ExpansionPack
                     hitInfo,
                     InjuryReason.ActorDestroyed
                 );
-            }
         }
 
         private static void TryApplyPilotInjury(AbstractActor actor, object loc, float totalArmorDamage, float directStructureDamage, WeaponHitInfo hitInfo, InjuryReason reason)

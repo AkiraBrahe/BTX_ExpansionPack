@@ -80,6 +80,7 @@ namespace BTX_ExpansionPack.Utilities
                 {
                     Logger.LogDebug("  No pirate system data collected yet, or no pirate systems found.");
                 }
+
                 Logger.LogDebug("------------------------------------");
             }
         }
