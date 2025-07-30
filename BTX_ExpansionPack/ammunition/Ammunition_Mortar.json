@@ -23,8 +23,8 @@
   "AOERange": 30,
   "AOEDamage": 15,
   "AOEHeatDamage": 0,
-  "AOEInstability": 10,
-  "AoEDmgFalloffType": "Cubic",
+  "AOEInstability": 7.5,
+  "AoEDmgFalloffType": "Quadratic"
   "CantHitUnaffecedByPathing": true,
   "AdditionalImpactVFX": "WFX_BELarger",
   "AdditionalImpactVFXScaleX": 1,

@@ -1,0 +1,106 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 1050000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "Tacticon",
+    "Model": "Tracer 300",
+    "UIName": "TTS +",
+    "Id": "Gear_TargetingTrackingSystem_Tacticon_Tracer-300",
+    "Name": "Tacticon Tracer 300 TTS",
+    "Details": "All 'Mechs come equipped with a stock targeting and tracking system—or TTS—which can be upgraded for improved performance. A dedicated artillery TTS not only increases the accuracy of the attached artillery system but also enables automatic retargeting: when using the ATTACK GROUND ability, artillery strikes will automatically shift toward the nearest enemy, with the maximum shift distance depending on the TTS level.",
+    "Icon": "uixSvgIcon_equipment_TTS"
+  },
+  "BonusValueA": "+ 2 Acc. (Artillery)",
+  "BonusValueB": "+ Aim Shift",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Attack_ToHitArtillery",
+        "Name": "ARTILLERY WEAPON HIT CHANCE IMPROVED",
+        "Details": "Artillery strikes have their hit improved by [AMT].",
+        "Icon": "uixSvgIcon_equipment_TTS"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "appliesEachTick": false,
+        "effectsPersistAfterDestruction": false,
+        "statName": "AccuracyModifier",
+        "operation": "Float_Add",
+        "modValue": "-2.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "Weapon",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "NotSet",
+        "Location": "{target}"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "FloatieEffect",
+      "Description": {
+        "Id": "StatusEffect-TTS-AdjustedStrike",
+        "Name": "AUTOMATIC STRIKE RETARGETING",
+        "Details": "Artillery strikes initiated via the ATTACK GROUND ability will automatically shift towards the nearest enemy unit.",
+        "Icon": "uixSvgIcon_equipment_TTS"
+      },
+      "nature": "Buff",
+      "floatieData": {
+        "targetCollection": "NotSet"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_variant",
+      "component_type_variant2"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Custom": {
+    "AddonReference": {
+      "installedLocationOnly": false,
+      "autoTarget": true,
+      "notTargetable": false,
+      "WeaponAddonIds": [
+        "weaponupgrade_tts_artillery_level_2"
+      ]
+    },
+    "Sorter": 255
+  }
+}

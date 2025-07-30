@@ -15,11 +15,11 @@
     3000,
     3000
   ],
-  "ForbiddenRange": 180,
+  "ForbiddenRange": 90,
   "ammoCategoryID": "LongTom",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 60,
-  "Damage": 80,
+  "Damage": 225,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -33,8 +33,8 @@
   "AOERange": 180,
   "AOEDamage": 225,
   "AOEHeatDamage": 0,
-  "AOEInstability": 168.75,
-  "AoEDmgFalloffType": "Cubic",
+  "AOEInstability": 112.5,
+  "AoEDmgFalloffType": "Quadratic"
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -42,7 +42,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,
-  "Instability": 40,
+  "Instability": 112.5,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 450000,
@@ -56,8 +56,8 @@
     "Details": "The Long Tom Artillery Piece is the largest conventional artillery piece that can be mounted on a vehicle. As with all artillery types, the Long Tom always fires indirectly and deals damage in the area of impact.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "225 AoE Dmg.",
-  "BonusValueB": "180m AoE Range",
+  "BonusValueA": "180m AoE Range",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -75,7 +75,7 @@
     "C": "#C95410",
     "I": 1.5
   },
-  "ArtilleryReticleRadius": 120,
+  "ArtilleryReticleRadius": 90,
   "ArtilleryReticleText": "Long Tom",
   "Modes": [
     {
@@ -96,8 +96,7 @@
       "ballistic_artillery",
       "artillery_tts_attachable",
       "artillery_loader_attachable",
-      "VehicleCategory-Artillery",
-      "SelfKnockdown"
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

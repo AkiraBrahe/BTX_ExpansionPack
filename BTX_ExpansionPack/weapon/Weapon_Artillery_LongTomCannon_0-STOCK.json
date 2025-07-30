@@ -15,11 +15,11 @@
     390,
     600
   ],
-  "ForbiddenRange": 120,
+  "ForbiddenRange": 60,
   "ammoCategoryID": "LongTom",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 40,
-  "Damage": 55,
+  "HeatGenerated": 60,
+  "Damage": 225,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -34,7 +34,7 @@
   "AOEDamage": 150,
   "AOEHeatDamage": 0,
   "AOEInstability": 75,
-  "AoEDmgFalloffType": "Cubic",
+  "AoEDmgFalloffType": "Quadratic"
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -42,7 +42,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,
-  "Instability": 27.5,
+  "Instability": 112.5,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 650000,
@@ -56,8 +56,8 @@
     "Details": "The Long Tom Artillery Cannon is the scaled down version of the Long Tom Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "150 AoE Dmg.",
-  "BonusValueB": "120m AoE Range",
+  "BonusValueA": "120m AoE Range",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -79,7 +79,9 @@
       "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2,
-      "ShotsWhenFired": -1
+      "ShotsWhenFired": -1,
+      "DamagePerShot": -150,
+      "Instability": -75
     }
   ],
   "statusEffects": [],
@@ -91,8 +93,7 @@
       "ballistic_artillery",
       "artillery_tts_attachable",
       "artillery_loader_attachable",
-      "VehicleCategory-Artillery",
-      "SelfKnockdown"
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

@@ -15,11 +15,11 @@
     240,
     360
   ],
-  "ForbiddenRange": 60,
+  "ForbiddenRange": 45,
   "ammoCategoryID": "Sniper",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 20,
-  "Damage": 40,
+  "HeatGenerated": 30,
+  "Damage": 150,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -34,7 +34,7 @@
   "AOEDamage": 100,
   "AOEHeatDamage": 0,
   "AOEInstability": 50,
-  "AoEDmgFalloffType": "Cubic",
+  "AoEDmgFalloffType": "Quadratic"
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -42,7 +42,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,
-  "Instability": 20,
+  "Instability": 75,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 475000,
@@ -56,8 +56,8 @@
     "Details": "The Sniper Artillery Cannon is the scaled down version of the Sniper Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "100 AoE Dmg.",
-  "BonusValueB": "90m AoE Range",
+  "BonusValueA": "90m AoE Range",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -79,7 +79,9 @@
       "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2,
-      "ShotsWhenFired": -1
+      "ShotsWhenFired": -1,
+      "DamagePerShot": -100,
+      "Instability": -50
     }
   ],
   "statusEffects": [],
@@ -91,8 +93,7 @@
       "ballistic_artillery",
       "artillery_tts_attachable",
       "artillery_loader_attachable",
-      "VehicleCategory-Artillery",
-      "SelfKnockdown"
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

@@ -1,0 +1,25 @@
+{
+  "Description": {
+    "Id": "Ammunition_Thumper",
+    "Name": "Thumper Ammo",
+    "Details": "High-caliber artillery shells.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "Thumper",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "HideIfOnlyVariant": true,
+  "AdditionalImpactVFX": "WFX_BELarger",
+  "AdditionalImpactVFXScaleX": 2,
+  "AdditionalImpactVFXScaleY": 2,
+  "AdditionalImpactVFXScaleZ": 2
+}

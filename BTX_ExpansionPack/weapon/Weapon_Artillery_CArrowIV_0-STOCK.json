@@ -15,11 +15,11 @@
     1080,
     1620
   ],
-  "ForbiddenRange": 240,
+  "ForbiddenRange": 45,
   "ammoCategoryID": "ArrowIV",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
-  "Damage": 60,
+  "Damage": 160,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -36,7 +36,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 2,
-  "Instability": 30,
+  "Instability": 80,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
   "Description": {
     "Cost": 450000,
@@ -50,8 +50,8 @@
     "Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. Arrow IV launchers can be equipped with standard unguided area saturation missiles, causing massive damage to any unit within its 45-meter blast radius.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA": "120 AoE Dmg.",
-  "BonusValueB": "90m AoE Range",
+  "BonusValueA": "90m AoE Range",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "arrow",
@@ -68,22 +68,55 @@
   "MissileVolleyIntervalMultiplier": 1,
   "FireDelayMultiplier": 1,
   "AMSImmune": true,
-  "IsArtillery": true,
-  "ArtilleryReticleColor": {
-    "C": "#C62828",
-    "I": 1.5
+  "ProjectileScale": {
+    "x": 5,
+    "y": 5,
+    "z": 5
   },
-  "ArtilleryReticleRadius": 90,
-  "ArtilleryReticleText": "Arrow IV",
   "Modes": [
     {
       "Id": "ARTY",
-      "UIName": "",
-      "Name": "Artillery",
-      "Description": "Fire in a high arc at ground targets.",
+      "UIName": "STD",
+      "Name": "Standard",
+      "Description": "Fire in a high arc at ground targets with standard or special Arrow IV ammunition.",
       "isBaseMode": true,
+      "IsArtillery": true,
+      "ArtilleryReticleColor": {
+        "C": "#C62828",
+        "I": 1.5
+      },
+      "ArtilleryReticleRadius": 45,
+      "ArtilleryReticleText": "Arrow IV",
       "DirectFireModifier": 2,
-      "ShotsWhenFired": -1
+      "ShotsWhenFired": -1,
+      "AOECapable": true,
+      "AOERange": 90,
+      "AOEDamage": 160,
+      "AOEHeatDamage": 0,
+      "AOEInstability": 80,
+      "AoEDmgFalloffType": "Quadratic"
+    },
+    {
+      "Id": "ARTY_Guided",
+      "UIName": "TAG",
+      "Name": "TAG-Guided",
+      "Description": "Fire directly at TAG'd targets with Homing Arrow IV ammunition.",
+      "isBaseMode": false,
+      "IsArtillery": false,
+      "DirectFireModifier": 2,
+      "MissBehavior": "Guided",
+      "DamagePerShot": -100,
+      "Instability": -50,
+      "AOECapable": true,
+      "AOERange": 90,
+      "AOEDamage": 100,
+      "AOEHeatDamage": 0,
+      "AOEInstability": 50,
+      "AoEDmgFalloffType": "Quadratic",
+      "RestrictedAmmo": [
+        "Ammunition_ArrowIV",
+        "Ammunition_ArrowIV_Inferno"
+      ]
     }
   ],
   "statusEffects": [],
@@ -95,8 +128,7 @@
       "range_extreme",
       "artillery_tts_attachable",
       "artillery_loader_attachable",
-      "VehicleCategory-Artillery",
-      "SelfKnockdown"
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

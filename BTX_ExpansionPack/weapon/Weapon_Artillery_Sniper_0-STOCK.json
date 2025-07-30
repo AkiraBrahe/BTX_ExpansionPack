@@ -15,11 +15,11 @@
     3000,
     3000
   ],
-  "ForbiddenRange": 180,
+  "ForbiddenRange": 67.5,
   "ammoCategoryID": "Sniper",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
-  "Damage": 60,
+  "Damage": 150,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -33,8 +33,8 @@
   "AOERange": 135,
   "AOEDamage": 150,
   "AOEHeatDamage": 0,
-  "AOEInstability": 100,
-  "AoEDmgFalloffType": "Cubic",
+  "AOEInstability": 75,
+  "AoEDmgFalloffType": "Quadratic"
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -42,7 +42,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,
-  "Instability": 30,
+  "Instability": 75,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 300000,
@@ -56,8 +56,8 @@
     "Details": "The Sniper Rifle Artillery Piece is the second most powerful tube artillery, capable of crippling or destroying most light and medium BattleMechs with a single hit. As with all artillery types, the Sniper always fires indirectly and deals damage in the area of impact.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "150 AoE Dmg.",
-  "BonusValueB": "135m AoE Range",
+  "BonusValueA": "135m AoE Range",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -75,7 +75,7 @@
     "C": "#E2781A",
     "I": 1.5
   },
-  "ArtilleryReticleRadius": 90,
+  "ArtilleryReticleRadius": 67.5,
   "ArtilleryReticleText": "Sniper",
   "Modes": [
     {
@@ -96,8 +96,7 @@
       "ballistic_artillery",
       "artillery_tts_attachable",
       "artillery_loader_attachable",
-      "VehicleCategory-Artillery",
-      "SelfKnockdown"
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

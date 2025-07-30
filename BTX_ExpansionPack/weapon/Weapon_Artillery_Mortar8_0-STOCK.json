@@ -12,11 +12,11 @@
     420,
     630
   ],
-  "ForbiddenRange": 180,
+  "ForbiddenRange": 15,
   "ammoCategoryID": "Mortar",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 30,
-  "Damage": 5,
+  "Damage": 20,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -32,7 +32,7 @@
   "ShotsWhenFired": 8,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
-  "Instability": 6,
+  "Instability": 10,
   "WeaponEffectID": "WeaponEffect-Weapon_AC5",
   "Description": {
     "Cost": 144000,
@@ -46,8 +46,8 @@
     "Details": "The largest Mech Mortar ever produced, the Mech Mortar/8 fires more shells than any other Mech Mortar. Based on the weapon used by infantry for centuries, it fires several small shells in a high arc that fall onto the target.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "15 AoE Dmg.",
-  "BonusValueB": "30m AoE Range",
+  "BonusValueA": "30m AoE Range",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -68,7 +68,9 @@
       "Name": "Artillery",
       "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
-      "DirectFireModifier": 2
+      "DirectFireModifier": 2,
+      "DamagePerShot": -15,
+      "Instability": -7.5
     }
   ],
   "statusEffects": [],

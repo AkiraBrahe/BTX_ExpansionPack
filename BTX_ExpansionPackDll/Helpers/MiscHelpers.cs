@@ -2,7 +2,7 @@
 
 namespace BTX_ExpansionPack
 {
-    internal class Helpers
+    public static class MiscHelpers
     {
         public static bool AnyAllyHasTAG(Mech mech)
         {
@@ -35,7 +35,7 @@ namespace BTX_ExpansionPack
             return false;
         }
 
-        public static bool HasArtemis(Mech mech)
+        public static bool HasArtemis(this Mech mech)
         {
             foreach (MechComponent mechComponent in mech.allComponents)
             {

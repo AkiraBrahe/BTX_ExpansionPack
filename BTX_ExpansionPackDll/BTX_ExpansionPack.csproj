@@ -52,6 +52,7 @@
     <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\ArtilleryTTS.cs" />
     <Compile Include="Features\ContractIntel.cs" />
     <Compile Include="Features\InfernoAmmoTypes.cs" />
     <Compile Include="Features\MotiveRepair.cs" />
@@ -60,6 +61,10 @@
     <Compile Include="Features\UrbanDevastation.cs" />
     <Compile Include="Features\VehicleCASE.cs" />
     <Compile Include="Features\VehiclePilotInjuries.cs" />
+    <Compile Include="Fixes\Targeting\AntiAirTargeting.cs" />
+    <Compile Include="Fixes\Targeting\AttackGround.cs" />
+    <Compile Include="Fixes\Targeting\BuildingTargetingExploit.cs" />
+    <Compile Include="Fixes\Targeting\HomingTargeting.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
     <Compile Include="Fixes\AntiAirTargeting.cs" />
     <Compile Include="Fixes\BuildingTargetingExploit.cs" />
@@ -70,6 +75,8 @@
     <Compile Include="Fixes\MaxPlayerUnits.cs" />
     <Compile Include="Fixes\MechLabUI.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
+    <Compile Include="Helpers\ArrowIVHelper.cs" />
+    <Compile Include="Helpers\MiscHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\MechSizeCalculator.cs" />
     <Compile Include="Utilities\PirateSystemLogger.cs" />

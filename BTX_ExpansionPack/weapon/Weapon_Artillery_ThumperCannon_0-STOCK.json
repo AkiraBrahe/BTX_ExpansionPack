@@ -15,11 +15,11 @@
     270,
     420
   ],
-  "ForbiddenRange": 90,
+  "ForbiddenRange": 30,
   "ammoCategoryID": "Thumper",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 12,
-  "Damage": 25,
+  "HeatGenerated": 15,
+  "Damage": 100,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -34,7 +34,7 @@
   "AOEDamage": 75,
   "AOEHeatDamage": 0,
   "AOEInstability": 37.5,
-  "AoEDmgFalloffType": "Cubic",
+  "AoEDmgFalloffType": "Quadratic"
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -42,7 +42,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 3,
-  "Instability": 12.5,
+  "Instability": 50,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 200000,
@@ -56,8 +56,8 @@
     "Details": "The Thumper Artillery Cannon is the scaled down version of the Thumper Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "65 AoE Dmg.",
-  "BonusValueB": "60m AoE Range",
+  "BonusValueA": "60m AoE Range",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -79,7 +79,9 @@
       "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2,
-      "ShotsWhenFired": -1
+      "ShotsWhenFired": -1,
+      "DamagePerShot": -75,
+      "Instability": -37.5
     }
   ],
   "statusEffects": [],
@@ -91,8 +93,7 @@
       "ballistic_artillery",
       "artillery_tts_attachable",
       "artillery_loader_attachable",
-      "VehicleCategory-Artillery",
-      "SelfKnockdown"
+      "VehicleCategory-Artillery"
     ],
     "tagSetSourceFile": ""
   }

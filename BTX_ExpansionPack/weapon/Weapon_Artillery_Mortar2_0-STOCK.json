@@ -12,11 +12,11 @@
     420,
     630
   ],
-  "ForbiddenRange": 180,
+  "ForbiddenRange": 15,
   "ammoCategoryID": "Mortar",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 6,
-  "Damage": 5,
+  "Damage": 20,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -32,7 +32,7 @@
   "ShotsWhenFired": 2,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
-  "Instability": 6,
+  "Instability": 10,
   "WeaponEffectID": "WeaponEffect-Weapon_AC5",
   "Description": {
     "Cost": 30000,
@@ -46,8 +46,8 @@
     "Details": "The Mech Mortar/2 is the second-smallest of the Mech Mortar systems developed. Based on the weapon used by infantry for centuries, it fires two small shells in a high arc that falls onto the target.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "15 AoE Dmg.",
-  "BonusValueB": "30m AoE Range",
+  "BonusValueA": "30m AoE Range",
+  "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "artillery",
@@ -68,7 +68,9 @@
       "Name": "Artillery",
       "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
-      "DirectFireModifier": 2
+      "DirectFireModifier": 2,
+      "DamagePerShot": -15,
+      "Instability": -7.5
     }
   ],
   "statusEffects": [],

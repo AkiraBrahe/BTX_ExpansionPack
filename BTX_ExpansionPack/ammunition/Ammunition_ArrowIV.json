@@ -1,7 +1,8 @@
 {
   "Description": {
-    "Id": "Ammunition_CM50",
-    "Name": "Cruise Missile/50 Ammo",
+    "Id": "Ammunition_ArrowIV",
+    "Name": "Arrow IV Ammo",
+    "UIName": "Standard",
     "Details": "High-caliber artillery missiles.",
     "Icon": null,
     "Cost": 0,
@@ -9,7 +10,7 @@
     "Purchasable": false
   },
   "Type": "Normal",
-  "Category": "CM50",
+  "Category": "ArrowIV",
   "HeatGenerated": 0,
   "DamageMultiplier": 1,
   "InstabilityMultiplier": 1,
@@ -17,14 +18,10 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
-  "HideIfOnlyVariant": true,
-  "ProjectileScale": {
-    "x": 10,
-    "y": 10,
-    "z": 10
-  },
-  "AdditionalImpactVFX": "vfxPrfPrtl_artilleryImpact_barrage",
-  "AdditionalImpactVFXScaleX": 1,
-  "AdditionalImpactVFXScaleY": 1,
-  "AdditionalImpactVFXScaleZ": 1
+  "EvasivePipsIgnored": 0,
+  "AccuracyModifier": 0,
+  "AdditionalImpactVFX": "WFX_BELarger",
+  "AdditionalImpactVFXScaleX": 3,
+  "AdditionalImpactVFXScaleY": 3,
+  "AdditionalImpactVFXScaleZ": 3
 }

@@ -18,7 +18,7 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1.25,
-  "EvasivePipsIgnored": 2,
+  "EvasivePipsIgnored": 10,
   "AccuracyModifier": -1,
   "ChassisTagsAccuracyModifiers": {
     "unit_lam": -2,
