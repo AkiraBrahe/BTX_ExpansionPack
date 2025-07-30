@@ -58,7 +58,6 @@
     <Compile Include="Features\MotiveRepair.cs" />
     <Compile Include="Features\SelfKnockdown.cs" />
     <Compile Include="Features\SpecialAmmoOverTime.cs" />
-    <Compile Include="Features\UrbanDevastation.cs" />
     <Compile Include="Features\VehicleCASE.cs" />
     <Compile Include="Features\VehiclePilotInjuries.cs" />
     <Compile Include="Fixes\Targeting\AntiAirTargeting.cs" />
