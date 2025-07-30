@@ -9,7 +9,7 @@ namespace BTX_ExpansionPack.Fixes
     {
         [HarmonyPatch(typeof(ContractOverride), "FromJSONFull")]
         [HarmonyPatch(typeof(ContractOverride), "FullRehydrate")]
-        public static class ContractOverride_FullRehydrate
+        public static class ContractOverride_Patches
         {
             [HarmonyPostfix]
             public static void Postfix(ContractOverride __instance)

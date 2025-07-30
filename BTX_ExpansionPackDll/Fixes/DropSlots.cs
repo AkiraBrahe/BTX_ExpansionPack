@@ -27,7 +27,7 @@ namespace BTX_ExpansionPack.Fixes
                     UpdateStatistic(__instance, BaseMechSlotsStat, 4);
                     updated = true;
                 }
-                else if ((Main.Settings.Debug.AllDropShipUpgrades || hasBroadsword) &&
+                else if ((hasBroadsword || Main.Settings.Debug.AllDropShipUpgrades) &&
                     __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 5)
                 {
                     UpdateStatistic(__instance, BaseMechSlotsStat, 5);

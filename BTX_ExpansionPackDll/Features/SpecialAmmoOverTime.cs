@@ -94,7 +94,7 @@ namespace BTX_ExpansionPack
                     ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_LRM", "Ammo_AmmunitionBox_Generic_LRM_Swarm", 0.10f);
                 }
 
-                if (!IsClan && Helpers.AnyAllyHasTAG(__instance))
+                if (!IsClan && MiscHelpers.AnyAllyHasTAG(__instance))
                 {
                     ReplaceAmmo(__instance, "Ammunition_ArrowIV", "Ammunition_ArrowIV_Homing", 0.25f);
                 }

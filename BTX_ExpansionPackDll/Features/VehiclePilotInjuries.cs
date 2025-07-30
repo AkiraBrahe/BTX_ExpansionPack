@@ -1,6 +1,7 @@
 ﻿using BattleTech;
 using CustAmmoCategories;
 using CustomUnits;
+using System;
 
 namespace BTX_ExpansionPack
 {
@@ -32,57 +33,52 @@ namespace BTX_ExpansionPack
                 if (cLoc is ChassisLocations.None or ChassisLocations.Arms or ChassisLocations.MainBody)
                     return;
 
-                TryApplyPilotInjury(
-                    __instance,
-                    cLoc,
-                    totalArmorDamage,
-                    directStructureDamage,
-                    hitInfo,
-                    InjuryReason.ActorDestroyed
-                );
+                float currentStructure = __instance.GetCurrentStructure(cLoc);
+                if (currentStructure <= 0f)
+                    return;
+
+                float currentArmor = __instance.GetCurrentArmor(aLoc);
+                float damageSpillover = Math.Max(0f, totalArmorDamage - currentArmor);
+                float effectiveDamage = damageSpillover + directStructureDamage;
+
+                // If the damage is enough to destroy the location, apply pilot injury.
+                if (effectiveDamage > 0f && currentStructure <= effectiveDamage)
+                {
+                    var pilot = __instance.GetPilot();
+                    if (pilot != null)
+                    {
+                        pilot.SetNeedsInjury(InjuryReason.ActorDestroyed);
+                        __instance.CheckPilotStatusFromAttack(hitInfo.attackerId, hitInfo.attackSequenceId, hitInfo.stackItemUID);
+                    }
+                }
             }
-        }
 
-        [HarmonyPatch(typeof(Vehicle), "DamageLocation")]
-        public static class Vehicle_DamageLocation
-        {
-            [HarmonyPrefix]
-            public static void Prefix(Vehicle __instance, WeaponHitInfo hitInfo, VehicleChassisLocations vLoc, float totalArmorDamage, float directStructureDamage) =>
-                TryApplyPilotInjury(
-                    __instance,
-                    vLoc,
-                    totalArmorDamage,
-                    directStructureDamage,
-                    hitInfo,
-                    InjuryReason.ActorDestroyed
-                );
-        }
-
-        private static void TryApplyPilotInjury(AbstractActor actor, object loc, float totalArmorDamage, float directStructureDamage, WeaponHitInfo hitInfo, InjuryReason reason)
-        {
-            float currentStructure = loc switch
+            [HarmonyPatch(typeof(Vehicle), "DamageLocation")]
+            public static class Vehicle_DamageLocation
             {
-                ChassisLocations cLoc => (actor as Mech)?.GetCurrentStructure(cLoc) ?? 0f,
-                VehicleChassisLocations vLoc => (actor as Vehicle)?.GetCurrentStructure(vLoc) ?? 0f,
-                _ => 0f
-            };
-            if (currentStructure <= 0f) return;
+                [HarmonyPrefix]
+                public static void Prefix(Vehicle __instance, WeaponHitInfo hitInfo, VehicleChassisLocations vLoc, float totalArmorDamage, float directStructureDamage)
+                {
+                    float currentStructure = __instance.GetCurrentStructure(vLoc);
+                    if (currentStructure <= 0f)
+                        return;
 
-            float currentArmor = loc switch
-            {
-                ArmorLocation aLoc => (actor as Mech)?.GetCurrentArmor(aLoc) ?? 0f,
-                VehicleChassisLocations vLoc => (actor as Vehicle)?.GetCurrentArmor(vLoc) ?? 0f,
-                _ => 0f
-            };
+                    float currentArmor = __instance.GetCurrentArmor(vLoc);
+                    float damageSpillover = Math.Max(0f, totalArmorDamage - currentArmor);
+                    float effectiveDamage = damageSpillover + directStructureDamage;
 
-            float incomingStructureDamage = directStructureDamage + totalArmorDamage - currentArmor;
-            if (currentStructure - incomingStructureDamage > 0f) return;
-
-            var pilot = actor.GetPilot();
-            if (pilot == null) return;
-
-            pilot.SetNeedsInjury(reason);
-            actor.CheckPilotStatusFromAttack(hitInfo.attackerId, hitInfo.attackSequenceId, hitInfo.stackItemUID);
+                    // If the damage is enough to destroy the location, apply pilot injury.
+                    if (effectiveDamage > 0f && currentStructure <= effectiveDamage)
+                    {
+                        var pilot = __instance.GetPilot();
+                        if (pilot != null && !pilot.IsIncapacitated)
+                        {
+                            pilot.SetNeedsInjury(InjuryReason.ActorDestroyed);
+                            __instance.CheckPilotStatusFromAttack(hitInfo.attackerId, hitInfo.attackSequenceId, hitInfo.stackItemUID);
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -50,7 +50,7 @@ namespace BTX_ExpansionPack
                             selfInstability :
                             selfInstability / 2f;
 
-                        Main.Log.LogDebug($"[SelfKnockdown] Applied {instabilityToApply} instability to {mech.DisplayName}.");
+                        // Main.Log.LogDebug($"[SelfKnockdown] Applied {instabilityToApply} instability to {mech.DisplayName}.");
                         mech.AddAbsoluteInstability(instabilityToApply, StabilityChangeSource.Effect, mech.GUID);
 
                         if (!mech.NeedsInstabilityCheck) return;

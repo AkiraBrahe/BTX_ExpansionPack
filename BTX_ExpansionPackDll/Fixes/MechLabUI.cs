@@ -1,4 +1,7 @@
 ﻿using BattleTech;
+using BattleTech.UI.TMProWrapper;
+using BattleTech.UI.Tooltips;
+using CustomUnits;
 using MechAffinity;
 using System.Text.RegularExpressions;
 
@@ -6,19 +9,19 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class MechLabUI
     {
-        //[HarmonyPatch(typeof(TooltipPrefab_Mech), "SetData", [typeof(object)])]
-        //public class TooltipPrefab_Mech_SetData
-        //{
-        //    [HarmonyPostfix]
-        //    public static void Postfix(object data, LocalizableText ___RoleField)
-        //    {
-        //        if (data is MechDef mechDef)
-        //        {
-        //            bool isVehicle = mechDef.IsVehicle();
-        //            ___RoleField.gameObject.SetActive(!isVehicle);
-        //        }
-        //    }
-        //}
+        [HarmonyPatch(typeof(TooltipPrefab_Mech), "SetData", [typeof(object)])]
+        public class TooltipPrefab_Mech_SetData
+        {
+            [HarmonyPostfix]
+            public static void Postfix(object data, LocalizableText ___RoleField)
+            {
+                if (data is MechDef mechDef)
+                {
+                    bool isVehicle = mechDef.IsVehicle();
+                    ___RoleField.gameObject.SetActive(!isVehicle);
+                }
+            }
+        }
 
         [HarmonyPatch(typeof(PilotAffinityManager), "getMechChassisAffinityDescription", [typeof(ChassisDef)])]
         public static class PilotAffinityManager_getMechChassisAffinityDescription
@@ -45,7 +48,7 @@ namespace BTX_ExpansionPack.Fixes
                 __result = __result.Replace("Mech Quirks", "");
                 __result = __result.Replace("\n ", "\n");
                 __result = Regex.Replace(__result, @"(\n|^)(?!<color>)([^:]+): ", "$1<b>$2</b>: ");
-                __result = __result.Replace("\n\n", "\n");
+                // __result = __result.Replace("\n\n", "\n");
                 __result = Regex.Replace(__result, @"<color=#[0-9A-Fa-f]{6,8}></color>", "");
             }
         }

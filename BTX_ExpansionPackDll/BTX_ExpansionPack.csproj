@@ -67,11 +67,8 @@
     <Compile Include="Fixes\Targeting\HomingTargeting.cs" />
     <Compile Include="Fixes\AbilityResourceFix.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
-    <Compile Include="Fixes\AntiAirTargeting.cs" />
-    <Compile Include="Fixes\BuildingTargetingExploit.cs" />
     <Compile Include="Fixes\DropSlots.cs" />
     <Compile Include="Fixes\FiringArcs.cs" />
-    <Compile Include="Fixes\HomingTargeting.cs" />
     <Compile Include="Fixes\LanceRestrictions.cs" />
     <Compile Include="Fixes\MaxPlayerUnits.cs" />
     <Compile Include="Fixes\MechLabUI.cs" />
@@ -82,7 +79,6 @@
     <Compile Include="Utilities\MechSizeCalculator.cs" />
     <Compile Include="Utilities\PirateSystemLogger.cs" />
     <Compile Include="GlobalUsings.cs" />
-    <Compile Include="Helpers.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="ModSettings.cs" />
   </ItemGroup>
@@ -125,6 +121,10 @@
     </Reference>
     <Reference Include="FullXotlTables">
       <HintPath>$(BattleTechGameDir)\Mods\FullXotlTables\FullXotlTables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="InControl">
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\InControl.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ISM3025">

@@ -1,6 +1,5 @@
 ﻿using BattleTech;
 using BattleTech.Framework;
-using BattleTech.Save.SaveGameStructure;
 using CustAmmoCategories;
 using HBS.Logging;
 using Newtonsoft.Json;
@@ -43,23 +42,20 @@ namespace BTX_ExpansionPack
 
         internal static void ApplyHarmonyPatches()
         {
-            // --- BattleTech Extended ---
-            /* Weather Conditions */
-            harmony.Unpatch(AccessTools.PropertyGetter(typeof(Contract), "ShortDescription"), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
-            /* Temp Jump Jets */
-            harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+            // --- BattleTech Extended ---
+            /* Weather Conditions */
+            harmony.Unpatch(AccessTools.PropertyGetter(typeof(Contract), "ShortDescription"), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+            /* Temp Jump Jets */
+            harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
             /* Firing Arc Quirks */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
-            // --- CAC-C ---
-            /* Drop Slots Fix */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            // --- CAC-C ---
+            /* Drop Slots Fix */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            /* Max Player Units Fix */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FromJSONFull"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            /* Max Player Units Fix */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FromJSONFull"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            // --- VMMWSGC ---
-            /* Autosaves */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(GameInstance), "Save", [typeof(SaveReason)]), HarmonyPatchType.Prefix, "github.com.0x1d7.vmmwsgc");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }

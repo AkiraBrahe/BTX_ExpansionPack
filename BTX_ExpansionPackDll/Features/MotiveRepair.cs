@@ -7,11 +7,16 @@ namespace BTX_ExpansionPack
     internal class MotiveRepair
     {
         [HarmonyPatch(typeof(AbstractActor), "InitEffectStats")]
-        public static class AbstractActor_InitEffectStats
+        public static class AbstractActor_InitEffectStats_MotiveRepair
         {
             [HarmonyPostfix]
-            public static void Postfix(AbstractActor __instance) =>
-                __instance.StatCollection.AddStatistic("MotiveRepairActive", false);
+            public static void Postfix(AbstractActor __instance)
+            {
+                if (__instance.FakeVehicle())
+                {
+                    __instance.StatCollection.AddStatistic("MotiveRepairActive", false);
+                }
+            }
         }
 
         [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]
@@ -20,8 +25,11 @@ namespace BTX_ExpansionPack
             [HarmonyPrefix]
             public static void Prefix(AbstractActor __instance)
             {
+                if (!__instance.FakeVehicle() || !__instance.StatCollection.ContainsStatistic("MotiveRepairActive"))
+                    return;
+
                 bool isRepairActive = __instance.StatCollection.GetStatistic("MotiveRepairActive").Value<bool>();
-                if (__instance.FakeVehicle() && isRepairActive)
+                if (isRepairActive)
                 {
                     int removedCruise = RemoveDebuffs(__instance, "motiveSystemLoss", "CruiseSpeed", 3);
                     int removedFlank = RemoveDebuffs(__instance, "motiveSystemLossSprint", "FlankSpeed", 3);
