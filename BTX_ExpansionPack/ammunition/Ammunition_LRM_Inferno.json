@@ -24,7 +24,7 @@
   "MaxMissRadius": 120,
   "SpreadRange": 120,
   "AlwaysIndirectVisuals": true,
-  "HitGenerator" : "Individual",
+  "HitGenerator": "Individual",
   "FireOnSuccessHit": true,
   "FireTerrainChance": 0.35,
   "FireDurationWithoutForest": 1,
@@ -32,31 +32,6 @@
   "FireTerrainCellRadius": 1,
   "WeaponEffectID": "WeaponEffect-Weapon_SRMInferno",
   "statusEffects": [
-    {
-      "durationData": {
-        "duration": 1,
-        "stackLimit": -1
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "StatusEffect-HeatDamageReduction",
-        "Name": "Inferno VFX",
-        "Details": "Reduces incoming heat damage by 2%. Stacks.",
-        "Icon": "uixSvgIcon_statusOnFire"
-      },
-      "nature": "Buff",
-      "statisticData": {
-        "statName": "CACIncomingHeatMult",
-        "operation": "Float_Multiply",
-        "modValue": "0.98",
-        "modType": "System.Single"
-      }
-    },
     {
       "durationData": {
         "duration": 1,

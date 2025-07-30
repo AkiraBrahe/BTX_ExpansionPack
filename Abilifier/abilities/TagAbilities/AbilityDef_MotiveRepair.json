@@ -2,11 +2,11 @@
   "Description": {
     "Id": "AbilityDef_MotiveRepair",
     "Name": "MOTIVE REPAIR",
-    "Details": "ACTION: Repair the motive system, removing up to three stacks of MOTIVE SYSTEM DAMAGE. There is a 4 round cooldown.",
-    //"Details": "ACTION: Repair the vehicle's motive system, removing three stacks of MOTIVE SYSTEM DAMAGE. There is a 4 round cooldown.",
+    "Details": "ACTION: Repair the vehicle's motive system, removing three stacks of MOTIVE SYSTEM DAMAGE. There is a 4 round cooldown.",
     "Icon": "spanner"
   },
   "ActivationTime": "ConsumedByMovement",
+  "Resource": "ConsumesMovement",
   "ActivationCooldown": 4,
   "Targeting": "ActorSelf",
   "RestrictedTags": [
@@ -29,8 +29,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "motiveSystemGain",
-        "Name": "MOTIVE REPAIR",
-        "Details": "Motive systems partially repaired.",
+        "Name": "REPAIRING MOTIVE SYSTEM",
+        "Details": "The motive system will be partially repaired on the next turn.",
         "Icon": "uixSvgIcon_damage_motive"
       },
       "nature": "Buff",

@@ -19,6 +19,14 @@
       "AllowDowngrade": false
     },
     {
+      "ID": "Ammo_AmmunitionBox_Generic_ArrowIV_Homing",
+      "Weight": 3,
+      "RandomLimit": 0.0,
+      "MinDate": "3050-01-01T00:00:00",
+      "ListLink": false,
+      "AllowDowngrade": false
+    },
+    {
       "ID": "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno",
       "Weight": 3,
       "RandomLimit": 0.0,

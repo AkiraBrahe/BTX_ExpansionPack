@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_mech_light_14",
+    "Name": "MovementCapabilitiesDef for a movement 14 light 'Mech",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 350.0,
+  "MaxSprintDistance": 585.0,
+  "WalkVelocity": 22.0,
+  "RunVelocity": 28.0,
+  "SprintVelocity": 36.0,
+  "LimpVelocity": 8.0,
+  "WalkAcceleration": 25.0,
+  "SprintAcceleration": 40.0,
+  "MaxRadialVelocity": 90.0,
+  "MaxRadialAcceleration": 270.0,
+  "MaxJumpVel": 80.0,
+  "MaxJumpAccel": 30.0,
+  "MaxJumpVerticalAccel": 60.0
+}

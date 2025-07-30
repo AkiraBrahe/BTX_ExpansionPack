@@ -1,16 +1,16 @@
 {
-	"Description": {
-		"Id": "AbilityDefGu8",
-		"Name": "COOLANT VENT",
-		"Details": "ACTION: This unit will remove 50 extra heat this round. For the next three rounds, this unit will gain an extra 8 heat. There is a 4 round cooldown.",
-		"Icon": "uixSvgIcon_ability_coolantVent"
-	},
-	"DisplayParams": "ShowInMWTRay",
-	"ReqSkill": "Guts",
-	"ReqSkillLevel": 8,
-	"ActivationTime": "ConsumedByFiring",
-	"Targeting": "ConfirmCoolantVent",
-	"ActivationCooldown": 4,
-	"IsPrimaryAbility": true,
-	"CanBeUsedInShutdown": true
+  "Description": {
+    "Id": "AbilityDefGu8",
+    "Name": "COOLANT VENT",
+    "Details": "ACTION: This unit will remove 50 extra heat this round. For the next three rounds, this unit will gain an extra 8 heat. There is a 4 round cooldown.",
+    "Icon": "uixSvgIcon_ability_coolantVent"
+  },
+  "DisplayParams": "ShowInMWTRay",
+  "ReqSkill": "Guts",
+  "ReqSkillLevel": 8,
+  "ActivationTime": "ConsumedByFiring",
+  "Targeting": "ConfirmCoolantVent",
+  "ActivationCooldown": 4,
+  "IsPrimaryAbility": true,
+  "CanBeUsedInShutdown": true
 }

@@ -11,9 +11,9 @@
 
   "Manifest": [
     { "Type": "AdvancedJSONMerge", "Path": "advancedMerge" },
-    { "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": true },
+    { "Type": "ItemCollectionDef", "Path": "itemCollections" },
     { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
-    { "Type": "ItemCollectionDef", "Path": "itemCollectionsFactories", "AddToDB": true },
+    { "Type": "ItemCollectionDef", "Path": "itemCollectionsFactories" },
     { "Type": "PilotingClassDef", "Path": "piloting_classes" },
     { "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
 

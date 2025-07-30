@@ -181,6 +181,24 @@
     "Link": false,
     "WeaponType": "AmmunitionBox"
   },
+  "Ammo_AmmunitionBox_Generic_Arrow4": {
+    "WeaponId": "Ammo_AmmunitionBox_Generic_ArrowIV",
+    "AddonId": null,
+    "Link": false,
+    "WeaponType": "AmmunitionBox"
+  },
+  "Ammo_AmmunitionBox_Generic_Arrow4_Homing": {
+    "WeaponId": "Ammo_AmmunitionBox_Generic_ArrowIV_Homing",
+    "AddonId": null,
+    "Link": false,
+    "WeaponType": "AmmunitionBox"
+  },
+  "Ammo_AmmunitionBox_Generic_Arrow4_Inferno": {
+    "WeaponId": "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno",
+    "AddonId": null,
+    "Link": false,
+    "WeaponType": "AmmunitionBox"
+  },
   "Weapon_MortarCAC_Arrow4": {
     "WeaponId": "Weapon_Artillery_ArrowIV_0-STOCK",
     "AddonId": null,

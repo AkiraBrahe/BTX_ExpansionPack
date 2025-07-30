@@ -1,0 +1,36 @@
+{
+  "TargetIDs": [
+    "chassisdef_highlander_HGN-732",
+    "chassisdef_highlander_HGN-732b",
+    "chassisdef_highlander_HGN-733",
+    "chassisdef_highlander_HGN-733C",
+    "chassisdef_highlander_HGN-733P",
+    "chassisdef_highlander_HGN-736"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.FixedEquipment",
+      "Action": "ArrayConcat",
+      "Value": [
+        {
+          "MountedLocation": "LeftLeg",
+          "ComponentDefID": "Gear_General_Impact_Recalibrators",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "IsFixed": true,
+          "DamageLevel": "Functional",
+          "hasPrefabName": false
+        },
+        {
+          "MountedLocation": "RightLeg",
+          "ComponentDefID": "Gear_General_Impact_Recalibrators",
+          "ComponentDefType": "Upgrade",
+          "HardpointSlot": -1,
+          "IsFixed": true,
+          "DamageLevel": "Functional",
+          "hasPrefabName": false
+        }
+      ]
+    }
+  ]
+}

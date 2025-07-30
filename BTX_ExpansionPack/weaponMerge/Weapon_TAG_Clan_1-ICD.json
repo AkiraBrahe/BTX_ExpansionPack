@@ -41,33 +41,6 @@
         "showInStatusPanel": false,
         "hideApplicationFloatie": true
       },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "StatusEffect-TAG-AoEDamageMult",
-        "Name": "TAG MARKED",
-        "Details": "This unit takes [AMT] more artillery damage.",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
-      },
-      "nature": "Debuff",
-      "statisticData": {
-        "statName": "CACAoEDamageMult",
-        "operation": "Float_Add",
-        "modValue": "0.125",
-        "modType": "System.Single"
-      }
-    },
-    {
-      "durationData": {
-        "duration": 120,
-        "ticksOnMovements": true,
-        "stackLimit": 1
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false,
-        "hideApplicationFloatie": true
-      },
       "effectType": "VFXEffect",
       "Description": {
         "Id": "StatusEffect-TAG-IndicatorVFX",

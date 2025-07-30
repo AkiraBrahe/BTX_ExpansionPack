@@ -1,0 +1,59 @@
+{
+  "Description": {
+    "Id": "Ammunition_SRM_Inferno",
+    "Name": "Inferno SRM Ammo",
+    "UIName": "Inferno",
+    "Details": "Short range fuel-air missile munitions, capable of dealing heat damage at close range via flammable chemicals with an adhesive compound to shower their targets with a burning gel.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "SRM",
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "DamagePerShot": -9,
+  "HeatDamagePerShot": 6,
+  "Instability": -4,
+  "FireTerrainChance": 0.8,
+  "FireDurationWithoutForest": 1,
+  "FireTerrainStrength": 1,
+  "FireOnSuccessHit": true,
+  "FireTerrainCellRadius": 1,
+  "WeaponEffectID": "WeaponEffect-Weapon_SRMInferno",
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false,
+        "hideApplicationFloatie": true
+      },
+      "effectType": "VFXEffect",
+      "Description": {
+        "Id": "StatusEffect-Inferno-VFX",
+        "Name": "Inferno VFX",
+        "Details": "Visual indicator of the Inferno effect",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "vfxData": {
+        "vfxName": "vfxPrfPrtl_weaponLRM_napalmStatus_B",
+        "attachToImpactPoint": true,
+        "location": -1,
+        "isAttached": true,
+        "facesAttacker": false,
+        "isOneShot": false,
+        "duration": -1.0
+      }
+    }
+  ]
+}

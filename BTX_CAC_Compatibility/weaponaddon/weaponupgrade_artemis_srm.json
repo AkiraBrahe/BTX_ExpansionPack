@@ -1,0 +1,21 @@
+{
+  "Id": "weaponupgrade_artemis_srm",
+  "targetComponentTags": [
+    "artemis_srm_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "SRM_A4",
+      "UIName": "Art",
+      "Name": "Artemis IV",
+      "Description": "Artemis IV guidance system enabled, improving accuracy and clustering.\r\nOnly compatible with regular ammo.",
+      "HitGenerator": "Cluster",
+      "ClusteringModifier": 10,
+      "isBaseMode": true,
+      "RestrictedAmmo": [
+        "Ammunition_SRM_DF",
+        "Ammunition_SRM_Inferno"
+      ]
+    }
+  ]
+}

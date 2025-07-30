@@ -235,6 +235,7 @@
       "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
       "LocalGUID": "arty0"
@@ -244,6 +245,7 @@
       "ComponentDefID": "Gear_Addon_Artillery_Loader",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
       "TargetComponentGUID": "arty0"
@@ -253,6 +255,7 @@
       "ComponentDefID": "Gear_Addon_Artillery_Loader",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
       "LocalGUID": "arty1"
@@ -262,6 +265,7 @@
       "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
       "TargetComponentGUID": "arty1"

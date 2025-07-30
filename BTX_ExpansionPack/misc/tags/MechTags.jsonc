@@ -71,7 +71,7 @@
 
       "unit_LosTech",
       "unit_clan",
-      "unit_omni",        /* OmniMech */
+      "unit_omni",                  /* OmniMech */
       "unit_primitive",
       "unit_prototype",
 

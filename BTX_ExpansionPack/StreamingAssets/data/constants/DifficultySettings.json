@@ -1,6 +1,296 @@
 {
   "difficultyList": [
     {
+      "ID": "diff_equipNewMech",
+      "Name": "Unequipped 'Mechs",
+      "TelemetryEventName": "",
+      "UIOrder": 0,
+      "Tooltip": "When this setting is enabled, new 'Mechs you acquire through salvage will not come with equipped weapons or components, and will need to be customized from scratch.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": true,
+      "StartOnly": true,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_EMS_off",
+          "Name": "Off",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": -1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "EquipMechOnSalvage",
+              "ConstantValue": "True"
+            }
+          ]
+        },
+        {
+          "ID": "diff_EMS_on",
+          "Name": "On",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": -1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Salvage",
+              "ConstantName": "EquipMechOnSalvage",
+              "ConstantValue": "False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "diff_salvage_max",
+      "Name": "Maximum 'Mech Salvage",
+      "UIOrder": 1,
+      "TelemetryEventName": "",
+      "Tooltip": "Sets the maximum number of parts a destroyed 'Mech can yield. Your salvage will be closer to this maximum with less structural damage, especially to the Center Torso. If \"Parts for 'Mech Assembly\" is set lower than this value, it will override this setting.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": false,
+      "StartOnly": true,
+      "DefaultIndex": 5,
+      "Options": [
+        {
+          "ID": "diff_salvage_max8",
+          "Name": "8",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": -1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max7",
+          "Name": "7",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": -1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max6",
+          "Name": "6",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max5",
+          "Name": "5",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max4",
+          "Name": "4",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 2,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max3",
+          "Name": "3",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 3,
+          "CareerScoreModifier": 0.15,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "ID": "diff_ironMan",
       "Name": "Ironman Mode",
       "TelemetryEventName": "",
@@ -37,90 +327,6 @@
               "ConstantType": "Story",
               "ConstantName": "IronmanMode",
               "ConstantValue": "True"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "ID": "diff_skipPrologue",
-      "Name": "Skip Prologue",
-      "TelemetryEventName": "",
-      "UIOrder": 0,
-      "Tooltip": "Skip the prologue of the Campaign. <color=#F79B26>This will bypass the tutorial and some early game missions</color>.",
-      "Enabled": true,
-      "Visible": true,
-      "Toggle": true,
-      "StartOnly": true,
-      "DefaultIndex": 0,
-      "Options": [
-        {
-          "ID": "diff_PSKIP_off",
-          "Name": "Off",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": 0,
-          "CareerScoreModifier": -1,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "Story",
-              "ConstantName": "SkipTutorial",
-              "ConstantValue": "False"
-            }
-          ]
-        },
-        {
-          "ID": "diff_PSKIP_on",
-          "Name": "On",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": 0,
-          "CareerScoreModifier": -1,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "Story",
-              "ConstantName": "SkipTutorial",
-              "ConstantValue": "True"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "ID": "diff_equipNewMech",
-      "Name": "Unequipped 'Mechs",
-      "TelemetryEventName": "",
-      "UIOrder": 1,
-      "Tooltip": "When this setting is enabled, new 'Mechs you acquire through salvage will not come with equipped weapons or components, and will need to be customized from scratch.",
-      "Enabled": true,
-      "Visible": true,
-      "Toggle": true,
-      "StartOnly": true,
-      "DefaultIndex": 0,
-      "Options": [
-        {
-          "ID": "diff_EMS_off",
-          "Name": "Off",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": 0,
-          "CareerScoreModifier": -1,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "Salvage",
-              "ConstantName": "EquipMechOnSalvage",
-              "ConstantValue": "True"
-            }
-          ]
-        },
-        {
-          "ID": "diff_EMS_on",
-          "Name": "On",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": 1,
-          "CareerScoreModifier": -1,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "Salvage",
-              "ConstantName": "EquipMechOnSalvage",
-              "ConstantValue": "False"
             }
           ]
         }
@@ -228,7 +434,7 @@
       "ID": "diff_startdate",
       "Name": "Starting Year",
       "TelemetryEventName": "",
-      "UIOrder": 4,
+      "UIOrder": 3,
       "Tooltip": "This setting determines your start date:\n\n3025\t- End of Third Succession War\n3028\t- Fourth Succession War\n3030\t- Andurien/St. Ives Seccessions\n3034\t- Rasalhague Independence\n3039\t- War of 3039\n3047\t- Helm Memory Core Technology Renaissance\n3049\t- Clan Invasion\n3053\t- Post Truce of Tukayyid\n3057\t- Lyran Secession\n3059\t- Clan Smoke Jaguar Annihilation\n3061\t- Prior to FedCom Civil War\n\nNew technologies begin to appear in 3047 but remain rare until the mid-3050s. Clans arrive in August 3049.\n\nThe timeline will hold in map and technology up to 3061 prior to the FedCom Civil War.",
       "Enabled": true,
       "Visible": true,
@@ -944,8 +1150,8 @@
     },
     {
       "ID": "diff_Starter",
-      "Name": "Starter Mech",
-      "UIOrder": 5,
+      "Name": "Starter 'Mech",
+      "UIOrder": 4,
       "Tooltip": "This setting determines your starter 'Mech.",
       "Enabled": true,
       "Visible": true,
@@ -1076,10 +1282,52 @@
       ]
     },
     {
+      "ID": "diff_skipPrologue",
+      "Name": "Skip Prologue",
+      "TelemetryEventName": "",
+      "UIOrder": 5,
+      "Tooltip": "Skip the prologue of the Campaign. <color=#F79B26>This will bypass the tutorial and some early game missions</color>.",
+      "Enabled": true,
+      "Visible": true,
+      "Toggle": true,
+      "StartOnly": true,
+      "DefaultIndex": 0,
+      "Options": [
+        {
+          "ID": "diff_PSKIP_off",
+          "Name": "Off",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": -1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "SkipTutorial",
+              "ConstantValue": "False"
+            }
+          ]
+        },
+        {
+          "ID": "diff_PSKIP_on",
+          "Name": "On",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": -1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "Story",
+              "ConstantName": "SkipTutorial",
+              "ConstantValue": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "ID": "diff_difficulty",
       "Name": "Extended Difficulty",
-      "UIOrder": 6,
-      "Tooltip": "This setting controls the underlying difficulty of the mod's effects and the tightening of vanilla exploitable mechanics.\n\n<b>Easy:</b> Career starting values are much softer. Enemy pilots are randomly skilled. Enemies will rarely be equiped with appropriate munitions. Vanilla Bulwark is returned as a player crutch.\n\n<b>Normal:</b> Increases the difficulty in combat late game, including the AI using appropriate pilot skills, and lessening late game Resolve bonuses. Enemies may be equiped with appropriate munition types. Bulwark has a new effect to bring it in line with other tier 1 skill choices.\n\n<b>Hard:</b> Enemies will more commonly be equiped with appropriate munition types. The To Hit bonus provided by Precision Strike is reduced, delaying the point at which the game becomes too easy with progression.",
+      "UIOrder": 7,
+      "Tooltip": "This setting controls the underlying difficulty of the mod's effects and the tightening of vanilla exploitable mechanics.\n\nEasy: Career starting values are much softer. Mechs can be equiped with armor on torso locations higher than is build legal, the same as the original game allowed. Enemy pilots are randomly skilled. Enemies will rarely be equiped with appropriate munitions. +50t is usable on a mission before Drop Costs are encountered.\n\nNormal: Increases the difficulty in combat late game, including the AI using appropriate pilot skills, and lessening late game Resolve bonuses. Pilots have an XP cap that will stop them achieving 10/10/10/10 pilot skills. Enemies may be equiped with appropriate munition types. +25t is usable on a mission before Drop Costs are encountered.\n\nHard: Enemies will more commonly be equiped with appropriate munition types. The To Hit bonus provided by Precision Strike is reduced delaying the point at which the game becomes too easy with progression.",
       "Enabled": true,
       "Visible": true,
       "Toggle": false,
@@ -1220,7 +1468,7 @@
       "ID": "diff_pilotProgression",
       "Name": "MechWarrior Progression",
       "TelemetryEventName": "mech_warrior_progression",
-      "UIOrder": 7,
+      "UIOrder": 8,
       "Tooltip": "This setting controls the amount of experience MechWarriors gain after each mission. Change this setting to adjust the rate at which MechWarriors improve their stats and gain new skills.",
       "Enabled": true,
       "Visible": true,
@@ -1276,7 +1524,7 @@
       "ID": "diff_contractDifficulty",
       "Name": "Enemy Force Strength",
       "TelemetryEventName": "enemy_force_strength",
-      "UIOrder": 8,
+      "UIOrder": 9,
       "Tooltip": "This setting modifies the overall strength of enemy forces. At higher difficulties, you will encounter heavier 'Mechs. <color=#F79B26>This setting does not apply to campaign story missions.</color>",
       "Enabled": true,
       "Visible": true,
@@ -1332,7 +1580,7 @@
       "ID": "diff_advancedPilots",
       "Name": "Advanced MechWarriors",
       "TelemetryEventName": "advanced_mech_warriors",
-      "UIOrder": 9,
+      "UIOrder": 10,
       "Tooltip": "In the later parts of the game, new MechWarriors in the Hiring Hall will often have better stats and skills than in the early parts of the game. Modify this setting to change the frequency of new MechWarriors having these improvements.",
       "Enabled": true,
       "Visible": true,
@@ -1388,7 +1636,7 @@
       "ID": "diff_contractPayment",
       "Name": "Contract Payment",
       "TelemetryEventName": "contract_payment",
-      "UIOrder": 10,
+      "UIOrder": 11,
       "Tooltip": "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving. <color=#F79B26>This setting does not apply to campaign story missions.</color>",
       "Enabled": true,
       "Visible": true,
@@ -1444,7 +1692,7 @@
       "ID": "diff_baseSalvage",
       "Name": "Salvage",
       "TelemetryEventName": "salvage",
-      "UIOrder": 11,
+      "UIOrder": 12,
       "Tooltip": "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving.",
       "Enabled": true,
       "Visible": true,
@@ -1500,7 +1748,7 @@
       "ID": "diff_opforcomp",
       "Name": "Enemy Components",
       "TelemetryEventName": "enemy_components",
-      "UIOrder": 12,
+      "UIOrder": 13,
       "Tooltip": "This setting enables upgraded components on enemy and allied 'Mechs based on their equipment rating.",
       "Enabled": true,
       "Visible": true,
@@ -1571,7 +1819,7 @@
       "ID": "diff_rareItems",
       "Name": "No Rare Salvage",
       "TelemetryEventName": "no_rare_salvage",
-      "UIOrder": 13,
+      "UIOrder": 14,
       "Tooltip": "This setting controls whether \"+\" and \"++\" items can be found as salvage after a battle. If this setting is enabled, only basic items will be found.",
       "Enabled": true,
       "Visible": true,
@@ -1643,7 +1891,7 @@
       "ID": "diff_mechDestruction",
       "Name": "'Mech Destruction",
       "TelemetryEventName": "mech_destruction",
-      "UIOrder": 14,
+      "UIOrder": 15,
       "Tooltip": "When active, this setting will cause any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
       "Enabled": true,
       "Visible": true,
@@ -1685,7 +1933,7 @@
       "ID": "diff_lethality",
       "Name": "Lethality",
       "TelemetryEventName": "lethality",
-      "UIOrder": 15,
+      "UIOrder": 16,
       "Tooltip": "When this setting is enabled, MechWarriors that are incapacitated in combat will always be killed.",
       "Enabled": true,
       "Visible": true,

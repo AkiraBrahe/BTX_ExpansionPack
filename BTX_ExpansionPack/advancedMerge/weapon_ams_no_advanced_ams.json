@@ -1,0 +1,38 @@
+{
+  "TargetIDs": [
+    "Weapon_AMSCAC_0",
+    "Weapon_AMSCAC_1",
+    "Weapon_AMSCAC_2",
+    "Weapon_AMSCAC_Clan"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.Modes[?(@Id == 'AMS_OVER')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "IsAAMS": false
+      }
+    },
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Auras": [
+          {
+            "Id": "AMS",
+            "Name": "AMS",
+            "ReticleColor": "red",
+            "Range": 90,
+            "RemoveOnSensorLock": false,
+            "State": "Online",
+            "ApplySelf": false,
+            "HideOnNotSelected": true,
+            "AllyStealthAffection": "None",
+            "EnemyStealthAffection": "None",
+            "IsPositiveToAlly": false
+          }
+        ]
+      }
+    }
+  ]
+}

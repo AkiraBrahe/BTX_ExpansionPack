@@ -5,18 +5,21 @@
     "PhaseHeavyVehicle": 5,
     "PhaseAssaultVehicle": 5
   },
+  "PilotingConstants": {
+    "PilotingDFAModifier": 4.0
+  },
   "ToHit": {
     "ToHitVehicleLight": 2,
     "ToHitVehicleMedium": 1,
     "ToHitVehicleHeavy": 0,
     "ToHitVehicleAssault": 0,
-
     "StrayShotsEnabled": true,
     "StrayShotsHitUnits": true,
     "StrayShotValidTargets": 2
   },
   "ResolutionConstants": {
-    "VehiclesGetGuarded": true
+    "VehiclesGetEvasive": true,
+    "VehicleEvasiveResultMultiplier": 1.0
   },
   "CombatValueMultipliers": {
     "ArmorMultiplierVehicle": 1,

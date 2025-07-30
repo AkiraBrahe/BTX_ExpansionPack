@@ -1,0 +1,39 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 2500000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Pitban",
+    "Model": "(Extra-Extralight Fusion Engine)",
+    "UIName": "XXL Engine Shielding",
+    "Id": "Gear_XXL_Engine",
+    "Name": "XXL Engine",
+    "Details": "The XXL fusion engine, also known as extra-extralight engine, is an advanced and experimental fusion engine type. The XXL engine weighs one-third as much as a standard fusion engine, but with some significant drawbacks in its present form. The XXL's light but bulky shielding technology takes up almost twice the space in side torso sections as an Inner Sphere or Clan XL engine of similar output, is five times as expensive as a comparable XL engine, and—most crippling—produces greatly increased heat. Due to the engine shielding shaved down to the bare minimum for safe operation, waste heat is produced at all times, even when the reactor is not powering the vehicle's movements or other energy-demanding systems; equivalent amounts of heat are doubled when actively propelling a BattleMech.",
+    "Icon": "uixSvgIcon_equipment_Gyro"
+  },
+  "BonusValueA": "-66% Engine Weight",
+  "BonusValueB": null,
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 5,
+  "Tonnage": 0,
+  "AllowedLocations": "Torso",
+  "DisallowedLocations": "Head, Arms, Legs",
+  "CriticalComponent": false,
+  "statusEffects": null,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "not_critable_wo_components",
+      "BUILT-IN",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

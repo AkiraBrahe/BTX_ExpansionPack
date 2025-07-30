@@ -20,7 +20,7 @@
     "UIName": "Artillery Loader",
     "Id": "Gear_Addon_Artillery_Loader",
     "Name": "Artillery Loader",
-    "Details": "A Loader is required for any Artillery piece to fire. This one can handle one Thumper, Sniper or Arrow IV Artillery piece.",
+    "Details": "Any artillery system needs a loader to fire, with the exception of mortars. This one can handle all kinds of artillery, like the Thumper, Sniper, Long Tom, and Arrow IV.",
     "Icon": "uixSvgIcon_special_Equipment"
   },
   "BonusValueA": "",

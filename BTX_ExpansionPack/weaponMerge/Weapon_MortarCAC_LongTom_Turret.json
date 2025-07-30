@@ -1,0 +1,94 @@
+{
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC20",
+  "MinRange": 180,
+  "MaxRange": 3000,
+  "RangeSplit": [
+    3000,
+    3000,
+    3000
+  ],
+  "ForbiddenRange": 90,
+  "ammoCategoryID": "LongTom",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 60,
+  "Damage": 225,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "MinMissRadius": 45,
+  "MaxMissRadius": 135,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": true,
+  "AOERange": 180,
+  "AOEDamage": 225,
+  "AOEHeatDamage": 0,
+  "AOEInstability": 112.5,
+  "AoEDmgFalloffType": "Quadratic"
+  "IndirectFireCapable": true,
+  "AlwaysIndirectVisuals": true,
+  "CantHitUnaffecedByPathing": true,
+  "RefireModifier": 4,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 112.5,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+  "Description": {
+    "Cost": 450000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Armstrong",
+    "Model": "Heavy Artillery",
+    "UIName": "Long Tom",
+    "Id": "Weapon_MortarCAC_LongTom_Turret",
+    "Name": "Long Tom Artillery Piece",
+    "Details": "The Long Tom Artillery Piece is the largest conventional artillery piece that can be mounted on a vehicle. As with all artillery types, the Long Tom always fires indirectly and deals damage in the area of impact.",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "180m AoE Range",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "artillery",
+  "BattleValue": 0,
+  "InventorySize": 12,
+  "Tonnage": 30,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "FireDelayMultiplier": 1,
+  "ProjectileSpeedMultiplier": 1,
+  "IsArtillery": true,
+  "ArtilleryReticleColor": {
+    "C": "#C95410",
+    "I": 1.5
+  },
+  "ArtilleryReticleRadius": 90,
+  "ArtilleryReticleText": "Long Tom",
+  "Modes": [
+    {
+      "Id": "ARTY",
+      "UIName": "",
+      "Name": "Artillery",
+      "Description": "Fire in a high arc at ground targets.",
+      "isBaseMode": true,
+      "DirectFireModifier": 2
+    }
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_extreme",
+      "ballistic_artillery",
+      "VehicleCategory-Artillery"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "Custom": {
+    "Sorter": 0
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "StarCorps",
+    "Model": "Gravemarker",
+    "UIName": "Impact Recalibrators",
+    "Id": "Gear_General_Impact_Recalibrators",
+    "Name": "Impact Recalibrators",
+    "Details": "The ultimate expression of the \"Highlander Burial\". So effective was this deadly maneuver that StarCorps re-engineered the Highlander's legs to not only withstand but perfect repeated Death From Above attacks.",
+    "Icon": "uixSvgIcon_equipment_ActuatorLeg"
+  },
+  "BonusValueA": "+ 2 DFA Acc.",
+  "BonusValueB": "- 8 DFA Self Dmg.",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Legs",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-GRAVEMARKER-Attack_ToHitDFA",
+        "Name": "DFA HIT CHANCE IMPROVED",
+        "Details": "Death From Above attacks have their hit improved by [AMT].",
+        "Icon": "uixSvgIcon_equipment_ActuatorLeg"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "DFAToHitModifier",
+        "operation": "Float_Add",
+        "modValue": "-2.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "DFA"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 2
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-GRAVEMARKER-Attack_SelfDamageDFA",
+        "Name": "DFA SELF-INFLICTED DAMAGE DECREASED",
+        "Details": "DFA attacks deal [AMT] less damage to the attacker.",
+        "Icon": "uixSvgIcon_equipment_ActuatorLeg"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "DFASelfDamage",
+        "operation": "Float_Subtract",
+        "modValue": "8.0",
+        "modType": "System.Single",
+        "additionalRules": "NotSet",
+        "targetCollection": "NotSet",
+        "targetWeaponCategory": "NotSet",
+        "targetWeaponType": "NotSet",
+        "targetAmmoCategory": "NotSet",
+        "targetWeaponSubType": "DFA"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

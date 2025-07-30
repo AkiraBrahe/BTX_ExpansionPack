@@ -1,0 +1,10 @@
+{
+  "DistantVariance": 0.5,
+  "DamageFalloffStartDistance": 270,
+  "DamageFalloffEndDistance": 840,
+  "RangedDmgFalloffType": "Quadratic",
+  "Description": {
+    "Cost": 6875000
+  },
+  "PrefabIdentifier": "RailGun"
+}
