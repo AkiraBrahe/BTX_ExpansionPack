@@ -65,6 +65,7 @@
     <Compile Include="Fixes\Targeting\AttackGround.cs" />
     <Compile Include="Fixes\Targeting\BuildingTargetingExploit.cs" />
     <Compile Include="Fixes\Targeting\HomingTargeting.cs" />
+    <Compile Include="Fixes\AbilityResourceFix.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
     <Compile Include="Fixes\AntiAirTargeting.cs" />
     <Compile Include="Fixes\BuildingTargetingExploit.cs" />
