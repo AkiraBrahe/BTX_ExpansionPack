@@ -1,0 +1,11 @@
+{
+  "Heatsinks": -2,
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_quirk_badreputation"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FixedEquipment": []
+}

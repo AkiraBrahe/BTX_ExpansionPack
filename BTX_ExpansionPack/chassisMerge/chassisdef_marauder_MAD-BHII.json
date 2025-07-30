@@ -1,0 +1,12 @@
+{
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "mech_quirk_commandmech",
+      "mech_quirk_directionaltorsomount",
+      "mech_quirk_hyperextendingactuators",
+      "mech_quirk_narrowlowprofile"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

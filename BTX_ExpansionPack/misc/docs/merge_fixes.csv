@@ -1,0 +1,46 @@
+"Archer ARC-5R
+Archer AS7-D-HT",Added missing endo tag/slot
+Archer AS7-S,Moved DHS to engine
+Battlemaster BLR-1G (Morgan Kell),Changed HS to prototype DHS
+Black Knight BL-6b-KNT,Added missing endo tag
+Blackjack BJ-3X,Changed HS to prototype DHS
+Cataphract CTF-0X,Given proper remote sensors
+Champion CHP-1N2,Added missing ferro tag/armor
+Commando COM-2D-BI,Blacklisted (corrected model code)
+Crab CRB-27,Overridden (corrected model code)
+"Cyclops CP-11-A
+Cyclops CP-11-C
+Cyclops CP-11-G",Added extra hardpoints (different from 10-series)
+Daboku DCMS-MX90-D,Allowed cross assembly with Mauler
+Duan Gung D9-G9,Streamlined hardpoints with Sling
+Firebee FRB-2E,Added extra support hardpoint
+Firefly FFL-4C,Added missing endo tag
+Griffin GRF-4N,Blacklisted (corrected model code)
+Gunslinger GUN-1ERD,Streamlined hardpoints with 2ERD
+Hussar,Added Directional Torso Mount quirk
+Loader King LDK-5C,Overridden with correct version
+"Marauder MAD-BH (Bounty Hunter 3015)
+Marauder MAD-BHII (Bounty Hunter 3044)
+Marauder MAD-C","Added Directional Torso Mount quirk
+Slightly changed loadout (BHII)"
+Marauder MAD-CM (Colin Maclaren),Changed HS to prototype DHS
+"Mauler MAL-1R
+Mauler MAL-2R
+Mauler MAL-C","Fixed UI name, allowed cross-assembly with Daboku"
+"Men Shen MS1-O
+Men Shen MS1-OA
+Men Shen MS1-OB
+Men Shen MS1-OC
+Men Shen MS1-OD","Improved proxy model, different hardpoints"
+Spector SPF-4F,Optimized loadout
+Supernova SNV-1,Changed loadout
+Thorn THE-N1,Given Kinslaughter PPC
+Thunderbolt TDR-5SE (fp_headhunting),Slightly changed loadout
+"Turkina TUR-PRIME
+Turkina TUR-A
+Turkina TUR-B
+Turkina TUR-C",Fixed Yang's comment
+Victor VTR-9B (The Raid),Removed extra jump jets
+"Warhammer WHM-7A",Reverted to original model
+,
+Insurgency,FPLore typo moving the flashpoint to Astrokaszy
