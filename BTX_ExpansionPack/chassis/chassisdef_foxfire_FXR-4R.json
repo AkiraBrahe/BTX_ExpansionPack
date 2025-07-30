@@ -181,11 +181,11 @@
   "VariantName": "FXR-4R",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.7"
+      "mr-resize-0.65"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "PLACEHOLDER",
+  "StockRole": "Scout",
   "YangsThoughts": "PLACEHOLDER",
   "FixedEquipment": []
 }

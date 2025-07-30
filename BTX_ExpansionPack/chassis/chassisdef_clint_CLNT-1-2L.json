@@ -1,30 +1,30 @@
 {
   "Description": {
-    "Cost": 970000,
-    "Rarity": 3,
+    "Cost": 3430000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Apollo",
-    "Id": "chassisdef_apollo_APL-1J",
-    "Name": "Apollo",
+    "UIName": "Clint",
+    "Id": "chassisdef_clint_CLNT-1-2L",
+    "Name": "Clint",
     "Details": "PLACEHOLDER",
-    "Icon": "uixTxrIcon_apollon"
+    "Icon": "uixTxrIcon_clint"
   },
-  "MovementCapDefID": "movedef_mech_light_6",
-  "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_stardriveapollo",
-  "PrefabIdentifier": "chrprfmech_stardriveapollobase-001",
-  "PrefabBase": "stardriveapollo",
-  "Tonnage": 15,
-  "InitialTonnage": 8.5,
-  "weightClass": "LIGHT",
-  "BattleValue": 1830000,
-  "Heatsinks": 10,
+  "MovementCapDefID": "movedef_mech_medium_6",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_clint",
+  "PrefabIdentifier": "chrprfmech_clintbase-001",
+  "PrefabBase": "clint",
+  "Tonnage": 40,
+  "InitialTonnage": 21.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4350000,
+  "Heatsinks": 0,
   "TopSpeed": 97.2,
   "TurnRadius": 90,
-  "MaxJumpjets": 0,
-  "Stability": 100,
+  "MaxJumpjets": 6,
+  "Stability": 130,
   "StabilityDefenses": [
     0,
     0,
@@ -37,15 +37,15 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 4,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 20,
-  "MeleeInstability": 15,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 50,
+  "MeleeInstability": 40,
   "MeleeToHitModifier": 0,
-  "DFADamage": 20,
+  "DFADamage": 50,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 20,
-  "DFAInstability": 20,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
   "Locations": [
     {
       "Location": "Head",
@@ -58,6 +58,15 @@
     },
     {
       "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
@@ -65,23 +74,18 @@
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 20,
-      "MaxRearArmor": -1,
-      "InternalStructure": 10
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [],
-      "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 40,
-      "MaxRearArmor": 20,
-      "InternalStructure": 20
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
     },
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -89,18 +93,18 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 50,
-      "MaxRearArmor": 25,
-      "InternalStructure": 25
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
     },
     {
       "Location": "RightTorso",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 40,
-      "MaxRearArmor": 20,
-      "InternalStructure": 20
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
     },
     {
       "Location": "RightArm",
@@ -108,85 +112,94 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 20,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 10
+      "InternalStructure": 30
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 40,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 15
+      "InternalStructure": 50
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 40,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 15
+      "InternalStructure": 50
     }
   ],
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 6.5,
+      "y": 12,
       "z": 0
     },
     {
-      "x": 2,
-      "y": 6.5,
-      "z": -0.5
+      "x": 3,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -2,
-      "y": 6.5,
-      "z": -0.5
+      "x": -3,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 6.5,
+      "y": 12,
       "z": 0
     },
     {
-      "x": 2,
-      "y": 6.5,
-      "z": -0.5
-    },
-    {
-      "x": -2,
-      "y": 6.5,
-      "z": -0.5
-    },
-    {
-      "x": 1.25,
-      "y": 3.5,
+      "x": 3,
+      "y": 12,
       "z": 0
     },
     {
-      "x": -1.25,
-      "y": 3.5,
+      "x": -3,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 2.5,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 6,
       "z": 0
     }
   ],
-  "VariantName": "APL-1J",
+  "VariantName": "CLNT-1-2L",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.8"
+      "mech_quirk_improvedtargetingmedium",
+      "mech_quirk_improvedtargetinglong",
+      "mech_quirk_exposedactuators",
+      "mech_quirk_difficulttomaintain",
+      "mech_quirk_nonstandardparts",
+      "mech_quirk_largeengine"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Scout",
+  "StockRole": "Striker",
   "YangsThoughts": "PLACEHOLDER",
   "FixedEquipment": []
 }
