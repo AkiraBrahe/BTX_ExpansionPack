@@ -1,6 +1,6 @@
 ﻿using BattleTech;
-using BattleTech.UI;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
 {
@@ -38,22 +38,52 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
-        [HarmonyPatch(typeof(SGBarracksMWDetailPanel), "DisplayPilot")]
-        public static class SGBarracksMWDetailPanel_DisplayPilot
+        private static bool pilotChecked = false;
+
+        [HarmonyPatch(typeof(SimGameState), "Rehydrate")]
+        public static class SimGameState_Rehydrate
         {
             [HarmonyPostfix]
-            public static void Postfix(Pilot p)
+            public static void Postfix(SimGameState __instance)
             {
-                var pilot = p;
-                if (pilot == null || pilot.pilotDef == null || pilot.pilotDef.PilotTags == null)
+                if (__instance == null || __instance.PilotRoster == null)
                     return;
 
-                bool hasMechSpecialization = pilot.pilotDef.PilotTags.Contains(MechPilotTag);
-                bool hasVehicleSpecialization = pilot.pilotDef.PilotTags.Contains(VehiclePilotTag);
+                if (pilotChecked) return;
+                pilotChecked = true;
 
-                if (hasMechSpecialization || hasVehicleSpecialization) return;
-                Main.Log.LogDebug($"Pilot '{pilot.Callsign}' has no specialization. Assigning one.");
-                pilot.pilotDef.PilotTags.Add(MechPilotTag);
+                foreach (var pilot in __instance.PilotRoster)
+                {
+                    bool hasMechSpecialization = pilot.pilotDef.PilotTags.Contains(MechPilotTag);
+                    bool hasVehicleSpecialization = pilot.pilotDef.PilotTags.Contains(VehiclePilotTag);
+
+                    if (pilot.pilotDef.PilotTags.Any(tag => tag.StartsWith("can_pilot_")))
+                    {
+                        if (pilot.pilotDef.PilotTags.Contains("can_pilot_generic_vehicle") && !hasVehicleSpecialization)
+                            pilot.pilotDef.PilotTags.Add(VehiclePilotTag);
+
+                        var tagsToRemove = pilot.pilotDef.PilotTags.Where(tag => tag.StartsWith("can_pilot_")).ToList();
+                        foreach (var tag in tagsToRemove)
+                        {
+                            pilot.pilotDef.PilotTags.Remove(tag);
+                        }
+
+                        if (!pilot.pilotDef.PilotTags.Contains(MechPilotTag))
+                            pilot.pilotDef.PilotTags.Add(MechPilotTag);
+                    }
+
+                    if (!hasMechSpecialization && !hasVehicleSpecialization)
+                        pilot.pilotDef.PilotTags.Add(MechPilotTag);
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(SimGameState), "Dehydrate")]
+        public static class SimGameState_Dehydrate
+        {
+            public static void Prefix()
+            {
+                pilotChecked = false;
             }
         }
     }
