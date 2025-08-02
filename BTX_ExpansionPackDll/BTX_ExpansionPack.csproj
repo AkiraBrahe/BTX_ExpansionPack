@@ -70,6 +70,7 @@
     <Compile Include="Fixes\FiringArcs.cs" />
     <Compile Include="Fixes\LanceRestrictions.cs" />
     <Compile Include="Fixes\MaxPlayerUnits.cs" />
+    <Compile Include="Fixes\MechBlacklistBypass.cs" />
     <Compile Include="Fixes\MechLabUI.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
     <Compile Include="Helpers\ArrowIVHelper.cs" />
