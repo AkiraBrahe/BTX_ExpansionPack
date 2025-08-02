@@ -48,7 +48,7 @@ namespace BTX_ExpansionPack.Fixes
                 __result = __result.Replace("Mech Quirks", "");
                 __result = __result.Replace("\n ", "\n");
                 __result = Regex.Replace(__result, @"(\n|^)(?!<color>)([^:]+): ", "$1<b>$2</b>: ");
-                // __result = __result.Replace("\n\n", "\n");
+                __result = __result.Replace("\n\n", "\n");
                 __result = Regex.Replace(__result, @"<color=#[0-9A-Fa-f]{6,8}></color>", "");
             }
         }

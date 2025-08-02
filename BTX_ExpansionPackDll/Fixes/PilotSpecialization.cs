@@ -38,7 +38,7 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
-        private static bool pilotChecked = false;
+        private static bool pilotsChecked = false;
 
         [HarmonyPatch(typeof(SimGameState), "Rehydrate")]
         public static class SimGameState_Rehydrate
@@ -49,8 +49,8 @@ namespace BTX_ExpansionPack.Fixes
                 if (__instance == null || __instance.PilotRoster == null)
                     return;
 
-                if (pilotChecked) return;
-                pilotChecked = true;
+                if (pilotsChecked) return;
+                pilotsChecked = true;
 
                 foreach (var pilot in __instance.PilotRoster)
                 {
@@ -83,7 +83,7 @@ namespace BTX_ExpansionPack.Fixes
         {
             public static void Prefix()
             {
-                pilotChecked = false;
+                pilotsChecked = false;
             }
         }
     }
