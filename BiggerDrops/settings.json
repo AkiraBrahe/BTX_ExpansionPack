@@ -8,7 +8,7 @@
   "showAdditionalArgoUpgrades": true,
   "argoUpgradeName": "Command & Control",
   "argoUpgradeCategory1Name": "Drop Size",
-  "argoUpgradeCategory2Name": "Mech Control",
+  "argoUpgradeCategory2Name": "Drop Pods",
   "argoUpgradeCategory3Name": "Drop Tonnage",
   "limitFlashpointDrop": false,
   "CuV2FormationSize": 4,

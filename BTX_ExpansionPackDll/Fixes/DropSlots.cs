@@ -16,34 +16,32 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyAfter("de.morphyum.BiggerDrops")]
         public static class SimGameState_Patches
         {
+            [HarmonyPrepare]
+            public static bool Prepare() => !AppDomain.CurrentDomain.GetAssemblies().Any(asm => asm.GetName().Name.Equals("BroadswordDropShip"));
+
             [HarmonyPostfix]
             public static void Postfix(SimGameState __instance)
             {
                 bool updated = false;
-                bool hasBroadsword = AppDomain.CurrentDomain.GetAssemblies().Any(asm => asm.GetName().Name.Equals("BroadswordDropShip"));
-
-                if (!hasBroadsword && __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 4)
-                {
-                    UpdateStatistic(__instance, BaseMechSlotsStat, 4);
-                    updated = true;
-                }
-                else if ((hasBroadsword || Main.Settings.Debug.AllDropShipUpgrades) &&
-                    __instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 5)
-                {
-                    UpdateStatistic(__instance, BaseMechSlotsStat, 5);
-                    updated = true;
-                }
 
                 if (Main.Settings.Debug.AllDropShipUpgrades &&
-                    __instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat) != 5 &&
-                    __instance.CompanyStats.GetValue<int>(HotDropMechSlotsStat) != 5)
+                    (__instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 4 ||
+                    __instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat) != 4 ||
+                    __instance.CompanyStats.GetValue<int>(HotDropMechSlotsStat) != 4))
                 {
-                    UpdateStatistic(__instance, AdditionalMechSlotsStat, 5);
-                    UpdateStatistic(__instance, HotDropMechSlotsStat, 5);
+                    UpdateStatistic(__instance, BaseMechSlotsStat, 4);
+                    UpdateStatistic(__instance, AdditionalMechSlotsStat, 4);
+                    UpdateStatistic(__instance, HotDropMechSlotsStat, 4);
                     updated = true;
                 }
                 else
                 {
+                    if (__instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 4)
+                    {
+                        UpdateStatistic(__instance, BaseMechSlotsStat, 4);
+                        updated = true;
+                    }
+
                     int additionalSlots = GetUpgradeStat(__instance, AdditionalMechSlotsStat);
                     if (__instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat) != additionalSlots)
                     {

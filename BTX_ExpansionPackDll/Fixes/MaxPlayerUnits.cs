@@ -11,17 +11,21 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(ContractOverride), "FullRehydrate")]
         public static class ContractOverride_Patches
         {
+            [HarmonyPrepare]
+            public static bool Prepare() => !AppDomain.CurrentDomain.GetAssemblies().Any(asm => asm.GetName().Name.Equals("BroadswordDropShip"));
+
             [HarmonyPostfix]
             public static void Postfix(ContractOverride __instance)
             {
                 if (Main.Settings.Gameplay.Use4LimitOnStoryMissions && IsAnyStoryContract(__instance))
                     return;
 
-                if (__instance.maxNumberOfPlayerUnits >= 4 && !IsContractLimitedTo4Units(__instance))
+                if (__instance.maxNumberOfPlayerUnits == 4 && !IsContractLimitedTo4Units(__instance))
                 {
                     __instance.maxNumberOfPlayerUnits = 12;
                 }
             }
+
             private static bool IsAnyStoryContract(ContractOverride contractOverride) =>
                 contractOverride.contractDisplayStyle is ContractDisplayStyle.BaseCampaignStory or
                                                          ContractDisplayStyle.BaseCampaignRestoration;

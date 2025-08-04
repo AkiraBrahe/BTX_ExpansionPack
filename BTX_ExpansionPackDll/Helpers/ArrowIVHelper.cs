@@ -36,14 +36,14 @@ namespace BTX_ExpansionPack
 
         public static bool HasActiveHomingArrowIV(this AbstractActor actor)
         {
-            if (actor == null || actor.StatCollection == null) return false;
-            if (!actor.StatCollection.GetValue<bool>("HasHomingArrowIV"))
-            {
+            if (actor == null || actor.StatCollection == null)
                 return false;
-            }
+
+            if (!actor.StatCollection.GetValue<bool>("HasHomingArrowIV"))
+                return false;
 
             if (actor.Weapons == null) return false;
-            foreach (Weapon weapon in actor.Weapons)
+            foreach (var weapon in actor.Weapons)
             {
                 if (weapon.CanFire &&
                     weapon.mode()?.Id == "ARTY_Guided" &&

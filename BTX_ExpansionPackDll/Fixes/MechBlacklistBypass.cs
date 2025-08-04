@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace BTX_ExpansionPack.Patches
+namespace BTX_ExpansionPack.Fixes
 {
     [HarmonyPatch]
     public static class MechBlacklistBypass

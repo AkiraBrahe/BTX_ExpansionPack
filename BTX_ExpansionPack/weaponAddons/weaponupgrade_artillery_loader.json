@@ -1,0 +1,12 @@
+{
+  "Id": "weaponupgrade_artillery_loader",
+  "targetComponentTags": [
+    "artillery_loader_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "ARTY",
+      "ShotsWhenFired": 1
+    }
+  ]
+}

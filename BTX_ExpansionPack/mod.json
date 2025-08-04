@@ -8,16 +8,20 @@
 
   "ConflictsWith": [ "BTX_PlayableVehicles_Assembly" ],
   "DependsOn": [ "BTX_CAC_Compatibility" ],
-  "OptionallyDependsOn": [ "The_Big_Deal_Campaign_Add-on" ],
+  "OptionallyDependsOn": [ "BroadswordDropShip", "The_Big_Deal_Campaign_Add-on" ],
 
   "DLL": "BTX_ExpansionPack.dll",
   
   "Settings": {
+    "Debug": {
+      "AllDropShipUpgrades": false
+    },
     "Gameplay": {
       "Use4LimitOnStoryMissions": true,
       "AllowVehiclesInMechDuels": false,
       "OverrideDHSEngineCooling": true,
-        "DHSEngineCoolingMultiplier": 1.5
+        "DHSEngineCoolingMultiplier": 1.5,
+      "DisableNonStandardAmmoBins": false
     },
     "UI": {
       "ContractIntel": {

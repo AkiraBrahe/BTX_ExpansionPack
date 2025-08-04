@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D919FA4D-E26A-8EFF-2FF4-D6973B52FDE6}</ProjectGuid>
+    <ProjectGuid>{F893A829-DB9F-4AF2-B80F-069180B78397}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BTX_ExpansionPack</RootNamespace>
