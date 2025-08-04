@@ -6,14 +6,14 @@
     "UIName": "",
     "Id": "argoUpgrade_DropSlot1",
     "Name": "Repaired Mechbay",
-    "Details": "The first set of cradles turned out alright, Boss. It's really starting to look like a proper DropShip. I can get started on fabricating parts to assemble the final two cradles from scratch. Producing the parts in duplicate should save us a little time and money.",
+    "Details": "The first cradle turned out alright, Boss. There's enough scrap left lying around we should be able to construct the bones of a gantry for the next, but we're also gonna need to buy several complex components to get the next cradle ready for use.",
     "Icon": "uixSvgIcon_shipUpgrade_automation"
   },
   "Illustration": "uixTxrSpot_YangWorking",
   "Location": "UNKNOWN",
   "shipUpgradeCategoryID": "BDMechDrops",
   "AssignedCastDefId": "castDef_YangDefault",
-  "AssignedCastDescription": "The cradles can be completed, but Sumire has some concerns. You should talk to her before trying to field a full extra lance, Boss.",
+  "AssignedCastDescription": "This will use up the last of the parts that weren't salvaged, but at least we were able to keep the costs down, right?",
   "RequiredModules": {
     "items": [
       "argoUpgrade_DropSlot",
@@ -35,7 +35,7 @@
     {
       "typeString": "System.Int32",
       "name": "BiggerDrops_AdditionalMechSlots",
-      "value": 4,
+      "value": 2,
       "set": true,
       "valueConstant": ""
     }

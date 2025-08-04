@@ -5,19 +5,19 @@
     "Purchasable": true,
     "UIName": "",
     "Id": "argoUpgrade_PilotSlot1",
-    "Name": "Command Console",
-    "Details": "The upgrades continue commander. Interfacing this Star League technology with our own C&C systems is proving challenging, but there's no problem more money and time can't fix, right?",
+    "Name": "Drop Pod Launch Systems",
+    "Details": "The first Drop Pod launcher is back online, Boss. Getting a second one running is less about fabrication and more about logistics. The control systems use a number of rare components that we just can't make here. We'll have to source them from a specialized supplier. It won't be cheap, but securing a batch will let us refit the second bay and give us a stockpile for the rest of the project.",
     "Icon": "uixSvgIcon_shipUpgrade_automation"
   },
   "Illustration": "uixTxrSpot_YangWorking",
   "Location": "UNKNOWN",
   "shipUpgradeCategoryID": "BDMechControl",
-  "AssignedCastDefId": "castDef_FarahDefault",
-  "AssignedCastDescription": "The next step will be to standardize the communication hardware between our 'Mechs and the Argo's systems so I can remove an abstraction layer from our ship-side software.",
+  "AssignedCastDefId": "castDef_DariusDefault",
+  "AssignedCastDescription": "It's a significant expense, Commander, but having another 'Mech available for rapid deployment will open up new tactical possibilities.",
   "RequiredModules": {
     "items": [
       "argoUpgrade_JunkyardLeopard",
-      "argoUpgrade_DropSlot1",
+      "argoUpgrade_DropSlot3",
       "argoUpgrade_PilotSlot"
     ],
     "tagSetSourceFile": ""
@@ -35,8 +35,8 @@
   "Stats": [
     {
       "typeString": "System.Int32",
-      "name": "BiggerDrops_AdditionalPlayerMechSlots",
-      "value": 8,
+      "name": "BiggerDrops_HotDropMechSlots",
+      "value": 2,
       "set": true,
       "valueConstant": ""
     }
