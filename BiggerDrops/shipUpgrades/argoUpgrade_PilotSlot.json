@@ -13,11 +13,11 @@
   "Location": "UNKNOWN",
   "shipUpgradeCategoryID": "BDMechControl",
   "AssignedCastDefId": "castDef_YangDefault",
-  "AssignedCastDescription": "This will let us insert a 'Mech from high altitude without having to land the Leopard first. A true hot drop, right into the thick of it.",
+  "AssignedCastDescription": "This will let us insert a 'Mech from high altitude without having to land the Leopard first. A true hot drop, right into the thick of battle.",
   "RequiredModules": {
     "items": [
       "argoUpgrade_JunkyardLeopard",
-      "argoUpgrade_DropSlot3"
+      "argoUpgrade_DropSlot"
     ],
     "tagSetSourceFile": ""
   },

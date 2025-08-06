@@ -17,7 +17,7 @@
   "RequiredModules": {
     "items": [
       "argoUpgrade_JunkyardLeopard",
-      "argoUpgrade_DropSlot3",
+      "argoUpgrade_DropSlot2",
       "argoUpgrade_PilotSlot1",
       "argoUpgrade_pod2"
     ],

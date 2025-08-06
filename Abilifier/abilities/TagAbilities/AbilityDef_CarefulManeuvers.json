@@ -6,7 +6,6 @@
     "Icon": "journey"
   },
   "ActivationTime": "ConsumedByMovement",
-  "Resource": "ConsumesMovement",
   "ActivationCooldown": 0,
   "Targeting": "ActorSelf",
   "RestrictedTags": [

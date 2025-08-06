@@ -1,4 +1,5 @@
 ﻿using BattleTech;
+using BattleTech.UI;
 using CustAmmoCategories;
 using System.Linq;
 
@@ -74,6 +75,22 @@ namespace BTX_ExpansionPack
                             mech.allComponents.RemoveAll(mechComponent => mechComponent.defId == "Gear_BEX_MotiveSystem");
                             mech.miscComponents.RemoveAll(mechComponent => mechComponent.defId == "Gear_BEX_MotiveSystem");
                         }
+                    }
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(CombatHUDMechwarriorTray), "ResetAbilityButton", [typeof(AbstractActor), typeof(CombatHUDActionButton), typeof(Ability), typeof(bool)])]
+        public static class CombatHUDMechwarriorTray_ResetAbilityButton
+        {
+            [HarmonyPostfix]
+            public static void Postfix(AbstractActor actor, CombatHUDActionButton button, Ability ability)
+            {
+                if (ability != null && ability.Def.Id == "AbilityDef_MotiveRepair")
+                {
+                    if (actor != null && (actor is not Mech mech || !mech.MechDef.IsVehicle()))
+                    {
+                        button.DisableButton();
                     }
                 }
             }

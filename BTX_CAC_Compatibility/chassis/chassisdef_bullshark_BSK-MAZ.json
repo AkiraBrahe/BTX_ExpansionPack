@@ -214,11 +214,12 @@
     "items": [
       "chassis_DHS",
       "chassis_endo",
+      "chassis_clan",
       "mech_quirk_distracting"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Brawler",
+  "StockRole": "Brawler",
   "YangsThoughts": "I've never seen anything like this, Commander. This 'Mech oozes deadly grace and can obviously devastate anything in its path. It's… otherworldly, but clearly influenced by Star League tech. It has a mounted artillery cannon to boot—I wonder where it came from.",
   "FixedEquipment": [
     {

@@ -52,203 +52,8 @@
       "Visible": true,
       "Toggle": false,
       "StartOnly": true,
-      "DefaultIndex": 5,
+      "DefaultIndex": 0,
       "Options": [
-        {
-          "ID": "diff_salvage_max8",
-          "Name": "8",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": -1,
-          "CareerScoreModifier": 0,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "AddSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
-            }
-          ]
-        },
-        {
-          "ID": "diff_salvage_max7",
-          "Name": "7",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": -1,
-          "CareerScoreModifier": 0,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "AddSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
-            }
-          ]
-        },
-        {
-          "ID": "diff_salvage_max6",
-          "Name": "6",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": 0,
-          "CareerScoreModifier": 0,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "AddSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
-            }
-          ]
-        },
-        {
-          "ID": "diff_salvage_max5",
-          "Name": "5",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": 1,
-          "CareerScoreModifier": 0.05,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "AddSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
-            }
-          ]
-        },
-        {
-          "ID": "diff_salvage_max4",
-          "Name": "4",
-          "TelemetryEventDesc": "",
-          "DifficultyValue": 2,
-          "CareerScoreModifier": 0.1,
-          "DifficultyConstants": [
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "AddSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
-            }
-          ]
-        },
         {
           "ID": "diff_salvage_max3",
           "Name": "3",
@@ -264,12 +69,7 @@
             {
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
-            },
-            {
-              "ConstantType": "AdditionalSettings",
-              "ConstantName": "RemoveSimGameTag",
-              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
             },
             {
               "ConstantType": "AdditionalSettings",
@@ -279,11 +79,211 @@
             {
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max4",
+          "Name": "4",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 2,
+          "CareerScoreModifier": 0.1,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
               "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
             },
             {
               "ConstantType": "AdditionalSettings",
               "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max5",
+          "Name": "5",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 1,
+          "CareerScoreModifier": 0.05,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max6",
+          "Name": "6",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": 0,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max7",
+          "Name": "7",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": -1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
+            }
+          ]
+        },
+        {
+          "ID": "diff_salvage_max8",
+          "Name": "8",
+          "TelemetryEventDesc": "",
+          "DifficultyValue": -1,
+          "CareerScoreModifier": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_3"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_4"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_5"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_6"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "RemoveSimGameTag",
+              "ConstantValue": "StructurePointBasedSalvageMaxParts_7"
+            },
+            {
+              "ConstantType": "AdditionalSettings",
+              "ConstantName": "AddSimGameTag",
               "ConstantValue": "StructurePointBasedSalvageMaxParts_8"
             }
           ]

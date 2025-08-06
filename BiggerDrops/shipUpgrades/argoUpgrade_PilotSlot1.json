@@ -17,7 +17,7 @@
   "RequiredModules": {
     "items": [
       "argoUpgrade_JunkyardLeopard",
-      "argoUpgrade_DropSlot3",
+      "argoUpgrade_DropSlot1",
       "argoUpgrade_PilotSlot"
     ],
     "tagSetSourceFile": ""

@@ -11,7 +11,7 @@
   "temporalSetResult": "",
   "temporalPositiveResult": "",
   "temporalNegativeResult": "",
-  "infinitiveSetResult": "Increases max drop tonnage by {RES_VALUE.ToString} tons",
-  "infinitivePositiveResult": "",
+  "infinitiveSetResult": "",
+  "infinitivePositiveResult": "Increases max drop tonnage by {RES_VALUE.ToString} tons",
   "infinitiveNegativeResult": ""
 }
