@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 
@@ -8,10 +10,7 @@ namespace BTX_ExpansionPack.Fixes
     public static class MechBlacklistBypass
     {
         [HarmonyPrepare]
-        public static bool Prepare()
-        {
-            return AccessTools.TypeByName("FellOffACargoShip.Cheater.Mech") != null;
-        }
+        public static bool Prepare() => AppDomain.CurrentDomain.GetAssemblies().Any(asm => asm.GetName().Name.Equals("FellOffACargoShip"));
 
         [HarmonyTargetMethod]
         public static MethodBase TargetMethod()
