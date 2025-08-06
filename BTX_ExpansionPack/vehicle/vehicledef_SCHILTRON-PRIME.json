@@ -155,7 +155,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV_Homing",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
@@ -169,7 +169,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV_Homing",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
@@ -183,7 +183,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV_Homing",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
@@ -197,7 +197,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV_Homing",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

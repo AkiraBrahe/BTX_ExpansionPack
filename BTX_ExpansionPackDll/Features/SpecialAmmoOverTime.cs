@@ -66,6 +66,7 @@ namespace BTX_ExpansionPack
                         ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_SRM", "Ammo_AmmunitionBox_Generic_SRM_Inferno", 0.15f);
                         ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_LRM", "Ammo_AmmunitionBox_Generic_LRM_Inferno", 0.10f, new DateTime(3056, 1, 1), new DateTime(3062, 1, 1));
                         ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_ArrowIV", "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno", 0.01f);
+                        ReplaceAmmo(__instance, "Ammo_AmmunitionBox_Generic_ArrowIV_Homing", "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno", 0.01f);
                         // Main.Log.LogDebug("[SpecialAmmoOverTime] The Capellans got their infernos!");
                         break;
 
