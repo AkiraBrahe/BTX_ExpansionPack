@@ -1,0 +1,109 @@
+{
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Morale_Gain-T2",
+        "Name": "SPECIAL LANCE COMMAND MODULE",
+        "Details": "Provides a [AMT] bonus to actions that generate Resolve.",
+        "Icon": "uixSvgIcon_equipment_Comms"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "MoraleBonusGain",
+        "operation": "Int_Add",
+        "modValue": "4",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-BWCL-CriticalChance",
+        "Name": "SPECIAL LANCE COMMAND MODULE",
+        "Details": "Shots executed by this unit have a 25% increased Critical Hit chance.",
+        "Icon": "uixSvgIcon_statusCrit"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CriticalChanceMultiplier",
+        "operation": "Float_Add",
+        "modValue": "1.25",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "AllLanceMates",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Initiative_Gain-B2000",
+        "Name": "SPECIAL LANCE COMMAND MODULE",
+        "Details": "Provides a [INVERSE_AMT] bonus to Lance Initiative.",
+        "Icon": "uixSvgIcon_special_Equipment"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "BaseInitiative",
+        "operation": "Int_Add",
+        "modValue": "-1",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-LCM-CalledShotBonus",
+        "Name": "SPECIAL LANCE COMMAND MODULE",
+        "Details": "Called Shots executed by this unit are more reliable.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CalledShotBonusMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "3.0",
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

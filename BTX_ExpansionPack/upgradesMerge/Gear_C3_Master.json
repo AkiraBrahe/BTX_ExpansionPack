@@ -1,0 +1,30 @@
+{
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "AllLanceMates",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "C3Network_MediumRangeBuff",
+        "Name": "C3 NETWORK",
+        "Details": "Lancemates in a C3 Network share targeting data, increasing the distance at which weapons are considered in optimal range.",
+        "Icon": "uixSvgIcon_statusMarked"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "ADD_ENCOUNTER_TAG_C3_network",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    }
+  ]
+}

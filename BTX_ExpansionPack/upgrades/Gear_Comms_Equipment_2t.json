@@ -42,15 +42,13 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Initiative_Gain-T1",
+        "Id": "StatusEffect-Initiative_Gain-B2000",
         "Name": "LANCE INITIATIVE INCREASED",
         "Details": "Provides a [INVERSE_AMT] bonus to Lance Initiative.",
         "Icon": "uixSvgIcon_special_Equipment"
       },
       "nature": "Buff",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "BaseInitiative",
         "operation": "Int_Add",
         "modValue": "-1",
@@ -77,8 +75,6 @@
       },
       "nature": "Buff",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "MoraleBonusGain",
         "operation": "Int_Add",
         "modValue": "2",

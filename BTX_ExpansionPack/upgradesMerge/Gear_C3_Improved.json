@@ -1,0 +1,30 @@
+{
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "AllLanceMates",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "C3iNetwork_MediumRangeBuff",
+        "Name": "C3I NETWORK",
+        "Details": "Lancemates in a C3i Network share targeting data, increasing the distance at which weapons are considered in optimal range, but with a lower effectiveness than in a C3 network.",
+        "Icon": "uixSvgIcon_statusMarked"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "ADD_ENCOUNTER_TAG_C3i_network",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    }
+  ]
+}
