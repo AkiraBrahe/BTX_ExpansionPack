@@ -50,13 +50,7 @@
         "operation": "Float_Multiply",
         "modValue": "0.95",
         "modType": "System.Single"
-      },
-      "tagData": null,
-      "floatieData": null,
-      "actorBurningData": null,
-      "vfxData": null,
-      "instantModData": null,
-      "poorlyMaintainedEffectData": null
+      }
     },
     {
       "durationData": {
@@ -82,11 +76,7 @@
         "operation": "Float_Add",
         "modValue": "20.0",
         "modType": "System.Single",
-        "additionalRules": "NotSet",
         "targetCollection": "Weapon",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
         "targetWeaponSubType": "Melee"
       }
     }

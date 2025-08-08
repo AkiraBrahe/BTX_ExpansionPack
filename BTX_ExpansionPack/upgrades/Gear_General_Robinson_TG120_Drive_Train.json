@@ -1,0 +1,88 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 940000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Robinson Standard BattleWorks",
+    "Model": "TG 120",
+    "UIName": "Drive Train",
+    "Id": "Gear_General_Robinson_TG120_Drive_Train",
+    "Name": "Improved Drive Train",
+    "Details": "The Robinson TG 120 is an advanced drive train system used by the Gallant Urban Assault Vehicle. It is a highly efficient and reliable system that allows the Gallant to move quickly and easily across any terrain, with traction comparable to that of a tracked vehicle.",
+    "Icon": "uixSvgIcon_special_Equipment"
+  },
+  "BonusValueA": "+ 1 Initiative",
+  "BonusValueB": "+ Rough Terrain Traction",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-DriveTrain-Initiative",
+        "Name": "IMPROVED DRIVE TRAIN",
+        "Details": "Provides better traction and a [INVERSE_AMT] bonus to Initiative.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "BaseInitiative",
+        "operation": "Int_Add",
+        "modValue": "-1",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-DriveTrain-Traction",
+        "Name": "IMPROVED TRACTION",
+        "Details": "Gives the unit better traction when driving on rough terrain,",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CUMoveCost",
+        "operation": "Set",
+        "modValue": "Tracked",
+        "modType": "System.String"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

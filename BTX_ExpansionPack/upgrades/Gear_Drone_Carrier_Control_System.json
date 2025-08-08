@@ -103,8 +103,6 @@
       },
       "nature": "Debuff",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "SensorSignatureModifier",
         "operation": "Float_Multiply",
         "modValue": "0.25",

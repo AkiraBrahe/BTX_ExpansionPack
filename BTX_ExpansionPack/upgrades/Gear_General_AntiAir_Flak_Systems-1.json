@@ -50,8 +50,6 @@
       "nature": "Buff",
       "statisticData": {
         "abilifierId": "AntiAircraftTargeting",
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "ToHitThisActor",
         "operation": "Float_Add",
         "modValue": "-3.0",

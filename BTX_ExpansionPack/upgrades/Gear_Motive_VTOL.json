@@ -77,8 +77,6 @@
       },
       "nature": "Buff",
       "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
         "statName": "ToHitThisActor",
         "operation": "Float_Add",
         "modValue": "3.0",
