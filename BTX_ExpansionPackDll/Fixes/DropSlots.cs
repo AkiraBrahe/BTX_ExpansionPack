@@ -10,6 +10,7 @@ namespace BTX_ExpansionPack.Fixes
         private const string BaseMechSlotsStat = "BiggerDrops_BaseMechSlots";
         private const string AdditionalMechSlotsStat = "BiggerDrops_AdditionalMechSlots";
         private const string HotDropMechSlotsStat = "BiggerDrops_HotDropMechSlots";
+        private const string MaxTonnageStat = "BiggerDrops_MaxTonnage";
 
         [HarmonyPatch(typeof(SimGameState), "InitCompanyStats")]
         [HarmonyPatch(typeof(SimGameState), "Rehydrate")]
@@ -22,42 +23,30 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPostfix]
             public static void Postfix(SimGameState __instance)
             {
-                bool updated = false;
+                int updated = 0;
 
-                if (Main.Settings.Debug.AllDropShipUpgrades &&
-                    (__instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 4 ||
-                    __instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat) != 4 ||
-                    __instance.CompanyStats.GetValue<int>(HotDropMechSlotsStat) != 4))
+                if (Main.Settings.Debug.AllDropShipUpgrades)
                 {
-                    UpdateStatistic(__instance, BaseMechSlotsStat, 4);
-                    UpdateStatistic(__instance, AdditionalMechSlotsStat, 4);
-                    UpdateStatistic(__instance, HotDropMechSlotsStat, 4);
-                    updated = true;
+                    UpdateStatistic(__instance, BaseMechSlotsStat, 4, ref updated);
+                    UpdateStatistic(__instance, AdditionalMechSlotsStat, 4, ref updated);
+                    UpdateStatistic(__instance, HotDropMechSlotsStat, 4, ref updated);
+                    UpdateStatistic(__instance, MaxTonnageStat, 800, ref updated);
                 }
                 else
                 {
-                    if (__instance.CompanyStats.GetValue<int>(BaseMechSlotsStat) != 4)
-                    {
-                        UpdateStatistic(__instance, BaseMechSlotsStat, 4);
-                        updated = true;
-                    }
+                    UpdateStatistic(__instance, BaseMechSlotsStat, 4, ref updated);
 
                     int additionalSlots = GetUpgradeStat(__instance, AdditionalMechSlotsStat);
-                    if (__instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat) != additionalSlots)
-                    {
-                        UpdateStatistic(__instance, AdditionalMechSlotsStat, additionalSlots);
-                        updated = true;
-                    }
+                    UpdateStatistic(__instance, AdditionalMechSlotsStat, additionalSlots, ref updated);
 
                     int hotdropSlots = GetUpgradeStat(__instance, HotDropMechSlotsStat);
-                    if (__instance.CompanyStats.GetValue<int>(HotDropMechSlotsStat) != hotdropSlots)
-                    {
-                        UpdateStatistic(__instance, HotDropMechSlotsStat, hotdropSlots);
-                        updated = true;
-                    }
+                    UpdateStatistic(__instance, HotDropMechSlotsStat, hotdropSlots, ref updated);
+
+                    int maxTonnage = GetMaxTonnageStat(__instance, BiggerDrops.BiggerDrops.settings.defaultMaxTonnage);
+                    UpdateStatistic(__instance, MaxTonnageStat, maxTonnage, ref updated);
                 }
 
-                if (updated) DropManager.UpdateCULances();
+                if (updated >= 1) DropManager.UpdateCULances();
                 Main.Log.Log($"Dropslot stats: " +
                     $"{BaseMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(BaseMechSlotsStat)}, " +
                     $"{AdditionalMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat)}, " +
@@ -76,12 +65,22 @@ namespace BTX_ExpansionPack.Fixes
                     .Max();
             }
 
-            private static void UpdateStatistic(SimGameState simState, string statName, int value)
+            private static int GetMaxTonnageStat(SimGameState simState, int defaultValue)
+            {
+                return defaultValue + simState.ShipUpgrades
+                    .Where(upg => simState.HasShipUpgrade(upg.Description.Id, null))
+                    .SelectMany(upg => upg.Stats)
+                    .Where(stat => stat.name == MaxTonnageStat)
+                    .Sum(stat => stat.ToInt());
+            }
+
+            private static void UpdateStatistic(SimGameState simState, string statName, int value, ref int updated)
             {
                 if (simState.CompanyStats.GetValue<int>(statName) != value)
                 {
                     simState.CompanyStats.RemoveStatistic(statName);
                     simState.CompanyStats.AddStatistic(statName, value);
+                    updated++;
                 }
             }
         }
