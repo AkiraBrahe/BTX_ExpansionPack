@@ -36,7 +36,7 @@
     "Model": "Multi-Missile Launcher",
     "UIName": "MML5",
     "Id": "Weapon_MML_MML5_0-STOCK",
-    "Name": "Artemis IV MML5",
+    "Name": "MML5",
     "Details": "Multi-Missile Launchers can fire both short- and long-range missiles, including special munitions, and are compatible with the Artemis IV fire control system.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
