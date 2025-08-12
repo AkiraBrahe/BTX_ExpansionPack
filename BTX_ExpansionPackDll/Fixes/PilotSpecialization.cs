@@ -52,10 +52,12 @@ namespace BTX_ExpansionPack.Fixes
                 if (pilotsChecked) return;
                 pilotsChecked = true;
 
-                foreach (var pilot in __instance.PilotRoster)
+                var allPilots = __instance.PilotRoster.Concat([__instance.Commander]);
+                foreach (var pilot in allPilots)
                 {
                     bool hasMechSpecialization = pilot.pilotDef.PilotTags.Contains(MechPilotTag);
                     bool hasVehicleSpecialization = pilot.pilotDef.PilotTags.Contains(VehiclePilotTag);
+                    bool hasNoMechSpecialization = pilot.pilotDef.PilotTags.Contains(NoMechPilotTag);
 
                     if (pilot.pilotDef.PilotTags.Any(tag => tag.StartsWith("can_pilot_")))
                     {
@@ -71,6 +73,9 @@ namespace BTX_ExpansionPack.Fixes
                         if (!pilot.pilotDef.PilotTags.Contains(MechPilotTag))
                             pilot.pilotDef.PilotTags.Add(MechPilotTag);
                     }
+
+                    if (hasMechSpecialization && hasNoMechSpecialization)
+                        pilot.pilotDef.PilotTags.Remove(MechPilotTag);
 
                     if (!hasMechSpecialization && !hasVehicleSpecialization)
                         pilot.pilotDef.PilotTags.Add(MechPilotTag);
