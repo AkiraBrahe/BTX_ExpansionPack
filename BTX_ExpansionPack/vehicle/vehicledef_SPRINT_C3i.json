@@ -7,6 +7,7 @@
       "unit_light",
       "unit_vtol",
       "unit_noncombatant",
+      "role_scout",
       "unit_lance_vanguard",
       "unit_lance_support",
       "unit_armor_low",

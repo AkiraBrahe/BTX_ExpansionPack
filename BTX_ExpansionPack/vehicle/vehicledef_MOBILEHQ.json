@@ -7,6 +7,7 @@
       "unit_light",
       "unit_wheels",
       "unit_noncombatant",
+      "role_none",
       "unit_range_medium",
       "unit_armor_high",
       "unit_speed_medium",

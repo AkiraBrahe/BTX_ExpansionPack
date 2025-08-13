@@ -7,7 +7,7 @@
       "unit_light",
       "unit_vtol",
       "unit_noncombatant",
-      "unit_lance_support",
+      "role_none",
       "unit_armor_low",
       "unit_speed_high",
       "NoBiome_lunarVacuum",

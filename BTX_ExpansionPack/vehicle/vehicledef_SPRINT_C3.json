@@ -8,6 +8,7 @@
       "unit_vtol",
       "unit_c3_slave",
       "unit_noncombatant",
+      "role_scout",
       "unit_lance_vanguard",
       "unit_lance_support",
       "unit_armor_low",

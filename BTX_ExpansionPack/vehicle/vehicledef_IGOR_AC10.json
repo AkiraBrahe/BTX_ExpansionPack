@@ -5,6 +5,7 @@
       "unit_vehicle",
       "unit_heavy",
       "unit_vtol",
+      "role_striker",
       "unit_lance_vanguard",
       "unit_lance_support",
       "unit_range_medium",

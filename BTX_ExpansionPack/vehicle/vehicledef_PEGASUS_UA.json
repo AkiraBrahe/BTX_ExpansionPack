@@ -7,6 +7,7 @@
       "unit_light",
       "unit_hover",
       "unit_noncombatant",
+      "role_none",
       "unit_armor_high",
       "unit_speed_high",
       "NoBiome_lunarVacuum",

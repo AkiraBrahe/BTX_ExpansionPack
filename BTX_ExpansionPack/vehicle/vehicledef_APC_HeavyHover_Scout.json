@@ -6,6 +6,8 @@
       "unit_vehicle_apc",
       "unit_light",
       "unit_hover",
+      "role_scout",
+      "unit_lance_support",
       "unit_range_short",
       "unit_armor_medium",
       "unit_vehicle_case",

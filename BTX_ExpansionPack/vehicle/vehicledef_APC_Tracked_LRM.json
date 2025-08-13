@@ -7,6 +7,8 @@
       "unit_light",
       "unit_tracks",
       "unit_noncombatant",
+      "role_missileboat",
+      "unit_lance_support",
       "unit_range_long",
       "unit_armor_medium",
       "unit_speed_medium",

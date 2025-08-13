@@ -7,6 +7,8 @@
       "unit_light",
       "unit_hover",
       "unit_noncombatant",
+      "role_missileboat",
+      "unit_lance_support",
       "unit_range_long",
       "unit_armor_low",
       "unit_speed_high",
