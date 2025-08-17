@@ -82,8 +82,8 @@ namespace BTX_ExpansionPack
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                var codes = new List<CodeInstruction>(instructions);
                 bool found = false;
+                var codes = new List<CodeInstruction>(instructions);
                 MethodInfo hasInfernoMethod = AccessTools.Method(typeof(InfernoAmmoTypes), nameof(HasInferno), [typeof(Mech)]);
 
                 for (int i = 0; i < codes.Count; i++)

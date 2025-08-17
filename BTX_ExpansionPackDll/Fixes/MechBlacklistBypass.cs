@@ -23,8 +23,8 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyTranspiler]
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
-            var code = new List<CodeInstruction>(instructions);
             bool found = false;
+            var code = new List<CodeInstruction>(instructions);
             for (int i = 0; i < code.Count; i++)
             {
                 if (code[i].opcode == OpCodes.Ldloc_1 &&

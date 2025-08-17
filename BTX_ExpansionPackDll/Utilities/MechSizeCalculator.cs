@@ -40,8 +40,8 @@ namespace BTX_ExpansionPack.Utilities
                         for (int i = 1; i < renderers.Length; i++)
                             bounds.Encapsulate(renderers[i].bounds);
 
-                        height = bounds.size.y * UnityUnitToMeter;
-                        volume = bounds.size.x * bounds.size.y * bounds.size.z * (float)Math.Pow(UnityUnitToMeter, 3);
+                        height = bounds.size.y; // * UnityUnitToMeter;
+                        volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
                     }
                 }
                 catch (Exception ex)
@@ -86,9 +86,13 @@ namespace BTX_ExpansionPack.Utilities
                             for (int i = 1; i < renderers.Length; i++)
                                 bounds.Encapsulate(renderers[i].bounds);
 
-                            float height = bounds.size.y * UnityUnitToMeter;
-                            float volume = bounds.size.x * bounds.size.y * bounds.size.z * (float)Math.Pow(UnityUnitToMeter, 3); ;
+                            float height = bounds.size.y; // * UnityUnitToMeter;
+                            float volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
                             Main.Log.LogDebug($"Human: {name}, Height: {height:F2}m, Volume: {volume:F2}m³");
+
+                            Vector3 size = Vector3.one;
+                            Gizmos.color = Color.red;
+                            Gizmos.DrawCube(renderers[0].transform.position, size);
                         }
                         else
                         {

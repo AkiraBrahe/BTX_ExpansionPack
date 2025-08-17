@@ -3,7 +3,7 @@ using CustAmmoCategories;
 
 namespace BTX_ExpansionPack
 {
-    public static class ArrowIVHelper
+    public static class ArrowIVHelpers
     {
         [HarmonyPatch(typeof(UnitSpawnPointGameLogic), "initializeActor")]
         public static class UnitSpawnPointGameLogic_initializeActor
@@ -60,6 +60,37 @@ namespace BTX_ExpansionPack
             return target != null && target.StatCollection != null &&
                    target.StatCollection.GetValue<float>("TAGCount") +
                    target.StatCollection.GetValue<float>("TAGCountClan") > 0f;
+        }
+
+        public static bool AnyAllyHasTAG(Mech mech)
+        {
+            if (mech?.team == null) return false;
+
+            foreach (ICombatant ally in mech.team.units)
+            {
+                if (ally is Mech allyMech && allyMech != mech)
+                {
+                    foreach (Weapon weapon in allyMech.Weapons)
+                    {
+                        if (weapon.defId.StartsWith("Weapon_TAG"))
+                        {
+                            return true;
+                        }
+                    }
+                }
+                else if (ally is Vehicle allyVehicle)
+                {
+                    foreach (Weapon weapon in allyVehicle.Weapons)
+                    {
+                        if (weapon.defId.StartsWith("Weapon_TAG"))
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+
+            return false;
         }
     }
 }

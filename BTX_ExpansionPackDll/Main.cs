@@ -32,7 +32,7 @@ namespace BTX_ExpansionPack
                 harmony = new Harmony(HarmonyInstanceId);
                 ApplyHarmonyPatches();
                 ApplySettings();
-                Log.Log($"{ModName} Initialized!");
+                Log.Log("Mod initialized!");
             }
             catch (Exception ex)
             {
