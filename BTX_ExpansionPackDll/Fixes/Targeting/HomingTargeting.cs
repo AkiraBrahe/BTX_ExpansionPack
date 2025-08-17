@@ -1,9 +1,9 @@
 ﻿using BattleTech;
 using BattleTech.UI;
-using CustAmmoCategories;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Fixes
 {
     internal class HomingTargeting
     {
@@ -50,36 +50,24 @@ namespace BTX_ExpansionPack
             }
         }
 
-        [HarmonyPatch(typeof(AttackEvaluator), "MakeAttackOrder")]
-        public static class AttackEvaluator_MakeAttackOrder
+        [HarmonyPatch(typeof(AIThreatUtil), "SortHostileUnitsByThreat")]
+        public static class AIThreatUtil_SortHostileUnitsByThreat
         {
-            [HarmonyPrefix]
+            [HarmonyPostfix]
             [HarmonyWrapSafe]
-            public static void Prefix(AbstractActor unit)
+            public static void Postfix(AbstractActor thisUnit, List<ICombatant> units)
             {
-                if (unit == null || unit.BehaviorTree == null || unit.BehaviorTree.enemyUnits == null)
+                if (!thisUnit.StatCollection.GetValue<bool>("HasHomingArrowIV"))
                     return;
 
-                bool hasHoming = unit.Weapons.Any(w =>
-                    w.CanFire &&
-                    w.ammo() != null &&
-                    w.ammo().Id == "Ammunition_ArrowIV_Homing");
+                var tagged = units.Where(t => t.IsTAGed()).ToList();
+                if (tagged.Count == 0)
+                    return;
 
-                if (hasHoming)
-                {
-                    var tagged = unit.BehaviorTree.enemyUnits
-                        .Where(t => t
-                        .IsTAGed())
-                        .ToList();
-
-                    if (tagged.Count == 0)
-                        return;
-
-                    var untagged = unit.BehaviorTree.enemyUnits.Except(tagged).ToList();
-                    unit.BehaviorTree.enemyUnits.Clear();
-                    unit.BehaviorTree.enemyUnits.AddRange(tagged);
-                    unit.BehaviorTree.enemyUnits.AddRange(untagged);
-                }
+                var untagged = units.Except(tagged).ToList();
+                units.Clear();
+                units.AddRange(tagged);
+                units.AddRange(untagged);
             }
         }
     }

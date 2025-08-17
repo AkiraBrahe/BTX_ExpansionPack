@@ -77,7 +77,7 @@ namespace BTX_ExpansionPack
                 else if (ttsLevel >= 3f) scatterReductionFactor = 0.70f;
 
                 float scatterRadius = Mathf.Lerp(maxMissRadius, minMissRadius, scatterReductionFactor);
-                Vector2 randomCirclePoint = UnityEngine.Random.insideUnitCircle * scatterRadius;
+                Vector2 randomCirclePoint = Random.insideUnitCircle * scatterRadius;
                 Vector3 randomSpreadOffset = new Vector3(randomCirclePoint.x, 0f, randomCirclePoint.y);
 
                 return adjustedPosition + randomSpreadOffset;

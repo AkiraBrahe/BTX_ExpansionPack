@@ -62,7 +62,7 @@ namespace BTX_ExpansionPack
                    target.StatCollection.GetValue<float>("TAGCountClan") > 0f;
         }
 
-        public static bool AnyAllyHasTAG(Mech mech)
+        public static bool AnyAllyHasTAG(this Mech mech)
         {
             if (mech?.team == null) return false;
 

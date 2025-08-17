@@ -63,7 +63,7 @@
     <Compile Include="Features\YenLoWangUpgrade.cs" />
     <Compile Include="Fixes\Targeting\AntiAirTargeting.cs" />
     <Compile Include="Fixes\Targeting\AttackGround.cs" />
-    <Compile Include="Fixes\Targeting\BuildingTargetingExploit.cs" />
+    <Compile Include="Fixes\Targeting\BuildingTargeting.cs" />
     <Compile Include="Fixes\Targeting\HomingTargeting.cs" />
     <Compile Include="Fixes\AbilityResourceFix.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
@@ -74,8 +74,9 @@
     <Compile Include="Fixes\MechBlacklistBypass.cs" />
     <Compile Include="Fixes\MechLabUI.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
-    <Compile Include="Helpers\ArrowIVHelper.cs" />
-    <Compile Include="Helpers\MiscHelpers.cs" />
+    <Compile Include="Fixes\Targeting\RapidFireTargeting.cs" />
+    <Compile Include="Helpers\ArrowIVHelpers.cs" />
+    <Compile Include="Helpers\MissileHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\MechSizeCalculator.cs" />
     <Compile Include="Utilities\PirateSystemLogger.cs" />
