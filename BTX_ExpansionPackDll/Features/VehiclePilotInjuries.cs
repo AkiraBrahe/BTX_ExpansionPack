@@ -1,25 +1,11 @@
 ﻿using BattleTech;
 using CustAmmoCategories;
-using CustomUnits;
 using System;
 
 namespace BTX_ExpansionPack
 {
     internal class VehiclePilotInjuries
     {
-        [HarmonyPatch(typeof(Pilot), "InjuryReasonDescription", MethodType.Getter)]
-        public static class PilotInjury_InjuryReasonDescription
-        {
-            [HarmonyPostfix]
-            public static void Postfix(Pilot __instance, ref string __result)
-            {
-                if (__instance.InjuryReason == InjuryReason.ActorDestroyed && __instance.ParentActor is FakeVehicleMech)
-                {
-                    __result = "VEHICLE DESTROYED";
-                }
-            }
-        }
-
         [HarmonyPatch(typeof(Mech), "DamageLocation")]
         public static class Mech_DamageLocation
         {

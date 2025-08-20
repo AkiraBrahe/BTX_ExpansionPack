@@ -70,6 +70,9 @@ namespace BTX_ExpansionPack
                 ? (int)Math.Round(30 * Settings.Gameplay.DHSEngineCoolingMultiplier)
                 : Extended_CE.Core.Settings.DHSEngineCooling;
 
+            // Hide role description in MechLab
+            Quirks.MechQuirks.modSettings.ShowBEXTRoleEffectsInMechLab = false;
+
             // Remove non-standard ammo bins from shops
             if (Settings.Gameplay.DisableNonStandardAmmoBins)
             {

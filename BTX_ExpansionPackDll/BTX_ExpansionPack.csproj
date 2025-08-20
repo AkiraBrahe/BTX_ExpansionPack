@@ -72,9 +72,10 @@
     <Compile Include="Fixes\LanceRestrictions.cs" />
     <Compile Include="Fixes\MaxPlayerUnits.cs" />
     <Compile Include="Fixes\MechBlacklistBypass.cs" />
-    <Compile Include="Fixes\MechLabUI.cs" />
+    <Compile Include="Fixes\UI\MechLabUI.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
     <Compile Include="Fixes\Targeting\RapidFireTargeting.cs" />
+    <Compile Include="Fixes\UI\VehicleUIChanges.cs" />
     <Compile Include="Helpers\ArrowIVHelpers.cs" />
     <Compile Include="Helpers\MissileHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

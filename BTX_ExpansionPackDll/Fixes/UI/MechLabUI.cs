@@ -3,6 +3,8 @@ using BattleTech.UI.TMProWrapper;
 using BattleTech.UI.Tooltips;
 using CustomUnits;
 using MechAffinity;
+using Quirks.Tooltips;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace BTX_ExpansionPack.Fixes
@@ -13,14 +15,45 @@ namespace BTX_ExpansionPack.Fixes
         public class TooltipPrefab_Mech_SetData
         {
             [HarmonyPostfix]
-            public static void Postfix(object data, LocalizableText ___RoleField)
+            public static void Postfix(object data, LocalizableText ___RoleField, LocalizableText ___VariantField)
             {
                 if (data is MechDef mechDef)
                 {
                     bool isVehicle = mechDef.IsVehicle();
-                    ___RoleField.gameObject.SetActive(!isVehicle);
+                    ___VariantField.gameObject.SetActive(!isVehicle);
+
+                    if (isVehicle)
+                    {
+                        var vehicleDef = mechDef.toVehicleDef(mechDef.DataManager);
+                        string role = GetVehicleRole(vehicleDef?.VehicleTags);
+                        ___RoleField.text = role;
+                    }
                 }
             }
+        }
+
+        public static string GetVehicleRole(IEnumerable<string> tags)
+        {
+            if (tags == null)
+                return "VEHICLE";
+
+            foreach (var tag in tags)
+            {
+                switch (tag)
+                {
+                    case "role_scout": return "Scout";
+                    case "role_striker": return "Striker";
+                    case "role_skirmisher": return "Skirmisher";
+                    case "role_brawler": return "Brawler";
+                    case "role_juggernaut": return "Juggernaut";
+                    case "role_missileboat": return "Missile Boat";
+                    case "role_sniper": return "Sniper";
+                    case "role_ambusher": return "Ambusher";
+                    case "role_none": return "None";
+                }
+            }
+
+            return "VEHICLE";
         }
 
         [HarmonyPatch(typeof(PilotAffinityManager), "getMechChassisAffinityDescription", [typeof(ChassisDef)])]
@@ -31,7 +64,7 @@ namespace BTX_ExpansionPack.Fixes
                 __result = __result.Replace("\n<b> Unlockable Affinities: </b>", "");
         }
 
-        [HarmonyPatch(typeof(Quirks.Tooltips.QuirkToolTips), "DetailMechQuirks", [typeof(ChassisDef)])]
+        [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirks", [typeof(ChassisDef)])]
         public static class QuirkToolTips_DetailMechQuirks
         {
             [HarmonyFinalizer]
