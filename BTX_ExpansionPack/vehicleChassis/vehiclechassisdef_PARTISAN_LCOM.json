@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_PARTISAN_LCOM",
     "Name": "Partisan (Lance Command)",
-    "Details": "<b>Name: <color=#85DBF6>Partisan Air Defense Tank (Lance Command)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nKallon Industries, known for their anti-aircraft 'Mechs, designed the Partisan to offer a cheaper, more easily produced vehicle with a targeting system capable of tracking up to 200 targets, computing optimal targets, and linking to other Partisans' systems.\n\nThe Lance Command variant of the Partisan Air Defense Tank upgrades the C3 Slave unit to a C3 Master unit. To make room for this upgrade, the twin LB 10-X ACs were replaced with a pair of Ultra AC/5s.",
+    "Details": "<b>Name: <color=#85DBF6>Partisan Air Defense Tank (Lance Command)</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>\n\nKallon Industries, known for their anti-aircraft 'Mechs, designed the Partisan to offer a cheaper, more easily produced vehicle with a targeting system capable of tracking up to 200 targets, computing optimal targets, and linking to other Partisans' systems.\n\nThe Lance Command variant of the Partisan Air Defense Tank upgrades the C3 Slave unit to a C3 Master unit. To make room for this upgrade, the twin LB 10-X ACs were replaced with a pair of Ultra AC/5s.",
     "Icon": "uixVhclIcon_partisan",
     "Cost": 6665000,
     "Rarity": 0,

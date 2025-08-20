@@ -21,7 +21,7 @@
     "Id": "vehicledef_DEMON",
     "Name": "Demon Tank",
     "UIName": "Demon Tank (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Demon Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nOriginally created by the SLDF as its standard fighting vehicle, the Demon is a match for any light or medium BattleMech thanks to its powerful Gauss Rifle.\n\nIn addition to its turret-mounted Gauss Rifle, the Demon Tank also has two Medium Lasers, one on each side, and an SRM-6 launcher with two tons of CASE-protected ammunition.",
+    "Details": "<b>Name: <color=#85DBF6>Demon Tank</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nOriginally created by the SLDF as its standard fighting vehicle, the Demon is a match for any light or medium BattleMech thanks to its powerful Gauss Rifle.\n\nIn addition to its turret-mounted Gauss Rifle, the Demon Tank also has two Medium Lasers, one on each side, and an SRM-6 launcher with two tons of CASE-protected ammunition.",
     "Icon": "uixVhclIcon_demon",
     "Cost": 2186000,
     "Rarity": 0,

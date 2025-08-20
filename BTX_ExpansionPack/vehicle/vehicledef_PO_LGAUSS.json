@@ -23,7 +23,7 @@
     "Id": "vehicledef_PO_LGAUSS",
     "Name": "Po Heavy Tank",
     "UIName": "Po Heavy Tank (Light Gauss)",
-    "Details": "<b>Name: <color=#85DBF6>Po Heavy Tank (Light Gauss)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Po Heavy Tank is a simple and reliable combat vehicle, often derided as a poor man's Patton/Rommel tank. It is named after the mischievous and vengeful spirit of Chinese tradition, and has become the principal combat vehicle on Capellan worlds lacking BattleMech units.\n\nSelected as a Light Gauss Rifle testbed by the FWLM in the late 3050's, even though this model boasted far superior range when compared to the old AC/10-equipped original, the reduction in firepower made it unpopular with tank crews.",
+    "Details": "<b>Name: <color=#85DBF6>Po Heavy Tank (Light Gauss)</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>240 ICE</color></b>\n\nThe Po Heavy Tank is a simple and reliable combat vehicle, often derided as a poor man's Patton/Rommel tank. It is named after the mischievous and vengeful spirit of Chinese tradition, and has become the principal combat vehicle on Capellan worlds lacking BattleMech units.\n\nSelected as a Light Gauss Rifle testbed by the FWLM in the late 3050's, even though this model boasted far superior range when compared to the old AC/10-equipped original, the reduction in firepower made it unpopular with tank crews.",
     "Icon": "uixVhclIcon_po",
     "Cost": 1325000,
     "Rarity": 0,

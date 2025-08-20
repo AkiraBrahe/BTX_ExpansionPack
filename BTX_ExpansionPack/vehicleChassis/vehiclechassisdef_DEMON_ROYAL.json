@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_DEMON_ROYAL",
     "Name": "Demon (Royal)",
-    "Details": "<b>Name: <color=#85DBF6>Demon Tank (Royal)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>280 XL</color></b>\n\nOriginally created by the SLDF as its standard fighting vehicle, the Demon is a match for any light or medium BattleMech thanks to its powerful Gauss Rifle.\n\nThe SLDF Royal variant of the Demon Tank uses a 280XL engine to increase its top speed to 86 km/h. It replaces the standard SRM-6 with three Streak SRM-2 launchers and its Medium Lasers are upgraded to Medium Pulse Lasers. The turret also gains a half ton of armor for increased protection.",
+    "Details": "<b>Name: <color=#85DBF6>Demon Tank (Royal)</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>280 XL</color></b>\n\nOriginally created by the SLDF as its standard fighting vehicle, the Demon is a match for any light or medium BattleMech thanks to its powerful Gauss Rifle.\n\nThe SLDF Royal variant of the Demon Tank uses a 280XL engine to increase its top speed to 86 km/h. It replaces the standard SRM-6 with three Streak SRM-2 launchers and its Medium Lasers are upgraded to Medium Pulse Lasers. The turret also gains a half ton of armor for increased protection.",
     "Icon": "uixVhclIcon_demon",
     "Cost": 6879000,
     "Rarity": 0,

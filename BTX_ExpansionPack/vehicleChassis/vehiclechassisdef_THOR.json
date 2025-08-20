@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_THOR",
     "Name": "Thor",
-    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>\n\nThe Thor is a self-propelled artillery piece used by the Star League Defense Force in the 26th century. It was designed to provide mobile fire support to SLDF units and was armed with a 15-ton Thumper artillery piece.\n\nThe standard loadout of the Thor is a Thumper artillery piece with forty rounds of ammunition and two Medium Lasers for self-defense purposes. The artillery vehicle is well-armored, boasting seven and a half tons of ferro-fibrous armor. However, it primarily relies on its long range and speed for protection.",
+    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>\n\nThe Thor is a self-propelled artillery piece used by the Star League Defense Force in the 26th century. It was designed to provide mobile fire support to SLDF units and was armed with a 15-ton Thumper artillery piece.\n\nThe standard loadout of the Thor is a Thumper artillery piece with forty rounds of ammunition and two Medium Lasers for self-defense purposes. The artillery vehicle is well-armored, boasting seven and a half tons of ferro-fibrous armor. However, it primarily relies on its long range and speed for protection.",
     "Icon": "uixVhclIcon_thor",
     "Cost": 1898000,
     "Rarity": 0,

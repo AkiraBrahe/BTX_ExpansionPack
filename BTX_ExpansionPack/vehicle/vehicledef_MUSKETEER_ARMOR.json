@@ -25,7 +25,7 @@
     "Id": "vehicledef_MUSKETEER_ARMOR",
     "Name": "Musketeer Hover Tank",
     "UIName": "Musketeer Hover Tank (Armor)",
-    "Details": "<b>Name: <color=#85DBF6>Musketeer Hover Tank (Armor)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>\n\nThe Musketeer is a cost-effective combat vehicle designed for rapid deployment and concentrated firepower. Protected by seven tons of ferro-fibrous armor and equipped with CASE, it offers excellent survivability for a hover vehicle.\n\nThis variant developed in 3068 replaces the autocannon with a smaller Rotary Autocannon/2. The loss of firepower nonetheless enabled engineers to add additional armor, making the Musketeer even more difficult to bring down.",
+    "Details": "<b>Name: <color=#85DBF6>Musketeer Hover Tank (Armor)</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>\n\nThe Musketeer is a cost-effective combat vehicle designed for rapid deployment and concentrated firepower. Protected by seven tons of ferro-fibrous armor and equipped with CASE, it offers excellent survivability for a hover vehicle.\n\nThis variant developed in 3068 replaces the autocannon with a smaller Rotary Autocannon/2. The loss of firepower nonetheless enabled engineers to add additional armor, making the Musketeer even more difficult to bring down.",
     "Icon": "uixVhclIcon_musketeer",
     "Cost": 1673000,
     "Rarity": 0,

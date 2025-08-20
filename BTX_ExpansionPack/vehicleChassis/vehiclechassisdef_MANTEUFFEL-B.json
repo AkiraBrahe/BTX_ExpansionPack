@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_MANTEUFFEL-B",
     "Name": "Manteuffel B",
-    "Details": "<b>Name: <color=#85DBF6>Manteuffel Attack Tank B</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>350 XL</color></b>\n\nThe Manteuffel is an OmniVehicle designed by StarCorps Industries for the AFFC. Its advanced technology and high cost limit its use to elite units capable of exploiting its full potential.\n\nThis variant, though uncommon, is considered to be the most feared with its Heavy Gauss Rifle plus one Medium Laser and one ER Small Laser for close in defense.",
+    "Details": "<b>Name: <color=#85DBF6>Manteuffel Attack Tank B</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>350 XL</color></b>\n\nThe Manteuffel is an OmniVehicle designed by StarCorps Industries for the AFFC. Its advanced technology and high cost limit its use to elite units capable of exploiting its full potential.\n\nThis variant, though uncommon, is considered to be the most feared with its Heavy Gauss Rifle plus one Medium Laser and one ER Small Laser for close in defense.",
     "Icon": "uixVhclIcon_manteuffel",
     "Cost": 16011000,
     "Rarity": 0,

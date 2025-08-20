@@ -21,7 +21,7 @@
     "Id": "vehicledef_DEMON_PPC",
     "Name": "Demon Tank",
     "UIName": "Demon Tank (PPC)",
-    "Details": "<b>Name: <color=#85DBF6>Demon Tank (PPC)</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nOriginally created by the SLDF as its standard fighting vehicle, the Demon is a match for any light or medium BattleMech thanks to its powerful Gauss Rifle.\n\nThis variant was created to make a supply-independent version of the tank for the SLDF. The vehicle trades all of its weapons for two Particle Projector Cannons. While better than the original, it was not well received and thus relegated to the Hegemony's militia.",
+    "Details": "<b>Name: <color=#85DBF6>Demon Tank (PPC)</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nOriginally created by the SLDF as its standard fighting vehicle, the Demon is a match for any light or medium BattleMech thanks to its powerful Gauss Rifle.\n\nThis variant was created to make a supply-independent version of the tank for the SLDF. The vehicle trades all of its weapons for two Particle Projector Cannons. While better than the original, it was not well received and thus relegated to the Hegemony's militia.",
     "Icon": "uixVhclIcon_demon",
     "Cost": 2005000,
     "Rarity": 0,

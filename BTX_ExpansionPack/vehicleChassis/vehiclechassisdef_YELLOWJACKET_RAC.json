@@ -18,7 +18,7 @@
   "Description": {
     "Id": "vehiclechassisdef_YELLOWJACKET_RAC",
     "Name": "Yellow Jacket (RAC)",
-    "Details": "<b>Name: <color=#85DBF6>Yellow Jacket Gunship (RAC)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (VTOL)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nOne of many VTOL designs in response to the Clan threat, the Yellow Jacket is a highly mobile fire support platform. Its single, powerful weapon allows for sustained long-range fire, making a lance of Yellow Jackets one of the most lethal forces an enemy can face.\n\nThis 3066 variant equips the Yellow Jacket with a Rotary AC/5 mated to a Targeting Computer. Two tons of CASE-protected ammunition and an additional 1.5 tons of armor enhance the VTOL's survivability.",
+    "Details": "<b>Name: <color=#85DBF6>Yellow Jacket Gunship (RAC)</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (VTOL)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nOne of many VTOL designs in response to the Clan threat, the Yellow Jacket is a highly mobile fire support platform. Its single, powerful weapon allows for sustained long-range fire, making a lance of Yellow Jackets one of the most lethal forces an enemy can face.\n\nThis 3066 variant equips the Yellow Jacket with a Rotary AC/5 mated to a Targeting Computer. Two tons of CASE-protected ammunition and an additional 1.5 tons of armor enhance the VTOL's survivability.",
     "Icon": "uixVhclIcon_yellowjacket",
     "Cost": 1228000,
     "Rarity": 0,

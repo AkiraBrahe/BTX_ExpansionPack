@@ -18,7 +18,7 @@
   "Description": {
     "Id": "vehiclechassisdef_SOKOL_LRM",
     "Name": "Sokol (LRM)",
-    "Details": "<b>Name: <color=#85DBF6>Sokol Superheavy VTOL (LRM)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (VTOL)</color>\tEngine: <color=#85DBF6>70 XL</color></b>\n\nThe Sokol is an evolution of the Igor featuring advanced technologies like an extralight engine and ferro-fibrous armor. Its high cost limits its use to elite forces within the Inner Sphere.\n\nThis variant is  equipped with three Artemis IV-enhanced LRM-15s and side-mounted Machine Guns. CASE-protected ammunition and an ECM Suite enhance its survivability.",
+    "Details": "<b>Name: <color=#85DBF6>Sokol Superheavy VTOL (LRM)</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (VTOL)</color>\tEngine: <color=#85DBF6>70 XL</color></b>\n\nThe Sokol is an evolution of the Igor featuring advanced technologies like an extralight engine and ferro-fibrous armor. Its high cost limits its use to elite forces within the Inner Sphere.\n\nThis variant is equipped with three Artemis IV-enhanced LRM-15s and side-mounted Machine Guns. CASE-protected ammunition and an ECM Suite enhance its survivability.",
     "Icon": "uixVhclIcon_sokol",
     "Cost": 9078000,
     "Rarity": 0,
@@ -111,6 +111,10 @@
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -121,6 +125,10 @@
     {
       "Location": "Right",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false

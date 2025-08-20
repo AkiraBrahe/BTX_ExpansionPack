@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_GALLANT",
     "Name": "Gallant",
-    "Details": "<b>Name: <color=#85DBF6>Gallant Urban Assault Tank</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Wheeled)</color>\tEngine: <color=#85DBF6>190 ICE</color></b>\n\nThe Gallant is a heavily armored vehicle designed for urban warfare and infantry support, featuring self-inflating tires to keep the heavy six-wheeler mobile under fire.\n\nThe tank is equipped with a variety of weapons to fight at all ranges. The turret carries a Class 10 Autocannon, accompanied by an SRM-2 rack and four Machine Guns for use against infantry. A front-mounted LRM-10 launcher allows for long-range fire and indirect missile attacks.",
+    "Details": "<b>Name: <color=#85DBF6>Gallant Urban Assault Tank</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Wheeled)</color>\tEngine: <color=#85DBF6>190 ICE</color></b>\n\nThe Gallant is a heavily armored vehicle designed for urban warfare and infantry support, featuring self-inflating tires to keep the heavy six-wheeler mobile under fire.\n\nThe tank is equipped with a variety of weapons to fight at all ranges. The turret carries a Class 10 Autocannon, accompanied by an SRM-2 rack and four Machine Guns for use against infantry. A front-mounted LRM-10 launcher allows for long-range fire and indirect missile attacks.",
     "Icon": "uixVhclIcon_gallant",
     "Cost": 1295000,
     "Rarity": 0,

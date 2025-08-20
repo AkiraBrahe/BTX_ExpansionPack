@@ -24,7 +24,7 @@
     "Id": "vehicledef_YELLOWJACKET_ARROWIV",
     "Name": "Yellow Jacket Gunship",
     "UIName": "Yellow Jacket Gunship (Arrow IV)",
-    "Details": "<b>Name: <color=#85DBF6>Yellow Jacket Gunship (Arrow IV)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (VTOL)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nOne of many VTOL designs in response to the Clan threat, the Yellow Jacket is a highly mobile fire support platform. Its single, powerful weapon allows for sustained long-range fire, making a lance of Yellow Jackets one of the most lethal forces an enemy can face.\n\nThis variant removes the Gauss Rifle in exchange for an Arrow IV missile system and two tons of reloads. Half a ton of armor is removed to add CASE protection for the ammunition.",
+    "Details": "<b>Name: <color=#85DBF6>Yellow Jacket Gunship (Arrow IV)</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>6/9 (VTOL)</color>\tEngine: <color=#85DBF6>40 ICE</color></b>\n\nOne of many VTOL designs in response to the Clan threat, the Yellow Jacket is a highly mobile fire support platform. Its single, powerful weapon allows for sustained long-range fire, making a lance of Yellow Jackets one of the most lethal forces an enemy can face.\n\nThis variant removes the Gauss Rifle in exchange for an Arrow IV missile system and two tons of reloads. Half a ton of armor is removed to add CASE protection for the ammunition.",
     "Icon": "uixVhclIcon_yellowjacket",
     "Cost": 1480000,
     "Rarity": 0,

@@ -25,7 +25,7 @@
     "Id": "vehicledef_MUSKETEER",
     "Name": "Musketeer Hover Tank",
     "UIName": "Musketeer Hover Tank (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Musketeer Hover Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>\n\nThe Musketeer is a cost-effective combat vehicle designed for rapid deployment and concentrated firepower. Protected by seven tons of ferro-fibrous armor and equipped with CASE, it offers excellent survivability for a hover vehicle.\n\nArmed with a Rotary Autocannon/5 and two Streak SRM-2 launchers, the Musketeer delivers a devastating combination of firepower. The autocannon's sustained rate of fire and the SRM-2's scattershot effect can quickly incapacitate enemy tanks and damage critical systems.",
+    "Details": "<b>Name: <color=#85DBF6>Musketeer Hover Tank</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>7/11 (Hover)</color>\tEngine: <color=#85DBF6>115 ICE</color></b>\n\nThe Musketeer is a cost-effective combat vehicle designed for rapid deployment and concentrated firepower. Protected by seven tons of ferro-fibrous armor and equipped with CASE, it offers excellent survivability for a hover vehicle.\n\nArmed with a Rotary Autocannon/5 and two Streak SRM-2 launchers, the Musketeer delivers a devastating combination of firepower. The autocannon's sustained rate of fire and the SRM-2's scattershot effect can quickly incapacitate enemy tanks and damage critical systems.",
     "Icon": "uixVhclIcon_musketeer",
     "Cost": 1847000,
     "Rarity": 0,

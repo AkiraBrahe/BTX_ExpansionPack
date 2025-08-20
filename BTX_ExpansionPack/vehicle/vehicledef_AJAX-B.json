@@ -23,7 +23,7 @@
     "Id": "vehicledef_AJAX-B",
     "Name": "Ajax Assault Tank",
     "UIName": "Ajax Assault Tank B",
-    "Details": "<b>Name: <color=#85DBF6>Ajax Assault Tank B</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>270 XL</color></b>\n\nThe Ajax Assault Tank, successor to the Challenger X MBT, prioritizes defense and battlefield adaptability with 19 tons of armor and an Omni-capable design, ensuring its place on the front lines.\n\nThis configuration turns the Ajax into a support unit with the inclusion of a PPC and three LRM-15s that are slaved to an Artemis IV FCS. Six tons of ammunition rarely leave the missile launchers out of supply. A C3 Master Computer makes this an effective command vehicle, allowing the Ajax B to coordinate the fire of a lance or company.",
+    "Details": "<b>Name: <color=#85DBF6>Ajax Assault Tank B</color>\nArmor: <color=#85DBF6>Standard + CASE</color>  Technology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>270 XL</color></b>\n\nThe Ajax Assault Tank, successor to the Challenger X MBT, prioritizes defense and battlefield adaptability with 19 tons of armor and an Omni-capable design, ensuring its place on the front lines.\n\nThis configuration turns the Ajax into a support unit with the inclusion of a PPC and three LRM-15s that are slaved to an Artemis IV FCS. Six tons of ammunition rarely leave the missile launchers out of supply. A C3 Master Computer makes this an effective command vehicle, allowing the Ajax B to coordinate the fire of a lance or company.",
     "Icon": "uixVhclIcon_ajax",
     "Cost": 23168000,
     "Rarity": 0,

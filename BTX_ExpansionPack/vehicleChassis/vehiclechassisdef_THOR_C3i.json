@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_THOR_C3i",
     "Name": "Thor (C3i)",
-    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle (C3i)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>\n\nThe Thor is a self-propelled artillery piece used by the Star League Defense Force in the 26th century. It was designed to provide mobile fire support to SLDF units and was armed with a 15-ton Thumper artillery piece.\n\nComStar's refit of the Thor removes the Medium Lasers, leaving only the Thumper artillery piece with 40 rounds of ammunition. A C3i network computer is added to allow better coordination with its lance.",
+    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle (C3i)</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Wheeled)</color>\tEngine: <color=#85DBF6>255 Fusion</color></b>\n\nThe Thor is a self-propelled artillery piece used by the Star League Defense Force in the 26th century. It was designed to provide mobile fire support to SLDF units and was armed with a 15-ton Thumper artillery piece.\n\nComStar's refit of the Thor removes the Medium Lasers, leaving only the Thumper artillery piece with 40 rounds of ammunition. A C3i network computer is added to allow better coordination with its lance.",
     "Icon": "uixVhclIcon_thor",
     "Cost": 2750000,
     "Rarity": 0,

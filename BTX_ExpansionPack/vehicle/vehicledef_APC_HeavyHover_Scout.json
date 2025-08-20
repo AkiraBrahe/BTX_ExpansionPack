@@ -25,7 +25,7 @@
     "Id": "vehicledef_APC_HeavyHover_Scout",
     "Name": "Heavy Hover APC",
     "UIName": "Heavy Hover APC (Scout Tank)",
-    "Details": "<b>Name: <color=#85DBF6>Heavy Hover APC (Scout Tank)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/12 (Hover)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>\n\nThe Heavy Hover APC is a larger version of the Hover APC that can carry up to two platoons of infantry.\n\nIntroduced during the Jihad, this Scout Tank variant is completely redesigned for its new reconnaissance role. Its original weaponry and infantry capacity are removed, replaced by a front-mounted Class 5 Light Autocannon with 40 rounds of ammunition. The crew benefits from slightly increased armor and CASE protection in the ammunition bay.",
+    "Details": "<b>Name: <color=#85DBF6>Heavy Hover APC (Scout Tank)</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>8/12 (Hover)</color>\tEngine: <color=#85DBF6>75 ICE</color></b>\n\nThe Heavy Hover APC is a larger version of the Hover APC that can carry up to two platoons of infantry.\n\nIntroduced during the Jihad, this Scout Tank variant is completely redesigned for its new reconnaissance role. Its original weaponry and infantry capacity are removed, replaced by a front-mounted Class 5 Light Autocannon with 40 rounds of ammunition. The crew benefits from slightly increased armor and CASE protection in the ammunition bay.",
     "Icon": "uixVhclIcon_heavyhoverapc",
     "Cost": 525000,
     "Rarity": 0,

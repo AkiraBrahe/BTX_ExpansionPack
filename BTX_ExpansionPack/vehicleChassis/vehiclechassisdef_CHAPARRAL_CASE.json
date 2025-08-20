@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_CHAPARRAL_CASE",
     "Name": "Chaparral (CASE)",
-    "Details": "<b>Name: <color=#85DBF6>Chaparral Missile Artillery Tank (CASE)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>200 Fusion</color></b>\n\nThe Chaparral Missile Tank was designed to provide close-range artillery support for the SLDF. Its rapid missile delivery and decent protection made it popular, despite its limited range. After becoming scarce during the Succession Wars, the Chaparral's production resumed on a large scale following the ComStar Schism.\n\nA simple refit by the Word of Blake in 3071 upgrades the protection of the tank by including CASE and ferro-fibrous armor.",
+    "Details": "<b>Name: <color=#85DBF6>Chaparral Missile Artillery Tank (CASE)</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>200 Fusion</color></b>\n\nThe Chaparral Missile Tank was designed to provide close-range artillery support for the SLDF. Its rapid missile delivery and decent protection made it popular, despite its limited range. After becoming scarce during the Succession Wars, the Chaparral's production resumed on a large scale following the ComStar Schism.\n\nA simple refit by the Word of Blake in 3071 upgrades the protection of the tank by including CASE and ferro-fibrous armor.",
     "Icon": "uixVhclIcon_chaparral",
     "Cost": 2346000,
     "Rarity": 0,

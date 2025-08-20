@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_MANTEUFFEL-C",
     "Name": "Manteuffel C",
-    "Details": "<b>Name: <color=#85DBF6>Manteuffel Attack Tank C</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>350 XL</color></b>\n\nThe Manteuffel is an OmniVehicle designed by StarCorps Industries for the AFFC. Its advanced technology and high cost limit its use to elite units capable of exploiting its full potential.\n\nThis configuration developed in 3068 carries a Gauss Rifle and two Machine Guns. To compensate for its lack of weapons, it also carries a C3 Master Computer.",
+    "Details": "<b>Name: <color=#85DBF6>Manteuffel Attack Tank C</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>350 XL</color></b>\n\nThe Manteuffel is an OmniVehicle designed by StarCorps Industries for the AFFC. Its advanced technology and high cost limit its use to elite units capable of exploiting its full potential.\n\nThis configuration developed in 3068 carries a Gauss Rifle and two Machine Guns. To compensate for its lack of weapons, it also carries a C3 Master Computer.",
     "Icon": "uixVhclIcon_manteuffel",
     "Cost": 18650000,
     "Rarity": 0,

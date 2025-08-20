@@ -23,7 +23,7 @@
     "Id": "vehicledef_MANTEUFFEL-PRIME",
     "Name": "Manteuffel Attack Tank",
     "UIName": "Manteuffel Attack Tank PRIME",
-    "Details": "<b>Name: <color=#85DBF6>Manteuffel Attack Tank Prime</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>350 XL</color></b>\n\nThe Manteuffel is an OmniVehicle designed by StarCorps Industries for the AFFC. Its advanced technology and high cost limit its use to elite units capable of exploiting its full potential.\n\nArmed with three ER Medium Lasers and a deadly Rotary AC/5, the primary variant can cripple any unit. A C3 Slave module enables coordinated attacks with other C3-equipped units.",
+    "Details": "<b>Name: <color=#85DBF6>Manteuffel Attack Tank Prime</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (Tracked)</color>\tEngine: <color=#85DBF6>350 XL</color></b>\n\nThe Manteuffel is an OmniVehicle designed by StarCorps Industries for the AFFC. Its advanced technology and high cost limit its use to elite units capable of exploiting its full potential.\n\nArmed with three ER Medium Lasers and a deadly Rotary AC/5, the primary variant can cripple any unit. A C3 Slave module enables coordinated attacks with other C3-equipped units.",
     "Icon": "uixVhclIcon_manteuffel",
     "Cost": 16866000,
     "Rarity": 0,

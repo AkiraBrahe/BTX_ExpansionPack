@@ -12,7 +12,7 @@
   "Description": {
     "Id": "vehiclechassisdef_DEMOLISHER_II",
     "Name": "Demolisher II",
-    "Details": "<b>Name: <color=#85DBF6>Demolisher II Heavy Tank</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>300 Fusion</color></b>\n\nThe Demolisher II heavy tank, an upgrade to the original Demolisher, was developed to meet the Lyran Alliance's need for a powerful urban combat vehicle after the loss of the original model's factory to Clan Jade Falcon. The Lyran Alliance, formerly part of the Federated Commonwealth, needed a replacement for the Typhoon, a vehicle primarily used by Federated Suns units.",
+    "Details": "<b>Name: <color=#85DBF6>Demolisher II Heavy Tank</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>300 Fusion</color></b>\n\nThe Demolisher II heavy tank, an upgrade to the original Demolisher, was developed to meet the Lyran Alliance's need for a powerful urban combat vehicle after the loss of the original model's factory to Clan Jade Falcon. The Lyran Alliance, formerly part of the Federated Commonwealth, needed a replacement for the Typhoon, a vehicle primarily used by Federated Suns units.",
     "Icon": "uixVhclIcon_demolisher",
     "Cost": 7567000,
     "Rarity": 0,
