@@ -30,9 +30,7 @@ namespace BTX_ExpansionPack
                             continue;
 
                         float minMissRadius = weapon.MinMissRadius();
-                        float maxMissRadius = weapon.MaxMissRadius();
-
-                        Vector3 newPos = CalculateAdjustedStrikePosition(position, closestTarget.CurrentPosition, ttsLevel, minMissRadius, maxMissRadius);
+                        Vector3 newPos = CalculateAdjustedStrikePosition(position, closestTarget.CurrentPosition, ttsLevel, minMissRadius);
                         Main.Log.LogDebug($"[ArtilleryTTS] Adjusted strike position for {unit.DisplayName}'s {weapon.Name} towards {closestTarget.DisplayName}." +
                             $"Original strike position:{position}; Distance to target: {distanceToTarget}; New position {newPos}");
                         weapon.AddArtilleryStrike(newPos, i + 1);
@@ -59,7 +57,7 @@ namespace BTX_ExpansionPack
                 return closestTarget;
             }
 
-            private static Vector3 CalculateAdjustedStrikePosition(Vector3 initialPosition, Vector3 targetPosition, float ttsLevel, float minMissRadius, float maxMissRadius)
+            private static Vector3 CalculateAdjustedStrikePosition(Vector3 initialPosition, Vector3 targetPosition, float ttsLevel, float minMissRadius)
             {
                 // Calculate the pull factor based on TTS level
                 float pullFactor = 0f;
@@ -70,13 +68,13 @@ namespace BTX_ExpansionPack
                 Vector3 directionToTarget = targetPosition - initialPosition;
                 Vector3 adjustedPosition = initialPosition + (directionToTarget * pullFactor);
 
-                // Apply random spread based on miss radius and TTS level
+                // Apply random spread based on min miss radius and TTS level
                 float scatterReductionFactor = 0f;
                 if (ttsLevel == 1f) scatterReductionFactor = 0.30f;
                 else if (ttsLevel == 2f) scatterReductionFactor = 0.50f;
                 else if (ttsLevel >= 3f) scatterReductionFactor = 0.70f;
 
-                float scatterRadius = Mathf.Lerp(maxMissRadius, minMissRadius, scatterReductionFactor);
+                float scatterRadius = Mathf.Lerp(minMissRadius, 0f, scatterReductionFactor);
                 Vector2 randomCirclePoint = Random.insideUnitCircle * scatterRadius;
                 Vector3 randomSpreadOffset = new Vector3(randomCirclePoint.x, 0f, randomCirclePoint.y);
 
