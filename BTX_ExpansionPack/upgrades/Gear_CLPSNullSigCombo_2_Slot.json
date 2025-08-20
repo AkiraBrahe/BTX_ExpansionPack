@@ -1,0 +1,35 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 1200000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Terran Hegemony",
+    "Model": "CLPS + NullSig",
+    "UIName": "Chameleon LPS / NullSig",
+    "Id": "Gear_CLPSNullSigCombo_2_Slot",
+    "Name": "Chameleon LPS / NullSig",
+    "Details": "This BattleMech possesses unparalleled stealth capabilities that combines the Chameleon LPS's optical camouflage with the Null Signature's ability to mask heat and electronic emissions. This potent combination renders the BattleMech virtually undetectable, transforming it into a ghost on the battlefield.",
+    "Icon": "UixSvgIcon_specialEquip_Sensors"
+  },
+  "BonusValueA": "Fixed Slot",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

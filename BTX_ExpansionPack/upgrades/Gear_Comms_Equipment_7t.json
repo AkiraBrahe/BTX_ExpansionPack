@@ -85,8 +85,8 @@
   "Auras": [
     {
       "Id": "CommsEquipmentAura-T3",
-      "LineType": "Dashes",
       "Name": "Improved Comms",
+      "LineType": "Dashes",
       "ReticleColor": "darkgreen",
       "Range": 300,
       "RemoveOnSensorLock": false,
@@ -94,10 +94,7 @@
       "ApplySelf": false,
       "AllyStealthAffection": "None",
       "EnemyStealthAffection": "None",
-      "IsPositiveToAlly": false,
-      "IsNegativeToAlly": false,
       "IsNegativeToEnemy": true,
-      "IsPositiveToEnemy": false,
       "statusEffects": [
         {
           "durationData": {

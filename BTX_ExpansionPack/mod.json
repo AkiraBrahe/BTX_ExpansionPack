@@ -1,7 +1,7 @@
 {
   "Name": "BTX_ExpansionPack",
   "Enabled": true,
-  "Version": "1.0.3.1",
+  "Version": "1.0.4",
 
   "Description": "Add hundreds of new 'Mechs, combat vehicles, and weapons from the 3050s and early 3060s, alongside various new features.",
   "Author": "Kierk",
@@ -46,7 +46,7 @@
     //{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBoxMerge", "ShouldMergeJSON": true },
     { "Type": "ChassisDef", "Path": "chassis"},
     { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
-    //{ "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
+    { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
     { "Type": "ContractOverride", "Path": "contracts", "ShouldMergeJSON": false },
     { "Type": "DesignMaskDef", "Path": "designMasks" },
     { "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
@@ -61,7 +61,7 @@
     { "Type": "LanceDef", "Path": "lance", "AddToDB": true },
     { "Type": "MechDef", "Path": "mech", "AddToDB": true },
     { "Type": "MechDef", "Path": "mechMerge", "AddToDB": false, "ShouldMergeJSON": true },
-    //{ "Type": "MechDef", "Path": "mechOmni", "ShouldMergeJSON": true },
+    { "Type": "MechDef", "Path": "mechOmni", "ShouldMergeJSON": true },
     { "Type": "MovementCapabilitiesDef", "Path": "movement" },
     { "Type": "PathingCapabilitiesDef", "Path": "pathing" },
     { "Type": "Sprite", "Path": "portraits" },

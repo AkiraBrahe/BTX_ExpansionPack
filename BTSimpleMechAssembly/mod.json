@@ -44,14 +44,13 @@
     "StructurePointBasedSalvageMinPartsFromMech": 1,
     "StructurePointBasedSalvageSalvageBlacklist": [ "Gear_General_Robinson_TG120_Drive_Train", "Gear_Cockpit_Tacticon_B2000_Battle_Computer" ],
     /*if true, looks for a company tag "StructurePointBasedSalvageMaxParts_X" where x is a int. StructurePointBasedSalvageMaxPartsFromMech gets replaced with X*/
-    "StructurePointBasedSalvageMaxPartsFromCompanyTags": false,
+    "StructurePointBasedSalvageMaxPartsFromCompanyTags": true,
     /*turret components can be salvaged with this probability, set to 0 to disable*/
     "StructurePointBasedSalvageTurretComponentSalvageChance": 0.25,
     /*redirect mech part salvage generation, without adding mech tags: "old": "new"*/
     "StructurePointBasedSalvageMechPartSalvageRedirect": {
-      /*campagn*/
+      /*campaign*/
       "mechdef_kingcrab_KGC-V-0000": "mechdef_kingcrab_KGC-0000",
-
       /*flashpoints*/
       "mechdef_Catapult_fp_justinAllard": "mechdef_catapult_CPLT-C1",
       "mechdef_Centurion_fp_justinAllard": "mechdef_centurion_CN9-A",
@@ -79,7 +78,7 @@
     "StorageColorVehiclePart": "#FF1493",
     /*use only the CC no_salvage flag for salvage calculation and ignore BLACKLISTED. everything is salvageable, if no CC is present*/
     "UseOnlyCCSalvageFlag": false,
-    /*use only CC variants for assembly and salvage redircet (performance option, but disables all tag checks)*/
+    /*use only CC variants for assembly and salvage redirect (performance option, but disables all tag checks)*/
     "UseOnlyCCAssemblyOptions": false,
     /*set this to your CU fake vehicle chassis tag if CU is in your load order*/
     "FakeVehilceTag": "fake_vehicle_chassis",
@@ -91,7 +90,7 @@
     if this is false, SMA will try to convert parts you salvage to parts of the main variant.
     warning: if you store one of these, it will become one of the main variant.*/
     "AllowNonMainVariants": false,
-    /*changes the combat hud vehicle name to vehicle.Description.UIName. requires CU.*/
+    /*changes the combat hud vehicle name to vehicle.Description.UIName (requires CU)*/
     "CUVehicle_CombatHudDisplayName": true,
     /*if true, only changes MechAffinity classification, if AssemblyVariant.PrefabID is present*/
     "MAIntegration_OverrideOnly": true

@@ -1,0 +1,15 @@
+{
+  "TargetIDs": [
+    "Gear_BEX_Engine",
+    "Gear_Light_Engine",
+    "Gear_XL_Engine",
+    "Gear_XL_Engine_Clan"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$.ComponentTags.items",
+      "Action": "ArrayAdd",
+      "Value": "component_engine"
+    }
+  ]
+}

@@ -32,7 +32,7 @@
   "CACMinRangeAccuracyMod": -2,
   "CACShortRangeAccuracyMod": 0,
   "CACMediumRangeAccuracyMod": 2,
-  "CACLongRangeAccuracyMod": 4,
+  "CACLongRangeAccuracyMod": -1,
   "CriticalChanceMultiplier": 0.1,
   "AOECapable": false,
   "IndirectFireCapable": false,
