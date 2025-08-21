@@ -14,7 +14,6 @@
     { "Type": "ItemCollectionDef", "Path": "itemCollections" },
     { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
     { "Type": "ItemCollectionDef", "Path": "itemCollectionsFactories" },
-    { "Type": "PilotingClassDef", "Path": "piloting_classes" },
     { "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
 
     { "Type": "AdvancedJSONMerge", "Path": "infantry/vehicle" },

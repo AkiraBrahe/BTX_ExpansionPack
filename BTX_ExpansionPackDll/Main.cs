@@ -56,6 +56,9 @@ namespace BTX_ExpansionPack
             /* Max Player Units Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FromJSONFull"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            // --- Custom Units ---
+            /* Piloting Expertise */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PilotGenerator), "GeneratePilots"), HarmonyPatchType.Postfix, "io.mission.customunits");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }

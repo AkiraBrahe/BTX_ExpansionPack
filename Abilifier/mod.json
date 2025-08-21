@@ -32,12 +32,7 @@
     "usingCACabilitySelector": true,
     "usingHumanResources": false,
     "disableCalledShotExploit": true,
-    "proceduralTagCleanup": {
-      "pilot_nomech_crew": [ 
-        "pilot_mech_pilot",
-        "pilot_mechwarrior"
-      ]
-    },
+    "proceduralTagCleanup": {},
     "tagTraitForTree": {},
     "defaultTagTraitForTree": {},
     "defaultTagTraitException": "",
