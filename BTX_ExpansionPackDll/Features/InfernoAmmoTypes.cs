@@ -111,7 +111,7 @@ namespace BTX_ExpansionPack
 
                 if (!found)
                 {
-                    Main.Log.LogError("[InfernoAmmoTypes] Could not find the IL sequence to replace for the flag36 check.");
+                    Main.Log.LogWarning("Could not find the IL sequence to replace for inferno ammo check.");
                 }
 
                 foreach (var code in codes)

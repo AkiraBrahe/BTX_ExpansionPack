@@ -24,15 +24,15 @@ namespace BTX_ExpansionPack.Fixes
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             bool found = false;
-            var code = new List<CodeInstruction>(instructions);
-            for (int i = 0; i < code.Count; i++)
+            var codes = new List<CodeInstruction>(instructions);
+            for (int i = 0; i < codes.Count; i++)
             {
-                if (code[i].opcode == OpCodes.Ldloc_1 &&
-                    (code[i + 1].opcode == OpCodes.Brfalse || code[i + 1].opcode == OpCodes.Brfalse_S))
+                if (codes[i].opcode == OpCodes.Ldloc_1 &&
+                    (codes[i + 1].opcode == OpCodes.Brfalse || codes[i + 1].opcode == OpCodes.Brfalse_S))
                 {
                     var newInstruction = new CodeInstruction(OpCodes.Ldc_I4_0);
-                    newInstruction.labels.AddRange(code[i].labels);
-                    code[i] = newInstruction;
+                    newInstruction.labels.AddRange(codes[i].labels);
+                    codes[i] = newInstruction;
 
                     found = true;
                     break;
@@ -41,10 +41,10 @@ namespace BTX_ExpansionPack.Fixes
 
             if (!found)
             {
-                Main.Log.LogError("[MechBlacklistBypass] Could not find the IL sequence to replace for the flag check.");
+                Main.Log.LogWarning("Could not find the IL sequence to replace for mech blacklist bypass");
             }
 
-            return code;
+            return codes;
         }
     }
 }

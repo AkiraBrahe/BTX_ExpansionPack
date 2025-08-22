@@ -33,13 +33,10 @@ namespace BTX_ExpansionPack.Utilities
 
                 try
                 {
-                    var renderers = mech.GameRep?.gameObject?.GetComponentsInChildren<Renderer>();
-                    if (renderers != null && renderers.Length > 0)
+                    var renderer = mech.GameRep?.gameObject?.GetComponent<Renderer>();
+                    if (renderer != null)
                     {
-                        Bounds bounds = renderers[0].bounds;
-                        for (int i = 1; i < renderers.Length; i++)
-                            bounds.Encapsulate(renderers[i].bounds);
-
+                        Bounds bounds = renderer.bounds;
                         height = bounds.size.y; // * UnityUnitToMeter;
                         volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
                     }
@@ -79,29 +76,14 @@ namespace BTX_ExpansionPack.Utilities
                     var go = GameObject.Find(name);
                     if (go != null)
                     {
-                        var renderers = go.GetComponentsInChildren<Renderer>();
-                        if (renderers.Length > 0)
+                        var renderer = go.GetComponent<Renderer>();
+                        if (renderer != null)
                         {
-                            Bounds bounds = renderers[0].bounds;
-                            for (int i = 1; i < renderers.Length; i++)
-                                bounds.Encapsulate(renderers[i].bounds);
-
-                            float height = bounds.size.y; // * UnityUnitToMeter;
-                            float volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
+                            Bounds bounds = renderer.bounds;
+                            var height = bounds.size.y; // * UnityUnitToMeter;
+                            var volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
                             Main.Log.LogDebug($"Human: {name}, Height: {height:F2}m, Volume: {volume:F2}m³");
-
-                            Vector3 size = Vector3.one;
-                            Gizmos.color = Color.red;
-                            Gizmos.DrawCube(renderers[0].transform.position, size);
                         }
-                        else
-                        {
-                            Main.Log.LogDebug($"Human: {name} found, but no renderers.");
-                        }
-                    }
-                    else
-                    {
-                        Main.Log.LogDebug($"Human: {name} not found in scene.");
                     }
                 }
             }

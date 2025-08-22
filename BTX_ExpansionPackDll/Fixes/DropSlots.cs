@@ -76,10 +76,14 @@ namespace BTX_ExpansionPack.Fixes
 
             private static void UpdateStatistic(SimGameState simState, string statName, int value, ref int updated)
             {
-                if (simState.CompanyStats.GetValue<int>(statName) != value)
+                if (!simState.CompanyStats.ContainsStatistic(statName))
                 {
-                    simState.CompanyStats.RemoveStatistic(statName);
                     simState.CompanyStats.AddStatistic(statName, value);
+                    updated++;
+                }
+                else if (simState.CompanyStats.GetValue<int>(statName) != value)
+                {
+                    simState.CompanyStats.Set(statName, value);
                     updated++;
                 }
             }

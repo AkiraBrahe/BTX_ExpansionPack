@@ -117,7 +117,7 @@ namespace BTX_ExpansionPack.Fixes
 
                 if (!found)
                 {
-                    Main.Log.LogError("[AMSAuras] Could not find the IL sequence to replace for the get_MaxRange check.");
+                    Main.Log.LogWarning("Could not find the IL sequence to replace for AMS range calculation.");
                 }
 
                 return codes.AsEnumerable();

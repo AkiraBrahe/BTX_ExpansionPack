@@ -40,7 +40,7 @@ namespace BTX_ExpansionPack.Fixes
                     foreach (Pilot pilot in __instance.PilotRoster)
                     {
                         var pilotTags = pilot.pilotDef.PilotTags;
-                        ValidatePilotSpecialization(pilotTags, false);
+                        ValidatePilotSpecialization(pilotTags);
                     }
                 }
             }
@@ -93,7 +93,7 @@ namespace BTX_ExpansionPack.Fixes
                             pilotTags.Add(MechPilotTag);
                     }
 
-                    ValidatePilotSpecialization(pilotTags, false);
+                    ValidatePilotSpecialization(pilotTags);
                 }
             }
         }
@@ -107,7 +107,7 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
-        private static void ValidatePilotSpecialization(HBS.Collections.TagSet pilotTags, bool randomize)
+        private static void ValidatePilotSpecialization(HBS.Collections.TagSet pilotTags, bool randomize = false)
         {
             bool hasMechSpecialization = pilotTags.Contains(MechPilotTag);
             bool hasVehicleSpecialization = pilotTags.Contains(VehiclePilotTag);
