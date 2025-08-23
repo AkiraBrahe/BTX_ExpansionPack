@@ -1,5 +1,6 @@
 using BattleTech;
 using CustAmmoCategories;
+using CustomUnits;
 using IRBTModUtils;
 using System.Threading;
 
@@ -7,6 +8,20 @@ namespace BTX_ExpansionPack.Fixes.UI
 {
     public static class BattleUI
     {
+        [HarmonyPatch(typeof(Pilot), "InjuryReasonDescription", MethodType.Getter)]
+        public static class PilotInjury_InjuryReasonDescription
+        {
+            [HarmonyPostfix]
+            public static void Postfix(Pilot __instance, ref string __result)
+            {
+                if (__instance.InjuryReason == InjuryReason.ActorDestroyed &&
+                    __instance.ParentActor is FakeVehicleMech)
+                {
+                    __result = "VEHICLE DESTROYED";
+                }
+            }
+        }
+
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Mech), typeof(int)])]
         public static class ToHitModifiersHelper_GetToHitModifierName_Mech
         {

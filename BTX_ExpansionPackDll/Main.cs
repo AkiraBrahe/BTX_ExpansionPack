@@ -1,5 +1,6 @@
-﻿using BattleTech;
+using BattleTech;
 using BattleTech.Framework;
+using BattleTech.UI;
 using CustAmmoCategories;
 using HBS.Logging;
 using Newtonsoft.Json;
@@ -59,6 +60,11 @@ namespace BTX_ExpansionPack
             // --- Custom Units ---
             /* Piloting Expertise */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PilotGenerator), "GeneratePilots"), HarmonyPatchType.Postfix, "io.mission.customunits");
+            /* Location Labels */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(LanceMechEquipmentList), "SetLoadout", []), HarmonyPatchType.Postfix, "io.mission.customunits");
+            // --- Mech Affinity ---
+            /* Stock Config Description */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabStockInfoPopup), "StockMechDefLoaded"), HarmonyPatchType.Postfix, "ca.jwolf.MechAffinity");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
@@ -67,6 +73,9 @@ namespace BTX_ExpansionPack
         {
             // Re-enable saves between consecutive drops
             PreForceTakeContractSave.SkipSave = !Settings.Debug.SaveBetweenConsecutiveDrops;
+
+            // Disable head armor cap
+            Extended_CE.Core.Settings.HeadMaxArmorOverride = null;
 
             // Override DHS engine cooling
             Extended_CE.Core.Settings.DHSEngineCooling = Settings.Gameplay.OverrideDHSEngineCooling

@@ -1,7 +1,9 @@
 ﻿using BattleTech;
+using BattleTech.UI;
 using BattleTech.UI.TMProWrapper;
 using BattleTech.UI.Tooltips;
 using CustomUnits;
+using Localize;
 using MechAffinity;
 using Quirks.Tooltips;
 using System.Collections.Generic;
@@ -11,10 +13,182 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class MechLabUI
     {
+        [HarmonyPatch(typeof(ReducedComponentRefInfoHelper), "description")]
+        public static class ReducedComponentRefInfoHelper_description
+        {
+            [HarmonyPrefix]
+            public static bool Prefix(Strings.Culture culture, ref string __result)
+            {
+                if (culture != Strings.Culture.CULTURE_RU_RU)
+                {
+                    __result = "Enabling this option allows for limited customization of vehicles.\n\n" +
+                        "• Limited means you can replace existing weapons and ammo, but cannot add or remove any equipment. To replace or repair a component, simply drag a new one over it. The new component must be of the same type and have equal or lesser size, tonnage, and heat generation.\n\n" +
+                        "• With this option active, your vehicles won't be automatically repaired after each battle. Additionally, you will be able to store vehicles, with all weapons and ammo being automatically moved to your storage. When you restore a stored vehicle, it will be equipped with destroyed versions of the original weapons and ammo.";
+
+                    return false;
+                }
+
+                return true;
+            }
+        }
+
+        [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
+        public static class MechLabPanel_LoadMech
+        {
+            private static bool init = false;
+
+            [HarmonyPostfix] // MechLab
+            public static void Postfix(MechLabPanel __instance, MechDef newMechDef)
+            {
+
+                var tags = newMechDef.MechTags;
+                bool isVehicle = newMechDef.IsVehicle();
+                if (isVehicle)
+                {
+                    bool isVTOL = tags.Contains("unit_vtol");
+                    bool hasTurret = newMechDef.Chassis.Locations.Length > 4;
+                    SetWidgetLabel(__instance.headWidget, isVTOL ? "ROTOR" : "TURRET", isVTOL || hasTurret || !init, true);
+                    SetWidgetLabel(__instance.leftArmWidget, "FRONT", true, true);
+                    SetWidgetLabel(__instance.rightArmWidget, "REAR", true, true);
+                    SetWidgetLabel(__instance.leftLegWidget, "LEFT SIDE", true, true);
+                    SetWidgetLabel(__instance.rightLegWidget, "RIGHT SIDE", true, true);
+                    SetWidgetLabel(__instance.centerTorsoWidget, "", !init);
+                    SetWidgetLabel(__instance.leftTorsoWidget, "", !init);
+                    SetWidgetLabel(__instance.rightTorsoWidget, "", !init);
+                }
+                else
+                {
+                    bool isQuad = tags.Contains("unit_quad");
+                    SetWidgetLabel(__instance.headWidget, "HEAD");
+                    SetWidgetLabel(__instance.leftTorsoWidget, "LEFT TORSO");
+                    SetWidgetLabel(__instance.centerTorsoWidget, "CENTER TORSO");
+                    SetWidgetLabel(__instance.rightTorsoWidget, "RIGHT TORSO");
+                    SetWidgetLabel(__instance.leftArmWidget, isQuad ? "FRONT LEFT LEG" : "LEFT ARM");
+                    SetWidgetLabel(__instance.rightArmWidget, isQuad ? "FRONT RIGHT LEG" : "RIGHT ARM");
+                    SetWidgetLabel(__instance.leftLegWidget, isQuad ? "REAR LEFT LEG" : "LEFT LEG");
+                    SetWidgetLabel(__instance.rightLegWidget, isQuad ? "REAR RIGHT LEG" : "RIGHT LEG");
+                }
+
+                init = true;
+            }
+
+            private static void SetWidgetLabel(MechLabLocationWidget widget, string label, bool active = true, bool isVehicle = false)
+            {
+                if (widget == null) return;
+                widget.locationName.SetText(label);
+                widget.gameObject.SetActive(active);
+                if (active)
+                {
+                    widget.armorBar.transform.Find("bttn_plus")?.gameObject.SetActive(!isVehicle);
+                    widget.armorBar.transform.Find("bttn_minus")?.gameObject.SetActive(!isVehicle);
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(LanceMechEquipmentList), "SetLoadout", [])]
+        public static class LanceMechEquipmentList_SetLoadout
+        {
+            [HarmonyPostfix] // Mech Bay Right Panel
+            public static void Postfix(LanceMechEquipmentList __instance)
+            {
+                var mechDef = __instance.activeMech;
+                if (mechDef == null) return;
+
+                var tags = mechDef.MechTags;
+                if (mechDef.IsSquad())
+                {
+                    UnitCustomInfo info = mechDef.GetCustomInfo();
+                    int troopersCount = info?.SquadInfo.Troopers ?? 0;
+                    SetWidgetLabel(__instance.headLabel, "U0");
+                    SetWidgetLabel(__instance.centerTorsoLabel, "U1", troopersCount >= 2);
+                    SetWidgetLabel(__instance.leftTorsoLabel, "U2", troopersCount >= 3);
+                    SetWidgetLabel(__instance.rightTorsoLabel, "U3", troopersCount >= 4);
+                    SetWidgetLabel(__instance.leftArmLabel, "U4", troopersCount >= 5);
+                    SetWidgetLabel(__instance.rightArmLabel, "U5", troopersCount >= 6);
+                    SetWidgetLabel(__instance.leftLegLabel, "U6", troopersCount >= 7);
+                    SetWidgetLabel(__instance.rightLegLabel, "U7", troopersCount >= 8);
+                }
+                else if (mechDef.IsVehicle())
+                {
+                    bool isVTOL = tags.Contains("unit_vtol");
+                    SetWidgetLabel(__instance.headLabel, isVTOL ? "RO" : "TU");
+                    SetWidgetLabel(__instance.leftArmLabel, "FR");
+                    SetWidgetLabel(__instance.rightArmLabel, "RR");
+                    SetWidgetLabel(__instance.leftLegLabel, "LS");
+                    SetWidgetLabel(__instance.rightLegLabel, "RS");
+                    SetWidgetLabel(__instance.centerTorsoLabel, "", false);
+                    SetWidgetLabel(__instance.leftTorsoLabel, "", false);
+                    SetWidgetLabel(__instance.rightTorsoLabel, "", false);
+                }
+                else
+                {
+                    bool isQuad = tags.Contains("unit_quad");
+                    SetWidgetLabel(__instance.headLabel, "H");
+                    SetWidgetLabel(__instance.centerTorsoLabel, "CT");
+                    SetWidgetLabel(__instance.leftTorsoLabel, "LT");
+                    SetWidgetLabel(__instance.rightTorsoLabel, "RT");
+                    SetWidgetLabel(__instance.leftArmLabel, isQuad ? "FLL" : "LA");
+                    SetWidgetLabel(__instance.rightArmLabel, isQuad ? "FRL" : "RA");
+                    SetWidgetLabel(__instance.leftLegLabel, isQuad ? "RLL" : "LL");
+                    SetWidgetLabel(__instance.rightLegLabel, isQuad ? "RRL" : "RL");
+                }
+            }
+            private static void SetWidgetLabel(LocalizableText label, string text, bool active = true)
+            {
+                if (label == null) return;
+                label.SetText(text);
+                label.gameObject.transform.parent.gameObject.SetActive(active);
+            }
+        }
+
+        [HarmonyPatch(typeof(MechBayMechInfoWidget), "SetDescriptions")]
+        public static class MechBayMechInfoWidget_SetDescriptions
+        {
+            [HarmonyPostfix] // Mech Bay Right Panel
+            public static void Postfix(MechBayMechInfoWidget __instance)
+            {
+                var mechDef = __instance.selectedMech;
+                if (mechDef == null) return;
+
+                if (mechDef.IsVehicle())
+                {
+                    __instance.mechConfiguration.SetText("{0} - {1}",
+                        [
+                            mechDef.Chassis.Description.Name,
+                            mechDef.Chassis.weightClass.ToString()
+                        ]);
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(MechLabMechInfoWidget), "SetData")]
+        public static class MechLabMechInfoWidget_SetData
+        {
+            [HarmonyPostfix] // MechLab
+            public static void Postfix(MechLabMechInfoWidget __instance)
+            {
+                var mechDef = __instance.mechLab?.activeMechDef;
+                if (mechDef == null) return;
+
+                if (mechDef.IsVehicle())
+                {
+                    __instance.mechDetails.SetText("{0} - {1}",
+                        [
+                            mechDef.Chassis.Description.Name,
+                            mechDef.Chassis.weightClass.ToString()
+                        ]);
+
+                    var vehicleDef = mechDef.toVehicleDef(mechDef.DataManager);
+                    string role = GetVehicleRole(vehicleDef?.VehicleTags);
+                    __instance.mechStockRole.SetText(role);
+                }
+            }
+        }
+
         [HarmonyPatch(typeof(TooltipPrefab_Mech), "SetData", [typeof(object)])]
         public class TooltipPrefab_Mech_SetData
         {
-            [HarmonyPostfix]
+            [HarmonyPostfix] // Tooltips (Inventory, Mech Bay, etc)
             public static void Postfix(object data, LocalizableText ___RoleField, LocalizableText ___VariantField)
             {
                 if (data is MechDef mechDef)

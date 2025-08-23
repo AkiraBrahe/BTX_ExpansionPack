@@ -65,6 +65,8 @@
     <Compile Include="Fixes\Targeting\AttackGround.cs" />
     <Compile Include="Fixes\Targeting\BuildingTargeting.cs" />
     <Compile Include="Fixes\Targeting\HomingTargeting.cs" />
+    <Compile Include="Fixes\UI\BattleUI.cs" />
+    <Compile Include="Fixes\UI\MechLabUI.cs" />
     <Compile Include="Fixes\AbilityResourceFix.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
     <Compile Include="Fixes\DropSlots.cs" />
@@ -72,11 +74,8 @@
     <Compile Include="Fixes\LanceRestrictions.cs" />
     <Compile Include="Fixes\MaxPlayerUnits.cs" />
     <Compile Include="Fixes\MechBlacklistBypass.cs" />
-    <Compile Include="Fixes\UI\BattleUI.cs" />
-    <Compile Include="Fixes\UI\MechLabUI.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
     <Compile Include="Fixes\Targeting\RapidFireTargeting.cs" />
-    <Compile Include="Fixes\UI\VehicleUIChanges.cs" />
     <Compile Include="Helpers\ArrowIVHelpers.cs" />
     <Compile Include="Helpers\LocationNamingHelper.cs" />
     <Compile Include="Helpers\MissileHelpers.cs" />
