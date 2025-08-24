@@ -74,9 +74,6 @@ namespace BTX_ExpansionPack
             // Re-enable saves between consecutive drops
             PreForceTakeContractSave.SkipSave = !Settings.Debug.SaveBetweenConsecutiveDrops;
 
-            // Disable head armor cap
-            Extended_CE.Core.Settings.HeadMaxArmorOverride = null;
-
             // Override DHS engine cooling
             Extended_CE.Core.Settings.DHSEngineCooling = Settings.Gameplay.OverrideDHSEngineCooling
                 ? (int)Math.Round(30 * Settings.Gameplay.DHSEngineCoolingMultiplier)

@@ -48,6 +48,7 @@
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionReplace" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
+    <Publicize Include="Extended_CE:Extended_CE.NewTech.ArmorRules" />
     <Publicize Include="MechQuirks:Quirks.MechQuirks.modSettings" />
     <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
@@ -73,6 +74,7 @@
     <Compile Include="Fixes\FiringArcs.cs" />
     <Compile Include="Fixes\LanceRestrictions.cs" />
     <Compile Include="Fixes\MaxPlayerUnits.cs" />
+    <Compile Include="Fixes\MaxTurretArmor.cs" />
     <Compile Include="Fixes\MechBlacklistBypass.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
     <Compile Include="Fixes\Targeting\RapidFireTargeting.cs" />
