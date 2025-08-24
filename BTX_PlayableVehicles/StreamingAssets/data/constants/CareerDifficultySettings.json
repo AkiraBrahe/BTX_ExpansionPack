@@ -1152,7 +1152,7 @@
       "ID": "diff_startingplanet",
       "Name": "Starting Planet",
       "UIOrder": 4,
-      "Tooltip": "This setting determines your starting planet and gives you 'Mechs favored by your chosen faction:\n\n<b>Successor States:</b>\n• Capellan Confederation (Liao)\tHousekarle\n• Draconis Combine (Kurita)\t\tAncha\n• Federated Suns (Davion)\t\tLindsay\n• Free Worlds League (Marik)\t\tWing\n• Lyran Commonwealth (Steiner)\tSakhalin\n\n<b>Minor States:</b>\n• Free Rasalhague Republic\t\tGrumium\n• St. Ives Compact\t\t\tSt.Ives\n\n<b>Periphery States:</b>\n• Aurigan Coalition\t\t\tPanzyr\n• Magistracy of Canopus\t\tNew Abilene\n• Outworlds Alliance\t\t\tSevon\n• Taurian Concordat\t\t\tIlliushin\n\n<b>Special Starts:</b>\n• No Faction\t\t\t\tLyreton\n• Solo (Team Venom)\t\t\tVenaria\n• Ultralights Only\t\t\t\tWaypoint\n• Vehicles Only\t\t\t\tAndurien\n• SLDF Cache\t\t\t\tWoodstock\n• Established Company\t\t\tIndependence",
+      "Tooltip": "This setting determines your starting planet and gives you 'Mechs favored by your chosen faction:\n\n<b>Successor States:</b>\n• Capellan Confederation (Liao)\tHousekarle\n• Draconis Combine (Kurita)\t\tAncha\n• Federated Suns (Davion)\t\tLindsay\n• Free Worlds League (Marik)\t\tWing\n• Lyran Commonwealth (Steiner)\tSakhalin\n\n<b>Minor States:</b>\n• Free Rasalhague Republic\t\tGrumium\n• St. Ives Compact\t\t\tSt.Ives\n\n<b>Periphery States:</b>\n• Aurigan Coalition\t\t\tPanzyr\n• Magistracy of Canopus\t\tNew Abilene\n• Outworlds Alliance\t\t\tSevon\n• Taurian Concordat\t\t\tIlliushin\n\n<b>Special Starts:</b>\n• No Faction\t\t\t\tLyreton\n• Solo (Team Venom)\t\t\tOutreach\n• Ultralights Only\t\t\t\tWaypoint\n• Vehicles Only\t\t\t\tAndurien\n• SLDF Cache\t\t\t\tWoodstock\n• Established Company\t\t\tIndependence",
       "Enabled": true,
       "Visible": true,
       "Toggle": false,
@@ -1372,12 +1372,17 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingSystems",
-              "ConstantValue": "Venaria"
+              "ConstantValue": "Outreach"
             },
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingRandomMechLists",
               "ConstantValue": "itemCollection_Mechs_Solo"
+            },
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "FactionReputation",
+              "ConstantValue": "MercenaryReviewBoard:50"
             },
             {
               "ConstantType": "AdditionalSettings",
