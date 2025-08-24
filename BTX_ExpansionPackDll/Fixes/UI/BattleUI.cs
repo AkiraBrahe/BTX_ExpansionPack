@@ -22,9 +22,26 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
+        [HarmonyPatch(typeof(ToHitModifiersHelper), "GetAbbreviatedChassisLocation", MethodType.Getter)]
+        public static class ToHitModifiersHelper_GetAbbreviatedChassisLocation
+        {
+            [HarmonyPrefix]
+            public static bool Prefix(VehicleChassisLocations location, ref string __result)
+            {
+                __result = LocationNamingHelper.GetLocationName(["fake_vehicle_chassis"], location.toFakeChassis(), false); ;
+                return false;
+            }
+        }
+
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Mech), typeof(int)])]
         public static class ToHitModifiersHelper_GetToHitModifierName_Mech
         {
+            [HarmonyPrepare]
+            public static bool Prepare()
+            {
+                return Main.Settings.UI.Battle.ShowFullLocationName;
+            }
+
             [HarmonyPrefix]
             public static bool Prefix(Mech unit, int location, ref string __result)
             {
@@ -59,7 +76,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 var tags = unit.MechDef.MechTags;
                 var location = cLoc;
-                var locationName = LocationNamingHelper.GetLocationName(tags, location, Main.Settings.UI.Battle.ShowFullLocationName);
+                var locationName = LocationNamingHelper.GetLocationName(tags, location, true);
                 return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
             }
         }
@@ -67,6 +84,12 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Vehicle), typeof(int)])]
         public static class ToHitModifiersHelper_GetToHitModifierName_Vehicle
         {
+            [HarmonyPrepare]
+            public static bool Prepare()
+            {
+                return Main.Settings.UI.Battle.ShowFullLocationName;
+            }
+
             [HarmonyPrefix]
             public static bool Prefix(Vehicle unit, int location, ref string __result)
             {
@@ -99,7 +122,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 var tags = unit.VehicleDef.VehicleTags;
                 var location = vLoc.toFakeChassis();
-                var locationName = LocationNamingHelper.GetLocationName(tags, location, Main.Settings.UI.Battle.ShowFullLocationName);
+                var locationName = LocationNamingHelper.GetLocationName(tags, location, true);
                 return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
             }
         }

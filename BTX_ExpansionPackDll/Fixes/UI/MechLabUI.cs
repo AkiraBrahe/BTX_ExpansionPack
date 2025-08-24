@@ -218,6 +218,21 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        [HarmonyPatch(typeof(LanceLoadoutMechItem), "SetData")]
+        public static class LanceLoadoutMechItem_SetData
+        {
+            [HarmonyPostfix] // Lance Loadout
+            public static void Postfix(LanceLoadoutMechItem __instance, MechDef mechDef)
+            {
+                if (mechDef == null || !mechDef.IsVehicle()) return;
+                __instance.MechDetailsText.SetText("{0} - {1}",
+                        [
+                            mechDef.Chassis.Description.Name,
+                            mechDef.Chassis.weightClass.ToString()
+                        ]);
+            }
+        }
+
         [HarmonyPatch(typeof(TooltipPrefab_Mech), "SetData", [typeof(object)])]
         public class TooltipPrefab_Mech_SetData
         {
