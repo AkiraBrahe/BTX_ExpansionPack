@@ -32,29 +32,64 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        private static bool IsMechLabInitializedByMech = false;
+
+        [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
+        public static class MechLabPanel_LoadMech_InitializationTracker
+        {
+            [HarmonyPostfix, HarmonyPriority(Priority.Last)]
+            public static void Postfix(MechDef newMechDef)
+            {
+                if (newMechDef != null && !newMechDef.IsVehicle())
+                    IsMechLabInitializedByMech = true;
+            }
+        }
+
+        [HarmonyPatch(typeof(MechBayMechInfoWidget), "OnMechLabClicked")]
+        public static class MechBayMechInfoWidget_OnMechLabClicked
+        {
+            [HarmonyPrefix]
+            [HarmonyAfter("io.mission.customunits")]
+            public static bool Prefix(ref bool __runOriginal, MechBayMechInfoWidget __instance)
+            {
+                if (!__runOriginal) return true;
+
+                if (!IsMechLabInitializedByMech && __instance.selectedMech != null && __instance.selectedMech.IsVehicle())
+                {
+                    GenericPopupBuilder.Create(
+                        "Can't refit vehicle",
+                        "To prevent a known UI bug, you must refit a BattleMech at least once before refitting a vehicle.")
+                        .AddFader(new UIColorRef?(HBS.LazySingletonBehavior<UIManager>.Instance.UILookAndColorConstants.PopupBackfill), 0f, true)
+                        .Render();
+
+                    return false;
+                }
+                return true;
+            }
+        }
+
         [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
         public static class MechLabPanel_LoadMech
         {
-            private static bool init = false;
-
             [HarmonyPostfix] // MechLab
             public static void Postfix(MechLabPanel __instance, MechDef newMechDef)
             {
+                if (newMechDef == null) return;
 
                 var tags = newMechDef.MechTags;
                 bool isVehicle = newMechDef.IsVehicle();
                 if (isVehicle)
                 {
                     bool isVTOL = tags.Contains("unit_vtol");
-                    bool hasTurret = newMechDef.Chassis.Locations.Length > 4;
-                    SetWidgetLabel(__instance.headWidget, isVTOL ? "ROTOR" : "TURRET", isVTOL || hasTurret || !init, true);
+                    bool hasTurret = newMechDef.toVehicleDef(newMechDef.DataManager).Chassis.HasTurret;
+                    SetWidgetLabel(__instance.headWidget, isVTOL ? "ROTOR" : "TURRET", isVTOL || hasTurret, true);
                     SetWidgetLabel(__instance.leftArmWidget, "FRONT", true, true);
                     SetWidgetLabel(__instance.rightArmWidget, "REAR", true, true);
                     SetWidgetLabel(__instance.leftLegWidget, "LEFT SIDE", true, true);
                     SetWidgetLabel(__instance.rightLegWidget, "RIGHT SIDE", true, true);
-                    SetWidgetLabel(__instance.centerTorsoWidget, "", !init);
-                    SetWidgetLabel(__instance.leftTorsoWidget, "", !init);
-                    SetWidgetLabel(__instance.rightTorsoWidget, "", !init);
+                    SetWidgetLabel(__instance.centerTorsoWidget, "", false);
+                    SetWidgetLabel(__instance.leftTorsoWidget, "", false);
+                    SetWidgetLabel(__instance.rightTorsoWidget, "", false);
                 }
                 else
                 {
@@ -68,8 +103,6 @@ namespace BTX_ExpansionPack.Fixes
                     SetWidgetLabel(__instance.leftLegWidget, isQuad ? "REAR LEFT LEG" : "LEFT LEG");
                     SetWidgetLabel(__instance.rightLegWidget, isQuad ? "REAR RIGHT LEG" : "RIGHT LEG");
                 }
-
-                init = true;
             }
 
             private static void SetWidgetLabel(MechLabLocationWidget widget, string label, bool active = true, bool isVehicle = false)
