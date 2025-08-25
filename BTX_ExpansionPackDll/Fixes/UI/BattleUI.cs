@@ -22,13 +22,13 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
-        [HarmonyPatch(typeof(ToHitModifiersHelper), "GetAbbreviatedChassisLocation", MethodType.Getter)]
+        [HarmonyPatch(typeof(ToHitModifiersHelper), "GetAbbreviatedChassisLocation", typeof(VehicleChassisLocations))]
         public static class ToHitModifiersHelper_GetAbbreviatedChassisLocation
         {
             [HarmonyPrefix]
             public static bool Prefix(VehicleChassisLocations location, ref string __result)
             {
-                __result = LocationNamingHelper.GetLocationName(["fake_vehicle_chassis"], location.toFakeChassis(), false); ;
+                __result = LocationNamingHelper.GetLocationName(["fake_vehicle_chassis"], location.toFakeChassis(), false);
                 return false;
             }
         }
