@@ -62,6 +62,7 @@
     <Compile Include="Features\VehicleCASE.cs" />
     <Compile Include="Features\VehiclePilotInjuries.cs" />
     <Compile Include="Features\YenLoWangUpgrade.cs" />
+    <Compile Include="Fixes\BEXStatsReset.cs" />
     <Compile Include="Fixes\Targeting\AntiAirTargeting.cs" />
     <Compile Include="Fixes\Targeting\AttackGround.cs" />
     <Compile Include="Fixes\Targeting\BuildingTargeting.cs" />
