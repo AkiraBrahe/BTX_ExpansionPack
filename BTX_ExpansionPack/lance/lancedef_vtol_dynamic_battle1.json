@@ -12,7 +12,6 @@
   "LanceTags": {
     "items": [
       "lance_type_dynamic",
-      "lance_type_dynamic_difficulty",
       "lance_type_vehicle",
       "lance_type_battle",
       "BLACKLISTED"
@@ -24,11 +23,12 @@
       "unitType": "Vehicle",
       "unitId": "Tagged",
       "pilotId": "Tagged",
-      "dynamicDifficulty": true,
+      "dynamicDifficulty": false,
       "unitTagSet": {
         "items": [
           "unit_light",
-          "unit_vtol"
+          "unit_vtol",
+          "unit_vehicle"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -52,11 +52,12 @@
       "unitType": "Vehicle",
       "unitId": "Tagged",
       "pilotId": "Tagged",
-      "dynamicDifficulty": true,
+      "dynamicDifficulty": false,
       "unitTagSet": {
         "items": [
           "unit_light",
-          "unit_vtol"
+          "unit_vtol",
+          "unit_vehicle"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -80,11 +81,12 @@
       "unitType": "Vehicle",
       "unitId": "Tagged",
       "pilotId": "Tagged",
-      "dynamicDifficulty": true,
+      "dynamicDifficulty": false,
       "unitTagSet": {
         "items": [
           "unit_light",
-          "unit_vtol"
+          "unit_vtol",
+          "unit_vehicle"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -108,11 +110,12 @@
       "unitType": "Vehicle",
       "unitId": "Tagged",
       "pilotId": "Tagged",
-      "dynamicDifficulty": true,
+      "dynamicDifficulty": false,
       "unitTagSet": {
         "items": [
           "unit_light",
-          "unit_vtol"
+          "unit_vtol",
+          "unit_vehicle"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },

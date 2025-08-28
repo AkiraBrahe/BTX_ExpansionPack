@@ -27,6 +27,7 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
+          "unit_vehicle",
           "unit_vehicle_apc"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -54,6 +55,7 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
+          "unit_vehicle",
           "unit_vehicle_apc"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -81,6 +83,7 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
+          "unit_vehicle",
           "unit_vehicle_apc"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
@@ -108,6 +111,7 @@
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
+          "unit_vehicle",
           "unit_vehicle_apc"
         ],
         "tagSetSourceFile": "Tags/UnitTags"

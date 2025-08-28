@@ -34,8 +34,6 @@
       },
       "excludedUnitTagSet": {
         "items": [
-          "unit_light",
-          "unit_medium",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
@@ -64,8 +62,6 @@
       },
       "excludedUnitTagSet": {
         "items": [
-          "unit_light",
-          "unit_medium",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
@@ -94,8 +90,6 @@
       },
       "excludedUnitTagSet": {
         "items": [
-          "unit_light",
-          "unit_medium",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
@@ -124,8 +118,6 @@
       },
       "excludedUnitTagSet": {
         "items": [
-          "unit_light",
-          "unit_medium",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
