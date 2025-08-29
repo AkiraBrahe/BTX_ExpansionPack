@@ -1,3 +1,4 @@
+using BattleTech.Data;
 using BattleTech.Framework;
 using FullXotlTables;
 using HBS.Collections;
@@ -8,10 +9,11 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class LanceSpawn
     {
+        private static readonly Random random = new();
+
         [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit")]
         public static class UnitSpawnPointOverride_RequestUnit
         {
-            private static readonly Random random = new();
 
             private static readonly HashSet<string> weightClassTags =
             [
@@ -95,6 +97,20 @@ namespace BTX_ExpansionPack.Fixes
                         __instance.unitTagSet.RemoveRange([.. weightClassTags]);
                         __instance.unitTagSet.Add("unit_light");
                         break;
+                }
+            }
+
+            [HarmonyPatch(typeof(UnitsAndLances_MDDExtensions), "GetDynamicLanceDifficultyListByDifficulty")]
+            public static class UnitsAndLances_MDDExtensions_GetDynamicLanceDifficultyListByDifficulty
+            {
+                [HarmonyPrefix]
+                public static void Prefix(ref long difficulty)
+                {
+                    int variance = difficulty <= 3 ? random.Next(0, 2) : random.Next(0, 3);
+                    if (variance == 0) return;
+                    long originalDifficulty = difficulty;
+                    difficulty += variance;
+                    Logger.Log($"Varied lance difficulty from {originalDifficulty} to {difficulty}.");
                 }
             }
         }

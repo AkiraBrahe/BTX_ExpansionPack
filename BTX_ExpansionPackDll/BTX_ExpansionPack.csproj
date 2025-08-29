@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -30,6 +31,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <PublicizerRuntimeStrategies>Unsafe</PublicizerRuntimeStrategies>
@@ -39,6 +41,7 @@
       <IncludeAssets>compile</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />
     <Publicize Include="Assembly-CSharp" />
     <Publicize Include="BEXTimeline" />
@@ -82,6 +85,7 @@
     <Compile Include="Fixes\Targeting\RapidFireTargeting.cs" />
     <Compile Include="Fixes\VehicleMelee.cs" />
     <Compile Include="Helpers\ArrowIVHelpers.cs" />
+    <Compile Include="Helpers\DatabaseHelpers.cs" />
     <Compile Include="Helpers\LocationNamingHelper.cs" />
     <Compile Include="Helpers\MissileHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -157,6 +161,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="Unity.TextMeshPro">
       <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
