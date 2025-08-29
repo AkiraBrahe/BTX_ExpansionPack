@@ -1,4 +1,5 @@
 using BattleTech;
+using BattleTech.Data;
 using BattleTech.Framework;
 using BattleTech.UI;
 using CustAmmoCategories;
@@ -31,6 +32,7 @@ namespace BTX_ExpansionPack
             {
                 Settings = JsonConvert.DeserializeObject<ModSettings>(settingsJSON) ?? new ModSettings();
                 harmony = new Harmony(HarmonyInstanceId);
+                InjectCustomLanceData(MetadataDatabase.Instance);
                 ApplyHarmonyPatches();
                 ApplySettings();
                 Log.Log("Mod initialized!");
@@ -39,6 +41,12 @@ namespace BTX_ExpansionPack
             {
                 Log.LogException(ex);
             }
+        }
+
+        internal static void InjectCustomLanceData(MetadataDatabase mdd)
+        {
+            mdd.ClearDynamicLanceDifficulty();
+            mdd.BulkInsertDynamicLanceDifficulty(DatabaseHelpers.lanceDefs);
         }
 
         internal static void ApplyHarmonyPatches()
@@ -50,6 +58,7 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
             /* Firing Arc Quirks */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+
             // --- CAC-C ---
             /* Drop Slots Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
@@ -57,11 +66,13 @@ namespace BTX_ExpansionPack
             /* Max Player Units Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FromJSONFull"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+
             // --- Custom Units ---
             /* Piloting Expertise */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PilotGenerator), "GeneratePilots"), HarmonyPatchType.Postfix, "io.mission.customunits");
             /* Location Labels */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(LanceMechEquipmentList), "SetLoadout", []), HarmonyPatchType.Postfix, "io.mission.customunits");
+
             // --- Mech Affinity ---
             /* Stock Config Description */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabStockInfoPopup), "StockMechDefLoaded"), HarmonyPatchType.Postfix, "ca.jwolf.MechAffinity");
