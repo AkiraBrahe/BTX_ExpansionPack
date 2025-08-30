@@ -1,0 +1,218 @@
+{
+  "Description": {
+    "Cost": 10950000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Supernova",
+    "Id": "chassisdef_supernova-2",
+    "Name": "Supernova",
+    "Details": "This second configuration replaces four of the ER Large Lasers and ten of their attendant heat sinks with four ATM-9s, six tons of ammunition, and adds an advanced Targeting Computer to guide the remaining pair of lasers. The 'Mech also uses endo steel and has increased armor protection.",
+    "Icon": "uixTxrIcon_supernova"
+  },
+  "MovementCapDefID": "movedef_mech_assault_3",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_supernova",
+  "PrefabIdentifier": "chrprfmech_supernovabase-001",
+  "PrefabBase": "supernova",
+  "Tonnage": 90,
+  "InitialTonnage": 25,
+  "weightClass": "ASSAULT",
+  "BattleValue": 13705000,
+  "Heatsinks": 10,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 110,
+  "MeleeInstability": 95,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 120,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 120,
+  "DFAInstability": 120,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "SNV-2",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_clan",
+      "mech_quirk_improvedtargetinglong"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "This second configuration replaces four of the ER Large Lasers and ten of their attendant heat sinks with four ATM-9s, six tons of ammunition, and adds an advanced Targeting Computer to guide the remaining pair of lasers. The 'Mech also uses endo steel and has increased armor protection.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_TAC2_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

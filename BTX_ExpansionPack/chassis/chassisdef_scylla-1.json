@@ -1,0 +1,246 @@
+{
+  "Description": {
+    "Cost": 29980000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Scylla",
+    "Id": "chassisdef_scylla-1",
+    "Name": "Scylla",
+    "Details": "<color=#F79B26>The Scylla, named after the sea monster of Greek mythology, is an upgrade to the Golden Century's Storm Giant. Clan Steel Viper developed it following their ejection from the Inner Sphere to bolster their efforts in expanding Clan territory within the Kerensky Cluster.</color>\n\nThe amazing maneuverability of this 100-ton BattleMech has cost it firepower. The main bite is provided by a pair of LRM-20 missile launchers, supplemented by an ER Large Laser mounted in the head. A LB-X Autocannon/10 does not have quite the same range, though it is still effective at long range. Two ER Medium Lasers provide medium-range support. The 'Mech is kept cool by seventeen double heat sinks.",
+    "Icon": "uixTxrIcon_scylla"
+  },
+  "MovementCapDefID": "movedef_mech_assault_4",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_scylla",
+  "PrefabIdentifier": "chrprfmech_scyllabase-001",
+  "PrefabBase": "scylla",
+  "Tonnage": 100,
+  "InitialTonnage": 38.53,
+  "weightClass": "ASSAULT",
+  "BattleValue": 14485000,
+  "Heatsinks": 10,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 120,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 125,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 125,
+  "DFAInstability": 125,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "SCY-1",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.97",
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_ferro",
+      "chassis_clan",
+      "mech_quirk_oversized"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "The amazing maneuverability of this 100-ton BattleMech has cost it firepower. The main bite is provided by a pair of LRM-20 missile launchers, supplemented by an ER Large Laser mounted in the head. A LB-X Autocannon/10 does not have quite the same range, though it is still effective at long range. Two ER Medium Lasers provide medium-range support. The 'Mech is kept cool by seventeen double heat sinks.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

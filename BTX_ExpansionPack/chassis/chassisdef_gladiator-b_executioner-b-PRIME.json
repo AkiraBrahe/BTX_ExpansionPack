@@ -1,0 +1,297 @@
+{
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Gladiator-B"
+    }
+  },
+  "Description": {
+    "Cost": 26800000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Gladiator-B",
+    "Id": "chassisdef_gladiator-b_executioner-b-PRIME",
+    "Name": "Gladiator-B",
+    "Details": "<color=#F79B26>The Executioner-B (code-named Gladiator-B) is the original Executioner created by Clan Burrock during the Golden Century before the introduction of Clan Ghost Bear's upgraded Executioner one hundred years later.</color>\n\nThe Executioner-B's primary configuration features a powerful arsenal of weapons, including an Ultra AC/20 in the left arm, two Large Pulse Lasers in the right, one ER PPC, and two Ultra AC/2s in the side torsos. However, this impressive loadout is hampered by inadequate heat dissipation capabilities, limiting its ability to unleash its full firepower in quick succession. As a result, the Executioner-B rarely achieves its maximum potential damage output.",
+    "Icon": "uixTxrIcon_executioner-b"
+  },
+  "MovementCapDefID": "movedef_mech_assault_3",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_executioner",
+  "PrefabIdentifier": "chrprfmech_executionerbase-001",
+  "PrefabBase": "executioner",
+  "Tonnage": 95,
+  "InitialTonnage": 24.04,
+  "weightClass": "ASSAULT",
+  "BattleValue": 13605000,
+  "Heatsinks": 10,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "MaxJumpjets": 2,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 85,
+  "MeleeInstability": 95,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 120,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 120,
+  "DFAInstability": 120,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "GLA-B-PRIME",
+  "ChassisTags": {
+    "items": [
+      "chassis_omni",
+      "chassis_DHS",
+      "chassis_ferro",
+      "chassis_clan",
+      "mech_quirk_distracting",
+      "mech_quirk_poorperformance"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut",
+  "YangsThoughts": "I can't decide what to think about this 'Mech. It's supposed to be an Executioner, but it has some movement issues, making it even slower than usual. The only thing it has over the standard Executioner is a bit more armor and 47 tons of pod space. Prime uses this space to cram a bunch of big guns onto the frame, including two Large Pulse Lasers, an ER PPC, an Ultra AC/20, and two UAC/2s. It's got the same heat sink capacity as the old Executioner too, so it's gonna need to watch its heat carefully.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

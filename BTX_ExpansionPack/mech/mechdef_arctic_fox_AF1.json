@@ -1,0 +1,159 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_light",
+      "unit_role_brawler",
+      "unit_lance_support",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_medium",
+      "unit_speed_medium",
+      "unit_hot",
+      "unit_release",
+      "unit_mechpack",
+      "unit_LosTech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_arctic_fox_AF1",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 5100000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Arctic Fox AF1",
+    "Id": "mechdef_arctic_fox_AF1",
+    "Name": "Arctic Fox",
+    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nThe primary configuration of the Arctic Fox is intended to wear an enemy's armor down at long ranges and then close for the kill. To do this, the Arctic Fox carries an ER PPC that can hit a target at up to 690 meters. For close combat, two Medium Lasers provide the primary hitting power, while two SRM-4 launchers seek out weak points in an enemy's armor.",
+    "Icon": "uixTxrIcon_arcticfox"
+  },
+  "simGameMechPartCost": 510000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 55,
+      "CurrentRearArmor": 15,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 55,
+      "AssignedRearArmor": 15
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 75,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 75,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 55,
+      "CurrentRearArmor": 15,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 55,
+      "AssignedRearArmor": 15
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_PPC_PPCER_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

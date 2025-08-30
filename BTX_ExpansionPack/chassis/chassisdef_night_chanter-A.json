@@ -1,0 +1,208 @@
+{
+  "Description": {
+    "Cost": 5320000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Night Chanter",
+    "Id": "chassisdef_night_chanter-A",
+    "Name": "Night Chanter",
+    "Details": "<color=#F79B26>The Night Chanter, a product of Clan Coyote's Pueblo Initiative, was developed after years of struggle to control OmniMech technology. The Night Chanter is based on the Crab, an old SLDF design.</color>\n\nDesigned for long-range precision strikes, the Night Chanter A trades its versatile laser armament for a combination of energy and missile weaponry, including an ER PPC, an LRM-10 launcher, and a single ER Medium Laser. To counter close-quarters threats, this alternate configuration mounts a pair of Machine Guns and two A-Pods.",
+    "Icon": "uixTxrIcon_nightchanter"
+  },
+  "MovementCapDefID": "movedef_mech_medium_5",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_crab",
+  "PrefabIdentifier": "chrPrfMech_crabBase-001",
+  "PrefabBase": "crab",
+  "Tonnage": 45,
+  "InitialTonnage": 20.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 8020000,
+  "Heatsinks": 10,
+  "TopSpeed": 86.4,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 65,
+  "MeleeInstability": 45,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 55,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 55,
+  "DFAInstability": 55,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 2.5,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": -2.5,
+      "y": 6,
+      "z": 2.5
+    }
+  ],
+  "VariantName": "NCR-A",
+  "ChassisTags": {
+    "items": [
+      "chassis_omni",
+      "chassis_DHS",
+      "chassis_ferro",
+      "chassis_clan",
+      "mech_quirk_easytomaintain"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Direct-Fire Support",
+  "YangsThoughts": "Designed for long-range precision strikes, the Night Chanter A trades its versatile laser armament for a combination of energy and missile weaponry, including an ER PPC, an LRM-10 launcher, and a single ER Medium Laser. To counter close-quarters threats, this alternate configuration mounts a pair of Machine Guns and two A-Pods.",
+  "FixedEquipment": []
+}

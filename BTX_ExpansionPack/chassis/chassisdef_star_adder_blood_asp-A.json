@@ -1,0 +1,245 @@
+{
+  "Description": {
+    "Cost": 29660000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Star Adder",
+    "Id": "chassisdef_star_adder_blood_asp-A",
+    "Name": "Star Adder",
+    "Details": "<color=#F79B26>The Star Adder, known as the Blood Asp by the Clans, is a powerful 'Mech created as an insult to Clan Blood Spirit. Based on the Kingfisher, the Blood Asp is one of the first 'Mechs to field heavy laser technology.</color>\n\nThis configuration is built for long-range assault. It uses an advanced Targeting Computer to guide a pair of ER PPCs and two Heavy Large Lasers. Eleven additional heat sinks fail to keep this configuration cool, especially with the addition of three jump jets to enhance maneuverability. It also incorporates an ECM Suite to safeguard itself from enemy electronics.",
+    "Icon": "uixTxrIcon_bloodasp"
+  },
+  "MovementCapDefID": "movedef_mech_assault_4",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_bloodasp",
+  "PrefabIdentifier": "chrprfmech_bloodaspbase-001",
+  "PrefabBase": "bloodasp",
+  "Tonnage": 90,
+  "InitialTonnage": 29,
+  "weightClass": "ASSAULT",
+  "BattleValue": 17260000,
+  "Heatsinks": 16,
+  "TopSpeed": 64.8,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 80,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 115,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 115,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "SRA-A",
+  "ChassisTags": {
+    "items": [
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_clan",
+      "mech_quirk_rugged1"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Front-Line Assault & Flanker",
+  "YangsThoughts": "This configuration is built for long-range assault. It uses an advanced Targeting Computer to guide a pair of ER PPCs and two Heavy Large Lasers. Eleven additional heat sinks fail to keep this configuration cool, especially with the addition of three jump jets to enhance maneuverability. It also incorporates an ECM Suite to safeguard itself from enemy electronics.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_SensorCAC_GuardianClan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_TAC4_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

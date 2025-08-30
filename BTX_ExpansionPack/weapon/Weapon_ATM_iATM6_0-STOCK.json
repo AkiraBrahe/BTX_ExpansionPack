@@ -1,0 +1,89 @@
+{
+  "Category": "Missile",
+  "Type": "SRM",
+  "WeaponSubType": "SRM6",
+  "MinRange": 0,
+  "MaxRange": 270,
+  "RangeSplit": [
+    180,
+    180,
+    270
+  ],
+  "ammoCategoryID": "ATM",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 12,
+  "Damage": 4,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": -1,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 6,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 2,
+  "WeaponEffectID": "WeaponEffect-Weapon_SRM6",
+  "Description": {
+    "Cost": 1250000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Clans",
+    "Model": "Advanced Tactical Missile Launcher",
+    "UIName": "Clan iATM6",
+    "Id": "Weapon_ATM_iATM6_0-STOCK",
+    "Name": "Clan Improved ATM6",
+    "Details": "The Improved Advanced Tactical Missile system (iATM) was developed by Clan Coyote alongside The Society from 3054 to 3070. Unlike the Advanced Tactical Missile that it's based on, the iATM system can use a wider variety of ammunition types and relies on an advanced Streak SRM-style guidance system to improve accuracy. The iATM 6 is the second smallest and second lightest of the iATMs.",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "srm6",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 3.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": true,
+  "MissileVolleySize": 6,
+  "MissileFiringIntervalMultiplier": 1,
+  "MissileVolleyIntervalMultiplier": 1,
+  "FireDelayMultiplier": 1,
+  "HitGenerator": "Streak",
+  "Streak": true,
+  "AMSHitChance": 0.0,
+  "MissileHealth": 1,
+  "Modes": [
+    {
+      "Id": "Streak",
+      "UIName": "Streak",
+      "isBaseMode": true
+    },
+    {
+      "Id": "Indirect",
+      "UIName": "Indirect",
+      "isBaseMode": false,
+      "IndirectFireCapable": true,
+      "HitGenerator": "Cluster",
+      "Streak": false
+    }
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_clan",
+      "component_type_lostech",
+      "range_standard",
+      "component_atm"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

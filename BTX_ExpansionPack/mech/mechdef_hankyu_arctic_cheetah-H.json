@@ -1,0 +1,174 @@
+{
+  "ChassisID": "chassisdef_hankyu_arctic_cheetah-H",
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_light",
+      "unit_role_ewe",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "unit_jumpOK",
+      "unit_release",
+      "unit_mechpack",
+      "unit_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 6490000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Hankyu H",
+    "Id": "mechdef_hankyu_arctic_cheetah-H",
+    "Name": "Hankyu",
+    "Details": "This configuration uses a Heavy Medium Laser, a pair of Heavy Small Lasers, and a Flamer for short-range firepower. It has an ER Large Laser for long range. Three additional double heat sinks keep heat levels in check.",
+    "Icon": "uixTxrIcon_hankyu"
+  },
+  "simGameMechPartCost": 650000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 35,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 35,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 25,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 25
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 35,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 35,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Flamer_CFlamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_CSmallLaserHeavy_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_CSmallLaserHeavy_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserHeavy_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

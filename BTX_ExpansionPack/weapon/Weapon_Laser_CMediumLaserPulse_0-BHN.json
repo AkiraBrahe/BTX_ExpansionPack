@@ -1,0 +1,84 @@
+{
+  "Category": "Energy",
+  "Type": "Laser",
+  "WeaponSubType": "MediumLaserPulse",
+  "MinRange": 0,
+  "MaxRange": 360,
+  "RangeSplit": [
+    120,
+    240,
+    360
+  ],
+  "ammoCategoryID": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 12,
+  "Damage": 35,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": -3,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 3,
+  "AttackRecoil": 1,
+  "Instability": 0,
+  "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Medium",
+  "Description": {
+    "Cost": 540000,
+    "Rarity": 3,
+    "Purchasable": false,
+    "Manufacturer": "Clans",
+    "Model": "Medium Pulse Laser",
+    "UIName": "Clan M Pulse",
+    "Id": "Weapon_Laser_CMediumLaserPulse_0-BHN",
+    "Name": "Clan M Pulse",
+    "Details": "An improvement upon standard Medium Lasers, Medium Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with increased heat and weight. Medium Pulse Lasers are extremely accurate. Clan Pulse weapons are longer range than their Inner Sphere counterparts.",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Laser",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 2,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Modes": [
+    {
+      "Id": "LMode_Std",
+      "UIName": "STD",
+      "Name": "Standard",
+      "Description": "Laser operates normally.",
+      "isBaseMode": true
+    },
+    {
+      "Id": "LMode_LowPower",
+      "UIName": "LP",
+      "Name": "Low Power Mode",
+      "Description": "Using less Energy to create the Laser reduces heat generation at the cost of Damage.",
+      "isBaseMode": false,
+      "DamagePerShot": -10,
+      "HeatGenerated": -6
+    }
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_clan",
+      "component_type_lostech",
+      "range_standard",
+      "laser_insulator_attachable"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ImprovedBallistic": false
+}

@@ -1,0 +1,139 @@
+{
+  "Description": {
+    "Id": "lancedef_vtol_heavy_dynamic_battle1",
+    "Name": "Heavy VTOL Lance",
+    "Details": "4x Heavy VTOLs",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Difficulty": -1,
+  "LanceTags": {
+    "items": [
+      "lance_type_dynamic",
+      "lance_type_vehicle",
+      "lance_type_battle",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": "Tags/LanceTags"
+  },
+  "LanceUnits": [
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": false,
+      "unitTagSet": {
+        "items": [
+          "unit_heavy",
+          "unit_vtol",
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_noncombatant",
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": false,
+      "unitTagSet": {
+        "items": [
+          "unit_heavy",
+          "unit_vtol",
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_noncombatant",
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": false,
+      "unitTagSet": {
+        "items": [
+          "unit_heavy",
+          "unit_vtol",
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_noncombatant",
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "dynamicDifficulty": false,
+      "unitTagSet": {
+        "items": [
+          "unit_heavy",
+          "unit_vtol",
+          "unit_vehicle"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_noncombatant",
+          "unit_none_{CUR_TEAM.faction}"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    }
+  ]
+}

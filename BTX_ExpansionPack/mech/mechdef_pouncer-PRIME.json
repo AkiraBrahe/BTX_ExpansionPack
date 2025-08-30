@@ -1,0 +1,135 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_medium",
+      "unit_role_sniper",
+      "unit_lance_vanguard",
+      "unit_lance_assassin",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_jumpOK",
+      "unit_release",
+      "unit_mechpack",
+      "unit_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_pouncer-PRIME",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 9000000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Pouncer PRIME",
+    "Id": "mechdef_pouncer-PRIME",
+    "Name": "Pouncer",
+    "Details": "<color=#F79B26>The Pouncer is a versatile Clan Wolf OmniMech based on the Adder that was specifically designed to be more mobile on the battlefield and counter Inner Sphere tactics.</color>\n\nIn its Primary configuration, the Pouncer has two ER PPCs for long-range striking power. These are backed up by a single ER Small Laser for close combat. All of the weapons are linked to an advanced Targeting Computer that increases their accuracy.",
+    "Icon": "uixTxrIcon_pouncer"
+  },
+  "simGameMechPartCost": 900000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 60,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 60,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 55,
+      "CurrentRearArmor": 35,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 55,
+      "AssignedRearArmor": 35
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 60,
+      "CurrentRearArmor": 40,
+      "CurrentInternalStructure": 60,
+      "AssignedArmor": 60,
+      "AssignedRearArmor": 40
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 55,
+      "CurrentRearArmor": 35,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 55,
+      "AssignedRearArmor": 35
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 60,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 60,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 65,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 65,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 65,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 65,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_PPC_CPPCER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_PPC_CPPCER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

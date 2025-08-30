@@ -1,0 +1,241 @@
+{
+  "Description": {
+    "Cost": 13320000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Thresher",
+    "Id": "chassisdef_thresher-1",
+    "Name": "Thresher",
+    "Details": "<color=#F79B26>The Thresher is a second-line BattleMech that is all-around average. It served as a model for the Summoner OmniMech.</color>\n\nThis expensive garrison 'Mech uses a 300 XL engine and an endo steel skeleton to save weight. Its modest speed is compensated by five jump jets and a MASC system. The largest gun on the Thresher is its Ultra Autocannon/10. The medium-range weapon can dish out a fair amount of damage, but it is not a legitimate long-range threat. At closer ranges, the Thresher can bring an ER Medium Laser and a pair of accurate Medium Pulse Lasers to bear. Two SRM-6 launchers complement these weapons, providing additional punch to exploit any openings created in enemy armor.",
+    "Icon": "uixTxrIcon_thresher"
+  },
+  "MovementCapDefID": "movedef_mech_heavy_5",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_thunderbolt",
+  "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
+  "PrefabBase": "thunderbolt",
+  "Tonnage": 60,
+  "InitialTonnage": 18.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 11570000,
+  "Heatsinks": 10,
+  "TopSpeed": 108,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 70,
+  "MeleeInstability": 60,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 13,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 13,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "THS-1",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.90-1.05-1.00",
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_clan",
+      "mech_quirk_improvedtargetingmedium"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Skirmisher",
+  "YangsThoughts": "This expensive garrison 'Mech uses a 300 XL engine and an endo steel skeleton to save weight. Its modest speed is compensated by five jump jets and a MASC system. The largest gun on the Thresher is its Ultra Autocannon/10. The medium-range weapon can dish out a fair amount of damage, but it is not a legitimate long-range threat. At closer ranges, the Thresher can bring an ER Medium Laser and a pair of accurate Medium Pulse Lasers to bear. Two SRM-6 launchers complement these weapons, providing additional punch to exploit any openings created in enemy armor.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_MASC_2_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

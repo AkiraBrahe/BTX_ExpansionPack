@@ -1,0 +1,305 @@
+{
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Gladiator-B"
+    }
+  },
+  "Description": {
+    "Cost": 26270000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Gladiator-B",
+    "Id": "chassisdef_gladiator-b_executioner-b-B",
+    "Name": "Gladiator-B",
+    "Details": "<color=#F79B26>The Executioner-B (code-named Gladiator-B) is the original Executioner created by Clan Burrock during the Golden Century before the introduction of Clan Ghost Bear's upgraded Executioner one hundred years later.</color>\n\nThe B configuration of the Executioner-B is geared for long-range combat, with a Gauss Rifle mounted in each arm as its primary weapon. Each side torso houses an ER Large Laser and two Medium Pulse Lasers, which provide additional damage at close ranges. Despite having eighteen double heat sinks, the 'Mech cannot handle the combined heat output of its energy weapons.",
+    "Icon": "uixTxrIcon_executioner-b"
+  },
+  "MovementCapDefID": "movedef_mech_assault_3",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_executioner",
+  "PrefabIdentifier": "chrprfmech_executionerbase-001",
+  "PrefabBase": "executioner",
+  "Tonnage": 95,
+  "InitialTonnage": 24.04,
+  "weightClass": "ASSAULT",
+  "BattleValue": 15785000,
+  "Heatsinks": 10,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "MaxJumpjets": 2,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 85,
+  "MeleeInstability": 95,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 120,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 120,
+  "DFAInstability": 120,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "GLA-B-B",
+  "ChassisTags": {
+    "items": [
+      "chassis_omni",
+      "chassis_DHS",
+      "chassis_ferro",
+      "chassis_clan",
+      "mech_quirk_distracting",
+      "mech_quirk_poorperformance"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper",
+  "YangsThoughts": "This is the best Executioner configuration, in my opinion. It's perfect for long-range fights. Each arm carries a Gauss Rifle, and there are two ER Large Lasers and Medium Pulse Lasers in the side torsos. This thing can dish out some serious hurt from a distance, and it'll make your enemies regret staying far away.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}
