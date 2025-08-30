@@ -2,6 +2,7 @@
 using CustomUnits;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 
 namespace BTX_ExpansionPack.Fixes
 {
@@ -119,7 +120,7 @@ namespace BTX_ExpansionPack.Fixes
             {
                 if (randomize)
                 {
-                    pilotTags.Add(UnityEngine.Random.Range(0, 5) == 0 ? MechPilotTag : VehiclePilotTag);
+                    pilotTags.Add(Random.Range(0, 5) == 0 ? MechPilotTag : VehiclePilotTag);
                 }
                 else
                 {

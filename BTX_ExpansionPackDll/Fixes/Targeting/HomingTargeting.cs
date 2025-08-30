@@ -11,7 +11,6 @@ namespace BTX_ExpansionPack.Fixes
         public static class CombatHUDFireButton_OnClick
         {
             [HarmonyPrefix]
-            [HarmonyWrapSafe]
             public static bool Prefix(CombatHUDFireButton __instance)
             {
                 CombatHUD HUD = __instance.HUD;
