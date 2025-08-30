@@ -4,13 +4,12 @@ using FullXotlTables;
 using HBS.Collections;
 using System;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 namespace BTX_ExpansionPack.Fixes
 {
     internal class LanceSpawn
     {
-        private static readonly Random random = new();
-
         [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit")]
         public static class UnitSpawnPointOverride_RequestUnit
         {
@@ -64,7 +63,7 @@ namespace BTX_ExpansionPack.Fixes
                 switch (lanceDefId)
                 {
                     case "lancedef_apc_dynamic_battle1" when !__instance.unitTagSet.Contains("unit_light"):
-                        string lightWeightClass = random.Next(0, 100) < 80
+                        string lightWeightClass = Random.Range(0, 100) < 80
                             ? "unit_medium"
                             : "unit_light";
 
@@ -75,7 +74,7 @@ namespace BTX_ExpansionPack.Fixes
                     case "lancedef_arty_dynamic_battle1" when !__instance.unitTagSet.Contains("unit_vehicle_spotter"):
                         if (__instance.unitTagSet.Contains("unit_light") || __instance.unitTagSet.Contains("unit_assault"))
                         {
-                            string middleWeightClass = random.Next(0, 100) < 60
+                            string middleWeightClass = Random.Range(0, 100) < 60
                                     ? "unit_heavy"
                                     : "unit_medium";
 
@@ -106,7 +105,7 @@ namespace BTX_ExpansionPack.Fixes
                 [HarmonyPrefix]
                 public static void Prefix(ref long difficulty)
                 {
-                    int variance = difficulty <= 3 ? random.Next(0, 2) : random.Next(0, 3);
+                    int variance = difficulty <= 3 ? Random.Range(0, 1) : Random.Range(0, 2);
                     if (variance == 0) return;
                     long originalDifficulty = difficulty;
                     difficulty += variance;

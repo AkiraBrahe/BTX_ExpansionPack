@@ -5,7 +5,10 @@ using BattleTech.UI.Tooltips;
 using CustomUnits;
 using Localize;
 using MechAffinity;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Quirks.Tooltips;
+using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
@@ -71,7 +74,7 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
         public static class MechLabPanel_LoadMech
         {
-            [HarmonyPostfix] // MechLab
+            [HarmonyPostfix] // Mech Lab
             public static void Postfix(MechLabPanel __instance, MechDef newMechDef)
             {
                 if (newMechDef == null) return;
@@ -197,7 +200,7 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(MechLabMechInfoWidget), "SetData")]
         public static class MechLabMechInfoWidget_SetData
         {
-            [HarmonyPostfix] // MechLab
+            [HarmonyPostfix] // Mech Lab
             public static void Postfix(MechLabMechInfoWidget __instance)
             {
                 var mechDef = __instance.mechLab?.activeMechDef;
@@ -276,6 +279,40 @@ namespace BTX_ExpansionPack.Fixes
             }
 
             return "VEHICLE";
+        }
+
+        [HarmonyPatch(typeof(ChassisDef_FromJSON_fake), "ConstructMechFakeVehicle")]
+        public static class CustomUnitsChassisDefPatch
+        {
+            [HarmonyPostfix]
+            public static void Postfix(ref string __result)
+            {
+                try
+                {
+                    JObject chassisDef = JObject.Parse(__result);
+                    var yangsThoughtsToken = chassisDef["YangsThoughts"];
+                    if (yangsThoughtsToken != null && yangsThoughtsToken.Type == JTokenType.String)
+                    {
+                        string thoughts = yangsThoughtsToken.Value<string>();
+                        string delimiter = "&lt;/b&gt;\n\n";
+                        int splitIndex = thoughts.IndexOf(delimiter);
+
+                        if (splitIndex >= 0)
+                        {
+                            chassisDef["YangsThoughts"] = thoughts.Substring(splitIndex + delimiter.Length);
+                            __result = chassisDef.ToString(Formatting.Indented);
+                        }
+                    }
+                }
+                catch (JsonReaderException)
+                {
+                    // Not a valid JSON object. This is expected if the mech isn't a "fake" vehicle.
+                }
+                catch (Exception ex)
+                {
+                    Main.Log.LogException(ex);
+                }
+            }
         }
 
         [HarmonyPatch(typeof(PilotAffinityManager), "getMechChassisAffinityDescription", [typeof(ChassisDef)])]
