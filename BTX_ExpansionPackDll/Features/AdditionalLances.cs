@@ -3,58 +3,15 @@ using BattleTech.Framework;
 using FullXotlTables;
 using HBS.Collections;
 using System;
-using System.Collections.Generic;
 using Random = UnityEngine.Random;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack
 {
-    internal class LanceSpawn
+    internal partial class AdditionalLances
     {
         [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit")]
-        public static class UnitSpawnPointOverride_RequestUnit
+        public static class UnitSpawnPointOverride_RequestUnit_PrePatch
         {
-
-            private static readonly HashSet<string> weightClassTags =
-            [
-                "unit_light",
-                "unit_medium",
-                "unit_heavy",
-                "unit_assault"
-            ];
-
-            private static readonly HashSet<string> spotterVehicles =
-            [
-                "vehicledef_ALSVIN",
-                "vehicledef_ARVAKR",
-                "vehicledef_ASSHUR",
-                "vehicledef_CAVALRY_TAG",
-                "vehicledef_CENTIPEDE_TAG",
-                "vehicledef_CYRANO_ROYAL",
-                "vehicledef_EPONA-A",
-                "vehicledef_EPONA-C",
-                "vehicledef_EPONA-D",
-                "vehicledef_FULCRUM",
-                "vehicledef_FULCRUM_II",
-                "vehicledef_GALLEON_TAG",
-                "vehicledef_HEPHAESTUS-PRIME",
-                "vehicledef_JEdgar_TAG",
-                "vehicledef_LIGHTNING_ROYAL",
-                "vehicledef_MAXIM_3052",
-                "vehicledef_MAXIM_AP",
-                "vehicledef_MAXIM_C3S",
-                "vehicledef_MAXIM_I",
-                "vehicledef_MAXIM_I_CC",
-                "vehicledef_MINION_TAG",
-                "vehicledef_MUSKETEER",
-                "vehicledef_MUSKETEER_ARMOR",
-                "vehicledef_PEGASUS_3058",
-                "vehicledef_SCIMITAR_TAG",
-                "vehicledef_SPRINT",
-                "vehicledef_ZEPHYR",
-                "vehicledef_ZEPHYR_C3i",
-                "vehicledef_ZEPHYR_ROYAL",
-            ];
-
             [HarmonyPrefix]
             [HarmonyBefore("BattleTech.Haree.FullXotlTables")]
             public static void Prefix(UnitSpawnPointOverride __instance, string lanceDefId, DateTime? currentDate, TagSet companyTags)
@@ -67,7 +24,7 @@ namespace BTX_ExpansionPack.Fixes
                             ? "unit_medium"
                             : "unit_light";
 
-                        __instance.unitTagSet.RemoveRange([.. weightClassTags]);
+                        __instance.unitTagSet.RemoveRange(weightClassTags);
                         __instance.unitTagSet.Add(lightWeightClass);
                         break;
 
@@ -78,7 +35,7 @@ namespace BTX_ExpansionPack.Fixes
                                     ? "unit_heavy"
                                     : "unit_medium";
 
-                            __instance.unitTagSet.RemoveRange([.. weightClassTags]);
+                            __instance.unitTagSet.RemoveRange(weightClassTags);
                             __instance.unitTagSet.Add(middleWeightClass);
                         }
                         break;
@@ -93,7 +50,7 @@ namespace BTX_ExpansionPack.Fixes
                         break;
 
                     case "lancedef_vtol_dynamic_battle1" when !__instance.unitTagSet.Contains("unit_light"):
-                        __instance.unitTagSet.RemoveRange([.. weightClassTags]);
+                        __instance.unitTagSet.RemoveRange(weightClassTags);
                         __instance.unitTagSet.Add("unit_light");
                         break;
                 }

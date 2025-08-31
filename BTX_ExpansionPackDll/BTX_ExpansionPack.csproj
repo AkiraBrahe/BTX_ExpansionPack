@@ -60,6 +60,9 @@
     <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\AdditionalLances_Comstar.cs" />
+    <Compile Include="Features\AdditionalLances_Units.cs" />
+    <Compile Include="Features\AdditionalLances.cs" />
     <Compile Include="Features\ArtilleryTTS.cs" />
     <Compile Include="Features\ContractIntel.cs" />
     <Compile Include="Features\InfernoAmmoTypes.cs" />
@@ -69,7 +72,6 @@
     <Compile Include="Features\VehicleCASE.cs" />
     <Compile Include="Features\VehiclePilotInjuries.cs" />
     <Compile Include="Features\YenLoWangUpgrade.cs" />
-    <Compile Include="Fixes\BEXStatsReset.cs" />
     <Compile Include="Fixes\Targeting\AntiAirTargeting.cs" />
     <Compile Include="Fixes\Targeting\AttackGround.cs" />
     <Compile Include="Fixes\Targeting\BuildingTargeting.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Fixes\UI\MechLabUI.cs" />
     <Compile Include="Fixes\AbilityResourceFix.cs" />
     <Compile Include="Fixes\AMSAuras.cs" />
+    <Compile Include="Fixes\BEXStatsReset.cs" />
     <Compile Include="Fixes\DropSlots.cs" />
     <Compile Include="Fixes\FiringArcs.cs" />
     <Compile Include="Fixes\LanceRestrictions.cs" />
@@ -86,7 +89,6 @@
     <Compile Include="Fixes\MechBlacklistBypass.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
     <Compile Include="Fixes\Targeting\RapidFireTargeting.cs" />
-    <Compile Include="Fixes\VehicleMelee.cs" />
     <Compile Include="Fixes\VehicleFixes.cs" />
     <Compile Include="Helpers\ArrowIVHelpers.cs" />
     <Compile Include="Helpers\DatabaseHelpers.cs" />
