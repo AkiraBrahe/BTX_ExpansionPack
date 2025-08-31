@@ -41,16 +41,18 @@
       <IncludeAssets>compile</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Dapper" Version="2.1.66" >
-      <Private>False</Private>
+    <PackageReference Include="Dapper" Version="2.1.66">
+      <IncludeAssets>compile</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />
     <Publicize Include="Assembly-CSharp" />
     <Publicize Include="BEXTimeline" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Main" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionReplace" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Main" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.TonnageCalculation" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
     <Publicize Include="Extended_CE:Extended_CE.NewTech.ArmorRules" />
@@ -79,13 +81,13 @@
     <Compile Include="Fixes\DropSlots.cs" />
     <Compile Include="Fixes\FiringArcs.cs" />
     <Compile Include="Fixes\LanceRestrictions.cs" />
-    <Compile Include="Fixes\LanceSpawn.cs" />
     <Compile Include="Fixes\MaxPlayerUnits.cs" />
     <Compile Include="Fixes\MaxTurretArmor.cs" />
     <Compile Include="Fixes\MechBlacklistBypass.cs" />
     <Compile Include="Fixes\PilotSpecialization.cs" />
     <Compile Include="Fixes\Targeting\RapidFireTargeting.cs" />
     <Compile Include="Fixes\VehicleMelee.cs" />
+    <Compile Include="Fixes\VehicleFixes.cs" />
     <Compile Include="Helpers\ArrowIVHelpers.cs" />
     <Compile Include="Helpers\DatabaseHelpers.cs" />
     <Compile Include="Helpers\LocationNamingHelper.cs" />

@@ -11,6 +11,7 @@ using Quirks.Tooltips;
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using UnityEngine;
 
 namespace BTX_ExpansionPack.Fixes
 {
@@ -68,6 +69,39 @@ namespace BTX_ExpansionPack.Fixes
                     return false;
                 }
                 return true;
+            }
+        }
+
+        [HarmonyPatch(typeof(RedusedMechLabMechInfoWidget), "Init")]
+        public class RedusedMechLabMechInfoWidget_Init
+        {
+            [HarmonyPostfix]
+            public static void Postfix(RedusedMechLabMechInfoWidget __instance, MechDef mechDef)
+            {
+                __instance.layout_hardpoints.SetActive(true);
+                __instance.layout_tonnage.SetActive(true);
+            }
+        }
+
+        [HarmonyPatch(typeof(LanceStat), "SetValue")]
+        public static class LanceStat_SetValue
+        {
+            [HarmonyPrefix]
+            public static bool Prefix(LanceStat __instance, float current, float max, float delta, UIColor dColor)
+            {
+                __instance.deltaColor.SetUIColor(dColor);
+                if (max <= 0f)
+                {
+                    __instance.fillbar.fillAmount = 0f;
+                    __instance.deltaBar.fillAmount = 0f;
+                    return false;
+                }
+
+                float num = Mathf.Clamp01(current / max);
+                float num2 = Mathf.Clamp01(delta / max);
+                __instance.fillbar.fillAmount = num;
+                __instance.deltaBar.fillAmount = num2;
+                return false;
             }
         }
 

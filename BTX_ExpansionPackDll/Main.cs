@@ -66,6 +66,9 @@ namespace BTX_ExpansionPack
             /* Max Player Units Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FromJSONFull"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ContractOverride), "FullRehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            /* Tonnage Calculation */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechStatisticsRules), "CalculateTonnage"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabMechInfoWidget), "CalculateTonnage"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
 
             // --- Custom Units ---
             /* Piloting Expertise */
