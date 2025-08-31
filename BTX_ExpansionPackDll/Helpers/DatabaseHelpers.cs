@@ -6,6 +6,89 @@ namespace BTX_ExpansionPack
 {
     public static class DatabaseHelpers
     {
+        public class LanceComposition
+        {
+            public int Weight { get; set; }
+            public List<string> UnitWeightTags { get; set; }
+        }
+
+        // --- ComStar ---
+        public static readonly List<LanceComposition> ComstarLightLevelIIs =
+        [
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_light", "unit_light", "unit_light", "unit_light", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 4, UnitWeightTags = ["unit_medium", "unit_light", "unit_light", "unit_light", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_medium", "unit_medium", "unit_light", "unit_light", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_medium", "unit_medium", "unit_light", "unit_light", "unit_light"] }
+        ];
+
+        public static readonly List<LanceComposition> ComstarMediumLevelIIs =
+        [
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_light"] },
+            new LanceComposition { Weight = 4, UnitWeightTags = ["unit_heavy", "unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_medium"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_heavy", "unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_light"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_medium", "unit_medium", "unit_medium", "unit_medium"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_medium", "unit_medium", "unit_medium"] }
+        ];
+
+        public static readonly List<LanceComposition> ComstarHeavyLevelIIs =
+        [
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_medium", "unit_medium"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_medium"] },
+            new LanceComposition { Weight = 4, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_assault", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_medium"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_assault", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_assault", "unit_assault", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy"] }
+        ];
+
+        public static readonly List<LanceComposition> ComstarAssaultLevelIIs =
+        [
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_assault", "unit_assault", "unit_assault", "unit_heavy", "unit_heavy", "unit_medium"] },
+            new LanceComposition { Weight = 4, UnitWeightTags = ["unit_assault", "unit_assault", "unit_assault", "unit_assault", "unit_heavy", "unit_heavy"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_assault", "unit_assault", "unit_assault", "unit_assault", "unit_assault", "unit_heavy"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_assault", "unit_assault", "unit_assault", "unit_assault", "unit_assault", "unit_assault"] }
+        ];
+
+        // --- Clans ---
+        public static readonly List<LanceComposition> ClanLightStars =
+        [
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_light", "unit_light", "unit_light", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_medium", "unit_light", "unit_light", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_medium", "unit_medium", "unit_light", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_light", "unit_light", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_medium", "unit_medium", "unit_medium", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_medium", "unit_medium", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_light"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_medium"] }
+        ];
+
+        public static readonly List<LanceComposition> ClanMediumStars =
+        [
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_light"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_medium", "unit_medium", "unit_medium", "unit_medium", "unit_medium"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_heavy", "unit_medium", "unit_medium", "unit_medium", "unit_medium"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_medium", "unit_light", "unit_light"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_medium", "unit_medium", "unit_light"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_medium", "unit_medium", "unit_medium"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_medium", "unit_light"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_medium", "unit_medium"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_medium"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy"] }
+        ];
+
+        public static readonly List<LanceComposition> ClanHeavyStars =
+        [
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_medium"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_assault", "unit_assault", "unit_heavy", "unit_medium", "unit_medium"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_assault", "unit_heavy", "unit_heavy", "unit_heavy", "unit_medium"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_assault", "unit_assault", "unit_heavy", "unit_heavy", "unit_medium"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_assault", "unit_heavy", "unit_heavy", "unit_heavy", "unit_heavy"] },
+            new LanceComposition { Weight = 2, UnitWeightTags = ["unit_assault", "unit_assault", "unit_heavy", "unit_heavy", "unit_heavy"] },
+            new LanceComposition { Weight = 1, UnitWeightTags = ["unit_assault", "unit_assault", "unit_assault", "unit_heavy", "unit_heavy"] }
+        ];
+
+        // --- Dynamic Difficulty ---
         public static List<DynamicLanceDifficulty_MDD> lanceDefs =
          [
              new() { DynamicLanceDifficultyID = 0, Difficulty = 0, NoUnitCount = 3, LightUnitCount = 1, PilotTags = "pilot_npc_d1" },
