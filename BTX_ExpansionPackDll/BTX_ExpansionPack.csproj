@@ -1,50 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F893A829-DB9F-4AF2-B80F-069180B78397}</ProjectGuid>
+    <Title>BTX_ExpansionPack</Title>
+    <Authors>Kierk</Authors>
+    <Copyright>Copyright © 2025</Copyright>
+    <VersionPrefix>1.1.0</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+    <TargetFramework>net481</TargetFramework>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BTX_ExpansionPack</RootNamespace>
-    <AssemblyName>BTX_ExpansionPack</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <LangVersion>latest</LangVersion>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
+    <AssemblySearchPaths>{HintPathFromItem};$(BattleTechGameDir)\BattleTech_Data\Managed</AssemblySearchPaths>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <DebugType>embedded</DebugType>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoWarn>IDE0130</NoWarn>
+    <PublicizerRuntimeStrategies>Unsafe</PublicizerRuntimeStrategies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
     <OutputPath>..\..\..\..\..\..\Program Files %28x86%29\Steam\Steamapps\common\BattleTech\Mods\BTX_ExpansionPack\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
-    <Optimize>true</Optimize>
     <OutputPath>..\..\..\..\..\..\Program Files %28x86%29\Steam\Steamapps\common\BattleTech\Mods\BTX_ExpansionPack\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
-  <PropertyGroup>
-    <PublicizerRuntimeStrategies>Unsafe</PublicizerRuntimeStrategies>
-  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="HarmonyX" Version="2.10.1">
+    <Compile Remove="Features\UrbanDevastation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HarmonyX" Version="2.10.2">
       <IncludeAssets>compile</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Dapper" Version="2.1.66">
-      <IncludeAssets>compile</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
+    <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />
     <Publicize Include="Assembly-CSharp" />
     <Publicize Include="BEXTimeline" />
@@ -60,50 +49,7 @@
     <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\AdditionalLances_Comstar.cs" />
-    <Compile Include="Features\AdditionalLances_Units.cs" />
-    <Compile Include="Features\AdditionalLances.cs" />
-    <Compile Include="Features\ArtilleryTTS.cs" />
-    <Compile Include="Features\ContractIntel.cs" />
-    <Compile Include="Features\InfernoAmmoTypes.cs" />
-    <Compile Include="Features\MotiveRepair.cs" />
-    <Compile Include="Features\SelfKnockdown.cs" />
-    <Compile Include="Features\SpecialAmmoOverTime.cs" />
-    <Compile Include="Features\VehicleCASE.cs" />
-    <Compile Include="Features\VehiclePilotInjuries.cs" />
-    <Compile Include="Features\YenLoWangUpgrade.cs" />
-    <Compile Include="Fixes\Targeting\AntiAirTargeting.cs" />
-    <Compile Include="Fixes\Targeting\AttackGround.cs" />
-    <Compile Include="Fixes\Targeting\BuildingTargeting.cs" />
-    <Compile Include="Fixes\Targeting\HomingTargeting.cs" />
-    <Compile Include="Fixes\UI\BattleUI.cs" />
-    <Compile Include="Fixes\UI\MechLabUI.cs" />
-    <Compile Include="Fixes\AbilityResourceFix.cs" />
-    <Compile Include="Fixes\AMSAuras.cs" />
-    <Compile Include="Fixes\BEXStatsReset.cs" />
-    <Compile Include="Fixes\DropSlots.cs" />
-    <Compile Include="Fixes\FiringArcs.cs" />
-    <Compile Include="Fixes\LanceRestrictions.cs" />
-    <Compile Include="Fixes\MaxPlayerUnits.cs" />
-    <Compile Include="Fixes\MaxTurretArmor.cs" />
-    <Compile Include="Fixes\MechBlacklistBypass.cs" />
-    <Compile Include="Fixes\PilotSpecialization.cs" />
-    <Compile Include="Fixes\Targeting\RapidFireTargeting.cs" />
-    <Compile Include="Fixes\VehicleFixes.cs" />
-    <Compile Include="Helpers\ArrowIVHelpers.cs" />
-    <Compile Include="Helpers\DatabaseHelpers.cs" />
-    <Compile Include="Helpers\LocationNamingHelper.cs" />
-    <Compile Include="Helpers\MissileHelpers.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utilities\MechSizeCalculator.cs" />
-    <Compile Include="Utilities\PirateSystemLogger.cs" />
-    <Compile Include="GlobalUsings.cs" />
-    <Compile Include="Main.cs" />
-    <Compile Include="ModSettings.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="BEXTimeline">
@@ -143,11 +89,10 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="InControl">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\InControl.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="IRBTModUtils">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\Steamapps\common\BattleTech\Mods\IRBTModUtils\IRBTModUtils.dll</HintPath>
+      <HintPath>$(BattleTechGameDir)\Mods\IRBTModUtils\IRBTModUtils.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ISM3025">
@@ -163,36 +108,34 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
