@@ -25,10 +25,7 @@ namespace BTX_ExpansionPack
             public static class Contract_ClearLanceAssignments
             {
                 [HarmonyPrefix]
-                public static void Prefix()
-                {
-                    lanceCompositionAssignments.Clear();
-                }
+                public static void Prefix() => lanceCompositionAssignments.Clear();
             }
 
             [HarmonyPrefix]
@@ -37,7 +34,7 @@ namespace BTX_ExpansionPack
                 if (!lanceDefId.StartsWith("lancedef_comstar"))
                     return;
 
-                if (lanceName != PrimaryComStarLance && lanceName != SecondaryComStarLance)
+                if (lanceName is not PrimaryComStarLance and not SecondaryComStarLance)
                     return;
 
                 List<string> selectedComposition;

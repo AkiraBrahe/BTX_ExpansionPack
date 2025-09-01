@@ -37,10 +37,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         public static class ToHitModifiersHelper_GetToHitModifierName_Mech
         {
             [HarmonyPrepare]
-            public static bool Prepare()
-            {
-                return Main.Settings.UI.Battle.ShowFullLocationName;
-            }
+            public static bool Prepare() => Main.Settings.UI.Battle.ShowFullLocationName;
 
             [HarmonyPrefix]
             public static bool Prefix(Mech unit, int location, ref string __result)
@@ -85,10 +82,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         public static class ToHitModifiersHelper_GetToHitModifierName_Vehicle
         {
             [HarmonyPrepare]
-            public static bool Prepare()
-            {
-                return Main.Settings.UI.Battle.ShowFullLocationName;
-            }
+            public static bool Prepare() => Main.Settings.UI.Battle.ShowFullLocationName;
 
             [HarmonyPrefix]
             public static bool Prefix(Vehicle unit, int location, ref string __result)

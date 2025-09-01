@@ -23,7 +23,7 @@ namespace BTX_ExpansionPack
                         __instance.GetCrewPortrait(SimGameCrew.Crew_Yang), "",
                         () => { RemoveYenLoWang(__instance); AddYenLoWang2(__instance); __instance.AddFunds(-10000000, null, true, true); },
                         "OK",
-                        () => { __instance.CompanyTags.Remove("yenlowang_upgrade"); },
+                        () => __instance.CompanyTags.Remove("yenlowang_upgrade"),
                         "Cancel");
                 }
             }
@@ -42,7 +42,6 @@ namespace BTX_ExpansionPack
             {
                 var mechDef = simState.DataManager.MechDefs.Get("mechdef_centurion_CN9-YLW2");
                 mechDef = new MechDef(mechDef, simState.GenerateSimGameUID(), true);
-
 
                 if (simState.Constants.Salvage.EquipMechOnSalvage)
                 {

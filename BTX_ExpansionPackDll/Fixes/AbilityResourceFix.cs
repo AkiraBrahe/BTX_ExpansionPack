@@ -171,7 +171,6 @@ namespace BTX_ExpansionPack.Fixes
                 __runOriginal = false;
                 return;
             }
-
         }
     }
 
@@ -189,7 +188,6 @@ namespace BTX_ExpansionPack.Fixes
                 HUD.MechWarriorTray.FireButton.DisableButton();
                 __runOriginal = false;
             }
-
         }
     }
 
@@ -205,8 +203,6 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
     }
-
-
 
     [HarmonyPatch(typeof(CombatHUDActionButton), "ActivateAbility", [typeof(string), typeof(string)])]
     public static class CombatHUDActionButton_ActivateAbility_Confirmed
