@@ -25,9 +25,14 @@
 
     public class UISettings
     {
+        public BattleSettings Battle { get; set; } = new BattleSettings();
         public IntelSettings ContractIntel { get; set; } = new IntelSettings();
         public MechTooltipSettings MechTooltips { get; set; } = new MechTooltipSettings();
-        public BattleSettings Battle { get; set; } = new BattleSettings();
+    }
+
+    public class BattleSettings
+    {
+        public bool ShowFullLocationName { get; set; } = true;
     }
 
     public class IntelSettings
@@ -39,10 +44,5 @@
     public class MechTooltipSettings
     {
         public bool UseDefaultColors { get; set; } = false;
-    }
-
-    public class BattleSettings
-    {
-        public bool ShowFullLocationName { get; set; } = true;
     }
 }

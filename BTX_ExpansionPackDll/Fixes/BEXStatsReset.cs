@@ -9,8 +9,8 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(Contract), "ResetStateForRestart", [])]
         public static class Contract_ResetStateForRestart
         {
-            [HarmonyPostfix]
-            public static void Postfix()
+            [HarmonyPrefix]
+            public static void Prefix()
             {
                 foreach (KeyValuePair<string, TTRuleInfo> entry in MechTTRuleInfo.MechTTStatStore)
                 {

@@ -29,9 +29,9 @@
     <Compile Remove="Features\UrbanDevastation.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="HarmonyX" Version="2.10.2">
-      <IncludeAssets>compile</IncludeAssets>
+    <PackageReference Include="HarmonyX" Version="2.13.0">
       <PrivateAssets>all</PrivateAssets>
+      <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
     <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />

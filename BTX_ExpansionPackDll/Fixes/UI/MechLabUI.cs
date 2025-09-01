@@ -76,7 +76,7 @@ namespace BTX_ExpansionPack.Fixes
         public class RedusedMechLabMechInfoWidget_Init
         {
             [HarmonyPostfix]
-            public static void Postfix(RedusedMechLabMechInfoWidget __instance, MechDef mechDef)
+            public static void Postfix(RedusedMechLabMechInfoWidget __instance)
             {
                 __instance.layout_hardpoints.SetActive(true);
                 __instance.layout_tonnage.SetActive(true);

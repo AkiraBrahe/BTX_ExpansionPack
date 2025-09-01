@@ -102,10 +102,7 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(SimGameState), "Dehydrate")]
         public static class SimGameState_Dehydrate
         {
-            public static void Prefix()
-            {
-                pilotsChecked = false;
-            }
+            public static void Prefix() => pilotsChecked = false;
         }
 
         private static void ValidatePilotSpecialization(HBS.Collections.TagSet pilotTags, bool randomize = false)
