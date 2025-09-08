@@ -1,22 +1,22 @@
 {
   "Description": {
-    "Id": "DesignMaskBurnedForest",
-    "Name": "BURNED FOREST",
-    "Details": "This is an ecological disaster, shame on you. The unstable, charred ground increases stability damage taken by 50% for any unit that passes through it. +4 Difficulty to hit units within Burned Forest with Melee attacks.",
+    "Id": "DesignMaskRoughUrban",
+    "Name": "URBAN DEBRIS",
+    "Details": "Urban Debris reduces movement speed and causes units to take 150% stability damage from all attacks. +4 Difficulty to hit units within Urban Debris with Melee attacks.",
     "Icon": "uixSvgIcon_designMask_rough"
   },
   "moveCostMechLight": 1.25,
   "moveCostMechMedium": 1.25,
   "moveCostMechHeavy": 1.25,
   "moveCostMechAssault": 1.25,
-  "moveCostTrackedLight": 1.5,
-  "moveCostTrackedMedium": 1.5,
-  "moveCostTrackedHeavy": 1.5,
-  "moveCostTrackedAssault": 1.5,
-  "moveCostWheeledLight": 2.0,
-  "moveCostWheeledMedium": 2.0,
-  "moveCostWheeledHeavy": 2.0,
-  "moveCostWheeledAssault": 2.0,
+  "moveCostTrackedLight": 1.25,
+  "moveCostTrackedMedium": 1.25,
+  "moveCostTrackedHeavy": 1.25,
+  "moveCostTrackedAssault": 1.25,
+  "moveCostWheeledLight": 1.25,
+  "moveCostWheeledMedium": 1.25,
+  "moveCostWheeledHeavy": 1.25,
+  "moveCostWheeledAssault": 1.25,
   "moveCostSprintMultiplier": 1.0,
   "stabilityDamageMultiplier": 1.0,
   "meleeTargetabilityModifier": 4.0,
@@ -47,8 +47,8 @@
     "effectType": "StatisticEffect",
     "Description": {
       "Id": "DesignMaskRough",
-      "Name": "BURNED FOREST",
-      "Details": "This unit moved through charred ground. It will take 150% stability damage from all attacks until its next activation.",
+      "Name": "URBAN DEBRIS",
+      "Details": "This unit moved through urban debris. It will take 150% stability damage from all attacks until its next activation.",
       "Icon": "uixSvgIcon_designMask_rough"
     },
     "statisticData": {
@@ -64,8 +64,8 @@
   "Custom": {
     "CustomMoveCost": {
       "Hover": {
-        "moveCost": 2.0,
-        "SprintMultiplier": 1.0
+        "moveCost": 1.875,
+        "SprintMultiplier": 1.5
       }
     }
   }

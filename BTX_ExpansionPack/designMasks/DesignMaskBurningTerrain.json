@@ -27,7 +27,7 @@
   "grantsEvasive": false,
   "toHitFromModifier": 0.0,
   "heatSinkMultiplier": 0.5,
-  "heatPerTurn": 0,
+  "heatPerTurn": 10,
   "legStructureDamageMin": 0,
   "legStructureDamageMax": 0,
   "canBurn": false,
@@ -45,9 +45,9 @@
     },
     "effectType": "StatisticEffect",
     "Description": {
-      "Id": "DesignMaskGeothermal",
-      "Name": "GEOTHERMAL",
-      "Details": "This unit moved through geothermal terrain. It will only sink 50% of its normal heat until the end of its next activation.",
+      "Id": "DesignMaskBurningTerrain",
+      "Name": "FIRE",
+      "Details": "This unit caught fire after passing through burning terrain. It will only sink 50% of its normal Heat until its next activation.",
       "Icon": "uixSvgIcon_designMask_rough"
     },
     "statisticData": {
@@ -59,5 +59,13 @@
     "nature": "Debuff"
   },
   "audioSwitchSurfaceType": "lava",
-  "audioSwitchRainingSurfaceType": "lava"
+  "audioSwitchRainingSurfaceType": "lava",
+  "Custom": {
+    "CustomMoveCost": {
+      "Hover": {
+        "moveCost": 1.1,
+        "SprintMultiplier": 1.0
+      }
+    }
+  }
 }

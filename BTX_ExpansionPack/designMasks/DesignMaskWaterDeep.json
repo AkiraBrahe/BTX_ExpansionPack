@@ -2,7 +2,7 @@
   "Description": {
     "Id": "DesignMaskWaterDeep",
     "Name": "DEEP WATER",
-    "Details": "Units cannot move through Deep Water.",
+    "Details": "Most units cannot move through Deep Water.",
     "Icon": "uixSvgIcon_water"
   },
   "moveCostMechLight": 99999.9,
@@ -18,17 +18,31 @@
   "moveCostWheeledHeavy": 99999.9,
   "moveCostWheeledAssault": 99999.9,
   "moveCostSprintMultiplier": 99999.9,
+  "stabilityDamageMultiplier": 1.0,
+  "visibilityMultiplier": 1.0,
+  "visibilityHeight": 1.0,
+  "signatureMultiplier": 1.0,
+  "targetabilityModifier": 0.0,
+  "grantsGuarded": false,
+  "grantsEvasive": false,
+  "toHitFromModifier": 0.0,
+  "heatSinkMultiplier": 1.5,
+  "heatPerTurn": 0,
+  "legStructureDamageMin": 0,
+  "legStructureDamageMax": 0,
+  "canBurn": false,
+  "canExplode": false,
   "audioSwitchSurfaceType": "water_deep",
   "audioSwitchRainingSurfaceType": "water_deep",
   "Custom": {
     "CustomMoveCost": {
       "Hover": {
-        "moveCost": 1,
-        "SprintMultiplier": 1
+        "moveCost": 1.0,
+        "SprintMultiplier": 1.0
       },
       "Amphibious": {
         "moveCost": 2.0,
-        "SprintMultiplier": 1
+        "SprintMultiplier": 1.0
       }
     }
   }
