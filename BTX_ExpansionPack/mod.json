@@ -24,6 +24,9 @@
       "DisableNonStandardAmmoBins": false
     },
     "UI": {
+      "Battle": {
+        "ShowFullLocationName": true
+      },
       "ContractIntel": {
         "IntelShowTarget": true,
         "IntelShowVariant": true
@@ -38,6 +41,7 @@
     { "name":"BattleTech.AmmoCategoryEnumeration", "path":"enums/AmmoCategory.json" }
   ],
   "Manifest": [
+    { "Type": "AbilityDef", "Path": "abilities" },
     { "Type": "AdvancedJSONMerge", "Path": "advancedMerge" },
     //{ "Type": "AffinitiesDef", "Path": "affinities" },
     { "Type": "AmmunitionDef", "Path": "ammunition"},
@@ -60,7 +64,7 @@
     //{ "Type": "JumpJetDef", "Path": "jumpjets" },
     { "Type": "LanceDef", "Path": "lance", "AddToDB": true },
     { "Type": "MechDef", "Path": "mech", "AddToDB": true },
-    { "Type": "MechDef", "Path": "mechMerge", "AddToDB": false, "ShouldMergeJSON": true },
+    { "Type": "MechDef", "Path": "mechMerge", "ShouldMergeJSON": true },
     { "Type": "MechDef", "Path": "mechOmni", "ShouldMergeJSON": true },
     { "Type": "MovementCapabilitiesDef", "Path": "movement" },
     { "Type": "PathingCapabilitiesDef", "Path": "pathing" },
@@ -69,11 +73,11 @@
     { "Type": "CCTagRestrictions", "Path": "tagRestrict" },
     { "Type": "CCUnitTypes", "Path": "unitTypes" },
     { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
-    { "Type": "UpgradeDef", "Path": "upgradesMerge", "AddToDB": false, "ShouldMergeJSON": true },
+    { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
     { "Type": "VehicleDef", "Path": "vehicle", "AddToDB":true },
     { "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
     { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
     { "Type": "WeaponAddonDef", "Path": "weaponAddons" },
-    { "Type": "WeaponDef", "Path": "weaponMerge", "AddToDB": false, "ShouldMergeJSON": true }
+    { "Type": "WeaponDef", "Path": "weaponMerge", "ShouldMergeJSON": true }
   ]
 }

@@ -6,7 +6,6 @@
     }
   },
   "CustomParts": {
-    "MoveCost": "Amphibious",
     "MoveClamp": 0.5,
     "FiringArc": 360,
     "Unaffected": {
