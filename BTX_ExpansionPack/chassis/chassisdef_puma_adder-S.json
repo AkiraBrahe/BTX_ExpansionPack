@@ -265,7 +265,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Recon and Anti-Infantry",
+  "StockRole": "Scout",
   "YangsThoughts": "The S configuration is an anti-infantry specialist. Each arm carries three Machine Guns, while each side torso carries five more Machine Guns. For heavier targets, each arm also carries a pair of Medium Pulse Lasers. An ECM Suite and Active Probe suppress radio reports and sensor data from opposing forces while granting situational awareness.",
   "FixedEquipment": [
     {
