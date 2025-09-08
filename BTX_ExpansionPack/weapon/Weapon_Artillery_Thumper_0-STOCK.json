@@ -34,7 +34,7 @@
   "AOEDamage": 100,
   "AOEHeatDamage": 0,
   "AOEInstability": 50,
-  "AoEDmgFalloffType": "Quadratic",
+  "AoEDmgFalloffType": "Linear",
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
