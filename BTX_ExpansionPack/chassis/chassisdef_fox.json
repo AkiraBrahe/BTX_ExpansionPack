@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_foxbase-001",
   "PrefabBase": "fox",
   "Tonnage": 50,
-  "InitialTonnage": 18.20,
+  "InitialTonnage": 18.2,
   "weightClass": "MEDIUM",
   "BattleValue": 10455000,
   "Heatsinks": 10,
@@ -225,7 +225,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Fire Support & Skirmisher",
+  "StockRole": "Missile Boat",
   "YangsThoughts": "This Fox model appears to be an upgraded variant of the Fox CS-1. It sports upgraded Clan weaponry, most notably the swap of the center torso's medium laser for a hefty ER Large Laser. To handle the added heat, an extra heat sink was added, and to further reduce weight, the armor has been upgraded to ferro-fibrous.",
   "FixedEquipment": [
     {
