@@ -112,7 +112,7 @@
       "AOEDamage": 100,
       "AOEHeatDamage": 0,
       "AOEInstability": 50,
-      "AoEDmgFalloffType": "Quadratic",
+      "AoEDmgFalloffType": "Linear",
       "RestrictedAmmo": [
         "Ammunition_ArrowIV",
         "Ammunition_ArrowIV_Inferno"
