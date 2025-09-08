@@ -3,8 +3,9 @@
     <Title>BTX_ExpansionPack</Title>
     <Authors>Kierk</Authors>
     <Copyright>Copyright © 2025</Copyright>
-    <VersionPrefix>1.1.0</VersionPrefix>
-    <VersionSuffix>alpha</VersionSuffix>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+  <PropertyGroup>
     <TargetFramework>net481</TargetFramework>
     <OutputType>Library</OutputType>
     <LangVersion>latest</LangVersion>

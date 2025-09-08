@@ -33,10 +33,13 @@ namespace BTX_ExpansionPack.Utilities
 
                 try
                 {
-                    var renderer = mech.GameRep?.gameObject?.GetComponent<Renderer>();
-                    if (renderer != null)
+                    var renderers = mech.GameRep?.gameObject?.GetComponentsInChildren<Renderer>();
+                    if (renderers != null && renderers.Length > 0)
                     {
-                        Bounds bounds = renderer.bounds;
+                        Bounds bounds = renderers[0].bounds;
+                        for (int i = 1; i < renderers.Length; i++)
+                            bounds.Encapsulate(renderers[i].bounds);
+
                         height = bounds.size.y; // * UnityUnitToMeter;
                         volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
                     }
@@ -76,10 +79,13 @@ namespace BTX_ExpansionPack.Utilities
                     var go = GameObject.Find(name);
                     if (go != null)
                     {
-                        var renderer = go.GetComponent<Renderer>();
-                        if (renderer != null)
+                        var renderers = go.GetComponentsInChildren<Renderer>();
+                        if (renderers.Length > 0)
                         {
-                            Bounds bounds = renderer.bounds;
+                            Bounds bounds = renderers[0].bounds;
+                            for (int i = 1; i < renderers.Length; i++)
+                                bounds.Encapsulate(renderers[i].bounds);
+
                             var height = bounds.size.y; // * UnityUnitToMeter;
                             var volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
                             Main.Log.LogDebug($"Human: {name}, Height: {height:F2}m, Volume: {volume:F2}m³");
