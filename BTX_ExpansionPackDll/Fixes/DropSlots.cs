@@ -24,13 +24,14 @@ namespace BTX_ExpansionPack.Fixes
             public static void Postfix(SimGameState __instance)
             {
                 int updated = 0;
+                int baseTonnage = BiggerDrops.BiggerDrops.settings.defaultMaxTonnage;
 
                 if (Main.Settings.Debug.AllDropShipUpgrades)
                 {
                     UpdateStatistic(__instance, BaseMechSlotsStat, 4, ref updated);
                     UpdateStatistic(__instance, AdditionalMechSlotsStat, 4, ref updated);
                     UpdateStatistic(__instance, HotDropMechSlotsStat, 4, ref updated);
-                    UpdateStatistic(__instance, MaxTonnageStat, 800, ref updated);
+                    UpdateStatistic(__instance, MaxTonnageStat, baseTonnage + 400, ref updated);
                 }
                 else
                 {
@@ -42,7 +43,7 @@ namespace BTX_ExpansionPack.Fixes
                     int hotdropSlots = GetUpgradeStat(__instance, HotDropMechSlotsStat);
                     UpdateStatistic(__instance, HotDropMechSlotsStat, hotdropSlots, ref updated);
 
-                    int maxTonnage = GetMaxTonnageStat(__instance, BiggerDrops.BiggerDrops.settings.defaultMaxTonnage);
+                    int maxTonnage = GetMaxTonnageStat(__instance, baseTonnage);
                     UpdateStatistic(__instance, MaxTonnageStat, maxTonnage, ref updated);
                 }
 
@@ -57,7 +58,7 @@ namespace BTX_ExpansionPack.Fixes
             private static int GetUpgradeStat(SimGameState simState, string upgradeStat)
             {
                 return simState.ShipUpgrades
-                    .Where(upg => simState.HasShipUpgrade(upg.Description.Id, null))
+                    .Where(upg => simState.HasShipUpgrade(upg.Description.Id))
                     .SelectMany(upg => upg.Stats)
                     .Where(stat => stat.name == upgradeStat && stat.set)
                     .Select(stat => stat.ToInt())
@@ -68,7 +69,7 @@ namespace BTX_ExpansionPack.Fixes
             private static int GetMaxTonnageStat(SimGameState simState, int defaultValue)
             {
                 return defaultValue + simState.ShipUpgrades
-                    .Where(upg => simState.HasShipUpgrade(upg.Description.Id, null))
+                    .Where(upg => simState.HasShipUpgrade(upg.Description.Id))
                     .SelectMany(upg => upg.Stats)
                     .Where(stat => stat.name == MaxTonnageStat)
                     .Sum(stat => stat.ToInt());
