@@ -60,7 +60,7 @@ namespace BTX_ExpansionPack
         }
 
         [HarmonyPatch(typeof(Contract), "CompleteContract")]
-        public static class Contract_CompleteContract_TempFix
+        public static class Contract_CompleteContract
         {
             [HarmonyPrefix]
             public static void Prefix(Contract __instance)
