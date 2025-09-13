@@ -13,9 +13,6 @@
   "DLL": "BTX_ExpansionPack.dll",
   
   "Settings": {
-    "Debug": {
-      "AllDropShipUpgrades": false
-    },
     "Gameplay": {
       "Use4LimitOnStoryMissions": true,
       "AllowVehiclesInMechDuels": false,
