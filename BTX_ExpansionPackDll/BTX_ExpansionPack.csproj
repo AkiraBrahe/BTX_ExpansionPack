@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Title>BTX_ExpansionPack</Title>
+    <Title>Expansion Pack</Title>
     <Authors>Kierk</Authors>
     <Copyright>Copyright © 2025</Copyright>
     <Version>1.1.0</Version>
@@ -10,24 +10,25 @@
     <OutputType>Library</OutputType>
     <LangVersion>latest</LangVersion>
     <AssemblySearchPaths>{HintPathFromItem};$(BattleTechGameDir)\BattleTech_Data\Managed</AssemblySearchPaths>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <DebugType>embedded</DebugType>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <NoWarn>IDE0130</NoWarn>
     <PublicizerRuntimeStrategies>Unsafe</PublicizerRuntimeStrategies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>..\..\..\..\..\..\Program Files %28x86%29\Steam\Steamapps\common\BattleTech\Mods\BTX_ExpansionPack\</OutputPath>
+    <OutputPath>$(BattleTechGameDir)\Mods\$(AssemblyName)\</OutputPath>
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
-    <OutputPath>..\..\..\..\..\..\Program Files %28x86%29\Steam\Steamapps\common\BattleTech\Mods\BTX_ExpansionPack\</OutputPath>
+    <OutputPath>$(BattleTechGameDir)\Mods\$(AssemblyName)\</OutputPath>
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Features\UrbanDevastation.cs" />
+    <Compile Remove="Fixes\MaxPlayerUnits.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="HarmonyX" Version="2.13.0">
@@ -49,94 +50,62 @@
     <Publicize Include="MechQuirks:Quirks.MechQuirks.modSettings" />
     <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Assembly-CSharp">
+  <ItemDefinitionGroup>
+    <Reference>
       <Private>False</Private>
     </Reference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" />
     <Reference Include="BEXTimeline">
       <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_Timeline\BEXTimeline.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="BiggerDrops">
       <HintPath>$(BattleTechGameDir)\Mods\BiggerDrops\BiggerDrops.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="BTX_CAC_CompatibilityDll">
       <HintPath>$(BattleTechGameDir)\Mods\BTX_CAC_Compatibility\BTX_CAC_CompatibilityDll.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="CustomActivatableEquipment">
       <HintPath>$(BattleTechGameDir)\Mods\CustomActivatableEquipment\CustomActivatableEquipment.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="CustomAmmoCategories">
       <HintPath>$(BattleTechGameDir)\Mods\CustomAmmoCategories\CustomAmmoCategories.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="CustomComponents">
       <HintPath>$(BattleTechGameDir)\Mods\CustomComponents\CustomComponents.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="CustomUnits">
       <HintPath>$(BattleTechGameDir)\Mods\CustomUnits\CustomUnits.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="Extended_CE">
       <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_CE\Extended_CE.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="FullXotlTables">
       <HintPath>$(BattleTechGameDir)\Mods\FullXotlTables\FullXotlTables.dll</HintPath>
-      <Private>False</Private>
     </Reference>
-    <Reference Include="InControl">
-      <Private>False</Private>
-    </Reference>
+    <Reference Include="InControl" />
     <Reference Include="IRBTModUtils">
       <HintPath>$(BattleTechGameDir)\Mods\IRBTModUtils\IRBTModUtils.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="ISM3025">
       <HintPath>$(BattleTechGameDir)\Mods\ISM3025\ISM3025.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="MechAffinity">
       <HintPath>$(BattleTechGameDir)\Mods\MechAffinity\MechAffinity.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="MechQuirks">
       <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_Quirks\MechQuirks.dll</HintPath>
-      <Private>False</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Core">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Data">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <Private>False</Private>
-    </Reference>
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="UnityEngine.UI" />
   </ItemGroup>
 </Project>
