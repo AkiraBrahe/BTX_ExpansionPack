@@ -2,7 +2,7 @@
   "Settings": [
     {
       "Tag": "RapidFireAutocannon",
-      "AnyTags": [
+      "RequiredAnyTags": [
         "unit_vehicle_airDefense",
         "mech_quirk_antiaircraft"
       ]
