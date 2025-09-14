@@ -7,8 +7,7 @@
   },
   "CustomParts": {
     "MoveCost": "Hover",
-    "MoveClamp": 0.5,
-    "FiringArc": 60
+    "CrewLocation": "None"
   },
   "Description": {
     "Id": "vehiclechassisdef_SALADIN_LBX",

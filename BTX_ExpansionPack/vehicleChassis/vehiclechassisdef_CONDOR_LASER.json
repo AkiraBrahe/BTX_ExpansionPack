@@ -5,6 +5,9 @@
       "Exclude": false
     }
   },
+  "CustomParts": {
+    "CrewLocation": "None"
+  },
   "Description": {
     "Id": "vehiclechassisdef_CONDOR_LASER",
     "Name": "Condor (Laser)",

@@ -6,10 +6,10 @@
     }
   },
   "CustomParts": {
-    "MoveClamp": 0.5,
-    "FiringArc": 360,
+    "MoveCost": "Amphibious",
+    "CrewLocation": "None",
     "Unaffected": {
-      "Fire": "true"
+      "Fire": true
     }
   },
   "Description": {
