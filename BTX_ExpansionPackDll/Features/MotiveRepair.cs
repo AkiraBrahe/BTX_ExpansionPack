@@ -3,12 +3,12 @@ using BattleTech.UI;
 using CustAmmoCategories;
 using System.Linq;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
     internal class MotiveRepair
     {
         [HarmonyPatch(typeof(AbstractActor), "InitEffectStats")]
-        public static class AbstractActor_InitEffectStats_MotiveRepair
+        public static class AbstractActor_InitEffectStats
         {
             [HarmonyPostfix]
             public static void Postfix(AbstractActor __instance)
@@ -20,9 +20,14 @@ namespace BTX_ExpansionPack
             }
         }
 
+        /// <summary>
+        /// Removes up to three motive system loss debuffs at the end of the turn if the Motive Repair ability is active.
+        /// </summary>
         [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]
         public static class AbstractActor_OnActivationEnd
         {
+
+
             [HarmonyPrefix]
             public static void Prefix(AbstractActor __instance)
             {
@@ -59,6 +64,9 @@ namespace BTX_ExpansionPack
             }
         }
 
+        /// <summary>
+        /// Removes all motive system components from vehicles when a contract is completed.
+        /// </summary>
         [HarmonyPatch(typeof(Contract), "CompleteContract")]
         public static class Contract_CompleteContract
         {

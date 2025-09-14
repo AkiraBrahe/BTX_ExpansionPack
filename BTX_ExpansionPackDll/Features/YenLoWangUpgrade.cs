@@ -2,12 +2,15 @@
 using System;
 using System.Linq;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
+    /// <summary>
+    /// Adds an event to upgrade the Centurion 'Yen-Lo-Wang'.
+    /// </summary>
     internal class YenLoWangUpgrade
     {
         [HarmonyPatch(typeof(SimGameState), "OnDayPassed")]
-        class SimGameState_OnDayPassed
+        public static class SimGameState_OnDayPassed
         {
             public static void Postfix(SimGameState __instance)
             {

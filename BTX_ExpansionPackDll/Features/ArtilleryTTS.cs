@@ -4,10 +4,13 @@ using CustAmmoCategories;
 using System.Linq;
 using UnityEngine;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
     internal class ArtilleryTTS
     {
+        /// <summary>
+        /// Adjusts the artillery strike's target position based on the weapon's TTS level.
+        /// </summary>
         [HarmonyPatch(typeof(WeaponArtilleryHelper), "CreateStrikeInvocation")]
         public static class WeaponArtilleryHelper_CreateStrikeInvocation
         {
@@ -81,6 +84,9 @@ namespace BTX_ExpansionPack
             }
         }
 
+        /// <summary>
+        /// Modifies the artillery strike button text to indicate that a TTS is active.
+        /// </summary>
         [HarmonyPatch(typeof(SelectionStateArtilleryStrike), "ShowButton")]
         public static class SelectionStateArtilleryStrike_ShowButton
         {

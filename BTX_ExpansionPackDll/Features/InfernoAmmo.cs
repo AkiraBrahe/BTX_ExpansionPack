@@ -7,17 +7,13 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
-    internal class InfernoAmmoTypes
+    internal class InfernoAmmo
     {
-        private static readonly HashSet<string> InfernoAmmoIds =
-        [
-            "Ammunition_SRM_Inferno",
-            "Ammunition_LRM_Inferno",
-            "Ammunition_ArrowIV_Inferno"
-        ];
-
+        /// <summary>
+        /// Applies the correct bonus damage with inferno ammo.
+        /// </summary>
         [HarmonyPatch(typeof(BTX_CAC_CompatibilityDll.RandomPatches), "GetFlexDamage")]
         public static class GetFlexDamage
         {
@@ -39,6 +35,9 @@ namespace BTX_ExpansionPack
             }
         }
 
+        /// <summary>
+        /// Accounts for AoE heat damage when an inferno ammo box is destroyed.
+        /// </summary>
         [HarmonyPatch(typeof(AmmunitionBox), "DamageComponent")]
         public static class InfernoExplode
         {
@@ -76,6 +75,9 @@ namespace BTX_ExpansionPack
             }
         }
 
+        /// <summary>
+        /// Checks for all inferno ammo types when a mech overheats with inferno ammo.
+        /// </summary>
         [HarmonyPatch(typeof(Heatchanges.Mech_OnActivationEnd), "Prefix")]
         public static class InfernoOverheat
         {
@@ -84,7 +86,7 @@ namespace BTX_ExpansionPack
             {
                 bool found = false;
                 var codes = new List<CodeInstruction>(instructions);
-                MethodInfo hasInfernoMethod = AccessTools.Method(typeof(InfernoAmmoTypes), nameof(HasInferno), [typeof(Mech)]);
+                MethodInfo hasInfernoMethod = AccessTools.Method(typeof(InfernoAmmo), nameof(HasInferno), [typeof(Mech)]);
 
                 for (int i = 0; i < codes.Count; i++)
                 {
@@ -119,11 +121,9 @@ namespace BTX_ExpansionPack
                     yield return code;
                 }
             }
-        }
 
-        public static bool HasInferno(Mech __instance) =>
-            __instance.ammoBoxes.Any(ammoBox =>
-                InfernoAmmoIds.Contains(ammoBox.defId) &&
-                ammoBox.StatCollection.GetValue<int>("CurrentAmmo") > 0);
+            public static bool HasInferno(Mech __instance) =>
+                __instance.ammoBoxes.Any(ammoBox => ammoBox.defId.EndsWith("Inferno") && ammoBox.CurrentAmmo > 0);
+        }
     }
 }

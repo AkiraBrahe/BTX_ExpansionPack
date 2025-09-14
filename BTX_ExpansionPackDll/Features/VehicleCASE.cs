@@ -3,8 +3,11 @@ using CustAmmoCategories;
 using CustomUnits;
 using UnityEngine;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
+    /// <summary>
+    /// Handles CASE functionality for vehicles, preventing ammo explosions from destroying the vehicle and injuring the pilot.
+    /// </summary>
     internal class VehicleCASE
     {
         [HarmonyPatch(typeof(AmmunitionBox), "DamageComponent")]

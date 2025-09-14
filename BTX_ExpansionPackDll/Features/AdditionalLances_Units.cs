@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
     internal partial class AdditionalLances
     {
