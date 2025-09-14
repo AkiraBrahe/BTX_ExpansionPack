@@ -6,8 +6,7 @@
     }
   },
   "CustomParts": {
-    "MoveClamp": 0.5,
-    "FiringArc": 360
+    "CrewLocation": "None"
   },
   "Description": {
     "Id": "vehiclechassisdef_MARKSMAN",

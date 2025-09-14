@@ -7,13 +7,17 @@
   },
   "CustomParts": {
     "AOEHeight": 45,
-    "FiringArc": 50,
     "Unaffected": {
-      "DesignMasks": "true",
-      "Pathing": "true",
-      "Fire": "true",
-      "MoveClamp": 1.0
-    }
+      "DesignMasks": true,
+      "Pathing": true,
+      "Fire": true,
+      "Landmines": true,
+      "MoveClamp": 1.0,
+      "AllowPartialMovement": false
+    },
+    "CrewLocation": "None",
+    "NullifyBodyMesh": true,
+    "TieToGroundOnDeath": true
   },
   "Description": {
     "Id": "vehiclechassisdef_SOKOL",

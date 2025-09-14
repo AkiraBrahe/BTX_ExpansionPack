@@ -6,8 +6,8 @@
     }
   },
   "CustomParts": {
-    "MoveClamp": 0.5,
-    "FiringArc": 60
+    "MoveCost": "Amphibious",
+    "CrewLocation": "None"
   },
   "Description": {
     "Id": "vehiclechassisdef_GLAIVE_MFB",
