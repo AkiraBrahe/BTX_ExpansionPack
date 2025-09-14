@@ -2,8 +2,11 @@
 using CustAmmoCategories;
 using System;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
+    /// <summary>
+    /// Adds pilot injuries for vehicles when critical locations are destroyed.
+    /// </summary>
     internal class VehiclePilotInjuries
     {
         [HarmonyPatch(typeof(Mech), "DamageLocation")]

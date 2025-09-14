@@ -5,10 +5,13 @@ using HBS.Collections;
 using System;
 using Random = UnityEngine.Random;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
     internal partial class AdditionalLances
     {
+        /// <summary>
+        /// Ensures that certain lances spawn with appropriate weight classes and types.
+        /// </summary>
         [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit")]
         public static class UnitSpawnPointOverride_RequestUnit_PrePatch
         {
@@ -55,19 +58,22 @@ namespace BTX_ExpansionPack
                         break;
                 }
             }
+        }
 
-            [HarmonyPatch(typeof(UnitsAndLances_MDDExtensions), "GetDynamicLanceDifficultyListByDifficulty")]
-            public static class UnitsAndLances_MDDExtensions_GetDynamicLanceDifficultyListByDifficulty
+        /// <summary>
+        /// Adjusts lance difficulty by a small random variance to increase lance variety.
+        /// </summary>
+        [HarmonyPatch(typeof(UnitsAndLances_MDDExtensions), "GetDynamicLanceDifficultyListByDifficulty")]
+        public static class UnitsAndLances_MDDExtensions_GetDynamicLanceDifficultyListByDifficulty
+        {
+            [HarmonyPrefix]
+            public static void Prefix(ref long difficulty)
             {
-                [HarmonyPrefix]
-                public static void Prefix(ref long difficulty)
-                {
-                    int variance = difficulty <= 3 ? Random.Range(0, 1) : Random.Range(0, 2);
-                    if (variance == 0) return;
-                    long originalDifficulty = difficulty;
-                    difficulty += variance;
-                    Logger.Log($"Varied lance difficulty from {originalDifficulty} to {difficulty}.");
-                }
+                int variance = difficulty <= 3 ? Random.Range(0, 1) : Random.Range(0, 2);
+                if (variance == 0) return;
+                long originalDifficulty = difficulty;
+                difficulty += variance;
+                Logger.Log($"Varied lance difficulty from {originalDifficulty} to {difficulty}.");
             }
         }
     }

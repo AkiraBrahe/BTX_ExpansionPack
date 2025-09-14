@@ -1,8 +1,11 @@
 ﻿using BattleTech;
 using CustomAmmoCategoriesPatches;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
+    /// <summary>
+    /// Applies instability to the firing mech when firing gauss and artillery weapons.
+    /// </summary>
     internal class SelfKnockdown
     {
         public static class WeaponInfo

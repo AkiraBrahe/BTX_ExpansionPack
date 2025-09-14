@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEngine;
 using static BTX_ExpansionPack.DatabaseHelpers;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
     internal partial class AdditionalLances
     {

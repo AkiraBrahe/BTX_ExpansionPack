@@ -6,10 +6,13 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
     internal class ContractIntel
     {
+        /// <summary>
+        /// Shows additional contract information, such as target faction and variant description.
+        /// </summary>
         [HarmonyPatch(typeof(LanceContractIntelWidget), "Init")]
         public static class LanceContractIntelWidget_Init
         {

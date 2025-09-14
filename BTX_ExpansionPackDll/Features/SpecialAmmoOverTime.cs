@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using Random = UnityEngine.Random;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Features
 {
     internal class SpawningActorInfo
     {
@@ -31,6 +31,9 @@ namespace BTX_ExpansionPack
         }
     }
 
+    /// <summary>
+    /// Replaces standard ammo with special ammo based on faction and current date.
+    /// </summary>
     internal class SpecialAmmoOverTime
     {
         private static bool IsClan => SpawningActorInfo.IsClan;
