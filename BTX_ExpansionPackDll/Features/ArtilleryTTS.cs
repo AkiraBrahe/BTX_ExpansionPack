@@ -24,13 +24,12 @@ namespace BTX_ExpansionPack
                     for (int i = 0; i < weapons.Count; i++)
                     {
                         var weapon = weapons[i];
-
                         float ttsLevel = GetWeaponTTSLevel(weapon);
                         if (ttsLevel == 0f)
                             continue;
 
                         float minMissRadius = weapon.MinMissRadius();
-                        Vector3 newPos = CalculateAdjustedStrikePosition(position, closestTarget.CurrentPosition, ttsLevel, minMissRadius);
+                        Vector3 newPos = CalculateAdjustedStrikePosition(position, closestTarget.CurrentPosition, distanceToTarget, ttsLevel, minMissRadius);
                         Main.Log.LogDebug($"[ArtilleryTTS] Adjusted strike position for {unit.DisplayName}'s {weapon.Name} towards {closestTarget.DisplayName}." +
                             $"Original strike position:{position}; Distance to target: {distanceToTarget}; New position {newPos}");
                         weapon.AddArtilleryStrike(newPos, i + 1);
@@ -57,23 +56,23 @@ namespace BTX_ExpansionPack
                 return closestTarget;
             }
 
-            private static Vector3 CalculateAdjustedStrikePosition(Vector3 initialPosition, Vector3 targetPosition, float ttsLevel, float minMissRadius)
+            private static Vector3 CalculateAdjustedStrikePosition(Vector3 initialPosition, Vector3 targetPosition, float distanceToTarget, float ttsLevel, float minMissRadius)
             {
-                // Calculate the pull factor based on TTS level
-                float pullFactor = 0f;
-                if (ttsLevel == 1f) pullFactor = 0.30f; // 30% closer
-                else if (ttsLevel == 2f) pullFactor = 0.50f; // 50% closer
-                else if (ttsLevel >= 3f) pullFactor = 0.70f; // 70% closer
+                // Determine pull factor and scatter reduction based on TTS level
+                float pullFactor = 0f, scatterReductionFactor = 0f;
+                if (ttsLevel == 1f) { pullFactor = 0.30f; scatterReductionFactor = 0.30f; }
+                else if (ttsLevel == 2f) { pullFactor = 0.50f; scatterReductionFactor = 0.50f; }
+                else if (ttsLevel >= 3f) { pullFactor = 0.70f; scatterReductionFactor = 0.70f; }
 
+                // Cap the maximum pull distance to prevent large, unrealistic adjustments
+                float maxPullDistance = 75f;
+                float pullDistance = Mathf.Min(distanceToTarget * pullFactor, maxPullDistance);
+
+                // Calculate the adjusted strike position
                 Vector3 directionToTarget = targetPosition - initialPosition;
-                Vector3 adjustedPosition = initialPosition + (directionToTarget * pullFactor);
+                Vector3 adjustedPosition = initialPosition + (directionToTarget.normalized * pullDistance);
 
-                // Apply random spread based on min miss radius and TTS level
-                float scatterReductionFactor = 0f;
-                if (ttsLevel == 1f) scatterReductionFactor = 0.30f;
-                else if (ttsLevel == 2f) scatterReductionFactor = 0.50f;
-                else if (ttsLevel >= 3f) scatterReductionFactor = 0.70f;
-
+                // Apply random spread to the adjusted strike position
                 float scatterRadius = Mathf.Lerp(minMissRadius, 0f, scatterReductionFactor);
                 Vector2 randomCirclePoint = Random.insideUnitCircle * scatterRadius;
                 Vector3 randomSpreadOffset = new Vector3(randomCirclePoint.x, 0f, randomCirclePoint.y);
