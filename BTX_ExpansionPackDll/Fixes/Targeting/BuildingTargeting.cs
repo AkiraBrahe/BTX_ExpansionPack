@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Allows buildings to be targeted when a mech is standing on them.
+    /// </summary>
     internal class BuildingTargeting
     {
         // [HarmonyPatch(typeof(AttackEvaluator), "MakeAttackOrder")]

@@ -84,7 +84,7 @@ namespace BTX_ExpansionPack.Features
                 }
             }
 
-            internal static LocalizableText SetupTextComponent(LocalizableText existing, GameObject parent, LocalizableText template, string name, string text, int siblingIndex)
+            private static LocalizableText SetupTextComponent(LocalizableText existing, GameObject parent, LocalizableText template, string name, string text, int siblingIndex)
             {
                 if (existing == null)
                 {
@@ -107,7 +107,7 @@ namespace BTX_ExpansionPack.Features
                 }
             }
 
-            internal static void SetupTooltip(LocalizableText text, string factionId)
+            private static void SetupTooltip(LocalizableText text, string factionId)
             {
                 if (text != null)
                 {

@@ -7,6 +7,9 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class HomingTargeting
     {
+        /// <summary>
+        /// Prevents firing Homing Arrow IV missiles at targets that are not TAGed.
+        /// </summary>
         [HarmonyPatch(typeof(CombatHUDFireButton), "OnClick")]
         public static class CombatHUDFireButton_OnClick
         {
@@ -38,6 +41,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Applies an accuracy debuff when firing Homing Arrow IV missiles in TAG-guided mode at non-TAGed targets.
+        /// </summary>
         [HarmonyPatch(typeof(BTX_CAC_CompatibilityDll.Main), "A4_Tag_Effect")]
         public static class BTX_CAC_CompatibilityDll_A4_Tag_Effect
         {
@@ -49,6 +55,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Ensures that AI units with Homing Arrow IV missiles prioritize TAGed targets.
+        /// </summary>
         [HarmonyPatch(typeof(AIThreatUtil), "SortHostileUnitsByThreat")]
         public static class AIThreatUtil_SortHostileUnitsByThreat
         {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Fixes
 {
     internal class InfernoAmmo
     {
@@ -84,41 +84,34 @@ namespace BTX_ExpansionPack.Features
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
+                var codes = instructions.ToList();
+                var hasInfernoMethod = AccessTools.Method(typeof(InfernoOverheat), nameof(HasInferno), [typeof(Mech)]);
                 bool found = false;
-                var codes = new List<CodeInstruction>(instructions);
-                MethodInfo hasInfernoMethod = AccessTools.Method(typeof(InfernoAmmo), nameof(HasInferno), [typeof(Mech)]);
 
                 for (int i = 0; i < codes.Count; i++)
                 {
-                    if (!found && i < codes.Count - 5 &&
+                    if (!found && i < codes.Count - 3 &&
                         codes[i].opcode.ToString().StartsWith("ldloc") &&
-                        codes[i].operand is LocalBuilder listLocal && listLocal.LocalIndex == 52 && listLocal.LocalType == typeof(List<AmmunitionBox>) &&
-                        codes[i + 1].opcode == OpCodes.Callvirt && codes[i + 1].operand is MethodInfo getCountMethod && getCountMethod.Name == "get_Count" &&
+                        codes[i + 1].opcode == OpCodes.Callvirt &&
+                        codes[i + 1].operand is MethodInfo mi && mi.Name == "get_Count" &&
                         codes[i + 2].opcode == OpCodes.Ldc_I4_0 &&
-                        codes[i + 3].opcode == OpCodes.Cgt &&
-                        codes[i + 4].opcode.ToString().StartsWith("stloc") &&
-                        codes[i + 4].operand is LocalBuilder flag36Local && flag36Local.LocalType == typeof(bool) && flag36Local.LocalIndex == 57 &&
-                        codes[i + 5].opcode.ToString().StartsWith("ldloc") && codes[i + 5].operand == flag36Local)
+                        codes[i + 3].opcode == OpCodes.Cgt)
                     {
-                        yield return new CodeInstruction(OpCodes.Ldarg_0);
+                        var labels = codes[i].labels;
+                        var ldarg0 = new CodeInstruction(OpCodes.Ldarg_0);
+                        ldarg0.labels.AddRange(labels);
+                        yield return ldarg0;
                         yield return new CodeInstruction(OpCodes.Call, hasInfernoMethod);
                         found = true;
-                        i += 5;
+                        i += 3;
+                        continue;
                     }
-                    else
-                    {
-                        yield return codes[i];
-                    }
+                    yield return codes[i];
                 }
 
                 if (!found)
                 {
                     Main.Log.LogWarning("Could not find the IL sequence to replace for inferno ammo check.");
-                }
-
-                foreach (var code in codes)
-                {
-                    yield return code;
                 }
             }
 

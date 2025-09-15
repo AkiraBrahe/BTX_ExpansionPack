@@ -1,35 +1,24 @@
-﻿using BattleTech;
-using Quirks;
+﻿using CustomUnits;
 using Quirks.Quirks.MechEffects;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Makes LAMs in air mode count as airborne targets when targeted by anti-air mechs.
+    /// </summary>
     internal class AntiAirTargeting
     {
-        [HarmonyPatch(typeof(ToHit), "GetAllModifiersDescription")]
-        public static class ToHit_GetAllModifiersDescription
+        [HarmonyPatch(typeof(AlternatesRepresentation), "AddCurrentTags")]
+        public static class AlternatesRepresentation_AddCurrentTags
         {
             [HarmonyPostfix]
-            [HarmonyAfter("BEX.BattleTech.MechQuirks")]
-            public static void Postfix(ref string __result, AbstractActor attacker, ICombatant target)
+            public static void Postfix(AlternatesRepresentation __instance)
             {
-                var attackingMech = attacker as Mech;
-                bool hasAntiAirQuirk = MechQuirkInfo.MechQuirkStore[attackingMech.MechDef.chassisID].AntiAircraftTargeting;
-                if (attackingMech == null || !hasAntiAirQuirk) return;
+                if (__instance?.parentMech == null || __instance.CurrentRepresentation?.altDef == null)
+                    return;
 
-                bool isAirborneTarget = false;
-                if (target is AbstractActor unit)
-                {
-                    if (unit.GetTags().Contains("unit_vtol") || unit.GetTags().Contains("unit_lam"))
-                    {
-                        isAirborneTarget = true;
-                    }
-                }
-
-                if (isAirborneTarget)
-                {
-                    __result = string.Format("{0}ANTI-AIR {1:+#;-#}; ", __result, MechQuirks.modSettings.AntiAircraftTargetingToHit);
-                }
+                var tags = __instance.CurrentRepresentation.altDef.additionalEncounterTags;
+                MechQuirkInfo.MechQuirkStore[__instance.parentMech.MechDef.Chassis.Description.Id].VTOL = tags.Contains("unit_lam");
             }
         }
     }

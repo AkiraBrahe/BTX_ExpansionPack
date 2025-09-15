@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Handles AI targeting logic for rapid fire autocannons based on missile threat.
+    /// </summary>
     internal class RapidFireTargeting
     {
         [HarmonyPatch(typeof(AttackEvaluator), "MakeAttackOrder")]
