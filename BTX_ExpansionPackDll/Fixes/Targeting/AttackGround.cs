@@ -5,6 +5,9 @@ using UnityEngine;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Prevents ground attacks with weapons that have Homing ammo or minimum/forbidden range restrictions.
+    /// </summary>
     internal class AttackGround
     {
         [HarmonyPatch(typeof(SelectionStateCommandAttackGround), "ProcessLeftClick")]
@@ -37,9 +40,9 @@ namespace BTX_ExpansionPack.Fixes
                     // Prevent ground attack within minimum or forbidden ranges
                     float distance = Vector3.Distance(selectedActor.CurrentPosition, worldPos);
                     float minRange = weapon.MinRange;
-                    float forbiddenRange = weapon.ForbiddenRange() > 0f ?
-                        weapon.ForbiddenRange() :
-                        weapon.AOERange() / 2f;
+                    float forbiddenRange = weapon.ForbiddenRange() > 0f
+                        ? weapon.ForbiddenRange()
+                        : weapon.AOERange() / 2f;
 
                     if (distance < minRange)
                     {

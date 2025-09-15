@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
 {
-    public static class AbilityResourceEffects
+    public static class AbilityResources
     {
         public static bool GetAbilityUsedFiring(this AbstractActor actor)
         {
@@ -55,9 +55,9 @@ namespace BTX_ExpansionPack.Fixes
             new()
             {
                 effectType = EffectType.StatisticEffect,
-                targetingData = AbilityResourceEffects.TargetingData,
+                targetingData = AbilityResources.TargetingData,
                 Description = new DescriptionDef("ConsumesMovementFix", "Ability Used Movement", "Ability Used Movement", "uixSvgIcon_action_multitarget", 0, 0f, false, null, null, null),
-                durationData = AbilityResourceEffects.Duration,
+                durationData = AbilityResources.Duration,
                 statisticData = new StatisticEffectData
                 {
                     statName = "irbtmu_immobile_unit",
@@ -71,9 +71,9 @@ namespace BTX_ExpansionPack.Fixes
             new()
             {
                 effectType = EffectType.StatisticEffect,
-                targetingData = AbilityResourceEffects.TargetingData,
+                targetingData = AbilityResources.TargetingData,
                 Description = new DescriptionDef("ConsumesFiringFix", "Ability Used Firing", "Ability Used Firing", "uixSvgIcon_action_multitarget", 0, 0f, false, null, null, null),
-                durationData = AbilityResourceEffects.Duration,
+                durationData = AbilityResources.Duration,
                 statisticData = new StatisticEffectData
                 {
                     statName = "ActorConsumedFiring",
@@ -85,7 +85,7 @@ namespace BTX_ExpansionPack.Fixes
     }
 
     [HarmonyPatch(typeof(AbstractActor), "InitEffectStats")]
-    public static class AbstractActor_InitEffectStats_AbilityResourceFix
+    public static class AbstractActor_InitEffectStats
     {
         [HarmonyPostfix]
         public static void Postfix(AbstractActor __instance)
@@ -228,7 +228,7 @@ namespace BTX_ExpansionPack.Fixes
                     return;
                 }
 
-                selectedActor.CreateEffect(AbilityResourceEffects.AbilityUsedFiringData, null, AbilityResourceEffects.AbilityUsedFiringData.Description.Id, -1, selectedActor);
+                selectedActor.CreateEffect(AbilityResources.AbilityUsedFiringData, null, AbilityResources.AbilityUsedFiringData.Description.Id, -1, selectedActor);
                 for (int i = selectionStack.Count - 1; i >= 0; i--)
                 {
                     if (selectionStack[i] is SelectionStateFire selectionStateFire)
@@ -269,7 +269,7 @@ namespace BTX_ExpansionPack.Fixes
             }
             else if (__instance.Ability.Def.Resource == AbilityDef.ResourceConsumed.ConsumesMovement)
             {
-                selectedActor.CreateEffect(AbilityResourceEffects.ImmobileEffectData, null, AbilityResourceEffects.ImmobileEffectData.Description.Id, -1, selectedActor);
+                selectedActor.CreateEffect(AbilityResources.ImmobileEffectData, null, AbilityResources.ImmobileEffectData.Description.Id, -1, selectedActor);
                 HUD.SelectionHandler.DisableAbilitiesUsingResource(AbilityDef.ResourceConsumed.ConsumesMovement);
             }
             else if (__instance.Ability.Def.Resource == AbilityDef.ResourceConsumed.ConsumesActivation)
@@ -310,7 +310,7 @@ namespace BTX_ExpansionPack.Fixes
                     return;
                 }
 
-                selectedActor.CreateEffect(AbilityResourceEffects.AbilityUsedFiringData, null, AbilityResourceEffects.AbilityUsedFiringData.Description.Id, -1, selectedActor);
+                selectedActor.CreateEffect(AbilityResources.AbilityUsedFiringData, null, AbilityResources.AbilityUsedFiringData.Description.Id, -1, selectedActor);
                 for (int i = selectionStack.Count - 1; i >= 0; i--)
                 {
                     if (selectionStack[i] is SelectionStateFire selectionStateFire)
@@ -345,7 +345,7 @@ namespace BTX_ExpansionPack.Fixes
             else if (__instance.Ability.Def.Resource == AbilityDef.ResourceConsumed.ConsumesMovement)
             {
                 // selectedActor.HasMovedThisRound = true;
-                selectedActor.CreateEffect(AbilityResourceEffects.ImmobileEffectData, null, AbilityResourceEffects.ImmobileEffectData.Description.Id, -1, selectedActor);
+                selectedActor.CreateEffect(AbilityResources.ImmobileEffectData, null, AbilityResources.ImmobileEffectData.Description.Id, -1, selectedActor);
                 // selectedActor.Combat.EffectManager.CreateEffect(ImmobileEffect.ImmobileEffectData,"IRTweaks_Immobilized", -1, selectedActor, selectedActor, default(WeaponHitInfo), 1, false);
             }
             else if (__instance.Ability.Def.Resource == AbilityDef.ResourceConsumed.ConsumesActivation)
