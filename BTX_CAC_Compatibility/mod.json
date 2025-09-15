@@ -212,10 +212,10 @@
       "Type": "DropSlotDef",
       "Path": "dropslots"
     },
-    {
-      "Type": "PilotingClassDef",
-      "Path": "piloting_classes"
-    },
+    //{
+    //  "Type": "PilotingClassDef",
+    //  "Path": "piloting_classes"
+    //},
     {
       "Type": "MovementCapabilitiesDef",
       "Path": "movementdef"
