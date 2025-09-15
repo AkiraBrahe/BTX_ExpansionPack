@@ -65,6 +65,7 @@
     { "Type": "MechDef", "Path": "mechOmni", "ShouldMergeJSON": true },
     { "Type": "MovementCapabilitiesDef", "Path": "movement" },
     { "Type": "PathingCapabilitiesDef", "Path": "pathing" },
+    { "Type": "PilotingClassDef", "Path": "piloting_classes" },
     { "Type": "Sprite", "Path": "portraits" },
     //{ "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
     { "Type": "CCTagRestrictions", "Path": "tagRestrict" },
