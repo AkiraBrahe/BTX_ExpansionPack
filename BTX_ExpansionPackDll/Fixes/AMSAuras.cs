@@ -4,7 +4,6 @@ using CustomActivatableEquipment;
 using Localize;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Reflection.Emit;
 
 namespace BTX_ExpansionPack.Fixes
@@ -96,31 +95,24 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                bool found = false;
-                var codes = new List<CodeInstruction>(instructions);
                 var targetMethod = AccessTools.Method(typeof(Weapon), "get_MaxRange");
                 var replacementMethod = AccessTools.Method(typeof(CustomAmmoCategories_CalcAMSAIDamageCoeff), nameof(GetAMSRange));
 
-                for (int i = 0; i < codes.Count; i++)
-                {
-                    if (codes[i].opcode == OpCodes.Callvirt && codes[i].operand as MethodInfo == targetMethod)
-                    {
-                        if (i > 0 && codes[i - 1].opcode == OpCodes.Ldarg_0)
-                        {
-                            codes[i] = new CodeInstruction(OpCodes.Call, replacementMethod);
+                var matcher = new CodeMatcher(instructions);
+                matcher.MatchForward(false,
+                    new CodeMatch(OpCodes.Ldarg_0),
+                    new CodeMatch(OpCodes.Callvirt, targetMethod)
+                );
 
-                            found = true;
-                            break;
-                        }
-                    }
-                }
-
-                if (!found)
+                if (matcher.IsInvalid)
                 {
                     Main.Log.LogWarning("Could not find the IL sequence to replace for AMS range calculation.");
+                    return instructions;
                 }
 
-                return codes.AsEnumerable();
+                matcher.Advance(1);
+                matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, replacementMethod));
+                return matcher.InstructionEnumeration();
             }
 
             public static float GetAMSRange(Weapon weapon)

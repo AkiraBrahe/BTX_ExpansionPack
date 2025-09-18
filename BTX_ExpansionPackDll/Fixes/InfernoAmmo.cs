@@ -84,35 +84,30 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                var codes = instructions.ToList();
-                var hasInfernoMethod = AccessTools.Method(typeof(InfernoOverheat), nameof(HasInferno), [typeof(Mech)]);
-                bool found = false;
+                var hasInfernoMethod = AccessTools.Method(typeof(InfernoOverheat), nameof(HasInferno));
 
-                for (int i = 0; i < codes.Count; i++)
-                {
-                    if (!found && i < codes.Count - 3 &&
-                        codes[i].opcode.ToString().StartsWith("ldloc") &&
-                        codes[i + 1].opcode == OpCodes.Callvirt &&
-                        codes[i + 1].operand is MethodInfo mi && mi.Name == "get_Count" &&
-                        codes[i + 2].opcode == OpCodes.Ldc_I4_0 &&
-                        codes[i + 3].opcode == OpCodes.Cgt)
-                    {
-                        var labels = codes[i].labels;
-                        var ldarg0 = new CodeInstruction(OpCodes.Ldarg_0);
-                        ldarg0.labels.AddRange(labels);
-                        yield return ldarg0;
-                        yield return new CodeInstruction(OpCodes.Call, hasInfernoMethod);
-                        found = true;
-                        i += 3;
-                        continue;
-                    }
-                    yield return codes[i];
-                }
+                var matcher = new CodeMatcher(instructions);
+                matcher.MatchForward(false,
+                    new CodeMatch(inst => inst.opcode.ToString().StartsWith("ldloc")),
+                    new CodeMatch(inst => inst.opcode == OpCodes.Callvirt && inst.operand is MethodInfo mi && mi.Name == "get_Count"),
+                    new CodeMatch(OpCodes.Ldc_I4_0),
+                    new CodeMatch(OpCodes.Cgt)
+                );
 
-                if (!found)
+                if (matcher.IsInvalid)
                 {
                     Main.Log.LogWarning("Could not find the IL sequence to replace for inferno ammo check.");
+                    return instructions;
                 }
+
+                var labels = matcher.Instruction.labels.ToList();
+                matcher.RemoveInstructions(4);
+                matcher.Insert(
+                    new CodeInstruction(OpCodes.Ldarg_0) { labels = labels },
+                    new CodeInstruction(OpCodes.Call, hasInfernoMethod)
+                );
+
+                return matcher.InstructionEnumeration();
             }
 
             public static bool HasInferno(Mech __instance) =>
