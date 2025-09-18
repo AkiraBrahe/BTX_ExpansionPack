@@ -1,0 +1,132 @@
+{
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": 1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
+      },
+      "Description": {
+        "Id": "StatusEffect-CommandConsole-Floatie",
+        "Name": "COMMAND CONSOLE",
+        "Details": "Provides +1 Initiative, +2 Resolve, +25m View, and +2 Max Injuries.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "effectType": "FloatieEffect",
+      "nature": "Buff",
+      "floatieData": {
+        "targetCollection": "NotSet"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Initiative_Add-T1",
+        "Name": "INITIATIVE INCREASED",
+        "Details": "Provides + 1 Initiative.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "BaseInitiative",
+        "operation": "Int_Add",
+        "modValue": "-1",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Morale_Gain-T2",
+        "Name": "MORALE GENERATION INCREASED",
+        "Details": "Provides a bonus to actions that generate Resolve.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "MoraleBonusGain",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Spotting_Gain-T1",
+        "Name": "SPOTTING DISTANCE INCREASED",
+        "Details": "Increases spotting distance by 25m.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "SpotterDistanceAbsolute",
+        "operation": "Float_Add",
+        "modValue": "25.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Pilot_HealthAdd-T2",
+        "Name": "MAX INJURIES INCREASED",
+        "Details": "Prevents Injuries against a MechWarrior.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "BonusHealth",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32",
+        "targetCollection": "Pilot"
+      }
+    }
+  ]
+}

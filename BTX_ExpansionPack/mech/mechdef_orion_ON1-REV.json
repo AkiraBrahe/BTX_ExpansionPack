@@ -116,7 +116,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Gauss_Gauss_2-M9",
+      "ComponentDefID": "Weapon_PPC_PPCSnub_2-Donal",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -124,25 +124,9 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
+      "ComponentDefID": "Weapon_SRM_ASRM4_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
@@ -156,7 +140,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PPC_PPCSnub_2-Donal",
+      "ComponentDefID": "Weapon_Gauss_Gauss_2-M9",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -164,9 +148,25 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_SRM_ASRM4_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },

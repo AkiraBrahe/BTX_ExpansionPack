@@ -3,7 +3,7 @@
     "Id": "DesignMaskBurningTerrain",
     "Name": "FIRE",
     "Details": "Units passing through burning terrain only sink 50% of their normal Heat.",
-    "Icon": "uixSvgIcon_designMask_geothermal"
+    "Icon": "uixSvgIcon_statusOnFire"
   },
   "moveCostMechLight": 1.1,
   "moveCostMechMedium": 1.1,
@@ -48,7 +48,7 @@
       "Id": "DesignMaskBurningTerrain",
       "Name": "FIRE",
       "Details": "This unit caught fire after passing through burning terrain. It will only sink 50% of its normal Heat until its next activation.",
-      "Icon": "uixSvgIcon_designMask_rough"
+      "Icon": "uixSvgIcon_statusOnFire"
     },
     "statisticData": {
       "statName": "HeatSinkCapacity",
