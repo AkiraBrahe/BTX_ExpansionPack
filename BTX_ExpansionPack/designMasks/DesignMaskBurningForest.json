@@ -3,7 +3,7 @@
     "Id": "DesignMaskBurningForest",
     "Name": "BURNING FOREST",
     "Details": "Smoke makes it difficult for enemies to target you but also impacts your targeting ability (+5 To Hit penalty from and within Smoke). Units passing through a burning forest only sink 50% of their normal Heat.",
-    "Icon": "uixSvgIcon_designMask_geothermal"
+    "Icon": "uixSvgIcon_statusOnFire"
   },
   "moveCostMechLight": 1.25,
   "moveCostMechMedium": 1.25,
@@ -49,7 +49,7 @@
       "Id": "DesignMaskBurningForest",
       "Name": "BURNING FOREST",
       "Details": "This unit caught fire after passing through a burning forest. It will only sink 50% of its normal Heat until its next activation.",
-      "Icon": "uixSvgIcon_designMask_rough"
+      "Icon": "uixSvgIcon_statusOnFire"
     },
     "statisticData": {
       "statName": "HeatSinkCapacity",

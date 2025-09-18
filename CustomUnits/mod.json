@@ -49,8 +49,8 @@
     "overallDeploySize": 4,
     "CountContractMaxUnits4AsUnlimited": false,
     "ConvoyMaxDistFromOther": 200,
-    "ConvoyMaxDistFromPlayer": 300,
-    "ConvoyMaxDistFromRoute": 90,
+    "ConvoyMaxDistFromPlayer": 400,
+    "ConvoyMaxDistFromRoute": 120,
     "ConvoyRouteBeaconVFXScale": {
       "x": 1,
       "y": 1,
