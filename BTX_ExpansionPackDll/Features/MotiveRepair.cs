@@ -26,8 +26,6 @@ namespace BTX_ExpansionPack.Features
         [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]
         public static class AbstractActor_OnActivationEnd
         {
-
-
             [HarmonyPrefix]
             public static void Prefix(AbstractActor __instance)
             {

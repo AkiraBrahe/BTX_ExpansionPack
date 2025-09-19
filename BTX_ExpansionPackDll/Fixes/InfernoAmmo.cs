@@ -11,6 +11,18 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class InfernoAmmo
     {
+        [HarmonyPatch(typeof(AdvWeaponHitInfo), "ApplyHitEffects")]
+        class AdvWeaponHitInfo_ApplyHitEffects
+        {
+            public static void Postfix(AdvWeaponHitInfo __instance)
+            {
+                foreach (AdvWeaponResolveInfo advRes in __instance.resolveInfo.Values)
+                {
+                    advRes.floatieMessages = [.. advRes.floatieMessages.Where((s) => !s.EndsWith("VFX"))];
+                }
+            }
+        }
+
         /// <summary>
         /// Applies the correct bonus damage with inferno ammo.
         /// </summary>

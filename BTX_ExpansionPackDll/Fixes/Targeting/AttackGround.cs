@@ -41,8 +41,8 @@ namespace BTX_ExpansionPack.Fixes
                     float distance = Vector3.Distance(selectedActor.CurrentPosition, worldPos);
                     float minRange = weapon.MinRange;
                     float forbiddenRange = weapon.ForbiddenRange() > 0f
-                        ? weapon.ForbiddenRange()
-                        : weapon.AOERange() / 2f;
+                        ? weapon.ForbiddenRange() : weapon.AOERange() > 0f
+                            ? weapon.AOERange() / 2f : 0f;
 
                     if (distance < minRange)
                     {
