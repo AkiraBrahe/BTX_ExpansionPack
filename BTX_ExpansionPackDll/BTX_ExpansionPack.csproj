@@ -44,6 +44,7 @@
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.TonnageCalculation" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
+    <Publicize Include="CustomUnits:CustomUnits.MoveClampHelper.moveClampCache" />
     <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
     <Publicize Include="Extended_CE:Extended_CE.NewTech.ArmorRules" />
     <Publicize Include="MechQuirks:Quirks.MechQuirks.modSettings" />

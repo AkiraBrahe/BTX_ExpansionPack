@@ -2,8 +2,8 @@
 using BattleTech.UI;
 using BattleTech.UI.TMProWrapper;
 using BTX_CAC_CompatibilityDll;
-using CustomUnits;
-using UnityEngine;
+using CustAmmoCategories;
+using System.Collections.Generic;
 
 namespace BTX_ExpansionPack.Fixes
 {
@@ -38,11 +38,7 @@ namespace BTX_ExpansionPack.Fixes
 
                 if (___mechLab.activeMechDef.IsVehicle())
                 {
-                    ___totalTonnage.SetText("{0:0.##} ton{1}",
-                    [
-                        chassisDef.Tonnage,
-                        (chassisDef.Tonnage == 1) ? "" : "s"
-                    ]);
+                    ___totalTonnage.SetText("{0:0.##}", chassisDef.Tonnage);
                     ___totalTonnageColor.SetUIColor(UIColor.White);
                     ___remainingTonnage.SetText("");
                     ___remainingTonnageColor.SetUIColor(UIColor.White);
@@ -63,7 +59,7 @@ namespace BTX_ExpansionPack.Fixes
                         ___remainingTonnage.SetText("{0:0.##} ton{1} overweight",
                         [
                             overweightTons,
-                        (remainingWeightKG == -1000) ? "" : "s"
+                            (remainingWeightKG == -1000) ? "" : "s"
                         ]);
                     }
                     else
@@ -71,13 +67,41 @@ namespace BTX_ExpansionPack.Fixes
                         ___remainingTonnage.SetText("{0:0.##} ton{1} remaining",
                         [
                             remainingWeightKG / 1000f,
-                        (remainingWeightKG == 1000) ? "" : "s"
+                            (remainingWeightKG == 1000) ? "" : "s"
                         ]);
                     }
                     ___remainingTonnageColor.SetUIColor((remainingWeightKG < 0) ? UIColor.Red : ((remainingWeightKG <= 500) ? UIColor.Gold : UIColor.White));
                 }
 
                 return false;
+            }
+        }
+
+        /// <summary>
+        /// Removes all hand/arm actuator effects from vehicles.
+        /// </summary>
+        [HarmonyPatch(typeof(Mech), "InitStats")]
+        public static class Mech_InitStats
+        {
+            [HarmonyPostfix]
+            [HarmonyPriority(Priority.Last)]
+            public static void Postfix(Mech __instance)
+            {
+                if (__instance.FakeVehicle())
+                {
+                    EffectManager effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
+                    List<Effect> effects = effectManager.GetAllEffectsTargeting(__instance);
+
+                    foreach (Effect effect in effects)
+                    {
+                        string effectId = effect.EffectData?.Description?.Id;
+                        if (effectId is "LeftHandEffectMelee" or "RightHandEffectMelee" or
+                            "LeftLowerArmEffectMeleeDmg" or "RightLowerArmEffectMelee")
+                        {
+                            effectManager.CancelEffect(effect, true);
+                        }
+                    }
+                }
             }
         }
     }

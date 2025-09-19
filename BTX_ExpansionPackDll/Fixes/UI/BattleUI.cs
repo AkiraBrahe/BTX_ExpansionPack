@@ -40,11 +40,12 @@ namespace BTX_ExpansionPack.Fixes.UI
             public static bool Prepare() => Main.Settings.UI.Battle.ShowFullLocationName;
 
             [HarmonyPrefix]
-            public static bool Prefix(Mech unit, int location, ref string __result)
+            public static bool Prefix(ref bool __runOriginal, Mech unit, int location, ref string __result)
             {
                 if (unit == null)
                 {
                     __result = string.Empty;
+                    __runOriginal = false;
                     return false;
                 }
 
@@ -66,6 +67,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 };
 
                 __result = text;
+                __runOriginal = false;
                 return false;
             }
 
@@ -85,11 +87,12 @@ namespace BTX_ExpansionPack.Fixes.UI
             public static bool Prepare() => Main.Settings.UI.Battle.ShowFullLocationName;
 
             [HarmonyPrefix]
-            public static bool Prefix(Vehicle unit, int location, ref string __result)
+            public static bool Prefix(ref bool __runOriginal, Vehicle unit, int location, ref string __result)
             {
                 if (unit == null)
                 {
                     __result = string.Empty;
+                    __runOriginal = false;
                     return false;
                 }
 
@@ -109,6 +112,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 };
 
                 __result = text;
+                __runOriginal = false;
                 return false;
             }
 
