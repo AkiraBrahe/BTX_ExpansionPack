@@ -96,30 +96,17 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                var hasInfernoMethod = AccessTools.Method(typeof(InfernoOverheat), nameof(HasInferno));
-
-                var matcher = new CodeMatcher(instructions);
-                matcher.MatchForward(false,
-                    new CodeMatch(inst => inst.opcode.ToString().StartsWith("ldloc")),
-                    new CodeMatch(inst => inst.opcode == OpCodes.Callvirt && inst.operand is MethodInfo mi && mi.Name == "get_Count"),
-                    new CodeMatch(OpCodes.Ldc_I4_0),
-                    new CodeMatch(OpCodes.Cgt)
-                );
-
-                if (matcher.IsInvalid)
-                {
-                    Main.Log.LogWarning("Could not find the IL sequence to replace for inferno ammo check.");
-                    return instructions;
-                }
-
-                var labels = matcher.Instruction.labels.ToList();
-                matcher.RemoveInstructions(4);
-                matcher.Insert(
-                    new CodeInstruction(OpCodes.Ldarg_0) { labels = labels },
-                    new CodeInstruction(OpCodes.Call, hasInfernoMethod)
-                );
-
-                return matcher.InstructionEnumeration();
+                return new CodeMatcher(instructions)
+                    .MatchForward(false,
+                        new CodeMatch(inst => inst.opcode.ToString().StartsWith("ldloc")),
+                        new CodeMatch(inst => inst.opcode == OpCodes.Callvirt && inst.operand is MethodInfo mi && mi.Name == "get_Count"),
+                        new CodeMatch(OpCodes.Ldc_I4_0),
+                        new CodeMatch(OpCodes.Cgt)
+                    )
+                    .ThrowIfInvalid("Failed to replace inferno ammo check")
+                    .SetOpcodeAndAdvance(OpCodes.Ldarg_0)
+                    .SetOperandAndAdvance(AccessTools.Method(typeof(InfernoOverheat), nameof(HasInferno)))
+                    .InstructionEnumeration();
             }
 
             public static bool HasInferno(Mech __instance) =>
