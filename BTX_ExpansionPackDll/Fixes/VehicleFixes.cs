@@ -3,7 +3,9 @@ using BattleTech.UI;
 using BattleTech.UI.TMProWrapper;
 using BTX_CAC_CompatibilityDll;
 using CustAmmoCategories;
+using Extended_CE;
 using System.Collections.Generic;
+using System.Reflection.Emit;
 
 namespace BTX_ExpansionPack.Fixes
 {
@@ -78,31 +80,33 @@ namespace BTX_ExpansionPack.Fixes
         }
 
         /// <summary>
-        /// Removes all hand/arm actuator effects from vehicles.
+        /// Prevents hand/arm actuator effects from being added to vehicles.
         /// </summary>
-        [HarmonyPatch(typeof(Mech), "InitStats")]
-        public static class Mech_InitStats
+        [HarmonyPatch(typeof(BTComponents.Mech_InitStats), "Postfix")]
+        public static class Mech_InitStats_Postfix
         {
-            [HarmonyPostfix]
-            [HarmonyPriority(Priority.Last)]
-            public static void Postfix(Mech __instance)
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
-                if (__instance.FakeVehicle())
-                {
-                    EffectManager effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
-                    List<Effect> effects = effectManager.GetAllEffectsTargeting(__instance);
-
-                    foreach (Effect effect in effects)
-                    {
-                        string effectId = effect.EffectData?.Description?.Id;
-                        if (effectId is "LeftHandEffectMelee" or "RightHandEffectMelee" or
-                            "LeftLowerArmEffectMeleeDmg" or "RightLowerArmEffectMelee")
-                        {
-                            effectManager.CancelEffect(effect, true);
-                        }
-                    }
-                }
+                return new CodeMatcher(instructions, il)
+                    .MatchForward(true,
+                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents")),
+                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S)
+                    )
+                    .ThrowIfInvalid("Failed to prevent actuator effects on vehicles")
+                    .CreateLabel(out var skipEffectsLabel)
+                    .MatchBack(false,
+                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents"))
+                    )
+                    .Insert(
+                        new CodeInstruction(OpCodes.Ldarg_0),
+                        new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Mech_InitStats_Postfix), nameof(IsFakeVee))),
+                        new CodeInstruction(OpCodes.Brtrue_S, skipEffectsLabel)
+                    )
+                    .InstructionEnumeration();
             }
+
+            private static bool IsFakeVee(Mech mech) => mech.FakeVehicle();
         }
     }
 }

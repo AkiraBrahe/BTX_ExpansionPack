@@ -89,30 +89,23 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Calculates the correct AMS range when using AMS.
+        /// </summary>
         [HarmonyPatch(typeof(CustomAmmoCategories), "CalcAMSAIDamageCoeff")]
-        public static class CustomAmmoCategories_CalcAMSAIDamageCoeff
+        public static class CalcAMSAIDamageCoeff
         {
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                var targetMethod = AccessTools.Method(typeof(Weapon), "get_MaxRange");
-                var replacementMethod = AccessTools.Method(typeof(CustomAmmoCategories_CalcAMSAIDamageCoeff), nameof(GetAMSRange));
-
-                var matcher = new CodeMatcher(instructions);
-                matcher.MatchForward(false,
-                    new CodeMatch(OpCodes.Ldarg_0),
-                    new CodeMatch(OpCodes.Callvirt, targetMethod)
-                );
-
-                if (matcher.IsInvalid)
-                {
-                    Main.Log.LogWarning("Could not find the IL sequence to replace for AMS range calculation.");
-                    return instructions;
-                }
-
-                matcher.Advance(1);
-                matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, replacementMethod));
-                return matcher.InstructionEnumeration();
+                return new CodeMatcher(instructions)
+                    .MatchForward(true,
+                        new CodeMatch(OpCodes.Ldarg_0),
+                        new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(Weapon), "get_MaxRange"))
+                    )
+                    .ThrowIfInvalid("Failed to replace AMS range calculation")
+                    .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CalcAMSAIDamageCoeff), nameof(GetAMSRange))))
+                    .InstructionEnumeration();
             }
 
             public static float GetAMSRange(Weapon weapon)

@@ -23,20 +23,14 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyTranspiler]
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
-            var matcher = new CodeMatcher(instructions);
-            matcher.MatchForward(false,
-                new CodeMatch(OpCodes.Ldloc_1),
-                new CodeMatch(inst => inst.opcode == OpCodes.Brfalse || inst.opcode == OpCodes.Brfalse_S)
-            );
-
-            if (matcher.IsInvalid)
-            {
-                Main.Log.LogWarning("Could not find the IL sequence to replace for mech blacklist bypass");
-                return instructions;
-            }
-
-            matcher.SetOpcodeAndAdvance(OpCodes.Ldc_I4_0);
-            return matcher.InstructionEnumeration();
+            return new CodeMatcher(instructions)
+                .MatchForward(false,
+                    new CodeMatch(OpCodes.Ldloc_1),
+                    new CodeMatch(inst => inst.opcode == OpCodes.Brfalse || inst.opcode == OpCodes.Brfalse_S)
+                )
+                .ThrowIfInvalid("Failed to bypass blacklist")
+                .SetOpcodeAndAdvance(OpCodes.Ldc_I4_0)
+                .InstructionEnumeration();
         }
     }
 }
