@@ -44,7 +44,7 @@
     { "Type": "AmmunitionDef", "Path": "ammunition"},
     //{ "Type": "AmmunitionDef", "Path": "ammunitionMerge", "ShouldMergeJSON": true },
     { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox"},
-    //{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBoxMerge", "ShouldMergeJSON": true },
+    { "Type": "AmmunitionBoxDef", "Path": "ammunitionBoxMerge", "ShouldMergeJSON": true },
     { "Type": "ChassisDef", "Path": "chassis"},
     { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
     { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
