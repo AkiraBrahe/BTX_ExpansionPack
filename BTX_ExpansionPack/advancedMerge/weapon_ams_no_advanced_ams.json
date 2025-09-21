@@ -14,9 +14,21 @@
       }
     },
     {
+      "JSONPath": "$.Modes[?(@Id == 'AMS_MG')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ShotsPerAmmo": 0.5
+      }
+    },
+    {
       "JSONPath": "$",
       "Action": "ObjectMerge",
       "Value": {
+        "RangeSplit": [
+          30,
+          60,
+          90
+        ],
         "Auras": [
           {
             "Id": "AMS",
@@ -29,7 +41,7 @@
             "HideOnNotSelected": true,
             "AllyStealthAffection": "None",
             "EnemyStealthAffection": "None",
-            "IsPositiveToAlly": false
+            "IsPositiveToAlly": true
           }
         ]
       }

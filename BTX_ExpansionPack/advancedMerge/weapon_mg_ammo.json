@@ -1,0 +1,24 @@
+{
+  "TargetIDs": [
+    "Weapon_MachineGun_CMachineGun_0-STOCK",
+    "Weapon_MachineGun_CMachineGun_1-SeriesIX",
+    "Weapon_MachineGun_CMachineGun_2-SeriesIX",
+    "Weapon_MachineGun_CMachineGun_2-SeriesXII",
+    "Weapon_MachineGun_MachineGun_0-STOCK",
+    "Weapon_MachineGun_MachineGun_1-Brigadier",
+    "Weapon_MachineGun_MachineGun_1-VMI",
+    "Weapon_MachineGun_MachineGun_2-Brigadier",
+    "Weapon_MachineGun_MachineGun_2-VMI",
+    "Weapon_MachineGun_MachineGunHeavy_0-STOCK",
+    "Weapon_MachineGun_MachineGunLight_0-STOCK"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ShotsPerAmmo": 0.5
+      }
+    }
+  ]
+}
