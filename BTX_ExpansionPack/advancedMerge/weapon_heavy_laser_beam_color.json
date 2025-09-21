@@ -1,0 +1,22 @@
+{
+  "TargetIDs": [
+    "Weapon_Laser_CSmallLaserHeavy_0-STOCK",
+    "Weapon_Laser_CMediumLaserHeavy_0-STOCK",
+    "Weapon_Laser_CLargeLaserHeavy_0-STOCK"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "ColorChangeRule": "t0",
+        "ColorsTable": [
+          {
+            "C": "#FFD700",
+            "I": 5
+          }
+        ]
+      }
+    }
+  ]
+}
