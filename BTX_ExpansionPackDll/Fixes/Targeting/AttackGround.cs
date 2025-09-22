@@ -13,13 +13,13 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(SelectionStateCommandAttackGround), "ProcessLeftClick")]
         internal class SelectionStateCommandAttackGround_ProcessLeftClick
         {
-            [HarmonyPrefix]
-            public static bool Prefix(SelectionStateCommandAttackGround __instance, Vector3 worldPos)
+            [HarmonyPostfix]
+            public static void Postfix(SelectionStateCommandAttackGround __instance, Vector3 worldPos, ref bool __result)
             {
-                if (__instance.NumPositionsLocked != 0) return false;
+                if (__result == false) return;
 
-                AbstractActor selectedActor = __instance.SelectedActor;
-                foreach (Weapon weapon in selectedActor.Weapons)
+                AbstractActor actor = __instance.SelectedActor;
+                foreach (Weapon weapon in actor.Weapons)
                 {
                     if (!weapon.IsFunctional || !weapon.IsEnabled || weapon.isAMS())
                         continue;
@@ -34,11 +34,11 @@ namespace BTX_ExpansionPack.Fixes
                             .IsNestedPopupWithBuiltInFader()
                             .CancelOnEscape()
                             .Render();
-                        return false;
+                        return;
                     }
 
                     // Prevent ground attack within minimum or forbidden ranges
-                    float distance = Vector3.Distance(selectedActor.CurrentPosition, worldPos);
+                    float distance = Vector3.Distance(actor.CurrentPosition, worldPos);
                     float minRange = weapon.MinRange;
                     float forbiddenRange = weapon.ForbiddenRange() > 0f
                         ? weapon.ForbiddenRange() : weapon.AOERange() > 0f
@@ -53,7 +53,7 @@ namespace BTX_ExpansionPack.Fixes
                             .IsNestedPopupWithBuiltInFader()
                             .CancelOnEscape()
                             .Render();
-                        return false;
+                        return;
                     }
                     else if (distance < forbiddenRange)
                     {
@@ -64,11 +64,9 @@ namespace BTX_ExpansionPack.Fixes
                             .IsNestedPopupWithBuiltInFader()
                             .CancelOnEscape()
                             .Render();
-                        return false;
+                        return;
                     }
                 }
-
-                return true;
             }
         }
     }
