@@ -11,6 +11,9 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class InfernoAmmo
     {
+        /// <summary>
+        /// Hides VFX floatie messages.
+        /// </summary>
         [HarmonyPatch(typeof(AdvWeaponHitInfo), "ApplyHitEffects")]
         class AdvWeaponHitInfo_ApplyHitEffects
         {
@@ -103,7 +106,7 @@ namespace BTX_ExpansionPack.Fixes
                         new CodeMatch(OpCodes.Ldc_I4_0),
                         new CodeMatch(OpCodes.Cgt)
                     )
-                    .ThrowIfInvalid("Failed to replace inferno ammo check")
+                    .ThrowIfInvalid("Failed to find inferno ammo check in Mech_OnActivationEnd.Prefix")
                     .SetOpcodeAndAdvance(OpCodes.Ldarg_0)
                     .SetOperandAndAdvance(AccessTools.Method(typeof(InfernoOverheat), nameof(HasInferno)))
                     .InstructionEnumeration();

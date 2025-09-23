@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Various fixes from IRTweaks related to abilities that consume resources.
+    /// </summary>
     public static class AbilityResources
     {
         public static bool GetAbilityUsedFiring(this AbstractActor actor)

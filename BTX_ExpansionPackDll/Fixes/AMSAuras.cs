@@ -10,6 +10,9 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class AMSAuras
     {
+        /// <summary>
+        /// Shows the correct AMS range when using AMS.
+        /// </summary>
         [HarmonyPatch(typeof(AuraBubble), nameof(AuraBubble.GetRadius), MethodType.Normal)]
         public static class AuraBubble_GetRadius
         {
@@ -36,12 +39,37 @@ namespace BTX_ExpansionPack.Fixes
                 }
 
                 __result = __instance.owner.StatCollection
-                    .GetStatistic(__instance.Def.RangeStatistic)
-                    .Value<float>();
+                    .GetStatistic(__instance.Def.RangeStatistic).Value<float>();
                 return false;
             }
         }
 
+        [HarmonyPatch(typeof(CustomAmmoCategories), "CalcAMSAIDamageCoeff")]
+        public static class CalcAMSAIDamageCoeff
+        {
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+            {
+                return new CodeMatcher(instructions)
+                    .MatchForward(true,
+                        new CodeMatch(OpCodes.Ldarg_0),
+                        new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(Weapon), "get_MaxRange"))
+                    )
+                    .ThrowIfInvalid("Failed to find MaxRange call in CalcAMSAIDamageCoeff")
+                    .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CalcAMSAIDamageCoeff), nameof(GetAMSRange))))
+                    .InstructionEnumeration();
+            }
+
+            public static float GetAMSRange(Weapon weapon)
+            {
+                AuraDef amsAura = weapon.weaponDef.GetAuras().FirstOrDefault(a => a.Name == "AMS");
+                return amsAura?.Range > 0 ? amsAura.Range : weapon.MaxRange;
+            }
+        }
+
+        /// <summary>
+        /// Limits AMS protection floaties to one per ally per turn.
+        /// </summary>
         private static readonly HashSet<string> protectedAllies = [];
 
         [HarmonyPatch(typeof(AuraActorBody), "ShowAddFloatie", [typeof(AuraBubble), typeof(bool)])]
@@ -86,32 +114,6 @@ namespace BTX_ExpansionPack.Fixes
                 {
                     protectedAllies.Remove(__instance.GUID);
                 }
-            }
-        }
-
-        /// <summary>
-        /// Calculates the correct AMS range when using AMS.
-        /// </summary>
-        [HarmonyPatch(typeof(CustomAmmoCategories), "CalcAMSAIDamageCoeff")]
-        public static class CalcAMSAIDamageCoeff
-        {
-            [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
-            {
-                return new CodeMatcher(instructions)
-                    .MatchForward(true,
-                        new CodeMatch(OpCodes.Ldarg_0),
-                        new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(Weapon), "get_MaxRange"))
-                    )
-                    .ThrowIfInvalid("Failed to replace AMS range calculation")
-                    .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CalcAMSAIDamageCoeff), nameof(GetAMSRange))))
-                    .InstructionEnumeration();
-            }
-
-            public static float GetAMSRange(Weapon weapon)
-            {
-                AuraDef amsAura = weapon.weaponDef.GetAuras().FirstOrDefault(a => a.Name == "AMS");
-                return amsAura?.Range > 0 ? amsAura.Range : weapon.MaxRange;
             }
         }
     }

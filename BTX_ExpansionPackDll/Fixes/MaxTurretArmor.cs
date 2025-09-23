@@ -2,6 +2,9 @@
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Fixes turreted vehicles having incorrect max turret armor.
+    /// </summary>
     internal class MaxTurretArmor
     {
         [HarmonyPatch(typeof(Extended_CE.NewTech.ArmorRules), "MaxFrontArmor")]

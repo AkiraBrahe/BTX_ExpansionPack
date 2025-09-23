@@ -11,6 +11,9 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class VehicleFixes
     {
+        /// <summary>
+        /// Uses actual vehicle weight instead of calculating it.
+        /// </summary>
         [HarmonyPatch(typeof(MechStatisticsRules), "CalculateTonnage")]
         public class MechStatisticsRules_CalculateTonnage
         {
@@ -23,6 +26,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Shows correct tonnage and remaining tonnage for vehicles in the mech lab.
+        /// </summary>
         [HarmonyPatch(typeof(MechLabMechInfoWidget), "CalculateTonnage")]
         public class MechLabMechInfoWidget_CalculateTonnage
         {
@@ -91,9 +97,11 @@ namespace BTX_ExpansionPack.Fixes
                 return new CodeMatcher(instructions, il)
                     .MatchForward(true,
                         new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents")),
+                        new CodeMatch(OpCodes.Stloc_S),
+                        new CodeMatch(OpCodes.Ldloc_S),
                         new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S)
                     )
-                    .ThrowIfInvalid("Failed to prevent actuator effects on vehicles")
+                    .ThrowIfInvalid("Failed to find UsingComponents call in Mech_InitStats.Postfix")
                     .CreateLabel(out var skipEffectsLabel)
                     .MatchBack(false,
                         new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents"))
@@ -106,7 +114,7 @@ namespace BTX_ExpansionPack.Fixes
                     .InstructionEnumeration();
             }
 
-            private static bool IsFakeVee(Mech mech) => mech.FakeVehicle();
+            public static bool IsFakeVee(Mech mech) => mech.FakeVehicle();
         }
     }
 }
