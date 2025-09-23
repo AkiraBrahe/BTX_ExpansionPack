@@ -6,6 +6,10 @@ using UnityEngine;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Validates pilot tags to ensure each pilot has a specialization.
+    /// Removes obsolete "can_pilot_" tags and replaces them with appropriate specialization tags.
+    /// </summary>
     internal class PilotSpecialization
     {
         private const string MechPilotTag = "pilot_mech_pilot";

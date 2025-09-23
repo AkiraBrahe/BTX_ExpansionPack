@@ -3,6 +3,9 @@ using CustAmmoCategories;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Reduces move distance if the mech with Poor Performance quirk has not moved last turn.
+    /// </summary>
     internal class PoorPerformance
     {
         [HarmonyPatch(typeof(Mech), "MaxSprintDistance", MethodType.Getter)]

@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Overrides firing arc logic to correctly handle both vehicles and mechs with quirks.
+    /// </summary>
     internal class FiringArcs
     {
         [HarmonyPatch(typeof(Mech), "IsTargetPositionInFiringArc")]

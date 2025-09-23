@@ -7,6 +7,9 @@ namespace BTX_ExpansionPack.Features
 {
     internal class MotiveRepair
     {
+        /// <summary>
+        /// Removes motive system loss debuffs at the end of the turn if the Motive Repair ability is active.
+        /// </summary>
         [HarmonyPatch(typeof(AbstractActor), "InitEffectStats")]
         public static class AbstractActor_InitEffectStats
         {
@@ -20,9 +23,6 @@ namespace BTX_ExpansionPack.Features
             }
         }
 
-        /// <summary>
-        /// Removes up to three motive system loss debuffs at the end of the turn if the Motive Repair ability is active.
-        /// </summary>
         [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]
         public static class AbstractActor_OnActivationEnd
         {
@@ -86,6 +86,9 @@ namespace BTX_ExpansionPack.Features
             }
         }
 
+        /// <summary>
+        /// Disables the Motive Repair ability button for non-vehicles.
+        /// </summary>
         [HarmonyPatch(typeof(CombatHUDMechwarriorTray), "ResetAbilityButton", [typeof(AbstractActor), typeof(CombatHUDActionButton), typeof(Ability), typeof(bool)])]
         public static class CombatHUDMechwarriorTray_ResetAbilityButton
         {

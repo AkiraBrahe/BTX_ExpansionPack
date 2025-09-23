@@ -6,6 +6,9 @@ using System.Reflection.Emit;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Allows to add blacklisted mechs via "Fell Off A Cargo Ship".
+    /// </summary>
     [HarmonyPatch]
     public static class MechBlacklistBypass
     {
@@ -28,7 +31,7 @@ namespace BTX_ExpansionPack.Fixes
                     new CodeMatch(OpCodes.Ldloc_1),
                     new CodeMatch(inst => inst.opcode == OpCodes.Brfalse || inst.opcode == OpCodes.Brfalse_S)
                 )
-                .ThrowIfInvalid("Failed to bypass blacklist")
+                .ThrowIfInvalid("Failed to find blacklist check in Mech.Add")
                 .SetOpcodeAndAdvance(OpCodes.Ldc_I4_0)
                 .InstructionEnumeration();
         }

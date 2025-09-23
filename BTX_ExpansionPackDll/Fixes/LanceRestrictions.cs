@@ -8,6 +8,9 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal static class LanceRestrictions
     {
+        /// <summary>
+        /// Prevents units with biome restrictions from being deployed in that biome.
+        /// </summary>
         [HarmonyPatch(typeof(LanceConfiguratorPanel), "OnConfirmClicked")]
         public static class LanceConfiguratorPanel_OnConfirmClicked_NoBiome
         {
@@ -84,6 +87,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Prevents vehicles from being deployed in Duel contracts.
+        /// </summary>
         [HarmonyPatch(typeof(LanceConfiguratorPanel), "ValidateLance")]
         public static class LanceConfiguratorPanel_ValidateLance_NoVehicleDuel
         {

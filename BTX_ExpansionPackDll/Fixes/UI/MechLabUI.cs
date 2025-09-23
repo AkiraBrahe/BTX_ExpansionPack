@@ -17,6 +17,9 @@ namespace BTX_ExpansionPack.Fixes
 {
     internal class MechLabUI
     {
+        /// <summary>
+        /// Improves the description of the "Reduced Component Refitting" option.
+        /// </summary>
         [HarmonyPatch(typeof(ReducedComponentRefInfoHelper), "description")]
         public static class ReducedComponentRefInfoHelper_description
         {
@@ -36,6 +39,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Prevents a known UI bug when trying to refit a vehicle before refitting a mech first.
+        /// </summary>
         private static bool IsMechLabInitializedByMech = false;
 
         [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
@@ -72,6 +78,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Shows hardpoints and tonnage in the mech lab.
+        /// </summary>
         [HarmonyPatch(typeof(RedusedMechLabMechInfoWidget), "Init")]
         public class RedusedMechLabMechInfoWidget_Init
         {
@@ -83,6 +92,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Fixes the armor status bars in the mech lab for vehicles.
+        /// </summary>
         [HarmonyPatch(typeof(LanceStat), "SetValue")]
         public static class LanceStat_SetValue
         {
@@ -105,10 +117,13 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Shows real location names in the mech lab for vehicles and quads.
+        /// </summary>
         [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
         public static class MechLabPanel_LoadMech
         {
-            [HarmonyPostfix] // Mech Lab
+            [HarmonyPostfix]
             public static void Postfix(MechLabPanel __instance, MechDef newMechDef)
             {
                 if (newMechDef == null) return;
@@ -155,10 +170,13 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Shows real location names in the mech bay for vehicles, quads, and squads.
+        /// </summary>
         [HarmonyPatch(typeof(LanceMechEquipmentList), "SetLoadout", [])]
         public static class LanceMechEquipmentList_SetLoadout
         {
-            [HarmonyPostfix] // Mech Bay Right Panel
+            [HarmonyPostfix]
             public static void Postfix(LanceMechEquipmentList __instance)
             {
                 var mechDef = __instance.activeMech;
@@ -211,10 +229,13 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Removes unused variant names for vehicles in the mech bay, mech lab, and lance loadout.
+        /// </summary>
         [HarmonyPatch(typeof(MechBayMechInfoWidget), "SetDescriptions")]
         public static class MechBayMechInfoWidget_SetDescriptions
         {
-            [HarmonyPostfix] // Mech Bay Right Panel
+            [HarmonyPostfix]
             public static void Postfix(MechBayMechInfoWidget __instance)
             {
                 var mechDef = __instance.selectedMech;
@@ -234,7 +255,7 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(MechLabMechInfoWidget), "SetData")]
         public static class MechLabMechInfoWidget_SetData
         {
-            [HarmonyPostfix] // Mech Lab
+            [HarmonyPostfix]
             public static void Postfix(MechLabMechInfoWidget __instance)
             {
                 var mechDef = __instance.mechLab?.activeMechDef;
@@ -258,7 +279,7 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(LanceLoadoutMechItem), "SetData")]
         public static class LanceLoadoutMechItem_SetData
         {
-            [HarmonyPostfix] // Lance Loadout
+            [HarmonyPostfix]
             public static void Postfix(LanceLoadoutMechItem __instance, MechDef mechDef)
             {
                 if (mechDef == null || !mechDef.IsVehicle()) return;
@@ -270,10 +291,13 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Shows vehicle roles instead of variant names in tooltips.
+        /// </summary>
         [HarmonyPatch(typeof(TooltipPrefab_Mech), "SetData", [typeof(object)])]
         public class TooltipPrefab_Mech_SetData
         {
-            [HarmonyPostfix] // Tooltips (Inventory, Mech Bay, etc)
+            [HarmonyPostfix]
             public static void Postfix(object data, LocalizableText ___RoleField, LocalizableText ___VariantField)
             {
                 if (data is MechDef mechDef)
@@ -315,6 +339,9 @@ namespace BTX_ExpansionPack.Fixes
             return "VEHICLE";
         }
 
+        /// <summary>
+        /// Removes vehicle info from the description when assembling vehicles.
+        /// </summary>
         [HarmonyPatch(typeof(ChassisDef_FromJSON_fake), "ConstructMechFakeVehicle")]
         public static class CustomUnitsChassisDefPatch
         {
@@ -349,6 +376,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Improves the mech tooltips by removing redundant information and improving readability.
+        /// </summary>
         [HarmonyPatch(typeof(PilotAffinityManager), "getMechChassisAffinityDescription", [typeof(ChassisDef)])]
         public static class PilotAffinityManager_getMechChassisAffinityDescription
         {

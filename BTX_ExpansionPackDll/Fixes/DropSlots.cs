@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Updates dropship slot and tonnage statistics based on installed upgrades.
+    /// </summary>
     internal class DropSlots
     {
         private const string BaseMechSlotsStat = "BiggerDrops_BaseMechSlots";

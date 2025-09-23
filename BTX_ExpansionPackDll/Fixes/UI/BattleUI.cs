@@ -8,6 +8,9 @@ namespace BTX_ExpansionPack.Fixes.UI
 {
     public static class BattleUI
     {
+        /// <summary>
+        /// Fixes the injury reason description for vehicle pilots.
+        /// </summary>
         [HarmonyPatch(typeof(Pilot), "InjuryReasonDescription", MethodType.Getter)]
         public static class PilotInjury_InjuryReasonDescription
         {
@@ -22,6 +25,9 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
+        /// <summary>
+        /// Shows full location names instead of abbreviations in to-hit modifiers for vehicles.
+        /// </summary>
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetAbbreviatedChassisLocation", typeof(VehicleChassisLocations))]
         public static class ToHitModifiersHelper_GetAbbreviatedChassisLocation
         {
