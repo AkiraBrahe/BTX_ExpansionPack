@@ -1,0 +1,26 @@
+{
+  "TargetIDs": [
+    "Ammo_AmmunitionBox_Generic_SRMInferno",
+    "Ammo_AmmunitionBox_Generic_SRMInferno_Half",
+    "Ammo_AmmunitionBox_Generic_Arrow4",
+    "Ammo_AmmunitionBox_Generic_Arrow4_Homing",
+    "Ammo_AmmunitionBox_Generic_Arrow4_Inferno",
+    "Ammo_AmmunitionBox_Generic_LongTom_Cluster",
+    "Ammo_AmmunitionBox_Generic_Sniper_Cluster",
+    "Ammo_AmmunitionBox_Generic_Thumper_Cluster"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Custom": {
+          "Flags": [
+            "invalid",
+            "hide"
+          ]
+        }
+      }
+    }
+  ]
+}
