@@ -22,7 +22,7 @@
     "Id": "vehicledef_MORRIGU_LASER",
     "Name": "Morrigu Fire Support Vehicle",
     "UIName": "Morrigu Fire Support Vehicle (Laser)",
-    "Details": "<b>Name: <color=#85DBF6>Morr\u00c3\u00adg\u00c3\u00ba Fire Support Vehicle (Laser)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>n\nThe Morr\u00c3\u00adg\u00c3\u00ba, named after a Celtic goddess of war, is a Clan Blood Spirit fire support vehicle designed to deliver maximum firepower at enemies from a distance using inexpensive and efficient weapons favored by the Spirits.\n\nThe Laser variant reduces the ammunition dependency of the Morr\u00c3\u00adg\u00c3\u00ba by replacing the missile launchers and ECM Suite with a third ER Large Laser. In order to accommodate the extra heat sinks, two tons of armor had to be removed.",
+    "Details": "<b>Name: <color=#85DBF6>Morrigu Fire Support Vehicle (Laser)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>240 Fusion</color></b>n\nThe Morrigu, named after a Celtic goddess of war, is a Clan Blood Spirit fire support vehicle designed to deliver maximum firepower at enemies from a distance using inexpensive and efficient weapons favored by the Spirits.\n\nThe Laser variant reduces the ammunition dependency of the Morrigu by replacing the missile launchers and ECM Suite with a third ER Large Laser. In order to accommodate the extra heat sinks, two tons of armor had to be removed.",
     "Icon": "uixVhclIcon_morrigu",
     "Cost": 3905000,
     "Rarity": 0,

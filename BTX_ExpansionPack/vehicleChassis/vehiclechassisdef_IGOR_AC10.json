@@ -7,6 +7,7 @@
   },
   "CustomParts": {
     "AOEHeight": 45,
+    "CrewLocation": "None",
     "Unaffected": {
       "DesignMasks": true,
       "Pathing": true,
@@ -14,10 +15,7 @@
       "Landmines": true,
       "MoveClamp": 1.0,
       "AllowPartialMovement": false
-    },
-    "CrewLocation": "None",
-    "NullifyBodyMesh": true,
-    "TieToGroundOnDeath": true
+    }
   },
   "Description": {
     "Id": "vehiclechassisdef_IGOR_AC10",
@@ -30,9 +28,9 @@
   },
   "MovementCapDefID": "movedef_vee_6",
   "PathingCapDefID": "pathingdef_heavy_vtol",
-  "HardpointDataDefID": "hardpointdatadef_cuhgscorpion",
-  "PrefabIdentifier": "chrprfmech_cuhgscorpion_vtol",
-  "PrefabBase": "cuhgscorpion",
+  "HardpointDataDefID": "hardpointdatadef_curedkite",
+  "PrefabIdentifier": "chrprfmech_redkite_vtol",
+  "PrefabBase": "curedkite",
   "Tonnage": 60,
   "weightClass": "HEAVY",
   "BattleValue": 3610000,
