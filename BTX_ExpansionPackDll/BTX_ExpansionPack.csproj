@@ -27,7 +27,10 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Features\AdditionalLances_Comstar.cs" />
     <Compile Remove="Features\UrbanDevastation.cs" />
+    <Compile Remove="Fixes\MechActuators.cs" />
+    <Compile Remove="Fixes\UnitTables.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="HarmonyX" Version="2.13.0">
@@ -45,6 +48,7 @@
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.TonnageCalculation" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="CustomUnits:CustomUnits.MoveClampHelper.moveClampCache" />
+    <Publicize Include="Extended_CE:Extended_CE.BTComponents.Mech_InitStats.Postfix" />
     <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
     <Publicize Include="Extended_CE:Extended_CE.NewTech.ArmorRules" />
     <Publicize Include="MechQuirks:Quirks.MechQuirks.modSettings" />

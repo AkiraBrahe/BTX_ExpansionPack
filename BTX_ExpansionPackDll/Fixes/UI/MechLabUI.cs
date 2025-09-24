@@ -18,7 +18,7 @@ namespace BTX_ExpansionPack.Fixes
     internal class MechLabUI
     {
         /// <summary>
-        /// Improves the description of the "Reduced Component Refitting" option.
+        /// Improves the description of the "Partial Refit" option.
         /// </summary>
         [HarmonyPatch(typeof(ReducedComponentRefInfoHelper), "description")]
         public static class ReducedComponentRefInfoHelper_description
