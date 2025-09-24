@@ -7,6 +7,7 @@
   },
   "CustomParts": {
     "AOEHeight": 45,
+    "CrewLocation": "None",
     "Unaffected": {
       "DesignMasks": true,
       "Pathing": true,
@@ -14,28 +15,25 @@
       "Landmines": true,
       "MoveClamp": 1.0,
       "AllowPartialMovement": false
-    },
-    "CrewLocation": "None",
-    "NullifyBodyMesh": true,
-    "TieToGroundOnDeath": true
+    }
   },
   "Description": {
     "Id": "vehiclechassisdef_SOKOL_LRM",
     "Name": "Sokol (LRM)",
-    "Details": "<b>Name: <color=#85DBF6>Sokol Superheavy VTOL (LRM)</color>\nArmor: <color=#85DBF6>Ferro + CASE</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (VTOL)</color>\tEngine: <color=#85DBF6>70 XL</color></b>\n\nThe Sokol is an evolution of the Igor featuring advanced technologies like an extralight engine and ferro-fibrous armor. Its high cost limits its use to elite forces within the Inner Sphere.\n\nThis variant is equipped with three Artemis IV-enhanced LRM-15s and side-mounted Machine Guns. CASE-protected ammunition and an ECM Suite enhance its survivability.",
+    "Details": "<b>Name: <color=#85DBF6>Sokol Superheavy VTOL (LRM)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>5/8 (VTOL)</color>\tEngine: <color=#85DBF6>70 XL</color></b>\n\nThe Sokol is an evolution of the Igor featuring advanced technologies like an extralight engine and ferro-fibrous armor. Its high cost limits its use to elite forces within the Inner Sphere.\n\nThis variant is equipped with two Artemis IV-enhanced LRM-15s with three tons of ammunition. A chin-mounted Anti-Missile System enhances its survivability.",
     "Icon": "uixVhclIcon_sokol",
-    "Cost": 9078000,
+    "Cost": 7394000,
     "Rarity": 0,
     "Purchasable": true
   },
   "MovementCapDefID": "movedef_vee_5",
   "PathingCapDefID": "pathingdef_heavy_vtol",
-  "HardpointDataDefID": "hardpointdatadef_cuhgscorpion",
-  "PrefabIdentifier": "chrprfmech_cuhgscorpion_vtol",
-  "PrefabBase": "cuhgscorpion",
+  "HardpointDataDefID": "hardpointdatadef_curedkite",
+  "PrefabIdentifier": "chrprfmech_redkite_vtol",
+  "PrefabBase": "curedkite",
   "Tonnage": 60,
   "weightClass": "HEAVY",
-  "BattleValue": 6115000,
+  "BattleValue": 4575000,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
   "movementType": "Wheeled",
@@ -88,10 +86,6 @@
       "Location": "Front",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Missile",
           "Omni": false
         },
@@ -100,7 +94,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -111,16 +105,7 @@
     },
     {
       "Location": "Left",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 130,
@@ -128,16 +113,7 @@
     },
     {
       "Location": "Right",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 130,

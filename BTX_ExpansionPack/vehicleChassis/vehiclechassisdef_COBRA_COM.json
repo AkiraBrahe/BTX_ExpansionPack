@@ -7,6 +7,7 @@
   },
   "CustomParts": {
     "AOEHeight": 45,
+    "CrewLocation": "None",
     "Unaffected": {
       "DesignMasks": true,
       "Pathing": true,
@@ -14,10 +15,7 @@
       "Landmines": true,
       "MoveClamp": 1.0,
       "AllowPartialMovement": false
-    },
-    "CrewLocation": "None",
-    "NullifyBodyMesh": true,
-    "TieToGroundOnDeath": true
+    }
   },
   "Description": {
     "Id": "vehiclechassisdef_COBRA_COM",
@@ -30,9 +28,9 @@
   },
   "MovementCapDefID": "movedef_vee_8",
   "PathingCapDefID": "pathingdef_light_vtol",
-  "HardpointDataDefID": "hardpointdatadef_curedkite",
-  "PrefabIdentifier": "chrprfmech_redkite_vtol",
-  "PrefabBase": "curedkite",
+  "HardpointDataDefID": "hardpointdatadef_cukarr",
+  "PrefabIdentifier": "chrprfmech_karr_vtol",
+  "PrefabBase": "cukarr",
   "Tonnage": 30,
   "weightClass": "LIGHT",
   "BattleValue": 1835000,
