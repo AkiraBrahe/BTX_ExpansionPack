@@ -83,9 +83,6 @@ namespace BTX_ExpansionPack
 
         internal static void ApplySettings()
         {
-            // Re-enable saves between consecutive drops
-            PreForceTakeContractSave.SkipSave = !Settings.Debug.SaveBetweenConsecutiveDrops;
-
             // Override DHS engine cooling
             Extended_CE.Core.Settings.DHSEngineCooling = Settings.Gameplay.OverrideDHSEngineCooling
                 ? (int)Math.Round(30 * Settings.Gameplay.DHSEngineCoolingMultiplier)

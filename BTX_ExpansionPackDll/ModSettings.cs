@@ -9,14 +9,12 @@
     public class ModDebugSettings
     {
         public bool AllDropShipUpgrades { get; set; } = false;
-        public bool SaveBetweenConsecutiveDrops { get; set; } = false;
         public bool PirateSystemLogging { get; set; } = false;
         public bool MechSizeLogging { get; set; } = false;
     }
 
     public class GameplaySettings
     {
-        public bool Use4LimitOnStoryMissions { get; set; } = true;
         public bool AllowVehiclesInMechDuels { get; set; } = false;
         public bool OverrideDHSEngineCooling { get; set; } = true;
         public double DHSEngineCoolingMultiplier { get; set; } = 1.5;
