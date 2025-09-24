@@ -14,7 +14,6 @@
   
   "Settings": {
     "Gameplay": {
-      "Use4LimitOnStoryMissions": true,
       "AllowVehiclesInMechDuels": false,
       "OverrideDHSEngineCooling": true,
         "DHSEngineCoolingMultiplier": 1.5,
