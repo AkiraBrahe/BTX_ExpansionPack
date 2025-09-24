@@ -12,6 +12,92 @@ namespace BTX_ExpansionPack.Fixes
     internal class VehicleFixes
     {
         /// <summary>
+        /// Removes free damage for vehicles from melee attacks.
+        /// </summary>
+        [HarmonyPatch(typeof(ChassisDef), "FromJSON")]
+        public class ChassisDef_FromJSON_Patch
+        {
+            [HarmonyPostfix, HarmonyPriority(Priority.Last)]
+            public static void Postfix(ChassisDef __instance)
+            {
+                if (__instance.IsVehicle())
+                {
+                    __instance.MeleeDamage = 0;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Prevents AI-controlled vehicles from attempting melee or DFA attacks.
+        /// </summary>
+        [HarmonyPatch(typeof(AttackEvaluator), "MakeAttackOrderForTarget")]
+        public static class AttackEvaluator_MakeAttackOrderForTarget
+        {
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            {
+                var matcher = new CodeMatcher(instructions, il)
+                    .MatchForward(true,
+                        new CodeMatch(OpCodes.Ldloc_S),
+                        new CodeMatch(OpCodes.Ldc_I4_1),
+                        new CodeMatch(OpCodes.Add),
+                        new CodeMatch(OpCodes.Stloc_S))
+                    .ThrowIfInvalid("Failed to find loop increment (j++)")
+                    .CreateLabel(out var continueLabel)
+                    .MatchForward(false,
+                        new CodeMatch(OpCodes.Ldarg_0, name: "unit"),
+                        new CodeMatch(OpCodes.Ldstr, "considering attack type "),
+                        new CodeMatch(i => i.IsLdloc(), name: "j"))
+                    .ThrowIfInvalid("Failed to find the attack type log message");
+
+                var skipVehicleCheckLabel = il.DefineLabel();
+                matcher.Instruction.labels.Add(skipVehicleCheckLabel);
+
+                return matcher.InsertAndAdvance(
+                        new CodeInstruction(OpCodes.Ldarg_0),
+                        new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(UnitUnaffectionsActorStats), nameof(UnitUnaffectionsActorStats.FakeVehicle), [typeof(ICombatant)])),
+                        new CodeInstruction(OpCodes.Brfalse, skipVehicleCheckLabel),
+                        new CodeInstruction(OpCodes.Ldloc, matcher.NamedMatch("j").operand),
+                        new CodeInstruction(OpCodes.Ldc_I4_0),
+                        new CodeInstruction(OpCodes.Ble, skipVehicleCheckLabel),
+                        new CodeInstruction(OpCodes.Br, continueLabel))
+                    .InstructionEnumeration();
+            }
+        }
+
+        /// <summary>
+        /// Prevents hand/arm actuator effects from being added to vehicles.
+        /// </summary>
+        [HarmonyPatch(typeof(BTComponents.Mech_InitStats), "Postfix")]
+        public static class Mech_InitStats_Postfix
+        {
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            {
+                return new CodeMatcher(instructions, il)
+                    .MatchForward(true,
+                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents")),
+                        new CodeMatch(OpCodes.Stloc_S),
+                        new CodeMatch(OpCodes.Ldloc_S),
+                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S)
+                    )
+                    .ThrowIfInvalid("Failed to find UsingComponents call in Mech_InitStats.Postfix")
+                    .CreateLabel(out var skipEffectsLabel)
+                    .MatchBack(false,
+                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents"))
+                    )
+                    .Insert(
+                        new CodeInstruction(OpCodes.Ldarg_0),
+                        new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Mech_InitStats_Postfix), nameof(IsFakeVee))),
+                        new CodeInstruction(OpCodes.Brtrue_S, skipEffectsLabel)
+                    )
+                    .InstructionEnumeration();
+            }
+
+            public static bool IsFakeVee(Mech mech) => mech.FakeVehicle();
+        }
+
+        /// <summary>
         /// Uses actual vehicle weight instead of calculating it.
         /// </summary>
         [HarmonyPatch(typeof(MechStatisticsRules), "CalculateTonnage")]
@@ -83,38 +169,6 @@ namespace BTX_ExpansionPack.Fixes
 
                 return false;
             }
-        }
-
-        /// <summary>
-        /// Prevents hand/arm actuator effects from being added to vehicles.
-        /// </summary>
-        [HarmonyPatch(typeof(BTComponents.Mech_InitStats), "Postfix")]
-        public static class Mech_InitStats_Postfix
-        {
-            [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
-            {
-                return new CodeMatcher(instructions, il)
-                    .MatchForward(true,
-                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents")),
-                        new CodeMatch(OpCodes.Stloc_S),
-                        new CodeMatch(OpCodes.Ldloc_S),
-                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S)
-                    )
-                    .ThrowIfInvalid("Failed to find UsingComponents call in Mech_InitStats.Postfix")
-                    .CreateLabel(out var skipEffectsLabel)
-                    .MatchBack(false,
-                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents"))
-                    )
-                    .Insert(
-                        new CodeInstruction(OpCodes.Ldarg_0),
-                        new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Mech_InitStats_Postfix), nameof(IsFakeVee))),
-                        new CodeInstruction(OpCodes.Brtrue_S, skipEffectsLabel)
-                    )
-                    .InstructionEnumeration();
-            }
-
-            public static bool IsFakeVee(Mech mech) => mech.FakeVehicle();
         }
     }
 }

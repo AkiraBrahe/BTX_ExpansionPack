@@ -38,27 +38,6 @@
       }
     },
     {
-      /* When considering different kinds of attacks, multiply
-	       the melee damage by this value to decide which attack
-	       to use. */
-      "k": "Float_MeleeDamageMultiplier",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.1
-      }
-    },
-    {
-      /* When considering a melee attack against an unsteady
-	       target, multiply the melee damage by this value to
-	       decide which attack to use. This is in addition to the
-	       base melee multiplier, above. */
-      "k": "Float_MeleeVsUnsteadyTargetDamageMultiplier",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.1
-      }
-    },
-    {
       /* Influence Factor Weight to control the desire to be
          inside water. */
       "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
@@ -95,17 +74,6 @@
       }
     },
     {
-      /* If a target is a melee revenge target, what additional
-	       damage multiplier to apply. The total multiplier is
-	       Float_MeleeDamageMultiplier +
-	       FloatMeleeRevengeBonus. */
-      "k": "Float_MeleeRevengeBonus",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.1
-      }
-    },
-    {
       /* A weight for an influence factor to prefer to get
          inside melee range. Negative values will encourage
          units to get out of melee range. */
@@ -132,16 +100,6 @@
       "v": {
         "type": "Bool",
         "boolVal": true
-      }
-    },
-    {
-      /* How much of expected melee damage to add in again as
-	       bonus damage when attacking evasive targets (0 - none,
-	       1 - 100% bonus damage) */
-      "k": "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
-      "v": {
-        "type": "Float",
-        "floatVal": 0.1
       }
     },
     {
