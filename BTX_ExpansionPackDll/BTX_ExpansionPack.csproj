@@ -41,18 +41,18 @@
     <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />
     <Publicize Include="Assembly-CSharp" />
     <Publicize Include="BEXTimeline" />
+    <Publicize Include="MechQuirks" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionReplace" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Main" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.TonnageCalculation" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
+    <Publicize Include="CustomAmmoCategories:CustAmmoCategoriesPatches.MoveStatusPreview_DisplayPreviewStatus.Prefix" />
     <Publicize Include="CustomUnits:CustomUnits.MoveClampHelper.moveClampCache" />
     <Publicize Include="Extended_CE:Extended_CE.BTComponents.Mech_InitStats.Postfix" />
     <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
     <Publicize Include="Extended_CE:Extended_CE.NewTech.ArmorRules" />
-    <Publicize Include="MechQuirks:Quirks.MechQuirks.modSettings" />
-    <Publicize Include="MechQuirks:Quirks.Tooltips.QuirkToolTips" />
   </ItemGroup>
   <ItemDefinitionGroup>
     <Reference>
