@@ -101,12 +101,11 @@ namespace BTX_ExpansionPack.Fixes
             {
                 return new CodeMatcher(instructions)
                     .MatchForward(false,
-                        new CodeMatch(inst => inst.opcode.ToString().StartsWith("ldloc")),
-                        new CodeMatch(inst => inst.opcode == OpCodes.Callvirt && inst.operand is MethodInfo mi && mi.Name == "get_Count"),
+                        new CodeMatch(i => i.opcode.ToString().StartsWith("ldloc")),
+                        new CodeMatch(i => i.opcode == OpCodes.Callvirt && i.operand is MethodInfo mi && mi.Name == "get_Count"),
                         new CodeMatch(OpCodes.Ldc_I4_0),
-                        new CodeMatch(OpCodes.Cgt)
-                    )
-                    .ThrowIfInvalid("Failed to find inferno ammo check in Mech_OnActivationEnd.Prefix")
+                        new CodeMatch(OpCodes.Cgt))
+                    .ThrowIfInvalid("Failed to find inferno ammo check")
                     .SetOpcodeAndAdvance(OpCodes.Ldarg_0)
                     .SetOperandAndAdvance(AccessTools.Method(typeof(InfernoOverheat), nameof(HasInferno)))
                     .InstructionEnumeration();

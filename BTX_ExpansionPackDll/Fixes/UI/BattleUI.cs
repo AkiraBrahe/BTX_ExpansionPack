@@ -1,13 +1,34 @@
 using BattleTech;
 using CustAmmoCategories;
+using CustAmmoCategoriesPatches;
 using CustomUnits;
 using IRBTModUtils;
+using System.Collections.Generic;
+using System.Reflection.Emit;
 using System.Threading;
 
 namespace BTX_ExpansionPack.Fixes.UI
 {
     public static class BattleUI
     {
+        /// <summary>
+        /// Removes the target info text from the side panel UI.
+        /// </summary>
+        [HarmonyPatch(typeof(CombatHUDInfoSidePanel_Update), "UpdateInfoText")]
+        [HarmonyPatch(typeof(MoveStatusPreview_DisplayPreviewStatus), "Prefix")]
+        public static class CombatHUDInfoSidePanel_CACFix
+        {
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            {
+                return new CodeMatcher(instructions, il)
+                    .MatchForward(true, new CodeMatch(OpCodes.Ldstr, "\n__/TARGET/__:\n"))
+                    .MatchBack(false, new CodeMatch(OpCodes.Brfalse_S))
+                    .SetOpcodeAndAdvance(OpCodes.Br_S)
+                    .InstructionEnumeration();
+            }
+        }
+
         /// <summary>
         /// Fixes the injury reason description for vehicle pilots.
         /// </summary>

@@ -79,13 +79,10 @@ namespace BTX_ExpansionPack.Fixes
                         new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents")),
                         new CodeMatch(OpCodes.Stloc_S),
                         new CodeMatch(OpCodes.Ldloc_S),
-                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S)
-                    )
-                    .ThrowIfInvalid("Failed to find UsingComponents call in Mech_InitStats.Postfix")
+                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S))
                     .CreateLabel(out var skipEffectsLabel)
                     .MatchBack(false,
-                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents"))
-                    )
+                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents")))
                     .Insert(
                         new CodeInstruction(OpCodes.Ldarg_0),
                         new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Mech_InitStats_Postfix), nameof(IsFakeVee))),

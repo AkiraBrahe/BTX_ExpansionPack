@@ -53,9 +53,7 @@ namespace BTX_ExpansionPack.Fixes
                 return new CodeMatcher(instructions)
                     .MatchForward(true,
                         new CodeMatch(OpCodes.Ldarg_0),
-                        new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(Weapon), "get_MaxRange"))
-                    )
-                    .ThrowIfInvalid("Failed to find MaxRange call in CalcAMSAIDamageCoeff")
+                        new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(Weapon), "get_MaxRange")))
                     .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CalcAMSAIDamageCoeff), nameof(GetAMSRange))))
                     .InstructionEnumeration();
             }
