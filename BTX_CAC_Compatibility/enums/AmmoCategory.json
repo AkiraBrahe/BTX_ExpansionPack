@@ -69,6 +69,34 @@
       "FallbackUIColor": null,
       "Icon": "MissileHardpointIcon",
       "OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
+    },
+    {
+      "ID": 171,
+      "Name": "SniperArti",
+      "FriendlyName": "Sniper",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
+    },
+    {
+      "ID": 173,
+      "Name": "Arrow4",
+      "FriendlyName": "Arrow IV",
+      "IsBallistic": false,
+      "IsMissile": true,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Missile",
+      "FallbackUIColor": null,
+      "Icon": "MissileHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
     }
   ]
 }
