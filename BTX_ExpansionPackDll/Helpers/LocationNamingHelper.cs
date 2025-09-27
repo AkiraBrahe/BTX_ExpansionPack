@@ -106,12 +106,18 @@ namespace BTX_ExpansionPack
             return null;
         }
 
+        /// <summary>
+        /// Definition of a naming template based on unit tags.
+        /// </summary>
         public class LocationNamingTemplateByTags
         {
             public string[] Tags;
             public LocationName[] Names;
         }
 
+        /// <summary>
+        /// Definition of a chassis location name.
+        /// </summary>
         public class LocationName
         {
             public ChassisLocations Location;

@@ -14,7 +14,8 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <DebugType>embedded</DebugType>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
-    <NoWarn>IDE0130</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591</NoWarn>
     <PublicizerRuntimeStrategies>Unsafe</PublicizerRuntimeStrategies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -37,7 +38,6 @@
       <PrivateAssets>all</PrivateAssets>
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
-    <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />
     <Publicize Include="Assembly-CSharp" />
     <Publicize Include="BEXTimeline" />
@@ -81,6 +81,9 @@
     </Reference>
     <Reference Include="CustomUnits">
       <HintPath>$(BattleTechGameDir)\Mods\CustomUnits\CustomUnits.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper">
+      <HintPath>$(BattleTechGameDir)\BattleTech_Data\Managed\Dapper.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Extended_CE">
       <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_CE\Extended_CE.dll</HintPath>
