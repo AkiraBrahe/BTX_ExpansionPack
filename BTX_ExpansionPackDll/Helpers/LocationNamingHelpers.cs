@@ -1,10 +1,16 @@
 using BattleTech;
 using System.Collections.Generic;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Helpers
 {
-    public static class LocationNamingHelper
+    /// <summary>
+    /// Helpers for naming chassis locations based on unit tags.
+    /// </summary>
+    public static class LocationNamingHelpers
     {
+        /// <summary>
+        /// Templates for naming chassis locations based on unit tags.
+        /// </summary>
         public static readonly List<LocationNamingTemplateByTags> Templates =
         [
             new LocationNamingTemplateByTags
@@ -77,6 +83,10 @@ namespace BTX_ExpansionPack
                 ]
             }
         ];
+
+        /// <summary>
+        /// Gets the name of a chassis location based on unit tags and whether to show the full name or short name.
+        /// </summary>
         public static string GetLocationName(IEnumerable<string> tags, ChassisLocations location, bool showFullName)
         {
             var template = GetTemplate(tags);
@@ -92,6 +102,9 @@ namespace BTX_ExpansionPack
             return string.Empty;
         }
 
+        /// <summary>
+        /// Gets the appropriate naming template based on unit tags.
+        /// </summary>
         public static LocationNamingTemplateByTags GetTemplate(IEnumerable<string> tags)
         {
             foreach (var template in Templates)

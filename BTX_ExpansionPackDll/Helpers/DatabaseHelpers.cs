@@ -2,10 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Helpers
 {
+    /// <summary>
+    /// Helpers for database operations.
+    /// </summary>
     public static class DatabaseHelpers
     {
+        #region Lance Compositions
+
+        /// <summary>
+        /// Definition for lance compositions used in ComStar and Clans missions.
+        /// </summary>
         public class LanceComposition
         {
             public int Weight { get; set; }
@@ -88,7 +96,13 @@ namespace BTX_ExpansionPack
             new LanceComposition { Weight = 1, UnitWeightTags = ["unit_assault", "unit_assault", "unit_assault", "unit_heavy", "unit_heavy"] }
         ];
 
-        // --- Dynamic Difficulty ---
+        #endregion
+
+        #region Dynamic Difficulty
+
+        /// <summary>
+        /// Definition for the new DynamicLanceDifficulty table entries.
+        /// </summary>
         public static List<DynamicLanceDifficulty_MDD> lanceDefs =
          [
              new() { DynamicLanceDifficultyID = 0, Difficulty = 0, NoUnitCount = 3, LightUnitCount = 1, PilotTags = "pilot_npc_d1" },
@@ -116,20 +130,28 @@ namespace BTX_ExpansionPack
              new() { DynamicLanceDifficultyID = 22, Difficulty = 12, NoUnitCount = 0, AssaultUnitCount = 4, PilotTags = "pilot_npc_d10" }
          ];
 
+        /// <summary>
+        /// Clear all entries from the DynamicLanceDifficulty database.
+        /// </summary>
         public static void ClearDynamicLanceDifficulty(this MetadataDatabase mdd)
         {
-            Main.Log.LogDebug("Clearing all entries from DynamicLanceDifficulty table.");
+            Main.Log.LogDebug("Clearing all entries from the DynamicLanceDifficulty database.");
             mdd.Execute("DELETE FROM DynamicLanceDifficulty");
         }
 
+        /// <summary>
+        /// Bulk insert multiple DynamicLanceDifficulty_MDD entries into the database.
+        /// </summary>
         public static void BulkInsertDynamicLanceDifficulty(this MetadataDatabase mdd, IEnumerable<DynamicLanceDifficulty_MDD> defs)
         {
-            Main.Log.LogDebug($"Bulk inserting {defs.Count()} new entries into DynamicLanceDifficulty table.");
+            Main.Log.LogDebug($"Bulk inserting {defs.Count()} new entries into the DynamicLanceDifficulty database.");
             mdd.Execute(
                 @"INSERT INTO DynamicLanceDifficulty 
                   (DynamicLanceDifficultyID, Difficulty, NoUnitCount, LightUnitCount, MediumUnitCount, HeavyUnitCount, AssaultUnitCount, PilotTags)
                   VALUES (@DynamicLanceDifficultyID, @Difficulty, @NoUnitCount, @LightUnitCount, @MediumUnitCount, @HeavyUnitCount, @AssaultUnitCount, @PilotTags)",
                 defs);
         }
+
+        #endregion Dynamic Difficulty
     }
 }

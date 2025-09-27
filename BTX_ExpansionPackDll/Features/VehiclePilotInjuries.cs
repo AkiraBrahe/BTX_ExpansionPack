@@ -9,6 +9,9 @@ namespace BTX_ExpansionPack.Features
     /// </summary>
     internal class VehiclePilotInjuries
     {
+        /// <summary>
+        /// Handles pilot injuries when critical locations are destroyed on fake vehicles.
+        /// </summary>
         [HarmonyPatch(typeof(Mech), "DamageLocation")]
         public static class Mech_DamageLocation
         {
@@ -42,6 +45,9 @@ namespace BTX_ExpansionPack.Features
                 }
             }
 
+            /// <summary>
+            /// Handles pilot injuries when critical locations are destroyed on vehicles.
+            /// </summary>
             [HarmonyPatch(typeof(Vehicle), "DamageLocation")]
             public static class Vehicle_DamageLocation
             {

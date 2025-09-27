@@ -6,10 +6,13 @@ using UnityEngine;
 namespace BTX_ExpansionPack.Features
 {
     /// <summary>
-    /// Handles CASE functionality for vehicles, preventing ammo explosions from destroying the vehicle and injuring the pilot.
+    /// Implements CASE functionality for vehicles, preventing ammo explosions from destroying the vehicle and injuring the pilot.
     /// </summary>
     internal class VehicleCASE
     {
+        /// <summary>
+        /// Handles ammo explosion logic for vehicles.
+        /// </summary>
         [HarmonyPatch(typeof(AmmunitionBox), "DamageComponent")]
         public static class AmmunitionBox_DamageComponent
         {
@@ -56,6 +59,9 @@ namespace BTX_ExpansionPack.Features
             }
         }
 
+        /// <summary>
+        /// Handles component explosion logic for vehicles.
+        /// </summary>
         [HarmonyPatch(typeof(MechComponent), "DamageComponent")]
         public static class MechComponent_DamageComponent
         {

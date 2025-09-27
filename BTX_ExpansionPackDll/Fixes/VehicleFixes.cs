@@ -12,7 +12,7 @@ namespace BTX_ExpansionPack.Fixes
     internal class VehicleFixes
     {
         /// <summary>
-        /// Removes free damage for vehicles from melee attacks.
+        /// Removes melee damage from vehicles (player and AI).
         /// </summary>
         [HarmonyPatch(typeof(ChassisDef), "FromJSON")]
         public class ChassisDef_FromJSON_Patch
@@ -76,13 +76,13 @@ namespace BTX_ExpansionPack.Fixes
             {
                 return new CodeMatcher(instructions, il)
                     .MatchForward(true,
-                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents")),
+                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), nameof(Core.UsingComponents))),
                         new CodeMatch(OpCodes.Stloc_S),
                         new CodeMatch(OpCodes.Ldloc_S),
                         new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S))
                     .CreateLabel(out var skipEffectsLabel)
                     .MatchBack(false,
-                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), "UsingComponents")))
+                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), nameof(Core.UsingComponents))))
                     .Insert(
                         new CodeInstruction(OpCodes.Ldarg_0),
                         new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Mech_InitStats_Postfix), nameof(IsFakeVee))),

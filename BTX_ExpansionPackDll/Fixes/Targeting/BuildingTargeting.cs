@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Targeting
 {
     /// <summary>
     /// Allows buildings to be targeted when a mech is standing on them.

@@ -1,10 +1,16 @@
 ﻿using BattleTech;
 using CustAmmoCategories;
 
-namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack.Helpers
 {
+    /// <summary>
+    /// Helpers for the Arrow IV missile system and its homing ammunition.
+    /// </summary>
     public static class ArrowIVHelpers
     {
+        /// <summary>
+        /// Tracks whether a unit has Homing Arrow IV ammo when spawning.
+        /// </summary>
         [HarmonyPatch(typeof(UnitSpawnPointGameLogic), "initializeActor")]
         public static class UnitSpawnPointGameLogic_initializeActor
         {
@@ -27,13 +33,9 @@ namespace BTX_ExpansionPack
             }
         }
 
-        public static bool IsHomingArrowIV(this Weapon weapon)
-        {
-            return weapon != null &&
-                   weapon.mode()?.Id == "ARTY_Guided" &&
-                   weapon.ammo()?.Id == "Ammunition_ArrowIV_Homing";
-        }
-
+        /// <summary>
+        /// Determines if an actor has an active Arrow IV with homing ammo.
+        /// </summary>
         public static bool HasActiveHomingArrowIV(this AbstractActor actor)
         {
             if (actor == null || actor.StatCollection == null)
@@ -45,9 +47,7 @@ namespace BTX_ExpansionPack
             if (actor.Weapons == null) return false;
             foreach (var weapon in actor.Weapons)
             {
-                if (weapon.CanFire &&
-                    weapon.mode()?.Id == "ARTY_Guided" &&
-                    weapon.ammo()?.Id == "Ammunition_ArrowIV_Homing")
+                if (weapon.CanFire && weapon.IsHomingArrowIV())
                 {
                     return true;
                 }
@@ -55,6 +55,19 @@ namespace BTX_ExpansionPack
             return false;
         }
 
+        /// <summary>
+        /// Determines if a weapon is an Arrow IV with homing ammo.
+        /// </summary>
+        public static bool IsHomingArrowIV(this Weapon weapon)
+        {
+            return weapon != null &&
+                   weapon.mode()?.Id == "ARTY_Guided" &&
+                   weapon.ammo()?.Id == "Ammunition_ArrowIV_Homing";
+        }
+
+        /// <summary>
+        /// Determines if a target is TAGged.
+        /// </summary>
         public static bool IsTAGed(this ICombatant target)
         {
             return target != null && target.StatCollection != null &&
@@ -62,6 +75,9 @@ namespace BTX_ExpansionPack
                    target.StatCollection.GetValue<float>("TAGCountClan") > 0f;
         }
 
+        /// <summary>
+        /// Determines if any ally of the given mech has a TAG weapon.
+        /// </summary>
         public static bool AnyAllyHasTAG(this Mech mech)
         {
             if (mech?.team == null) return false;

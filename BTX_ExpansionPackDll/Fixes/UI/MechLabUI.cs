@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.UI
 {
     internal class MechLabUI
     {
@@ -362,11 +362,17 @@ namespace BTX_ExpansionPack.Fixes
                         {
                             chassisDef["YangsThoughts"] = thoughts.Substring(splitIndex + delimiter.Length);
                             __result = chassisDef.ToString(Formatting.Indented);
+                            Main.Log.LogDebug($"[CustomUnitsChassisDefPatch] Updated Yang's Thoughts: {chassisDef["YangsThoughts"]}");
                         }
+                    }
+                    else
+                    {
+                        Main.Log.LogDebug("[CustomUnitsChassisDefPatch] 'YangsThoughts' field is missing or not a string.");
                     }
                 }
                 catch (JsonReaderException)
                 {
+                    Main.Log.LogDebug("[CustomUnitsChassisDefPatch] Failed to parse JSON in ChassisDef_FromJSON_fake. Skipping modification.");
                     // Not a valid JSON object. This is expected if the mech isn't a "fake" vehicle.
                 }
                 catch (Exception ex)
@@ -402,8 +408,8 @@ namespace BTX_ExpansionPack.Fixes
 
                 __result = __result.Replace("<b>", "").Replace("</b>", "");
                 __result = __result.Replace("Mech Quirks", "");
-                __result = __result.Replace("\n ", "\n");
-                __result = Regex.Replace(__result, @"(\n|^)(?!<color>)([^:]+): ", "$1<b>$2</b>: ");
+                __result = __result.Replace("\n\n", "\n").Replace("\n ", "\n");
+                __result = Regex.Replace(__result, @"(\n|^)(?!<color>)([^:]+): ", "$1<b>$2:</b> ");
                 __result = __result.Replace("\n\n", "\n");
                 __result = Regex.Replace(__result, @"<color=#[0-9A-Fa-f]{6,8}></color>", "");
             }
