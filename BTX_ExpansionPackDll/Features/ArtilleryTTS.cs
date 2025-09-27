@@ -61,21 +61,21 @@ namespace BTX_ExpansionPack.Features
 
             private static Vector3 CalculateAdjustedStrikePosition(Vector3 initialPosition, Vector3 targetPosition, float distanceToTarget, float ttsLevel, float minMissRadius)
             {
-                // Determine pull factor and scatter reduction based on TTS level
+                // 1. Determine pull factor and scatter reduction based on TTS level
                 float pullFactor = 0f, scatterReductionFactor = 0f;
                 if (ttsLevel == 1f) { pullFactor = 0.30f; scatterReductionFactor = 0.30f; }
                 else if (ttsLevel == 2f) { pullFactor = 0.50f; scatterReductionFactor = 0.50f; }
                 else if (ttsLevel >= 3f) { pullFactor = 0.70f; scatterReductionFactor = 0.70f; }
 
-                // Cap the maximum pull distance to prevent large, unrealistic adjustments
+                // 2. Cap the maximum pull distance to prevent large, unrealistic adjustments
                 float maxPullDistance = 75f;
                 float pullDistance = Mathf.Min(distanceToTarget * pullFactor, maxPullDistance);
 
-                // Calculate the adjusted strike position
+                // 3. Calculate the adjusted strike position
                 Vector3 directionToTarget = targetPosition - initialPosition;
                 Vector3 adjustedPosition = initialPosition + (directionToTarget.normalized * pullDistance);
 
-                // Apply random spread to the adjusted strike position
+                // 4. Apply random spread to the adjusted strike position
                 float scatterRadius = Mathf.Lerp(minMissRadius, 0f, scatterReductionFactor);
                 Vector2 randomCirclePoint = Random.insideUnitCircle * scatterRadius;
                 Vector3 randomSpreadOffset = new Vector3(randomCirclePoint.x, 0f, randomCirclePoint.y);
@@ -93,7 +93,7 @@ namespace BTX_ExpansionPack.Features
             [HarmonyPostfix]
             public static void Postfix(SelectionStateArtilleryStrike __instance)
             {
-                var actor = Traverse.Create(__instance).Property("SelectedActor").GetValue<AbstractActor>();
+                var actor = __instance.SelectedActor;
                 if (actor == null) return;
 
                 var weapons = actor.GetArtilleryStrike(out _);

@@ -1,4 +1,5 @@
 using BattleTech;
+using BTX_ExpansionPack.Helpers;
 using CustAmmoCategories;
 using CustAmmoCategoriesPatches;
 using CustomUnits;
@@ -9,22 +10,44 @@ using System.Threading;
 
 namespace BTX_ExpansionPack.Fixes.UI
 {
-    public static class BattleUI
+    internal class BattleUI
     {
         /// <summary>
-        /// Removes the target info text from the side panel UI.
+        /// Removes the popup when moving before move clamping is calculated.
         /// </summary>
-        [HarmonyPatch(typeof(CombatHUDInfoSidePanel_Update), "UpdateInfoText")]
-        [HarmonyPatch(typeof(MoveStatusPreview_DisplayPreviewStatus), "Prefix")]
-        public static class CombatHUDInfoSidePanel_CACFix
+        [HarmonyPatch(typeof(SelectionStateMove_ProcessLeftClickClamp), "Prefix")]
+        public static class SelectionStateMove_ProcessLeftClickClamp_Prefix
         {
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
                 return new CodeMatcher(instructions, il)
-                    .MatchForward(true, new CodeMatch(OpCodes.Ldstr, "\n__/TARGET/__:\n"))
-                    .MatchBack(false, new CodeMatch(OpCodes.Brfalse_S))
-                    .SetOpcodeAndAdvance(OpCodes.Br_S)
+                    .MatchForward(false,
+                        new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is System.Reflection.MethodInfo mi && mi.Name == "Create" && mi.DeclaringType.Name == "GenericPopupBuilder"))
+                    .RemoveInstructions(2)
+                    .InstructionEnumeration();
+            }
+        }
+
+        /// <summary>
+        /// Removes the target info from the side panel UI.
+        /// </summary>
+        [HarmonyPatch(typeof(CombatHUDInfoSidePanel_Update), "UpdateInfoText")]
+        [HarmonyPatch(typeof(MoveStatusPreview_DisplayPreviewStatus), "Prefix")]
+        public static class CombatHUDInfoSidePanel_Patches
+        {
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            {
+                var matcher = new CodeMatcher(instructions, il)
+                    .MatchForward(false,
+                        new CodeMatch(OpCodes.Ldstr, "\n__/TARGET/__:\n"))
+                    .MatchBack(false,
+                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
+
+                var jumpTarget = matcher.Operand;
+                return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
+                    .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
                     .InstructionEnumeration();
             }
         }
@@ -47,19 +70,22 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         /// <summary>
-        /// Shows full location names instead of abbreviations in to-hit modifiers for vehicles.
+        /// Shows the correct vehicle location abbreviations in battle.
         /// </summary>
-        [HarmonyPatch(typeof(ToHitModifiersHelper), "GetAbbreviatedChassisLocation", typeof(VehicleChassisLocations))]
+        [HarmonyPatch(typeof(ToHitModifiersHelper), "GetAbbreviatedChassisLocation", [typeof(VehicleChassisLocations)])]
         public static class ToHitModifiersHelper_GetAbbreviatedChassisLocation
         {
             [HarmonyPrefix]
             public static bool Prefix(VehicleChassisLocations location, ref string __result)
             {
-                __result = LocationNamingHelper.GetLocationName(["fake_vehicle_chassis"], location.toFakeChassis(), false);
+                __result = LocationNamingHelpers.GetLocationName(["fake_vehicle_chassis"], location.toFakeChassis(), false);
                 return false;
             }
         }
 
+        /// <summary>
+        /// Shows full location names for mechs in the to-hit modifiers in battle.
+        /// </summary>
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Mech), typeof(int)])]
         public static class ToHitModifiersHelper_GetToHitModifierName_Mech
         {
@@ -102,11 +128,14 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 var tags = unit.MechDef.MechTags;
                 var location = cLoc;
-                var locationName = LocationNamingHelper.GetLocationName(tags, location, true);
+                var locationName = LocationNamingHelpers.GetLocationName(tags, location, true);
                 return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
             }
         }
 
+        /// <summary>
+        /// Shows full location names for vehicles in the to-hit modifiers in battle.
+        /// </summary>
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Vehicle), typeof(int)])]
         public static class ToHitModifiersHelper_GetToHitModifierName_Vehicle
         {
@@ -147,7 +176,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 var tags = unit.VehicleDef.VehicleTags;
                 var location = vLoc.toFakeChassis();
-                var locationName = LocationNamingHelper.GetLocationName(tags, location, true);
+                var locationName = LocationNamingHelpers.GetLocationName(tags, location, true);
                 return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
             }
         }

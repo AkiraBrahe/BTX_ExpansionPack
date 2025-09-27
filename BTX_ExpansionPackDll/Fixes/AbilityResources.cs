@@ -128,7 +128,7 @@ namespace BTX_ExpansionPack.Fixes
     public static class CombatHUDMechwarriorTray_ResetAbilityButton
     {
         [HarmonyPostfix]
-        public static void Postfix(CombatHUDMechwarriorTray __instance, AbstractActor actor, CombatHUDActionButton button, Ability ability, bool forceInactive)
+        public static void Postfix(AbstractActor actor, CombatHUDActionButton button, Ability ability)
         {
             if (actor != null && ability != null && actor.GetAbilityUsedFiring())
             {
@@ -141,7 +141,7 @@ namespace BTX_ExpansionPack.Fixes
     public static class CombatHUDWeaponPanel_ResetAbilityButton
     {
         [HarmonyPostfix]
-        public static void Postfix(CombatHUDMechwarriorTray __instance, AbstractActor actor, CombatHUDActionButton button, Ability ability, bool forceInactive)
+        public static void Postfix(AbstractActor actor, CombatHUDActionButton button, Ability ability)
         {
             if (actor != null && ability != null && actor.GetAbilityUsedFiring())
             {
@@ -211,7 +211,7 @@ namespace BTX_ExpansionPack.Fixes
     public static class CombatHUDActionButton_ActivateAbility_Confirmed
     {
         [HarmonyPostfix]
-        public static void Postfix(CombatHUDActionButton __instance, string creatorGUID, string targetGUID)
+        public static void Postfix(CombatHUDActionButton __instance)
         {
             var HUD = __instance.HUD;
             var selectedActor = HUD.SelectedActor;
@@ -293,7 +293,7 @@ namespace BTX_ExpansionPack.Fixes
     public static class CombatHUDEquipmentSlot_ActivateAbility_Confirmed
     {
         [HarmonyPostfix]
-        public static void Postfix(CombatHUDEquipmentSlot __instance, string creatorGUID, string targetGUID)
+        public static void Postfix(CombatHUDEquipmentSlot __instance)
         {
             var HUD = __instance.HUD;
             var selectedActor = HUD.SelectedActor;

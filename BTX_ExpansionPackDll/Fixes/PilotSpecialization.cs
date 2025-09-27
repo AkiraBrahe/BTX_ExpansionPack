@@ -7,8 +7,7 @@ using UnityEngine;
 namespace BTX_ExpansionPack.Fixes
 {
     /// <summary>
-    /// Validates pilot tags to ensure each pilot has a specialization.
-    /// Removes obsolete "can_pilot_" tags and replaces them with appropriate specialization tags.
+    /// Fixes pilot specialization tags to ensure each pilot has a specialization.
     /// </summary>
     internal class PilotSpecialization
     {
@@ -16,6 +15,9 @@ namespace BTX_ExpansionPack.Fixes
         private const string VehiclePilotTag = "pilot_vehicle_crew";
         private const string NoMechPilotTag = "pilot_nomech_crew";
 
+        /// <summary>
+        /// Ensures that all starting pilots have a valid specialization tag.
+        /// </summary>
         [HarmonyPatch(typeof(SimGameState), "FirstTimeInitializeDataFromDefs")]
         public static class SimGameState_FirstTimeInitializeDataFromDefs
         {
@@ -51,6 +53,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Ensures that all generated pilots have a valid specialization tag.
+        /// </summary>
         [HarmonyPatch(typeof(PilotGenerator), "GeneratePilots")]
         public static class PilotGenerator_GeneratePilots
         {
@@ -68,17 +73,15 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
-        private static bool pilotsChecked = false;
-
+        /// <summary>
+        /// Replaces obsolete "can_pilot_" tags from all pilots when loading a saved game.
+        /// </summary>
         [HarmonyPatch(typeof(SimGameState), "Rehydrate")]
         public static class SimGameState_Rehydrate
         {
             [HarmonyPostfix]
             public static void Postfix(SimGameState __instance)
             {
-                if (pilotsChecked) return;
-                pilotsChecked = true;
-
                 var allPilots = __instance.PilotRoster.Concat([__instance.Commander]);
                 foreach (var pilot in allPilots)
                 {
@@ -103,12 +106,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
-        [HarmonyPatch(typeof(SimGameState), "Dehydrate")]
-        public static class SimGameState_Dehydrate
-        {
-            public static void Prefix() => pilotsChecked = false;
-        }
-
+        /// <summary>
+        /// Validates and adjusts pilot specialization tags.
+        /// </summary>
         private static void ValidatePilotSpecialization(HBS.Collections.TagSet pilotTags, bool randomize = false)
         {
             bool hasMechSpecialization = pilotTags.Contains(MechPilotTag);

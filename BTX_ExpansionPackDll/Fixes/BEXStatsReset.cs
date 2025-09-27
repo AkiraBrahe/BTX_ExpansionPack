@@ -7,7 +7,7 @@ namespace BTX_ExpansionPack.Fixes
     internal class BEXStatsReset
     {
         /// <summary>
-        /// Resets engine/gyro/hip stats on mission restart.
+        /// Resets BEX stats on mission restart.
         /// </summary>
         [HarmonyPatch(typeof(Contract), "ResetStateForRestart", [])]
         public static class Contract_ResetStateForRestart

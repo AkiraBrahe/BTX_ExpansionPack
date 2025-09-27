@@ -3,7 +3,7 @@ using BattleTech.Framework;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using static BTX_ExpansionPack.DatabaseHelpers;
+using static BTX_ExpansionPack.Helpers.DatabaseHelpers;
 
 namespace BTX_ExpansionPack.Features
 {
@@ -21,7 +21,7 @@ namespace BTX_ExpansionPack.Features
             private static readonly Dictionary<string, List<string>> lanceCompositionAssignments = [];
 
             [HarmonyPatch(typeof(Contract), "BeginRequestResources")]
-            [HarmonyPatch(typeof(Contract), "ResetStateForRestart", [])]
+            [HarmonyPatch(typeof(Contract), "ResetStateForRestart")]
             public static class Contract_ClearLanceAssignments
             {
                 [HarmonyPrefix]

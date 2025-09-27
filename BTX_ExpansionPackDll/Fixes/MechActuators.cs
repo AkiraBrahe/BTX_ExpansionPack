@@ -6,8 +6,8 @@ using System.Linq;
 namespace BTX_ExpansionPack.Fixes
 {
     /// <summary>
-     /// Loads custom actuator settings from MechSettings.json.
-     /// </summary>
+    /// Loads custom actuator settings from MechSettings.json.
+    /// </summary>
     [HarmonyPatch(typeof(BTComponents), "Actuators", MethodType.Getter)]
     public static class MechActuators
     {

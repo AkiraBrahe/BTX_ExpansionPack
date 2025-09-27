@@ -1,8 +1,9 @@
 ﻿using BattleTech;
+using BTX_ExpansionPack.Helpers;
 using CustAmmoCategories;
 using System.Linq;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Targeting
 {
     /// <summary>
     /// Handles AI targeting logic for rapid fire autocannons based on missile threat.

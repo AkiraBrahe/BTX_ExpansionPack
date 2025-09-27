@@ -3,19 +3,19 @@ using CustAmmoCategories;
 using CustomUnits;
 using Quirks;
 using Quirks.Quirks.MechEffects;
+using Quirks.Tooltips;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
+using static Quirks.Quirks.MechEffects.Mech_InitStats;
 
 namespace BTX_ExpansionPack.Fixes
 {
-    /// <summary> 
+    /// <summary>
     /// Implements new mech quirks and fixes existing ones:
-    /// <list type="bullet">
-    /// <item><description>Anti-Aircraft Targeting: +4 to hit airborne units</description></item>
+    /// <list type="bullet"><item><description>Anti-Aircraft Targeting: +4 to hit airborne units</description></item>
     /// <item><description>Easy to Pilot: Gains +1 EVASIVE charge when moving, doesn't stack with Sure Footing</description></item>
-    /// <item><description>Poor Performance: 'Mech can only sprint if it has moved last turn</description></item>
-    /// </list>
+    /// <item><description>Poor Performance: 'Mech can only sprint if it has moved last turn</description></item></list>
     /// </summary>
     internal class MechQuirks
     {
@@ -24,13 +24,13 @@ namespace BTX_ExpansionPack.Fixes
         /// <summary>
         /// Adds the Anti-Aircraft Targeting quirk effect to the tooltip.
         /// </summary>
-        [HarmonyPatch(typeof(Quirks.Tooltips.QuirkToolTips), "DetailMechQuirksGood")]
-        public static class QuirkToolTips_DetailMechQuirksGood
+        [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirksGood")]
+        public static class QuirkToolTips_DetailMechQuirksGood_AntiAircraft
         {
             [HarmonyPostfix]
-            public static void Postfix(MechDef mechDef, ref string __result)
+            public static void Postfix(ChassisDef chassisDef, ref string __result)
             {
-                if (mechDef.Chassis.ChassisTags.Contains("mech_quirk_antiaircraft"))
+                if (chassisDef.ChassisTags.Contains("mech_quirk_antiaircraft"))
                 {
                     __result = __result.Replace("<color=#ffcc00><b>", "<color=#ffcc00><b>\nAnti-Aircraft Targeting: +4 to hit airborne units");
                 }
@@ -59,24 +59,24 @@ namespace BTX_ExpansionPack.Fixes
         #region Easy to Pilot
 
         /// <summary>
-        /// Modifies the Easy to Pilot quirk effect in the tooltip.
+        /// Changes the Easy to Pilot quirk effect in the tooltip.
         /// </summary>
-        [HarmonyPatch(typeof(Quirks.Tooltips.QuirkToolTips), "DetailMechQuirksGood")]
-        public static class QuirkToolTips_DetailMechQuirksGood_Transpiler
+        [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirksGood")]
+        public static class QuirkToolTips_DetailMechQuirksGood_EasyToPilot
         {
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
                 return new CodeMatcher(instructions, il)
                     .MatchForward(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s.Contains("EVASIVE charge increased by 1")))
+                        new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s.StartsWith("EVASIVE charge cap increased by 1")))
                     .SetOperandAndAdvance("Gains +1 EVASIVE charge when moving, doesn't stack with Sure Footing")
                     .InstructionEnumeration();
             }
         }
 
         /// <summary>
-        /// Changes the Easy to Pilot quirk to give +1 EVASIVE charge when moving, and prevents it from stacking with Sure Footing.
+        /// Prevents the old Easy to Pilot quirk effect from being applied.
         /// </summary>
         [HarmonyPatch(typeof(Quirks.Quirks.MechEffects.Mech_InitStats), "Postfix")]
         public static class Mech_InitStats_Postfix
@@ -84,15 +84,22 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
-                return new CodeMatcher(instructions, il)
+                var matcher = new CodeMatcher(instructions, il)
                     .MatchForward(false,
                         new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is MethodInfo mi && mi.Name == "get_EasyToPilotEffect"))
-                    .MatchBack(false, new CodeMatch(OpCodes.Brfalse_S))
-                    .SetOpcodeAndAdvance(OpCodes.Br_S)
+                    .MatchBack(false,
+                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
+
+                var jumpTarget = matcher.Operand;
+                return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
+                    .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
                     .InstructionEnumeration();
             }
         }
 
+        /// <summary>
+        /// Applies the new Easy to Pilot quirk effect unless the pilot has Sure Footing.
+        /// </summary>
         [HarmonyPatch(typeof(Mech), "InitStats")]
         public static class Mech_InitStats_EasyToPilot
         {
@@ -102,8 +109,8 @@ namespace BTX_ExpansionPack.Fixes
                 var pilot = __instance.GetPilot();
                 if (pilot == null) return;
 
-                bool sureFooting = pilot.Abilities.Exists(ability => ability.Def.Id == "AbilityDefP5");
-                if (__instance.MechDef.Chassis.ChassisTags.Contains("mech_quirk_easytopilot") && !sureFooting)
+                bool pilotHasSureFooting = pilot.Abilities.Exists(ability => ability.Def.Id == "AbilityDefP5");
+                if (__instance.MechDef.Chassis.ChassisTags.Contains("mech_quirk_easytopilot") && !pilotHasSureFooting)
                 {
                     EffectManager effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
                     effectManager.CreateEffect(EasyToPilotEffect, "EasyToPilot", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
@@ -135,13 +142,13 @@ namespace BTX_ExpansionPack.Fixes
         /// <summary>
         /// Adds the Poor Performance quirk effect to the tooltip.
         /// </summary>
-        [HarmonyPatch(typeof(Quirks.Tooltips.QuirkToolTips), "DetailMechQuirksBad")]
+        [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirksBad")]
         public static class QuirkToolTips_DetailMechQuirksBad
         {
             [HarmonyPostfix]
-            public static void Postfix(MechDef mechDef, ref string __result)
+            public static void Postfix(ChassisDef chassisDef, ref string __result)
             {
-                if (mechDef.Chassis.ChassisTags.Contains("quirk_poor_performance"))
+                if (chassisDef.ChassisTags.Contains("quirk_poor_performance"))
                 {
                     __result += "\nPoor Performance: 'Mech can only sprint if it has moved last turn";
                 }
@@ -149,7 +156,7 @@ namespace BTX_ExpansionPack.Fixes
         }
 
         /// <summary>
-        /// Implements the Poor Performance quirk, which prevents a 'Mech from sprinting if it did not move last turn.
+        /// Stores custom mech quirks that need to track state.
         /// </summary>
         private static readonly Dictionary<string, CustomQuirkList> CustomQuirkStore = [];
         private class CustomQuirkList
@@ -157,6 +164,9 @@ namespace BTX_ExpansionPack.Fixes
             public bool PoorPerformance = false;
         }
 
+        /// <summary>
+        /// Marks mechs with the Poor Performance quirk in the custom quirk store.
+        /// </summary>
         [HarmonyPatch(typeof(Mech), "InitStats")]
         public static class Mech_InitStats_PoorPerformance
         {
@@ -172,19 +182,19 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
-        [HarmonyPatch(typeof(Mech), "MaxSprintDistance", MethodType.Getter)]
-        [HarmonyPriority(Priority.Last)]
-        [HarmonyWrapSafe]
-        public static class Mech_MaxSprintDistance
+        /// <summary>
+        /// Makes the Poor Performance quirk limit the max sprint distance based on whether the mech moved last turn.
+        /// </summary>
+        [HarmonyPatch(typeof(Mech), "CanSprint", MethodType.Getter)]
+        public static class Mech_CanSprint
         {
             [HarmonyPostfix]
-            public static void Postfix(Mech __instance, ref float __result)
+            public static void Postfix(Mech __instance, ref bool __result)
             {
-                if (CustomQuirkStore[__instance.GUID].PoorPerformance == true && __instance.LastMoveDistance() < 1f)
+                if (CustomQuirkStore.TryGetValue(__instance.GUID, out var customQuirks) &&
+                    customQuirks.PoorPerformance && __instance.LastMoveDistance() < 1f)
                 {
-                    float walkDistance = __instance.MaxWalkDistance;
-                    if (__result > walkDistance)
-                        __result = walkDistance;
+                    __result = false;
                 }
             }
         }

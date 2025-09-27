@@ -19,51 +19,53 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyBefore("io.mission.customunits")]
             public static bool Prefix(ref bool __runOriginal, LanceConfiguratorPanel __instance)
             {
-                if (__instance?.sim != null && __instance.activeContract != null)
-                {
-                    var blockedUnits = new HashSet<string>();
-                    string forbidTag = $"NoBiome_{__instance.activeContract.ContractBiome}";
-                    bool badBiome = false;
+                if ((__instance?.sim) == null || __instance.activeContract == null)
+                    return true;
 
-                    var loadoutSlots = Traverse.Create(__instance).Field("loadoutSlots").GetValue<LanceLoadoutSlot[]>();
-                    if (loadoutSlots != null)
+                var blockedUnits = new HashSet<string>();
+                string forbidTag = $"NoBiome_{__instance.activeContract.ContractBiome}";
+                bool badBiome = false;
+
+                var loadoutSlots = __instance.loadoutSlots;
+                if (loadoutSlots != null)
+                {
+                    foreach (var slot in loadoutSlots)
                     {
-                        foreach (var slot in loadoutSlots)
+                        if (slot?.SelectedMech?.MechDef is MechDef mechDef)
                         {
-                            if (slot?.SelectedMech?.MechDef is MechDef mechDef)
+                            if (HasForbiddenBiome(mechDef, forbidTag, out string logMessage))
                             {
-                                if (HasForbiddenBiome(mechDef, forbidTag, out string logMessage))
+                                if (blockedUnits.Add(mechDef.Name))
                                 {
-                                    if (blockedUnits.Add(mechDef.Name))
-                                    {
-                                        Main.Log.LogDebug(logMessage);
-                                    }
-                                    badBiome = true;
+                                    Main.Log.LogDebug(logMessage);
                                 }
+                                badBiome = true;
                             }
                         }
+                    }
 
-                        if (badBiome)
-                        {
-                            Text title = new("__/DROP.BAD_BIOME.TITLE/__", string.Join(", ", blockedUnits));
-                            Text message = new("__/DROP.BAD_BIOME.MESSAGE/__", []);
+                    if (badBiome)
+                    {
+                        Text title = new("__/DROP.BAD_BIOME.TITLE/__", string.Join(", ", blockedUnits));
+                        Text message = new("__/DROP.BAD_BIOME.MESSAGE/__", []);
 
-                            var interruptQueue = Traverse.Create(__instance.sim).Field("interruptQueue").GetValue<SimGameInterruptManager>();
-                            interruptQueue.QueuePauseNotification(
-                                title.ToString(true),
-                                message.ToString(true),
-                                __instance.sim.GetCrewPortrait(SimGameCrew.Crew_Yang),
-                                "notification_mechreadycomplete",
-                                delegate { },
-                                "Continue",
-                                null,
-                                null
-                            );
-                            __runOriginal = false;
-                            return false;
-                        }
+                        var interruptQueue = __instance.sim.interruptQueue;
+                        interruptQueue.QueuePauseNotification(
+                            title.ToString(true),
+                            message.ToString(true),
+                            __instance.sim.GetCrewPortrait(SimGameCrew.Crew_Yang),
+                            "notification_mechreadycomplete",
+                            delegate { },
+                            "Continue",
+                            null,
+                            null
+                        );
+
+                        __runOriginal = false;
+                        return false;
                     }
                 }
+
                 return true;
             }
 
@@ -74,6 +76,7 @@ namespace BTX_ExpansionPack.Fixes
                     logMessage = $"[NoBiomeFix] {mechDef.Name} has forbidden tag: {forbidTag}, preventing deployment.";
                     return true;
                 }
+
                 foreach (var component in mechDef.Inventory)
                 {
                     if (component?.Def?.ComponentTags?.Contains(forbidTag) == true)
@@ -82,6 +85,7 @@ namespace BTX_ExpansionPack.Fixes
                         return true;
                     }
                 }
+
                 logMessage = null;
                 return false;
             }
@@ -106,7 +110,7 @@ namespace BTX_ExpansionPack.Fixes
                     bool foundVehicle = false;
                     var deployedUnits = new List<MechDef>();
 
-                    var loadoutSlots = Traverse.Create(__instance).Field("loadoutSlots").GetValue<LanceLoadoutSlot[]>();
+                    var loadoutSlots = __instance.loadoutSlots;
                     if (loadoutSlots != null)
                     {
                         foreach (var slot in loadoutSlots)
@@ -126,7 +130,7 @@ namespace BTX_ExpansionPack.Fixes
                     {
                         __instance.lanceValid = false;
                         Text lanceErrorText = new("Vehicles are not allowed in Duel contracts.");
-                        var headerWidget = Traverse.Create(__instance).Field("headerWidget").GetValue<LanceHeaderWidget>();
+                        var headerWidget = __instance.headerWidget;
                         headerWidget?.RefreshLanceInfo(__instance.lanceValid, lanceErrorText, deployedUnits, deployedUnits.Count, __instance.maxUnits);
                         __result = __instance.lanceValid;
                         __runOriginal = false;

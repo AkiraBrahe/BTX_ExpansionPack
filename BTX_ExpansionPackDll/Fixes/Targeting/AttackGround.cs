@@ -3,7 +3,7 @@ using BattleTech.UI;
 using CustAmmoCategories;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Targeting
 {
     /// <summary>
     /// Prevents ground attacks with weapons that have Homing ammo or minimum/forbidden range restrictions.
@@ -42,7 +42,7 @@ namespace BTX_ExpansionPack.Fixes
                     float minRange = weapon.MinRange;
                     float forbiddenRange = weapon.ForbiddenRange() > 0f
                         ? weapon.ForbiddenRange() : weapon.AOERange() > 0f
-                            ? weapon.AOERange() / 2f : 0f;
+                            ? weapon.AOERange() : 0f; //blast radius
 
                     if (distance < minRange)
                     {

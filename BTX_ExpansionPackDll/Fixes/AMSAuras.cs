@@ -8,12 +8,17 @@ using System.Reflection.Emit;
 
 namespace BTX_ExpansionPack.Fixes
 {
+    /// <summary>
+    /// Fixes issues with AMS auras, including correct range calculation and limiting protection floaties to one per ally per turn.
+    /// </summary>
     internal class AMSAuras
     {
+        #region AMS Auras
+
         /// <summary>
-        /// Shows the correct AMS range when using AMS.
+        /// Uses the correct AMS range when calculating aura radius.
         /// </summary>
-        [HarmonyPatch(typeof(AuraBubble), nameof(AuraBubble.GetRadius), MethodType.Normal)]
+        [HarmonyPatch(typeof(AuraBubble), "GetRadius", MethodType.Normal)]
         public static class AuraBubble_GetRadius
         {
             [HarmonyPrefix]
@@ -44,6 +49,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Uses the correct AMS range when calculating AMS AI damage coefficient.
+        /// </summary>
         [HarmonyPatch(typeof(CustomAmmoCategories), "CalcAMSAIDamageCoeff")]
         public static class CalcAMSAIDamageCoeff
         {
@@ -64,12 +72,17 @@ namespace BTX_ExpansionPack.Fixes
                 return amsAura?.Range > 0 ? amsAura.Range : weapon.MaxRange;
             }
         }
+        #endregion
+
+        #region AMS Protection Floaties
+        /// <summary>
+        /// Tracks which allies have already received AMS protection floaties this turn.
+        /// </summary>
+        private static readonly HashSet<string> protectedAllies = [];
 
         /// <summary>
         /// Limits AMS protection floaties to one per ally per turn.
         /// </summary>
-        private static readonly HashSet<string> protectedAllies = [];
-
         [HarmonyPatch(typeof(AuraActorBody), "ShowAddFloatie", [typeof(AuraBubble), typeof(bool)])]
         public static class AuraActorBody_ShowAddFloatie
         {
@@ -102,6 +115,9 @@ namespace BTX_ExpansionPack.Fixes
             }
         }
 
+        /// <summary>
+        /// Clears the list of protected allies at the end of each actor's turn.
+        /// </summary>
         [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]
         public static class AbstractActor_OnActivationEnd
         {
@@ -114,5 +130,7 @@ namespace BTX_ExpansionPack.Fixes
                 }
             }
         }
+
+        #endregion
     }
 }
