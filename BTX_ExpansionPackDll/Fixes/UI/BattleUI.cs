@@ -32,18 +32,22 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// <summary>
         /// Removes the target info from the side panel UI.
         /// </summary>
-        [HarmonyPatch(typeof(CombatHUDInfoSidePanel_Update), "UpdateInfoText")]
-        [HarmonyPatch(typeof(MoveStatusPreview_DisplayPreviewStatus), "Prefix")]
+        [HarmonyPatch]
         public static class CombatHUDInfoSidePanel_Patches
         {
+            [HarmonyTargetMethods]
+            public static IEnumerable<System.Reflection.MethodBase> TargetMethods()
+            {
+                yield return AccessTools.Method(typeof(CombatHUDInfoSidePanel_Update), "UpdateInfoText");
+                yield return AccessTools.Method(typeof(MoveStatusPreview_DisplayPreviewStatus), "Prefix");
+            }
+
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
                 var matcher = new CodeMatcher(instructions, il)
-                    .MatchForward(false,
-                        new CodeMatch(OpCodes.Ldstr, "\n__/TARGET/__:\n"))
-                    .MatchBack(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
+                    .MatchForward(false, new CodeMatch(OpCodes.Ldstr, "\n__/TARGET/__:\n"))
+                    .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
 
                 var jumpTarget = matcher.Operand;
                 return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
