@@ -72,9 +72,11 @@ namespace BTX_ExpansionPack.Fixes
                 return amsAura?.Range > 0 ? amsAura.Range : weapon.MaxRange;
             }
         }
+        
         #endregion
 
         #region AMS Protection Floaties
+
         /// <summary>
         /// Tracks which allies have already received AMS protection floaties this turn.
         /// </summary>

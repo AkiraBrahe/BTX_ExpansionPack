@@ -17,9 +17,7 @@ namespace BTX_ExpansionPack.Fixes
             {
                 return new CodeMatcher(instructions)
                     .MatchForward(false,
-                        new CodeMatch(OpCodes.Ldstr, "XotlTables")
-                    )
-                    .ThrowIfInvalid("Failed to find XotlTables string in GenerateTables.GenerateFromFiles")
+                        new CodeMatch(OpCodes.Ldstr, "XotlTables"))
                     .SetOperandAndAdvance("XotlTablesV2")
                     .InstructionEnumeration();
             }
@@ -34,17 +32,13 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
-                return new CodeMatcher(instructions, il)
-                    .MatchForward(false,
-                        new CodeMatch(OpCodes.Ldstr, "vehicledef_APC_Maxim_3052AP")
-                    )
-                    .MatchBack(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S)
-                    )
-                    .ThrowIfInvalid("Failed to find branch for vehicle rarity logic in XotlTable.RequestUnit")
-                    .CreateLabel(out var skipLogicLabel)
-                    .SetOpcodeAndAdvance(OpCodes.Br_S)
-                    .SetOperandAndAdvance(skipLogicLabel)
+                var matcher = new CodeMatcher(instructions, il)
+                    .MatchForward(false, new CodeMatch(OpCodes.Ldstr, "vehicledef_APC_Maxim_3052AP"))
+                    .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
+
+                var jumpTarget = matcher.Operand;
+                return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
+                    .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
                     .InstructionEnumeration();
             }
         }

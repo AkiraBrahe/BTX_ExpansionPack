@@ -29,8 +29,7 @@ namespace BTX_ExpansionPack.Fixes
             return new CodeMatcher(instructions)
                 .MatchForward(false,
                     new CodeMatch(OpCodes.Ldloc_1),
-                    new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S)
-                )
+                    new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S))
                 .ThrowIfInvalid("Failed to find blacklist check")
                 .SetOpcodeAndAdvance(OpCodes.Ldc_I4_0)
                 .InstructionEnumeration();

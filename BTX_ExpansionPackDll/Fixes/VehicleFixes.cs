@@ -83,7 +83,7 @@ namespace BTX_ExpansionPack.Fixes
                     .CreateLabel(out var skipEffectsLabel)
                     .MatchBack(false,
                         new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Core), nameof(Core.UsingComponents))))
-                    .Insert(
+                    .InsertAndAdvance(
                         new CodeInstruction(OpCodes.Ldarg_0),
                         new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Mech_InitStats_Postfix), nameof(IsFakeVee))),
                         new CodeInstruction(OpCodes.Brtrue_S, skipEffectsLabel)

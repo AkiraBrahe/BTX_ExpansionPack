@@ -7,7 +7,6 @@ using Quirks.Tooltips;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
-using static Quirks.Quirks.MechEffects.Mech_InitStats;
 
 namespace BTX_ExpansionPack.Fixes
 {
@@ -85,10 +84,8 @@ namespace BTX_ExpansionPack.Fixes
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
                 var matcher = new CodeMatcher(instructions, il)
-                    .MatchForward(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is MethodInfo mi && mi.Name == "get_EasyToPilotEffect"))
-                    .MatchBack(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
+                    .MatchForward(false, new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is MethodInfo mi && mi.Name == "get_EasyToPilotEffect"))
+                    .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
 
                 var jumpTarget = matcher.Operand;
                 return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
