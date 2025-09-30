@@ -239,6 +239,15 @@
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Addon_Artillery_Loader_BSK",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
     }
   ]
 }

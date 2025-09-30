@@ -1,7 +1,7 @@
 {
   "Logging": {
-    "DefaultLogLevel": "Debug",
-    "TraceEnabled": true
+    "DefaultLogLevel": "Warning",
+    "TraceEnabled": false
   },
   "MechLab": {
     "TabsConfigFile": "VanillaTabs.json"
@@ -71,7 +71,7 @@
         "Label": "Vehicles",
         "Components": {
           "ContainsAny": [
-            "component_type_stock",
+            "component_type_stock"
           ],
           "NotContainsAny": [
             "BLACKLISTED"

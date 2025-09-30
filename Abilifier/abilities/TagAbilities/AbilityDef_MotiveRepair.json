@@ -2,7 +2,7 @@
   "Description": {
     "Id": "AbilityDef_MotiveRepair",
     "Name": "MOTIVE REPAIR",
-    "Details": "ACTION: Repair the vehicle's motive system, removing three stacks of MOTIVE SYSTEM DAMAGE. There is a 4 round cooldown.",
+    "Details": "ACTION: Clear all MOTIVE SYSTEM DAMAGE below 5 stacks. If 5 or more stacks are present, the damage is reduced to one stack for every five original stacks. There is a 4 round cooldown.",
     "Icon": "spanner"
   },
   "ActivationTime": "ConsumedByMovement",
@@ -29,8 +29,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "motiveSystemGain",
-        "Name": "REPAIRING MOTIVE SYSTEM",
-        "Details": "The motive system will be partially repaired on the next turn.",
+        "Name": "MOTIVE REPAIR",
+        "Details": "This vehicle's motive system will be repaired on its next turn.",
         "Icon": "uixSvgIcon_damage_motive"
       },
       "nature": "Buff",

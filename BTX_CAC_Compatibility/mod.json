@@ -143,10 +143,10 @@
       "Type": "ShipModuleUpgrade",
       "Path": "shipUpgrades"
     },
-    //{
-    //  "Type": "AdvancedJSONMerge",
-    //  "Path": "advancedMerge"
-    //},
+    {
+      "Type": "AdvancedJSONMerge",
+      "Path": "advancedMerge"
+    },
     {
       "Type": "ChassisDef",
       "Path": "chassis",

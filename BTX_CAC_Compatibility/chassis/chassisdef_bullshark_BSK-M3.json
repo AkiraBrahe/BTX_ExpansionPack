@@ -227,8 +227,8 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_XL_Engine_Clan",
-      "ComponentDefType": "HeatSink",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
       "DamageLevel": "Functional",
@@ -236,8 +236,8 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_XL_Engine_Clan",
-      "ComponentDefType": "HeatSink",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
       "DamageLevel": "Functional",

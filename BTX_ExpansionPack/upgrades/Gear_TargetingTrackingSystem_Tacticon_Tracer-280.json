@@ -40,8 +40,8 @@
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-Attack_ToHitArtillery",
-        "Name": "ARTILLERY WEAPON HIT CHANCE IMPROVED",
-        "Details": "Artillery strikes have their hit improved by [AMT].",
+        "Name": "ARTILLERY TTS",
+        "Details": "Improves direct artillery strike accuracy by [AMT]. Indirect strikes automatically shift towards the nearest enemy.",
         "Icon": "uixSvgIcon_equipment_TTS"
       },
       "nature": "Buff",
@@ -63,13 +63,13 @@
         "effectTriggerType": "Passive",
         "effectTargetType": "Creator",
         "showInTargetPreview": false,
-        "showInStatusPanel": true
+        "showInStatusPanel": false
       },
       "effectType": "FloatieEffect",
       "Description": {
         "Id": "StatusEffect-TTS-AdjustedStrike",
         "Name": "AUTOMATIC STRIKE RETARGETING",
-        "Details": "Artillery strikes initiated via the ATTACK GROUND ability will automatically shift towards the nearest enemy unit.",
+        "Details": "Artillery strikes automatically shift towards the nearest enemy.",
         "Icon": "uixSvgIcon_equipment_TTS"
       },
       "nature": "Buff",

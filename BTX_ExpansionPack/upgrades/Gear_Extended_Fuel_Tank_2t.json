@@ -15,10 +15,10 @@
         "FireDurationWithoutForest": 2,
         "FireTerrainStrength": 10,
         "FireTerrainCellRadius": 2,
-        "VFX": "vfxPrfPrtl_artilleryExplosion",
-        "VFXScaleX": 0.6,
-        "VFXScaleY": 0.6,
-        "VFXScaleZ": 0.6
+        "VFX": "vfxPrfPrtl_propaneTankExplosion",
+        "VFXScaleX": 0.2,
+        "VFXScaleY": 0.2,
+        "VFXScaleZ": 0.2
       }
     }
   },
