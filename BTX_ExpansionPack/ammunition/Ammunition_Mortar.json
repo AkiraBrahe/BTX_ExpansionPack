@@ -20,14 +20,11 @@
   "CriticalDamageModifier": 1,
   "AccuracyModifier": 0,
   "AOECapable": true,
-  "AOERange": 30,
+  "AOERange": 15,
   "AOEDamage": 15,
   "AOEHeatDamage": 0,
   "AOEInstability": 7.5,
-  "AoEDmgFalloffType": "Linear",
   "CantHitUnaffecedByPathing": true,
-  "AdditionalImpactVFX": "WFX_BELarger",
-  "AdditionalImpactVFXScaleX": 1,
-  "AdditionalImpactVFXScaleY": 1,
-  "AdditionalImpactVFXScaleZ": 1
+  "AdditionalImpactVFX": "vfxPrfPrtl_weaponLRMExplosion",
+  "AdditionalAudioEffect": "AudioEventList_explosion_explosion_small"
 }

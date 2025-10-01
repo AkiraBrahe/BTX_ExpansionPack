@@ -22,9 +22,5 @@
     "x": 10,
     "y": 10,
     "z": 10
-  },
-  "AdditionalImpactVFX": "vfxPrfPrtl_artilleryImpact_barrage",
-  "AdditionalImpactVFXScaleX": 1,
-  "AdditionalImpactVFXScaleY": 1,
-  "AdditionalImpactVFXScaleZ": 1
+  }
 }

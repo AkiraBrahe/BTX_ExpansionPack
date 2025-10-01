@@ -26,8 +26,8 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
-  "MinMissRadius": 25,
-  "MaxMissRadius": 70,
+  "MinMissRadius": 15,
+  "MaxMissRadius": 35,
   "CriticalChanceMultiplier": 1,
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
@@ -50,7 +50,7 @@
     "Details": "The Arrow IV is a stand-alone, missile based, artillery system, designed to augment conventional systems such as the Long Tom and the Sniper. Arrow IV launchers can be equipped with standard unguided area saturation missiles, causing massive damage to any unit within its 45-meter blast radius.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA": "90m AoE Range",
+  "BonusValueA": "45m AoE Range",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -88,13 +88,7 @@
       "ArtilleryReticleRadius": 45,
       "ArtilleryReticleText": "Arrow IV",
       "DirectFireModifier": 2,
-      "ShotsWhenFired": -1,
-      "AOECapable": true,
-      "AOERange": 90,
-      "AOEDamage": 160,
-      "AOEHeatDamage": 0,
-      "AOEInstability": 80,
-      "AoEDmgFalloffType": "Linear"
+      "ShotsWhenFired": -1
     },
     {
       "Id": "ARTY_Guided",
@@ -107,12 +101,6 @@
       "MissBehavior": "Guided",
       "DamagePerShot": -100,
       "Instability": -50,
-      "AOECapable": true,
-      "AOERange": 90,
-      "AOEDamage": 100,
-      "AOEHeatDamage": 0,
-      "AOEInstability": 50,
-      "AoEDmgFalloffType": "Linear",
       "RestrictedAmmo": [
         "Ammunition_ArrowIV",
         "Ammunition_ArrowIV_Inferno"

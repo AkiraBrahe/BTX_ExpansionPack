@@ -41,7 +41,7 @@
       "Description": {
         "Id": "StatusEffect-Attack_ToHitArtillery",
         "Name": "ARTILLERY TTS",
-        "Details": "Improves direct artillery strike accuracy by [AMT]. Indirect strikes automatically shift towards the nearest enemy.",
+        "Details": "Direct strikes have their hit improved by [AMT] and indirect strikes automatically shift towards the nearest enemy.",
         "Icon": "uixSvgIcon_equipment_TTS"
       },
       "nature": "Buff",
@@ -65,7 +65,7 @@
         "showInTargetPreview": false,
         "showInStatusPanel": false
       },
-      "effectType": "FloatieEffect",
+      "effectType": "StatisticEffect",
       "Description": {
         "Id": "StatusEffect-TTS-AdjustedStrike",
         "Name": "AUTOMATIC STRIKE RETARGETING",
@@ -73,8 +73,13 @@
         "Icon": "uixSvgIcon_equipment_TTS"
       },
       "nature": "Buff",
-      "floatieData": {
-        "targetCollection": "NotSet"
+      "statisticData": {
+        "Location": "{target}",
+        "statName": "CAC_AMSAttractiveness",
+        "operation": "Float_Add",
+        "modValue": "2.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
       }
     }
   ],

@@ -3,11 +3,5 @@
   "addonType": "weaponupgrade_tts_artillery",
   "targetComponentTags": [
     "artillery_tts_attachable"
-  ],
-  "modes": [
-    {
-      "Id": "ARTY",
-      "AIHitChanceCap": 2.0
-    }
   ]
 }

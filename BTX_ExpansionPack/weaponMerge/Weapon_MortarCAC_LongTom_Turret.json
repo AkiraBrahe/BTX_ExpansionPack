@@ -20,15 +20,14 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
-  "MinMissRadius": 45,
-  "MaxMissRadius": 135,
+  "MinMissRadius": 25,
+  "MaxMissRadius": 90,
   "CriticalChanceMultiplier": 1,
   "AOECapable": true,
-  "AOERange": 180,
+  "AOERange": 90,
   "AOEDamage": 225,
   "AOEHeatDamage": 0,
   "AOEInstability": 112.5,
-  "AoEDmgFalloffType": "Linear",
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -50,7 +49,7 @@
     "Details": "The Long Tom Artillery Piece is the largest conventional artillery piece that can be mounted on a vehicle. As with all artillery types, the Long Tom always fires indirectly and deals damage in the area of impact.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "180m AoE Range",
+  "BonusValueA": "90m AoE Range",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -63,7 +62,7 @@
   "CriticalComponent": false,
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 1,
-  "ProjectileSpeedMultiplier": 1,
+  "ProjectileSpeedMultiplier": 0.65,
   "IsArtillery": true,
   "ArtilleryReticleColor": {
     "C": "#C95410",
@@ -74,11 +73,16 @@
   "Modes": [
     {
       "Id": "ARTY",
-      "UIName": "",
+      "UIName": "--",
       "Name": "Artillery",
       "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
-      "DirectFireModifier": 2
+      "DirectFireModifier": 2,
+      "AdditionalImpactVFX": "vfxPrfPrtl_artilleryExplosion",
+      "AdditionalAudioEffect": "AudioEventList_explosion_explosion_large",
+      "AdditionalImpactVFXScaleX": 3,
+      "AdditionalImpactVFXScaleY": 3,
+      "AdditionalImpactVFXScaleZ": 3
     }
   ],
   "statusEffects": [],
