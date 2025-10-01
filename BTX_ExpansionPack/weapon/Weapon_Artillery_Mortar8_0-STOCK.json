@@ -23,8 +23,8 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
-  "MinMissRadius": 15,
-  "MaxMissRadius": 75,
+  "MinMissRadius": 5,
+  "MaxMissRadius": 60,
   "CriticalChanceMultiplier": 1,
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
@@ -46,7 +46,7 @@
     "Details": "The largest Mech Mortar ever produced, the Mech Mortar/8 fires more shells than any other Mech Mortar. Based on the weapon used by infantry for centuries, it fires several small shells in a high arc that fall onto the target.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "30m AoE Range",
+  "BonusValueA": "15m AoE Range",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -64,7 +64,7 @@
   "Modes": [
     {
       "Id": "ARTY",
-      "UIName": "",
+      "UIName": "--",
       "Name": "Artillery",
       "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,

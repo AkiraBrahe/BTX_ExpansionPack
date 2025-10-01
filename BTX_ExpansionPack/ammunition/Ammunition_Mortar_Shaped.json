@@ -28,10 +28,7 @@
   "AOEDamage": 15,
   "AOEHeatDamage": 0,
   "AOEInstability": 10,
-  "AoEDmgFalloffType": "Linear",
   "CantHitUnaffecedByPathing": true,
-  "AdditionalImpactVFX": "WFX_BESmaller",
-  "AdditionalImpactVFXScaleX": 1,
-  "AdditionalImpactVFXScaleY": 1,
-  "AdditionalImpactVFXScaleZ": 1
+  "AdditionalImpactVFX": "vfxPrfPrtl_weaponLRMExplosion",
+  "AdditionalAudioEffect": "AudioEventList_explosion_explosion_small"
 }

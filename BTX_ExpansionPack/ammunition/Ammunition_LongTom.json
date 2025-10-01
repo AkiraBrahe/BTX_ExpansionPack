@@ -17,9 +17,5 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
-  "HideIfOnlyVariant": true,
-  "AdditionalImpactVFX": "WFX_BELarger",
-  "AdditionalImpactVFXScaleX": 4,
-  "AdditionalImpactVFXScaleY": 4,
-  "AdditionalImpactVFXScaleZ": 4
+  "HideIfOnlyVariant": true
 }

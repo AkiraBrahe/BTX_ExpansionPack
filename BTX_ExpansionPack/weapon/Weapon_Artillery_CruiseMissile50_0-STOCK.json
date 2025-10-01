@@ -15,7 +15,7 @@
     3000,
     3000
   ],
-  "ForbiddenRange": 180,
+  "ForbiddenRange": 135,
   "ammoCategoryID": "CM50",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 150,
@@ -26,15 +26,14 @@
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
-  "MinMissRadius": 90,
-  "MaxMissRadius": 270,
+  "MinMissRadius": 35,
+  "MaxMissRadius": 135,
   "CriticalChanceMultiplier": 1,
   "AOECapable": true,
-  "AOERange": 360,
+  "AOERange": 135,
   "AOEDamage": 450,
   "AOEHeatDamage": 0,
   "AOEInstability": 225,
-  "AoEDmgFalloffType": "Linear",
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -56,7 +55,7 @@
     "Details": "The Cruise Missile/50 is the smallest of the Cruise Missile developed by the Federated Suns. This massive unguided missile deals tremendous damage, capable of annihilating smaller 'Mechs and fortifications in a single shot. However, its immense bulk creates a logistical nightmare. Only the Kalki superheavy tank can carry the launcher and its ammunition, making the CM/50 a rare but potentially battlefield-deciding weapon.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA": "360m AoE Range",
+  "BonusValueA": "135m AoE Range",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -79,17 +78,21 @@
     "C": "#991B1B",
     "I": 1.5
   },
-  "ArtilleryReticleRadius": 180,
+  "ArtilleryReticleRadius": 135,
   "ArtilleryReticleText": "Cruise Missile",
   "Modes": [
     {
       "Id": "ARTY",
-      "UIName": "",
+      "UIName": "--",
       "Name": "Artillery",
       "Description": "Fire in a high arc at ground targets.",
       "isBaseMode": true,
       "DirectFireModifier": 2,
-      "ShotsWhenFired": -1
+      "ShotsWhenFired": -1,
+      "AdditionalImpactVFX": "vfxPrfPrtl_artilleryImpact_barrage",
+      "AdditionalImpactVFXScaleX": 1,
+      "AdditionalImpactVFXScaleY": 1,
+      "AdditionalImpactVFXScaleZ": 1
     }
   ],
   "statusEffects": [],
