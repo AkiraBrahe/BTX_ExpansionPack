@@ -110,7 +110,7 @@ namespace BTX_ExpansionPack.Features
                 float actualChance = chance;
                 SimGameState simulation = UnityGameInstance.BattleTechGame.Simulation;
 
-                if (productionDate.HasValue && commonDate.HasValue && simulation != null)
+                if (simulation != null && productionDate.HasValue && commonDate.HasValue)
                 {
                     actualChance = InterpolateChance(simulation.CurrentDate, productionDate.Value, commonDate.Value, chance, minChance);
                 }

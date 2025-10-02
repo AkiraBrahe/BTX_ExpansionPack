@@ -9,6 +9,7 @@
     public class ModDebugSettings
     {
         public bool AllDropShipUpgrades { get; set; } = false;
+        public bool ForceConvoyToFightInZone { get; set; } = true;
         public bool PirateSystemLogging { get; set; } = false;
         public bool MechSizeLogging { get; set; } = false;
     }
@@ -16,7 +17,6 @@
     public class GameplaySettings
     {
         public bool AllowVehiclesInMechDuels { get; set; } = false;
-        public bool ForceConvoyToFightInZone { get; set; } = true;
         public bool OverrideDHSEngineCooling { get; set; } = true;
         public double DHSEngineCoolingMultiplier { get; set; } = 1.5;
         public bool DisableNonStandardAmmoBins { get; set; } = false;
