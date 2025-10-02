@@ -4,6 +4,7 @@ using BattleTech.UI.TMProWrapper;
 using BTX_CAC_CompatibilityDll;
 using CustAmmoCategories;
 using Extended_CE;
+using System;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 
@@ -15,7 +16,7 @@ namespace BTX_ExpansionPack.Fixes
         /// Removes melee damage from vehicles (player and AI).
         /// </summary>
         [HarmonyPatch(typeof(ChassisDef), "FromJSON")]
-        public class ChassisDef_FromJSON_Patch
+        public class ChassisDef_FromJSON
         {
             [HarmonyPostfix, HarmonyPriority(Priority.Last)]
             public static void Postfix(ChassisDef __instance)
@@ -121,7 +122,7 @@ namespace BTX_ExpansionPack.Fixes
                 if (___mechLab.activeMechDef == null)
                     return true;
 
-                ChassisDef chassisDef = ___mechLab.activeMechDef.Chassis;
+                var chassisDef = ___mechLab.activeMechDef.Chassis;
                 int currentWeightKG = ___mechLab.CalculateWeightKG();
                 int remainingWeightKG = (int)(chassisDef.Tonnage * 1000f) - currentWeightKG;
 

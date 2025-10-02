@@ -46,7 +46,7 @@ namespace BTX_ExpansionPack.Features
             [HarmonyPostfix]
             public static void Postfix(Mech __instance)
             {
-                SimGameState simulation = UnityGameInstance.BattleTechGame.Simulation;
+                var simulation = UnityGameInstance.BattleTechGame.Simulation;
                 bool isInvalidState = simulation == null || __instance.Combat == null || __instance.Combat.ActiveContract == null;
                 bool IsPlayerTeam = MechComponentsOverTime.spawningActorIsPlayerTeam;
                 bool isInvalidTarget = IsPlayerTeam || __instance.StatCollection.GetValue<bool>("IsTargetingDummy") || __instance.StatCollection.GetValue<bool>("GuaranteeUnhittable");
@@ -108,7 +108,7 @@ namespace BTX_ExpansionPack.Features
             private static void ReplaceAmmo(Mech mech, string originalAmmoID, string replacementAmmoID, float chance, DateTime? productionDate = null, DateTime? commonDate = null, float minChance = 0.05f)
             {
                 float actualChance = chance;
-                SimGameState simulation = UnityGameInstance.BattleTechGame.Simulation;
+                var simulation = UnityGameInstance.BattleTechGame.Simulation;
 
                 if (simulation != null && productionDate.HasValue && commonDate.HasValue)
                 {
@@ -116,14 +116,14 @@ namespace BTX_ExpansionPack.Features
                 }
 
                 List<AmmunitionBox> ammoBoxesToReplace = [];
-                foreach (AmmunitionBox ammoBox in mech.ammoBoxes)
+                foreach (var ammoBox in mech.ammoBoxes)
                 {
                     if (ammoBox.defId == originalAmmoID && Random.Range(0f, 1f) < actualChance)
                     {
                         ammoBoxesToReplace.Add(ammoBox);
                     }
                 }
-                foreach (AmmunitionBox ammoBoxToRemove in ammoBoxesToReplace)
+                foreach (var ammoBoxToRemove in ammoBoxesToReplace)
                 {
                     mech.allComponents.Remove(ammoBoxToRemove);
                     mech.ammoBoxes.Remove(ammoBoxToRemove);

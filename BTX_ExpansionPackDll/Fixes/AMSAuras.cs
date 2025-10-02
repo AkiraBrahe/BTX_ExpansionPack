@@ -68,7 +68,7 @@ namespace BTX_ExpansionPack.Fixes
 
             public static float GetAMSRange(Weapon weapon)
             {
-                AuraDef amsAura = weapon.weaponDef.GetAuras().FirstOrDefault(a => a.Name == "AMS");
+                var amsAura = weapon.weaponDef.GetAuras().FirstOrDefault(a => a.Name == "AMS");
                 return amsAura?.Range > 0 ? amsAura.Range : weapon.MaxRange;
             }
         }

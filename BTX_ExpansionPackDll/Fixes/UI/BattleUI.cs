@@ -49,7 +49,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                     .MatchForward(false, new CodeMatch(OpCodes.Ldstr, "\n__/TARGET/__:\n"))
                     .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
 
-                var jumpTarget = matcher.Operand;
+                object jumpTarget = matcher.Operand;
                 return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
                     .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
                     .InstructionEnumeration();
@@ -132,7 +132,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 var tags = unit.MechDef.MechTags;
                 var location = cLoc;
-                var locationName = LocationNamingHelpers.GetLocationName(tags, location, true);
+                string locationName = LocationNamingHelpers.GetLocationName(tags, location, true);
                 return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
             }
         }
@@ -180,7 +180,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 var tags = unit.VehicleDef.VehicleTags;
                 var location = vLoc.toFakeChassis();
-                var locationName = LocationNamingHelpers.GetLocationName(tags, location, true);
+                string locationName = LocationNamingHelpers.GetLocationName(tags, location, true);
                 return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
             }
         }

@@ -49,7 +49,7 @@ namespace BTX_ExpansionPack.Features
                     {
                         if (vehicle.Combat.Constants.PilotingConstants.InjuryFromAmmoExplosion)
                         {
-                            Pilot pilot = vehicle.GetPilot();
+                            var pilot = vehicle.GetPilot();
                             pilot?.SetNeedsInjury(InjuryReason.AmmoExplosion);
                             vehicle.CheckPilotStatusFromAttack(hitInfo.attackerId, hitInfo.attackSequenceId, hitInfo.stackItemUID);
                         }
@@ -88,7 +88,7 @@ namespace BTX_ExpansionPack.Features
                     {
                         if (vehicle.Combat.Constants.PilotingConstants.InjuryFromAmmoExplosion)
                         {
-                            Pilot pilot = vehicle.GetPilot();
+                            var pilot = vehicle.GetPilot();
                             pilot?.SetNeedsInjury(InjuryReason.ComponentExplosion);
                             vehicle.CheckPilotStatusFromAttack(hitInfo.attackerId, hitInfo.attackSequenceId, hitInfo.stackItemUID);
                         }
@@ -104,7 +104,7 @@ namespace BTX_ExpansionPack.Features
 
         private static void ApplyCASEProtection(FakeVehicleMech vehicle, string componentName, WeaponHitInfo hitInfo, bool applyDamage)
         {
-            ArmorLocation rearArmorLocation = VehicleChassisLocations.Rear.toFakeArmor();
+            var rearArmorLocation = VehicleChassisLocations.Rear.toFakeArmor();
             float currentRearArmor = vehicle.GetCurrentArmor(rearArmorLocation);
             float totalRearArmor = vehicle.GetMaxArmor(rearArmorLocation);
             float damageToApply = Mathf.Min(currentRearArmor, totalRearArmor / 2f);

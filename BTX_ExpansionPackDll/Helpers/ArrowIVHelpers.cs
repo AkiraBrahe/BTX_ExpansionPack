@@ -20,9 +20,9 @@ namespace BTX_ExpansionPack.Helpers
                 if (actor == null || actor.ammoBoxes == null || actor.StatCollection == null) return;
 
                 bool foundHomingAmmo = false;
-                foreach (AmmunitionBox ammo in actor.ammoBoxes)
+                foreach (var ammoBox in actor.ammoBoxes)
                 {
-                    if (ammo.ammunitionBoxDef.AmmoID == "Ammunition_ArrowIV_Homing")
+                    if (ammoBox.defId == "Ammunition_ArrowIV_Homing")
                     {
                         foundHomingAmmo = true;
                         break;
@@ -82,11 +82,11 @@ namespace BTX_ExpansionPack.Helpers
         {
             if (mech?.team == null) return false;
 
-            foreach (ICombatant ally in mech.team.units)
+            foreach (var ally in mech.team.units)
             {
                 if (ally is Mech allyMech && allyMech != mech)
                 {
-                    foreach (Weapon weapon in allyMech.Weapons)
+                    foreach (var weapon in allyMech.Weapons)
                     {
                         if (weapon.defId.StartsWith("Weapon_TAG"))
                         {
@@ -96,7 +96,7 @@ namespace BTX_ExpansionPack.Helpers
                 }
                 else if (ally is Vehicle allyVehicle)
                 {
-                    foreach (Weapon weapon in allyVehicle.Weapons)
+                    foreach (var weapon in allyVehicle.Weapons)
                     {
                         if (weapon.defId.StartsWith("Weapon_TAG"))
                         {

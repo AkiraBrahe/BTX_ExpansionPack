@@ -19,7 +19,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
             [HarmonyAfter("BEX.BattleTech.Extended_CE")]
             public static void Postfix(Mech __instance)
             {
-                bool hasAATargeting = MechQuirkInfo.MechQuirkStore.TryGetValue(__instance.MechDef.Chassis.Description.Id, out var quirk) && quirk.AntiAircraftTargeting ||
+                bool hasAATargeting = (MechQuirkInfo.MechQuirkStore.TryGetValue(__instance.MechDef.Chassis.Description.Id, out var quirk) && quirk.AntiAircraftTargeting) ||
                     (__instance.FakeVehicle() && __instance.MechDef.MechTags.Contains("unit_vehicle_airDefense"));
                 if (hasAATargeting) return;
 
@@ -54,7 +54,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                     return;
 
                 bool isMissileThreatened = unit.IsMissileThreatened();
-                foreach (Weapon weapon in rapidFireWeapons)
+                foreach (var weapon in rapidFireWeapons)
                 {
                     if (isMissileThreatened) // && weapon.info().isModeAvailble(weapon.info().modes["AMS"], out _))
                     {
@@ -73,9 +73,6 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         /// <summary>
         /// Determines if a weapon is a rapid-fire autocannon.
         /// </summary>
-        public static bool IsRFAC(this Weapon weapon)
-        {
-            return weapon.info()?.modes.ContainsKey("RF") ?? false;
-        }
+        public static bool IsRFAC(this Weapon weapon) => weapon.info()?.modes.ContainsKey("RF") ?? false;
     }
 }

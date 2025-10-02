@@ -1,5 +1,4 @@
-﻿using BattleTech;
-using BattleTech.UI;
+﻿using BattleTech.UI;
 using CustAmmoCategories;
 using UnityEngine;
 
@@ -18,8 +17,8 @@ namespace BTX_ExpansionPack.Fixes.Targeting
             {
                 if (__result == false) return;
 
-                AbstractActor actor = __instance.SelectedActor;
-                foreach (Weapon weapon in actor.Weapons)
+                var actor = __instance.SelectedActor;
+                foreach (var weapon in actor.Weapons)
                 {
                     if (!weapon.IsFunctional || !weapon.IsEnabled || weapon.isAMS())
                         continue;

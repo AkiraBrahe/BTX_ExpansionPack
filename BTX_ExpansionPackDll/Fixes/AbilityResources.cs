@@ -10,10 +10,7 @@ namespace BTX_ExpansionPack.Fixes
     /// </summary>
     public static class AbilityResources
     {
-        public static bool GetAbilityUsedFiring(this AbstractActor actor)
-        {
-            return actor.StatCollection.GetValue<bool>("ActorConsumedFiring");
-        }
+        public static bool GetAbilityUsedFiring(this AbstractActor actor) => actor.StatCollection.GetValue<bool>("ActorConsumedFiring");
 
         public static void DisableAbilitiesUsingResource(this CombatSelectionHandler handler, AbilityDef.ResourceConsumed resource)
         {
@@ -91,20 +88,14 @@ namespace BTX_ExpansionPack.Fixes
     public static class AbstractActor_InitEffectStats
     {
         [HarmonyPostfix]
-        public static void Postfix(AbstractActor __instance)
-        {
-            __instance.StatCollection.AddStatistic("ActorConsumedFiring", false);
-        }
+        public static void Postfix(AbstractActor __instance) => __instance.StatCollection.AddStatistic("ActorConsumedFiring", false);
     }
 
     [HarmonyPatch(typeof(AbstractActor), "OnNewRound", typeof(int))]
     public static class AbstractActor_OnNewRound
     {
         [HarmonyPostfix]
-        public static void Postfix(AbstractActor __instance)
-        {
-            __instance.StatCollection.Set("ActorConsumedFiring", false);
-        }
+        public static void Postfix(AbstractActor __instance) => __instance.StatCollection.Set("ActorConsumedFiring", false);
     }
 
     [HarmonyPatch(typeof(SelectionStateMove), "GetAllMeleeTargets", [])]
@@ -218,7 +209,7 @@ namespace BTX_ExpansionPack.Fixes
             var selectionStack = HUD.SelectionHandler.SelectionStack;
             if (__instance.Ability.Def.Resource == AbilityDef.ResourceConsumed.ConsumesFiring)
             {
-                if (selectedActor.HasBegunActivation || selectedActor.HasMovedThisRound && !selectedActor.HasActivatedThisRound)
+                if (selectedActor.HasBegunActivation || (selectedActor.HasMovedThisRound && !selectedActor.HasActivatedThisRound))
                 {
                     if (selectedActor is Mech mech)
                     {
@@ -240,7 +231,9 @@ namespace BTX_ExpansionPack.Fixes
                         selectionStateFire.OnRemoveFromStack();
                         selectionStack.Remove(selectionStateFire);
                     }
-                    else switch (selectionStack[i])
+                    else
+                    {
+                        switch (selectionStack[i])
                         {
                             case SelectionStateFireMulti selectionStateFireMulti:
                                 selectionStateFireMulti.OnInactivate();
@@ -259,6 +252,7 @@ namespace BTX_ExpansionPack.Fixes
                                 selectionStateJump.RefreshPossibleTargets();
                                 break;
                         }
+                    }
                 }
                 HUD.MechWarriorTray.FireButton.DisableButton();
                 if (!selectionStack.Any(x => x is SelectionStateDoneWithMech) && selectedActor.HasMovedThisRound)
@@ -300,7 +294,7 @@ namespace BTX_ExpansionPack.Fixes
             var selectionStack = HUD.SelectionHandler.SelectionStack;
             if (__instance.Ability.Def.Resource == AbilityDef.ResourceConsumed.ConsumesFiring)
             {
-                if (selectedActor.HasBegunActivation || selectedActor.HasMovedThisRound && !selectedActor.HasActivatedThisRound)
+                if (selectedActor.HasBegunActivation || (selectedActor.HasMovedThisRound && !selectedActor.HasActivatedThisRound))
                 {
                     if (selectedActor is Mech mech)
                     {
@@ -371,7 +365,7 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPostfix]
         public static void Postfix(CombatHUDMechwarriorTray __instance, AbstractActor actor)
         {
-            var forceInactive = actor.HasMovedThisRound || actor.HasFiredThisRound; // need to figure this part out; do other checks? this is still disabling the butons. integrat with CU?
+            bool forceInactive = actor.HasMovedThisRound || actor.HasFiredThisRound; // need to figure this part out; do other checks? this is still disabling the butons. integrat with CU?
             var abilityButtons = __instance.AbilityButtons;
             foreach (var button in abilityButtons)
             {
