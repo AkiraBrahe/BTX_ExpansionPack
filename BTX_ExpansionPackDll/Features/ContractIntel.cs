@@ -65,7 +65,7 @@ namespace BTX_ExpansionPack.Features
 
                 if (Main.Settings.UI.ContractIntel.IntelShowVariant)
                 {
-                    if (Variant.TryGetValue(contract.Override.ID, out string variantDescription))
+                    if (!string.IsNullOrEmpty(contract.Override.ID) && Variant.TryGetValue(contract.Override.ID, out string variantDescription))
                     {
                         variantText = SetupTextComponent(
                             variantText,

@@ -24,7 +24,7 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPrefix]
             public static bool Prefix(AuraBubble __instance, ref float __result)
             {
-                if (__instance?.Def == null) { __result = 0f; return false; }
+                if (__instance.Def == null) { __result = 0f; return false; }
                 if (__instance.owner == null) { __result = __instance.Def.Range; return false; }
 
                 if (__instance.source is Weapon weapon)
@@ -72,7 +72,7 @@ namespace BTX_ExpansionPack.Fixes
                 return amsAura?.Range > 0 ? amsAura.Range : weapon.MaxRange;
             }
         }
-        
+
         #endregion
 
         #region AMS Protection Floaties

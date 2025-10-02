@@ -28,6 +28,11 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="External References\**" />
+    <EmbeddedResource Remove="External References\**" />
+    <None Remove="External References\**" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Remove="Features\AdditionalLances_Comstar.cs" />
     <Compile Remove="Features\UrbanDevastation.cs" />
     <Compile Remove="Fixes\MechActuators.cs" />

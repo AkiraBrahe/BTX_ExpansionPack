@@ -1,4 +1,5 @@
 ﻿using BattleTech;
+using System;
 using System.Collections.Generic;
 using static Extended_CE.BTComponents;
 
@@ -12,8 +13,8 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPatch(typeof(Contract), "ResetStateForRestart", [])]
         public static class Contract_ResetStateForRestart
         {
-            [HarmonyPrefix]
-            public static void Prefix()
+            [HarmonyPostfix]
+            public static void Postfix()
             {
                 foreach (KeyValuePair<string, TTRuleInfo> entry in MechTTRuleInfo.MechTTStatStore)
                 {

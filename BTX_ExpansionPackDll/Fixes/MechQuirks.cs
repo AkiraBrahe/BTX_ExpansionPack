@@ -49,7 +49,11 @@ namespace BTX_ExpansionPack.Fixes
                     return;
 
                 var tags = __instance.CurrentRepresentation.altDef.additionalEncounterTags;
-                MechQuirkInfo.MechQuirkStore[__instance.parentMech.MechDef.Chassis.Description.Id].VTOL = tags.Contains("unit_lam");
+                var chassisId = __instance.parentMech.MechDef.Chassis.Description.Id;
+
+                if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirk))
+                    quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);
+                quirk.VTOL = tags.Contains("unit_lam");
             }
         }
 

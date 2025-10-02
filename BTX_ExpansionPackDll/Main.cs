@@ -85,7 +85,7 @@ namespace BTX_ExpansionPack
         internal static void ApplySettings()
         {
             // Override anti-air to hit bonus
-            Quirks.MechQuirks.modSettings.AntiAircraftTargetingToHit = 4;
+            Quirks.MechQuirks.modSettings.AntiAircraftTargetingToHit = -4;
 
             // Override DHS engine cooling
             Extended_CE.Core.Settings.DHSEngineCooling = Settings.Gameplay.OverrideDHSEngineCooling

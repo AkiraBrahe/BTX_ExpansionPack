@@ -11,13 +11,13 @@
         "showInTargetPreview": true,
         "showInStatusPanel": true
       },
+      "effectType": "FloatieEffect",
       "Description": {
         "Id": "StatusEffect-CommandConsole-Floatie",
         "Name": "COMMAND CONSOLE",
         "Details": "Provides +1 Initiative, +2 Resolve, +25m View, and +2 Max Injuries.",
         "Icon": "uixSvgIcon_equipment_Cockpit"
       },
-      "effectType": "FloatieEffect",
       "nature": "Buff",
       "floatieData": {
         "targetCollection": "NotSet"
