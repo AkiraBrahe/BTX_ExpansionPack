@@ -1,6 +1,8 @@
 ﻿using BattleTech;
 using BattleTech.UI;
 using CustAmmoCategories;
+using System;
+using System.Globalization;
 using System.Linq;
 
 namespace BTX_ExpansionPack.Features
@@ -8,7 +10,7 @@ namespace BTX_ExpansionPack.Features
     internal class MotiveRepair
     {
         /// <summary>
-        /// Removes motive system loss debuffs at the end of the turn if the Motive Repair ability is active.
+        /// Reduces motive system loss debuffs at the end of the turn whenever the Motive Repair ability is active.
         /// </summary>
         [HarmonyPatch(typeof(AbstractActor), "InitEffectStats")]
         public static class AbstractActor_InitEffectStats
@@ -35,30 +37,48 @@ namespace BTX_ExpansionPack.Features
                 bool isRepairActive = __instance.StatCollection.GetStatistic("MotiveRepairActive").Value<bool>();
                 if (isRepairActive)
                 {
-                    int removedCruise = RemoveDebuffs(__instance, "motiveSystemLoss", "CruiseSpeed", 3);
-                    int removedFlank = RemoveDebuffs(__instance, "motiveSystemLossSprint", "FlankSpeed", 3);
+                    float cruiseRepair = ReduceDebuff(__instance, "motiveSystemLoss", "CruiseSpeed");
+                    float flankRepair = ReduceDebuff(__instance, "motiveSystemLossSprint", "FlankSpeed");
 
-                    if (removedCruise > 0 || removedFlank > 0)
+                    if (cruiseRepair > 0f || flankRepair > 0f)
                     {
                         __instance.StatCollection.Set("MotiveRepairActive", false);
-                        Main.Log.LogDebug($"[MotiveRepair] Removed {removedCruise} cruise and {removedFlank} flank debuffs from {__instance.DisplayName}.");
+                        Main.Log.LogDebug($"[MotiveRepair] Reduced motive damage by {cruiseRepair} meters on {__instance.DisplayName}.");
                     }
                 }
             }
 
-            private static int RemoveDebuffs(AbstractActor actor, string effectId, string statName, int maxToRemove)
+            private static float ReduceDebuff(AbstractActor actor, string effectId, string statName)
             {
-                int removed = 0;
-                var effects = actor.Combat.EffectManager.GetAllEffectsTargeting(actor)
-                    .Where(effect => (effect.EffectData?.Description?.Id == effectId) &&
-                                     (effect.EffectData?.statisticData?.statName == statName));
-                foreach (var effect in effects)
+                var effect = actor.Combat.EffectManager.GetAllEffectsTargeting(actor)
+                    .FirstOrDefault(e => e.EffectData?.Description?.Id == effectId &&
+                                         e.EffectData?.statisticData?.statName == statName);
+
+                if (effect == null) return 0f;
+
+                if (float.TryParse(effect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float currentModValue))
                 {
-                    if (removed >= maxToRemove) break;
-                    actor.Combat.EffectManager.CancelEffect(effect, true);
-                    removed++;
+                    float singleStackDebuff = statName == "CruiseSpeed"
+                        ? Extended_CE.Core.Settings.MotiveCritMovementLoss
+                        : Extended_CE.Core.Settings.MotiveCritMovementLoss * 1.5f;
+
+                    if (singleStackDebuff <= 0f) return 0f;
+
+                    int currentStacks = (int)Math.Round(Math.Abs(currentModValue) / singleStackDebuff);
+                    int stacksToKeep = (int)Math.Floor(currentStacks / 5.0);
+
+                    if (stacksToKeep < 4)
+                    {
+                        actor.Combat.EffectManager.CancelEffect(effect);
+                        return Math.Abs(currentModValue);
+                    }
+
+                    float newModValue = -1 * stacksToKeep * singleStackDebuff;
+                    effect.EffectData.statisticData.modValue = newModValue.ToString(CultureInfo.InvariantCulture);
+                    return Math.Abs(currentModValue - newModValue);
                 }
-                return removed;
+
+                return 0f;
             }
         }
 
@@ -71,18 +91,9 @@ namespace BTX_ExpansionPack.Features
             [HarmonyPrefix]
             public static void Prefix(Contract __instance)
             {
-                if (__instance.State == Contract.ContractState.InProgress)
-                {
-                    var allActors = __instance.BattleTechGame.Combat.AllActors.ToList();
-                    foreach (var actor in allActors)
-                    {
-                        if (actor is Mech mech && mech.MechDef.IsVehicle())
-                        {
-                            mech.allComponents.RemoveAll(mechComponent => mechComponent.defId == "Gear_BEX_MotiveSystem");
-                            mech.miscComponents.RemoveAll(mechComponent => mechComponent.defId == "Gear_BEX_MotiveSystem");
-                        }
-                    }
-                }
+                if (__instance.State != Contract.ContractState.InProgress) return;
+                __instance.BattleTechGame.Combat.AllActors.OfType<Mech>().Where(mech => mech.MechDef.IsVehicle()).ToList()
+                    .ForEach(vehicle => { vehicle.allComponents.RemoveAll(comp => comp.defId == "Gear_BEX_MotiveSystem"); vehicle.miscComponents.RemoveAll(comp => comp.defId == "Gear_BEX_MotiveSystem"); });
             }
         }
 

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace BTX_ExpansionPack.Features
 {
-    internal class ArtilleryTTS
+    public static class ArtilleryTTS
     {
         /// <summary>
         /// Adjusts the artillery strike's target position based on the weapon's TTS level.
@@ -27,15 +27,18 @@ namespace BTX_ExpansionPack.Features
                     for (int i = 0; i < weapons.Count; i++)
                     {
                         var weapon = weapons[i];
-                        float ttsLevel = GetWeaponTTSLevel(weapon);
-                        if (ttsLevel == 0f)
+                        int ttsLevel = weapon.ArtilleryTTSLevel();
+                        if (ttsLevel == 0)
                             continue;
 
                         float minMissRadius = weapon.MinMissRadius();
                         Vector3 newPos = CalculateAdjustedStrikePosition(position, closestTarget.CurrentPosition, distanceToTarget, ttsLevel, minMissRadius);
-                        Main.Log.LogDebug($"[ArtilleryTTS] Adjusted strike position for {unit.DisplayName}'s {weapon.Name} towards {closestTarget.DisplayName}." +
-                            $"Original strike position:{position}; Distance to target: {distanceToTarget}; New position {newPos}");
                         weapon.AddArtilleryStrike(newPos, i + 1);
+
+                        float newDistanceToTarget = Vector3.Distance(newPos, closestTarget.CurrentPosition);
+                        Main.Log.LogDebug($"[ArtilleryTTS] Adjusted strike for {unit.DisplayName}'s {weapon.Name} towards {closestTarget.DisplayName} (TTS Level: {ttsLevel})." +
+                            $" Original strike position: {position}, distance: {distanceToTarget:F1}m." +
+                            $" New strike position: {newPos}, distance: {newDistanceToTarget:F1}m.");
                     }
                 }
             }
@@ -59,13 +62,13 @@ namespace BTX_ExpansionPack.Features
                 return closestTarget;
             }
 
-            private static Vector3 CalculateAdjustedStrikePosition(Vector3 initialPosition, Vector3 targetPosition, float distanceToTarget, float ttsLevel, float minMissRadius)
+            private static Vector3 CalculateAdjustedStrikePosition(Vector3 initialPosition, Vector3 targetPosition, float distanceToTarget, int ttsLevel, float minMissRadius)
             {
                 // 1. Determine pull factor and scatter reduction based on TTS level
                 float pullFactor = 0f, scatterReductionFactor = 0f;
-                if (ttsLevel == 1f) { pullFactor = 0.30f; scatterReductionFactor = 0.30f; }
-                else if (ttsLevel == 2f) { pullFactor = 0.50f; scatterReductionFactor = 0.50f; }
-                else if (ttsLevel >= 3f) { pullFactor = 0.70f; scatterReductionFactor = 0.70f; }
+                if (ttsLevel == 1) { pullFactor = 0.30f; scatterReductionFactor = 0.30f; }
+                else if (ttsLevel == 2) { pullFactor = 0.50f; scatterReductionFactor = 0.50f; }
+                else if (ttsLevel >= 3) { pullFactor = 0.70f; scatterReductionFactor = 0.70f; }
 
                 // 2. Cap the maximum pull distance to prevent large, unrealistic adjustments
                 float maxPullDistance = 75f;
@@ -99,25 +102,25 @@ namespace BTX_ExpansionPack.Features
                 var weapons = actor.GetArtilleryStrike(out _);
                 if (weapons == null || weapons.Count == 0) return;
 
-                bool allHaveTTS = weapons.All(w => GetWeaponTTSLevel(w) > 0f);
+                bool allHaveTTS = weapons.All(w => w.ArtilleryTTSLevel() > 0f);
                 if (allHaveTTS)
                 {
-                    __instance.HUD.ShowFireButton(CombatHUDFireButton.FireMode.Fire, "TTS-ADJUSTED ARTILLERY STRIKE", __instance.showHeatWarnings);
+                    __instance.HUD.ShowFireButton(CombatHUDFireButton.FireMode.Fire, "TTS-ADJUSTED\nARTILLERY STRIKE", __instance.showHeatWarnings);
                     return;
                 }
 
-                bool anyHasTTS = weapons.Any(w => GetWeaponTTSLevel(w) > 0f);
+                bool anyHasTTS = weapons.Any(w => w.ArtilleryTTSLevel() > 0f);
                 if (anyHasTTS)
                 {
-                    __instance.HUD.ShowFireButton(CombatHUDFireButton.FireMode.Fire, "PARTIALLY TTS-ADJUSTED ARTILLERY STRIKE", __instance.showHeatWarnings);
+                    __instance.HUD.ShowFireButton(CombatHUDFireButton.FireMode.Fire, "PARTIALLY TTS-ADJUSTED\nARTILLERY STRIKE", __instance.showHeatWarnings);
                     return;
                 }
             }
         }
 
-        public static float GetWeaponTTSLevel(Weapon weapon)
+        public static int ArtilleryTTSLevel(this Weapon weapon)
         {
-            return weapon == null ? 0f : weapon.mode().AIHitChanceCap;
+            return (int)weapon.GetStatisticFloat("AMSAttractiveness");
         }
     }
 }
