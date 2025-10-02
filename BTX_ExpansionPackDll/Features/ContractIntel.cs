@@ -34,10 +34,10 @@ namespace BTX_ExpansionPack.Features
             {
                 if (contract?.Override == null) return;
 
-                GameObject parentObject = ContractDescriptionField.transform.parent.gameObject;
+                var parentObject = ContractDescriptionField.transform.parent.gameObject;
 
-                LocalizableText targetText = parentObject.FindComponent<LocalizableText>("txt_target");
-                LocalizableText variantText = parentObject.FindComponent<LocalizableText>("txt_variant");
+                var targetText = parentObject.FindComponent<LocalizableText>("txt_target");
+                var variantText = parentObject.FindComponent<LocalizableText>("txt_variant");
 
                 if (Main.Settings.UI.ContractIntel.IntelShowTarget)
                 {

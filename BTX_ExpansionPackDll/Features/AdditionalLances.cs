@@ -44,7 +44,7 @@ namespace BTX_ExpansionPack.Features
                         break;
 
                     case "lancedef_arty_dynamic_battle1" when __instance.unitTagSet.Contains("unit_vehicle_spotter"):
-                        var peekedUnitId = Core.xotlTables.RequestUnit(currentDate.Value, __instance.unitTagSet, __instance.unitExcludedTagSet, companyTags);
+                        string peekedUnitId = Core.xotlTables.RequestUnit(currentDate.Value, __instance.unitTagSet, __instance.unitExcludedTagSet, companyTags);
                         if (!spotterVehicles.Contains(peekedUnitId))
                         {
                             __instance.unitTagSet.Remove("unit_vehicle_spotter");

@@ -45,7 +45,7 @@ namespace BTX_ExpansionPack.Features
                         return;
 
                     int sequenceId = attackCompleteMessage.sequenceId;
-                    AttackDirector.AttackSequence attackSequence = __instance.GetAttackSequence(sequenceId);
+                    var attackSequence = __instance.GetAttackSequence(sequenceId);
                     if (attackSequence?.attacker is Mech mech && mech.isHasStability())
                     {
                         float selfInstability = WeaponInfo.SelfInstabilityWeaponTonnage * 1.5f;

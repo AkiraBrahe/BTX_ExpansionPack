@@ -20,7 +20,7 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPostfix]
             public static void Postfix(AdvWeaponHitInfo __instance)
             {
-                foreach (AdvWeaponResolveInfo advRes in __instance.resolveInfo.Values)
+                foreach (var advRes in __instance.resolveInfo.Values)
                 {
                     advRes.floatieMessages = [.. advRes.floatieMessages.Where((s) => !s.EndsWith("VFX"))];
                 }
@@ -36,7 +36,7 @@ namespace BTX_ExpansionPack.Fixes
                 public static void Postfix(Weapon w, ref float __result)
                 {
                     var weapon = w;
-                    ExtAmmunitionDef ammo = weapon.ammo();
+                    var ammo = weapon.ammo();
                     if (ammo.Id == "Ammunition_SRM_Inferno")
                     {
                         float bonusDamage = weapon.weaponDef.Damage - 10f;

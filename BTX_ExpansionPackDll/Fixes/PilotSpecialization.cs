@@ -28,7 +28,7 @@ namespace BTX_ExpansionPack.Fixes
                 bool isInTeamVenom = __instance.CompanyTags.Contains("start_team_venom");
                 if (isInTeamVenom)
                 {
-                    PilotDef commander = __instance.Commander.pilotDef;
+                    var commander = __instance.Commander.pilotDef;
                     if (commander != null)
                     {
                         if (!commander.PilotTags.Contains(MechPilotTag))
@@ -44,7 +44,7 @@ namespace BTX_ExpansionPack.Fixes
                 }
                 else
                 {
-                    foreach (Pilot pilot in __instance.PilotRoster)
+                    foreach (var pilot in __instance.PilotRoster)
                     {
                         var pilotTags = pilot.pilotDef.PilotTags;
                         ValidatePilotSpecialization(pilotTags);
@@ -65,9 +65,9 @@ namespace BTX_ExpansionPack.Fixes
                 if (PilotingClassHelper.isInStartingPilotsGen())
                     return;
 
-                foreach (PilotDef pilot in __result)
+                foreach (var pilotDef in __result)
                 {
-                    var pilotTags = pilot.PilotTags;
+                    var pilotTags = pilotDef.PilotTags;
                     ValidatePilotSpecialization(pilotTags, true);
                 }
             }
@@ -92,7 +92,7 @@ namespace BTX_ExpansionPack.Fixes
                             pilotTags.Add(VehiclePilotTag);
 
                         var tagsToRemove = pilotTags.Where(tag => tag.StartsWith("can_pilot_")).ToList();
-                        foreach (var tag in tagsToRemove)
+                        foreach (string tag in tagsToRemove)
                         {
                             pilotTags.Remove(tag);
                         }

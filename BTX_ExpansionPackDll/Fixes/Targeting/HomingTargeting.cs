@@ -17,14 +17,14 @@ namespace BTX_ExpansionPack.Fixes.Targeting
             [HarmonyPrefix]
             public static bool Prefix(CombatHUDFireButton __instance)
             {
-                CombatHUD HUD = __instance.HUD;
-                CombatHUDFireButton.FireMode fireMode = __instance.currentFireMode;
+                var HUD = __instance.HUD;
+                var fireMode = __instance.currentFireMode;
                 if (fireMode != CombatHUDFireButton.FireMode.Fire)
                     return true;
 
                 if (HUD.SelectedActor.HasActiveHomingArrowIV())
                 {
-                    ICombatant target = HUD.SelectedTarget;
+                    var target = HUD.SelectedTarget;
                     if (target == null || !target.IsTAGed())
                     {
                         GenericPopupBuilder.Create(

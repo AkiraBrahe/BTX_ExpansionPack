@@ -18,10 +18,10 @@ namespace BTX_ExpansionPack.Features
             [HarmonyWrapSafe]
             public static void Prefix(AbstractActor unit)
             {
-                var weapons = unit.GetArtilleryStrike(out Vector3 position);
+                var weapons = unit.GetArtilleryStrike(out var position);
                 if (weapons.Count == 0) return;
 
-                AbstractActor closestTarget = FindClosestEnemy(unit, position, out float distanceToTarget);
+                var closestTarget = FindClosestEnemy(unit, position, out float distanceToTarget);
                 if (closestTarget != null && distanceToTarget > 0f)
                 {
                     for (int i = 0; i < weapons.Count; i++)
@@ -32,7 +32,7 @@ namespace BTX_ExpansionPack.Features
                             continue;
 
                         float minMissRadius = weapon.MinMissRadius();
-                        Vector3 newPos = CalculateAdjustedStrikePosition(position, closestTarget.CurrentPosition, distanceToTarget, ttsLevel, minMissRadius);
+                        var newPos = CalculateAdjustedStrikePosition(position, closestTarget.CurrentPosition, distanceToTarget, ttsLevel, minMissRadius);
                         weapon.AddArtilleryStrike(newPos, i + 1);
 
                         float newDistanceToTarget = Vector3.Distance(newPos, closestTarget.CurrentPosition);
@@ -48,7 +48,7 @@ namespace BTX_ExpansionPack.Features
                 AbstractActor closestTarget = null;
                 float minDist = float.MaxValue;
 
-                foreach (AbstractActor enemy in unit.Combat.AllEnemies)
+                foreach (var enemy in unit.Combat.AllEnemies)
                 {
                     float dist = Vector3.Distance(strikePosition, enemy.CurrentPosition);
                     if (dist < minDist)
@@ -75,13 +75,13 @@ namespace BTX_ExpansionPack.Features
                 float pullDistance = Mathf.Min(distanceToTarget * pullFactor, maxPullDistance);
 
                 // 3. Calculate the adjusted strike position
-                Vector3 directionToTarget = targetPosition - initialPosition;
-                Vector3 adjustedPosition = initialPosition + (directionToTarget.normalized * pullDistance);
+                var directionToTarget = targetPosition - initialPosition;
+                var adjustedPosition = initialPosition + (directionToTarget.normalized * pullDistance);
 
                 // 4. Apply random spread to the adjusted strike position
                 float scatterRadius = Mathf.Lerp(minMissRadius, 0f, scatterReductionFactor);
-                Vector2 randomCirclePoint = Random.insideUnitCircle * scatterRadius;
-                Vector3 randomSpreadOffset = new Vector3(randomCirclePoint.x, 0f, randomCirclePoint.y);
+                var randomCirclePoint = Random.insideUnitCircle * scatterRadius;
+                var randomSpreadOffset = new Vector3(randomCirclePoint.x, 0f, randomCirclePoint.y);
 
                 return adjustedPosition + randomSpreadOffset;
             }
@@ -118,9 +118,6 @@ namespace BTX_ExpansionPack.Features
             }
         }
 
-        public static int ArtilleryTTSLevel(this Weapon weapon)
-        {
-            return (int)weapon.GetStatisticFloat("AMSAttractiveness");
-        }
+        public static int ArtilleryTTSLevel(this Weapon weapon) => (int)weapon.GetStatisticFloat("AMSAttractiveness");
     }
 }

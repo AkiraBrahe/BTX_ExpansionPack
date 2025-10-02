@@ -109,7 +109,7 @@ namespace BTX_ExpansionPack.Helpers
         {
             foreach (var template in Templates)
             {
-                foreach (var tag in template.Tags)
+                foreach (string tag in template.Tags)
                 {
                     if (tags != null && System.Linq.Enumerable.Contains(tags, tag))
                         return template;

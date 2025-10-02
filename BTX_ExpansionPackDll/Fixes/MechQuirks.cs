@@ -49,7 +49,7 @@ namespace BTX_ExpansionPack.Fixes
                     return;
 
                 var tags = __instance.CurrentRepresentation.altDef.additionalEncounterTags;
-                var chassisId = __instance.parentMech.MechDef.Chassis.Description.Id;
+                string chassisId = __instance.parentMech.MechDef.Chassis.Description.Id;
 
                 if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirk))
                     quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);
@@ -91,7 +91,7 @@ namespace BTX_ExpansionPack.Fixes
                     .MatchForward(false, new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is MethodInfo mi && mi.Name == "get_EasyToPilotEffect"))
                     .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
 
-                var jumpTarget = matcher.Operand;
+                object jumpTarget = matcher.Operand;
                 return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
                     .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
                     .InstructionEnumeration();
@@ -113,7 +113,7 @@ namespace BTX_ExpansionPack.Fixes
                 bool pilotHasSureFooting = pilot.Abilities.Exists(ability => ability.Def.Id == "AbilityDefP5");
                 if (__instance.MechDef.Chassis.ChassisTags.Contains("mech_quirk_easytopilot") && !pilotHasSureFooting)
                 {
-                    EffectManager effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
+                    var effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
                     effectManager.CreateEffect(EasyToPilotEffect, "EasyToPilot", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
                     Main.Log.LogDebug($"Applied Easy to Pilot effect to {__instance.DisplayName}.");
                 }

@@ -1,6 +1,5 @@
 ﻿using BattleTech;
 using System;
-using System.Collections.Generic;
 using static Extended_CE.BTComponents;
 
 namespace BTX_ExpansionPack.Fixes
@@ -16,9 +15,9 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPostfix]
             public static void Postfix()
             {
-                foreach (KeyValuePair<string, TTRuleInfo> entry in MechTTRuleInfo.MechTTStatStore)
+                foreach (var entry in MechTTRuleInfo.MechTTStatStore)
                 {
-                    TTRuleInfo ttRuleInfo = entry.Value;
+                    var ttRuleInfo = entry.Value;
                     ttRuleInfo.HipCrits = 0;
                     ttRuleInfo.EngineCrits = 0;
                     ttRuleInfo.EngineCenterCrits = 0;

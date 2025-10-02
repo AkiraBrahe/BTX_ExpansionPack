@@ -5,10 +5,7 @@ using BattleTech.UI.Tooltips;
 using CustomUnits;
 using Localize;
 using MechAffinity;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Quirks.Tooltips;
-using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
@@ -185,7 +182,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 var tags = mechDef.MechTags;
                 if (mechDef.IsSquad())
                 {
-                    UnitCustomInfo info = mechDef.GetCustomInfo();
+                    var info = mechDef.GetCustomInfo();
                     int troopersCount = info?.SquadInfo.Troopers ?? 0;
                     SetWidgetLabel(__instance.headLabel, "U0");
                     SetWidgetLabel(__instance.centerTorsoLabel, "U1", troopersCount >= 2);
@@ -320,7 +317,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             if (tags == null)
                 return "VEHICLE";
 
-            foreach (var tag in tags)
+            foreach (string tag in tags)
             {
                 switch (tag)
                 {
@@ -342,42 +339,24 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// <summary>
         /// Removes vehicle info from the description when assembling vehicles.
         /// </summary>
-        [HarmonyPatch(typeof(ChassisDef_FromJSON_fake), "ConstructMechFakeVehicle")]
-        public static class CustomUnitsChassisDefPatch
+        [HarmonyPatch(typeof(ChassisDef), "FromJSON")]
+        public static class ChassisDef_FromJSON
         {
             [HarmonyPostfix]
-            public static void Postfix(ref string __result)
+            [HarmonyWrapSafe]
+            public static void Postfix(ChassisDef __instance)
             {
-                try
+                if (__instance.IsVehicle() && !string.IsNullOrEmpty(__instance.YangsThoughts))
                 {
-                    JObject chassisDef = JObject.Parse(__result);
-                    var yangsThoughtsToken = chassisDef["YangsThoughts"];
-                    if (yangsThoughtsToken != null && yangsThoughtsToken.Type == JTokenType.String)
-                    {
-                        string thoughts = yangsThoughtsToken.Value<string>();
-                        string delimiter = "&lt;/b&gt;\n\n";
-                        int splitIndex = thoughts.IndexOf(delimiter);
+                    string thoughts = __instance.YangsThoughts;
+                    string delimiter = "&lt;/b&gt;\n\n";
+                    int splitIndex = thoughts.IndexOf(delimiter);
 
-                        if (splitIndex >= 0)
-                        {
-                            chassisDef["YangsThoughts"] = thoughts.Substring(splitIndex + delimiter.Length);
-                            __result = chassisDef.ToString(Formatting.Indented);
-                            Main.Log.LogDebug($"[CustomUnitsChassisDefPatch] Updated Yang's Thoughts: {chassisDef["YangsThoughts"]}");
-                        }
-                    }
-                    else
+                    if (splitIndex >= 0)
                     {
-                        Main.Log.LogDebug("[CustomUnitsChassisDefPatch] 'YangsThoughts' field is missing or not a string.");
+                        __instance.YangsThoughts = thoughts.Substring(splitIndex + delimiter.Length);
+                        Main.Log.LogDebug($"[ChassisDef_FromJSON] Updated Yang's Thoughts for {__instance.Description.Id}");
                     }
-                }
-                catch (JsonReaderException)
-                {
-                    Main.Log.LogDebug("[CustomUnitsChassisDefPatch] Failed to parse JSON in ChassisDef_FromJSON_fake. Skipping modification.");
-                    // Not a valid JSON object. This is expected if the mech isn't a "fake" vehicle.
-                }
-                catch (Exception ex)
-                {
-                    Main.Log.LogException(ex);
                 }
             }
         }
@@ -389,13 +368,18 @@ namespace BTX_ExpansionPack.Fixes.UI
         public static class PilotAffinityManager_getMechChassisAffinityDescription
         {
             [HarmonyPostfix]
-            public static void Postfix(ref string __result) =>
+            public static void Postfix(ref string __result)
+            {
                 __result = __result.Replace("\n<b> Unlockable Affinities: </b>", "");
+                __result = __result.Replace(":\n", ".\n"); // __result = $"<size=75%>{__result}</size>";
+            }
         }
 
         [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirks", [typeof(ChassisDef)])]
         public static class QuirkToolTips_DetailMechQuirks
         {
+            private static bool logged = false;
+
             [HarmonyFinalizer]
             public static void Finalizer(ref string __result)
             {
@@ -406,12 +390,21 @@ namespace BTX_ExpansionPack.Fixes.UI
                     __result = __result.Replace("<color=#e40000>", "<color=#ff6961>"); // Bad Quirks (Pastel Red)
                 }
 
+                if (!logged) Main.Log.LogDebug($"Before: {__result}");
+
                 __result = __result.Replace("<b>", "").Replace("</b>", "");
                 __result = __result.Replace("Mech Quirks", "");
-                __result = __result.Replace("\n\n", "\n").Replace("\n ", "\n");
-                __result = Regex.Replace(__result, @"(\n|^)(?!<color>)([^:]+): ", "$1<b>$2:</b> ");
-                __result = __result.Replace("\n\n", "\n");
-                __result = Regex.Replace(__result, @"<color=#[0-9A-Fa-f]{6,8}></color>", "");
+                __result = Regex.Replace(__result, @"<color=#[0-9a-fA-F]{6,8}>\s*</color>", "", RegexOptions.IgnoreCase);
+                __result = Regex.Replace(__result, @"(</color>)\s*(<color=)", "$1\n\n$2");
+                __result = Regex.Replace(__result, @"[ \t]*\r?\n[ \t\r\n]*", "\n");
+                __result = Regex.Replace(__result, @"^([ \t]*)([^:\n]+:)", "$1<b>$2</b>", RegexOptions.Multiline);
+                __result = __result.Trim();
+
+                if (!logged)
+                {
+                    logged = true;
+                    Main.Log.LogDebug($"After (Revised): {__result}");
+                }
             }
         }
     }

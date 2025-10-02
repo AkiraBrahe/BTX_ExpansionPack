@@ -36,14 +36,10 @@ namespace BTX_ExpansionPack.Features
             }
 
             private static bool HasYenLoWang(SimGameState simState)
-            {
-                return simState.GetItemCount("chassisdef_centurion_CN9-YLW", typeof(MechDef), SimGameState.ItemCountType.UNDAMAGED_ONLY) > 0;
-            }
+                => simState.GetItemCount("chassisdef_centurion_CN9-YLW", typeof(MechDef), SimGameState.ItemCountType.UNDAMAGED_ONLY) > 0;
 
             private static void RemoveYenLoWang(SimGameState simState)
-            {
-                simState.RemoveItemStat("chassisdef_centurion_CN9-YLW", typeof(MechDef), false);
-            }
+                => simState.RemoveItemStat("chassisdef_centurion_CN9-YLW", typeof(MechDef), false);
 
             private static void AddYenLoWang2(SimGameState simState)
             {

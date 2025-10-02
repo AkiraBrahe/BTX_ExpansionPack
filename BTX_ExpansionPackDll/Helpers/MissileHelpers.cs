@@ -28,7 +28,7 @@ namespace BTX_ExpansionPack.Helpers
                 if (distance <= 60f)
                     continue;
 
-                foreach (Weapon weapon in enemy.Weapons)
+                foreach (var weapon in enemy.Weapons)
                 {
                     if (!weapon.CanFire || weapon.AMSImmune())
                         continue;
@@ -53,16 +53,13 @@ namespace BTX_ExpansionPack.Helpers
         /// Determines if a unit is a dedicated missile boat based on its chassis role or tags.
         /// </summary>
         public static bool IsDedicatedMissileBoat(this AbstractActor unit) =>
-            unit is Mech mech && mech.MechDef.Chassis.StockRole.StartsWith("Missile Boat") ||
-            unit is FakeVehicleMech fakevehicle && fakevehicle.ToMechDef().MechTags.Contains("role_missileboat") ||
-            unit is Vehicle vehicle && vehicle.VehicleDef.VehicleTags.Contains("role_missileboat");
+            (unit is Mech mech && mech.MechDef.Chassis.StockRole.StartsWith("Missile Boat")) ||
+            (unit is FakeVehicleMech fakevehicle && fakevehicle.ToMechDef().MechTags.Contains("role_missileboat")) ||
+            (unit is Vehicle vehicle && vehicle.VehicleDef.VehicleTags.Contains("role_missileboat"));
 
         /// <summary>
         /// Determines if a mech has an Artemis IV or V system installed.
         /// </summary>
-        public static bool HasArtemis(this Mech mech)
-        {
-            return mech?.allComponents?.Any(comp => comp.defId.StartsWith("Gear_Addon_Artemis")) ?? false;
-        }
+        public static bool HasArtemis(this Mech mech) => mech?.allComponents?.Any(comp => comp.defId.StartsWith("Gear_Addon_Artemis")) ?? false;
     }
 }

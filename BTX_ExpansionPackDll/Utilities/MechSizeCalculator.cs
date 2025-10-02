@@ -36,7 +36,7 @@ namespace BTX_ExpansionPack.Utilities
                     var renderers = mech.GameRep?.gameObject?.GetComponentsInChildren<Renderer>();
                     if (renderers != null && renderers.Length > 0)
                     {
-                        Bounds bounds = renderers[0].bounds;
+                        var bounds = renderers[0].bounds;
                         for (int i = 1; i < renderers.Length; i++)
                             bounds.Encapsulate(renderers[i].bounds);
 
@@ -74,7 +74,7 @@ namespace BTX_ExpansionPack.Utilities
                     "chrPrfCrew_backgroundActor_welder (1)",
                     "chrPrfCrew_backgroundActor_welder (2)"
                 ];
-                foreach (var name in humanModels)
+                foreach (string name in humanModels)
                 {
                     var go = GameObject.Find(name);
                     if (go != null)
@@ -82,12 +82,12 @@ namespace BTX_ExpansionPack.Utilities
                         var renderers = go.GetComponentsInChildren<Renderer>();
                         if (renderers.Length > 0)
                         {
-                            Bounds bounds = renderers[0].bounds;
+                            var bounds = renderers[0].bounds;
                             for (int i = 1; i < renderers.Length; i++)
                                 bounds.Encapsulate(renderers[i].bounds);
 
-                            var height = bounds.size.y; // * UnityUnitToMeter;
-                            var volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
+                            float height = bounds.size.y; // * UnityUnitToMeter;
+                            float volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
                             Main.Log.LogDebug($"Human: {name}, Height: {height:F2}m, Volume: {volume:F2}m³");
                         }
                     }
