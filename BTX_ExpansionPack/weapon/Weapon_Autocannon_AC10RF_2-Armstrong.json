@@ -40,7 +40,7 @@
     "UIName": "AC/10-RF + +",
     "Id": "Weapon_Autocannon_AC10RF_2-Armstrong",
     "Name": "AC/10-RF + +",
-    "Details": "Rapid-Fire Autocannons are specialized autocannons designed for maximum rate of fire. They excel against fast-moving targets and lightly armored units, offering superior target saturation and disruption capabilities. Notably, the Rapid-Fire AC/10 variant is capable of intercepting incoming missiles within a 115-meter radius.\n\nOnly 'Mechs with advanced anti-aircraft targeting can use Rapid-Fire Autocannons.",
+    "Details": "Rapid-Fire Autocannons are specialized autocannons designed for maximum rate of fire. They excel against fast-moving targets and lightly armored units, offering superior target saturation and disruption capabilities. Notably, the Rapid-Fire AC/10 variant is capable of intercepting incoming missiles within a 115-meter radius.\n\nOnly 'Mechs with advanced anti-aircraft targeting can use the weapon's anti-missile modes.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "50-60 Dmg. (0-1 guaranteed misses)",
@@ -131,8 +131,7 @@
       "component_type_variant",
       "component_type_variant2",
       "range_long",
-      "ballistic_tts_attachable",
-      "RapidFireAutocannon"
+      "ballistic_tts_attachable"
     ],
     "tagSetSourceFile": ""
   }

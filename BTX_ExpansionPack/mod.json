@@ -67,7 +67,6 @@
     { "Type": "PilotingClassDef", "Path": "piloting_classes" },
     { "Type": "Sprite", "Path": "portraits" },
     //{ "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
-    { "Type": "CCTagRestrictions", "Path": "tagRestrict" },
     { "Type": "CCUnitTypes", "Path": "unitTypes" },
     { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
     { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
