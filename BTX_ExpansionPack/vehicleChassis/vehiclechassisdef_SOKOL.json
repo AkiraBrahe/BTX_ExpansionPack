@@ -26,6 +26,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Superheavy VTOL",
   "MovementCapDefID": "movedef_vee_5",
   "PathingCapDefID": "pathingdef_heavy_vtol",
   "HardpointDataDefID": "hardpointdatadef_curedkite",

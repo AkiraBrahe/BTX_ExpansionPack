@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "PPC Carrier",
   "MovementCapDefID": "movedef_vee_3",
   "PathingCapDefID": "pathingdef_assault_tracked",
   "HardpointDataDefID": "hardpointdatadef_schreck",

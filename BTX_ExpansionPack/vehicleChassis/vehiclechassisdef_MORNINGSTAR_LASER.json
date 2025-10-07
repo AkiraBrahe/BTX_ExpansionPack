@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "City Command Vehicle",
   "MovementCapDefID": "movedef_vee_5",
   "PathingCapDefID": "pathingdef_heavy_wheeled",
   "HardpointDataDefID": "hardpointdatadef_salttruckgun",

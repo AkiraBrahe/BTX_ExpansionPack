@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Artillery Vehicle",
   "MovementCapDefID": "movedef_vee_5",
   "PathingCapDefID": "pathingdef_medium_wheeled",
   "HardpointDataDefID": "hardpointdatadef_brdm3",

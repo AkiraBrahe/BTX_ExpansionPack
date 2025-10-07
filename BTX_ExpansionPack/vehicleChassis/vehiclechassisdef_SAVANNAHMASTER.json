@@ -18,6 +18,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Hovercraft",
   "MovementCapDefID": "movedef_vee_13",
   "PathingCapDefID": "pathingdef_light_hover",
   "HardpointDataDefID": "hardpointdatadef_savannah",

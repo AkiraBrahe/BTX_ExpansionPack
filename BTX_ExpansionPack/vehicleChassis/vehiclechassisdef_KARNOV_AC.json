@@ -26,6 +26,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "UR Transport",
   "MovementCapDefID": "movedef_vee_8",
   "PathingCapDefID": "pathingdef_light_vtol",
   "HardpointDataDefID": "hardpointdatadef_cukarr",

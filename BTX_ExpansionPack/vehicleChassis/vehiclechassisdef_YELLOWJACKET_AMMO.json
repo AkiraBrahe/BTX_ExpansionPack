@@ -26,6 +26,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Gunship",
   "MovementCapDefID": "movedef_vee_6",
   "PathingCapDefID": "pathingdef_light_vtol",
   "HardpointDataDefID": "hardpointdatadef_cuyellowjacket",

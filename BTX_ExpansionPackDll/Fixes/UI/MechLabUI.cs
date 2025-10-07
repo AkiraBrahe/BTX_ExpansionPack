@@ -342,20 +342,18 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(ChassisDef), "FromJSON")]
         public static class ChassisDef_FromJSON
         {
-            [HarmonyPostfix]
-            [HarmonyWrapSafe]
+            [HarmonyPostfix, HarmonyPriority(Priority.Last)]
             public static void Postfix(ChassisDef __instance)
             {
-                if (__instance.IsVehicle() && !string.IsNullOrEmpty(__instance.YangsThoughts))
+                if (__instance.IsVehicle())
                 {
                     string thoughts = __instance.YangsThoughts;
-                    string delimiter = "&lt;/b&gt;\n\n";
+                    string delimiter = "</b>\n\n";
                     int splitIndex = thoughts.IndexOf(delimiter);
 
                     if (splitIndex >= 0)
                     {
                         __instance.YangsThoughts = thoughts.Substring(splitIndex + delimiter.Length);
-                        Main.Log.LogDebug($"[ChassisDef_FromJSON] Updated Yang's Thoughts for {__instance.Description.Id}");
                     }
                 }
             }
@@ -371,14 +369,14 @@ namespace BTX_ExpansionPack.Fixes.UI
             public static void Postfix(ref string __result)
             {
                 __result = __result.Replace("\n<b> Unlockable Affinities: </b>", "");
-                __result = __result.Replace(":\n", ".\n"); // __result = $"<size=75%>{__result}</size>";
+                __result = __result.Replace("</b>:", ":</b>").Replace(":\n", "\n");
             }
         }
 
         [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirks", [typeof(ChassisDef)])]
         public static class QuirkToolTips_DetailMechQuirks
         {
-            private static bool logged = false;
+            // private static bool logged = false;
 
             [HarmonyFinalizer]
             public static void Finalizer(ref string __result)
@@ -390,7 +388,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                     __result = __result.Replace("<color=#e40000>", "<color=#ff6961>"); // Bad Quirks (Pastel Red)
                 }
 
-                if (!logged) Main.Log.LogDebug($"Before: {__result}");
+                // if (!logged) Main.Log.LogDebug($"Before: {__result}");
 
                 __result = __result.Replace("<b>", "").Replace("</b>", "");
                 __result = __result.Replace("Mech Quirks", "");
@@ -400,11 +398,11 @@ namespace BTX_ExpansionPack.Fixes.UI
                 __result = Regex.Replace(__result, @"^([ \t]*)([^:\n]+:)", "$1<b>$2</b>", RegexOptions.Multiline);
                 __result = __result.Trim();
 
-                if (!logged)
-                {
-                    logged = true;
-                    Main.Log.LogDebug($"After (Revised): {__result}");
-                }
+                //if (!logged)
+                //{
+                //    logged = true;
+                //    Main.Log.LogDebug($"After (Revised): {__result}");
+                //}
             }
         }
     }

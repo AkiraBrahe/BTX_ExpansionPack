@@ -26,6 +26,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Scout Helicopter",
   "MovementCapDefID": "movedef_vee_13",
   "PathingCapDefID": "pathingdef_light_vtol",
   "HardpointDataDefID": "hardpointdatadef_cuwarriorvtol",

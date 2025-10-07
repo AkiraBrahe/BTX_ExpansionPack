@@ -18,6 +18,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Hover APC",
   "MovementCapDefID": "movedef_vee_9",
   "PathingCapDefID": "pathingdef_light_hover",
   "HardpointDataDefID": "hardpointdatadef_maxim",

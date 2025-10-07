@@ -12,12 +12,13 @@
   "Description": {
     "Id": "vehiclechassisdef_SVANTOVIT",
     "Name": "Svantovit",
-    "Details": "<b>Name: <color=#85DBF6>Svantovit Infantry Fighting Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>175 Fusion</color></b>\n\nThe Svantovit infantry fighting vehicle is designed for use with second-line units to deliver a full Elemental Point to the battlefield.\n\nIn addition to carrying infantry, the Svantovit provides fire support with its paired LRM-5s and Streak SRM-2s. The latter are mounted in a turret to give them a full 360° field of fire. Machine Guns on each side protect against infantry threats.",
+    "Details": "<b>Name: <color=#85DBF6>Svantovit Infantry Fighting Vehicle</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>175 Fusion</color></b>\n\nThe Svantovit infantry fighting vehicle is designed for use with second-line units to deliver a full Elemental Point to the battlefield.\n\nIn addition to carrying infantry, the Svantovit provides fire support with its paired LRM-5s and Streak SRM-2s. The latter are mounted in a turret to give them a full 360\u00b0 field of fire. Machine Guns on each side protect against infantry threats.",
     "Icon": "uixVhclIcon_svantovit",
     "Cost": 1412000,
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Infantry Fighting Vehicle",
   "MovementCapDefID": "movedef_vee_10",
   "PathingCapDefID": "pathingdef_light_hover",
   "HardpointDataDefID": "hardpointdatadef_svantovit",

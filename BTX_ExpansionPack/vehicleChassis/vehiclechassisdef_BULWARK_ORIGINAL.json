@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Assault Vehicle",
   "MovementCapDefID": "movedef_vee_4",
   "PathingCapDefID": "pathingdef_assault_tracked",
   "HardpointDataDefID": "hardpointdatadef_devastator",

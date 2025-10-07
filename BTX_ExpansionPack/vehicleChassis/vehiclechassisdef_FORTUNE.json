@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Wheeled Assault Vehicle",
   "MovementCapDefID": "movedef_vee_3",
   "PathingCapDefID": "pathingdef_assault_wheeled",
   "HardpointDataDefID": "hardpointdatadef_fortune",

@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": null,
   "MovementCapDefID": "movedef_vee_3",
   "PathingCapDefID": "pathingdef_light_wheeled",
   "HardpointDataDefID": "hardpointdatadef_mobilehq",

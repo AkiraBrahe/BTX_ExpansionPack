@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Infantry Support Vehicle",
   "MovementCapDefID": "movedef_vee_5",
   "PathingCapDefID": "pathingdef_heavy_tracked",
   "HardpointDataDefID": "hardpointdatadef_magi",
