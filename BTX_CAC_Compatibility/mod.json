@@ -4,7 +4,7 @@
   "Description": "Modifies BTX (and BTXMinusWeapons) for CAC.",
   "Author": "mcb",
   "Website": "",
-  "Version": "2.0.2.0",
+  "Version": "2.0.3.0",
   "DependsOn": [
     "BT_Extended",
     "BT_Extended_Timeline",
@@ -30,6 +30,8 @@
   "DLL": "BTX_CAC_CompatibilityDll.dll",
   "Settings": {
     "FixDropslotsInOldSaves": true,
+    "EnforceContractLimits": true,
+    "Use4LimitOnAllStoryMissions": false,
     "Use4LimitOnContractIds": [
       "uw1_4_destroyBase",
       "tournament_1_3wayBattle",

@@ -26,7 +26,7 @@
     "extraFirstTierAbilities": 0,
     "extraAbilities": 0,
     "extraAbilitiesAllowedPerSkill": 0,
-    "nonTreeAbilities": 1,
+    "nonTreeAbilities": 0,
     "cleanUpCombatUI": true,
     "skillLockThreshold": 8,
     "usingCACabilitySelector": true,

@@ -13,3 +13,4 @@ obj/
 # Mod duplicate files
 BTX_ExpansionPack/misc/overrides/*
 BTX_ExpansionPack/README.md
+BTX_ExpansionPackDll/References/*

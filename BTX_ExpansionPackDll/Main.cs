@@ -2,7 +2,6 @@ using BattleTech;
 using BattleTech.Data;
 using BattleTech.UI;
 using BTX_ExpansionPack.Helpers;
-using CustAmmoCategories;
 using HBS.Logging;
 using Newtonsoft.Json;
 using System;
@@ -63,11 +62,6 @@ namespace BTX_ExpansionPack
             /* Drop Slots Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            /* Tonnage Calculation */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechStatisticsRules), "CalculateTonnage"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabMechInfoWidget), "CalculateTonnage"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            /* Inferno VFX */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(AdvWeaponHitInfo), "ApplyHitEffects"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
 
             // --- Custom Units ---
             /* Piloting Expertise */

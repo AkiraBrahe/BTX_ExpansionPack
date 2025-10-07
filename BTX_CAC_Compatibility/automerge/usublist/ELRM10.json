@@ -6,7 +6,9 @@
       "RandomLimit": 0.0,
       "MinDate": "0001-01-01T00:00:00",
       "ListLink": false,
-      "AllowDowngrade": true
+      "AllowDowngrade": true,
+      "AmmoLockoutByAddon": [],
+      "AmmoWeight": 1
     }
   ],
   "AmmoTypes": [
@@ -16,40 +18,51 @@
       "RandomLimit": 0.0,
       "MinDate": "0001-01-01T00:00:00",
       "ListLink": false,
-      "AllowDowngrade": false
+      "AllowDowngrade": false,
+      "AmmoLockoutByAddon": [],
+      "AmmoWeight": 1
     },
     {
       "ID": "Ammo_AmmunitionBox_Generic_LRM_DF",
-      "Weight": 3,
+      "Weight": 1,
       "RandomLimit": 0.0,
-      "MinDate": "3050-01-01T00:00:00",
+      "MinDate": "3052-01-01T00:00:00",
       "ListLink": false,
-      "AllowDowngrade": false
+      "AllowDowngrade": false,
+      "AmmoLockoutByAddon": [],
+      "AmmoWeight": 1
     },
     {
       "ID": "Ammo_AmmunitionBox_Generic_LRM_Inferno",
-      "Weight": 3,
+      "Weight": 1,
       "RandomLimit": 0.0,
-      "MinDate": "3050-01-01T00:00:00",
+      "MinDate": "3056-01-01T00:00:00",
       "ListLink": false,
-      "AllowDowngrade": false
+      "AllowDowngrade": false,
+      "AmmoLockoutByAddon": [],
+      "AmmoWeight": 1
     },
     {
       "ID": "Ammo_AmmunitionBox_Generic_LRM_Swarm",
-      "Weight": 3,
+      "Weight": 1,
       "RandomLimit": 0.0,
-      "MinDate": "3050-01-01T00:00:00",
+      "MinDate": "3053-01-01T00:00:00",
       "ListLink": false,
-      "AllowDowngrade": false
+      "AllowDowngrade": false,
+      "AmmoLockoutByAddon": [],
+      "AmmoWeight": 1
     },
     {
       "ID": "Ammo_AmmunitionBox_Generic_LRM_Swarm-I",
-      "Weight": 4,
+      "Weight": 1,
       "RandomLimit": 0.0,
-      "MinDate": "3050-01-01T00:00:00",
+      "MinDate": "3057-01-01T00:00:00",
       "ListLink": false,
-      "AllowDowngrade": false
+      "AllowDowngrade": false,
+      "AmmoLockoutByAddon": [],
+      "AmmoWeight": 1
     }
   ],
-  "Addons": []
+  "Addons": [],
+  "AmmoGroup": "LRM"
 }
