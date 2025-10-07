@@ -28,9 +28,9 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="External References\**" />
-    <EmbeddedResource Remove="External References\**" />
-    <None Remove="External References\**" />
+    <Compile Remove="References\**" />
+    <EmbeddedResource Remove="References\**" />
+    <None Remove="References\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Features\AdditionalLances_Comstar.cs" />
