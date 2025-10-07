@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Urban Assault Tank",
   "MovementCapDefID": "movedef_vee_3",
   "PathingCapDefID": "pathingdef_heavy_wheeled",
   "HardpointDataDefID": "hardpointdatadef_gallant",

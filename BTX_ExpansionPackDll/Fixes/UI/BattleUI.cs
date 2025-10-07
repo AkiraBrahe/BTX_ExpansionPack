@@ -1,9 +1,12 @@
 using BattleTech;
+using BattleTech.UI;
+using BTSimpleMechAssembly;
 using BTX_ExpansionPack.Helpers;
 using CustAmmoCategories;
 using CustAmmoCategoriesPatches;
 using CustomUnits;
 using IRBTModUtils;
+using System;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using System.Threading;
@@ -12,6 +15,59 @@ namespace BTX_ExpansionPack.Fixes.UI
 {
     internal class BattleUI
     {
+        /// <summary>
+        /// Shortens the vehicle's name and makes the variant more distinct on nameplates.
+        /// </summary>
+        [HarmonyPatch(typeof(CustomMech_GetActorInfoFromVisLevel), "Get")]
+        public static class GetActorInfoFromVisLevel_Get
+        {
+            [HarmonyPrepare]
+            public static bool Prepare() => Main.Settings.UI.Battle.UseShortenedVehicleNames;
+
+            [HarmonyPostfix]
+            public static void Postfix(AbstractActor a, ref string __result)
+            {
+                __result = Main.Settings.UI.Battle.ShowStandardVehicleVariant && !a.UnitName.EndsWith(")")
+                    ? $"{a.UnitName} <size=75%>(Standard)</size>"
+                    : a.UnitName.Replace("(", "<size=75%>(").Replace(")", ")</size>");
+            }
+        }
+
+        /// <summary>
+        /// Shows the vehicle type and tonnage below its name on the advanced infotip.
+        /// </summary>
+        [HarmonyPatch(typeof(CombatHUDActorDetailsDisplay), "RefreshInfo")]
+        public static class CombatHUDActorDetailsDisplay_RefreshInfo
+        {
+            [HarmonyPostfix]
+            [HarmonyWrapSafe]
+            [HarmonyAfter("io.mission.customunits")]
+            public static void Postfix(CombatHUDActorDetailsDisplay __instance)
+            {
+                if (__instance.DisplayedActor is not Mech mech || !mech.FakeVehicle()) return;
+
+                var textComponent = __instance.ActorWeightText;
+                var rectTransform = textComponent.rectTransform;
+                rectTransform.sizeDelta = new UnityEngine.Vector2(300f, rectTransform.sizeDelta.y);
+                rectTransform.anchoredPosition = __instance.transform.parent.name == "CombatHUDTargetingComputer"
+                    ? new UnityEngine.Vector2(75f, 20f)
+                    : new UnityEngine.Vector2(75f, rectTransform.anchoredPosition.y);
+                textComponent.enableAutoSizing = false;
+
+                if (Main.Settings.UI.Battle.UseShortenedVehicleNames)
+                {
+                    string stockRole = mech.MechDef?.Chassis?.StockRole;
+                    if (!string.IsNullOrEmpty(stockRole) || stockRole != "VEHICLE")
+                    {
+                        __instance.ActorWeightText.SetText("{0} ({1}t)", stockRole, mech.tonnage);
+                        return;
+                    }
+                }
+
+                __instance.ActorWeightText.SetText("VEHICLE: {0} ({1}t)", mech.weightClass, mech.tonnage);
+            }
+        }
+
         /// <summary>
         /// Removes the popup when moving before move clamping is calculated.
         /// </summary>
@@ -47,7 +103,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 var matcher = new CodeMatcher(instructions, il)
                     .MatchForward(false, new CodeMatch(OpCodes.Ldstr, "\n__/TARGET/__:\n"))
-                    .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
+                    .MatchBack(false, new CodeMatch(i => i.opcode.FlowControl == FlowControl.Cond_Branch));
 
                 object jumpTarget = matcher.Operand;
                 return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
@@ -91,6 +147,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Shows full location names for mechs in the to-hit modifiers in battle.
         /// </summary>
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Mech), typeof(int)])]
+        [Obsolete("Use a method call replacement transpiler instead", false)]
         public static class ToHitModifiersHelper_GetToHitModifierName_Mech
         {
             [HarmonyPrepare]
@@ -141,6 +198,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Shows full location names for vehicles in the to-hit modifiers in battle.
         /// </summary>
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Vehicle), typeof(int)])]
+        [Obsolete("Use a method call replacement transpiler instead", false)]
         public static class ToHitModifiersHelper_GetToHitModifierName_Vehicle
         {
             [HarmonyPrepare]

@@ -18,6 +18,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Heavy Hover Tank",
   "MovementCapDefID": "movedef_vee_8",
   "PathingCapDefID": "pathingdef_medium_hover",
   "HardpointDataDefID": "hardpointdatadef_condor",

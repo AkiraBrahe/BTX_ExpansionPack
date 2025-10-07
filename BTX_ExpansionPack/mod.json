@@ -21,7 +21,8 @@
     },
     "UI": {
       "Battle": {
-        "ShowFullLocationName": true
+        "UseShortenedVehicleNames": true,
+        "ShowStandardVehicleVariant": true
       },
       "ContractIntel": {
         "IntelShowTarget": true,

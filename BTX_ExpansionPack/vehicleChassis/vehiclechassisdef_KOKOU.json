@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Defense Tank",
   "MovementCapDefID": "movedef_vee_2",
   "PathingCapDefID": "pathingdef_heavy_tracked",
   "HardpointDataDefID": "hardpointdatadef_burke",

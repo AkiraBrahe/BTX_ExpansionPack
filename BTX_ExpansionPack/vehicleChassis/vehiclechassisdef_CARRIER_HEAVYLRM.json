@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": null,
   "MovementCapDefID": "movedef_vee_2",
   "PathingCapDefID": "pathingdef_assault_tracked",
   "HardpointDataDefID": "hardpointdatadef_heavylrm",

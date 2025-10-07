@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Heavy Tank",
   "MovementCapDefID": "movedef_vee_3",
   "PathingCapDefID": "pathingdef_heavy_tracked",
   "HardpointDataDefID": "hardpointdatadef_zhukov",

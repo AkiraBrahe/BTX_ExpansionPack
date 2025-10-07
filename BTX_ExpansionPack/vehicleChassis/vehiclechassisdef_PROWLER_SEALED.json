@@ -21,6 +21,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Multi-Terrain Vehicle",
   "MovementCapDefID": "movedef_vee_4",
   "PathingCapDefID": "pathingdef_medium_tracked",
   "HardpointDataDefID": "hardpointdatadef_rhino",

@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Fire Support Vehicle",
   "MovementCapDefID": "movedef_vee_3",
   "PathingCapDefID": "pathingdef_assault_tracked",
   "HardpointDataDefID": "hardpointdatadef_morrigu",

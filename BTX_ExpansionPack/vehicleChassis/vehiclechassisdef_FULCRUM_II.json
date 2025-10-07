@@ -18,6 +18,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Heavy Hovertank",
   "MovementCapDefID": "movedef_vee_10",
   "PathingCapDefID": "pathingdef_medium_hover",
   "HardpointDataDefID": "hardpointdatadef_beagle",

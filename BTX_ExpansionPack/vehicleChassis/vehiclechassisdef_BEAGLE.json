@@ -18,6 +18,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Hover Scout",
   "MovementCapDefID": "movedef_vee_12",
   "PathingCapDefID": "pathingdef_light_hover",
   "HardpointDataDefID": "hardpointdatadef_beagle",

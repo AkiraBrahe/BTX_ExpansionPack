@@ -31,6 +31,8 @@
 
     public class BattleSettings
     {
+        public bool UseShortenedVehicleNames { get; set; } = true;
+        public bool ShowStandardVehicleVariant { get; set; } = true;
         public bool ShowFullLocationName { get; set; } = true;
     }
 

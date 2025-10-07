@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Light Support Tank",
   "MovementCapDefID": "movedef_vee_4",
   "PathingCapDefID": "pathingdef_light_tracked",
   "HardpointDataDefID": "hardpointdatadef_maingauche",

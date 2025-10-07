@@ -18,6 +18,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Medium Hover Tank",
   "MovementCapDefID": "movedef_vee_8",
   "PathingCapDefID": "pathingdef_medium_hover",
   "HardpointDataDefID": "hardpointdatadef_gladiusmk1",

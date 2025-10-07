@@ -26,6 +26,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Light Scout VTOL",
   "MovementCapDefID": "movedef_vee_15",
   "PathingCapDefID": "pathingdef_light_vtol",
   "HardpointDataDefID": "hardpointdatadef_cuwarriorvtol",

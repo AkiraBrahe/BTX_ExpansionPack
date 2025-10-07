@@ -17,6 +17,7 @@
     "Rarity": 0,
     "Purchasable": true
   },
+  "StockRole": "Medium Tank",
   "MovementCapDefID": "movedef_vee_5",
   "PathingCapDefID": "pathingdef_medium_tracked",
   "HardpointDataDefID": "hardpointdatadef_ares",
