@@ -35,6 +35,7 @@ namespace BTX_ExpansionPack
                 InjectCustomLanceData(MetadataDatabase.Instance);
                 ApplyHarmonyPatches();
                 ApplySettings();
+                ComponentUpgrader.Register();
                 Log.Log("Mod initialized!");
             }
             catch (Exception ex)
