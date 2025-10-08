@@ -47,11 +47,12 @@
     <Publicize Include="Assembly-CSharp" />
     <Publicize Include="BEXTimeline" />
     <Publicize Include="MechQuirks" />
+    <Publicize Include="BTSimpleMechAssembly:BTSimpleMechAssembly.CustomMech_GetActorInfoFromVisLevel" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.AEPStatic" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionReplace" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Main" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.TonnageCalculation" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="CustomAmmoCategories:CustAmmoCategoriesPatches.MoveStatusPreview_DisplayPreviewStatus.Prefix" />
     <Publicize Include="CustomUnits:CustomUnits.MoveClampHelper.moveClampCache" />
@@ -71,6 +72,12 @@
     </Reference>
     <Reference Include="BiggerDrops">
       <HintPath>$(BattleTechGameDir)\Mods\BiggerDrops\BiggerDrops.dll</HintPath>
+    </Reference>
+    <Reference Include="BTRandomMechComponentUpgrader">
+      <HintPath>$(BattleTechGameDir)\Mods\BTRandomMechComponentUpgrader\BTRandomMechComponentUpgrader.dll</HintPath>
+    </Reference>
+    <Reference Include="BTSimpleMechAssembly">
+      <HintPath>$(BattleTechGameDir)\Mods\BTSimpleMechAssembly\BTSimpleMechAssembly.dll</HintPath>
     </Reference>
     <Reference Include="BTX_CAC_CompatibilityDll">
       <HintPath>$(BattleTechGameDir)\Mods\BTX_CAC_Compatibility\BTX_CAC_CompatibilityDll.dll</HintPath>
