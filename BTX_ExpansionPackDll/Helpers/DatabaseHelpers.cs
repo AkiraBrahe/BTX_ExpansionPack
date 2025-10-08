@@ -1,6 +1,5 @@
 ﻿using BattleTech.Data;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace BTX_ExpansionPack.Helpers
 {
@@ -130,26 +129,19 @@ namespace BTX_ExpansionPack.Helpers
              new() { DynamicLanceDifficultyID = 22, Difficulty = 12, NoUnitCount = 0, AssaultUnitCount = 4, PilotTags = "pilot_npc_d10" }
          ];
 
-        /// <summary>
-        /// Clear all entries from the DynamicLanceDifficulty database.
-        /// </summary>
-        public static void ClearDynamicLanceDifficulty(this MetadataDatabase mdd)
+        extension(MetadataDatabase mdd)
         {
-            Main.Log.LogDebug("Clearing all entries from the DynamicLanceDifficulty database.");
-            mdd.Execute("DELETE FROM DynamicLanceDifficulty");
-        }
+            /// <summary>
+            /// Clear all entries from the DynamicLanceDifficulty database.
+            /// </summary>
+            public void ClearDynamicLanceDifficulty() => mdd.Execute("DELETE FROM DynamicLanceDifficulty");
 
-        /// <summary>
-        /// Bulk insert multiple DynamicLanceDifficulty_MDD entries into the database.
-        /// </summary>
-        public static void BulkInsertDynamicLanceDifficulty(this MetadataDatabase mdd, IEnumerable<DynamicLanceDifficulty_MDD> defs)
-        {
-            Main.Log.LogDebug($"Bulk inserting {defs.Count()} new entries into the DynamicLanceDifficulty database.");
-            mdd.Execute(
-                @"INSERT INTO DynamicLanceDifficulty 
-                  (DynamicLanceDifficultyID, Difficulty, NoUnitCount, LightUnitCount, MediumUnitCount, HeavyUnitCount, AssaultUnitCount, PilotTags)
-                  VALUES (@DynamicLanceDifficultyID, @Difficulty, @NoUnitCount, @LightUnitCount, @MediumUnitCount, @HeavyUnitCount, @AssaultUnitCount, @PilotTags)",
-                defs);
+            /// <summary>
+            /// Bulk insert multiple DynamicLanceDifficulty_MDD entries into the database.
+            /// </summary>
+            public void BulkInsertDynamicLanceDifficulty(IEnumerable<DynamicLanceDifficulty_MDD> defs) =>
+                mdd.Execute(@"INSERT INTO DynamicLanceDifficulty (DynamicLanceDifficultyID, Difficulty, NoUnitCount, LightUnitCount, MediumUnitCount, HeavyUnitCount, AssaultUnitCount, PilotTags)
+                  VALUES (@DynamicLanceDifficultyID, @Difficulty, @NoUnitCount, @LightUnitCount, @MediumUnitCount, @HeavyUnitCount, @AssaultUnitCount, @PilotTags)", defs);
         }
 
         #endregion Dynamic Difficulty

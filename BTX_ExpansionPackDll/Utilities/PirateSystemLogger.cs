@@ -7,7 +7,7 @@ namespace BTX_ExpansionPack.Utilities
 {
     internal class PirateSystemLogger
     {
-        private static readonly Dictionary<string, int> pirateSystemCounts = [];
+        private static readonly Dictionary<string, int> PirateSystemCounts = [];
 
         [HarmonyPatch(typeof(PirateHelper), "AddPiratesToSystem")]
         public static class PirateHelper_AddPiratesToSystem
@@ -17,21 +17,21 @@ namespace BTX_ExpansionPack.Utilities
             {
                 if (!Main.Settings.Debug.PirateSystemLogging) return false;
 
-                pirateSystemCounts.Clear();
+                PirateSystemCounts.Clear();
 
                 foreach (string factionID in Core.Settings.PirateFactions.Keys)
                 {
-                    if (!pirateSystemCounts.ContainsKey(factionID))
+                    if (!PirateSystemCounts.ContainsKey(factionID))
                     {
-                        pirateSystemCounts.Add(factionID, 0);
+                        PirateSystemCounts.Add(factionID, 0);
                     }
                 }
 
                 foreach (string factionID in Core.Settings.CriminalFactions.Keys)
                 {
-                    if (!pirateSystemCounts.ContainsKey(factionID))
+                    if (!PirateSystemCounts.ContainsKey(factionID))
                     {
-                        pirateSystemCounts.Add(factionID, 0);
+                        PirateSystemCounts.Add(factionID, 0);
                     }
                 }
 
@@ -47,13 +47,13 @@ namespace BTX_ExpansionPack.Utilities
 
                 foreach (string factionID in assignedPirates)
                 {
-                    if (pirateSystemCounts.ContainsKey(factionID))
+                    if (PirateSystemCounts.ContainsKey(factionID))
                     {
-                        pirateSystemCounts[factionID]++;
+                        PirateSystemCounts[factionID]++;
                     }
                     else
                     {
-                        pirateSystemCounts.Add(factionID, 1);
+                        PirateSystemCounts.Add(factionID, 1);
                     }
                 }
             }
@@ -69,9 +69,9 @@ namespace BTX_ExpansionPack.Utilities
             public static void Postfix()
             {
                 Logger.LogDebug("--- Pirate Faction System Counts ---");
-                if (pirateSystemCounts.Any())
+                if (PirateSystemCounts.Any())
                 {
-                    foreach (var entry in pirateSystemCounts.OrderByDescending(e => e.Value))
+                    foreach (var entry in PirateSystemCounts.OrderByDescending(e => e.Value))
                     {
                         Logger.LogDebug($"  {entry.Key}: {entry.Value} systems");
                     }

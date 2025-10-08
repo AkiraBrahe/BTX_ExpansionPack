@@ -98,7 +98,7 @@ namespace BTX_ExpansionPack.Fixes
         public static class LanceConfiguratorPanel_ValidateLance_NoVehicleDuel
         {
             [HarmonyPrepare]
-            public static bool Prepare() => Main.Settings.Gameplay.AllowVehiclesInMechDuels == false;
+            public static bool Prepare() => !Main.Settings.Gameplay.AllowVehiclesInMechDuels;
 
             [HarmonyPrefix]
             [HarmonyWrapSafe]

@@ -16,7 +16,7 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPostfix]
             public static void Postfix(OccupyRegionObjective __instance)
             {
-                if (!__instance.DisplayName.Equals("Withdraw"))
+                if (__instance.DisplayName is not null or "Withdraw")
                 {
                     __instance.allowOpposingUnitsInRegion = false;
                 }

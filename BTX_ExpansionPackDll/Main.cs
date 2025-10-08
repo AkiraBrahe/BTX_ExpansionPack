@@ -1,6 +1,7 @@
 using BattleTech;
 using BattleTech.Data;
 using BattleTech.UI;
+using BTX_ExpansionPack.Features;
 using BTX_ExpansionPack.Helpers;
 using HBS.Logging;
 using Newtonsoft.Json;
@@ -46,6 +47,7 @@ namespace BTX_ExpansionPack
         {
             mdd.ClearDynamicLanceDifficulty();
             mdd.BulkInsertDynamicLanceDifficulty(DatabaseHelpers.lanceDefs);
+            Log.LogDebug("Successfully updated the Dynamic Lance Difficulty database.");
         }
 
         internal static void ApplyHarmonyPatches()

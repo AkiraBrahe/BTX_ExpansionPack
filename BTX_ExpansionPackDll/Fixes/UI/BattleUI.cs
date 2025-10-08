@@ -16,7 +16,7 @@ namespace BTX_ExpansionPack.Fixes.UI
     internal class BattleUI
     {
         /// <summary>
-        /// Shortens the vehicle's name and makes the variant more distinct on nameplates.
+        /// Shortens vehicle names and makes them stand out on nameplates.
         /// </summary>
         [HarmonyPatch(typeof(CustomMech_GetActorInfoFromVisLevel), "Get")]
         public static class GetActorInfoFromVisLevel_Get
@@ -34,7 +34,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         /// <summary>
-        /// Shows the vehicle type and tonnage below its name on the advanced infotip.
+        /// Shows the vehicle type and tonnage below its name on the advanced infotips.
         /// </summary>
         [HarmonyPatch(typeof(CombatHUDActorDetailsDisplay), "RefreshInfo")]
         public static class CombatHUDActorDetailsDisplay_RefreshInfo

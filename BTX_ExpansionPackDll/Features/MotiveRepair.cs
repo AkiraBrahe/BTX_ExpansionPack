@@ -83,21 +83,6 @@ namespace BTX_ExpansionPack.Features
         }
 
         /// <summary>
-        /// Removes all motive system components from vehicles when a contract is completed.
-        /// </summary>
-        [HarmonyPatch(typeof(Contract), "CompleteContract")]
-        public static class Contract_CompleteContract
-        {
-            [HarmonyPrefix]
-            public static void Prefix(Contract __instance)
-            {
-                if (__instance.State != Contract.ContractState.InProgress) return;
-                __instance.BattleTechGame.Combat.AllActors.OfType<Mech>().Where(mech => mech.MechDef.IsVehicle()).ToList()
-                    .ForEach(vehicle => { vehicle.allComponents.RemoveAll(comp => comp.defId == "Gear_BEX_MotiveSystem"); vehicle.miscComponents.RemoveAll(comp => comp.defId == "Gear_BEX_MotiveSystem"); });
-            }
-        }
-
-        /// <summary>
         /// Disables the Motive Repair ability button for non-vehicles.
         /// </summary>
         [HarmonyPatch(typeof(CombatHUDMechwarriorTray), "ResetAbilityButton", [typeof(AbstractActor), typeof(CombatHUDActionButton), typeof(Ability), typeof(bool)])]

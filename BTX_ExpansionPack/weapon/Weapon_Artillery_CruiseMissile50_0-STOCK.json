@@ -55,7 +55,7 @@
     "Details": "The Cruise Missile/50 is the smallest of the Cruise Missile developed by the Federated Suns. This massive unguided missile deals tremendous damage, capable of annihilating smaller 'Mechs and fortifications in a single shot. However, its immense bulk creates a logistical nightmare. Only the Kalki superheavy tank can carry the launcher and its ammunition, making the CM/50 a rare but potentially battlefield-deciding weapon.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA": "135m AoE Range",
+  "BonusValueA": "135m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",

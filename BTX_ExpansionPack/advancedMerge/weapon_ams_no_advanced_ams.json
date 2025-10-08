@@ -7,10 +7,19 @@
   ],
   "Instructions": [
     {
+      "JSONPath": "$.Modes[?(@Id == 'AMS_ON')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "IsAAMS": true
+      }
+    },
+    {
       "JSONPath": "$.Modes[?(@Id == 'AMS_OVER')]",
       "Action": "ObjectMerge",
       "Value": {
-        "IsAAMS": false
+        "FlatJammingChance": 0.15,
+        "GunneryJammingBase": 10,
+        "GunneryJammingMult": 0.015
       }
     },
     {

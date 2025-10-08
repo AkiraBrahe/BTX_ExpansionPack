@@ -46,7 +46,7 @@
     "Details": "The Mech Mortar/4 is the second-largest of the Mech Mortar systems developed. Based on the weapon used by infantry for centuries, it fires four small shells in a high arc that falls onto the target.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "15m AoE Range",
+  "BonusValueA": "15m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",

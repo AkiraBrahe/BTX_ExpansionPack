@@ -6,7 +6,7 @@ namespace BTX_ExpansionPack.Features
     {
         private static readonly string[] weightClassTags = ["unit_light", "unit_medium", "unit_heavy", "unit_assault"];
 
-        private static readonly HashSet<string> spotterVehicles =
+        private static readonly HashSet<string> SpotterVehicles =
         [
             "vehicledef_ALSVIN",
             "vehicledef_ARVAKR",

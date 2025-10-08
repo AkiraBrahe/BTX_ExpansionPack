@@ -55,7 +55,7 @@
     "Details": "The Sniper Rifle Artillery Piece is the second most powerful tube artillery, capable of crippling or destroying most light and medium BattleMechs with a single hit. As with all artillery types, the Sniper always fires indirectly and deals damage in the area of impact.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "75m AoE Range",
+  "BonusValueA": "75m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -87,10 +87,10 @@
       "ShotsWhenFired": -1,
       "AIHitChanceCap": 0,
       "AdditionalImpactVFX": "vfxPrfPrtl_artilleryExplosion",
-      "AdditionalAudioEffect": "AudioEventList_explosion_explosion_medium",
-      "AdditionalImpactVFXScaleX": 1.5,
-      "AdditionalImpactVFXScaleY": 1.5,
-      "AdditionalImpactVFXScaleZ": 1.5
+      "AdditionalAudioEffect": "AudioEventList_explosion_explosion_large",
+      "AdditionalImpactVFXScaleX": 1.25,
+      "AdditionalImpactVFXScaleY": 1.25,
+      "AdditionalImpactVFXScaleZ": 1.25
     }
   ],
   "statusEffects": [],
