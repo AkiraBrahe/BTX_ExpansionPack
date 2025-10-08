@@ -8,6 +8,12 @@
     }
     public class ModDebugSettings
     {
+        public bool ShowArtilleryCritFloatie { get; set; } = true;
+        public float AoEMinCritChance { get; set; } = 0.10f;
+        public float AoEMaxCritChance { get; set; } = 0.50f;
+        public float AoEMaxEffectiveDistance { get; set; } = 30f;
+        public float AoECritLocationWeightMultiplier { get; set; } = 4f;
+
         public bool AllDropShipUpgrades { get; set; } = false;
         public bool ForceConvoyToFightInZone { get; set; } = true;
         public bool PirateSystemLogging { get; set; } = false;
