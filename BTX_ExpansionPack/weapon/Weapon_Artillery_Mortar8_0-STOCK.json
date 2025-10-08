@@ -46,7 +46,7 @@
     "Details": "The largest Mech Mortar ever produced, the Mech Mortar/8 fires more shells than any other Mech Mortar. Based on the weapon used by infantry for centuries, it fires several small shells in a high arc that fall onto the target.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "15m AoE Range",
+  "BonusValueA": "15m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",

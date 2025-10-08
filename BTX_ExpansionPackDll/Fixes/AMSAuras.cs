@@ -80,7 +80,7 @@ namespace BTX_ExpansionPack.Fixes
         /// <summary>
         /// Tracks which allies have already received AMS protection floaties this turn.
         /// </summary>
-        private static readonly HashSet<string> protectedAllies = [];
+        private static readonly HashSet<string> ProtectedAllies = [];
 
         /// <summary>
         /// Limits AMS protection floaties to one per ally per turn.
@@ -100,7 +100,7 @@ namespace BTX_ExpansionPack.Fixes
                 if (!string.IsNullOrEmpty(aura.Def.Name) &&
                     aura.Def.Name.Contains("AMS"))
                 {
-                    if (protectedAllies.Add(__instance.owner.GUID))
+                    if (ProtectedAllies.Add(__instance.owner.GUID))
                     {
                         __instance.owner.Combat.MessageCenter.PublishMessage(
                             new FloatieMessage(
@@ -128,7 +128,7 @@ namespace BTX_ExpansionPack.Fixes
             {
                 if (__instance?.Combat != null)
                 {
-                    protectedAllies.Remove(__instance.GUID);
+                    ProtectedAllies.Remove(__instance.GUID);
                 }
             }
         }

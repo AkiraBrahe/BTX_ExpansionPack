@@ -55,7 +55,7 @@
     "Details": "The Sniper Artillery Cannon is the scaled down version of the Sniper Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "50m AoE Range",
+  "BonusValueA": "50m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -81,10 +81,11 @@
       "ShotsWhenFired": -1,
       "DamagePerShot": -100,
       "Instability": -50,
-      "AdditionalImpactVFX": "WFX_BELarger",
-      "AdditionalImpactVFXScaleX": 3,
-      "AdditionalImpactVFXScaleY": 3,
-      "AdditionalImpactVFXScaleZ": 3
+      "AdditionalImpactVFX": "vfxPrfPrtl_artilleryExplosion",
+      "AdditionalAudioEffect": "AudioEventList_explosion_explosion_medium",
+      "AdditionalImpactVFXScaleX": 0.75,
+      "AdditionalImpactVFXScaleY": 0.75,
+      "AdditionalImpactVFXScaleZ": 0.75
     }
   ],
   "statusEffects": [],

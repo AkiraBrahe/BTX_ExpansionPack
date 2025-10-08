@@ -49,7 +49,7 @@
     "Details": "The Long Tom Artillery Piece is the largest conventional artillery piece that can be mounted on a vehicle. As with all artillery types, the Long Tom always fires indirectly and deals damage in the area of impact.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "90m AoE Range",
+  "BonusValueA": "90m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -80,9 +80,9 @@
       "DirectFireModifier": 2,
       "AdditionalImpactVFX": "vfxPrfPrtl_artilleryExplosion",
       "AdditionalAudioEffect": "AudioEventList_explosion_explosion_large",
-      "AdditionalImpactVFXScaleX": 3,
-      "AdditionalImpactVFXScaleY": 3,
-      "AdditionalImpactVFXScaleZ": 3
+      "AdditionalImpactVFXScaleX": 1.5,
+      "AdditionalImpactVFXScaleY": 1.5,
+      "AdditionalImpactVFXScaleZ": 1.5
     }
   ],
   "statusEffects": [],

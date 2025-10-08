@@ -369,10 +369,10 @@ namespace BTX_ExpansionPack.Fixes
             var abilityButtons = __instance.AbilityButtons;
             foreach (var button in abilityButtons)
             {
-                // Main.Log.LogDebug($"Processing button for {button?.Ability?.Def?.Description?.Name}.");
+                //Main.Log.LogDebug($"Processing button for {button?.Ability?.Def?.Description?.Name}.");
                 if (button?.Ability?.Def?.Resource == AbilityDef.ResourceConsumed.ConsumesActivation && forceInactive)
                 {
-                    // Main.Log.LogDebug($"Disabling button for {button.Ability.Def.Description?.Name}.");
+                    //Main.Log.LogDebug($"Disabling button for {button.Ability.Def.Description?.Name}.");
                     button.DisableButton();
                 }
             }

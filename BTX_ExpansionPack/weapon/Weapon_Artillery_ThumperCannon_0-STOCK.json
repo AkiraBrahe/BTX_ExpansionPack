@@ -55,7 +55,7 @@
     "Details": "The Thumper Artillery Cannon is the scaled down version of the Thumper Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "40m AoE Range",
+  "BonusValueA": "40m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -81,10 +81,11 @@
       "ShotsWhenFired": -1,
       "DamagePerShot": -75,
       "Instability": -37.5,
-      "AdditionalImpactVFX": "WFX_BELarger",
-      "AdditionalImpactVFXScaleX": 2,
-      "AdditionalImpactVFXScaleY": 2,
-      "AdditionalImpactVFXScaleZ": 2
+      "AdditionalImpactVFX": "vfxPrfPrtl_artilleryExplosion",
+      "AdditionalAudioEffect": "AudioEventList_explosion_explosion_medium",
+      "AdditionalImpactVFXScaleX": 0.5,
+      "AdditionalImpactVFXScaleY": 0.5,
+      "AdditionalImpactVFXScaleZ": 0.5
     }
   ],
   "statusEffects": [],

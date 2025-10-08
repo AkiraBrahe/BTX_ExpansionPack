@@ -1,0 +1,17 @@
+{
+  "Description": {
+    "Icon": "uixTxrIcon_caesar"
+  },
+  "HardpointDataDefID": "hardpointdatadef_caesar",
+  "PrefabIdentifier": "chrprfmech_caesarbase-001",
+  "PrefabBase": "caesar",
+  "ChassisTags": {
+    "items": [
+      "chassis_AffinityIDOverride_Caesar",
+      "chassis_DHS",
+      "mech_case_right",
+      "mech_quirk_hyperextendingactuators"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

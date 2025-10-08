@@ -55,7 +55,7 @@
     "Details": "The Long Tom Artillery Cannon is the scaled down version of the Long Tom Artillery Piece. While it sacrifices some firepower and range, its smaller size allows it to provide rapid fire support in the same turn it aims, unlike its larger cousin.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "60m AoE Range",
+  "BonusValueA": "60m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -81,10 +81,11 @@
       "ShotsWhenFired": -1,
       "DamagePerShot": -150,
       "Instability": -75,
-      "AdditionalImpactVFX": "WFX_BELarger",
-      "AdditionalImpactVFXScaleX": 4,
-      "AdditionalImpactVFXScaleY": 4,
-      "AdditionalImpactVFXScaleZ": 4
+      "AdditionalImpactVFX": "vfxPrfPrtl_artilleryExplosion",
+      "AdditionalAudioEffect": "AudioEventList_explosion_explosion_medium",
+      "AdditionalImpactVFXScaleX": 1,
+      "AdditionalImpactVFXScaleY": 1,
+      "AdditionalImpactVFXScaleZ": 1
     }
   ],
   "statusEffects": [],

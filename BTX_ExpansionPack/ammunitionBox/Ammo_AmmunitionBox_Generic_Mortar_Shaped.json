@@ -13,7 +13,7 @@
     "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nShaped Charge mortar shells can penetrate armor and damage the internal systems of a single target.\n\nShaped Charge Mortar Ammo Bins each contain 24 rounds and may feed multiple weapons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
-  "BonusValueA": "3 AP Dmg.",
+  "BonusValueA": "3 AP Dmg., No AoE",
   "BonusValueB": "Through Armor Criticals",
   "ComponentType": "AmmunitionBox",
   "ComponentSubType": "Ammunition",

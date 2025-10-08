@@ -23,8 +23,7 @@ namespace BTX_ExpansionPack.Features
                 if (__instance?.parent is not Mech mech || !mech.isHasStability())
                     return;
 
-                bool hasSelfKnockdown = __instance.defId.StartsWith("Weapon_Artillery") ||
-                                        __instance.defId.StartsWith("Weapon_Gauss");
+                bool hasSelfKnockdown = __instance.defId.StartsWith("Weapon_Artillery") || __instance.defId.StartsWith("Weapon_Gauss");
 
                 WeaponInfo.ShouldApplySelfInstability = hasSelfKnockdown;
                 WeaponInfo.SelfInstabilityWeaponTonnage = hasSelfKnockdown ? __instance.tonnage : 0f;
@@ -53,7 +52,7 @@ namespace BTX_ExpansionPack.Features
                             selfInstability :
                             selfInstability / 2f;
 
-                        // Main.Log.LogDebug($"[SelfKnockdown] Applied {instabilityToApply} instability to {mech.DisplayName}.");
+                        // Main.Log.LogDebug($"[SelfKnockdown] Applied {instabilityToApply} instability to {mech.DisplayName}");
                         mech.AddAbsoluteInstability(instabilityToApply, StabilityChangeSource.Effect, mech.GUID);
 
                         if (!mech.NeedsInstabilityCheck) return;

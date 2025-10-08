@@ -89,7 +89,7 @@ namespace BTX_ExpansionPack.Fixes
             {
                 var matcher = new CodeMatcher(instructions, il)
                     .MatchForward(false, new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is MethodInfo mi && mi.Name == "get_EasyToPilotEffect"))
-                    .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
+                    .MatchBack(false, new CodeMatch(i => i.opcode.FlowControl == FlowControl.Cond_Branch));
 
                 object jumpTarget = matcher.Operand;
                 return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
@@ -115,7 +115,6 @@ namespace BTX_ExpansionPack.Fixes
                 {
                     var effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
                     effectManager.CreateEffect(EasyToPilotEffect, "EasyToPilot", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
-                    Main.Log.LogDebug($"Applied Easy to Pilot effect to {__instance.DisplayName}.");
                 }
             }
 

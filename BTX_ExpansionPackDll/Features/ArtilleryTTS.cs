@@ -37,8 +37,8 @@ namespace BTX_ExpansionPack.Features
 
                         float newDistanceToTarget = Vector3.Distance(newPos, closestTarget.CurrentPosition);
                         Main.Log.LogDebug($"[ArtilleryTTS] Adjusted strike for {unit.DisplayName}'s {weapon.Name} towards {closestTarget.DisplayName} (TTS Level: {ttsLevel})." +
-                            $" Original strike position: {position}, distance: {distanceToTarget:F1}m." +
-                            $" New strike position: {newPos}, distance: {newDistanceToTarget:F1}m.");
+                            $"\nOriginal strike position: {position}, distance: {distanceToTarget:F1}m." +
+                            $"\nNew strike position: {newPos}, distance: {newDistanceToTarget:F1}m.");
                     }
                 }
             }
@@ -78,8 +78,9 @@ namespace BTX_ExpansionPack.Features
                 var directionToTarget = targetPosition - initialPosition;
                 var adjustedPosition = initialPosition + (directionToTarget.normalized * pullDistance);
 
-                // 4. Apply random spread to the adjusted strike position
-                float scatterRadius = Mathf.Lerp(minMissRadius, 0f, scatterReductionFactor);
+                // 4. Apply random spread, scaling it by the initial distance to the target.
+                float maxScatterRadius = Mathf.Lerp(minMissRadius, 0f, scatterReductionFactor);
+                float scatterRadius = Mathf.Min(maxScatterRadius, distanceToTarget * (1f - pullFactor));
                 var randomCirclePoint = Random.insideUnitCircle * scatterRadius;
                 var randomSpreadOffset = new Vector3(randomCirclePoint.x, 0f, randomCirclePoint.y);
 

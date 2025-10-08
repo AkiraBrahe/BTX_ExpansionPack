@@ -55,7 +55,7 @@
     "Details": "The Thumper Artillery Piece is the smallest conventional artillery piece with an effective range of 10.5 kilometers. As with all artillery types, the Thumper always fires indirectly and deals damage in the area of impact.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "60m AoE Range",
+  "BonusValueA": "60m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
