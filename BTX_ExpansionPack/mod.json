@@ -13,6 +13,13 @@
   "DLL": "BTX_ExpansionPack.dll",
   
   "Settings": {
+    "Debug": {
+      "ShowArtilleryCritFloatie": true,
+      "AoEMinCritChance": 0.10,
+      "AoEMaxCritChance": 0.50,
+      "AoEMaxEffectiveDistance": 30,
+      "AoECritLocationWeightMultiplier": 4
+    },
     "Gameplay": {
       "AllowVehiclesInMechDuels": false,
       "OverrideDHSEngineCooling": true,
