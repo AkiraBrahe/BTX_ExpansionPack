@@ -7,6 +7,7 @@ using Localize;
 using MechAffinity;
 using Quirks.Tooltips;
 using System.Collections.Generic;
+using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
@@ -33,6 +34,29 @@ namespace BTX_ExpansionPack.Fixes.UI
                 }
 
                 return true;
+            }
+        }
+
+        /// <summary>
+        /// Replaces the hardcoded "WEAPON ORDER" string from CAC.
+        /// </summary>
+        [HarmonyPatch(typeof(CustomAmmoCategoriesPatches.MechBayPanel_ViewBays), "Postfix")]
+        public static class MechBayPanel_ViewBays_Postfix
+        {
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            {
+                return new CodeMatcher(instructions, il)
+                    .MatchForward(false,
+                        new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(GameObject), "GetComponent", generics: [typeof(LocalizableText)])))
+                    .Advance(1)
+                    .InsertAndAdvance(new CodeInstruction(OpCodes.Dup))
+                    .InsertAndAdvance(new CodeInstruction(OpCodes.Ldc_I4_0))
+                    .InsertAndAdvance(new CodeInstruction(OpCodes.Callvirt, AccessTools.PropertySetter(typeof(LocalizableText), "fontStyle")))
+                    .MatchForward(false,
+                        new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s == "__/WEAPON ORDER/__"))
+                    .SetOperandAndAdvance("__/CAC.WO.WEAPONS.HIGHLIGHT/__")
+                    .InstructionEnumeration();
             }
         }
 

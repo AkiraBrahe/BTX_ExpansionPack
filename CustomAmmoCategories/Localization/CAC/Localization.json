@@ -3,14 +3,14 @@
     "FileName": "",
     "Name": "CAC.MissingAmmo",
     "Localization": {
-      "CULTURE_EN_US": "MISSING AMMO: This 'Mech does not have an undamaged Ammo Bin for {0}"
+      "CULTURE_EN_US": "MISSING AMMO: This 'Mech does not have an undamaged Ammo Bin for {0}."
     }
   },
   {
     "FileName": "",
     "Name": "CAC.ExtraAmmo",
     "Localization": {
-      "CULTURE_EN_US": "EXTRA AMMO: This 'Mech carries unusable {0} Ammo"
+      "CULTURE_EN_US": "EXTRA AMMO: This 'Mech carries unusable {0} Ammo."
     }
   },
   {
@@ -45,14 +45,14 @@
     "FileName": "",
     "Name": "CAC.AMMOEJECTIONERRORNOAMMO",
     "Localization": {
-      "CULTURE_EN_US": "This weapon are not using ammo in this mode (or at all)"
+      "CULTURE_EN_US": "This weapon is not using ammo in this mode (or at all)."
     }
   },
   {
     "FileName": "",
     "Name": "CAC.AMMOEJECTIONERRORMOVING",
     "Localization": {
-      "CULTURE_EN_US": "You can't eject ammo after moving or firing this round"
+      "CULTURE_EN_US": "You can't eject ammo after moving or firing this round."
     }
   },
   {
@@ -129,7 +129,7 @@
     "FileName": "",
     "Name": "CAC.misfire",
     "Localization": {
-      "CULTURE_EN_US": "misfire"
+      "CULTURE_EN_US": "Misfire"
     }
   },
   {
@@ -171,7 +171,7 @@
     "FileName": "",
     "Name": "CAC.LANDMINESEXPLODES",
     "Localization": {
-      "CULTURE_EN_US": "LANDMINES EXPLODES:{0}"
+      "CULTURE_EN_US": "LANDMINES EXPLODE:{0}"
     }
   },
   {
@@ -192,14 +192,7 @@
     "FileName": "",
     "Name": "CAC.MELEEATTACKINTERUPTED",
     "Localization": {
-      "CULTURE_EN_US": "MELEE ATTACK INTERUPTED"
-    }
-  },
-  {
-    "FileName": "",
-    "Name": "CAC.HEATFROMFIRE",
-    "Localization": {
-      "CULTURE_EN_US": "+ {0} HEAT FROM FIRE"
+      "CULTURE_EN_US": "MELEE ATTACK INTERRUPTED"
     }
   },
   {
@@ -284,42 +277,42 @@
     "FileName": "",
     "Name": "CAC.WEAPON_SIDE_HEADER",
     "Localization": {
-      "CULTURE_EN_US": "CLICK TO TOGGLE WEAPON\nSHIFT+CLICK TOGGLE ALL WEAPONS SAME TYPE\n"
+      "CULTURE_EN_US": "<size=80%><b>Click:</b> Toggle Weapon\n<b>Shift+Click:</b> Toggle all weapons of this type</size>\n<size=80%>---</size>\n"
     }
   },
   {
     "FileName": "",
     "Name": "CAC.MODE_SIZE_HEADER",
     "Localization": {
-      "CULTURE_EN_US": "LMB - NEXT MODE. RMB - PREV MODE\nSHIFT+CLICK SWITCH MODE ALL WEAPONS SAME TYPE\nAVAIBLE MODES:"
+      "CULTURE_EN_US": "<size=80%><b>LMB:</b> Next Mode | <b>RMB:</b> Previous Mode\n<b>Shift+Click:</b> Switch mode for all weapons of this type</size>\n<size=80%>---</size>\n<b>Available Modes:</b>"
     }
   },
   {
     "FileName": "",
     "Name": "CAC.AMMO_SIDE_HEADER",
     "Localization": {
-      "CULTURE_EN_US": "LMB - NEXT AMMO. RMB - PREV AMMO\nSHIFT+CLICK SWITCH MODE ALL WEAPONS SAME TYPE\nCTRL+CLICK TO EJECT CURRENT AMMO\n"
+      "CULTURE_EN_US": "<size=80%><b>LMB:</b> Next Ammo | <b>RMB:</b> Previous Ammo\n<b>Shift+Click:</b> Switch ammo for all weapons of this type\n<b>Ctrl+Click:</b> Eject current ammo</size>\n<size=80%>---</size>\n"
     }
   },
   {
     "FileName": "",
     "Name": "CAC.DAMAGE_SIZE_HEADER",
     "Localization": {
-      "CULTURE_EN_US": "<color=yellow>modifier</color> can change during attack\n<color=green>modifier</color> can't change during attack\n"
+      "CULTURE_EN_US": "<size=80%><color=yellow>Yellow modifiers can change during an attack.</color>\n<color=green>Green modifiers are fixed during an attack.</color></size>\n<size=80%>---</size>\n"
     }
   },
   {
     "FileName": "",
     "Name": "CAC.AMMO_COUNT_SIDE_HEADER",
     "Localization": {
-      "CULTURE_EN_US": "ammunition boxes:\n"
+      "CULTURE_EN_US": "<b>Ammunition Boxes:</b>\n"
     }
   },
   {
     "FileName": "",
     "Name": "CAC.AMMO_COUNT_CURRENT_SIDE_HEADER",
     "Localization": {
-      "CULTURE_EN_US": "currnet ammunition box info:\n"
+      "CULTURE_EN_US": "\n<b>Current Ammunition Box Info:</b>\n"
     }
   },
   {
@@ -359,9 +352,16 @@
   },
   {
     "FileName": "",
+    "Name": "CAC.WO.WEAPONS.HIGHLIGHT",
+    "Localization": {
+      "CULTURE_EN_US": "Customize this 'Mech's loadout"
+    }
+  },
+  {
+    "FileName": "",
     "Name": "CAC.WO.WEAPONS.ORDER",
     "Localization": {
-      "CULTURE_EN_US": "Weapons order"
+      "CULTURE_EN_US": "WEAPON LOADOUT SETTINGS"
     }
   },
   {
@@ -396,28 +396,28 @@
     "FileName": "",
     "Name": "CAC.WO.USAGE",
     "Localization": {
-      "CULTURE_EN_US": "USAGE"
+      "CULTURE_EN_US": "Information"
     }
   },
   {
     "FileName": "",
     "Name": "CAC.WO.USAGE.WEAPONS.DETAILS",
     "Localization": {
-      "CULTURE_EN_US": "Drag weapon to change order\nDouble-click weapon to show its settings"
+      "CULTURE_EN_US": "• <b>Drag</b> a weapon to change its firing order.\n• <b>Double-click</b> a weapon to open its settings."
     }
   },
   {
     "FileName": "",
     "Name": "CAC.WO.USAGE.MODE.DETAILS",
     "Localization": {
-      "CULTURE_EN_US": "Double-click mode to set default mode\nYou can't change modes order only change default one"
+      "CULTURE_EN_US": "• <b>Double-click</b> a mode to set it as the default for this weapon."
     }
   },
   {
     "FileName": "",
     "Name": "CAC.WO.USAGE.AMMO.DETAILS",
     "Localization": {
-      "CULTURE_EN_US": "Drag ammunition box to change order\nDouble-click mode to set default ammunition type\nNOTE! While selecting default ammunition box you are selecting default ammunition type, will be choosed for this weapon at start, NOT exact ammunition box.\nNOTE! Selecting ammunition boxes order you are selecting their depletion order, not ammunition type switch order. In automatic mode at first ammunition depleted from boxes from locations with lower armor"
+      "CULTURE_EN_US": "• <b>Drag</b> an ammo box to change its depletion order.\n• <b>Double-click</b> an ammo type to set it as the default.\n\nIn Automatic mode, ammo is used first from locations with the least armor."
     }
   },
   {

@@ -1,0 +1,281 @@
+[
+  {
+    "FileName": "",
+    "Name": "CAE.SelectedTargetForbidden",
+    "Localization": {
+      "CULTURE_EN_US": "\nYou cannot activate or deactivate equipment while a target is selected."
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.NotAvaibleThisPhase",
+    "Localization": {
+      "CULTURE_EN_US": "\nNot available"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.StandUpFail",
+    "Localization": {
+      "CULTURE_EN_US": "FAIL TO STAND UP"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.NonFunctional",
+    "Localization": {
+      "CULTURE_EN_US": "NOT FUNCTIONAL"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.Damaged",
+    "Localization": {
+      "CULTURE_EN_US": "DAMAGED"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.OutOfCharges",
+    "Localization": {
+      "CULTURE_EN_US": "OUT OF CHARGES"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.CHARGES",
+    "Localization": {
+      "CULTURE_EN_US": "CHARGES"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.HEAT",
+    "Localization": {
+      "CULTURE_EN_US": "HEAT"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.FAIL",
+    "Localization": {
+      "CULTURE_EN_US": "FAIL"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.Components",
+    "Localization": {
+      "CULTURE_EN_US": "Components"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.COMPONENTS",
+    "Localization": {
+      "CULTURE_EN_US": "COMPONENTS"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.STATE",
+    "Localization": {
+      "CULTURE_EN_US": "STATE"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.OPERATIONAL",
+    "Localization": {
+      "CULTURE_EN_US": "OPERATIONAL"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.Done",
+    "Localization": {
+      "CULTURE_EN_US": "Done"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.ReactroTooHot",
+    "Localization": {
+      "CULTURE_EN_US": "REACTOR IS TOO HOT FOR STARTUP"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.REPAIRED",
+    "Localization": {
+      "CULTURE_EN_US": "REPAIRED"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.REPAIRARMOR",
+    "Localization": {
+      "CULTURE_EN_US": "ARMOR"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.REPAIRSTRUCTURE",
+    "Localization": {
+      "CULTURE_EN_US": "STRUCTURE"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.REPAIRSTRUCTURE",
+    "Localization": {
+      "CULTURE_EN_US": "STRUCTURE"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.COMPONENT",
+    "Localization": {
+      "CULTURE_EN_US": "COMPONENT"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.COMPONENT_LABEL",
+    "Localization": {
+      "CULTURE_EN_US": "COMPONENT"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.COMPONENT_DESCRIPTION",
+    "Localization": {
+      "CULTURE_EN_US": "Description"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.COMPONENT_STATE",
+    "Localization": {
+      "CULTURE_EN_US": "MODE"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.COMPONENT_CHARGES",
+    "Localization": {
+      "CULTURE_EN_US": "CHARGES"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.COMPONENT_FAIL",
+    "Localization": {
+      "CULTURE_EN_US": "FAIL%"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TARGET.ERROR",
+    "Localization": {
+      "CULTURE_EN_US": "ERROR"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.ERROR",
+    "Localization": {
+      "CULTURE_EN_US": "UNABLE TO COMPLY"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TARGET.HELP",
+    "Localization": {
+      "CULTURE_EN_US": "HELP"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.USAGE.TARGETS.DETAILS",
+    "Localization": {
+      "CULTURE_EN_US": "• <b>Click</b> to select another target for this addon.\n\nBy default, addons are automatically assigned to the nearest compatible equipment."
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.LIST",
+    "Localization": {
+      "CULTURE_EN_US": "LIST OF SUITABLE WEAPONS"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.CLOSE",
+    "Localization": {
+      "CULTURE_EN_US": "Close"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.USAGE",
+    "Localization": {
+      "CULTURE_EN_US": "Information"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.TARGETS",
+    "Localization": {
+      "CULTURE_EN_US": "Weapons"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.HEAT_PANEL.TOOLTIP.NAME",
+    "Localization": {
+      "CULTURE_EN_US": "HEAT CONTROL",
+      "CULTURE_RU_RU": "КОНТРОЛЬ ОХЛАДИТЕЛЕЙ"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.HEATSINK_CONTROL.BUTTON",
+    "Localization": {
+      "CULTURE_EN_US": "HEAT CONTROL",
+      "CULTURE_RU_RU": "КОНТРОЛЬ ОХЛАДИТЕЛЕЙ"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.HEAT_PANEL.TOOLTIP.DESCRIPTION",
+    "Localization": {
+      "CULTURE_EN_US": "Heat sink control panel. Allows you to enable and disable heat sinks.",
+      "CULTURE_RU_RU": "Панель контроля охладителей. Позволяет включать и выключать охладители."
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.HEAT_CONTROL.CUR",
+    "Localization": {
+      "CULTURE_EN_US": "Heat(current/overheat/max)",
+      "CULTURE_RU_RU": "Нагрев(тек./перегрев/макс.)"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.HEAT_CONTROL.CAP",
+    "Localization": {
+      "CULTURE_EN_US": "Heat sink capacity",
+      "CULTURE_RU_RU": "Резерв системы охлаждения"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.HEAT_CONTROL.HELP",
+    "Localization": {
+      "CULTURE_EN_US": "\n<b>Click</b> over the heat sink to toggle its state.",
+      "CULTURE_RU_RU": "кликни ЛКМ по охладителю для переключения его состояния"
+    }
+  }
+]
