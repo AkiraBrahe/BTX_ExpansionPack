@@ -57,7 +57,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 if (Main.Settings.UI.Battle.UseShortenedVehicleNames)
                 {
                     string stockRole = mech.MechDef?.Chassis?.StockRole;
-                    if (!string.IsNullOrEmpty(stockRole) || stockRole != "VEHICLE")
+                    if (!string.IsNullOrEmpty(stockRole) && stockRole != "VEHICLE")
                     {
                         __instance.ActorWeightText.SetText("{0} ({1}t)", stockRole, mech.tonnage);
                         return;

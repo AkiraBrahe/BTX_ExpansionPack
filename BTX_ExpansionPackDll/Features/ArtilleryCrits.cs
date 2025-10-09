@@ -66,24 +66,35 @@ namespace BTX_ExpansionPack.Features
 
             float critChance = Mathf.Lerp(maxCritChance, minCritChance, distanceToTarget / maxEffectiveDistance);
             if (distanceToTarget > 30f || Rng.NextDouble() > critChance)
+            {
                 return GetAOESpreadLocationsHelper.GetAOESpreadArmorLocations(target);
+            }
 
             var validLocations = reachableLocations.Where(loc => (ArmorLocation)loc != ArmorLocation.Head).ToList();
             if (validLocations.Count == 0)
+            {
                 return GetAOESpreadLocationsHelper.GetAOESpreadArmorLocations(target);
+            }
 
             var dynamicSpread = new Dictionary<int, float>(GetAOESpreadLocationsHelper.GetAOESpreadArmorLocations(target));
             int critLocation = validLocations[Rng.Next(validLocations.Count)];
-
             if (dynamicSpread.ContainsKey(critLocation))
+            {
                 dynamicSpread[critLocation] *= Main.Settings.Debug.AoECritLocationWeightMultiplier;
+            }
             else
+            {
                 dynamicSpread.Add(critLocation, 100f * Main.Settings.Debug.AoECritLocationWeightMultiplier);
+            }
 
             if (target.team.LocalPlayerControlsTeam)
+            {
                 AudioEventManager.PlayAudioEvent("audioeventdef_musictriggers_combat", "critical_hit_friendly");
+            }
             else if (!target.team.IsFriendly(target.Combat.LocalPlayerTeam))
+            {
                 AudioEventManager.PlayAudioEvent("audioeventdef_musictriggers_combat", "critical_hit_enemy");
+            }
 
             ArtilleryCritTargets.Add(target.GUID);
             Main.Log.LogDebug($"[ArtilleryCrits] Critical Hit! (rolled < {critChance:P0})\nConcentrating damage on {(ArmorLocation)critLocation} location of {target.DisplayName}.");

@@ -17,7 +17,8 @@
       "JSONPath": "$",
       "Action": "ObjectMerge",
       "Value": {
-        "ShotsPerAmmo": 0.5
+        "ShotsPerAmmo": 0.5,
+        "VolleyDivisor": 2
       }
     }
   ]

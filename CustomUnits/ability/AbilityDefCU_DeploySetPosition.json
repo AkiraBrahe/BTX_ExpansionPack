@@ -2,7 +2,7 @@
   "Description": {
     "Id": "AbilityDefCU_DeploySetPosition",
     "Name": "SET DEPLOY POSITION",
-    "Details": "Set deploy position",
+    "Details": "Set deploy position for the entire lance.\r\n<i>ALT+CLICK: Set deploy position for a single unit.</i>",
     "Icon": "uixSvgIcon_artillery"
   },
   "ActivationTime": "ConsumedByFiring",

@@ -67,6 +67,7 @@
       "Description": "Standard fire mode.",
       "isBaseMode": true,
       "ShotsPerAmmo": 0.2,
+      "VolleyDivisor": 5,
       "DamageVariance": 10
     },
     {
