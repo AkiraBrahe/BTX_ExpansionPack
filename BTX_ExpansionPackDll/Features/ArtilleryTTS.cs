@@ -1,12 +1,13 @@
 ﻿using BattleTech;
 using BattleTech.UI;
+using BTX_ExpansionPack.Helpers;
 using CustAmmoCategories;
 using System.Linq;
 using UnityEngine;
 
 namespace BTX_ExpansionPack.Features
 {
-    public static class ArtilleryTTS
+    internal class ArtilleryTTS
     {
         /// <summary>
         /// Adjusts the artillery strike's target position based on the weapon's TTS level.
@@ -22,7 +23,7 @@ namespace BTX_ExpansionPack.Features
                 if (weapons.Count == 0) return;
 
                 var closestTarget = FindClosestEnemy(unit, position, out float distanceToTarget);
-                if (closestTarget != null && distanceToTarget > 0f)
+                if (closestTarget != null)
                 {
                     for (int i = 0; i < weapons.Count; i++)
                     {
@@ -118,7 +119,5 @@ namespace BTX_ExpansionPack.Features
                 }
             }
         }
-
-        public static int ArtilleryTTSLevel(this Weapon weapon) => (int)weapon.GetStatisticFloat("AMSAttractiveness");
     }
 }
