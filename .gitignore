@@ -10,8 +10,10 @@ obj/
 *.dll
 *.pdb
 
+# External References
+BTX_ExpansionPackDll/References/
+
 # Mod duplicate files
-BTX_ExpansionPack/misc/overrides/*
+BTX_ExpansionPack/misc/overrides/
 BTX_ExpansionPack/README.md
 BTX_ExpansionPack/BTX_ExpansionPack.xml
-BTX_ExpansionPackDll/References/*

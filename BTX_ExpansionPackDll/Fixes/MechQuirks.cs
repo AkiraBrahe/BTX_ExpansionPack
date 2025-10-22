@@ -39,21 +39,25 @@ namespace BTX_ExpansionPack.Fixes
         /// <summary>
         /// Makes LAMs in air mode count as airborne targets when targeted by anti-air mechs.
         /// </summary>
-        [HarmonyPatch(typeof(AlternatesRepresentation), "AddCurrentTags")]
-        public static class AlternatesRepresentation_AddCurrentTags
+        [HarmonyPatch(typeof(AbstractActor), "OnActivationEnd")]
+        public static class AbstractActor_OnActivationEnd
         {
             [HarmonyPostfix]
-            public static void Postfix(AlternatesRepresentation __instance)
+            public static void Postfix(AbstractActor __instance)
             {
-                if (__instance?.parentMech == null || __instance.CurrentRepresentation?.altDef == null)
-                    return;
+                if (__instance is not ICombatant unit) return;
 
-                var tags = __instance.CurrentRepresentation.altDef.additionalEncounterTags;
-                string chassisId = __instance.parentMech.MechDef.Chassis.Description.Id;
+                var altRep = unit.GameRep.GetComponent<AlternateMechRepresentation>();
+                if (altRep == null) return;
 
+                var mech = __instance as Mech;
+                string chassisId = mech.MechDef.Chassis.Description.Id;
                 if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirk))
+                {
                     quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);
-                quirk.VTOL = tags.Contains("unit_lam");
+                }
+                quirk.VTOL = altRep.state == AltRepState.Flying;
+                if (quirk.VTOL) Main.Log.LogDebug($"[MechQuirks] {mech.DisplayName} is now flying and counts as valid airborne target.");
             }
         }
 

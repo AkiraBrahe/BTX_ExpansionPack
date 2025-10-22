@@ -46,30 +46,31 @@ namespace BTX_ExpansionPack.Features
                 var mechDef = simState.DataManager.MechDefs.Get("mechdef_centurion_CN9-YLW2");
                 mechDef = new MechDef(mechDef, simState.GenerateSimGameUID(), true);
 
-                if (simState.Constants.Salvage.EquipMechOnSalvage)
+                if (!simState.Constants.Salvage.EquipMechOnSalvage)
                 {
                     mechDef.SetInventory([.. mechDef.Inventory.Where((x) => x.IsFixed ||
                         x.ComponentDefID.Equals("Weapon_Gauss_Gauss_NU_2-Grizzard") ||
                         x.ComponentDefID.Equals("Ammo_AmmunitionBox_Generic_GAUSS"))]
                     );
-                    int mechReadyTime = 625000; // about 50 days
-                    int baySlot = simState.GetFirstFreeMechBay();
-
-                    var order = new WorkOrderEntry_ReadyMech(
-                        $"ReadyMech-{mechDef.GUID}",
-                        $"Readying 'Mech - {mechDef.Chassis.Description.Name}",
-                        mechReadyTime,
-                        baySlot,
-                        mechDef,
-                        string.Format(simState.Constants.Story.MechReadiedWorkOrderCompletedText, mechDef.Chassis.Description.Name)
-                    );
-
-                    simState.MechLabQueue.Add(order);
-                    simState.ReadyingMechs[baySlot] = mechDef;
-                    simState.RoomManager.AddWorkQueueEntry(order);
-                    simState.UpdateMechLabWorkQueue(false);
-                    AudioEventManager.PlayAudioEvent("audioeventdef_simgame_vo_barks", "workqueue_readymech", WwiseManager.GlobalAudioObject, null);
                 }
+
+                int mechReadyTime = 625000; // about 50 days
+                int baySlot = simState.GetFirstFreeMechBay();
+
+                var order = new WorkOrderEntry_ReadyMech(
+                    $"ReadyMech-{mechDef.GUID}",
+                    $"Readying 'Mech - {mechDef.Chassis.Description.Name}",
+                    mechReadyTime,
+                    baySlot,
+                    mechDef,
+                    string.Format(simState.Constants.Story.MechReadiedWorkOrderCompletedText, mechDef.Chassis.Description.Name)
+                );
+
+                simState.MechLabQueue.Add(order);
+                simState.ReadyingMechs[baySlot] = mechDef;
+                simState.RoomManager.AddWorkQueueEntry(order);
+                simState.UpdateMechLabWorkQueue(false);
+                AudioEventManager.PlayAudioEvent("audioeventdef_simgame_vo_barks", "workqueue_readymech", WwiseManager.GlobalAudioObject, null);
             }
         }
     }

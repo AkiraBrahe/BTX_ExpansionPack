@@ -24,13 +24,15 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPrefix]
             public static bool Prefix(AuraBubble __instance, ref float __result)
             {
-                if (__instance.Def == null) { __result = 0f; return false; }
-                if (__instance.owner == null) { __result = __instance.Def.Range; return false; }
+                if (__instance.Def == null || __instance.owner == null)
+                {
+                    __result = __instance.Def?.Range ?? 0f;
+                    return false;
+                }
 
                 if (__instance.source is Weapon weapon)
                 {
-                    if (!string.IsNullOrEmpty(__instance.Def.Name) &&
-                        __instance.Def.Name.Contains("AMS"))
+                    if (__instance.Def.Name?.Contains("AMS") == true)
                     {
                         __result = weapon.isAMS() ? __instance.Def.Range : 0.1f;
                         return false;
@@ -43,8 +45,7 @@ namespace BTX_ExpansionPack.Fixes
                     return false;
                 }
 
-                __result = __instance.owner.StatCollection
-                    .GetStatistic(__instance.Def.RangeStatistic).Value<float>();
+                __result = __instance.owner.StatCollection.GetValue<float>(__instance.Def.RangeStatistic);
                 return false;
             }
         }
@@ -69,7 +70,7 @@ namespace BTX_ExpansionPack.Fixes
             public static float GetAMSRange(Weapon weapon)
             {
                 var amsAura = weapon.weaponDef.GetAuras().FirstOrDefault(a => a.Name == "AMS");
-                return amsAura?.Range > 0 ? amsAura.Range : weapon.MaxRange;
+                return amsAura != null && amsAura.Range > 0 ? amsAura.Range : weapon.MaxRange;
             }
         }
 
@@ -91,14 +92,12 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPrefix]
             public static bool Prefix(AuraBubble aura, bool isAlly, AuraActorBody __instance)
             {
-                if (!isAlly || aura?.Def == null || !aura.Def.IsPositiveToAlly ||
-                    __instance?.owner?.Combat?.MessageCenter == null)
+                if (!isAlly || !aura.Def.IsPositiveToAlly || __instance.owner?.Combat?.MessageCenter == null)
                 {
                     return true;
                 }
 
-                if (!string.IsNullOrEmpty(aura.Def.Name) &&
-                    aura.Def.Name.Contains("AMS"))
+                if (aura.Def.Name?.Contains("AMS") == true)
                 {
                     if (ProtectedAllies.Add(__instance.owner.GUID))
                     {

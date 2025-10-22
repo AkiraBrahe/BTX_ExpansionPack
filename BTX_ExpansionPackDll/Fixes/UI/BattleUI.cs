@@ -25,11 +25,16 @@ namespace BTX_ExpansionPack.Fixes.UI
             public static bool Prepare() => Main.Settings.UI.Battle.UseShortenedVehicleNames;
 
             [HarmonyPostfix]
-            public static void Postfix(AbstractActor a, ref string __result)
+            public static void Postfix(ref string __result)
             {
-                __result = Main.Settings.UI.Battle.ShowStandardVehicleVariant && !a.UnitName.EndsWith(")")
-                    ? $"{a.UnitName} <size=75%>(Standard)</size>"
-                    : a.UnitName.Replace("(", "<size=75%>(").Replace(")", ")</size>");
+                if (__result.EndsWith(")"))
+                {
+                    __result = __result.Replace("(", "<size=75%>(").Replace(")", ")</size>");
+                }
+                else if (Main.Settings.UI.Battle.ShowStandardVehicleVariant)
+                {
+                    __result = $"{__result} <size=75%>(Standard)</size>";
+                }
             }
         }
 
