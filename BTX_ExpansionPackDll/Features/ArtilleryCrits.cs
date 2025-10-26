@@ -60,12 +60,13 @@ namespace BTX_ExpansionPack.Features
 
         public static Dictionary<int, float> GetDynamicAoESpread(Mech target, ICollection<int> reachableLocations, float distanceToTarget)
         {
-            float maxCritChance = Main.Settings.Debug.AoEMinCritChance;
-            float minCritChance = Main.Settings.Debug.AoEMaxCritChance;
-            float maxEffectiveDistance = Main.Settings.Debug.AoEMaxEffectiveDistance;
+            const float minCritChance = 0.10f;
+            const float maxCritChance = 0.50f;
+            const float maxEffectiveDistance = 30f;
+            const float critLocationWeightMultiplier = 4f;
 
             float critChance = Mathf.Lerp(maxCritChance, minCritChance, distanceToTarget / maxEffectiveDistance);
-            if (distanceToTarget > 30f || Rng.NextDouble() > critChance)
+            if (distanceToTarget > maxEffectiveDistance || Rng.NextDouble() > critChance)
             {
                 return GetAOESpreadLocationsHelper.GetAOESpreadArmorLocations(target);
             }
@@ -80,11 +81,11 @@ namespace BTX_ExpansionPack.Features
             int critLocation = validLocations[Rng.Next(validLocations.Count)];
             if (dynamicSpread.ContainsKey(critLocation))
             {
-                dynamicSpread[critLocation] *= Main.Settings.Debug.AoECritLocationWeightMultiplier;
+                dynamicSpread[critLocation] *= critLocationWeightMultiplier;
             }
             else
             {
-                dynamicSpread.Add(critLocation, 100f * Main.Settings.Debug.AoECritLocationWeightMultiplier);
+                dynamicSpread.Add(critLocation, 100f * critLocationWeightMultiplier);
             }
 
             if (target.team.LocalPlayerControlsTeam)
@@ -104,9 +105,6 @@ namespace BTX_ExpansionPack.Features
         [HarmonyPatch(typeof(Mech), "TakeWeaponDamage")]
         public static class Mech_TakeWeaponDamage
         {
-            [HarmonyPrepare]
-            public static bool Prepare() => Main.Settings.Debug.ShowArtilleryCritFloatie;
-
             [HarmonyPrefix]
             public static void Prefix(Mech __instance)
             {
