@@ -37,21 +37,31 @@ The Expansion Pack includes a complete vehicle overhaul, allowing you to command
 * **Integrated Vehicle Economy:** Vehicles are fully integrated into the in-game economy. Find them for sale in stores and factories alongside 'Mechs, with 20 new vehicle-exclusive factories added.
 * **Partial Vehicle Refit:** Customize your vehicles by swapping weapons and ammunition to fine-tune their combat role.
 > [!NOTE]  
-> You can enable partial refit via the in-game settings (Settings Menu ? Mod Settings).
+> You can enable partial refit via the in-game settings (Settings Menu → Mod Settings).
 * **Pilot Specialization:** Pilots specialize in either 'Mech or vehicle piloting. The Lifepath system has been adjusted to make 'Mech-capable pilots rarer in certain systems and the early game, with conventional pilots having the possibility to gain 'Mech piloting ability later.
 * **Motive Repair Ability:** Pilots have the ability to repair motive system debuffs.
 * **Vehicle CASE:** Implements CASE functionality for vehicles, converting critical ammunition explosions to rear damage instead of vehicle destruction.
-* **Vehicle Pilot Injuries:** Pilots  suffer injuries from component and ammunition explosions (including vehicle destruction). CASE-equipped vehicles prevent explosion-related injuries.
+* **Vehicle Pilot Injuries:** Pilots suffer injuries from component and ammunition explosions (including vehicle destruction). CASE-equipped vehicles prevent explosion-related injuries.
 
 ### New Content
+The Expansion Pack pushes the timeline into the 3060s and will eventually include most 'Mechs and equipment from after the Clan Invasion up to 3067. It also adds new weapons that were made possible by CAC-C, like new artillery systems.
+
+#### 'Mechs
+> [!IMPORTANT]
+> All v0.9 'Mechs are being added back as a priority now that the new features are complete.
+* **Unique 'Mechs:**
+  * The Yen-Lo-Wang is now an unique reward for completing the "Bourbon & BattleMechs" flashpoint. It can be upgraded after September 3050 to its CN9-YLW2 configuration for 10 million C-bills (**NEW**).
+  * The Big Steel Claw from "The Steel Beast" flashpoint also got a non-canon upgrade with an XL engine and pulse lasers. The event happens the same way: Yang will ask if you want to upgrade it for 10 million C-bills after 3055 (**NEW**).
+* **New 'Mech Chassis:**
+  * ...in construction!
 
 #### Weapons & Ammunition
 * **Artillery Cannons:** Compact, faster-firing artillery options, with prototypes available on research planets.
 * **Mech Mortars:** A more common and direct-fire alternative to artillery. While less accurate than LRMs, they deal significantly more damage.
 > [!NOTE]
-> - The Mech Bay UI shows the combined total damage of artillery weapons (Direct + AoE).
-> - Both of these weapons shoot directly, and any hits can be a headshot. Near misses only deal AoE damage.
-> - Standard artillery still takes two turns to fire and only deals AoE damage within its blast radius.
+> - New artillery fires directly with headshot capability. Standard artillery and near misses deal only AoE damage.
+> - AoE damage is split across all hit locations. However, strikes have a chance to inflict a critical hit, focusing most damage on a single location. This chance increases as the impact center lands closer to the target (up to 50%).
+> - The Mech Bay UI displays the combined total damage for artillery (Direct + AoE).
 * **Rapid-Fire Autocannons:** New AC variants with reduced damage but improved accuracy against evasive targets. Also provide wide-area missile defense (like an AMS). Exclusive to anti-air 'Mechs (e.g., Rifleman) and always used by AI-controlled variants.
 * **Infantry:** Infantry complements serve as unkillable, integrated weapons for APCs, always utilizing their maximum capacity.
 * **Specialized Ammunition:**
@@ -70,7 +80,11 @@ The Expansion Pack includes a complete vehicle overhaul, allowing you to command
 #### General
 * **New Starting Options:** Choose between `Ultralights Only` (featuring 7 unique StarDrive magazine 'Mechs), `Solo` (a nod to Team Venom in _MechWarrior 2: Mercenaries_), and `Vehicles Only` career starts.
 * **Self-Knockdown:** Firing Gauss weapons and artillery generates instability (150% of weapon weight), halved if the 'Mech braced the previous turn (e.g., two-turn artillery strikes).
-
+* **Gear Rebalance:**
+  * Targeting Computers (TAC) improves the accuracy of all direct-fire weapons, not just ballistic and energy types.
+  * 'Mechs with two C3 Master Computers establish a C3 network with all allied units, not just lancemates.
+* **AI Improvements:** The AI knows how to aim artillery more effectively and how to use the AMS mode on rapid-fire autocannons as well as the new movement-related abilities (Careful Maneuvers and Motive Repair) (**NEW**).
+  
 #### Quality of Life & UI
 * **Missions:**
   * Mission briefings display primary target information.
@@ -82,6 +96,4 @@ The Expansion Pack includes a complete vehicle overhaul, allowing you to command
   * Skirmish MechBay separates 'Mechs and vehicles for faster loading, sorting them by name.
 * **Argo Upgrades:** All upgrades have better effect descriptions.
 * **Visuals:** Heavy lasers have distinct beam colors (from orange-red to golden). The same goes for Snub-Nose PPCs (blue-green).
-* **UI Tooltips:** Improved 'Mech tooltips with cleaner text, better formatting, and subtle color changes (**WIP**).
-
-...in construction!
+* **UI Tooltips:** Improved 'Mech tooltips with cleaner text, better formatting, and subtle color changes.
