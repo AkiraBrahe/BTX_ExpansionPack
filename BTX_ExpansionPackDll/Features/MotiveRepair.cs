@@ -2,8 +2,10 @@
 using BattleTech.UI;
 using CustAmmoCategories;
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using UnityEngine;
 
 namespace BTX_ExpansionPack.Features
 {
@@ -59,76 +61,105 @@ namespace BTX_ExpansionPack.Features
                 bool isRepairActive = __instance.StatCollection.GetValue<bool>("MotiveRepairActive");
                 if (isRepairActive)
                 {
-                    float cruiseRepair = ReduceDebuff(__instance, "motiveSystemLoss", "CruiseSpeed");
-                    float flankRepair = ReduceDebuff(__instance, "motiveSystemLossSprint", "FlankSpeed");
+                    var cruiseEffect = GetMotiveDebuffEffect(__instance, "motiveSystemLoss", "CruiseSpeed");
+                    if (cruiseEffect == null) return;
 
-                    if (cruiseRepair > 0f || flankRepair > 0f)
+                    if (float.TryParse(cruiseEffect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float currentModValue))
                     {
-                        Main.Log.LogDebug($"[MotiveRepair] Reduced motive damage by {cruiseRepair} meters on {__instance.DisplayName}.");
-                        __instance.StatCollection.Set("MotiveRepairActive", false);
+                        int currentStacks = CalculateDebuffStacks(currentModValue, "CruiseSpeed");
+                        int stacksToKeep = (int)Math.Floor(currentStacks / 5.0);
+
+                        float repairedAmount = 0f;
+                        if (stacksToKeep < 4)
+                        {
+                            repairedAmount = Math.Abs(currentModValue);
+                            __instance.Combat.EffectManager.CancelEffect(cruiseEffect);
+
+                            var flankEffect = GetMotiveDebuffEffect(__instance, "motiveSystemLossSprint", "FlankSpeed");
+                            if (flankEffect != null)
+                                __instance.Combat.EffectManager.CancelEffect(flankEffect);
+                        }
+                        else
+                        {
+                            float newCruiseModValue = -1 * stacksToKeep * GetSingleStackDebuff("CruiseSpeed");
+                            repairedAmount = Math.Abs(currentModValue - newCruiseModValue);
+                            cruiseEffect.EffectData.statisticData.modValue = newCruiseModValue.ToString(CultureInfo.InvariantCulture);
+
+                            var flankEffect = GetMotiveDebuffEffect(__instance, "motiveSystemLossSprint", "FlankSpeed");
+                            if (flankEffect != null)
+                            {
+                                float newFlankModValue = -1 * stacksToKeep * GetSingleStackDebuff("FlankSpeed");
+                                flankEffect.EffectData.statisticData.modValue = newFlankModValue.ToString(CultureInfo.InvariantCulture);
+                            }
+                        }
+
+                        if (repairedAmount > 0f)
+                        {
+                            Main.Log.LogDebug($"[MotiveRepair] Reduced motive damage by {repairedAmount:F1} meters on {__instance.DisplayName}.");
+                            __instance.StatCollection.Set("MotiveRepairActive", false);
+                        }
                     }
                 }
-            }
-
-            private static float ReduceDebuff(AbstractActor actor, string effectId, string statName)
-            {
-                var effect = GetMotiveDebuffEffect(actor, effectId, statName);
-                if (effect == null) return 0f;
-
-                if (float.TryParse(effect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float currentModValue))
-                {
-                    int currentStacks = CalculateDebuffStacks(currentModValue, statName);
-                    int stacksToKeep = (int)Math.Floor(currentStacks / 5.0);
-
-                    if (stacksToKeep < 4)
-                    {
-                        actor.Combat.EffectManager.CancelEffect(effect);
-                        return Math.Abs(currentModValue);
-                    }
-                    float newModValue = -1 * stacksToKeep * GetSingleStackDebuff(statName);
-                    effect.EffectData.statisticData.modValue = newModValue.ToString(CultureInfo.InvariantCulture);
-                    return Math.Abs(currentModValue - newModValue);
-                }
-                return 0f;
             }
         }
 
         /// <summary>
-        /// Forces AI vehicles to use the Motive Repair ability when their movement is significantly impaired.
+        /// Improves AI decision-making for movement-related abilities.
         /// </summary>
-        [HarmonyPatch(typeof(AITeam), "makeInvocationFromOrders")]
-        public static class AITeam_makeInvocationFromOrders
+        [HarmonyPatch(typeof(AITeam), "getInvocationForCurrentUnit")]
+        public static class AITeam_getInvocationForCurrentUnit
         {
             [HarmonyPrefix]
-            public static void Prefix(AbstractActor unit)
+            [HarmonyWrapSafe]
+            public static void Prefix(AITeam __instance)
             {
-                if (!unit.FakeVehicle() || unit.HasMovedThisRound)
+                var unit = __instance.currentUnit;
+                if (unit == null || unit.HasMovedThisRound || unit.IsDead || unit.GetPilot() == null)
                     return;
 
-                var motiveRepairAbility = unit.ComponentAbilities.Find(x => x.Def.Id == "AbilityDef_MotiveRepair");
-                if (motiveRepairAbility == null || !motiveRepairAbility.IsAvailable)
-                    return;
-
-                int cruiseStacks = GetDebuffStacks(unit, "motiveSystemLoss", "CruiseSpeed");
-                int flankStacks = GetDebuffStacks(unit, "motiveSystemLossSprint", "FlankSpeed");
-
-                if (cruiseStacks > 4 || flankStacks > 4)
+                // Handle vehicle-specific motive damage repair
+                if (unit.FakeVehicle() && IsMovementImpaired(unit, out int motiveStacks) && motiveStacks > 4)
                 {
-                    Main.Log.LogDebug($"[MotiveRepair] AI {unit.DisplayName} has {cruiseStacks} motive debuffs. Activating Motive Repair.");
-                    motiveRepairAbility.Activate(unit, unit);
+                    var motiveRepair = unit.ComponentAbilities.FirstOrDefault(x => x.Def.Id == "AbilityDef_MotiveRepair");
+                    if (motiveRepair != null && motiveRepair.IsAvailable)
+                    {
+                        Main.Log.LogDebug($"[AI_Movement] AI {unit.DisplayName} has {motiveStacks} motive debuffs. Activating Motive Repair.");
+                        motiveRepair.Activate(unit, unit);
+                        return;
+                    }
+                }
+
+                // Handle any unit being physically stuck
+                if (IsStuck(unit))
+                {
+                    var carefulManeuvers = unit.GetPilot().Abilities.FirstOrDefault(x => x.Def.Id == "AbilityDef_CarefulManeuvers");
+                    if (carefulManeuvers != null && carefulManeuvers.IsAvailable)
+                    {
+                        Main.Log.LogDebug($"[AI_Movement] AI {unit.DisplayName} is stuck. Activating Careful Maneuvers.");
+                        carefulManeuvers.Activate(unit, unit);
+                        return;
+                    }
                 }
             }
 
-            private static int GetDebuffStacks(AbstractActor actor, string effectId, string statName)
+            private static bool IsMovementImpaired(AbstractActor unit, out int motiveStacks)
             {
-                var effect = GetMotiveDebuffEffect(actor, effectId, statName);
-                if (effect == null) return 0;
-
-                if (float.TryParse(effect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float currentModValue))
+                var motiveEffect = GetMotiveDebuffEffect(unit, "motiveSystemLoss", "CruiseSpeed");
+                if (motiveEffect != null && float.TryParse(motiveEffect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out var modValue))
                 {
-                    return CalculateDebuffStacks(currentModValue, statName);
+                    motiveStacks = CalculateDebuffStacks(modValue, "CruiseSpeed");
+                    return motiveStacks > 0;
                 }
-                return 0;
+
+                motiveStacks = 0;
+                return false;
+            }
+
+            private static bool IsStuck(AbstractActor unit)
+            {
+                var pathing = unit.Pathing;
+                var walkGrid = pathing?.getGrid(MoveType.Walking);
+                return walkGrid != null && walkGrid.GetSampledPathNodes().Count <= 1;
             }
         }
 
