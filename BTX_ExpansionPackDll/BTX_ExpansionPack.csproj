@@ -36,6 +36,7 @@
     <Compile Remove="Features\AdditionalLances_Comstar.cs" />
     <Compile Remove="Features\UrbanDevastation.cs" />
     <Compile Remove="Fixes\MechActuators.cs" />
+    <Compile Remove="Fixes\Targeting\SwarmTargeting.cs" />
     <Compile Remove="Fixes\UnitTables.cs" />
   </ItemGroup>
   <ItemGroup>
