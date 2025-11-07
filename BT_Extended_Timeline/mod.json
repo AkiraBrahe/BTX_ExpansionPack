@@ -197,103 +197,87 @@
     },
 
     "StandardShopCreation": {
-      "3025-01-02T00:00:00":
-      {
+      "3025-01-02T00:00:00": {
         "starsystemdef_Solaris": "itemCollection_specialHolder_Solaris"
       },
-      "3030-01-01T00:00:00":
-      {
+      "3030-01-01T00:00:00": {
         "starsystemdef_NewValencia": "itemCollection_factory_MarauderII"
       },
-      "3055-01-01T00:00:00":
-      {
+      "3055-01-01T00:00:00": {
         "starsystemdef_Outreach": "itemCollection_special_GAL"
       }
     },
 
     "FactionShopCreation": {
-      "3031-01-01T00:00:00":
-      {
+      "3031-01-01T00:00:00": {
         "starsystemdef_Outreach": "WolfsDragoons"
       },
-      "3032-01-01T00:00:00":
-      {
+      "3032-01-01T00:00:00": {
         "starsystemdef_Betelgeuse": "Liao"
       },
-      "3035-01-01T00:00:00":
-      {
+      "3035-01-01T00:00:00": {
         "starsystemdef_Soul": "Kurita"
       },
-      "3036-01-01T00:00:00":
-      {
+      "3036-01-01T00:00:00": {
         "starsystemdef_Augusta": "Davion",
         "starsystemdef_Spittal": "Rasalhague"
       },
-      "3038-01-01T00:00:00":
-      {
+      "3038-01-01T00:00:00": {
         "starsystemdef_NewSamarkand": "Kurita"
       },
-      "3045-01-01T00:00:00":
-      {
+      "3045-01-01T00:00:00": {
         "starsystemdef_Grumium": "Rasalhague"
       },
-      "3047-01-01T00:00:00":
-      {
+      "3047-01-01T00:00:00": {
         "starsystemdef_AbiyAdi": "Kurita",
         "starsystemdef_Panpour": "Davion"
       },
-      "3048-01-01T00:00:00":
-      {
+      "3048-01-01T00:00:00": {
         "starsystemdef_Loxley": "Steiner"
       },
-      "3049-01-01T00:00:00":
-      {
+      "3049-01-01T00:00:00": {
         "starsystemdef_Shimonita": "Kurita",
         "starsystemdef_Styk": "Davion",
         "starsystemdef_Victoria": "Liao"
       },
-      "3050-01-01T00:00:00":
-      {
+      "3050-01-01T00:00:00": {
         "starsystemdef_Benjamin": "Kurita",
-        "starsystemdef_Nykvarn": "Kurita"
+        "starsystemdef_Nykvarn": "Kurita",
+        "starsystemdef_Orestes": "Rasalhague"
       },
-      "3051-01-01T00:00:00":
-      {
+      "3051-01-01T00:00:00": {
         "starsystemdef_Capella": "Liao",
         "starsystemdef_TokDo": "Kurita"
       },
-      "3052-01-01T00:00:00":
-      {
+      "3052-01-01T00:00:00": {
         "starsystemdef_Kendall": "Marik",
         "starsystemdef_NewValencia": "Davion",
         "starsystemdef_Ruchbah": "Davion"
       },
-      "3054-01-01T00:00:00":
-      {
+      "3054-01-01T00:00:00": {
         "starsystemdef_Talcott": "Davion"
       },
-      "3055-01-01T00:00:00":
-      {
+      "3055-01-01T00:00:00": {
         "starsystemdef_Corey": "Liao",
         "starsystemdef_Paradise": "Marik",
         "starsystemdef_Vendrell": "Steiner"
       },
-      "3056-01-01T00:00:00":
-      {
+      "3056-01-01T00:00:00": {
         "starsystemdef_Solaris": "Steiner"
       },
-      "3057-01-01T00:00:00":
-      {
+      "3057-01-01T00:00:00": {
         "starsystemdef_Midway": "Kurita"
       },
-      "3058-01-01T00:00:00":
-      {
+      "3058-01-01T00:00:00": {
         "starsystemdef_Storfors": "Steiner",
         "starsystemdef_Warlock": "Ives"
       },
-      "3068-01-01T00:00:00":
-      {
+      "3064-01-01T00:00:00": {
+        "starsystemdef_Bristol": "Davion"
+      },
+      "3068-01-01T00:00:00": {
         "starsystemdef_Arcturus": "Steiner",
+        "starsystemdef_Benet": "Davion",
         "starsystemdef_Melissia": "Steiner"
       }
     },
