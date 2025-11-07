@@ -1,6 +1,20 @@
 {
   "enumerationValueList": [
     {
+      "ID": 56,
+      "Name": "RAILGUN",
+      "FriendlyName": "Rail Gun",
+      "IsBallistic": true,
+      "IsMissile": false,
+      "IsEnergy": false,
+      "IsSupport": false,
+      "UsesInternalAmmo": false,
+      "UIColorRef": "Ballistic",
+      "FallbackUIColor": null,
+      "Icon": "BallisticHardpointIcon",
+      "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
+    },
+    {
       "ID": 75,
       "Name": "Mortar",
       "FriendlyName": "Mortar",

@@ -37,10 +37,7 @@
     "defaultTagTraitForTree": {},
     "defaultTagTraitException": "",
     "abilityReqs": {},
-    "ticksOnMovementDistanceIDs": [
-      "StatusEffect-TAG-IncomingAttBonus",
-      "StatusEffect-TAG-IndicatorVFX"
-    ],
+    "ticksOnMovementDistanceIDs": [],
     "retrainerSettings": {
       "enableRetrainer": true,
       "cost": 500000,

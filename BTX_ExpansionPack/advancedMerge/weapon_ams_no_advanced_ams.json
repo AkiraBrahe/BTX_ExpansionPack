@@ -39,6 +39,7 @@
           60,
           90
         ],
+        "PrefabIdentifier": "AMS",
         "Auras": [
           {
             "Id": "AMS",
