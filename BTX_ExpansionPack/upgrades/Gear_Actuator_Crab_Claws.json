@@ -1,0 +1,66 @@
+{
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 100000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Solaris Arms",
+    "Model": "Melee Weapon",
+    "UIName": "Claws",
+    "Id": "Gear_Actuator_Crab_Claws",
+    "Name": "Claws",
+    "Details": "These experimental Claws are a fearsome close-quarters weapon developed by Solaris Arms. They replace the Big Steel Claw's left arm and allow it to perform devastating slashes and grappling maneuvers, making them a formidable tool in combat situations.",
+    "Icon": "steel-claws"
+  },
+  "BonusValueA": "+ 50 Melee Dmg.",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 2,
+  "AllowedLocations": "Arms",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-Attack_DamageMelee-T4",
+        "Name": "MELEE DAMAGE INCREASED",
+        "Details": "Melee attacks deal [AMT] more damage.",
+        "Icon": "uixSvgIcon_equipment_ActuatorArm"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "DamagePerShot",
+        "operation": "Float_Add",
+        "modValue": "50.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponSubType": "Melee"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED",
+      "MeleeWeapon"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
