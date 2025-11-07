@@ -84,7 +84,8 @@
   "ComponentTags": {
     "items": [
       "BUILT-IN",
-      "BLACKLISTED"
+      "BLACKLISTED",
+      "MeleeWeapon"
     ],
     "tagSetSourceFile": ""
   }

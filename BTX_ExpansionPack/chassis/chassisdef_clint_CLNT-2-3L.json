@@ -6,7 +6,7 @@
     "Manufacturer": "",
     "Model": "",
     "UIName": "Clint",
-    "Id": "chassisdef_clint_CLNT-1-2L",
+    "Id": "chassisdef_clint_CLNT-2-3L",
     "Name": "Clint",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_clint"
@@ -187,7 +187,7 @@
       "z": 0
     }
   ],
-  "VariantName": "CLNT-1-2L",
+  "VariantName": "CLNT-2-3L",
   "ChassisTags": {
     "items": [
       "mech_quirk_improvedtargetingmedium",

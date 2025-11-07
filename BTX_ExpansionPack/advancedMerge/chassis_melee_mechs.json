@@ -1,0 +1,26 @@
+{
+  "TargetIDs": [
+    "chassisdef_axman_AXM-1N",
+    "chassisdef_axman_AXM-2N",
+    "chassisdef_axman_AXM-3S",
+    "chassisdef_berserker_BRZ-A3",
+    "chassisdef_berserker_BRZ-B3",
+    "chassisdef_blackknight_BL-9-KNT",
+    "chassisdef_firestarter_FS9-OE",
+    "chassisdef_hatchetman_HCT-3F",
+    "chassisdef_hatchetman_HCT-3G",
+    "chassisdef_hatchetman_HCT-3K",
+    "chassisdef_hatchetman_HCT-3X",
+    "chassisdef_hatchetman_HCT-5S",
+    "chassisdef_vindicator_VND-5L"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "AlwaysPunchIfPossible": true
+      }
+    }
+  ]
+}

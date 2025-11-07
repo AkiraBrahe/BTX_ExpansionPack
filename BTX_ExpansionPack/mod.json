@@ -1,7 +1,7 @@
 {
   "Name": "BTX_ExpansionPack",
   "Enabled": true,
-  "Version": "1.1.0",
+  "Version": "1.1-beta2",
 
   "Description": "Add hundreds of new 'Mechs, combat vehicles, and weapons from the 3050s and early 3060s, alongside various new features.",
   "Author": "Kierk",
@@ -13,13 +13,6 @@
   "DLL": "BTX_ExpansionPack.dll",
   
   "Settings": {
-    "Debug": {
-      "ShowArtilleryCritFloatie": true,
-      "AoEMinCritChance": 0.10,
-      "AoEMaxCritChance": 0.50,
-      "AoEMaxEffectiveDistance": 30,
-      "AoECritLocationWeightMultiplier": 4
-    },
     "Gameplay": {
       "AllowVehiclesInMechDuels": false,
       "OverrideDHSEngineCooling": true,
@@ -47,12 +40,14 @@
   "Manifest": [
     { "Type": "AbilityDef", "Path": "abilities" },
     { "Type": "AdvancedJSONMerge", "Path": "advancedMerge" },
-    { "Type": "AmmunitionDef", "Path": "ammunition"},
     { "Type": "AffinitiesDef", "Path": "affinities" },
+    { "Type": "AmmunitionDef", "Path": "ammunition" },
     //{ "Type": "AmmunitionDef", "Path": "ammunitionMerge", "ShouldMergeJSON": true },
-    { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox"},
+    { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox" },
     { "Type": "AmmunitionBoxDef", "Path": "ammunitionBoxMerge", "ShouldMergeJSON": true },
-    { "Type": "ChassisDef", "Path": "chassis"},
+    { "Type": "AmmunitionBoxDef", "Path": "automerge/ammunitionBox" },
+    { "Type": "ItemCollectionDef", "Path": "automerge/itemCollections" },
+    { "Type": "ChassisDef", "Path": "chassis" },
     { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
     { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
     { "Type": "ContractOverride", "Path": "contracts", "ShouldMergeJSON": false },
@@ -60,7 +55,7 @@
     { "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
     { "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
     { "Type": "HardpointDataDef", "Path": "hardpoints" },
-    { "Type": "HeatSinkDef", "Path": "heatsinks"},
+    { "Type": "HeatSinkDef", "Path": "heatsinks" },
     { "Type": "SVGAsset", "Path": "icons" },
     { "Type": "ItemCollectionDef", "Path": "itemCollections" },
     { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
@@ -74,14 +69,12 @@
     { "Type": "PathingCapabilitiesDef", "Path": "pathing" },
     { "Type": "PilotingClassDef", "Path": "piloting_classes" },
     { "Type": "Sprite", "Path": "portraits" },
-    //{ "Type": "StarSystemDef", "Path": "starSystemMerge", "ShouldMergeJSON": true },
     { "Type": "CCUnitTypes", "Path": "unitTypes" },
     { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
     { "Type": "UpgradeDef", "Path": "upgradesMerge", "ShouldMergeJSON": true },
     { "Type": "VehicleDef", "Path": "vehicle", "AddToDB":true },
     { "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
     { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
-    { "Type": "WeaponAddonDef", "Path": "weaponAddons" },
-    { "Type": "WeaponDef", "Path": "weaponMerge", "ShouldMergeJSON": true }
+    { "Type": "WeaponAddonDef", "Path": "weaponAddons" }
   ]
 }

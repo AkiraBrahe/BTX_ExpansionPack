@@ -1,0 +1,19 @@
+{
+  "TargetIDs": [
+    "chassisdef_berserker_BRZ-A3",
+    "chassisdef_berserker_BRZ-B3"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "CustomParts": {
+          "MeleeWeaponOverride": {
+            "DefaultWeapon": "Weapon_MeleeAttack_Hatchet"
+          }
+        }
+      }
+    }
+  ]
+}

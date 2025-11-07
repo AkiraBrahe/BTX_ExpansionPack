@@ -18,6 +18,12 @@
             "hide"
           ]
         }
+      },
+      "ComponentTags": {
+        "items": [
+          "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
       }
     }
   ]

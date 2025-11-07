@@ -100,7 +100,7 @@
     }
   },
   "ExtendedBoundaries": {
-    "Enable": false,
+    "Enable": true,
     "EnableForFlashpoints": false,
     "EnableForStory": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],

@@ -19,6 +19,12 @@
             "invalid",
             "hide"
           ]
+        },
+        "ComponentTags": {
+          "items": [
+            "BLACKLISTED"
+          ],
+          "tagSetSourceFile": ""
         }
       }
     }

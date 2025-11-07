@@ -1,0 +1,11 @@
+{
+  "ChassisTags": {
+    "items": [
+      "mech_quirk_easytomaintain",
+      "mech_quirk_hardtopilot",
+      "mech_quirk_improvedlifesupport",
+      "mech_quirk_nominimalarms"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

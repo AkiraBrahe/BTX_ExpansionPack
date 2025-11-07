@@ -6,7 +6,7 @@
     "Manufacturer": "",
     "Model": "",
     "UIName": "Vulcan",
-    "Id": "chassisdef_vulcan_VL-5SL",
+    "Id": "chassisdef_vulcan_VT-5SL",
     "Name": "Vulcan",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_vulcan"
@@ -189,7 +189,7 @@
       "z": 1
     }
   ],
-  "VariantName": "VL-5SL",
+  "VariantName": "VT-5SL",
   "ChassisTags": {
     "items": [
       "chassis_DHS",

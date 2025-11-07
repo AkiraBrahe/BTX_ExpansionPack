@@ -1,0 +1,14 @@
+{
+  "TargetIDs": [
+    "Ammo_AmmunitionBox_Generic_MG"
+  ],
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Capacity": 400
+      }
+    }
+  ]
+}

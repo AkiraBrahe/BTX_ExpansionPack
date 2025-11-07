@@ -1,0 +1,16 @@
+{
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.10-1.10-1.10",
+      "chassis_DHS",
+      "chassis_clan",
+      "mech_quirk_barrelfist_la",
+      "mech_quirk_barrelfist_ra",
+      "mech_quirk_protectedactuators",
+      "mech_quirk_oversized",
+      "mech_quirk_poorperformance",
+      "mech_quirk_weakheadarmor1"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,14 +1,14 @@
 {
   "Description": {
-    "Cost": 4650000,
-    "Rarity": 3,
+    "Cost": 3980000,
+    "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Crab",
-    "Id": "chassisdef_crab_CRB-27",
+    "Id": "chassisdef_crab__fp_gladiator_BSC-27",
     "Name": "Crab",
-    "Details": "Designed in 2719 during the last days of the Star League, the Crab 27 was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force. Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply.",
+    "Details": "A uniquely hybridized brawler built from the husk of a CRB-20. Bogdan \"The Steel Beast\" Tubbs had the Big Steel Claw's chassis rebuilt to support the mounting of ballistic weaponry, presumably in the interest of creating a louder and more violent spectacle in the arena.",
     "Icon": "uixTxrIcon_crab"
   },
   "MovementCapDefID": "movedef_mech_medium_5",
@@ -19,7 +19,7 @@
   "Tonnage": 50,
   "InitialTonnage": 23.5,
   "weightClass": "MEDIUM",
-  "BattleValue": 5990000,
+  "BattleValue": 5215000,
   "Heatsinks": 0,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
@@ -53,10 +53,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -68,6 +64,10 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -92,11 +92,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -123,7 +119,7 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -196,74 +192,19 @@
       "z": 2
     }
   ],
-  "VariantName": "CRB-27",
+  "VariantName": "BSC-20",
   "ChassisTags": {
     "items": [
-      "chassis_ferro",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Direct-Fire Support",
-  "YangsThoughts": "A Star League variant thought to be lost in recent times, we may be the only Mercenary unit with the 27 in their mech bay.",
+  "StockRole": "Brawler",
+  "YangsThoughts": "Check it out, Boss—we've landed ourselves a FrankenMech! Looks like a Crab, but on the inside, it's at least a quarter Urbie… that's where the new ballistic mounting hardware came from. I'm honestly amazed that this thing even works, but it does, and it's ours now!",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Cosara_Balanced_Gyros",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
