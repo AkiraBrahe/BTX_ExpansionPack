@@ -1,0 +1,105 @@
+{
+  "id": "AffinityDef_chassis_HitRunner_Ultralight",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "chassisNames": [
+      "chrprfmech_cuambassadorbase-001_15",
+      "chrprfmech_cucelerity_15",
+      "chrprfmech_foxfirebase-001_15",
+      "chrprfmech_juniorbase-001_10",
+      "chrprfmech_mitebase-001_10",
+      "chrprfmech_slowpokebase-001_10",
+      "chrprfmech_stardriveapollobase-001_15",
+      "chrprfmech_stardrivestilletobase-001_15"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "missionsRequired": 20,
+        "levelName": "Ultralight Mech+",
+        "decription": "Familiarity with this 'Mech's role on the battlefield reduces visibility to enemy units (-15% Visible)",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "Ultralight 'Mech familiarity (-15% Visible)",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-UltralightMechBoost",
+              "Name": "Ultralight Mech Affinity Stealth Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "SpottingVisibilityMultiplier",
+              "operation": "Float_Multiply",
+              "modValue": "0.85",
+              "modType": "System.Single",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTriggerType": "Passive",
+              "triggerLimit": 0,
+              "extendDurationOnTrigger": 0,
+              "specialRules": "NotSet",
+              "effectTargetType": "Creator",
+              "range": 0,
+              "forcePathRebuild": false,
+              "forceVisRebuild": false,
+              "showInTargetPreview": false,
+              "showInStatusPanel": false
+            }
+          }
+        ]
+      },
+      {
+        "missionsRequired": 30,
+        "levelName": "Hit Runner+",
+        "decription": "Familiarity with this 'Mech's lightweight nature allows the pilot to swiftly reposition after firing (Can Move After Shooting)",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "Pilot has Mastered the Chassis.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "Affinity_HitRunner",
+              "Name": "BattleMechAffinity"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "CanMoveAfterShooting",
+              "operation": "Set",
+              "modValue": "true",
+              "modType": "System.Boolean",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

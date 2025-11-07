@@ -47,8 +47,8 @@
   "Manifest": [
     { "Type": "AbilityDef", "Path": "abilities" },
     { "Type": "AdvancedJSONMerge", "Path": "advancedMerge" },
-    //{ "Type": "AffinitiesDef", "Path": "affinities" },
     { "Type": "AmmunitionDef", "Path": "ammunition"},
+    { "Type": "AffinitiesDef", "Path": "affinities" },
     //{ "Type": "AmmunitionDef", "Path": "ammunitionMerge", "ShouldMergeJSON": true },
     { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox"},
     { "Type": "AmmunitionBoxDef", "Path": "ammunitionBoxMerge", "ShouldMergeJSON": true },
