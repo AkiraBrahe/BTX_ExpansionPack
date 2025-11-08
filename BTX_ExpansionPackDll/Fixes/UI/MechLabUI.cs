@@ -69,8 +69,8 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
         public static class MechLabPanel_LoadMech_InitializationTracker
         {
-            [HarmonyPostfix, HarmonyPriority(Priority.Last)]
-            public static void Postfix(MechDef newMechDef)
+            [HarmonyFinalizer]
+            public static void Finalizer(MechDef newMechDef)
             {
                 if (newMechDef != null && !newMechDef.IsVehicle())
                     IsMechLabInitializedByMech = true;
@@ -143,6 +143,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Shows real location names in the mech lab for vehicles and quads.
         /// </summary>
         [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
+        [Obsolete("Move to CAC-C when possible", false)]
         public static class MechLabPanel_LoadMech
         {
             [HarmonyPostfix]
@@ -181,13 +182,15 @@ namespace BTX_ExpansionPack.Fixes.UI
 
             private static void SetWidgetLabel(MechLabLocationWidget widget, string label, bool active = true, bool isVehicle = false)
             {
-                if (widget == null) return;
-                widget.locationName.SetText(label);
-                widget.gameObject.SetActive(active);
-                if (active)
+                if (widget != null)
                 {
-                    widget.armorBar.transform.Find("bttn_plus")?.gameObject.SetActive(!isVehicle);
-                    widget.armorBar.transform.Find("bttn_minus")?.gameObject.SetActive(!isVehicle);
+                    widget.locationName.SetText(label);
+                    widget.gameObject.SetActive(active);
+                    if (active)
+                    {
+                        widget.armorBar.transform.Find("bttn_plus")?.gameObject.SetActive(!isVehicle);
+                        widget.armorBar.transform.Find("bttn_minus")?.gameObject.SetActive(!isVehicle);
+                    }
                 }
             }
         }
@@ -196,6 +199,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Shows real location names in the mech bay for vehicles, quads, and squads.
         /// </summary>
         [HarmonyPatch(typeof(LanceMechEquipmentList), "SetLoadout", [])]
+        [Obsolete("Move to CAC-C when possible", false)]
         public static class LanceMechEquipmentList_SetLoadout
         {
             [HarmonyPostfix]
@@ -245,14 +249,16 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
             private static void SetWidgetLabel(LocalizableText label, string text, bool active = true)
             {
-                if (label == null) return;
-                label.SetText(text);
-                label.gameObject.transform.parent.gameObject.SetActive(active);
+                if (label != null)
+                {
+                    label.SetText(text);
+                    label.gameObject.transform.parent.gameObject.SetActive(active);
+                }
             }
         }
 
         /// <summary>
-        /// Removes unused variant names for vehicles in the mech bay, mech lab, and lance loadout.
+        /// Removes unused variant names for vehicles in the mech bay.
         /// </summary>
         [HarmonyPatch(typeof(MechBayMechInfoWidget), "SetDescriptions")]
         public static class MechBayMechInfoWidget_SetDescriptions
@@ -274,6 +280,9 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
+        /// <summary>
+        /// Removes unused variant names for vehicles in the mech lab. Also changes the stock role.
+        /// </summary>
         [HarmonyPatch(typeof(MechLabMechInfoWidget), "SetData")]
         public static class MechLabMechInfoWidget_SetData
         {
@@ -298,6 +307,9 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
+        /// <summary>
+        /// Removes unused variant names for vehicles on the lance loadout screen.
+        /// </summary>
         [HarmonyPatch(typeof(LanceLoadoutMechItem), "SetData")]
         public static class LanceLoadoutMechItem_SetData
         {
@@ -336,7 +348,6 @@ namespace BTX_ExpansionPack.Fixes.UI
                 }
             }
         }
-
         public static string GetVehicleRole(IEnumerable<string> tags)
         {
             if (tags == null)
@@ -400,8 +411,8 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(ChassisDef), "FromJSON")]
         public static class ChassisDef_FromJSON
         {
-            [HarmonyPostfix, HarmonyPriority(Priority.Last)]
-            public static void Postfix(ChassisDef __instance)
+            [HarmonyFinalizer]
+            public static void Finalizer(ChassisDef __instance)
             {
                 if (__instance.IsVehicle())
                 {
@@ -418,7 +429,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         /// <summary>
-        /// Improves the mech tooltips by removing redundant information and improving readability.
+        /// Removes redundant information from the mech tooltips.
         /// </summary>
         [HarmonyPatch(typeof(PilotAffinityManager), "getMechChassisAffinityDescription", [typeof(ChassisDef)])]
         public static class PilotAffinityManager_getMechChassisAffinityDescription
@@ -431,11 +442,12 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
+        /// <summary>
+        /// Improves the readability of the mech tooltips.
+        /// </summary>
         [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirks", [typeof(ChassisDef)])]
         public static class QuirkToolTips_DetailMechQuirks
         {
-            // private static bool logged = false;
-
             [HarmonyFinalizer]
             public static void Finalizer(ref string __result)
             {
@@ -446,8 +458,6 @@ namespace BTX_ExpansionPack.Fixes.UI
                     __result = __result.Replace("<color=#e40000>", "<color=#ff6961>"); // Bad Quirks (Pastel Red)
                 }
 
-                // if (!logged) Main.Log.LogDebug($"Before: {__result}");
-
                 __result = __result.Replace("<b>", "").Replace("</b>", "");
                 __result = __result.Replace("Mech Quirks", "");
                 __result = Regex.Replace(__result, @"<color=#[0-9a-fA-F]{6,8}>\s*</color>", "", RegexOptions.IgnoreCase);
@@ -455,12 +465,6 @@ namespace BTX_ExpansionPack.Fixes.UI
                 __result = Regex.Replace(__result, @"[ \t]*\r?\n[ \t\r\n]*", "\n");
                 __result = Regex.Replace(__result, @"^([ \t]*)([^:\n]+:)", "$1<b>$2</b>", RegexOptions.Multiline);
                 __result = __result.Trim();
-
-                //if (!logged)
-                //{
-                //    logged = true;
-                //    Main.Log.LogDebug($"After (Revised): {__result}");
-                //}
             }
         }
     }

@@ -58,10 +58,10 @@ namespace BTX_ExpansionPack.Fixes
                 );
             }
 
-            private static int GetUpgradeStat(SimGameState simState, string upgradeStat)
+            private static int GetUpgradeStat(SimGameState simGame, string upgradeStat)
             {
-                return simState.ShipUpgrades
-                    .Where(upg => simState.HasShipUpgrade(upg.Description.Id))
+                return simGame.ShipUpgrades
+                    .Where(upg => simGame.HasShipUpgrade(upg.Description.Id))
                     .SelectMany(upg => upg.Stats)
                     .Where(stat => stat.name == upgradeStat && stat.set)
                     .Select(stat => stat.ToInt())
@@ -69,25 +69,25 @@ namespace BTX_ExpansionPack.Fixes
                     .Max();
             }
 
-            private static int GetMaxTonnageStat(SimGameState simState, int defaultValue)
+            private static int GetMaxTonnageStat(SimGameState simGame, int defaultValue)
             {
-                return defaultValue + simState.ShipUpgrades
-                    .Where(upg => simState.HasShipUpgrade(upg.Description.Id))
+                return defaultValue + simGame.ShipUpgrades
+                    .Where(upg => simGame.HasShipUpgrade(upg.Description.Id))
                     .SelectMany(upg => upg.Stats)
                     .Where(stat => stat.name == MaxTonnageStat)
                     .Sum(stat => stat.ToInt());
             }
 
-            private static void UpdateStatistic(SimGameState simState, string statName, int value, ref int updated)
+            private static void UpdateStatistic(SimGameState simGame, string statName, int value, ref int updated)
             {
-                if (!simState.CompanyStats.ContainsStatistic(statName))
+                if (!simGame.CompanyStats.ContainsStatistic(statName))
                 {
-                    simState.CompanyStats.AddStatistic(statName, value);
+                    simGame.CompanyStats.AddStatistic(statName, value);
                     updated++;
                 }
-                else if (simState.CompanyStats.GetValue<int>(statName) != value)
+                else if (simGame.CompanyStats.GetValue<int>(statName) != value)
                 {
-                    simState.CompanyStats.Set(statName, value);
+                    simGame.CompanyStats.Set(statName, value);
                     updated++;
                 }
             }

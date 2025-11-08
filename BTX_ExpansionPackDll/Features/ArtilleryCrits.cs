@@ -23,6 +23,9 @@ namespace BTX_ExpansionPack.Features
 
         private static readonly HashSet<string> ArtilleryCritTargets = [];
 
+        /// <summary>
+        /// Modifies the AoE spread locations for artillery strikes to include a chance for concentrated damage on a single location.
+        /// </summary>
         [HarmonyPatch(typeof(AreaOfEffectHelper), "AoEProcessing")]
         public static class AreaOfEffectHelper_AoEProcessing
         {
@@ -58,6 +61,9 @@ namespace BTX_ExpansionPack.Features
             }
         }
 
+        /// <summary>
+        /// Calculates a dynamic AoE spread for artillery strikes, with a chance to concentrate damage on a single location based on distance.
+        /// </summary>
         public static Dictionary<int, float> GetDynamicAoESpread(Mech target, ICollection<int> reachableLocations, float distanceToTarget)
         {
             const float minCritChance = 0.10f;
@@ -102,6 +108,9 @@ namespace BTX_ExpansionPack.Features
             return dynamicSpread;
         }
 
+        /// <summary>
+        /// Displays a floatie message when a mech takes weapon damage from an artillery crit.
+        /// </summary>
         [HarmonyPatch(typeof(Mech), "TakeWeaponDamage")]
         public static class Mech_TakeWeaponDamage
         {

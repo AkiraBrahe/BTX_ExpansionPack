@@ -45,13 +45,12 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPostfix]
             public static void Postfix(AbstractActor __instance)
             {
-                if (__instance is not ICombatant unit) return;
+                if (__instance is not Mech mech || mech.GameRep == null) return;
 
-                var altRep = unit.GameRep.GetComponent<AlternateMechRepresentation>();
+                var altRep = mech.GameRep.GetComponent<AlternateMechRepresentation>();
                 if (altRep == null) return;
 
-                var mech = __instance as Mech;
-                string chassisId = mech.MechDef.Chassis.Description.Id;
+                var chassisId = mech.MechDef.ChassisID;
                 if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirk))
                 {
                     quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);

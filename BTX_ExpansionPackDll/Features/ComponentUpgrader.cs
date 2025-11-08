@@ -15,7 +15,7 @@ namespace BTX_ExpansionPack.Features
         public static void Register()
         {
             Modifier_AmmoSwapper.SmartAmmoAdjust = SmartAmmoAdjust;
-            Main.Log.LogDebug("Successfully updated SmartAmmoAdjust logic.");
+            Main.Log.LogDebug("Successfully replaced the Smart Ammo Adjust logic.");
         }
 
         private static void SmartAmmoAdjust(MechDef m, SimGameState s, UpgradeList l, float canFreeTonns, AmmoTracker ammo, MechDef fromData, FactionValue team)
@@ -107,13 +107,13 @@ namespace BTX_ExpansionPack.Features
 
                     if (pirate && inf != null && rand.Float() < (AEPStatic.GetTimelineSettings().PirateInfernoChance / 100.0f))
                     {
-                        ideal[inf.ID] = 10;
                         Main.Log.Log("add inferno");
+                        ideal[inf.ID] = 10;
                     }
                     if (kurita && df != null && df.MinDate <= s.CurrentDate)
                     {
-                        ideal[df.ID] = 1;
                         Main.Log.Log("add DF");
+                        ideal[df.ID] = 1;
                     }
                     kv.Value.RollForIdealBoxes(l, rand, s.CurrentDate);
                 }
@@ -134,13 +134,13 @@ namespace BTX_ExpansionPack.Features
 
                     if (kurita && df != null && df.MinDate <= s.CurrentDate)
                     {
-                        ideal[df.ID] = 1;
                         Main.Log.Log("add DF");
+                        ideal[df.ID] = 1;
                     }
                     if (marik && swarm != null && swarm.MinDate <= s.CurrentDate)
                     {
-                        ideal[swarm.ID] = 1;
                         Main.Log.Log("add swarm");
+                        ideal[swarm.ID] = 1;
                     }
                     kv.Value.RollForIdealBoxes(l, rand, s.CurrentDate);
                 }
