@@ -22,6 +22,8 @@ namespace BTX_ExpansionPack
         internal static ILog Log { get; private set; }
         internal static ModSettings Settings { get; private set; }
 
+        public static bool HasPlayableVehicles => BTSimpleMechAssembly.Assembly.Settings.SalvageAndAssembleVehicles;
+
         public static void Init(string directory, string settingsJSON)
         {
             modDir = directory;
@@ -81,6 +83,12 @@ namespace BTX_ExpansionPack
 
         internal static void ApplySettings()
         {
+            // Enable partial refit of vehicles by default
+            if (HasPlayableVehicles && Settings.Gameplay.EnableVehiclePartialRefit)
+            {
+                CustomUnits.Core.Settings.VehcilesPartialEditable = true;
+            }
+
             // Override anti-air to hit bonus
             Quirks.MechQuirks.modSettings.AntiAircraftTargetingToHit = -4;
 

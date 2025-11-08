@@ -14,6 +14,7 @@
   
   "Settings": {
     "Gameplay": {
+      "EnableVehiclePartialRefit": true,
       "AllowVehiclesInMechDuels": false,
       "OverrideDHSEngineCooling": true,
         "DHSEngineCoolingMultiplier": 1.5,

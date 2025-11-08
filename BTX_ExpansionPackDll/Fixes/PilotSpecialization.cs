@@ -68,7 +68,7 @@ namespace BTX_ExpansionPack.Fixes
                 foreach (var pilotDef in __result)
                 {
                     var pilotTags = pilotDef.PilotTags;
-                    ValidatePilotSpecialization(pilotTags, true);
+                    ValidatePilotSpecialization(pilotTags, randomize: Main.HasPlayableVehicles);
                 }
             }
         }
