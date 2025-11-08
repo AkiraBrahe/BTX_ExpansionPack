@@ -14,6 +14,11 @@
     "Type": "Reference",
     "Amount": -1
   },
+  "Ammo_AmmunitionBox_Generic_AC2RF": {
+    "ID": "itemcollection_Ammunition_AC2RF",
+    "Type": "Reference",
+    "Amount": -1
+  },
   "Ammo_AmmunitionBox_Generic_AC2Tracer": {
     "ID": "itemcollection_Ammunition_AC2Tracer",
     "Type": "Reference",
@@ -31,6 +36,11 @@
   },
   "Ammo_AmmunitionBox_Generic_AC5Precision": {
     "ID": "itemcollection_Ammunition_AC5Precision",
+    "Type": "Reference",
+    "Amount": -1
+  },
+  "Ammo_AmmunitionBox_Generic_AC5RF": {
+    "ID": "itemcollection_Ammunition_AC5RF",
     "Type": "Reference",
     "Amount": -1
   },
@@ -54,6 +64,11 @@
     "Type": "Reference",
     "Amount": -1
   },
+  "Ammo_AmmunitionBox_Generic_AC10RF": {
+    "ID": "itemcollection_Ammunition_AC10RF",
+    "Type": "Reference",
+    "Amount": -1
+  },
   "Ammo_AmmunitionBox_Generic_AC10Tracer": {
     "ID": "itemcollection_Ammunition_AC10Tracer",
     "Type": "Reference",
@@ -71,6 +86,11 @@
   },
   "Ammo_AmmunitionBox_Generic_AC20Precision": {
     "ID": "itemcollection_Ammunition_AC20Precision",
+    "Type": "Reference",
+    "Amount": -1
+  },
+  "Ammo_AmmunitionBox_Generic_AC20RF": {
+    "ID": "itemcollection_Ammunition_AC20RF",
     "Type": "Reference",
     "Amount": -1
   },
@@ -124,8 +144,33 @@
     "Type": "Reference",
     "Amount": -1
   },
+  "Ammo_AmmunitionBox_Generic_LRM_Inferno": {
+    "ID": "itemcollection_Ammunition_LRM_Inferno",
+    "Type": "Reference",
+    "Amount": -1
+  },
+  "Ammo_AmmunitionBox_Generic_LRM_Swarm": {
+    "ID": "itemcollection_Ammunition_LRM_Swarm",
+    "Type": "Reference",
+    "Amount": -1
+  },
+  "Ammo_AmmunitionBox_Generic_LRM_Swarm-I": {
+    "ID": "itemcollection_Ammunition_LRM_Swarm-I",
+    "Type": "Reference",
+    "Amount": -1
+  },
+  "Ammo_AmmunitionBox_Generic_LRM_Thunder": {
+    "ID": "itemcollection_Ammunition_LRM_Thunder",
+    "Type": "Reference",
+    "Amount": -1
+  },
   "Ammo_AmmunitionBox_Generic_MAGGAUSS": {
     "ID": "itemcollection_Ammunition_MAGGAUSS",
+    "Type": "Reference",
+    "Amount": -1
+  },
+  "Ammo_AmmunitionBox_Generic_RAILGUN": {
+    "ID": "itemcollection_Ammunition_RAILGUN",
     "Type": "Reference",
     "Amount": -1
   },

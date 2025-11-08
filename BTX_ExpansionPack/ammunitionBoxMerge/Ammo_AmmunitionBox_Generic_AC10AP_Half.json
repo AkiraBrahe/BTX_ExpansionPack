@@ -1,0 +1,35 @@
+{
+  "AmmoID": "Ammunition_AC10AP",
+  "Capacity": 3,
+  "Description": {
+    "Cost": 12000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "AC/10",
+    "UIName": "Armor-Piercing AC/10 Ammo (Half)",
+    "Id": "Ammo_AmmunitionBox_Generic_AC10AP_Half",
+    "Name": "Armor-Piercing AC/10 Ammo",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nArmor-piercing rounds rely on improved anti-armor warheads to penetrate armor and damage internal systems, at the expense of being heavier and reducing the weapon's accuracy.\n\nArmor-Piercing AC/10 half-capacity bins each contain 3 rounds and may feed multiple weapons.",
+    "Icon": "uixSvgIcon_ammoBox_Ballistic"
+  },
+  "BonusValueA": "Through Armor Criticals",
+  "BonusValueB": "- 1 Acc.",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "CanExplode": true,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

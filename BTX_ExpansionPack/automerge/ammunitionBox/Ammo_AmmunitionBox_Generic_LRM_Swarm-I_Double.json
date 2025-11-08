@@ -1,0 +1,36 @@
+{
+  "AmmoID": "Ammunition_LRM_Swarm-I",
+  "Capacity": 300,
+  "Description": {
+    "Cost": 225000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "LRM",
+    "UIName": "Swarm-I LRM Ammo (Double)",
+    "Id": "Ammo_AmmunitionBox_Generic_LRM_Swarm-I_Double",
+    "Name": "Improved Swarm LRM Ammo",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nImproved Swarm missiles that mimic the splash damage capability of artillery shells with greater accuracy than Swarm missiles, homing in only on nearby enemies when they miss their intended target.\n\nImproved Swarm LRM ammo bins hold the same number of shots per ton as standard LRM ammunition bins. This double-capacity bin contains 300 rounds.",
+    "Icon": "uixSvgIcon_ammoBox_Missile"
+  },
+  "BonusValueA": "Ignores Cover",
+  "BonusValueB": "60m AoE, + 1 Acc.",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 2,
+  "CanExplode": true,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

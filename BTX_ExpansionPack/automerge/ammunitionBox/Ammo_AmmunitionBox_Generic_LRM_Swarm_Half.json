@@ -1,0 +1,36 @@
+{
+  "AmmoID": "Ammunition_LRM_Swarm",
+  "Capacity": 60,
+  "Description": {
+    "Cost": 30000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "LRM",
+    "UIName": "Swarm LRM Ammo (Half)",
+    "Id": "Ammo_AmmunitionBox_Generic_LRM_Swarm_Half",
+    "Name": "Swarm LRM Ammo",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nSwarm missiles that mimic the splash damage capability of artillery shells by homing in on nearby targets when they miss their intended target.\n\nSwarm LRM ammo bins hold the same number of shots per ton as standard LRM ammunition bins. This half-capacity bin contains 60 rounds.",
+    "Icon": "uixSvgIcon_ammoBox_Missile"
+  },
+  "BonusValueA": "Ignores Cover",
+  "BonusValueB": "60m AoE",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "CanExplode": true,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
