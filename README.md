@@ -37,7 +37,7 @@ The Expansion Pack includes a complete vehicle overhaul, allowing you to command
 * **Integrated Vehicle Economy:** Vehicles are fully integrated into the in-game economy. Find them for sale in stores and factories alongside 'Mechs, with 20 new vehicle-exclusive factories added.
 * **Partial Vehicle Refit:** Customize your vehicles by swapping weapons and ammunition to fine-tune their combat role.
 > [!NOTE]  
-> You can enable partial refit via the in-game settings (Settings Menu → Mod Settings).
+> Vehicle refit is limited. You can replace existing weapons and ammo, but cannot add or remove any equipment.
 * **Pilot Specialization:** Pilots specialize in either 'Mech or vehicle piloting. The Lifepath system has been adjusted to make 'Mech-capable pilots rarer in certain systems and the early game, with conventional pilots having the possibility to gain 'Mech piloting ability later.
 * **Motive Repair Ability:** Pilots have the ability to repair motive system debuffs.
 * **Vehicle CASE:** Implements CASE functionality for vehicles, converting critical ammunition explosions to rear damage instead of vehicle destruction.
@@ -49,11 +49,10 @@ The Expansion Pack pushes the timeline into the 3060s and will eventually includ
 #### 'Mechs
 > [!IMPORTANT]
 > All v0.9 'Mechs are being added back as a priority now that the new features are complete.
+* **Clan 'Mechs:** All 31 Clan 'Mechs have been re-added to the rosters in the latest beta. Note that 10 of these currently use a proxy model (**NEW**).
 * **Unique 'Mechs:**
   * The Yen-Lo-Wang is now an unique reward for completing the "Bourbon & BattleMechs" flashpoint. It can be upgraded after September 3050 to its CN9-YLW2 configuration for 10 million C-bills (**NEW**).
-  * The Big Steel Claw from "The Steel Beast" flashpoint also got a non-canon upgrade with an XL engine and pulse lasers. The event happens the same way: Yang will ask if you want to upgrade it for 10 million C-bills after 3055 (**NEW**).
-* **New 'Mech Chassis:**
-  * ...in construction!
+  * The Big Steel Claw from the "Steel Beast" flashpoint got a similar upgrade after 3051 that includes an XL engine and pulse lasers (**NEW**).
 
 #### Weapons & Ammunition
 * **Artillery Cannons:** Compact, faster-firing artillery options, with prototypes available on research planets.
