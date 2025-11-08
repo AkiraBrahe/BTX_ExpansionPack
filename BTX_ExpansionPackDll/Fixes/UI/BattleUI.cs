@@ -118,6 +118,27 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         /// <summary>
+        /// Shortens the ammo box description in the ammo counter hover panel.
+        /// </summary>
+        [HarmonyPatch(typeof(CustomAmmoCategoriesPatches.WeaponAmmoCounterHover), "ShowSidePanel")]
+        public static class WeaponAmmoCounterHover_ShowSidePanel
+        {
+            public static string ShortenDescription(string description) =>
+                description.Replace("Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.", "")
+                           .Replace("Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.", "").Trim();
+
+
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+            {
+                return new CodeMatcher(instructions)
+                    .MatchForward(false, new CodeMatch(OpCodes.Callvirt, AccessTools.PropertyGetter(typeof(BaseDescriptionDef), "Details")))
+                    .InsertAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(WeaponAmmoCounterHover_ShowSidePanel), "ShortenDescription")))
+                    .InstructionEnumeration();
+            }
+        }
+
+        /// <summary>
         /// Fixes the injury reason description for vehicle pilots.
         /// </summary>
         [HarmonyPatch(typeof(Pilot), "InjuryReasonDescription", MethodType.Getter)]

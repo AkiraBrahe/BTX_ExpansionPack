@@ -6,6 +6,7 @@ using CustomUnits;
 using Localize;
 using MechAffinity;
 using Quirks.Tooltips;
+using System;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
@@ -358,6 +359,39 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
 
             return "VEHICLE";
+        }
+
+
+        [HarmonyPatch(typeof(AmmunitionBoxDef), "FromJSON")]
+        [Obsolete("Temporary patch until the next CAC-C update.", false)]
+        public static class AmmunitionBoxDef_FromJSON
+        {
+            [HarmonyFinalizer]
+            public static void Finalizer(AmmunitionBoxDef __instance)
+            {
+                if (__instance?.Description?.UIName?.EndsWith(")") == true)
+                {
+                    string details = __instance.Description.Details;
+                    if (details == null) return;
+
+                    string halfText = "Ammo (Half) Bins each";
+                    string doubleText = "Ammo (Double) Bins each";
+                    string tripleText = "Ammo (Triple) Bins each";
+
+                    if (details.Contains(halfText))
+                    {
+                        __instance.Description.Details = details.Replace(halfText, "half-capacity bins each");
+                    }
+                    else if (details.Contains(doubleText))
+                    {
+                        __instance.Description.Details = details.Replace(doubleText, "double-capacity bins each");
+                    }
+                    else if (details.Contains(tripleText))
+                    {
+                        __instance.Description.Details = details.Replace(tripleText, "triple-capacity bins each");
+                    }
+                }
+            }
         }
 
         /// <summary>
