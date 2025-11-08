@@ -6,11 +6,11 @@
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
-    "Model": "AC20",
+    "Model": "Rapid-Fire AC/20",
     "UIName": "Rapid-Fire AC/20 Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_AC20RF",
     "Name": "Rapid-Fire AC/20 Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nRapid-fire rounds are designed specifically for rapid-fire autocannons to withstand the weapon's high rate of fire. They're ideal for saturating targets and disrupting fast-moving or lightly armored units.\n\nRapid-Fire AC/20 Ammo Bins each contain 25 rounds and may feed multiple weapons.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nRounds designed specifically for rapid-fire autocannons to withstand the weapon's high rate of fire. They're ideal for saturating targets and disrupting fast-moving units.\n\nRapid-Fire AC/20 rounds deal the same amount of damage per ton as a standard AC/20 round, but each ammo bin contains 25 rounds and may feed multiple weapons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
   "BonusValueA": "",

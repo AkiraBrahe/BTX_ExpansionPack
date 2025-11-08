@@ -10,7 +10,7 @@
     "UIName": "Flamer Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_Flamer",
     "Name": "Flamer Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Flamer Ammo Bins each contain 20 rounds and may feed multiple weapons.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Flamer ammo bins each contain 20 rounds and may feed multiple weapons.",
     "Icon": "uixSvgIcon_ammoBox_Support"
   },
   "BonusValueA": "",

@@ -3,14 +3,14 @@
   "Capacity": 120,
   "Description": {
     "Cost": 60000,
-    "Rarity": 5,
+    "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "LRM",
     "UIName": "Thunder LRM Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_LRM_Thunder",
     "Name": "Thunder LRM Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nThunder missiles scatter powerful anti-personnel mines over a wide area, packing enough explosive force to damage the legs of many BattleMechs. Thunder LRM Ammo Bins hold the same number of shots per ton as standard LRM ammunition bins.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nThunder missiles scatter powerful anti-personnel mines over a wide area, packing enough explosive force to damage the legs of many BattleMechs. Thunder LRM ammo bins hold the same number of shots per ton as standard LRM ammunition bins. This standard-capacity bin contains 120 rounds.",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
   "BonusValueA": "Deploys Mines",

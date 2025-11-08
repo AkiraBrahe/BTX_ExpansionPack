@@ -7,10 +7,10 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "LRM",
-    "UIName": "Inferno LRM Ammo",
+    "UIName": "Thunder-Inferno LRM Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_LRM_Inferno",
     "Name": "Thunder-Inferno LRM Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nThunder-Inferno missiles act like artillery, dispersing incendiary munitions over a wide area. Thunder-Augmented LRM Ammo Bins contain half as many shots per ton as standard LRM ammunition bins.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nThunder-Inferno missiles act like artillery, dispersing incendiary munitions over a wide area.\n\nThunder-Augmented LRM ammo bins contain half as many shots per ton as standard LRM ammunition bins. This standard-capacity bin contains 60 rounds.",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },
   "BonusValueA": "3 Heat Dmg.",

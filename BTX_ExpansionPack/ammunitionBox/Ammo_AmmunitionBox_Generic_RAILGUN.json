@@ -2,15 +2,15 @@
   "AmmoID": "Ammunition_RAILGUN",
   "Capacity": 4,
   "Description": {
-    "Cost": 75000,
-    "Rarity": 100,
+    "Cost": 20000,
+    "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "Rail Gun",
     "UIName": "Rail Gun Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_RAILGUN",
     "Name": "Rail Gun Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.\n\nRail Gun Ammo Bins each contain 4 rounds and may feed multiple weapons. Like Gauss Ammo Bins, Rail Gun Ammo Bins do not explode from Critical Hits.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.\n\nRail Gun ammo bins each contain 4 rounds and may feed multiple weapons. Like Gauss Ammo Bins, Rail Gun Ammo Bins do not explode from Critical Hits.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
   "BonusValueA": "",

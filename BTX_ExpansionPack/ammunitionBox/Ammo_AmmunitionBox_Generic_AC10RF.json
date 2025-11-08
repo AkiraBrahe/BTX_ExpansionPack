@@ -2,15 +2,15 @@
   "AmmoID": "Ammunition_AC10RF",
   "Capacity": 60,
   "Description": {
-    "Cost": 30000,
+    "Cost": 24000,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Generic",
-    "Model": "Rapid-Fire AC10",
+    "Model": "Rapid-Fire AC/10",
     "UIName": "Rapid-Fire AC/10 Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_AC10RF",
     "Name": "Rapid-Fire AC/10 Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nRapid-fire rounds are designed specifically for rapid-fire autocannons to withstand the weapon's high rate of fire. They're ideal for saturating targets and disrupting fast-moving or lightly armored units.\n\nRapid-Fire AC/10 Ammo Bins each contain 60 rounds and may feed multiple weapons.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nRounds designed specifically for rapid-fire autocannons to withstand the weapon's high rate of fire. They're ideal for saturating targets and disrupting fast-moving units.\n\nRapid-Fire AC/10 rounds deal the same amount of damage per ton as a standard AC/10 round, but each ammo bin contains 60 rounds and may feed multiple weapons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
   "BonusValueA": "",

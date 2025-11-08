@@ -10,7 +10,7 @@
     "UIName": "Cruise Missile/50 Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_CM50",
     "Name": "Cruise Missile/50 Ammo",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nEach Cruise Missile/50 Ammo Bin contain a single missile weighting 25 tons.",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nEach Cruise Missile/50 Ammo bin contains a single missile weighting 25 tons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
   "BonusValueA": "160/450 Dmg.",
