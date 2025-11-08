@@ -6,27 +6,24 @@
     <Version>1.1.0</Version>
   </PropertyGroup>
   <PropertyGroup>
-    <TargetFramework>net481</TargetFramework>
     <OutputType>Library</OutputType>
+    <TargetFramework>net481</TargetFramework>
     <LangVersion>latest</LangVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AssemblySearchPaths>{HintPathFromItem};$(BattleTechGameDir)\BattleTech_Data\Managed</AssemblySearchPaths>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <DebugType>embedded</DebugType>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>CS1591</NoWarn>
     <PublicizerRuntimeStrategies>Unsafe</PublicizerRuntimeStrategies>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>$(BattleTechGameDir)\Mods\$(AssemblyName)\</OutputPath>
-    <LangVersion>preview</LangVersion>
-  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
-    <OutputPath>$(BattleTechGameDir)\Mods\$(AssemblyName)\</OutputPath>
-    <LangVersion>preview</LangVersion>
+    <OutputPath>..\</OutputPath>
   </PropertyGroup>
+  <Target Name="CopyDLLToModFolder" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(BattleTechGameDir)\Mods\$(AssemblyName)\" />
+  </Target>
   <ItemGroup>
     <Compile Remove="References\**" />
     <EmbeddedResource Remove="References\**" />
@@ -46,8 +43,8 @@
     <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />
     <Publicize Include="Assembly-CSharp" />
     <Publicize Include="BEXTimeline" />
+    <Publicize Include="BTSimpleMechAssembly" />
     <Publicize Include="MechQuirks" />
-    <Publicize Include="BTSimpleMechAssembly:BTSimpleMechAssembly.CustomMech_GetActorInfoFromVisLevel" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.AEPStatic" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionReplace" />
