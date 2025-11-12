@@ -8,16 +8,18 @@ A BattleTech Extended mod that aims to add tons of new content, including new 'M
 ## Installation
 
 1. Install the latest versions of [BattleTech Extended Tactics](https://discourse.modsinexile.com/t/battletech-extended-tactics/1859) and [CAC-C](https://github.com/mcb5637/BTX_CAC_Compatibility/releases/latest).
-2. Remove the ".modtek" folder if present to force Modtek to rebuild the cache.
-3. When updating the mod, remove the "BTX_ExpansionPack" and "BTX_PlayableVehicles" mod folders.
-4. Unpack the mod folders from the "BTX_ExpansionPack" archive into the mods folder, overwriting when prompted.
+2. Download the most recent version of the [Expansion Pack](https://github.com/AkiraBrahe/BTX_ExpansionPack/releases/latest) from the release page.
+3. Remove the .modtek folder if present to force Modtek to rebuild the cache.
+5. Unpack the mod folders from the the downloaded ZIP file into your mods folder, overwriting all files when prompted.
+> [!NOTE]
+> When updating the mod, remove the BTX_ExpansionPack and BTX_PlayableVehicles mod folders first.
 
 ### Optionals:
 - **To disable playable vehicles**:
-  - In the `BTSimpleMechAssembly` mod.json file, change `"SalvageAndAssembleVehicles"` to `"false"`.
+  - In the BTSimpleMechAssembly mod.json file, change `SalvageAndAssembleVehicles` to `false`.
   - Remove these mods from your mods folder: BTX_CustomPilotDecorator, BTX_PlayableVehicles, and Lifepaths.
 - **To disable infantry complements**:
-  - In the `BTX_PlayableVehicles` mod.json file, remove or comment out the last three lines of the manifest.
+  - In the BTX_PlayableVehicles mod.json file, remove or comment out the last three lines of the manifest.
 
 ## Credits
 
@@ -49,10 +51,10 @@ The Expansion Pack pushes the timeline into the 3060s and will eventually includ
 #### 'Mechs
 > [!IMPORTANT]
 > All v0.9 'Mechs are being added back as a priority now that the new features are complete.
-* **Clan 'Mechs:** All 31 Clan 'Mechs have been re-added to the rosters in the latest beta. Note that 10 of these currently use a proxy model (**NEW**).
+* **Clan 'Mechs:** All 31 Clan 'Mechs have been added back to their respective rosters. Note that 10 of them use a proxy model (**NEW**).
 * **Unique 'Mechs:**
   * The Yen-Lo-Wang is now an unique reward for completing the "Bourbon & BattleMechs" flashpoint. It can be upgraded after September 3050 to its CN9-YLW2 configuration for 10 million C-bills (**NEW**).
-  * The Big Steel Claw from the "Steel Beast" flashpoint got a similar upgrade after 3051 that includes an XL engine and pulse lasers (**NEW**).
+  * The Big Steel Claw from the "Steel Beast" flashpoint got a similar upgrade starting in 3052 that includes an XL engine and pulse lasers (**NEW**).
 
 #### Weapons & Ammunition
 * **Artillery Cannons:** Compact, faster-firing artillery options, with prototypes available on research planets.
