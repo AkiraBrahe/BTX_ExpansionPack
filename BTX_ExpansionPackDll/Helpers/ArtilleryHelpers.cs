@@ -1,5 +1,4 @@
 ﻿using BattleTech;
-using BTX_ExpansionPack.Helpers;
 using CustAmmoCategories;
 using System;
 using UnityEngine;

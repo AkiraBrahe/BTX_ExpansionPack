@@ -2,10 +2,8 @@
 using BattleTech.UI;
 using CustAmmoCategories;
 using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using UnityEngine;
 
 namespace BTX_ExpansionPack.Features
 {
@@ -145,7 +143,7 @@ namespace BTX_ExpansionPack.Features
             private static bool IsMovementImpaired(AbstractActor unit, out int motiveStacks)
             {
                 var motiveEffect = GetMotiveDebuffEffect(unit, "motiveSystemLoss", "CruiseSpeed");
-                if (motiveEffect != null && float.TryParse(motiveEffect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out var modValue))
+                if (motiveEffect != null && float.TryParse(motiveEffect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float modValue))
                 {
                     motiveStacks = CalculateDebuffStacks(modValue, "CruiseSpeed");
                     return motiveStacks > 0;

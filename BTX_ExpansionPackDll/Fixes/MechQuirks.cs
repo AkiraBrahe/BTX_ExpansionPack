@@ -50,7 +50,7 @@ namespace BTX_ExpansionPack.Fixes
                 var altRep = mech.GameRep.GetComponent<AlternateMechRepresentation>();
                 if (altRep == null) return;
 
-                var chassisId = mech.MechDef.ChassisID;
+                string chassisId = mech.MechDef.ChassisID;
                 if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirk))
                 {
                     quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);

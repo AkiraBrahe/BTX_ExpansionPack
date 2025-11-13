@@ -2,7 +2,6 @@
 using BTRandomMechComponentUpgrader;
 using BTX_CAC_CompatibilityDll;
 using CustomUnits;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace BTX_ExpansionPack.Features
@@ -25,7 +24,7 @@ namespace BTX_ExpansionPack.Features
             bool davion = team.Name.StartsWith("Davion");
             bool marik = team.Name.StartsWith("Marik");
             var rand = s.NetworkRandom;
-            var mood = s.SelectedContract?.mapMood;
+            string mood = s.SelectedContract?.mapMood;
             if (mood == null)
                 Main.Log.Log("warning: contract mood null");
             Main.Log.Log($"handling {m.Description.Id} of {team.Name} in mood {mood.SafeToString()}");
@@ -33,7 +32,7 @@ namespace BTX_ExpansionPack.Features
             {
                 if (kv.Key == "")
                     continue;
-                Dictionary<string, int> ideal = kv.Value.IdealAmmoRatios;
+                var ideal = kv.Value.IdealAmmoRatios;
                 Main.Log.Log($"handling group {kv.Key}");
                 if (kv.Key.StartsWith("AC"))
                 {
@@ -44,11 +43,11 @@ namespace BTX_ExpansionPack.Features
                     var prec = ammos.FirstOrDefault(x => x.ID.EndsWith("Precision") && !kv.Value.AmmoLockout.Contains(x.ID));
                     var tracer = ammos.FirstOrDefault(x => x.ID.EndsWith("Tracer") && !kv.Value.AmmoLockout.Contains(x.ID));
 
-                    if (!ideal.TryGetValue(std.ID, out var stdcount))
+                    if (!ideal.TryGetValue(std.ID, out int stdcount))
                         stdcount = 0;
-                    if (tracer == null || !ideal.TryGetValue(tracer.ID, out var tracercount))
+                    if (tracer == null || !ideal.TryGetValue(tracer.ID, out int tracercount))
                         tracercount = 0;
-                    if (lbx == null || !ideal.TryGetValue(tracer.ID, out var lbxcount))
+                    if (lbx == null || !ideal.TryGetValue(tracer.ID, out int lbxcount))
                         lbxcount = 0;
                     if (stdcount > tracercount)
                     {

@@ -1,7 +1,5 @@
 ﻿using BattleTech;
-using BattleTech.Data;
 using Localize;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 

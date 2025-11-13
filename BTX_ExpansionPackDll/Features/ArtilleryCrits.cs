@@ -34,12 +34,12 @@ namespace BTX_ExpansionPack.Features
             {
                 var matcher = new CodeMatcher(instructions, il);
 
-                var distance = matcher.MatchForward(false, new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Vector3), nameof(Vector3.Distance)))).Advance(1).Operand;
-                var realdistance = matcher.MatchForward(false, new CodeMatch(OpCodes.Ldloc_S, distance), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
-                var reachableLocations = matcher.MatchForward(false, new CodeMatch(OpCodes.Newobj, AccessTools.Constructor(typeof(HashSet<int>))), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
+                object distance = matcher.MatchForward(false, new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Vector3), nameof(Vector3.Distance)))).Advance(1).Operand;
+                object realdistance = matcher.MatchForward(false, new CodeMatch(OpCodes.Ldloc_S, distance), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
+                object reachableLocations = matcher.MatchForward(false, new CodeMatch(OpCodes.Newobj, AccessTools.Constructor(typeof(HashSet<int>))), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
 
-                var mech = matcher.MatchForward(false, new CodeMatch(OpCodes.Isinst, typeof(Mech)), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
-                var custMech = matcher.MatchForward(false, new CodeMatch(OpCodes.Isinst, typeof(ICustomMech)), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
+                object mech = matcher.MatchForward(false, new CodeMatch(OpCodes.Isinst, typeof(Mech)), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
+                object custMech = matcher.MatchForward(false, new CodeMatch(OpCodes.Isinst, typeof(ICustomMech)), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
 
                 return matcher.Start()
                     .MatchForward(true,

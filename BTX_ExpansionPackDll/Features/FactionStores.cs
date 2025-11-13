@@ -62,10 +62,10 @@ namespace BTX_ExpansionPack.Features
 
                     foreach (var shopEntry in StartingFactionStores)
                     {
-                        var systemId = shopEntry.Key;
+                        string systemId = shopEntry.Key;
                         if (dataManager.SystemDefs.TryGet(systemId, out var systemDef))
                         {
-                            var itemCollectionId = $"itemCollection_factoryHolder_{SanitizeSystemDefId(systemId)}";
+                            string itemCollectionId = $"itemCollection_factoryHolder_{SanitizeSystemDefId(systemId)}";
                             systemDef.FactionShopOwner = systemDef.Owner;
                             systemDef.FactionShopItems ??= [];
 
@@ -87,7 +87,7 @@ namespace BTX_ExpansionPack.Features
                         {
                             if (factionShops.TryGetValue(date, out var shopsOnDate))
                             {
-                                foreach (var systemId in entry.Value)
+                                foreach (string systemId in entry.Value)
                                 {
                                     shopsOnDate.Remove(systemId);
                                 }
@@ -123,7 +123,7 @@ namespace BTX_ExpansionPack.Features
             if (systemDefId.Equals("starsystemdef_TauCeti(NewEarth2116+)"))
                 return "NewEarth";
 
-            var systemName = systemDefId.Substring(14);
+            string systemName = systemDefId.Substring(14);
             return Regex.Replace(systemName, @"\s*\(.*\)", "");
         }
     }
