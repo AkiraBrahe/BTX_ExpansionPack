@@ -9,8 +9,6 @@
     public class ModDebugSettings
     {
         public bool AllDropShipUpgrades { get; set; } = false;
-        public bool ForceConvoyToFightInZone { get; set; } = true;
-        public bool PirateSystemLogging { get; set; } = false;
         public bool MechSizeLogging { get; set; } = false;
     }
 
