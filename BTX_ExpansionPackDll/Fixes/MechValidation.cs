@@ -1,7 +1,9 @@
 ﻿using BattleTech;
+using CustomComponents;
 using Localize;
 using System.Collections.Generic;
 using System.Linq;
+using Category = CustomComponents.Category;
 
 namespace BTX_ExpansionPack.Fixes
 {
@@ -19,18 +21,18 @@ namespace BTX_ExpansionPack.Fixes
                 bool hasFunctionalWeapon = false;
                 for (int i = 0; i < mechDef.Inventory.Length; i++)
                 {
-                    var mechComponentRef = mechDef.Inventory[i];
-                    if (mechComponentRef.DamageLevel == ComponentDamageLevel.Functional ||
-                        mechComponentRef.DamageLevel == ComponentDamageLevel.NonFunctional ||
-                        MechValidationRules.MechComponentUnderMaintenance(mechComponentRef, validationLevel, baseWorkOrder))
+                    var componentRef = mechDef.Inventory[i];
+                    if (componentRef.DamageLevel == ComponentDamageLevel.Functional ||
+                        componentRef.DamageLevel == ComponentDamageLevel.NonFunctional ||
+                        MechValidationRules.MechComponentUnderMaintenance(componentRef, validationLevel, baseWorkOrder))
                     {
-                        if (mechComponentRef.ComponentDefType == ComponentType.Weapon)
+                        if (componentRef.ComponentDefType == ComponentType.Weapon)
                         {
                             hasFunctionalWeapon = true;
                             break;
                         }
-                        else if (mechComponentRef.ComponentDefType == ComponentType.Upgrade &&
-                                 mechComponentRef.Def.ComponentTags.Any(tag => tag == "MeleeWeapon"))
+                        else if (componentRef.ComponentDefType == ComponentType.Upgrade &&
+                                 componentRef.GetComponents<Category>().Any(c => c.CategoryID is "Handheld" or "Industrial"))
                         {
                             hasFunctionalWeapon = true;
                             break;

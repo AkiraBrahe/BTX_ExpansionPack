@@ -1,4 +1,10 @@
 {
+  "Custom": {
+    "Category": {
+      "CategoryID": "Industrial"
+    },
+    "Sorter": 0
+  },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
@@ -84,8 +90,7 @@
   "ComponentTags": {
     "items": [
       "BUILT-IN",
-      "BLACKLISTED",
-      "MeleeWeapon"
+      "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
   }
