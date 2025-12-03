@@ -49,6 +49,7 @@
     { "Type": "AmmunitionBoxDef", "Path": "automerge/ammunitionBox" },
     { "Type": "ItemCollectionDef", "Path": "automerge/itemCollections" },
     { "Type": "ChassisDef", "Path": "chassis" },
+    { "Type": "ChassisDef", "Path": "chassisHardpoints", "ShouldMergeJSON": true },
     { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
     { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
     { "Type": "ContractOverride", "Path": "contracts", "ShouldMergeJSON": false },
