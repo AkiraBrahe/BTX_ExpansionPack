@@ -55,6 +55,11 @@ namespace BTX_ExpansionPack
 
         internal static void ApplyHarmonyPatches()
         {
+            // --- Abilifier ---
+            /* Custom Skill Tree */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "ca.gnivler.BattleTech.Abilifier");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Dehydrate"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
+
             // --- BattleTech Extended ---
             /* Weather Conditions */
             harmony.Unpatch(AccessTools.PropertyGetter(typeof(Contract), "ShortDescription"), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");

@@ -107,6 +107,22 @@ namespace BTX_ExpansionPack.Fixes
         }
 
         /// <summary>
+        /// Removes the "AbilifierLoaded" tag when saving the game.
+        /// </summary>
+        [HarmonyPatch(typeof(SimGameState), "Dehydrate")]
+        public static class SimGameState_Dehydrate
+        {
+            [HarmonyPrefix]
+            public static void Prefix(SimGameState __instance)
+            {
+                if (__instance.CompanyTags.Contains("AbilifierLoaded"))
+                {
+                    __instance.CompanyTags.Remove("AbilifierLoaded");
+                }
+            }
+        }
+
+        /// <summary>
         /// Validates and adjusts pilot specialization tags.
         /// </summary>
         private static void ValidatePilotSpecialization(HBS.Collections.TagSet pilotTags, bool randomize = false)
