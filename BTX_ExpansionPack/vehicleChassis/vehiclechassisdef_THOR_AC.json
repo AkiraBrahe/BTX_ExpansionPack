@@ -11,7 +11,7 @@
   "Description": {
     "Id": "vehiclechassisdef_THOR_AC",
     "Name": "Thor (AC)",
-    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle (AC)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>200 ICE</color></b>\n\nThe Thor is a self-propelled artillery piece used by the Star League Defense Force in the 26th century. It was designed to provide mobile fire support to SLDF units and was armed with a 15-ton Thumper artillery piece.\n\nThis variant replaces the Thumper and Medium Lasers with an Autocannon/10, four Machine Guns, and two Rocket Launcher 20s. The autocannon is equipped with two tons of ammunition, while the machine guns share a single ton.",
+    "Details": "<b>Name: <color=#85DBF6>Thor Artillery Vehicle (AC)</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>200 ICE</color></b>\n\nThe Thor is a self-propelled artillery piece used by the Star League Defense Force in the 26th century. It was designed to provide mobile fire support to SLDF units and was armed with a 15-ton Thumper artillery piece.\n\nThis variant was stripped of its advanced equipment and armor, replacing the Thumper and medium lasers with an AC/10 and a quad-machinegun mount. A pair of heavy RL 20s gives this Thor a powerful close-range punch.",
     "Icon": "uixVhclIcon_thor",
     "Cost": 978000,
     "Rarity": 0,
