@@ -64,8 +64,8 @@
   "Custom": {
     "CustomMoveCost": {
       "Hover": {
-        "moveCost": 9999.9,
-        "SprintMultiplier": 9999.9
+        "moveCost": 4.0,
+        "SprintMultiplier": 2.0
       }
     }
   }
