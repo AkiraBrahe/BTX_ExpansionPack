@@ -836,6 +836,7 @@
   },
   "Weapon_SRM_DFSRM6_0-STOCK": {
     "ID": "Ammo_AmmunitionBox_Generic_SRM_DF",
-    "Type": "AmmunitionBox"
+    "Type": "AmmunitionBox",
+    "Amount": -1
   }
 }

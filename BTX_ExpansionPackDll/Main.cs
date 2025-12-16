@@ -37,6 +37,7 @@ namespace BTX_ExpansionPack
                 InjectCustomLanceData(MetadataDatabase.Instance);
                 ApplyHarmonyPatches();
                 ApplySettings();
+                ApplyCacOverrides();
                 ComponentUpgrader.Register();
                 Log.Log("Mod initialized!");
             }
@@ -120,6 +121,52 @@ namespace BTX_ExpansionPack
                     }
                 }
             }
+        }
+
+        internal static void ApplyCacOverrides()
+        {
+            if (BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces != null)
+            {
+                BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces["Gear_Mortar_MechMortar"].ID = "itemCollection_Weapons_MechMortars";
+                BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces["Gear_Mortar_MechMortar"].Amount = 1;
+            }
+
+            if (BTX_CAC_CompatibilityDll.Main.Splits != null)
+            {
+                BTX_CAC_CompatibilityDll.Main.Splits.Remove("Ammo_AmmunitionBox_Generic_SRM_Inferno_Half");
+
+                var customSplits = new Dictionary<string, BTX_CAC_CompatibilityDll.WeaponAddonSplit>
+                {
+                    ["Ammo_AmmunitionBox_Generic_SRMInferno"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_SRMInferno_Half"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno_Half", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_SRMInferno_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4_Homing"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Homing", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4_Inferno"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Weapon_MortarCAC_Arrow4"] = new() { WeaponId = "Weapon_Artillery_ArrowIV_0-STOCK", Link = false },
+                    ["Weapon_MortarCAC_LongTom"] = new() { WeaponId = "Weapon_Artillery_LongTomCannon_0-STOCK", Link = false },
+                    ["Weapon_MortarCAC_Sniper"] = new() { WeaponId = "Weapon_Artillery_SniperCannon_0-STOCK", Link = false },
+                    ["Weapon_MortarCAC_ThumperFree"] = new() { WeaponId = "Weapon_Artillery_ThumperCannon_0-STOCK", Link = false },
+                    ["Weapon_RL_RL10_Sa_0-STOCK"] = new() { WeaponId = "Weapon_RL_PRL10_0-STOCK", Link = false },
+                    ["Weapon_RL_RL15_Sa_0-STOCK"] = new() { WeaponId = "Weapon_RL_PRL10_0-STOCK", Link = false },
+                    ["Weapon_RL_RL20_Sa_0-STOCK"] = new() { WeaponId = "Weapon_RL_PRL10_0-STOCK", Link = false },
+                    ["Weapon_Autocannon_LB10X_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Autocannon_LB10X_0-STOCK", Link = false },
+                    ["Weapon_Autocannon_UAC5_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Autocannon_UAC5_0-STOCK", Link = false },
+                    ["Weapon_Gauss_Gauss_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Gauss_Gauss_0-STOCK", Link = false },
+                    ["Weapon_Laser_LargeLaserER_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Laser_LargeLaserER_0-STOCK", Link = false },
+                    ["Weapon_Laser_LargeLaserPulse_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Laser_LargeLaserPulse_0-STOCK", Link = false },
+                    ["Weapon_Laser_MediumLaserPulse_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Laser_MediumLaserPulse_0-STOCK", Link = false },
+                    ["Weapon_Laser_SmallLaserPulse_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Laser_SmallLaserPulse_0-STOCK", Link = false },
+                    ["Weapon_PPC_PPCER_Sa_0-STOCK"] = new() { WeaponId = "Weapon_PPC_PPCER_0-STOCK", Link = false }
+                };
+
+                foreach (var kvp in customSplits)
+                {
+                    BTX_CAC_CompatibilityDll.Main.Splits[kvp.Key] = kvp.Value;
+                }
+            }
+
+            Log.LogDebug("Successfully applied CAC-C overrides.");
         }
     }
 }

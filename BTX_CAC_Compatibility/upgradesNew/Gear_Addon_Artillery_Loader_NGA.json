@@ -1,14 +1,11 @@
 {
   "Custom": {
     "AddonReference": {
-      "installedLocationOnly": false,
+      "installedLocationOnly": true,
       "autoTarget": true,
       "WeaponAddonIds": [
-        "weaponupgrade_artillery_loader"
-      ],
-      "BallisticArtilleryOnly": {
-        "ArtilleryTag": "ballistic_artillery"
-      }
+        "weaponupgrade_artillery_loader_NGA"
+      ]
     }
   },
   "StatName": null,
@@ -18,12 +15,12 @@
     "Cost": 10000,
     "Rarity": 99,
     "Purchasable": false,
-    "Manufacturer": "Unknown",
-    "Model": "Bull Shark",
+    "Manufacturer": "Clans",
+    "Model": "Naga",
     "UIName": "Integrated Artillery Mount",
-    "Id": "Gear_Addon_Artillery_Loader_BSK",
+    "Id": "Gear_Addon_Artillery_Loader_NGA",
     "Name": "Integrated Artillery Mount",
-    "Details": "This Bull Shark's structure has been modified to fit ballistic artillery into its torso. The loader is fitted directly into the chassis, with its components doubling as structural elements. It is big enough to handle even a Long Tom Cannon.",
+    "Details": "The Naga is designed to carry an Arrow IV artillery system in each arm. The Loader is fitted directly into the chassis, with its components doubling as structural elements.",
     "Icon": "uixSvgIcon_special_Equipment"
   },
   "BonusValueA": "",
@@ -32,7 +29,7 @@
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
   "BattleValue": 0,
-  "InventorySize": 1,
+  "InventorySize": 3,
   "Tonnage": 0,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
