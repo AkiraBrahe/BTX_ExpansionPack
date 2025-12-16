@@ -28,7 +28,7 @@
     "UIName": "Warthog PRIME",
     "Id": "mechdef_warthog-PRIME",
     "Name": "Warthog",
-    "Details": "<color=#F79B26>The Warthog is an old 95-ton assault 'Mech design rediscovered and put back into production by Clan Star Adder.</color>\n\nThe only known configuration of the Warthog is equipped with two LB 20-X autocannons and four Heavy Medium Lasers for close combat. Two ATM-6 launchers provide the flexibility to strike at range or enhance its already potent close-range firepower. To further enhance its defensive capabilities, it includes a Laser Anti-Missile System and a Guardian ECM Suite.",
+    "Details": "The only known configuration of the Warthog is equipped with two LB 20-X autocannons and four Heavy Medium Lasers for close combat. Two ATM-6 launchers provide the flexibility to strike at range or enhance its already potent close-range firepower. To further enhance its defensive capabilities, it includes a Laser Anti-Missile System and a Guardian ECM Suite.",
     "Icon": "uixTxrIcon_warthog"
   },
   "simGameMechPartCost": 1270000,

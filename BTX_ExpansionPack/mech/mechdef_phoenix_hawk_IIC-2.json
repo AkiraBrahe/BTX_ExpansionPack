@@ -29,7 +29,7 @@
     "UIName": "Phoenix Hawk IIC 2",
     "Id": "mechdef_phoenix_hawk_IIC-2",
     "Name": "Phoenix Hawk IIC",
-    "Details": "<color=#F79B26>The Phoenix Hawk IIC, though it resembles the combat prowess of the Inner Sphere's Charger in many ways, is a fixture of many second-line Clan Clusters.</color>\n\nThis variant turns the Phoenix Hawk IIC into a missile boat. It removes all weapons and a ton of armor to mount four LRM-20s with eight tons of ammunition.",
+    "Details": "This variant turns the Phoenix Hawk IIC into a missile boat. It removes all weapons and a ton of armor to mount four LRM-20s with eight tons of ammunition.",
     "Icon": "uixTxrIcon_phoenixhawkiic"
   },
   "simGameMechPartCost": 2250000,

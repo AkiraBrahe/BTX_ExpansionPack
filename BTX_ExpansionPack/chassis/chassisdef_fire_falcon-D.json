@@ -8,7 +8,7 @@
     "UIName": "Fire Falcon",
     "Id": "chassisdef_fire_falcon-D",
     "Name": "Fire Falcon",
-    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nA spotter, the D carries a TAG and Narc missile beacon. If it gets caught in combat, it can use a pair of SRM-4s and one ER Medium Laser.",
+    "Details": "A spotter, the D carries a TAG and Narc missile beacon. If it gets caught in combat, it can use a pair of SRM-4s and one ER Medium Laser.",
     "Icon": "uixTxrIcon_firefalcon"
   },
   "MovementCapDefID": "movedef_mech_light_8",

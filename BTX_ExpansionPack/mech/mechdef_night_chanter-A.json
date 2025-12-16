@@ -27,7 +27,7 @@
     "UIName": "Night Chanter A",
     "Id": "mechdef_night_chanter-A",
     "Name": "Night Chanter",
-    "Details": "<color=#F79B26>The Night Chanter, a product of Clan Coyote's Pueblo Initiative, was developed after years of struggle to control OmniMech technology. The Night Chanter is based on the Crab, an old SLDF design.</color>\n\nDesigned for long-range precision strikes, the Night Chanter A trades its versatile laser armament for a combination of energy and missile weaponry, including an ER PPC, an LRM-10 launcher, and a single ER Medium Laser. To counter close-quarters threats, this alternate configuration mounts a pair of Machine Guns and two A-Pods.",
+    "Details": "Designed for long-range precision strikes, the Night Chanter A trades its versatile laser armament for a combination of energy and missile weaponry, including an ER PPC, an LRM-10 launcher, and a single ER Medium Laser. To counter close-quarters threats, this alternate configuration mounts a pair of Machine Guns and two A-Pods.",
     "Icon": "uixTxrIcon_nightchanter"
   },
   "simGameMechPartCost": 530000,

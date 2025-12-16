@@ -28,7 +28,7 @@
     "UIName": "Shadow Hawk IIC",
     "Id": "mechdef_shadow_hawk_IIC",
     "Name": "Shadow Hawk IIC",
-    "Details": "<color=#F79B26>The Shadow Hawk IIC is an inexpensive, second-line Clan BattleMech based upon the Shadow Hawk that was first fielded by the Star League.</color>\n\nWhere the original Shadow Hawk is a more multi-role machine, the Shadow Hawk IIC is meant for close-range fighting, with two highly accurate Medium Pulse Lasers and four Streak SRM-2s to exploit holes in an enemy's armor. An ER Medium and Small Laser rounds out the weaponry.",
+    "Details": "Where the original Shadow Hawk is a more multi-role machine, the Shadow Hawk IIC is meant for close-range fighting, with two highly accurate Medium Pulse Lasers and four Streak SRM-2s to exploit holes in an enemy's armor. An ER Medium and Small Laser rounds out the weaponry.",
     "Icon": "uixTxrIcon_shadowhawkiic"
   },
   "simGameMechPartCost": 500000,

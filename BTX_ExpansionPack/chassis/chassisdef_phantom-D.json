@@ -8,7 +8,7 @@
     "UIName": "Phantom",
     "Id": "chassisdef_phantom-D",
     "Name": "Phantom",
-    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe D configuration is something of a compromise between the B and C configurations. The 'Mech carries three ER Medium Lasers and an ER Small Laser for a powerful-short range punch. These are backed up by a highly accurate Streak SRM-4 launcher.",
+    "Details": "The D configuration is something of a compromise between the B and C configurations. The 'Mech carries three ER Medium Lasers and an ER Small Laser for a powerful-short range punch. These are backed up by a highly accurate Streak SRM-4 launcher.",
     "Icon": "uixTxrIcon_phantom"
   },
   "MovementCapDefID": "movedef_mech_medium_9",

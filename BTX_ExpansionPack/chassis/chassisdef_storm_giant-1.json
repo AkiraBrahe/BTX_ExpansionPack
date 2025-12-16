@@ -8,7 +8,7 @@
     "UIName": "Storm Giant",
     "Id": "chassisdef_storm_giant-1",
     "Name": "Storm Giant",
-    "Details": "<color=#F79B26>The Storm Giant, an early Clan Steel Viper BattleMech, first appeared in the 29th century, a period known to the Clans as the Golden Century. Two hundred years later, the design was revived to give rise to the \"new\" Scylla assault BattleMech.</color>\n\nThe main firepower of the Storm Giant stems from two arm-mounted LRM-20s with two tons of ammunition each. As enemy forces close in, they encounter a pair of Streak SRM-6s and an Ultra AC/20, capable of breaching even the thickest armor. The streaks share a ton of ammunition and the autocannon has three tons. While the streaks are very efficient, the ultra autocannon can quickly run out of ammunition if the pilot isn't careful.",
+    "Details": "The main firepower of the Storm Giant stems from two arm-mounted LRM-20s with two tons of ammunition each. As enemy forces close in, they encounter a pair of Streak SRM-6s and an Ultra AC/20, capable of breaching even the thickest armor. The streaks share a ton of ammunition and the autocannon has three tons. While the streaks are very efficient, the ultra autocannon can quickly run out of ammunition if the pilot isn't careful.",
     "Icon": "uixTxrIcon_stormgiant"
   },
   "MovementCapDefID": "movedef_mech_assault_4",

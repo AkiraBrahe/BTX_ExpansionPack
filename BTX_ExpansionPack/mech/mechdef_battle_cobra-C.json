@@ -26,7 +26,7 @@
     "UIName": "Battle Cobra C",
     "Id": "mechdef_battle_cobra-C",
     "Name": "Battle Cobra",
-    "Details": "<color=#F79B26>The Battle Cobra, a Steel Viper OmniMech, was designed to support arm-mounted OmniPods like the Crossbow. Its simple design attracted ComStar, who reverse-engineered it for their own OmniMech program.</color>\n\nThe primary weapon of this configuration is an ATM-9, but it lacks sufficient ammunition storage to make full use of the ATM technology. It is backed up by three Medium Pulse Lasers and one Small Pulse Laser.",
+    "Details": "The primary weapon of this configuration is an ATM-9, but it lacks sufficient ammunition storage to make full use of the ATM technology. It is backed up by three Medium Pulse Lasers and one Small Pulse Laser.",
     "Icon": "uixTxrIcon_battlecobra"
   },
   "simGameMechPartCost": 530000,

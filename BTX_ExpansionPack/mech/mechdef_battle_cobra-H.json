@@ -25,7 +25,7 @@
     "UIName": "Battle Cobra H",
     "Id": "mechdef_battle_cobra-H",
     "Name": "Battle Cobra",
-    "Details": "<color=#F79B26>The Battle Cobra, a Steel Viper OmniMech, was designed to support arm-mounted OmniPods like the Crossbow. Its simple design attracted ComStar, who reverse-engineered it for their own OmniMech program.</color>\n\nInstead of the pulse lasers common to the other configurations, the Battle Cobra H mounts a pair each of ER Large Lasers and Heavy Medium Lasers; four additional double heat sinks help to keep heat levels manageable.",
+    "Details": "Instead of the pulse lasers common to the other configurations, the Battle Cobra H mounts a pair each of ER Large Lasers and Heavy Medium Lasers; four additional double heat sinks help to keep heat levels manageable.",
     "Icon": "uixTxrIcon_battlecobra"
   },
   "simGameMechPartCost": 530000,

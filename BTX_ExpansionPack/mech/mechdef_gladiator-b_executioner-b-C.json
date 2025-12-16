@@ -28,7 +28,7 @@
     "UIName": "Gladiator-B C",
     "Id": "mechdef_gladiator-b_executioner-b-C",
     "Name": "Gladiator-B",
-    "Details": "<color=#F79B26>The Executioner-B (code-named Gladiator-B) is the original Executioner created by Clan Burrock during the Golden Century before the introduction of Clan Ghost Bear's upgraded Executioner one hundred years later.</color>\n\nAnother long-range sniper, the C configuration is potentially even deadlier than the B, but crippling heat issues hamper this variant's effectiveness. Mounting a total of four ER PPCs, two per arm, even the addition of four extra double heat sinks doesn't bring this variant anywhere near heat efficiency. The 'Mech also carries two Ultra AC/5s and two SRM-2s for close-range defense.",
+    "Details": "Another long-range sniper, the C configuration is potentially even deadlier than the B, but crippling heat issues hamper this variant's effectiveness. Mounting a total of four ER PPCs, two per arm, even the addition of four extra double heat sinks doesn't bring this variant anywhere near heat efficiency. The 'Mech also carries two Ultra AC/5s and two SRM-2s for close-range defense.",
     "Icon": "uixTxrIcon_executioner-b"
   },
   "simGameMechPartCost": 2680000,

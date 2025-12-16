@@ -13,7 +13,7 @@
     "UIName": "Gladiator-B",
     "Id": "chassisdef_gladiator-b_executioner-b-A",
     "Name": "Gladiator-B",
-    "Details": "<color=#F79B26>The Executioner-B (code-named Gladiator-B) is the original Executioner created by Clan Burrock during the Golden Century before the introduction of Clan Ghost Bear's upgraded Executioner one hundred years later.</color>\n\nThe Executioner-B A configuration is primarily focused on ballistic weaponry, featuring an LB 10-X and an Ultra AC/10 in each arm. Two ER Small Lasers are the 'Mech's only backup weaponry. While the heavy reliance on ballistics reduces the flexibility of the design, this configuration remains popular due to its ample cooling capacity, allowing it to sustain its firepower effectively.",
+    "Details": "The Executioner-B A configuration is primarily focused on ballistic weaponry, featuring an LB 10-X and an Ultra AC/10 in each arm. Two ER Small Lasers are the 'Mech's only backup weaponry. While the heavy reliance on ballistics reduces the flexibility of the design, this configuration remains popular due to its ample cooling capacity, allowing it to sustain its firepower effectively.",
     "Icon": "uixTxrIcon_executioner-b"
   },
   "MovementCapDefID": "movedef_mech_assault_3",

@@ -28,7 +28,7 @@
     "UIName": "Pulverizer PUL-3R",
     "Id": "mechdef_pulverizer_PUL-3R",
     "Name": "Pulverizer",
-    "Details": "<color=#F79B26>The Pulverizer was a command 'Mech developed by Clan Wolverine following the successes of the Mercury II and Stag. It was later produced by Clan Snow Raven after the Wolverine Annihilation.</color>\n\nThis configuration created by Clan Snow Raven trades the standard Large Lasers for Improved Large Lasers. The armor has also been replaced with Clan spec ferro-fibrous armor. The weight savings from these changes allow the Pulverizer to carry eighteen double heat sinks, which is just enough to be heat neutral.",
+    "Details": "This configuration created by Clan Snow Raven trades the standard Large Lasers for Improved Large Lasers. The armor has also been replaced with Clan spec ferro-fibrous armor. The weight savings from these changes allow the Pulverizer to carry eighteen double heat sinks, which is just enough to be heat neutral.",
     "Icon": "uixTxrIcon_pulverizer"
   },
   "simGameMechPartCost": 1040000,

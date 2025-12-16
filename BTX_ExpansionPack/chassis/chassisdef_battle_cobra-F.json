@@ -8,7 +8,7 @@
     "UIName": "Battle Cobra",
     "Id": "chassisdef_battle_cobra-F",
     "Name": "Battle Cobra",
-    "Details": "<color=#F79B26>The Battle Cobra, a Steel Viper OmniMech, was designed to support arm-mounted OmniPods like the Crossbow. Its simple design attracted ComStar, who reverse-engineered it for their own OmniMech program.</color>\n\nA medium-range, jump jet equipped brawler, the F configuration mounts a UAC/5 and single ton of reloads in its right arm, supported by a trio of ER Medium Lasers in its left.",
+    "Details": "A medium-range, jump jet equipped brawler, the F configuration mounts a UAC/5 and single ton of reloads in its right arm, supported by a trio of ER Medium Lasers in its left.",
     "Icon": "uixTxrIcon_battlecobra"
   },
   "MovementCapDefID": "movedef_mech_medium_6",

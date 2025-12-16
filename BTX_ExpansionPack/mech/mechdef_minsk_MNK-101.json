@@ -27,7 +27,7 @@
     "UIName": "Minsk MNK-101",
     "Id": "mechdef_minsk_MNK-101",
     "Name": "Minsk",
-    "Details": "<color=#F79B26>The Minsk, Clan Ghost Bear's first domestically produced heavy BattleMech, was designed to serve as a bodyguard unit. Its form harkens back to the ancient Hammerhands design, featuring barrel-like arms equipped with powerful ballistic weaponry.</color>\n\nThe heavy 'Mech is built with a mix of Clan technologies as well as some leftover equipment from the Star League era. The main long-range firepower comes from a Gauss Rifle mounted in each arm and a single LRM-10 in the left torso. When enemies close in, they face the additional firepower in each side torso: a cluster of weapons consisting of an SRM-6, a Small Pulse Laser, and a Machine Gun. Ammunition is available in plenty and is protected by Clan-spec CASE. The Minsk is also fitted with an antique Beagle Active Probe, allowing it to find hidden units and threats.",
+    "Details": "The heavy 'Mech is built with a mix of Clan technologies as well as some leftover equipment from the Star League era. The main long-range firepower comes from a Gauss Rifle mounted in each arm and a single LRM-10 in the left torso. When enemies close in, they face the additional firepower in each side torso: a cluster of weapons consisting of an SRM-6, a Small Pulse Laser, and a Machine Gun. Ammunition is available in plenty and is protected by Clan-spec CASE. The Minsk is also fitted with an antique Beagle Active Probe, allowing it to find hidden units and threats.",
     "Icon": "uixTxrIcon_minsk"
   },
   "simGameMechPartCost": 730000,

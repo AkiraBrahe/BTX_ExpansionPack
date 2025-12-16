@@ -28,7 +28,7 @@
     "UIName": "Shadow Hawk IIC 2",
     "Id": "mechdef_shadow_hawk_IIC-2",
     "Name": "Shadow Hawk IIC",
-    "Details": "<color=#F79B26>The Shadow Hawk IIC is an inexpensive, second-line Clan BattleMech based upon the Shadow Hawk that was first fielded by the Star League.</color>\n\nThis variant direct-fire supports using two ER Large Lasers in over-the-shoulder mounts. The ER Small Laser is retained and supplemented by three Small Pulse Lasers, which are quite accurate and a serious threat to unarmored infantry.",
+    "Details": "This variant direct-fire supports using two ER Large Lasers in over-the-shoulder mounts. The ER Small Laser is retained and supplemented by three Small Pulse Lasers, which are quite accurate and a serious threat to unarmored infantry.",
     "Icon": "uixTxrIcon_shadowhawkiic"
   },
   "simGameMechPartCost": 490000,

@@ -8,7 +8,7 @@
     "UIName": "Arctic Fox",
     "Id": "chassisdef_arctic_fox_AF1A",
     "Name": "Arctic Fox",
-    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nThe A configuration is intended for short-range engagements and carries four Medium Pulse Lasers and three Small Pulse Lasers. Six jump jets have been added in order to increase mobility.",
+    "Details": "The A configuration is intended for short-range engagements and carries four Medium Pulse Lasers and three Small Pulse Lasers. Six jump jets have been added in order to increase mobility.",
     "Icon": "uixTxrIcon_arcticfox"
   },
   "MovementCapDefID": "movedef_mech_light_6",

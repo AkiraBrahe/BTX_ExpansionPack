@@ -27,7 +27,7 @@
     "UIName": "Pouncer PRIME",
     "Id": "mechdef_pouncer-PRIME",
     "Name": "Pouncer",
-    "Details": "<color=#F79B26>The Pouncer is a versatile Clan Wolf OmniMech based on the Adder that was specifically designed to be more mobile on the battlefield and counter Inner Sphere tactics.</color>\n\nIn its Primary configuration, the Pouncer has two ER PPCs for long-range striking power. These are backed up by a single ER Small Laser for close combat. All of the weapons are linked to an advanced Targeting Computer that increases their accuracy.",
+    "Details": "In its Primary configuration, the Pouncer has two ER PPCs for long-range striking power. These are backed up by a single ER Small Laser for close combat. All of the weapons are linked to an advanced Targeting Computer that increases their accuracy.",
     "Icon": "uixTxrIcon_pouncer"
   },
   "simGameMechPartCost": 900000,

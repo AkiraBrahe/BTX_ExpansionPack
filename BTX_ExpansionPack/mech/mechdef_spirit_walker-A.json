@@ -26,7 +26,7 @@
     "UIName": "Spirit Walker A",
     "Id": "mechdef_spirit_walker-A",
     "Name": "Spirit Walker",
-    "Details": "<color=#F79B26>The Spirit Walker, a product of Clan Coyote's Pueblo Initiative, was developed after years of struggle to control OmniMech technology. Mirrorring the Night Chanter, the Spirit Walker draws its heritage from another venerable SLDF design, the Black Knight.</color>\n\nThe A configuration is tailored for close-quarters combat, wielding a Gauss Rifle as its primary weapon supported by three ER Medium Lasers, two Small Pulse Lasers, one ER Small Laser, and two Machine Guns. In addition to its Active Probe, the Spirit Walker A is also equipped with a Targeting computer.",
+    "Details": "The A configuration is tailored for close-quarters combat, wielding a Gauss Rifle as its primary weapon supported by three ER Medium Lasers, two Small Pulse Lasers, one ER Small Laser, and two Machine Guns. In addition to its Active Probe, the Spirit Walker A is also equipped with a Targeting computer.",
     "Icon": "uixTxrIcon_spiritwalker"
   },
   "simGameMechPartCost": 930000,

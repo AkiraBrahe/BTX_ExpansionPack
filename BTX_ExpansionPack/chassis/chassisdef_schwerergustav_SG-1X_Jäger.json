@@ -8,7 +8,7 @@
     "UIName": "Schwerer Gustav",
     "Id": "chassisdef_schwerergustav_SG-1X_Jäger",
     "Name": "Schwerer Gustav",
-    "Details": "<color=#F79B26>Named after the heavy artillery platform from Terra's Second World War, the one-of-a-kind Schwerer Gustav is a FrankenMech combining six different designs, primarily the Annihilator, Verfolger and Berserker.</color>\n\nThe Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
+    "Details": "The Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
     "Icon": "uixTxrIcon_schwerergustav"
   },
   "MovementCapDefID": "movedef_mech_assault_3",

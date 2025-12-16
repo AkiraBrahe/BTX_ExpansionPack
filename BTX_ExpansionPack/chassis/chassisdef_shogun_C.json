@@ -8,7 +8,7 @@
     "UIName": "Shogun",
     "Id": "chassisdef_shogun_C",
     "Name": "Shogun",
-    "Details": "<color=#F79B26>The Shogun is an assault 'Mech designed for urban combat. Though produced before the Star League's fall, it was thought lost until Wolf's Dragoons brought a sizable number of Shoguns with them to the Inner Sphere.</color>\n\nA complete redesign of the Shogun using Clan technology that is used exclusively by Wolf's Dragoons, the Shogun C is armed with two LRM-20 missile racks with an Artemis IV fire control system for greater missile accuracy. The 'Mech also carries an ER PPC and four Streak SRM-6 launchers, giving it a devastating close range damage capability.",
+    "Details": "A complete redesign of the Shogun using Clan technology that is used exclusively by Wolf's Dragoons, the Shogun C is armed with two LRM-20 missile racks with an Artemis IV fire control system for greater missile accuracy. The 'Mech also carries an ER PPC and four Streak SRM-6 launchers, giving it a devastating close range damage capability.",
     "Icon": "uixTxrIcon_shogun"
   },
   "MovementCapDefID": "movedef_mech_assault_3",

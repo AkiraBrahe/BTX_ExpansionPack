@@ -28,7 +28,7 @@
     "UIName": "Fox",
     "Id": "mechdef_fox",
     "Name": "Fox",
-    "Details": "<color=#F79B26>The Fox is Clan Sea Fox's first BattleMech. It is built with a combination of older Star League technology and early Clan weaponry to cover a wide range of tactical needs.</color>\n\nThis pure Clan-tech version of the Fox uses the same endo steel chassis and XL engine, but with ferro-fibrous armor. The weapons have all been upgraded to Clan-spec, with an impressive array of weapons for a 50-tonner, including three pairs of LRM-15s, Streak SRM-2s and ER Medium Lasers, as well as four Machine Guns and a single ER Large Laser. It has an additional double heat sink to handle the increased heat load.",
+    "Details": "This pure Clan-tech version of the Fox uses the same endo steel chassis and XL engine, but with ferro-fibrous armor. The weapons have all been upgraded to Clan-spec, with an impressive array of weapons for a 50-tonner, including three pairs of LRM-15s, Streak SRM-2s and ER Medium Lasers, as well as four Machine Guns and a single ER Large Laser. It has an additional double heat sink to handle the increased heat load.",
     "Icon": "uixTxrIcon_fox"
   },
   "simGameMechPartCost": 1020000,

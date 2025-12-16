@@ -8,7 +8,7 @@
     "UIName": "Mad Cat Mk II",
     "Id": "chassisdef_mad_cat_mkii",
     "Name": "Mad Cat Mk II",
-    "Details": "<color=#F79B26>The Mad Cat Mk II was created to capitalize on the iconic design of the original Mad Cat as a means for Clan Diamond Shark to rebuild following the war with the Inner Sphere.</color>\n\nThis redesigned Timber Wolf boasts thirteen tons of ferro-fibrous armor while being one of the most nimble BattleMechs of its class, yet still packing serious weaponry. Its primary weapons are two Gauss Rifles supplemented by two LRM-10s, giving the 'Mech both long range and indirect fire capability. Four ER Medium Lasers can chew up what's left of the opposition in close combat. The Mech's primary role is long to medium range combat, with best performance within 450 meters, where all of its weapons can reach the opponent.",
+    "Details": "This redesigned Timber Wolf boasts thirteen tons of ferro-fibrous armor while being one of the most nimble BattleMechs of its class, yet still packing serious weaponry. Its primary weapons are two Gauss Rifles supplemented by two LRM-10s, giving the 'Mech both long range and indirect fire capability. Four ER Medium Lasers can chew up what's left of the opposition in close combat. The Mech's primary role is long to medium range combat, with best performance within 450 meters, where all of its weapons can reach the opponent.",
     "Icon": "uixTxrIcon_madcatmkii"
   },
   "MovementCapDefID": "movedef_mech_assault_4",

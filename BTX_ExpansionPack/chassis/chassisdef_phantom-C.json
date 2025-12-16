@@ -8,7 +8,7 @@
     "UIName": "Phantom",
     "Id": "chassisdef_phantom-C",
     "Name": "Phantom",
-    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe C configuration is another close-combat variant, this time with an array of eight ER Small Lasers and one ER Medium Laser, all linked to an advanced Targeting Computer for increased accuracy. The 'Mech also has a Flamer, which it can use against infantry.",
+    "Details": "The C configuration is another close-combat variant, this time with an array of eight ER Small Lasers and one ER Medium Laser, all linked to an advanced Targeting Computer for increased accuracy. The 'Mech also has a Flamer, which it can use against infantry.",
     "Icon": "uixTxrIcon_phantom"
   },
   "MovementCapDefID": "movedef_mech_medium_9",

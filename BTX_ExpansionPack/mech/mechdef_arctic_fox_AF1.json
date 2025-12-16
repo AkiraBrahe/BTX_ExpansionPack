@@ -27,7 +27,7 @@
     "UIName": "Arctic Fox AF1",
     "Id": "mechdef_arctic_fox_AF1",
     "Name": "Arctic Fox",
-    "Details": "<color=#F79B26>The Arctic Fox is a light OmniMech reverse engineered by the Kell Hounds from the Clan Uller OmniMech with assistance in the final stages from Clan Wolf-in-Exile.</color>\n\nThe primary configuration of the Arctic Fox is intended to wear an enemy's armor down at long ranges and then close for the kill. To do this, the Arctic Fox carries an ER PPC that can hit a target at up to 690 meters. For close combat, two Medium Lasers provide the primary hitting power, while two SRM-4 launchers seek out weak points in an enemy's armor.",
+    "Details": "The primary configuration of the Arctic Fox is intended to wear an enemy's armor down at long ranges and then close for the kill. To do this, the Arctic Fox carries an ER PPC that can hit a target at up to 690 meters. For close combat, two Medium Lasers provide the primary hitting power, while two SRM-4 launchers seek out weak points in an enemy's armor.",
     "Icon": "uixTxrIcon_arcticfox"
   },
   "simGameMechPartCost": 510000,

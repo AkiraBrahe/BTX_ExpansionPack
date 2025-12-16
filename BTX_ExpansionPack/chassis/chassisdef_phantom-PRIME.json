@@ -8,7 +8,7 @@
     "UIName": "Phantom",
     "Id": "chassisdef_phantom-PRIME",
     "Name": "Phantom",
-    "Details": "<color=#F79B26>The Phantom was designed to counter Inner Sphere tactics, and progressively replaced the Fire Moth OmniMech due to its similar role and heavier profile.</color>\n\nThe Prime configuration pushes the medium reconnaissance 'Mech to the most extreme limits with its lightweight endo steel chassis propelled to a top speed of 151.2 km/h by a 360 XL engine. It also boasts strong protection for its size with six tons of ferro-fibrous armor. The 'Mech carries an Active Probe which is able to find hidden enemy units at up to 180 meters, a TAG laser designator capable of spotting for friendly Arrow IV artillery, as well as an ECM Suite for protection from enemy electronic warfare systems. To engage enemies, the Phantom has an LRM-5 launcher backed up by an ER Medium Laser and an ER Small Laser.",
+    "Details": "The Prime configuration pushes the medium reconnaissance 'Mech to the most extreme limits with its lightweight endo steel chassis propelled to a top speed of 151.2 km/h by a 360 XL engine. It also boasts strong protection for its size with six tons of ferro-fibrous armor. The 'Mech carries an Active Probe which is able to find hidden enemy units at up to 180 meters, a TAG laser designator capable of spotting for friendly Arrow IV artillery, as well as an ECM Suite for protection from enemy electronic warfare systems. To engage enemies, the Phantom has an LRM-5 launcher backed up by an ER Medium Laser and an ER Small Laser.",
     "Icon": "uixTxrIcon_phantom"
   },
   "MovementCapDefID": "movedef_mech_medium_9",

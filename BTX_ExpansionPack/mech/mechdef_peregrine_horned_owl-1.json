@@ -26,7 +26,7 @@
     "UIName": "Peregrine 1",
     "Id": "mechdef_peregrine_horned_owl-1",
     "Name": "Peregrine",
-    "Details": "<color=#F79B26>The Horned Owl, or Peregrine, is a light, fast second-line Clan BattleMech capable of highly accurate fire and designed as a harassing platform also capable of dueling 'Mechs.</color>\n\nThis first variant is armed with a single Large Pulse Laser in the center torso and a Medium Pulse Laser in each arm. The Horned Owl's devastatingly accurate fire can quickly destroy other light 'Mechs.",
+    "Details": "This first variant is armed with a single Large Pulse Laser in the center torso and a Medium Pulse Laser in each arm. The Horned Owl's devastatingly accurate fire can quickly destroy other light 'Mechs.",
     "Icon": "uixTxrIcon_peregrine"
   },
   "simGameMechPartCost": 350000,

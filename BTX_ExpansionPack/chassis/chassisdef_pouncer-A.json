@@ -8,7 +8,7 @@
     "UIName": "Pouncer",
     "Id": "chassisdef_pouncer-A",
     "Name": "Pouncer",
-    "Details": "<color=#F79B26>The Pouncer is a versatile Clan Wolf OmniMech based on the Adder that was specifically designed to be more mobile on the battlefield and counter Inner Sphere tactics.</color>\n\nThe A configuration is a powerful long-range bombardment configuration. The 'Mech has two LRM-15 launchers, allowing it to act as a fire support 'Mech. For close-range combat, the 'Mech has four ER Medium Lasers and a single rear-mounted ER Small Laser.",
+    "Details": "The A configuration is a powerful long-range bombardment configuration. The 'Mech has two LRM-15 launchers, allowing it to act as a fire support 'Mech. For close-range combat, the 'Mech has four ER Medium Lasers and a single rear-mounted ER Small Laser.",
     "Icon": "uixTxrIcon_pouncer"
   },
   "MovementCapDefID": "movedef_mech_medium_6",

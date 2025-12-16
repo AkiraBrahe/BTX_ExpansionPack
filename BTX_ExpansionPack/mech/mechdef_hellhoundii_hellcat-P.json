@@ -26,7 +26,7 @@
     "UIName": "Hellhound II-P",
     "Id": "mechdef_hellhoundii_hellcat-P",
     "Name": "Hellhound II-P",
-    "Details": "<color=#F79B26>The Hellcat-P is a redesign of the Conjurer created by Clan Jade Falcon to prioritize versatile firepower over the Nova Cat model's emphasis on speed and energy-based armament.</color>\n\nThis prototype mounts a 250-rated XL engine without jump jets, making it significantly less agile than the Conjurer. Instead, the Hellcat-P focuses on firepower. The 'Mech packs a devastating LB-X Autocannon/10 and two ER Large Lasers, as well as an SRM-6 for close-quarters defense.",
+    "Details": "This prototype mounts a 250-rated XL engine without jump jets, making it significantly less agile than the Conjurer. Instead, the Hellcat-P focuses on firepower. The 'Mech packs a devastating LB-X Autocannon/10 and two ER Large Lasers, as well as an SRM-6 for close-quarters defense.",
     "Icon": "uixTxrIcon_hellhound"
   },
   "simGameMechPartCost": 940000,

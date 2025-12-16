@@ -8,7 +8,7 @@
     "UIName": "Pulverizer",
     "Id": "chassisdef_pulverizer",
     "Name": "Pulverizer",
-    "Details": "<color=#F79B26>The Pulverizer was a command 'Mech developed by Clan Wolverine following the successes of the Mercury II and Stag. It was later produced by Clan Snow Raven after the Wolverine Annihilation.</color>\n\nImproved by Clan Snow Raven, this purely Clan-tech build of the Pulverizer carries a Large Pulse Laser in each arm, an ER PPC, and an LRM-10 for its main armament, all cooled by eighteen double heat sinks. Like the other models, it uses an ECM Suite as well.",
+    "Details": "Improved by Clan Snow Raven, this purely Clan-tech build of the Pulverizer carries a Large Pulse Laser in each arm, an ER PPC, and an LRM-10 for its main armament, all cooled by eighteen double heat sinks. Like the other models, it uses an ECM Suite as well.",
     "Icon": "uixTxrIcon_pulverizer"
   },
   "MovementCapDefID": "movedef_mech_assault_4",

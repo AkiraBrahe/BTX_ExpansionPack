@@ -26,7 +26,7 @@
     "UIName": "Battle Cobra PRIME",
     "Id": "mechdef_battle_cobra-PRIME",
     "Name": "Battle Cobra",
-    "Details": "<color=#F79B26>The Battle Cobra, a Steel Viper OmniMech, was designed to support arm-mounted OmniPods like the Crossbow. Its simple design attracted ComStar, who reverse-engineered it for their own OmniMech program.</color>\n\nMaking use of endo steel and ferro-fibrous weight-saving technologies, the Battle Cobra uses a standard fusion engine for increased durability. The primary configuration uses a pair of Large Pulse Lasers and Small Pulse Lasers, making it capable of highly accurate fire that is effective against armored and unarmored targets alike.",
+    "Details": "Making use of endo steel and ferro-fibrous weight-saving technologies, the Battle Cobra uses a standard fusion engine for increased durability. The primary configuration uses a pair of Large Pulse Lasers and Small Pulse Lasers, making it capable of highly accurate fire that is effective against armored and unarmored targets alike.",
     "Icon": "uixTxrIcon_battlecobra"
   },
   "simGameMechPartCost": 480000,

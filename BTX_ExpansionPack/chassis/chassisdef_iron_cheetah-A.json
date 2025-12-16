@@ -8,7 +8,7 @@
     "UIName": "Iron Cheetah",
     "Id": "chassisdef_iron_cheetah-A",
     "Name": "Iron Cheetah",
-    "Details": "<color=#F79B26>The Iron Cheetah is the last OmniMech developed by Clan Smoke Jaguar in their quest to create the perfect assault 'Mech. It was designed to showcase the pinnacle of Clan technology.</color>\n\nThe A configuration is a close-range brawler whose primary weapon is a massive Ultra AC/20 mounted in its right arm. The main weapon is accompanied by two Streak SRM-6 racks and multiple Machine Guns. Long-range fire is provided by a pair of Large Pulse Lasers. Finally, a single Active Probe aids in the prevention of ambushes.",
+    "Details": "The A configuration is a close-range brawler whose primary weapon is a massive Ultra AC/20 mounted in its right arm. The main weapon is accompanied by two Streak SRM-6 racks and multiple Machine Guns. Long-range fire is provided by a pair of Large Pulse Lasers. Finally, a single Active Probe aids in the prevention of ambushes.",
     "Icon": "uixTxrIcon_ironcheetah"
   },
   "MovementCapDefID": "movedef_mech_assault_4",

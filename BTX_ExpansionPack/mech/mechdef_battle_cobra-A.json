@@ -26,7 +26,7 @@
     "UIName": "Battle Cobra A",
     "Id": "mechdef_battle_cobra-A",
     "Name": "Battle Cobra",
-    "Details": "<color=#F79B26>The Battle Cobra, a Steel Viper OmniMech, was designed to support arm-mounted OmniPods like the Crossbow. Its simple design attracted ComStar, who reverse-engineered it for their own OmniMech program.</color>\n\nConfiguration A excels at close range with a variety of smaller pulse lasers. It wields four Medium Pulse Lasers and six Small Pulse Lasers; this armament forces unarmored infantry to be especially wary.",
+    "Details": "Configuration A excels at close range with a variety of smaller pulse lasers. It wields four Medium Pulse Lasers and six Small Pulse Lasers; this armament forces unarmored infantry to be especially wary.",
     "Icon": "uixTxrIcon_battlecobra"
   },
   "simGameMechPartCost": 480000,

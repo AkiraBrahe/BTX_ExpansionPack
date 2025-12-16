@@ -8,7 +8,7 @@
     "UIName": "Pouncer",
     "Id": "chassisdef_pouncer-D",
     "Name": "Pouncer",
-    "Details": "<color=#F79B26>The Pouncer is a versatile Clan Wolf OmniMech based on the Adder that was specifically designed to be more mobile on the battlefield and counter Inner Sphere tactics.</color>\n\nA close-combat configuration, the Pouncer D carries six ER Medium Lasers for its primary firepower, which are linked to an advanced Targeting Computer for increased accuracy. The 'Mech also has two highly accurate Streak SRM-6 launchers which can eviscerate a target at close range. For protection from rear attacks, the 'Mech has a single ER Small Laser.",
+    "Details": "A close-combat configuration, the Pouncer D carries six ER Medium Lasers for its primary firepower, which are linked to an advanced Targeting Computer for increased accuracy. The 'Mech also has two highly accurate Streak SRM-6 launchers which can eviscerate a target at close range. For protection from rear attacks, the 'Mech has a single ER Small Laser.",
     "Icon": "uixTxrIcon_pouncer"
   },
   "MovementCapDefID": "movedef_mech_medium_6",

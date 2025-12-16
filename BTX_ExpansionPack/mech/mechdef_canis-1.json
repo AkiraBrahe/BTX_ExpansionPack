@@ -28,7 +28,7 @@
     "UIName": "Canis 1",
     "Id": "mechdef_canis-1",
     "Name": "Canis",
-    "Details": "<color=#F79B26>Clan Coyote's Canis, a slower but jump-capable assault 'Mech, adapts to protracted Inner Sphere battles with a mix of energy and ballistic weapons.</color>\n\nThe Canis is equipped with four arm-mounted ER Large Lasers. While these pack a powerful, long-range punch, they often overload the design's sixteen double heat sinks. For medium-range support, the 'Mech' utilizes a pair of torso-mounted Ultra Autocannon/10s, though it only carries enough ammunition for approximately a minute and a half of sustained firing.",
+    "Details": "The Canis is equipped with four arm-mounted ER Large Lasers. While these pack a powerful, long-range punch, they often overload the design's sixteen double heat sinks. For medium-range support, the 'Mech' utilizes a pair of torso-mounted Ultra Autocannon/10s, though it only carries enough ammunition for approximately a minute and a half of sustained firing.",
     "Icon": "uixTxrIcon_canis"
   },
   "simGameMechPartCost": 1580000,

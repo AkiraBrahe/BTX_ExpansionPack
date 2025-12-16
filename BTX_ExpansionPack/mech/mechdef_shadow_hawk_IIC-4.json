@@ -28,7 +28,7 @@
     "UIName": "Shadow Hawk IIC 4",
     "Id": "mechdef_shadow_hawk_IIC-4",
     "Name": "Shadow Hawk IIC",
-    "Details": "<color=#F79B26>The Shadow Hawk IIC is an inexpensive, second-line Clan BattleMech based upon the Shadow Hawk that was first fielded by the Star League.</color>\n\nFirst fielded in 3060, the Shadow Hawk IIC 4 is a joint effort by Clan Nova Cat and Clan Diamond Shark to upgrade their second-line forces. The result is a 'Mech that is visually very different from the design it is a variant of. This 'Mech carries an ATM-6 with three tons of ammunition to allow for flexibility of choice. The missile launcher is backed up by two Medium Pulse Lasers and an ER Medium Laser.",
+    "Details": "First fielded in 3060, the Shadow Hawk IIC 4 is a joint effort by Clan Nova Cat and Clan Diamond Shark to upgrade their second-line forces. The result is a 'Mech that is visually very different from the design it is a variant of. This 'Mech carries an ATM-6 with three tons of ammunition to allow for flexibility of choice. The missile launcher is backed up by two Medium Pulse Lasers and an ER Medium Laser.",
     "Icon": "uixTxrIcon_shadowhawkiic"
   },
   "simGameMechPartCost": 510000,

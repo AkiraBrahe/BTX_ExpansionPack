@@ -25,7 +25,7 @@
     "UIName": "Fire Falcon C",
     "Id": "mechdef_fire_falcon-C",
     "Name": "Fire Falcon",
-    "Details": "<color=#F79B26>The Fire Falcon was created to replace the Mist Lynx; it is faster, has more front-facing armor, and more pod space, but lacks the jump jets of its predecessor.</color>\n\nThe C is designed for scouting and combat against infantry, and relies on an Active Probe to find hidden targets. It carries one Medium Pulse Laser, one Small Pulse Laser, one ER Small Laser, and a pair of SRM-6s to use against those targets. Four Machine Guns provide enough infantry killing power against soft targets.",
+    "Details": "The C is designed for scouting and combat against infantry, and relies on an Active Probe to find hidden targets. It carries one Medium Pulse Laser, one Small Pulse Laser, one ER Small Laser, and a pair of SRM-6s to use against those targets. Four Machine Guns provide enough infantry killing power against soft targets.",
     "Icon": "uixTxrIcon_firefalcon"
   },
   "simGameMechPartCost": 480000,

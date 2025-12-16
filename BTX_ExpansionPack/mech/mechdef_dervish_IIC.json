@@ -28,7 +28,7 @@
     "UIName": "Dervish IIC",
     "Id": "mechdef_dervish_IIC",
     "Name": "Dervish IIC",
-    "Details": "<color=#F79B26>The Dervish IIC is a Clan refit of the Star-League-era Dervish that first appeared along the Smoke Jaguar front bordering the Draconis Combine.</color>\n\nIn its standard configuration, the Dervish IIC has similar movement and jump capabilities to the original Dervish but carries significantly more firepower thanks to two LRM-20 and Streak SRM-4 racks, an ER Medium Laser, and a Medium Pulse Laser.",
+    "Details": "In its standard configuration, the Dervish IIC has similar movement and jump capabilities to the original Dervish but carries significantly more firepower thanks to two LRM-20 and Streak SRM-4 racks, an ER Medium Laser, and a Medium Pulse Laser.",
     "Icon": "uixTxrIcon_dervish"
   },
   "simGameMechPartCost": 1100000,
