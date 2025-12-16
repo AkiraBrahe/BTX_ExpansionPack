@@ -107,14 +107,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 3,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 4,

@@ -1,0 +1,15 @@
+{
+  "Description": {
+    "Rarity": 9
+  },
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_extreme",
+      "ppc_capacitor_attachable",
+      "energy_tts_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

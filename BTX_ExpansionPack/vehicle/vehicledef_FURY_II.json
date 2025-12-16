@@ -74,7 +74,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Gauss_Gauss_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,

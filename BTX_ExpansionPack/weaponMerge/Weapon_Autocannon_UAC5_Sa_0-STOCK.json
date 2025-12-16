@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "Lootable": "Weapon_Autocannon_UAC5_0-STOCK",
+    "Flags": [
+      "invalid",
+      "hide"
+    ]
+  }
+}

@@ -110,7 +110,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Rear",
       "HardpointSlot": 0,
@@ -124,7 +124,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_PPC_PPCER_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,

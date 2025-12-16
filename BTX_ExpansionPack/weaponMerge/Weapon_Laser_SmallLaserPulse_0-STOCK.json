@@ -1,0 +1,15 @@
+{
+  "Description": {
+    "Rarity": 9
+  },
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech",
+      "range_close",
+      "energy_tts_attachable",
+      "laser_insulator_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

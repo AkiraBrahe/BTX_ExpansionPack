@@ -74,7 +74,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 1,

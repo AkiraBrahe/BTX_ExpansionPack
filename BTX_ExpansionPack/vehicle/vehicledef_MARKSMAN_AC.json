@@ -74,35 +74,35 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_RL_RL10_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_RL_PRL10_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_RL_RL10_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_RL_PRL10_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 2,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_RL_RL10_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_RL_PRL10_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 3,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_RL_RL15_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_RL_PRL15_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 4,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_RL_RL15_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_RL_PRL15_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 5,

@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "Lootable": "Weapon_Gauss_Gauss_0-STOCK",
+    "Flags": [
+      "invalid",
+      "hide"
+    ]
+  }
+}

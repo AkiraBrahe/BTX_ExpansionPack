@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "Lootable": "Weapon_PPC_PPCER_0-STOCK",
+    "Flags": [
+      "invalid",
+      "hide"
+    ]
+  }
+}

@@ -88,21 +88,21 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Left",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Right",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Gauss_Gauss_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,

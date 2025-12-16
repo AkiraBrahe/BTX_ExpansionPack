@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "Lootable": "Weapon_Laser_SmallLaserPulse_0-STOCK",
+    "Flags": [
+      "invalid",
+      "hide"
+    ]
+  }
+}

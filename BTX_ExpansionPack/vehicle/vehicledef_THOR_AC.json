@@ -76,14 +76,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_RL_RL20_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_RL_PRL20_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_RL_RL20_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_RL_PRL20_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,

@@ -87,7 +87,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_LargeLaserER_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
