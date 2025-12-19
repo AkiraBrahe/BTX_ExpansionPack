@@ -1,4 +1,9 @@
 {
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Battle Cobra"
+    }
+  },
   "Description": {
     "Cost": 5250000,
     "Rarity": 4,

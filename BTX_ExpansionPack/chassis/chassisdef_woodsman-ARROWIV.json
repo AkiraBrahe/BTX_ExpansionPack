@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ionnagabase-001",
   "PrefabBase": "ionnaga",
   "Tonnage": 75,
-  "InitialTonnage": 29,
+  "InitialTonnage": 19.5,
   "weightClass": "HEAVY",
   "BattleValue": 11600000,
   "Heatsinks": 10,
@@ -243,13 +243,34 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_Artillery_Loader_WMN",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "arty0"
+    },
+    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "arty0"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artillery_Loader_WMN",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "arty1"
     },
     {
       "MountedLocation": "RightArm",
@@ -258,7 +279,8 @@
       "HardpointSlot": 0,
       "IsFixed": true,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "arty1"
     }
   ]
 }
