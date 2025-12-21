@@ -1,3 +1,6 @@
 <Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
   <Project Path="BTX_ExpansionPack.csproj" Id="f893a829-db9f-4af2-b80f-069180b78397" />
 </Solution>

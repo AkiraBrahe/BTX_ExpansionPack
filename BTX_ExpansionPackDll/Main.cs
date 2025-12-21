@@ -3,10 +3,13 @@ using BattleTech.Data;
 using BattleTech.UI;
 using BTX_ExpansionPack.Features;
 using BTX_ExpansionPack.Helpers;
+using CustomSettings;
 using HBS.Logging;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 
@@ -21,14 +24,14 @@ namespace BTX_ExpansionPack
         internal static string modDir;
         internal static ILog Log { get; private set; }
         internal static ModSettings Settings { get; private set; }
+        private static bool initSuccess = true;
 
         public static bool HasPlayableVehicles => BTSimpleMechAssembly.Assembly.Settings.SalvageAndAssembleVehicles;
 
         public static void Init(string directory, string settingsJSON)
         {
             modDir = directory;
-            Log = Logger.GetLogger(ModName);
-            Logger.SetLoggerLevel(ModName, LogLevel.Debug);
+            Log = Logger.GetLogger(ModName, LogLevel.Debug);
 
             try
             {
@@ -43,6 +46,7 @@ namespace BTX_ExpansionPack
             }
             catch (Exception ex)
             {
+                initSuccess = false;
                 Log.LogException(ex);
             }
         }
@@ -68,6 +72,8 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
             /* Firing Arc Quirks */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+            /* Stock Role Tooltip */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabMechInfoWidget), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
 
             // --- CAC-C ---
             /* Drop Slots Fix */
@@ -81,7 +87,7 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(LanceMechEquipmentList), "SetLoadout", []), HarmonyPatchType.Postfix, "io.mission.customunits");
 
             // --- Mech Affinity ---
-            /* Stock Config Description */
+            /* Stock Config Tooltip */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabStockInfoPopup), "StockMechDefLoaded"), HarmonyPatchType.Postfix, "ca.jwolf.MechAffinity");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
@@ -89,12 +95,6 @@ namespace BTX_ExpansionPack
 
         internal static void ApplySettings()
         {
-            // Enable partial refit of vehicles by default
-            if (HasPlayableVehicles && Settings.Gameplay.EnableVehiclePartialRefit)
-            {
-                CustomUnits.Core.Settings.VehcilesPartialEditable = true;
-            }
-
             // Override anti-air to hit bonus
             Quirks.MechQuirks.modSettings.AntiAircraftTargetingToHit = -4;
 
@@ -103,7 +103,7 @@ namespace BTX_ExpansionPack
                 ? (int)Math.Round(30 * Settings.Gameplay.DHSEngineCoolingMultiplier)
                 : Extended_CE.Core.Settings.DHSEngineCooling;
 
-            // Hide role description in MechLab
+            // Hide role description in mech lab
             Quirks.MechQuirks.modSettings.ShowBEXTRoleEffectsInMechLab = false;
 
             // Remove non-standard ammo bins from shops
@@ -167,6 +167,22 @@ namespace BTX_ExpansionPack
             }
 
             Log.LogDebug("Successfully applied CAC-C overrides.");
+        }
+
+        [HarmonyPatch(typeof(MainMenu), "Init")]
+        public static class MainMenu_Init
+        {
+            [HarmonyPostfix]
+            public static void Postfix()
+            {
+                if (!initSuccess)
+                {
+                    Log.LogError($"Initialization failed.");
+                    GenericPopupBuilder.Create(GenericPopupType.Warning,
+                        "There was a problem loading the Expansion Pack. Check your install, then restart the game.")
+                        .AddButton("OK", null, true, null).Render();
+                }
+            }
         }
     }
 }

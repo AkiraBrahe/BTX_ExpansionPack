@@ -1,7 +1,9 @@
 ﻿using BattleTech;
+using BattleTech.Save;
 using BattleTech.UI;
 using BattleTech.UI.TMProWrapper;
 using BattleTech.UI.Tooltips;
+using CustomSettings;
 using CustomUnits;
 using Localize;
 using MechAffinity;
@@ -36,6 +38,24 @@ namespace BTX_ExpansionPack.Fixes.UI
                 }
 
                 return true;
+            }
+        }
+
+        /// <summary>
+        /// Enables the "Partial Refit" option for vehicles by default.
+        /// </summary>
+        [HarmonyPatch(typeof(SaveManager), MethodType.Constructor, [typeof(MessageCenter)])]
+        public static class SaveManager_Constructor
+        {
+            [HarmonyPrepare]
+            public static bool Prepare() => Main.HasPlayableVehicles && Main.Settings.Gameplay.EnableVehiclePartialRefit;
+
+            [HarmonyPostfix]
+            [HarmonyAfter("io.mission.customunits")]
+            public static void Postfix()
+            {
+                CustomUnits.Core.Settings.VehcilesPartialEditable = true;
+                ModsLocalSettingsHelper.SaveSettings("CustomUnits");
             }
         }
 
@@ -333,22 +353,23 @@ namespace BTX_ExpansionPack.Fixes.UI
         public class TooltipPrefab_Mech_SetData
         {
             [HarmonyPostfix]
-            public static void Postfix(object data, LocalizableText ___RoleField, LocalizableText ___VariantField)
+            public static void Postfix(TooltipPrefab_Mech __instance, object data)
             {
                 if (data is MechDef mechDef)
                 {
                     bool isVehicle = mechDef.IsVehicle();
-                    ___VariantField.gameObject.SetActive(!isVehicle);
+                    __instance.VariantField.gameObject.SetActive(!isVehicle);
 
                     if (isVehicle)
                     {
                         var vehicleDef = mechDef.toVehicleDef(mechDef.DataManager);
                         string role = GetVehicleRole(vehicleDef?.VehicleTags);
-                        ___RoleField.text = role;
+                        __instance.RoleField.text = role;
                     }
                 }
             }
         }
+
         public static string GetVehicleRole(IEnumerable<string> tags)
         {
             if (tags == null)
@@ -372,7 +393,6 @@ namespace BTX_ExpansionPack.Fixes.UI
 
             return "VEHICLE";
         }
-
 
         [HarmonyPatch(typeof(AmmunitionBoxDef), "FromJSON")]
         [Obsolete("Temporary patch until the next CAC-C update.", false)]
