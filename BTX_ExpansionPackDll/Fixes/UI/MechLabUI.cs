@@ -8,6 +8,7 @@ using MechAffinity;
 using Quirks.Tooltips;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 using UnityEngine;
@@ -434,11 +435,35 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(PilotAffinityManager), "getMechChassisAffinityDescription", [typeof(ChassisDef)])]
         public static class PilotAffinityManager_getMechChassisAffinityDescription
         {
-            [HarmonyPostfix]
-            public static void Postfix(ref string __result)
+            [HarmonyFinalizer]
+            public static void Finalizer(ref string __result)
             {
-                __result = __result.Replace("\n<b> Unlockable Affinities: </b>", "");
+                if (string.IsNullOrEmpty(__result)) return;
+
+                __result = __result.Replace("<b> Unlockable Affinities: </b>\n\n", "");
                 __result = __result.Replace("</b>:", ":</b>").Replace(":\n", "\n");
+                __result = "<color=#a1a1a1>" + __result + "</color>";
+
+                var lines = RemoveWeightClassAffinity(__result).Select(line => Utilities.RichTextWrapper.WrapLine(line, 63));
+                __result = string.Join("\n", lines);
+                __result = "<size=12>" + __result + "</size>";
+            }
+
+            private static List<string> RemoveWeightClassAffinity(string text)
+            {
+                var lines = text.Split(["\n"], StringSplitOptions.None).ToList();
+                var result = new List<string>();
+
+                foreach (string line in lines)
+                {
+                    if (line.Contains("(20)"))
+                    {
+                        continue;
+                    }
+                    result.Add(line);
+                }
+
+                return result;
             }
         }
 
@@ -451,6 +476,11 @@ namespace BTX_ExpansionPack.Fixes.UI
             [HarmonyFinalizer]
             public static void Finalizer(ref string __result)
             {
+                if (string.IsNullOrEmpty(__result)) return;
+
+                __result = __result.Replace("\n\n <b><color=#ffcc00>Mech Quirks</color></b>", "");
+                __result = __result.Replace("<b>", "").Replace("</b>", "");
+
                 if (!Main.Settings.UI.MechTooltips.UseDefaultColors)
                 {
                     __result = __result.Replace("<color=#00cc00>", "<color=#85dbf6>"); // Special Traits (Light Blue)
@@ -458,13 +488,17 @@ namespace BTX_ExpansionPack.Fixes.UI
                     __result = __result.Replace("<color=#e40000>", "<color=#ff6961>"); // Bad Quirks (Pastel Red)
                 }
 
-                __result = __result.Replace("<b>", "").Replace("</b>", "");
-                __result = __result.Replace("Mech Quirks", "");
                 __result = Regex.Replace(__result, @"<color=#[0-9a-fA-F]{6,8}>\s*</color>", "", RegexOptions.IgnoreCase);
+                __result = Regex.Replace(__result, @"\s*\r?\n\s*", "\n");
+                __result = Regex.Replace(__result, @"(<color=[^>]+>)\n", "$1");
+                __result = Regex.Replace(__result, @"\n(</color>)", "$1");
                 __result = Regex.Replace(__result, @"(</color>)\s*(<color=)", "$1\n\n$2");
-                __result = Regex.Replace(__result, @"[ \t]*\r?\n[ \t\r\n]*", "\n");
                 __result = Regex.Replace(__result, @"^([ \t]*)([^:\n]+:)", "$1<b>$2</b>", RegexOptions.Multiline);
                 __result = __result.Trim();
+
+                var lines = __result.Split(["\n"], StringSplitOptions.None).Select(line => Utilities.RichTextWrapper.WrapLine(line, 63));
+                __result = string.Join("\n", lines);
+                __result = "<size=12>" + __result + "</size>";
             }
         }
     }

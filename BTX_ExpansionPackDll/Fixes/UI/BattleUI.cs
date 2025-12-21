@@ -30,10 +30,27 @@ namespace BTX_ExpansionPack.Fixes.UI
                 if (__result.EndsWith(")"))
                 {
                     __result = __result.Replace("(", "<size=75%>(").Replace(")", ")</size>");
+                    return;
                 }
-                else if (Main.Settings.UI.Battle.ShowStandardVehicleVariant)
+
+                if (Main.Settings.UI.Battle.ShowStandardVehicleVariant)
                 {
-                    __result = $"{__result} <size=75%>(Standard)</size>";
+                    // Special case: Unique named vehicle
+                    if (__result.StartsWith(""") && __result.EndsWith("""))
+                    {
+                        return;
+                    }
+
+                    // Special case: Omni-vehicle
+                    string[] parts = __result.Split(' ');
+                    string lastPart = parts[parts.Length - 1];
+
+                    if (lastPart == "PRIME" || (lastPart.Length == 1 && char.IsUpper(lastPart[0])))
+                    {
+                        return;
+                    }
+
+                    __result += " <size=75%>(Standard)</size>";
                 }
             }
         }
@@ -126,7 +143,6 @@ namespace BTX_ExpansionPack.Fixes.UI
             public static string ShortenDescription(string description) =>
                 description.Replace("Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.", "")
                            .Replace("Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.", "").Trim();
-
 
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
