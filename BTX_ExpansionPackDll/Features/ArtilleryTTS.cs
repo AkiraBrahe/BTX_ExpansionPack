@@ -1,4 +1,4 @@
-﻿using BattleTech;
+﻿﻿using BattleTech;
 using BattleTech.UI;
 using BTX_ExpansionPack.Helpers;
 using CustAmmoCategories;
@@ -16,7 +16,6 @@ namespace BTX_ExpansionPack.Features
         public static class WeaponArtilleryHelper_CreateStrikeInvocation
         {
             [HarmonyPrefix]
-            [HarmonyWrapSafe]
             public static void Prefix(AbstractActor unit)
             {
                 var weapons = unit.GetArtilleryStrike(out var position);

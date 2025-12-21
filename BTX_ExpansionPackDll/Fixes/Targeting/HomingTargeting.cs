@@ -63,7 +63,6 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         public static class AIThreatUtil_SortHostileUnitsByThreat
         {
             [HarmonyPostfix]
-            [HarmonyWrapSafe]
             public static void Postfix(AbstractActor thisUnit, List<ICombatant> units)
             {
                 if (!thisUnit.StatCollection.GetValue<bool>("HasHomingArrowIV"))

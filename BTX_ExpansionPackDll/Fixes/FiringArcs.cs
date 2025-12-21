@@ -1,4 +1,4 @@
-﻿using BattleTech;
+﻿﻿using BattleTech;
 using CustomUnits;
 using UnityEngine;
 
@@ -13,7 +13,6 @@ namespace BTX_ExpansionPack.Fixes
         public static class Mech_IsTargetPositionInFiringArc
         {
             [HarmonyPrefix]
-            [HarmonyWrapSafe]
             [HarmonyPriority(Priority.First)]
             public static bool Prefix(ref bool __runOriginal, Mech __instance, ICombatant targetUnit, Vector3 attackPosition, Quaternion attackRotation, Vector3 targetPosition, ref bool __result)
             {
@@ -53,7 +52,6 @@ namespace BTX_ExpansionPack.Fixes
         public static class Vehicle_IsTargetPositionInFiringArc
         {
             [HarmonyPrefix]
-            [HarmonyWrapSafe]
             [HarmonyPriority(Priority.First)]
             public static bool Prefix(ref bool __runOriginal, Vehicle __instance, ICombatant targetUnit, Vector3 attackPosition, Quaternion attackRotation, Vector3 targetPosition, ref bool __result)
             {

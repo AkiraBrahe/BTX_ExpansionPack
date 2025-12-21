@@ -1,4 +1,4 @@
-﻿using BattleTech;
+﻿﻿using BattleTech;
 using BattleTech.UI;
 using CustomUnits;
 using Localize;
@@ -15,7 +15,6 @@ namespace BTX_ExpansionPack.Fixes
         public static class LanceConfiguratorPanel_OnConfirmClicked_NoBiome
         {
             [HarmonyPrefix]
-            [HarmonyWrapSafe]
             [HarmonyBefore("io.mission.customunits")]
             public static bool Prefix(ref bool __runOriginal, LanceConfiguratorPanel __instance)
             {
@@ -101,7 +100,6 @@ namespace BTX_ExpansionPack.Fixes
             public static bool Prepare() => !Main.Settings.Gameplay.AllowVehiclesInMechDuels;
 
             [HarmonyPrefix]
-            [HarmonyWrapSafe]
             [HarmonyBefore("io.mission.customunits")]
             public static void Prefix(ref bool __runOriginal, LanceConfiguratorPanel __instance, ref bool __result)
             {

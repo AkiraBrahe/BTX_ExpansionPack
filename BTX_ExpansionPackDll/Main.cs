@@ -3,13 +3,10 @@ using BattleTech.Data;
 using BattleTech.UI;
 using BTX_ExpansionPack.Features;
 using BTX_ExpansionPack.Helpers;
-using CustomSettings;
 using HBS.Logging;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Reflection;
 

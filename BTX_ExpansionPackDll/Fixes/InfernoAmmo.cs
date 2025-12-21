@@ -44,7 +44,6 @@ namespace BTX_ExpansionPack.Fixes
         public static class InfernoExplode
         {
             [HarmonyPrefix]
-            [HarmonyWrapSafe]
             [HarmonyBefore("com.github.mcb5637.BTX_CAC_Compatibility")]
             public static bool Prefix(AmmunitionBox __instance, ComponentDamageLevel damageLevel, bool applyEffects, WeaponHitInfo hitInfo)
             {

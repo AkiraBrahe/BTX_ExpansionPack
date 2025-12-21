@@ -51,7 +51,6 @@ namespace BTX_ExpansionPack.Fixes.UI
             public static bool Prepare() => Main.HasPlayableVehicles && Main.Settings.Gameplay.EnableVehiclePartialRefit;
 
             [HarmonyPostfix]
-            [HarmonyAfter("io.mission.customunits")]
             public static void Postfix()
             {
                 CustomUnits.Core.Settings.VehcilesPartialEditable = true;
@@ -90,8 +89,8 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
         public static class MechLabPanel_LoadMech_InitializationTracker
         {
-            [HarmonyFinalizer]
-            public static void Finalizer(MechDef newMechDef)
+            [HarmonyPostfix]
+            public static void Postfix(MechDef newMechDef)
             {
                 if (newMechDef != null && !newMechDef.IsVehicle())
                     IsMechLabInitializedByMech = true;
@@ -102,7 +101,6 @@ namespace BTX_ExpansionPack.Fixes.UI
         public static class MechBayMechInfoWidget_OnMechLabClicked
         {
             [HarmonyPrefix]
-            [HarmonyAfter("io.mission.customunits")]
             public static bool Prefix(ref bool __runOriginal, MechBayMechInfoWidget __instance)
             {
                 if (!__runOriginal) return true;
@@ -398,8 +396,9 @@ namespace BTX_ExpansionPack.Fixes.UI
         [Obsolete("Temporary patch until the next CAC-C update.", false)]
         public static class AmmunitionBoxDef_FromJSON
         {
-            [HarmonyFinalizer]
-            public static void Finalizer(AmmunitionBoxDef __instance)
+            [HarmonyPostfix]
+            [HarmonyPriority(Priority.Last)]
+            public static void Postfix(AmmunitionBoxDef __instance)
             {
                 if (__instance?.Description?.UIName?.EndsWith(")") == true)
                 {
@@ -432,8 +431,9 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(ChassisDef), "FromJSON")]
         public static class ChassisDef_FromJSON
         {
-            [HarmonyFinalizer]
-            public static void Finalizer(ChassisDef __instance)
+            [HarmonyPostfix]
+            [HarmonyPriority(Priority.Last)]
+            public static void Postfix(ChassisDef __instance)
             {
                 if (__instance.IsVehicle())
                 {
@@ -455,8 +455,9 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(PilotAffinityManager), "getMechChassisAffinityDescription", [typeof(ChassisDef)])]
         public static class PilotAffinityManager_getMechChassisAffinityDescription
         {
-            [HarmonyFinalizer]
-            public static void Finalizer(ref string __result)
+            [HarmonyPostfix]
+            [HarmonyPriority(Priority.Last)]
+            public static void Postfix(ref string __result)
             {
                 if (string.IsNullOrEmpty(__result)) return;
 
@@ -493,8 +494,9 @@ namespace BTX_ExpansionPack.Fixes.UI
         [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirks", [typeof(ChassisDef)])]
         public static class QuirkToolTips_DetailMechQuirks
         {
-            [HarmonyFinalizer]
-            public static void Finalizer(ref string __result)
+            [HarmonyPostfix]
+            [HarmonyPriority(Priority.Last)]
+            public static void Postfix(ref string __result)
             {
                 if (string.IsNullOrEmpty(__result)) return;
 

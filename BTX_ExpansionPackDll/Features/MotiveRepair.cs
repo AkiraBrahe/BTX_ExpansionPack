@@ -1,4 +1,4 @@
-﻿using BattleTech;
+﻿﻿using BattleTech;
 using BattleTech.UI;
 using CustAmmoCategories;
 using System;
@@ -108,7 +108,6 @@ namespace BTX_ExpansionPack.Features
         public static class AITeam_getInvocationForCurrentUnit
         {
             [HarmonyPrefix]
-            [HarmonyWrapSafe]
             public static void Prefix(AITeam __instance)
             {
                 var unit = __instance.currentUnit;

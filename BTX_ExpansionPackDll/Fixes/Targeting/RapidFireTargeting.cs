@@ -16,7 +16,6 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         public static class Mech_InitStats
         {
             [HarmonyPostfix]
-            [HarmonyAfter("BEX.BattleTech.Extended_CE")]
             public static void Postfix(Mech __instance)
             {
                 bool hasAATargeting = (MechQuirkInfo.MechQuirkStore.TryGetValue(__instance.MechDef.Chassis.Description.Id, out var quirk) && quirk.AntiAircraftTargeting) ||

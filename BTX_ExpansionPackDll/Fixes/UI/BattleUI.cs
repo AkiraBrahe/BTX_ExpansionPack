@@ -62,8 +62,6 @@ namespace BTX_ExpansionPack.Fixes.UI
         public static class CombatHUDActorDetailsDisplay_RefreshInfo
         {
             [HarmonyPostfix]
-            [HarmonyWrapSafe]
-            [HarmonyAfter("io.mission.customunits")]
             public static void Postfix(CombatHUDActorDetailsDisplay __instance)
             {
                 if (__instance.DisplayedActor is not Mech mech || !mech.FakeVehicle()) return;

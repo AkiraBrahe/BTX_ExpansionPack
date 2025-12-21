@@ -1,4 +1,4 @@
-﻿using BattleTech;
+﻿﻿using BattleTech;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -36,7 +36,6 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         public static class AIThreatUtil_SortHostileUnitsByThreat
         {
             [HarmonyPostfix]
-            [HarmonyWrapSafe]
             public static void Postfix(List<ICombatant> units)
             {
                 var mechBuildingPairs = units

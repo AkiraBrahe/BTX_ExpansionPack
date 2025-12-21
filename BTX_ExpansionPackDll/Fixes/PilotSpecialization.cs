@@ -22,7 +22,6 @@ namespace BTX_ExpansionPack.Fixes
         public static class SimGameState_FirstTimeInitializeDataFromDefs
         {
             [HarmonyPostfix]
-            [HarmonyAfter("io.mission.customunits")]
             public static void Postfix(SimGameState __instance)
             {
                 bool isInTeamVenom = __instance.CompanyTags.Contains("start_team_venom");

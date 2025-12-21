@@ -1,4 +1,4 @@
-﻿using BattleTech;
+﻿﻿using BattleTech;
 using BEXTimeline;
 using System;
 using System.Collections.Generic;
@@ -53,7 +53,6 @@ namespace BTX_ExpansionPack.Features
         public static class SimGameState_InitializeDataFromDefs
         {
             [HarmonyPostfix]
-            [HarmonyWrapSafe]
             public static void Postfix(SimGameState __instance)
             {
                 if (Main.HasPlayableVehicles)
