@@ -21,8 +21,9 @@ namespace BTX_ExpansionPack.Helpers
         public static bool IsMissileThreatened(this AbstractActor unit)
         {
             float predictedMissileDamage = 0f;
+            var detectedEnemies = unit.lance.team.GetDetectedEnemyUnits().Where(enemy => !enemy.IsDead).ToList();
 
-            foreach (var enemy in unit.lance.team.GetDetectedEnemyUnits())
+            foreach (var enemy in detectedEnemies)
             {
                 float distance = Vector3.Distance(enemy.CurrentPosition, unit.CurrentPosition);
                 if (distance <= 60f)

@@ -100,7 +100,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         {
             var attacker = weapon.parent;
 
-            var detectedEnemies = attacker.team.GetDetectedEnemyUnits().Where(target => weapon.IsOutsideSafeRange(attacker.CurrentPosition, target.CurrentPosition, out _)).ToList();
+            var detectedEnemies = attacker.team.GetDetectedEnemyUnits().Where(target => !target.IsDead && weapon.IsOutsideSafeRange(attacker.CurrentPosition, target.CurrentPosition, out _)).ToList();
             if (detectedEnemies.Count < 2)
             {
                 return originalPosition;
