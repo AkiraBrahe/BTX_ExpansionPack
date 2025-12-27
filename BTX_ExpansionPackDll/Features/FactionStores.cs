@@ -1,4 +1,4 @@
-﻿﻿using BattleTech;
+﻿using BattleTech;
 using BEXTimeline;
 using System;
 using System.Collections.Generic;
@@ -34,20 +34,28 @@ namespace BTX_ExpansionPack.Features
             { "starsystemdef_TauCeti(NewEarth2116+)", "Steiner" }
         };
 
-        private static readonly Dictionary<string, List<string>> TimelineFactionStores = new()
+        private static readonly HashSet<string> MechOnlyStartingFactionStores =
+        [
+            "starsystemdef_Inarcs",
+            "starsystemdef_Irece",
+            "starsystemdef_Menke",
+            "starsystemdef_Northwind"
+        ];
+
+        private static readonly Dictionary<string, List<string>> VehicleOnlyTimelineStores = new()
         {
+            { "3032-01-01T00:00:00", new List<string> { "starsystemdef_Betelgeuse" } },
             { "3036-01-01T00:00:00", new List<string> { "starsystemdef_Spittal" } },
             { "3042-01-01T00:00:00", new List<string> { "starsystemdef_Alphard(MH)" } },
             { "3050-01-01T00:00:00", new List<string> { "starsystemdef_Orestes" } },
             { "3052-01-01T00:00:00", new List<string> { "starsystemdef_Ruchbah" } },
-            { "3058-01-01T00:00:00", new List<string> { "starsystemdef_Warlock" } },
             { "3064-01-01T00:00:00", new List<string> { "starsystemdef_Bristol" } },
             { "3068-01-01T00:00:00", new List<string> { "starsystemdef_Arcturus", "starsystemdef_Benet", "starsystemdef_Melissia" } }
         };
 
         /// <summary>
-        /// Adds custom faction stores after Inner Sphere Map has finished overwriting the StarSystemDefs files.
-        /// Also conditionally removes timeline-based faction stores when vehicles are not playable.
+        /// Adds custom faction stores after Inner Sphere Map has finished updating the StarSystemDefs files.
+        /// Also handles missing shop switch entries and conditionally removes vehicle stores if vehicles are not playable.
         /// </summary>
         [HarmonyPatch(typeof(SimGameState), "InitializeDataFromDefs")]
         public static class SimGameState_InitializeDataFromDefs
@@ -55,46 +63,62 @@ namespace BTX_ExpansionPack.Features
             [HarmonyPostfix]
             public static void Postfix(SimGameState __instance)
             {
-                if (Main.HasPlayableVehicles)
+                var dataManager = __instance.DataManager;
+
+                foreach (var shopEntry in StartingFactionStores)
                 {
-                    var dataManager = __instance.DataManager;
+                    string systemId = shopEntry.Key;
 
-                    foreach (var shopEntry in StartingFactionStores)
+                    if (!Main.HasPlayableVehicles && !MechOnlyStartingFactionStores.Contains(systemId))
+                        continue;
+
+                    if (dataManager.SystemDefs.TryGet(systemId, out var systemDef))
                     {
-                        string systemId = shopEntry.Key;
-                        if (dataManager.SystemDefs.TryGet(systemId, out var systemDef))
-                        {
-                            string itemCollectionId = $"itemCollection_factoryHolder_{SanitizeSystemDefId(systemId)}";
-                            systemDef.FactionShopOwner = systemDef.Owner;
-                            systemDef.FactionShopItems ??= [];
+                        string itemCollectionId = $"itemCollection_factoryHolder_{SanitizeSystemDefId(systemId)}";
+                        systemDef.FactionShopOwner = systemDef.Owner;
+                        systemDef.FactionShopItems ??= [];
 
-                            if (!systemDef.FactionShopItems.Contains(itemCollectionId))
-                            {
-                                systemDef.FactionShopItems.Add(itemCollectionId);
-                            }
+                        if (!systemDef.FactionShopItems.Contains(itemCollectionId))
+                        {
+                            systemDef.FactionShopItems.Add(itemCollectionId);
                         }
                     }
                 }
-                else
+
+                if (!Main.HasPlayableVehicles)
                 {
                     var factionShops = Core.Settings.FactionShopCreation;
-                    if (factionShops == null) return;
-
-                    foreach (var entry in TimelineFactionStores)
+                    if (factionShops != null)
                     {
-                        if (DateTime.TryParse(entry.Key, out var date))
+                        foreach (var entry in VehicleOnlyTimelineStores)
                         {
-                            if (factionShops.TryGetValue(date, out var shopsOnDate))
+                            if (DateTime.TryParse(entry.Key, out var date))
                             {
-                                foreach (string systemId in entry.Value)
+                                if (factionShops.TryGetValue(date, out var shopsOnDate))
                                 {
-                                    shopsOnDate.Remove(systemId);
+                                    foreach (string systemId in entry.Value)
+                                    {
+                                        shopsOnDate.Remove(systemId);
+                                    }
                                 }
                             }
                         }
                     }
                 }
             }
+        }
+
+        /// <summary>
+        /// Removes vehicles from shops if they are not playable.
+        /// </summary>
+        [HarmonyPatch(typeof(Shop), "RefreshShop")]
+        public static class Shop_RefreshShop
+        {
+            [HarmonyPrepare]
+            public static bool HarmonyPrepare() => !Main.HasPlayableVehicles;
+
+            [HarmonyPostfix]
+            public static void Postfix(Shop __instance) => __instance.ActiveInventory?.RemoveAll(x => x.ID.StartsWith("vehicledef_"));
         }
 
         /// <summary>
