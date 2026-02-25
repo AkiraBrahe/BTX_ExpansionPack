@@ -3,7 +3,7 @@
 A BattleTech Extended mod that aims to add tons of new content, including new 'Mechs, vehicles, and weapons, as well as extend the timeline into the 3060s.
 
 > [!IMPORTANT]
-> Version 1.0 focuses on adding playable vehicles and related features to BattleTech Extended Tactics. Moving forward, you can expect more frequent updates bringing back the 100+ new 'Mechs and extending the timeline to the FedCom Civil War.
+> Version 1.0 focused on adding playable vehicles and related features. The next update will focus on adding back the 100+ new 'Mechs from v0.9 to the faction stores and rosters. **ETA: H1 2026**
 
 ## Installation
 
@@ -40,17 +40,18 @@ The Expansion Pack includes a complete vehicle overhaul, allowing you to command
 * **Partial Vehicle Refit:** Customize your vehicles by swapping weapons and ammunition to fine-tune their combat role.
 > [!NOTE]  
 > Vehicle refit is limited. You can replace existing weapons and ammo, but cannot add or remove any equipment.
-* **Pilot Specialization:** Pilots specialize in either 'Mech or vehicle piloting. The Lifepath system has been adjusted to make 'Mech-capable pilots rarer in certain systems and the early game, with conventional pilots having the possibility to gain 'Mech piloting ability later.
+* **Pilot Specialization:** Pilots can drive 'Mechs, vehicles, or both. The Lifepath system has been changed, resulting in fewer 'Mech-capable pilots early on. Conventional pilots may learn to drive 'Mechs as they get more experienced.
 * **Motive Repair Ability:** Pilots have the ability to repair motive system debuffs.
 * **Vehicle CASE:** Implements CASE functionality for vehicles, converting critical ammunition explosions to rear damage instead of vehicle destruction.
 * **Vehicle Pilot Injuries:** Pilots suffer injuries from component and ammunition explosions (including vehicle destruction). CASE-equipped vehicles prevent explosion-related injuries.
 
 ### New Content
-The Expansion Pack pushes the timeline into the 3060s and will eventually include most 'Mechs and equipment from after the Clan Invasion up to 3067. It also adds new weapons that were made possible by CAC-C, like new artillery systems.
+The Expansion Pack pushes the timeline into the 3060s and will eventually include most 'Mechs and equipment from after the Clan Invasion up to 3067. It also includes new weapons made possible by CAC-C, such as 'Mech mortars and rapid-fire autocannons.
 
 #### 'Mechs
 > [!IMPORTANT]
-> All v0.9 'Mechs are being added back as a priority now that the new features are complete.
+> More 'Mechs will be added back to the faction stores and rosters as soon as the mod is updated to v1.1. **ETA: H1 2026**
+
 * **Clan 'Mechs:** All 31 Clan 'Mechs have been added back to their respective rosters. Note that 10 of them use a proxy model (**NEW**).
 * **Unique 'Mechs:**
   * The Yen-Lo-Wang is now an unique reward for completing the "Bourbon & BattleMechs" flashpoint. It can be upgraded after September 3050 to its CN9-YLW2 configuration for 10 million C-bills (**NEW**).
@@ -64,7 +65,7 @@ The Expansion Pack pushes the timeline into the 3060s and will eventually includ
 > - AoE damage is split across all hit locations. However, strikes have a chance to inflict a critical hit, focusing most damage on a single location. This chance increases as the impact center lands closer to the target (up to 50%).
 > - The Mech Bay UI displays the combined total damage for artillery (Direct + AoE).
 * **Rapid-Fire Autocannons:** New AC variants with reduced damage but improved accuracy against evasive targets. Also provide wide-area missile defense (like an AMS). Exclusive to anti-air 'Mechs (e.g., Rifleman) and always used by AI-controlled variants.
-* **Infantry:** Infantry complements serve as unkillable, integrated weapons for APCs, always utilizing their maximum capacity.
+* **Infantry:** Infantry complements serve as unkillable, integrated weapons for APCs, always carrying their maximum capacity.
 * **Specialized Ammunition:**
   * **Homing Arrow IV:** Allow for direct artillery strikes on TAG'd enemies.
   * **Swarm LRMs:** Ignore cover and can hit adjacent units on a miss.
