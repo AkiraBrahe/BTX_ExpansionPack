@@ -2,6 +2,7 @@
 using BEXTimeline;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 
@@ -16,6 +17,7 @@ namespace BTX_ExpansionPack.Features
             { "starsystemdef_Belladonna", "Davion" },
             { "starsystemdef_BrokenWheel", "Davion" },
             { "starsystemdef_Carver(Liberty3063+)", "Liao" },
+            { "starsystemdef_Dieron", "Kurita" },
             { "starsystemdef_Inarcs", "Steiner" },
             { "starsystemdef_Indicass", "Liao" },
             { "starsystemdef_Irece", "Kurita" },
@@ -31,15 +33,18 @@ namespace BTX_ExpansionPack.Features
             { "starsystemdef_Salem", "Davion" },
             { "starsystemdef_Skye", "Steiner" },
             { "starsystemdef_Sterope(NewTaurus)", "TaurianConcordat" },
-            { "starsystemdef_TauCeti(NewEarth2116+)", "Steiner" }
+            { "starsystemdef_TauCeti(NewEarth2116+)", "Steiner" },
+            { "starsystemdef_Vega", "Kurita" },
         };
 
         private static readonly HashSet<string> MechOnlyStartingFactionStores =
         [
+            "starsystemdef_Dieron",
             "starsystemdef_Inarcs",
             "starsystemdef_Irece",
             "starsystemdef_Menke",
-            "starsystemdef_Northwind"
+            "starsystemdef_Northwind",
+            "starsystemdef_Vega"
         ];
 
         private static readonly Dictionary<string, List<string>> VehicleOnlyTimelineStores = new()
@@ -55,7 +60,7 @@ namespace BTX_ExpansionPack.Features
 
         /// <summary>
         /// Adds custom faction stores after Inner Sphere Map has finished updating the StarSystemDefs files.
-        /// Also handles missing shop switch entries and conditionally removes vehicle stores if vehicles are not playable.
+        /// Also removes vehicle-only faction stores if vehicles are not playable and handles missing shop switch entries.
         /// </summary>
         [HarmonyPatch(typeof(SimGameState), "InitializeDataFromDefs")]
         public static class SimGameState_InitializeDataFromDefs
@@ -63,24 +68,22 @@ namespace BTX_ExpansionPack.Features
             [HarmonyPostfix]
             public static void Postfix(SimGameState __instance)
             {
-                var dataManager = __instance.DataManager;
-
                 foreach (var shopEntry in StartingFactionStores)
                 {
                     string systemId = shopEntry.Key;
 
-                    if (!Main.HasPlayableVehicles && !MechOnlyStartingFactionStores.Contains(systemId))
-                        continue;
-
-                    if (dataManager.SystemDefs.TryGet(systemId, out var systemDef))
+                    if (Main.HasPlayableVehicles || MechOnlyStartingFactionStores.Contains(systemId))
                     {
-                        string itemCollectionId = $"itemCollection_factoryHolder_{SanitizeSystemDefId(systemId)}";
-                        systemDef.FactionShopOwner = systemDef.Owner;
-                        systemDef.FactionShopItems ??= [];
-
-                        if (!systemDef.FactionShopItems.Contains(itemCollectionId))
+                        if (__instance.DataManager.SystemDefs.TryGet(systemId, out var systemDef))
                         {
-                            systemDef.FactionShopItems.Add(itemCollectionId);
+                            string itemCollectionId = $"itemCollection_factoryHolder_{SanitizeSystemDefId(systemId)}";
+                            systemDef.FactionShopOwner = systemDef.Owner;
+                            systemDef.FactionShopItems ??= [];
+
+                            if (!systemDef.FactionShopItems.Contains(itemCollectionId))
+                            {
+                                systemDef.FactionShopItems.Add(itemCollectionId);
+                            }
                         }
                     }
                 }
@@ -103,6 +106,22 @@ namespace BTX_ExpansionPack.Features
                                 }
                             }
                         }
+                    }
+                }
+
+                var shopSwitch = Core.Settings.ShopSwitch;
+                if (shopSwitch != null)
+                {
+                    foreach (var kvp in shopSwitch)
+                    {
+                        string baseId = kvp.Key;
+
+                        kvp.Value.RemoveAll(year =>
+                        {
+                            bool missing = !__instance.DataManager.Exists(BattleTechResourceType.ItemCollectionDef, baseId + year);
+                            if (missing) Main.Log.Log($"[FactionStores] Missing ItemCollectionDef for ShopSwitch: {baseId}{year}");
+                            return missing;
+                        });
                     }
                 }
             }
