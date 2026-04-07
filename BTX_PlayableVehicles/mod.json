@@ -3,7 +3,7 @@
   "Enabled": true,
   "Version": "1.0",
 
-  "Description": "Allow recruitment of vehicle pilots and add vehicles to the various stores.<br>Optionally, add infantry complements as weapons for APCs and VTOL transport units.",
+  "Description": "Lets you hire vehicle pilots and adds vehicles to the different stores.<br>Optionally, adds infantry complements as weapons for APCs and VTOL transport units.",
   "Author": "lordruthermore",
 
   "DependsOn": [ "BTX_CAC_Compatibility" ],
