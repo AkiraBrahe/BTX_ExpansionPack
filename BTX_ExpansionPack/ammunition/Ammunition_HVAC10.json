@@ -17,5 +17,7 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
+  "APCriticalChanceMultiplier": 1,
+  "APMaxArmorThickness": 120,
   "HideIfOnlyVariant": true
 }

@@ -19,6 +19,7 @@
         public bool OverrideDHSEngineCooling { get; set; } = true;
         public double DHSEngineCoolingMultiplier { get; set; } = 1.5;
         public bool DisableNonStandardAmmoBins { get; set; } = false;
+        public bool GaussDealThroughArmorCrits { get; set; } = true;
     }
 
     public class UISettings

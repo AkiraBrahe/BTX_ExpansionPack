@@ -19,7 +19,6 @@
   "ISDamageModifier": 1,
   "AccuracyModifier": 1,
   "CriticalDamageModifier": 1,
-  "CriticalChanceMultiplier": 0,
-  "APArmorShardsMod": -1,
-  "APCriticalChanceMultiplier": 0.08
+  "APCriticalChanceMultiplier": 2.5,
+  "APMaxArmorThickness": 60
 }

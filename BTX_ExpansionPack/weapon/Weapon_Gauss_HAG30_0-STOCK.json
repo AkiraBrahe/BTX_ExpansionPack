@@ -41,7 +41,7 @@
     "UIName": "Clan HAG/30",
     "Id": "Weapon_Gauss_HAG30_0-STOCK",
     "Name": "Clan HAG/30",
-    "Details": "The Hyper-Assault Gauss Rifle is a variation on the Gauss rifle developed by Clan Hell's Horses. By employing multiple launch tubes and smaller-caliber Gauss slugs, HAGs achieve a high-rate-of-fire akin almost to Rotary Autocannons, making them very effective against battle armor and combat vehicles.\n\nGauss Rifles explode if destroyed, taking the entire mounted location with them.",
+    "Details": "The Hyper-Assault Gauss Rifle is a variation on the Gauss rifle developed by Clan Hell's Horses. By employing multiple launch tubes and smaller-caliber Gauss slugs, HAGs achieve a high rate of fire. While individual slugs have a lower chance to penetrate armor than a standard Gauss, the sheer volume of fire increases the likelihood of finding a weak point in the enemy's protection.\n\nGauss Rifles explode if destroyed, taking the entire mounted location with them.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA": "",

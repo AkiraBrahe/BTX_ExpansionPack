@@ -19,8 +19,8 @@
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
   "APDamage": 3,
-  "APMaxArmorThickness": 40,
-  "APCriticalChanceMultiplier": 0.5,
+  "APCriticalChanceMultiplier": 1.5,
+  "APMaxArmorThickness": 60,
   "CantHitUnaffecedByPathing": true,
   "AdditionalImpactVFX": "vfxPrfPrtl_weaponLRMExplosion",
   "AdditionalAudioEffect": "AudioEventList_explosion_explosion_small"
