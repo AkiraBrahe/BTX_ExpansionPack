@@ -1,1 +1,1 @@
-﻿global using HarmonyLib;
+global using HarmonyLib;

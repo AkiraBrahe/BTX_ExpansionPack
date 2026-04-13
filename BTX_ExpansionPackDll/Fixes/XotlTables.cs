@@ -1,10 +1,10 @@
-﻿using FullXotlTables;
+using FullXotlTables;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 
 namespace BTX_ExpansionPack.Fixes
 {
-    internal class UnitTables
+    internal class XotlTables
     {
         /// <summary>
         /// Migrates the unit tables to the "XotlTablesV2" folder.

@@ -104,7 +104,7 @@ namespace BTX_ExpansionPack
             Quirks.MechQuirks.modSettings.ShowBEXTRoleEffectsInMechLab = false;
 
             // Remove non-standard ammo bins from shops
-            if (Settings.Gameplay.DisableNonStandardAmmoBins)
+            if (Settings.Gameplay.RemoveNonStandardAmmoBins)
             {
                 if (BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces != null)
                 {
@@ -176,7 +176,7 @@ namespace BTX_ExpansionPack
                 {
                     Log.LogError($"Initialization failed.");
                     GenericPopupBuilder.Create(GenericPopupType.Warning,
-                        "There was a problem loading the Expansion Pack. Check your install, then restart the game.")
+                        "There was a problem loading the Expansion Pack.\nCheck your install, then restart the game.")
                         .AddButton("OK", null, true, null).Render();
                 }
             }

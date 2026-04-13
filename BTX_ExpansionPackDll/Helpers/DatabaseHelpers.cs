@@ -1,4 +1,4 @@
-﻿using BattleTech.Data;
+using BattleTech.Data;
 using System.Collections.Generic;
 
 namespace BTX_ExpansionPack.Helpers

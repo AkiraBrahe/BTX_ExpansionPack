@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using CustomAmmoCategoriesPatches;
 
 namespace BTX_ExpansionPack.Features
@@ -60,7 +60,6 @@ namespace BTX_ExpansionPack.Features
 
                         if (!mech.IsFlaggedForKnockdown) return;
                         mech.HandleKnockdown(-1, $"{mech.DisplayName}_FromSelfInstability", mech.CurrentPosition, null);
-
                         mech.DoneWithActor();
                         mech.OnActivationEnd(mech.GUID, -1);
                     }

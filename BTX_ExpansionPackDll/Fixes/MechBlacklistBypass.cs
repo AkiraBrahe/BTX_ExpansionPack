@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -18,9 +18,8 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyTargetMethod]
         public static MethodBase TargetMethod()
         {
-            var type = AccessTools.TypeByName("FellOffACargoShip.Cheater.Mech");
-            var method = AccessTools.Method(type, "<Add>g__AddMech|0_0");
-            return method;
+            var type = Type.GetType("FellOffACargoShip.Cheater.Mech, FellOffACargoShip");
+            return type != null ? AccessTools.Method(type, "<Add>g__AddMech|0_0") : null;
         }
 
         [HarmonyTranspiler]

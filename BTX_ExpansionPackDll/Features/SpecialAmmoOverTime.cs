@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using BEXTimeline;
 using BTX_ExpansionPack.Helpers;
 using System;

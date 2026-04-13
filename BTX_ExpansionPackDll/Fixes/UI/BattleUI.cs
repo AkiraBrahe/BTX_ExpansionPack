@@ -187,7 +187,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Shows full location names for mechs in the to-hit modifiers in battle.
         /// </summary>
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Mech), typeof(int)])]
-        [Obsolete("Use a method call replacement transpiler instead", false)]
+        [Obsolete("Use a method call replacement transpiler instead")]
         public static class ToHitModifiersHelper_GetToHitModifierName_Mech
         {
             [HarmonyPrepare]
@@ -238,7 +238,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Shows full location names for vehicles in the to-hit modifiers in battle.
         /// </summary>
         [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Vehicle), typeof(int)])]
-        [Obsolete("Use a method call replacement transpiler instead", false)]
+        [Obsolete("Use a method call replacement transpiler instead")]
         public static class ToHitModifiersHelper_GetToHitModifierName_Vehicle
         {
             [HarmonyPrepare]

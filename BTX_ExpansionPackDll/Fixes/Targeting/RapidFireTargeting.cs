@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using BTX_ExpansionPack.Helpers;
 using CustAmmoCategories;
 using Quirks.Quirks.MechEffects;

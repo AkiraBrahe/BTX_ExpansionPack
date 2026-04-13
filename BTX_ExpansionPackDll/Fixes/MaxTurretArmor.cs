@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 
 namespace BTX_ExpansionPack.Fixes
 {
@@ -20,4 +20,3 @@ namespace BTX_ExpansionPack.Fixes
         }
     }
 }
-

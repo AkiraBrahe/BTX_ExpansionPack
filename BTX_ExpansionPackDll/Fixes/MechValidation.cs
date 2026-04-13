@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using CustomComponents;
 using Localize;
 using System.Collections.Generic;
