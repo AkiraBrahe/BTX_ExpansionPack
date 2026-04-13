@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using CustAmmoCategories;
 using Extended_CE;
 using System;

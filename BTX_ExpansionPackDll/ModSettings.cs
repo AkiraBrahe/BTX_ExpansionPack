@@ -1,4 +1,4 @@
-﻿namespace BTX_ExpansionPack
+namespace BTX_ExpansionPack
 {
     public class ModSettings
     {
@@ -10,6 +10,7 @@
     {
         public bool AllDropShipUpgrades { get; set; } = false;
         public bool MechSizeLogging { get; set; } = false;
+        public bool DebugLogging { get; set; } = false;
     }
 
     public class GameplaySettings
@@ -18,7 +19,7 @@
         public bool AllowVehiclesInMechDuels { get; set; } = false;
         public bool OverrideDHSEngineCooling { get; set; } = true;
         public double DHSEngineCoolingMultiplier { get; set; } = 1.5;
-        public bool DisableNonStandardAmmoBins { get; set; } = false;
+        public bool RemoveNonStandardAmmoBins { get; set; } = false;
         public bool GaussDealThroughArmorCrits { get; set; } = true;
     }
 

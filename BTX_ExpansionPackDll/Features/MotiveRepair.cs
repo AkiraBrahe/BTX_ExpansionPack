@@ -1,4 +1,4 @@
-﻿﻿using BattleTech;
+using BattleTech;
 using BattleTech.UI;
 using CustAmmoCategories;
 using System;
@@ -67,7 +67,7 @@ namespace BTX_ExpansionPack.Features
                         int currentStacks = CalculateDebuffStacks(currentModValue, "CruiseSpeed");
                         int stacksToKeep = (int)Math.Floor(currentStacks / 5.0);
 
-                        float repairedAmount = 0f;
+                        float repairedAmount;
                         if (stacksToKeep < 4)
                         {
                             repairedAmount = Math.Abs(currentModValue);

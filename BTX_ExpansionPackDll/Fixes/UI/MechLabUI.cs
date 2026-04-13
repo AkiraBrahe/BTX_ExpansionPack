@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using BattleTech.Save;
 using BattleTech.UI;
 using BattleTech.UI.TMProWrapper;
@@ -120,7 +120,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         /// <summary>
-        /// Shows hardpoints and tonnage in the mech lab.
+        /// Shows hardpoints and tonnage in the mech lab for vehicles.
         /// </summary>
         [HarmonyPatch(typeof(RedusedMechLabMechInfoWidget), "Init")]
         public class RedusedMechLabMechInfoWidget_Init
@@ -393,7 +393,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         [HarmonyPatch(typeof(AmmunitionBoxDef), "FromJSON")]
-        [Obsolete("Temporary patch until the next CAC-C update.", false)]
+        [Obsolete("Temporary patch until the next CAC-C update.")]
         public static class AmmunitionBoxDef_FromJSON
         {
             [HarmonyPostfix]

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Title>Expansion Pack</Title>
     <Authors>Kierk</Authors>
@@ -33,7 +33,8 @@
     <Compile Remove="Features\AdditionalLances_Comstar.cs" />
     <Compile Remove="Features\UrbanDevastation.cs" />
     <Compile Remove="Fixes\Targeting\SwarmTargeting.cs" />
-    <Compile Remove="Fixes\UnitTables.cs" />
+    <Compile Remove="Fixes\XotlTables.cs" />
+    <Compile Remove="Utilities\AffinityDebugger.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="HarmonyX" Version="2.13.0">
@@ -64,7 +65,10 @@
     </Reference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(BattleTechGameDir)\Mods\.modtek\AssembliesInjected\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass" />
     <Reference Include="BEXTimeline">
       <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_Timeline\BEXTimeline.dll</HintPath>
     </Reference>

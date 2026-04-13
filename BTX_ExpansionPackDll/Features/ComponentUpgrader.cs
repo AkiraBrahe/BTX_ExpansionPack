@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using BTRandomMechComponentUpgrader;
 using BTX_CAC_CompatibilityDll;
 using CustomUnits;

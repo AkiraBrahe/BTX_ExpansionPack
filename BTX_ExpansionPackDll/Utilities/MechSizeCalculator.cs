@@ -1,4 +1,4 @@
-﻿using BattleTech.UI;
+using BattleTech.UI;
 using CustomUnits;
 using System;
 using System.Collections.Generic;

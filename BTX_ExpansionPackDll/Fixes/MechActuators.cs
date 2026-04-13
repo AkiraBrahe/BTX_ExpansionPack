@@ -1,4 +1,5 @@
-﻿using Extended_CE;
+using BattleTech;
+using Extended_CE;
 using Newtonsoft.Json;
 using System.IO;
 using System.Linq;

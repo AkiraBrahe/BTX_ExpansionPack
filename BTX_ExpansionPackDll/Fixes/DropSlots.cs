@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using BiggerDrops.Features;
 using System;
 using System.Linq;

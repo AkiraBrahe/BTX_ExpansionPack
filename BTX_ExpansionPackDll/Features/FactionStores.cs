@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using BEXTimeline;
 using System;
 using System.Collections.Generic;

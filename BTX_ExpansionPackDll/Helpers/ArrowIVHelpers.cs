@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using CustAmmoCategories;
 
 namespace BTX_ExpansionPack.Helpers
