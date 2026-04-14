@@ -7,6 +7,7 @@ using HBS.Logging;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 
@@ -23,6 +24,7 @@ namespace BTX_ExpansionPack
         internal static ModSettings Settings { get; private set; }
         private static bool initSuccess = true;
 
+        public static bool HasAdvancedMechLab { get; private set; }
         public static bool HasPlayableVehicles => BTSimpleMechAssembly.Assembly.Settings.SalvageAndAssembleVehicles;
 
         public static void Init(string directory, string settingsJSON)
@@ -33,6 +35,7 @@ namespace BTX_ExpansionPack
             try
             {
                 Settings = JsonConvert.DeserializeObject<ModSettings>(settingsJSON) ?? new ModSettings();
+                HasAdvancedMechLab = Directory.Exists(Path.Combine(Path.GetDirectoryName(directory), "BTX_AdvancedMechLab"));
                 harmony = new Harmony(HarmonyInstanceId);
                 InjectCustomLanceData(MetadataDatabase.Instance);
                 ApplyHarmonyPatches();
@@ -63,25 +66,27 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Dehydrate"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
 
             // --- BattleTech Extended ---
-            /* Weather Conditions */
-            harmony.Unpatch(AccessTools.PropertyGetter(typeof(Contract), "ShortDescription"), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
-            /* Temp Jump Jets */
-            harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
             /* Firing Arc Quirks */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
             /* Stock Role Tooltip */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabMechInfoWidget), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+            /* Temp Jump Jets */
+            harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+            /* Weather Conditions */
+            harmony.Unpatch(AccessTools.PropertyGetter(typeof(Contract), "ShortDescription"), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
 
             // --- CAC-C ---
+            /* Actuators */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "InitStats"), HarmonyPatchType.Prefix, "com.github.mcb5637.BTX_CAC_Compatibility");
             /* Drop Slots Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
 
             // --- Custom Units ---
-            /* Piloting Expertise */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PilotGenerator), "GeneratePilots"), HarmonyPatchType.Postfix, "io.mission.customunits");
             /* Location Labels */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(LanceMechEquipmentList), "SetLoadout", []), HarmonyPatchType.Postfix, "io.mission.customunits");
+            /* Piloting Expertise */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PilotGenerator), "GeneratePilots"), HarmonyPatchType.Postfix, "io.mission.customunits");
 
             // --- Mech Affinity ---
             /* Stock Config Tooltip */
@@ -96,12 +101,9 @@ namespace BTX_ExpansionPack
             Quirks.MechQuirks.modSettings.AntiAircraftTargetingToHit = -4;
 
             // Override DHS engine cooling
-            Extended_CE.Core.Settings.DHSEngineCooling = Settings.Gameplay.OverrideDHSEngineCooling
+            Extended_CE.Core.Settings.DHSEngineCooling = HasAdvancedMechLab ? 60 : Settings.Gameplay.OverrideDHSEngineCooling
                 ? (int)Math.Round(30 * Settings.Gameplay.DHSEngineCoolingMultiplier)
                 : Extended_CE.Core.Settings.DHSEngineCooling;
-
-            // Hide role description in mech lab
-            Quirks.MechQuirks.modSettings.ShowBEXTRoleEffectsInMechLab = false;
 
             // Remove non-standard ammo bins from shops
             if (Settings.Gameplay.RemoveNonStandardAmmoBins)

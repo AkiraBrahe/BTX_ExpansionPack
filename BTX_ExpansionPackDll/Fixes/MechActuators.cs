@@ -45,5 +45,28 @@ namespace BTX_ExpansionPack.Fixes
 
             patched = true;
         }
+
+        /// <summary>
+        /// Ensures that mech stats added by CAC-C are reinitialized correctly in combat.
+        /// </summary>
+        [HarmonyPatch(typeof(Mech), "InitStats")]
+        [HarmonyBefore("BEX.BattleTech.Extended_CE", "io.mission.customdeploy")]
+        public static class Mech_InitStats
+        {
+            [HarmonyPrefix]
+            public static void Prefix(AbstractActor __instance)
+            {
+                if (!__instance.Combat.IsLoadingFromSave)
+                {
+                    __instance.StatCollection.AddStatistic("SensorLockDefense", 0f);
+                    __instance.StatCollection.AddStatistic("IndirectImmuneFloat", 0f);
+                    __instance.StatCollection.AddStatistic("DefendedByECM", 0f);
+                    __instance.StatCollection.AddStatistic("LightAccuracy", 0f);
+                    __instance.StatCollection.AddStatistic("NARCCount", 0f);
+                    __instance.StatCollection.AddStatistic("TAGCount", 0f);
+                    __instance.StatCollection.AddStatistic("TAGCountClan", 0f);
+                }
+            }
+        }
     }
 }

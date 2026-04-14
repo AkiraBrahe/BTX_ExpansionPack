@@ -6,14 +6,12 @@
   "Description": "Lets you hire vehicle pilots and adds vehicles to the different stores.<br>Optionally, adds infantry complements as weapons for APCs and VTOL transport units.",
   "Author": "lordruthermore",
 
-  "DependsOn": [ "BTX_CAC_Compatibility" ],
-  "OptionallyDependsOn": [ "BTX_ExpansionPack" ],
+  "DependsOn": [ "BTX_ExpansionPack"  ],
 
   "Manifest": [
     { "Type": "AdvancedJSONMerge", "Path": "advancedMerge" },
     { "Type": "ItemCollectionDef", "Path": "itemCollections" },
     { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
-    { "Type": "ItemCollectionDef", "Path": "itemCollectionsFactories" },
 
     { "Type": "AdvancedJSONMerge", "Path": "infantry/vehicle" },
     { "Type": "AdvancedJSONMerge", "Path": "infantry/vehicleChassis" },

@@ -2,6 +2,10 @@
 
 This mod incorporates code and/or concepts from the following open-source projects, each licensed under the MIT or LGPL licenses:
 
+## Armor Repair
+Author: Life (citizenSnippy)<br>
+Source: https://github.com/citizenSnippy/ArmorRepair
+
 ## BTX_CAC_Compatibility *(CAC-C)*
 Author: mcb<br>
 Source: https://github.com/mcb5637/BTX_CAC_Compatibility

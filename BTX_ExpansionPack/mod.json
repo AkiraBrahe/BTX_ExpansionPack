@@ -1,7 +1,7 @@
 {
   "Name": "BTX_ExpansionPack",
   "Enabled": true,
-  "Version": "1.1-beta2",
+  "Version": "1.1",
 
   "Description": "Adds hundreds of new mechs and vehicles up until the late 3060s, alongside various new features.",
   "Author": "Kierk",
@@ -18,7 +18,7 @@
       "AllowVehiclesInMechDuels": false,
       "OverrideDHSEngineCooling": true,
         "DHSEngineCoolingMultiplier": 1.5,
-      "DisableNonStandardAmmoBins": false
+      "RemoveNonStandardAmmoBins": false
     },
     "UI": {
       "Battle": {
@@ -52,7 +52,8 @@
     { "Type": "ChassisDef", "Path": "chassisHardpoints", "ShouldMergeJSON": true },
     { "Type": "ChassisDef", "Path": "chassisMerge", "ShouldMergeJSON": true },
     { "Type": "ChassisDef", "Path": "chassisOmni", "ShouldMergeJSON": true },
-    { "Type": "ContractOverride", "Path": "contracts", "ShouldMergeJSON": false },
+    { "Type": "ContractOverride", "Path": "contracts" },
+    //{ "Type": "BaseDescriptionDef", "Path": "descriptions" },
     { "Type": "DesignMaskDef", "Path": "designMasks" },
     { "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
     { "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
@@ -61,8 +62,8 @@
     { "Type": "SVGAsset", "Path": "icons" },
     { "Type": "ItemCollectionDef", "Path": "itemCollections" },
     { "Type": "ItemCollectionDef", "Path": "itemCollectionsAppend", "ShouldAppendText": true },
-    //{ "Type": "ItemCollectionDef", "Path": "itemCollectionsFactories" },
-    //{ "Type": "JumpJetDef", "Path": "jumpjets" },
+    { "Type": "ItemCollectionDef", "Path": "itemCollectionsFactories" },
+    { "Type": "JumpJetDef", "Path": "jumpjets" },
     { "Type": "LanceDef", "Path": "lance", "AddToDB": true },
     { "Type": "MechDef", "Path": "mech", "AddToDB": true },
     { "Type": "MechDef", "Path": "mechMerge", "ShouldMergeJSON": true },
@@ -77,6 +78,7 @@
     { "Type": "VehicleDef", "Path": "vehicle", "AddToDB":true },
     { "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
     { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
+    { "Type": "WeaponDef", "Path": "weaponMerge", "ShouldMergeJSON": true },
     { "Type": "WeaponAddonDef", "Path": "weaponAddons" }
   ]
 }
