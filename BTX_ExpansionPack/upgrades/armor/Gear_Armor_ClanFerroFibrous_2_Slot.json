@@ -1,0 +1,48 @@
+{
+  "Custom": {
+    "Category": {
+      "CategoryID": "Blocker"
+    },
+    "Flags": [
+      "autorepair",
+      "no_remove",
+      "no_salvage",
+      "hide"
+    ],
+    "Sorter": 1
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Clans",
+    "Model": "(Clan Ferro-Fibrous Armor)",
+    "UIName": "Ferro-Fibrous",
+    "Id": "Gear_Armor_ClanFerroFibrous_2_Slot",
+    "Name": "Ferro-Fibrous",
+    "Details": "Clan Ferro-Fibrous armor uses a more advanced weave of specialized fibers, providing a 20% increase in protection per ton over standard armor while taking up half the space of standard ferro-fibrous armor.",
+    "Icon": "uixSvgIcon_action_end"
+  },
+  "BonusValueA": "Saves Weight",
+  "BonusValueB": "Takes Spaces",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

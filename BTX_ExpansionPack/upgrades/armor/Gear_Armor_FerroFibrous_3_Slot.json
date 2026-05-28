@@ -1,0 +1,48 @@
+{
+  "Custom": {
+    "Category": {
+      "CategoryID": "Blocker"
+    },
+    "Flags": [
+      "autorepair",
+      "no_remove",
+      "no_salvage",
+      "hide"
+    ],
+    "Sorter": 1
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "(Ferro-Fibrous Armor)",
+    "UIName": "Ferro-Fibrous",
+    "Id": "Gear_Armor_FerroFibrous_3_Slot",
+    "Name": "Ferro-Fibrous",
+    "Details": "Ferro-Fibrous armor uses a weave of ferro-steel, ferro-titanium, and diamond-weave fibers which boosts the tensile strength of the plating, providing a 12% increase in protection per ton over standard armor, but taking up more space on the 'Mech.",
+    "Icon": "uixSvgIcon_action_end"
+  },
+  "BonusValueA": "Saves Weight",
+  "BonusValueB": "Takes Spaces",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

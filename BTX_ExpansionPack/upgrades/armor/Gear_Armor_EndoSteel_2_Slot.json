@@ -1,0 +1,48 @@
+{
+  "Custom": {
+    "Category": {
+      "CategoryID": "Blocker"
+    },
+    "Flags": [
+      "autorepair",
+      "no_remove",
+      "no_salvage",
+      "hide"
+    ],
+    "Sorter": 1
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "(Endo Steel Chassis)",
+    "UIName": "Endo Steel",
+    "Id": "Gear_Armor_EndoSteel_2_Slot",
+    "Name": "Endo Steel",
+    "Details": "Endo Steel was designed especially for use in BattleMech skeletons. Using zero-G manufacturing techniques that uniformly mix high-density steel with lower-density titanium and aluminum, the process produces a metal twice as strong per unit of weight as standard skeleton materials thus halving the weight of the chassis, but at an increase in overall bulk.",
+    "Icon": "uixSvgIcon_action_end"
+  },
+  "BonusValueA": "Saves Weight",
+  "BonusValueB": "Takes Spaces",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

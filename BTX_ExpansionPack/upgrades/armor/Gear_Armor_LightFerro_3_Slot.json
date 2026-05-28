@@ -1,0 +1,48 @@
+{
+  "Custom": {
+    "Category": {
+      "CategoryID": "Blocker"
+    },
+    "Flags": [
+      "autorepair",
+      "no_remove",
+      "no_salvage",
+      "hide"
+    ],
+    "Sorter": 1
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "(Light Ferro-Fibrous Armor)",
+    "UIName": "Light Ferro",
+    "Id": "Gear_Armor_LightFerro_3_Slot",
+    "Name": "Light Ferro",
+    "Details": "A lighter variation of standard Ferro-Fibrous armor. By utilizing a less dense fiber weave, it provides a 6% increase in protection per ton over standard plating while requiring less internal space than standard ferro.",
+    "Icon": "uixSvgIcon_action_end"
+  },
+  "BonusValueA": "Saves Weight",
+  "BonusValueB": "Takes Spaces",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Custom": {
+    "Category": {
+      "CategoryID": "Blocker"
+    },
+    "Flags": [
+      "autorepair",
+      "no_remove",
+      "no_salvage",
+      "hide"
+    ],
+    "Sorter": 1
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "(Reflective Armor)",
+    "UIName": "Reflective",
+    "Id": "Gear_Armor_Reflective_3_Slot",
+    "Name": "Reflective",
+    "Details": "Reflective Armor is a specialized type of armor featuring a multi-layered heat-reflective coating. It much more efficiently dissipates laser and PPC fire, halving the damage taken from energy weapons. It is also extremely brittle, which increases the damage taken from melee and artillery attacks.",
+    "Icon": "uixSvgIcon_action_end"
+  },
+  "BonusValueA": "- 50% Energy Dmg.",
+  "BonusValueB": "+ 50% Melee/AoE Dmg., Takes Space",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

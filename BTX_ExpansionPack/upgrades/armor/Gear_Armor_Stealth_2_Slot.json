@@ -1,0 +1,48 @@
+{
+  "Custom": {
+    "Category": {
+      "CategoryID": "Blocker"
+    },
+    "Flags": [
+      "autorepair",
+      "no_remove",
+      "no_salvage",
+      "hide"
+    ],
+    "Sorter": 1
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "(Stealth Armor)",
+    "UIName": "Stealth",
+    "Id": "Gear_Armor_Stealth_2_Slot",
+    "Name": "Stealth",
+    "Details": "Stealth Armor is the modern day equivalent of the Star League-era Null Signature System. It mimics the advantages of the NullSig when linked with a Guardian ECM Suite, providing superior stealth capabilities at the cost of more internal bulk.",
+    "Icon": "uixSvgIcon_action_end"
+  },
+  "BonusValueA": "Gains Stealth",
+  "BonusValueB": "Takes Spaces",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "CenterTorso",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

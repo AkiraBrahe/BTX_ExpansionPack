@@ -1,0 +1,48 @@
+{
+  "Custom": {
+    "Category": {
+      "CategoryID": "Blocker"
+    },
+    "Flags": [
+      "autorepair",
+      "no_remove",
+      "no_salvage",
+      "hide"
+    ],
+    "Sorter": 1
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "(Reactive Armor)",
+    "UIName": "Reactive",
+    "Id": "Gear_Armor_Reactive_4_Slot",
+    "Name": "Reactive",
+    "Details": "Reactive Armor is a specialized type of armor designed to neutralize incoming explosions through a series of microscopic detonations. It is especially effective against missiles, artillery, and mortars, as it redirects the blast away from the 'Mech's chassis.",
+    "Icon": "uixSvgIcon_action_end"
+  },
+  "BonusValueA": "Halves Indirect Dmg.",
+  "BonusValueB": "Takes Spaces",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 0,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "not_critable",
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
