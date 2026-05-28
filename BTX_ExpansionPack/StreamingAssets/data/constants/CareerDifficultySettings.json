@@ -1395,7 +1395,7 @@
           "ID": "diff_UltralightsOnly",
           "Name": "Ultralight",
           "DifficultyValue": 0,
-          "CareerScoreModifier": 0.10,
+          "CareerScoreModifier": 0.1,
           "DifficultyConstants": [
             {
               "ConstantType": "CareerMode",
@@ -1432,7 +1432,7 @@
           "Name": "Established Company",
           "TelemetryEventDesc": "",
           "DifficultyValue": 0,
-          "CareerScoreModifier": -0.10,
+          "CareerScoreModifier": -0.1,
           "DifficultyConstants": [
             {
               "ConstantType": "CareerMode",
@@ -1642,7 +1642,7 @@
           "ID": "diff_Hard",
           "Name": "Hard",
           "DifficultyValue": 1,
-          "CareerScoreModifier": 0.10,
+          "CareerScoreModifier": 0.1,
           "DifficultyConstants": [
             {
               "ConstantType": "Story",
@@ -2018,7 +2018,7 @@
           "Name": "Upgraded+",
           "TelemetryEventDesc": "",
           "DifficultyValue": 0,
-          "CareerScoreModifier": 0.10,
+          "CareerScoreModifier": 0.1,
           "DifficultyConstants": [
             {
               "ConstantType": "AdditionalSettings",

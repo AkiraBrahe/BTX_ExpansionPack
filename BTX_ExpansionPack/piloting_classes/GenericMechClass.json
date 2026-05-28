@@ -4,8 +4,12 @@
     "Name": "__/PILOTING.MECH/__",
     "Details": "Mechs"
   },
-  "UnitTags": [ "unit_piloting_type_generic_mech" ],
-  "PilotTags": [ "pilot_mech_pilot" ],
+  "UnitTags": [
+    "unit_piloting_type_generic_mech"
+  ],
+  "PilotTags": [
+    "pilot_mech_pilot"
+  ],
   "ExcludeClasses": [],
   "expertiseGenerationChance": 1,
   "expertiseGenerationMinCount": 1

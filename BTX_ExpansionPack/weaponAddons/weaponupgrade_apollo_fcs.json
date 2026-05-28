@@ -1,0 +1,14 @@
+{
+  "Id": "weaponupgrade_apollo_fcs",
+  "targetComponentTags": [
+    "apollo_fcs_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "MRM_Base",
+      "HitGenerator": "Cluster",
+      "ClusteringModifier": 5,
+      "AccuracyModifier": -1
+    }
+  ]
+}

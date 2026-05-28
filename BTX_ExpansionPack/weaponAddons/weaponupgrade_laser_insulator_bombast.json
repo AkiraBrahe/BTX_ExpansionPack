@@ -1,0 +1,21 @@
+{
+  "Id": "weaponupgrade_laser_insulator_bombast",
+  "addonType": "weaponupgrade_laser_insulator",
+  "targetComponentTags": [
+    "laser_insulator_bombast_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "LASER_Min",
+      "HeatGeneratedModifier": -0.15
+    },
+    {
+      "Id": "LASER_Half",
+      "HeatGeneratedModifier": -0.15
+    },
+    {
+      "Id": "LASER_Full",
+      "HeatGeneratedModifier": -0.15
+    }
+  ]
+}

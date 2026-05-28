@@ -68,14 +68,14 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+      "ComponentDefID": "Weapon_Flamer_FlamerVehicle_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+      "ComponentDefID": "Weapon_Flamer_FlamerVehicle_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Rear",
       "HardpointSlot": 1,

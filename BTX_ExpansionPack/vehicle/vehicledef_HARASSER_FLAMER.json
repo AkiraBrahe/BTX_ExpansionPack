@@ -69,7 +69,7 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+      "ComponentDefID": "Weapon_Flamer_FlamerVehicle_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,

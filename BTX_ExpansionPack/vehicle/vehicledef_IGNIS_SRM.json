@@ -14,8 +14,7 @@
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
       "unit_release",
-      "unit_veepack",
-      "unit_new"
+      "unit_veepack"
     ],
     "tagSetSourceFile": ""
   },
@@ -70,14 +69,14 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+      "ComponentDefID": "Weapon_Flamer_FlamerVehicle_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Left",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+      "ComponentDefID": "Weapon_Flamer_FlamerVehicle_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Right",
       "HardpointSlot": 0,

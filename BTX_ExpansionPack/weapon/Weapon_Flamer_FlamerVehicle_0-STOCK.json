@@ -35,7 +35,7 @@
     "Manufacturer": "General Motors",
     "Model": "Heat Damage Flamethrower",
     "UIName": "Vehicle Flamer",
-    "Id": "Weapon_Flamer_VehicleFlamer_0-STOCK",
+    "Id": "Weapon_Flamer_FlamerVehicle_0-STOCK",
     "Name": "Vehicle Flamer",
     "Details": "The Vehicle Flamer performs the same as a 'Mech-mounted Flamer, venting superheated gases at a target to cause it to overheat/burn up. As most non-'Mech combat units lack expensive fusion reactors, vehicle flamers instead draw from a pool of combusting \"ammunition\" and use that to generate the stream of hot gas.",
     "Icon": "uixSvgIcon_weapon_Support"

@@ -1,0 +1,17 @@
+{
+  "Id": "weaponupgrade_laser_insulator",
+  "addonType": "weaponupgrade_laser_insulator",
+  "targetComponentTags": [
+    "laser_insulator_attachable"
+  ],
+  "modes": [
+    {
+      "Id": "LMode_Std",
+      "HeatGeneratedModifier": -0.15
+    },
+    {
+      "Id": "LMode_LowPower",
+      "HeatGeneratedModifier": -0.15
+    }
+  ]
+}

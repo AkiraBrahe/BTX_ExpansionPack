@@ -11,8 +11,7 @@
       "unit_armor_medium",
       "unit_speed_high",
       "unit_release",
-      "unit_veepack",
-      "unit_new"
+      "unit_veepack"
     ],
     "tagSetSourceFile": ""
   },
@@ -21,7 +20,7 @@
     "Id": "vehicledef_HARRIER",
     "Name": "Harrier Heavy Hover Tank",
     "UIName": "Harrier Heavy Hover Tank (Standard)",
-    "Details": "<b>Name: <color=#85DBF6>Harrier Heavy Hover Tank</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>265 Fusion</color></b>\n\nOriginally commissioned by the SLDF for BattleMech operations, the Harrier was primarily used for cavalry and reconnaissance. The design experienced a resurgence following the Drillson's revival of fusion-powered hovercrafts and the Federated Commonwealth's capture of Carver V during the Fourth Succession War.\n\nThe Harrier has a Large Laser as its primary weapon, backed up at close range by an SRM-6 launcher fed by one ton of ammunition. A single Medium Laser covers the rear arc of the vehicle.",
+    "Details": "<b>Name: <color=#85DBF6>Harrier Heavy Hover Tank</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>265 Fusion</color></b>\n\nOriginally commissioned by the SLDF for BattleMech operations, the Harrier was primarily used for cavalry and reconnaissance. The design experienced a resurgence following the Drillson's revival of fusion-powered hovercraft and the Federated Commonwealth's capture of Carver V during the Fourth Succession War.\n\nThe Harrier has a Large Laser as its primary weapon, backed up at close range by an SRM-6 launcher fed by one ton of ammunition. A single Medium Laser covers the rear arc of the vehicle.",
     "Icon": "uixVhclIcon_harrier",
     "Cost": 2725000,
     "Rarity": 0,

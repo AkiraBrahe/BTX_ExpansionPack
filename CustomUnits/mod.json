@@ -48,7 +48,7 @@
     "HidePassiveAbilitiesIcon": "ram",
     "overallDeploySize": 4,
     "CountContractMaxUnits4AsUnlimited": false,
-    "ConvoyMaxDistFromOther": 200,
+    "ConvoyMaxDistFromOther": 300,
     "ConvoyMaxDistFromPlayer": 300,
     "ConvoyMaxDistFromRoute": 90,
     "ConvoyRouteBeaconVFXScale": {
@@ -565,6 +565,7 @@
         "PrefabIdentifier": "PPC",
         "HardpointCandidates": {
           "ppc": 1.0,
+          "gauss": 0.8,
           "ac20": 0.8,
           "laser": 0.7,
           "flamer": 0.7,
