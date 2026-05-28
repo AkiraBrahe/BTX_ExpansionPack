@@ -1,0 +1,59 @@
+{
+  "Custom": {
+    "ActivatableComponent": {
+      "ExplodeOnDamage": true,
+      "CanNotBeActivatedManualy": true,
+      "NoUniqueCheck": true,
+      "Explosion": {
+        "Range": 30,
+        "Damage": 45,
+        "HeatDamage": 45,
+        "Stability": 30,
+        "Chance": 0.3,
+        "ExplosionMessage": "Fuel Tank Exploded",
+        "FireTerrainChance": 0.65,
+        "FireDurationWithoutForest": 2,
+        "FireTerrainStrength": 10,
+        "FireTerrainCellRadius": 2,
+        "VFX": "vfxPrfPrtl_artilleryExplosion",
+        "VFXScaleX": 0.6,
+        "VFXScaleY": 0.6,
+        "VFXScaleZ": 0.6
+      }
+    }
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 10000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Generic",
+    "Model": "I.C.E. / Fuel Cell Engine",
+    "UIName": "Extended Fuel Tank",
+    "Id": "Gear_Extended_Fuel_Tank_1t",
+    "Name": "Extended Fuel Tank (1t)",
+    "Details": "Fuel tank which allows I.C.E. and Fuel Cell powered vehicles to operate for extended periods of time.",
+    "Icon": "uixSvgIcon_equipment_Gyro"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Torso",
+  "DisallowedLocations": "Head, Arms, Legs",
+  "CriticalComponent": true,
+  "statusEffects": null,
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

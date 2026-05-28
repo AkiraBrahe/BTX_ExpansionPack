@@ -1,0 +1,63 @@
+{
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Ceres Metals",
+    "Model": "",
+    "UIName": "CM COIL Range Improvements",
+    "Id": "Gear_General_CM_COIL_Range_Improvement",
+    "Name": "CM COIL Range Improvements",
+    "Details": "Ceres Metals adjustments to the targeting systems integration of the mounts on the Vindicator allow for more accurate COIL fire at range.",
+    "Icon": "UixSvgIcon_specialEquip_System"
+  },
+  "BonusValueA": "-2 Range Penalty",
+  "BonusValueB": "for COILs",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "RightTorso, RightArm",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect-VND-COILLongRangePenaltyReduce",
+        "Name": "COIL LONG RANGE PENALTIES REDUCED",
+        "Details": "Removes long range hit penalties.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "LongRangeModifier",
+        "operation": "Float_Subtract",
+        "modValue": "2.0",
+        "modType": "System.Single",
+        "targetCollection": "Weapon",
+        "targetWeaponType": "COIL"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Custom": {
+    "Sorter": 0
+  }
+}

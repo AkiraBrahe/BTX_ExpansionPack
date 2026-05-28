@@ -1,20 +1,31 @@
 {
+  "Custom": {
+    "AddonReference": {
+      "installedLocationOnly": false,
+      "autoTarget": true,
+      "notTargetable": false,
+      "WeaponAddonIds": [
+        "weaponupgrade_tts_artillery_level_3"
+      ]
+    },
+    "Sorter": 255
+  },
   "StatName": null,
   "RelativeModifier": 0,
   "AbsoluteModifier": 0,
   "Description": {
-    "Cost": 1050000,
-    "Rarity": 4,
+    "Cost": 1540000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "Tacticon",
-    "Model": "Tracer 300",
-    "UIName": "TTS +",
-    "Id": "Gear_TargetingTrackingSystem_Tacticon_Tracer-300",
-    "Name": "Tacticon Tracer 300 TTS",
+    "Model": "Tracer 150b",
+    "UIName": "TTS + +",
+    "Id": "Gear_TargetingTrackingSystem_Tacticon_Tracer-150b",
+    "Name": "Tacticon Tracer 150b TTS",
     "Details": "All 'Mechs come equipped with a stock targeting and tracking system—or TTS—which can be upgraded for improved performance. A dedicated artillery TTS not only increases the accuracy of the attached artillery system but also enables automatic retargeting: when using the ATTACK GROUND ability, artillery strikes will automatically shift toward the nearest enemy, with the maximum shift distance depending on the TTS level.",
     "Icon": "uixSvgIcon_equipment_TTS"
   },
-  "BonusValueA": "+ 2 Acc. (Artillery)",
+  "BonusValueA": "+ 3 Acc. (Artillery)",
   "BonusValueB": "+ Aim Shift",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -41,7 +52,7 @@
       "Description": {
         "Id": "StatusEffect-Attack_ToHitArtillery",
         "Name": "ARTILLERY TTS",
-        "Details": "Direct strikes have their hit improved by [AMT] and indirect strikes automatically shift towards the nearest enemy.",
+        "Details": "Direct strikes have their hit improved by [AMT]. Indirect strikes automatically shift towards the nearest enemy.",
         "Icon": "uixSvgIcon_equipment_TTS"
       },
       "nature": "Buff",
@@ -49,7 +60,7 @@
         "Location": "{target}",
         "statName": "AccuracyModifier",
         "operation": "Float_Add",
-        "modValue": "-2.0",
+        "modValue": "-3.0",
         "modType": "System.Single",
         "targetCollection": "Weapon"
       }
@@ -77,7 +88,7 @@
         "Location": "{target}",
         "statName": "CAC_AMSAttractiveness",
         "operation": "Float_Add",
-        "modValue": "2.0",
+        "modValue": "3.0",
         "modType": "System.Single",
         "targetCollection": "Weapon"
       }
@@ -86,19 +97,8 @@
   "ComponentTags": {
     "items": [
       "component_type_variant",
-      "component_type_variant2"
+      "component_type_variant3"
     ],
     "tagSetSourceFile": ""
-  },
-  "Custom": {
-    "AddonReference": {
-      "installedLocationOnly": false,
-      "autoTarget": true,
-      "notTargetable": false,
-      "WeaponAddonIds": [
-        "weaponupgrade_tts_artillery_level_2"
-      ]
-    },
-    "Sorter": 255
   }
 }

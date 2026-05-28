@@ -1,0 +1,47 @@
+{
+  "Custom": {
+    "AddonReference": {
+      "installedLocationOnly": true,
+      "autoTarget": true,
+      "notTargetable": false,
+      "WeaponAddonIds": [
+        "weaponupgrade_laser_insulator",
+        "weaponupgrade_laser_insulator_bombast"
+      ]
+    },
+    "Sorter": 255
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 120000,
+    "Rarity": 2,
+    "Purchasable": false,
+    "Manufacturer": "Varied",
+    "Model": "Weapon Attachment",
+    "UIName": "Laser Insulator",
+    "Id": "Gear_Addon_Laser_Insulator",
+    "Name": "Laser Insulator",
+    "Details": "The Laser Insulator is a component designed to reduce heat produced by laser weapons. It works by isolating the laser weapon from the rest of the 'Mech, preventing heat from transferring to other components.",
+    "Icon": "uixSvgIcon_special_Equipment"
+  },
+  "BonusValueA": "- 15% Heat",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
