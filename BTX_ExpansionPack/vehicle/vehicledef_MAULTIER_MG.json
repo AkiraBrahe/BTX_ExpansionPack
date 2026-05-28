@@ -1,0 +1,87 @@
+{
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.75-0.5-0.75",
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_light",
+      "unit_hover",
+      "role_scout",
+      "unit_lance_vanguard",
+      "unit_range_short",
+      "unit_armor_medium",
+      "unit_speed_high",
+      "NoBiome_lunarVacuum",
+      "NoBiome_martianVacuum",
+      "unit_release",
+      "unit_veepack"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "vehiclechassisdef_MAULTIER_MG",
+  "Description": {
+    "Id": "vehicledef_MAULTIER_MG",
+    "Name": "Maultier Hover APC",
+    "UIName": "Maultier Hover APC (MG)",
+    "Details": "<b>Name: <color=#85DBF6>Maultier Hover APC (MG)</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>9/14 (Hover)</color>\tEngine: <color=#85DBF6>50 ICE</color></b>\n\nThe Maultier is a 15-ton hover APC that was designed to transport an entire platoon of infantry, like its larger cousin the Maxim.\n\nThis variant expands on the intermediate version by replacing the SRM with a Machine Gun, bringing the infantry bay capacity to four tons.",
+    "Icon": "uixVhclIcon_maultier",
+    "Cost": 173000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 55,
+      "CurrentInternalStructure": 10,
+      "AssignedArmor": 55,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Motive_Hover",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3070-01-01T00:00:00Z"
+}
