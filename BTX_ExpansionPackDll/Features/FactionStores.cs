@@ -2,7 +2,6 @@ using BattleTech;
 using BEXTimeline;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 
@@ -90,7 +89,7 @@ namespace BTX_ExpansionPack.Features
 
                 if (!Main.HasPlayableVehicles)
                 {
-                    var factionShops = Core.Settings.FactionShopCreation;
+                    var factionShops = BEXTimeline.Core.Settings.FactionShopCreation;
                     if (factionShops != null)
                     {
                         foreach (var entry in VehicleOnlyTimelineStores)
@@ -109,7 +108,7 @@ namespace BTX_ExpansionPack.Features
                     }
                 }
 
-                var shopSwitch = Core.Settings.ShopSwitch;
+                var shopSwitch = BEXTimeline.Core.Settings.ShopSwitch;
                 if (shopSwitch != null)
                 {
                     foreach (var kvp in shopSwitch)

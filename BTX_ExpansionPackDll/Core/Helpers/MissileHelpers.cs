@@ -4,7 +4,7 @@ using CustomUnits;
 using System.Linq;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Helpers
+namespace BTX_ExpansionPack.Core.Helpers
 {
     /// <summary>
     /// Helpers for missile-related functionality.

@@ -3,8 +3,11 @@ using CustAmmoCategories;
 using System;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Helpers
+namespace BTX_ExpansionPack.Core.Helpers
 {
+    /// <summary>
+    /// Helpers for artillery weapons, including TTS level and safe range calculations.
+    /// </summary>
     public static class ArtilleryHelpers
     {
         /// <summary>

@@ -1,7 +1,6 @@
 using BattleTech;
 using BattleTech.UI;
 using BTSimpleMechAssembly;
-using BTX_ExpansionPack.Helpers;
 using CustAmmoCategories;
 using CustAmmoCategoriesPatches;
 using CustomUnits;

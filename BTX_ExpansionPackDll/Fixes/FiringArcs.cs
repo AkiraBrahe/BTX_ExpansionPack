@@ -1,4 +1,4 @@
-﻿using BattleTech;
+using BattleTech;
 using CustomUnits;
 using UnityEngine;
 
@@ -93,8 +93,8 @@ namespace BTX_ExpansionPack.Fixes
             if (mech is (Mech or QuadMech) and not TrooperSquad)
             {
                 float distance = Vector3.Distance(attackPosition, targetUnit.CurrentPosition);
-                if (distance < Core.Settings.CloseRangeFiringArcDistance)
-                    return Core.Settings.CloseRangeFiringArc;
+                if (distance < 40f)
+                    return 40f;
 
                 var tags = mech.MechDef?.Chassis?.ChassisTags;
                 if (tags?.Contains("mech_quirk_notorsotwist") == true)

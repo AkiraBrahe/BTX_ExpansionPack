@@ -2,7 +2,6 @@ using BattleTech;
 using BattleTech.Data;
 using BattleTech.UI;
 using BTX_ExpansionPack.Features;
-using BTX_ExpansionPack.Helpers;
 using HBS.Logging;
 using Newtonsoft.Json;
 using System;

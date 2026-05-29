@@ -1,17 +1,18 @@
 using BattleTech.Data;
 using System.Collections.Generic;
 
-namespace BTX_ExpansionPack.Helpers
+namespace BTX_ExpansionPack.Core.Helpers
 {
     /// <summary>
-    /// Helpers for database operations.
+    /// Helpers for datababase operations on dynamic lance compositions.
     /// </summary>
     public static class DatabaseHelpers
     {
+        // TODO: Move these lance compositions to another file in Core, and add more for other factions and special mission types.
         #region Lance Compositions
 
         /// <summary>
-        /// Definition for lance compositions used in ComStar and Clans missions.
+        /// Definition for lance compositions used by ComStar and the Clans.
         /// </summary>
         public class LanceComposition
         {

@@ -1,7 +1,7 @@
 using BattleTech;
 using System.Collections.Generic;
 
-namespace BTX_ExpansionPack.Helpers
+namespace BTX_ExpansionPack.Core.Helpers
 {
     /// <summary>
     /// Helpers for naming chassis locations based on unit tags.

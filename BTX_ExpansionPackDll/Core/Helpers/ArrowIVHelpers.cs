@@ -1,7 +1,7 @@
 using BattleTech;
 using CustAmmoCategories;
 
-namespace BTX_ExpansionPack.Helpers
+namespace BTX_ExpansionPack.Core.Helpers
 {
     /// <summary>
     /// Helpers for the Arrow IV missile system and its homing ammunition.
