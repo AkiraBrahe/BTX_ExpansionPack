@@ -47,6 +47,7 @@ namespace BTX_ExpansionPack
             catch (Exception ex)
             {
                 initSuccess = false;
+                Log.LogError("Initialization failed.");
                 Log.LogException(ex);
             }
         }
@@ -79,7 +80,7 @@ namespace BTX_ExpansionPack
 
             // --- CAC-C ---
             /* Actuators */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "InitStats"), HarmonyPatchType.Prefix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "InitStats"), AccessTools.DeclaredMethod(typeof(BTX_CAC_CompatibilityDll.AbstractActor_InitStats), "Prefix"));
             /* Drop Slots Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
@@ -136,12 +137,20 @@ namespace BTX_ExpansionPack
 
         internal static void ApplyCacOverrides()
         {
+            // Remove drop validator for inventory blockers 
+            CustomComponents.Validator.rep_drop_validators.RemoveAll(d =>
+                d.Method.DeclaringType.Name == "MovableBlockers" &&
+                d.Method.Name == "ReplaceValidateDropDelegate"
+            );
+
+            // Replace HM mortar with actual mech mortars
             if (BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces != null)
             {
                 BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces["Gear_Mortar_MechMortar"].ID = "itemCollection_Weapons_MechMortars";
                 BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces["Gear_Mortar_MechMortar"].Amount = 1;
             }
 
+            // Update splits for new ammo bins and artillery weapons, remove non-salvageable SLDF weapons, and rename inventory blockers.
             if (BTX_CAC_CompatibilityDll.Main.Splits != null)
             {
                 BTX_CAC_CompatibilityDll.Main.Splits.Remove("Ammo_AmmunitionBox_Generic_SRM_Inferno_Half");
@@ -203,7 +212,7 @@ namespace BTX_ExpansionPack
             {
                 if (!initSuccess)
                 {
-                    Log.LogError($"Initialization failed.");
+                    Log.LogError("Initialization failed.");
                     GenericPopupBuilder.Create(GenericPopupType.Warning,
                         "There was a problem loading the Expansion Pack.\nCheck your install, then restart the game.")
                         .AddButton("OK", null, true, null).Render();

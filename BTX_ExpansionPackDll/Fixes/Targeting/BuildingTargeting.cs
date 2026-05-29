@@ -4,34 +4,11 @@ using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes.Targeting
 {
-    /// <summary>
-    /// Allows buildings to be targeted when a mech is standing on them.
-    /// </summary>
     internal class BuildingTargeting
     {
-        // [HarmonyPatch(typeof(AttackEvaluator), "MakeAttackOrder")]
-        // public static class AttackEvaluator_MakeAttackOrder
-        // {
-        //     [HarmonyPostfix]
-        //     public static void Postfix(BehaviorTreeResults __result)
-        //     {
-        //         if (__result.nodeState == BehaviorNodeState.Failure ||
-        //             __result.orderInfo is not AttackOrderInfo attackOrder)
-        //         {
-        //             return;
-        //         }
-        // 
-        //         if (attackOrder.TargetUnit is Mech mech && !mech.IsDead && !string.IsNullOrEmpty(mech.standingOnBuildingGuid))
-        //         {
-        //             var building = mech.Combat.FindCombatantByGUID(mech.standingOnBuildingGuid, true);
-        //             if (building != null)
-        //             {
-        //                 attackOrder.TargetUnit = building;
-        //             }
-        //         }
-        //     }
-        // }
-
+        /// <summary>
+        /// Allows buildings to be targeted when a mech is standing on them.
+        /// </summary>
         [HarmonyPatch(typeof(AIThreatUtil), "SortHostileUnitsByThreat")]
         public static class AIThreatUtil_SortHostileUnitsByThreat
         {

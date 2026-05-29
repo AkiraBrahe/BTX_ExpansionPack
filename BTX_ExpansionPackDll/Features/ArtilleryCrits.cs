@@ -15,7 +15,7 @@ namespace BTX_ExpansionPack.Features
     /// meaning closer targets have a higher chance of receiving a critical hit. It is capped at 50% to make them more special.</br>
     /// </summary>
     /// <remarks>
-    /// <list type="bullet">Artillery crit chance = (MaxCritChance - MinCritChance) * (1 - (DistanceToTarget / MaxEffectiveDistance)) + MinCritChance</list>
+    /// <list type="bullet">Artillery Crit Chance = (MaxCritChance - MinCritChance) * (1 - (DistanceToTarget / MaxEffectiveDistance)) + MinCritChance</list>
     /// </remarks>
     internal class ArtilleryCrits
     {

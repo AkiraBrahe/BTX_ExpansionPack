@@ -151,7 +151,7 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPostfix]
             public static void Postfix(ChassisDef chassisDef, ref string __result)
             {
-                if (chassisDef.ChassisTags.Contains("quirk_poor_performance"))
+                if (chassisDef.ChassisTags.Contains("mech_quirk_poor_performance"))
                 {
                     __result += "\nPoor Performance: 'Mech can only sprint if it has moved last turn";
                 }
@@ -176,7 +176,7 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPostfix]
             public static void Postfix(Mech __instance)
             {
-                if (__instance.MechDef.Chassis.ChassisTags.Contains("quirk_poor_performance"))
+                if (__instance.MechDef.Chassis.ChassisTags.Contains("mech_quirk_poor_performance"))
                 {
                     if (!CustomQuirkStore.ContainsKey(__instance.GUID))
                         CustomQuirkStore[__instance.GUID] = new CustomQuirkList();

@@ -25,11 +25,6 @@
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(BattleTechGameDir)\Mods\$(AssemblyName)\" />
   </Target>
   <ItemGroup>
-    <Compile Remove="References\**" />
-    <EmbeddedResource Remove="References\**" />
-    <None Remove="References\**" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Remove="Features\AdditionalLances_Comstar.cs" />
     <Compile Remove="Features\UrbanDevastation.cs" />
     <Compile Remove="Fixes\Targeting\SwarmTargeting.cs" />
@@ -45,16 +40,8 @@
     <Publicize Include="Assembly-CSharp" />
     <Publicize Include="BEXTimeline" />
     <Publicize Include="BTSimpleMechAssembly" />
+    <Publicize Include="BTX_CAC_CompatibilityDll" />
     <Publicize Include="MechQuirks" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.MechAutoFixer.HandleMech" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.AEPStatic" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionReplace" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Main" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.MovableBlockers.GetComponentSize" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.TonnageCalculation" />
-    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.WeaponAddonSplit" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="CustomAmmoCategories:CustAmmoCategoriesPatches.MoveStatusPreview_DisplayPreviewStatus.Prefix" />
     <Publicize Include="CustomUnits:CustomUnits.MoveClampHelper.moveClampCache" />
@@ -71,7 +58,6 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>$(BattleTechGameDir)\Mods\.modtek\AssembliesInjected\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass" />
     <Reference Include="BEXTimeline">
       <HintPath>$(BattleTechGameDir)\Mods\BT_Extended_Timeline\BEXTimeline.dll</HintPath>
     </Reference>

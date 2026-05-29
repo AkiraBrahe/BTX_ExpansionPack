@@ -6,9 +6,6 @@ using System.Reflection.Emit;
 
 namespace BTX_ExpansionPack.Fixes.Targeting
 {
-    /// <summary>
-    /// Fixes stray targeting for improved swarm ammunition to properly exclude allied units.
-    /// </summary>
     internal class SwarmTargeting
     {
         /// <summary>

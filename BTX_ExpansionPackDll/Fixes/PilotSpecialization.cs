@@ -106,13 +106,13 @@ namespace BTX_ExpansionPack.Fixes
         }
 
         /// <summary>
-        /// Removes the "AbilifierLoaded" tag when saving the game.
+        /// Removes the "AbilifierLoaded" tag when loading a saved game.
         /// </summary>
-        [HarmonyPatch(typeof(SimGameState), "Dehydrate")]
-        public static class SimGameState_Dehydrate
+        [HarmonyPatch(typeof(SimGameState), "Rehydrate")]
+        public static class SimGameState_Rehydrate_CleanupPatch
         {
-            [HarmonyPrefix]
-            public static void Prefix(SimGameState __instance)
+            [HarmonyPostfix]
+            public static void Postfix(SimGameState __instance)
             {
                 if (__instance.CompanyTags.Contains("AbilifierLoaded"))
                 {

@@ -26,7 +26,7 @@ namespace BTX_ExpansionPack.Fixes
             [HarmonyPostfix]
             public static void Postfix(SimGameState __instance)
             {
-                int updated = 0;
+                bool updated = false;
                 int baseTonnage = BiggerDrops.BiggerDrops.settings.defaultMaxTonnage;
 
                 if (Main.Settings.Debug.AllDropShipUpgrades)
@@ -50,7 +50,7 @@ namespace BTX_ExpansionPack.Fixes
                     UpdateStatistic(__instance, MaxTonnageStat, maxTonnage, ref updated);
                 }
 
-                if (updated >= 1) DropManager.UpdateCULances();
+                if (updated) DropManager.UpdateCULances();
                 Main.Log.Log($"Dropslot stats: " +
                     $"{BaseMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(BaseMechSlotsStat)}, " +
                     $"{AdditionalMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat)}, " +
@@ -78,17 +78,17 @@ namespace BTX_ExpansionPack.Fixes
                     .Sum(stat => stat.ToInt());
             }
 
-            private static void UpdateStatistic(SimGameState simGame, string statName, int value, ref int updated)
+            private static void UpdateStatistic(SimGameState simGame, string statName, int value, ref bool updated)
             {
                 if (!simGame.CompanyStats.ContainsStatistic(statName))
                 {
                     simGame.CompanyStats.AddStatistic(statName, value);
-                    updated++;
+                    updated = true;
                 }
                 else if (simGame.CompanyStats.GetValue<int>(statName) != value)
                 {
                     simGame.CompanyStats.Set(statName, value);
-                    updated++;
+                    updated = true;
                 }
             }
         }

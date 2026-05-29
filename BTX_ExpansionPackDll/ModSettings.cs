@@ -9,8 +9,8 @@ namespace BTX_ExpansionPack
     public class ModDebugSettings
     {
         public bool AllDropShipUpgrades { get; set; } = false;
-        public bool MechSizeLogging { get; set; } = false;
         public bool DebugLogging { get; set; } = false;
+        public bool MechSizeLogging { get; set; } = false;
     }
 
     public class GameplaySettings
