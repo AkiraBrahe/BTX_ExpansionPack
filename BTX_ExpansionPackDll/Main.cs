@@ -1,6 +1,7 @@
 using BattleTech;
 using BattleTech.Data;
 using BattleTech.UI;
+using BattleTech.UI.Tooltips;
 using BTX_ExpansionPack.Features;
 using HBS.Logging;
 using Newtonsoft.Json;
@@ -67,7 +68,9 @@ namespace BTX_ExpansionPack
             // --- BattleTech Extended ---
             /* Firing Arc Quirks */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
-            /* Stock Role Tooltip */
+            /* Mech Tooltips */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(TooltipPrefab_Chassis), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(TooltipPrefab_Mech), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabMechInfoWidget), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
             /* Temp Jump Jets */
             harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
@@ -80,6 +83,8 @@ namespace BTX_ExpansionPack
             /* Drop Slots Fix */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+            /* Inventory Blockers */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ChassisDef), "FromJSON"), AccessTools.DeclaredMethod(typeof(BTX_CAC_CompatibilityDll.MovableBlockers), "ChassisDef_FromJSON"));
 
             // --- Custom Units ---
             /* Location Labels */
@@ -98,6 +103,14 @@ namespace BTX_ExpansionPack
         {
             // Override anti-air to hit bonus
             Quirks.MechQuirks.modSettings.AntiAircraftTargetingToHit = -4;
+
+            // Override engine quirk bonuses
+            Quirks.MechQuirks.modSettings.LargeToHit = 0;
+            Quirks.MechQuirks.modSettings.LargeInitiative = -1;
+            Quirks.MechQuirks.modSettings.ExtraLargeToHit = 1;
+            Quirks.MechQuirks.modSettings.ExtraLargeInitiative = -1;
+            Quirks.MechQuirks.modSettings.ExtremeToHit = 2;
+            Quirks.MechQuirks.modSettings.ExtremeInitiative = -1;
 
             // Override DHS engine cooling
             Extended_CE.Core.Settings.DHSEngineCooling = HasAdvancedMechLab ? 60 : Settings.Gameplay.OverrideDHSEngineCooling
@@ -161,6 +174,21 @@ namespace BTX_ExpansionPack
                 foreach (var kvp in customSplits)
                 {
                     BTX_CAC_CompatibilityDll.Main.Splits[kvp.Key] = kvp.Value;
+                }
+
+                string[] armorTypes = ["EndoSteel", "FerroFibrous", "EndoFerroCombo"];
+                for (int i = 1; i <= 8; i++)
+                {
+                    foreach (string type in armorTypes)
+                    {
+                        string oldId = $"Gear_{type}_{i}_Slot";
+                        BTX_CAC_CompatibilityDll.Main.Splits[oldId] = new()
+                        {
+                            WeaponId = $"Gear_Armor_{type}_{i}_Slot",
+                            Link = false,
+                            WeaponType = ComponentType.Upgrade
+                        };
+                    }
                 }
             }
 

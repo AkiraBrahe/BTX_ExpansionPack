@@ -3,12 +3,34 @@ using CustomComponents;
 using Localize;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using Category = CustomComponents.Category;
 
 namespace BTX_ExpansionPack.Fixes
 {
     internal class MechValidation
     {
+        /// <summary>
+        /// Prevents CAC-C from auto-fixing inventory blockers on mechs.
+        /// </summary>
+        [HarmonyPatch(typeof(BTX_CAC_CompatibilityDll.MechAutoFixer), "HandleMech")]
+        public static class MechAutoFixer_HandleMech
+        {
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+            {
+                var targetMethod = AccessTools.Method(typeof(BTX_CAC_CompatibilityDll.MovableBlockers), nameof(BTX_CAC_CompatibilityDll.MovableBlockers.FixMechInventory));
+
+                return new CodeMatcher(instructions)
+                    .MatchForward(false,
+                        new CodeMatch(i => i.opcode.ToString().StartsWith("ldloc")),
+                        new CodeMatch(i => i.opcode.ToString().StartsWith("ldloc")),
+                        new CodeMatch(OpCodes.Call, targetMethod))
+                    .RemoveInstructions(3)
+                    .InstructionEnumeration();
+            }
+        }
+
         /// <summary>
         /// Ensures that melee weapons count as valid weapons when validating mech loadouts.
         /// </summary>

@@ -46,10 +46,12 @@
     <Publicize Include="BEXTimeline" />
     <Publicize Include="BTSimpleMechAssembly" />
     <Publicize Include="MechQuirks" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.MechAutoFixer.HandleMech" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.AEPStatic" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.ItemCollectionReplace" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Main" />
+    <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.MovableBlockers.GetComponentSize" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.Settings" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.TonnageCalculation" />
     <Publicize Include="BTX_CAC_CompatibilityDll:BTX_CAC_CompatibilityDll.WeaponAddonSplit" />
