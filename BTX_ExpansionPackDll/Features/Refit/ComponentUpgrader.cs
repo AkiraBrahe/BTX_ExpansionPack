@@ -1,7 +1,6 @@
 using BattleTech;
 using BTRandomMechComponentUpgrader;
 using BTX_CAC_CompatibilityDll;
-using BTX_ExpansionPack.Core;
 using CustomUnits;
 using System;
 using System.Collections.Generic;

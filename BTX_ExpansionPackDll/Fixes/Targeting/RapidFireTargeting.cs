@@ -5,7 +5,6 @@ using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes.Targeting
 {
-
     public static class RapidFireTargeting
     {
         /// <summary>

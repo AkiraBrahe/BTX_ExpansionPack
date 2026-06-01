@@ -1,6 +1,5 @@
 using BattleTech;
 using BattleTech.UI;
-using BTX_ExpansionPack.Core;
 using CustAmmoCategories;
 using System.Linq;
 using UnityEngine;
