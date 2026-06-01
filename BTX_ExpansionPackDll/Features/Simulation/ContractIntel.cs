@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Simulation
 {
     internal class ContractIntel
     {

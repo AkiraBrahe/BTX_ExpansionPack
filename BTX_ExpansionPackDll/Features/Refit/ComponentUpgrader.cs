@@ -4,7 +4,7 @@ using BTX_CAC_CompatibilityDll;
 using CustomUnits;
 using System.Linq;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Refit
 {
     /// <summary>
     /// Updates the ammo adjustment logic from CAC-C, adding new special ammunition.

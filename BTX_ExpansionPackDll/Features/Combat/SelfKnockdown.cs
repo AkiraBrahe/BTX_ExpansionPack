@@ -1,7 +1,7 @@
 using BattleTech;
 using CustomAmmoCategoriesPatches;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Combat
 {
     /// <summary>
     /// Applies instability to the firing mech when firing gauss and artillery weapons.

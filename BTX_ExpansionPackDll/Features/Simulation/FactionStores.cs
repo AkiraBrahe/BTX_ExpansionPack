@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Simulation
 {
     internal class FactionStores
     {

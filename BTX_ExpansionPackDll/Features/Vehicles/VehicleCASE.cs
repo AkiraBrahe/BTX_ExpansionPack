@@ -3,7 +3,7 @@ using CustAmmoCategories;
 using CustomUnits;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Vehicles
 {
     /// <summary>
     /// Implements CASE functionality for vehicles, preventing ammo explosions from destroying the vehicle and injuring the pilot.

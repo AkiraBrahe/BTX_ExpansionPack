@@ -25,8 +25,8 @@
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(BattleTechGameDir)\Mods\$(AssemblyName)\" />
   </Target>
   <ItemGroup>
-    <Compile Remove="Features\AdditionalLances_Comstar.cs" />
-    <Compile Remove="Features\UrbanDevastation.cs" />
+    <Compile Remove="Features\Combat\UrbanDevastation.cs" />
+    <Compile Remove="Features\Lances\AdditionalLances_Comstar.cs" />
     <Compile Remove="Fixes\Targeting\SwarmTargeting.cs" />
     <Compile Remove="Fixes\XotlTables.cs" />
     <Compile Remove="Utilities\AffinityDebugger.cs" />

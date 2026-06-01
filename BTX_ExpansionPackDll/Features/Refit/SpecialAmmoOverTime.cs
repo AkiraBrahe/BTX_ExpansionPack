@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using Random = UnityEngine.Random;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Refit
 {
     internal class SpawningActorInfo
     {

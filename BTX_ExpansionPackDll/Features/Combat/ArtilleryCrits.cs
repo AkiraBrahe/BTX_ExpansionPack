@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Combat
 {
     /// <summary>
     /// Adds a chance for artillery strikes to concentrate their damage on a single location, simulating a critical hit effect.

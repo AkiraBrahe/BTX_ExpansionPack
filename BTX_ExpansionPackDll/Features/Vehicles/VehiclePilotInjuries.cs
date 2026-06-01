@@ -2,7 +2,7 @@ using BattleTech;
 using CustAmmoCategories;
 using System;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Vehicles
 {
     /// <summary>
     /// Adds pilot injuries for vehicles when critical locations are destroyed.

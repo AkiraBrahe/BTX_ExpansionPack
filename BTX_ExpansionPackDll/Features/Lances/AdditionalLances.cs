@@ -5,7 +5,7 @@ using HBS.Collections;
 using System;
 using Random = UnityEngine.Random;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Lances
 {
     internal partial class AdditionalLances
     {

@@ -2,7 +2,7 @@ using BattleTech;
 using System;
 using System.Collections.Generic;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Refit
 {
     /// <summary>
     /// Checks each day if the player has an upgradeable mech and offers an upgrade if conditions are met.

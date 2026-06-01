@@ -5,7 +5,7 @@ using System;
 using System.Globalization;
 using System.Linq;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Vehicles
 {
     internal class MotiveRepair
     {
