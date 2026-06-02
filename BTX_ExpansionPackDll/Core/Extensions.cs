@@ -10,6 +10,52 @@ namespace BTX_ExpansionPack.Core
     {
         #region Artillery
 
+        extension(AbstractActor unit)
+        {
+            /// <summary>
+            /// Determines if a unit is essentially stationary.
+            /// </summary>
+            public bool IsStationary()
+            {
+                float positionDelta = Vector3.Distance(unit.CurrentPosition, unit.PreviousPosition);
+                return positionDelta < 2f;
+            }
+
+            /// <summary>
+            /// Returns a score 0-1 based on how mobile the target is.
+            /// </summary>
+            public float GetTargetMobility()
+            {
+                float positionDelta = Vector3.Distance(unit.CurrentPosition, unit.PreviousPosition);
+                float maxWalkDistance = unit.MovementCaps?.MaxWalkDistance ?? 0f;
+                return maxWalkDistance > 0 ? Mathf.Clamp01(positionDelta / maxWalkDistance) : 0f;
+            }
+
+            /// <summary>
+            /// Determines if a unit is an artillery unit capable of firing artillery weapons.
+            /// </summary>
+            public bool IsArtilleryUnit()
+            {
+                if (unit.Weapons == null) return false;
+                foreach (var w in unit.Weapons)
+                {
+                    if (w.IsArtillery() || (w.Description != null && w.Description.Id != null && w.Description.Id.StartsWith("Weapon_Artillery", System.StringComparison.OrdinalIgnoreCase)))
+                    {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            /// <summary>
+            /// Determines if a unit is a dedicated missile boat based on its role and tonnage.
+            /// </summary>
+            public bool IsDedicatedMissileBoat() => (unit.GetTonnage() >= 60 &&
+                unit is Mech mech && mech.MechDef.Chassis.StockRole.StartsWith("Missile Boat")) ||
+                (unit is FakeVehicleMech fakevehicle && fakevehicle.ToMechDef().MechTags.Contains("role_missileboat")) ||
+                (unit is Vehicle vehicle && vehicle.VehicleDef.VehicleTags.Contains("role_missileboat"));
+        }
+
         extension(Weapon weapon)
         {
             /// <summary>
