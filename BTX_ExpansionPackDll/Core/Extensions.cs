@@ -10,6 +10,26 @@ namespace BTX_ExpansionPack.Core
     {
         #region Artillery
 
+        extension(TargetMovementData target)
+        {
+            /// <summary>
+            /// Determines if a target is a threat that should be suppressed.
+            /// Filters targets that are too close, not moving, or not moving toward allies.
+            /// </summary>
+            public bool IsBlockableThreat()
+            {
+                if (target.MoveVector.magnitude < 20f)
+                    return false;
+
+                if (target.Target.IsVTOLOrHoverTank())
+                    return false;
+
+                float distCurrentToAlly = Vector3.Distance(target.CurrentPos, target.ClosestAllyPos);
+                float distPredictedToAlly = Vector3.Distance(target.PredictedPos, target.ClosestAllyPos);
+                return distPredictedToAlly < distCurrentToAlly && distPredictedToAlly >= 60f;
+            }
+        }
+
         extension(AbstractActor unit)
         {
             /// <summary>
@@ -29,6 +49,15 @@ namespace BTX_ExpansionPack.Core
                 float positionDelta = Vector3.Distance(unit.CurrentPosition, unit.PreviousPosition);
                 float maxWalkDistance = unit.MovementCaps?.MaxWalkDistance ?? 0f;
                 return maxWalkDistance > 0 ? Mathf.Clamp01(positionDelta / maxWalkDistance) : 0f;
+            }
+
+            /// <summary>
+            /// Determines if a unit is a VTOL or hover tank.
+            /// </summary>
+            public bool IsVTOLOrHoverTank()
+            {
+                return unit is Mech mech && (mech.MechDef.MechTags.Contains("unit_vtol") || mech.MechDef.MechTags.Contains("unit_hover")) ||
+                       unit is Vehicle vehicle && (vehicle.VehicleDef.VehicleTags.Contains("unit_vtol") || vehicle.VehicleDef.VehicleTags.Contains("unit_hover"));
             }
 
             /// <summary>
