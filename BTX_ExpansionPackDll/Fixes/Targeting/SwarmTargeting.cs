@@ -1,7 +1,7 @@
 using BattleTech;
 using CustAmmoCategories;
-using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection.Emit;
 
 namespace BTX_ExpansionPack.Fixes.Targeting
@@ -15,8 +15,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         public static class WeaponStrayHelper_MainStray
         {
             [HarmonyTranspiler]
-            [HarmonyEmitIL]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
                 var matcher = new CodeMatcher(instructions)
                     .MatchStartForward(
@@ -35,9 +34,30 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                     .InstructionEnumeration();
             }
 
-            public static List<ICombatant> GetPotentialStrayTargets(AdvWeaponHitInfo advWeaponHitInfo) => NotImplementedException();
+            public static List<ICombatant> GetPotentialStrayTargets(AdvWeaponHitInfo advWeaponHitInfo)
+            {
+                var combat = advWeaponHitInfo.Combat;
+                var weapon = advWeaponHitInfo.weapon;
+                var attacker = weapon.parent;
 
-            private static List<ICombatant> NotImplementedException() => throw new NotImplementedException();
+                List<ICombatant> potentialTargets = [];
+                string iffTransponderDef = weapon.IFFTransponderDef();
+                if (string.IsNullOrEmpty(iffTransponderDef))
+                {
+                    // Standard swarm: all units except attacker
+                    var allCombatants = combat.GetAllCombatants();
+                    potentialTargets.AddRange(allCombatants.Where(c => c.GUID != attacker.GUID));
+                }
+                else
+                {
+                    // Improved swarm: only enemies
+                    Main.Log.LogDebug("Using Improved Swarm ammo. Stray shots will only target enemies.");
+                    var allEnemies = combat.GetAllEnemiesOf(attacker);
+                    potentialTargets.AddRange(allEnemies);
+                }
+
+                return potentialTargets;
+            }
         }
     }
 }

@@ -27,8 +27,7 @@
   <ItemGroup>
     <Compile Remove="Features\Combat\UrbanDevastation.cs" />
     <Compile Remove="Features\Lances\AdditionalLances_Comstar.cs" />
-    <Compile Remove="Fixes\Targeting\SwarmTargeting.cs" />
-    <Compile Remove="Fixes\XotlTables.cs" />
+    <Compile Remove="Fixes\Misc\XotlTables.cs" />
     <Compile Remove="Utilities\AffinityDebugger.cs" />
   </ItemGroup>
   <ItemGroup>
