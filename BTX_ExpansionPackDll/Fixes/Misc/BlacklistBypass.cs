@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Misc
 {
     /// <summary>
     /// Allows to add blacklisted mechs via "Fell Off A Cargo Ship".

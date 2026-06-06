@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Pilots
 {
     /// <summary>
     /// Fixes pilot specialization tags to ensure each pilot has a specialization.

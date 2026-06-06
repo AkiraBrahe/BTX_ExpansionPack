@@ -243,7 +243,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 traits.Add("Reinforced Chassis: Double the weight of a standard chassis, but with increased durability.");
 
             // Armor
-            if (armor != null && armor.Type != ArmorType.Standard)
+            if (armor.Type != ArmorType.Standard)
                 traits.Add($"{armor.Name} Armor: {armor.Description}");
 
             // CASE

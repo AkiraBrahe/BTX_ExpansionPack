@@ -20,7 +20,7 @@ namespace BTX_ExpansionPack.Core.Data
             Reactive
         }
 
-        public class ArmorInfo
+        public struct ArmorInfo
         {
             public ArmorType Type;
             public string Name;

@@ -77,7 +77,7 @@ namespace BTX_ExpansionPack.Features.Combat
                 var directionToTarget = targetPosition - initialPosition;
                 var adjustedPosition = initialPosition + (directionToTarget.normalized * pullDistance);
 
-                // 4. Apply random spread, scaling it by the initial distance to the target.
+                // 4. Apply random spread
                 float maxScatterRadius = Mathf.Lerp(minMissRadius, 0f, scatterReductionFactor);
                 float scatterRadius = Mathf.Min(maxScatterRadius, distanceToTarget * (1f - pullFactor));
                 var randomCirclePoint = Random.insideUnitCircle * scatterRadius;

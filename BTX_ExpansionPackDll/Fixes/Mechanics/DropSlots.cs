@@ -3,7 +3,7 @@ using BiggerDrops.Features;
 using System;
 using System.Linq;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechanics
 {
     /// <summary>
     /// Updates dropship slot and tonnage statistics based on installed upgrades.

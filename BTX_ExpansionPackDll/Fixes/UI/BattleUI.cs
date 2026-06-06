@@ -14,6 +14,8 @@ namespace BTX_ExpansionPack.Fixes.UI
 {
     internal class BattleUI
     {
+        #region Unit Nameplate & Info Panel
+
         /// <summary>
         /// Shortens vehicle names and makes them stand out on nameplates.
         /// </summary>
@@ -88,24 +90,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         /// <summary>
-        /// Removes the popup when moving before move clamping is calculated.
-        /// </summary>
-        [HarmonyPatch(typeof(SelectionStateMove_ProcessLeftClickClamp), "Prefix")]
-        public static class SelectionStateMove_ProcessLeftClickClamp_Prefix
-        {
-            [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
-            {
-                return new CodeMatcher(instructions, il)
-                    .MatchForward(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is System.Reflection.MethodInfo mi && mi.Name == "Create" && mi.DeclaringType.Name == "GenericPopupBuilder"))
-                    .RemoveInstructions(2)
-                    .InstructionEnumeration();
-            }
-        }
-
-        /// <summary>
-        /// Removes the target info from the side panel UI.
+        /// Removes the target info from the side panel.
         /// </summary>
         [HarmonyPatch]
         public static class CombatHUDInfoSidePanel_Patches
@@ -132,7 +117,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         /// <summary>
-        /// Shortens the ammo box description in the ammo counter hover panel.
+        /// Shortens the ammo box description when hovering over the ammo counter in the side panel.
         /// </summary>
         [HarmonyPatch(typeof(CustomAmmoCategoriesPatches.WeaponAmmoCounterHover), "ShowSidePanel")]
         public static class WeaponAmmoCounterHover_ShowSidePanel
@@ -151,6 +136,10 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
+        #endregion
+
+        #region Floaty Messages & Popups
+
         /// <summary>
         /// Fixes the injury reason description for vehicle pilots.
         /// </summary>
@@ -167,6 +156,28 @@ namespace BTX_ExpansionPack.Fixes.UI
                 }
             }
         }
+
+        /// <summary>
+        /// Removes the popup when moving before move clamping is calculated.
+        /// </summary>
+        [HarmonyPatch(typeof(SelectionStateMove_ProcessLeftClickClamp), "Prefix")]
+        public static class SelectionStateMove_ProcessLeftClickClamp_Prefix
+        {
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            {
+                return new CodeMatcher(instructions, il)
+                    .MatchForward(false,
+                        new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is System.Reflection.MethodInfo mi && mi.Name == "Create" && mi.DeclaringType.Name == "GenericPopupBuilder"))
+                    .RemoveInstructions(2)
+                    .InstructionEnumeration();
+            }
+        }
+
+        #endregion
+
+        #region To Hit Modifiers
+        // TODO: We need to rework this with a simple transpiler so we can replace floaty messages (e.g., "LEFT SIDE DESTROYED") as well as the to-hit modifiers. For To Hit Modifiers, it's actually simpler to just replace the call method instead of using prefixes.
 
         /// <summary>
         /// Shows the correct vehicle location abbreviations in battle.
@@ -281,5 +292,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
             }
         }
+
+        #endregion
     }
 }

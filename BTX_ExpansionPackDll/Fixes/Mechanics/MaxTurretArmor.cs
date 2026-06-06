@@ -1,6 +1,6 @@
 using BattleTech;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechanics
 {
     /// <summary>
     /// Fixes turreted vehicles having incorrect max turret armor.

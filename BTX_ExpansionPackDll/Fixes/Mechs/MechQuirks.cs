@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechs
 {
     /// <summary>
     /// Implements new mech quirks and fixes existing ones:

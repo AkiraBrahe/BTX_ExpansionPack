@@ -1,10 +1,10 @@
-﻿using BattleTech;
+using BattleTech;
 using BattleTech.UI;
 using CustomUnits;
 using Localize;
 using System.Collections.Generic;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechanics
 {
     internal static class LanceRestrictions
     {

@@ -3,7 +3,7 @@ using BTX_CAC_CompatibilityDll;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechs
 {
     public static class MechTonnage
     {
@@ -20,20 +20,8 @@ namespace BTX_ExpansionPack.Fixes
             public static bool Prefix(ChassisDef c, long armorPoints, IEnumerable<MechComponentRef> inventory, ref int __result)
             {
                 int kg = (int)(c.InitialTonnage * 1000.0f);
-                long kgperpoint = 800; // Points per 10 Tons, i.e. 80 ppt x 10 for Standard armor
-
-                if (c.ChassisTags.Contains("chassis_ferro"))
-                {
-                    kgperpoint = c.ChassisTags.Contains("chassis_clan") ? 960 : 896;
-                }
-                else
-                {
-                    var armor = ArmorTypes.Values.FirstOrDefault(a => c.ChassisTags.Contains(a.Tag));
-                    if (armor != null)
-                    {
-                        kgperpoint = (long)(800 * armor.PptMultiplier);
-                    }
-                }
+                var armor = c.GetArmorInfo();
+                long kgperpoint = (long)(800 * armor.PptMultiplier); // Points per 10 Tons, i.e. 80 ppt x 10 for Standard armor
 
                 // Original logic
                 kg += (int)(armorPoints * 10L / kgperpoint);

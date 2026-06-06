@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using Category = CustomComponents.Category;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechs
 {
     internal class MechValidation
     {

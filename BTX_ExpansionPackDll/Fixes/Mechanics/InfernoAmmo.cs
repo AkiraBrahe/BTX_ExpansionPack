@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechanics
 {
     internal class InfernoAmmo
     {

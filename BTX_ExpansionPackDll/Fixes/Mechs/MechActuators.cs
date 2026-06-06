@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Linq;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechs
 {
     /// <summary>
     /// Loads custom actuator settings from EP's MechSettings.json.

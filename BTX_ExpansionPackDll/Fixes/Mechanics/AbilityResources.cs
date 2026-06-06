@@ -3,7 +3,7 @@ using BattleTech.UI;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechanics
 {
     /// <summary>
     /// Various fixes from IRTweaks related to abilities that consume resources.
@@ -365,7 +365,7 @@ namespace BTX_ExpansionPack.Fixes
         [HarmonyPostfix]
         public static void Postfix(CombatHUDMechwarriorTray __instance, AbstractActor actor)
         {
-            bool forceInactive = actor.HasMovedThisRound || actor.HasFiredThisRound; // need to figure this part out; do other checks? this is still disabling the butons. integrat with CU?
+            bool forceInactive = actor.HasMovedThisRound || actor.HasFiredThisRound;
             var abilityButtons = __instance.AbilityButtons;
             foreach (var button in abilityButtons)
             {

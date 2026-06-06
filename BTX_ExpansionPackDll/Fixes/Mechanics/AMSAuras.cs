@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechanics
 {
     /// <summary>
     /// Fixes issues with AMS auras, including correct range calculation and limiting protection floaties to one per ally per turn.

@@ -2,7 +2,7 @@ using BattleTech;
 using CustomUnits;
 using UnityEngine;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Mechanics
 {
     /// <summary>
     /// Overrides firing arc logic to correctly handle both vehicles and mechs with quirks.
@@ -31,7 +31,7 @@ namespace BTX_ExpansionPack.Fixes
                 }
 
                 // Special case: Directional torso mount
-                if (__instance.MechDef?.Chassis?.ChassisTags?.Contains("mech_quirk_directionaltorsomount") == true)
+                if (__instance.MechDef.Chassis.ChassisTags.Contains("mech_quirk_directionaltorsomount") == true)
                 {
                     __result = true;
                     __runOriginal = false;
@@ -76,8 +76,8 @@ namespace BTX_ExpansionPack.Fixes
             {
                 if (mech is FakeVehicleMech fakeVehicle)
                 {
-                    var vehicleDef = fakeVehicle.MechDef?.toVehicleDef(fakeVehicle.MechDef.DataManager);
-                    return vehicleDef?.Chassis != null && vehicleDef.Chassis.HasTurret ? 360f : 90f;
+                    var vehicleDef = fakeVehicle.MechDef.toVehicleDef(fakeVehicle.MechDef.DataManager);
+                    return vehicleDef.Chassis != null && vehicleDef.Chassis.HasTurret ? 360f : 90f;
                 }
 
                 return GetMechFiringArc(mech, targetUnit, attackPosition);
@@ -96,10 +96,10 @@ namespace BTX_ExpansionPack.Fixes
                 if (distance < 40f)
                     return 40f;
 
-                var tags = mech.MechDef?.Chassis?.ChassisTags;
-                if (tags?.Contains("mech_quirk_notorsotwist") == true)
+                var tags = mech.MechDef.Chassis.ChassisTags;
+                if (tags.Contains("mech_quirk_notorsotwist") == true)
                     return firingArc / 2f;
-                if (tags?.Contains("mech_quirk_extendedtorsotwist") == true)
+                else if (tags.Contains("mech_quirk_extendedtorsotwist") == true)
                     return firingArc * 2f;
             }
 

@@ -2,7 +2,7 @@ using BattleTech.Save;
 using CustAmmoCategories;
 using CustomSettings;
 
-namespace BTX_ExpansionPack.Fixes
+namespace BTX_ExpansionPack.Fixes.Misc
 {
     /// <summary>
     /// Improves performance during combat by disabling various debug logs in CAC.

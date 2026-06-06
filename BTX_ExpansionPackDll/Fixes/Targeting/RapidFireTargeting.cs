@@ -53,7 +53,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                 bool isMissileThreatened = unit.IsMissileThreatened();
                 foreach (var weapon in rapidFireWeapons)
                 {
-                    if (isMissileThreatened) // && weapon.info().isModeAvailble(weapon.info().modes["AMS"], out _))
+                    if (isMissileThreatened)
                     {
                         weapon.setCantAMSFire(false);
                         weapon.forceMode("AMS");
