@@ -130,7 +130,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                 weights.Add(System.Tuple.Create(ArtilleryTargetingMode.CounterBattery, 25f));
             }
 
-            // If allies have called strikes this round, try to use the same mode
+            // Adjust weights based on previous team strikes this round
             var teamStrikes = GetTeamStrikesThisRound(attacker);
             if (teamStrikes.Count > 0)
             {
@@ -138,34 +138,15 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                 {
                     var mode = strike.Mode;
                     weights = [.. weights.Select(w => w.Item1 == mode
-                        ? System.Tuple.Create(w.Item1, w.Item2 * 2f)
+                        ? System.Tuple.Create(w.Item1, w.Item2 * 0.8f)
                         : w)];
                 }
             }
 
-            // Shuffle/draw modes according to relative weights and try them
-            var triedModes = new HashSet<ArtilleryTargetingMode>();
-            while (triedModes.Count < weights.Count)
+            // Shuffle/draw modes based on weights  
+            var orderedModes = GetWeightedRandomModes(weights);
+            foreach (var selectedMode in orderedModes)
             {
-                var activeWeights = weights.Where(w => !triedModes.Contains(w.Item1)).ToList();
-                float activeTotalWeight = activeWeights.Sum(w => w.Item2);
-                if (activeTotalWeight <= 0f) break;
-
-                float roll = (float)(new System.Random().NextDouble() * activeTotalWeight);
-                float accum = 0f;
-                var selectedMode = activeWeights.Last().Item1;
-                foreach (var w in activeWeights)
-                {
-                    accum += w.Item2;
-                    if (roll <= accum)
-                    {
-                        selectedMode = w.Item1;
-                        break;
-                    }
-                }
-
-                triedModes.Add(selectedMode);
-
                 float aoeRange = weapon.AOERange();
                 var targetPos = selectedMode switch
                 {
@@ -198,19 +179,58 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         }
 
         /// <summary>
+        /// Gets a list of modes weighted by the given weights.
+        /// </summary>
+        private static List<ArtilleryTargetingMode> GetWeightedRandomModes(List<System.Tuple<ArtilleryTargetingMode, float>> weights)
+        {
+            var result = new List<ArtilleryTargetingMode>();
+            var remaining = new List<System.Tuple<ArtilleryTargetingMode, float>>(weights);
+
+            while (remaining.Count > 0)
+            {
+                float totalWeight = remaining.Sum(w => w.Item2);
+                if (totalWeight <= 0f)
+                {
+                    result.AddRange(remaining.Select(w => w.Item1));
+                    break;
+                }
+
+                float roll = (float)(new System.Random().NextDouble() * totalWeight);
+                float accum = 0f;
+                var selected = remaining.Last();
+
+                foreach (var w in remaining)
+                {
+                    accum += w.Item2;
+                    if (roll <= accum)
+                    {
+                        selected = w;
+                        break;
+                    }
+                }
+
+                result.Add(selected.Item1);
+                remaining.Remove(selected);
+            }
+
+            return result;
+        }
+
+        /// <summary>
         /// Returns a single target position, prioritizing the slowest enemy that hasn't been targeted yet.
         /// </summary>
         private static Vector3? GetSingleTarget(List<AbstractActor> potentialTargets, List<ArtilleryStrikeData> teamStrikes)
         {
-            if (potentialTargets.Count == 1)
-                return potentialTargets[0].CurrentPosition;
-
             var targetedPositions = teamStrikes.Select(s => s.TargetPosition).ToList();
-            var untargetedTargets = potentialTargets.Where(t => !targetedPositions.Any(pos => Vector3.Distance(pos, t.CurrentPosition) < 1f)).ToList();
 
-            return untargetedTargets.Count > 0
-                ? untargetedTargets.OrderBy(t => t.MovementCaps != null ? t.MovementCaps.MaxWalkDistance : 0f).First().CurrentPosition
-                : potentialTargets[Random.Range(0, potentialTargets.Count)].CurrentPosition;
+            var untargetedTargets = potentialTargets.Where(t => !targetedPositions.Any(pos => Vector3.Distance(pos, t.CurrentPosition) < 1f)).ToList();
+            if (untargetedTargets.Count > 0)
+            {
+                return untargetedTargets.OrderBy(t => t.MovementCaps != null ? t.MovementCaps.MaxWalkDistance : 0f).First().CurrentPosition;
+            }
+
+            var stationaryTargets = potentialTargets.Where(t => t.IsStationary() && targetedPositions.Any(pos => Vector3.Distance(pos, t.CurrentPosition) < 1f)).ToList();
+            return stationaryTargets.Count > 0 ? stationaryTargets[Random.Range(0, stationaryTargets.Count)].CurrentPosition : null;
         }
 
         /// <summary>
@@ -239,9 +259,10 @@ namespace BTX_ExpansionPack.Fixes.Targeting
             if (barrageStrikeCount >= 2)
                 return null; // Already launched 2 barrages
 
+            var targetedPositions = teamStrikes.Select(s => s.TargetPosition).ToList();
             var barrageStrikePositions = teamStrikes.Where(s => s.Mode == ArtilleryTargetingMode.Barrage).Select(s => s.TargetPosition).ToList();
             var previousBarragePos = barrageStrikePositions.Any() ? barrageStrikePositions[0] : Vector3.zero;
-            return FindBestBarragePosition(potentialTargets, aoeRange, attacker, allies, previousBarragePos);
+            return FindBestBarragePosition(potentialTargets, aoeRange, attacker, allies, previousBarragePos, targetedPositions);
         }
 
         /// <summary>
@@ -250,21 +271,28 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         private static Vector3? GetCounterBatteryTarget(List<AbstractActor> potentialTargets, List<ArtilleryStrikeData> teamStrikes)
         {
             var targetedPositions = teamStrikes.Select(s => s.TargetPosition).ToList();
-            var untargetedTargets = potentialTargets.Where(t => !targetedPositions.Any(pos => Vector3.Distance(pos, t.CurrentPosition) < 1f)).ToList();
 
-            var artilleryUnits = untargetedTargets.Where(target => target.IsArtilleryUnit()).ToList();
-            if (artilleryUnits.Count > 0)
+            var artilleryUnits = potentialTargets.Where(t => t.IsArtilleryUnit()).ToList();
+            var untargetedArtillery = artilleryUnits.Where(t => !targetedPositions.Any(pos => Vector3.Distance(pos, t.CurrentPosition) < 1f)).ToList();
+            if (untargetedArtillery.Count > 0)
             {
-                var stationaryArtillery = artilleryUnits.Where(target => target.IsStationary() || target.IsInArtilleryMode()).ToList();
+                var stationaryArtillery = untargetedArtillery.Where(t => t.IsStationary() || t.IsInArtilleryMode()).ToList();
                 return stationaryArtillery.Count > 0
                     ? stationaryArtillery[Random.Range(0, stationaryArtillery.Count)].CurrentPosition
-                    : artilleryUnits[Random.Range(0, artilleryUnits.Count)].CurrentPosition;
+                    : untargetedArtillery[Random.Range(0, untargetedArtillery.Count)].CurrentPosition;
             }
 
-            var missileBoats = untargetedTargets.Where(target => target.IsDedicatedMissileBoat()).ToList();
-            return missileBoats.Count > 0
-                ? missileBoats[Random.Range(0, missileBoats.Count)].CurrentPosition
-                : null;
+            var missileBoats = potentialTargets.Where(t => t.IsDedicatedMissileBoat()).ToList();
+            var untargetedMissileBoats = missileBoats.Where(t => !targetedPositions.Any(pos => Vector3.Distance(pos, t.CurrentPosition) < 1f)).ToList();
+            if (untargetedMissileBoats.Count > 0)
+            {
+                var stationaryMissileBoats = untargetedMissileBoats.Where(t => t.IsStationary()).ToList();
+                return stationaryMissileBoats.Count > 0
+                    ? stationaryMissileBoats[Random.Range(0, stationaryMissileBoats.Count)].CurrentPosition
+                    : untargetedMissileBoats[Random.Range(0, untargetedMissileBoats.Count)].CurrentPosition;
+            }
+
+            return null;
         }
 
         #endregion
@@ -287,13 +315,17 @@ namespace BTX_ExpansionPack.Fixes.Targeting
 
                 var candidatePos = CalculateCentroid(cluster, mapMetaData);
 
-                // Check if too close to recent cluster strikes
+                // Check if too close to recent strikes
                 float minDistToRecent = targetedPositions.Any()
                     ? targetedPositions.Min(pos => Vector3.Distance(pos, candidatePos))
                     : float.MaxValue;
 
                 if (minDistToRecent < aoeRange * 0.5f)
-                    continue;
+                {
+                    bool allStationary = cluster.All(m => m.IsStationary());
+                    if (!allStationary)
+                        continue;
+                }
 
                 float currentScore = ScoreCluster(cluster);
                 if (currentScore > bestScore)
@@ -307,7 +339,8 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         }
 
         /// <summary>
-        /// Calculates the score for a cluster of enemies based on their tonnage, count, and mobility.
+        /// Calculates the score for a cluster of enemies.
+        /// Higher scores are given to clusters that are heavier, more numerous, and less mobile.
         /// </summary>
         private static float ScoreCluster(ICollection<AbstractActor> cluster)
         {
@@ -315,7 +348,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
             float mobilityModifier = cluster.Average(m => m.GetTargetMobility());
             float clusterValue = totalTonnage * cluster.Count;
 
-            return clusterValue * (1f + mobilityModifier);
+            return clusterValue * (1f - mobilityModifier);
         }
 
         /// <summary>
@@ -333,7 +366,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         /// Finds the best barrage position to block enemy movement towards allies.
         /// </summary>
         private static Vector3? FindBestBarragePosition(List<AbstractActor> potentialTargets, float aoeRange,
-            AbstractActor attacker, List<AbstractActor> allies, Vector3 previousBarragePos)
+            AbstractActor attacker, List<AbstractActor> allies, Vector3 previousBarragePos, List<Vector3> targetedPositions)
         {
             var mapMetaData = attacker.Combat.MapMetaData;
 
@@ -347,7 +380,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                     PredictedPos = t.CurrentPosition + (t.CurrentPosition - t.PreviousPosition),
                     ClosestAllyPos = allies.OrderBy(a => Vector3.Distance(a.CurrentPosition, t.CurrentPosition)).First().CurrentPosition
                 })
-                .Where(t => t.IsBlockableThreat())
+                .Where(t => t.IsBlockableThreat() && !targetedPositions.Any(pos => Vector3.Distance(pos, t.PredictedPos) < aoeRange * 0.75f))
                 .OrderBy(t => Vector3.Distance(t.PredictedPos, t.ClosestAllyPos))
                 .ToList();
 
