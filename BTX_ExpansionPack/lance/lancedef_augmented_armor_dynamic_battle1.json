@@ -1,8 +1,8 @@
 {
   "Description": {
-    "Id": "lancedef_comstar_vee_dynamic_battle1",
-    "Name": "Comstar Vehicle Level II",
-    "Details": "6x Vehicles",
+    "Id": "lancedef_augmented_armor_dynamic_battle1",
+    "Name": "Augmented Armor Lance",
+    "Details": "4x Vehicles + 2x Mechs",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -13,7 +13,8 @@
     "items": [
       "lance_type_dynamic",
       "lance_type_dynamic_difficulty",
-      "lance_type_vehicle",
+      "lance_type_mixed",
+      "lance_type_notallvehicles",
       "lance_type_battle",
       "BLACKLISTED"
     ],
@@ -33,6 +34,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_vtol",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
@@ -60,6 +62,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_vtol",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
@@ -87,6 +90,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_vtol",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
@@ -114,6 +118,7 @@
       },
       "excludedUnitTagSet": {
         "items": [
+          "unit_vtol",
           "unit_noncombatant",
           "unit_none_{CUR_TEAM.faction}"
         ],
@@ -129,13 +134,13 @@
       }
     },
     {
-      "unitType": "Vehicle",
+      "unitType": "Mech",
       "unitId": "Tagged",
       "pilotId": "Tagged",
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_vehicle"
+          "unit_mech"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },
@@ -156,13 +161,13 @@
       }
     },
     {
-      "unitType": "Vehicle",
+      "unitType": "Mech",
       "unitId": "Tagged",
       "pilotId": "Tagged",
       "dynamicDifficulty": true,
       "unitTagSet": {
         "items": [
-          "unit_vehicle"
+          "unit_mech"
         ],
         "tagSetSourceFile": "Tags/UnitTags"
       },

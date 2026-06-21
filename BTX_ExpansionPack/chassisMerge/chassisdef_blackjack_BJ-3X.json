@@ -1,8 +1,8 @@
 {
-  "Heatsinks": -2,
+  "Heatsinks": 0,
+  "StockRole": "Brawler",
   "ChassisTags": {
     "items": [
-      "chassis_DHS",
       "mech_quirk_badreputation"
     ],
     "tagSetSourceFile": ""
