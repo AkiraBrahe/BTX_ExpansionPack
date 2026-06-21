@@ -1,22 +1,30 @@
 using BattleTech;
+using BattleTech.Framework;
 using System;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
-namespace BTX_ExpansionPack.Features
+namespace BTX_ExpansionPack.Features.Combat
 {
     internal class UrbanDevastation
     {
+        /// <summary>
+        /// Destroys a percentage of buildings in urban maps based on contract difficulty.
+        /// </summary>
         [HarmonyPatch(typeof(TurnDirector), "OnInitializeContractComplete")]
         public static class TurnDirector_OnInitializeContractComplete
         {
-            private static readonly Random rng = new();
+            [HarmonyPrepare]
+            public static bool Prepare() => Main.Settings.Performance.DestroyBuildingsInUrbanBattles;
 
             [HarmonyPostfix]
             public static void Postfix(TurnDirector __instance)
             {
                 CombatGameState combat = __instance.Combat;
-                if (combat == null || combat.ActiveContract.ContractBiome != Biome.BIOMESKIN.urbanHighTech)
-                    return;
+                var activeContract = combat?.ActiveContract;
+
+                if (activeContract == null || activeContract.ContractBiome != Biome.BIOMESKIN.urbanHighTech) return;
+                if (activeContract.ContractType is not ContractType.SimpleBattle and not ContractType.ThreeWayBattle) return;
 
                 List<BattleTech.Building> candidateBuildings = [];
                 foreach (ICombatant combatant in combat.GetAllCombatants())
@@ -35,32 +43,23 @@ namespace BTX_ExpansionPack.Features
                     }
                 }
 
-                if (candidateBuildings.Count == 0)
-                    return;
-
-                Shuffle(candidateBuildings);
-
-                float minDevastation = 0.60f; float maxDevastation = 0.90f;
-                float destroyPercent = (float)((rng.NextDouble() * (maxDevastation - minDevastation)) + minDevastation);
-                int destroyCount = (int)Math.Floor(candidateBuildings.Count * destroyPercent);
-                destroyCount = Math.Min(destroyCount, candidateBuildings.Count);
-
-                for (int i = 0; i < destroyCount; i++)
+                if (candidateBuildings.Count != 0)
                 {
-                    var building = candidateBuildings[i];
-                    building.FlagForDeath("MOD_PREMAP_DESTROY", DeathMethod.DespawnedNoMessage, DamageType.NOT_SET, 1, -1, "0", true);
-                    building.HandleDeath("0");
-                }
-            }
+                    candidateBuildings.Shuffle();
 
-            private static void Shuffle<T>(IList<T> list)
-            {
-                int n = list.Count;
-                while (n > 1)
-                {
-                    n--;
-                    int k = rng.Next(n + 1);
-                    (list[n], list[k]) = (list[k], list[n]);
+                    int difficulty = activeContract.Difficulty;
+                    float minDevastation = difficulty * 0.05f; float maxDevastation = 0.90f;
+
+                    float destroyPercent = (float)((Random.value * (maxDevastation - minDevastation)) + minDevastation);
+                    int destroyCount = (int)Math.Floor(candidateBuildings.Count * destroyPercent);
+                    destroyCount = Math.Min(destroyCount, candidateBuildings.Count);
+
+                    for (int i = 0; i < destroyCount; i++)
+                    {
+                        var building = candidateBuildings[i];
+                        building.FlagForDeath("MOD_PREMAP_DESTROY", DeathMethod.DespawnedNoMessage, DamageType.NOT_SET, 1, -1, "0", true);
+                        building.HandleDeath("0");
+                    }
                 }
             }
         }

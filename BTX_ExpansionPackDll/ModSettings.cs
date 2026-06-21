@@ -4,12 +4,12 @@ namespace BTX_ExpansionPack
     {
         public ModDebugSettings Debug { get; set; } = new ModDebugSettings();
         public GameplaySettings Gameplay { get; set; } = new GameplaySettings();
+        public PerformanceSettings Performance { get; set; } = new PerformanceSettings();
         public UISettings UI { get; set; } = new UISettings();
     }
     public class ModDebugSettings
     {
         public bool AllDropShipUpgrades { get; set; } = false;
-        public bool DebugLogging { get; set; } = false;
         public bool MechSizeLogging { get; set; } = false;
     }
 
@@ -21,6 +21,12 @@ namespace BTX_ExpansionPack
         public double DHSEngineCoolingMultiplier { get; set; } = 1.5;
         public bool RemoveNonStandardAmmoBins { get; set; } = false;
         public bool GaussDealThroughArmorCrits { get; set; } = true;
+    }
+
+    public class PerformanceSettings
+    {
+        public bool DestroyBuildingsInUrbanBattles { get; set; } = true;
+        public bool DisableDebugLogging { get; set; } = true;
     }
 
     public class UISettings

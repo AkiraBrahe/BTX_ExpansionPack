@@ -20,6 +20,10 @@
         "DHSEngineCoolingMultiplier": 1.5,
       "RemoveNonStandardAmmoBins": false
     },
+    "Performance": {
+      "DestroyBuildingsInUrbanBattles": true,
+      "DisableDebugLogging ": true
+    },
     "UI": {
       "Battle": {
         "UseShortenedVehicleNames": true,
