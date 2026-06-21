@@ -1,0 +1,50 @@
+{
+  "enumerationValueList": [
+    {
+      "ID": 975,
+      "Name": "ComStarA",
+      "FriendlyName": "ComStarA",
+      "Description": "",
+      "FactionDefID": "faction_ComStarA",
+      "IsRealFaction": false,
+      "IsGreatHouse": false,
+      "IsClan": false,
+      "IsMercenary": false,
+      "IsPirate": false,
+      "DoesGainReputation": false,
+      "CanAlly": false,
+      "IsProceduralContractFaction": false,
+      "IsPossibleNeutralToAllFaction": false,
+      "IsPossibleHostileToAllFaction": false,
+      "IsPossibleAllyFallbackFaction": false,
+      "IsCareerScoringFaction": false,
+      "IsCareerIgnoredContractTarget": false,
+      "IsCareerStartingDisplayFaction": false,
+      "IsStoryStartingDisplayFaction": false,
+      "HasAIBehaviorVariableScope": false
+    },
+    {
+      "ID": 976,
+      "Name": "WordOfBlakeA",
+      "FriendlyName": "WordOfBlakeA",
+      "Description": "",
+      "FactionDefID": "faction_WordOfBlakeA",
+      "IsRealFaction": false,
+      "IsGreatHouse": false,
+      "IsClan": false,
+      "IsMercenary": false,
+      "IsPirate": false,
+      "DoesGainReputation": false,
+      "CanAlly": false,
+      "IsProceduralContractFaction": false,
+      "IsPossibleNeutralToAllFaction": false,
+      "IsPossibleHostileToAllFaction": false,
+      "IsPossibleAllyFallbackFaction": false,
+      "IsCareerScoringFaction": false,
+      "IsCareerIgnoredContractTarget": false,
+      "IsCareerStartingDisplayFaction": false,
+      "IsStoryStartingDisplayFaction": false,
+      "HasAIBehaviorVariableScope": false
+    }
+  ]
+}

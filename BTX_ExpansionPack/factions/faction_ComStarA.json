@@ -1,0 +1,49 @@
+{
+  "ID": "faction_ComStarA",
+  "Name": "the Com Guard Division",
+  "ShortName": "ComStar",
+  "Description": "The Com Guard Divisions are a tightly kept secret. These elite echelons work completely out of sight of the Inner Sphere intelligence agencies and are manned by fanatically loyal warriors trained to perfection. Utilizing impeccably maintained, pristine Star League-era BattleMechs drawn from hidden Terran stockpiles, they deploy only under absolute secrecy to protect the Order's hidden agendas.",
+  "Demonym": "ComStar",
+  "Government": "Corporation",
+  "Allies": [
+    "MercenaryReviewBoard"
+  ],
+  "Enemies": [],
+  "Presence": 0.1,
+  "ReputationStatements": [
+    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even ComStar occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us."
+  ],
+  "MissionSuccessStatements": [
+    "ComStar congratulates you on your successful mission, mercenary. We are pleased you've been able to assist us so thoroughly."
+  ],
+  "GoodFaithFailureStatements": [
+    "It seems apparent that while you failed to achieve our goals, you engaged the enemy for as long as you were able. Better luck next time, Commander. May the Spirit of Blake be with you."
+  ],
+  "BadFaithFailureStatements": [
+    "Far be it from a simple organization like ComStar to reprimand you in matters of warfare, Commander, but\u2026 your performance on that operation was positively abysmal. We roundly condemn your inadequacies."
+  ],
+  "DefaultCombatLeaderCastDefId": "castDef_ComStarDefault",
+  "DefaultRepresentativeCastDefId": "castDef_ComStarDefault",
+  "DataManager": null,
+  "factionID": "ComStarA",
+  "icon": "uixTxrLogo_ComStar",
+  "heraldryDefId": "heraldrydef_comstarA",
+  "storePanelImage": null,
+  "factionStoreColor": null,
+  "StartingReputationValues": [
+    0,
+    0,
+    0
+  ],
+  "StartingReputationModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ]
+}
