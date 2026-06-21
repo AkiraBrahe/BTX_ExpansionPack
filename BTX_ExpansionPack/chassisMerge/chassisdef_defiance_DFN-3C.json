@@ -1,0 +1,17 @@
+{
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.05",
+      "chassis_endo",
+      "chassis_DHS",
+      "chassis_TSM",
+      "mech_gyro_compact",
+      "mech_quirk_barrelfist_la",
+      "mech_quirk_barrelfist_ra",
+      "mech_quirk_hyperextendingactuators",
+      "mech_quirk_searchlight_LT",
+      "mech_quirk_stable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
