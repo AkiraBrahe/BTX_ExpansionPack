@@ -1,6 +1,8 @@
 itemCollection_factory_MacLeods,,,
 mechdef_locust_LCT-1V,Mech,0,1
 mechdef_stinger_STG-3R,Mech,0,1
+mechdef_clint_CLNT-2-3T,Mech,0,1
+mechdef_clint_CLNT-2-4T,Mech,0,1
 vehicledef_BULLDOG,Mech,0,1
 vehicledef_BULLDOG_AC2,Mech,0,1
 vehicledef_BULLDOG_LRM,Mech,0,1

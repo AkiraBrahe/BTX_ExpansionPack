@@ -1,6 +1,13 @@
 itemCollection_factory_Tikonov3068,,,
+mechdef_stinger_STG-3R,Mech,0,1
+mechdef_griffin_GRF-1N,Mech,0,1
+mechdef_bombardier_BMB-10D,Mech,0,1
 mechdef_koschei_KSC-5MC,Mech,0,1
+mechdef_thunderbolt_TDR-5S,Mech,0,1
+mechdef_thunderbolt_TDR-5SE,Mech,0,1
+mechdef_cataphract_CTF-1X,Mech,0,1
 mechdef_cataphract_CTF-4L,Mech,0,1
+mechdef_cataphract_CTF-4X,Mech,0,1
 vehicledef_MINION,Mech,0,1
 vehicledef_MINION_TAC,Mech,0,1
 vehicledef_MINION_TAG,Mech,0,1

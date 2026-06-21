@@ -19,8 +19,9 @@ mechdef_avatar_AV1-OG,Mech,0,1
 mechdef_falconer_FLC-8R,Mech,0,1
 mechdef_victor_VTR-10D,Mech,0,1
 mechdef_victor_VTR-11D,Mech,0,1
+mechdef_victor_VTR-9D,Mech,0,1
 vehicledef_DEMOLISHER,Mech,0,1
 vehicledef_DEMOLISHER_LBX,Mech,0,1
-vehicledef_AJAX-PRIME,Mech,0,1
 vehicledef_AJAX-A,Mech,0,1
 vehicledef_AJAX-B,Mech,0,1
+vehicledef_AJAX-PRIME,Mech,0,1

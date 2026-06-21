@@ -3,11 +3,12 @@ mechdef_fireball_ALM-7D,Mech,0,1
 mechdef_fireball_ALM-8D,Mech,0,1
 mechdef_fireball_ALM-9D,Mech,0,1
 mechdef_locust_LCT-3D,Mech,0,1
-mechdef_wasp_WSP-1D,Mech,0,1
 mechdef_osiris_OSR-3D,Mech,0,1
 mechdef_valkyrie_VLK-QA,Mech,0,1
 mechdef_valkyrie_VLK-QD,Mech,0,1
+mechdef_phoenixhawk_PXH-1,Mech,0,1
 mechdef_phoenixhawk_PXH-3D,Mech,0,1
+mechdef_centurion_CN9-D,Mech,0,1
 mechdef_centurion_CN9-D3,Mech,0,1
 mechdef_centurion_CN9-D3D,Mech,0,1
 mechdef_centurion_CN9-D5,Mech,0,1

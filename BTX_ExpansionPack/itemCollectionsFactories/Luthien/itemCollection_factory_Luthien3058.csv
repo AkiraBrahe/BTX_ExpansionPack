@@ -5,6 +5,7 @@ mechdef_raptor_RTX-OB,Mech,0,1
 mechdef_raptor_RTX-OC,Mech,0,1
 mechdef_raptor_RTX-OD,Mech,0,1
 mechdef_raptor_RTX-OE,Mech,0,1
+mechdef_jenner_JR7-D,Mech,0,1
 mechdef_jenner_JR7-K,Mech,0,1
 mechdef_owens_OW-1,Mech,0,1
 mechdef_owens_OW-1A,Mech,0,1
@@ -23,6 +24,8 @@ mechdef_firestarter_FS9-OB,Mech,0,1
 mechdef_firestarter_FS9-OC,Mech,0,1
 mechdef_firestarter_FS9-OD,Mech,0,1
 mechdef_firestarter_FS9-OE,Mech,0,1
+mechdef_komodo_KIM-2,Mech,0,1
+mechdef_komodo_KIM-2A,Mech,0,1
 mechdef_blackjack_BJ2-O,Mech,0,1
 mechdef_blackjack_BJ2-OA,Mech,0,1
 mechdef_blackjack_BJ2-OB,Mech,0,1
@@ -34,17 +37,20 @@ mechdef_blackhawk-ku_BHKU-OB,Mech,0,1
 mechdef_blackhawk-ku_BHKU-OC,Mech,0,1
 mechdef_blackhawk-ku_BHKU-OD,Mech,0,1
 mechdef_blackhawk-ku_BHKU-OX,Mech,1,1
-mechdef_komodo_KIM-2,Mech,0,1
-mechdef_komodo_KIM-2A,Mech,0,1
+mechdef_granddragon_DRG-1G,Mech,0,1
 mechdef_granddragon_DRG-5K,Mech,0,1
 mechdef_lancelot_LNC25-01,Mech,0,1
+mechdef_lancelot_LNC25-02,Mech,0,1
 mechdef_lancelot_LNC25-03,Mech,0,1
+mechdef_quickdraw_QKD-4G,Mech,0,1
 mechdef_quickdraw_QKD-5K,Mech,0,1
 mechdef_avatar_AV1-O,Mech,0,1
 mechdef_avatar_AV1-OA,Mech,0,1
 mechdef_avatar_AV1-OB,Mech,0,1
 mechdef_avatar_AV1-OC,Mech,0,1
 mechdef_avatar_AV1-OG,Mech,0,1
+mechdef_charger_CGR-1A1,Mech,0,1
+mechdef_charger_CGR-1A9,Mech,0,1
 mechdef_charger_CGR-3K,Mech,0,1
 mechdef_hatamotochi_HTM-26T,Mech,0,1
 mechdef_mauler_MAL-1R,Mech,1,1
@@ -54,3 +60,4 @@ mechdef_sunder_SD1-OB,Mech,0,1
 mechdef_sunder_SD1-OC,Mech,0,1
 vehicledef_DAIMYO_67-K,Mech,0,1
 vehicledef_TOKUGAWA,Mech,0,1
+vehicledef_TOKUGAWA_TKG-151,Mech,0,1

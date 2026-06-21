@@ -1,5 +1,7 @@
 itemCollection_factory_Alphard3057,,,
+mechdef_commando_COM-2D,Mech,0,1
 vehicledef_MAULTIER,Mech,0,1
 vehicledef_JEdgar,Mech,0,1
+vehicledef_JEdgar_ICE,Mech,0,1
 vehicledef_GLADIUS,Mech,0,1
 vehicledef_FULCRUM,Mech,0,1

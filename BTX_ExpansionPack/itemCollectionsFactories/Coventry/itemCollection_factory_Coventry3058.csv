@@ -1,5 +1,6 @@
 itemCollection_factory_Coventry3058,,,
 mechdef_stinger_STG-3R,Mech,0,1
+mechdef_commando_COM-2D,Mech,0,1
 mechdef_commando_COM-5S,Mech,0,1
 mechdef_commando_COM-7J,Mech,0,1
 mechdef_hussar_HSR-200-D,Mech,0,1
@@ -9,6 +10,7 @@ mechdef_firestarter_FS9-S,Mech,0,1
 mechdef_firestarter_FS9-S1,Mech,0,1
 mechdef_hollander_BZK-F3,Mech,0,1
 mechdef_hollander_BZK-G1,Mech,0,1
+mechdef_vulcan_VL-2T,Mech,0,1
 mechdef_vulcan_VL-5S,Mech,0,1
 mechdef_firestarter_FS9-O,Mech,0,1
 mechdef_firestarter_FS9-OA,Mech,0,1
@@ -17,7 +19,9 @@ mechdef_firestarter_FS9-OC,Mech,0,1
 mechdef_firestarter_FS9-OD,Mech,0,1
 mechdef_firestarter_FS9-OE,Mech,0,1
 mechdef_hollanderii_BZK-F5,Mech,0,1
+mechdef_phoenixhawk_PXH-1,Mech,0,1
 mechdef_phoenixhawk_PXH-3S,Mech,0,1
+mechdef_hunchback_HBK-4G,Mech,0,1
 mechdef_hunchback_HBK-5S,Mech,0,1
 mechdef_blackhawk-ku_BHKU-O,Mech,0,1
 mechdef_blackhawk-ku_BHKU-OA,Mech,0,1

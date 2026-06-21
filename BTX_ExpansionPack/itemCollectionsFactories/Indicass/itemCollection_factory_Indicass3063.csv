@@ -1,6 +1,10 @@
 itemCollection_factory_Indicass3063,,,
 vehicledef_SWIFTWIND,Mech,0,1
 vehicledef_SWIFTWIND_ARMOR,Mech,0,1
+vehicledef_SWIFTWIND_ICE,Mech,0,1
+vehicledef_MOBILEHQ-ICE,Mech,0,1
+vehicledef_MOBILEHQ-ICE_LL,Mech,0,1
+vehicledef_MOBILEHQ-ICE_LRM,Mech,0,1
 vehicledef_MOBILEHQ_ARMOR,Mech,0,1
 vehicledef_MOBILEHQ_LL,Mech,0,1
 vehicledef_MOBILEHQ_LRM,Mech,0,1

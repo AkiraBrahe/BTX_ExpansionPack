@@ -1,8 +1,12 @@
 itemCollection_factory_Stewart3063,,,
 mechdef_locust_LCT-3M,Mech,0,1
+mechdef_tarantula_ZPH-1,Mech,0,1
 mechdef_tarantula_ZPH-2A,Mech,0,1
 mechdef_tarantula_ZPH-3A,Mech,0,1
+mechdef_trebuchet_TBT-5J,Mech,0,1
+mechdef_trebuchet_TBT-5N,Mech,0,1
 mechdef_trebuchet_TBT-7M,Mech,0,1
+mechdef_goliath_GOL-1H,Mech,0,1
 mechdef_goliath_GOL-3M,Mech,0,1
 mechdef_goliath_GOL-3M2,Mech,0,1
 mechdef_sirocco_SRC-3C,Mech,0,1

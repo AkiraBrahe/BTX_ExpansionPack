@@ -1,4 +1,5 @@
 itemCollection_factory_Sian3048,,,
+mechdef_wasp_WSP-1A,Mech,0,1
 mechdef_wasp_WSP-1L,Mech,0,1
 mechdef_raven_RVN-1X,Mech,1,1
 mechdef_raven_RVN-3L,Mech,0,1
@@ -17,6 +18,6 @@ vehicledef_MAXIM,Mech,0,1
 vehicledef_MAXIM_SRM2,Mech,0,1
 vehicledef_MAXIM_SRM4,Mech,0,1
 vehicledef_VEDETTE,Mech,0,1
-vehicledef_VEDETTE_AC2,Mech,0,1
 vehicledef_VEDETTE_AC10,Mech,0,1
+vehicledef_VEDETTE_AC2,Mech,0,1
 vehicledef_VEDETTE_LIAO,Mech,0,1
