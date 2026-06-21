@@ -1,79 +1,68 @@
-using BattleTech.Data;
 using BattleTech.Framework;
-using FullXotlTables;
 using HBS.Collections;
 using System;
-using Random = UnityEngine.Random;
 
 namespace BTX_ExpansionPack.Features.Lances
 {
-    internal partial class AdditionalLances
+    internal class AdditionalLances
     {
         /// <summary>
-        /// Ensures that certain lances spawn with appropriate weight classes and types.
+        /// Ensures that additional lances spawn with appropriate weight classes.
         /// </summary>
-        [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit")]
+        [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit", typeof(string), typeof(DateTime?), typeof(TagSet))]
         public static class UnitSpawnPointOverride_RequestUnit_PrePatch
         {
             [HarmonyPrefix]
             [HarmonyBefore("BattleTech.Haree.FullXotlTables")]
-            public static void Prefix(UnitSpawnPointOverride __instance, string lanceDefId, DateTime? currentDate, TagSet companyTags)
+            public static void Prefix(UnitSpawnPointOverride __instance, string lanceDefId, DateTime? currentDate)
             {
                 if (currentDate == null) return;
                 switch (lanceDefId)
                 {
-                    case "lancedef_apc_dynamic_battle1" when !__instance.unitTagSet.Contains("unit_light"):
-                        string lightWeightClass = Random.Range(0, 100) < 80
-                            ? "unit_medium"
-                            : "unit_light";
-
-                        __instance.unitTagSet.RemoveRange(weightClassTags);
-                        __instance.unitTagSet.Add(lightWeightClass);
+                    // APC Lance: Clamp weight to Medium/Light
+                    case "lancedef_apc_dynamic_battle1":
+                        __instance.unitTagSet.ClampToWeightClass("unit_medium", "unit_light", 0.8f);
                         break;
 
-                    case "lancedef_arty_dynamic_battle1" when !__instance.unitTagSet.Contains("unit_vehicle_spotter"):
-                        if (__instance.unitTagSet.Contains("unit_light") || __instance.unitTagSet.Contains("unit_assault"))
-                        {
-                            string middleWeightClass = Random.Range(0, 100) < 60
-                                    ? "unit_heavy"
-                                    : "unit_medium";
-
-                            __instance.unitTagSet.RemoveRange(weightClassTags);
-                            __instance.unitTagSet.Add(middleWeightClass);
-                        }
+                    // VTOL Lance: Force weight to Light
+                    case "lancedef_vtol_dynamic_battle1":
+                        __instance.unitTagSet.ForceWeightClass("unit_light");
                         break;
 
-                    case "lancedef_arty_dynamic_battle1" when __instance.unitTagSet.Contains("unit_vehicle_spotter"):
-                        string peekedUnitId = FullXotlTables.Core.xotlTables.RequestUnit(currentDate.Value, __instance.unitTagSet, __instance.unitExcludedTagSet, companyTags);
-                        if (!SpotterVehicles.Contains(peekedUnitId))
-                        {
-                            __instance.unitTagSet.Remove("unit_vehicle_spotter");
-                            __instance.unitExcludedTagSet.Add("unit_speed_low");
-                        }
-                        break;
-
-                    case "lancedef_vtol_dynamic_battle1" when !__instance.unitTagSet.Contains("unit_light"):
-                        __instance.unitTagSet.RemoveRange(weightClassTags);
-                        __instance.unitTagSet.Add("unit_light");
+                    // Heavy VTOL Lance: Force weight to Heavy
+                    case "lancedef_vtol_heavy_dynamic_battle1":
+                        __instance.unitTagSet.ForceWeightClass("unit_heavy");
                         break;
                 }
             }
         }
 
         /// <summary>
-        /// Adjusts lance difficulty by a small random variance to increase lance variety.
+        /// Remaps sub-units to their parent factions so they can spawn appropriate lances.
         /// </summary>
-        [HarmonyPatch(typeof(UnitsAndLances_MDDExtensions), "GetDynamicLanceDifficultyListByDifficulty")]
-        public static class UnitsAndLances_MDDExtensions_GetDynamicLanceDifficultyListByDifficulty
+        [HarmonyPatch(typeof(MissionControl.Config.AdditionalLances), "GetLancePoolKeys", typeof(string), typeof(string), typeof(string), typeof(string), typeof(int), typeof(int), typeof(int))]
+        public static class AdditionalLances_GetLancePoolKeys
         {
+            private static readonly string[] FactionsWithSubunits =
+            [
+                "Davion", "Kurita", "Liao", "Marik", "Steiner",
+                "ChaosMarch", "FedCom", "Ives", "Rasalhague", "Merc",
+                "TaurianConcordat", "Calderon", "MagistracyOfCanopus", "Marian", "Outworld"
+            ];
+
             [HarmonyPrefix]
-            public static void Prefix(ref long difficulty)
+            public static void Prefix(ref string faction)
             {
-                int variance = difficulty <= 3 ? Random.Range(0, 1) : Random.Range(0, 2);
-                if (variance == 0) return;
-                long originalDifficulty = difficulty;
-                difficulty += variance;
-                Logger.Log($"Varied lance difficulty from {originalDifficulty} to {difficulty}.");
+                if (string.IsNullOrEmpty(faction)) return;
+
+                foreach (var baseFaction in FactionsWithSubunits)
+                {
+                    if (faction.StartsWith(baseFaction) && faction.Length > baseFaction.Length)
+                    {
+                        faction = baseFaction;
+                        break;
+                    }
+                }
             }
         }
     }

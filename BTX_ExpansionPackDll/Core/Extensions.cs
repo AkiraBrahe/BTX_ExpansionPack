@@ -344,5 +344,62 @@ namespace BTX_ExpansionPack.Core
         public static bool HasArtemis(this Mech mech) => mech?.allComponents?.Any(comp => comp.defId.StartsWith("Gear_Addon_Artemis")) ?? false;
 
         #endregion
+
+        #region Lance Composition
+
+        public static readonly string[] weightClassTags = ["unit_light", "unit_medium", "unit_heavy", "unit_assault"];
+
+        extension(TagSet tagSet)
+        {
+            /// <summary>
+            /// Clamps a tag set to a specific weight class range.
+            /// </summary>
+            public TagSet ClampToWeightClass(string weightClass1, string weightClass2, float chance)
+            {
+                if (!tagSet.Contains(weightClass1) && !tagSet.Contains(weightClass2))
+                {
+                    if (Random.Range(0, 100) < chance)
+                    {
+                        tagSet.RemoveRange(weightClassTags);
+                        tagSet.Add(weightClass1);
+                    }
+                    else
+                    {
+                        tagSet.RemoveRange(weightClassTags);
+                        tagSet.Add(weightClass2);
+                    }
+                }
+
+                return tagSet;
+            }
+
+            /// <summary>
+            /// Forces a tag set to a specific weight class.
+            /// </summary>
+            public TagSet ForceWeightClass(string weightClass)
+            {
+                tagSet.RemoveRange(weightClassTags);
+                tagSet.Add(weightClass);
+                return tagSet;
+            }
+
+            public TagSet ForceUnitType(UnitType unitType)
+            {
+                switch (unitType)
+                {
+                    case UnitType.Mech:
+                        tagSet.Remove("unit_vehicle");
+                        tagSet.Add("unit_mech");
+                        break;
+                    case UnitType.Vehicle:
+                        tagSet.Remove("unit_mech");
+                        tagSet.Add("unit_vehicle");
+                        break;
+                }
+                return tagSet;
+            }
+        }
+
+        #endregion
     }
 }

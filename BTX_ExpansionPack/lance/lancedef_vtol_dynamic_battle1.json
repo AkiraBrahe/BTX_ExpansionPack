@@ -1,8 +1,8 @@
 {
   "Description": {
     "Id": "lancedef_vtol_dynamic_battle1",
-    "Name": "VTOL Lance",
-    "Details": "4x VTOLs",
+    "Name": "Light VTOL Lance",
+    "Details": "4x Light VTOLs",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
