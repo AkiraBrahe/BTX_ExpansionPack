@@ -5170,7 +5170,7 @@
           "EncounterObjectGuid": "9bd2f5be-f04f-4f2e-a25d-4295f59a0369"
         },
         "name": "Lance_HostileAll_Primary",
-        "lanceDefId": "lancedef_comstar_mixed_dynamic_battle1",
+        "lanceDefId": "lancedef_comstar_vee_dynamic_battle1",
         "lanceTagSet": {
           "items": [],
           "tagSetSourceFile": "tags/LanceTags"
@@ -5183,7 +5183,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": -1,
+        "lanceDifficultyAdjustment": 0,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "overrideSpawnMethod": null,
@@ -5194,8 +5194,8 @@
             },
             "customUnitName": "",
             "customHeraldryDefId": "",
-            "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitType": "Vehicle",
+            "unitDefId": "vehicleDef_InheritLance",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -5227,8 +5227,8 @@
             },
             "customUnitName": "",
             "customHeraldryDefId": "",
-            "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitType": "Vehicle",
+            "unitDefId": "vehicleDef_InheritLance",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -5260,8 +5260,8 @@
             },
             "customUnitName": "",
             "customHeraldryDefId": "",
-            "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitType": "Vehicle",
+            "unitDefId": "vehicleDef_InheritLance",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"

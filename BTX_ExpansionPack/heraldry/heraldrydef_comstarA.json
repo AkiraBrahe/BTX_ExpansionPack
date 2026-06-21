@@ -1,0 +1,18 @@
+{
+  "Description": {
+    "Cost": 0,
+    "Rarity": 1,
+    "Purchasable": false,
+    "Manufacturer": "null",
+    "Model": "null",
+    "UIName": "null",
+    "Id": "heraldrydef_comstarA",
+    "Name": "Com Guard Divisions",
+    "Details": "This is the heraldry def for the Com Guard Divisions",
+    "Icon": ""
+  },
+  "textureLogoID": "uixTxrLogo_ComStar",
+  "primaryMechColorID": "BrightWhite_01",
+  "secondaryMechColorID": "BrightWhite_01",
+  "tertiaryMechColorID": "Greyscale_01"
+}

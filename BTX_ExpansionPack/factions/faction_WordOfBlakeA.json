@@ -1,0 +1,53 @@
+{
+  "ID": "faction_WordOfBlakeA",
+  "Name": "the Shadow Division",
+  "ShortName": "Word of Blake",
+  "Description": "The Shadow Divisions are a ghost story whispered among the intelligence agencies of the Inner Sphere. These rumored formations supposedly serve as the Word of Blake's hidden hand and are drawn from the Manei Domini, a hyper-elite cybernetically enhanced warrior caste whose human limitations have been violently stripped away. If they exist, they are the ultimate shock troops, waiting for the signal to strike.",
+  "Demonym": "Blakist",
+  "Government": "Corporation",
+  "Allies": [
+    "MercenaryReviewBoard",
+    "Marik"
+  ],
+  "Enemies": [
+    "ComStar"
+  ],
+  "Presence": 0.1,
+  "ReputationStatements": [
+    "Even the Word of Blake occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even the Word of Blake occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even the Word of Blake occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even the Word of Blake occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even the Word of Blake occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even the Word of Blake occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us.",
+    "Even the Word of Blake occasionally requires the services of mercenaries, Commander. We will look highly upon you, should you aid us."
+  ],
+  "MissionSuccessStatements": [
+    "The Word of Blake congratulates you on your successful mission, mercenary. We are pleased you've been able to assist us so thoroughly."
+  ],
+  "GoodFaithFailureStatements": [
+    "It seems apparent that while you failed to achieve our goals, you engaged the enemy for as long as you were able. Better luck next time, Commander. May the Spirit of Blake be with you."
+  ],
+  "BadFaithFailureStatements": [
+    "Far be it from a simple organization like the Word of Blake to reprimand you in matters of warfare, Commander, but\u2026 your performance on that operation was positively abysmal. We roundly condemn your inadequacies."
+  ],
+  "DefaultCombatLeaderCastDefId": "castDef_WordOfBlakeDefault",
+  "DefaultRepresentativeCastDefId": "castDef_WordOfBlakeDefault",
+  "DataManager": null,
+  "factionID": "WordOfBlakeA",
+  "icon": "uixTxrLogo_WordOfBlake",
+  "heraldryDefId": "heraldrydef_wordofblakeA",
+  "storePanelImage": null,
+  "factionStoreColor": null,
+  "factionMapColor": "rgba(217,217,217,1.0)",
+  "StartingReputationValues": [
+    0,
+    0,
+    0
+  ],
+  "StartingReputationModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ]
+}

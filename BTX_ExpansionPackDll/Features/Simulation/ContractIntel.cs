@@ -18,12 +18,14 @@ namespace BTX_ExpansionPack.Features.Simulation
         {
             private static readonly Dictionary<string, string> Variant = new()
             {
-                { "ThreeWayBattle_SearchDenialCS", "Default" },
-                { "ThreeWayBattle_SearchDenialCS_Easy", "Easy (Mixed Level II)" },
-                { "ThreeWayBattle_SearchDenialCS_Hard", "Hard (Additional ComStar Forces)" },
-                { "ThreeWayBattle_SearchDenialWoB", "Default" },
-                { "ThreeWayBattle_SearchDenialWoB_Easy", "Easy (Mixed Level II)" },
-                { "ThreeWayBattle_SearchDenialWoB_Hard", "Hard (Additional Blakist Forces)" },
+                { "ThreeWayBattle_SearchDenialCS", "Normal (Mixed Level IIs)" },
+                { "ThreeWayBattle_SearchDenialCS_Easy", "Easy (Vehicle-heavy Level IIs)" },
+                { "ThreeWayBattle_SearchDenialCS_Hard", "Hard (Mech-heavy Level IIs)" },
+                { "ThreeWayBattle_SearchDenialCS_Elite", "Very Hard (Elite ComStar Forces)" },
+                { "ThreeWayBattle_SearchDenialWoB", "Normal (Mixed Level IIs)" },
+                { "ThreeWayBattle_SearchDenialWoB_Easy", "Easy (Vehicle-heavy Level IIs)" },
+                { "ThreeWayBattle_SearchDenialWoB_Hard", "Hard (Mech-heavy Level IIs)" },
+                { "ThreeWayBattle_SearchDenialWoB_Elite", "Very Hard (Elite Blakist Forces)" },
                 { "ThreeWayBattle_TagTeam_CS", "Default" },
                 { "ThreeWayBattle_TagTeam_CS_Alt", "Alternate (Additional Forces)" },
                 { "ThreeWayBattle_TagTeam_CS_Betray", "Betray (Additional ComStar Forces)" }
