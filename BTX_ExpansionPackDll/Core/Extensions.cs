@@ -1,10 +1,13 @@
 using BattleTech;
+using BattleTech.Data;
 using CustAmmoCategories;
 using CustomUnits;
 using HBS.Collections;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace BTX_ExpansionPack.Core
 {
@@ -152,8 +155,8 @@ namespace BTX_ExpansionPack.Core
             /// </summary>
             public bool IsVTOLOrHoverTank()
             {
-                return unit is Mech mech && (mech.MechDef.MechTags.Contains("unit_vtol") || mech.MechDef.MechTags.Contains("unit_hover")) ||
-                       unit is Vehicle vehicle && (vehicle.VehicleDef.VehicleTags.Contains("unit_vtol") || vehicle.VehicleDef.VehicleTags.Contains("unit_hover"));
+                return (unit is Mech mech && (mech.MechDef.MechTags.Contains("unit_vtol") || mech.MechDef.MechTags.Contains("unit_hover"))) ||
+                       (unit is Vehicle vehicle && (vehicle.VehicleDef.VehicleTags.Contains("unit_vtol") || vehicle.VehicleDef.VehicleTags.Contains("unit_hover")));
             }
 
             /// <summary>
@@ -164,7 +167,7 @@ namespace BTX_ExpansionPack.Core
                 if (unit.Weapons == null) return false;
                 foreach (var w in unit.Weapons)
                 {
-                    if (w.IsArtillery() || (w.Description != null && w.Description.Id != null && w.Description.Id.StartsWith("Weapon_Artillery", System.StringComparison.OrdinalIgnoreCase)))
+                    if (w.IsArtillery() || (w.Description != null && w.Description.Id != null && w.Description.Id.StartsWith("Weapon_Artillery", StringComparison.OrdinalIgnoreCase)))
                     {
                         return true;
                     }
@@ -334,7 +337,7 @@ namespace BTX_ExpansionPack.Core
                     }
                 }
 
-                return UnityEngine.Random.Range(0f, 100f) < predictedMissileDamage;
+                return Random.Range(0, 100) < predictedMissileDamage;
             }
         }
 
@@ -361,7 +364,7 @@ namespace BTX_ExpansionPack.Core
                 bool isEliteDivision = factionId is "ComStarA" or "WordOfBlakeA";
                 difficulty = isEliteDivision ? 10 : Mathf.Clamp(difficulty, 6, 10);
 
-                var currentDiffTag = tagSet.FirstOrDefault(tag => tag.StartsWith("pilot_npc_d"));
+                string currentDiffTag = tagSet.FirstOrDefault(tag => tag.StartsWith("pilot_npc_d"));
                 if (currentDiffTag == null || difficultyTags.IndexOf(currentDiffTag) < 5)
                 {
                     if (currentDiffTag != null)
@@ -423,6 +426,21 @@ namespace BTX_ExpansionPack.Core
                 }
                 return tagSet;
             }
+        }
+
+        extension(MetadataDatabase mdd)
+        {
+            /// <summary>
+            /// Clear all entries from the Dynamic Lance Difficulty database.
+            /// </summary>
+            public void ClearDynamicLanceDifficulty() => mdd.Execute("DELETE FROM DynamicLanceDifficulty");
+
+            /// <summary>
+            /// Bulk insert multiple Dynamic Lance Difficulty entries into the database.
+            /// </summary>
+            public void BulkInsertDynamicLanceDifficulty(IEnumerable<DynamicLanceDifficulty_MDD> defs) =>
+                mdd.Execute(@"INSERT INTO DynamicLanceDifficulty (DynamicLanceDifficultyID, Difficulty, NoUnitCount, LightUnitCount, MediumUnitCount, HeavyUnitCount, AssaultUnitCount, PilotTags)
+                  VALUES (@DynamicLanceDifficultyID, @Difficulty, @NoUnitCount, @LightUnitCount, @MediumUnitCount, @HeavyUnitCount, @AssaultUnitCount, @PilotTags)", defs);
         }
 
         #endregion

@@ -1,7 +1,6 @@
 using BattleTech;
 using BTX_CAC_CompatibilityDll;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace BTX_ExpansionPack.Fixes.Mechs
 {

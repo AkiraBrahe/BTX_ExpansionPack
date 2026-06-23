@@ -11,17 +11,14 @@ namespace BTX_ExpansionPack.Features.Combat
 {
     /// <summary>
     /// Adds a chance for artillery strikes to concentrate their damage on a single location, simulating a critical hit effect.
-    /// <br>The chance of a critical hit is inversely proportional to the distance from the strike's center to the target, 
-    /// meaning closer targets have a higher chance of receiving a critical hit. It is capped at 50% to make them more special.</br>
     /// </summary>
     /// <remarks>
-    /// <list type="bullet">Artillery Crit Chance = (MaxCritChance - MinCritChance) * (1 - (DistanceToTarget / MaxEffectiveDistance)) + MinCritChance</list>
+    /// The chance of a critical hit is inversely proportional to the distance from the strike's center to the target, 
+    /// meaning closer targets have a higher chance of receiving a critical hit. It is capped at 50% to make them special.
+    /// <br/>Artillery Crit Chance = (MaxCritChance - MinCritChance) * (1 - (DistanceToTarget / MaxEffectiveDistance)) + MinCritChance
     /// </remarks>
     internal class ArtilleryCrits
     {
-        private static readonly System.Random Rng = new();
-
-        private static readonly HashSet<string> ArtilleryCritTargets = [];
 
         /// <summary>
         /// Modifies the AoE spread locations for artillery strikes to include a chance for concentrated damage on a single location.
@@ -30,9 +27,9 @@ namespace BTX_ExpansionPack.Features.Combat
         public static class AreaOfEffectHelper_AoEProcessing
         {
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                var matcher = new CodeMatcher(instructions, il);
+                var matcher = new CodeMatcher(instructions);
 
                 object distance = matcher.MatchForward(false, new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Vector3), nameof(Vector3.Distance)))).Advance(1).Operand;
                 object realdistance = matcher.MatchForward(false, new CodeMatch(OpCodes.Ldloc_S, distance), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
@@ -72,7 +69,7 @@ namespace BTX_ExpansionPack.Features.Combat
             const float critLocationWeightMultiplier = 4f;
 
             float critChance = Mathf.Lerp(maxCritChance, minCritChance, distanceToTarget / maxEffectiveDistance);
-            if (distanceToTarget > maxEffectiveDistance || Rng.NextDouble() > critChance)
+            if (distanceToTarget > maxEffectiveDistance || Random.value > critChance)
             {
                 return GetAOESpreadLocationsHelper.GetAOESpreadArmorLocations(target);
             }
@@ -84,7 +81,7 @@ namespace BTX_ExpansionPack.Features.Combat
             }
 
             var dynamicSpread = new Dictionary<int, float>(GetAOESpreadLocationsHelper.GetAOESpreadArmorLocations(target));
-            int critLocation = validLocations[Rng.Next(validLocations.Count)];
+            int critLocation = validLocations[Random.Range(0, validLocations.Count)];
             if (dynamicSpread.ContainsKey(critLocation))
             {
                 dynamicSpread[critLocation] *= critLocationWeightMultiplier;
@@ -107,6 +104,8 @@ namespace BTX_ExpansionPack.Features.Combat
             Main.Log.LogDebug($"[ArtilleryCrits] Critical Hit! (rolled < {critChance:P0})\nConcentrating damage on {(ArmorLocation)critLocation} location of {target.DisplayName}.");
             return dynamicSpread;
         }
+
+        private static readonly HashSet<string> ArtilleryCritTargets = [];
 
         /// <summary>
         /// Displays a floatie message when a mech takes weapon damage from an artillery crit.

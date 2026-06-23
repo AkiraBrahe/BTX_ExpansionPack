@@ -23,15 +23,9 @@ namespace BTX_ExpansionPack.Core.Helpers
 
             }
 
-            public static void SetContext(int difficulty, string lanceDefId, string factionId)
-            {
-                Current = new GenerationContext(difficulty, lanceDefId, factionId);
-            }
+            public static void SetContext(int difficulty, string lanceDefId, string factionId) => Current = new GenerationContext(difficulty, lanceDefId, factionId);
 
-            public static void ClearContext()
-            {
-                Current = null;
-            }
+            public static void ClearContext() => Current = null;
         }
 
         /// <summary>
@@ -41,16 +35,10 @@ namespace BTX_ExpansionPack.Core.Helpers
         public static class UnitSpawnPointOverride_GenerateUnit
         {
             [HarmonyPrefix]
-            public static void Prefix(int contractDifficulty, string lanceDefId)
-            {
-                LanceGenerationContext.SetContext(contractDifficulty, lanceDefId, null);
-            }
+            public static void Prefix(int contractDifficulty, string lanceDefId) => LanceGenerationContext.SetContext(contractDifficulty, lanceDefId, null);
 
             [HarmonyPostfix]
-            public static void Postfix()
-            {
-                LanceGenerationContext.ClearContext();
-            }
+            public static void Postfix() => LanceGenerationContext.ClearContext();
         }
 
         #endregion

@@ -15,7 +15,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         public static class WeaponStrayHelper_MainStray
         {
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
                 var matcher = new CodeMatcher(instructions)
                     .MatchStartForward(
@@ -23,13 +23,15 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                         new CodeMatch(OpCodes.Callvirt, AccessTools.PropertyGetter(typeof(AdvWeaponHitInfo), "weapon")),
                         new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(CustomAmmoCategories), "StrayRange")));
 
-                object jumpTarget = matcher.Operand;
+                var jumpTarget = il.DefineLabel();
+                matcher.AddLabels([jumpTarget]);
+
                 return matcher
                     .MatchStartBackwards(
                         new CodeMatch(OpCodes.Newobj, AccessTools.Constructor(typeof(List<ICombatant>))),
                         new CodeMatch(OpCodes.Stloc_1))
                     .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Ldloc_0))
-                    .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(SwarmTargeting), "GetPotentialStrayTargets")))
+                    .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(WeaponStrayHelper_MainStray), "GetPotentialStrayTargets")))
                     .InsertAndAdvance(new CodeInstruction(OpCodes.Stloc_1), new CodeInstruction(OpCodes.Br, jumpTarget))
                     .InstructionEnumeration();
             }
@@ -51,7 +53,6 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                 else
                 {
                     // Improved swarm: only enemies
-                    Main.Log.LogDebug("Using Improved Swarm ammo. Stray shots will only target enemies.");
                     var allEnemies = combat.GetAllEnemiesOf(attacker);
                     potentialTargets.AddRange(allEnemies);
                 }

@@ -160,11 +160,11 @@ namespace BTX_ExpansionPack.Core.Data
             /// </summary>
             public int GetAvailability(string faction, int year, bool isClan, bool isPeriphery)
             {
-                var fallbackFaction = "ALL";
+                string fallbackFaction = "ALL";
                 if (isClan) fallbackFaction = "CLAN";
                 else if (isPeriphery) fallbackFaction = "PERIPHERY";
 
-                var availArray = FactionAvailabilityByYear.ContainsKey(faction)
+                int[] availArray = FactionAvailabilityByYear.ContainsKey(faction)
                     ? FactionAvailabilityByYear[faction] : FactionAvailabilityByYear[fallbackFaction];
                 if (availArray == null) return 0;
 
