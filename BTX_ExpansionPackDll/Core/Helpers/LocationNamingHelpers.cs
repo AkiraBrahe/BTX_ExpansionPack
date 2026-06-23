@@ -3,9 +3,6 @@ using System.Collections.Generic;
 
 namespace BTX_ExpansionPack.Core.Helpers
 {
-    /// <summary>
-    /// Helpers for naming chassis locations based on unit tags.
-    /// </summary>
     public static class LocationNamingHelpers
     {
         /// <summary>

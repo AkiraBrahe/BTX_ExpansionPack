@@ -29,9 +29,9 @@ namespace BTX_ExpansionPack.Fixes.UI
         public static class MechBayPanel_ViewBays_Postfix
         {
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                return new CodeMatcher(instructions, il)
+                return new CodeMatcher(instructions)
                     .MatchForward(false,
                         new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(GameObject), "GetComponent", generics: [typeof(LocalizableText)])))
                     .Advance(1)
@@ -290,9 +290,9 @@ namespace BTX_ExpansionPack.Fixes.UI
         public static class Mech_InitStats_Prefix
         {
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                return new CodeMatcher(instructions, il)
+                return new CodeMatcher(instructions)
                     .MatchForward(false,
                         new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s.StartsWith("chassis_compactgyro")))
                     .SetOperandAndAdvance("mech_gyro_compact")

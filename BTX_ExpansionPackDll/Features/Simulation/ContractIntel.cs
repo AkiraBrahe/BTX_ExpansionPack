@@ -16,7 +16,7 @@ namespace BTX_ExpansionPack.Features.Simulation
         [HarmonyPatch(typeof(LanceContractIntelWidget), "Init")]
         public static class LanceContractIntelWidget_Init
         {
-            private static readonly Dictionary<string, string> Variant = new()
+            private static readonly Dictionary<string, string> VariantDescriptions = new()
             {
                 { "ThreeWayBattle_SearchDenialCS", "Default" },
                 { "ThreeWayBattle_SearchDenialCS_Easy", "Easy (Mixed Level II)" },
@@ -35,9 +35,10 @@ namespace BTX_ExpansionPack.Features.Simulation
                 if (contract?.Override == null) return;
 
                 var parentObject = ContractDescriptionField.transform.parent.gameObject;
-
                 var targetText = parentObject.FindComponent<LocalizableText>("txt_target");
                 var variantText = parentObject.FindComponent<LocalizableText>("txt_variant");
+
+                int siblingOffset = 1;
 
                 if (Main.Settings.UI.ContractIntel.IntelShowTarget)
                 {
@@ -56,16 +57,16 @@ namespace BTX_ExpansionPack.Features.Simulation
                             ContractDescriptionField,
                             "txt_target",
                             $"Target: <color=#F79B26>{targetFactionName}</color>",
-                            parentObject.transform.GetSiblingIndex() + 1
+                            parentObject.transform.GetSiblingIndex() + siblingOffset
                         );
-
                         SetupTooltip(targetText, contract.Override.targetTeam.faction);
+                        siblingOffset++;
                     }
                 }
 
                 if (Main.Settings.UI.ContractIntel.IntelShowVariant)
                 {
-                    if (!string.IsNullOrEmpty(contract.Override.ID) && Variant.TryGetValue(contract.Override.ID, out string variantDescription))
+                    if (!string.IsNullOrEmpty(contract.Override.ID) && VariantDescriptions.TryGetValue(contract.Override.ID, out string variantDescription))
                     {
                         variantText = SetupTextComponent(
                             variantText,
@@ -73,7 +74,7 @@ namespace BTX_ExpansionPack.Features.Simulation
                             ContractDescriptionField,
                             "txt_variant",
                             $"Variant: <color=#F79B26>{variantDescription}</color>",
-                            parentObject.transform.GetSiblingIndex() + ((targetText != null) ? 2 : 1)
+                            parentObject.transform.GetSiblingIndex() + siblingOffset
                         );
                         SetupTooltip(variantText, null);
                     }

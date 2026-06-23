@@ -3,7 +3,6 @@ using CustAmmoCategories;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using static BTX_ExpansionPack.Fixes.Targeting.ArtilleryTargeting;
 
 namespace BTX_ExpansionPack.Core.Helpers
 {
@@ -12,8 +11,8 @@ namespace BTX_ExpansionPack.Core.Helpers
         #region Coordinated Strikes
 
         /// <summary>
-        /// Tracks active artillery strikes to enable coordinated fire
-        /// Key: Round -> Team GUID -> Strike Data
+        /// Tracks active artillery strikes to enable coordinated fire.
+        /// <list type="bullet">Keys: Round -> Team GUID -> Strike Data</list>
         /// </summary>
         public static Dictionary<int, Dictionary<string, List<ArtilleryStrikeData>>> _activeStrikes = [];
 
@@ -69,6 +68,8 @@ namespace BTX_ExpansionPack.Core.Helpers
 
         #endregion
 
+        #region Homing Arrow IV Tracking
+
         /// <summary>
         /// Tracks whether a unit has Homing Arrow IV ammo when spawning.
         /// </summary>
@@ -94,6 +95,10 @@ namespace BTX_ExpansionPack.Core.Helpers
             }
         }
 
+        #endregion
+
+        #region Area of Effect Targeting
+
         /// <summary>
         /// Finds allies within range of the artillery's area of effect.
         /// </summary>
@@ -111,5 +116,7 @@ namespace BTX_ExpansionPack.Core.Helpers
         /// </summary>
         public static List<AbstractActor> FindNearbyEnemies(AbstractActor primaryTarget, IEnumerable<AbstractActor> allEnemies, float aoeRange) =>
             [.. allEnemies.Where(enemy => Vector3.Distance(primaryTarget.CurrentPosition, enemy.CurrentPosition) <= aoeRange * 2f)];
+
+        #endregion
     }
 }

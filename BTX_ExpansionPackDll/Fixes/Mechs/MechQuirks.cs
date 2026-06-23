@@ -12,9 +12,11 @@ namespace BTX_ExpansionPack.Fixes.Mechs
 {
     /// <summary>
     /// Implements new mech quirks and fixes existing ones:
-    /// <list type="bullet"><item><description>Anti-Aircraft Targeting: +4 to hit airborne units</description></item>
+    /// <list type="bullet">
+    /// <item><description>Anti-Aircraft Targeting: +4 to hit airborne units</description></item>
     /// <item><description>Easy to Pilot: Gains +1 EVASIVE charge when moving, doesn't stack with Sure Footing</description></item>
-    /// <item><description>Poor Performance: 'Mech can only sprint if it has moved last turn</description></item></list>
+    /// <item><description>Poor Performance: 'Mech can only sprint if it has moved last turn</description></item>
+    /// </list>
     /// </summary>
     internal class MechQuirks
     {
@@ -71,9 +73,9 @@ namespace BTX_ExpansionPack.Fixes.Mechs
         public static class QuirkToolTips_DetailMechQuirksGood_EasyToPilot
         {
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                return new CodeMatcher(instructions, il)
+                return new CodeMatcher(instructions)
                     .MatchForward(false,
                         new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s.StartsWith("EVASIVE charge cap increased by 1")))
                     .SetOperandAndAdvance("Gains +1 EVASIVE charge when moving, doesn't stack with Sure Footing")
@@ -88,9 +90,9 @@ namespace BTX_ExpansionPack.Fixes.Mechs
         public static class Mech_InitStats_Postfix
         {
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                var matcher = new CodeMatcher(instructions, il)
+                var matcher = new CodeMatcher(instructions)
                     .MatchForward(false, new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is MethodInfo mi && mi.Name == "get_EasyToPilotEffect"))
                     .MatchBack(false, new CodeMatch(i => i.opcode.FlowControl == FlowControl.Cond_Branch));
 

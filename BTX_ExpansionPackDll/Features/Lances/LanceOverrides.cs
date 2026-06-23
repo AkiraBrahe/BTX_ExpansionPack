@@ -46,7 +46,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 if (LanceGenerationContext.Current == null)
                     return true;
 
-                var lanceDefId = LanceGenerationContext.Current.LanceDefId;
+                string lanceDefId = LanceGenerationContext.Current.LanceDefId;
                 if (lanceDefId.StartsWith("lancedef_comstar") || lanceDefId.StartsWith("lancedef_clan"))
                 {
                     int difficulty = LanceGenerationContext.Current.Difficulty;
@@ -152,7 +152,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 if (unitIndex == 0)
                 {
                     string selected = SelectArtillery(factionId, year, out var available);
-                    List<string> composition = BuildArtilleryComposition(selected, available);
+                    var composition = BuildArtilleryComposition(selected, available);
 
                     artilleryLanceAssignments[lanceName] = composition;
                     Main.Log.LogDebug($"[ArtilleryOverride] Selected artillery composition for '{lanceName}': {string.Join(", ", composition)}");
@@ -287,10 +287,7 @@ namespace BTX_ExpansionPack.Features.Lances
             /// Checks if the given unit is a command artillery vehicle.
             /// Currently, only the Mobile Long Tom and Schiltron Prime qualify as command artillery.
             /// </summary>
-            private static bool IsCommandArtillery(string defId)
-            {
-                return defId.StartsWith("vehicledef_LONGTOM-LT-MOB") || defId.StartsWith("vehicledef_SCHILTRON");
-            }
+            private static bool IsCommandArtillery(string defId) => defId.StartsWith("vehicledef_LONGTOM-LT-MOB") || defId.StartsWith("vehicledef_SCHILTRON");
 
             #endregion
 
@@ -331,7 +328,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 // 1. ComStar Level IIs
                 if (lanceDefId.StartsWith("lancedef_comstar"))
                 {
-                    List<LanceComposition> comstarList = difficulty switch
+                    var comstarList = difficulty switch
                     {
                         <= 3 => ComstarLightLevelIIs,
                         <= 6 => ComstarMediumLevelIIs,
@@ -343,7 +340,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 }
 
                 // 2. Clan Stars
-                List<LanceComposition> clanList = difficulty switch
+                var clanList = difficulty switch
                 {
                     <= 3 => ClanLightStars,
                     <= 6 => ClanMediumStars,

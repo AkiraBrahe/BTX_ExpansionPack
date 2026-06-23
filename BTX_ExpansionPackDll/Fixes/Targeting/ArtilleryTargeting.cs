@@ -77,9 +77,9 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         public static class AITeam_makeInvocationFromOrders_Postfix
         {
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                var matcher = new CodeMatcher(instructions, il);
+                var matcher = new CodeMatcher(instructions);
 
                 matcher.End();
                 for (int i = 0; i < 2; i++)
@@ -96,6 +96,18 @@ namespace BTX_ExpansionPack.Fixes.Targeting
             }
         }
 
+        /// <summary>
+        /// Determines the optimal artillery target position based on AI pilot tactics and previous strikes in the round.
+        /// </summary>
+        /// <remarks>
+        /// Supports the following targeting modes:
+        /// <list type="bullet">
+        /// <item><description>Single: Targets a single enemy unit</description></item>
+        /// <item><description>Cluster: Targets an area with multiple potential targets</description></item>
+        /// <item><description>Barrage: Targets an area to suppress one or more enemy units</description></item>
+        /// <item><description>Counter-Battery: Targets enemy artillery positions</description></item>
+        /// </list>
+        /// </remarks>
         public static Vector3 GetArtilleryTargetPosition(Vector3 originalPosition, Weapon weapon)
         {
             var attacker = weapon.parent;
@@ -195,7 +207,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                     break;
                 }
 
-                float roll = (float)(new System.Random().NextDouble() * totalWeight);
+                float roll = (float)(Random.value * totalWeight);
                 float accum = 0f;
                 var selected = remaining.Last();
 

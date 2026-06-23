@@ -23,7 +23,7 @@ namespace BTX_ExpansionPack.Core.Data
             public int CriticalSlots;
         }
 
-        public static Dictionary<StructureType, StructureInfo> StructureTypes = new()
+        public static readonly Dictionary<StructureType, StructureInfo> StructureTypes = new()
         {
             { StructureType.Standard, new StructureInfo {
                 Type = StructureType.Standard,

@@ -103,9 +103,9 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
 
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                var matcher = new CodeMatcher(instructions, il)
+                var matcher = new CodeMatcher(instructions)
                     .MatchForward(false, new CodeMatch(OpCodes.Ldstr, "\n__/TARGET/__:\n"))
                     .MatchBack(false, new CodeMatch(i => i.opcode.FlowControl == FlowControl.Cond_Branch));
 
@@ -164,9 +164,9 @@ namespace BTX_ExpansionPack.Fixes.UI
         public static class SelectionStateMove_ProcessLeftClickClamp_Prefix
         {
             [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
-                return new CodeMatcher(instructions, il)
+                return new CodeMatcher(instructions)
                     .MatchForward(false,
                         new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is System.Reflection.MethodInfo mi && mi.Name == "Create" && mi.DeclaringType.Name == "GenericPopupBuilder"))
                     .RemoveInstructions(2)

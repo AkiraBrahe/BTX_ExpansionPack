@@ -20,14 +20,14 @@ namespace BTX_ExpansionPack.Features.Combat
             [HarmonyPostfix]
             public static void Postfix(TurnDirector __instance)
             {
-                CombatGameState combat = __instance.Combat;
+                var combat = __instance.Combat;
                 var activeContract = combat?.ActiveContract;
 
                 if (activeContract == null || activeContract.ContractBiome != Biome.BIOMESKIN.urbanHighTech) return;
                 if (activeContract.ContractType is not ContractType.SimpleBattle and not ContractType.ThreeWayBattle) return;
 
                 List<BattleTech.Building> candidateBuildings = [];
-                foreach (ICombatant combatant in combat.GetAllCombatants())
+                foreach (var combatant in combat.GetAllCombatants())
                 {
                     if (combatant is BattleTech.Building building)
                     {

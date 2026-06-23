@@ -136,7 +136,7 @@ namespace BTX_ExpansionPack.Fixes.Pilots
             {
                 if (randomize)
                 {
-                    pilotTags.Add(Random.Range(0, 5) == 0 ? MechPilotTag : VehiclePilotTag);
+                    pilotTags.Add(Random.Range(0f, 1f) < 0.2f ? MechPilotTag : VehiclePilotTag);
                 }
                 else
                 {

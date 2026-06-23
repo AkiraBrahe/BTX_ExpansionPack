@@ -1,6 +1,4 @@
 using BattleTech.Framework;
-using HBS.Collections;
-using System;
 
 namespace BTX_ExpansionPack.Features.Lances
 {
@@ -55,7 +53,7 @@ namespace BTX_ExpansionPack.Features.Lances
             {
                 if (string.IsNullOrEmpty(faction)) return;
 
-                foreach (var baseFaction in FactionsWithSubunits)
+                foreach (string baseFaction in FactionsWithSubunits)
                 {
                     if (faction.StartsWith(baseFaction) && faction.Length > baseFaction.Length)
                     {

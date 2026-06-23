@@ -50,10 +50,10 @@ namespace BTX_ExpansionPack.Fixes.Mechs
         /// Ensures that mech stats added by CAC-C are reinitialized correctly in combat.
         /// </summary>
         [HarmonyPatch(typeof(Mech), "InitStats")]
-        [HarmonyBefore("BEX.BattleTech.Extended_CE", "io.mission.customdeploy")]
         public static class Mech_InitStats
         {
             [HarmonyPrefix]
+            [HarmonyBefore("BEX.BattleTech.Extended_CE", "io.mission.customdeploy")]
             public static void Prefix(AbstractActor __instance)
             {
                 if (!__instance.Combat.IsLoadingFromSave)

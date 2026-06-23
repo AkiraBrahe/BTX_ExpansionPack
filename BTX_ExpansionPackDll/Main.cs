@@ -47,7 +47,6 @@ namespace BTX_ExpansionPack
             catch (Exception ex)
             {
                 initSuccess = false;
-                Log.LogError("Initialization failed.");
                 Log.LogException(ex);
             }
         }
@@ -55,7 +54,7 @@ namespace BTX_ExpansionPack
         internal static void InjectCustomLanceData(MetadataDatabase mdd)
         {
             mdd.ClearDynamicLanceDifficulty();
-            mdd.BulkInsertDynamicLanceDifficulty(DatabaseHelpers.lanceDefs);
+            mdd.BulkInsertDynamicLanceDifficulty(dynamicLanceDefs);
             Log.LogDebug("Successfully updated the Dynamic Lance Difficulty database.");
         }
 
