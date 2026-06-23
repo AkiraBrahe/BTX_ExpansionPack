@@ -347,10 +347,32 @@ namespace BTX_ExpansionPack.Core
 
         #region Lance Composition
 
+        public static readonly string[] difficultyTags = ["pilot_npc_d1", "pilot_npc_d2", "pilot_npc_d3", "pilot_npc_d4", "pilot_npc_d5", "pilot_npc_d6", "pilot_npc_d7", "pilot_npc_d8", "pilot_npc_d9", "pilot_npc_d10"];
+
         public static readonly string[] weightClassTags = ["unit_light", "unit_medium", "unit_heavy", "unit_assault"];
 
         extension(TagSet tagSet)
         {
+            /// <summary>
+            /// Forces a pilot tag set to an elite difficulty level range.
+            /// </summary>
+            public TagSet ForceEliteDifficulty(int difficulty, string factionId)
+            {
+                bool isEliteDivision = factionId is "ComStarA" or "WordOfBlakeA";
+                difficulty = isEliteDivision ? 10 : Mathf.Clamp(difficulty, 6, 10);
+
+                var currentDiffTag = tagSet.FirstOrDefault(tag => tag.StartsWith("pilot_npc_d"));
+                if (currentDiffTag == null || difficultyTags.IndexOf(currentDiffTag) < 5)
+                {
+                    if (currentDiffTag != null)
+                        tagSet.Remove(currentDiffTag);
+
+                    tagSet.Add($"pilot_npc_d{difficulty}");
+                }
+
+                return tagSet;
+            }
+
             /// <summary>
             /// Clamps a tag set to a specific weight class range.
             /// </summary>
@@ -383,6 +405,9 @@ namespace BTX_ExpansionPack.Core
                 return tagSet;
             }
 
+            /// <summary>
+            /// Forces a tag set to a specific unit type.
+            /// </summary>
             public TagSet ForceUnitType(UnitType unitType)
             {
                 switch (unitType)
@@ -399,6 +424,21 @@ namespace BTX_ExpansionPack.Core
                 return tagSet;
             }
         }
+
+        #endregion
+
+        #region Faction Info
+
+        /// <summary>
+        /// Checks if a faction is a periphery faction.
+        /// </summary>
+        public static bool IsPeriphery(this FactionValue faction) => PeripheryFactions.Contains(faction.Name);
+
+        public static readonly HashSet<string> PeripheryFactions = [
+            "AuriganDirectorate", "AuriganRestoration", "Calderon", "Circinus", "Elysia",
+            "Illyrian", "Lothian", "MagistracyOfCanopus", "Marian", "NewColonyRegion",
+            "Oberon", "Outworld", "Rim", "TaurianConcordat", "Tortuga", "Valkyrate"
+        ];
 
         #endregion
     }

@@ -1,0 +1,149 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Thumper (Fusion)",
+      "Exclude": false
+    }
+  },
+  "CustomParts": {
+    "CrewLocation": "None"
+  },
+  "Description": {
+    "Id": "vehiclechassisdef_THUMPER_TAV-1",
+    "Name": "Thumper TAV-1",
+    "Details": "<b>Name: <color=#85DBF6>Thumper Artillery Vehicle TAV-1</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nThe Thumper is a cheaper alternative to the SLDF's Thor Artillery Vehicle. Mass-produced by Brooks Incorporated, it was replaced by more advanced designs following the Fourth Succession War.\n\nThe TAV-1 is the result of the Jihad's efforts to revitalize the Thumper production line. This modern variant carries an ECM suite to defend itself and nearby escorts from enemy targeting systems. The weapon loadout is completed by two ER Small Lasers mounted on a turret that provide additional deterrence to light reconnaissance units.",
+    "Icon": "uixVhclIcon_thumper",
+    "Cost": 2064000,
+    "Rarity": 0,
+    "Purchasable": true
+  },
+  "StockRole": "Artillery Vehicle",
+  "MovementCapDefID": "movedef_vee_4",
+  "PathingCapDefID": "pathingdef_heavy_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_gallant",
+  "PrefabIdentifier": "chrPrfVhcl_gallant",
+  "PrefabBase": "gallant",
+  "Tonnage": 60,
+  "weightClass": "HEAVY",
+  "BattleValue": 3655000,
+  "TopSpeed": 54,
+  "TurnRadius": 90,
+  "movementType": "Wheeled",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 3.5,
+      "z": -0.5
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3
+    },
+    {
+      "x": -3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 1.5,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 300,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 200,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 135,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 165,
+      "InternalStructure": 30
+    }
+  ]
+}
