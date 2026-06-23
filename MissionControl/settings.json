@@ -95,7 +95,8 @@
       ],
       "6": [
         { "Faction": "ComStar", "DifficultyMod": 0 },
-        { "Faction": "WordOfBlake", "DifficultyMod": 0 }
+        { "Faction": "WordOfBlake", "DifficultyMod": 0 },
+        { "Faction": "AugmentedLance", "DifficultyMod": 0 }
       ]
     }
   },
