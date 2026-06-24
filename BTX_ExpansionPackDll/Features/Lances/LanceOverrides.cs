@@ -15,21 +15,24 @@ namespace BTX_ExpansionPack.Features.Lances
         /// <summary>
         /// Allows elite Capellan units to use augmented lances following the Clan invasion.
         /// </summary>
-        [HarmonyPatch(typeof(MissionControl.Config.AdditionalLances), "GetLanceSize", typeof(string))]
-        [HarmonyPatch(typeof(MissionControl.Config.AdditionalLances), "GetFactionLanceDifficulty", typeof(string), typeof(LanceOverride))]
-        public static class AdditionalLances_CapellanAugmentedLances
+        [HarmonyPatch(typeof(MissionControl.Config.ExtendedLancesSettings), "GetFactionLanceSize")]
+        [HarmonyPatch(typeof(MissionControl.Config.ExtendedLancesSettings), "GetFactionLanceDifficulty")]
+        public static class AdditionalLances_Patches
         {
             private static int CurrentYear => BEXTimeline.UpdateOwnership.LastDayUpdated.Year;
 
             [HarmonyPrefix]
             public static void Prefix(ref string factionKey)
             {
-                if (string.IsNullOrEmpty(factionKey)) return;
-
-                if (CurrentYear >= 3052 && factionKey.StartsWith("LiaoA"))
+                if (!string.IsNullOrEmpty(factionKey))
                 {
-                    factionKey = "AugmentedLance";
+                    if (CurrentYear >= 3052 && factionKey.StartsWith("LiaoA"))
+                    {
+                        factionKey = "AugmentedLance";
+                    }
                 }
+
+                return;
             }
         }
 
