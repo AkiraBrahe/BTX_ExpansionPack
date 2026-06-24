@@ -7,14 +7,13 @@ namespace BTX_ExpansionPack.Features.Lances
         /// <summary>
         /// Ensures that additional lances spawn with appropriate weight classes.
         /// </summary>
-        [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit", typeof(string), typeof(DateTime?), typeof(TagSet))]
+        [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit")]
         public static class UnitSpawnPointOverride_RequestUnit_PrePatch
         {
             [HarmonyPrefix]
             [HarmonyBefore("BattleTech.Haree.FullXotlTables")]
-            public static void Prefix(UnitSpawnPointOverride __instance, string lanceDefId, DateTime? currentDate)
+            public static void Prefix(UnitSpawnPointOverride __instance, string lanceDefId)
             {
-                if (currentDate == null) return;
                 switch (lanceDefId)
                 {
                     // APC Lance: Clamp weight to Medium/Light

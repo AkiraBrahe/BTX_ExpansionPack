@@ -77,12 +77,12 @@ namespace BTX_ExpansionPack.Core.Helpers
         public static class UnitSpawnPointGameLogic_initializeActor
         {
             [HarmonyPrefix]
-            public static void Prefix(AbstractActor unit)
+            public static void Prefix(AbstractActor actor)
             {
-                if (unit == null || unit.ammoBoxes == null || unit.StatCollection == null) return;
+                if (actor == null || actor.ammoBoxes == null || actor.StatCollection == null) return;
 
                 bool foundHomingAmmo = false;
-                foreach (var ammoBox in unit.ammoBoxes)
+                foreach (var ammoBox in actor.ammoBoxes)
                 {
                     if (ammoBox.defId == "Ammunition_ArrowIV_Homing")
                     {
@@ -91,7 +91,7 @@ namespace BTX_ExpansionPack.Core.Helpers
                     }
                 }
 
-                unit.StatCollection.GetOrCreateStatisic("HasHomingArrowIV", foundHomingAmmo);
+                actor.StatCollection.GetOrCreateStatisic("HasHomingArrowIV", foundHomingAmmo);
             }
         }
 
