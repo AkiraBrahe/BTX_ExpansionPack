@@ -39,6 +39,7 @@
     <Publicize Include="BTSimpleMechAssembly" />
     <Publicize Include="BTX_CAC_CompatibilityDll" />
     <Publicize Include="MechQuirks" />
+    <Publicize Include="ColourfulFlashPoints:ColourfulFlashPoints.ContractCardFixup" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="CustomAmmoCategories:CustAmmoCategoriesPatches.MoveStatusPreview_DisplayPreviewStatus.Prefix" />
     <Publicize Include="CustomUnits:CustomUnits.MoveClampHelper.moveClampCache" />
@@ -71,6 +72,9 @@
     <Reference Include="BTX_CAC_CompatibilityDll">
       <HintPath>$(BattleTechGameDir)\Mods\BTX_CAC_Compatibility\BTX_CAC_CompatibilityDll.dll</HintPath>
     </Reference>
+    <Reference Include="ColourfulFlashPoints">
+      <HintPath>$(BattleTechGameDir)\Mods\ColourfulFlashpoints\ColourfulFlashPoints.dll</HintPath>
+    </Reference>
     <Reference Include="CustomActivatableEquipment">
       <HintPath>$(BattleTechGameDir)\Mods\CustomActivatableEquipment\CustomActivatableEquipment.dll</HintPath>
     </Reference>
@@ -98,9 +102,6 @@
     <Reference Include="InControl" />
     <Reference Include="IRBTModUtils">
       <HintPath>$(BattleTechGameDir)\Mods\IRBTModUtils\IRBTModUtils.dll</HintPath>
-    </Reference>
-    <Reference Include="ISM3025">
-      <HintPath>$(BattleTechGameDir)\Mods\ISM3025\ISM3025.dll</HintPath>
     </Reference>
     <Reference Include="MechAffinity">
       <HintPath>$(BattleTechGameDir)\Mods\MechAffinity\MechAffinity.dll</HintPath>
