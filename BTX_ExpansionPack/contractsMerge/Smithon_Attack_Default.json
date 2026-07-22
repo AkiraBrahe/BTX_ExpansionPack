@@ -1,0 +1,22 @@
+{
+  // Replace both Mobile HQs with actual ammo transports
+  "TargetID": "Smithon_Attack_Default",
+  "Instructions": [
+    {
+      "JSONPath": "$.targetTeam.lanceOverrideList[3].unitSpawnPointOverrideList[0]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "customUnitName": "Ammunition Transport",
+        "unitDefId": "vehicledef_AMMOTRANSPORT"
+      }
+    },
+    {
+      "JSONPath": "$.targetTeam.lanceOverrideList[4].unitSpawnPointOverrideList[0]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "customUnitName": "Ammunition Transport",
+        "unitDefId": "vehicledef_AMMOTRANSPORT"
+      }
+    }
+  ]
+}

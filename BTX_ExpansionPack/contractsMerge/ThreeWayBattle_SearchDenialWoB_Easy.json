@@ -1,0 +1,69 @@
+{
+  // Replace Blakist force with vehicle-heavy Level IIs
+  "TargetID": "ThreeWayBattle_SearchDenialWoB_Easy",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "difficulty": 2
+      }
+    },
+    { // Primary Lance
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[0]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceDefId": "lancedef_comstar_vee_dynamic_battle1",
+        "lanceDifficultyAdjustment": 0
+      }
+    },
+    {
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[0].unitSpawnPointOverrideList[0]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    },
+    {
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[0].unitSpawnPointOverrideList[1]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    },
+    {
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[0].unitSpawnPointOverrideList[2]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    },
+    {
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[0].unitSpawnPointOverrideList[3]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    },
+    { // Secondary Lance
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[1]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceDefId": "lancedef_comstar_mixed_dynamic_battle1",
+        "lanceDifficultyAdjustment": 0
+      }
+    },
+    {
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[1].unitSpawnPointOverrideList[3]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    }
+  ]
+}

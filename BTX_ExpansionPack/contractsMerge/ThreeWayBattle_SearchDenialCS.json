@@ -1,0 +1,37 @@
+{
+  // Replace ComStar force with balanced mixed Level IIs
+  "TargetID": "ThreeWayBattle_SearchDenialCS",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "difficulty": 5
+      }
+    },
+    { // Primary Lance
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[0]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceDefId": "lancedef_comstar_mixed_dynamic_battle2",
+        "lanceDifficultyAdjustment": 0
+      }
+    },
+    { // Secondary Lance
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[1]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceDefId": "lancedef_comstar_mixed_dynamic_battle1",
+        "lanceDifficultyAdjustment": 0
+      }
+    },
+    {
+      "JSONPath": "$.hostileToAllTeam.lanceOverrideList[1].unitSpawnPointOverrideList[3]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    }
+  ]
+}

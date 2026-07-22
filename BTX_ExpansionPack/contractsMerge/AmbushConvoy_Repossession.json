@@ -1,0 +1,20 @@
+{
+  // Replace Mobile HQ with any Mobile HQ variant
+  "TargetID": "AmbushConvoy_Repossession",
+  "Instructions": [
+    {
+      "JSONPath": "$.targetTeam.lanceOverrideList[0].unitSpawnPointOverrideList[0]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitDefId": "vehicleDef_InheritLance",
+        "unitTagSet": {
+          "items": [
+            "unit_noncombatant",
+            "unit_vehicle_mobileHQ",
+            "unit_vehicle"
+          ]
+        }
+      }
+    }
+  ]
+}

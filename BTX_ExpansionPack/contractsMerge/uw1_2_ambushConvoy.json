@@ -1,0 +1,37 @@
+{
+  // Replace Mobile HQ with a Heavy Transport B1
+  "TargetID": "uw1_2_ambushConvoy",
+  "Instructions": [
+    {
+      "JSONPath": "$.targetTeam.lanceOverrideList[0].unitSpawnPointOverrideList[0]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitDefId": "vehicledef_HeavyTransport_B1"
+      }
+    },
+    {
+      "JSONPath": "$.targetTeam.lanceOverrideList[0].unitSpawnPointOverrideList[1]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    },
+    {
+      "JSONPath": "$.targetTeam.lanceOverrideList[0].unitSpawnPointOverrideList[2]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    },
+    {
+      "JSONPath": "$.targetTeam.lanceOverrideList[0].unitSpawnPointOverrideList[3]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "unitType": "Vehicle",
+        "unitDefId": "vehicleDef_InheritLance"
+      }
+    }
+  ]
+}
