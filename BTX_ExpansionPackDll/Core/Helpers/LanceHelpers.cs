@@ -88,6 +88,33 @@ namespace BTX_ExpansionPack.Core.Helpers
         }
 
         /// <summary>
+        /// Downgrades the given list of lance compositions to a lower tier based on the faction type.
+        /// </summary>
+        public static List<LanceComposition> DowngradeCompositions(List<LanceComposition> compositions, bool isComStar = false)
+        {
+            if (compositions == null || compositions.Count == 0) return [];
+
+            if (isComStar)
+            {
+                if (compositions == ComstarAssaultLevelIIs)
+                    compositions = ComstarHeavyLevelIIs;
+                else if (compositions == ComstarHeavyLevelIIs)
+                    compositions = ComstarMediumLevelIIs;
+                else if (compositions == ComstarMediumLevelIIs)
+                    compositions = ComstarLightLevelIIs;
+            }
+            else
+            {
+                if (compositions == ClanHeavyStars)
+                    compositions = ClanMediumStars;
+                else if (compositions == ClanMediumStars)
+                    compositions = ClanLightStars;
+            }
+
+            return compositions;
+        }
+
+        /// <summary>
         /// Selects a random composition from a list of lance compositions using weighted selection.
         /// </summary>
         public static List<string> GetRandomComposition(List<LanceComposition> compositions)

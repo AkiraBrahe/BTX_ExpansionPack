@@ -1,0 +1,38 @@
+{
+  "ID": "Rescue_SalvageRaceCS_Hard",
+  "RandomSpawns": {
+    "Enable": true
+  },
+  "HotDropProtection": {
+    "Enable": true
+  },
+  "AdditionalLances": {
+    "Enable": true,
+    "EnemyLanceCount": 1,
+    "EnemyLances": [ "lancedef_comstar_dynamic_battle2" ],
+    "EnemyLanceObjectiveNames": [ "Destroy Defending Com Guard Forces" ],
+    "HideObjective": true,
+    "ShowObjectiveOnLanceDetected": false,
+    "AlwaysDisplayHiddenObjectiveIfPrimary": false,
+    "AllyLanceCount": 0
+  },
+  "ExtendedLances": {
+    "Enable": true,
+    "TargetLanceSize": 6,
+    "EmployerLanceSize": 4,
+    "TargetAllyLanceSize": 4,
+    "EmployerAllyLanceSize": 4,
+    "HostileToAllLanceSize": 4,
+    "NeutralToAllLanceSize": 4
+  },
+  "ExtendedBoundaries": {
+    "Enable": true,
+    "IncreaseBoundarySizeByPercentage": 0.5
+  },
+  "DynamicWithdraw": {
+    "Enable": false
+  },
+  "AdditionalPlayerMechs": {
+    "Enable": true
+  }
+}

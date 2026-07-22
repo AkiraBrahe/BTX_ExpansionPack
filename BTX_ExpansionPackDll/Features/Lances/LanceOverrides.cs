@@ -339,6 +339,12 @@ namespace BTX_ExpansionPack.Features.Lances
                         _ => ComstarAssaultLevelIIs
                     };
 
+                    // Select from next-lighter tier list for reinforcements
+                    if (lanceDefId == "lancedef_comstar_dynamic_battle2")
+                    {
+                        DowngradeCompositions(comstarList, isComStar: true);
+                    }
+
                     return GetRandomComposition(comstarList);
                 }
 
@@ -354,10 +360,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 if (lanceName.Contains("_Ambushers") ||
                    (lanceName.Contains("_Secondary") && Random.Range(0f, 1f) < 0.25f))
                 {
-                    if (clanList == ClanHeavyStars)
-                        clanList = ClanMediumStars;
-                    else if (clanList == ClanMediumStars)
-                        clanList = ClanLightStars;
+                    DowngradeCompositions(clanList);
                 }
 
                 return GetRandomComposition(clanList);

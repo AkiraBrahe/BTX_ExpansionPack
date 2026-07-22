@@ -29,14 +29,23 @@ namespace BTX_ExpansionPack.Features.Simulation
         {
             private static readonly Dictionary<string, IntelData> VariantDescriptions = new()
             {
+                // Salvage Race
+                { "Rescue_SalvageRaceCS", new() { Name = "Normal", Description = "Normal ComStar Forces" } },
+                { "Rescue_SalvageRaceCS_Hard", new() { Name = "Hard", Description = "Additional ComStar Forces" } },
+                { "Rescue_SalvageRaceWoB", new() { Name = "Normal", Description = "Normal Blakist Forces" } },
+                { "Rescue_SalvageRaceWoB_Hard", new() { Name = "Hard", Description = "Additional Blakist Forces" } },
+
+                // Search Denial
                 { "ThreeWayBattle_SearchDenialCS", new() { Name = "Normal", Description = "Mixed Level IIs" } },
                 { "ThreeWayBattle_SearchDenialCS_Easy", new() { Name = "Easy", Description = "Vehicle-heavy Level IIs" } },
-                { "ThreeWayBattle_SearchDenialCS_Hard", new() { Name = "Hard", Description = "Mech-heavy Level IIs" } },
                 { "ThreeWayBattle_SearchDenialCS_Elite", new() { Name = "Very Hard", Description = "Elite ComStar Forces" } },
+                { "ThreeWayBattle_SearchDenialCS_Hard", new() { Name = "Hard", Description = "Mech-heavy Level IIs" } },
                 { "ThreeWayBattle_SearchDenialWoB", new() { Name = "Normal", Description = "Mixed Level IIs" } },
                 { "ThreeWayBattle_SearchDenialWoB_Easy", new() { Name = "Easy", Description = "Vehicle-heavy Level IIs" } },
-                { "ThreeWayBattle_SearchDenialWoB_Hard", new() { Name = "Hard", Description = "Mech-heavy Level IIs" } },
                 { "ThreeWayBattle_SearchDenialWoB_Elite", new() { Name = "Very Hard", Description = "Elite Blakist Forces" } },
+                { "ThreeWayBattle_SearchDenialWoB_Hard", new() { Name = "Hard", Description = "Mech-heavy Level IIs" } },
+
+                // Tag Team
                 { "ThreeWayBattle_TagTeam_CS", new() { Name = "Default", Description = "Normal ComStar Forces" } },
                 { "ThreeWayBattle_TagTeam_CS_Alt", new() { Name = "Alternate", Description = "Additional Dropped Forces" } },
                 { "ThreeWayBattle_TagTeam_CS_Betray", new() { Name = "Betray", Description = "Additional ComStar Forces" } }
