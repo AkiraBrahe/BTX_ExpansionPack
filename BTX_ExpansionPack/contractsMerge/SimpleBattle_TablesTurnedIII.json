@@ -1,13 +1,58 @@
 {
-  // Ensure this contract doesn't spawn after 3064
-  "TargetID": "SimpleBattle_TablesTurnedIII",
-  "Instructions": [
+  "requirementList": [
     {
-      "JSONPath": "$.requirementList[1].ExclusionTags.items",
-      "Action": "Replace",
-      "Value": [
-        "contract_BountyHunter",
-        "timeline_3064"
+      "Scope": "StarSystem",
+      "RequirementTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": "Tags/CompanyTags"
+      },
+      "RequirementComparisons": [
+        {
+          "obj": "Employer.AuriganRestoration",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Employer.AuriganPirates",
+          "op": "Equal",
+          "val": 0,
+          "valueConstant": null
+        },
+        {
+          "obj": "Target.IsOwner",
+          "op": "Equal",
+          "val": 1,
+          "valueConstant": null
+        }
+      ]
+    },
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "timeline_3050_05"
+        ],
+        "tagSetSourceFile": "Tags/CompanyTags"
+      },
+      "ExclusionTags": {
+        "items": [
+          "contract_BountyHunter",
+          "timeline_3064"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": [
+        {
+          "obj": "Reputation.Owner",
+          "op": "LessThanOrEqual",
+          "val": -80,
+          "valueConstant": "[rep_loathed_max]"
+        }
       ]
     }
   ]
