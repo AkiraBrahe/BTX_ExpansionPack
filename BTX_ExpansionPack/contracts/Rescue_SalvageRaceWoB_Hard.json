@@ -13,7 +13,7 @@
   "goodFaithStatementOverride": null,
   "shortDescription": "One of our contacts has located a cache of Star League technology on {TGT_SYSTEM.name}. Before our team can secure the package, we've received word that other parties are also moving to acquire it. We need you to reach the cache location, secure the package, and extract with it intact.",
   "longDescription": "This smells like a race, Commander. Multiple factions are converging on the same prize—whoever gets there first wins.",
-  "salvagePotential": 20,
+  "salvagePotential": 16,
   "requirementList": [
     {
       "Scope": "StarSystem",

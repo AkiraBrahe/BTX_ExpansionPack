@@ -17,7 +17,7 @@
     "Details": "Additional communications equipment is carried by some support vehicles to improve the coordination and effectiveness of the lance. The more equipment, the more effective it is at countering enemy ECM, and can even act as an ECCM field when carrying seven tons or more of equipment.",
     "Icon": "uixSvgIcon_equipment_Comms"
   },
-  "BonusValueA": "+ 2 Lance Initiative, + 7 Resolve Gain",
+  "BonusValueA": "+ 1 Lance Initiative, + 7 Resolve Gain",
   "BonusValueB": "+ Counter ECM",
   "ComponentType": "Upgrade",
   "ComponentSubType": "NotSet",
@@ -51,7 +51,7 @@
       "statisticData": {
         "statName": "BaseInitiative",
         "operation": "Int_Add",
-        "modValue": "-2",
+        "modValue": "-1",
         "modType": "System.Int32"
       }
     },
