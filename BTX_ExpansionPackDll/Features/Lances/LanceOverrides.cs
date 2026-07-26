@@ -13,6 +13,22 @@ namespace BTX_ExpansionPack.Features.Lances
     internal class LanceOverrides
     {
         /// <summary>
+        /// Allows Snord's Irregulars to spawn as enemy in Search Denial contracts against ComStar.
+        /// </summary>
+        [HarmonyPatch(typeof(SimGameState), "PrepContract")]
+        // PrepContract(contract, employer, employerAlly, target, targetAlly, neutralToAll, hostileToAll, level.Map.BiomeSkinEntry.BiomeSkin, contract.Override.travelSeed, system);
+        public static class SimGameState_PrepContract
+        {
+            public static void Prefix(SimGameState __instance, Contract contract, ref FactionValue target, StarSystem system)
+            {
+                if (contract.Override.ID.StartsWith("ThreeWayBattle_SearchDenialCS") && Random.Range(0f, 1f) < 0.05f)
+                {
+                    target = __instance.DataManager.Factions.Get("faction_Merc28").FactionValue;
+                }
+            }
+        }
+
+        /// <summary>
         /// Allows elite Capellan units to use augmented lances following the Clan invasion.
         /// </summary>
         [HarmonyPatch(typeof(MissionControl.Config.ExtendedLancesSettings), "GetFactionLanceSize")]
