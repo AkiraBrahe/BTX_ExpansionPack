@@ -38,14 +38,12 @@
     <Publicize Include="BEXTimeline" />
     <Publicize Include="BTSimpleMechAssembly" />
     <Publicize Include="BTX_CAC_CompatibilityDll" />
+    <Publicize Include="Extended_CE" />
     <Publicize Include="MechQuirks" />
     <Publicize Include="ColourfulFlashPoints:ColourfulFlashPoints.ContractCardFixup" />
     <Publicize Include="CustomActivatableEquipment:CustomActivatableEquipment.AuraBubble.GetRadius" />
     <Publicize Include="CustomAmmoCategories:CustAmmoCategoriesPatches.MoveStatusPreview_DisplayPreviewStatus.Prefix" />
     <Publicize Include="CustomUnits:CustomUnits.MoveClampHelper.moveClampCache" />
-    <Publicize Include="Extended_CE:Extended_CE.BTComponents.Mech_InitStats.Prefix" />
-    <Publicize Include="Extended_CE:Extended_CE.Core.Settings" />
-    <Publicize Include="Extended_CE:Extended_CE.NewTech.ArmorRules" />
     <Publicize Include="FullXotlTables:FullXotlTables.Core.Settings" />
   </ItemGroup>
   <ItemDefinitionGroup>

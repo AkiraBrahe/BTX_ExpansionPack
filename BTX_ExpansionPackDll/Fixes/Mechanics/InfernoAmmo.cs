@@ -15,7 +15,6 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
         /// Applies the correct bonus damage with LRM inferno ammo.
         /// </summary>
         [HarmonyPatch(typeof(BTX_CAC_CompatibilityDll.RandomPatches), "GetFlexDamage")]
-        [Obsolete("Move to CAC-C when possible")]
         public static class GetFlexDamage
         {
             [HarmonyPostfix]
@@ -40,7 +39,6 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
         /// Accounts for AoE heat damage when an inferno ammo box is destroyed.
         /// </summary>
         [HarmonyPatch(typeof(AmmunitionBox), "DamageComponent")]
-        [Obsolete("Move to CAC-C when possible")]
         public static class InfernoExplode
         {
             [HarmonyPrefix]
@@ -80,7 +78,6 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
         /// Checks for all inferno ammo types when a mech overheats with inferno ammo.
         /// </summary>
         [HarmonyPatch(typeof(Heatchanges.Mech_OnActivationEnd), "Prefix")]
-        [Obsolete("Move to CAC-C when possible")]
         public static class InfernoOverheat
         {
             [HarmonyTranspiler]

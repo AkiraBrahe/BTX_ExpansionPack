@@ -117,7 +117,7 @@ namespace BTX_ExpansionPack.Features.Simulation
 
                 if (Main.Settings.UI.ContractIntel.IntelShowVariant)
                 {
-                    if (!string.IsNullOrEmpty(contract.Override.ID) && VariantDescriptions.TryGetValue(contract.Override.ID, out IntelData variantData))
+                    if (!string.IsNullOrEmpty(contract.Override.ID) && VariantDescriptions.TryGetValue(contract.Override.ID, out var variantData))
                     {
                         variantText = SetupTextComponent(
                             variantText,
@@ -198,17 +198,17 @@ namespace BTX_ExpansionPack.Features.Simulation
         [HarmonyPostfix]
         public static void Postfix(SGContractsWidget __instance)
         {
-            foreach (SGContractsListItem contractListItem in __instance.listedContracts)
+            foreach (var contractListItem in __instance.listedContracts)
             {
-                GameObject bgFill = contractListItem.gameObject.transform.Find("ENABLED-bg-fill").gameObject;
+                var bgFill = contractListItem.gameObject.transform.Find("ENABLED-bg-fill").gameObject;
                 if (bgFill != null)
                 {
                     var contractOverride = contractListItem.Contract.Override;
                     if (!contractOverride.IsAnyStoryContract() && contractOverride.employerTeam.faction == "WolfsDragoons")
                     {
-                        Image component = bgFill.GetComponent<Image>();
+                        var component = bgFill.GetComponent<Image>();
                         var contractCardFixup = bgFill.GetComponent<ContractCardFixup>() ?? bgFill.AddComponent<ContractCardFixup>();
-                        if (ColorUtility.TryParseHtmlString("#C00008", out Color color))
+                        if (ColorUtility.TryParseHtmlString("#C00008", out var color))
                         {
                             color.a = 0.5f;
                             component.color = color;

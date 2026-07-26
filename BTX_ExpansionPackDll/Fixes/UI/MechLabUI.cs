@@ -49,7 +49,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Improves the description of non-standard ammunition boxes.
         /// </summary>
         [HarmonyPatch(typeof(AmmunitionBoxDef), "FromJSON")]
-        [Obsolete("Temporary patch until the next CAC-C update.")]
+        [Obsolete("Move to CAC-C when possible")]
         public static class AmmunitionBoxDef_FromJSON
         {
             [HarmonyPostfix]
@@ -322,7 +322,7 @@ namespace BTX_ExpansionPack.Fixes.UI
 
             private static List<string> RemoveWeightClassAffinity(string text)
             {
-                var lines = text.Split(["\n"], StringSplitOptions.None);
+                string[] lines = text.Split(["\n"], StringSplitOptions.None);
                 var result = new List<string>();
 
                 foreach (string line in lines)
@@ -606,7 +606,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Shows real location names in the mech bay for vehicles, quads, and squads.
         /// </summary>
         [HarmonyPatch(typeof(LanceMechEquipmentList), "SetLoadout", [])]
-        [Obsolete("Move to CAC-C when possible", false)]
+        [Obsolete("Move to CAC-C when possible")]
         public static class LanceMechEquipmentList_SetLoadout
         {
             [HarmonyPostfix]
@@ -668,7 +668,7 @@ namespace BTX_ExpansionPack.Fixes.UI
         /// Shows real location names in the mech lab for vehicles and quads.
         /// </summary>
         [HarmonyPatch(typeof(MechLabPanel), "LoadMech")]
-        [Obsolete("Move to CAC-C when possible", false)]
+        [Obsolete("Move to CAC-C when possible")]
         public static class MechLabPanel_LoadMech
         {
             [HarmonyPostfix]

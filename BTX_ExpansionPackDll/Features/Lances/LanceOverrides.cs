@@ -40,15 +40,10 @@ namespace BTX_ExpansionPack.Features.Lances
             [HarmonyPrefix]
             public static void Prefix(ref string factionKey)
             {
-                if (!string.IsNullOrEmpty(factionKey))
+                if (!string.IsNullOrEmpty(factionKey) && CurrentYear >= 3052 && factionKey.StartsWith("LiaoA"))
                 {
-                    if (CurrentYear >= 3052 && factionKey.StartsWith("LiaoA"))
-                    {
-                        factionKey = "AugmentedLance";
-                    }
+                    factionKey = "AugmentedLance";
                 }
-
-                return;
             }
         }
 

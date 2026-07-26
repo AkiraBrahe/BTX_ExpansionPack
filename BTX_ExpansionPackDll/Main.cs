@@ -61,9 +61,11 @@ namespace BTX_ExpansionPack
         internal static void ApplyHarmonyPatches()
         {
             // --- Abilifier ---
-            /* Custom Skill Tree */
+            /* Custom Ability Tree */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "ca.gnivler.BattleTech.Abilifier");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Dehydrate"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
+            /* Ability Ordering */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SGBarracksMWDetailPanel), "SetPilot"), HarmonyPatchType.Postfix, "ca.gnivler.BattleTech.Abilifier");
 
             // --- BattleTech Extended ---
             /* Firing Arc Quirks */
