@@ -311,7 +311,7 @@ namespace BTX_ExpansionPack.Core
             public bool IsMissileThreatened()
             {
                 float predictedMissileDamage = 0f;
-                var detectedEnemies = unit.lance.team.GetDetectedEnemyUnits().Where(enemy => !enemy.IsDead).ToList();
+                var detectedEnemies = unit.lance.team.GetDetectedEnemyUnits().Where(enemy => !enemy.IsDead);
 
                 foreach (var enemy in detectedEnemies)
                 {

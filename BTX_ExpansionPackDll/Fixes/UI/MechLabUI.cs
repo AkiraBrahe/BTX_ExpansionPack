@@ -322,7 +322,7 @@ namespace BTX_ExpansionPack.Fixes.UI
 
             private static List<string> RemoveWeightClassAffinity(string text)
             {
-                var lines = text.Split(["\n"], StringSplitOptions.None).ToList();
+                var lines = text.Split(["\n"], StringSplitOptions.None);
                 var result = new List<string>();
 
                 foreach (string line in lines)

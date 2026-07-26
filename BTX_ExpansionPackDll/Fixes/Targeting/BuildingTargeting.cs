@@ -25,8 +25,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                     })
                     .Where(pair => pair.Building != null)
                     .GroupBy(pair => pair.Building)
-                    .Select(g => new { g.First().Mech, Building = g.Key })
-                    .ToList();
+                    .Select(g => new { g.First().Mech, Building = g.Key });
 
                 foreach (var pair in mechBuildingPairs)
                 {

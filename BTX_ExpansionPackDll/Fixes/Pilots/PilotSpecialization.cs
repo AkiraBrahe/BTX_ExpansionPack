@@ -90,7 +90,7 @@ namespace BTX_ExpansionPack.Fixes.Pilots
                         if (pilotTags.Contains("can_pilot_generic_vehicle") && !pilotTags.Contains(VehiclePilotTag))
                             pilotTags.Add(VehiclePilotTag);
 
-                        var tagsToRemove = pilotTags.Where(tag => tag.StartsWith("can_pilot_")).ToList();
+                        var tagsToRemove = pilotTags.Where(tag => tag.StartsWith("can_pilot_"));
                         foreach (string tag in tagsToRemove)
                         {
                             pilotTags.Remove(tag);

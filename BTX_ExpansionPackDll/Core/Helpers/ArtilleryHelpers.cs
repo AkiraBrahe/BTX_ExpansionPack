@@ -58,7 +58,7 @@ namespace BTX_ExpansionPack.Core.Helpers
             public static void Postfix(TurnDirector __instance)
             {
                 int currentRound = __instance.CurrentRound;
-                var expiredRounds = _activeStrikes.Keys.Where(r => r < currentRound).ToList();
+                var expiredRounds = _activeStrikes.Keys.Where(r => r < currentRound);
                 foreach (int round in expiredRounds)
                 {
                     _activeStrikes.Remove(round);
