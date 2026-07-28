@@ -26,7 +26,9 @@
           "component_type_variant",
           "component_type_lostech"
         ],
-        "NotContainsAny": null
+        "NotContainsAny": [
+          "BLACKLISTED"
+        ]
       },
       "Mechs": {
         "ContainsAny": [

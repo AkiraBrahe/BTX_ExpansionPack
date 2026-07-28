@@ -1,0 +1,151 @@
+[
+  {
+    "Caption": "WEAPONS",
+    "Filter": {
+      "ComponentTypes": [
+        "Weapon"
+      ]
+    },
+    "Buttons": [
+      {
+        "Text": "ALL",
+        "Tooltip": "Show All Items"
+      },
+      {
+        "Icon": "uixSvgIcon_weapon_Ballistic",
+        "Tooltip": "Show Ballistic",
+        "Filter": {
+          "UILookAndColorIcons": [
+            "BallisticHardpointIcon"
+          ]
+        }
+      },
+      {
+        "Icon": "uixSvgIcon_weapon_Energy",
+        "Tooltip": "Show Energy",
+        "Filter": {
+          "UILookAndColorIcons": [
+            "EnergyHardpointIcon"
+          ]
+        }
+      },
+      {
+        "Icon": "uixSvgIcon_weapon_Missile",
+        "Tooltip": "Show Missile",
+        "Filter": {
+          "UILookAndColorIcons": [
+            "MissileHardpointIcon"
+          ]
+        }
+      },
+      {
+        "Icon": "uixSvgIcon_weapon_Support",
+        "Tooltip": "Show Support",
+        "Filter": {
+          "UILookAndColorIcons": [
+            "SmallHardpointIcon"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Caption": "AMMO",
+    "Filter": {
+      "ComponentTypes": [
+        "AmmunitionBox"
+      ]
+    },
+    "Buttons": [
+      {
+        "Text": "ALL",
+        "Tooltip": "Show All Items"
+      },
+      {
+        "Icon": "uixSvgIcon_weapon_Ballistic",
+        "Tooltip": "Show Ballistic",
+        "Filter": {
+          "UILookAndColorIcons": [
+            "BallisticHardpointIcon"
+          ]
+        }
+      },
+      {
+        "Icon": "uixSvgIcon_weapon_Missile",
+        "Tooltip": "Show Missile",
+        "Filter": {
+          "UILookAndColorIcons": [
+            "MissileHardpointIcon"
+          ]
+        }
+      },
+      {
+        "Icon": "uixSvgIcon_weapon_Support",
+        "Tooltip": "Show Support",
+        "Filter": {
+          "UILookAndColorIcons": [
+            "SmallHardpointIcon"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Caption": "EQUIPMENT",
+    "Filter": {
+      "ComponentTypes": [
+        "JumpJet",
+        "HeatSink",
+        "Upgrade"
+      ]
+    },
+    "Buttons": [
+      {
+        "Text": "ALL",
+        "Tooltip": "Show All Items"
+      },
+      {
+        "Icon": "uixSvgIcon_action_jump",
+        "Tooltip": "Show Jump Jets",
+        "Filter": {
+          "ComponentTypes": [
+            "JumpJet"
+          ]
+        }
+      },
+      {
+        "Icon": "uixSvgIcon_equipment_Heatsink",
+        "Tooltip": "Show Heatsinks",
+        "Filter": {
+          "ComponentTypes": [
+            "HeatSink"
+          ]
+        }
+      },
+      {
+        "Icon": "uixSvgIcon_equipment_Generic",
+        "Tooltip": "Show Upgrades",
+        "Filter": {
+          "ComponentTypes": [
+            "Upgrade"
+          ],
+          "NotCategories": [
+            "Scrap"
+          ]
+        }
+      },
+      {
+        "Icon": "uixSvgIcon_action_end",
+        "Tooltip": "Show Armor Scraps",
+        "Filter": {
+          "ComponentTypes": [
+            "Upgrade"
+          ],
+          "Categories": [
+            "Scrap"
+          ]
+        }
+      }
+    ]
+  }
+]
