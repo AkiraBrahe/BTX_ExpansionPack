@@ -4,11 +4,8 @@ using BTSimpleMechAssembly;
 using CustAmmoCategories;
 using CustAmmoCategoriesPatches;
 using CustomUnits;
-using IRBTModUtils;
-using System;
 using System.Collections.Generic;
 using System.Reflection.Emit;
-using System.Threading;
 
 namespace BTX_ExpansionPack.Fixes.UI
 {
@@ -177,7 +174,23 @@ namespace BTX_ExpansionPack.Fixes.UI
         #endregion
 
         #region To Hit Modifiers
-        // TODO: We need to rework this with a simple transpiler so we can replace floaty messages (e.g., "LEFT SIDE DESTROYED") as well as the to-hit modifiers. For To Hit Modifiers, it's actually simpler to just replace the call method instead of using prefixes.
+
+        /// <summary>
+        /// Shows the correct vehicle location abbreviations in battle.
+        /// </summary>
+        [HarmonyPatch(typeof(VehicleCustomInfoHelper), "GetAbbreviatedChassisLocationDelegate")]
+        public static class VehicleCustomInfoHelper_GetAbbreviatedChassisLocationDelegate
+        {
+            [HarmonyPostfix]
+            public static void Postfix(ChassisDef def, ChassisLocations location, ref string __result)
+            {
+                if (def.ChassisTags != null && def.ChassisTags.Contains("fake_vehicle_chassis"))
+                {
+                    bool isVTOL = def.ChassisTags.Contains("unit_vtol");
+                    __result = LocationNamingHelpers.GetLocationName(isVTOL ? ["unit_vtol"] : ["unit_vehicle"], location, false);
+                }
+            }
+        }
 
         /// <summary>
         /// Shows the correct vehicle location abbreviations in battle.
@@ -190,106 +203,6 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 __result = LocationNamingHelpers.GetLocationName(["fake_vehicle_chassis"], location.toFakeChassis(), false);
                 return false;
-            }
-        }
-
-        /// <summary>
-        /// Shows full location names for mechs in the to-hit modifiers in battle.
-        /// </summary>
-        [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Mech), typeof(int)])]
-        [Obsolete("Use a method call replacement transpiler instead")]
-        public static class ToHitModifiersHelper_GetToHitModifierName_Mech
-        {
-            [HarmonyPrepare]
-            public static bool Prepare() => Main.Settings.UI.Battle.ShowFullLocationName;
-
-            [HarmonyPrefix]
-            public static bool Prefix(ref bool __runOriginal, Mech unit, int location, ref string __result)
-            {
-                if (unit == null)
-                {
-                    __result = string.Empty;
-                    __runOriginal = false;
-                    return false;
-                }
-
-                var cLoc = (ChassisLocations)location;
-                if (string.IsNullOrEmpty(unit.GetStringForStructureDamageLevel(cLoc)))
-                {
-                    cLoc = ChassisLocations.CenterTorso;
-                }
-
-                Thread.CurrentThread.pushActor(unit);
-                var locationDamageLevel = unit.GetLocationDamageLevel(cLoc);
-                Thread.CurrentThread.clearActor();
-
-                string text = locationDamageLevel switch
-                {
-                    LocationDamageLevel.Penalized => string.Format("{0} DAMAGED", GetAbbreviatedChassisLocation(unit, cLoc)),
-                    LocationDamageLevel.NonFunctional => string.Format("{0} DESTROYED", GetAbbreviatedChassisLocation(unit, cLoc)),
-                    _ => string.Empty,
-                };
-
-                __result = text;
-                __runOriginal = false;
-                return false;
-            }
-
-            public static string GetAbbreviatedChassisLocation(Mech unit, ChassisLocations cLoc)
-            {
-                var tags = unit.MechDef.MechTags;
-                var location = cLoc;
-                string locationName = LocationNamingHelpers.GetLocationName(tags, location, true);
-                return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
-            }
-        }
-
-        /// <summary>
-        /// Shows full location names for vehicles in the to-hit modifiers in battle.
-        /// </summary>
-        [HarmonyPatch(typeof(ToHitModifiersHelper), "GetToHitModifierName", [typeof(Vehicle), typeof(int)])]
-        [Obsolete("Use a method call replacement transpiler instead")]
-        public static class ToHitModifiersHelper_GetToHitModifierName_Vehicle
-        {
-            [HarmonyPrepare]
-            public static bool Prepare() => Main.Settings.UI.Battle.ShowFullLocationName;
-
-            [HarmonyPrefix]
-            public static bool Prefix(ref bool __runOriginal, Vehicle unit, int location, ref string __result)
-            {
-                if (unit == null)
-                {
-                    __result = string.Empty;
-                    __runOriginal = false;
-                    return false;
-                }
-
-                var vLoc = (VehicleChassisLocations)location;
-                if (string.IsNullOrEmpty(unit.GetStringForStructureDamageLevel(vLoc)))
-                {
-                    vLoc = VehicleChassisLocations.Front;
-                }
-
-                var locationDamageLevel = unit.GetLocationDamageLevel(vLoc);
-
-                string text = locationDamageLevel switch
-                {
-                    LocationDamageLevel.Penalized => string.Format("{0} DAMAGED", GetAbbreviatedChassisLocation(unit, vLoc)),
-                    LocationDamageLevel.NonFunctional => string.Format("{0} DESTROYED", GetAbbreviatedChassisLocation(unit, vLoc)),
-                    _ => string.Empty,
-                };
-
-                __result = text;
-                __runOriginal = false;
-                return false;
-            }
-
-            public static string GetAbbreviatedChassisLocation(Vehicle unit, VehicleChassisLocations vLoc)
-            {
-                var tags = unit.VehicleDef.VehicleTags;
-                var location = vLoc.toFakeChassis();
-                string locationName = LocationNamingHelpers.GetLocationName(tags, location, true);
-                return !string.IsNullOrEmpty(locationName) ? locationName : string.Empty;
             }
         }
 
