@@ -39,9 +39,9 @@ namespace BTX_ExpansionPack
                 harmony = new Harmony(HarmonyInstanceId);
                 InjectCustomLanceData(MetadataDatabase.Instance);
                 ApplyHarmonyPatches();
+                RegisterModComponents();
                 ApplySettings();
                 ApplyCacOverrides();
-                ComponentUpgrader.Register();
                 Log.Log("Mod initialized!");
             }
             catch (Exception ex)
@@ -99,6 +99,12 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabStockInfoPopup), "StockMechDefLoaded"), HarmonyPatchType.Postfix, "ca.jwolf.MechAffinity");
 
             harmony.PatchAll(Assembly.GetExecutingAssembly());
+        }
+
+        internal static void RegisterModComponents()
+        {
+            ComponentUpgrader.Register();
+            MovableBlockers.Register();
         }
 
         internal static void ApplySettings()
