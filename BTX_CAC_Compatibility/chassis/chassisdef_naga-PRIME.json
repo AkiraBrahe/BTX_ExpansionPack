@@ -203,9 +203,8 @@
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_nominimalarms",
       "mech_quirk_largeengine",
-      "CAC_C_LoadActuators",
-      "CAC_C_LoadActuators_No_LeftArmLower",
-      "CAC_C_LoadActuators_No_RightArmLower"
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight"
     ],
     "tagSetSourceFile": ""
   },

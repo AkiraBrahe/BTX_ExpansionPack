@@ -1,14 +1,17 @@
 {
   "debug": false,
-  "enableSettingsHotReload": true,
+  "enableSettingsHotReload": false,
   "markers": [],
   "contractMarkers": [
     {
       "type": "ContractId",
       "contractIds": [
+        "Rescue_SalvageRaceCS",
+        "Rescue_SalvageRaceCS_Hard",
         "ThreeWayBattle_SearchDenialCS",
         "ThreeWayBattle_SearchDenialCS_Easy",
         "ThreeWayBattle_SearchDenialCS_Hard",
+        "ThreeWayBattle_SearchDenialCS_Elite",
         "ThreeWayBattle_TagTeam_CS",
         "ThreeWayBattle_TagTeam_CS_Alt",
         "ThreeWayBattle_TagTeam_CS_Betray"
@@ -21,8 +24,12 @@
     {
       "type": "ContractId",
       "contractIds": [
+        "Rescue_SalvageRaceWoB",
+        "Rescue_SalvageRaceWoB_Hard",
         "ThreeWayBattle_SearchDenialWoB",
-        "ThreeWayBattle_SearchDenialWoB_Easy"
+        "ThreeWayBattle_SearchDenialWoB_Easy",
+        "ThreeWayBattle_SearchDenialWoB_Hard",
+        "ThreeWayBattle_SearchDenialWoB_Elite"
       ],
       "colour": {
         "Colour": "#878681", // Titanium
@@ -38,6 +45,22 @@
       ],
       "colour": {
         "Colour": "#C00008", // Wolf's Dragoons Red
+        "Alpha": 0.5
+      }
+    },
+    {
+      "type": "ContractType",
+      "contractIds": [
+        "BattleRoyale",
+        "DefenseInDepth",
+        "OrganizedRetreat",
+        "Scramble_DefendBase",
+        "Split_DefendBase",
+        "Switch_Assassinate",
+        "Warzone"
+      ],
+      "colour": {
+        "Colour": "#7B7EA9", // New Heidt
         "Alpha": 0.5
       }
     }

@@ -20,5 +20,15 @@
         ]
       }
     }
+  },
+  "AI-Weather-Buff": {
+    "TargetCollectionsForSearch": {
+      "Pilot": {
+        "MustMatchAll": false,
+        "TargetCollectionTagMatch": [
+          "pilot_npc"
+        ]
+      }
+    }
   }
 }

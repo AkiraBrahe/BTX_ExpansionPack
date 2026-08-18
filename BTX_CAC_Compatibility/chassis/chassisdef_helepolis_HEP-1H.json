@@ -205,11 +205,10 @@
   "VariantName": "HEP-1H",
   "ChassisTags": {
     "items": [
-      "chassis_primitive_armor",
+      "chassis_primitive",
       "mech_quirk_reinforcedlegs",
       "mech_quirk_stable",
-      "CAC_C_LoadActuators",
-      "CAC_C_LoadActuators_No_RightArmLower"
+      "ArmLimitUpperRight"
     ],
     "tagSetSourceFile": ""
   },

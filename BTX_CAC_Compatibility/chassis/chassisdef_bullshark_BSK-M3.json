@@ -216,8 +216,11 @@
   "VariantName": "BSK-M3",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_distracting"
     ],
     "tagSetSourceFile": ""

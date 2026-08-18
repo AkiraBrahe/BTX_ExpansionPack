@@ -36,6 +36,13 @@
   },
   {
     "FileName": "",
+    "Name": "AIM.INSPIRED",
+    "Localization": {
+      "CULTURE_EN_US": "INSPIRED"
+    }
+  },
+  {
+    "FileName": "",
     "Name": "AIM.SPRINTED",
     "Localization": {
       "CULTURE_EN_US": "SPRINTED"
@@ -225,6 +232,20 @@
   },
   {
     "FileName": "",
+    "Name": "AIM.WEAPON_DAMAGED",
+    "Localization": {
+      "CULTURE_EN_US": "WEAPON DAMAGED"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "AIM.WEAPON_DAMAGED",
+    "Localization": {
+      "CULTURE_EN_US": "WEAPON DAMAGED"
+    }
+  },
+  {
+    "FileName": "",
     "Name": "AIM.PUNCHING_ARM",
     "Localization": {
       "CULTURE_EN_US": "PUNCHING ARM"
@@ -400,6 +421,13 @@
   },
   {
     "FileName": "",
+    "Name": "AIM.REAR_ATTACK",
+    "Localization": {
+      "CULTURE_EN_US": "REAR ATTACK"
+    }
+  },
+  {
+    "FileName": "",
     "Name": "AIM.Dist",
     "Localization": {
       "CULTURE_EN_US": "Dist"
@@ -410,6 +438,13 @@
     "Name": "AIM.Damage",
     "Localization": {
       "CULTURE_EN_US": "Damage"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "AIM.Long",
+    "Localization": {
+      "CULTURE_EN_US": "Long"
     }
   },
   {
