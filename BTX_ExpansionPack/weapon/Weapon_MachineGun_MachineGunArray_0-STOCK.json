@@ -1,21 +1,21 @@
 {
   "Custom": {
-    "Sorter": 124
+    "Sorter": 125
   },
   "Category": "AntiPersonnel",
   "Type": "MachineGun",
   "WeaponSubType": "MachineGun",
   "MinRange": 0,
-  "MaxRange": 60,
+  "MaxRange": 90,
   "RangeSplit": [
     30,
     60,
-    60
+    90
   ],
-  "ammoCategoryID": "HMG",
+  "ammoCategoryID": "MG",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 0,
-  "Damage": 3,
+  "Damage": 2,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -26,21 +26,21 @@
   "AOECapable": false,
   "IndirectFireCapable": false,
   "RefireModifier": 0,
-  "ShotsWhenFired": 5,
+  "ShotsWhenFired": 20,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 0,
   "Instability": 0,
   "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
   "Description": {
-    "Cost": 10000,
-    "Rarity": 3,
-    "Purchasable": false,
-    "Manufacturer": "Clans",
-    "Model": "Heavy Machine Gun",
-    "UIName": "Clan HMG",
-    "Id": "Weapon_MachineGun_CMachineGunHeavy_0-STOCK",
-    "Name": "Clan Heavy MG",
-    "Details": "As its name implies, the Heavy Machine Gun is a larger version of the standard Machine Gun. Twice as heavy as its more traditional cousin, the Heavy Machine Gun does increased damage, though at the cost of a third of its already short range. Heavy Machine Guns, like their smaller predecessors have a greatly increased chance to cause Criticals when they impact a target that has been stripped of its armor.",
+    "Cost": 20000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "Machine Gun Array",
+    "UIName": "MGA",
+    "Id": "Weapon_MachineGun_MachineGunArray_0-STOCK",
+    "Name": "MG Array",
+    "Details": "The Machine Gun Array is a weapon system that links four machine guns into one. This allows the machine guns to be fired simultaneously at a single hit location, concentrating the damage of multiple machine guns for greater armor penetration or repeated critical hits on the same location.",
     "Icon": "uixSvgIcon_weapon_Support"
   },
   "BonusValueA": "",
@@ -49,8 +49,8 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "MachineGun",
   "BattleValue": 0,
-  "InventorySize": 1,
-  "Tonnage": 0.5,
+  "InventorySize": 4,
+  "Tonnage": 2,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
@@ -59,28 +59,28 @@
   "VolleyDivisor": 2,
   "Modes": [
     {
-      "Id": "MG_Full",
-      "UIName": "x5",
-      "Name": "Full Salvo",
-      "Description": "Fires the MG at standard speed.",
-      "isBaseMode": true
+      "Id": "MGA_Linked",
+      "UIName": "Linked",
+      "Name": "Linked Fire",
+      "Description": "Fires the entire MG array in one concentrated volley.",
+      "isBaseMode": true,
+      "HitGenerator": "Cluster"
     },
     {
-      "Id": "MG_Double",
-      "UIName": "x10",
-      "Name": "Double Salvo",
-      "Description": "Fires the MG at double speed, reducing accuracy and increasing heat.",
+      "Id": "MGA_Unlinked",
+      "UIName": "Unlinked",
+      "Name": "Unlinked Fire",
+      "Description": "Fires the MG array in multiple volleys.",
       "isBaseMode": false,
-      "AccuracyModifier": 4.0,
-      "ShotsWhenFired": 5,
-      "HeatGenerated": 5
+      "HitGenerator": "Individual",
+      "AccuracyModifier": 1.0
     }
   ],
   "statusEffects": [],
   "ComponentTags": {
     "items": [
       "component_type_stock",
-      "component_type_clan",
+      "component_type_lostech",
       "range_close",
       "ballistic_tts_attachable"
     ],

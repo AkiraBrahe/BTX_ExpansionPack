@@ -1,0 +1,176 @@
+{
+  "Custom": {
+    "Clustering": {
+      "StepType": "UAC",
+      "UAC": [
+        {
+          "Shots": 2,
+          "Base": 0.7083333
+        },
+        {
+          "Shots": 3,
+          "Base": 0.6666667
+        },
+        {
+          "Shots": 4,
+          "Base": 0.6597222
+        }
+      ],
+      "Base": 0.6333333
+    },
+    "Sorter": 60
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "UAC5",
+  "MinRange": 0,
+  "MaxRange": 630,
+  "RangeSplit": [
+    210,
+    420,
+    630
+  ],
+  "ammoCategoryID": "AC5",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 18,
+  "Damage": 25,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "StructureDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 4,
+  "ShotsWhenFired": 6,
+  "ProjectilesPerShot": 2,
+  "AttackRecoil": 2,
+  "Instability": 10,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC5_Ultra",
+  "Description": {
+    "Cost": 1375000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Clans",
+    "Model": "Rotary Autocannon",
+    "UIName": "Clan RAC/5",
+    "Id": "Weapon_Autocannon_CRAC5_0-STOCK",
+    "Name": "Clan RAC/5",
+    "Details": "Rotary Autocannons are based loosely on standard Autocannons.  While they have the same bore they can fire up to 6 times as many rounds, although damage per shot and range is reduced. Like all Rapid Fire weaponry, RAC/5s suffer from increasing accuracy loss and ammo consumption increasing with the rate of fire. RAC weapons are able to fire Standard, AP, Precision and Tracer rounds, although AP, Precision and Tracer rounds have a chance to Jam the weapon.",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "RAC5",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 10,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "ImprovedBallistic": false,
+  "BallisticDamagePerPallet": false,
+  "HasShells": false,
+  "DisableClustering": true,
+  "FireDelayMultiplier": 1,
+  "RestrictedAmmo": [
+    "Ammunition_LB5X"
+  ],
+  "Modes": [
+    {
+      "Id": "UACMode_1",
+      "UIName": "x1",
+      "Name": "1 Shot Mode",
+      "Description": "Fires 1 projectiles.",
+      "isBaseMode": false,
+      "ShotsWhenFired": -5,
+      "AccuracyModifier": 0,
+      "HeatGenerated": -15,
+      "FlatJammingChance": 0.1,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.01
+    },
+    {
+      "Id": "UACMode_2",
+      "UIName": "x2",
+      "Name": "2 Shot Mode",
+      "Description": "Fires 2 projectiles with an accuaracy penalty.",
+      "isBaseMode": false,
+      "ShotsWhenFired": -4,
+      "AccuracyModifier": 0,
+      "HeatGenerated": -12,
+      "FlatJammingChance": 0.2,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
+    },
+    {
+      "Id": "UACMode_3",
+      "UIName": "x3",
+      "Name": "3 Shot Mode",
+      "Description": "Fires 3 projectiles with an accuaracy penalty.",
+      "isBaseMode": false,
+      "ShotsWhenFired": -3,
+      "AccuracyModifier": 0,
+      "HeatGenerated": -9,
+      "FlatJammingChance": 0.2,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
+    },
+    {
+      "Id": "UACMode_4",
+      "UIName": "x4",
+      "Name": "4 Shot Mode",
+      "Description": "Fires 4 projectiles with a high accuaracy penalty.",
+      "isBaseMode": false,
+      "ShotsWhenFired": -2,
+      "AccuracyModifier": 0,
+      "HeatGenerated": -6,
+      "FlatJammingChance": 0.2,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
+    },
+    {
+      "Id": "UACMode_5",
+      "UIName": "x5",
+      "Name": "5 Shot Mode",
+      "Description": "Fires 5 projectiles with a high accuaracy penalty.",
+      "isBaseMode": false,
+      "ShotsWhenFired": -1,
+      "AccuracyModifier": 0,
+      "HeatGenerated": -3,
+      "FlatJammingChance": 0.2,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
+    },
+    {
+      "Id": "UACMode_6",
+      "UIName": "x6",
+      "Name": "6 Shot Mode",
+      "Description": "Fires 6 projectiles with a high accuaracy penalty.",
+      "isBaseMode": true,
+      "ShotsWhenFired": 0,
+      "AccuracyModifier": 0,
+      "HeatGenerated": 0,
+      "FlatJammingChance": 0.2,
+      "GunneryJammingBase": 10,
+      "GunneryJammingMult": 0.02
+    }
+  ],
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_clan",
+      "range_long",
+      "component_rac",
+      "BEX_RF_6",
+      "ballistic_tts_attachable"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

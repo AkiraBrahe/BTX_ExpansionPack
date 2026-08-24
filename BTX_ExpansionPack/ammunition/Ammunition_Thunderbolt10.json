@@ -1,15 +1,15 @@
 {
   "Description": {
-    "Id": "Ammunition_RAILGUN",
-    "Name": "Rail Gun Ammo",
-    "Details": null,
+    "Id": "Ammunition_Thunderbolt10",
+    "Name": "Thunderbolt 10 Ammo",
+    "Details": "Long range missile, capable of dealing damage equivalent to its LRM-10 counterpart. Vulnerable to anti-missile systems.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
     "Purchasable": false
   },
   "Type": "Normal",
-  "Category": "RAILGUN",
+  "Category": "Thunderbolt10",
   "HeatGenerated": 0,
   "DamageMultiplier": 1,
   "InstabilityMultiplier": 1,
@@ -22,6 +22,10 @@
   "ProjectileScale": {
     "x": 2,
     "y": 2,
-    "z": 1.5
-  }
+    "z": 2
+  },
+  "AdditionalImpactVFX": "WFX_BESmaller",
+  "AdditionalImpactVFXScaleX": 2,
+  "AdditionalImpactVFXScaleY": 2,
+  "AdditionalImpactVFXScaleZ": 2
 }

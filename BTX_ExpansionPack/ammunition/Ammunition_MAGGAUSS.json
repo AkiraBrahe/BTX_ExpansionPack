@@ -1,15 +1,15 @@
 {
   "Description": {
-    "Id": "Ammunition_CM50",
-    "Name": "Cruise Missile/50 Ammo",
-    "Details": "High-caliber artillery missiles.",
+    "Id": "Ammunition_MAGGAUSS",
+    "Name": "Magshot Gauss Ammo",
+    "Details": "Magshot Gauss ammo that is even smaller than regular Gauss ammunition.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
     "Purchasable": false
   },
   "Type": "Normal",
-  "Category": "CM50",
+  "Category": "MAGGAUSS",
   "HeatGenerated": 0,
   "DamageMultiplier": 1,
   "InstabilityMultiplier": 1,
@@ -20,8 +20,8 @@
   "HideIfOnlyVariant": true,
   "ImprovedBallistic": true,
   "ProjectileScale": {
-    "x": 10,
-    "y": 10,
-    "z": 10
+    "x": 0.35,
+    "y": 0.35,
+    "z": 0.25
   }
 }

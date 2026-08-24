@@ -1,0 +1,31 @@
+{
+  "Description": {
+    "Id": "Ammunition_Thunderbolt15",
+    "Name": "Thunderbolt 15 Ammo",
+    "Details": "Long range missile, capable of dealing damage equivalent to its LRM-15 counterpart. Vulnerable to anti-missile systems.",
+    "Icon": null,
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "Thunderbolt15",
+  "HeatGenerated": 0,
+  "DamageMultiplier": 1,
+  "InstabilityMultiplier": 1,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "CriticalDamageModifier": 1,
+  "HideIfOnlyVariant": true,
+  "ImprovedBallistic": true,
+  "ProjectileScale": {
+    "x": 2.5,
+    "y": 2.5,
+    "z": 2.5
+  },
+  "AdditionalImpactVFX": "WFX_BESmaller",
+  "AdditionalImpactVFXScaleX": 2.5,
+  "AdditionalImpactVFXScaleY": 2.5,
+  "AdditionalImpactVFXScaleZ": 2.5
+}
