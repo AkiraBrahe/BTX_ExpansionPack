@@ -83,6 +83,70 @@ namespace BTX_ExpansionPack.Fixes.UI
 
         #endregion
 
+        #region Unique Mech Name Replacements
+
+        /// <summary>
+        /// Replaces the names of unique mechs with standardized names for consistency.
+        /// </summary>
+        [HarmonyPatch(typeof(MechDef), "FromJSON")]
+        public static class MechDef_FromJSON
+        {
+            [HarmonyPostfix]
+            public static void Postfix(MechDef __instance)
+            {
+                __instance?.Description.UIName = UniqueMechUINameReplacements.TryGetValue(__instance.Description.Id, out string newUIName) ? newUIName : __instance.Description.UIName;
+                __instance?.Description.Name = UniqueMechNameReplacements.TryGetValue(__instance.Description.Id, out string newName) ? newName : __instance.Description.Name;
+            }
+        }
+
+        private static readonly Dictionary<string, string> UniqueMechUINameReplacements = new()
+        {
+            { "mechdef_Catapult_fp_justinAllard", "Catapult CPLT-OM" },
+            { "mechdef_charger_CGR-SB", "Charger CGR-SB" },
+            { "mechdef_Dragon_fp_justinAllard", "Dragon DRG-AD" },
+            { "mechdef_Griffin_fp_justinAllard", "Griffin GRF-KS" },
+            { "mechdef_javelin_JVN-10F", "Javelin JVN-10F" },
+            { "mechdef_javelin_JVN-11A", "Javelin JVN-11A" },
+            { "mechdef_mad_cat_timber_wolf-PRYDE", "Mad Cat Pryde" },
+            { "mechdef_mauler_MAL-1R", "Mauler MAL-1R" },
+            { "mechdef_mauler_MAL-C", "Mauler MAL-C" },
+            { "mechdef_warhammer_WHM-BW", "Warhammer WHM-BW" }
+        };
+
+        private static readonly Dictionary<string, string> UniqueMechNameReplacements = new()
+        {
+            { "mechdef_annihilator_ANH-JH", "“John Hayes”" },
+            { "mechdef_archer_ARC-LS", "“Lynn Sheridan”" },
+            { "mechdef_archer_ARC-T_fp_morganKell", "“Tempest”" },
+            { "mechdef_archer_ARC-XO", "“Geronimo”" },
+            { "mechdef_atlas_AS7-GG", "“Geist”" },
+            { "mechdef_baboon_devil-3", "“Devil”" },
+            { "mechdef_Catapult_fp_justinAllard", "“Occam's Missile”" },
+            { "mechdef_Centurion_fp_justinAllard", "“Rhythm Nation”" },
+            { "mechdef_charger_CGR-SB", "“Challenger”" },
+            { "mechdef_crab__fp_gladiator_BSC-27","“Big Steel Claw”" },
+            { "mechdef_Dragon_fp_justinAllard", "“Awesome Dragon”" },
+            { "mechdef_firestarter_FS9-M", "“Mirage”" },
+            { "mechdef_Griffin_fp_justinAllard", "“Koschei”" },
+            { "mechdef_hermesII_HER-2M", "“Mercury”" },
+            { "mechdef_hermesII_HER-4K", "“Hermes III”" },
+            { "mechdef_javelin_JVN-10F", "“Fire Javelin”" },
+            { "mechdef_javelin_JVN-11A", "“Fire Javelin”" },
+            { "mechdef_kingcrab_KGC-V-0000", "“Victoria”" },
+            { "mechdef_mad_cat_timber_wolf-BH", "“Bounty Hunter”" },
+            { "mechdef_mad_cat_timber_wolf-PRYDE", "“Deathtrap”" },
+            { "mechdef_marauder_MAD-BH", "“Bounty Hunter”" },
+            { "mechdef_marauder_MAD-BHII", "“Bounty Hunter”" },
+            { "mechdef_marauder_MAD-CM", "“Colin Maclaren”" },
+            { "mechdef_panther1b_PNT-9R", "“Tanaka”" },
+            { "mechdef_rifleman_RFL-RIP", "“Reaper”" },
+            { "mechdef_vindicator_VND-1AA", "“Avenging Angel”" },
+            { "mechdef_warhammer_WHM-BW", "“Black Widow”" },
+            { "mechdef_wolverine_WVR-7H", "“Wolverine II”" },
+        };
+
+        #endregion
+
         #region Mech Tooltip Improvements
 
         /// <summary>
