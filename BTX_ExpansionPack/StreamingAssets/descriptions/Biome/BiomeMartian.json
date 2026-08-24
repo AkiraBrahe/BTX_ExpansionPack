@@ -1,0 +1,6 @@
+{
+  "Id": "BiomeMartian",
+  "Name": "Martian",
+  "Details": "The Martian biome is similar to that of the fourth planet of Terra's solar system. The thin atmosphere makes it difficult to sink heat, and it can suddenly whip up dust into swirling storms that provide some amount of cover. Radiation fields can offer some protection from enemy targeting, but they cause units in them to accumulate dangerous levels of heat. Missiles deal reduced damage as the blast impact is reduced.  Ballistic ordnance have increased max ranges with the low atmospheric friction.\n\n<b>Weather Conditions:</b>\n• <b>Gravity:</b> +/-15% efficacy of Jump Jets and DFA damage\n• <b>Low Atmosphere:</b> 5% damage reduction of Missile based weapons, 5% maximum range increase of Ballistic based weapons\n• <b>Dawn/Dusk:</b> +1 To Hit with all weapons, negative removed if target is above 75 heat\n• <b>Night:</b> +2 To Hit with all weapons, -1 to hit per 60 heat of the target, 10% movement speed reduction\n• Dusty: 10% movement speed reduction",
+  "Icon": "uixSvgIcon_biome_PartialVacuum"
+}

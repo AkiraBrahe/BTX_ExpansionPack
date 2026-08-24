@@ -1,0 +1,6 @@
+{
+  "Id": "BiomeUrban",
+  "Name": "Urban",
+  "Details": "The Inner Sphere is the center of human life in the galaxy. Most populous systems in the Inner Sphere are dotted, or covered, in dense Urban sprawls. Ferrocrete, metal, steep skylines, and asphalt as far as the eye can see. Such environments of low visibility and low mobility are not friendly to the unprepared 'Mech.\n\n<b>Weather Conditions:</b>\n• <b>Gravity:</b> +/-15% efficacy of Jump Jets and DFA damage\n• <b>Dawn/Dusk:</b> +1 To Hit with all weapons, negative removed if target is above 75 heat\n• <b>Night:</b> +2 To Hit with all weapons, -1 to hit per 60 heat of the target, 10% movement speed reduction\n• <b>Foggy:</b> 10% movement speed reduction",
+  "Icon": "uixSvgIcon_biome_Urban"
+}

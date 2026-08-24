@@ -1,6 +1,7 @@
 {
   "TargetIDs": [
-    "Ammo_AmmunitionBox_Generic_MG_Half"
+    "Ammo_AmmunitionBox_Generic_MG_Half",
+    "Ammo_AmmunitionBox_Generic_HMG"
   ],
   "Instructions": [
     {

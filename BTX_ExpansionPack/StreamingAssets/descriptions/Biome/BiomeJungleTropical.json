@@ -1,0 +1,6 @@
+{
+  "Id": "BiomeJungleTropical",
+  "Name": "Jungle",
+  "Details": "The Jungle biome often has climates similar or more extreme than the tropical regions of Terra. Lush plant life and varied fauna are often trademarks, along with hotter than comfortable temperatures for the average human.\n\n<b>Weather Conditions:</b>\n• <b>Gravity:</b> +/-15% efficacy of Jump Jets and DFA damage\n• <b>Dawn/Dusk:</b> +1 To Hit with all weapons, negative removed if target is above 75 heat\n• <b>Night:</b> +2 To Hit with all weapons, -1 to hit per 60 heat of the target, 10% movement speed reduction\n• <b>Foggy:</b> 10% movement speed reduction\n• <b>Heavy Rain:</b> +1 To Hit with all weapons, 10% movement speed reduction\n• <b>Humid:</b> 10% damage reduction with Energy based weapons",
+  "Icon": "uixSvgIcon_biome_Tropical"
+}

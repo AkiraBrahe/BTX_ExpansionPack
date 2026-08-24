@@ -1,0 +1,6 @@
+{
+  "Id": "BiomeLunar",
+  "Name": "Lunar",
+  "Details": "The Lunar biome is similar to that of the moon of Terra. There is only a trace atmosphere, which makes sinking heat extremely difficult. Rare patches of ice provide some relief, but there is no cover of any kind aside from fields of boulders and the rims of craters. Radiation fields can offer some protection from enemy targeting, but they cause units in them to accumulate dangerous levels of heat. Missiles deal reduced damage as the blast impact is reduced while burning effects are drastically reduced.  Ballistic ordnance have increased max ranges with the low atmospheric friction.\n\n<b>Weather Conditions:</b>\n• <b>Gravity:</b> +/-15% efficacy of Jump Jets and DFA damage\n• <b>No Atmosphere:</b> 10% damage reduction of Missile based weapons, 10% maximum range increase of Ballistic based weapons\n• <b>Night:</b> +2 To Hit with all weapons, -1 to hit per 60 heat of the target, 10% movement speed reduction",
+  "Icon": "uixSvgIcon_biome_Vacuum"
+}

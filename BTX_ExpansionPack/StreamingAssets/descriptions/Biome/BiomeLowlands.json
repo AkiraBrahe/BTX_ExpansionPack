@@ -1,0 +1,6 @@
+{
+  "Id": "BiomeLowlands",
+  "Name": "Lowlands",
+  "Details": "The Lowlands biome features rolling hills and gentle slopes, as well as thick woodlands that provide cover. Areas of marshland offer increased stability.\n\n<b>Weather Conditions:</b>\n• <b>Gravity:</b> +/-15% efficacy of Jump Jets and DFA damage\n• <b>Dawn/Dusk:</b> +1 To Hit with all weapons, negative removed if target is above 75 heat\n• <b>Night:</b> +2 To Hit with all weapons, -1 to hit per 60 heat of the target, 10% movement speed reduction\n• <b>Foggy:</b> 10% movement speed reduction\n• <b>Moderate Gale:</b> +1 To Hit with Missile based weapons\n• <b>Strong Gale:</b> +2 To Hit with Missile based weapons, +1 To Hit with Ballistic based weapons\n• <b>Moderate Rain:</b> +1 To Hit with all weapons",
+  "Icon": "uixSvgIcon_biome_Normal"
+}

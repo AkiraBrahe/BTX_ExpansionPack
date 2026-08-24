@@ -20,6 +20,20 @@
         "ShotsPerAmmo": 0.5,
         "VolleyDivisor": 2
       }
+    },
+    {
+      "JSONPath": "$.Modes[?(@Id == 'MG_Full')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Description": "Fires the MG at standard speed."
+      }
+    },
+    {
+      "JSONPath": "$.Modes[?(@Id == 'MG_Double')]",
+      "Action": "ObjectMerge",
+      "Value": {
+        "Description": "Fires the MG at double speed, reducing accuracy and increasing heat."
+      }
     }
   ]
 }

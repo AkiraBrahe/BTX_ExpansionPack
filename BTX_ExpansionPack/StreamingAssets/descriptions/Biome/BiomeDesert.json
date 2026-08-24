@@ -1,0 +1,6 @@
+{
+  "Id": "BiomeDesert",
+  "Name": "Desert",
+  "Details": "The Desert biome is a rocky, windswept wasteland with little vegetation and little water. The extreme heat makes it more difficult for 'Mechs to sink heat. Fields of crystalline mineral deposits interfere with targeting systems, making it harder to shoot into them, as well as to shoot out of them.\n\n<b>Weather Conditions:</b>\n• <b>Gravity:</b> +/-15% efficacy of Jump Jets and DFA damage\n• <b>Dawn/Dusk:</b> +1 To Hit with all weapons, negative removed if target is above 75 heat\n• <b>Night:</b> +2 To Hit with all weapons, -1 to hit per 60 heat of the target, 10% movement speed reduction\n• <b>Foggy:</b> 10% movement speed reduction\n• <b>Moderate Gale:</b> +1 To Hit with Missile based weapons\n• <b>Strong Gale:</b> +2 To Hit with Missile based weapons, +1 To Hit with Ballistic based weapons",
+  "Icon": "uixSvgIcon_biome_Heated"
+}
