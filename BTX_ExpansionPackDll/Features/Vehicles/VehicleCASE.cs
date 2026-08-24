@@ -35,12 +35,12 @@ namespace BTX_ExpansionPack.Features.Vehicles
                         float capacity = __instance.AmmoCapacity;
                         if (capacity > 0 && currentAmmo / capacity >= 0.5f)
                         {
-                            Main.Log.LogDebug($"[VehicleCASE] Ammo box is 50% or more full, applying rear damage to {vehicle.DisplayName}.");
+                            Main.Logger.LogDebug($"[VehicleCASE] Ammo box is 50% or more full, applying rear damage to {vehicle.DisplayName}.");
                             ApplyCASEProtection(vehicle, __instance.Name, hitInfo, true);
                         }
                         else
                         {
-                            Main.Log.LogDebug($"[VehicleCASE] Ammo box is less than 50% full, no rear damage applied to {vehicle.DisplayName}.");
+                            Main.Logger.LogDebug($"[VehicleCASE] Ammo box is less than 50% full, no rear damage applied to {vehicle.DisplayName}.");
                             ApplyCASEProtection(vehicle, __instance.Name, hitInfo, false);
                         }
                         return false;
@@ -80,7 +80,7 @@ namespace BTX_ExpansionPack.Features.Vehicles
                     bool hasCASE = HasCASE(vehicleDef);
                     if (hasCASE)
                     {
-                        Main.Log.LogDebug($"[VehicleCASE] CASE detected for {__instance.Name}");
+                        Main.Logger.LogDebug($"[VehicleCASE] CASE detected for {__instance.Name}");
                         ApplyCASEProtection(vehicle, __instance.Name, hitInfo, true);
                         return false;
                     }
@@ -111,7 +111,7 @@ namespace BTX_ExpansionPack.Features.Vehicles
 
             if (applyDamage && currentRearArmor > 0)
             {
-                Main.Log.LogDebug($"[VehicleCASE] Applied {damageToApply} rear damage to {vehicle.DisplayName}.");
+                Main.Logger.LogDebug($"[VehicleCASE] Applied {damageToApply} rear damage to {vehicle.DisplayName}.");
                 vehicle.ApplyArmorStatDamage(rearArmorLocation, damageToApply, hitInfo);
             }
 

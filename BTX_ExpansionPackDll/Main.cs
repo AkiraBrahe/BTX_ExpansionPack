@@ -20,7 +20,7 @@ namespace BTX_ExpansionPack
 
         internal static Harmony harmony;
         internal static string modDir;
-        internal static ILog Log { get; private set; }
+        internal static ILog Logger { get; private set; }
         internal static ModSettings Settings { get; private set; }
         private static bool initSuccess = true;
 
@@ -30,7 +30,7 @@ namespace BTX_ExpansionPack
         public static void Init(string directory, string settingsJSON)
         {
             modDir = directory;
-            Log = Logger.GetLogger(ModName, LogLevel.Debug);
+            Logger = HBS.Logging.Logger.GetLogger(ModName, LogLevel.Debug);
 
             try
             {
@@ -42,12 +42,12 @@ namespace BTX_ExpansionPack
                 RegisterModComponents();
                 ApplySettings();
                 ApplyCacOverrides();
-                Log.Log("Mod initialized!");
+                Logger.Log("Mod initialized!");
             }
             catch (Exception ex)
             {
                 initSuccess = false;
-                Log.LogException(ex);
+                Logger.LogException(ex);
             }
         }
 
@@ -55,7 +55,7 @@ namespace BTX_ExpansionPack
         {
             mdd.ClearDynamicLanceDifficulty();
             mdd.BulkInsertDynamicLanceDifficulty(dynamicLanceDefs);
-            Log.LogDebug("Successfully updated the Dynamic Lance Difficulty database.");
+            Logger.LogDebug("Successfully updated the Dynamic Lance Difficulty database.");
         }
 
         internal static void ApplyHarmonyPatches()
@@ -208,7 +208,7 @@ namespace BTX_ExpansionPack
                 }
             }
 
-            Log.LogDebug("Successfully applied CAC-C overrides.");
+            Logger.LogDebug("Successfully applied CAC-C overrides.");
         }
 
         [HarmonyPatch(typeof(MainMenu), "Init")]
@@ -219,7 +219,7 @@ namespace BTX_ExpansionPack
             {
                 if (!initSuccess)
                 {
-                    Log.LogError("Initialization failed.");
+                    Logger.LogError("Initialization failed.");
                     GenericPopupBuilder.Create(GenericPopupType.Warning,
                         "There was a problem loading the Expansion Pack.\nCheck your install, then restart the game.")
                         .AddButton("OK", null, true, null).Render();

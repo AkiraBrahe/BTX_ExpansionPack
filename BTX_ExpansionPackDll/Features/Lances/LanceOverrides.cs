@@ -133,7 +133,7 @@ namespace BTX_ExpansionPack.Features.Lances
                         __instance.unitTagSet.Add("unit_vehicle");
                         __instance.unitExcludedTagSet.Add("unit_vtol");
                         __instance.unitExcludedTagSet.Add("unit_noncombatant");
-                        Main.Log.LogDebug($"[AugmentedLanceOverride] Forced Capellan unit {unitIndex} to Vehicle.");
+                        Main.Logger.LogDebug($"[AugmentedLanceOverride] Forced Capellan unit {unitIndex} to Vehicle.");
                     }
                     else if (__instance.unitType == UnitType.Vehicle)
                     {
@@ -142,7 +142,7 @@ namespace BTX_ExpansionPack.Features.Lances
                         __instance.unitTagSet.Add("unit_mech");
                         __instance.unitExcludedTagSet.Remove("unit_vtol");
                         __instance.unitExcludedTagSet.Add("unit_noncombatant");
-                        Main.Log.LogDebug($"[AugmentedLanceOverride] Forced Capellan unit {unitIndex} to Mech.");
+                        Main.Logger.LogDebug($"[AugmentedLanceOverride] Forced Capellan unit {unitIndex} to Mech.");
                     }
                 }
             }
@@ -169,7 +169,7 @@ namespace BTX_ExpansionPack.Features.Lances
                     var composition = BuildArtilleryComposition(selected, available);
 
                     artilleryLanceAssignments[lanceName] = composition;
-                    Main.Log.LogDebug($"[ArtilleryOverride] Selected artillery composition for '{lanceName}': {string.Join(", ", composition)}");
+                    Main.Logger.LogDebug($"[ArtilleryOverride] Selected artillery composition for '{lanceName}': {string.Join(", ", composition)}");
                 }
 
                 if (!artilleryLanceAssignments.TryGetValue(lanceName, out var artList))
@@ -225,7 +225,7 @@ namespace BTX_ExpansionPack.Features.Lances
                     return WeightedRandomSelect(available);
                 }
 
-                Main.Log.LogWarning($"[ArtilleryOverride] No available artillery found for faction '{parentFaction}' in {year}. Using default.");
+                Main.Logger.LogWarning($"[ArtilleryOverride] No available artillery found for faction '{parentFaction}' in {year}. Using default.");
                 return "vehicledef_THUMPER";
             }
 
@@ -263,7 +263,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 instance.selectedUnitDefId = defId;
                 instance.selectedUnitType = UnitType.Vehicle;
                 request.AddBlindLoadRequest(BattleTechResourceType.VehicleDef, defId);
-                Main.Log.LogDebug($"[ArtilleryOverride] Assigned '{defId}' to '{lanceName}' unit {unitIndex}");
+                Main.Logger.LogDebug($"[ArtilleryOverride] Assigned '{defId}' to '{lanceName}' unit {unitIndex}");
             }
 
             /// <summary>
@@ -283,7 +283,7 @@ namespace BTX_ExpansionPack.Features.Lances
                     request.AddBlindLoadRequest(BattleTechResourceType.VehicleDef, peekedUnitId);
                 else
                     request.AddBlindLoadRequest(BattleTechResourceType.VehicleDef, defId);
-                Main.Log.LogDebug($"[ArtilleryOverride] Letting BEX spawn random spotter vehicle for '{lanceName}' unit {unitIndex}");
+                Main.Logger.LogDebug($"[ArtilleryOverride] Letting BEX spawn random spotter vehicle for '{lanceName}' unit {unitIndex}");
             }
 
             /// <summary>
@@ -294,7 +294,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 instance.unitTagSet.Add("xotl_min_0.3333");
                 instance.unitTagSet.Remove("unit_vehicle_artillery");
                 instance.unitExcludedTagSet.Add("unit_vehicle_artillery");
-                Main.Log.LogDebug($"[ArtilleryOverride] Letting BEX spawn random escort vehicle for '{lanceName}' unit {unitIndex}");
+                Main.Logger.LogDebug($"[ArtilleryOverride] Letting BEX spawn random escort vehicle for '{lanceName}' unit {unitIndex}");
             }
 
             /// <summary>
@@ -321,7 +321,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 {
                     selectedComposition = SelectComStarClanComposition(lanceDefId, lanceName, difficulty);
                     lanceCompositionAssignments[lanceName] = selectedComposition;
-                    Main.Log.LogDebug($"[ComstarClanOverride] Selected composition for lance '{lanceName}': {string.Join(", ", selectedComposition)}");
+                    Main.Logger.LogDebug($"[ComstarClanOverride] Selected composition for lance '{lanceName}': {string.Join(", ", selectedComposition)}");
                 }
                 else
                 {
@@ -383,7 +383,7 @@ namespace BTX_ExpansionPack.Features.Lances
             private static void ApplyComStarClanOverride(UnitSpawnPointOverride instance, string weightTag, string lanceName, int unitIndex)
             {
                 instance.unitTagSet.ForceWeightClass(weightTag);
-                Main.Log.LogDebug($"[ComstarClanOverride] Applied tag '{weightTag}' to unit {unitIndex} in lance '{lanceName}'.");
+                Main.Logger.LogDebug($"[ComstarClanOverride] Applied tag '{weightTag}' to unit {unitIndex} in lance '{lanceName}'.");
             }
 
             #endregion

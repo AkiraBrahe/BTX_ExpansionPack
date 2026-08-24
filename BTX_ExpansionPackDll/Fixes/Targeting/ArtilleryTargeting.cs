@@ -182,7 +182,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                         Mode = selectedMode
                     });
 
-                    Main.Log.LogDebug($"[ArtilleryAI] {attacker.DisplayName} (Pilot Tactics: {tactics}) selected {selectedMode} targeting mode. Targeting position: {targetPos.Value}");
+                    Main.Logger.LogDebug($"[ArtilleryAI] {attacker.DisplayName} (Pilot Tactics: {tactics}) selected {selectedMode} targeting mode. Targeting position: {targetPos.Value}");
                     return targetPos.Value;
                 }
             }

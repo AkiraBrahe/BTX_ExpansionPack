@@ -101,7 +101,7 @@ namespace BTX_ExpansionPack.Features.Combat
             }
 
             ArtilleryCritTargets.Add(target.GUID);
-            Main.Log.LogDebug($"[ArtilleryCrits] Critical Hit! (rolled < {critChance:P0})\nConcentrating damage on {(ArmorLocation)critLocation} location of {target.DisplayName}.");
+            Main.Logger.LogDebug($"[ArtilleryCrits] Critical Hit! (rolled < {critChance:P0})\nConcentrating damage on {(ArmorLocation)critLocation} location of {target.DisplayName}.");
             return dynamicSpread;
         }
 

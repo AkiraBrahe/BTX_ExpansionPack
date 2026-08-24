@@ -25,7 +25,7 @@ namespace BTX_ExpansionPack.Fixes.Mechs
                 string mechSettingsPath = Path.Combine(Main.modDir, "MechSettings.json");
                 if (!File.Exists(mechSettingsPath))
                 {
-                    Main.Log.LogDebug("MechSettings.json not found, skipping merge.");
+                    Main.Logger.LogDebug("MechSettings.json not found, skipping merge.");
                     patched = true;
                     return;
                 }
@@ -36,11 +36,11 @@ namespace BTX_ExpansionPack.Fixes.Mechs
                 __result.MechsWithoutLeftHand.AddRange(actuatorInfo.MechsWithoutLeftHand.Except(__result.MechsWithoutLeftHand));
                 __result.MechsWithoutRightHand.AddRange(actuatorInfo.MechsWithoutRightHand.Except(__result.MechsWithoutRightHand));
 
-                Main.Log.LogDebug("Loaded EP's mech actuator settings.");
+                Main.Logger.LogDebug("Loaded EP's mech actuator settings.");
             }
             catch (System.Exception ex)
             {
-                Main.Log.LogException(ex);
+                Main.Logger.LogException(ex);
             }
 
             patched = true;

@@ -58,7 +58,7 @@ namespace BTX_ExpansionPack.Fixes.Mechs
                     quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);
                 }
                 quirk.VTOL = altRep.state == AltRepState.Flying;
-                if (quirk.VTOL) Main.Log.LogDebug($"[MechQuirks] {mech.DisplayName} is now flying and counts as valid airborne target.");
+                if (quirk.VTOL) Main.Logger.LogDebug($"[MechQuirks] {mech.DisplayName} is now flying and counts as valid airborne target.");
             }
         }
 

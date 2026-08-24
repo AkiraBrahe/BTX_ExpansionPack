@@ -46,10 +46,10 @@ namespace BTX_ExpansionPack.Utilities
                 }
                 catch (Exception ex)
                 {
-                    Main.Log.LogDebug($"Error calculating bounds for {chassisName}: {ex}");
+                    Main.Logger.LogDebug($"Error calculating bounds for {chassisName}: {ex}");
                 }
 
-                Main.Log.LogDebug($"Mech: {chassisName}, Tonnage: {tonnage} tons, Height: {height:F2}m, Volume: {volume:F2}m³");
+                Main.Logger.LogDebug($"Mech: {chassisName}, Tonnage: {tonnage} tons, Height: {height:F2}m, Volume: {volume:F2}m³");
             }
         }
 
@@ -88,7 +88,7 @@ namespace BTX_ExpansionPack.Utilities
 
                             float height = bounds.size.y; // * UnityUnitToMeter;
                             float volume = bounds.size.x * bounds.size.y * bounds.size.z; // * (float)Math.Pow(UnityUnitToMeter, 3);
-                            Main.Log.LogDebug($"Human: {name}, Height: {height:F2}m, Volume: {volume:F2}m³");
+                            Main.Logger.LogDebug($"Human: {name}, Height: {height:F2}m, Volume: {volume:F2}m³");
                         }
                     }
                 }

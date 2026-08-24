@@ -36,7 +36,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                             {
                                 if (blockedUnits.Add(mechDef.Name))
                                 {
-                                    Main.Log.LogDebug(logMessage);
+                                    Main.Logger.LogDebug(logMessage);
                                 }
                                 badBiome = true;
                             }

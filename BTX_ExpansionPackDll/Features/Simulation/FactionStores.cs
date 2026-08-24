@@ -118,7 +118,7 @@ namespace BTX_ExpansionPack.Features.Simulation
                         kvp.Value.RemoveAll(year =>
                         {
                             bool missing = !__instance.DataManager.Exists(BattleTechResourceType.ItemCollectionDef, baseId + year);
-                            if (missing) Main.Log.Log($"[FactionStores] Missing ItemCollectionDef for ShopSwitch: {baseId}{year}");
+                            if (missing) Main.Logger.Log($"[FactionStores] Missing ItemCollectionDef for ShopSwitch: {baseId}{year}");
                             return missing;
                         });
                     }

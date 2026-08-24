@@ -51,7 +51,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 }
 
                 if (updated) DropManager.UpdateCULances();
-                Main.Log.Log($"Dropslot stats: " +
+                Main.Logger.Log($"Dropslot stats: " +
                     $"{BaseMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(BaseMechSlotsStat)}, " +
                     $"{AdditionalMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(AdditionalMechSlotsStat)}, " +
                     $"{HotDropMechSlotsStat}: {__instance.CompanyStats.GetValue<int>(HotDropMechSlotsStat)}"

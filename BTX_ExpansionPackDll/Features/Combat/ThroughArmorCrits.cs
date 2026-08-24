@@ -55,7 +55,7 @@ namespace BTX_ExpansionPack.Features.Combat
                     }
                     else
                     {
-                        Main.Log.LogError($"[ThroughArmorCrits] Failed to retrieve extended data for weapon {id}. AP critical hit modifiers will not be applied.");
+                        Main.Logger.LogError($"[ThroughArmorCrits] Failed to retrieve extended data for weapon {id}. AP critical hit modifiers will not be applied.");
                     }
                 }
             }

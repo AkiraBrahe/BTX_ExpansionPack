@@ -16,7 +16,7 @@ namespace BTX_ExpansionPack.Features.Refit
         public static void Register()
         {
             Modifier_AmmoSwapper.SmartAmmoAdjust = SmartAmmoAdjust;
-            Main.Log.LogDebug("Successfully replaced the Smart Ammo Adjust logic.");
+            Main.Logger.LogDebug("Successfully replaced the Smart Ammo Adjust logic.");
         }
 
         private static void SmartAmmoAdjust(MechDef m, SimGameState s, UpgradeList l, float canFreeTonns, AmmoTracker ammo, MechDef fromData, FactionValue team)
@@ -33,9 +33,9 @@ namespace BTX_ExpansionPack.Features.Refit
 
             var rand = s.NetworkRandom;
             string mood = s.SelectedContract?.mapMood;
-            if (mood == null) Main.Log.Log("warning: contract mood null");
+            if (mood == null) Main.Logger.Log("warning: contract mood null");
 
-            Main.Log.Log($"handling {m.Description.Id} of {team.Name} in mood {mood.SafeToString()}");
+            Main.Logger.Log($"handling {m.Description.Id} of {team.Name} in mood {mood.SafeToString()}");
 
             foreach (var kv in ammo.AmmoGroups)
             {
@@ -43,7 +43,7 @@ namespace BTX_ExpansionPack.Features.Refit
                     continue;
 
                 var ideal = kv.Value.IdealAmmoRatios;
-                Main.Log.Log($"handling group {kv.Key}");
+                Main.Logger.Log($"handling group {kv.Key}");
 
                 if (kv.Key.StartsWith("AC"))
                 {
@@ -64,7 +64,7 @@ namespace BTX_ExpansionPack.Features.Refit
 
                     if (stdcount > tracercount)
                     {
-                        Main.Log.Log("has uacs, no special ammo");
+                        Main.Logger.Log("has uacs, no special ammo");
                         tracer = null;
                         prec = null;
                         ap = null;
