@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 35220000,
+    "Cost": 31660000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -21,7 +21,7 @@
   "weightClass": "ASSAULT",
   "BattleValue": 10210000,
   "Heatsinks": 28,
-  "TopSpeed": 108,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 200,
@@ -36,7 +36,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 1,
+  "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 85,
@@ -212,6 +212,8 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_difficulttomaintain",
       "mech_quirk_nonstandardparts",
       "mech_quirk_cowl",
@@ -220,8 +222,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Juggernaut",
-  "YangsThoughts": "PLACEHOLDER",
+  "StockRole": "Brawler",
+  "YangsThoughts": "",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

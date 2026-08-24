@@ -1,18 +1,18 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
-      "unit_role_scout",
       "unit_role_flanker",
+      "unit_role_scout",
       "unit_lance_support",
       "unit_range_medium",
       "unit_armor_medium",
       "unit_speed_high",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,11 +20,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 7770000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Arctic Wolf 1",
+    "UIName": "Arctic Wolf ",
     "Id": "mechdef_arctic_wolf-1",
     "Name": "Arctic Wolf",
     "Details": "Its loadout consists of six SRM-6s and two SRM-4 launchers. A Narc missile beacon aids in the accuracy of these missiles. The Arctic Wolf carries an impressive four tons of ammunition for its launchers. The 'Mech is protected by six tons of standard armor, and has ten double heat sinks that can be overwhelmed if a MechWarrior insists on staying in the fight or going full tilt for long periods.",
@@ -219,5 +219,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3059-01-01T00:00:00Z"
 }

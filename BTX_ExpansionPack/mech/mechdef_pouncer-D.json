@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -12,15 +13,14 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_pouncer-D",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9390000,
+    "Cost": 9150000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -31,7 +31,7 @@
     "Details": "A close-combat configuration, the Pouncer D carries six ER Medium Lasers for its primary firepower, which are linked to an advanced Targeting Computer for increased accuracy. The 'Mech also has two highly accurate Streak SRM-6 launchers which can eviscerate a target at close range. For protection from rear attacks, the 'Mech has a single ER Small Laser.",
     "Icon": "uixTxrIcon_pouncer"
   },
-  "simGameMechPartCost": 940000,
+  "simGameMechPartCost": 910000,
   "Version": 1,
   "Locations": [
     {
@@ -188,5 +188,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3050-01-01T00:00:00Z"
 }

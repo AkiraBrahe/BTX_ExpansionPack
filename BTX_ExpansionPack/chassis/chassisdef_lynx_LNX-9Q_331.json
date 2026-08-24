@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 11820000,
-    "Rarity": 4,
+    "Cost": 10110000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "MEDIUM",
   "BattleValue": 8625000,
   "Heatsinks": 10,
-  "TopSpeed": 80,
+  "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
   "Stability": 130,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 45,
+  "MeleeDamage": 50,
   "MeleeInstability": 55,
   "MeleeToHitModifier": 0,
   "DFADamage": 70,
@@ -206,6 +206,8 @@
     "items": [
       "mr-resize-0.97",
       "chassis_DHS",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_multitrac"
     ],
     "tagSetSourceFile": ""

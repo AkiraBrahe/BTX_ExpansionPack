@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 6480000,
-    "Rarity": 4,
+    "Cost": 5830000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_gurkhabase-001",
   "PrefabBase": "gurkha",
   "Tonnage": 35,
-  "InitialTonnage": 14.06,
+  "InitialTonnage": 14,
   "weightClass": "LIGHT",
   "BattleValue": 4540000,
   "Heatsinks": 10,
@@ -224,7 +224,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_6_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -233,7 +233,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -242,7 +242,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -251,7 +251,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 15890000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_highlanderBase-001",
   "PrefabBase": "highlander",
   "Tonnage": 90,
-  "InitialTonnage": 26.56,
+  "InitialTonnage": 26.5,
   "weightClass": "ASSAULT",
   "BattleValue": 11070000,
   "Heatsinks": 10,
@@ -218,6 +218,7 @@
     "items": [
       "chassis_DHS",
       "mech_case_left",
+      "ArmLimitLowerRight",
       "mech_quirk_commandmech",
       "mech_quirk_cowl",
       "mech_quirk_reinforcedlegs",

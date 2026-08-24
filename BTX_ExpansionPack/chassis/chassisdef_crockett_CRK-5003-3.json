@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 8490000,
-    "Rarity": 3,
+    "Cost": 8470000,
+    "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_crkbase-001",
   "PrefabBase": "crk",
   "Tonnage": 85,
-  "InitialTonnage": 28.06,
+  "InitialTonnage": 28,
   "weightClass": "ASSAULT",
   "BattleValue": 9945000,
   "Heatsinks": 10,
@@ -206,11 +206,14 @@
       "mr-resize-1.1",
       "chassis_DHS",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_easytopilot",
       "mech_quirk_poorlifesupport"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper",
-  "YangsThoughts": ""
+  "YangsThoughts": "",
+  "FixedEquipment": []
 }

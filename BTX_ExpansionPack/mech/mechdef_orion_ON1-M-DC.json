@@ -20,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 16550000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "This 1-M subvariant trades one ton each of SRM and Narc ammunition plus one double heat sink for a Command Console. The loadout remains the same as the ON1-M, with an LB 10-X autocannon, two Medium Lasers, an LRM-20 launcher, a single SRM-4, and a Narc missile beacon.",
     "Icon": "uixTxrIcon_orion"
   },
-  "simGameMechPartCost": 1660000,
+  "simGameMechPartCost": 1650000,
   "Version": 1,
   "Locations": [
     {
@@ -203,5 +203,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
 }

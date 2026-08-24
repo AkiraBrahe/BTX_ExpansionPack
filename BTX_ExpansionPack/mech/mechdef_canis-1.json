@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_brawler",
@@ -12,20 +13,19 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_canis-1",
   "HeraldryID": null,
   "Description": {
-    "Cost": 15810000,
-    "Rarity": 3,
+    "Cost": 15800000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Canis 1",
+    "UIName": "Canis ",
     "Id": "mechdef_canis-1",
     "Name": "Canis",
     "Details": "The Canis is equipped with four arm-mounted ER Large Lasers. While these pack a powerful, long-range punch, they often overload the design's sixteen double heat sinks. For medium-range support, the 'Mech' utilizes a pair of torso-mounted Ultra Autocannon/10s, though it only carries enough ammunition for approximately a minute and a half of sustained firing.",
@@ -260,5 +260,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3058-01-01T00:00:00Z"
 }

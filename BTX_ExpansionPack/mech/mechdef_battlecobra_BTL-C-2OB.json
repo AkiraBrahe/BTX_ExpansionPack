@@ -17,8 +17,8 @@
   "ChassisID": "chassisdef_battlecobra_BTL-C-2OB",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5410000,
-    "Rarity": 4,
+    "Cost": 4920000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -28,7 +28,7 @@
     "Details": "A medium-range missile boat, the BTL-C-2OB mount a pair of MRM-10 launchers in each arm with three tons of reloads in its right torso.",
     "Icon": "uixTxrIcon_battlecobra_cs"
   },
-  "simGameMechPartCost": 540000,
+  "simGameMechPartCost": 490000,
   "Version": 1,
   "Locations": [
     {
@@ -161,5 +161,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

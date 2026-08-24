@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_thunderbolt_TDR-9SE",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5870000,
-    "Rarity": 5,
+    "Cost": 5850000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -228,5 +228,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3049-01-01T00:00:00Z"
 }

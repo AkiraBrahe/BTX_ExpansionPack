@@ -12,8 +12,8 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
       "unit_dlc",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -26,9 +26,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Assassin ASN-SRV",
+    "UIName": "Assassin",
     "Id": "mechdef_assassin_ASN-99_Servitor",
-    "Name": "\"Servitor\"",
+    "Name": "“Servitor”",
     "Details": "A custom variant of the ASN-99 Assassin, the \"Servitor\" is designed for close-range duels. The stealth armor and Guardian ECM suite are removed, and the head-mounted TAG is swapped for a Small Laser. Each arm has new weapons, with the left holding a small vibroblade and the right mounting a Medium X-Pulse Laser, while the legs each carries a small X-Pulse Laser. The two SRM-2s of the ASN-99 are retained.",
     "Icon": "uixTxrIcon_assassin"
   },
@@ -221,5 +221,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3066-01-01T00:00:00Z"
 }

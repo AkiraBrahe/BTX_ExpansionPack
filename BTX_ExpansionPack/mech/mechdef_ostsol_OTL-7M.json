@@ -19,7 +19,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 12050000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_ostsol"
   },
-  "simGameMechPartCost": 1210000,
+  "simGameMechPartCost": 1200000,
   "Version": 1,
   "Locations": [
     {
@@ -170,5 +170,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
 }

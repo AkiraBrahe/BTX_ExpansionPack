@@ -19,7 +19,7 @@
   "ChassisID": "chassisdef_firefly_FFL-4D",
   "HeraldryID": null,
   "Description": {
-    "Cost": 3940000,
+    "Cost": 3570000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -30,7 +30,7 @@
     "Details": "A comparatively new variant that appeared with the Dragoons, the 4D saves weight by using a light engine, endo steel, and ferro-fibrous armor. Just like the 4C, this variant adds an Artemis IV FCS to the LRM-5 but also upgrades the lasers to ER Medium Lasers. Due to space constraints, the 4D utilizes twelve single heat sinks, which are often heavily taxed.",
     "Icon": "uixTxrIcon_firefly"
   },
-  "simGameMechPartCost": 390000,
+  "simGameMechPartCost": 360000,
   "Version": 1,
   "Locations": [
     {
@@ -173,11 +173,21 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftLeg",
@@ -211,5 +221,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3067-01-01T00:00:00Z"
 }

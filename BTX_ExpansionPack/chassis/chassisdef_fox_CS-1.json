@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 9650000,
-    "Rarity": 6,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -220,6 +220,8 @@
       "chassis_endo",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_variablerangetargeting",
       "mech_quirk_largeengine"
     ],
@@ -241,6 +243,24 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
       "DamageLevel": "Functional",

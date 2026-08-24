@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_sniper",
@@ -11,16 +12,15 @@
       "unit_speed_low",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_hoplite_C",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5220000,
-    "Rarity": 5,
+    "Cost": 5190000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -187,5 +187,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3052-01-01T00:00:00Z"
 }

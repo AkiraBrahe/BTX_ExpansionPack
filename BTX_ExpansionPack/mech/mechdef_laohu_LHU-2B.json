@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_laohu_LHU-2B",
   "HeraldryID": null,
   "Description": {
-    "Cost": 18830000,
-    "Rarity": 4,
+    "Cost": 20710000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "The Lao Hu is built on a lightweight Chariot Type II endo steel chassis protected by an impressive thirteen and a half tons of armor, allowing it to withstand hits from all but the most powerful weapons. The Lao Hu is capable of engaging an enemy at almost any range, carrying an ER Large Laser and LRM-15 launcher for long-range combat and a devastating LB-X Autocannon/20 for close-quarters combat.",
     "Icon": "uixTxrIcon_laohu"
   },
-  "simGameMechPartCost": 1880000,
+  "simGameMechPartCost": 2070000,
   "Version": 1,
   "Locations": [
     {
@@ -171,5 +171,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

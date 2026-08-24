@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 8620000,
-    "Rarity": 4,
+    "Cost": 8600000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -212,6 +212,8 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.95-0.95-0.95",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_antiaircraft",
       "mech_quirk_searchlight_CT",
       "mech_quirk_nominimalarms"
@@ -219,5 +221,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Missile Boat",
-  "YangsThoughts": "The LGB-0W2 makes some space for more armor. Smart move. It is even more vulnerable in close quarters, as there are no weapons in this range bracket, but at least it can take a punch now. Progress, I suppose."
+  "YangsThoughts": "The LGB-0W2 makes some space for more armor. Smart move. It is even more vulnerable in close quarters, as there are no weapons in this range bracket, but at least it can take a punch now. Progress, I suppose.",
+  "FixedEquipment": []
 }

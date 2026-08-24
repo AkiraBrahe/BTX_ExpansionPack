@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_sniper",
@@ -11,26 +12,25 @@
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_pouncer-PRIME",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9000000,
+    "Cost": 8760000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Pouncer PRIME",
+    "UIName": "Pouncer Prime",
     "Id": "mechdef_pouncer-PRIME",
     "Name": "Pouncer",
     "Details": "In its Primary configuration, the Pouncer has two ER PPCs for long-range striking power. These are backed up by a single ER Small Laser for close combat. All of the weapons are linked to an advanced Targeting Computer that increases their accuracy.",
     "Icon": "uixTxrIcon_pouncer"
   },
-  "simGameMechPartCost": 900000,
+  "simGameMechPartCost": 880000,
   "Version": 1,
   "Locations": [
     {
@@ -131,5 +131,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3050-01-01T00:00:00Z"
 }

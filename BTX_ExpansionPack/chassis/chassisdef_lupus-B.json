@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_lupusbase-001",
   "PrefabBase": "lupus",
   "Tonnage": 60,
-  "InitialTonnage": 28.04,
+  "InitialTonnage": 28,
   "weightClass": "HEAVY",
   "BattleValue": 9925000,
   "Heatsinks": 10,
@@ -200,11 +200,11 @@
   "VariantName": "LUP-B",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_exposedactuators",
       "mech_quirk_largeengine"
     ],

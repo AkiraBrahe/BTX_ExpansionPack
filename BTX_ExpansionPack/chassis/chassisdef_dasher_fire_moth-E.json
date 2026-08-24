@@ -17,11 +17,11 @@
   "PrefabIdentifier": "chrprfmech_dasherbase-001",
   "PrefabBase": "dasher",
   "Tonnage": 20,
-  "InitialTonnage": 10.52,
+  "InitialTonnage": 10.5,
   "weightClass": "LIGHT",
   "BattleValue": 4110000,
   "Heatsinks": 10,
-  "TopSpeed": 216,
+  "TopSpeed": 162,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 100,
@@ -191,11 +191,11 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.8",
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_overheadarms",
       "mech_quirk_narrowlowprofile"
     ],

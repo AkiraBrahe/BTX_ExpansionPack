@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 4780000,
-    "Rarity": 6,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_bellerophonbase-001",
   "PrefabBase": "bellerophon",
   "Tonnage": 60,
-  "InitialTonnage": 35.31,
+  "InitialTonnage": 35,
   "weightClass": "HEAVY",
   "BattleValue": 4785000,
   "Heatsinks": 0,
@@ -181,6 +181,9 @@
   "VariantName": "BEL-1X",
   "ChassisTags": {
     "items": [
+      "chassis_primitive",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_cowl",
       "mech_quirk_eminterference",
       "mech_quirk_prototype",

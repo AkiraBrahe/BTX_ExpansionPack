@@ -1,12 +1,12 @@
 {
   "Description": {
     "Cost": 1640000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Buster",
-    "Id": "chassisdef_buster_BC-X-M",
+    "Id": "chassisdef_buster_BC_X-M",
     "Name": "Buster",
     "Details": "The BC X-M is a militarized variant of the BC X, the first known Buster variant designed for construction work. Its main features is a massive Backhoe for a left arm, which is supplemented by an LRM-10 with one ton of ammunition.",
     "Icon": "uixTxrIcon_buster"
@@ -21,7 +21,7 @@
   "weightClass": "MEDIUM",
   "BattleValue": 2670000,
   "Heatsinks": -12,
-  "TopSpeed": 60,
+  "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 130,
@@ -39,8 +39,8 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 60,
-  "MeleeInstability": 60,
+  "MeleeDamage": 65,
+  "MeleeInstability": 50,
   "MeleeToHitModifier": 0,
   "DFADamage": 65,
   "DFAToHitModifier": 0,
@@ -169,14 +169,16 @@
       "z": 0
     }
   ],
-  "VariantName": "BC-X-M",
+  "VariantName": "BC X-M",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.9"
+      "mr-resize-0.9",
+      "chassis_industrial",
+      "ArmLimitLowerLeft"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Militarized ConstructionMech",
+  "StockRole": "Ambusher",
   "YangsThoughts": "The BC X-M is a militarized variant of the BC X, the first known Buster variant designed for construction work. Its main features is a massive Backhoe for a left arm, which is supplemented by an LRM-10 with one ton of ammunition.",
   "FixedEquipment": [
     {

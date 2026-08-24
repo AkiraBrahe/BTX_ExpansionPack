@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 15560000,
-    "Rarity": 4,
+    "Cost": 15750000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -170,14 +170,14 @@
       "z": 0
     },
     {
-      "x": 3.5,
-      "y": 15,
-      "z": 0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -3.5,
-      "y": 15,
-      "z": 0
+      "x": -5,
+      "y": 16,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
@@ -187,24 +187,24 @@
       "z": 0
     },
     {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
       "x": 3.5,
-      "y": 15,
-      "z": 0
+      "y": 5.5,
+      "z": 1
     },
     {
       "x": -3.5,
-      "y": 15,
-      "z": 0
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 5,
-      "z": 0
+      "y": 5.5,
+      "z": 1
     }
   ],
   "VariantName": "WR-DG-02FC",
@@ -213,6 +213,7 @@
       "mr-resize-1.04-0.98-1.00",
       "chassis_DHS",
       "chassis_ferro",
+      "ArmLimitLowerRight",
       "mech_quirk_accurateweapon"
     ],
     "tagSetSourceFile": ""
@@ -240,7 +241,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_6_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -249,7 +250,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -258,7 +259,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -267,7 +268,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -276,7 +277,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

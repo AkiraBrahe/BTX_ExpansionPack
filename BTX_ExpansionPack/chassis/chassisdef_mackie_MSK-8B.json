@@ -17,11 +17,11 @@
   "PrefabIdentifier": "chrprfmech_ltmackiebase-001",
   "PrefabBase": "ltmackie",
   "Tonnage": 100,
-  "InitialTonnage": 35.81,
+  "InitialTonnage": 35.5,
   "weightClass": "ASSAULT",
   "BattleValue": 10095000,
   "Heatsinks": 0,
-  "TopSpeed": 65,
+  "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 200,
@@ -44,8 +44,8 @@
   "MeleeToHitModifier": 0,
   "DFADamage": 125,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 100,
-  "DFAInstability": 40,
+  "DFASelfDamage": 125,
+  "DFAInstability": 125,
   "Locations": [
     {
       "Location": "Head",
@@ -160,45 +160,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 9.5,
-      "z": 0.5
+      "y": 15,
+      "z": 1
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": 4,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": -4,
+      "y": 14,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 9.5,
-      "z": 0.5
+      "y": 15,
+      "z": 1
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": 4,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": -4,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": -1.5,
-      "y": 3,
-      "z": 0.5
+      "x": 3,
+      "y": 5,
+      "z": 0
     },
     {
-      "x": 1.5,
-      "y": 3,
-      "z": 0.5
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "MSK-8B",
@@ -206,6 +206,8 @@
     "items": [
       "mr-resize-1.10-1.15-1.10",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_easytomaintain",
       "mech_quirk_oversized",
       "mech_quirk_protectedactuators",

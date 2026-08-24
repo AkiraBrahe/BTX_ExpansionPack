@@ -21,7 +21,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 9950000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -31,7 +31,7 @@
     "Details": "The Raijin is built around a 300 XL engine that gives it a top speed of 97.2 km/h. Six jump jets further enhance its mobility, allowing the 'Mech to jump up to 180 meters. Seven tons of ferro-fibrous armor provide robust protection. For long-range striking power, the Raijin carries an ER PPC that can be used to engage a target at up to 690 meters. Close-quarters combat is handled by three highly accurate Medium Pulse Lasers. To exploit enemy armor vulnerabilities, the Raijin also has an SRM-6 and an ammunition-efficient Streak SRM-2.",
     "Icon": "uixTxrIcon_raijin"
   },
-  "simGameMechPartCost": 1000000,
+  "simGameMechPartCost": 990000,
   "Version": 1,
   "Locations": [
     {
@@ -220,5 +220,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
 }

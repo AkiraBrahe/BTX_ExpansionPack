@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 3770000,
-    "Rarity": 4,
+    "Cost": 3760000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "LIGHT",
   "BattleValue": 4725000,
   "Heatsinks": 0,
-  "TopSpeed": 129.6,
+  "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
   "Stability": 100,
@@ -145,12 +145,12 @@
       "z": 0
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 10.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 10.5,
       "z": -0.5
     }
@@ -162,22 +162,22 @@
       "z": 0
     },
     {
-      "x": -2.5,
-      "y": 10.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 10.5,
       "z": -0.5
     },
     {
-      "x": -2,
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2,
       "y": 4,
       "z": 0.5
     },
     {
-      "x": 2,
+      "x": -2,
       "y": 4,
       "z": 0.5
     }

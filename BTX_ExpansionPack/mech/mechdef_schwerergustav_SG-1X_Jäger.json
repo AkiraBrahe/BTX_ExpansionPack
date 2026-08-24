@@ -9,29 +9,34 @@
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
-      "unit_speed_high",
+      "unit_speed_low",
       "unit_electronicWarfare",
       "unit_release",
       "unit_mechpack",
-      "unit_LosTech"
+      "unit_LosTech",
+      "AML_Patchwork_Head",
+      "AML_Patchwork_LeftTorso",
+      "AML_Patchwork_CenterTorso",
+      "AML_Patchwork_LeftLeg",
+      "AML_Patchwork_RightLeg"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_schwerergustav_SG-1X_Jäger",
   "HeraldryID": null,
   "Description": {
-    "Cost": 29600000,
+    "Cost": 29420000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Schwerer Jäger SJ-1X",
+    "UIName": "Schwerer Gustav SG-1X",
     "Id": "mechdef_schwerergustav_SG-1X_Jäger",
-    "Name": "Schwerer Jäger",
-    "Details": "The Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
+    "Name": "“Jäger”",
+    "Details": "The Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by swapping the engine for a Clan-spec 300-rated one. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
     "Icon": "uixTxrIcon_schwerergustav"
   },
-  "simGameMechPartCost": 2960000,
+  "simGameMechPartCost": 2940000,
   "Version": 1,
   "Locations": [
     {
@@ -46,10 +51,10 @@
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "CurrentArmor": 170,
+      "CurrentArmor": 100,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 85,
-      "AssignedArmor": 170,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 100,
       "AssignedRearArmor": -1
     },
     {
@@ -73,19 +78,19 @@
     {
       "DamageLevel": "Functional",
       "Location": "RightTorso",
-      "CurrentArmor": 160,
-      "CurrentRearArmor": 50,
-      "CurrentInternalStructure": 105,
-      "AssignedArmor": 160,
-      "AssignedRearArmor": 50
+      "CurrentArmor": 120,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 75,
+      "AssignedArmor": 120,
+      "AssignedRearArmor": 30
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
-      "CurrentArmor": 170,
+      "CurrentArmor": 100,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 85,
-      "AssignedArmor": 170,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 100,
       "AssignedRearArmor": -1
     },
     {
@@ -162,7 +167,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "TargetComponentGUID": "ArtilleryLoader0"
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
@@ -171,7 +176,15 @@
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false,
-      "LocalGUID": "ArtilleryLoader0"
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thumper",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftTorso",
@@ -215,7 +228,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_RAC5_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_CRAC5_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -239,15 +252,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -255,19 +260,12 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3073-01-01T00:00:00Z"
 }

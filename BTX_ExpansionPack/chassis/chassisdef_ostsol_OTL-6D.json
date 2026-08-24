@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 13120000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
   "PrefabBase": "ostsol",
   "Tonnage": 60,
-  "InitialTonnage": 23.78,
+  "InitialTonnage": 23.5,
   "weightClass": "HEAVY",
   "BattleValue": 9400000,
   "Heatsinks": 16,
@@ -216,7 +216,6 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
-      "chassis_TSM",
       "chassis_ferro",
       "mech_quirk_improvedsensors",
       "mech_quirk_narrowlowprofile",
@@ -274,7 +273,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_6_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -283,7 +282,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -292,7 +291,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -301,7 +300,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -310,7 +309,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

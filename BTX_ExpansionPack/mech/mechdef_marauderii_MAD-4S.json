@@ -17,8 +17,8 @@
   },
   "ChassisID": "chassisdef_marauderii_MAD-4S",
   "Description": {
-    "Cost": 19020000,
-    "Rarity": 4,
+    "Cost": 19000000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -249,5 +249,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

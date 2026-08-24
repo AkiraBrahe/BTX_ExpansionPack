@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 19020000,
-    "Rarity": 4,
+    "Cost": 19000000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_marauderiibase-001",
   "PrefabBase": "marauderii",
   "Tonnage": 100,
-  "InitialTonnage": 30.81,
+  "InitialTonnage": 30.5,
   "weightClass": "ASSAULT",
   "BattleValue": 13115000,
   "Heatsinks": 10,
@@ -44,7 +44,7 @@
   "MeleeToHitModifier": 0,
   "DFADamage": 125,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 100,
+  "DFASelfDamage": 125,
   "DFAInstability": 125,
   "Locations": [
     {
@@ -199,6 +199,8 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_commandmech",
       "mech_quirk_hyperextendingactuators",
       "mech_quirk_narrowlowprofile"

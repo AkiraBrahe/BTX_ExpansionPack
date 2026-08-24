@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_clint_CLNT-2-3L",
   "HeraldryID": null,
   "Description": {
-    "Cost": 3430000,
-    "Rarity": 4,
+    "Cost": 3820000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -31,7 +31,7 @@
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_clint"
   },
-  "simGameMechPartCost": 340000,
+  "simGameMechPartCost": 380000,
   "Version": 1,
   "Locations": [
     {
@@ -204,5 +204,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3025-01-01T00:00:00Z"
 }

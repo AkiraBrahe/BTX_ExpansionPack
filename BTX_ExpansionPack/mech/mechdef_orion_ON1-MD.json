@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_orion_ON1-MD",
   "HeraldryID": null,
   "Description": {
-    "Cost": 15510000,
-    "Rarity": 4,
+    "Cost": 15500000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -236,5 +236,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

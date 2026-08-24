@@ -199,9 +199,11 @@
   "VariantName": "LOK-M",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_searchlight_LT",
       "mech_quirk_largeengine"
     ],

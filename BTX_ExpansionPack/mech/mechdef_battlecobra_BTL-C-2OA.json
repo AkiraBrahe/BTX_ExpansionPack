@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_battlecobra_BTL-C-2OA",
   "HeraldryID": null,
   "Description": {
-    "Cost": 6380000,
-    "Rarity": 4,
+    "Cost": 5890000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "An electronic warfare configuration, the BTL-C-2OA carries TAG and a Guardian ECM suite in its right arm and a Beagle Active Probe in its left. For protection, a trio of Medium Pulse Lasers and a single Small Pulse Laser are mounted in its left arm, and three standard Medium Lasers are mounted in its right. To help with the extra heat, an additional double heat sink is mounted.",
     "Icon": "uixTxrIcon_battlecobra_cs"
   },
-  "simGameMechPartCost": 640000,
+  "simGameMechPartCost": 590000,
   "Version": 1,
   "Locations": [
     {
@@ -179,5 +179,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

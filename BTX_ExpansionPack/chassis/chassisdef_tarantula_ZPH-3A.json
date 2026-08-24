@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 3560000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_cutarantulabase-001",
   "PrefabBase": "cutarantulabase",
   "Tonnage": 25,
-  "InitialTonnage": 11.44,
+  "InitialTonnage": 11,
   "weightClass": "LIGHT",
   "BattleValue": 3510000,
   "Heatsinks": 10,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 25,
+  "MeleeDamage": 20,
   "MeleeInstability": 25,
   "MeleeToHitModifier": 0,
   "DFADamage": 30,
@@ -160,12 +160,12 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 8.5,
       "z": -0.5
     }
@@ -177,22 +177,22 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": -1.5,
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 1.5,
+      "x": -1.5,
       "y": 3,
       "z": 0.5
     }
@@ -202,6 +202,8 @@
     "items": [
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitNoneLeft",
+      "ArmLimitNoneRight",
       "mech_quirk_easytopilot",
       "mech_quirk_extendedtorsotwistquad",
       "mech_quirk_exposedactuators"
@@ -240,7 +242,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -249,7 +251,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -258,7 +260,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -267,7 +269,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -285,7 +287,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -294,7 +296,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -303,7 +305,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 2130000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_baboonbase-001",
   "PrefabBase": "baboon",
   "Tonnage": 20,
-  "InitialTonnage": 11.03,
+  "InitialTonnage": 11,
   "weightClass": "LIGHT",
   "BattleValue": 6815000,
   "Heatsinks": 10,
@@ -191,19 +191,20 @@
     }
   ],
   "VariantName": "BAB-5",
-  "StockRole": "Striker",
-  "YangsThoughts": "The 5 series of the Baboon ditches the long-range missile complement of the older models and instead packs a battery of six ER Medium Lasers. These lasers are spread evenly across the left and right side torsos, making it a serious light 'Mech hunter.",
   "ChassisTags": {
     "items": [
       "mr-resize-0.47-0.55-0.55",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_searchlight_LT"
     ],
     "tagSetSourceFile": ""
-  }
+  },
+  "StockRole": "Striker",
+  "YangsThoughts": "The 5 series of the Baboon ditches the long-range missile complement of the older models and instead packs a battery of six ER Medium Lasers. These lasers are spread evenly across the left and right side torsos, making it a serious light 'Mech hunter.",
+  "FixedEquipment": []
 }

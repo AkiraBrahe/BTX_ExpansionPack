@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 13720000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_jagermechBase-001",
   "PrefabBase": "jagermech",
   "Tonnage": 70,
-  "InitialTonnage": 22.51,
+  "InitialTonnage": 22.5,
   "weightClass": "HEAVY",
   "BattleValue": 8870000,
   "Heatsinks": 16,
@@ -202,6 +202,8 @@
       "chassis_DHS",
       "chassis_ferro",
       "mech_case_left",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_antiaircraft"
     ],
     "tagSetSourceFile": ""
@@ -229,7 +231,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -238,7 +240,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -247,7 +249,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -256,7 +258,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -265,7 +267,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -274,7 +276,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -283,7 +285,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

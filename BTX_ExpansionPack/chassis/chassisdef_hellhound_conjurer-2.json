@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 11720000,
-    "Rarity": 3,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_hellhoundbase-001",
   "PrefabBase": "hellhound",
   "Tonnage": 50,
-  "InitialTonnage": 24.7,
+  "InitialTonnage": 24.5,
   "weightClass": "MEDIUM",
   "BattleValue": 10485000,
   "Heatsinks": 10,
@@ -200,10 +200,11 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.02",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitLowerRight",
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_extralargeengine"
     ],

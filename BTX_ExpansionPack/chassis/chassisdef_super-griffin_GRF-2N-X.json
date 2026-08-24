@@ -1,12 +1,12 @@
 {
   "Description": {
     "Cost": 5580000,
-    "Rarity": 6,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Super-Griffin",
-    "Id": "chassisdef_supergriffin_GRF-2N-X",
+    "Id": "chassisdef_super-griffin_GRF-2N-X",
     "Name": "Super-Griffin",
     "Details": "Building upon the Griffin's legendary lineage, this upscaled 60-ton redesign utilizes prototype Improved Jump Jets to offset the natural loss of speed inherent to its heavier frame. The Super-Griffin maintains the iconic GRF-1N weapon profile—a right-arm PPC and a torso-mounted LRM-10 with deep ammunition reserves—while introducing a left-arm Medium Laser to provide the close-range defense the original design lacked.",
     "Icon": "uixTxrIcon_griffin"
@@ -147,43 +147,43 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 13,
-      "z": 1
-    },
-    {
-      "x": 3,
-      "y": 13,
+      "y": 15,
       "z": 0
     },
     {
-      "x": -3,
-      "y": 13,
+      "x": 4,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 15,
       "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 13,
-      "z": 1
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": 0
     },
     {
       "x": 3,
-      "y": 13,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 13,
-      "z": 0
-    },
-    {
-      "x": 2,
       "y": 5,
       "z": 0
     },
     {
-      "x": -2,
+      "x": -3,
       "y": 5,
       "z": 0
     }

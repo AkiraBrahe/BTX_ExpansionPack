@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 7840000,
-    "Rarity": 4,
+    "Cost": 8620000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -42,15 +42,15 @@
   "MeleeDamage": 45,
   "MeleeInstability": 35,
   "MeleeToHitModifier": 0,
-  "DFADamage": 35,
+  "DFADamage": 45,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 35,
-  "DFAInstability": 35,
+  "DFASelfDamage": 45,
+  "DFAInstability": 45,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [],
-      "Tonnage": 1,
+      "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
       "MaxRearArmor": -1,
@@ -167,12 +167,12 @@
       "z": 0
     },
     {
-      "x": -3.5,
+      "x": 3.5,
       "y": 12,
       "z": 0
     },
     {
-      "x": 3.5,
+      "x": -3.5,
       "y": 12,
       "z": 0
     }
@@ -184,22 +184,22 @@
       "z": 0
     },
     {
-      "x": -3.5,
-      "y": 12,
-      "z": 0
-    },
-    {
       "x": 3.5,
       "y": 12,
       "z": 0
     },
     {
-      "x": -2,
+      "x": -3.5,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 2,
       "y": 4,
       "z": 0.5
     },
     {
-      "x": 2,
+      "x": -2,
       "y": 4,
       "z": 0.5
     }
@@ -209,6 +209,7 @@
     "items": [
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitLowerRight",
       "mech_quirk_easytomaintain",
       "mech_quirk_fullheadejection",
       "mech_quirk_goodreputation"
@@ -238,7 +239,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_5_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -247,7 +248,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -256,7 +257,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -265,7 +266,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_5_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_griffin_GRF-3RG",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4760000,
-    "Rarity": 5,
+    "Cost": 4750000,
+    "Rarity": 4,
     "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "A Clan Invasion-era version of the GRF-1RG, the 3RG retains the right-arm medium laser and torso machine guns but swaps the remaining lasers for their pulse laser equivalents. This swap is made possible in part by dropping one ton of ammo and three heat sinks, though a swap to double-strength models compensates somewhat for the reduction.",
     "Icon": "uixTxrIcon_griffin"
   },
-  "simGameMechPartCost": 480000,
+  "simGameMechPartCost": 470000,
   "Version": 1,
   "Locations": [
     {
@@ -194,5 +194,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3048-01-01T00:00:00Z"
 }

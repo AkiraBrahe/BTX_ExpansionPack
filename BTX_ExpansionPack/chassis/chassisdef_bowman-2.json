@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 17100000,
-    "Rarity": 3,
+    "Cost": 17080000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -200,9 +200,10 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.9",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitUpperRight",
       "mech_quirk_stable",
       "mech_quirk_largeengine"
     ],

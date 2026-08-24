@@ -5,9 +5,9 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Firestarter Omni",
+    "UIName": "Firestarter",
     "Id": "chassisdef_firestarter_FS9-OX",
-    "Name": "Firestarter Omni",
+    "Name": "Firestarter",
     "Details": "This version boasts several experimental systems. Reminiscent of the Firestarter H, it's equipped with an Angel ECM Suite and Bloodhound Active Probe. It carries the twin center torso Flamers common to all Firestarter variants, and augments them with a Streak SRM-2 and a Large X-Pulse Laser.",
     "Icon": "uixTxrIcon_firestartero"
   },
@@ -154,45 +154,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 14,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 3.5,
-      "y": 13,
-      "z": 0
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -3.5,
-      "y": 13,
-      "z": 0
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 14,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 3.5,
-      "y": 13,
-      "z": 0
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -3.5,
-      "y": 13,
-      "z": 0
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": 3,
-      "y": 5,
-      "z": 0
+      "x": 2,
+      "y": 3,
+      "z": 0.5
     },
     {
-      "x": -3,
-      "y": 5,
-      "z": 0
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     }
   ],
   "VariantName": "FS9-OX",
@@ -202,6 +202,8 @@
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_cowl",
       "mech_quirk_difficulttomaintain",
       "mech_quirk_largeengine"
@@ -231,7 +233,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -240,7 +242,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -249,7 +251,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -258,7 +260,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -267,7 +269,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -276,7 +278,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

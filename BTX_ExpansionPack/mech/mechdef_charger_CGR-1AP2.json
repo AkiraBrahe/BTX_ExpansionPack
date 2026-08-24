@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_charger_CGR-1AP2",
   "HeraldryID": null,
   "Description": {
-    "Cost": 24280000,
-    "Rarity": 4,
+    "Cost": 22140000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_charger"
   },
-  "simGameMechPartCost": 2430000,
+  "simGameMechPartCost": 2210000,
   "Version": 1,
   "Locations": [
     {
@@ -179,5 +179,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3055-01-01T00:00:00Z"
 }

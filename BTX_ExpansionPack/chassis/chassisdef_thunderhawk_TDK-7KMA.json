@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 22540000,
-    "Rarity": 4,
+    "Cost": 27280000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_thunderhawkbase-001",
   "PrefabBase": "thunderhawk",
   "Tonnage": 100,
-  "InitialTonnage": 25.81,
+  "InitialTonnage": 25.5,
   "weightClass": "ASSAULT",
   "BattleValue": 12245000,
   "Heatsinks": 10,

@@ -3,25 +3,25 @@
     "items": [
       "unit_mech",
       "unit_assault",
-      "unit_release",
-      "unit_ready",
-      "unit_lance_tank",
       "unit_role_sniper",
-      "unit_jumpOK",
+      "unit_lance_tank",
       "unit_range_long",
-      "unit_speed_low",
       "unit_armor_high",
+      "unit_speed_low",
+      "unit_jumpOK",
+      "unit_release",
+      "BLACKLISTED",
+      "unit_ready",
       "unit_LosTech",
-      "mech_MechPartSalvageRedirect_pillager_PLG-3Z",
-      "BLACKLISTED"
+      "mech_MechPartSalvageRedirect_pillager_PLG-3Z"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_pillager_PLG-3Z_331",
   "HeraldryID": null,
   "Description": {
-    "Cost": 30060000,
-    "Rarity": 5,
+    "Cost": 22290000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -31,7 +31,7 @@
     "Details": "The largest BattleMech ever built by HildCo Interplanetary, the Pillager is built as a larger version of the Victor, and is intended for assaulting urban centers and hardened fortifications. Production of the Pillager halted not because its facility was destroyed, but the advanced Gauss rifle and XL engine production lines had been obliterated by the end of the Second Succession War.",
     "Icon": "uixTxrIcon_pillager"
   },
-  "simGameMechPartCost": 3010000,
+  "simGameMechPartCost": 2230000,
   "Version": 1,
   "Locations": [
     {
@@ -268,5 +268,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2594-01-01T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 9810000,
-    "Rarity": 4,
+    "Cost": 9790000,
+    "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_crkbase-001",
   "PrefabBase": "crk",
   "Tonnage": 85,
-  "InitialTonnage": 28.06,
+  "InitialTonnage": 28,
   "weightClass": "ASSAULT",
   "BattleValue": 9775000,
   "Heatsinks": 10,
@@ -206,6 +206,8 @@
       "mr-resize-1.1",
       "chassis_DHS",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_easytopilot",
       "mech_quirk_poorlifesupport"
     ],

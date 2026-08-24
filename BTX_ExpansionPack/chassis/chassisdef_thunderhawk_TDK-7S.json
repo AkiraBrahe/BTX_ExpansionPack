@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 19690000,
-    "Rarity": 4,
+    "Cost": 21660000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -20,7 +20,7 @@
   "InitialTonnage": 30.5,
   "weightClass": "ASSAULT",
   "BattleValue": 12200000,
-  "Heatsinks": 10,
+  "Heatsinks": 0,
   "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -204,7 +204,6 @@
   "VariantName": "TDK-7S",
   "ChassisTags": {
     "items": [
-      "chassis_DHS",
       "mech_quirk_commandmech",
       "mech_quirk_goodreputation",
       "mech_quirk_variablerangetargeting",

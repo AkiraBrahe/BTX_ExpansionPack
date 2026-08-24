@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 5480000,
-    "Rarity": 5,
+    "Cost": 5470000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "MEDIUM",
   "BattleValue": 7065000,
   "Heatsinks": 10,
-  "TopSpeed": 80,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 130,
@@ -199,6 +199,8 @@
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_nominimalarms"
     ],
     "tagSetSourceFile": ""

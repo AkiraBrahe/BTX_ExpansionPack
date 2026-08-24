@@ -203,9 +203,11 @@
   "VariantName": "SRA-D",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_rugged1"
     ],
     "tagSetSourceFile": ""

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -12,16 +13,15 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_grizzly-2",
   "HeraldryID": null,
   "Description": {
-    "Cost": 7530000,
-    "Rarity": 3,
+    "Cost": 7510000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -252,5 +252,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

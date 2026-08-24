@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 10960000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -70,7 +70,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 80,
+      "MaxArmor": 90,
       "MaxRearArmor": -1,
       "InternalStructure": 45
     },
@@ -133,7 +133,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 80,
+      "MaxArmor": 90,
       "MaxRearArmor": -1,
       "InternalStructure": 45
     },
@@ -203,9 +203,11 @@
   "VariantName": "DV-IIC",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_easytomaintain",
       "mech_quirk_hyperextendingactuators"
     ],

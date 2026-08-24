@@ -21,7 +21,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 15710000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -118,19 +118,39 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_LRM_ALRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM20_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment1"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment1"
     },
     {
       "MountedLocation": "LeftTorso",
@@ -174,11 +194,21 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM20_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment2"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment2"
     },
     {
       "MountedLocation": "RightTorso",
@@ -206,11 +236,22 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_LRM_ALRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment3"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment3"
     }
-  ]
+  ],
+  "MinAppearanceDate": "3056-01-01T00:00:00Z"
 }

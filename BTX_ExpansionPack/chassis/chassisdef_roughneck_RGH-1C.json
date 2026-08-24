@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 5530000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -201,7 +201,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Militarized LoaderMech",
+  "StockRole": "Brawler",
   "YangsThoughts": "Designed more as a fire support variant, the 1C is probably the most useful Roughneck for mercenaries who can't afford better machines. An AC/5 and LRM-10 supported by an SRM-6 and Machine Gun in both hands give it a solid punch up-close and some ability to fire indirectly. It even has beefier armor plating, though ten heat sinks worry me a little.",
   "FixedEquipment": []
 }

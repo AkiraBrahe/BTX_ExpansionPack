@@ -16,8 +16,8 @@
   "ChassisID": "chassisdef_commando_COM-7Y",
   "HeraldryID": null,
   "Description": {
-    "Cost": 1910000,
-    "Rarity": 3,
+    "Cost": 1900000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -144,5 +144,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3022-01-01T00:00:00Z"
 }

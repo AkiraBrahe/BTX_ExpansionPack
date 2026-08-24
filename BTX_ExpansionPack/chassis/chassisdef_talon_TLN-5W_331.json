@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 6300000,
+    "Cost": 6030000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -21,7 +21,7 @@
   "weightClass": "LIGHT",
   "BattleValue": 5875000,
   "Heatsinks": 10,
-  "TopSpeed": 210,
+  "TopSpeed": 129.6,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 100,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 35,
+  "MeleeDamage": 30,
   "MeleeInstability": 35,
   "MeleeToHitModifier": 0,
   "DFADamage": 45,
@@ -153,12 +153,12 @@
       "z": 0.5
     },
     {
-      "x": -3,
+      "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": 3,
+      "x": -3,
       "y": 9,
       "z": -0.5
     }
@@ -170,22 +170,22 @@
       "z": 0.5
     },
     {
-      "x": -3,
-      "y": 9,
-      "z": -0.5
-    },
-    {
       "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": -2.5,
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 3,
       "z": 0.5
     }
@@ -195,6 +195,8 @@
     "items": [
       "mr-resize-0.90",
       "chassis_DHS",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_nominimalarms",
       "mech_quirk_rugged1"
     ],

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 3590000,
-    "Rarity": 4,
+    "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -193,6 +193,7 @@
       "mr-resize-0.82",
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitLowerLeft",
       "mech_quirk_easytomaintain",
       "mech_quirk_improvedcomm",
       "mech_quirk_largeengine"
@@ -204,7 +205,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -213,7 +214,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -222,7 +223,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -231,7 +232,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

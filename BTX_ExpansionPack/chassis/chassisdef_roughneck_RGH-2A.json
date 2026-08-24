@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 10960000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -205,7 +205,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Militarized LoaderMech",
+  "StockRole": "Sniper",
   "YangsThoughts": "The 2A is a more proper 'Mech than older versions, Boss. While the XL engine makes it more fragile, this 'Mech is clearly designed as a long-range sniper. It carries three Autocannon/2s and Medium Lasers. The SRM-4 rack of the 1A is retained and carries an enormous amount of ammo—three tons! Same as the AC/2s. With only 14 single heat sinks, I suggest dropping some ammo for more armor or heat sinks.",
   "FixedEquipment": [
     {

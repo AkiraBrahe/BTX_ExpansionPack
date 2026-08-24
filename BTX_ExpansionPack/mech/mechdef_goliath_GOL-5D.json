@@ -19,8 +19,8 @@
   },
   "ChassisID": "chassisdef_goliath_GOL-5D",
   "Description": {
-    "Cost": 8300000,
-    "Rarity": 4,
+    "Cost": 8280000,
+    "Rarity": 2,
     "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
@@ -46,7 +46,7 @@
       "Location": "LeftArm",
       "CurrentArmor": 170,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 85,
+      "CurrentInternalStructure": 65,
       "AssignedArmor": 170,
       "AssignedRearArmor": -1
     },
@@ -82,7 +82,7 @@
       "Location": "RightArm",
       "CurrentArmor": 170,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 85,
+      "CurrentInternalStructure": 65,
       "AssignedArmor": 170,
       "AssignedRearArmor": -1
     },
@@ -226,5 +226,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3067-01-01T00:00:00Z"
 }

@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_gallowglas_GAL-4GLS",
   "HeraldryID": null,
   "Description": {
-    "Cost": 7870000,
-    "Rarity": 4,
+    "Cost": 7850000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -187,5 +187,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

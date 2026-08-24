@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 15930000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -202,13 +202,15 @@
     "items": [
       "mr-resize-0.9",
       "chassis_DHS",
+      "ArmLimitNoneLeft",
+      "ArmLimitNoneRight",
       "mech_quirk_directionaltorsomount",
       "mech_quirk_largeengine"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher",
-  "YangsThoughts": "Another 'Mech to wield the Lyran Alliance's latest and most potent weapon, the Heavy Gauss Rifle. While it only has an ER Large Laser as a backup, I still pity any unfortunate foe that crosses its path…",
+  "YangsThoughts": "Another 'Mech to wield the Lyran Alliance's latest and most potent weapon, the Heavy Gauss Rifle. While it only has an ER Large Laser as a backup, I still pity any unfortunate foe that crosses its path.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",

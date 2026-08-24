@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 5430000,
-    "Rarity": 5,
+    "Cost": 4750000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_blackjackBase-001",
   "PrefabBase": "blackjack",
   "Tonnage": 45,
-  "InitialTonnage": 16.47,
+  "InitialTonnage": 16,
   "weightClass": "MEDIUM",
   "BattleValue": 5315000,
   "Heatsinks": 10,
@@ -204,9 +204,11 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
-      "chassis_ferro",
+      "chassis_light_ferro",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_badreputation"
     ],
     "tagSetSourceFile": ""
@@ -234,7 +236,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_LightFerro_2_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -243,7 +245,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_LightFerro_1_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -252,7 +254,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_LightFerro_1_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -261,7 +263,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_LightFerro_2_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

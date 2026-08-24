@@ -17,11 +17,11 @@
   "PrefabIdentifier": "chrprfmech_cuvolkhbase-001",
   "PrefabBase": "cuvolkh",
   "Tonnage": 45,
-  "InitialTonnage": 21.25,
+  "InitialTonnage": 21,
   "weightClass": "MEDIUM",
   "BattleValue": 8175000,
   "Heatsinks": 10,
-  "TopSpeed": 97.2,
+  "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 130,
@@ -166,8 +166,8 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 14,
-      "z": 0
+      "y": 15,
+      "z": 1
     },
     {
       "x": 4,
@@ -183,8 +183,8 @@
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 14,
-      "z": 0
+      "y": 15,
+      "z": 1
     },
     {
       "x": 4,
@@ -197,14 +197,14 @@
       "z": 0
     },
     {
-      "x": 2.5,
-      "y": 6,
-      "z": 2.5
+      "x": 3,
+      "y": 5,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 6,
-      "z": 2.5
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "VKH-1",
@@ -241,7 +241,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -250,7 +250,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -259,16 +259,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HardenedArmor",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -277,7 +268,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -286,7 +277,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -295,7 +286,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

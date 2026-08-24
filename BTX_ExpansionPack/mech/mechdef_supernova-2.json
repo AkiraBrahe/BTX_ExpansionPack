@@ -2,6 +2,7 @@
   "ChassisID": "chassisdef_supernova-2",
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
@@ -11,15 +12,14 @@
       "unit_speed_low",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "HeraldryID": null,
   "Description": {
     "Cost": 10950000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "This second configuration replaces four of the ER Large Lasers and ten of their attendant heat sinks with four ATM-9s, six tons of ammunition, and adds an advanced Targeting Computer to guide the remaining pair of lasers. The 'Mech also uses endo steel and has increased armor protection.",
     "Icon": "uixTxrIcon_supernova"
   },
-  "simGameMechPartCost": 1100000,
+  "simGameMechPartCost": 1090000,
   "Version": 1,
   "Locations": [
     {
@@ -274,5 +274,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

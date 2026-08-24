@@ -2,24 +2,24 @@
   "MechTags": {
     "items": [
       "unit_mech",
-      "unit_release",
       "unit_light",
-      "unit_lance_vanguard",
       "unit_role_scout",
+      "unit_lance_vanguard",
       "unit_range_short",
-      "unit_speed_high",
       "unit_armor_high",
+      "unit_speed_high",
+      "unit_release",
+      "BLACKLISTED",
       "unit_LosTech",
-      "mech_MechPartSalvageRedirect_locust_LCT-1Vb",
-      "BLACKLISTED"
+      "mech_MechPartSalvageRedirect_locust_LCT-1Vb"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_locust_LCT-1Vb_331",
   "HeraldryID": null,
   "Description": {
-    "Cost": 3250000,
-    "Rarity": 3,
+    "Cost": 2600000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "The Royal Locust introduced in 2610 mounts a Small Pulse Laser and a Medium Pulse Laser in each arm, while keeping the torso-mounted medium laser. It also uses a XL Engine, Endo Steel chassis, and Ferro-Fibrous armor. The heat-sinks have also been upgraded to Double Heat Sinks.",
     "Icon": "uixTxrIcon_locust"
   },
-  "simGameMechPartCost": 330000,
+  "simGameMechPartCost": 260000,
   "Version": 1,
   "Locations": [
     {
@@ -108,7 +108,7 @@
   "inventory": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -116,7 +116,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
@@ -132,7 +132,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -140,11 +140,12 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Sa_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2610-01-01T00:00:00Z"
 }

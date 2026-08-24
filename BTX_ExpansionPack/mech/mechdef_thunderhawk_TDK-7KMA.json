@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_thunderhawk_TDK-7KMA",
   "HeraldryID": null,
   "Description": {
-    "Cost": 22540000,
-    "Rarity": 4,
+    "Cost": 24800000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "The 7KMA is a major modification of the Thunder Hawk that allows the 'Mech to act as an artillery 'Mech and a bodyguard unit for artillery units at the same time. This is done by removing one of the Gauss Rifles and replacing it with an Arrow IV missile artillery system. In addition, the 'Mech has had its heat sinks upgraded to double heat sinks to help manage the heat.",
     "Icon": "uixTxrIcon_thunderhawk"
   },
-  "simGameMechPartCost": 2250000,
+  "simGameMechPartCost": 2480000,
   "Version": 1,
   "Locations": [
     {
@@ -203,5 +203,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3059-01-01T00:00:00Z"
 }

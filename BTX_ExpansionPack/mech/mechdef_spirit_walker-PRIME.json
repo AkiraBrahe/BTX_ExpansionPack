@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -11,8 +12,7 @@
       "unit_speed_medium",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,11 +20,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 9900000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Spirit Walker PRIME",
+    "UIName": "Spirit Walker Prime",
     "Id": "mechdef_spirit_walker-PRIME",
     "Name": "Spirit Walker",
     "Details": "Distinct from its predecessor, the Spirit Walker is built on a standard chassis with most of the armor concentrated on the front. In its primary configuration, the Spirit Walker is armed with four ER large lasers, four Medium Pulse Lasers, and one ER Small Laser. An Active Probe is integrated into its loadout, enabling it to detect and engage hidden enemy units.",
@@ -219,5 +219,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2866-01-01T00:00:00Z"
 }

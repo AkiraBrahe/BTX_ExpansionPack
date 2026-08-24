@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 20790000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -19,7 +19,7 @@
   "Tonnage": 95,
   "InitialTonnage": 44,
   "weightClass": "ASSAULT",
-  "BattleValue": 9495000,
+  "BattleValue": 9445000,
   "Heatsinks": 10,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
@@ -236,7 +236,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_6_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -245,7 +245,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -254,7 +254,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_6_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

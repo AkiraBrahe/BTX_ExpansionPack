@@ -1,0 +1,44 @@
+{
+  "Custom": {
+    "Category": {
+      "CategoryID": "Internal"
+    },
+    "Flags": [
+      "no_remove",
+      "hide_equip",
+      "hide"
+    ],
+    "Sorter": 1
+  },
+  "DissipationCapacity": 6,
+  "Description": {
+    "Cost": 630000,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Generic",
+    "Model": "Double",
+    "UIName": "Clan Heat Sink (D)",
+    "Id": "Gear_HeatSink_Internal_Double_Clan",
+    "Name": "Engine Clan Double Heat Sink (D)",
+    "Details": "Clan Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Clan double heat sinks are not as bulky as their Inner Sphere counter parts.",
+    "Icon": "uixSvgIcon_equipment_Heatsink"
+  },
+  "BonusValueA": "- 6 Heat / Turn",
+  "BonusValueB": "",
+  "ComponentType": "HeatSink",
+  "ComponentSubType": "Heatsink",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 0,
+  "Tonnage": 1,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": null,
+  "ComponentTags": {
+    "items": [
+      "BUILT-IN"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_hunchiebase-001",
   "PrefabBase": "hunchie",
   "Tonnage": 50,
-  "InitialTonnage": 19.02,
+  "InitialTonnage": 19,
   "weightClass": "MEDIUM",
   "BattleValue": 5485000,
   "Heatsinks": 0,
@@ -196,7 +196,7 @@
   "ChassisTags": {
     "items": [
       "chassis_ferro",
-      "mech_case_right",
+      "mech_case_left",
       "mech_quirk_battlefists"
     ],
     "tagSetSourceFile": ""

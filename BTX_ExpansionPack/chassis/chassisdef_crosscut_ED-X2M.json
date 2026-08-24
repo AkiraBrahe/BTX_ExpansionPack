@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 830000,
-    "Rarity": 3,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_crosscutbase-001",
   "PrefabBase": "crosscut",
   "Tonnage": 30,
-  "InitialTonnage": 18.69,
+  "InitialTonnage": 18.5,
   "weightClass": "LIGHT",
   "BattleValue": 1220000,
   "Heatsinks": -27,
@@ -128,50 +128,52 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 9.5,
-      "z": 0.5
+      "y": 13,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": 3.5,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": -3.5,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 9.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 4,
       "z": 0.5
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
-      "x": -1.5,
-      "y": 3,
-      "z": 0.5
-    },
-    {
-      "x": 1.5,
-      "y": 3,
+      "x": -2,
+      "y": 4,
       "z": 0.5
     }
   ],
-  "VariantName": "ED-X2M",
+  "VariantName": "ED-X2M LoggerMech MOD",
   "ChassisTags": {
     "items": [
+      "chassis_industrial",
+      "ArmLimitLowerRight",
       "mech_quirk_easytomaintain",
       "mech_quirk_hardtopilot"
     ],

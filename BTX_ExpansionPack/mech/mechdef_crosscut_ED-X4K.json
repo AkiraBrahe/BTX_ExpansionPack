@@ -18,11 +18,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 1140000,
-    "Rarity": 4,
+    "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Crosscut ED-X4K",
+    "UIName": "Crosscut ED-X4K LoggerMech",
     "Id": "mechdef_crosscut_ED-X4K",
     "Name": "Crosscut",
     "Details": "The X4K variant replaces the internal combustion engine with a fuel cell engine and adds five tons of heavy industrial armor. The lift hoist has been replaced by an SRM-4 launcher with a ton of ammunition and guided by an advanced fire control.",
@@ -121,5 +121,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3070-01-01T00:00:00Z"
 }

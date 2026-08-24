@@ -20,13 +20,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 16980000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "BattleMaster BLR-4S",
     "Id": "mechdef_battlemaster_BLR-4S",
-    "Name": "Battlemaster",
+    "Name": "BattleMaster",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_battlemaster"
   },
@@ -125,11 +125,21 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_SRM_ASRM6_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
@@ -251,5 +261,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

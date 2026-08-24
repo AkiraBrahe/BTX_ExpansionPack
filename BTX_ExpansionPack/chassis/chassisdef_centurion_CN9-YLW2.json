@@ -207,8 +207,7 @@
   "VariantName": "CN9-YLW2",
   "ChassisTags": {
     "items": [
-      "chassis_DHS",
-      "chassis_TSM",
+      "ArmLimitLowerRight",
       "mech_quirk_improvedtargetingshort",
       "mech_quirk_nonstandardparts"
     ],

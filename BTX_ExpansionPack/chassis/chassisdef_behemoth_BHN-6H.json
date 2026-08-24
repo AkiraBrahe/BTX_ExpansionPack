@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 7690000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "ASSAULT",
   "BattleValue": 8515000,
   "Heatsinks": 0,
-  "TopSpeed": 54,
+  "TopSpeed": 32.4,
   "TurnRadius": 90,
   "MaxJumpjets": 2,
   "Stability": 200,
@@ -41,7 +41,7 @@
   "PunchesWithLeftArm": true,
   "MeleeDamage": 120,
   "MeleeInstability": 100,
-  "MeleeToHitModifier": -1,
+  "MeleeToHitModifier": -2,
   "DFADamage": 125,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 125,
@@ -209,6 +209,8 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.1",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_barrelfist_la",
       "mech_quirk_barrelfist_ra",
       "mech_quirk_protectedactuators",

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 19330000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -19,7 +19,7 @@
   "Tonnage": 100,
   "InitialTonnage": 32.5,
   "weightClass": "ASSAULT",
-  "BattleValue": 11945000,
+  "BattleValue": 11890000,
   "Heatsinks": 16,
   "TopSpeed": 54,
   "TurnRadius": 90,

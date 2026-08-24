@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 9450000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
   "PrefabBase": "hatchetman",
   "Tonnage": 45,
-  "InitialTonnage": 15.94,
+  "InitialTonnage": 15.5,
   "weightClass": "MEDIUM",
   "BattleValue": 5560000,
   "Heatsinks": 10,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 70,
+  "MeleeDamage": 65,
   "MeleeInstability": 45,
   "MeleeToHitModifier": 0,
   "DFADamage": 55,

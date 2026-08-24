@@ -16,8 +16,8 @@
   "ChassisID": "chassisdef_longbow_LGB-0W2",
   "HeraldryID": null,
   "Description": {
-    "Cost": 8620000,
-    "Rarity": 4,
+    "Cost": 8600000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -200,5 +200,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2531-01-01T00:00:00Z"
 }

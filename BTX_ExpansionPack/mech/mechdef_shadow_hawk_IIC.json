@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -12,26 +13,25 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_shadow_hawk_IIC",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4960000,
-    "Rarity": 3,
+    "Cost": 4750000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Shadow Hawk IIC",
+    "UIName": "Shadow Hawk IIC ",
     "Id": "mechdef_shadow_hawk_IIC",
     "Name": "Shadow Hawk IIC",
     "Details": "Where the original Shadow Hawk is a more multi-role machine, the Shadow Hawk IIC is meant for close-range fighting, with two highly accurate Medium Pulse Lasers and four Streak SRM-2s to exploit holes in an enemy's armor. An ER Medium and Small Laser rounds out the weaponry.",
     "Icon": "uixTxrIcon_shadowhawkiic"
   },
-  "simGameMechPartCost": 500000,
+  "simGameMechPartCost": 480000,
   "Version": 1,
   "Locations": [
     {
@@ -236,5 +236,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2831-01-01T00:00:00Z"
 }

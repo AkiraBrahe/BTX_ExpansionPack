@@ -9,7 +9,7 @@
       "unit_lance_tank",
       "unit_range_medium",
       "unit_indirectFire",
-      "unit_armor_high",
+      "unit_armor_medium",
       "unit_speed_medium",
       "unit_hot",
       "unit_release",
@@ -21,7 +21,7 @@
   "ChassisID": "chassisdef_goliath_GOL-3S",
   "Description": {
     "Cost": 15740000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
@@ -47,7 +47,7 @@
       "Location": "LeftArm",
       "CurrentArmor": 140,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 85,
+      "CurrentInternalStructure": 65,
       "AssignedArmor": 140,
       "AssignedRearArmor": -1
     },
@@ -83,7 +83,7 @@
       "Location": "RightArm",
       "CurrentArmor": 140,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 85,
+      "CurrentInternalStructure": 65,
       "AssignedArmor": 140,
       "AssignedRearArmor": -1
     },
@@ -141,11 +141,21 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM10_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "RightTorso",
@@ -203,5 +213,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3066-01-01T00:00:00Z"
 }

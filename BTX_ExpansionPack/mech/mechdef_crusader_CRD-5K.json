@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_crusader_CRD-5K",
   "HeraldryID": null,
   "Description": {
-    "Cost": 12330000,
-    "Rarity": 4,
+    "Cost": 12310000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -228,5 +228,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

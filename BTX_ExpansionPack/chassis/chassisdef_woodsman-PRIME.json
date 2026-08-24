@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 11910000,
-    "Rarity": 4,
+    "Cost": 11890000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "HEAVY",
   "BattleValue": 13115000,
   "Heatsinks": 10,
-  "TopSpeed": 86.4,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 160,
@@ -172,12 +172,12 @@
       "z": 0.5
     },
     {
-      "x": -3,
+      "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": 3,
+      "x": -3,
       "y": 9,
       "z": -0.5
     }
@@ -189,22 +189,22 @@
       "z": 0.5
     },
     {
-      "x": -3,
-      "y": 9,
-      "z": -0.5
-    },
-    {
       "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": -2.5,
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 3,
       "z": 0.5
     }
@@ -212,10 +212,12 @@
   "VariantName": "WMN-PRIME",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""

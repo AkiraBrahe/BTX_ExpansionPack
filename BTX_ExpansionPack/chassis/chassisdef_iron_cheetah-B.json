@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 35730000,
+    "Cost": 35740000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ironcheetahbase-001",
   "PrefabBase": "ironcheetah",
   "Tonnage": 100,
-  "InitialTonnage": 38.51,
+  "InitialTonnage": 38.5,
   "weightClass": "ASSAULT",
   "BattleValue": 16515000,
   "Heatsinks": 10,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 105,
+  "MeleeDamage": 120,
   "MeleeInstability": 100,
   "MeleeToHitModifier": 0,
   "DFADamage": 125,
@@ -207,11 +207,13 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.05",
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan"
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight"
     ],
     "tagSetSourceFile": ""
   },

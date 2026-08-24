@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_hatamotochisam-001",
   "PrefabBase": "hatamotochisam",
   "Tonnage": 80,
-  "InitialTonnage": 26.56,
+  "InitialTonnage": 26.5,
   "weightClass": "ASSAULT",
   "BattleValue": 11065000,
   "Heatsinks": 10,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 110,
+  "MeleeDamage": 105,
   "MeleeInstability": 80,
   "MeleeToHitModifier": 0,
   "DFADamage": 100,
@@ -211,9 +211,9 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
-      "chassis_TSM",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitLowerLeft",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""

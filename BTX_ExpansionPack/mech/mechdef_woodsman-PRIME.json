@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -9,23 +10,22 @@
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_woodsman-PRIME",
   "HeraldryID": null,
   "Description": {
-    "Cost": 11910000,
-    "Rarity": 4,
+    "Cost": 11890000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Woodsman PRIME",
+    "UIName": "Woodsman Prime",
     "Id": "mechdef_woodsman-PRIME",
     "Name": "Woodsman",
     "Details": "PLACEHOLDER",
@@ -276,5 +276,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2866-01-01T00:00:00Z"
 }

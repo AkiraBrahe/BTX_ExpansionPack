@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 12420000,
-    "Rarity": 4,
+    "Cost": 11180000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_vanquisherbase-001",
   "PrefabBase": "vanquisher",
   "Tonnage": 100,
-  "InitialTonnage": 31.31,
+  "InitialTonnage": 31,
   "weightClass": "ASSAULT",
   "BattleValue": 11170000,
   "Heatsinks": 10,
@@ -220,6 +220,8 @@
       "chassis_endo",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_stable",
       "mech_quirk_badreputation",
       "mech_quirk_nominimalarms"
@@ -231,7 +233,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -240,7 +242,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -249,7 +251,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -258,7 +260,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -267,7 +269,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

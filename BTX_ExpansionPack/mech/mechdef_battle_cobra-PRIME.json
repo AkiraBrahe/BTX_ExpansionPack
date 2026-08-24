@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_sniper",
@@ -10,26 +11,25 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_battle_cobra-PRIME",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4840000,
-    "Rarity": 4,
+    "Cost": 4600000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Battle Cobra PRIME",
+    "UIName": "Battle Cobra Prime",
     "Id": "mechdef_battle_cobra-PRIME",
     "Name": "Battle Cobra",
     "Details": "Making use of endo steel and ferro-fibrous weight-saving technologies, the Battle Cobra uses a standard fusion engine for increased durability. The primary configuration uses a pair of Large Pulse Lasers and Small Pulse Lasers, making it capable of highly accurate fire that is effective against armored and unarmored targets alike.",
     "Icon": "uixTxrIcon_battlecobra"
   },
-  "simGameMechPartCost": 480000,
+  "simGameMechPartCost": 460000,
   "Version": 1,
   "Locations": [
     {
@@ -138,5 +138,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2873-01-01T00:00:00Z"
 }

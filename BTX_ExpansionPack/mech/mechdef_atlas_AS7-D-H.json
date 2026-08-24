@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_atlas_AS7-D-H",
   "HeraldryID": null,
   "Description": {
-    "Cost": 11760000,
-    "Rarity": 5,
+    "Cost": 11200000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "The D-H model is armed with an array of weaponry, including an LB 10-X autocannon, a pair of ER Large Lasers, and a 20-tube LRM launcher for long-range attacks. For close-range combat, the 'Mech is equipped with a pair of Medium Pulse Lasers and an SRM-6. In addition, the 'Mech has been given CASE for both sides of the torso in order to keep an ammunition cook-off from consuming the 'Mech.",
     "Icon": "uixTxrIcon_atlas"
   },
-  "simGameMechPartCost": 1180000,
+  "simGameMechPartCost": 1120000,
   "Version": 1,
   "Locations": [
     {
@@ -227,5 +227,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2765-01-01T00:00:00Z"
 }

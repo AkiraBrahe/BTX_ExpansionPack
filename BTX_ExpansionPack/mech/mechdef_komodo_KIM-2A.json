@@ -6,6 +6,7 @@
       "unit_role_brawler",
       "unit_lance_vanguard",
       "unit_range_short",
+      "unit_armor_medium",
       "unit_speed_medium",
       "unit_jumpOK",
       "unit_electronicWarfare",
@@ -19,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 7740000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -266,5 +267,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
 }

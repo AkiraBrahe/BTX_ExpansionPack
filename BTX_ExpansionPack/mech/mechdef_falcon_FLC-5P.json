@@ -7,7 +7,7 @@
       "unit_lance_vanguard",
       "unit_range_medium",
       "unit_armor_medium",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_falcon_FLC-5P",
   "HeraldryID": null,
   "Description": {
-    "Cost": 3770000,
-    "Rarity": 4,
+    "Cost": 3760000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -187,5 +187,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
 }

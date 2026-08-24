@@ -2,6 +2,7 @@
   "ChassisID": "chassisdef_hankyu_arctic_cheetah-H",
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_light",
       "unit_role_ewe",
@@ -11,8 +12,7 @@
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -23,9 +23,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Hankyu H",
+    "UIName": "Hankyu (Arctic Cheetah) H",
     "Id": "mechdef_hankyu_arctic_cheetah-H",
-    "Name": "Hankyu",
+    "Name": "Hankyu (Arctic Cheetah)",
     "Details": "This configuration uses a Heavy Medium Laser, a pair of Heavy Small Lasers, and a Flamer for short-range firepower. It has an ER Large Laser for long range. Three additional double heat sinks keep heat levels in check.",
     "Icon": "uixTxrIcon_hankyu"
   },
@@ -170,5 +170,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

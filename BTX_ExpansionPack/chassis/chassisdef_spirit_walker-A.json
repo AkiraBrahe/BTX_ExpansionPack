@@ -1,7 +1,12 @@
 {
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Spirit Walker"
+    }
+  },
   "Description": {
     "Cost": 9270000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,10 +26,10 @@
   "weightClass": "HEAVY",
   "BattleValue": 9950000,
   "Heatsinks": 10,
-  "TopSpeed": 54,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 120,
+  "Stability": 160,
   "StabilityDefenses": [
     0,
     0,
@@ -39,7 +44,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 105,
+  "MeleeDamage": 85,
   "MeleeInstability": 75,
   "MeleeToHitModifier": 0,
   "DFADamage": 95,
@@ -215,9 +220,10 @@
   "VariantName": "SPW-A",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
-      "chassis_clan",
+      "ArmLimitUpperRight",
       "mech_quirk_commandmech"
     ],
     "tagSetSourceFile": ""

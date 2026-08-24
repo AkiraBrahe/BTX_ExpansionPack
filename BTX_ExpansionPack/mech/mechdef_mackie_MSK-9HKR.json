@@ -25,7 +25,7 @@
     "Model": null,
     "UIName": "Mackie MSK-9HKR",
     "Id": "mechdef_mackie_MSK-9HKR",
-    "Name": "\"Kill-Roy's Little Buddy\"",
+    "Name": "“Kill-Roy's Little Buddy”",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_mackie"
   },
@@ -210,5 +210,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2750-01-01T00:00:00Z"
 }

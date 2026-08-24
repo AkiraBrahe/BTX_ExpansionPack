@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_kiso"
   },
   "MovementCapDefID": "movedef_mech_assault_2",
-  "PathingCapDefID": "pathingdef_assault",
+  "PathingCapDefID": "pathingdef_assault_quad",
   "HardpointDataDefID": "hardpointdatadef_cukiso",
   "PrefabIdentifier": "chrprfmech_cukisobase-001",
   "PrefabBase": "cukiso",
@@ -24,7 +24,7 @@
   "TopSpeed": 32.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 250,
+  "Stability": 375,
   "StabilityDefenses": [
     0,
     0,
@@ -195,6 +195,9 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.90-1.00-1.00",
+      "chassis_heavy_industrial",
+      "ArmLimitNoneLeft",
+      "ArmLimitNoneRight",
       "mech_quirk_improvedcomm",
       "mech_quirk_nonstandardparts",
       "mech_quirk_stable"

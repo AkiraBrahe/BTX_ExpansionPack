@@ -19,7 +19,7 @@
   "ChassisID": "chassisdef_greatturtle_GTR-1",
   "HeraldryID": null,
   "Description": {
-    "Cost": 13660000,
+    "Cost": 13630000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -30,7 +30,7 @@
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_greatturtle"
   },
-  "simGameMechPartCost": 1370000,
+  "simGameMechPartCost": 1360000,
   "Version": 1,
   "Locations": [
     {
@@ -47,7 +47,7 @@
       "Location": "LeftArm",
       "CurrentArmor": 210,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 105,
+      "CurrentInternalStructure": 85,
       "AssignedArmor": 210,
       "AssignedRearArmor": -1
     },
@@ -83,7 +83,7 @@
       "Location": "RightArm",
       "CurrentArmor": 210,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 105,
+      "CurrentInternalStructure": 85,
       "AssignedArmor": 210,
       "AssignedRearArmor": -1
     },
@@ -195,5 +195,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3067-01-01T00:00:00Z"
 }

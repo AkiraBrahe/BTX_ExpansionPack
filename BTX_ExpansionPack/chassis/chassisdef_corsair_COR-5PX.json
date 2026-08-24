@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 16120000,
+    "Cost": 14540000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -21,7 +21,7 @@
   "weightClass": "ASSAULT",
   "BattleValue": 11480000,
   "Heatsinks": 6,
-  "TopSpeed": 64.8,
+  "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 200,
@@ -36,7 +36,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 1,
+  "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 135,
@@ -172,51 +172,50 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 15,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": 4,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": -4,
+      "y": 15,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 15,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": 4,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": -4,
+      "y": 15,
+      "z": 0
     },
     {
-      "x": 3.5,
-      "y": 5.5,
-      "z": 1
+      "x": 2.5,
+      "y": 6,
+      "z": 2.5
     },
     {
-      "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "x": -2.5,
+      "y": 6,
+      "z": 2.5
     }
   ],
   "VariantName": "COR-5PX",
   "ChassisTags": {
     "items": [
-      "chassis_TSM",
       "mech_quirk_difficulttomaintain",
       "mech_quirk_nonstandardparts",
       "mech_quirk_cowl",
@@ -225,8 +224,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Juggernaut",
-  "YangsThoughts": "PLACEHOLDER",
+  "StockRole": "Brawler",
+  "YangsThoughts": "",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",

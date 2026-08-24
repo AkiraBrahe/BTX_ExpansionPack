@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 8120000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "MEDIUM",
   "BattleValue": 7055000,
   "Heatsinks": 10,
-  "TopSpeed": 120,
+  "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
   "Stability": 130,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 55,
+  "MeleeDamage": 60,
   "MeleeInstability": 45,
   "MeleeToHitModifier": 0,
   "DFADamage": 55,
@@ -198,6 +198,7 @@
       "chassis_DHS",
       "chassis_stealth",
       "mech_case_right",
+      "ArmLimitLowerRight",
       "mech_quirk_rugged1",
       "mech_quirk_difficultejection"
     ],
@@ -226,7 +227,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -235,7 +236,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -244,7 +245,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -253,7 +254,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -262,7 +263,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -271,7 +272,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

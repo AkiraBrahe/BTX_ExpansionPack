@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_sling_SL-1G",
   "HeraldryID": null,
   "Description": {
-    "Cost": 3300000,
-    "Rarity": 5,
+    "Cost": 3280000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -203,5 +203,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2766-01-01T00:00:00Z"
 }

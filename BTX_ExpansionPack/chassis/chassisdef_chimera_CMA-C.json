@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 7080000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -146,45 +146,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 12,
+      "y": 14.5,
       "z": 0
     },
     {
-      "x": 3,
-      "y": 12,
-      "z": 0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -3,
-      "y": 12,
-      "z": 0
+      "x": -4,
+      "y": 15,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 12,
+      "y": 14.5,
       "z": 0
     },
     {
-      "x": 3,
-      "y": 12,
-      "z": 0
+      "x": 4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": -3,
-      "y": 12,
-      "z": 0
+      "x": -4,
+      "y": 15,
+      "z": -1
     },
     {
-      "x": 2.5,
-      "y": 6,
-      "z": 0
+      "x": 3.5,
+      "y": 5.5,
+      "z": -1
     },
     {
-      "x": -2.5,
-      "y": 6,
-      "z": 0
+      "x": -3.5,
+      "y": 5.5,
+      "z": -1
     }
   ],
   "VariantName": "CMA-C",
@@ -192,6 +192,8 @@
     "items": [
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_nimblejumper",
       "mech_quirk_largeengine"
     ],
@@ -220,7 +222,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -229,7 +231,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -238,7 +240,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -247,7 +249,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -256,7 +258,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -265,7 +267,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

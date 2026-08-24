@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 16620000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,10 +21,10 @@
   "weightClass": "MEDIUM",
   "BattleValue": 7905000,
   "Heatsinks": 10,
-  "TopSpeed": 129.6,
+  "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 160,
+  "Stability": 130,
   "StabilityDefenses": [
     0,
     0,
@@ -163,45 +163,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 15,
-      "z": 0
+      "y": 10,
+      "z": 3
     },
     {
-      "x": 4,
-      "y": 15,
-      "z": 0
+      "x": 1,
+      "y": 9,
+      "z": -2
     },
     {
-      "x": -4,
-      "y": 15,
-      "z": 0
+      "x": -1,
+      "y": 9,
+      "z": -2
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 15,
-      "z": 0
+      "y": 10,
+      "z": 3
     },
     {
-      "x": 4,
-      "y": 15,
-      "z": 0
+      "x": 1,
+      "y": 9,
+      "z": -2
     },
     {
-      "x": -4,
-      "y": 15,
-      "z": 0
+      "x": -1,
+      "y": 9,
+      "z": -2
     },
     {
-      "x": 2.5,
-      "y": 6,
-      "z": 2.5
+      "x": 1,
+      "y": 5,
+      "z": -1
     },
     {
-      "x": -2.5,
-      "y": 6,
-      "z": 2.5
+      "x": -1,
+      "y": 5,
+      "z": -1
     }
   ],
   "VariantName": "MS1-OD",
@@ -211,6 +211,8 @@
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_improvedcomm",
       "mech_quirk_improvedsensors",
       "mech_quirk_exposedactuators",
@@ -241,7 +243,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -250,7 +252,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -259,7 +261,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -268,7 +270,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -277,7 +279,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -286,7 +288,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

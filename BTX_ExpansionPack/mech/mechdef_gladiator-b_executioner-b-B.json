@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
@@ -11,8 +12,7 @@
       "unit_speed_low",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,13 +20,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 26270000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Gladiator-B B",
+    "UIName": "Gladiator-B (Executioner-B) B",
     "Id": "mechdef_gladiator-b_executioner-b-B",
-    "Name": "Gladiator-B",
+    "Name": "Gladiator-B (Executioner-B)",
     "Details": "The B configuration of the Executioner-B is geared for long-range combat, with a Gauss Rifle mounted in each arm as its primary weapon. Each side torso houses an ER Large Laser and two Medium Pulse Lasers, which provide additional damage at close ranges. Despite having eighteen double heat sinks, the 'Mech cannot handle the combined heat output of its energy weapons.",
     "Icon": "uixTxrIcon_executioner-b"
   },
@@ -235,5 +235,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2873-01-01T00:00:00Z"
 }

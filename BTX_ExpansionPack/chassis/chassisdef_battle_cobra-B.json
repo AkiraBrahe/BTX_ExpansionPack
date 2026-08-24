@@ -5,7 +5,7 @@
     }
   },
   "Description": {
-    "Cost": 5270000,
+    "Cost": 5030000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -22,7 +22,7 @@
   "PrefabIdentifier": "chrPrfMech_medusabase-001",
   "PrefabBase": "medusa",
   "Tonnage": 40,
-  "InitialTonnage": 19.54,
+  "InitialTonnage": 19.5,
   "weightClass": "MEDIUM",
   "BattleValue": 9460000,
   "Heatsinks": 10,
@@ -146,56 +146,58 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 12,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 3,
-      "y": 12,
-      "z": 0
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -3,
-      "y": 12,
-      "z": 0
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 12,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
       "x": 2.5,
-      "y": 6,
-      "z": 0
+      "y": 11.5,
+      "z": -0.5
     },
     {
       "x": -2.5,
-      "y": 6,
-      "z": 0
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     }
   ],
   "VariantName": "BTC-B",
   "ChassisTags": {
     "items": [
       "mr-resize-0.87",
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_largeengine"
     ],

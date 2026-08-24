@@ -5,8 +5,8 @@
     }
   },
   "Description": {
-    "Cost": 6380000,
-    "Rarity": 4,
+    "Cost": 5890000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -22,7 +22,7 @@
   "PrefabIdentifier": "chrPrfMech_medusabase-001",
   "PrefabBase": "medusa",
   "Tonnage": 40,
-  "InitialTonnage": 15.53,
+  "InitialTonnage": 15.5,
   "weightClass": "MEDIUM",
   "BattleValue": 5565000,
   "Heatsinks": 10,
@@ -162,45 +162,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 12,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 3,
-      "y": 12,
-      "z": 0
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -3,
-      "y": 12,
-      "z": 0
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 12,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
       "x": 2.5,
-      "y": 6,
-      "z": 0
+      "y": 11.5,
+      "z": -0.5
     },
     {
       "x": -2.5,
-      "y": 6,
-      "z": 0
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     }
   ],
   "VariantName": "BTL-C-2OA",
@@ -211,6 +211,8 @@
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_extendedtorsotwist"
     ],
     "tagSetSourceFile": ""
@@ -220,7 +222,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -229,7 +231,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -238,7 +240,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -247,7 +249,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -256,7 +258,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -265,7 +267,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -274,7 +276,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

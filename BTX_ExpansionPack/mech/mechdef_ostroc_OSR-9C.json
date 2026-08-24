@@ -18,14 +18,14 @@
   "ChassisID": "chassisdef_ostroc_OSR-9C",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4790000,
-    "Rarity": 4,
+    "Cost": 4770000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Ostroc OSR-9C",
     "Id": "mechdef_ostroc_OSR-9C",
-    "Name": "Ostroc Mk II",
+    "Name": "Ostroc",
     "Details": "This FrankenMech variant of the Ostroc, built with parts from the Ostwar, swaps the SRM-4 for one SRM-2 launcher in each arm. Half a ton of armor was added to the front torso and legs, and four more heat sinks were installed along with three jump jets. To make room for these components, the engine had to be changed to a Pitban 240, reducing the top speed to 64.8 km/h.",
     "Icon": "uixTxrIcon_ostroc"
   },
@@ -258,5 +258,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2905-01-01T00:00:00Z"
 }

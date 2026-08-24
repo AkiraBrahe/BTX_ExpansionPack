@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 15780000,
-    "Rarity": 4,
+    "Cost": 15760000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -41,7 +41,7 @@
   "PunchesWithLeftArm": false,
   "MeleeDamage": 95,
   "MeleeInstability": 80,
-  "MeleeToHitModifier": -2,
+  "MeleeToHitModifier": 0,
   "DFADamage": 100,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
@@ -205,15 +205,17 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.925",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_fastreload"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper",
-  "YangsThoughts": "",
+  "YangsThoughts": "This is an upgrade to the original. The 'Mech's Ultra Class autocannons were removed for a pair of Class 20 Hyper-Assault Gauss Rifles. Three of the 'Mech's ER Large Lasers were replaced with two Large Pulse Lasers.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

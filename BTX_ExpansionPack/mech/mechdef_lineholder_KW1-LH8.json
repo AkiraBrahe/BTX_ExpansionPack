@@ -7,7 +7,7 @@
       "unit_lance_vanguard",
       "unit_lance_assassin",
       "unit_range_long",
-      "unit_armor_medium",
+      "unit_armor_high",
       "unit_speed_medium",
       "unit_hot",
       "unit_release",
@@ -20,13 +20,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 5120000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Lineholder KW1-LH8",
     "Id": "mechdef_lineholder_KW1-LH8",
-    "Name": "Linebreaker",
+    "Name": "“Linebreaker”",
     "Details": "A recent upgrade of the Lineholder, this variant of the 'Mech carries a pair of RAC/2s in place of the two LRM-5 launchers and the four Medium Lasers, and an ER Large Laser in place of the Large Laser. Nicknamed the \"Linebreaker\", this variant was designed for the Federated Suns.",
     "Icon": "uixTxrIcon_lineholder"
   },
@@ -139,5 +139,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
 }

@@ -208,6 +208,8 @@
   "ChassisTags": {
     "items": [
       "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_commandmech",
       "mech_quirk_directionaltorsomount",
       "mech_quirk_hyperextendingactuators",

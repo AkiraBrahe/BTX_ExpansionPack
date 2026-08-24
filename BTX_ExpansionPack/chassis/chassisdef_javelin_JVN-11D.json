@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 4500000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -157,12 +157,12 @@
       "z": 0
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 10.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 10.5,
       "z": -0.5
     }
@@ -174,22 +174,22 @@
       "z": 0
     },
     {
-      "x": -2.5,
-      "y": 10.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 10.5,
       "z": -0.5
     },
     {
-      "x": -2,
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2,
       "y": 4,
       "z": 0.5
     },
     {
-      "x": 2,
+      "x": -2,
       "y": 4,
       "z": 0.5
     }
@@ -226,7 +226,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_5_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -235,7 +235,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -244,7 +244,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_5_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

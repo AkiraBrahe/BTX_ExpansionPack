@@ -221,9 +221,9 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.15-1.05-1.05",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
       "mech_quirk_commandmech",
       "mech_quirk_weakheadarmor1"
     ],

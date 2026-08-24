@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 24280000,
-    "Rarity": 4,
+    "Cost": 19930000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,11 +17,11 @@
   "PrefabIdentifier": "chrprfmech_chargerpbhotd-001",
   "PrefabBase": "chargerpb",
   "Tonnage": 80,
-  "InitialTonnage": 47.56,
+  "InitialTonnage": 47.5,
   "weightClass": "ASSAULT",
   "BattleValue": 7385000,
   "Heatsinks": 22,
-  "TopSpeed": 108,
+  "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 200,
@@ -209,6 +209,7 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "ArmLimitLowerLeft",
       "mech_quirk_barrelfist_la",
       "mech_quirk_easytomaintain",
       "mech_quirk_badreputation",
@@ -216,8 +217,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Striker",
-  "YangsThoughts": "PLACEHOLDER",
+  "StockRole": "Scout",
+  "YangsThoughts": "",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

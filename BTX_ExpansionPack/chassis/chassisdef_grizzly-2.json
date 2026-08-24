@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 7530000,
-    "Rarity": 3,
+    "Cost": 7510000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -24,7 +24,7 @@
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 4,
-  "Stability": 200,
+  "Stability": 160,
   "StabilityDefenses": [
     0,
     0,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 80,
+  "MeleeDamage": 90,
   "MeleeInstability": 70,
   "MeleeToHitModifier": 0,
   "DFADamage": 90,
@@ -146,7 +146,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 135,
+      "MaxArmor": 150,
       "MaxRearArmor": -1,
       "InternalStructure": 75
     },
@@ -194,23 +194,24 @@
       "z": 0
     },
     {
-      "x": 2.5,
+      "x": 3,
       "y": 5,
-      "z": 1
+      "z": 0
     },
     {
-      "x": -2.5,
+      "x": -3,
       "y": 5,
-      "z": 1
+      "z": 0
     }
   ],
   "VariantName": "GRZ-2",
   "ChassisTags": {
     "items": [
       "mr-resize-0.85",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
       "mech_quirk_exposedactuators",
       "mech_quirk_difficulttomaintain"
     ],

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
@@ -13,9 +14,8 @@
       "unit_electronicWarfare",
       "unit_release",
       "unit_mechpack",
-      "unit_clan",
-      "mech_MechPartSalvageRedirect_pulverizer_PUL-2V",
-      "BLACKLISTED"
+      "BLACKLISTED",
+      "mech_MechPartSalvageRedirect_pulverizer_PUL-2V"
     ],
     "tagSetSourceFile": ""
   },
@@ -23,7 +23,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 10450000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -33,7 +33,7 @@
     "Details": "The Pulverizer is very durable thanks to fifteen and a half tons of ferro-fibrous armor, an endo steel chassis, and a Guardian ECM Suite to counter enemy electronics. As a command 'Mech, its weapons are focused on long-range combat, with an Enhanced ER PPC fixed to the right torso and augmented by an LRM-10 launcher. Should enemies get closer, the 'Mech can also fire two Large Lasers. Fifteen double heat sinks keep the 'Mech fairly cool.",
     "Icon": "uixTxrIcon_pulverizer"
   },
-  "simGameMechPartCost": 1050000,
+  "simGameMechPartCost": 1040000,
   "Version": 1,
   "Locations": [
     {
@@ -174,5 +174,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2823-01-01T00:00:00Z"
 }

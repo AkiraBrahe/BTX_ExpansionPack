@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -12,15 +13,14 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_shadow_hawk_IIC-2",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4930000,
+    "Cost": 4720000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
@@ -31,7 +31,7 @@
     "Details": "This variant direct-fire supports using two ER Large Lasers in over-the-shoulder mounts. The ER Small Laser is retained and supplemented by three Small Pulse Lasers, which are quite accurate and a serious threat to unarmored infantry.",
     "Icon": "uixTxrIcon_shadowhawkiic"
   },
-  "simGameMechPartCost": 490000,
+  "simGameMechPartCost": 470000,
   "Version": 1,
   "Locations": [
     {
@@ -204,5 +204,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2835-01-01T00:00:00Z"
 }

@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 4060000,
+    "Cost": 3700000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_fireflybase-001",
   "PrefabBase": "firefly",
   "Tonnage": 30,
-  "InitialTonnage": 11.64,
+  "InitialTonnage": 11.5,
   "weightClass": "LIGHT",
   "BattleValue": 4605000,
   "Heatsinks": 0,
@@ -154,12 +154,12 @@
       "z": 0
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 10.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 10.5,
       "z": -0.5
     }
@@ -171,22 +171,22 @@
       "z": 0
     },
     {
-      "x": -2.5,
-      "y": 10.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 10.5,
       "z": -0.5
     },
     {
-      "x": -2,
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2,
       "y": 4,
       "z": 0.5
     },
     {
-      "x": 2,
+      "x": -2,
       "y": 4,
       "z": 0.5
     }
@@ -198,6 +198,8 @@
       "chassis_endo",
       "chassis_ferro",
       "mech_case_left",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_nominimalarms"
     ],
     "tagSetSourceFile": ""
@@ -225,7 +227,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoFerroCombo_8_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_8_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -234,7 +236,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -243,7 +245,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -252,7 +254,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -261,7 +263,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoFerroCombo_8_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_8_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -270,7 +272,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -279,7 +281,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoFerroCombo_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

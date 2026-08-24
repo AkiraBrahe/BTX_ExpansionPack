@@ -18,7 +18,7 @@
   "ChassisID": "chassisdef_matar_SAM-RS2",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9680000,
+    "Cost": 21840000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -29,7 +29,7 @@
     "Details": "With an intended role of static defense, the Matar is built around long-range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units, the 'Mech is armed with a pair of Large Pulse Lasers and a single Medium Pulse Laser. The Matar also carries a pair of Flamers to roast opposing infantry alive and a Guardian ECM to guard against against long-range threats.",
     "Icon": "uixTxrIcon_matar"
   },
-  "simGameMechPartCost": 970000,
+  "simGameMechPartCost": 2180000,
   "Version": 1,
   "Locations": [
     {
@@ -234,5 +234,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2775-01-01T00:00:00Z"
 }

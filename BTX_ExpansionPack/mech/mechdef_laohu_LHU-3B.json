@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_laohu_LHU-3B",
   "HeraldryID": null,
   "Description": {
-    "Cost": 21170000,
-    "Rarity": 4,
+    "Cost": 23290000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "Modified to carry a C3 Master Computer, the 3B downgrades its autocannon to an LB 10-X AC, drops a ton of armor, and replaces the LRM-15 with an Artemis IV-enhanced LRM-10. This variant uses its C3 computer to link together an entire C3 Lance and gives the 'Mech unparalleled accuracy when part of a C3 lance.",
     "Icon": "uixTxrIcon_laohu"
   },
-  "simGameMechPartCost": 2120000,
+  "simGameMechPartCost": 2330000,
   "Version": 1,
   "Locations": [
     {
@@ -117,11 +117,21 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM10_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
@@ -171,5 +181,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

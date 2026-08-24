@@ -17,14 +17,14 @@
   "PrefabIdentifier": "chrprfmech_prometheusbase-001",
   "PrefabBase": "prometheus",
   "Tonnage": 75,
-  "InitialTonnage": 31.51,
+  "InitialTonnage": 31.5,
   "weightClass": "HEAVY",
   "BattleValue": 12005000,
   "Heatsinks": 16,
   "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 200,
+  "Stability": 160,
   "StabilityDefenses": [
     0,
     0,
@@ -182,44 +182,44 @@
   "LOSSourcePositions": [
     {
       "x": 0,
+      "y": 18,
+      "z": 1
+    },
+    {
+      "x": 4,
       "y": 16,
       "z": 0
     },
     {
-      "x": 3.5,
-      "y": 15,
-      "z": 0
-    },
-    {
-      "x": -3.5,
-      "y": 15,
+      "x": -4,
+      "y": 16,
       "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
+      "y": 18,
+      "z": 1
+    },
+    {
+      "x": 4,
       "y": 16,
       "z": 0
     },
     {
-      "x": 3.5,
-      "y": 15,
-      "z": 0
-    },
-    {
-      "x": -3.5,
-      "y": 15,
+      "x": -4,
+      "y": 16,
       "z": 0
     },
     {
       "x": 3,
-      "y": 5,
+      "y": 6,
       "z": 0
     },
     {
       "x": -3,
-      "y": 5,
+      "y": 6,
       "z": 0
     }
   ],
@@ -230,6 +230,8 @@
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_nonstandardparts",
       "mech_quirk_prototype",
       "mech_quirk_largeengine"
@@ -259,7 +261,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -268,7 +270,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -277,7 +279,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_5_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -286,7 +288,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -295,7 +297,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

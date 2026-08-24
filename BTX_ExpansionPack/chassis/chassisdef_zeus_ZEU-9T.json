@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 15330000,
-    "Rarity": 5,
+    "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrPrfMech_zeusBase-001",
   "PrefabBase": "zeus",
   "Tonnage": 80,
-  "InitialTonnage": 33.55,
+  "InitialTonnage": 33.5,
   "weightClass": "ASSAULT",
-  "BattleValue": 9175000,
+  "BattleValue": 9160000,
   "Heatsinks": 16,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 110,
+  "MeleeDamage": 95,
   "MeleeInstability": 80,
   "MeleeToHitModifier": -1,
   "DFADamage": 100,
@@ -211,6 +211,8 @@
       "chassis_DHS",
       "chassis_ferro",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_barrelfist_ra",
       "mech_quirk_easytomaintain"
     ],
@@ -248,7 +250,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -257,7 +259,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -266,7 +268,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -275,7 +277,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -284,7 +286,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -293,7 +295,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -302,7 +304,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

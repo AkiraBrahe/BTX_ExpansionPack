@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 8910000,
+    "Cost": 8660000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_adderbase-001",
   "PrefabBase": "adder",
   "Tonnage": 40,
-  "InitialTonnage": 14.01,
+  "InitialTonnage": 14,
   "weightClass": "MEDIUM",
   "BattleValue": 8265000,
   "Heatsinks": 10,
@@ -151,56 +151,58 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 12,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 3,
-      "y": 12,
-      "z": 0
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -3,
-      "y": 12,
-      "z": 0
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 12,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
       "x": 2.5,
-      "y": 6,
-      "z": 0
+      "y": 11.5,
+      "z": -0.5
     },
     {
       "x": -2.5,
-      "y": 6,
-      "z": 0
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     }
   ],
   "VariantName": "PCR-C",
   "ChassisTags": {
     "items": [
       "mr-resize-1.02",
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_weakheadarmor2",
       "mech_quirk_largeengine"
     ],

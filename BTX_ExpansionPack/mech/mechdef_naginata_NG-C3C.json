@@ -20,7 +20,7 @@
   "ChassisID": "chassisdef_naginata_NG-C3C",
   "HeraldryID": null,
   "Description": {
-    "Cost": 10940000,
+    "Cost": 10920000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -134,11 +134,21 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
@@ -182,11 +192,21 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment1"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment1"
     },
     {
       "MountedLocation": "RightTorso",
@@ -214,11 +234,21 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment2"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment2"
     },
     {
       "MountedLocation": "LeftLeg",
@@ -236,5 +266,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3066-01-01T00:00:00Z"
 }

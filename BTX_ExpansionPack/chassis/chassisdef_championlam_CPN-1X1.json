@@ -222,6 +222,8 @@
   "VariantName": "CPN-1X1",
   "ChassisTags": {
     "items": [
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_hardtopilot",
       "mech_quirk_nominimalarms",
       "mech_quirk_prototype",

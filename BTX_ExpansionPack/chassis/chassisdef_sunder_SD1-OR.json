@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 29160000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_mech_assault_4",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_ionsunder",
-  "PrefabIdentifier": "chrprfmech_ionsunderbase-001",
-  "PrefabBase": "ionsunder",
+  "HardpointDataDefID": "hardpointdatadef_sunder",
+  "PrefabIdentifier": "chrPrfMech_sunderBase-001",
+  "PrefabBase": "sunder",
   "Tonnage": 90,
   "InitialTonnage": 34.5,
   "weightClass": "ASSAULT",
@@ -211,6 +211,8 @@
     "items": [
       "chassis_omni",
       "chassis_DHS",
+      "ArmLimitUpperLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_extendedtorsotwist"
     ],
     "tagSetSourceFile": ""

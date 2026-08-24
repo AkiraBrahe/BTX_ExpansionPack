@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_light",
       "unit_role_scout",
@@ -11,8 +12,7 @@
       "unit_speed_medium",
       "unit_electronicWarfare",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,9 +24,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Puma S",
+    "UIName": "Puma (Adder) S",
     "Id": "mechdef_puma_adder-S",
-    "Name": "Puma",
+    "Name": "Puma (Adder)",
     "Details": "The S configuration is an anti-infantry specialist. Each arm carries three Machine Guns, while each side torso carries five more Machine Guns. For heavier targets, each arm also carries a pair of Medium Pulse Lasers. An ECM Suite and Active Probe suppress radio reports and sensor data from opposing forces while granting situational awareness.",
     "Icon": "uixTxrIcon_puma"
   },
@@ -283,5 +283,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3050-01-01T00:00:00Z"
 }

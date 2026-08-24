@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 7830000,
+    "Cost": 7050000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
@@ -212,6 +212,7 @@
   "VariantName": "CGR-N7",
   "ChassisTags": {
     "items": [
+      "ArmLimitLowerLeft",
       "mech_quirk_barrelfist_la",
       "mech_quirk_easytomaintain",
       "mech_quirk_badreputation"

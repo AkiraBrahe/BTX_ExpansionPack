@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 9430000,
-    "Rarity": 5,
+    "Cost": 9400000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_zeusBase-001",
   "PrefabBase": "zeus",
   "Tonnage": 80,
-  "InitialTonnage": 38.01,
+  "InitialTonnage": 38,
   "weightClass": "ASSAULT",
   "BattleValue": 8060000,
   "Heatsinks": 10,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 110,
+  "MeleeDamage": 95,
   "MeleeInstability": 80,
   "MeleeToHitModifier": -1,
   "DFADamage": 100,
@@ -202,6 +202,8 @@
       "chassis_DHS",
       "chassis_ferro",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_barrelfist_ra",
       "mech_quirk_easytomaintain"
     ],
@@ -221,7 +223,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -230,7 +232,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -239,7 +241,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -248,7 +250,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_sniper",
@@ -11,20 +12,19 @@
       "unit_armor_high",
       "unit_speed_low",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_minsk-1",
   "HeraldryID": null,
   "Description": {
-    "Cost": 7340000,
-    "Rarity": 4,
+    "Cost": 7350000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Minsk 1",
+    "UIName": "Minsk ",
     "Id": "mechdef_minsk-1",
     "Name": "Minsk",
     "Details": "A later revision of the MNK-101 trades the Beagle Active Probe for a Clan equivalent model and reduces the machine gun ammunition to half a ton. Each leg instead carries an A-Pod for anti-infantry work.",
@@ -251,5 +251,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2862-01-01T00:00:00Z"
 }

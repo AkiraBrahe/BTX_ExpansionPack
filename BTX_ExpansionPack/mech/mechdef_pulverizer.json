@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
@@ -12,8 +13,7 @@
       "unit_speed_medium",
       "unit_electronicWarfare",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -21,17 +21,17 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 10750000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Pulverizer",
+    "UIName": "Pulverizer ",
     "Id": "mechdef_pulverizer",
     "Name": "Pulverizer",
     "Details": "Improved by Clan Snow Raven, this purely Clan-tech build of the Pulverizer carries a Large Pulse Laser in each arm, an ER PPC, and an LRM-10 for its main armament, all cooled by eighteen double heat sinks. Like the other models, it uses an ECM Suite as well.",
     "Icon": "uixTxrIcon_pulverizer"
   },
-  "simGameMechPartCost": 1080000,
+  "simGameMechPartCost": 1070000,
   "Version": 1,
   "Locations": [
     {
@@ -212,5 +212,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2845-01-01T00:00:00Z"
 }

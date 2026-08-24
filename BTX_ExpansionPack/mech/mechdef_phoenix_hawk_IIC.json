@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_flanker",
@@ -11,8 +12,7 @@
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,11 +20,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 21630000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Phoenix Hawk IIC",
+    "UIName": "Phoenix Hawk IIC ",
     "Id": "mechdef_phoenix_hawk_IIC",
     "Name": "Phoenix Hawk IIC",
     "Details": "The first model gets as close to the original Phoenix Hawk's ground speed and agility as an 80-ton assault 'Mech can reasonably achieve by being built around a 400 XL engine on an endo steel skeleton fitted with five jump jets. Its primary armament consists of two Ultra Autocannon/10s, each with three tons of ammunition. A pair of Machine Guns provide extra firepower, which is especially useful against unarmored targets. Despite the Clans' disdain for it, the 'Mech's weaponless arms are almost ideal for physical combat.",
@@ -235,5 +235,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2851-01-01T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 11680000,
-    "Rarity": 3,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -217,9 +217,11 @@
   "VariantName": "ANH-C",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""

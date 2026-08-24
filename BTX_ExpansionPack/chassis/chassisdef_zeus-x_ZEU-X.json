@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 83390000,
-    "Rarity": 5,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_zeusxbase-001",
   "PrefabBase": "zeusx",
   "Tonnage": 80,
-  "InitialTonnage": 30.56,
+  "InitialTonnage": 30.5,
   "weightClass": "ASSAULT",
   "BattleValue": 10595000,
   "Heatsinks": 16,
@@ -205,8 +205,10 @@
     "items": [
       "chassis_DHS",
       "chassis_composite",
-      "chassis_reactive",
+      "chassis_patchwork",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_commandmech",
       "mech_quirk_difficulttomaintain",
       "mech_quirk_largeengine"
@@ -218,7 +220,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Zeus-X_Defiance_Chariot_Type",
+      "ComponentDefID": "Gear_General_Defiance_Chariot_Type",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -245,7 +247,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_ReactiveArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Reactive_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -254,7 +256,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_ReactiveArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Reactive_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -263,7 +265,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_ReactiveArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Reactive_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -272,7 +274,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_ReactiveArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Reactive_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

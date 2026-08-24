@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 16240000,
+    "Cost": 16220000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -24,7 +24,7 @@
   "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 240,
+  "Stability": 250,
   "StabilityDefenses": [
     0,
     0,
@@ -212,13 +212,14 @@
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitLowerLeft",
       "mech_quirk_cowl",
       "mech_quirk_stable"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Missile Boat",
-  "YangsThoughts": "",
+  "YangsThoughts": "The C3B variant of the Naginata removes one of the LRM-15 launchers in order to add a second C3 Master Computer and a Guardian ECM suite to the design. The 'Mech also had an ER Medium Laser and an ER Small Laser added for close-range defense.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 9780000,
+    "Cost": 8760000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -12,16 +12,16 @@
     "Icon": "uixTxrIcon_spector"
   },
   "MovementCapDefID": "movedef_mech_light_7",
-  "PathingCapDefID": "pathingdef_heavy",
+  "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_331spector",
   "PrefabIdentifier": "chrprfmech_331spectorbase-001",
   "PrefabBase": "331spector",
   "Tonnage": 35,
-  "InitialTonnage": 15.56,
+  "InitialTonnage": 15.5,
   "weightClass": "LIGHT",
-  "BattleValue": 3749000,
+  "BattleValue": 6120000,
   "Heatsinks": 10,
-  "TopSpeed": 85,
+  "TopSpeed": 118.8,
   "TurnRadius": 90,
   "MaxJumpjets": 7,
   "Stability": 100,
@@ -39,13 +39,13 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 50,
+  "MeleeDamage": 45,
   "MeleeInstability": 35,
   "MeleeToHitModifier": 0,
-  "DFADamage": 35,
+  "DFADamage": 45,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 35,
-  "DFAInstability": 35,
+  "DFASelfDamage": 45,
+  "DFAInstability": 45,
   "Locations": [
     {
       "Location": "Head",
@@ -152,17 +152,17 @@
     {
       "x": 0.0,
       "y": 15.0,
-      "z": 0.0
+      "z": 15.0
     },
     {
       "x": 4.0,
       "y": 14.0,
-      "z": 0.0
+      "z": 14.0
     },
     {
       "x": -4.0,
       "y": 14.0,
-      "z": 0.0
+      "z": 14.0
     }
   ],
   "LOSTargetPositions": [
@@ -197,6 +197,7 @@
     "items": [
       "mr-resize-0.75",
       "chassis_DHS",
+      "ArmLimitLowerRight",
       "mech_quirk_difficulttomaintain",
       "mech_quirk_rugged1"
     ],

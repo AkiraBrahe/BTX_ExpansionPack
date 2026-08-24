@@ -17,11 +17,11 @@
   "PrefabIdentifier": "chrprfmech_exterminatorbase-001",
   "PrefabBase": "exterminator",
   "Tonnage": 65,
-  "InitialTonnage": 26.31,
+  "InitialTonnage": 26,
   "weightClass": "HEAVY",
   "BattleValue": 8970000,
   "Heatsinks": 10,
-  "TopSpeed": 140.4,
+  "TopSpeed": 86.4,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
   "Stability": 160,
@@ -187,7 +187,7 @@
     {
       "x": -3,
       "y": 12.5,
-      "z": 0.5
+      "z": -0.5
     },
     {
       "x": 2,

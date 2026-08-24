@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_light",
       "unit_role_flanker",
@@ -10,8 +11,7 @@
       "unit_speed_medium",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,13 +19,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 3630000,
-    "Rarity": 3,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Peregrine 3",
+    "UIName": "Peregrine (Horned Owl) 3",
     "Id": "mechdef_peregrine_horned_owl-3",
-    "Name": "Peregrine",
+    "Name": "Peregrine (Horned Owl)",
     "Details": "This variant swaps out the Large Pulse Laser of the original for an ER PPC linked to a Targeting Computer, allowing the 'Mech to snipe more efficiently. In place of the Medium Pulse Lasers are two trios of Light Machine Guns to deal with infantry should it need to.",
     "Icon": "uixTxrIcon_peregrine"
   },
@@ -218,5 +218,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3061-01-01T00:00:00Z"
 }

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -9,10 +10,10 @@
       "unit_range_long",
       "unit_armor_medium",
       "unit_speed_high",
+      "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -243,5 +244,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2858-01-01T00:00:00Z"
 }

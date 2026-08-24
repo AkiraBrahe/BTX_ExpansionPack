@@ -7,7 +7,7 @@
       "unit_lance_vanguard",
       "unit_lance_assassin",
       "unit_range_medium",
-      "unit_armor_medium",
+      "unit_armor_high",
       "unit_speed_high",
       "unit_hot",
       "unit_release",
@@ -20,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 3760000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -139,5 +139,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

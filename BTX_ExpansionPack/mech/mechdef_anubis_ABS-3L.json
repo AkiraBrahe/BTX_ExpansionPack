@@ -3,8 +3,8 @@
     "items": [
       "unit_mech",
       "unit_light",
-      "unit_role_sniper",
       "unit_role_flanker",
+      "unit_role_sniper",
       "unit_lance_support",
       "unit_range_long",
       "unit_indirectFire",
@@ -21,7 +21,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 5150000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -156,5 +156,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

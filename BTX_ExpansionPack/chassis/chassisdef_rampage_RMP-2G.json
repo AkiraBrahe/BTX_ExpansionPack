@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 7020000,
-    "Rarity": 4,
+    "Cost": 6320000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -156,16 +156,16 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 15,
+      "y": 16,
       "z": 0
     },
     {
-      "x": 3.5,
+      "x": 5,
       "y": 16,
       "z": -1
     },
     {
-      "x": -3.5,
+      "x": -5,
       "y": 16,
       "z": -1
     }
@@ -173,16 +173,16 @@
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 15,
+      "y": 16,
       "z": 0
     },
     {
-      "x": 3.5,
+      "x": 5,
       "y": 16,
       "z": -1
     },
     {
-      "x": -3.5,
+      "x": -5,
       "y": 16,
       "z": -1
     },
@@ -201,6 +201,7 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.25-1.05-1.10",
+      "ArmLimitLowerLeft",
       "mech_quirk_vestigialhands",
       "mech_quirk_badreputation"
     ],

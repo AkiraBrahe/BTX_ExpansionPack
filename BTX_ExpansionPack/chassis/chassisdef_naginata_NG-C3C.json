@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 10940000,
+    "Cost": 10920000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -24,7 +24,7 @@
   "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 3,
-  "Stability": 240,
+  "Stability": 250,
   "StabilityDefenses": [
     0,
     0,
@@ -203,13 +203,14 @@
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitLowerLeft",
       "mech_quirk_cowl",
       "mech_quirk_stable"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Missile Boat",
-  "YangsThoughts": "",
+  "YangsThoughts": "A variant built for greater mobility, the C3C is based on the C3A variant. The 'Mech removes two tons of LRM ammunition and the C3 Master Computer and replaces it with a C3 Slave Unit. The 'Mech uses the saved weight to add three jump jets allowing the Naginata to jump up to 90 meters.",
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",

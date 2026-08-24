@@ -189,7 +189,7 @@
     {
       "x": -3,
       "y": 12.5,
-      "z": 0.5
+      "z": -0.5
     },
     {
       "x": 2,
@@ -206,6 +206,7 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "ArmLimitLowerRight",
       "mech_quirk_easytomaintain",
       "mech_quirk_crampedcockpit",
       "mech_quirk_nonstandardparts",

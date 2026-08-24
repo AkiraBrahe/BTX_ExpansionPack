@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_brawler",
@@ -12,8 +13,7 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -21,13 +21,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 26800000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Gladiator-B PRIME",
+    "UIName": "Gladiator-B (Executioner-B) Prime",
     "Id": "mechdef_gladiator-b_executioner-b-PRIME",
-    "Name": "Gladiator-B",
+    "Name": "Gladiator-B (Executioner-B)",
     "Details": "The Executioner-B's primary configuration features a powerful arsenal of weapons, including an Ultra AC/20 in the left arm, two Large Pulse Lasers in the right, one ER PPC, and two Ultra AC/2s in the side torsos. However, this impressive loadout is hampered by inadequate heat dissipation capabilities, limiting its ability to unleash its full firepower in quick succession. As a result, the Executioner-B rarely achieves its maximum potential damage output.",
     "Icon": "uixTxrIcon_executioner-b"
   },
@@ -220,5 +220,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2873-01-01T00:00:00Z"
 }

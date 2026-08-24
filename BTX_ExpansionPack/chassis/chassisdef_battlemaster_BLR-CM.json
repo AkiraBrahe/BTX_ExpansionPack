@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 13340000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -213,6 +213,8 @@
     "items": [
       "chassis_DHS",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_commandmech",
       "mech_quirk_weakheadarmor1"
     ],

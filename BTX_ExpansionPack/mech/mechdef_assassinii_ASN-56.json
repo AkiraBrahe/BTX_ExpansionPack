@@ -21,8 +21,8 @@
   "ChassisID": "chassisdef_assassinii_ASN-56",
   "HeraldryID": null,
   "Description": {
-    "Cost": 1070000,
-    "Rarity": 4,
+    "Cost": 10730000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -32,7 +32,7 @@
     "Details": "This major redesign of the Assassin chassis is built on an endo steel skeleton with nine tons of armor and powered by a 270 XL engine. The Assassin II is outfitted with four Medium Pulse Lasers, one LRM-10 with Artemis IV, a Laser Anti-Missile System, and a Triple Strength Myomer for increased mobility.",
     "Icon": "uixTxrIcon_assassinii"
   },
-  "simGameMechPartCost": 1060000,
+  "simGameMechPartCost": 1070000,
   "Version": 1,
   "Locations": [
     {
@@ -191,11 +191,21 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM10_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "RightTorso",
@@ -213,5 +223,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3060-01-01T00:00:00Z"
 }

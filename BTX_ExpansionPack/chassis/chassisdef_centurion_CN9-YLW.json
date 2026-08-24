@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 70,
+  "MeleeDamage": 55,
   "MeleeInstability": 50,
   "MeleeToHitModifier": 0,
   "DFADamage": 65,
@@ -198,6 +198,7 @@
   "VariantName": "CN9-YLW",
   "ChassisTags": {
     "items": [
+      "ArmLimitUpperRight",
       "mech_quirk_improvedtargetingshort",
       "mech_quirk_nonstandardparts"
     ],

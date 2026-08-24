@@ -1,17 +1,17 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_light",
       "unit_role_brawler",
       "unit_lance_vanguard",
       "unit_range_medium",
-      "unit_armor_medium",
+      "unit_armor_high",
       "unit_speed_high",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,13 +19,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 2130000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Baboon 5",
+    "UIName": "Baboon (Howler) 5",
     "Id": "mechdef_baboon_howler-5",
-    "Name": "Baboon",
+    "Name": "Baboon (Howler)",
     "Details": "The standard Howler chassis has had its LRM-5s removed and replaced with six ER Medium Lasers, fitted in triple mounts in each side torso.",
     "Icon": "uixTxrIcon_howler"
   },
@@ -154,5 +154,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
 }

@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_raijin_RJN-101-X",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9920000,
-    "Rarity": 4,
+    "Cost": 9960000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -31,7 +31,7 @@
     "Details": "A failed prototype focused on MechWarrior safety, the 101-X featured almost the same weaponry as the 101-A save for its use of a One-Shot SRM-6 pack hidden deep in its center torso behind a heavily shielded swing-open mechanism. Intended to allow its pilots to surprise foes with this hidden weapon at close range, it was eventually decided that a normal SRM-6 rack with one ton of reloads provided more combat utility.",
     "Icon": "uixTxrIcon_raijin"
   },
-  "simGameMechPartCost": 990000,
+  "simGameMechPartCost": 1000000,
   "Version": 1,
   "Locations": [
     {
@@ -212,5 +212,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3052-01-01T00:00:00Z"
 }

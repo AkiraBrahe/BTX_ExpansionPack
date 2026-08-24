@@ -6,9 +6,9 @@
       "unit_role_sniper",
       "unit_lance_support",
       "unit_range_medium",
-      "unit_jumpOK",
       "unit_armor_high",
       "unit_speed_medium",
+      "unit_jumpOK",
       "unit_hot",
       "unit_release",
       "unit_mechpack",
@@ -20,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 6060000,
-    "Rarity": 3,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -251,5 +251,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

@@ -9,7 +9,7 @@
       "unit_lance_vanguard",
       "unit_lance_tank",
       "unit_range_short",
-      "unit_armor_high",
+      "unit_armor_medium",
       "unit_speed_low",
       "unit_release",
       "unit_mechpack"
@@ -24,7 +24,7 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Kiso K-3N-KRHQ",
+    "UIName": "Kiso K-3N-KRHQ CommandMech",
     "Id": "mechdef_kiso_K-3N-KRHQ",
     "Name": "Kiso",
     "Details": "The Kiso \"CommandMech\" variant removes the right torso Pile Driver and Lift Hoist, as well as the left torso Rock Cutter to make room for a Collapsible Command Module and a trio of Machine Guns with a half-ton of ammunition. It retains the cockpit Command Console of the standard Kiso.",
@@ -47,7 +47,7 @@
       "Location": "LeftArm",
       "CurrentArmor": 160,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 105,
+      "CurrentInternalStructure": 85,
       "AssignedArmor": 160,
       "AssignedRearArmor": -1
     },
@@ -83,7 +83,7 @@
       "Location": "RightArm",
       "CurrentArmor": 160,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 105,
+      "CurrentInternalStructure": 85,
       "AssignedArmor": 160,
       "AssignedRearArmor": -1
     },
@@ -155,5 +155,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2823-01-01T00:00:00Z"
 }

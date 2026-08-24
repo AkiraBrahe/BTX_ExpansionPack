@@ -1,17 +1,16 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
       "unit_lance_vanguard",
-      "unit_armor_medium",
       "unit_armor_high",
       "unit_speed_high",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,13 +18,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 15210000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Ryoken P",
+    "UIName": "Ryoken (Stormcrow) P",
     "Id": "mechdef_ryoken_stormcrow-P",
-    "Name": "Ryoken",
+    "Name": "Ryoken (Stormcrow)",
     "Details": "Deadly at any range, the P configuration is more dangerous the closer it gets to its prey. A Medium Pulse Laser sits beside an ER Large Laser in both arms, while a Medium Pulse Laser also sits below the pilot's feet in the head. Each side torso mounts an additional double heat sink, a Streak SRM-6 and a corresponding ton of ammo.",
     "Icon": "uixTxrIcon_ryoken"
   },
@@ -186,5 +185,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3049-01-01T00:00:00Z"
 }

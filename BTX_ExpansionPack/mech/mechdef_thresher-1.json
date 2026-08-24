@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -9,10 +10,10 @@
       "unit_range_medium",
       "unit_armor_medium",
       "unit_speed_high",
+      "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,11 +21,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 13320000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Thresher 1",
+    "UIName": "Thresher ",
     "Id": "mechdef_thresher-1",
     "Name": "Thresher",
     "Details": "This expensive garrison 'Mech uses a 300 XL engine and an endo steel skeleton to save weight. Its modest speed is compensated by five jump jets and a MASC system. The largest gun on the Thresher is its Ultra Autocannon/10. The medium-range weapon can dish out a fair amount of damage, but it is not a legitimate long-range threat. At closer ranges, the Thresher can bring an ER Medium Laser and a pair of accurate Medium Pulse Lasers to bear. Two SRM-6 launchers complement these weapons, providing additional punch to exploit any openings created in enemy armor.",
@@ -251,5 +252,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2849-01-01T00:00:00Z"
 }

@@ -20,18 +20,18 @@
   "ChassisID": "chassisdef_blackjack_BJ2-OF",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9360000,
-    "Rarity": 4,
+    "Cost": 9340000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Blackjack Omni BJ2-OF",
+    "UIName": "Blackjack BJ2-OF",
     "Id": "mechdef_blackjack_BJ2-OF",
-    "Name": "Blackjack Omni",
+    "Name": "Blackjack",
     "Details": "The F configuration is built around an ER PPC and an UAC/10 as its two primary weapons, which provide the F configuration with a powerful long-range punch. For close ranges, the 'Mech carries two ER Medium Lasers and an ER Small Laser, with two extra double heat sinks reducing some of the added burden.",
     "Icon": "uixTxrIcon_blackjackomni"
   },
-  "simGameMechPartCost": 940000,
+  "simGameMechPartCost": 930000,
   "Version": 1,
   "Locations": [
     {
@@ -180,5 +180,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3061-01-01T00:00:00Z"
 }

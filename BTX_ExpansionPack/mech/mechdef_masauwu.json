@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -13,8 +14,7 @@
       "unit_jumpOK",
       "unit_electronicWarfare",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -22,11 +22,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 16490000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Masauwu MWU-1",
+    "UIName": "Masauwu ",
     "Id": "mechdef_masauwu",
     "Name": "Masauwu",
     "Details": "PLACEHOLDER",
@@ -285,5 +285,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2832-01-01T00:00:00Z"
 }

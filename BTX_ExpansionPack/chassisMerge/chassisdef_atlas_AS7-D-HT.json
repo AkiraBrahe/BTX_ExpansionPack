@@ -2,7 +2,10 @@
   "Description": {
     "Details": "This seemingly custom variant retains the bulk of the standard model's weapon loadout, save swapping the LB 10-X for a mammoth Autocannon/20 for enhanced short-range combat. Three double heat sinks were dropped to mount this weapon."
   },
-  "InitialTonnage": 37.04,
+  "HardpointDataDefID": "hardpointdatadef_atlasii",
+  "PrefabIdentifier": "chrPrfMech_atlasiibase-001",
+  "PrefabBase": "atlasii",
+  "InitialTonnage": 37,
   "Heatsinks": 10,
   "YangsThoughts": "Known as the \"Atlas II\", the D-H series carries more energy weaponry and usually a lighter, more flexible autocannon. It still has unbelievable protection and the same crushing melee ability as other Atlas models.",
   "FixedEquipment": [

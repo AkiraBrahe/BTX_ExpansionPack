@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_avatar_AV1-OE",
   "HeraldryID": null,
   "Description": {
-    "Cost": 18780000,
-    "Rarity": 4,
+    "Cost": 18760000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -202,5 +202,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

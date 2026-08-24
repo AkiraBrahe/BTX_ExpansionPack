@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
@@ -11,8 +12,7 @@
       "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,11 +20,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 37130000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Iron Cheetah PRIME",
+    "UIName": "Iron Cheetah Prime",
     "Id": "mechdef_iron_cheetah-PRIME",
     "Name": "Iron Cheetah",
     "Details": "The primary configuration improves on the Dire Wolf by mounting a 400-rated XL engine. This increases cooling efficiency while having little impact on the 'Mech's practical punch. The Iron Cheetah has amazing sniping potential with its dual ER PPCs supported by an Artemis-IV-augmented LRM 15 rack and Gauss Rifle, allowing it to disable or destroy most opponents before they can close. Two Medium Pulse Lasers and an ER Small Laser provide close-in defense, while an Anti-Missile System handles incoming missile barrages.",
@@ -267,5 +267,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3054-01-01T00:00:00Z"
 }

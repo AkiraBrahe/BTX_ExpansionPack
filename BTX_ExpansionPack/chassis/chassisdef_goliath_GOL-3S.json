@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 15740000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -221,6 +221,8 @@
       "mr-resize-0.9",
       "chassis_DHS",
       "mech_case_right",
+      "ArmLimitNoneLeft",
+      "ArmLimitNoneRight",
       "mech_quirk_multitrac",
       "mech_quirk_exposedactuators"
     ],

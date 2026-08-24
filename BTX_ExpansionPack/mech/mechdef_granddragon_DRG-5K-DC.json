@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_granddragon_DRG-5K-DC",
   "HeraldryID": null,
   "Description": {
-    "Cost": 14090000,
-    "Rarity": 4,
+    "Cost": 14070000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -163,5 +163,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3050-01-01T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 5150000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -150,44 +150,44 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 11,
-      "z": 0
-    },
-    {
-      "x": -2.5,
-      "y": 10.5,
-      "z": -0.5
+      "y": 9.5,
+      "z": 0.5
     },
     {
       "x": 2.5,
-      "y": 10.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
       "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 11,
-      "z": 0
-    },
-    {
-      "x": -2.5,
-      "y": 10.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 10.5,
-      "z": -0.5
-    },
-    {
-      "x": -2,
-      "y": 4,
+      "y": 9.5,
       "z": 0.5
     },
     {
-      "x": 2,
-      "y": 4,
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3,
       "z": 0.5
     }
   ],
@@ -198,9 +198,11 @@
       "chassis_DHS",
       "chassis_endo",
       "chassis_stealth",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_extendedtorsotwist",
-      "mech_quirk_difficulttomaintain",
-      "mech_quirk_exposedactuators"
+      "mech_quirk_exposedactuators",
+      "mech_quirk_difficulttomaintain"
     ],
     "tagSetSourceFile": ""
   },
@@ -227,7 +229,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -236,16 +238,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -254,16 +247,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -272,7 +256,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -281,7 +265,34 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Armor_EndoSteel_5_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -290,7 +301,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -299,16 +310,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_5_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -317,7 +319,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -326,7 +328,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_StealthArmor_2_Slot",
+      "ComponentDefID": "Gear_Armor_Stealth_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

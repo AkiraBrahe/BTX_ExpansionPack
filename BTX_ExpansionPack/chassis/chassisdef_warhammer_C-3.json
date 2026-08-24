@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
   "PrefabBase": "warhammer",
   "Tonnage": 70,
-  "InitialTonnage": 17.94,
+  "InitialTonnage": 17.5,
   "weightClass": "HEAVY",
   "BattleValue": 13860000,
   "Heatsinks": 10,
@@ -203,9 +203,11 @@
   "VariantName": "WHM-C3",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_rugged2",
       "mech_quirk_searchlight_LT",
       "mech_quirk_stable"

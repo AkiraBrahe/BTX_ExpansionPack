@@ -1,26 +1,26 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_sniper",
-      "unit_lance_assassin",
       "unit_lance_support",
+      "unit_lance_assassin",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_bowman-2",
   "HeraldryID": null,
   "Description": {
-    "Cost": 17100000,
-    "Rarity": 3,
+    "Cost": 17080000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -275,5 +275,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2974-01-01T00:00:00Z"
 }

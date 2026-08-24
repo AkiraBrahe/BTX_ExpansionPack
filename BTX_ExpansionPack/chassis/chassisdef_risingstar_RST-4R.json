@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 6860000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_legacybase-001",
   "PrefabBase": "legacy",
   "Tonnage": 80,
-  "InitialTonnage": 24.56,
+  "InitialTonnage": 24.5,
   "weightClass": "ASSAULT",
   "BattleValue": 7995000,
   "Heatsinks": 0,
@@ -41,7 +41,7 @@
   "PunchesWithLeftArm": false,
   "MeleeDamage": 110,
   "MeleeInstability": 80,
-  "MeleeToHitModifier": -2,
+  "MeleeToHitModifier": 0,
   "DFADamage": 100,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,

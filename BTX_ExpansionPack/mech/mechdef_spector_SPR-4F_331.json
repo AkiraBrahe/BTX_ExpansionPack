@@ -3,25 +3,25 @@
     "items": [
       "unit_mech",
       "unit_light",
-      "unit_jumpOK",
-      "unit_range_medium",
-      "unit_speed_high",
-      "unit_armor_high",
-      "unit_hot",
-      "unit_lance_assassin",
       "unit_role_scout",
+      "unit_lance_assassin",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_speed_high",
+      "unit_jumpOK",
+      "unit_hot",
       "unit_release",
+      "BLACKLISTED",
       "unit_LosTech",
       "role_striker",
-      "mech_MechPartSalvageRedirect_spector_SPR-4F",
-      "BLACKLISTED"
+      "mech_MechPartSalvageRedirect_spector_SPR-4F"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_spector_SPR-4F_331",
   "HeraldryID": null,
   "Description": {
-    "Cost": 11760000,
+    "Cost": 8760000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -32,7 +32,7 @@
     "Details": "The Spector was originally designed by Norse-Storm BattleMechs to be a lighter version of the Exterminator BattleMech, made to hunt down light command 'Mechs. The first Spector rolled off the assembly line on 6 June, 2639, and following extensive testing the SLDF ordered 600. The Star League's enthusiasm for the Spector is due to the BattleMechs stealth capabilities, combining both Chameleon Light Polarization Shield and a Null Signature System. This first order for the SPR-4F was delivered in April 2640. All Spectors, and all reports on them, were believed lost with the fall of the Star League.",
     "Icon": "uixTxrIcon_spector"
   },
-  "simGameMechPartCost": 1180000,
+  "simGameMechPartCost": 880000,
   "Version": 1,
   "Locations": [
     {
@@ -189,5 +189,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2640-01-01T00:00:00Z"
 }

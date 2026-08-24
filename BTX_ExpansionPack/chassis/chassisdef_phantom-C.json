@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ionphantombase-001",
   "PrefabBase": "ionphantom",
   "Tonnage": 40,
-  "InitialTonnage": 25.51,
+  "InitialTonnage": 25.5,
   "weightClass": "MEDIUM",
   "BattleValue": 7950000,
   "Heatsinks": 10,
@@ -212,11 +212,11 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.8",
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_improvedsensors",
       "mech_quirk_extremeengine"
     ],

@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 13660000,
+    "Cost": 13630000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -12,19 +12,19 @@
     "Icon": "uixTxrIcon_greatturtle"
   },
   "MovementCapDefID": "movedef_mech_assault_3",
-  "PathingCapDefID": "pathingdef_assault",
+  "PathingCapDefID": "pathingdef_assault_quad",
   "HardpointDataDefID": "hardpointdatadef_cugreatturtle",
   "PrefabIdentifier": "chrprfmech_cugreatturtlebase-001",
   "PrefabBase": "cugreatturtle",
   "Tonnage": 100,
-  "InitialTonnage": 52.81,
+  "InitialTonnage": 52.5,
   "weightClass": "ASSAULT",
   "BattleValue": 15760000,
   "Heatsinks": 10,
-  "TopSpeed": 43.2,
+  "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 3,
-  "Stability": 250,
+  "Stability": 300,
   "StabilityDefenses": [
     0,
     0,
@@ -232,6 +232,8 @@
       "chassis_DHS",
       "chassis_endo",
       "chassis_hardened",
+      "ArmLimitNoneLeft",
+      "ArmLimitNoneRight",
       "mech_quirk_improvedtargetingshort",
       "mech_quirk_poorperformance"
     ],
@@ -260,7 +262,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -269,16 +271,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_6_Slot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HardenedArmor",
+      "ComponentDefID": "Gear_Armor_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -287,7 +280,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -296,7 +289,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -305,7 +298,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -314,7 +307,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

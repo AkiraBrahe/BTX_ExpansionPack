@@ -19,7 +19,7 @@
   "ChassisID": "chassisdef_bellerophon_BEL-2X",
   "HeraldryID": null,
   "Description": {
-    "Cost": 6590000,
+    "Cost": 6580000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -179,5 +179,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3058-01-01T00:00:00Z"
 }

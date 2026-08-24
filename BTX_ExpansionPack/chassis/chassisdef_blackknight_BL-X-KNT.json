@@ -17,11 +17,11 @@
   "PrefabIdentifier": "chrprfmech_redreaperbase-001",
   "PrefabBase": "redreaper",
   "Tonnage": 75,
-  "InitialTonnage": 24.72,
+  "InitialTonnage": 24.5,
   "weightClass": "HEAVY",
   "BattleValue": 9290000,
   "Heatsinks": 10,
-  "TopSpeed": 54,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 120,
@@ -202,7 +202,7 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
-      "chassis_ferro",
+      "chassis_light_ferro",
       "mech_quirk_distracting",
       "mech_quirk_unbalanced"
     ],
@@ -231,7 +231,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_LightFerro_1_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -240,7 +240,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_LightFerro_1_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -249,7 +249,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_LightFerro_1_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -258,7 +258,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_LightFerro_1_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -267,7 +267,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_LightFerro_1_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -276,7 +276,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_LightFerro_1_Slot",
+      "ComponentDefID": "Gear_Armor_LightFerro_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

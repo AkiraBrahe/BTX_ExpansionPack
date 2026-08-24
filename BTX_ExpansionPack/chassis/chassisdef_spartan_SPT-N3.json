@@ -6,7 +6,7 @@
   },
   "Description": {
     "Cost": 21860000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -163,34 +163,34 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 14,
+      "y": 17,
       "z": 0
     },
     {
-      "x": 4,
-      "y": 15,
+      "x": 5,
+      "y": 16,
       "z": -1
     },
     {
-      "x": -4,
-      "y": 15,
+      "x": -5,
+      "y": 16,
       "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 14,
+      "y": 17,
       "z": 0
     },
     {
-      "x": 4,
-      "y": 15,
+      "x": 5,
+      "y": 16,
       "z": -1
     },
     {
-      "x": -4,
-      "y": 15,
+      "x": -5,
+      "y": 16,
       "z": -1
     },
     {

@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 12060000,
-    "Rarity": 4,
+    "Cost": 12040000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "HEAVY",
   "BattleValue": 12070000,
   "Heatsinks": 10,
-  "TopSpeed": 86.4,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 160,
@@ -164,12 +164,12 @@
       "z": 0.5
     },
     {
-      "x": -3,
+      "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": 3,
+      "x": -3,
       "y": 9,
       "z": -0.5
     }
@@ -181,22 +181,22 @@
       "z": 0.5
     },
     {
-      "x": -3,
-      "y": 9,
-      "z": -0.5
-    },
-    {
       "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": -2.5,
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 3,
       "z": 0.5
     }
@@ -204,10 +204,12 @@
   "VariantName": "WMN-B",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""

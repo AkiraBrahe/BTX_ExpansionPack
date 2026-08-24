@@ -9,9 +9,9 @@
       "unit_range_short",
       "unit_armor_high",
       "unit_speed_high",
+      "unit_hot",
       "unit_release",
       "unit_mechpack",
-      "unit_hot",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -20,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 18350000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "A departure from the attempt to emulate the Mad Cat, the 2A model removes the Rakshasa's arsenal and upgrades it with a new weapons mix geared toward close combat. The primary weapon is a Rotary Autocannon/5. This is backed up at shorter ranges by a Large Pulse Laser and for point-blank combat, the 'Mech carries four Medium Pulse Lasers.",
     "Icon": "uixTxrIcon_rakshasa"
   },
-  "simGameMechPartCost": 1840000,
+  "simGameMechPartCost": 1830000,
   "Version": 1,
   "Locations": [
     {
@@ -179,5 +179,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

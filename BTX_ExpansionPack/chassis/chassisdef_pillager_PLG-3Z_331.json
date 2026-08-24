@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 25010000,
-    "Rarity": 5,
+    "Cost": 22290000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "ASSAULT",
   "BattleValue": 13485000,
   "Heatsinks": 10,
-  "TopSpeed": 60,
+  "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 3,
   "Stability": 200,

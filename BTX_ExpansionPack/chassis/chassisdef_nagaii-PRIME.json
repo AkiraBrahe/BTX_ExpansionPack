@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 26830000,
-    "Rarity": 4,
+    "Cost": 24120000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -159,34 +159,34 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 14,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
+      "x": 4,
+      "y": 15,
       "z": -1
     },
     {
-      "x": -5,
-      "y": 16,
+      "x": -4,
+      "y": 15,
       "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 14,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
+      "x": 4,
+      "y": 15,
       "z": -1
     },
     {
-      "x": -5,
-      "y": 16,
+      "x": -4,
+      "y": 15,
       "z": -1
     },
     {
@@ -203,10 +203,12 @@
   "VariantName": "NGA2-PRIME",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_stabilized_LA",
       "mech_quirk_stabilized_RA",
       "mech_quirk_extendedtorsotwist",

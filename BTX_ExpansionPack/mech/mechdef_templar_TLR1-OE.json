@@ -10,7 +10,6 @@
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_medium",
-      "unit_jumpOK",
       "unit_electronicWarfare",
       "unit_release",
       "unit_mechpack",
@@ -191,19 +190,40 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment1"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment1"
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

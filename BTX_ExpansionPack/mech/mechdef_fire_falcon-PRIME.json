@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_light",
       "unit_role_brawler",
@@ -10,8 +11,7 @@
       "unit_speed_high",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,11 +19,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 4710000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Fire Falcon PRIME",
+    "UIName": "Fire Falcon Prime",
     "Id": "mechdef_fire_falcon-PRIME",
     "Name": "Fire Falcon",
     "Details": "The primary configuration of the Fire Falcon is best at short to medium ranges where it can bring its twin Streak SRM-4 launchers, Medium Pulse Laser, two ER Medium Lasers, and two ER Small Lasers to bear. While this barrage is powerful for a 'Mech of this size, ten double heat sinks keep the design mostly cool.",
@@ -170,5 +170,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3052-01-01T00:00:00Z"
 }

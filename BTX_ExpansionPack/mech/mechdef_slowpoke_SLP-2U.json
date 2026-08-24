@@ -8,6 +8,7 @@
       "unit_lance_vanguard",
       "unit_armor_high",
       "unit_speed_low",
+      "unit_jumpOK",
       "unit_release",
       "unit_mechpack"
     ],
@@ -17,7 +18,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 760000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -128,5 +129,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2460-01-01T00:00:00Z"
 }

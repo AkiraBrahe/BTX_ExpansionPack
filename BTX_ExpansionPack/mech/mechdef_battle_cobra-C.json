@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -10,16 +11,15 @@
       "unit_speed_high",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_battle_cobra-C",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5250000,
-    "Rarity": 4,
+    "Cost": 5010000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "The primary weapon of this configuration is an ATM-9, but it lacks sufficient ammunition storage to make full use of the ATM technology. It is backed up by three Medium Pulse Lasers and one Small Pulse Laser.",
     "Icon": "uixTxrIcon_battlecobra"
   },
-  "simGameMechPartCost": 530000,
+  "simGameMechPartCost": 500000,
   "Version": 1,
   "Locations": [
     {
@@ -162,5 +162,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

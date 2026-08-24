@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 8120000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 35,
+  "MeleeDamage": 30,
   "MeleeInstability": 35,
   "MeleeToHitModifier": 0,
   "DFADamage": 45,
@@ -151,12 +151,12 @@
       "z": 0.5
     },
     {
-      "x": -3,
+      "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": 3,
+      "x": -3,
       "y": 9,
       "z": -0.5
     }
@@ -168,22 +168,22 @@
       "z": 0.5
     },
     {
-      "x": -3,
-      "y": 9,
-      "z": -0.5
-    },
-    {
       "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": -2.5,
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 3,
       "z": 0.5
     }
@@ -193,6 +193,8 @@
     "items": [
       "mr-resize-0.9",
       "chassis_omni",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_improvedsensorsbap"
     ],
     "tagSetSourceFile": ""

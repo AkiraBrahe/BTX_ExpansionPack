@@ -1,18 +1,18 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
-      "unit_role_scout",
       "unit_role_flanker",
+      "unit_role_scout",
       "unit_lance_support",
       "unit_range_medium",
       "unit_armor_medium",
       "unit_speed_high",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 7550000,
-    "Rarity": 3,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "This second variant replaces the SRM-4s and two SRM-6s with an Large Pulse Laser. This gives the 'Mech some long-range capability and provides it with a punch weapon, as well as increased accuracy and a reduction on ammunition dependency.",
     "Icon": "uixTxrIcon_arcticwolf"
   },
-  "simGameMechPartCost": 760000,
+  "simGameMechPartCost": 750000,
   "Version": 1,
   "Locations": [
     {
@@ -187,5 +187,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3060-01-01T00:00:00Z"
 }

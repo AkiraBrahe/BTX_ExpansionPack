@@ -1,4 +1,7 @@
 {
+  "HardpointDataDefID": "hardpointdatadef_sunder",
+  "PrefabIdentifier": "chrPrfMech_sunderBase-001",
+  "PrefabBase": "sunder",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

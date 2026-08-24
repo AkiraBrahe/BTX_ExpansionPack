@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_hatamotohi_HTM-CM",
   "HeraldryID": null,
   "Description": {
-    "Cost": 11980000,
-    "Rarity": 4,
+    "Cost": 10590000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "The HTM-CM is also based on the Hatamoto-Hi variant and carries a C3 Master Computer into battle, allowing it to coordinate an entire C3 lance. This is done by removing two of the Medium Pulse Lasers and a heat sink.",
     "Icon": "uixTxrIcon_hatamoto"
   },
-  "simGameMechPartCost": 1200000,
+  "simGameMechPartCost": 1060000,
   "Version": 1,
   "Locations": [
     {
@@ -202,5 +202,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3050-01-01T00:00:00Z"
 }

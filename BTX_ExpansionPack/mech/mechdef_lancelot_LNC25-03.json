@@ -17,8 +17,8 @@
   "ChassisID": "chassisdef_lancelot_LNC25-03",
   "HeraldryID": null,
   "Description": {
-    "Cost": 11220000,
-    "Rarity": 5,
+    "Cost": 11200000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -145,5 +145,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2876-01-01T00:00:00Z"
 }

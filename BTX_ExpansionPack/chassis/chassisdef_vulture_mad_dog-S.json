@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 15630000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_maddogbase-001",
   "PrefabBase": "maddog",
   "Tonnage": 60,
-  "InitialTonnage": 21.51,
+  "InitialTonnage": 21.5,
   "weightClass": "HEAVY",
   "BattleValue": 13380000,
   "Heatsinks": 10,
@@ -200,13 +200,14 @@
   "VariantName": "VUL-S",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
-      "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
-      "mech_quirk_crampedcockpit",
-      "mech_quirk_improvedtargetingmedium"
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
+      "mech_quirk_improvedtargetingmedium",
+      "mech_quirk_largeengine"
     ],
     "tagSetSourceFile": ""
   },

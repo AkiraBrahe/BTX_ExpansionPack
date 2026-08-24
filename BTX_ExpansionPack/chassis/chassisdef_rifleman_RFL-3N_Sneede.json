@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 5140000,
+    "Cost": 5130000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,7 +19,7 @@
   "Tonnage": 60,
   "InitialTonnage": 22.5,
   "weightClass": "HEAVY",
-  "BattleValue": 6410000,
+  "BattleValue": 6240000,
   "Heatsinks": -3,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 80,
+  "MeleeDamage": 85,
   "MeleeInstability": 60,
   "MeleeToHitModifier": 0,
   "DFADamage": 75,
@@ -66,9 +66,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 100,
+      "MaxArmor": 110,
       "MaxRearArmor": -1,
-      "InternalStructure": 50
+      "InternalStructure": 55
     },
     {
       "Location": "LeftTorso",
@@ -84,9 +84,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 140,
-      "MaxRearArmor": 70,
-      "InternalStructure": 70
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
     },
     {
       "Location": "CenterTorso",

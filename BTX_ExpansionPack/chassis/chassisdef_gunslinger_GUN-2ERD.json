@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 19380000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -217,12 +217,14 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_cowl"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut",
-  "YangsThoughts": "PLACEHOLDER - The whole package. Pair of gauss rifles, four ER mediums (hear sinks for 3 consistently) max armor (with a rear bias,) jump jets, and even an ECM in case the ECCM rules are up.",
+  "YangsThoughts": "The 2ERD model of the Gunslinger upgrades the Medium Lasers to ER Medium Lasers and removes the two rear Medium Pulse Lasers, the Beagle Probe and the Small Laser. The 'Mech then adds an additional jump jet allowing the 'Mech to jump up to ninety meters and also adds a C3 Master computer.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

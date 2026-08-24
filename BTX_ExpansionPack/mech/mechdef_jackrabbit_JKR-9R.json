@@ -6,7 +6,7 @@
       "unit_role_scout",
       "unit_lance_assassin",
       "unit_range_long",
-      "unit_armor_medium",
+      "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
       "unit_mechpack",
@@ -18,14 +18,14 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 1910000,
-    "Rarity": 5,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Jackrabbit JKR-9R",
     "Id": "mechdef_jackrabbit_JKR-9R",
-    "Name": "Joker",
-    "Details": "Nicknamed the \"Joker\" by SLDF troops, the JKR-9R attempted to boost the flawed Jackrabbit's effectiveness by replacing the autocannon with a Large Laser, an extra single heat sink, and an extra ton of armor. Half the surviving examples are of this type.",
+    "Name": "“Joker”",
+    "Details": "Nicknamed the Joker by SLDF troops, the JKR-9R attempted to boost the flawed Jackrabbit's effectiveness by replacing the autocannon with a Large Laser, an extra single heat sink, and an extra ton of armor. Half the surviving examples are of this type.",
     "Icon": "uixTxrIcon_jackrabbit"
   },
   "simGameMechPartCost": 190000,
@@ -137,5 +137,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2768-01-01T00:00:00Z"
 }

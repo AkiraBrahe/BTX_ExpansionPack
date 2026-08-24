@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_commando_COM-4H",
   "HeraldryID": null,
   "Description": {
-    "Cost": 1920000,
-    "Rarity": 3,
+    "Cost": 1940000,
+    "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -170,5 +170,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_hunchbackbase-001",
   "PrefabBase": "hunchback",
   "Tonnage": 50,
-  "InitialTonnage": 23.52,
+  "InitialTonnage": 23.5,
   "weightClass": "MEDIUM",
   "BattleValue": 6040000,
   "Heatsinks": 10,
@@ -203,6 +203,7 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "chassis_reinforced",
       "chassis_ferro",
       "mech_case_left",
       "mech_quirk_battlefists"
@@ -250,7 +251,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -259,7 +260,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -268,7 +269,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -277,7 +278,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -286,7 +287,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

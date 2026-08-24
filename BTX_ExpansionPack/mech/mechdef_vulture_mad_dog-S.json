@@ -1,18 +1,18 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_scout",
       "unit_lance_vanguard",
       "unit_lance_assassin",
       "unit_range_long",
-      "unit_armor_medium",
+      "unit_armor_high",
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,13 +20,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 15630000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Vulture S",
+    "UIName": "Vulture (Mad Dog) S",
     "Id": "mechdef_vulture_mad_dog-S",
-    "Name": "Vulture",
+    "Name": "Vulture (Mad Dog)",
     "Details": "The S variant is designed for reconnaissance, equipped with five jump jets for quick movement and an Active Probe for detecting hidden enemy units. Its lighter armament comprises an ER PPC and three Medium Pulse Lasers, suitable for quick strikes and evasive maneuvers.",
     "Icon": "uixTxrIcon_vulture"
   },
@@ -235,5 +235,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3052-01-01T00:00:00Z"
 }

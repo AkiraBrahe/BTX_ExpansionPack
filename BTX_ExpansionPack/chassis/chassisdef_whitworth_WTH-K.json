@@ -1,29 +1,29 @@
 {
   "Description": {
-    "Cost": 6280000,
-    "Rarity": 99,
+    "Cost": 3920000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Vulcan",
-    "Id": "chassisdef_vulcan_VT-BL",
-    "Name": "Vulcan",
-    "Details": "The Vulcan VT-BL, better known as the \"Bloodlust\", is a special variant of the Vulcan that focuses on its strengths as an anti-infantry 'Mech. Its weaponry consists of two Machine Guns in the left arm, with a Small Laser and another Machine Gun in the right arm. The head, right and left torsos each carry a SRM-4, while four tons of ammo help keep them sufficiently supplied. Powered by a 240 XL engine to mount such a heavy weapons loadout, the Bloodlust retains the same armor volume and single heat sinks of the common VL-2T variant.",
-    "Icon": "uixTxrIcon_vulcan"
+    "UIName": "Whitworth",
+    "Id": "chassisdef_whitworth_WTH-K",
+    "Name": "Whitworth",
+    "Details": "PLACEHOLDER",
+    "Icon": "uixTxrIcon_whitworth"
   },
-  "MovementCapDefID": "movedef_mech_medium_6",
+  "MovementCapDefID": "movedef_mech_medium_4",
   "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_vulcan",
-  "PrefabIdentifier": "chrPrfMech_vulcanBase-001",
-  "PrefabBase": "vulcan",
+  "HardpointDataDefID": "hardpointdatadef_whitworth",
+  "PrefabIdentifier": "chrprfmech_whitworthbase-001",
+  "PrefabBase": "whitworth",
   "Tonnage": 40,
-  "InitialTonnage": 16,
+  "InitialTonnage": 15,
   "weightClass": "MEDIUM",
-  "BattleValue": 3300000,
+  "BattleValue": 4790000,
   "Heatsinks": 0,
-  "TopSpeed": 97.2,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
-  "MaxJumpjets": 4,
+  "MaxJumpjets": 5,
   "Stability": 130,
   "StabilityDefenses": [
     0,
@@ -44,17 +44,12 @@
   "MeleeToHitModifier": 0,
   "DFADamage": 50,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 50,
+  "DFASelfDamage": 100,
   "DFAInstability": 50,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -66,10 +61,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -89,6 +80,10 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -99,12 +94,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 120,
@@ -114,6 +104,10 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -130,10 +124,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -169,61 +159,65 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 13.5,
+      "y": 12,
       "z": 0
     },
     {
-      "x": 3.5,
-      "y": 13.5,
+      "x": 3,
+      "y": 12,
       "z": 0
     },
     {
-      "x": -3.5,
-      "y": 13.5,
+      "x": -3,
+      "y": 12,
       "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 13.5,
+      "y": 12,
       "z": 0
     },
     {
-      "x": 3.5,
-      "y": 13.5,
+      "x": 3,
+      "y": 12,
       "z": 0
     },
     {
-      "x": -3.5,
-      "y": 13.5,
+      "x": -3,
+      "y": 12,
       "z": 0
     },
     {
-      "x": 2,
-      "y": 5.5,
-      "z": 1
+      "x": 2.5,
+      "y": 6,
+      "z": 0
     },
     {
-      "x": -2,
-      "y": 5.5,
-      "z": 1
+      "x": -2.5,
+      "y": 6,
+      "z": 0
     }
   ],
-  "VariantName": "VT-BL",
+  "VariantName": "WTH-K",
   "ChassisTags": {
     "items": [
-      "mech_quirk_narrowlowprofile",
-      "mech_quirk_largeengine"
+      "mr-resize-0.83",
+      "chassis_endo",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
+      "mech_quirk_rugged1",
+      "mech_quirk_weaklegs"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Striker",
-  "YangsThoughts": "This Bloodlust is a Vulcan on steroids, built for shredding infantry. It's got Machine Guns, SRM-4s, and a Small Laser, all packed into a surprisingly fast chassis. A true nightmare for enemy troops, this one.",
+  "StockRole": "Missile Boat",
+  "YangsThoughts": "",
   "FixedEquipment": [
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_XL_Engine",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -231,8 +225,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_XL_Engine",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -241,7 +235,52 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_General_Close_Quarters_Combat_Suite",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_C3_Slave",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_archerc"
   },
   "MovementCapDefID": "movedef_mech_heavy_4",
-  "PathingCapDefID": "pathingdef_assault",
+  "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_archer",
   "PrefabIdentifier": "chrPrfMech_archerBase-001",
   "PrefabBase": "archer",
@@ -156,45 +156,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 15,
-      "z": -1
+      "y": 18,
+      "z": 0
     },
     {
       "x": 4,
-      "y": 14,
-      "z": -0.5
+      "y": 17,
+      "z": 0
     },
     {
       "x": -4,
-      "y": 14,
-      "z": -0.5
+      "y": 17,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 15,
-      "z": -1
+      "y": 18,
+      "z": 0
     },
     {
       "x": 4,
-      "y": 14,
-      "z": -0.5
+      "y": 17,
+      "z": 0
     },
     {
       "x": -4,
-      "y": 14,
-      "z": -0.5
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 2.5,
+      "x": 3,
       "y": 5,
-      "z": 1
+      "z": 0
     },
     {
-      "x": -2.5,
+      "x": -3,
       "y": 5,
-      "z": 1
+      "z": 0
     }
   ],
   "VariantName": "ARC-C",

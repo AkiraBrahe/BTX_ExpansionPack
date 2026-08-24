@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_brawler",
@@ -9,10 +10,10 @@
       "unit_indirectFire",
       "unit_armor_high",
       "unit_speed_medium",
+      "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,11 +21,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 24020000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Mad Cat Mk II",
+    "UIName": "Mad Cat Mk II ",
     "Id": "mechdef_mad_cat_mkii",
     "Name": "Mad Cat Mk II",
     "Details": "This redesigned Timber Wolf boasts thirteen tons of ferro-fibrous armor while being one of the most nimble BattleMechs of its class, yet still packing serious weaponry. Its primary weapons are two Gauss Rifles supplemented by two LRM-10s, giving the 'Mech both long range and indirect fire capability. Four ER Medium Lasers can chew up what's left of the opposition in close combat. The Mech's primary role is long to medium range combat, with best performance within 450 meters, where all of its weapons can reach the opponent.",
@@ -275,5 +276,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

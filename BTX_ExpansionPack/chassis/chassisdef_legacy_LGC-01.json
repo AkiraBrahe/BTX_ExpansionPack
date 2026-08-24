@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 9330000,
-    "Rarity": 5,
+    "Cost": 8400000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_legacybase-001",
   "PrefabBase": "legacy",
   "Tonnage": 80,
-  "InitialTonnage": 22.56,
+  "InitialTonnage": 22.5,
   "weightClass": "ASSAULT",
   "BattleValue": 9835000,
   "Heatsinks": 10,
@@ -41,7 +41,7 @@
   "PunchesWithLeftArm": false,
   "MeleeDamage": 110,
   "MeleeInstability": 80,
-  "MeleeToHitModifier": -2,
+  "MeleeToHitModifier": 0,
   "DFADamage": 100,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
@@ -171,45 +171,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 14,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 4,
-      "y": 15,
-      "z": -1
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -4,
-      "y": 15,
-      "z": -1
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 14,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 4,
-      "y": 15,
-      "z": -1
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -4,
-      "y": 15,
-      "z": -1
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": 3.5,
-      "y": 5.5,
-      "z": 1
+      "x": 2,
+      "y": 3,
+      "z": 0.5
     },
     {
-      "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     }
   ],
   "VariantName": "LGC-01",
@@ -229,7 +229,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -238,7 +238,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -247,7 +247,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -256,7 +256,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

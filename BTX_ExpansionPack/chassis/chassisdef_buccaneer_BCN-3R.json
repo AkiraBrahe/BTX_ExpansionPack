@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 11660000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_buccaneerbase-001",
   "PrefabBase": "buccaneer",
   "Tonnage": 55,
-  "InitialTonnage": 25.01,
+  "InitialTonnage": 25,
   "weightClass": "MEDIUM",
   "BattleValue": 7170000,
   "Heatsinks": 10,
@@ -156,45 +156,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 15,
+      "y": 14,
       "z": 0
     },
     {
       "x": 4,
-      "y": 15,
+      "y": 14,
       "z": 0
     },
     {
       "x": -4,
-      "y": 15,
+      "y": 14,
       "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 15,
+      "y": 14,
       "z": 0
     },
     {
       "x": 4,
-      "y": 15,
+      "y": 14,
       "z": 0
     },
     {
       "x": -4,
-      "y": 15,
+      "y": 14,
       "z": 0
     },
     {
-      "x": 3,
-      "y": 5,
-      "z": 0
+      "x": 2.5,
+      "y": 6,
+      "z": 2.5
     },
     {
-      "x": -3,
-      "y": 5,
-      "z": 0
+      "x": -2.5,
+      "y": 6,
+      "z": 2.5
     }
   ],
   "VariantName": "BCN-3R",
@@ -203,6 +203,7 @@
       "mr-resize-1.15-0.90-1.00",
       "chassis_DHS",
       "chassis_ferro",
+      "ArmLimitLowerRight",
       "mech_quirk_improvedtargetingshort",
       "mech_quirk_rugged1",
       "mech_quirk_largeengine"
@@ -232,7 +233,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -241,7 +242,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -250,7 +251,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -259,7 +260,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -268,7 +269,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -277,7 +278,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

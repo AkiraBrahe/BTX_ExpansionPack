@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 970000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_flealetto"
   },
   "MovementCapDefID": "movedef_mech_light_6",
-  "PathingCapDefID": "pathingdef_light",
+  "PathingCapDefID": "pathingdef_ultralight",
   "HardpointDataDefID": "hardpointdatadef_stardrivestilleto",
   "PrefabIdentifier": "chrprfmech_stardrivestilletobase-001",
   "PrefabBase": "stardrivestilleto",
@@ -24,7 +24,7 @@
   "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 100,
+  "Stability": 70,
   "StabilityDefenses": [
     0,
     0,
@@ -37,7 +37,7 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 4,
+  "Radius": 3,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 15,
   "MeleeInstability": 15,
@@ -66,7 +66,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 15,
+      "MaxArmor": 20,
       "MaxRearArmor": -1,
       "InternalStructure": 10
     },
@@ -75,8 +75,8 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 30,
-      "MaxRearArmor": 15,
+      "MaxArmor": 40,
+      "MaxRearArmor": 20,
       "InternalStructure": 20
     },
     {
@@ -89,8 +89,8 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 35,
-      "MaxRearArmor": 17.5,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
       "InternalStructure": 25
     },
     {
@@ -98,8 +98,8 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 30,
-      "MaxRearArmor": 15,
+      "MaxArmor": 40,
+      "MaxRearArmor": 20,
       "InternalStructure": 20
     },
     {
@@ -107,7 +107,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 15,
+      "MaxArmor": 20,
       "MaxRearArmor": -1,
       "InternalStructure": 10
     },
@@ -116,7 +116,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 25,
+      "MaxArmor": 30,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     },
@@ -125,7 +125,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 25,
+      "MaxArmor": 30,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     }
@@ -133,51 +133,53 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 6.5,
-      "z": 0
+      "y": 6,
+      "z": 0.5
     },
     {
-      "x": 2,
-      "y": 6.5,
+      "x": 2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": -2,
-      "y": 6.5,
+      "x": -2.5,
+      "y": 6,
       "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 6.5,
-      "z": 0
+      "y": 6,
+      "z": 0.5
     },
     {
-      "x": 2,
-      "y": 6.5,
+      "x": 2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": -2,
-      "y": 6.5,
+      "x": -2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": 1.25,
-      "y": 3.5,
-      "z": 0
+      "x": 1.5,
+      "y": 2,
+      "z": 0.5
     },
     {
-      "x": -1.25,
-      "y": 3.5,
-      "z": 0
+      "x": -1.5,
+      "y": 2,
+      "z": 0.5
     }
   ],
   "VariantName": "STL-7D",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.45-0.55-0.55"
+      "mr-resize-0.45-0.55-0.55",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight"
     ],
     "tagSetSourceFile": ""
   },

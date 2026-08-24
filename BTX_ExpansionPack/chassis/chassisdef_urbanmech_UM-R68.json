@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 1530000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -158,12 +158,12 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 8.5,
       "z": -0.5
     }
@@ -175,22 +175,22 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": -1.5,
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 1.5,
+      "x": -1.5,
       "y": 3,
       "z": 0.5
     }
@@ -198,6 +198,8 @@
   "VariantName": "UM-R68",
   "ChassisTags": {
     "items": [
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_nominimalarms"

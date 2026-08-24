@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 11220000,
-    "Rarity": 5,
+    "Cost": 10080000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_lancelotbase-001",
   "PrefabBase": "lancelot",
   "Tonnage": 60,
-  "InitialTonnage": 22.44,
+  "InitialTonnage": 22,
   "weightClass": "HEAVY",
   "BattleValue": 6800000,
   "Heatsinks": 10,
@@ -202,6 +202,8 @@
       "mr-resize-1.05",
       "chassis_DHS",
       "mech_case_left",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_antiaircraft",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_badreputation",

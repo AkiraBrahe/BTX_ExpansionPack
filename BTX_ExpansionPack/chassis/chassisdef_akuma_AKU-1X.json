@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 9520000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -13,11 +13,11 @@
   },
   "MovementCapDefID": "movedef_mech_assault_3",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_hermes",
-  "PrefabIdentifier": "chrprfmech_hermesbase-001",
-  "PrefabBase": "hermes",
+  "HardpointDataDefID": "hardpointdatadef_atlas3",
+  "PrefabIdentifier": "chrPrfMech_atlas3Base-001",
+  "PrefabBase": "atlas3",
   "Tonnage": 90,
-  "InitialTonnage": 25.06,
+  "InitialTonnage": 25,
   "weightClass": "ASSAULT",
   "BattleValue": 9795000,
   "Heatsinks": 10,
@@ -64,11 +64,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -82,7 +78,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -110,7 +106,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -128,7 +124,11 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -204,9 +204,10 @@
   "VariantName": "AKU-1X",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.05",
+      "mr-resize-0.85-1-1",
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitLowerLeft",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""
@@ -215,8 +216,8 @@
   "YangsThoughts": "Despite being smaller than an Atlas, the Akuma packs a nasty punch. That LB-X Autocannon/10 ain't no joke, and with the MRM-30 on top, you've got a good mix of firepower and flexibility. Just mind the heat, Boss. That thing can get hot quick.",
   "FixedEquipment": [
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -224,8 +225,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -234,7 +235,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -243,7 +244,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -252,7 +253,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

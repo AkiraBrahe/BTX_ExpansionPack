@@ -9,7 +9,6 @@
       "unit_range_long",
       "unit_armor_high",
       "unit_speed_low",
-      "unit_jumpOK",
       "unit_hot",
       "unit_release",
       "unit_mechpack",
@@ -20,8 +19,8 @@
   "ChassisID": "chassisdef_wight_WGT-1LAW-SC",
   "HeraldryID": null,
   "Description": {
-    "Cost": 3420000,
-    "Rarity": 4,
+    "Cost": 3390000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -130,8 +129,8 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3069-01-01T00:00:00Z"
 }

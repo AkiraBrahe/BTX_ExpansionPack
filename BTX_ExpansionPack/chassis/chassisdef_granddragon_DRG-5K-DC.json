@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 14090000,
-    "Rarity": 4,
+    "Cost": 14070000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 90,
+  "MeleeDamage": 80,
   "MeleeInstability": 60,
   "MeleeToHitModifier": 0,
   "DFADamage": 75,
@@ -205,6 +205,7 @@
     "items": [
       "chassis_DHS",
       "mech_case_left",
+      "ArmLimitLowerRight",
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_stable",

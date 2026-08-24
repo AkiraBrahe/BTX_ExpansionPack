@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 6820000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,11 +17,11 @@
   "PrefabIdentifier": "chrprfmech_hellfirebase-001",
   "PrefabBase": "hellfire",
   "Tonnage": 60,
-  "InitialTonnage": 23.54,
+  "InitialTonnage": 23.5,
   "weightClass": "HEAVY",
   "BattleValue": 10570000,
   "Heatsinks": 10,
-  "TopSpeed": 86.4,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 160,
@@ -211,9 +211,9 @@
   "VariantName": "HLF-1",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_difficulttomaintain"
     ],
     "tagSetSourceFile": ""

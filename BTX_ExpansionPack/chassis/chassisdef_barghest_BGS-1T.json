@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 16470000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -202,6 +202,8 @@
     "items": [
       "mr-resize-0.9",
       "chassis_DHS",
+      "ArmLimitNoneLeft",
+      "ArmLimitNoneRight",
       "mech_quirk_directionaltorsomount",
       "mech_quirk_largeengine"
     ],

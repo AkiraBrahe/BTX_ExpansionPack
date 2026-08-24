@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_sentry_SNT-04",
   "HeraldryID": null,
   "Description": {
-    "Cost": 3250000,
-    "Rarity": 4,
+    "Cost": 3230000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "Buit on an endo steel chassis, the Sentry can carry heavier weapons and equipment. For anti-'Mech and vehicle combat, it carries a PPC and a pair of Small Pulse Lasers which can double as anti-infantry weapons. For anti-infantry and crowd control missions, the Sentry has a quartet of Machine Guns and a Flamer.",
     "Icon": "uixTxrIcon_sentry"
   },
-  "simGameMechPartCost": 330000,
+  "simGameMechPartCost": 320000,
   "Version": 1,
   "Locations": [
     {
@@ -218,5 +218,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3056-01-01T00:00:00Z"
 }

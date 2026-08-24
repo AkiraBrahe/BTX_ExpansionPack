@@ -11,6 +11,7 @@
       "unit_jumpOK",
       "unit_release",
       "unit_mechpack",
+      "unit_new",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -19,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 3770000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -194,5 +195,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3052-01-01T00:00:00Z"
 }

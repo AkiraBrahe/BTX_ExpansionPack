@@ -1,17 +1,18 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
-      "unit_lance_assassin",
       "unit_lance_vanguard",
+      "unit_lance_assassin",
       "unit_range_long",
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
       "unit_mechpack",
-      "unit_clan"
+      "unit_new"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,13 +20,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 26500000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Mongrel PRIME",
+    "UIName": "Grotesque (Mongrel) Prime",
     "Id": "mechdef_mongrel_grotesque-PRIME",
-    "Name": "Mongrel",
+    "Name": "Grotesque (Mongrel)",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_mongrel"
   },
@@ -186,5 +187,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3049-01-01T00:00:00Z"
 }

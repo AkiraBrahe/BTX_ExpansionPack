@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_sniper",
@@ -12,15 +13,14 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_battle_cobra-F",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5550000,
+    "Cost": 5300000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -31,7 +31,7 @@
     "Details": "A medium-range, jump jet equipped brawler, the F configuration mounts a UAC/5 and single ton of reloads in its right arm, supported by a trio of ER Medium Lasers in its left.",
     "Icon": "uixTxrIcon_battlecobra"
   },
-  "simGameMechPartCost": 560000,
+  "simGameMechPartCost": 530000,
   "Version": 1,
   "Locations": [
     {
@@ -196,5 +196,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3057-01-01T00:00:00Z"
 }

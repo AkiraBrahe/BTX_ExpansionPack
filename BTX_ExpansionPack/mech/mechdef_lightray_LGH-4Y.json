@@ -18,8 +18,8 @@
   },
   "ChassisID": "chassisdef_lightray_LGH-4Y",
   "Description": {
-    "Cost": 13040000,
-    "Rarity": 4,
+    "Cost": 12600000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "The main weapon of the Lightray is its Large Pulse Laser. A pair of ER Medium Lasers and an ER Small Laser add to the close-range damage the 'Mech can deal. Lastly, two SRM-2 packs with one ton of ammunition exploit holes in an enemy's armor.",
     "Icon": "uixTxrIcon_lightray"
   },
-  "simGameMechPartCost": 1300000,
+  "simGameMechPartCost": 1260000,
   "Version": 1,
   "Locations": [
     {
@@ -162,5 +162,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

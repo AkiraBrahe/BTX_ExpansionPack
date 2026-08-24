@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 15210000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,14 +17,14 @@
   "PrefabIdentifier": "chrprfmech_stormcrowbase-001",
   "PrefabBase": "stormcrow",
   "Tonnage": 55,
-  "InitialTonnage": 22.52,
+  "InitialTonnage": 22.5,
   "weightClass": "MEDIUM",
   "BattleValue": 11065000,
   "Heatsinks": 10,
   "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 160,
+  "Stability": 163,
   "StabilityDefenses": [
     0,
     0,
@@ -200,11 +200,11 @@
   "VariantName": "RYO-P",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_stable",
       "mech_quirk_largeengine"
     ],

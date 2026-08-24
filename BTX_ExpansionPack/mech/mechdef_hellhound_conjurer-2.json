@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_scout",
@@ -11,8 +12,7 @@
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -20,13 +20,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 11720000,
-    "Rarity": 3,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Hellhound 2",
+    "UIName": "Hellhound (Conjurer) 2",
     "Id": "mechdef_hellhound_conjurer-2",
-    "Name": "Hellhound",
+    "Name": "Hellhound (Conjurer)",
     "Details": "The Conjurer 2 is a complete rebuild of the primary configuration, with an upgraded 350 XL fusion engine and an extra jump jet. To allow for maximum flexibility, the weapons are removed to make way for an ATM-9 with three tons of ammunition, completed by a pair of Medium Pulse Lasers linked to a Targeting Computer. A half-ton of armor increases the armor protection to the maximum that the 50-ton chassis can support.",
     "Icon": "uixTxrIcon_hellhound"
   },
@@ -211,5 +211,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

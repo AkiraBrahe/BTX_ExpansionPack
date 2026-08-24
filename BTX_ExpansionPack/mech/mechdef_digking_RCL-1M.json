@@ -7,7 +7,7 @@
       "unit_role_brawler",
       "unit_lance_support",
       "unit_range_short",
-      "unit_armor_medium",
+      "unit_armor_high",
       "unit_speed_low",
       "unit_hot",
       "unit_release",
@@ -19,11 +19,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 1640000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Dig King RCL-1M",
+    "UIName": "Dig King RCL-1 MiningMech MOD",
     "Id": "mechdef_digking_RCL-1M",
     "Name": "Dig King",
     "Details": "This weaponized version of the Dig King is primarily used by various factions and militias. The 'Mech now has two SRM-4 launchers with one ton of ammunition in place of the Lift Hoist, a pair of Machine Guns and their ammunition in place of the Mining Drill, and gains a slight increase in overall armor while keeping the Rock Cutter in the right arm.",
@@ -154,5 +154,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2802-01-01T00:00:00Z"
 }

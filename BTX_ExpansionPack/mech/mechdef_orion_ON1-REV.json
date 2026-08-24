@@ -23,9 +23,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Orion ON1-REV",
+    "UIName": "Orion (Kerensky)",
     "Id": "mechdef_orion_ON1-REV",
-    "Name": "Revenant",
+    "Name": "Orion",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_orion"
   },
@@ -124,11 +124,21 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_SRM_ASRM4_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "CenterTorso",
@@ -178,5 +188,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2779-01-01T00:00:00Z"
 }

@@ -207,9 +207,11 @@
   ],
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
-      "chassis_clan"
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight"
     ],
     "tagSetSourceFile": ""
   },

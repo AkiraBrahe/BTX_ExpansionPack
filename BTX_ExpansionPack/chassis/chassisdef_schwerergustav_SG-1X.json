@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 32000000,
+    "Cost": 31700000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -11,7 +11,7 @@
     "Details": "Underneath its strange exterior, the Gustav is outfitted with a hybrid standard and endo steel chassis and a 400-rated XL engine, giving the 'Mech surprising staying power and speed for its size. Intended as a Command 'Mech, a Command Console and a Bloodhound Active Probe are included. The primary weapon of the Schwerer Gustav is a massive Thumper Artillery Cannon capable of unleashing supporting fire from long distances, while the more direct firepower comes in the form of a Rotary AC/5 and a Binary Laser Cannon. Five tons of ammo shared between the Thumper Cannon and the RAC/5 give the Gustav good endurance in the field.",
     "Icon": "uixTxrIcon_schwerergustav"
   },
-  "MovementCapDefID": "movedef_mech_assault_2",
+  "MovementCapDefID": "movedef_mech_assault_4",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_schwerergustav",
   "PrefabIdentifier": "chrprfmech_schwerergustavbase-001",
@@ -19,7 +19,7 @@
   "Tonnage": 100,
   "InitialTonnage": 46.5,
   "weightClass": "ASSAULT",
-  "BattleValue": 9820000,
+  "BattleValue": 8215000,
   "Heatsinks": 28,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 120,
+  "MeleeDamage": 70,
   "MeleeInstability": 100,
   "MeleeToHitModifier": 0,
   "DFADamage": 125,
@@ -74,9 +74,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 170,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 50
     },
     {
       "Location": "LeftTorso",
@@ -119,9 +119,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
     },
     {
       "Location": "RightArm",
@@ -141,9 +141,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 170,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 50
     },
     {
       "Location": "LeftLeg",
@@ -214,12 +214,14 @@
       "chassis_DHS",
       "chassis_endo",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_hyperextendingactuators",
       "mech_quirk_nonstandardparts"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Missile Boat",
+  "StockRole": "Juggernaut",
   "YangsThoughts": "I can't believe my eyes! This is the Schwerer Gustav, built on a bar bet and fueled by pure, unadulterated madness! Imagine the charred skeleton of an Annihilator, patched up with Verfolger and Berserker parts. Under the hood, the standard-endo steel hybrid chassis holds a Thumper Cannon, a Blazer, and a Rotary AC/5. Ammo ain't a problem, this thing's built to outlast anything on the battlefield. Top it off with a rare Command Console, and you've got yourself a lance leader that'll scare the paint off anything smaller than a dropship.",
   "FixedEquipment": [
     {
@@ -242,7 +244,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HybridEndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -251,7 +253,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HybridEndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -260,7 +262,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_HybridEndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

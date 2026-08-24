@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 5350000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -202,7 +202,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Militarized LoaderMech",
+  "StockRole": "Brawler",
   "YangsThoughts": "The 1B variant is probably designed for long campaigns with unreliable supply lines. Its AC/10 was downgraded to an Autocannon/5, while the SRM launcher has been upgraded to an SRM-6. Three tons of autocannon ammo and two tons each of SRM and MG ammo mean it can stay in the field much longer.",
   "FixedEquipment": []
 }

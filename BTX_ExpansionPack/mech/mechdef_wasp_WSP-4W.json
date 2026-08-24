@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_wasp_WSP-4W",
   "HeraldryID": null,
   "Description": {
-    "Cost": 2610000,
-    "Rarity": 4,
+    "Cost": 2280000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "A replacement for the 3W, Wolf's Dragoons deployed this improved model due to negative combat experiences with its predecessor. Protection is increased to three tons of ferro-fibrous armor and it is powered by a light fusion engine with 10 double heat sinks. The right arm and left torso are equipped with ER Medium Lasers and a pair of Small Pulse Lasers are installed in the left leg.",
     "Icon": "uixTxrIcon_wasp"
   },
-  "simGameMechPartCost": 260000,
+  "simGameMechPartCost": 230000,
   "Version": 1,
   "Locations": [
     {
@@ -187,5 +187,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
 }

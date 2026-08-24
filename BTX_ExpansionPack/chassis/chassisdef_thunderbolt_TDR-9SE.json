@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 5870000,
-    "Rarity": 5,
+    "Cost": 5850000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
   "PrefabBase": "thunderbolt",
   "Tonnage": 65,
-  "InitialTonnage": 26.81,
+  "InitialTonnage": 26.5,
   "weightClass": "HEAVY",
   "BattleValue": 7195000,
   "Heatsinks": 10,

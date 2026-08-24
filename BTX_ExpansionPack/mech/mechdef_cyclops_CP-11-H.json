@@ -11,8 +11,8 @@
       "unit_speed_medium",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
       "unit_dlc",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_cyclops_CP-11-H",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9680000,
-    "Rarity": 3,
+    "Cost": 9700000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -212,5 +212,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

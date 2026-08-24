@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 4810000,
-    "Rarity": 3,
+    "Cost": 4610000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_mech_medium_6",
   "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_conjurer",
-  "PrefabIdentifier": "chrPrfMech_conjurerbase-001",
-  "PrefabBase": "conjurer",
+  "HardpointDataDefID": "hardpointdatadef_shdiic",
+  "PrefabIdentifier": "chrPrfMech_shdiicbase-001",
+  "PrefabBase": "shdiic",
   "Tonnage": 45,
   "InitialTonnage": 23,
   "weightClass": "MEDIUM",
@@ -203,10 +203,11 @@
   "VariantName": "SHD-IIC-3",
   "ChassisTags": {
     "items": [
+      "mr-resize-0.9",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_battlefists",
       "mech_quirk_improvedlifesupport",
       "mech_quirk_largeengine"

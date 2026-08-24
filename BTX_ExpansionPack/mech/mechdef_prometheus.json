@@ -25,7 +25,7 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Prometheus PTS-01",
+    "UIName": "Prometheus ",
     "Id": "mechdef_prometheus",
     "Name": "Prometheus",
     "Details": "This prototype combines the abilities and parts of the Loki, Mad Cat, Thor and Vulture with the unrivaled control offered by the DNI. The Prometheus has a powerful arsenal of captured Clan weapons, including an ER PPC, Large Pulse Laser, and a pair of LRM-15 launchers for long range combat, supported by two Medium Pulse Lasers. The 'Mech can also hold its own in close quarters thanks to its two SRM-6 launchers and six Machine Guns.",
@@ -260,5 +260,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
 }

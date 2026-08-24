@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 6780000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -208,6 +208,8 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_rugged2",
       "mech_quirk_searchlight_LT",
       "mech_quirk_stable"

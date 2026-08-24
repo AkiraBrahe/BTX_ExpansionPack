@@ -21,13 +21,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 2540000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Hammer HMR-3S",
     "Id": "mechdef_hammer_HMR-3S",
-    "Name": "\"Slammer\"",
+    "Name": "“Slammer”",
     "Details": "The 3S, commonly called the Slammer, aims to increase the longevity of the Hammer on the battlefield as a fire support 'Mech. This is done by removing two of the Medium Lasers and replacing them with two more tons of ammunition. The 'Mech can subsequently fire a sustained barrage of LRM fire for up to eight minutes.",
     "Icon": "uixTxrIcon_hammer"
   },
@@ -118,11 +118,21 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
@@ -150,11 +160,21 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment1"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment1"
     },
     {
       "MountedLocation": "RightTorso",
@@ -172,5 +192,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3054-01-01T00:00:00Z"
 }

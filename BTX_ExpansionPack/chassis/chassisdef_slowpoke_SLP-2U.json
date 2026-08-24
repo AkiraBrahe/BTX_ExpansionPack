@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 760000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_slowpoke"
   },
   "MovementCapDefID": "movedef_mech_light_2",
-  "PathingCapDefID": "pathingdef_light",
+  "PathingCapDefID": "pathingdef_ultralight",
   "HardpointDataDefID": "hardpointdatadef_slowpoke",
   "PrefabIdentifier": "chrprfmech_slowpokebase-001",
   "PrefabBase": "slowpoke",
@@ -20,11 +20,11 @@
   "InitialTonnage": 5.5,
   "weightClass": "LIGHT",
   "BattleValue": 980000,
-  "Heatsinks": 10,
+  "Heatsinks": 0,
   "TopSpeed": 32.4,
   "TurnRadius": 90,
   "MaxJumpjets": 2,
-  "Stability": 100,
+  "Stability": 70,
   "StabilityDefenses": [
     0,
     0,
@@ -37,10 +37,10 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 4,
+  "Radius": 3,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 10,
-  "MeleeInstability": 15,
+  "MeleeDamage": 15,
+  "MeleeInstability": 10,
   "MeleeToHitModifier": 0,
   "DFADamage": 15,
   "DFAToHitModifier": 0,
@@ -132,45 +132,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 6.5,
-      "z": 0
+      "y": 6,
+      "z": 0.5
     },
     {
-      "x": 2,
-      "y": 6.5,
+      "x": 2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": -2,
-      "y": 6.5,
+      "x": -2.5,
+      "y": 6,
       "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 6.5,
-      "z": 0
+      "y": 6,
+      "z": 0.5
     },
     {
-      "x": 2,
-      "y": 6.5,
+      "x": 2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": -2,
-      "y": 6.5,
+      "x": -2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": 1.25,
-      "y": 3.5,
-      "z": 0
+      "x": 1.5,
+      "y": 2,
+      "z": 0.5
     },
     {
-      "x": -1.25,
-      "y": 3.5,
-      "z": 0
+      "x": -1.5,
+      "y": 2,
+      "z": 0.5
     }
   ],
   "VariantName": "SLP-2U",
@@ -181,6 +181,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Ambusher",
-  "YangsThoughts": "PLACEHOLDER",
+  "YangsThoughts": "",
   "FixedEquipment": []
 }

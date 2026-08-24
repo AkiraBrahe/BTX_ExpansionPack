@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_summonerbase-001",
   "PrefabBase": "summoner",
   "Tonnage": 70,
-  "InitialTonnage": 29.02,
+  "InitialTonnage": 29,
   "weightClass": "HEAVY",
   "BattleValue": 11255000,
   "Heatsinks": 10,
@@ -195,10 +195,12 @@
   "VariantName": "THO-M",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_improvedcomm",
       "mech_quirk_largeengine"
     ],

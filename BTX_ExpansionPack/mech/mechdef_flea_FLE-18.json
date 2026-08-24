@@ -7,7 +7,7 @@
       "unit_lance_assassin",
       "unit_range_short",
       "unit_armor_low",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_release",
       "unit_mechpack",
       "unit_LosTech"
@@ -17,14 +17,14 @@
   "ChassisID": "chassisdef_flea_FLE-18",
   "HeraldryID": null,
   "Description": {
-    "Cost": 1620000,
-    "Rarity": 4,
+    "Cost": 1610000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Flea FLE-18",
+    "UIName": "Flea Fire Ant",
     "Id": "mechdef_flea_FLE-18",
-    "Name": "\"Fire Ant\"",
+    "Name": "“Fire Ant”",
     "Details": "The \"Fire Ant\" is a vicious anti-infantry 'Mech that first appeared in the urban urban chaos of the Chaos March. This variant removes half a ton of armor in favor of six Machine Guns and three Flamers. Likely intended for urban pacification, its origins remain shrouded in mystery, as Earthwerks officially denies any involvement in its design.",
     "Icon": "uixTxrIcon_flea"
   },
@@ -185,5 +185,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

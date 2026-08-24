@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -11,8 +12,7 @@
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,9 +24,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Thor M",
+    "UIName": "Thor (Summoner) M",
     "Id": "mechdef_thor_summoner-M",
-    "Name": "Thor",
+    "Name": "Thor (Summoner)",
     "Details": "The preferred configuration of Nicolai Malthus, the M configuration is similar to the primary configuration in that it includes an ER PPC as its primary weapon, backed up by an LB 10-X Autocannon. However, it distinguishes itself by replacing the long-range missile launcher with a Streak SRM-6 and an ER Small Laser as secondary armament.",
     "Icon": "uixTxrIcon_thor"
   },
@@ -195,5 +195,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3051-01-01T00:00:00Z"
 }

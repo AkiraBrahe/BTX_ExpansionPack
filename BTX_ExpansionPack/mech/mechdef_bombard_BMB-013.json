@@ -19,7 +19,7 @@
   "ChassisID": "chassisdef_bombard_BMB-013",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5290000,
+    "Cost": 5280000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -109,7 +109,7 @@
   "inventory": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_LRM_Thunderbolt15_0-STOCK",
+      "ComponentDefID": "Weapon_Thunderbolt_Thunderbolt15_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -125,7 +125,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_TB15",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thunderbolt15",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -133,7 +133,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_TB15",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thunderbolt15",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -141,7 +141,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_TB15",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thunderbolt15",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -157,7 +157,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_TB15",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thunderbolt15",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -165,7 +165,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_TB15",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thunderbolt15",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -173,7 +173,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_TB15",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Thunderbolt15",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -181,11 +181,12 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_LRM_Thunderbolt15_0-STOCK",
+      "ComponentDefID": "Weapon_Thunderbolt_Thunderbolt15_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

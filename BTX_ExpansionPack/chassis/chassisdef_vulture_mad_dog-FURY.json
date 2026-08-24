@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 13390000,
+    "Cost": 15170000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
@@ -198,13 +198,16 @@
   "VariantName": "VUL-FURY",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_crampedcockpit",
-      "mech_quirk_improvedtargetingmedium"
+      "mech_quirk_improvedtargetingmedium",
+      "mech_quirk_largeengine"
     ],
     "tagSetSourceFile": ""
   },

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 8370000,
-    "Rarity": 5,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_celerity"
   },
   "MovementCapDefID": "movedef_mech_light_16",
-  "PathingCapDefID": "pathingdef_light",
+  "PathingCapDefID": "pathingdef_light_quad",
   "HardpointDataDefID": "hardpointdatadef_cucelerity",
   "PrefabIdentifier": "chrprfmech_cucelerity",
   "PrefabBase": "cucelerity",
@@ -20,11 +20,11 @@
   "InitialTonnage": 10.5,
   "weightClass": "LIGHT",
   "BattleValue": 785000,
-  "Heatsinks": 10,
-  "TopSpeed": 345.6,
+  "Heatsinks": 0,
+  "TopSpeed": 259.2,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 100,
+  "Stability": 105,
   "StabilityDefenses": [
     0,
     0,
@@ -37,7 +37,7 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 4,
+  "Radius": 3,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 15,
   "MeleeInstability": 15,
@@ -49,32 +49,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 2,
       "MaxArmor": 45,
@@ -92,32 +67,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 40,
@@ -126,32 +76,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 50,
@@ -160,32 +85,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 40,
@@ -227,12 +127,12 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 6,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 6,
       "z": -0.5
     }
@@ -244,22 +144,22 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
-      "y": 6,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 6,
       "z": -0.5
     },
     {
-      "x": -1.5,
+      "x": -2.5,
+      "y": 6,
+      "z": -0.5
+    },
+    {
+      "x": 1.5,
       "y": 2,
       "z": 0.5
     },
     {
-      "x": 1.5,
+      "x": -1.5,
       "y": 2,
       "z": 0.5
     }
@@ -269,13 +169,15 @@
     "items": [
       "mr-resize-0.45",
       "chassis_endo",
+      "ArmLimitNoneLeft",
+      "ArmLimitNoneRight",
       "mech_quirk_exposedactuators",
       "mech_quirk_prototype"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Scout",
-  "YangsThoughts": "PLACEHOLDER",
+  "YangsThoughts": "",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_brawler",
@@ -8,23 +9,22 @@
       "unit_lance_tank",
       "unit_range_long",
       "unit_indirectFire",
-      "unit_armor_high",
+      "unit_armor_low",
       "unit_speed_high",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_nagaii-PRIME",
   "HeraldryID": null,
   "Description": {
-    "Cost": 26830000,
-    "Rarity": 4,
+    "Cost": 26800000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Naga II PRIME",
+    "UIName": "Naga II Prime",
     "Id": "mechdef_nagaii-PRIME",
     "Name": "Naga II",
     "Details": "PLACEHOLDER",
@@ -203,5 +203,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2866-01-01T00:00:00Z"
 }

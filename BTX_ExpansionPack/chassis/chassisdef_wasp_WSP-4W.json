@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 2610000,
-    "Rarity": 4,
+    "Cost": 2280000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -151,12 +151,12 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 8.5,
       "z": -0.5
     }
@@ -168,22 +168,22 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": -1.5,
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 1.5,
+      "x": -1.5,
       "y": 3,
       "z": 0.5
     }
@@ -221,7 +221,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -230,7 +230,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -239,7 +239,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -248,7 +248,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -257,7 +257,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

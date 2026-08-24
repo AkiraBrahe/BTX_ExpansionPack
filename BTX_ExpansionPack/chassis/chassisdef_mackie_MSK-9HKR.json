@@ -21,7 +21,7 @@
   "weightClass": "ASSAULT",
   "BattleValue": 10810000,
   "Heatsinks": 10,
-  "TopSpeed": 65,
+  "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 200,
@@ -44,8 +44,8 @@
   "MeleeToHitModifier": 0,
   "DFADamage": 125,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 100,
-  "DFAInstability": 40,
+  "DFASelfDamage": 125,
+  "DFAInstability": 125,
   "Locations": [
     {
       "Location": "Head",
@@ -168,12 +168,12 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 8.5,
       "z": -0.5
     }
@@ -185,22 +185,22 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": -1.5,
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 1.5,
+      "x": -1.5,
       "y": 3,
       "z": 0.5
     }
@@ -211,6 +211,8 @@
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_easytomaintain",
       "mech_quirk_oversized",
       "mech_quirk_protectedactuators",

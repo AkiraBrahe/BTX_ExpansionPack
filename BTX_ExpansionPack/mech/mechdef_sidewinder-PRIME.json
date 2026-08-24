@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_sniper",
@@ -8,30 +9,29 @@
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_high",
-      "unit_speed_high",
+      "unit_speed_medium",
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_sidewinder-PRIME",
   "HeraldryID": null,
   "Description": {
-    "Cost": 22930000,
-    "Rarity": 4,
+    "Cost": 23080000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Sidewinder PRIME",
+    "UIName": "Sidewinder Prime",
     "Id": "mechdef_sidewinder-PRIME",
     "Name": "Sidewinder",
     "Details": "In its only known configuration, the Sidewinder mounts a Gauss Rifle, two LRM-10 with Artemis IV fire control, a Large Pulse Laser, two Medium Pulse Lasers and an AMS system, with twelve double heat sinks. The use of a weaker engine compared to the Timber Wolf is offset by the inclusion of jump jets and a MASC system.",
     "Icon": "uixTxrIcon_sidewinder"
   },
-  "simGameMechPartCost": 2290000,
+  "simGameMechPartCost": 2310000,
   "Version": 1,
   "Locations": [
     {
@@ -212,5 +212,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3049-01-01T00:00:00Z"
 }

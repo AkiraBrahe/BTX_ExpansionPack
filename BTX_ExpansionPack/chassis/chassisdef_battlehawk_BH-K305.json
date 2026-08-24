@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 3760000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_grasshopperBase-001",
   "PrefabBase": "grasshopper",
   "Tonnage": 30,
-  "InitialTonnage": 11.03,
+  "InitialTonnage": 11,
   "weightClass": "LIGHT",
   "BattleValue": 3855000,
   "Heatsinks": 10,
@@ -146,45 +146,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 11,
+      "y": 18,
       "z": 0
     },
     {
-      "x": -2.5,
-      "y": 10.5,
-      "z": -0.5
+      "x": 4,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 10.5,
-      "z": -0.5
+      "x": -4,
+      "y": 17,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 11,
+      "y": 18,
       "z": 0
     },
     {
-      "x": -2.5,
-      "y": 10.5,
-      "z": -0.5
+      "x": 4,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": 2.5,
-      "y": 10.5,
-      "z": -0.5
+      "x": -4,
+      "y": 17,
+      "z": 0
     },
     {
-      "x": -2,
-      "y": 4,
-      "z": 0.5
+      "x": 3,
+      "y": 5,
+      "z": 0
     },
     {
-      "x": 2,
-      "y": 4,
-      "z": 0.5
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "BH-K305",
@@ -220,7 +220,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -229,7 +229,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -238,7 +238,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -247,7 +247,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -256,7 +256,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -265,7 +265,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

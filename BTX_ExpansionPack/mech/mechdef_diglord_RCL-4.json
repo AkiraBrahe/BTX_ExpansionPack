@@ -7,7 +7,7 @@
       "unit_role_brawler",
       "unit_lance_support",
       "unit_range_short",
-      "unit_armor_low",
+      "unit_armor_medium",
       "unit_speed_low",
       "unit_release",
       "unit_mechpack"
@@ -18,11 +18,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 2340000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Dig Lord RCL-4",
+    "UIName": "Dig Lord RCL-4 MiningMech",
     "Id": "mechdef_diglord_RCL-4",
     "Name": "Dig Lord",
     "Details": "The RCL-4 is equipped with a Rock Cutter in its right arm and a Mining Drill in its left arm. The 'Mech has four Fluid Guns with ten tons of liquid storage for them. The 'Mech is also equipped with an Extended Fuel Tank for prolonged use in the field.",
@@ -217,5 +217,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3057-01-01T00:00:00Z"
 }

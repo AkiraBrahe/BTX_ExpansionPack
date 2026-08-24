@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_atlas_AS7-D-H2",
   "HeraldryID": null,
   "Description": {
-    "Cost": 11360000,
-    "Rarity": 5,
+    "Cost": 10800000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "This variant exchanges both ER Large Lasers and its LB 10-X for an ER PPC and a Gauss Rifle while removing only one double heat sink.",
     "Icon": "uixTxrIcon_atlas"
   },
-  "simGameMechPartCost": 1140000,
+  "simGameMechPartCost": 1080000,
   "Version": 1,
   "Locations": [
     {
@@ -210,5 +210,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2780-01-01T00:00:00Z"
 }

@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_crusader_CRD-4L",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5590000,
-    "Rarity": 5,
+    "Cost": 5570000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -203,5 +203,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3049-01-01T00:00:00Z"
 }

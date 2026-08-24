@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 7770000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -164,54 +164,54 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 13.5,
+      "y": 12,
       "z": 0
     },
     {
       "x": 3,
-      "y": 12.5,
-      "z": -0.5
+      "y": 12,
+      "z": 0
     },
     {
       "x": -3,
-      "y": 12.5,
-      "z": -0.5
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 13.5,
+      "y": 12,
       "z": 0
     },
     {
       "x": 3,
-      "y": 12.5,
-      "z": -0.5
+      "y": 12,
+      "z": 0
     },
     {
       "x": -3,
-      "y": 12.5,
-      "z": 0.5
+      "y": 12,
+      "z": 0
     },
     {
-      "x": 2,
+      "x": 2.5,
       "y": 6,
-      "z": 1
+      "z": 0
     },
     {
-      "x": -2,
+      "x": -2.5,
       "y": 6,
-      "z": 1
+      "z": 0
     }
   ],
   "VariantName": "ACW-1",
   "ChassisTags": {
     "items": [
       "mr-resize-1.15",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
       "mech_quirk_improvedtargetingshort",
       "mech_quirk_extralargeengine"
     ],

@@ -2,23 +2,24 @@
   "MechTags": {
     "items": [
       "unit_mech",
-      "unit_release",
       "unit_light",
-      "unit_lance_vanguard",
       "unit_role_scout",
+      "unit_lance_vanguard",
       "unit_range_short",
+      "unit_armor_medium",
       "unit_speed_high",
+      "unit_release",
+      "BLACKLISTED",
       "unit_LosTech",
-      "mech_MechPartSalvageRedirect_mercury_MCY-99",
-      "BLACKLISTED"
+      "mech_MechPartSalvageRedirect_mercury_MCY-99"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_mercury_MCY-99_331",
   "HeraldryID": null,
   "Description": {
-    "Cost": 2460000,
-    "Rarity": 1,
+    "Cost": 1800000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -28,7 +29,7 @@
     "Details": "The Mercury debuted for the first time in 2742, intended as a replacement for the aging Wasps and Stingers in use by the Star League Defense Force. Hailed as the beginning of a new age in 'Mech design, the Mercury was faster and better-armed than its competition without sacrificing armor protection. The ideal scout and raider, sales of the Mercury were limited exclusively to the SLDF.",
     "Icon": "uixTxrIcon_mercury"
   },
-  "simGameMechPartCost": 250000,
+  "simGameMechPartCost": 180000,
   "Version": 1,
   "Locations": [
     {
@@ -61,11 +62,11 @@
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "CurrentArmor": 30,
-      "CurrentRearArmor": 20,
+      "CurrentArmor": 35,
+      "CurrentRearArmor": 15,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 30,
-      "AssignedRearArmor": 20
+      "AssignedArmor": 35,
+      "AssignedRearArmor": 15
     },
     {
       "DamageLevel": "Functional",
@@ -137,5 +138,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2742-01-01T00:00:00Z"
 }

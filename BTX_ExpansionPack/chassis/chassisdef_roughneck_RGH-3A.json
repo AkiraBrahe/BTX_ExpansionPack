@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 5680000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -205,7 +205,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Militarized LoaderMech",
+  "StockRole": "Sniper",
   "YangsThoughts": "This 3A variant is the culmination of the Roughneck lineup, Boss. It embraces double heat sink tech, which really helps it vent its all-energy loadout. Arm-mounted PPCs, two Medium Lasers, and a Small Laser make it wholly independent from supply lines, making it a great raider or harasser. This is a really decent 'Mech, and I can see many mercenaries or militias using it with great success.",
   "FixedEquipment": []
 }

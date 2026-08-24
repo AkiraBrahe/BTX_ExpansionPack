@@ -25,9 +25,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Firestarter Omni FS9-OX",
+    "UIName": "Firestarter FS9-OX",
     "Id": "mechdef_firestarter_FS9-OX",
-    "Name": "Firestarter Omni",
+    "Name": "Firestarter",
     "Details": "This version boasts several experimental systems. Reminiscent of the Firestarter H, it's equipped with an Angel ECM suite and Bloodhound Active Probe. It carries the twin center torso Flamers common to all Firestarter variants, and augments them with a Streak SRM-2 and a Large X-Pulse Laser.",
     "Icon": "uixTxrIcon_firestartero"
   },
@@ -132,5 +132,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3059-01-01T00:00:00Z"
 }

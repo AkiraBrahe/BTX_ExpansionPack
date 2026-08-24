@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 8300000,
-    "Rarity": 4,
+    "Cost": 8280000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,10 +17,10 @@
   "PrefabIdentifier": "chrprfmech_goliath",
   "PrefabBase": "cugoliath",
   "Tonnage": 80,
-  "InitialTonnage": 38.06,
+  "InitialTonnage": 38,
   "weightClass": "ASSAULT",
   "BattleValue": 9875000,
-  "Heatsinks": 0,
+  "Heatsinks": 10,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
@@ -226,6 +226,8 @@
       "mr-resize-0.9",
       "chassis_DHS",
       "mech_case_left",
+      "ArmLimitNoneLeft",
+      "ArmLimitNoneRight",
       "mech_quirk_multitrac",
       "mech_quirk_exposedactuators"
     ],

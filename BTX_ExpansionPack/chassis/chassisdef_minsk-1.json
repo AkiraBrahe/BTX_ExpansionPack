@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 7340000,
-    "Rarity": 4,
+    "Cost": 7350000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,14 +17,14 @@
   "PrefabIdentifier": "chrprfmech_minskbase-001",
   "PrefabBase": "minsk",
   "Tonnage": 70,
-  "InitialTonnage": 18.51,
+  "InitialTonnage": 18.5,
   "weightClass": "HEAVY",
   "BattleValue": 10140000,
   "Heatsinks": 10,
   "TopSpeed": 54,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 200,
+  "Stability": 160,
   "StabilityDefenses": [
     0,
     0,
@@ -198,23 +198,25 @@
       "z": 0
     },
     {
-      "x": 2.5,
+      "x": 3,
       "y": 5,
-      "z": 1
+      "z": 0
     },
     {
-      "x": -2.5,
+      "x": -3,
       "y": 5,
-      "z": 1
+      "z": 0
     }
   ],
   "VariantName": "MNK-C",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan"
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight"
     ],
     "tagSetSourceFile": ""
   },

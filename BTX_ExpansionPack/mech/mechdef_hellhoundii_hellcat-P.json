@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -10,26 +11,25 @@
       "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_hellhoundii_hellcat-P",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9440000,
-    "Rarity": 3,
+    "Cost": 9230000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Hellhound II-P",
+    "UIName": "Hellhound II-P (Hellcat-P) ",
     "Id": "mechdef_hellhoundii_hellcat-P",
-    "Name": "Hellhound II-P",
+    "Name": "Hellhound II-P (Hellcat-P)",
     "Details": "This prototype mounts a 250-rated XL engine without jump jets, making it significantly less agile than the Conjurer. Instead, the Hellcat-P focuses on firepower. The 'Mech packs a devastating LB-X Autocannon/10 and two ER Large Lasers, as well as an SRM-6 for close-quarters defense.",
     "Icon": "uixTxrIcon_hellhound"
   },
-  "simGameMechPartCost": 940000,
+  "simGameMechPartCost": 920000,
   "Version": 1,
   "Locations": [
     {
@@ -194,5 +194,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
 }

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -12,8 +13,7 @@
       "unit_speed_medium",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -21,11 +21,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 10960000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Dervish IIC",
+    "UIName": "Dervish IIC ",
     "Id": "mechdef_dervish_IIC",
     "Name": "Dervish IIC",
     "Details": "In its standard configuration, the Dervish IIC has similar movement and jump capabilities to the original Dervish but carries significantly more firepower thanks to two LRM-20 and Streak SRM-4 racks, an ER Medium Laser, and a Medium Pulse Laser.",
@@ -268,5 +268,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3058-01-01T00:00:00Z"
 }

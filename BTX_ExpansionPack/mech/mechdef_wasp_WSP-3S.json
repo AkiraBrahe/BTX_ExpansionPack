@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_wasp_WSP-3S",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4620000,
-    "Rarity": 4,
+    "Cost": 4610000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -178,5 +178,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3067-01-01T00:00:00Z"
 }

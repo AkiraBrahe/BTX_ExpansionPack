@@ -179,5 +179,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3042-01-01T00:00:00Z"
 }

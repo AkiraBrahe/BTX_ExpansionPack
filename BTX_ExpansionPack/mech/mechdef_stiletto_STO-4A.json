@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_stiletto_STO-4A",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5660000,
-    "Rarity": 4,
+    "Cost": 5280000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_stiletto"
   },
-  "simGameMechPartCost": 570000,
+  "simGameMechPartCost": 530000,
   "Version": 1,
   "Locations": [
     {
@@ -147,5 +147,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3059-01-01T00:00:00Z"
 }

@@ -17,7 +17,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 770000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -87,19 +87,19 @@
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 5,
+      "CurrentArmor": 0,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 10,
-      "AssignedArmor": 5,
+      "AssignedArmor": 0,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 5,
+      "CurrentArmor": 0,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 10,
-      "AssignedArmor": 5,
+      "AssignedArmor": 0,
       "AssignedRearArmor": -1
     }
   ],
@@ -112,5 +112,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2495-01-01T00:00:00Z"
 }

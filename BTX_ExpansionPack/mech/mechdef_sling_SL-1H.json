@@ -18,7 +18,7 @@
   "ChassisID": "chassisdef_sling_SL-1H",
   "HeraldryID": null,
   "Description": {
-    "Cost": 3670000,
+    "Cost": 3320000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -29,7 +29,7 @@
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_sling"
   },
-  "simGameMechPartCost": 370000,
+  "simGameMechPartCost": 330000,
   "Version": 1,
   "Locations": [
     {
@@ -202,5 +202,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2766-01-01T00:00:00Z"
 }

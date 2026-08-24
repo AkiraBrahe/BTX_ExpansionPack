@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -10,8 +11,7 @@
       "unit_armor_high",
       "unit_speed_high",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,17 +19,17 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 9250000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Coyotl PRIME",
+    "UIName": "Coyotl Prime",
     "Id": "mechdef_coyotl-PRIME",
     "Name": "Coyotl",
     "Details": "The primary configuration of the Coyotl, built on an endo steel chassis and powered by a Pitban 280 XL engine, uses an ER PPC and LRM-10 as primary long-range weapons, while a Medium Pulse Laser and Streak SRM-4 provide short-range firepower. When combined with its powerful engine, this gives the 'Mech the ability to avoid enemy fire as well as dash about the battlefield while returning fire.",
     "Icon": "uixTxrIcon_mercuryii"
   },
-  "simGameMechPartCost": 930000,
+  "simGameMechPartCost": 920000,
   "Version": 1,
   "Locations": [
     {
@@ -162,5 +162,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2854-01-01T00:00:00Z"
 }

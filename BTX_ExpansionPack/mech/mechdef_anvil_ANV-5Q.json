@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_anvil_ANV-5Q",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5560000,
-    "Rarity": 4,
+    "Cost": 5550000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_anvil"
   },
-  "simGameMechPartCost": 560000,
+  "simGameMechPartCost": 550000,
   "Version": 1,
   "Locations": [
     {
@@ -195,5 +195,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3067-01-01T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 16570000,
-    "Rarity": 4,
+    "Cost": 16550000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -205,6 +205,8 @@
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_stabilized_CT_Laser"
     ],
     "tagSetSourceFile": ""

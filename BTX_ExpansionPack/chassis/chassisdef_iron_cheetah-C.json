@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ironcheetahbase-001",
   "PrefabBase": "ironcheetah",
   "Tonnage": 100,
-  "InitialTonnage": 38.51,
+  "InitialTonnage": 38.5,
   "weightClass": "ASSAULT",
   "BattleValue": 14575000,
   "Heatsinks": 10,
@@ -215,11 +215,13 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.05",
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan"
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight"
     ],
     "tagSetSourceFile": ""
   },

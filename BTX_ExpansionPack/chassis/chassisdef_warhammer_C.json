@@ -207,6 +207,8 @@
   "VariantName": "WHM-C",
   "ChassisTags": {
     "items": [
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_rugged2",
       "mech_quirk_searchlight_LT",
       "mech_quirk_stable"

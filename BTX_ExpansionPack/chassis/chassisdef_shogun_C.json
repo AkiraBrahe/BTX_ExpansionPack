@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 10400000,
-    "Rarity": 5,
+    "Cost": 10140000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -41,7 +41,7 @@
   "PunchesWithLeftArm": false,
   "MeleeDamage": 100,
   "MeleeInstability": 85,
-  "MeleeToHitModifier": -1,
+  "MeleeToHitModifier": -2,
   "DFADamage": 105,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 105,
@@ -219,9 +219,11 @@
   "VariantName": "SHG-C",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_barrelfist_la",
       "mech_quirk_barrelfist_ra",
       "mech_quirk_difficulttomaintain",

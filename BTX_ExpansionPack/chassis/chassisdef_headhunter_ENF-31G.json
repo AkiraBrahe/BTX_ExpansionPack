@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_enforcerBase-001",
   "PrefabBase": "enforcer",
   "Tonnage": 50,
-  "InitialTonnage": 14.52,
+  "InitialTonnage": 14.5,
   "weightClass": "MEDIUM",
   "BattleValue": 7425000,
   "Heatsinks": 10,
@@ -41,7 +41,7 @@
   "PunchesWithLeftArm": true,
   "MeleeDamage": 60,
   "MeleeInstability": 50,
-  "MeleeToHitModifier": -1,
+  "MeleeToHitModifier": -2,
   "DFADamage": 65,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 65,
@@ -206,12 +206,14 @@
     "items": [
       "chassis_DHS",
       "chassis_ferro",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_barrelfist_la",
       "mech_quirk_barrelfist_ra"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Skirmisher",
+  "StockRole": "Brawler",
   "YangsThoughts": "",
   "FixedEquipment": [
     {
@@ -234,7 +236,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_FerroFibrous_5_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_5_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -243,7 +245,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -252,7 +254,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+      "ComponentDefID": "Gear_Armor_FerroFibrous_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 3770000,
-    "Rarity": 3,
+    "Cost": 3390000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -206,11 +206,13 @@
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_badreputation"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper",
-  "YangsThoughts": "PLACEHOLDER",
+  "YangsThoughts": "",
   "FixedEquipment": []
 }

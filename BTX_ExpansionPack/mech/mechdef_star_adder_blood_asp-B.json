@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
@@ -11,8 +12,7 @@
       "unit_speed_medium",
       "unit_electronicWarfare",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,13 +24,13 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Star Adder B",
+    "UIName": "Star Adder (Blood Asp) B",
     "Id": "mechdef_star_adder_blood_asp-B",
-    "Name": "Star Adder",
+    "Name": "Star Adder (Blood Asp)",
     "Details": "The second alternate configuration is designed for fire support, employing a Gauss Rifle and two LRM-20s equipped with Artemis IV fire control systems. It also mounts four Medium Pulse Lasers and an ECM Suite in case an enemy unit approaches. Two additional heat sinks ensure this design stays cool.",
     "Icon": "uixTxrIcon_bloodasp"
   },
-  "simGameMechPartCost": 3050000,
+  "simGameMechPartCost": 3040000,
   "Version": 1,
   "Locations": [
     {
@@ -267,5 +267,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3060-01-01T00:00:00Z"
 }

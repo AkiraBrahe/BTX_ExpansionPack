@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_blackjack_BJ-4",
   "HeraldryID": null,
   "Description": {
-    "Cost": 5430000,
-    "Rarity": 5,
+    "Cost": 5280000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "Many Blackjacks in the Federated Suns were upgraded to this model during the FedCom Civil War. A half-ton of armor is removed, though the remaining is upgraded to light ferro-fibrous, resulting in almost the same amount of armor protection. All the weapons of the BJ-2 were stripped out and a light fusion engine was added to free up additional mass. Each arm mounts a Light Autocannon/5 and an ER Medium Laser, while two tons of CASE-protected ammo in each torso allow the BJ-4 to make use of special munitions. A Targeting Computer makes all the weapons more accurate.",
     "Icon": "uixTxrIcon_blackjack"
   },
-  "simGameMechPartCost": 540000,
+  "simGameMechPartCost": 530000,
   "Version": 1,
   "Locations": [
     {
@@ -203,5 +203,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3067-01-01T00:00:00Z"
 }

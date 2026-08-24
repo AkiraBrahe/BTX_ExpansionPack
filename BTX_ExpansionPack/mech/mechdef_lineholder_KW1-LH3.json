@@ -19,7 +19,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 4610000,
-    "Rarity": 3,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -186,5 +186,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3059-01-01T00:00:00Z"
 }

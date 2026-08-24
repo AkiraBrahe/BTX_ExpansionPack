@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
@@ -10,8 +11,7 @@
       "unit_armor_high",
       "unit_speed_medium",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -19,11 +19,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 29440000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Storm Giant 1",
+    "UIName": "Storm Giant ",
     "Id": "mechdef_storm_giant-1",
     "Name": "Storm Giant",
     "Details": "The main firepower of the Storm Giant stems from two arm-mounted LRM-20s with two tons of ammunition each. As enemy forces close in, they encounter a pair of Streak SRM-6s and an Ultra AC/20, capable of breaching even the thickest armor. The streaks share a ton of ammunition and the autocannon has three tons. While the streaks are very efficient, the ultra autocannon can quickly run out of ammunition if the pilot isn't careful.",
@@ -266,5 +266,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2862-01-01T00:00:00Z"
 }

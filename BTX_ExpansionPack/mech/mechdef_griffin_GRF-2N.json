@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_griffin_GRF-2N",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9640000,
-    "Rarity": 2,
+    "Cost": 5940000,
+    "Rarity": 3,
     "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "The Griffin 2N is an old Star League model that was among the most versatile 'Mechs in its heyday. Its weapons generated a lot of heat, but the old Double Heat Sinks were put in to handle it. It's almost impossible to find those anymore, though.",
     "Icon": "uixTxrIcon_griffin"
   },
-  "simGameMechPartCost": 960000,
+  "simGameMechPartCost": 590000,
   "Version": 1,
   "Locations": [
     {
@@ -194,5 +194,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2751-01-01T00:00:00Z"
 }

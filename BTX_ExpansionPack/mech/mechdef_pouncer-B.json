@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_sniper",
@@ -12,15 +13,14 @@
       "unit_speed_high",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_pouncer-B",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9390000,
+    "Cost": 9150000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -31,7 +31,7 @@
     "Details": "The Pouncer B is a capable all around 'Mech. For long ranges, it has a pair of ER Large Lasers and a single LRM-10 launcher. When the 'Mech closes with its enemies, it can bring to bear its two SRM-4 launchers, which can seek out weak points in an enemy's armor.",
     "Icon": "uixTxrIcon_pouncer"
   },
-  "simGameMechPartCost": 940000,
+  "simGameMechPartCost": 910000,
   "Version": 1,
   "Locations": [
     {
@@ -172,5 +172,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3050-01-01T00:00:00Z"
 }

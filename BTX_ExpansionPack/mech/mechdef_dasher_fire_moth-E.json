@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_light",
       "unit_role_scout",
@@ -10,8 +11,7 @@
       "unit_armor_low",
       "unit_speed_high",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -23,9 +23,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Dasher E",
+    "UIName": "Dasher (Fire Moth) E",
     "Id": "mechdef_dasher_fire_moth-E",
-    "Name": "Dasher",
+    "Name": "Dasher (Fire Moth)",
     "Details": "Another simple but effective configuration, the Fire Moth E mounts an ATM-6 missile rack, allowing for a surprising amount of flexibility. The ATM system utilizes many different types of ammunition, ranging from high-explosive short-range missiles to long-range missiles packed with fuel.",
     "Icon": "uixTxrIcon_dasher"
   },
@@ -138,5 +138,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3059-01-01T00:00:00Z"
 }

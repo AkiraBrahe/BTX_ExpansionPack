@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_mwocrusaderbase-001",
   "PrefabBase": "mwocrusader",
   "Tonnage": 70,
-  "InitialTonnage": 21.44,
+  "InitialTonnage": 21,
   "weightClass": "HEAVY",
   "BattleValue": 8045000,
   "Heatsinks": 10,
@@ -157,34 +157,34 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 18,
-      "z": 0
+      "y": 15,
+      "z": 1
     },
     {
       "x": 4,
-      "y": 17,
+      "y": 14,
       "z": 0
     },
     {
       "x": -4,
-      "y": 17,
+      "y": 14,
       "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 18,
-      "z": 0
+      "y": 15,
+      "z": 1
     },
     {
       "x": 4,
-      "y": 17,
+      "y": 14,
       "z": 0
     },
     {
       "x": -4,
-      "y": 17,
+      "y": 14,
       "z": 0
     },
     {

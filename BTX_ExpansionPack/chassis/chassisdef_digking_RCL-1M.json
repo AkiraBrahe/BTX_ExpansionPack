@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 1640000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -145,12 +145,12 @@
       "z": 0
     },
     {
-      "x": -3.5,
+      "x": 3.5,
       "y": 12,
       "z": 0
     },
     {
-      "x": 3.5,
+      "x": -3.5,
       "y": 12,
       "z": 0
     }
@@ -162,22 +162,22 @@
       "z": 0
     },
     {
-      "x": -3.5,
-      "y": 12,
-      "z": 0
-    },
-    {
       "x": 3.5,
       "y": 12,
       "z": 0
     },
     {
-      "x": -2,
+      "x": -3.5,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 2,
       "y": 4,
       "z": 0.5
     },
     {
-      "x": 2,
+      "x": -2,
       "y": 4,
       "z": 0.5
     }
@@ -185,7 +185,10 @@
   "VariantName": "RCL-1M",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.8"
+      "mr-resize-0.8",
+      "chassis_heavy_industrial",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight"
     ],
     "tagSetSourceFile": ""
   },

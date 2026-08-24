@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 14070000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -216,6 +216,8 @@
   "ChassisTags": {
     "items": [
       "chassis_DHS",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_combatcomputer",
       "mech_quirk_nominimalarms"
     ],

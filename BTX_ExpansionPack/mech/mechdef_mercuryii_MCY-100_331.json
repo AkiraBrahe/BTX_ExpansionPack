@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -14,9 +15,8 @@
       "unit_hot",
       "unit_release",
       "unit_mechpack",
-      "unit_clan",
-      "mech_MechPartSalvageRedirect_mercuryii_MCY-100",
-      "BLACKLISTED"
+      "BLACKLISTED",
+      "mech_MechPartSalvageRedirect_mercuryii_MCY-100"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,7 +24,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 7920000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -207,5 +207,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2823-01-01T00:00:00Z"
 }

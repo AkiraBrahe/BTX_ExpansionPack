@@ -19,11 +19,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 6930000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Cataphract CTF-3X",
+    "UIName": "Cataphract CTF-3X (Sara)",
     "Id": "mechdef_cataphract_CTF-3X",
     "Name": "Cataphract",
     "Details": "A modern take on the 2X variant's weapons loadout, the ER large laser is joined by two ER Medium Lasers while the SRM-4 is swapped for a more ammo-efficient Streak SRM-4. The standard autocannon is replaced with an advanced Rotary AC/5 supplied with three tons of ammo. Mounting ferro-fibrous armor reduces the armor's weight just enough to allow the installation of CASE in each torso, as well as the conversion of all heat sinks to doubles, which greatly improves its heat dissipation.",
@@ -139,14 +139,6 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserER_NU_0-STOCK",
       "ComponentDefType": "Weapon",
@@ -158,6 +150,14 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -218,5 +218,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3062-01-01T00:00:00Z"
 }

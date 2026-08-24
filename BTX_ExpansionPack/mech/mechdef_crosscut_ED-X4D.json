@@ -22,7 +22,7 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Crosscut ED-X4D",
+    "UIName": "Crosscut ED-X4D DemolitionMech",
     "Id": "mechdef_crosscut_ED-X4D",
     "Name": "Crosscut",
     "Details": "This is yet another version of the ED-X4B DemolitionMech. The main feature of the ED-X4D is its Dual Saw, which is mounted in the right arm actuator. While the lift hoist remains in the rear torso, the cargo bay has been removed from the design.",
@@ -104,5 +104,6 @@
       "AssignedRearArmor": -1
     }
   ],
-  "inventory": []
+  "inventory": [],
+  "MinAppearanceDate": "2910-01-01T00:00:00Z"
 }

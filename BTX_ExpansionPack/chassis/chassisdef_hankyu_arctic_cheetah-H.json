@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_arcticcheetahbase-001",
   "PrefabBase": "arcticcheetah",
   "Tonnage": 30,
-  "InitialTonnage": 13.54,
+  "InitialTonnage": 13.5,
   "weightClass": "LIGHT",
   "BattleValue": 6320000,
   "Heatsinks": 10,
@@ -150,12 +150,12 @@
       "z": 0
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 10.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 10.5,
       "z": -0.5
     }
@@ -167,22 +167,22 @@
       "z": 0
     },
     {
-      "x": -2.5,
-      "y": 10.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 10.5,
       "z": -0.5
     },
     {
-      "x": -2,
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2,
       "y": 4,
       "z": 0.5
     },
     {
-      "x": 2,
+      "x": -2,
       "y": 4,
       "z": 0.5
     }
@@ -190,11 +190,11 @@
   "VariantName": "HAN-H",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_protectedactuators"
     ],
     "tagSetSourceFile": ""

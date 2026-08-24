@@ -21,7 +21,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 6350000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -31,7 +31,7 @@
     "Details": "The 31P variant swaps the Guardian ECM Suite for one Small Laser and a C3 Slave unit, which allows it to directly relay the combat data it collects.",
     "Icon": "uixTxrIcon_rattlesnake"
   },
-  "simGameMechPartCost": 640000,
+  "simGameMechPartCost": 630000,
   "Version": 1,
   "Locations": [
     {
@@ -244,5 +244,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3043-01-01T00:00:00Z"
 }

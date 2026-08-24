@@ -20,13 +20,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 13340000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "BattleMaster BLR-CM",
     "Id": "mechdef_battlemaster_BLR-CM",
-    "Name": "Battlemaster",
+    "Name": "BattleMaster",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_battlemaster"
   },
@@ -235,5 +235,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

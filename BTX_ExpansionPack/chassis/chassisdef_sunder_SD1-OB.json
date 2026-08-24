@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 34510000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_mech_assault_4",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_ionsunder",
-  "PrefabIdentifier": "chrprfmech_ionsunderbase-001",
-  "PrefabBase": "ionsunder",
+  "HardpointDataDefID": "hardpointdatadef_sunder",
+  "PrefabIdentifier": "chrPrfMech_sunderBase-001",
+  "PrefabBase": "sunder",
   "Tonnage": 90,
   "InitialTonnage": 34.5,
   "weightClass": "ASSAULT",
@@ -215,12 +215,14 @@
     "items": [
       "chassis_omni",
       "chassis_DHS",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_extendedtorsotwist"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler",
-  "YangsThoughts": "PLACEHOLDER - It's a first gen omni, so good but not max armor over an XL. 30 LRMs with plenty of ammo, some short range lasers for under the minimums, and a double master. I'll cheerfully take this instead of a cyclops, but it doesn't compare well to some of the other options.",
+  "YangsThoughts": "It's a first-gen Omni, so it's good but it doesn't have the best durability because of its XL engine. 30 LRMs with plenty of ammo, some short-range lasers when in a pinch, and a double C3 Master. I'd be happy to take this instead of a Cyclops, but it's not as good as some of the other variants.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

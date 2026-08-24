@@ -19,13 +19,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 9710000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "BattleMaster BLR-3M-DC",
     "Id": "mechdef_battlemaster_BLR-3M-DC",
-    "Name": "Battlemaster",
+    "Name": "BattleMaster",
     "Details": "The 3M-DC drops the rear firing Medium Lasers to make room for a Command Console. The rest of the weapons remain, including a single ER PPC supported by four Medium Lasers, one Machine Gun, and an SRM-6.",
     "Icon": "uixTxrIcon_battlemaster"
   },
@@ -242,5 +242,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
 }

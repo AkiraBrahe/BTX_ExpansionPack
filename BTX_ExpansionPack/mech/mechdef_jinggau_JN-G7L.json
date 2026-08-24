@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_jinggau_JN-G7L",
   "HeraldryID": null,
   "Description": {
-    "Cost": 14680000,
-    "Rarity": 4,
+    "Cost": 14660000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -252,5 +252,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3068-01-01T00:00:00Z"
 }

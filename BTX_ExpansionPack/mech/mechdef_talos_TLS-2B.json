@@ -18,8 +18,8 @@
   "ChassisID": "chassisdef_talos_TLS-2B",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4700000,
-    "Rarity": 3,
+    "Cost": 4280000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "The Talos 2B, a popular refit introduced in 3053, uses the newest Taurian Concordat technologies, replacing the AC/10 with an LB-X Autocannon/10 and adding Artemis IV FCS to the missile launchers. Protection is also upgraded with ferro-fibrous armor.",
     "Icon": "uixTxrIcon_talos"
   },
-  "simGameMechPartCost": 470000,
+  "simGameMechPartCost": 430000,
   "Version": 1,
   "Locations": [
     {
@@ -108,11 +108,21 @@
   "inventory": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_SRM_ASRM4_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
@@ -124,11 +134,21 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM10_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment1"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment1"
     },
     {
       "MountedLocation": "RightTorso",
@@ -162,5 +182,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3053-01-01T00:00:00Z"
 }

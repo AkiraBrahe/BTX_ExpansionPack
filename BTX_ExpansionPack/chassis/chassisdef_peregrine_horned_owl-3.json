@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 3630000,
-    "Rarity": 3,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -158,12 +158,12 @@
       "z": 0
     },
     {
-      "x": 4,
+      "x": 3,
       "y": 15,
       "z": 0
     },
     {
-      "x": -4,
+      "x": -3,
       "y": 15,
       "z": 0
     }
@@ -175,34 +175,34 @@
       "z": 0
     },
     {
-      "x": 4,
+      "x": 3,
       "y": 15,
       "z": 0
     },
     {
-      "x": -4,
+      "x": -3,
       "y": 15,
       "z": 0
     },
     {
-      "x": 2.5,
-      "y": 6,
-      "z": 2.5
+      "x": 3,
+      "y": 5,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 6,
-      "z": 2.5
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "PRG-3",
   "ChassisTags": {
     "items": [
       "mr-resize-0.70-0.75-0.75",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_stabilized_CT_Laser"
     ],
     "tagSetSourceFile": ""

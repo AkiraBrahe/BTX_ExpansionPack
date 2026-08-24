@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 13690000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -210,6 +210,7 @@
     "items": [
       "chassis_DHS",
       "mech_case_left",
+      "ArmLimitLowerRight",
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_stable",

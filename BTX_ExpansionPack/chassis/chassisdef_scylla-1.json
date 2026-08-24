@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 29980000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_scyllabase-001",
   "PrefabBase": "scylla",
   "Tonnage": 100,
-  "InitialTonnage": 38.53,
+  "InitialTonnage": 38.5,
   "weightClass": "ASSAULT",
   "BattleValue": 14485000,
   "Heatsinks": 10,
@@ -213,10 +213,12 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.97",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_oversized"
     ],
     "tagSetSourceFile": ""

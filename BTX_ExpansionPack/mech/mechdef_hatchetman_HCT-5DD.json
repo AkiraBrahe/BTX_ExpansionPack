@@ -15,10 +15,10 @@
       "unit_speed_medium",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
       "unit_dlc",
-      "unit_hatchetman",
-      "unit_LosTech"
+      "unit_mechpack",
+      "unit_LosTech",
+      "unit_hatchetman"
     ],
     "tagSetSourceFile": ""
   },
@@ -26,7 +26,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 9450000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -36,7 +36,7 @@
     "Details": "The 5DD stands out as an unusual variant of the HCT-5D, replacing the AC/10 with a Rotary AC/2 and a single ER Medium Laser, giving the 'Mech a unique blend of destructive long-range firepower and melee prowess.",
     "Icon": "uixTxrIcon_hatchetman"
   },
-  "simGameMechPartCost": 950000,
+  "simGameMechPartCost": 940000,
   "Version": 1,
   "Locations": [
     {
@@ -185,5 +185,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
 }

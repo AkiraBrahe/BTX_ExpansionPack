@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 26270000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_templarbase-001",
   "PrefabBase": "templar",
   "Tonnage": 85,
-  "InitialTonnage": 31.06,
+  "InitialTonnage": 31,
   "weightClass": "ASSAULT",
   "BattleValue": 10350000,
   "Heatsinks": 28,
@@ -146,45 +146,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 16,
+      "y": 14,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": 4,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": -4,
+      "y": 14,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 16,
+      "y": 14,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": 4,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": -4,
+      "y": 14,
+      "z": 0
     },
     {
-      "x": 3.5,
-      "y": 5.5,
-      "z": 1
+      "x": 2.5,
+      "y": 6,
+      "z": 2.5
     },
     {
-      "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "x": -2.5,
+      "y": 6,
+      "z": 2.5
     }
   ],
   "VariantName": "TLR1-OA",
@@ -195,6 +195,8 @@
       "chassis_DHS",
       "chassis_endo",
       "mech_case_right",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""
@@ -222,7 +224,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -231,7 +233,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -240,7 +242,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -249,7 +251,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -258,7 +260,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -267,7 +269,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

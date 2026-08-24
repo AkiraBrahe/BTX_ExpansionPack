@@ -1,12 +1,12 @@
 {
   "Description": {
     "Cost": 3840000,
-    "Rarity": 6,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Super-Wasp",
-    "Id": "chassisdef_superwasp_WSP-2A-X",
+    "Id": "chassisdef_super-wasp_WSP-2A-X",
     "Name": "Super-Wasp",
     "Details": "The Super-Wasp reimagines the iconic WSP-1A on a heavier chassis, pairing its traditional jump jets with an engine Supercharger for bursts of speed up to 120 km/h. While keeping the classic leg-mounted SRM-2, this variant adds a second Medium Laser to the right arm, providing twice the striking power of its lighter progenitor without sacrificing the mobility that defined the original.",
     "Icon": "uixTxrIcon_wasp"
@@ -21,7 +21,7 @@
   "weightClass": "LIGHT",
   "BattleValue": 3175000,
   "Heatsinks": 0,
-  "TopSpeed": 129.6,
+  "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 6,
   "Stability": 100,
@@ -146,12 +146,12 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 8.5,
       "z": -0.5
     }
@@ -163,22 +163,22 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": -1.5,
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 1.5,
+      "x": -1.5,
       "y": 3,
       "z": 0.5
     }
@@ -187,6 +187,7 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.05",
+      "ArmLimitLowerRight",
       "mech_quirk_extendedtorsotwist",
       "mech_quirk_prototype"
     ],

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 14430000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -154,45 +154,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 12,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 12,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
-    },
-    {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": -4,
+      "y": 12,
+      "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 17,
+      "y": 12,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 12,
       "z": 0
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": -4,
+      "y": 12,
+      "z": 0
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": 3,
+      "y": 5,
+      "z": 0
     },
     {
-      "x": 3.5,
-      "y": 5.5,
-      "z": 1
-    },
-    {
-      "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "x": -3,
+      "y": 5,
+      "z": 0
     }
   ],
   "VariantName": "JN-G8A",
@@ -201,6 +201,8 @@
       "mr-resize-0.92",
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_weakheadarmor2",
       "mech_quirk_largeengine"
@@ -239,7 +241,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_3_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_3_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -248,7 +250,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -257,7 +259,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -266,7 +268,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -275,7 +277,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -284,7 +286,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

@@ -199,9 +199,11 @@
   "VariantName": "SRA-B",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_rugged1"
     ],
     "tagSetSourceFile": ""

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_heavy",
       "unit_role_sniper",
@@ -14,8 +15,7 @@
       "unit_electronicWarfare",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -23,11 +23,11 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 9270000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Lupus PRIME",
+    "UIName": "Lupus Prime",
     "Id": "mechdef_lupus-PRIME",
     "Name": "Lupus",
     "Details": "The primary configuration of the Lupus carries a pair of LRM-20 launchers with improved Artemis IV guidance systems and a set of jump jets, allowing a skilled MechWarrior to maintain distance while bombarding the enemy with heavy missile barrages. Should the enemy close in, all is not lost. The ER Medium Laser in each arm allow the Lupus to slice off armor, and the ECM Suite makes the Lupus Prime more difficult to target.",
@@ -206,5 +206,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2857-01-01T00:00:00Z"
 }

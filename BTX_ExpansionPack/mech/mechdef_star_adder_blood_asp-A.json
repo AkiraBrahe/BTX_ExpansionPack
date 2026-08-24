@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_flanker",
@@ -11,8 +12,7 @@
       "unit_jumpOK",
       "unit_electronicWarfare",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,9 +24,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Star Adder A",
+    "UIName": "Star Adder (Blood Asp) A",
     "Id": "mechdef_star_adder_blood_asp-A",
-    "Name": "Star Adder",
+    "Name": "Star Adder (Blood Asp)",
     "Details": "This configuration is built for long-range assault. It uses an advanced Targeting Computer to guide a pair of ER PPCs and two Heavy Large Lasers. Eleven additional heat sinks fail to keep this configuration cool, especially with the addition of three jump jets to enhance maneuverability. It also incorporates an ECM Suite to safeguard itself from enemy electronics.",
     "Icon": "uixTxrIcon_bloodasp"
   },
@@ -275,5 +275,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3060-01-01T00:00:00Z"
 }

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_brawler",
@@ -11,8 +12,7 @@
       "unit_speed_low",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
@@ -24,9 +24,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Gladiator-B A",
+    "UIName": "Gladiator-B (Executioner-B) A",
     "Id": "mechdef_gladiator-b_executioner-b-A",
-    "Name": "Gladiator-B",
+    "Name": "Gladiator-B (Executioner-B)",
     "Details": "The Executioner-B A configuration is primarily focused on ballistic weaponry, featuring an LB 10-X and an Ultra AC/10 in each arm. Two ER Small Lasers are the 'Mech's only backup weaponry. While the heavy reliance on ballistics reduces the flexibility of the design, this configuration remains popular due to its ample cooling capacity, allowing it to sustain its firepower effectively.",
     "Icon": "uixTxrIcon_executioner-b"
   },
@@ -211,5 +211,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2873-01-01T00:00:00Z"
 }

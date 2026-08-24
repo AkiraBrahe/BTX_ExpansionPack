@@ -12,8 +12,8 @@
       "unit_speed_medium",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
       "unit_dlc",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -270,5 +270,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2824-01-01T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 16990000,
-    "Rarity": 99,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "MEDIUM",
   "BattleValue": 8010000,
   "Heatsinks": 10,
-  "TopSpeed": 108,
+  "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 130,
@@ -154,45 +154,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 14,
+      "y": 16,
       "z": 0
     },
     {
-      "x": 4,
-      "y": 14,
-      "z": 0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -4,
-      "y": 14,
-      "z": 0
+      "x": -5,
+      "y": 16,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 14,
+      "y": 16,
       "z": 0
     },
     {
-      "x": 4,
-      "y": 14,
-      "z": 0
+      "x": 5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": -4,
-      "y": 14,
-      "z": 0
+      "x": -5,
+      "y": 16,
+      "z": -1
     },
     {
-      "x": 2.5,
-      "y": 6,
-      "z": 2.5
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
     },
     {
-      "x": -2.5,
-      "y": 6,
-      "z": 2.5
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
     }
   ],
   "VariantName": "SLG-X",
@@ -202,6 +202,7 @@
       "chassis_DHS",
       "chassis_composite",
       "mech_case_left",
+      "ArmLimitLowerRight",
       "mech_quirk_stabilized_RA",
       "mech_quirk_exposedactuators",
       "mech_quirk_prototype",

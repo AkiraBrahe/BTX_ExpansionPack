@@ -19,7 +19,7 @@
   "ChassisID": "chassisdef_bishamon_BSN-4K",
   "HeraldryID": null,
   "Description": {
-    "Cost": 10760000,
+    "Cost": 10740000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -30,7 +30,7 @@
     "Details": "The 4K variant of the Bishamon is intended to command a C3 lance. In order to accomplish this, the 'Mech has had the MRM-20 launcher downgraded to an MRM-10 launcher and replaced its two ER Medium Lasers with two ER Small Lasers.",
     "Icon": "uixTxrIcon_bishamon"
   },
-  "simGameMechPartCost": 1080000,
+  "simGameMechPartCost": 1070000,
   "Version": 1,
   "Locations": [
     {
@@ -47,7 +47,7 @@
       "Location": "LeftArm",
       "CurrentArmor": 110,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 55,
+      "CurrentInternalStructure": 35,
       "AssignedArmor": 110,
       "AssignedRearArmor": -1
     },
@@ -83,7 +83,7 @@
       "Location": "RightArm",
       "CurrentArmor": 110,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 55,
+      "CurrentInternalStructure": 35,
       "AssignedArmor": 110,
       "AssignedRearArmor": -1
     },
@@ -155,5 +155,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3060-01-01T00:00:00Z"
 }

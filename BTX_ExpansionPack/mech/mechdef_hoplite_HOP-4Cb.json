@@ -17,8 +17,8 @@
   "ChassisID": "chassisdef_hoplite_HOP-4Cb",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4810000,
-    "Rarity": 5,
+    "Cost": 4780000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -153,5 +153,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2821-01-01T00:00:00Z"
 }

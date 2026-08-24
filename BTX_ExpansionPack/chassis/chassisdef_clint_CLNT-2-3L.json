@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 3430000,
-    "Rarity": 4,
+    "Cost": 3820000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -19,7 +19,7 @@
   "Tonnage": 40,
   "InitialTonnage": 21.5,
   "weightClass": "MEDIUM",
-  "BattleValue": 4350000,
+  "BattleValue": 4615000,
   "Heatsinks": 0,
   "TopSpeed": 97.2,
   "TurnRadius": 90,
@@ -190,6 +190,7 @@
   "VariantName": "CLNT-2-3L",
   "ChassisTags": {
     "items": [
+      "ArmLimitLowerRight",
       "mech_quirk_improvedtargetingmedium",
       "mech_quirk_improvedtargetinglong",
       "mech_quirk_exposedactuators",
@@ -200,6 +201,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Striker",
-  "YangsThoughts": "PLACEHOLDER",
+  "YangsThoughts": "",
   "FixedEquipment": []
 }

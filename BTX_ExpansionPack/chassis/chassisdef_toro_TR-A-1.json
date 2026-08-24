@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 2210000,
-    "Rarity": 6,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 40,
+  "MeleeDamage": 45,
   "MeleeInstability": 35,
   "MeleeToHitModifier": 0,
   "DFADamage": 45,
@@ -142,12 +142,12 @@
       "z": 0.5
     },
     {
-      "x": -3,
+      "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": 3,
+      "x": -3,
       "y": 9,
       "z": -0.5
     }
@@ -159,22 +159,22 @@
       "z": 0.5
     },
     {
-      "x": -3,
-      "y": 9,
-      "z": -0.5
-    },
-    {
       "x": 3,
       "y": 9,
       "z": -0.5
     },
     {
-      "x": -2.5,
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 3,
       "z": 0.5
     }
@@ -183,6 +183,8 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.9",
+      "chassis_primitive",
+      "ArmLimitLowerLeft",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_crampedcockpit"
     ],

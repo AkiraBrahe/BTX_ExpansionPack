@@ -10,8 +10,8 @@
       "unit_armor_low",
       "unit_speed_medium",
       "unit_release",
-      "unit_mechpack",
       "unit_dlc",
+      "unit_mechpack",
       "unit_LosTech"
     ],
     "tagSetSourceFile": ""
@@ -20,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 10130000,
-    "Rarity": 5,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "A subvariant of the 11-A first modified by the Capellan Confederation during the technological renaissance of the late Succession Wars, one ton each of Gauss and LRM ammunition and one heat sink are removed to allow for the installation of a Command Console.",
     "Icon": "uixTxrIcon_cyclops"
   },
-  "simGameMechPartCost": 1240000,
+  "simGameMechPartCost": 1010000,
   "Version": 1,
   "Locations": [
     {
@@ -179,5 +179,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3045-01-01T00:00:00Z"
 }

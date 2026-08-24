@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_brawler",
@@ -10,15 +11,14 @@
       "unit_speed_high",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_battle_cobra-A",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4760000,
+    "Cost": 4520000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -29,7 +29,7 @@
     "Details": "Configuration A excels at close range with a variety of smaller pulse lasers. It wields four Medium Pulse Lasers and six Small Pulse Lasers; this armament forces unarmored infantry to be especially wary.",
     "Icon": "uixTxrIcon_battlecobra"
   },
-  "simGameMechPartCost": 480000,
+  "simGameMechPartCost": 450000,
   "Version": 1,
   "Locations": [
     {
@@ -186,5 +186,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2873-01-01T00:00:00Z"
 }

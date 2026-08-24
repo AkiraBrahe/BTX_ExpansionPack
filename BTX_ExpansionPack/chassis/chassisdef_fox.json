@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 10220000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_foxbase-001",
   "PrefabBase": "fox",
   "Tonnage": 50,
-  "InitialTonnage": 18.2,
+  "InitialTonnage": 18,
   "weightClass": "MEDIUM",
   "BattleValue": 10455000,
   "Heatsinks": 10,
@@ -216,10 +216,12 @@
   "VariantName": "CS-C",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_variablerangetargeting",
       "mech_quirk_largeengine"
     ],

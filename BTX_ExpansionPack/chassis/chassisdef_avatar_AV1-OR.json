@@ -209,6 +209,8 @@
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitUpperLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_stabilized_CT_Laser"
     ],
     "tagSetSourceFile": ""

@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 25610000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_lelialbatrossbase-001",
   "PrefabBase": "lelialbatross",
   "Tonnage": 95,
-  "InitialTonnage": 38,
+  "InitialTonnage": 37,
   "weightClass": "ASSAULT",
   "BattleValue": 8340000,
   "Heatsinks": 10,
@@ -207,6 +207,8 @@
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_easytomaintain",
       "mech_quirk_improvedtargetinglong"
     ],

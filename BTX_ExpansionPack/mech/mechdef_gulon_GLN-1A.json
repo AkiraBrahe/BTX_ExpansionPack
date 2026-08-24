@@ -22,7 +22,7 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Gulon GLN-1A",
+    "UIName": "Gulon GLN-1A MiningMech",
     "Id": "mechdef_gulon_GLN-1A",
     "Name": "Gulon",
     "Details": "The original Gulon has three Small Lasers designed to cut stone, a Sprayer rather than the Medium Laser of the later version, and lacks the advanced fire control.",
@@ -153,5 +153,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3020-01-01T00:00:00Z"
 }

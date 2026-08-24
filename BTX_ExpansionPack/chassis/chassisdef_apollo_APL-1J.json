@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 970000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_apollon"
   },
   "MovementCapDefID": "movedef_mech_light_6",
-  "PathingCapDefID": "pathingdef_light",
+  "PathingCapDefID": "pathingdef_ultralight",
   "HardpointDataDefID": "hardpointdatadef_stardriveapollo",
   "PrefabIdentifier": "chrprfmech_stardriveapollobase-001",
   "PrefabBase": "stardriveapollo",
@@ -20,11 +20,11 @@
   "InitialTonnage": 8.5,
   "weightClass": "LIGHT",
   "BattleValue": 1830000,
-  "Heatsinks": 10,
+  "Heatsinks": 0,
   "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 100,
+  "Stability": 70,
   "StabilityDefenses": [
     0,
     0,
@@ -37,7 +37,7 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 4,
+  "Radius": 3,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 20,
   "MeleeInstability": 15,
@@ -121,7 +121,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 40,
+      "MaxArmor": 30,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     },
@@ -130,7 +130,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 40,
+      "MaxArmor": 30,
       "MaxRearArmor": -1,
       "InternalStructure": 15
     }
@@ -138,45 +138,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 6.5,
-      "z": 0
+      "y": 6,
+      "z": 0.5
     },
     {
-      "x": 2,
-      "y": 6.5,
+      "x": 2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": -2,
-      "y": 6.5,
+      "x": -2.5,
+      "y": 6,
       "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 6.5,
-      "z": 0
+      "y": 6,
+      "z": 0.5
     },
     {
-      "x": 2,
-      "y": 6.5,
+      "x": 2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": -2,
-      "y": 6.5,
+      "x": -2.5,
+      "y": 6,
       "z": -0.5
     },
     {
-      "x": 1.25,
-      "y": 3.5,
-      "z": 0
+      "x": 1.5,
+      "y": 2,
+      "z": 0.5
     },
     {
-      "x": -1.25,
-      "y": 3.5,
-      "z": 0
+      "x": -1.5,
+      "y": 2,
+      "z": 0.5
     }
   ],
   "VariantName": "APL-1J",
@@ -187,6 +187,6 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Scout",
-  "YangsThoughts": "PLACEHOLDER",
+  "YangsThoughts": "",
   "FixedEquipment": []
 }

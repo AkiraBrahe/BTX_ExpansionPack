@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 24020000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_madcatmkiibase-001",
   "PrefabBase": "madcatmkii",
   "Tonnage": 90,
-  "InitialTonnage": 28.03,
+  "InitialTonnage": 28,
   "weightClass": "ASSAULT",
   "BattleValue": 15675000,
   "Heatsinks": 10,
@@ -172,54 +172,56 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 17,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 17,
-      "z": 0
+      "y": 12.5,
+      "z": 0.5
     },
     {
-      "x": 5,
-      "y": 16,
-      "z": -1
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": -5,
-      "y": 16,
-      "z": -1
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
     },
     {
-      "x": 3.5,
-      "y": 5.5,
-      "z": 1
+      "x": 2,
+      "y": 3,
+      "z": 0.5
     },
     {
-      "x": -3.5,
-      "y": 5.5,
-      "z": 1
+      "x": -2,
+      "y": 3,
+      "z": 0.5
     }
   ],
   "VariantName": "MCT-II",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
       "chassis_ferro",
-      "chassis_clan",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_improvedtargetingmedium"
     ],
     "tagSetSourceFile": ""

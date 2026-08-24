@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 1620000,
-    "Rarity": 4,
+    "Cost": 1610000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,7 +21,7 @@
   "weightClass": "LIGHT",
   "BattleValue": 1660000,
   "Heatsinks": 0,
-  "TopSpeed": 129.6,
+  "TopSpeed": 97.2,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
   "Stability": 100,
@@ -39,13 +39,13 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 15,
+  "MeleeDamage": 20,
   "MeleeInstability": 20,
   "MeleeToHitModifier": 0,
-  "DFADamage": 20,
+  "DFADamage": 25,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 20,
-  "DFAInstability": 10,
+  "DFASelfDamage": 25,
+  "DFAInstability": 25,
   "Locations": [
     {
       "Location": "Head",
@@ -209,6 +209,8 @@
   "ChassisTags": {
     "items": [
       "chassis_endo",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_easytomaintain",
       "mech_quirk_improvedlifesupport",
       "mech_quirk_nominimalarms"
@@ -220,7 +222,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_6_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -229,7 +231,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -238,7 +240,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_6_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_6_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

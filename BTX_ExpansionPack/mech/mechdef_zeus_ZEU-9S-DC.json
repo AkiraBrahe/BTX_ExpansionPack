@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_zeus_ZEU-9S-DC",
   "HeraldryID": null,
   "Description": {
-    "Cost": 9430000,
-    "Rarity": 5,
+    "Cost": 9400000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -195,5 +195,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3049-01-01T00:00:00Z"
 }

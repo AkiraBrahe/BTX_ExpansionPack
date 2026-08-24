@@ -21,7 +21,7 @@
   "ChassisID": "chassisdef_firefly_FFL-4DA",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4060000,
+    "Cost": 3700000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -32,7 +32,7 @@
     "Details": "An electronic warfare variant of the FFL-4D model, the -4DA replaces the anti-missile system and its ammo with a Guardian ECM suite.",
     "Icon": "uixTxrIcon_firefly"
   },
-  "simGameMechPartCost": 410000,
+  "simGameMechPartCost": 370000,
   "Version": 1,
   "Locations": [
     {
@@ -159,11 +159,21 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftLeg",
@@ -197,5 +207,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3067-01-01T00:00:00Z"
 }

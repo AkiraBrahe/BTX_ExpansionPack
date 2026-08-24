@@ -1,7 +1,12 @@
 {
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Spirit Walker"
+    }
+  },
   "Description": {
     "Cost": 9900000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -21,10 +26,10 @@
   "weightClass": "HEAVY",
   "BattleValue": 10575000,
   "Heatsinks": 10,
-  "TopSpeed": 54,
+  "TopSpeed": 64.8,
   "TurnRadius": 90,
   "MaxJumpjets": 0,
-  "Stability": 120,
+  "Stability": 160,
   "StabilityDefenses": [
     0,
     0,
@@ -208,9 +213,9 @@
   "VariantName": "SPW-PRIME",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
-      "chassis_clan",
       "mech_quirk_commandmech"
     ],
     "tagSetSourceFile": ""

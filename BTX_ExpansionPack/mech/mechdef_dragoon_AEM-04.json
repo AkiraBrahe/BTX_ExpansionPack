@@ -30,7 +30,7 @@
     "Details": "Based on a weapon-stripped 01 model, the Dragoon 04 is well-equipped for both long-range sniping and close-in brawling. The 'Mech, armed with a single Gauss Rifle and an ER PPC, can unleash devastating blows from a safe distance, while also carrying a quintet of SRM-4s and a single Medium Laser for close-quarters combat.",
     "Icon": "uixTxrIcon_dragoon"
   },
-  "simGameMechPartCost": 1240000,
+  "simGameMechPartCost": 1380000,
   "Version": 1,
   "Locations": [
     {
@@ -203,5 +203,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2771-01-01T00:00:00Z"
 }

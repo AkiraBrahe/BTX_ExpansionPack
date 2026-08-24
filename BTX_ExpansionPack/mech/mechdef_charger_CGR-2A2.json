@@ -19,8 +19,8 @@
   "ChassisID": "chassisdef_charger_CGR-2A2",
   "HeraldryID": null,
   "Description": {
-    "Cost": 7770000,
-    "Rarity": 3,
+    "Cost": 7780000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -155,5 +155,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3064-01-01T00:00:00Z"
 }

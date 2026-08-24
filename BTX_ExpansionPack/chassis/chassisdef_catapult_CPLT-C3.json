@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 5870000,
-    "Rarity": 5,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -204,6 +204,8 @@
   "VariantName": "CPLT-C3",
   "ChassisTags": {
     "items": [
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_nominimalarms",
       "mech_quirk_weakheadarmor1"
     ],

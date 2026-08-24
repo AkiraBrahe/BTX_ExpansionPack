@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 4610000,
-    "Rarity": 3,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -196,6 +196,8 @@
   "ChassisTags": {
     "items": [
       "mr-resize-1.00-0.95-1.10",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""

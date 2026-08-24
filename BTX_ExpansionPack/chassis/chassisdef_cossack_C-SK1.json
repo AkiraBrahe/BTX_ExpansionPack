@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 2360000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -143,45 +143,45 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 9.5,
-      "z": 0.5
+      "y": 8,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": 2,
+      "y": 8,
+      "z": -1
     },
     {
-      "x": 2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": -2,
+      "y": 8,
+      "z": -1
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 9.5,
-      "z": 0.5
+      "y": 8,
+      "z": 0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
+      "x": 2,
+      "y": 8,
+      "z": -1
     },
     {
-      "x": 2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
-      "x": -1.5,
-      "y": 3,
-      "z": 0.5
+      "x": -2,
+      "y": 8,
+      "z": -1
     },
     {
       "x": 1.5,
       "y": 3,
-      "z": 0.5
+      "z": 0
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0
     }
   ],
   "VariantName": "C-SK1",
@@ -216,7 +216,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -225,7 +225,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -234,7 +234,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -243,7 +243,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -252,7 +252,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

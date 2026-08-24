@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_brawler",
@@ -12,16 +13,15 @@
       "unit_speed_low",
       "unit_jumpOK",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_shogun_C",
   "HeraldryID": null,
   "Description": {
-    "Cost": 10400000,
-    "Rarity": 5,
+    "Cost": 10140000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -31,7 +31,7 @@
     "Details": "A complete redesign of the Shogun using Clan technology that is used exclusively by Wolf's Dragoons, the Shogun C is armed with two LRM-20 missile racks with an Artemis IV fire control system for greater missile accuracy. The 'Mech also carries an ER PPC and four Streak SRM-6 launchers, giving it a devastating close range damage capability.",
     "Icon": "uixTxrIcon_shogun"
   },
-  "simGameMechPartCost": 1040000,
+  "simGameMechPartCost": 1010000,
   "Version": 1,
   "Locations": [
     {
@@ -284,5 +284,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2850-01-01T00:00:00Z"
 }

@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_assault",
       "unit_role_sniper",
@@ -12,26 +13,25 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_gladiator-b_executioner-b-C",
   "HeraldryID": null,
   "Description": {
-    "Cost": 26800000,
+    "Cost": 27160000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Gladiator-B C",
+    "UIName": "Gladiator-B (Executioner-B) C",
     "Id": "mechdef_gladiator-b_executioner-b-C",
-    "Name": "Gladiator-B",
+    "Name": "Gladiator-B (Executioner-B)",
     "Details": "Another long-range sniper, the C configuration is potentially even deadlier than the B, but crippling heat issues hamper this variant's effectiveness. Mounting a total of four ER PPCs, two per arm, even the addition of four extra double heat sinks doesn't bring this variant anywhere near heat efficiency. The 'Mech also carries two Ultra AC/5s and two SRM-2s for close-range defense.",
     "Icon": "uixTxrIcon_executioner-b"
   },
-  "simGameMechPartCost": 2680000,
+  "simGameMechPartCost": 2720000,
   "Version": 1,
   "Locations": [
     {
@@ -244,5 +244,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "2873-01-01T00:00:00Z"
 }

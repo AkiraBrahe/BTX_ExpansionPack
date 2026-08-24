@@ -1,13 +1,13 @@
 {
   "Description": {
-    "Cost": 9360000,
-    "Rarity": 4,
+    "Cost": 9340000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Blackjack Omni",
+    "UIName": "Blackjack",
     "Id": "chassisdef_blackjack_BJ2-OF",
-    "Name": "Blackjack Omni",
+    "Name": "Blackjack",
     "Details": "The F configuration is built around an ER PPC and an UAC/10 as its two primary weapons, which provide the F configuration with a powerful long-range punch. For close ranges, the 'Mech carries two ER Medium Lasers and an ER Small Laser, with two extra double heat sinks reducing some of the added burden.",
     "Icon": "uixTxrIcon_blackjackomni"
   },
@@ -40,7 +40,7 @@
   "Radius": 5,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 45,
-  "MeleeInstability": 45,
+  "MeleeInstability": 50,
   "MeleeToHitModifier": 0,
   "DFADamage": 65,
   "DFAToHitModifier": 0,
@@ -204,6 +204,8 @@
       "chassis_omni",
       "chassis_DHS",
       "chassis_endo",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_nonstandardparts"
     ],
     "tagSetSourceFile": ""
@@ -231,7 +233,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -240,7 +242,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_1_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -249,7 +251,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_EndoSteel_4_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_4_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -258,7 +260,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -267,7 +269,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "ComponentDefID": "Gear_Armor_EndoSteel_2_Slot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

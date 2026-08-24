@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 29600000,
+    "Cost": 29420000,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
@@ -8,7 +8,7 @@
     "UIName": "Schwerer Gustav",
     "Id": "chassisdef_schwerergustav_SG-1X_Jäger",
     "Name": "Schwerer Gustav",
-    "Details": "The Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
+    "Details": "The Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by swapping the engine for a Clan-spec 300-rated one. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
     "Icon": "uixTxrIcon_schwerergustav"
   },
   "MovementCapDefID": "movedef_mech_assault_3",
@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_schwerergustavbase-001",
   "PrefabBase": "schwerergustav",
   "Tonnage": 100,
-  "InitialTonnage": 23.81,
+  "InitialTonnage": 21.5,
   "weightClass": "ASSAULT",
-  "BattleValue": 11705000,
+  "BattleValue": 11795000,
   "Heatsinks": 22,
   "TopSpeed": 64.8,
   "TurnRadius": 90,
@@ -39,7 +39,7 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 120,
+  "MeleeDamage": 70,
   "MeleeInstability": 100,
   "MeleeToHitModifier": 0,
   "DFADamage": 125,
@@ -74,9 +74,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 170,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 50
     },
     {
       "Location": "LeftTorso",
@@ -119,9 +119,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
     },
     {
       "Location": "RightArm",
@@ -141,9 +141,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 170,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 85
+      "InternalStructure": 50
     },
     {
       "Location": "LeftLeg",
@@ -211,16 +211,18 @@
   "VariantName": "SJ-1X",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_hyperextendingactuators",
       "mech_quirk_nonstandardparts"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut",
-  "YangsThoughts": "The Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by fully incorporating Clan endo steel and CASE into the chassis and switching to a 300-rated XL engine. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
+  "YangsThoughts": "The Schwerer Jäger, or Heavy Hunter, takes the Inner Sphere/Clan hybrid design further by swapping the engine for a Clan-spec 300-rated one. This allows for more versatility by supplementing the Thumper Artillery Cannon and Rotary AC/5 with two pairs of Plasma Rifles and Anti-Missile Systems. The addition of a MASC makes this configuration ideal for closing in on an enemy and striking it before it can react, much like a hunter with his prey.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

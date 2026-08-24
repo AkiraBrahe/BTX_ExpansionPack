@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_wight_WGT-2SC",
   "HeraldryID": null,
   "Description": {
-    "Cost": 4070000,
-    "Rarity": 5,
+    "Cost": 3700000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -31,7 +31,7 @@
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_wight"
   },
-  "simGameMechPartCost": 410000,
+  "simGameMechPartCost": 370000,
   "Version": 1,
   "Locations": [
     {
@@ -170,8 +170,8 @@
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "LocalGUID": "PPCCapacitor0"
+      "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3069-01-01T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 8930000,
-    "Rarity": 3,
+    "Cost": 8980000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -285,6 +285,8 @@
     "items": [
       "mr-resize-0.95",
       "chassis_DHS",
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_antiaircraft",
       "mech_quirk_searchlight_CT",
       "mech_quirk_nominimalarms"

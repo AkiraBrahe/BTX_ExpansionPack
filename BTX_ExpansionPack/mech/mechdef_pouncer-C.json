@@ -1,6 +1,7 @@
 {
   "MechTags": {
     "items": [
+      "unit_clan",
       "unit_mech",
       "unit_medium",
       "unit_role_sniper",
@@ -12,15 +13,14 @@
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
-      "unit_mechpack",
-      "unit_clan"
+      "unit_mechpack"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_pouncer-C",
   "HeraldryID": null,
   "Description": {
-    "Cost": 8910000,
+    "Cost": 8660000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -31,7 +31,7 @@
     "Details": "The C configuration relies on a powerful UAC/10 that can fire twice as fast as a standard autocannon for its primary firepower. This is supported by a pair of ER Medium Lasers and a trio of ER Small Lasers for close-range firepower.",
     "Icon": "uixTxrIcon_pouncer"
   },
-  "simGameMechPartCost": 890000,
+  "simGameMechPartCost": 870000,
   "Version": 1,
   "Locations": [
     {
@@ -172,5 +172,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3050-01-01T00:00:00Z"
 }

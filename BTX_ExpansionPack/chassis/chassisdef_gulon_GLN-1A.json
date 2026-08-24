@@ -150,12 +150,12 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
+      "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": 2.5,
+      "x": -2.5,
       "y": 8.5,
       "z": -0.5
     }
@@ -167,22 +167,22 @@
       "z": 0.5
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
       "x": 2.5,
       "y": 8.5,
       "z": -0.5
     },
     {
-      "x": -1.5,
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 1.5,
       "y": 3,
       "z": 0.5
     },
     {
-      "x": 1.5,
+      "x": -1.5,
       "y": 3,
       "z": 0.5
     }
@@ -190,7 +190,10 @@
   "VariantName": "GLN-1A",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.85"
+      "mr-resize-0.85",
+      "chassis_heavy_industrial",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight"
     ],
     "tagSetSourceFile": ""
   },

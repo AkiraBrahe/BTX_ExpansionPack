@@ -1,0 +1,36 @@
+{
+  "JumpCapacity": 1.15,
+  "MinTonnage": 10,
+  "MaxTonnage": 55,
+  "Description": {
+    "Cost": 50000,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "Clan Wolf-in-Exile",
+    "Model": "Standard",
+    "UIName": "Improved Jump Jet (S)",
+    "Id": "Gear_JumpJet_Improved_Standard",
+    "Name": "Improved Jump Jet (S)",
+    "Details": "A modern refinement of the standard Jump Jet. These jets are twice as large and as heavy as their normal counterparts, but can propel a 'Mech further with less heat buildup.\n\nStandard Jump Jets are specially designed for use on 'Mechs up to 55 tons.",
+    "Icon": "uixSvgIcon_action_jump"
+  },
+  "BonusValueA": null,
+  "BonusValueB": null,
+  "ComponentType": "JumpJet",
+  "ComponentSubType": "Functionality",
+  "PrefabIdentifier": "JumpJet",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 1,
+  "AllowedLocations": "Torso, Legs",
+  "DisallowedLocations": "Head, Arms",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "component_type_lostech"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

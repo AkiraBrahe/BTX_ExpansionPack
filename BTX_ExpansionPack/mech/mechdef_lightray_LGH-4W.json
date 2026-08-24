@@ -18,8 +18,8 @@
   },
   "ChassisID": "chassisdef_lightray_LGH-4W",
   "Description": {
-    "Cost": 13010000,
-    "Rarity": 4,
+    "Cost": 12580000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -29,7 +29,7 @@
     "Details": "The 4W variant retains the same loadout, but uses a Trageting Computer instead of the SRM-2 racks. The targeting computer technology was stolen by the Word of Blake ROM from House Davion.",
     "Icon": "uixTxrIcon_lightray"
   },
-  "simGameMechPartCost": 1300000,
+  "simGameMechPartCost": 1260000,
   "Version": 1,
   "Locations": [
     {
@@ -138,5 +138,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3065-01-01T00:00:00Z"
 }

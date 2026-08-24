@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 4760000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -195,6 +195,8 @@
   "VariantName": "RFL-4DA1",
   "ChassisTags": {
     "items": [
+      "ArmLimitUpperLeft",
+      "ArmLimitUpperRight",
       "mech_quirk_antiaircraft",
       "mech_quirk_improvedcomm",
       "mech_quirk_searchlight_LT",
@@ -202,7 +204,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "None",
+  "StockRole": "Sniper",
   "YangsThoughts": "A unique variant based on the RFL-4D, this variant removes all weaponry except for the two arm-mounted PPCs. The lasers that were removed are simply replaced by armor and heat sinks.",
   "FixedEquipment": [
     {

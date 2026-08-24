@@ -7,8 +7,8 @@
       "unit_lance_vanguard",
       "unit_lance_support",
       "unit_range_long",
-      "unit_armor_medium",
-      "unit_speed_low",
+      "unit_armor_high",
+      "unit_speed_medium",
       "unit_jumpOK",
       "unit_hot",
       "unit_release",
@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_marauder_MAD-5D-DC",
   "HeraldryID": null,
   "Description": {
-    "Cost": 16530000,
-    "Rarity": 4,
+    "Cost": 16510000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -228,5 +228,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3055-01-01T00:00:00Z"
 }

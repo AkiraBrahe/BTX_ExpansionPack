@@ -211,6 +211,8 @@
   "VariantName": "MAL-1X-AFFC",
   "ChassisTags": {
     "items": [
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_stabilized_ACs"
     ],
     "tagSetSourceFile": ""

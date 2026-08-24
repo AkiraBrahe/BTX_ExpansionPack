@@ -20,8 +20,8 @@
   "ChassisID": "chassisdef_bishamon_BSN-3K",
   "HeraldryID": null,
   "Description": {
-    "Cost": 8890000,
-    "Rarity": 4,
+    "Cost": 8870000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -48,7 +48,7 @@
       "Location": "LeftArm",
       "CurrentArmor": 110,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 55,
+      "CurrentInternalStructure": 35,
       "AssignedArmor": 110,
       "AssignedRearArmor": -1
     },
@@ -84,7 +84,7 @@
       "Location": "RightArm",
       "CurrentArmor": 110,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 55,
+      "CurrentInternalStructure": 35,
       "AssignedArmor": 110,
       "AssignedRearArmor": -1
     },
@@ -156,5 +156,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3060-01-01T00:00:00Z"
 }

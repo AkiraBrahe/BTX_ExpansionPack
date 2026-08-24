@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 5010000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -148,16 +148,16 @@
     {
       "x": 0,
       "y": 14,
-      "z": 0
+      "z": 1
     },
     {
       "x": 4,
-      "y": 14,
+      "y": 13,
       "z": 0
     },
     {
       "x": -4,
-      "y": 14,
+      "y": 13,
       "z": 0
     }
   ],
@@ -165,36 +165,36 @@
     {
       "x": 0,
       "y": 14,
-      "z": 0
+      "z": 1
     },
     {
       "x": 4,
-      "y": 14,
+      "y": 13,
       "z": 0
     },
     {
       "x": -4,
-      "y": 14,
+      "y": 13,
       "z": 0
     },
     {
-      "x": 2.5,
-      "y": 6,
-      "z": 2.5
+      "x": 3,
+      "y": 5,
+      "z": 2
     },
     {
-      "x": -2.5,
-      "y": 6,
-      "z": 2.5
+      "x": -3,
+      "y": 5,
+      "z": 2
     }
   ],
   "VariantName": "NCR-PRIME",
   "ChassisTags": {
     "items": [
+      "chassis_clan",
       "chassis_omni",
       "chassis_DHS",
       "chassis_ferro",
-      "chassis_clan",
       "mech_quirk_easytomaintain"
     ],
     "tagSetSourceFile": ""

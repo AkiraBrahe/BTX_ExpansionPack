@@ -20,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 6650000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "The four ER Small Lasers and the Sword all lend themselves to the up-close style of fighting that the Gurkha is centered around. It can deal a fair amount of damage relatively quickly, but its real strength lies in the C3i that allows the other five members of the pilot's Level II to effectively fire upon the Gurkha's target. The ER PPC provides a strong long-range punch that may surprise opponents who do not expect such a powerful weapon on a light BattleMech.",
     "Icon": "uixTxrIcon_gurkha"
   },
-  "simGameMechPartCost": 670000,
+  "simGameMechPartCost": 660000,
   "Version": 1,
   "Locations": [
     {
@@ -147,5 +147,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

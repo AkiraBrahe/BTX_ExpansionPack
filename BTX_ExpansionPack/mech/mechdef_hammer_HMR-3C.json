@@ -22,13 +22,13 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 2530000,
-    "Rarity": 4,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Hammer HMR-3C",
     "Id": "mechdef_hammer_HMR-3C",
-    "Name": "\"Claw-Hammer\"",
+    "Name": "“Claw-Hammer”",
     "Details": "Called the Claw-Hammer, the 3C is built to make the Hammer capable of better defending itself when an enemy closes on the battlefield. This is done by removing one of the LRM-5 launchers and replacing it with four additional Medium Lasers, which gives the Hammer the ability to attack the enemy with an overwhelming laser barrage at close ranges. This variant also works well as a bodyguard 'Mech in a lance of Hammer 'Mechs.",
     "Icon": "uixTxrIcon_hammer"
   },
@@ -119,11 +119,21 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_ALRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "LocalGUID": "WeaponAttachment0"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Addon_Artemis4",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false,
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "MountedLocation": "LeftTorso",
@@ -189,5 +199,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3056-01-01T00:00:00Z"
 }

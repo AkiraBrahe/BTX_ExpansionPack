@@ -20,7 +20,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 10050000,
-    "Rarity": 4,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
@@ -30,7 +30,7 @@
     "Details": "The 2S, based on the original Uziel prototype, specializes in long-range combat, with a pair of PPCs as its primary weapons. For close-range encounters, this variant is equipped with an SRM-6 launcher. A pair of Machine Guns also provide anti-infantry capabilities, ensuring the Uziel can engage targets at various ranges. A Beagle Active Probe detects hidden units and protects the 'Mech from ambushes.",
     "Icon": "uixTxrIcon_uziel"
   },
-  "simGameMechPartCost": 1010000,
+  "simGameMechPartCost": 1000000,
   "Version": 1,
   "Locations": [
     {
@@ -211,5 +211,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3063-01-01T00:00:00Z"
 }

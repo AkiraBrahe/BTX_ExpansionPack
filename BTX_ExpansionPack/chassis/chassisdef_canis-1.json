@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Cost": 15810000,
-    "Rarity": 3,
+    "Cost": 15800000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -41,7 +41,7 @@
   "PunchesWithLeftArm": false,
   "MeleeDamage": 95,
   "MeleeInstability": 80,
-  "MeleeToHitModifier": -2,
+  "MeleeToHitModifier": 0,
   "DFADamage": 100,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
@@ -204,15 +204,17 @@
   "ChassisTags": {
     "items": [
       "mr-resize-0.925",
+      "chassis_clan",
       "chassis_DHS",
       "chassis_endo",
-      "chassis_clan",
+      "ArmLimitLowerLeft",
+      "ArmLimitLowerRight",
       "mech_quirk_fastreload"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper",
-  "YangsThoughts": "",
+  "YangsThoughts": "The Canis is equipped with four arm-mounted ER Large Lasers. While these pack a powerful, long-range punch, they often overload the design's sixteen double heat sinks. For medium-range support, the 'Mech' utilizes a pair of torso-mounted Ultra Autocannon/10s, though it only carries enough ammunition for approximately a minute and a half of sustained firing.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

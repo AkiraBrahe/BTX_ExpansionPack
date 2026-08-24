@@ -1,7 +1,7 @@
 {
   "Description": {
     "Cost": 5320000,
-    "Rarity": 3,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
@@ -202,7 +202,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Militarized LoaderMech",
+  "StockRole": "Brawler",
   "YangsThoughts": "This is a complete overhaul of the Loader King industrial 'Mech, turning it into a functional, proper BattleMech. It outperforms most industrial 'Mech war refits with its AC/10, SRM-4 launcher, Machine Guns, and Small Laser, making it fairly versatile, but not enough to be a frontline 'Mech.",
   "FixedEquipment": []
 }

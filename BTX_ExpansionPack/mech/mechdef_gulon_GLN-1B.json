@@ -23,7 +23,7 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Gulon GLN-1B",
+    "UIName": "Gulon GLN-1B SecurityMech",
     "Id": "mechdef_gulon_GLN-1B",
     "Name": "Gulon",
     "Details": "The Gulon stands out for its fission engine, dangerous and difficult to maintain. In addition to three Small Lasers originally meant to cut stone, the SecurityMech carries a Medium Laser, all aided by advanced fire control. The'Mech keeps the original Mining Drill and heavy industrial armor.",
@@ -146,5 +146,6 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     }
-  ]
+  ],
+  "MinAppearanceDate": "3026-01-01T00:00:00Z"
 }
