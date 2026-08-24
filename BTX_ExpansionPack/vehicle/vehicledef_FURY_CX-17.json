@@ -109,7 +109,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_ReactiveArmor",
+      "ComponentDefID": "Gear_Armor_Reactive",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

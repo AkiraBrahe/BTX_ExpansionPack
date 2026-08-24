@@ -11,7 +11,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_HARASSER_Mini-Peggy",
-    "Name": "\"Mini-Peggy\"",
+    "Name": "“Mini-Peggy”",
     "Details": "<b>Name: <color=#85DBF6>Harasser Missile Platform \"Mini-Peggy\"</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>10/15 (Hover)</color>\tEngine: <color=#85DBF6>120 ICE</color></b>\n\nThe Harasser is a low-cost hover tank equipped with a variety of missile launchers that was widely integrated into Galleon Light Tank units in the Free Worlds League.\n\nThis 3028 variant is a simple scouting vehicle. The SRM-6s are decreased to four packs and a Remote Sensor Dispenser is added. Armor is also increased by a ton.",
     "Icon": "uixVhclIcon_harasser",
     "Cost": 589000,

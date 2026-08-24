@@ -86,7 +86,7 @@
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "LocalGUID": "ArtilleryLoader0"
+      "LocalGUID": "WeaponAttachment0"
     },
     {
       "ComponentDefID": "Gear_Addon_Artillery_Loader",
@@ -94,7 +94,7 @@
       "MountedLocation": "Turret",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "TargetComponentGUID": "ArtilleryLoader0"
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",

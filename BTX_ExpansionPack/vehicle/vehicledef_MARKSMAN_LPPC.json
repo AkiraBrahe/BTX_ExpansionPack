@@ -72,7 +72,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "LocalGUID": "ArtilleryLoader0"
+      "LocalGUID": "WeaponAttachment0"
     },
     {
       "ComponentDefID": "Gear_Addon_Artillery_Loader",
@@ -80,7 +80,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "TargetComponentGUID": "ArtilleryLoader0"
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "ComponentDefID": "Weapon_MachineGun_MachineGunHeavy_0-STOCK",

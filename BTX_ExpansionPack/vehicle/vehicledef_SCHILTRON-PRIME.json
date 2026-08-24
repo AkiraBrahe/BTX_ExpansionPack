@@ -74,7 +74,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
-      "LocalGUID": "ArtilleryLoader0"
+      "LocalGUID": "WeaponAttachment0"
     },
     {
       "ComponentDefID": "Gear_Addon_Artillery_Loader",
@@ -82,7 +82,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "TargetComponentGUID": "ArtilleryLoader0"
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "ComponentDefID": "Weapon_Artillery_ArrowIV_0-STOCK",
@@ -90,7 +90,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
-      "LocalGUID": "ArtilleryLoader1"
+      "LocalGUID": "WeaponAttachment1"
     },
     {
       "ComponentDefID": "Gear_Addon_Artillery_Loader",
@@ -98,7 +98,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "TargetComponentGUID": "ArtilleryLoader1"
+      "TargetComponentGUID": "WeaponAttachment1"
     },
     {
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",

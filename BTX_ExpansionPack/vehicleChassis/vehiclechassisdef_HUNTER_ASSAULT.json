@@ -10,7 +10,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_HUNTER_ASSAULT",
-    "Name": "\"Assault Hunter\"",
+    "Name": "“Assault Hunter”",
     "Details": "<b>Name: <color=#85DBF6>Hunter Light Support Tank \"Assault Hunter\"</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Tracked)</color>\tEngine: <color=#85DBF6>140 Fusion</color></b>\n\nThe Hunter Light Support Tank, popular among planetary militias and second-line units, is a cheap, reliable, and effective combat vehicle designed by Defiance Industries to provide covering fire support for withdrawing combat units from the front lines.\n\nAn unusual and rare variant which is based on the upgraded Hunter that removes all weapons and mounts a close range heavy striking Ultra AC/20 with three tons of ammunition. This variant is proving quite unpopular among its crews.",
     "Icon": "uixVhclIcon_hunter",
     "Cost": 1352000,

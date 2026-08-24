@@ -19,7 +19,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_FERRET_ARMOR",
-    "Name": "\"Wild Weasel\"",
+    "Name": "“Wild Weasel”",
     "Details": "<b>Name: <color=#85DBF6>Ferret Light Scout VTOL (Armor) \"Wild Weasel\"</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>15/23 (VTOL)</color>\tEngine: <color=#85DBF6>25 ICE</color></b>\n\nThe Ferret Light Scout VTOL is an advanced scout vehicle that can quickly monitor enemy troop movements and radio in artillery strikes. It can also transport troops and cargo, making it a versatile asset on the battlefield.\n\nThe Wild Weasel, introduced in 2967, is a more combat-oriented variant of the Ferret. By removing the transport bay, it gains an additional ton of armor, enhancing its survivability in combat.",
     "Icon": "uixVhclIcon_ferret",
     "Cost": 61000,

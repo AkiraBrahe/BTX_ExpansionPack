@@ -23,7 +23,7 @@
   "Description": {
     "Id": "vehicledef_HUITZILOPOCHTLI",
     "Name": "Huitzilopochtli Assault Tank",
-    "UIName": "\"Huey\"",
+    "UIName": "“Huey”",
     "Details": "<b>Name: <color=#85DBF6>Huitzilopochtli Assault Tank \"Huey\"</color>\nArmor: <color=#85DBF6>Standard</color>\tTechnology: <color=#85DBF6>Clan</color>\nMovement: <color=#85DBF6>2/3 (Tracked)</color>\tEngine: <color=#85DBF6>170 ICE</color></b>\n\nThe Huitzilopochtli, or \"Huey\", is a Clan combat vehicle designed as a mobile artillery platform. However, due to Clan disdain for both artillery and combat vehicles, it was built with an internal combustion engine and minimal armor, often requiring DropShip transport.\n\nThe Huey's primary weapon is a pair of Arrow IV launchers with four tons of ammunition for flexibility. Defensive capabilities include an Ultra Autocannon/5, two Medium Pulse Lasers, an ER Small Laser, and two Machine Guns. Additionally, an ECM Suite provides protection against enemy detection and electronic warfare.",
     "Icon": "uixVhclIcon_huitzilopochtli",
     "Cost": 3733000,
@@ -82,7 +82,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
-      "LocalGUID": "ArtilleryLoader0"
+      "LocalGUID": "WeaponAttachment0"
     },
     {
       "ComponentDefID": "Gear_Addon_Artillery_Loader",
@@ -90,7 +90,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "TargetComponentGUID": "ArtilleryLoader0"
+      "TargetComponentGUID": "WeaponAttachment0"
     },
     {
       "ComponentDefID": "Weapon_Artillery_CArrowIV_0-STOCK",
@@ -98,7 +98,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": 2,
       "DamageLevel": "Functional",
-      "LocalGUID": "ArtilleryLoader1"
+      "LocalGUID": "WeaponAttachment1"
     },
     {
       "ComponentDefID": "Gear_Addon_Artillery_Loader",
@@ -106,7 +106,7 @@
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
-      "TargetComponentGUID": "ArtilleryLoader1"
+      "TargetComponentGUID": "WeaponAttachment1"
     },
     {
       "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",

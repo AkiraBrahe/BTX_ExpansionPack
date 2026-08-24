@@ -10,7 +10,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_DEMON_HORNED",
-    "Name": "\"Horned Demon\"",
+    "Name": "“Horned Demon”",
     "Details": "<b>Name: <color=#85DBF6>Demon Tank \"Horned Demon\"</color>\nArmor: <color=#85DBF6>Standard </color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>4/6 (Wheeled)</color>\tEngine: <color=#85DBF6>220 Fusion</color></b>\n\nOriginally created by the SLDF as its standard fighting vehicle, the Demon is a match for any light or medium BattleMech thanks to its powerful Gauss Rifle.\n\nThis 2721 SLDF variant replaces the short-range missile launcher and CASE for a quartet of forward-firing Medium Lasers and two extra heat sinks. This configuration, while enhancing frontal firepower, leaves the vehicle's flanks vulnerable. To mitigate this, it was primarily used in defensive positions, where its powerful Gauss Rifle could be effectively employed.",
     "Icon": "uixVhclIcon_demon",
     "Cost": 2088000,

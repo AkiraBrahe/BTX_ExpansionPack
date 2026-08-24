@@ -75,7 +75,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_MachineGun_CMachineGunLightArray_0-STOCK",
+      "ComponentDefID": "Weapon_MachineGun_MachineGunLightArray_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,

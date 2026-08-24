@@ -10,7 +10,7 @@
   },
   "Description": {
     "Id": "vehiclechassisdef_PIKE_RAC",
-    "Name": "\"Assault Pike\"",
+    "Name": "“Assault Pike”",
     "Details": "<b>Name: <color=#85DBF6>Pike Support Vehicle (RAC) \"Assault Pike\"</color>\nArmor: <color=#85DBF6>Ferro-Fibrous</color>\tTechnology: <color=#85DBF6>Inner Sphere</color>\nMovement: <color=#85DBF6>3/5 (Tracked)</color>\tEngine: <color=#85DBF6>180 Fusion</color></b>\n\nThe Pike is a low-cost combat vehicle designed by the Magistracy of Canopus during the Third Succession War for the Great Houses. However, their shrinking JumpShip fleets limited its impact, and it instead became popular with ComStar's garrison forces.\n\nThis 3062 variant carries three Rotary Autocannon/2s with four tons of ammunition. A Small Laser discourages frontal infantry attacks. The Assault Pike ialso has a fusion engine and nine and a half tons of ferro-ferrous armor.",
     "Icon": "uixVhclIcon_pike",
     "Cost": 2497000,
