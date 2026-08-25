@@ -9,7 +9,7 @@ namespace BTX_ExpansionPack.Features.Combat
     internal class UrbanDevastation
     {
         /// <summary>
-        /// Destroys a percentage of buildings in urban maps based on contract difficulty.
+        /// Destroys a percentage of buildings in urban maps based on contract difficulty and mission type.
         /// </summary>
         [HarmonyPatch(typeof(TurnDirector), "OnInitializeContractComplete")]
         public static class TurnDirector_OnInitializeContractComplete
@@ -24,7 +24,19 @@ namespace BTX_ExpansionPack.Features.Combat
                 var activeContract = combat?.ActiveContract;
 
                 if (activeContract == null || activeContract.ContractBiome != Biome.BIOMESKIN.urbanHighTech) return;
-                if (activeContract.ContractType is not ContractType.SimpleBattle and not ContractType.ThreeWayBattle) return;
+
+                float devastationModifier = activeContract.contractTypeID.ToString() switch
+                {
+                    "Warzone" => 1.5f,
+                    "AttackAndDefend" => 1.2f,
+                    "ThreeWayBattle" => 1.1f,
+                    "SimpleBattle" => 1.0f,
+                    "DefendBase" => 0.8f,
+                    "DestroyBase" => 0.8f,
+                    _ => 0f
+                };
+
+                if (devastationModifier <= 0f) return;
 
                 List<BattleTech.Building> candidateBuildings = [];
                 foreach (var combatant in combat.GetAllCombatants())
@@ -48,12 +60,14 @@ namespace BTX_ExpansionPack.Features.Combat
                     candidateBuildings.Shuffle();
 
                     int difficulty = activeContract.Difficulty;
-                    float minDevastation = difficulty * 0.05f; float maxDevastation = 0.90f;
+                    float minDevastation = Math.Min(difficulty * 0.05f * devastationModifier, 0.90f);
+                    float maxDevastation = Math.Min(0.90f * devastationModifier, 0.99f);
 
                     float destroyPercent = (float)((Random.value * (maxDevastation - minDevastation)) + minDevastation);
                     int destroyCount = (int)Math.Floor(candidateBuildings.Count * destroyPercent);
                     destroyCount = Math.Min(destroyCount, candidateBuildings.Count);
 
+                    Main.Logger.LogDebug($"[UrbanDevastation] Destroying {destroyCount} buildings for {activeContract.Name} (Modifier: {devastationModifier}).");
                     for (int i = 0; i < destroyCount; i++)
                     {
                         var building = candidateBuildings[i];
