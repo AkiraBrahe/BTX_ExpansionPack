@@ -322,8 +322,7 @@
   ],
   "RequiredToSpawnCompanyTags": {
     "items": [
-      "flashpoint_uw1_complete",
-      "cae_ai_defence"
+      "flashpoint_uw1_complete"
     ],
     "tagSetSourceFile": ""
   },

@@ -3,7 +3,7 @@
     <Title>Expansion Pack</Title>
     <Authors>Kierk</Authors>
     <Copyright>Copyright © 2025</Copyright>
-    <Version>1.1.0</Version>
+    <Version>1.4.0</Version>
   </PropertyGroup>
   <PropertyGroup>
     <OutputType>Library</OutputType>
@@ -19,7 +19,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
-    <OutputPath>..\</OutputPath>
+    <OutputPath>..\$(AssemblyName)\</OutputPath>
   </PropertyGroup>
   <Target Name="CopyDLLToModFolder" AfterTargets="Build">
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(BattleTechGameDir)\Mods\$(AssemblyName)\" />

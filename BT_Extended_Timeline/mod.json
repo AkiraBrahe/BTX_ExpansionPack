@@ -112,7 +112,6 @@
       "Rasalhague": "planet_faction_rasalhague",
       "Rim": "planet_faction_rim",
       "SmokeJaguar": "planet_faction_smokejaguar",
-      "Solaris7" : "planet_faction_solaris7",
       "SteelViper": "planet_faction_steelviper",
       "Steiner": "planet_faction_steiner",
       "TaurianConcordat": "planet_faction_taurian",
@@ -281,7 +280,7 @@
         "starsystemdef_Storfors": "Steiner",
         "starsystemdef_Warlock": "Ives"
       },
-      "3060-01-01T00:00:00": {
+      "3059-01-01T00:00:00": {
         "starsystemdef_Aix-la-Chapelle": "Kurita"
       },
       "3064-01-01T00:00:00": {

@@ -180,8 +180,7 @@
   "statusEffects": [],
   "ComponentTags": {
     "items": [
-      "BUILT-IN",
-      "cae_ai_defence"
+      "BUILT-IN"
     ],
     "tagSetSourceFile": ""
   },

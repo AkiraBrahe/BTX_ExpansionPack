@@ -196,11 +196,6 @@
       "Path": "sprites"
     },
     {
-      "Type": "StarSystemDef",
-      "Path": "starsystems",
-      "ShouldMergeJSON": true
-    },
-    {
       "Type": "ContractOverride",
       "Path": "contract",
       "AddToDB": true
