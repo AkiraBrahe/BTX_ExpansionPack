@@ -39,13 +39,13 @@ Special thanks to [mcb](https://github.com/mcb5637) for the combat UI names, and
 
 ### 🤖 New 'Mechs
 
-The Expansion Pack adds over **100 new BattleMechs** and **680 variants**. The new chassis primarily bolster the 3025–3061 BEX timeline, but nearly half of all variants expand your options into the 3060s.
+The Expansion Pack adds over **100 new BattleMechs** and **680 variants**. Most new chassis fill out the 3025–3061 timeline, while nearly half of the variants expand your options into the 3060s.
 
 * **Faction stores have been updated** to include the new 'Mechs based on lore and date.
 * **New hero 'Mechs are available** as unique rewards for flashpoints, like the upgraded *Yen-Lo-Wang* and *Big Steel Claw*, as well as end-of-career rewards.
 
 > [!NOTE]
-> 35 chassis use curated proxy models selected for their visual consistency and aesthetic fit.
+> 35 chassis use proxy models chosen for their visual consistency with the original art.
 
   <details>
     <summary>New Chassis (by Availability)</summary>
@@ -193,65 +193,59 @@ The Expansion Pack adds over **100 new BattleMechs** and **680 variants**. The n
 
 ### 🚛 Playable Vehicles & Mechanics
 
-Command over **580 different vehicle variants** across **180 chassis**, including VTOLs and superheavy tanks, effectively doubling the vehicle pool found in BEX.
+The Expansion Pack adds over **580 different vehicle variants** across **180 chassis**, including VTOLs and superheavy tanks, doubling the number of vehicles in BEX.
 
-* **Rebalanced stats and 360° turrets** give conventional forces greater flexibility and survivability. Light and medium vehicles gain hit defense, while VTOLs and hovercraft gain evasion and initiative bonuses.
+* **Rebalanced stats and 360° turrets** makes vehicles more flexible and durable in combat. Light and medium vehicles gain hit defense, while VTOLs and hovercraft gain evasion and initiative bonuses.
 * **Biome-specific deployment restrictions** prevent units like VTOLs from dropping in unsuitable environments (e.g., low atmosphere).
-* **Limited vehicle refits** allow you to customize your conventional forces by swapping out existing weapons and ammunition.
-* **Dedicated vehicle pilots** can be trained using a refined lifepath system, and now benefit from integrated CASE and injury mechanics.
+* **Limited vehicle refits** lets you customize your conventional forces by swapping weapons and ammo types in the 'Mech bay.
+* **Dedicated vehicle pilots** can be trained using a refined lifepath system, and now benefit from CASE and vehicle-specific injury rules.
 
 ### ⚔️ Advanced Weaponry & Tech
 
-The Expansion Pack adds new weapons and refines existing mechanics. The leap into the 3060s also brings new technology to the ever-changing battlefield.
+The Expansion Pack adds new weapons and refines existing mechanics. Moving into the 3060s also introduces new tech and equipment to find and salvage.
 
-* **New artillery systems** like direct-firing Mech Mortars and Artillery Cannons expand your tactical options.
+* **New artillery systems** like direct-firing Mech Mortars and Artillery Cannons give you new ways to deal AoE damage.
 * **Rapid-fire autocannons** provide a good alternative to AMS for anti-missile and anti-air defense, trading raw damage of the autocannon for high accuracy against evasive targets.
 * **Advanced ammunition types** include Homing Arrow IV (requiring TAG), Swarm LRMs for area saturation, and Thunder-Inferno LRMs for area denial.
 * **Comms equipment and artillery TTS** grant lance-wide bonuses or enhance the accuracy of any artillery system.
-* **Gauss Rifles have been rebalanced** across the board to crit through armor, replacing the flat structure damage previously exclusive to SLDF models. In addition, firing Gauss weapons and artillery now generates instability.
-* **Integrated infantry complements** on APCs act as unkillable, integrated weapon systems to support your forces in the field.
+* **Gauss Rifles have been rebalanced** to crit through armor, replacing the flat structure damage previously exclusive to SLDF models. In addition, firing Gauss weapons and artillery now generates instability.
+* **Integrated infantry complements** on APCs act as integrated, unkillable weapons to support your forces in the field.
 
 > [!TIP]
 > **Artillery Crits:** AoE damage typically spreads across all locations, but impacts near the target center now have a chance to inflict a critical hit, concentrating the full blast on a single location.
 
 ### 🗺️ World & Economy
 
-* **Overhauled lances and missions** bring greater variety to encounters, especially when facing ComStar and the Clans, with increasingly dangerous support lances.
+The Expansion Pack significantly expands mission and lance generation logic to create more varied and unpredictable encounters, especially when facing ComStar and the Clans.
+
+* **Overhauled lance and mission generation** adds more variety and depth across the board:
+  * **Additional Lances:** Missions have a small chance to spawn allied or enemy reinforcements, ranging from VTOL and artillery support to command lances.
+  * **Salvage Race:** A new mission where you race to retrieve an SLDF cache before ComStar secures it. Fighting is optional, making it an easier alternative to Search Denial and Tag Team missions.
+  * **Dynamic Search Denial:** ComStar now fields mixed forces (tanks, 'Mechs, or both) and elite Com Guard variants, with a chance to run into Snord's Irregulars fighting ComStar.
+  * **Lore-Accurate Lances:** ComStar Level IIs and Clan Stars now have balanced compositions, making all-assault lances much less common.
+  * **Specialized Formations:** Adds post-Clan Invasion Capellan augmented lances and dedicated artillery lances with custom spawn logic.
 * **Expanded vehicle economy** adds 20+ new vehicle-exclusive factories and updates faction stores.
 * **New career starts** let you begin your mercenary journey with "Ultralights Only", "Solo", or "Vehicles Only" options.
 * **Improved enemy AI** now understands how to use artillery and specialized munitions effectively in combat.
-
-  <details>
-    <summary>Lance & Mission Variety</summary>
-
-  The mod significantly expands mission and lance generation logic:
-
-  * **Additional Lances:** Every mission has a low chance of having additional ally and enemy lances with varying compositions (from VTOL to artillery and command lances).
-  * **Salvage Race:** A new mission where you must retrieve an SLDF cache while ComStar defends it. Fighting is optional, making it an easier alternative to Search Denial and Tag Team missions.
-  * **Dynamic Search Denial:** ComStar now fields varied forces (vehicles, 'Mechs, or mixed) and elite Com Guard variants. You might also encounter Snord's Irregulars fighting against ComStar!
-  * **Lore-Accurate Lances:** ComStar Level IIs and Clan Stars now spawn with balanced, diverse unit compositions, replacing the default behavior of simply cloning a unit, which often resulted in all-assault lances.
-  * **Specialized Formations:** The Capellan Confederation utilizes augmented lances post-Clan Invasion, while dedicated artillery lances with custom spawn logic ensure unique tactical challenges.
-
-  </details>
 
 > [!TIP]
 > **High-Value Loot:** Com Guards have a doubled chance of fielding royal 'Mechs and tanks, whereas command lances favor high BV units.
 
 ### 🎨 Quality of Life & Visuals
 
-* **Cleaner UI and tooltips** provide better information formatting in and out of combat. This includes mech tooltips and various info panels in the mech bay and in battle.
+* **Cleaner tooltips and UI panels** in both the 'Mech bay and during combat.
 * **ComStar missions are color-coded** for better visibility in the mission select screen.
 * **Target information** in the mission contract screen now clearly shows the mission's target faction and equipment rating.
 * **Enhanced weapon visuals** give Heavy Lasers and Snub-Nose PPCs distinct, recognizable beam colors.
 * **Improved combat UI** ensures full vehicle names are always displayed for easier target identification in battle.
-* **Improved urban performance** through the destruction of many buildings before battle depending on the mission type.
+* **Better urban performance** by destroying a large number of buildings before battle, depending on the mission type.
 
 ## Roadmap
 
 ### History
 
-* **v0.1 to v0.9** focused on adding new 'Mechs and equipment, then later playable vehicles.
-* **v1.0 to v1.4** expanded the mod scope to include various features beyond just adding new 'Mechs and vehicles.
+* **v0.1 to v0.9** focused on adding new 'Mechs, equipment, and later vehicles.
+* **v1.0 to v1.4** expanded the mod scope to include various new features.
 
 ### Future Plans
 
