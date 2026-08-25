@@ -59,9 +59,15 @@ namespace BTX_ExpansionPack.Core.Helpers
             {
                 int currentRound = __instance.CurrentRound;
                 var expiredRounds = _activeStrikes.Keys.Where(r => r < currentRound);
-                foreach (int round in expiredRounds)
+
+                if (expiredRounds.Any())
                 {
-                    _activeStrikes.Remove(round);
+                    Main.Logger.Log($"[ArtilleryAI] Beginning new round {currentRound}. Clearing expired strike data.");
+
+                    foreach (int round in expiredRounds)
+                    {
+                        _activeStrikes.Remove(round);
+                    }
                 }
             }
         }
@@ -115,7 +121,7 @@ namespace BTX_ExpansionPack.Core.Helpers
         /// Finds enemy units close to the primary target, within the artillery's area of effect.
         /// </summary>
         public static List<AbstractActor> FindNearbyEnemies(AbstractActor primaryTarget, IEnumerable<AbstractActor> allEnemies, float aoeRange) =>
-            [.. allEnemies.Where(enemy => Vector3.Distance(primaryTarget.CurrentPosition, enemy.CurrentPosition) <= aoeRange * 2f)];
+            [.. allEnemies.Where(enemy => !enemy.IsDead && Vector3.Distance(primaryTarget.CurrentPosition, enemy.CurrentPosition) <= aoeRange * 2f)];
 
         #endregion
     }

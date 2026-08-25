@@ -112,7 +112,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         {
             var attacker = weapon.parent;
             var potentialTargets = attacker.team.GetDetectedEnemyUnits()
-                .Where(target => weapon.CanHitTargetPosition(attacker.CurrentPosition, target.CurrentPosition))
+                .Where(target => !target.IsDead && weapon.CanHitTargetPosition(attacker.CurrentPosition, target.CurrentPosition))
                 .ToList();
 
             if (potentialTargets.Count == 0)
@@ -150,7 +150,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                 {
                     var mode = strike.Mode;
                     weights = [.. weights.Select(w => w.Item1 == mode
-                        ? System.Tuple.Create(w.Item1, w.Item2 * 0.8f)
+                        ? System.Tuple.Create(w.Item1, w.Item2 * 1.2f)
                         : w)];
                 }
             }
@@ -182,7 +182,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                         Mode = selectedMode
                     });
 
-                    Main.Logger.LogDebug($"[ArtilleryAI] {attacker.DisplayName} (Pilot Tactics: {tactics}) selected {selectedMode} targeting mode. Targeting position: {targetPos.Value}");
+                    Main.Logger.LogDebug($"[ArtilleryAI] {attacker.DisplayName} from {attacker.team.DisplayName} team (Pilot Tactics: {tactics}) selected {selectedMode} targeting mode. Targeting position: {targetPos.Value}");
                     return targetPos.Value;
                 }
             }
