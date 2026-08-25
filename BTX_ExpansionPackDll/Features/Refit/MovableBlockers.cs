@@ -5,17 +5,292 @@ using CustomComponents;
 using CustomComponents.Changes;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using static BTX_ExpansionPack.Core.Helpers.BlockerHelpers;
 
 namespace BTX_ExpansionPack.Features.Refit
 {
     internal class MovableBlockers
     {
-        public static void Register() => Validator.RegisterDropValidator(null, ReplaceValidateDrop, null);
+        public static void Register()
+        {
+            AutoFixer.Shared.RegisterMechFixer(AutoFixBlockers);
+            Validator.RegisterDropValidator(null, ReplaceValidateDrop, null);
+        }
 
         #region Hook Methods
 
         public static string ReplaceValidateDrop(MechLabItemSlotElement drop_item, ChassisLocations location, Queue<IChange> changes) => ValidateArmorDrop(drop_item, location, changes);
+
+        #endregion
+
+        #region Cleanup Logic
+
+        /// <summary>
+        /// Migrates old blocker definitions to the new format and caches them for later use.
+        /// </summary>
+        [HarmonyPatch(typeof(ChassisDef), "FromJSON")]
+        [HarmonyAfter("BEX.BattleTech.Extended_CE")]
+        public static class ChassisDef_FromJSON_ArmorBlockers
+        {
+            [HarmonyPostfix]
+            public static void Postfix(ChassisDef __instance)
+            {
+                if (__instance == null) return;
+
+                // Step A: Identify and migrate blockers
+                var fixedInv = __instance.FixedEquipment?.ToList() ?? [];
+                for (int i = 0; i < fixedInv.Count; i++)
+                {
+                    if (fixedInv[i].ComponentDefID.StartsWith("Gear_EndoSteel") ||
+                        fixedInv[i].ComponentDefID.StartsWith("Gear_FerroFibrous") ||
+                        fixedInv[i].ComponentDefID.StartsWith("Gear_EndoFerroCombo"))
+                    {
+                        fixedInv[i].ComponentDefID = fixedInv[i].ComponentDefID.Replace("Gear_", "Gear_Armor_");
+                    }
+                }
+
+                var stockBlockers = fixedInv
+                    .Where(c => c.ComponentDefID.StartsWith("Gear_Armor_"))
+                    .Select(c => new DefaultsInfoRecord { DefID = c.ComponentDefID, Location = c.MountedLocation, Type = c.ComponentDefType })
+                    .ToArray();
+
+                if (stockBlockers.Length > 0)
+                {
+                    fixedInv.RemoveAll(c => c.ComponentDefID.StartsWith("Gear_Armor_"));
+                    __instance.fixedEquipment = [.. fixedInv];
+                }
+
+                // Step B: Store data in cache for the autofixer to use
+                var cache = __instance.GetComponent<AdvancedChassisData>();
+                if (cache == null)
+                {
+                    cache = new AdvancedChassisData();
+                    __instance.AddComponent(cache);
+                }
+
+                cache.StockBlockers = stockBlockers;
+            }
+        }
+
+        #endregion
+
+        #region Autofix Logic
+
+        /// <summary>
+        /// Fixes the number of slots taken up by blockers to match the structure and armor type.
+        /// </summary>
+        private static void AutoFixBlockers(List<MechDef> mechs)
+        {
+            var sw = Stopwatch.StartNew();
+            foreach (var mech in mechs)
+            {
+                try
+                {
+                    NormalizeBlockers(mech);
+                }
+                catch (Exception e)
+                {
+                    Main.Logger.LogError($"Error auto-fixing blockers for {mech.Description.Id}: {e}");
+                }
+            }
+            sw.Stop();
+            Main.Logger.LogDebug($"Auto-fixed blockers for {mechs.Count} mechs in {sw.Elapsed.TotalSeconds:F2} seconds.");
+        }
+
+        internal static void NormalizeBlockers(MechDef mech)
+        {
+            if (!mech.DataManager.ChassisDefs.TryGet(mech.Chassis.Description.Id, out var chassis))
+                chassis = mech.Chassis;
+
+            var cache = chassis.GetComponent<AdvancedChassisData>();
+            if (cache == null) return;
+
+            // Step A: Determine if the mech has or needs any blockers
+            var structure = mech.GetStructureInfo();
+            var armor = mech.GetArmorInfo();
+
+            int totalRequired = structure.CriticalSlots + armor.CriticalSlots;
+            if (totalRequired == 0) return;
+
+            var invBlockers = mech.Inventory.Where(c => c.IsCategory("Blocker"));
+            if (invBlockers.Any()) return;
+
+            // Step B: Get cached blockers from the chassis
+            var cachedBlockers = (cache.StockBlockers == null || cache.StockBlockers.Length == 0)
+                ? [] : cache.StockBlockers.Select(b => new MechComponentRef(b.DefID, "", b.Type, b.Location) { DataManager = mech.DataManager });
+            var allBlockers = cachedBlockers.ToList();
+
+            var blockerIDs = DetermineBlockerIds(structure, armor);
+            if (blockerIDs.Count == 0) return;
+
+            // Step C: Adjust blockers to match the required number of slots
+            if (blockerIDs.Count == 1)
+            {
+                string blockerID = blockerIDs[0];
+                string currentID = allBlockers.FirstOrDefault()?.ComponentDefID ?? "";
+                if (currentID != blockerID) allBlockers.Clear();
+
+                int currentSlots = GetTotalBlockerSlots(allBlockers);
+
+                if (currentSlots != totalRequired)
+                {
+                    bool isClan = chassis.ChassisTags.Contains("chassis_clan");
+                    if (!isClan)
+                    {
+                        // IS mech: Adjust existing blockers
+                        if (currentSlots > totalRequired)
+                        {
+                            ReduceBlockers(allBlockers, currentSlots - totalRequired);
+                        }
+                        else
+                        {
+                            AddBlockers(mech, ref allBlockers, blockerID, totalRequired - currentSlots);
+                        }
+                    }
+                    else
+                    {
+                        // Clan mech: Add blockers from scratch
+                        allBlockers.Clear();
+                        AddBlockers(mech, ref allBlockers, blockerID, totalRequired);
+                    }
+                }
+            }
+
+            var inventory = mech.Inventory;
+            mech.SetInventory([.. inventory, .. allBlockers]);
+            mech.RefreshInventory();
+        }
+
+        /// <summary>
+        /// Reduces the number of inventory slots taken up by blockers.
+        /// </summary>
+        private static void ReduceBlockers(List<MechComponentRef> allBlockers, int slotsToRemove)
+        {
+            if (slotsToRemove <= 0) return;
+
+            while (slotsToRemove > 0)
+            {
+                bool changed = false;
+                foreach (var location in repairPriorities.Values)
+                {
+                    var blocker = allBlockers.FirstOrDefault(b => b.MountedLocation == location);
+                    if (blocker != null)
+                    {
+                        int currentSize = blocker.Def.InventorySize;
+                        if (currentSize <= 1)
+                        {
+                            allBlockers.Remove(blocker);
+                        }
+                        else
+                        {
+                            string currentSuffix = currentSize + "_Slot";
+                            string newSuffix = currentSize - 1 + "_Slot";
+                            blocker.ComponentDefID = blocker.ComponentDefID.Replace(currentSuffix, newSuffix);
+                            blocker.RefreshComponentDef();
+                        }
+                        slotsToRemove--;
+                        changed = true;
+                        if (slotsToRemove <= 0) break;
+                    }
+                }
+                if (!changed) break;
+            }
+        }
+
+        /// <summary>
+        /// Adds blockers by distributing them evenly across all locations.
+        /// </summary>
+        private static void AddBlockers(MechDef mech, ref List<MechComponentRef> allBlockers, string baseID, int slotsToAdd)
+        {
+            if (slotsToAdd <= 0) return;
+
+            var distribution = allLocations.ToDictionary(loc => loc, loc => 0);
+            var freeSlots = distribution.Keys.ToDictionary(loc => loc, loc => mech.GetFreeSlotsInLoc([.. mech.Inventory], loc));
+
+            int totalFreeSlots = freeSlots.Values.Sum();
+            if (totalFreeSlots < slotsToAdd)
+            {
+                int neededSlots = slotsToAdd - totalFreeSlots;
+
+                var externalHeatSinks = new List<(MechComponentRef component, HeatSinkInfo info)>();
+                foreach (var component in mech.Inventory)
+                {
+                    if (component.ComponentDefType == ComponentType.HeatSink && !component.IsCategory("Internal"))
+                    {
+                        var hsInfo = HeatSinkTypes.Values.FirstOrDefault(v => v.ExternalDefID == component.ComponentDefID);
+                        if (!string.IsNullOrEmpty(hsInfo.ExternalDefID))
+                        {
+                            externalHeatSinks.Add((component, hsInfo));
+                        }
+                    }
+                }
+
+                if (externalHeatSinks.Count > 0)
+                {
+                    var convertableHS = externalHeatSinks.Take(neededSlots).ToList();
+                    int potentialSlots = convertableHS.Sum(hs => hs.component.Def != null ? hs.component.Def.InventorySize : hs.info.Slots);
+
+                    if (potentialSlots >= neededSlots)
+                    {
+                        foreach (var (component, info) in convertableHS)
+                        {
+                            int gainedSlots = component.Def != null ? component.Def.InventorySize : info.Slots;
+
+                            component.ComponentDefID = info.InternalDefID;
+                            component.RefreshComponentDef();
+
+                            freeSlots[component.MountedLocation] += gainedSlots;
+                            neededSlots -= gainedSlots;
+
+                            if (neededSlots <= 0) break;
+                        }
+                    }
+                }
+            }
+
+            void Fill(List<ChassisLocations> locations)
+            {
+                if (slotsToAdd <= 0) return;
+                bool added;
+                do
+                {
+                    added = false;
+                    foreach (var loc in locations.OrderBy(l => distribution[l]))
+                    {
+                        if (slotsToAdd > 0 && freeSlots[loc] > 0)
+                        {
+                            distribution[loc]++;
+                            freeSlots[loc]--;
+                            slotsToAdd--;
+                            added = true;
+                            if (slotsToAdd <= 0) break;
+                        }
+                    }
+                } while (added && slotsToAdd > 0);
+            }
+
+            Fill([.. sideLocations]);
+            Fill([.. coreLocations]);
+
+            if (slotsToAdd > 0)
+            {
+                Main.Logger.LogWarning($"{mech.Description.Id} doesn't have enough free slots for blockers.");
+            }
+
+            foreach (var kvp in distribution)
+            {
+                int needed = kvp.Value;
+                while (needed > 0)
+                {
+                    int size = Math.Min(needed, 8);
+                    string itemID = $"{baseID}_{size}_Slot";
+                    allBlockers.Add(new MechComponentRef(itemID, "", ComponentType.Upgrade, kvp.Key) { DataManager = mech.DataManager });
+                    needed -= size;
+                }
+            }
+        }
 
         #endregion
 
@@ -270,55 +545,6 @@ namespace BTX_ExpansionPack.Features.Refit
                 else if (Change != null)
                     changes.Enqueue(new Change_Remove(Change.ItemID, Change.Location));
             }
-        }
-
-        #endregion
-
-        #region Helper Methods
-
-        /// <summary>
-        /// Returns a list of all valid chassis locations for a mech.
-        /// </summary>
-        public static readonly ChassisLocations[] allLocations = [
-            ChassisLocations.Head,
-            ChassisLocations.LeftArm,
-            ChassisLocations.LeftTorso,
-            ChassisLocations.CenterTorso,
-            ChassisLocations.RightTorso,
-            ChassisLocations.RightArm,
-            ChassisLocations.LeftLeg,
-            ChassisLocations.RightLeg
-        ];
-
-        /// <summary>
-        /// Determines all blocker types currently present in the mech's inventory.
-        /// </summary>
-        public static List<string> GetBlockerTypesInMech(MechDef mechDef)
-        {
-            var blockerTypes = new HashSet<string>();
-
-            foreach (var component in mechDef.Inventory)
-            {
-                if (component.IsCategory("Blocker"))
-                {
-                    string baseID = GetBlockerBaseID(component.ComponentDefID);
-                    blockerTypes.Add(baseID);
-                }
-            }
-
-            return [.. blockerTypes];
-        }
-
-        /// <summary>
-        /// Extracts the base blocker ID prefix from a full component ID.
-        /// <br/>Example: "Gear_Armor_EndoFerroCombo_5_Slot" -> "Gear_Armor_EndoFerroCombo"
-        /// </summary>
-        public static string GetBlockerBaseID(string componentDefID)
-        {
-            string[] parts = componentDefID.Split('_');
-            return parts.Length >= 3 && int.TryParse(parts[parts.Length - 2], out _)
-                ? string.Join("_", parts.Take(parts.Length - 2))
-                : componentDefID;
         }
 
         #endregion

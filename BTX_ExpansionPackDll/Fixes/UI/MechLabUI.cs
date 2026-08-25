@@ -308,7 +308,7 @@ namespace BTX_ExpansionPack.Fixes.UI
 
             // Armor
             if (armor.Type != ArmorType.Standard)
-                traits.Add($"{armor.Name} Armor: {armor.Description}");
+                traits.Add($"{armor.Name} Armor: {armor.ShortDescription}");
 
             // CASE
             if (chassis.ChassisTags.Contains("chassis_clan"))

@@ -1,6 +1,7 @@
 using BattleTech;
 using BattleTech.Data;
 using CustAmmoCategories;
+using CustomComponents;
 using CustomUnits;
 using HBS.Collections;
 using System;
@@ -13,6 +14,19 @@ namespace BTX_ExpansionPack.Core
 {
     public static class Extensions
     {
+        #region Armor Type
+
+        /// <summary>
+        /// Retrieves the armor type from a tag set.
+        /// </summary>
+        public static ArmorType? GetArmorType(this TagSet tags)
+        {
+            string tag = tags.FirstOrDefault(t => t.StartsWith(ArmorPrefix));
+            return tag != null && Enum.TryParse<ArmorType>(tag.Substring(ArmorPrefix.Length), out var type) ? type : null;
+        }
+
+        #endregion
+
         #region Structure and Armor Info
 
         /// <summary>
@@ -42,9 +56,9 @@ namespace BTX_ExpansionPack.Core
         /// <summary>
         /// Retrieves the armor info of a mech.
         /// </summary>
-        public static ArmorInfo GetArmorInfo(this MechDef mech)
+        public static ArmorInfo GetArmorInfo(this MechDef mech, bool checkMechTags = true)
         {
-            if (mech.MechTags != null)
+            if (checkMechTags && mech.MechTags != null)
             {
                 var armorType = mech.MechTags.GetArmorType();
                 if (armorType != null) return ArmorTypes[(ArmorType)armorType];
@@ -91,16 +105,39 @@ namespace BTX_ExpansionPack.Core
             return ArmorTypes[type];
         }
 
-        /// <summary>
-        /// Retrieves the armor type from a tag set.
-        /// </summary>
-        public static ArmorType? GetArmorType(this TagSet tags)
-        {
-            const string ArmorPrefix = "AML_Armor_";
+        #endregion
 
-            string tag = tags.FirstOrDefault(t => t.StartsWith(ArmorPrefix));
-            return tag != null && Enum.TryParse<ArmorType>(tag.Substring(ArmorPrefix.Length), out var type) ? type : null;
-        }
+        #region Inventory and Equipment
+
+        /// <summary>
+        /// Gets the number of free inventory slots in a mech.
+        /// </summary>
+        public static int GetFreeSlots(this MechDef mech, IEnumerable<MechComponentRef> inventory) =>
+            mech.Chassis.Locations.Sum(location => mech.GetFreeSlotsInLoc(inventory, location.Location));
+
+        /// <summary>
+        /// Gets the number of free inventory slots in a mech, excluding a specific category.
+        /// </summary>
+        public static int GetFreeSlots(this MechDef mech, IEnumerable<MechComponentRef> inventory, string excludedCategory) =>
+            mech.Chassis.Locations.Sum(location => mech.GetFreeSlotsInLoc(inventory, location.Location, excludedCategory));
+
+        /// <summary>
+        /// Determines the number of free inventory slots in a location.
+        /// </summary>
+        public static int GetFreeSlotsInLoc(this MechDef mech, IEnumerable<MechComponentRef> inventory, ChassisLocations location) =>
+            mech.GetChassisLocationDef(location).InventorySlots - inventory.Where(i => i.Def != null && i.MountedLocation == location).Sum(i => i.Def.InventorySize);
+
+        /// <summary>
+        /// Determines the number of free inventory slots in a location, taking into account the size of the item being added.
+        /// </summary>
+        public static int GetFreeSlotsInLoc(this MechDef mech, IEnumerable<MechComponentRef> inventory, ChassisLocations location, int size) =>
+            (mech.GetChassisLocationDef(location).InventorySlots - inventory.Where(i => i.Def != null && i.MountedLocation == location).Sum(i => i.Def.InventorySize)) / size;
+
+        /// <summary>
+        /// Determines the number of free inventory slots in a location, excluding a specific category.
+        /// </summary>
+        public static int GetFreeSlotsInLoc(this MechDef mech, IEnumerable<MechComponentRef> inventory, ChassisLocations location, string excludedCategory) =>
+            mech.GetChassisLocationDef(location).InventorySlots - inventory.Where(i => i.Def != null && i.MountedLocation == location && !i.IsCategory(excludedCategory)).Sum(i => i.Def.InventorySize);
 
         #endregion
 
