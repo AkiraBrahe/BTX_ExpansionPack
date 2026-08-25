@@ -12,6 +12,7 @@ namespace BTX_ExpansionPack.Fixes.Misc
         public static class SimGameState_Rehydrate
         {
             [HarmonyPostfix]
+            [HarmonyWrapSafe]
             public static void Postfix(SimGameState __instance)
             {
                 foreach (var kvp in BTX_CAC_CompatibilityDll.Main.Splits)
@@ -31,10 +32,26 @@ namespace BTX_ExpansionPack.Fixes.Misc
                         int count = __instance.GetItemCount(obsoleteItem, itemType, ItemCountType.ALL);
                         if (count > 0)
                         {
-                            for (int j = 0; j < count; j++)
+                            string oldStatId = __instance.GetItemStatID(obsoleteItem, itemType);
+                            if (__instance.companyStats.ContainsStatistic(oldStatId))
                             {
-                                __instance.RemoveItemStat(obsoleteItem, itemType, false);
-                                __instance.AddItemStat(newItem, itemType, false);
+                                __instance.companyStats.RemoveStatistic(oldStatId);
+                            }
+
+                            bool isArmorItem = obsoleteItem.StartsWith("Gear_Endo") || obsoleteItem.StartsWith("Gear_Ferro");
+                            if (!isArmorItem)
+                            {
+                                Main.Logger.LogDebug($"Replacing {count} instances of obsolete item '{obsoleteItem}' with new item '{newItem}' in inventory.");
+
+                                string newStatId = __instance.GetItemStatID(newItem, itemType);
+                                if (__instance.companyStats.ContainsStatistic(newStatId))
+                                {
+                                    __instance.companyStats.ModifyStat("SimGameState", 0, newStatId, StatCollection.StatOperation.Int_Add, count);
+                                }
+                                else
+                                {
+                                    __instance.companyStats.AddStatistic(newStatId, count);
+                                }
                             }
                         }
                     }
