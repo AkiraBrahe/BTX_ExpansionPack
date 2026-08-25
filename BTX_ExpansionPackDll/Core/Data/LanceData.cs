@@ -164,8 +164,10 @@ namespace BTX_ExpansionPack.Core.Data
                 if (isClan) fallbackFaction = "CLAN";
                 else if (isPeriphery) fallbackFaction = "PERIPHERY";
 
-                int[] availArray = FactionAvailabilityByYear.ContainsKey(faction)
-                    ? FactionAvailabilityByYear[faction] : FactionAvailabilityByYear[fallbackFaction];
+                int[] availArray;
+                if (FactionAvailabilityByYear.ContainsKey(faction)) availArray = FactionAvailabilityByYear[faction];
+                else availArray = FactionAvailabilityByYear.ContainsKey(fallbackFaction) ? FactionAvailabilityByYear[fallbackFaction] : null;
+
                 if (availArray == null) return 0;
 
                 int index = Array.FindLastIndex(ReferenceYears, y => y <= year);

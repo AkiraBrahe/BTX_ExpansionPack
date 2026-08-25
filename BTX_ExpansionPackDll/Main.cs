@@ -1,5 +1,6 @@
 using BattleTech;
 using BattleTech.Data;
+using BattleTech.Framework;
 using BattleTech.UI;
 using BattleTech.UI.Tooltips;
 using BTX_ExpansionPack.Features.Refit;
@@ -93,6 +94,10 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(LanceMechEquipmentList), "SetLoadout", []), HarmonyPatchType.Postfix, "io.mission.customunits");
             /* Piloting Expertise */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PilotGenerator), "GeneratePilots"), HarmonyPatchType.Postfix, "io.mission.customunits");
+
+            // --- Full Xotl Tables ---
+            /* Unit Selection */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(UnitSpawnPointOverride), "RequestUnit"), HarmonyPatchType.Prefix, "BattleTech.Haree.FullXotlTables");
 
             // --- Mech Affinity ---
             /* Stock Config Tooltip */

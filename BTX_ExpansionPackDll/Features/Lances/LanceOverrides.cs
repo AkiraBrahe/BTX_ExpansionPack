@@ -16,13 +16,13 @@ namespace BTX_ExpansionPack.Features.Lances
         /// Allows Snord's Irregulars to spawn as enemy in Search Denial contracts against ComStar.
         /// </summary>
         [HarmonyPatch(typeof(SimGameState), "PrepContract")]
-        // PrepContract(contract, employer, employerAlly, target, targetAlly, neutralToAll, hostileToAll, level.Map.BiomeSkinEntry.BiomeSkin, contract.Override.travelSeed, system);
         public static class SimGameState_PrepContract
         {
             public static void Prefix(SimGameState __instance, Contract contract, ref FactionValue target, StarSystem system)
             {
                 if (contract.Override.ID.StartsWith("ThreeWayBattle_SearchDenialCS") && Random.Range(0f, 1f) < 0.05f)
                 {
+                    Main.Logger.LogDebug($"[LanceOverrides] Replacing target with Snord's Irregulars for {contract.Name} contract on {system.Name} system.");
                     target = __instance.DataManager.Factions.Get("faction_Merc28").FactionValue;
                 }
             }
@@ -42,6 +42,7 @@ namespace BTX_ExpansionPack.Features.Lances
             {
                 if (!string.IsNullOrEmpty(factionKey) && CurrentYear >= 3052 && factionKey.StartsWith("LiaoA"))
                 {
+                    Main.Logger.LogDebug($"[LanceOverrides] Forcing augmented lance formation for Capellan faction '{factionKey}' in year {CurrentYear}.");
                     factionKey = "AugmentedLance";
                 }
             }
@@ -55,16 +56,17 @@ namespace BTX_ExpansionPack.Features.Lances
         {
             [HarmonyPrefix]
             [HarmonyBefore("BEX.BattleTech.Extended_CE")]
-            public static bool Prefix(UnitSpawnPointOverride __instance)
+            public static bool Prefix(UnitSpawnPointOverride __instance, string lanceName)
             {
-                if (LanceGenerationContext.Current == null)
+                var context = LanceGenerationContext.GetContext(lanceName);
+                if (context == null)
                     return true;
 
-                string lanceDefId = LanceGenerationContext.Current.LanceDefId;
+                string lanceDefId = context.LanceDefId;
                 if (lanceDefId.StartsWith("lancedef_comstar") || lanceDefId.StartsWith("lancedef_clan"))
                 {
-                    int difficulty = LanceGenerationContext.Current.Difficulty;
-                    string factionId = LanceGenerationContext.Current.FactionId;
+                    int difficulty = context.Difficulty;
+                    string factionId = context.FactionId;
                     __instance.pilotTagSet.ForceEliteDifficulty(difficulty, factionId);
                 }
 
@@ -88,31 +90,46 @@ namespace BTX_ExpansionPack.Features.Lances
                 [HarmonyPrefix]
                 public static void Prefix()
                 {
+                    LanceGenerationContext.ClearAllContexts();
                     lanceCompositionAssignments.Clear();
                     artilleryLanceAssignments.Clear();
                 }
             }
 
             [HarmonyPrefix]
-            [HarmonyBefore("BattleTech.Haree.FullXotlTables")]
             public static bool Prefix(UnitSpawnPointOverride __instance, LoadRequest request, string lanceDefId, string lanceName, int unitIndex, DateTime? currentDate, TagSet companyTags)
             {
-                int year = currentDate?.Year ?? 3025;
-                int difficulty = LanceGenerationContext.Current?.Difficulty ?? 5;
-                string factionId = LanceGenerationContext.Current?.FactionId ?? "General";
+                var context = LanceGenerationContext.GetContext(lanceName);
+                if (context == null)
+                    return true;
 
-                if (unitIndex == 0)
-                {
-                    factionId = __instance.unitTagSet.FirstOrDefault(tag => tag.StartsWith("unit_none_"))?.Substring("unit_none_".Length);
-                    LanceGenerationContext.SetContext(difficulty, lanceDefId, factionId);
-                }
+                int year = currentDate?.Year ?? 3025;
+                int difficulty = context.Difficulty;
+                string factionId = context.FactionId;
+
+                bool unitWasSelected = false;
 
                 if (unitIndex >= 4)
                     EnforceAugmentedLance(__instance, unitIndex, year, factionId);
                 if (lanceDefId == "lancedef_arty_dynamic_battle1")
-                    return HandleArtilleryLance(__instance, request, lanceName, unitIndex, year, factionId, difficulty, companyTags);
+                    HandleArtilleryLance(__instance, request, lanceName, unitIndex, year, factionId, difficulty, companyTags, ref unitWasSelected);
                 else if (lanceDefId.StartsWith("lancedef_comstar") || lanceDefId.StartsWith("lancedef_clan"))
                     HandleComStarClanLance(__instance, lanceDefId, lanceName, unitIndex, difficulty);
+
+                if (unitWasSelected)
+                    return false;
+
+                // Simplified BEX logic for unit selection
+                bool isMech = __instance.unitTagSet.Contains("unit_mech"); bool isVehicle = __instance.unitTagSet.Contains("unit_vehicle");
+                bool isTaggedUnit = __instance.IsUnitDefTagged && (isMech || isVehicle) && currentDate != null;
+
+                if (isTaggedUnit)
+                {
+                    __instance.selectedUnitDefId = FullXotlTables.Core.xotlTables.RequestUnit(currentDate.Value, __instance.unitTagSet, __instance.unitExcludedTagSet, companyTags);
+                    __instance.selectedUnitType = isMech ? UnitType.Mech : UnitType.Vehicle;
+                    request.AddBlindLoadRequest(isMech ? BattleTechResourceType.MechDef : BattleTechResourceType.VehicleDef, __instance.selectedUnitDefId);
+                    return false;
+                }
 
                 return true;
             }
@@ -120,7 +137,7 @@ namespace BTX_ExpansionPack.Features.Lances
             #region Augmented Lance Helpers
 
             /// <summary>
-            /// Enforces the augmented lance formation of the Capellan Confederation.
+            /// Enforces the Capellan Confederation's augmented lance formation post-Clan invasion.
             /// </summary>
             private static void EnforceAugmentedLance(UnitSpawnPointOverride __instance, int unitIndex, int year, string factionId)
             {
@@ -152,42 +169,50 @@ namespace BTX_ExpansionPack.Features.Lances
             #region Artillery Helpers
 
             /// <summary>
-            /// Handles dedicated artillery lances for better unit variety.
+            /// Handles dedicated artillery lances for more lore-accurate compositions.
+            /// Sets <paramref name="unitAssigned"/> to indicate if a unit was directly assigned.
             /// </summary>
             /// <remarks>
-            /// Artillery vehicles now have their own availability, separate from Xotl's unit tables to prevent artillery vehicles from spawning in standard lances. The method handles:
-            /// <list type="bullet">
-            /// <item><description><b>Command artillery lances:</b> lances with one command artillery unit and three escorts.</description></item>
-            /// <item><description><b>Standard artillery lances:</b> lances with only artillery vehicles or three artillery vehicles and one spotter vehicle.</description></item>
-            /// </list>
+            /// Artillery vehicles are managed separately from Xotl's unit tables to prevent artillery from spawning in standard lances.
+            /// <br/>Lances can be either a command artillery unit with escorts or a standard artillery unit with an optional spotter vehicle.
             /// </remarks>
-            private static bool HandleArtilleryLance(UnitSpawnPointOverride instance, LoadRequest request, string lanceName, int unitIndex, int year, string factionId, int difficulty, TagSet companyTags)
+            private static void HandleArtilleryLance(UnitSpawnPointOverride instance, LoadRequest request, string lanceName, int unitIndex, int year, string factionId, int difficulty, TagSet companyTags, ref bool unitAssigned)
             {
+                unitAssigned = false;
+
+                // 1. Initialize artillery composition on first unit of this lance
                 if (unitIndex == 0)
                 {
                     string selected = SelectArtillery(factionId, year, out var available);
                     var composition = BuildArtilleryComposition(selected, available);
 
                     artilleryLanceAssignments[lanceName] = composition;
-                    Main.Logger.LogDebug($"[ArtilleryOverride] Selected artillery composition for '{lanceName}': {string.Join(", ", composition)}");
                 }
 
+                // 2. Retrieve the pre-built composition for this lance
                 if (!artilleryLanceAssignments.TryGetValue(lanceName, out var artList))
-                    return true;
+                {
+                    Main.Logger.LogWarning($"[ArtilleryOverride] No composition found for '{lanceName}'.");
+                    return;
+                }
 
+                // 3a. Handle command artillery
                 bool isCommand = IsCommandArtillery(artList[0]);
                 if (isCommand)
                 {
                     if (unitIndex == 0)
                     {
-                        ApplyArtilleryUnit(instance, request, artList[0], lanceName, unitIndex);
-                        return false;
+                        AssignArtilleryUnit(instance, request, artList[0]);
+                        unitAssigned = true;
+                        return;
                     }
 
-                    ApplyCommandArtilleryEscort(instance, lanceName, unitIndex);
-                    return true;
+                    AssignCommandArtilleryEscort(instance, request, year, companyTags);
+                    unitAssigned = true;
+                    return;
                 }
 
+                // 3b. Handle standard artillery
                 if (unitIndex < artList.Count)
                 {
                     if (unitIndex == 4 && difficulty < 7)
@@ -195,18 +220,21 @@ namespace BTX_ExpansionPack.Features.Lances
                         // Chance for a spotter vehicle to spawn
                         int chance = 75 - (difficulty * 10);
                         if (Random.Range(0, 100) < chance)
-                            ApplyArtillerySpotter(instance, request, artList[unitIndex], lanceName, unitIndex, year, companyTags);
+                        {
+                            AssignArtillerySpotter(instance, request, year, companyTags);
+                            unitAssigned = true;
+                            return;
+                        }
                     }
 
-                    ApplyArtilleryUnit(instance, request, artList[unitIndex], lanceName, unitIndex);
-                    return false;
+                    AssignArtilleryUnit(instance, request, artList[unitIndex]);
+                    unitAssigned = true;
+                    return;
                 }
-
-                return true;
             }
 
             /// <summary>
-            /// Selects a random artillery vehicle available to the specified faction in the given year.
+            /// Selects a random artillery vehicle available to the specified faction and year.
             /// </summary>
             private static string SelectArtillery(string factionId, int year, out Dictionary<string, int> available)
             {
@@ -215,6 +243,9 @@ namespace BTX_ExpansionPack.Features.Lances
                 bool isClan = factionValue != null && factionValue.IsClan;
                 bool isPeriphery = factionValue != null && factionValue.IsPeriphery();
 
+                Main.Logger.LogDebug($"[SelectArtillery] faction={factionId}, parent={parentFaction}, year={year}, isClan={isClan}, isPeriphery={isPeriphery}.");
+
+                // Weighted dictionary of available artillery units for this faction
                 available = ArtilleryVehicles
                     .Select(v => (v.DefId, Available: v.IsAvailable(parentFaction, year, out int w, isClan, isPeriphery), Weight: w))
                     .Where(x => x.Available)
@@ -222,29 +253,33 @@ namespace BTX_ExpansionPack.Features.Lances
 
                 if (available.Any())
                 {
-                    return WeightedRandomSelect(available);
+                    string selected = WeightedRandomSelect(available);
+                    Main.Logger.LogDebug($"[SelectArtillery] Selected {selected} from {available.Count} options.");
+                    return selected;
                 }
 
-                Main.Logger.LogWarning($"[ArtilleryOverride] No available artillery found for faction '{parentFaction}' in {year}. Using default.");
+                Main.Logger.LogWarning($"[SelectArtillery] No artillery available for '{parentFaction}' in {year}. Using default.");
                 return "vehicledef_THUMPER";
             }
 
             /// <summary>
-            /// Builds a list of artillery vehicles to be assigned to a lance.
+            /// Builds a 4-unit artillery composition from the selected artillery type.
             /// </summary>
+            /// <remarks>
+            /// Command artillery returns only one unit. Escorts are added later by separate tag-based selection.
+            /// <br/>Chaparral artillery lances are mixed; other artillery types repeat the same DefId.
+            /// </remarks>
             private static List<string> BuildArtilleryComposition(string selectedArtillery, Dictionary<string, int> available)
             {
                 if (IsCommandArtillery(selectedArtillery))
                     return [selectedArtillery];
 
                 List<string> composition = [selectedArtillery];
-                Dictionary<string, int> variantPool = [];
+                var variantPool = selectedArtillery.StartsWith("vehicledef_CHAPARRAL")
+                    ? available.Where(kv => kv.Key.StartsWith("vehicledef_CHAPARRAL")).ToDictionary(kv => kv.Key, kv => kv.Value)
+                    : [];
 
-                if (selectedArtillery.StartsWith("vehicledef_CHAPARRAL"))
-                {
-                    variantPool = available.Where(kv => kv.Key.StartsWith("vehicledef_CHAPARRAL")).ToDictionary(kv => kv.Key, kv => kv.Value);
-                }
-
+                // Add three more units to complete the composition
                 for (int i = 1; i < 4; i++)
                 {
                     composition.Add(variantPool.Count > 1
@@ -258,43 +293,50 @@ namespace BTX_ExpansionPack.Features.Lances
             /// <summary>
             /// Assigns the selected artillery unit to a spawn point, bypassing BEX unit selection.
             /// </summary>
-            private static void ApplyArtilleryUnit(UnitSpawnPointOverride instance, LoadRequest request, string defId, string lanceName, int unitIndex)
+            private static void AssignArtilleryUnit(UnitSpawnPointOverride instance, LoadRequest request, string defId)
             {
                 instance.selectedUnitDefId = defId;
                 instance.selectedUnitType = UnitType.Vehicle;
                 request.AddBlindLoadRequest(BattleTechResourceType.VehicleDef, defId);
-                Main.Logger.LogDebug($"[ArtilleryOverride] Assigned '{defId}' to '{lanceName}' unit {unitIndex}");
             }
 
             /// <summary>
-            /// Changes unit tags of the fourth artillery spawn point to allow BEX to spawn a random spotter vehicle.
+            /// Assigns a random artillery spotter vehicle to accompany an artillery lance.
             /// </summary>
-            private static void ApplyArtillerySpotter(UnitSpawnPointOverride instance, LoadRequest request, string defId, string lanceName, int unitIndex, int year, TagSet companyTags)
+            private static void AssignArtillerySpotter(UnitSpawnPointOverride instance, LoadRequest request, int year, TagSet companyTags)
             {
-
+                // Modify unit tags to let BEX select a spotter vehicle instead of artillery
                 instance.unitExcludedTagSet.Add("unit_vehicle_artillery");
                 instance.unitTagSet.Remove("unit_vehicle_artillery");
                 instance.unitTagSet.Add("unit_vehicle_spotter");
                 instance.unitTagSet.ClampToWeightClass("unit_medium", "unit_light", 0.6f);
 
+                // Request unit with modified tags
                 var currentDate = new DateTime(year, 1, 1);
-                string peekedUnitId = FullXotlTables.Core.xotlTables.RequestUnit(currentDate, instance.unitTagSet, instance.unitExcludedTagSet, companyTags);
-                if (SpotterVehicles.Contains(peekedUnitId))
-                    request.AddBlindLoadRequest(BattleTechResourceType.VehicleDef, peekedUnitId);
-                else
-                    request.AddBlindLoadRequest(BattleTechResourceType.VehicleDef, defId);
-                Main.Logger.LogDebug($"[ArtilleryOverride] Letting BEX spawn random spotter vehicle for '{lanceName}' unit {unitIndex}");
+                string spotterUnitId = FullXotlTables.Core.xotlTables.RequestUnit(currentDate, instance.unitTagSet, instance.unitExcludedTagSet, companyTags);
+                instance.selectedUnitDefId = spotterUnitId;
+                instance.selectedUnitType = UnitType.Vehicle;
+                request.AddBlindLoadRequest(BattleTechResourceType.VehicleDef, spotterUnitId);
+                Main.Logger.LogDebug($"[ArtillerySpotter] Assigned spotter unit '{spotterUnitId}' for artillery lance.");
             }
 
             /// <summary>
-            /// Changes unit tags for command artillery spawn points to allow BEX to spawn random escort units.
+            /// Assigns a random escort vehicle to accompany the command artillery unit.
             /// </summary>
-            private static void ApplyCommandArtilleryEscort(UnitSpawnPointOverride instance, string lanceName, int unitIndex)
+            private static void AssignCommandArtilleryEscort(UnitSpawnPointOverride instance, LoadRequest request, int year, TagSet companyTags)
             {
+                // Modify units tags to let BEX select non-artillery escorts
                 instance.unitTagSet.Add("xotl_min_0.3333");
                 instance.unitTagSet.Remove("unit_vehicle_artillery");
                 instance.unitExcludedTagSet.Add("unit_vehicle_artillery");
-                Main.Logger.LogDebug($"[ArtilleryOverride] Letting BEX spawn random escort vehicle for '{lanceName}' unit {unitIndex}");
+
+                // Request unit with modified tags
+                var currentDate = new DateTime(year, 1, 1);
+                string escortUnitId = FullXotlTables.Core.xotlTables.RequestUnit(currentDate, instance.unitTagSet, instance.unitExcludedTagSet, companyTags);
+                instance.selectedUnitDefId = escortUnitId;
+                instance.selectedUnitType = UnitType.Vehicle;
+                request.AddBlindLoadRequest(BattleTechResourceType.VehicleDef, escortUnitId);
+                Main.Logger.LogDebug($"[CommandArtilleryEscort] Assigned escort unit '{escortUnitId}' for command artillery.");
             }
 
             /// <summary>
@@ -311,7 +353,7 @@ namespace BTX_ExpansionPack.Features.Lances
             /// Handles ComStar Level II and Clan Star compositions for better unit variety.
             /// </summary>
             /// <remarks>
-            /// Instead of duplicating the first unit for the fifth and sixth spawn points (Mission Control logic), a random lance composition is selected and applied for the entire lance.
+            /// Instead of duplicating a unit for the fifth and sixth spawn points (Mission Control logic), a random lance composition is selected and applied for the entire lance.
             /// </remarks>
             private static void HandleComStarClanLance(UnitSpawnPointOverride instance, string lanceDefId, string lanceName, int unitIndex, int difficulty)
             {
@@ -321,7 +363,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 {
                     selectedComposition = SelectComStarClanComposition(lanceDefId, lanceName, difficulty);
                     lanceCompositionAssignments[lanceName] = selectedComposition;
-                    Main.Logger.LogDebug($"[ComstarClanOverride] Selected composition for lance '{lanceName}': {string.Join(", ", selectedComposition)}");
+                    Main.Logger.LogDebug($"[ComstarClanOverride] Selected composition for lance '{lanceName}' (difficulty: {difficulty}): {string.Join(", ", selectedComposition)}");
                 }
                 else
                 {
@@ -330,7 +372,7 @@ namespace BTX_ExpansionPack.Features.Lances
 
                 if (selectedComposition != null && unitIndex < selectedComposition.Count)
                 {
-                    ApplyComStarClanOverride(instance, selectedComposition[unitIndex], lanceName, unitIndex);
+                    ApplyComStarClanOverride(instance, selectedComposition[unitIndex]);
                 }
             }
 
@@ -342,49 +384,38 @@ namespace BTX_ExpansionPack.Features.Lances
                 // 1. ComStar Level IIs
                 if (lanceDefId.StartsWith("lancedef_comstar"))
                 {
-                    var comstarList = difficulty switch
-                    {
-                        <= 3 => ComstarLightLevelIIs,
-                        <= 6 => ComstarMediumLevelIIs,
-                        <= 9 => ComstarHeavyLevelIIs,
-                        _ => ComstarAssaultLevelIIs
-                    };
+                    var (comstarList, diffMin, diffMax) = GetComStarCompositionTier(difficulty);
 
                     // Select from next-lighter tier list for reinforcements
                     if (lanceDefId == "lancedef_comstar_dynamic_battle2")
                     {
                         DowngradeCompositions(comstarList, isComStar: true);
+                        return GetRandomComposition(comstarList);
                     }
 
+                    comstarList = ApplyDifficultyWeighting(comstarList, difficulty, diffMin, diffMax);
                     return GetRandomComposition(comstarList);
                 }
 
                 // 2. Clan Stars
-                var clanList = difficulty switch
-                {
-                    <= 3 => ClanLightStars,
-                    <= 6 => ClanMediumStars,
-                    _ => ClanHeavyStars
-                };
+                var (clanList, clanDiffMin, clanDiffMax) = GetClanCompositionTier(difficulty);
 
                 // Select from next-lighter tier list for an ambusher or secondary lance (25% chance)
                 if (lanceName.Contains("_Ambushers") ||
                    (lanceName.Contains("_Secondary") && Random.Range(0f, 1f) < 0.25f))
                 {
                     DowngradeCompositions(clanList);
+                    return GetRandomComposition(clanList);
                 }
 
+                clanList = ApplyDifficultyWeighting(clanList, difficulty, clanDiffMin, clanDiffMax);
                 return GetRandomComposition(clanList);
             }
 
             /// <summary>
             /// Applies the selected lance composition to a spawn point.
             /// </summary>
-            private static void ApplyComStarClanOverride(UnitSpawnPointOverride instance, string weightTag, string lanceName, int unitIndex)
-            {
-                instance.unitTagSet.ForceWeightClass(weightTag);
-                Main.Logger.LogDebug($"[ComstarClanOverride] Applied tag '{weightTag}' to unit {unitIndex} in lance '{lanceName}'.");
-            }
+            private static void ApplyComStarClanOverride(UnitSpawnPointOverride instance, string weightTag) => instance.unitTagSet.ForceWeightClass(weightTag);
 
             #endregion
         }
