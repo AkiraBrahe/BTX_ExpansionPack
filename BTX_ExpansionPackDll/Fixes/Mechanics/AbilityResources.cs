@@ -156,7 +156,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 var selectionStack = HUD.SelectionHandler.SelectionStack;
                 if (!selectionStack.Any(x => x is SelectionStateDoneWithMech) && actor.HasMovedThisRound)
                 {
-                    // Main.Log.LogDebug($"[CombatSelectionHandler_AddFireState] Adding SelectionStateDoneWithMech.");
+                    // Main.Logger.LogDebug($"[CombatSelectionHandler_AddFireState] Adding SelectionStateDoneWithMech.");
                     var doneState = new SelectionStateDoneWithMech(actor.Combat, HUD,
                         HUD.MechWarriorTray.DoneWithMechButton, actor);
                     HUD.SelectionHandler.addNewState(doneState);
@@ -214,7 +214,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                     if (selectedActor is Mech mech)
                     {
                         mech.GenerateAndPublishHeatSequence(-1, true, false, selectedActor.GUID);
-                        // Main.Log.LogDebug($"Generated and Published Heat Sequence for {mech.Description.UIName}.");
+                        // Main.Logger.LogDebug($"Generated and Published Heat Sequence for {mech.Description.UIName}.");
                     }
 
                     selectedActor.DoneWithActor();
@@ -257,7 +257,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 HUD.MechWarriorTray.FireButton.DisableButton();
                 if (!selectionStack.Any(x => x is SelectionStateDoneWithMech) && selectedActor.HasMovedThisRound)
                 {
-                    // Main.Log.LogDebug($"[CombatHUDActionButton_ActivateAbility_Confirmed] Adding SelectionStateDoneWithMech.");
+                    // Main.Logger.LogDebug($"[CombatHUDActionButton_ActivateAbility_Confirmed] Adding SelectionStateDoneWithMech.");
                     var doneState = new SelectionStateDoneWithMech(selectedActor.Combat, HUD,
                         HUD.MechWarriorTray.DoneWithMechButton, selectedActor);
                     HUD.SelectionHandler.addNewState(doneState);
@@ -274,7 +274,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 if (selectedActor is Mech mech)
                 {
                     mech.GenerateAndPublishHeatSequence(-1, true, false, selectedActor.GUID);
-                    // Main.Log.LogDebug($"Generated and Published Heat Sequence for {mech.Description.UIName}.");
+                    // Main.Logger.LogDebug($"Generated and Published Heat Sequence for {mech.Description.UIName}.");
                 }
 
                 selectedActor.DoneWithActor();
@@ -299,7 +299,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                     if (selectedActor is Mech mech)
                     {
                         mech.GenerateAndPublishHeatSequence(-1, true, false, selectedActor.GUID);
-                        // Main.Log.LogDebug($"Generated and Published Heat Sequence for {mech.Description.UIName}.");
+                        // Main.Logger.LogDebug($"Generated and Published Heat Sequence for {mech.Description.UIName}.");
                     }
 
                     selectedActor.DoneWithActor();
@@ -332,7 +332,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 HUD.MechWarriorTray.FireButton.DisableButton();
                 if (!selectionStack.Any(x => x is SelectionStateDoneWithMech) && selectedActor.HasMovedThisRound)
                 {
-                    // Main.Log.LogDebug($"[CombatHUDEquipmentSlot_ActivateAbility_Confirmed] Adding SelectionStateDoneWithMech.");
+                    // Main.Logger.LogDebug($"[CombatHUDEquipmentSlot_ActivateAbility_Confirmed] Adding SelectionStateDoneWithMech.");
                     var doneState = new SelectionStateDoneWithMech(selectedActor.Combat, HUD,
                         HUD.MechWarriorTray.DoneWithMechButton, selectedActor);
                     // addState.GetValue(doneState);
@@ -350,7 +350,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 if (selectedActor is Mech mech)
                 {
                     mech.GenerateAndPublishHeatSequence(-1, true, false, selectedActor.GUID);
-                    // Main.Log.LogDebug($"Generated and Published Heat Sequence for {mech.Description.UIName}.");
+                    // Main.Logger.LogDebug($"Generated and Published Heat Sequence for {mech.Description.UIName}.");
                 }
 
                 selectedActor.DoneWithActor();
@@ -369,10 +369,10 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
             var abilityButtons = __instance.AbilityButtons;
             foreach (var button in abilityButtons)
             {
-                //Main.Log.LogDebug($"Processing button for {button?.Ability?.Def?.Description?.Name}.");
+                //Main.Logger.LogDebug($"Processing button for {button?.Ability?.Def?.Description?.Name}.");
                 if (button?.Ability?.Def?.Resource == AbilityDef.ResourceConsumed.ConsumesActivation && forceInactive)
                 {
-                    //Main.Log.LogDebug($"Disabling button for {button.Ability.Def.Description?.Name}.");
+                    //Main.Logger.LogDebug($"Disabling button for {button.Ability.Def.Description?.Name}.");
                     button.DisableButton();
                 }
             }

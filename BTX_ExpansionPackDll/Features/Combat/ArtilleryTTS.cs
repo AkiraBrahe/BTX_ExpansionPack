@@ -34,10 +34,10 @@ namespace BTX_ExpansionPack.Features.Combat
                         var newPos = CalculateAdjustedStrikePosition(position, closestTarget.CurrentPosition, distanceToTarget, ttsLevel, minMissRadius);
                         weapon.AddArtilleryStrike(newPos, i + 1);
 
-                        //float newDistanceToTarget = Vector3.Distance(newPos, closestTarget.CurrentPosition);
-                        //Main.Log.LogDebug($"[ArtilleryTTS] Adjusted strike for {unit.DisplayName}'s {weapon.Name} towards {closestTarget.DisplayName} (TTS Level: {ttsLevel})." +
-                        //    $"\nOriginal strike position: {position}, distance: {distanceToTarget:F1}m." +
-                        //    $"\nNew strike position: {newPos}, distance: {newDistanceToTarget:F1}m.");
+                        float newDistanceToTarget = Vector3.Distance(newPos, closestTarget.CurrentPosition);
+                        Main.Logger.LogDebug($"[ArtilleryTTS] Adjusted strike for {unit.DisplayName}'s {weapon.Name} towards {closestTarget.DisplayName} (TTS Level: {ttsLevel})." +
+                           $"\n- Original strike position: {position}, distance: {distanceToTarget:F1}m, " +
+                           $"\n- New strike position: {newPos}, distance: {newDistanceToTarget:F1}m.");
                     }
                 }
             }

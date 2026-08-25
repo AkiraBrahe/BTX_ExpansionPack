@@ -11,7 +11,8 @@ namespace BTX_ExpansionPack.Features.Combat
         public static class WeaponInfo
         {
             public static bool ShouldApplySelfInstability { get; set; } = false;
-            public static float SelfInstabilityWeaponTonnage { get; set; } = 0f;
+            public static string WeaponName { get; set; } = string.Empty;
+            public static float WeaponTonnage { get; set; } = 0f;
         }
 
         [HarmonyPatch(typeof(Weapon), "ProcessOnFiredFloatieEffects")]
@@ -26,7 +27,8 @@ namespace BTX_ExpansionPack.Features.Combat
                 bool hasSelfKnockdown = __instance.defId.StartsWith("Weapon_Artillery") || __instance.defId.StartsWith("Weapon_Gauss");
 
                 WeaponInfo.ShouldApplySelfInstability = hasSelfKnockdown;
-                WeaponInfo.SelfInstabilityWeaponTonnage = hasSelfKnockdown ? __instance.tonnage : 0f;
+                WeaponInfo.WeaponName = hasSelfKnockdown ? __instance.UIName.ToString() : string.Empty;
+                WeaponInfo.WeaponTonnage = hasSelfKnockdown ? __instance.tonnage : 0f;
             }
         }
 
@@ -47,12 +49,12 @@ namespace BTX_ExpansionPack.Features.Combat
                     var attackSequence = __instance.GetAttackSequence(sequenceId);
                     if (attackSequence?.attacker is Mech mech && mech.isHasStability())
                     {
-                        float selfInstability = WeaponInfo.SelfInstabilityWeaponTonnage * 1.5f;
+                        float selfInstability = WeaponInfo.WeaponTonnage * 1.5f;
                         float instabilityToApply = (!mech.BracedLastRound || mech.DistMovedThisRound > 20f) ?
                             selfInstability :
                             selfInstability / 2f;
 
-                        // Main.Log.LogDebug($"[SelfKnockdown] Applied {instabilityToApply} instability to {mech.DisplayName}");
+                        Main.Logger.LogDebug($"[SelfKnockdown] Applying {instabilityToApply} self-instability from firing {WeaponInfo.WeaponName} with {mech.DisplayName}.");
                         mech.AddAbsoluteInstability(instabilityToApply, StabilityChangeSource.Effect, mech.GUID);
 
                         if (!mech.NeedsInstabilityCheck) return;

@@ -70,9 +70,6 @@
     <Reference Include="BTX_CAC_CompatibilityDll">
       <HintPath>$(BattleTechGameDir)\Mods\BTX_CAC_Compatibility\BTX_CAC_CompatibilityDll.dll</HintPath>
     </Reference>
-    <Reference Include="ColourfulFlashPoints">
-      <HintPath>$(BattleTechGameDir)\Mods\ColourfulFlashpoints\ColourfulFlashPoints.dll</HintPath>
-    </Reference>
     <Reference Include="CustomActivatableEquipment">
       <HintPath>$(BattleTechGameDir)\Mods\CustomActivatableEquipment\CustomActivatableEquipment.dll</HintPath>
     </Reference>

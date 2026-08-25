@@ -1,7 +1,6 @@
 using BattleTech;
 using BTRandomMechComponentUpgrader;
 using BTX_CAC_CompatibilityDll;
-using CustomUnits;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,9 +32,6 @@ namespace BTX_ExpansionPack.Features.Refit
 
             var rand = s.NetworkRandom;
             string mood = s.SelectedContract?.mapMood;
-            if (mood == null) Main.Logger.Log("warning: contract mood null");
-
-            Main.Logger.Log($"handling {m.Description.Id} of {team.Name} in mood {mood.SafeToString()}");
 
             foreach (var kv in ammo.AmmoGroups)
             {
@@ -43,7 +39,6 @@ namespace BTX_ExpansionPack.Features.Refit
                     continue;
 
                 var ideal = kv.Value.IdealAmmoRatios;
-                Main.Logger.Log($"handling group {kv.Key}");
 
                 if (kv.Key.StartsWith("AC"))
                 {
@@ -64,7 +59,6 @@ namespace BTX_ExpansionPack.Features.Refit
 
                     if (stdcount > tracercount)
                     {
-                        Main.Logger.Log("has uacs, no special ammo");
                         tracer = null;
                         prec = null;
                         ap = null;
@@ -96,21 +90,13 @@ namespace BTX_ExpansionPack.Features.Refit
 
                         // Roll for AC special ammo replacements based on converted ratios
                         if (lbx != null && rand.Float() < 0.50f)
-                        {
                             replacementID = lbx.ID;
-                        }
                         else if (tracer != null && rand.Float() < 0.75f)
-                        {
                             replacementID = tracer.ID;
-                        }
                         else if (davion && prec != null && rand.Float() < 0.20f)
-                        {
                             replacementID = prec.ID;
-                        }
                         else if (davion && ap != null && rand.Float() < 0.20f)
-                        {
                             replacementID = ap.ID;
-                        }
 
                         AddToDict(kv.Value.IdealBoxes, replacementID, 1);
                     }

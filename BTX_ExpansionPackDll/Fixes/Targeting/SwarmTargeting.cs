@@ -36,23 +36,22 @@ namespace BTX_ExpansionPack.Fixes.Targeting
 
             public static List<ICombatant> GetPotentialStrayTargets(AdvWeaponHitInfo advInfo)
             {
+                List<ICombatant> potentialTargets = [];
+
                 var combat = advInfo.Combat;
                 var weapon = advInfo.weapon;
                 var attacker = weapon.parent;
 
-                List<ICombatant> potentialTargets = [];
                 string iffTransponderDef = weapon.IFFTransponderDef();
                 if (string.IsNullOrEmpty(iffTransponderDef))
                 {
                     // Standard swarm: all units except attacker
-                    var allCombatants = combat.GetAllCombatants();
-                    potentialTargets.AddRange(allCombatants.Where(c => c.GUID != attacker.GUID));
+                    potentialTargets.AddRange(combat.GetAllCombatants().Where(c => c.GUID != attacker.GUID));
                 }
                 else
                 {
                     // Improved swarm: only enemies
-                    var allEnemies = combat.GetAllEnemiesOf(attacker);
-                    potentialTargets.AddRange(allEnemies);
+                    potentialTargets.AddRange(combat.GetAllEnemiesOf(attacker));
                 }
 
                 return potentialTargets;

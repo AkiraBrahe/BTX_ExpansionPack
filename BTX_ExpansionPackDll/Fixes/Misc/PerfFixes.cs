@@ -11,7 +11,7 @@ namespace BTX_ExpansionPack.Fixes.Misc
     public static class SaveManager_Constructor
     {
         [HarmonyPrepare]
-        public static bool Prepare() => Main.Settings.Performance.DisableDebugLogging;
+        public static bool Prepare() => Main.Settings.Performance.DisableCACDebugLogging;
 
         [HarmonyPostfix]
         public static void Postfix()

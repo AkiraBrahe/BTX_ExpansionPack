@@ -1,13 +1,10 @@
 using BattleTech;
-using BattleTech.Framework;
-using BattleTech.UI;
 using BattleTech.UI.TMProWrapper;
 using BattleTech.UI.Tooltips;
-using BTX_CAC_CompatibilityDll;
-using ColourfulFlashPoints;
 using CustomUnits;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,18 +12,18 @@ namespace BTX_ExpansionPack.Features.Simulation
 {
     internal class ContractIntel
     {
-        public class IntelData
-        {
-            public string Name { get; set; }
-            public string Description { get; set; }
-        }
-
         /// <summary>
         /// Shows additional contract information, such as target faction and variant description.
         /// </summary>
         [HarmonyPatch(typeof(LanceContractIntelWidget), "Init")]
         public static class LanceContractIntelWidget_Init
         {
+            private class IntelData
+            {
+                public string Name { get; set; }
+                public string Description { get; set; }
+            }
+
             private static readonly Dictionary<string, IntelData> VariantDescriptions = new()
             {
                 // Salvage Race
@@ -34,7 +31,7 @@ namespace BTX_ExpansionPack.Features.Simulation
                 { "Rescue_SalvageRaceCS_Hard", new() { Name = "Hard", Description = "Additional ComStar Forces" } },
                 { "Rescue_SalvageRaceWoB", new() { Name = "Normal", Description = "Normal Blakist Forces" } },
                 { "Rescue_SalvageRaceWoB_Hard", new() { Name = "Hard", Description = "Additional Blakist Forces" } },
-
+            
                 // Search Denial
                 { "ThreeWayBattle_SearchDenialCS", new() { Name = "Normal", Description = "Mixed Level IIs" } },
                 { "ThreeWayBattle_SearchDenialCS_Easy", new() { Name = "Easy", Description = "Vehicle-heavy Level IIs" } },
@@ -44,11 +41,11 @@ namespace BTX_ExpansionPack.Features.Simulation
                 { "ThreeWayBattle_SearchDenialWoB_Easy", new() { Name = "Easy", Description = "Vehicle-heavy Level IIs" } },
                 { "ThreeWayBattle_SearchDenialWoB_Elite", new() { Name = "Very Hard", Description = "Elite Blakist Forces" } },
                 { "ThreeWayBattle_SearchDenialWoB_Hard", new() { Name = "Hard", Description = "Mech-heavy Level IIs" } },
-
+            
                 // Tag Team
                 { "ThreeWayBattle_TagTeam_CS", new() { Name = "Default", Description = "Normal ComStar Forces" } },
-                { "ThreeWayBattle_TagTeam_CS_Alt", new() { Name = "Alternate", Description = "Additional Dropped Forces" } },
-                { "ThreeWayBattle_TagTeam_CS_Betray", new() { Name = "Betray", Description = "Additional ComStar Forces" } }
+                { "ThreeWayBattle_TagTeam_CS_Alt", new() { Name = "Alternate", Description = "Additional ComStar Forces" } },
+                { "ThreeWayBattle_TagTeam_CS_Betray", new() { Name = "Betray", Description = "Two-Front Infighting" } }
             };
 
             [HarmonyPostfix]
@@ -183,38 +180,6 @@ namespace BTX_ExpansionPack.Features.Simulation
                     if (!string.IsNullOrEmpty(tooltipText))
                     {
                         tooltip.SetDefaultStateData(TooltipUtilities.GetStateDataFromObject(tooltipText));
-                    }
-                }
-            }
-        }
-    }
-
-    /// <summary>
-    /// Changes the color of the contract card when Wolfs Dragoons are the employer.
-    /// </summary>
-    [HarmonyPatch(typeof(SGContractsWidget), "ListContracts")]
-    public static class SGContractsWidget_ListContracts
-    {
-        [HarmonyPostfix]
-        public static void Postfix(SGContractsWidget __instance)
-        {
-            foreach (var contractListItem in __instance.listedContracts)
-            {
-                var bgFill = contractListItem.gameObject.transform.Find("ENABLED-bg-fill").gameObject;
-                if (bgFill != null)
-                {
-                    var contractOverride = contractListItem.Contract.Override;
-                    if (!contractOverride.IsAnyStoryContract() && contractOverride.employerTeam.faction == "WolfsDragoons")
-                    {
-                        var component = bgFill.GetComponent<Image>();
-                        var contractCardFixup = bgFill.GetComponent<ContractCardFixup>() ?? bgFill.AddComponent<ContractCardFixup>();
-                        if (ColorUtility.TryParseHtmlString("#C00008", out var color))
-                        {
-                            color.a = 0.5f;
-                            component.color = color;
-                            contractCardFixup.setColour(color);
-                            contractCardFixup.setUp(component);
-                        }
                     }
                 }
             }

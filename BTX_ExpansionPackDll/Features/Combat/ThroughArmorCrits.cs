@@ -5,6 +5,8 @@ namespace BTX_ExpansionPack.Features.Combat
 {
     internal class ThroughArmorCrits
     {
+        static bool loggedOnce = false;
+
         /// <summary>
         /// Changes all Gauss Rifle variants to deal through armor criticals.
         /// </summary>
@@ -52,6 +54,12 @@ namespace BTX_ExpansionPack.Features.Combat
                         extendedData.APCriticalChanceMultiplier = (isHAG || isSBG) ? 0.25f : __instance.Damage * 0.02f;
                         extendedData.APMaxArmorThickness = __instance.Damage * 3.0f;
                         extendedData.APArmorShardsMod = 0f;
+
+                        if (!loggedOnce)
+                        {
+                            Main.Logger.LogDebug($"[ThroughArmorCrits] Applied AP critical hit modifiers to all Gauss Rifles.");
+                            loggedOnce = true;
+                        }
                     }
                     else
                     {

@@ -26,7 +26,7 @@ namespace BTX_ExpansionPack
     public class PerformanceSettings
     {
         public bool DestroyBuildingsInUrbanBattles { get; set; } = true;
-        public bool DisableDebugLogging { get; set; } = true;
+        public bool DisableCACDebugLogging { get; set; } = true;
     }
 
     public class UISettings

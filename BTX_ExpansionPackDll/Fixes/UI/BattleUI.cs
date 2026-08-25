@@ -154,22 +154,22 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
-        /// <summary>
-        /// Removes the popup when moving before move clamping is calculated.
-        /// </summary>
-        [HarmonyPatch(typeof(SelectionStateMove_ProcessLeftClickClamp), "Prefix")]
-        public static class SelectionStateMove_ProcessLeftClickClamp_Prefix
-        {
-            [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
-            {
-                return new CodeMatcher(instructions)
-                    .MatchForward(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is System.Reflection.MethodInfo mi && mi.Name == "Create" && mi.DeclaringType.Name == "GenericPopupBuilder"))
-                    .RemoveInstructions(2)
-                    .InstructionEnumeration();
-            }
-        }
+        ///// <summary>
+        ///// Removes the popup when moving before move clamping is calculated.
+        ///// </summary>
+        //[HarmonyPatch(typeof(SelectionStateMove_ProcessLeftClickClamp), "Prefix")]
+        //public static class SelectionStateMove_ProcessLeftClickClamp_Prefix
+        //{
+        //    [HarmonyTranspiler]
+        //    public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        //    {
+        //        return new CodeMatcher(instructions)
+        //            .MatchForward(false,
+        //                new CodeMatch(i => i.opcode == OpCodes.Call && i.operand is System.Reflection.MethodInfo mi && mi.Name == "Create" && mi.DeclaringType.Name == "GenericPopupBuilder"))
+        //            .RemoveInstructions(2)
+        //            .InstructionEnumeration();
+        //    }
+        //}
 
         #endregion
 
