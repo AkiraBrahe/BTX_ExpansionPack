@@ -15,7 +15,7 @@
     "ToHitVehicleAssault": 0,
     "StrayShotsEnabled": true,
     "StrayShotsHitUnits": true,
-    "StrayShotValidTargets": 2
+    "StrayShotValidTargets": "EVERYONE"
   },
   "ResolutionConstants": {
     "VehiclesGetEvasive": true,

@@ -20,7 +20,7 @@ namespace BTX_ExpansionPack.Features.Lances
         {
             public static void Prefix(SimGameState __instance, Contract contract, ref FactionValue target, StarSystem system)
             {
-                if (contract.Override.ID.StartsWith("ThreeWayBattle_SearchDenialCS") && Random.Range(0f, 1f) < 0.05f)
+                if (contract?.Override?.ID != null && contract.Override.ID.StartsWith("ThreeWayBattle_SearchDenialCS") && Random.Range(0f, 1f) < 0.05f)
                 {
                     Main.Logger.LogDebug($"[LanceOverrides] Replacing target with Snord's Irregulars for {contract.Name} contract on {system.Name} system.");
                     target = __instance.DataManager.Factions.Get("faction_Merc28").FactionValue;
