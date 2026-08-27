@@ -2,7 +2,6 @@ using BattleTech;
 using CustomUnits;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEngine;
 
 namespace BTX_ExpansionPack.Fixes.Pilots
 {
@@ -73,6 +72,30 @@ namespace BTX_ExpansionPack.Fixes.Pilots
         }
 
         /// <summary>
+        /// Validates and adjusts pilot specialization tags.
+        /// </summary>
+        private static void ValidatePilotSpecialization(HBS.Collections.TagSet pilotTags, bool randomize = false)
+        {
+            bool hasMechSpecialization = pilotTags.Contains(MechPilotTag);
+            bool hasVehicleSpecialization = pilotTags.Contains(VehiclePilotTag);
+
+            if (hasMechSpecialization && pilotTags.Contains(NoMechPilotTag))
+                pilotTags.Remove(NoMechPilotTag);
+
+            if (!hasMechSpecialization && !hasVehicleSpecialization)
+            {
+                if (randomize)
+                {
+                    pilotTags.Add(UnityEngine.Random.Range(0f, 1f) < 0.2f ? MechPilotTag : VehiclePilotTag);
+                }
+                else
+                {
+                    pilotTags.Add(MechPilotTag);
+                }
+            }
+        }
+
+        /// <summary>
         /// Replaces obsolete "can_pilot_" tags from all pilots when loading a saved game.
         /// </summary>
         [HarmonyPatch(typeof(SimGameState), "Rehydrate")]
@@ -106,6 +129,16 @@ namespace BTX_ExpansionPack.Fixes.Pilots
         }
 
         /// <summary>
+        /// </summary>
+        {
+            [HarmonyPostfix]
+            {
+                {
+                }
+            }
+        }
+
+        /// <summary>
         /// Removes the "AbilifierLoaded" tag when loading a saved game.
         /// </summary>
         [HarmonyPatch(typeof(SimGameState), "Rehydrate")]
@@ -117,30 +150,6 @@ namespace BTX_ExpansionPack.Fixes.Pilots
                 if (__instance.CompanyTags.Contains("AbilifierLoaded"))
                 {
                     __instance.CompanyTags.Remove("AbilifierLoaded");
-                }
-            }
-        }
-
-        /// <summary>
-        /// Validates and adjusts pilot specialization tags.
-        /// </summary>
-        private static void ValidatePilotSpecialization(HBS.Collections.TagSet pilotTags, bool randomize = false)
-        {
-            bool hasMechSpecialization = pilotTags.Contains(MechPilotTag);
-            bool hasVehicleSpecialization = pilotTags.Contains(VehiclePilotTag);
-
-            if (hasMechSpecialization && pilotTags.Contains(NoMechPilotTag))
-                pilotTags.Remove(NoMechPilotTag);
-
-            if (!hasMechSpecialization && !hasVehicleSpecialization)
-            {
-                if (randomize)
-                {
-                    pilotTags.Add(Random.Range(0f, 1f) < 0.2f ? MechPilotTag : VehiclePilotTag);
-                }
-                else
-                {
-                    pilotTags.Add(MechPilotTag);
                 }
             }
         }

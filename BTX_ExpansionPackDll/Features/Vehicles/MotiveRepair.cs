@@ -120,7 +120,7 @@ namespace BTX_ExpansionPack.Features.Vehicles
                     var motiveRepair = unit.ComponentAbilities.FirstOrDefault(x => x.Def.Id == "AbilityDef_MotiveRepair");
                     if (motiveRepair != null && motiveRepair.IsAvailable)
                     {
-                        Main.Logger.LogDebug($"[AI_Movement] AI {unit.DisplayName} has {motiveStacks} motive debuffs. Activating Motive Repair.");
+                        Main.Logger.LogDebug($"[AI Tweaks] AI {unit.DisplayName} has {motiveStacks} motive debuffs. Activating Motive Repair.");
                         motiveRepair.Activate(unit, unit);
                         return;
                     }
@@ -132,7 +132,7 @@ namespace BTX_ExpansionPack.Features.Vehicles
                     var carefulManeuvers = unit.GetPilot().Abilities.FirstOrDefault(x => x.Def.Id == "AbilityDef_CarefulManeuvers");
                     if (carefulManeuvers != null && carefulManeuvers.IsAvailable)
                     {
-                        Main.Logger.LogDebug($"[AI_Movement] AI {unit.DisplayName} is stuck. Activating Careful Maneuvers.");
+                        Main.Logger.LogDebug($"[AI Tweaks] AI {unit.DisplayName} is stuck. Activating Careful Maneuvers.");
                         carefulManeuvers.Activate(unit, unit);
                         return;
                     }

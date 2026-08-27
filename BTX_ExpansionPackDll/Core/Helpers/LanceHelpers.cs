@@ -1,8 +1,11 @@
+using BattleTech;
 using BattleTech.Framework;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using static BTX_ExpansionPack.Features.Lances.LanceOverrides;
 using Random = UnityEngine.Random;
 
 namespace BTX_ExpansionPack.Core.Helpers
@@ -13,9 +16,7 @@ namespace BTX_ExpansionPack.Core.Helpers
 
         internal static class LanceGenerationContext
         {
-            // Dictionary to store contexts per lance name, protected by a lock for thread safety.
-            private static readonly Dictionary<string, GenerationContext> contextDictionary = [];
-            private static readonly object contextLock = new();
+            private static readonly ConcurrentDictionary<string, GenerationContext> storedContexts = [];
 
             public class GenerationContext(int difficulty, string lanceDefId, string factionId)
             {
@@ -25,29 +26,14 @@ namespace BTX_ExpansionPack.Core.Helpers
 
             }
 
-            public static void StoreContext(string lanceName, int difficulty, string lanceDefId, string factionId)
-            {
-                lock (contextLock)
-                {
-                    contextDictionary[lanceName] = new GenerationContext(difficulty, lanceDefId, factionId);
-                }
-            }
+            public static void StoreContext(string lanceName, int difficulty, string lanceDefId, string factionId) =>
+                storedContexts[lanceName] = new GenerationContext(difficulty, lanceDefId, factionId);
 
-            public static GenerationContext GetContext(string lanceName)
-            {
-                lock (contextLock)
-                {
-                    return contextDictionary.TryGetValue(lanceName, out var context) ? context : null;
-                }
-            }
+            public static GenerationContext GetContext(string lanceName) =>
+                storedContexts.TryGetValue(lanceName, out var context) ? context : null;
 
-            public static void ClearAllContexts()
-            {
-                lock (contextLock)
-                {
-                    contextDictionary.Clear();
-                }
-            }
+            public static void ClearAllContexts() =>
+                storedContexts.Clear();
         }
 
         /// <summary>
@@ -68,6 +54,22 @@ namespace BTX_ExpansionPack.Core.Helpers
                     __instance.lanceDefId,
                     __instance.teamOverride.FactionValue.Name
                 );
+            }
+        }
+
+        /// <summary>
+        /// Clears all stored contexts and lance assignments before starting a new contract.
+        /// </summary>
+        [HarmonyPatch(typeof(Contract), "BeginRequestResources")]
+        [HarmonyPatch(typeof(Contract), "ResetStateForRestart")]
+        public static class Contract_ClearLanceAssignments
+        {
+            [HarmonyPrefix]
+            public static void Prefix()
+            {
+                LanceGenerationContext.ClearAllContexts();
+                UnitSpawnPointOverride_RequestUnit.lanceCompositionAssignments.Clear();
+                UnitSpawnPointOverride_RequestUnit.artilleryLanceAssignments.Clear();
             }
         }
 

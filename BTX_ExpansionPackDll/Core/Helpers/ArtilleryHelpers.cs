@@ -62,7 +62,7 @@ namespace BTX_ExpansionPack.Core.Helpers
 
                 if (expiredRounds.Any())
                 {
-                    Main.Logger.Log($"[ArtilleryAI] Beginning new round {currentRound}. Clearing expired strike data.");
+                    Main.Logger.Log($"[ArtilleryAI] Beginning round {currentRound}. Clearing expired strike data.");
 
                     foreach (int round in expiredRounds)
                     {

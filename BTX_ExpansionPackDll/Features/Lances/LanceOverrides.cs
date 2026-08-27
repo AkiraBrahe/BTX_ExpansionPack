@@ -33,7 +33,7 @@ namespace BTX_ExpansionPack.Features.Lances
         /// </summary>
         [HarmonyPatch(typeof(MissionControl.Config.ExtendedLancesSettings), "GetFactionLanceSize")]
         [HarmonyPatch(typeof(MissionControl.Config.ExtendedLancesSettings), "GetFactionLanceDifficulty")]
-        public static class AdditionalLances_Patches
+        public static class MissionControl_Patches
         {
             private static int CurrentYear => BEXTimeline.UpdateOwnership.LastDayUpdated.Year;
 
@@ -80,21 +80,8 @@ namespace BTX_ExpansionPack.Features.Lances
         [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestUnit")]
         public static class UnitSpawnPointOverride_RequestUnit
         {
-            private static readonly Dictionary<string, List<string>> lanceCompositionAssignments = [];
-            private static readonly Dictionary<string, List<string>> artilleryLanceAssignments = [];
-
-            [HarmonyPatch(typeof(Contract), "BeginRequestResources")]
-            [HarmonyPatch(typeof(Contract), "ResetStateForRestart")]
-            public static class Contract_ClearLanceAssignments
-            {
-                [HarmonyPrefix]
-                public static void Prefix()
-                {
-                    LanceGenerationContext.ClearAllContexts();
-                    lanceCompositionAssignments.Clear();
-                    artilleryLanceAssignments.Clear();
-                }
-            }
+            internal static readonly Dictionary<string, List<string>> lanceCompositionAssignments = [];
+            internal static readonly Dictionary<string, List<string>> artilleryLanceAssignments = [];
 
             [HarmonyPrefix]
             public static bool Prefix(UnitSpawnPointOverride __instance, LoadRequest request, string lanceDefId, string lanceName, int unitIndex, DateTime? currentDate, TagSet companyTags)

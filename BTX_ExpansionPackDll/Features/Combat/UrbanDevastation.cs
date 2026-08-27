@@ -67,7 +67,7 @@ namespace BTX_ExpansionPack.Features.Combat
                     int destroyCount = (int)Math.Floor(candidateBuildings.Count * destroyPercent);
                     destroyCount = Math.Min(destroyCount, candidateBuildings.Count);
 
-                    Main.Logger.LogDebug($"[UrbanDevastation] Destroying {destroyCount} buildings for {activeContract.Name} (Modifier: {devastationModifier}).");
+                    Main.Logger.LogDebug($"[UrbanDevastation] Destroying {destroyCount}/{candidateBuildings.Count} ({destroyPercent:P}) buildings for {activeContract.Name}.");
                     for (int i = 0; i < destroyCount; i++)
                     {
                         var building = candidateBuildings[i];
