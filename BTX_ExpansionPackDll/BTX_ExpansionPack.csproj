@@ -52,6 +52,9 @@
     </Reference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Reference Include="Abilifier">
+      <HintPath>$(BattleTechGameDir)\Mods\Abilifier\Abilifier.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>$(BattleTechGameDir)\Mods\.modtek\AssembliesInjected\Assembly-CSharp.dll</HintPath>
     </Reference>

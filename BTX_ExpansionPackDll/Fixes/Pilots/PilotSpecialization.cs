@@ -129,11 +129,43 @@ namespace BTX_ExpansionPack.Fixes.Pilots
         }
 
         /// <summary>
+        /// Adds tag-based abilities without making them persistent on pilotDef (CAC style).
         /// </summary>
+        [HarmonyPatch(typeof(Pilot), "InitAbilities", [typeof(bool), typeof(bool)])]
+        public static class Pilot_InitAbilities
         {
             [HarmonyPostfix]
+            public static void Postfix(Pilot __instance)
             {
+                var sim = UnityGameInstance.BattleTechGame.Simulation;
+                if (sim == null || __instance?.pilotDef == null) return;
+
+                var pilotDef = __instance.pilotDef;
+                if (pilotDef.dataManager == null) return;
+
+                foreach (string tag in pilotDef.PilotTags)
                 {
+                    if (!Abilifier.Mod.AbilityRealizerSettings.TagAbilities.ContainsKey(tag))
+                        continue;
+
+                    foreach (string abilityName in Abilifier.Mod.AbilityRealizerSettings.TagAbilities[tag])
+                    {
+                        // Fix existing pilots
+                        if (pilotDef.abilityDefNames.Contains(abilityName))
+                        {
+                            pilotDef.abilityDefNames.Remove(abilityName);
+                        }
+
+                        if (!sim.DataManager.AbilityDefs.TryGet(abilityName, out var abilityDef))
+                            continue;
+
+                        var ability = new Ability(abilityDef);
+                        if (__instance.Combat != null)
+                            ability.Init(__instance.Combat);
+
+                        __instance.Abilities.Add(ability);
+                        __instance.ActiveAbilities.Add(ability);
+                    }
                 }
             }
         }

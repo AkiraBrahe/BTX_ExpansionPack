@@ -63,6 +63,7 @@ namespace BTX_ExpansionPack
         {
             // --- Abilifier ---
             /* Custom Ability Tree */
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Pilot), "InitAbilities"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "ca.gnivler.BattleTech.Abilifier");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Dehydrate"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
             /* Ability Ordering */
