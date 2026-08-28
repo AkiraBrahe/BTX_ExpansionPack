@@ -147,7 +147,7 @@ namespace BTX_ExpansionPack.Core
         {
             /// <summary>
             /// Determines if a target is a threat that should be suppressed.
-            /// Filters targets that are too close, not moving, or not moving toward allies.
+            /// Filters targets that are too fast, too close, not moving, or not moving toward allies.
             /// </summary>
             public bool IsBlockableThreat()
             {
