@@ -27,7 +27,7 @@
     "UIName": "Atlas AS7-S3-DC",
     "Id": "mechdef_atlas_AS7-S3-DC",
     "Name": "Atlas",
-    "Details": "A 'DC' refit of the S3 model popular in the Federated Commonwealth, this variant retains the standard Gauss Rifle, AMS, Artemis IV-enabled LRM-15 and dual arm-mounted PPCs of the S3, but strips out the Small Lasers and Guardian ECM suite to fit a Command Console.",
+    "Details": "A 'DC' refit of the S3 model popular in the Federated Commonwealth, this variant retains the standard Gauss Rifle, AMS, Artemis IV-enabled LRM-15 and dual arm-mounted PPCs of the S3, but strips out the Small Lasers and Guardian ECM to fit a Command Console.",
     "Icon": "uixTxrIcon_atlas"
   },
   "simGameMechPartCost": 1960000,

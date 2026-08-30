@@ -26,7 +26,7 @@
     "Id": "mechdef_celerity_CLR-02-X-D",
     "Name": "Celerity",
     "Details": "PLACEHOLDER",
-    "Icon": "uixTxrIcon_celerityn"
+    "Icon": "uixTxrIcon_celerity"
   },
   "simGameMechPartCost": 840000,
   "Version": 1,

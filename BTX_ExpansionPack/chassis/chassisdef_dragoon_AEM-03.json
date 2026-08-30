@@ -8,7 +8,7 @@
     "UIName": "Dragoon",
     "Id": "chassisdef_dragoon_AEM-03",
     "Name": "Dragoon",
-    "Details": "Designed as a long-range fire support unit, the Dragoon 03 retains the same engine specifications of the Dragoon 01 model. Its principal weaponry includes three Artemis IV FCS guided 15-tubed Long Range Missile Launchers with two tons of CASE-protected ammunition. Backup weapons include a single Medium Laser, with a duo of Medium and Small Pulse Lasers for close-in defense.",
+    "Details": "Designed as a long-range fire support unit, the Dragoon 03 retains the same engine specifications of the Dragoon 01 model. Its principal weaponry includes three Artemis IV FCS-guided 15-tubed LRM Launchers with two tons of CASE-protected ammunition. Backup weapons include a single Medium Laser, with a duo of Medium and Small Pulse Lasers for close-in defense.",
     "Icon": "uixTxrIcon_dragoon"
   },
   "MovementCapDefID": "movedef_mech_heavy_4",

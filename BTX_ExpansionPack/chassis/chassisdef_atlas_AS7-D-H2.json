@@ -8,7 +8,7 @@
     "UIName": "Atlas II",
     "Id": "chassisdef_atlas_AS7-D-H2",
     "Name": "Atlas II",
-    "Details": "This variant exchanges both ER Large Lasers and its LB 10-X for an ER PPC and a Gauss rifle while removing only one double heat sink.",
+    "Details": "This variant exchanges both ER Large Lasers and its LB 10-X for an ER PPC and a Gauss Rifle while removing only one double heat sink.",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_mech_assault_3",
