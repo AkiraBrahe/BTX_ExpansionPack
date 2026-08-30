@@ -19,7 +19,7 @@
   "ammoCategoryID": "Thumper",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 15,
-  "Damage": 100,
+  "Damage": 140,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -27,13 +27,13 @@
   "HeatDamage": 0,
   "AccuracyModifier": 0,
   "MinMissRadius": 15,
-  "MaxMissRadius": 60,
+  "MaxMissRadius": 50,
   "CriticalChanceMultiplier": 1,
   "AOECapable": true,
-  "AOERange": 60,
-  "AOEDamage": 100,
+  "AOERange": 80,
+  "AOEDamage": 140,
   "AOEHeatDamage": 0,
-  "AOEInstability": 50,
+  "AOEInstability": 70,
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "CantHitUnaffecedByPathing": true,
@@ -41,7 +41,7 @@
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 3,
-  "Instability": 50,
+  "Instability": 70,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
     "Cost": 187500,
@@ -55,7 +55,7 @@
     "Details": "The Thumper Artillery Piece is the smallest conventional artillery piece with an effective range of 10.5 kilometers. As with all artillery types, the Thumper always fires indirectly and deals damage in the area of impact.",
     "Icon": "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA": "60m AoE",
+  "BonusValueA": "80m AoE",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
@@ -74,7 +74,7 @@
     "C": "#F79B26",
     "I": 1.5
   },
-  "ArtilleryReticleRadius": 60,
+  "ArtilleryReticleRadius": 80,
   "ArtilleryReticleText": "Thumper",
   "Modes": [
     {

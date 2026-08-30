@@ -65,12 +65,12 @@ namespace BTX_ExpansionPack.Features.Combat
             {
                 // 1. Determine pull factor and scatter reduction based on TTS level
                 float pullFactor = 0f, scatterReductionFactor = 0f;
-                if (ttsLevel == 1) { pullFactor = 0.30f; scatterReductionFactor = 0.30f; }
-                else if (ttsLevel == 2) { pullFactor = 0.50f; scatterReductionFactor = 0.50f; }
-                else if (ttsLevel >= 3) { pullFactor = 0.70f; scatterReductionFactor = 0.70f; }
+                if (ttsLevel == 1) { pullFactor = 0.15f; scatterReductionFactor = 0.20f; }
+                else if (ttsLevel == 2) { pullFactor = 0.25f; scatterReductionFactor = 0.35f; }
+                else if (ttsLevel >= 3) { pullFactor = 0.35f; scatterReductionFactor = 0.50f; }
 
                 // 2. Cap the maximum pull distance to prevent large, unrealistic adjustments
-                float maxPullDistance = 75f;
+                float maxPullDistance = 50f;
                 float pullDistance = Mathf.Min(distanceToTarget * pullFactor, maxPullDistance);
 
                 // 3. Calculate the adjusted strike position
