@@ -69,7 +69,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
         {
             if (actor is Vehicle vehicle)
             {
-                return vehicle.VehicleDef.Chassis.HasTurret ? 360f : 90f;
+                return vehicle.VehicleDef.IsVTOL() ? 60f : vehicle.VehicleDef.Chassis.HasTurret ? 360f : 90f;
             }
 
             if (actor is Mech mech)
@@ -77,7 +77,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 if (mech is FakeVehicleMech fakeVehicle)
                 {
                     var vehicleDef = fakeVehicle.MechDef.toVehicleDef(fakeVehicle.MechDef.DataManager);
-                    return vehicleDef.Chassis != null && vehicleDef.Chassis.HasTurret ? 360f : 90f;
+                    return vehicleDef.IsVTOL() ? 60f : vehicleDef.Chassis.HasTurret ? 360f : 90f;
                 }
 
                 return GetMechFiringArc(mech, targetUnit, attackPosition);

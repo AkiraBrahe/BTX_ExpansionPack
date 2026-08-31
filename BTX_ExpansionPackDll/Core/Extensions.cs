@@ -188,15 +188,6 @@ namespace BTX_ExpansionPack.Core
             }
 
             /// <summary>
-            /// Determines if a unit is a VTOL or hover tank.
-            /// </summary>
-            public bool IsVTOLOrHoverTank()
-            {
-                return (unit is Mech mech && (mech.MechDef.MechTags.Contains("unit_vtol") || mech.MechDef.MechTags.Contains("unit_hover"))) ||
-                       (unit is Vehicle vehicle && (vehicle.VehicleDef.VehicleTags.Contains("unit_vtol") || vehicle.VehicleDef.VehicleTags.Contains("unit_hover")));
-            }
-
-            /// <summary>
             /// Determines if a unit is an artillery unit capable of firing artillery weapons.
             /// </summary>
             public bool IsArtilleryUnit()
@@ -478,6 +469,24 @@ namespace BTX_ExpansionPack.Core
             public void BulkInsertDynamicLanceDifficulty(IEnumerable<DynamicLanceDifficulty_MDD> defs) =>
                 mdd.Execute(@"INSERT INTO DynamicLanceDifficulty (DynamicLanceDifficultyID, Difficulty, NoUnitCount, LightUnitCount, MediumUnitCount, HeavyUnitCount, AssaultUnitCount, PilotTags)
                   VALUES (@DynamicLanceDifficultyID, @Difficulty, @NoUnitCount, @LightUnitCount, @MediumUnitCount, @HeavyUnitCount, @AssaultUnitCount, @PilotTags)", defs);
+        }
+
+        #endregion
+
+        #region Vehicle Info
+
+        /// <summary>
+        /// Determines if a unit is a VTOL from its tags.
+        /// </summary>
+        public static bool IsVTOL(this VehicleDef vehicle) => vehicle.VehicleTags.Contains("unit_vtol");
+
+        /// <summary>
+        /// Determines if a unit is a VTOL or hover tank from its tags.
+        /// </summary>
+        public static bool IsVTOLOrHoverTank(this AbstractActor unit)
+        {
+            return (unit is Mech mech && (mech.MechDef.MechTags.Contains("unit_vtol") || mech.MechDef.MechTags.Contains("unit_hover"))) ||
+                   (unit is Vehicle vehicle && (vehicle.VehicleDef.VehicleTags.Contains("unit_vtol") || vehicle.VehicleDef.VehicleTags.Contains("unit_hover")));
         }
 
         #endregion
