@@ -9,7 +9,7 @@
   "AdditionalLances": {
     "Enable": true,
     "EnemyLanceCount": 1,
-    "EnemyLances": [ "lancedef_comstar_dynamic_battle2" ],
+    "EnemyLances": [ "ComStar_Battle_Lance2" ],
     "EnemyLanceObjectiveNames": [ "Destroy Defending Com Guard Forces" ],
     "HideObjective": true,
     "ShowObjectiveOnLanceDetected": false,

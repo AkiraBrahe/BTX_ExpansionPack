@@ -19,14 +19,13 @@
       "Scope": "StarSystem",
       "RequirementTags": {
         "items": [
-          "planet_other_starleague"
+          "planet_other_starleague",
+          "timeline_3053"
         ],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
-        "items": [
-          "timeline_3053"
-        ],
+        "items": [],
         "tagSetSourceFile": ""
       },
       "RequirementComparisons": [
@@ -268,7 +267,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Multiple contacts are converging on the cache location. Be prepared for serious opposition.",
+          "words": "Multiple contacts are converging on the cache location. Be ready for some fierce opposition.",
           "wordsColor": {
             "r": 1,
             "g": 1,

@@ -2,8 +2,8 @@
   "TargetIDs": [
     "Weapon_Gauss_RailGun_0-STOCK",
     "Weapon_Gauss_RailGun_1-SCI",
-    "Weapon_Gauss_RailGun_2-BL",
-    "Weapon_Gauss_RailGun_2-SCI"
+    "Weapon_Gauss_RailGun_2-BL"
+    //"Weapon_Gauss_RailGun_2-SCI"
   ],
   "Instructions": [
     {
