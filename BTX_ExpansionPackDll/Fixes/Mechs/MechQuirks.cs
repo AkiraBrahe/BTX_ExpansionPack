@@ -13,9 +13,9 @@ namespace BTX_ExpansionPack.Fixes.Mechs
     /// <summary>
     /// Implements new mech quirks and fixes existing ones:
     /// <list type="bullet">
-    /// <item><description>Anti-Aircraft Targeting: +4 to hit airborne units</description></item>
-    /// <item><description>Easy to Pilot: Gains +1 EVASIVE charge when moving, doesn't stack with Sure Footing</description></item>
-    /// <item><description>Poor Performance: 'Mech can only sprint if it has moved last turn</description></item>
+    /// <item>Anti-Aircraft Targeting: +4 to hit airborne units</item>
+    /// <item>Easy to Pilot: Gains +1 EVASIVE charge when moving, doesn't stack with Sure Footing</item>
+    /// <item>Poor Performance: 'Mech can only sprint if it has moved last turn</item>
     /// </list>
     /// </summary>
     internal class MechQuirks

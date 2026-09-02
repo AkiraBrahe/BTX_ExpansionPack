@@ -1,8 +1,6 @@
 using BattleTech;
-using BattleTech.Save.SaveGameStructure;
 using CustAmmoCategories;
 using Extended_CE.Functionality;
-using System;
 
 namespace BTX_ExpansionPack.Fixes.Mechanics
 {
@@ -12,7 +10,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
         /// Fixes turreted vehicles having incorrect max turret armor.
         /// </summary>
         [HarmonyPatch(typeof(Extended_CE.NewTech.ArmorRules), "MaxFrontArmor")]
-        public static class ArmorRules_MaxFrontArmor
+        public static class BEX_ArmorRules_MaxFrontArmor
         {
             [HarmonyPrefix]
             public static bool Prefix(LocationDef locationDef, ref float __result)
@@ -27,11 +25,12 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
         /// Fixes pathfinding for VTOLs and hover tanks to use the correct terrain cost modifiers.
         /// </summary>
         /// <remarks>
-        /// BEX prevents mechs from running over water, but this also prevented VTOLs and hover tanks from doing so.
+        /// BEX prevents mechs from running into water, but this also prevented VTOLs and hover tanks from doing so.
         /// </remarks>
         [HarmonyPatch(typeof(PathNodeGrid), "GetTerrainModifiedCost", [typeof(PathNode), typeof(PathNode), typeof(float)])]
         public static class PathNodeGrid_GetTerrainModifiedCost
         {
+            [HarmonyPostfix]
             public static void Postfix(PathNodeGrid __instance, PathNode from, PathNode to, float distanceAvailable, ref float __result)
             {
                 if (TacticalGameChanges.tutorialMission)

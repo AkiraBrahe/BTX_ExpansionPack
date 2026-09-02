@@ -15,6 +15,7 @@ namespace BTX_ExpansionPack.Fixes.UI
 
         /// <summary>
         /// Shortens vehicle names and makes them stand out on nameplates.
+        /// Example: "Behemoth Heavy Tank" -> "Behemoth"
         /// </summary>
         [HarmonyPatch(typeof(CustomMech_GetActorInfoFromVisLevel), "Get")]
         public static class GetActorInfoFromVisLevel_Get
@@ -23,8 +24,10 @@ namespace BTX_ExpansionPack.Fixes.UI
             public static bool Prepare() => Main.Settings.UI.Battle.UseShortenedVehicleNames;
 
             [HarmonyPostfix]
-            public static void Postfix(ref string __result)
+            public static void Postfix(AbstractActor a, ref string __result)
             {
+                __result = a.UnitName ?? __result;
+
                 if (__result.EndsWith(")"))
                 {
                     __result = __result.Replace("(", "<size=75%>(").Replace(")", ")</size>");
@@ -34,7 +37,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 if (Main.Settings.UI.Battle.ShowStandardVehicleVariant)
                 {
                     // Special case: Unique named vehicle
-                    if (__result.StartsWith(""") && __result.EndsWith("""))
+                    if (__result.EndsWith("”"))
                     {
                         return;
                     }
@@ -64,6 +67,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             {
                 if (__instance.DisplayedActor is not Mech mech || !mech.FakeVehicle()) return;
 
+                // Adjust the position and size of the weight text to fit the vehicle info
                 var textComponent = __instance.ActorWeightText;
                 var rectTransform = textComponent.rectTransform;
                 rectTransform.sizeDelta = new UnityEngine.Vector2(300f, rectTransform.sizeDelta.y);
@@ -72,14 +76,12 @@ namespace BTX_ExpansionPack.Fixes.UI
                     : new UnityEngine.Vector2(75f, rectTransform.anchoredPosition.y);
                 textComponent.enableAutoSizing = false;
 
-                if (Main.Settings.UI.Battle.UseShortenedVehicleNames)
+                // Show the vehicle type and tonnage
+                string stockRole = mech.MechDef?.Chassis?.StockRole;
+                if (!string.IsNullOrEmpty(stockRole) && stockRole != "VEHICLE")
                 {
-                    string stockRole = mech.MechDef?.Chassis?.StockRole;
-                    if (!string.IsNullOrEmpty(stockRole) && stockRole != "VEHICLE")
-                    {
-                        __instance.ActorWeightText.SetText("{0} ({1}t)", stockRole, mech.tonnage);
-                        return;
-                    }
+                    __instance.ActorWeightText.SetText("{0} ({1}t)", stockRole, mech.tonnage);
+                    return;
                 }
 
                 __instance.ActorWeightText.SetText("VEHICLE: {0} ({1}t)", mech.weightClass, mech.tonnage);

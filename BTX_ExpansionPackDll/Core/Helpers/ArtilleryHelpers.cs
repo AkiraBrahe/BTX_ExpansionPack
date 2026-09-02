@@ -58,15 +58,14 @@ namespace BTX_ExpansionPack.Core.Helpers
             public static void Postfix(TurnDirector __instance)
             {
                 int currentRound = __instance.CurrentRound;
-                var expiredRounds = _activeStrikes.Keys.Where(r => r < currentRound);
+                var expiredKeys = _activeStrikes.Keys.Where(r => r < currentRound).ToList();
 
-                if (expiredRounds.Any())
+                if (expiredKeys.Count > 0)
                 {
                     Main.Logger.Log($"[ArtilleryAI] Beginning round {currentRound}. Clearing expired strike data.");
-
-                    foreach (int round in expiredRounds)
+                    foreach (int key in expiredKeys)
                     {
-                        _activeStrikes.Remove(round);
+                        _activeStrikes.Remove(key);
                     }
                 }
             }

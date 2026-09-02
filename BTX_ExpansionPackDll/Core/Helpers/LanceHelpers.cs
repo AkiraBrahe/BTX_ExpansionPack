@@ -43,6 +43,7 @@ namespace BTX_ExpansionPack.Core.Helpers
         public static class LanceOverride_RequestLance_ContextPatch
         {
             [HarmonyPrefix]
+            [HarmonyPriority(Priority.First)]
             public static void Prefix(LanceOverride __instance, int requestedDifficulty)
             {
                 int adjustedDifficulty = requestedDifficulty + __instance.lanceDifficultyAdjustment;

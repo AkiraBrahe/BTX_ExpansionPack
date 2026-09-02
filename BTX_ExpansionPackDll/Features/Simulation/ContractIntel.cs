@@ -220,7 +220,7 @@ namespace BTX_ExpansionPack.Features.Simulation
                     }
 
                     var minimap = parentObject.FindComponent<Image>("img_minimap_back");
-                    if (minimap != null)
+                    if (minimap != null && contract.mapName != null)
                     {
                         var tooltip = minimap.gameObject.GetComponent<HBSTooltip>() ?? minimap.gameObject.AddComponent<HBSTooltip>();
                         string mapName = MapIdToFriendlyName.FirstOrDefault(kvp => kvp.Key.Equals(contract.mapName, StringComparison.OrdinalIgnoreCase)).Value ?? contract.mapName;

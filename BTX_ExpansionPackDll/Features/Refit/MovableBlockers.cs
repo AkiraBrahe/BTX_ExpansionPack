@@ -206,14 +206,18 @@ namespace BTX_ExpansionPack.Features.Refit
         {
             if (slotsToAdd <= 0) return;
 
+            // Step A: Check available free slots in each location
             var distribution = allLocations.ToDictionary(loc => loc, loc => 0);
             var freeSlots = distribution.Keys.ToDictionary(loc => loc, loc => mech.GetFreeSlotsInLoc([.. mech.Inventory], loc));
 
             int totalFreeSlots = freeSlots.Values.Sum();
+
+            // Step B: If necessary, internalize heat sinks to free up space
             if (totalFreeSlots < slotsToAdd)
             {
                 int neededSlots = slotsToAdd - totalFreeSlots;
 
+                // Find heat sinks in the mech's inventory
                 var externalHeatSinks = new List<(MechComponentRef component, HeatSinkInfo info)>();
                 foreach (var component in mech.Inventory)
                 {
@@ -227,6 +231,7 @@ namespace BTX_ExpansionPack.Features.Refit
                     }
                 }
 
+                // Internalize heat sinks to free up space
                 if (externalHeatSinks.Count > 0)
                 {
                     var convertableHS = externalHeatSinks.Take(neededSlots).ToList();
@@ -250,6 +255,7 @@ namespace BTX_ExpansionPack.Features.Refit
                 }
             }
 
+            // Step C: Distribute the required slots across locations
             void Fill(List<ChassisLocations> locations)
             {
                 if (slotsToAdd <= 0) return;
@@ -279,6 +285,7 @@ namespace BTX_ExpansionPack.Features.Refit
                 Main.Logger.LogWarning($"{mech.Description.Id} doesn't have enough free slots for blockers.");
             }
 
+            // Step D: Add blockers to the mech's inventory based on the distribution
             foreach (var kvp in distribution)
             {
                 int needed = kvp.Value;

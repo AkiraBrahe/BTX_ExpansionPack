@@ -77,7 +77,7 @@ namespace BTX_ExpansionPack
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(TooltipPrefab_Mech), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabMechInfoWidget), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
             /* Pathfinding */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PathNodeGrid), "GetTerrainModifiedCost", [typeof(PathNode), typeof(PathNode), typeof(float)]), HarmonyPatchType.Prefix, "BEX.BattleTech.Extended_CE");
+            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PathNodeGrid), "GetTerrainModifiedCost", [typeof(PathNode), typeof(PathNode), typeof(float)]), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
             /* Temp Jump Jets */
             harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
             /* Weather Conditions */

@@ -102,10 +102,10 @@ namespace BTX_ExpansionPack.Fixes.Targeting
         /// <remarks>
         /// Supports the following targeting modes:
         /// <list type="bullet">
-        /// <item><description>Single: Targets a single enemy unit</description></item>
-        /// <item><description>Cluster: Targets an area with multiple potential targets</description></item>
-        /// <item><description>Barrage: Targets an area to suppress one or more enemy units</description></item>
-        /// <item><description>Counter-Battery: Targets enemy artillery positions</description></item>
+        /// <item>Single: Targets a single enemy unit</item>
+        /// <item>Cluster: Targets an area with multiple potential targets</item>
+        /// <item>Barrage: Targets an area to suppress one or more enemy units</item>
+        /// <item>Counter-Battery: Targets enemy artillery positions</item>
         /// </list>
         /// </remarks>
         public static Vector3 GetArtilleryTargetPosition(Vector3 originalPosition, Weapon weapon)
