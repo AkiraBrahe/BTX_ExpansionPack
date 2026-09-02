@@ -1,7 +1,10 @@
 {
   "Upgrades": [],
   "Factions": [
-    "ComStar"
+    "ComStar",
+    "ComStarA",
+    "WordOfBlake",
+    "WordOfBlakeA"
   ],
   "FactionPrefixWithNumber": [],
   "UpgradePerComponentChance": 1.0,
