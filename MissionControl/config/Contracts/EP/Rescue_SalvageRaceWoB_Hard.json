@@ -7,12 +7,12 @@
     "Enable": true
   },
   "AdditionalLances": {
-    "Enable": true,
+    "Enable": false,
     "EnemyLanceCount": 1,
     "EnemyLances": [ "ComStar_Battle_Lance2" ],
     "EnemyLanceObjectiveNames": [ "Destroy Defending Blakist Forces" ],
     "HideObjective": true,
-    "ShowObjectiveOnLanceDetected": false,
+    "ShowObjectiveOnLanceDetected": true,
     "AlwaysDisplayHiddenObjectiveIfPrimary": false,
     "AllyLanceCount": 0
   },
