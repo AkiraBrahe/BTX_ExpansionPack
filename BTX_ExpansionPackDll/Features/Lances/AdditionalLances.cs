@@ -16,19 +16,19 @@ namespace BTX_ExpansionPack.Features.Lances
             {
                 switch (lanceDefId)
                 {
-                    // APC Lance: Clamp weight to Medium/Light
+                    // APC Lance
                     case "lancedef_apc_dynamic_battle1":
                         __instance.unitTagSet.ClampToWeightClass("unit_medium", "unit_light", 0.8f);
                         break;
 
-                    // VTOL Lance: Force weight to Light
+                    // VTOL Lance
                     case "lancedef_vtol_dynamic_battle1":
-                        __instance.unitTagSet.ForceWeightClass("unit_light");
+                        __instance.unitTagSet.ApplyWeightClass("unit_light");
                         break;
 
-                    // Heavy VTOL Lance: Force weight to Heavy
+                    // Heavy VTOL Lance
                     case "lancedef_vtol_heavy_dynamic_battle1":
-                        __instance.unitTagSet.ForceWeightClass("unit_heavy");
+                        __instance.unitTagSet.ApplyWeightClass("unit_heavy");
                         break;
                 }
             }

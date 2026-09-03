@@ -195,7 +195,7 @@ namespace BTX_ExpansionPack.Core
                 if (unit.Weapons == null) return false;
                 foreach (var w in unit.Weapons)
                 {
-                    if (w.IsArtillery() || (w.Description != null && w.Description.Id != null && w.Description.Id.StartsWith("Weapon_Artillery", StringComparison.OrdinalIgnoreCase)))
+                    if (w.IsArtillery() || (w.Description?.Id != null && w.Description.Id.StartsWith("Weapon_Artillery", StringComparison.OrdinalIgnoreCase)))
                     {
                         return true;
                     }
@@ -385,9 +385,19 @@ namespace BTX_ExpansionPack.Core
         extension(TagSet tagSet)
         {
             /// <summary>
-            /// Forces a pilot tag set to an elite difficulty level range.
+            /// Aplies a specific difficulty tag to a pilot tag set.
             /// </summary>
-            public TagSet ForceEliteDifficulty(int difficulty, string factionId)
+            public TagSet ApplyDifficulty(string difficultyTag)
+            {
+                tagSet.RemoveRange(difficultyTags);
+                tagSet.Add(difficultyTag);
+                return tagSet;
+            }
+
+            /// <summary>
+            /// Clamps a pilot tag set to an elite difficulty level range.
+            /// </summary>
+            public TagSet ClampToEliteDifficultyRange(int difficulty, string factionId)
             {
                 bool isEliteDivision = factionId is "ComStarA" or "WordOfBlakeA";
                 difficulty = isEliteDivision ? 10 : Mathf.Clamp(difficulty, 6, 10);
@@ -405,7 +415,48 @@ namespace BTX_ExpansionPack.Core
             }
 
             /// <summary>
-            /// Clamps a tag set to a specific weight class range.
+            /// Promotes a pilot to a higher difficulty level.
+            /// </summary>
+            public TagSet PromotePilot()
+            {
+                for (int i = 0; i < difficultyTags.Length - 2; i++)
+                {
+                    if (tagSet.Contains(weightClassTags[i]))
+                    {
+                        return tagSet.ApplyWeightClass(weightClassTags[i + 2]);
+                    }
+                }
+
+                return tagSet;
+            }
+
+            /// <summary>
+            /// Demotes a pilot to a lower difficulty level.
+            /// </summary>
+            public TagSet DemotePilot()
+            {
+                for (int i = difficultyTags.Length - 1; i > 0; i--)
+                {
+                    if (tagSet.Contains(difficultyTags[i]))
+                    {
+                        return tagSet.ApplyDifficulty(difficultyTags[i - 2]);
+                    }
+                }
+                return tagSet;
+            }
+
+            /// <summary>
+            /// Aplies a specific weight class to a unit tag set.
+            /// </summary>
+            public TagSet ApplyWeightClass(string weightClass)
+            {
+                tagSet.RemoveRange(weightClassTags);
+                tagSet.Add(weightClass);
+                return tagSet;
+            }
+
+            /// <summary>
+            /// Clamps a unit tag set to a specific weight class range.
             /// </summary>
             public TagSet ClampToWeightClass(string weightClass1, string weightClass2, float chance)
             {
@@ -427,31 +478,34 @@ namespace BTX_ExpansionPack.Core
             }
 
             /// <summary>
-            /// Forces a tag set to a specific weight class.
+            /// Upgrades a unit to the next higher weight class.
             /// </summary>
-            public TagSet ForceWeightClass(string weightClass)
+            public TagSet UpgradeToNextWeightClass()
             {
-                tagSet.RemoveRange(weightClassTags);
-                tagSet.Add(weightClass);
+                for (int i = 0; i < weightClassTags.Length - 1; i++)
+                {
+                    if (tagSet.Contains(weightClassTags[i]))
+                    {
+                        return tagSet.ApplyWeightClass(weightClassTags[i + 1]);
+                    }
+                }
+
                 return tagSet;
             }
 
             /// <summary>
-            /// Forces a tag set to a specific unit type.
+            /// Downgrades a unit to the previous lower weight class.
             /// </summary>
-            public TagSet ForceUnitType(UnitType unitType)
+            public TagSet DowngradeToPreviousWeightClass()
             {
-                switch (unitType)
+                for (int i = weightClassTags.Length - 1; i > 0; i--)
                 {
-                    case UnitType.Mech:
-                        tagSet.Remove("unit_vehicle");
-                        tagSet.Add("unit_mech");
-                        break;
-                    case UnitType.Vehicle:
-                        tagSet.Remove("unit_mech");
-                        tagSet.Add("unit_vehicle");
-                        break;
+                    if (tagSet.Contains(weightClassTags[i]))
+                    {
+                        return tagSet.ApplyWeightClass(weightClassTags[i - 1]);
+                    }
                 }
+
                 return tagSet;
             }
         }

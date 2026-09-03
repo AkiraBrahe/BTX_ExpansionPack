@@ -49,6 +49,30 @@ namespace BTX_ExpansionPack.Features.Lances
         }
 
         /// <summary>
+        /// Intercepts lance requests to adjust difficulty for command and recon lances, ensuring they spawn with either higher or lower difficulty than standard lances.
+        /// </summary>
+        [HarmonyPatch(typeof(LanceOverride), "RequestLance")]
+        public static class LanceOverride_RequestLance
+        {
+            [HarmonyPrefix]
+            [HarmonyPriority(Priority.Normal)]
+            public static void Prefix(LanceOverride __instance, ref int requestedDifficulty)
+            {
+                if (__instance.selectedLanceDifficulty == 0)
+                    return;
+
+                int variance = __instance.lanceDefId == "lancedef_command" ? Random.Range(2, 4) : // 2 or 3 levels higher
+                               __instance.lanceDefId == "lancedef_recon" ? Random.Range(-3, -1) : 0; // 3 or 2 levels lower
+
+                if (variance == 0) return;
+
+                int newDifficulty = UnityEngine.Mathf.Clamp(__instance.selectedLanceDifficulty + variance, 0, 12);
+                __instance.selectedLanceDifficulty = newDifficulty;
+                requestedDifficulty = newDifficulty - __instance.lanceDifficultyAdjustment;
+            }
+        }
+
+        /// <summary>
         /// Intercepts pilot spawns to assign elite pilots to ComStar and Clan units.
         /// </summary>
         [HarmonyPatch(typeof(UnitSpawnPointOverride), "RequestPilot")]
@@ -56,7 +80,7 @@ namespace BTX_ExpansionPack.Features.Lances
         {
             [HarmonyPrefix]
             [HarmonyBefore("BEX.BattleTech.Extended_CE")]
-            public static bool Prefix(UnitSpawnPointOverride __instance, string lanceName)
+            public static bool Prefix(UnitSpawnPointOverride __instance, string lanceName, int unitIndex)
             {
                 var context = LanceGenerationContext.GetContext(lanceName);
                 if (context == null)
@@ -67,7 +91,11 @@ namespace BTX_ExpansionPack.Features.Lances
                 {
                     int difficulty = context.Difficulty;
                     string factionId = context.FactionId;
-                    __instance.pilotTagSet.ForceEliteDifficulty(difficulty, factionId);
+                    __instance.pilotTagSet.ClampToEliteDifficultyRange(difficulty, factionId);
+                }
+                else if (lanceDefId.StartsWith("lancedef_command") && unitIndex == 0)
+                {
+                    __instance.pilotTagSet.PromotePilot();
                 }
 
                 return true;
@@ -96,10 +124,14 @@ namespace BTX_ExpansionPack.Features.Lances
 
                 bool unitWasSelected = false;
 
-                if (unitIndex >= 4)
-                    EnforceAugmentedLance(__instance, unitIndex, year, factionId);
+                if (unitIndex >= 3)
+                    EnforceAugmentedLance(__instance, unitIndex, factionId, year);
+                // if (factionId == "Locals")
+                //     EnforceMixedLance(__instance, unitIndex, year, factionId); // TODO: Add logic to make local garrison use more vehicles
                 if (lanceDefId == "lancedef_arty_dynamic_battle1")
                     HandleArtilleryLance(__instance, request, lanceName, unitIndex, year, factionId, difficulty, companyTags, ref unitWasSelected);
+                else if (lanceDefId.StartsWith("lancedef_command"))
+                    HandleCommandLance(__instance, unitIndex);
                 else if (lanceDefId.StartsWith("lancedef_comstar") || lanceDefId.StartsWith("lancedef_clan"))
                     HandleComStarClanLance(__instance, lanceDefId, lanceName, unitIndex, difficulty);
 
@@ -126,7 +158,7 @@ namespace BTX_ExpansionPack.Features.Lances
             /// <summary>
             /// Enforces the Capellan Confederation's augmented lance formation post-Clan invasion.
             /// </summary>
-            private static void EnforceAugmentedLance(UnitSpawnPointOverride __instance, int unitIndex, int year, string factionId)
+            private static void EnforceAugmentedLance(UnitSpawnPointOverride __instance, int unitIndex, string factionId, int year)
             {
                 if (factionId.StartsWith("LiaoA") && year >= 3052)
                 {
@@ -202,7 +234,7 @@ namespace BTX_ExpansionPack.Features.Lances
                 // 3b. Handle standard artillery
                 if (unitIndex < artList.Count)
                 {
-                    if (unitIndex == 4 && difficulty < 7)
+                    if (unitIndex == 3 && difficulty < 7)
                     {
                         // Chance for a spotter vehicle to spawn
                         int chance = 75 - (difficulty * 10);
@@ -312,6 +344,12 @@ namespace BTX_ExpansionPack.Features.Lances
             /// </summary>
             private static void AssignCommandArtilleryEscort(UnitSpawnPointOverride instance, LoadRequest request, int year, TagSet companyTags)
             {
+                // Upgrade light or medium units for more capable escorts
+                if (instance.unitTagSet.Contains("unit_light") || instance.unitTagSet.Contains("unit_medium"))
+                {
+                    instance.unitTagSet.UpgradeToNextWeightClass();
+                }
+
                 // Modify units tags to let BEX select non-artillery escorts
                 instance.unitTagSet.Add("xotl_min_0.3333");
                 instance.unitTagSet.Remove("unit_vehicle_artillery");
@@ -331,6 +369,28 @@ namespace BTX_ExpansionPack.Features.Lances
             /// Currently, only the Mobile Long Tom and Schiltron Prime qualify as command artillery.
             /// </summary>
             private static bool IsCommandArtillery(string defId) => defId.StartsWith("vehicledef_LONGTOM-LT-MOB") || defId.StartsWith("vehicledef_SCHILTRON");
+
+            #endregion
+
+            #region Command Lance Helpers
+
+            /// <summary>
+            /// Handles command as a higher-difficulty support lance.
+            /// </summary>
+            private static void HandleCommandLance(UnitSpawnPointOverride instance, int unitIndex)
+            {
+                if (unitIndex == 0)
+                {
+                    // TODO: Add logic for command lance leaders to sometimes spawn with a Dual Command (DC) variant, using custom spawn logic akin to artillery lances.
+                    UpgradeCommandLeader(instance);
+                }
+            }
+
+            /// <summary>
+            /// Upggrades the command lance leader to the next high weight class.
+            /// </summary>
+            /// <param name="instance"></param>
+            private static void UpgradeCommandLeader(UnitSpawnPointOverride instance) => instance.unitTagSet.UpgradeToNextWeightClass();
 
             #endregion
 
@@ -402,7 +462,7 @@ namespace BTX_ExpansionPack.Features.Lances
             /// <summary>
             /// Applies the selected lance composition to a spawn point.
             /// </summary>
-            private static void ApplyComStarClanOverride(UnitSpawnPointOverride instance, string weightTag) => instance.unitTagSet.ForceWeightClass(weightTag);
+            private static void ApplyComStarClanOverride(UnitSpawnPointOverride instance, string weightTag) => instance.unitTagSet.ApplyWeightClass(weightTag);
 
             #endregion
         }
