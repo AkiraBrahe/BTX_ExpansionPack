@@ -417,13 +417,15 @@ namespace BTX_ExpansionPack.Core
             /// <summary>
             /// Promotes a pilot to a higher difficulty level.
             /// </summary>
-            public TagSet PromotePilot()
+            public TagSet PromotePilot(int step = 1)
             {
-                for (int i = 0; i < difficultyTags.Length - 2; i++)
+                if (step <= 0) return tagSet;
+
+                for (int i = 0; i < difficultyTags.Length - step; i++)
                 {
                     if (tagSet.Contains(weightClassTags[i]))
                     {
-                        return tagSet.ApplyWeightClass(weightClassTags[i + 2]);
+                        return tagSet.ApplyWeightClass(weightClassTags[i + step]);
                     }
                 }
 
@@ -433,13 +435,15 @@ namespace BTX_ExpansionPack.Core
             /// <summary>
             /// Demotes a pilot to a lower difficulty level.
             /// </summary>
-            public TagSet DemotePilot()
+            public TagSet DemotePilot(int step = -1)
             {
+                if (step >= 0) return tagSet;
+
                 for (int i = difficultyTags.Length - 1; i > 0; i--)
                 {
                     if (tagSet.Contains(difficultyTags[i]))
                     {
-                        return tagSet.ApplyDifficulty(difficultyTags[i - 2]);
+                        return tagSet.ApplyDifficulty(difficultyTags[i + step]);
                     }
                 }
                 return tagSet;
