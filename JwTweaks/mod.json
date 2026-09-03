@@ -2,7 +2,7 @@
 	"Name": "JwTweaks",
 	"Version": "1.0.0",
 	"Enabled": true,
-	"Hidden": true,
+	"Hidden": false,
 	"Author": "Jamie Wolf",
 	"DLL": "JwTweaks.dll",
 	"DLLEntryPoint": "JwTweaks.JTCore.Init",
@@ -14,7 +14,7 @@
 	"Settings": {
 		"ShowTooltips": true,
 		"ImprovedSaveSerialization": true,
-		"FixTravelContracts": true,
-		"CustomSaveBlocks ": true
+		"CustomSaveBlocks": true,
+		"EnhancedContractRequirements": true
 	}
 }
