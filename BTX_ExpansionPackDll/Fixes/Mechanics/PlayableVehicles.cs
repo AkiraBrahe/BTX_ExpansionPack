@@ -33,31 +33,11 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
             [HarmonyPostfix]
             public static void Postfix(PathNodeGrid __instance, PathNode from, PathNode to, float distanceAvailable, ref float __result)
             {
-                if (TacticalGameChanges.tutorialMission)
-                    return;
-
                 var owningActor = __instance.owningActor;
-                if (owningActor == null || owningActor is Vehicle || owningActor.FakeVehicle())
+                if (owningActor == null || owningActor.FakeVehicle() || owningActor.UnaffectedDesignMasks())
                     return;
 
-                // Original BEX logic
-                var mapMetaData = __instance.mapMetaData;
-                if (Extended_CE.Core.Settings.UsingRunMovementRules && __instance.moveType == MoveType.Walking && (double)__result <= (double)distanceAvailable && (double)from.CostToThisNode >= 10.0)
-                {
-                    if ((double)from.CostToThisNode + (double)__result > (double)__instance.MaxDistance * 0.66666668653488159)
-                    {
-                        DesignMaskDef priorityDesignMask = __instance.owningActor.Combat.MapMetaData.GetPriorityDesignMask(to.MapTerrainDataCell);
-                        if (priorityDesignMask != null && priorityDesignMask.moveCostSprintMultiplier > 1.3200000524520874)
-                            __result = 99999.9f;
-                    }
-                }
-                else if (__instance.moveType == MoveType.Sprinting && (double)__result > 99000.0 && (double)from.CostToThisNode < 10.0 && mapMetaData != null)
-                {
-                    Point startPoint = mapMetaData.GetIndex(from.Position);
-                    Point endPoint = mapMetaData.GetIndex(to.Position);
-                    if (mapMetaData.IsWithinBounds(startPoint) && mapMetaData.IsWithinBounds(endPoint))
-                        __result = (float)((double)__instance.MaxDistance - (double)from.CostToThisNode - -3.4028234663852886E+38);
-                }
+                RunRules.PathNodeGrid_GetTerrainModifiedCost.Postfix(__instance, from, to, distanceAvailable, owningActor, __instance.moveType, ref __result, __instance.mapMetaData);
             }
         }
     }
