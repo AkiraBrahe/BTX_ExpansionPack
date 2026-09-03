@@ -18,11 +18,11 @@
     "FACTION:Tikonov:-100:100": [ "Generic_Battle_Lance", "Generic_VTOL_Lance_Heavy" ],
 
     /* Periphery */
-    "FACTION:Calderon:-100:100": [ "Generic_Vehicle_Lance" ],
-    "FACTION:MagistracyOfCanopus:-100:100": [ "Generic_Vehicle_Lance" ],
-    "FACTION:NewColonyRegion:-100:100": [ "Generic_Vehicle_Lance" ],
-    "FACTION:Outworld:-100:100": [ "Generic_Vehicle_Lance" ],
-    "FACTION:TaurianConcordat:-100:100": [ "Generic_Vehicle_Lance" ],
+    "FACTION:Calderon:-100:100": [ "Recon_Vehicle_Lance", "Generic_APC_Lance" ],
+    "FACTION:MagistracyOfCanopus:-100:100": [ "Recon_Vehicle_Lance", "Generic_APC_Lance" ],
+    "FACTION:NewColonyRegion:-100:100": [ "Recon_Vehicle_Lance", "Generic_APC_Lance" ],
+    "FACTION:Outworld:-100:100": [ "Recon_Vehicle_Lance", "Generic_APC_Lance" ],
+    "FACTION:TaurianConcordat:-100:100": [ "Recon_Vehicle_Lance", "Generic_APC_Lance" ],
 
     /* Mercenaries */
     "FACTION:Merc:-100:100": [ "Generic_Battle_Lance" ],

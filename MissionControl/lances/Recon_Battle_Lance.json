@@ -1,0 +1,33 @@
+{
+  "lanceKey": "Recon_Battle_Lance",
+  "lanceDefId": "lancedef_recon_dynamic_battle1",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech",
+      "unitExcludedTagSet": {
+        "items": ["unit_speed_low"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitExcludedTagSet": {
+        "items": ["unit_speed_low"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitExcludedTagSet": {
+        "items": ["unit_speed_low"]
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitExcludedTagSet": {
+        "items": ["unit_speed_low"]
+      }
+    }
+  ]
+}

@@ -1,31 +1,31 @@
 {
   "LancePool": {
-    "ALL": [ "Generic_Battle_Lance", "Generic_Mixed_Lance", "Generic_Artillery_Lance" ],
+    "ALL": [ "Generic_Mixed_Lance", "Generic_Vehicle_Lance", "Generic_Artillery_Lance" ],
     
     /* Inner Sphere */ 
-    "FACTION:Davion:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:Kurita:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:Liao:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:Marik:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:Steiner:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
+    "FACTION:Davion:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:Kurita:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:Liao:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:Marik:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:Steiner:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
 
-    "FACTION:Andurien:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:Arc-RoyalDC:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:ChaosMarch:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:FedCom:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:Ives:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:Rasalhague:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
-    "FACTION:Tikonov:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
+    "FACTION:Andurien:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:Arc-RoyalDC:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:ChaosMarch:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:FedCom:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:Ives:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:Rasalhague:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
+    "FACTION:Tikonov:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance", "Generic_Battle_Lance" ],
 
     /* Periphery */
-    "FACTION:Calderon:-100:100": [ "Generic_Vehicle_Lance" ],
-    "FACTION:MagistracyOfCanopus:-100:100": [ "Generic_Vehicle_Lance" ],
-    "FACTION:NewColonyRegion:-100:100": [ "Generic_Vehicle_Lance" ],
-    "FACTION:Outworld:-100:100": [ "Generic_Vehicle_Lance" ],
-    "FACTION:TaurianConcordat:-100:100": [ "Generic_Vehicle_Lance" ],
+    "FACTION:Calderon:-100:100": [ "Command_Vehicle_Lance", "Recon_Battle_Lance" ],
+    "FACTION:MagistracyOfCanopus:-100:100": [ "Command_Vehicle_Lance", "Recon_Battle_Lance" ],
+    "FACTION:NewColonyRegion:-100:100": [ "Command_Vehicle_Lance", "Recon_Battle_Lance" ],
+    "FACTION:Outworld:-100:100": [ "Command_Vehicle_Lance", "Recon_Battle_Lance" ],
+    "FACTION:TaurianConcordat:-100:100": [ "Command_Vehicle_Lance", "Recon_Battle_Lance" ],
 
     /* Mercenaries */
-    "FACTION:Merc:-100:100": [ "Command_Battle_Lance", "Command_Vehicle_Lance" ],
+    "FACTION:Merc:-100:100": [ "Generic_Battle_Lance" ],
       
     /* ComStar */ 
     "FACTION:ComStar:-100:100": [ "ComStar_Battle_Lance", "ComStar_Mixed_Lance", "ComStar_Mixed_Lance2", "ComStar_Vehicle_Lance" ],
