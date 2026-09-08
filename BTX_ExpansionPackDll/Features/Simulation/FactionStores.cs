@@ -2,6 +2,7 @@ using BattleTech;
 using BEXTimeline;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 
@@ -9,57 +10,60 @@ namespace BTX_ExpansionPack.Features.Simulation
 {
     internal class FactionStores
     {
-        private static readonly Dictionary<string, string> StartingFactionStores = new()
+        #region Faction Store Data
+
+        internal static readonly Dictionary<string, (string Faction, bool VehicleOnly)> StartingFactionStores = new()
         {
-            { "starsystemdef_Addicks", "Davion" },
-            { "starsystemdef_Andurien", "Marik" },
-            { "starsystemdef_Belladonna", "Davion" },
-            { "starsystemdef_BrokenWheel", "Davion" },
-            { "starsystemdef_Carver(Liberty3063+)", "Liao" },
-            { "starsystemdef_Dieron", "Kurita" },
-            { "starsystemdef_Inarcs", "Steiner" },
-            { "starsystemdef_Indicass", "Liao" },
-            { "starsystemdef_Irece", "Kurita" },
-            { "starsystemdef_Johnsondale", "Davion" },
-            { "starsystemdef_Kirklin", "Davion" },
-            { "starsystemdef_Layover", "Davion" },
-            { "starsystemdef_Loyalty", "Marik" },
-            { "starsystemdef_Menke", "Liao" },
-            { "starsystemdef_Mitchella", "Outworld" },
-            { "starsystemdef_Northwind", "Davion" },
-            { "starsystemdef_Proserpina", "Kurita" },
-            { "starsystemdef_Richvale", "Steiner" },
-            { "starsystemdef_Salem", "Davion" },
-            { "starsystemdef_Skye", "Steiner" },
-            { "starsystemdef_Sterope(NewTaurus)", "TaurianConcordat" },
-            { "starsystemdef_TauCeti(NewEarth2116+)", "Steiner" },
-            { "starsystemdef_Vega", "Kurita" },
+            { "starsystemdef_Addicks", ("Davion", true) },
+            { "starsystemdef_Andurien", ("Marik", true) },
+            { "starsystemdef_Belladonna", ("Davion", true) },
+            { "starsystemdef_BrokenWheel", ("Davion", true) },
+            { "starsystemdef_Cahokia", ("Davion", false) },
+            { "starsystemdef_Carver(Liberty3063+)", ("Liao", true) },
+            { "starsystemdef_Dieron", ("Kurita", false) },
+            { "starsystemdef_Inarcs", ("Steiner", true) },     // Vehicle-only until 3056
+            { "starsystemdef_Indicass", ("Liao", true) },
+            { "starsystemdef_Irece", ("Kurita", false) },
+            { "starsystemdef_Johnsondale", ("Davion", true) },
+            { "starsystemdef_Kirklin", ("Davion", true) },
+            { "starsystemdef_Layover", ("Davion", true) },
+            { "starsystemdef_Loyalty", ("Marik", true) },
+            { "starsystemdef_Menke", ("Liao", true) },         // Vehicle-only until 3057
+            { "starsystemdef_Mitchella", ("Outworld", true) },
+            { "starsystemdef_Northwind", ("Davion", false) },
+            { "starsystemdef_Proserpina", ("Kurita", true) },
+            { "starsystemdef_Richvale", ("Steiner", true) },
+            { "starsystemdef_Salem", ("Davion", true) },
+            { "starsystemdef_Sevon", ("Outworld", false) },
+            { "starsystemdef_Skye", ("Steiner", false) },
+            { "starsystemdef_SonHoa", ("Steiner", false) },
+            { "starsystemdef_Sterope(NewTaurus)", ("TaurianConcordat", true) },
+            { "starsystemdef_TauCeti(NewEarth2116+)", ("Steiner", true) },
+            { "starsystemdef_Togura", ("Kurita", false) },
+            { "starsystemdef_Vega", ("Kurita", false) }
         };
 
-        private static readonly HashSet<string> MechOnlyStartingFactionStores =
-        [
-            "starsystemdef_Dieron",
-            "starsystemdef_Inarcs",
-            "starsystemdef_Irece",
-            "starsystemdef_Menke",
-            "starsystemdef_Northwind",
-            "starsystemdef_Vega"
-        ];
-
-        private static readonly Dictionary<string, List<string>> VehicleOnlyTimelineStores = new()
+        internal static readonly Dictionary<string, List<string>> MechOnlyStoresByDate = new()
         {
-            { "3032-01-01T00:00:00", new List<string> { "starsystemdef_Betelgeuse" } },
-            { "3036-01-01T00:00:00", new List<string> { "starsystemdef_Spittal" } },
-            { "3042-01-01T00:00:00", new List<string> { "starsystemdef_Alphard(MH)" } },
-            { "3050-01-01T00:00:00", new List<string> { "starsystemdef_Orestes" } },
-            { "3052-01-01T00:00:00", new List<string> { "starsystemdef_Ruchbah" } },
-            { "3064-01-01T00:00:00", new List<string> { "starsystemdef_Bristol" } },
-            { "3068-01-01T00:00:00", new List<string> { "starsystemdef_Arcturus", "starsystemdef_Benet", "starsystemdef_Melissia" } }
+            { "3056-01-01T00:00:00", [ "starsystemdef_Inarcs" ] },
+            { "3057-01-01T00:00:00", [ "starsystemdef_Menke" ] }
         };
+
+        internal static readonly Dictionary<string, List<string>> VehicleOnlyStoresByDate = new()
+        {
+            { "3032-01-01T00:00:00", [ "starsystemdef_Betelgeuse" ] },
+            { "3036-01-01T00:00:00", [ "starsystemdef_Spittal" ] },
+            { "3042-01-01T00:00:00", [ "starsystemdef_Alphard(MH)" ] },
+            { "3050-01-01T00:00:00", [ "starsystemdef_Orestes" ] },
+            { "3052-01-01T00:00:00", [ "starsystemdef_Ruchbah" ] },
+            { "3064-01-01T00:00:00", [ "starsystemdef_Bristol" ] },
+            { "3068-01-01T00:00:00", [ "starsystemdef_Arcturus", "starsystemdef_Benet", "starsystemdef_Irece", "starsystemdef_Melissia" ] }
+        };
+
+        #endregion
 
         /// <summary>
-        /// Adds custom faction stores after Inner Sphere Map has finished updating the StarSystemDefs files.
-        /// Also removes vehicle-only faction stores if vehicles are not playable and handles missing shop switch entries.
+        /// Checks for missing item collections in the ShopSwitch settings and logs a warning if any are missing.
         /// </summary>
         [HarmonyPatch(typeof(SimGameState), "InitializeDataFromDefs")]
         public static class SimGameState_InitializeDataFromDefs
@@ -67,47 +71,6 @@ namespace BTX_ExpansionPack.Features.Simulation
             [HarmonyPostfix]
             public static void Postfix(SimGameState __instance)
             {
-                foreach (var shopEntry in StartingFactionStores)
-                {
-                    string systemId = shopEntry.Key;
-
-                    if (Main.HasPlayableVehicles || MechOnlyStartingFactionStores.Contains(systemId))
-                    {
-                        if (__instance.DataManager.SystemDefs.TryGet(systemId, out var systemDef))
-                        {
-                            string itemCollectionId = $"itemCollection_factoryHolder_{SanitizeSystemDefId(systemId)}";
-                            systemDef.FactionShopOwner = systemDef.Owner;
-                            systemDef.FactionShopItems ??= [];
-
-                            if (!systemDef.FactionShopItems.Contains(itemCollectionId))
-                            {
-                                systemDef.FactionShopItems.Add(itemCollectionId);
-                            }
-                        }
-                    }
-                }
-
-                if (!Main.HasPlayableVehicles)
-                {
-                    var factionShops = BEXTimeline.Core.Settings.FactionShopCreation;
-                    if (factionShops != null)
-                    {
-                        foreach (var entry in VehicleOnlyTimelineStores)
-                        {
-                            if (DateTime.TryParse(entry.Key, out var date))
-                            {
-                                if (factionShops.TryGetValue(date, out var shopsOnDate))
-                                {
-                                    foreach (string systemId in entry.Value)
-                                    {
-                                        shopsOnDate.Remove(systemId);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-
                 var shopSwitch = BEXTimeline.Core.Settings.ShopSwitch;
                 if (shopSwitch != null)
                 {
@@ -118,10 +81,26 @@ namespace BTX_ExpansionPack.Features.Simulation
                         kvp.Value.RemoveAll(year =>
                         {
                             bool missing = !__instance.DataManager.Exists(BattleTechResourceType.ItemCollectionDef, baseId + year);
-                            if (missing) Main.Logger.Log($"[FactionStores] Missing ItemCollectionDef for ShopSwitch: {baseId}{year}");
+                            if (missing) Main.Logger.Log($"[FactionStores] Missing item collection for ShopSwitch: {baseId}{year}");
                             return missing;
                         });
                     }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Fix the faction store on the Alpheratz system so that it updates correctly over time.
+        /// </summary>
+        [HarmonyPatch(typeof(StarSystem), "Rehydrate")]
+        public static class StarSystem_Rehydrate
+        {
+            [HarmonyPostfix]
+            public static void Postfix(StarSystem __instance)
+            {
+                if (__instance.SystemID.Equals("starsystemdef_Alpheratz"))
+                {
+                    __instance.Def.FactionShopItems = [.. __instance.Def.FactionShopItems.Select(id => id == "itemCollection_factory_Alpheratz" ? "itemCollection_factoryHolder_Alpheratz" : id)];
                 }
             }
         }

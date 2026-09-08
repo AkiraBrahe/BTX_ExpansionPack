@@ -4,6 +4,7 @@ using BattleTech.Framework;
 using BattleTech.UI;
 using BattleTech.UI.Tooltips;
 using BTX_ExpansionPack.Features.Refit;
+using BTX_ExpansionPack.Features.Simulation;
 using HBS.Logging;
 using Newtonsoft.Json;
 using System;
@@ -43,6 +44,7 @@ namespace BTX_ExpansionPack
                 RegisterModComponents();
                 ApplySettings();
                 ApplyCacOverrides();
+                SetupFactionStores();
                 Logger.Log("Mod initialized!");
             }
             catch (Exception ex)
@@ -217,6 +219,55 @@ namespace BTX_ExpansionPack
             }
 
             Logger.LogDebug("Successfully applied CAC-C overrides.");
+        }
+
+        internal static void SetupFactionStores()
+        {
+            var factionShops = BEXTimeline.Core.Settings.FactionShopCreation;
+
+            // Add starting faction stores
+            var startDate = new DateTime(3025, 1, 1);
+            if (!factionShops.ContainsKey(startDate))
+                factionShops[startDate] = [];
+
+            foreach (var entry in FactionStores.StartingFactionStores)
+            {
+                // Filter based on vehicle availability
+                if (HasPlayableVehicles || !entry.Value.VehicleOnly)
+                {
+                    factionShops[startDate][entry.Key] = entry.Value.Faction;
+                }
+            }
+
+            if (!HasPlayableVehicles)
+            {
+                // Add mech-only faction stores (when they become available without vehicles)
+                foreach (var entry in FactionStores.MechOnlyStoresByDate)
+                {
+                    if (DateTime.TryParse(entry.Key, out var date))
+                    {
+                        if (!factionShops.ContainsKey(date))
+                            factionShops[date] = [];
+
+                        foreach (string systemId in entry.Value)
+                        {
+                            factionShops[date][systemId] = FactionStores.StartingFactionStores[systemId].Faction;
+                        }
+                    }
+                }
+
+                // Remove vehicle-only faction stores
+                foreach (var entry in FactionStores.VehicleOnlyStoresByDate)
+                {
+                    if (DateTime.TryParse(entry.Key, out var date) && factionShops.ContainsKey(date))
+                    {
+                        foreach (string systemId in entry.Value)
+                        {
+                            factionShops[date].Remove(systemId);
+                        }
+                    }
+                }
+            }
         }
 
         [HarmonyPatch(typeof(MainMenu), "Init")]
