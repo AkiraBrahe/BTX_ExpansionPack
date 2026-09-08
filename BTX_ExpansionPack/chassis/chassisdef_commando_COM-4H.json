@@ -203,7 +203,6 @@
   "VariantName": "COM-4H",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.18-1.18-1.18",
       "mech_quirk_narrowlowprofile",
       "mech_quirk_exposedactuators"
     ],

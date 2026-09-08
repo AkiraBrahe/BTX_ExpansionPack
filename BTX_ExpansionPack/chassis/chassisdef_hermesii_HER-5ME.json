@@ -9,7 +9,7 @@
     "Id": "chassisdef_hermesii_HER-5ME",
     "Name": "Hermes II",
     "Details": "An upgrade of the Mercury model used by Dark Shadows units, the \"Mercury Elite\" is armed with only a Light Gauss Rifle, albeit with two tons of ammo, turning the Hermes II into a sniper. This comes at the cost of two tons of armor.",
-    "Icon": "uixTxrIcon_hermes"
+    "Icon": "uixTxrIcon_hermesii"
   },
   "MovementCapDefID": "movedef_mech_medium_6",
   "PathingCapDefID": "pathingdef_medium",

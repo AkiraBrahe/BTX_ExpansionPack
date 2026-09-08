@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_mech_heavy_4",
   "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_mwocrusader",
-  "PrefabIdentifier": "chrprfmech_mwocrusaderhotd-001",
-  "PrefabBase": "mwocrusader",
+  "HardpointDataDefID": "hardpointdatadef_crusader",
+  "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
+  "PrefabBase": "crusader",
   "Tonnage": 65,
   "InitialTonnage": 17,
   "weightClass": "HEAVY",
@@ -163,43 +163,43 @@
   "LOSSourcePositions": [
     {
       "x": 0,
-      "y": 15,
+      "y": 14,
       "z": 1
     },
     {
       "x": 4,
-      "y": 14,
+      "y": 13,
       "z": 0
     },
     {
       "x": -4,
-      "y": 14,
+      "y": 13,
       "z": 0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0,
-      "y": 15,
+      "y": 14,
       "z": 1
     },
     {
       "x": 4,
-      "y": 14,
+      "y": 13,
       "z": 0
     },
     {
       "x": -4,
-      "y": 14,
+      "y": 13,
       "z": 0
     },
     {
-      "x": 3,
+      "x": 2,
       "y": 5,
       "z": 0
     },
     {
-      "x": -3,
+      "x": -2,
       "y": 5,
       "z": 0
     }

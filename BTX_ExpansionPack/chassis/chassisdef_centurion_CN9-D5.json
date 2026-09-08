@@ -194,6 +194,7 @@
   "VariantName": "CN9-D5",
   "ChassisTags": {
     "items": [
+      "mr-resize-1.03-1.00-1.03",
       "chassis_DHS",
       "chassis_endo",
       "mech_case_right",

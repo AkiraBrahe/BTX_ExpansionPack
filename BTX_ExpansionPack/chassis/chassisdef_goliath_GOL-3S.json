@@ -218,7 +218,6 @@
   "VariantName": "GOL-3S",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.9",
       "chassis_DHS",
       "mech_case_right",
       "ArmLimitNoneLeft",

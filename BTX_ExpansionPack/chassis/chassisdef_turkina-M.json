@@ -211,7 +211,8 @@
       "chassis_omni",
       "chassis_DHS",
       "ArmLimitUpperLeft",
-      "ArmLimitUpperRight"
+      "ArmLimitUpperRight",
+      "mech_quirk_easytopilot"
     ],
     "tagSetSourceFile": ""
   },

@@ -9,7 +9,7 @@
     "Id": "chassisdef_marauderii_MAD-4H",
     "Name": "Marauder II",
     "Details": "PLACEHOLDER",
-    "Icon": "uixTxrIcon_marauder"
+    "Icon": "uixTxrIcon_marauderii"
   },
   "MovementCapDefID": "movedef_mech_assault_3",
   "PathingCapDefID": "pathingdef_assault",

@@ -208,6 +208,7 @@
   "VariantName": "MSK-9HKR",
   "ChassisTags": {
     "items": [
+      "mr-resize-1.05",
       "chassis_DHS",
       "mech_case_left",
       "mech_case_right",

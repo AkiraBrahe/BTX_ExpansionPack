@@ -198,6 +198,7 @@
   "VariantName": "CN9-D4D",
   "ChassisTags": {
     "items": [
+      "mr-resize-1.03-1.00-1.03",
       "chassis_endo",
       "chassis_ferro",
       "ArmLimitUpperLeft",

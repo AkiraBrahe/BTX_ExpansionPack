@@ -5,9 +5,9 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Blackjack",
+    "UIName": "Blackjack Omni",
     "Id": "chassisdef_blackjack_BJ2-OF",
-    "Name": "Blackjack",
+    "Name": "Blackjack Omni",
     "Details": "The F configuration is built around an ER PPC and an UAC/10 as its two primary weapons, which provide the F configuration with a powerful long-range punch. For close ranges, the 'Mech carries two ER Medium Lasers and an ER Small Laser, with two extra double heat sinks reducing some of the added burden.",
     "Icon": "uixTxrIcon_blackjackomni"
   },

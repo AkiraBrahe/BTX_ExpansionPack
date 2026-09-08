@@ -9,7 +9,7 @@
     "Id": "chassisdef_rifleman_RFL-6X",
     "Name": "Rifleman",
     "Details": "PLACEHOLDER",
-    "Icon": "uixTxrIcon_sneede"
+    "Icon": "uixTxrIcon_rifleman"
   },
   "MovementCapDefID": "movedef_mech_heavy_5",
   "PathingCapDefID": "pathingdef_heavy",
