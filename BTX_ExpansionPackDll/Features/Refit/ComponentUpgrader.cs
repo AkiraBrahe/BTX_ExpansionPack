@@ -15,7 +15,6 @@ namespace BTX_ExpansionPack.Features.Refit
         public static void Register()
         {
             Modifier_AmmoSwapper.SmartAmmoAdjust = SmartAmmoAdjust;
-            Main.Logger.LogDebug("Successfully replaced the Smart Ammo Adjust logic.");
         }
 
         private static void SmartAmmoAdjust(MechDef m, SimGameState s, UpgradeList l, float canFreeTonns, AmmoTracker ammo, MechDef fromData, FactionValue team)

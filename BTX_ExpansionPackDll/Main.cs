@@ -39,29 +39,64 @@ namespace BTX_ExpansionPack
                 Settings = JsonConvert.DeserializeObject<ModSettings>(settingsJSON) ?? new ModSettings();
                 HasAdvancedMechLab = Directory.Exists(Path.Combine(Path.GetDirectoryName(directory), "BTX_AdvancedMechLab"));
                 harmony = new Harmony(HarmonyInstanceId);
-                InjectCustomLanceData(MetadataDatabase.Instance);
+
+                UpdateDynamicDifficultyLances(MetadataDatabase.Instance);
                 ApplyHarmonyPatches();
                 RegisterModComponents();
-                ApplySettings();
-                ApplyCacOverrides();
-                SetupFactionStores();
+
                 Logger.Log("Mod initialized!");
             }
             catch (Exception ex)
             {
                 initSuccess = false;
-                Logger.LogException(ex);
+                Logger.LogError($"Failed during initialization: {ex.Message}");
             }
         }
 
-        internal static void InjectCustomLanceData(MetadataDatabase mdd)
+        public static void FinishedLoading()
+        {
+            if (!initSuccess)
+            {
+                Logger.LogWarning("Skipping post-config setup. Initialization failed.");
+                return;
+            }
+
+            try
+            {
+                ApplySettings();
+                ApplyCacOverrides();
+                SetupFactionStores();
+            }
+            catch (Exception ex)
+            {
+                initSuccess = false;
+                Logger.LogError("FinishedLoading encountered an error: " + ex.Message);
+            }
+        }
+
+        internal static void UpdateDynamicDifficultyLances(MetadataDatabase mdd)
         {
             mdd.ClearDynamicLanceDifficulty();
             mdd.BulkInsertDynamicLanceDifficulty(dynamicLanceDefs);
-            Logger.LogDebug("Successfully updated the Dynamic Lance Difficulty database.");
+            Logger.LogDebug("[1/3] Successfully updated dynamic lance definitions.");
         }
 
         internal static void ApplyHarmonyPatches()
+        {
+            try
+            {
+                UnpatchMethods();
+                harmony.PatchAll(Assembly.GetExecutingAssembly());
+                Logger.LogDebug("[2/3] Successfully applied Harmony patches.");
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError($"Error unpatching conflicting mods: {ex.Message}");
+            }
+
+        }
+
+        private static void UnpatchMethods()
         {
             // --- Abilifier ---
             /* Custom Ability Tree */
@@ -107,14 +142,14 @@ namespace BTX_ExpansionPack
             // --- Mech Affinity ---
             /* Stock Config Tooltip */
             harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabStockInfoPopup), "StockMechDefLoaded"), HarmonyPatchType.Postfix, "ca.jwolf.MechAffinity");
-
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
         internal static void RegisterModComponents()
         {
             ComponentUpgrader.Register();
             MovableBlockers.Register();
+
+            Logger.LogDebug("[3/3] Successfully registered mod components.");
         }
 
         internal static void ApplySettings()
@@ -217,8 +252,6 @@ namespace BTX_ExpansionPack
                     }
                 }
             }
-
-            Logger.LogDebug("Successfully applied CAC-C overrides.");
         }
 
         internal static void SetupFactionStores()
@@ -230,12 +263,15 @@ namespace BTX_ExpansionPack
             if (!factionShops.ContainsKey(startDate))
                 factionShops[startDate] = [];
 
+            int count = 0;
+
             foreach (var entry in FactionStores.StartingFactionStores)
             {
                 // Filter based on vehicle availability
                 if (HasPlayableVehicles || !entry.Value.VehicleOnly)
                 {
                     factionShops[startDate][entry.Key] = entry.Value.Faction;
+                    count++;
                 }
             }
 
@@ -252,6 +288,7 @@ namespace BTX_ExpansionPack
                         foreach (string systemId in entry.Value)
                         {
                             factionShops[date][systemId] = FactionStores.StartingFactionStores[systemId].Faction;
+                            count++;
                         }
                     }
                 }
@@ -268,6 +305,8 @@ namespace BTX_ExpansionPack
                     }
                 }
             }
+
+            Logger.LogDebug($"[FactionStores] Added {count} new faction stores.");
         }
 
         [HarmonyPatch(typeof(MainMenu), "Init")]
