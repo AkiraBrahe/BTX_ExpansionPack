@@ -73,7 +73,7 @@ namespace BTX_ExpansionPack.Utilities
                         count++;
                     }
                 }
-                Main.Logger.Log($"[InitialTonnageDumper] Successfully dumped {count} chassis to {filePath}");
+                Main.Logger.Log($"[InitialTonnageDumper] Dumped {count} chassis to {filePath}");
             }
             catch (Exception ex)
             {

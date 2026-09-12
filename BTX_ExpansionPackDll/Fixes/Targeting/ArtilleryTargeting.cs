@@ -388,14 +388,14 @@ namespace BTX_ExpansionPack.Fixes.Targeting
             var threateningTargets = potentialTargets
                 .Select(t =>
                 {
-                    Vector3 moveVec = t.CurrentPosition - t.PreviousPosition;
-                    Vector3 closestAlly = allies.OrderBy(a => Vector3.Distance(a.CurrentPosition, t.CurrentPosition)).First().CurrentPosition;
+                    var moveVec = t.CurrentPosition - t.PreviousPosition;
+                    var closestAlly = allies.OrderBy(a => Vector3.Distance(a.CurrentPosition, t.CurrentPosition)).First().CurrentPosition;
 
                     // Clamp predictions to avoid overshooting fast movers
                     float maxWalk = t.MovementCaps?.MaxWalkDistance ?? 0f;
                     float advanceDist = Mathf.Min(moveVec.magnitude, maxWalk * 0.8f);
-                    Vector3 advanceDir = moveVec.magnitude > 1f ? moveVec.normalized : (closestAlly - t.CurrentPosition).normalized;
-                    Vector3 predicted = t.CurrentPosition + (advanceDir * advanceDist);
+                    var advanceDir = moveVec.magnitude > 1f ? moveVec.normalized : (closestAlly - t.CurrentPosition).normalized;
+                    var predicted = t.CurrentPosition + (advanceDir * advanceDist);
 
                     return new TargetMovementData
                     {
@@ -433,7 +433,7 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                 .Where(t => Vector3.Distance(t.PredictedPos, primaryThreat.PredictedPos) <= aoeRange * 1.5f)
                 .ToList();
 
-            Vector3 targetPos = nearbyThreats.Count >= 2
+            var targetPos = nearbyThreats.Count >= 2
                 ? CalculatePredictedCentroid(nearbyThreats.Select(t => t.PredictedPos), mapMetaData)
                 : primaryThreat.PredictedPos;
 
@@ -464,11 +464,11 @@ namespace BTX_ExpansionPack.Fixes.Targeting
 
             // Widen coverage across multiple advance paths
             var nearestOther = otherThreats.OrderBy(t => Vector3.Distance(t.PredictedPos, previousBarragePos)).First();
-            Vector3 offsetDir = (nearestOther.PredictedPos - previousBarragePos).normalized;
+            var offsetDir = (nearestOther.PredictedPos - previousBarragePos).normalized;
             if (offsetDir == Vector3.zero) offsetDir = Vector3.right;
 
             // Offset the strike to create a wide wall of fire
-            Vector3 enlargedPos = previousBarragePos + (offsetDir * (aoeRange * 1.1f));
+            var enlargedPos = previousBarragePos + (offsetDir * (aoeRange * 1.1f));
             enlargedPos.y = mapMetaData.GetLerpedHeightAt(enlargedPos);
             return enlargedPos;
         }

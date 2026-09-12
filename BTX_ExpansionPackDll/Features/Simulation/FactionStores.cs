@@ -63,7 +63,7 @@ namespace BTX_ExpansionPack.Features.Simulation
         #endregion
 
         /// <summary>
-        /// Checks for missing item collections in the ShopSwitch settings and logs a warning if any are missing.
+        /// Checks for missing item collections and logs a warning if any are missing.
         /// </summary>
         [HarmonyPatch(typeof(SimGameState), "InitializeDataFromDefs")]
         public static class SimGameState_InitializeDataFromDefs
@@ -71,17 +71,31 @@ namespace BTX_ExpansionPack.Features.Simulation
             [HarmonyPostfix]
             public static void Postfix(SimGameState __instance)
             {
+                // Validate ShopSwitch collections
                 var shopSwitch = BEXTimeline.Core.Settings.ShopSwitch;
                 if (shopSwitch != null)
                 {
                     foreach (var kvp in shopSwitch)
                     {
                         string baseId = kvp.Key;
-
                         kvp.Value.RemoveAll(year =>
                         {
                             bool missing = !__instance.DataManager.Exists(BattleTechResourceType.ItemCollectionDef, baseId + year);
-                            if (missing) Main.Logger.Log($"[FactionStores] Missing item collection for ShopSwitch: {baseId}{year}");
+                            if (missing) Main.Logger.LogWarning($"Missing item collection for ShopSwitch: {baseId}{year}");
+                            return missing;
+                        });
+                    }
+                }
+
+                // Validate FactionShopItems across all systems
+                foreach (var systemDef in __instance.StarSystems.Select(s => s.Def))
+                {
+                    if (systemDef?.FactionShopItems != null)
+                    {
+                        systemDef.FactionShopItems.RemoveAll(itemId =>
+                        {
+                            bool missing = !__instance.DataManager.Exists(BattleTechResourceType.ItemCollectionDef, itemId);
+                            if (missing) Main.Logger.LogWarning($"Missing FactionShopItem collection for {systemDef.Description.Id}: {itemId}");
                             return missing;
                         });
                     }

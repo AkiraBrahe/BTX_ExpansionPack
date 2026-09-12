@@ -25,7 +25,7 @@
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(BattleTechGameDir)\Mods\$(AssemblyName)\" />
   </Target>
   <ItemGroup>
-    <Compile Remove="Fixes\Misc\XotlTables.cs" />
+    <Compile Remove="Fixes\Mechs\MechShutdown.cs" />
     <Compile Remove="Utilities\AffinityDebugger.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -117,8 +117,6 @@
     <Reference Include="Unity.TextMeshPro" />
     <Reference Include="UnityEngine" />
     <Reference Include="UnityEngine.CoreModule" />
-    <Reference Include="UnityEngine.PhysicsModule" />
-    <Reference Include="UnityEngine.TextRenderingModule" />
     <Reference Include="UnityEngine.UI" />
   </ItemGroup>
 </Project>

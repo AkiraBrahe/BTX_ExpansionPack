@@ -13,7 +13,7 @@ namespace BTX_ExpansionPack.Core.Data
             CounterBattery
         }
 
-        public struct ArtilleryStrikeData
+        public class ArtilleryStrikeData
         {
             public int Round { get; set; }
             public string TeamGUID { get; set; }
@@ -21,7 +21,7 @@ namespace BTX_ExpansionPack.Core.Data
             public ArtilleryTargetingMode Mode { get; set; }
         }
 
-        public struct TargetMovementData
+        public class TargetMovementData
         {
             public AbstractActor Target { get; set; }
             public Vector3 CurrentPos { get; set; }
