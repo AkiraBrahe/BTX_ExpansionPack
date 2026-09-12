@@ -5,6 +5,7 @@ using BattleTech.UI;
 using BattleTech.UI.Tooltips;
 using BTX_ExpansionPack.Features.Refit;
 using BTX_ExpansionPack.Features.Simulation;
+using FullXotlTables;
 using HBS.Logging;
 using Newtonsoft.Json;
 using System;
@@ -66,6 +67,7 @@ namespace BTX_ExpansionPack
                 ApplySettings();
                 ApplyCacOverrides();
                 SetupFactionStores();
+                // LoadCustomFactionTables();
             }
             catch (Exception ex)
             {
@@ -93,7 +95,6 @@ namespace BTX_ExpansionPack
             {
                 Logger.LogError($"Error unpatching conflicting mods: {ex.Message}");
             }
-
         }
 
         private static void UnpatchMethods()
@@ -307,6 +308,34 @@ namespace BTX_ExpansionPack
             }
 
             Logger.LogDebug($"[FactionStores] Added {count} new faction stores.");
+        }
+
+        internal static void LoadCustomFactionTables()
+        {
+            Assembly xotlAssembly = AppDomain.CurrentDomain.GetAssemblies()
+                .FirstOrDefault(a => a.GetName().Name == "FullXotlTables");
+
+            if (xotlAssembly == null) return;
+
+            var xotlDir = Path.GetDirectoryName(xotlAssembly.Location);
+            var customTables = FactionTables.GenerateFromCustomFolder(Path.Combine(xotlDir, "XotlTablesV2"));
+
+            FullXotlTables.Logger.Log("Adding custom faction tables from XotlTablesV2 folder...");
+
+            foreach (var faction in customTables.Factions)
+            {
+                GetXotlTables().Factions[faction.Key] = faction.Value;
+
+                FullXotlTables.Logger.Log("Faction: " + faction.Key);
+                FullXotlTables.Logger.Log(" Number of Lights: " + faction.Value.Mechs.Lights.Count.ToString());
+                FullXotlTables.Logger.Log(" Number of Mediums: " + faction.Value.Mechs.Mediums.Count.ToString());
+                FullXotlTables.Logger.Log(" Number of Heavies: " + faction.Value.Mechs.Heavies.Count.ToString());
+                FullXotlTables.Logger.Log(" Number of Assaults: " + faction.Value.Mechs.Assaults.Count.ToString());
+            }
+
+            Logger.LogDebug($"[FactionTables] Loaded {customTables.Factions.Count} custom faction tables.");
+
+            static XotlTable GetXotlTables() => FullXotlTables.Core.xotlTables;
         }
 
         [HarmonyPatch(typeof(MainMenu), "Init")]
