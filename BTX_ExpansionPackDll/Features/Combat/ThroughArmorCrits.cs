@@ -22,8 +22,7 @@ namespace BTX_ExpansionPack.Features.Combat
             [HarmonyPostfix]
             public static void Postfix(WeaponDef __instance)
             {
-                if (__instance == null)
-                    return;
+                if (__instance == null) return;
 
                 string id = __instance.Description?.Id;
                 if (__instance.WeaponSubType == WeaponSubType.Gauss)
@@ -51,7 +50,7 @@ namespace BTX_ExpansionPack.Features.Combat
                     {
                         bool isHAG = id != null && id.StartsWith("Weapon_Gauss_HAG");
                         bool isSBG = id != null && id.StartsWith("Weapon_Gauss_Silver_Bullet");
-                        extendedData.APCriticalChanceMultiplier = (isHAG || isSBG) ? 0.25f : __instance.Damage * 0.02f;
+                        extendedData.APCriticalChanceMultiplier = (isHAG || isSBG) ? 0.25f : __instance.Damage * 0.015f;
                         extendedData.APMaxArmorThickness = __instance.Damage * 3.0f;
                         extendedData.APArmorShardsMod = 0f;
 
