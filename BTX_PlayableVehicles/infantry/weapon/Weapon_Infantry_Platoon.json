@@ -28,11 +28,7 @@
   "EvasivePipsIgnored": 0,
   "DamageVariance": 0,
   "HeatDamage": 0,
-  "AccuracyModifier": 0,
-  "CACMinRangeAccuracyMod": -2,
-  "CACShortRangeAccuracyMod": 0,
-  "CACMediumRangeAccuracyMod": 2,
-  "CACLongRangeAccuracyMod": -1,
+  "AccuracyModifier": -2,
   "CriticalChanceMultiplier": 0.1,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -66,7 +62,60 @@
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "VolleyDivisor": 7,
-  "statusEffects": [],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-Infantry-MediumRangeAccuracy",
+        "Name": "Infantry Medium Range Accuracy",
+        "Details": "",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "CACMediumRangeAccuracyMod",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "nature": "Buff",
+      "Description": {
+        "Id": "StatusEffect-Infantry-LongRangeAccuracy",
+        "Name": "Infantry Long Range Accuracy",
+        "Details": "",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "CACLongRangeAccuracyMod",
+        "operation": "Float_Add",
+        "modValue": "-2.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
   "ComponentTags": {
     "items": [
       "component_type_stock",

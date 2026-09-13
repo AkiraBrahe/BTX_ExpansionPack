@@ -29,6 +29,24 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
         }
 
         /// <summary>
+        /// Removes the self-arm-mounted weapon modifier for vehicles.
+        /// </summary>
+        [HarmonyPatch(typeof(ToHit), "GetSelfArmMountedModifier")]
+        public static class ToHit_GetSelfArmMountedModifier
+        {
+            [HarmonyPrefix]
+            public static bool Prefix(Weapon weapon, ref float __result)
+            {
+                if (weapon.parent.FakeVehicle())
+                {
+                    __result = 0f;
+                    return false;
+                }
+                return true;
+            }
+        }
+
+        /// <summary>
         /// Fixes pathfinding for VTOLs and hover tanks to use the correct terrain cost modifiers.
         /// </summary>
         /// <remarks>
