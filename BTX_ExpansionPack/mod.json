@@ -8,7 +8,7 @@
   "Website": "https://github.com/AkiraBrahe/BTX_ExpansionPack",
 
   "ConflictsWith": [ "BTX_PlayableVehicles_Assembly" ],
-  "DependsOn": [ "Abilifier", "BTX_CAC_Compatibility" ],
+  "DependsOn": [ "BTX_CAC_Compatibility" ],
   "OptionallyDependsOn": [ "BroadswordDropShip", "The_Big_Deal_Campaign_Add-on" ],
 
   "DLL": "BTX_ExpansionPack.dll",

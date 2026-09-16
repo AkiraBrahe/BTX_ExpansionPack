@@ -143,29 +143,28 @@ namespace BTX_ExpansionPack.Fixes.Pilots
                 var pilotDef = __instance.pilotDef;
                 if (pilotDef.dataManager == null) return;
 
-                foreach (string tag in pilotDef.PilotTags)
+                string[] tagAbilities = ["AbilityDef_CarefulManeuvers", "AbilityDef_MotiveRepair"];
+
+                foreach (string abilityId in tagAbilities)
                 {
-                    if (!Abilifier.Mod.AbilityRealizerSettings.TagAbilities.ContainsKey(tag))
+                    // Fix existing pilots
+                    if (pilotDef.abilityDefNames.Contains(abilityId))
+                    {
+                        pilotDef.abilityDefNames.Remove(abilityId);
+                    }
+
+                    if (abilityId == "AbilityDef_MotiveRepair" && !pilotDef.PilotTags.Contains("pilot_vehicle_crew"))
                         continue;
 
-                    foreach (string abilityName in Abilifier.Mod.AbilityRealizerSettings.TagAbilities[tag])
-                    {
-                        // Fix existing pilots
-                        if (pilotDef.abilityDefNames.Contains(abilityName))
-                        {
-                            pilotDef.abilityDefNames.Remove(abilityName);
-                        }
+                    if (!sim.DataManager.AbilityDefs.TryGet(abilityId, out var abilityDef))
+                        continue;
 
-                        if (!sim.DataManager.AbilityDefs.TryGet(abilityName, out var abilityDef))
-                            continue;
+                    var ability = new Ability(abilityDef);
+                    if (__instance.Combat != null)
+                        ability.Init(__instance.Combat);
 
-                        var ability = new Ability(abilityDef);
-                        if (__instance.Combat != null)
-                            ability.Init(__instance.Combat);
-
-                        __instance.Abilities.Add(ability);
-                        __instance.ActiveAbilities.Add(ability);
-                    }
+                    __instance.Abilities.Add(ability);
+                    __instance.ActiveAbilities.Add(ability);
                 }
             }
         }
