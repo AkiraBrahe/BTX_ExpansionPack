@@ -1,14 +1,13 @@
 using BattleTech;
 using CustomUnits;
+using UnityEngine;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using UnityEngine;
 
 namespace BTX_ExpansionPack.Utilities
 {
-    public static class InitialTonnageDumper
+    public static class MechDumper
     {
 
         [HarmonyPatch(typeof(SimGameState), "SetSimRoomState")]
@@ -18,24 +17,24 @@ namespace BTX_ExpansionPack.Utilities
             {
                 if (state == DropshipLocation.MECH_BAY && Input.GetKey(KeyCode.LeftShift))
                 {
-                    ExportInitialTonnage(__instance);
+                    ExportMechStats(__instance);
                 }
             }
         }
 
-        public static void ExportInitialTonnage(SimGameState simGame)
+        public static void ExportMechStats(SimGameState simGame)
         {
             try
             {
-                string filePath = Path.Combine(Main.modDir, "InitialTonnageDump.csv");
-                Main.Logger.Log($"[InitialTonnageDumper] Starting dump to {filePath}");
+                string filePath = Path.Combine(Main.modDir, "misc", "scripts", "mech_stats.csv");
+                Main.Logger.Log($"[MechDumper] Starting dump...");
 
                 var processedChassis = new HashSet<string>();
                 int count = 0;
 
                 using (var writer = new StreamWriter(filePath))
                 {
-                    writer.WriteLine("ChassisID;VariantName;MaxTonnage;CalculatedInitialTonnage;CurrentInitialTonnage;Difference;HeatRating;RangeRating");
+                    writer.WriteLine("MechID,VariantName,MaxTonnage,CalculatedInitialTonnage,CurrentInitialTonnage,Difference,HeatRating,RangeRating");
 
                     foreach (var kv in simGame.DataManager.MechDefs)
                     {
@@ -54,10 +53,11 @@ namespace BTX_ExpansionPack.Utilities
                             componentsKG += (long)Math.Round(item.Def.Tonnage * 1000.0f);
                         }
 
+                        var armor = mechDef.GetArmorInfo();
                         long armorPoints = GetArmorPointsTotal(mechDef);
-                        long kgperpoint = GetKGPerPoint(chassis);
-                        long armorWeightKG = armorPoints * 10L / kgperpoint;
+                        long kgperpoint = (long)(800 * armor.PptMultiplier);
 
+                        long armorWeightKG = armorPoints * 10L / kgperpoint;
                         long maxWeightKG = (long)Math.Round(chassis.Tonnage * 1000.0f);
 
                         long calculatedInitialTonnageKG = maxWeightKG - componentsKG - armorWeightKG;
@@ -67,13 +67,22 @@ namespace BTX_ExpansionPack.Utilities
                         MechStatisticsRules.CalculateHeatEfficiencyStat(mechDef, ref heatRating, ref maxRating);
                         MechStatisticsRules.CalculateRangeStat(mechDef, ref rangeRating, ref maxRating);
 
-                        writer.WriteLine($"{chassis.Description.Id};{chassis.VariantName};{chassis.Tonnage};{calculatedInitialTonnage:F4};{chassis.InitialTonnage:F4};{calculatedInitialTonnage - chassis.InitialTonnage:F4};{heatRating:F4};{rangeRating:F4}");
+                        writer.WriteLine(
+                            $"{chassis.Description.Id.Replace("chassisdef_", "mechdef_")}," +
+                            $"{chassis.VariantName}," +
+                            $"{chassis.Tonnage}," +
+                            $"{calculatedInitialTonnage:F3}," +
+                            $"{chassis.InitialTonnage:F3}," +
+                            $"{calculatedInitialTonnage - chassis.InitialTonnage:F3}," +
+                            $"{heatRating:F1}," +
+                            $"{rangeRating:F1}"
+                        );
 
                         processedChassis.Add(mechDef.ChassisID);
                         count++;
                     }
                 }
-                Main.Logger.Log($"[InitialTonnageDumper] Dumped {count} chassis to {filePath}");
+                Main.Logger.Log($"[MechDumper] Dumped {count} chassis to mech_stats.csv!");
             }
             catch (Exception ex)
             {
@@ -88,41 +97,8 @@ namespace BTX_ExpansionPack.Utilities
                 + GetArmorPointsInternal(m.RightTorso.AssignedArmor) + GetArmorPointsInternal(m.RightTorso.AssignedRearArmor)
                 + GetArmorPointsInternal(m.LeftArm.AssignedArmor) + GetArmorPointsInternal(m.RightArm.AssignedArmor)
                 + GetArmorPointsInternal(m.LeftLeg.AssignedArmor) + GetArmorPointsInternal(m.RightLeg.AssignedArmor);
-        }
 
-        private static long GetArmorPointsInternal(float armorValue) => (long)Math.Round(armorValue * 1000.0f);
-
-        private static long GetKGPerPoint(ChassisDef c)
-        {
-            try
-            {
-                if (c == null)
-                {
-                    Main.Logger.LogError("[InitialTonnageDumper] GetKGPerPoint: ChassisDef is null");
-                    return 800;
-                }
-                else if (c.ChassisTags == null || c.ChassisTags.Count == 0)
-                {
-                    Main.Logger.LogError($"[InitialTonnageDumper] GetKGPerPoint: ChassisDef {c.Description.Id} has no ChassisTags");
-                    return 800;
-                }
-
-                if (c.ChassisTags.Contains("chassis_ferro"))
-                    return c.ChassisTags.Contains("chassis_clan") ? 960 : 896;
-
-                foreach (string tag in c.ChassisTags)
-                {
-                    var match = ArmorTypes.FirstOrDefault(at => at.Value.Tag == tag);
-                    return (long)(800 * match.Value.PptMultiplier);
-                }
-
-                return 800;
-            }
-            catch (Exception ex)
-            {
-                Main.Logger.LogException(ex);
-                return 800;
-            }
+            static long GetArmorPointsInternal(float armorValue) => (long)Math.Round(armorValue * 1000.0f);
         }
     }
 }
