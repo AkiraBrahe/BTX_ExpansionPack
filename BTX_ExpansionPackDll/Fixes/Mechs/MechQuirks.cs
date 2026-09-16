@@ -142,6 +142,31 @@ namespace BTX_ExpansionPack.Fixes.Mechs
 
         #endregion
 
+        #region Exposed Actuators
+
+        /// <summary>
+        /// Ensures that BEX correctly finds quad mechs so that the Exposed Actuators quirk can be applied to them.
+        /// </summary>
+        [HarmonyPatch(typeof(Mech), "InitStats")]
+        public static class Mech_InitStats_ExposedActuators
+        {
+            [HarmonyPostfix]
+            public static void Postfix(Mech __instance)
+            {
+                if (__instance.MechDef.MechTags.Contains("unit_quad"))
+                {
+                    string chassisId = __instance.MechDef.ChassisID;
+                    if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirk))
+                    {
+                        quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);
+                    }
+                    quirk.QuadMech = true;
+                }
+            }
+        }
+
+        #endregion
+
         #region Poor Performance
 
         /// <summary>
@@ -197,7 +222,7 @@ namespace BTX_ExpansionPack.Fixes.Mechs
             public static void Postfix(Mech __instance, ref bool __result)
             {
                 if (CustomQuirkStore.TryGetValue(__instance.GUID, out var customQuirks) &&
-                    customQuirks.PoorPerformance && __instance.LastMoveDistance() < 1f)
+                    customQuirks.PoorPerformance && __instance.LastMoveDistance() < 24f)
                 {
                     __result = false;
                 }
