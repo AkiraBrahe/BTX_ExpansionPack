@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_Fluid_Corrosive",
     "Name": "Corrosive Fluid Gun Ammo",
-    "UIName": "Corrosive",
     "Details": "Highly volatile liquid used to melt away hardened materials.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "CR"
   },
   "Type": "Normal",
   "Category": "Fluid",

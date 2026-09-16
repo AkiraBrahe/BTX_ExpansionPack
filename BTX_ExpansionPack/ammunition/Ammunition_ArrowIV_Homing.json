@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_ArrowIV_Homing",
     "Name": "Homing Arrow IV Ammo",
-    "UIName": "Homing",
     "Details": "High-caliber artillery missiles.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "HM"
   },
   "Type": "Normal",
   "Category": "ArrowIV",

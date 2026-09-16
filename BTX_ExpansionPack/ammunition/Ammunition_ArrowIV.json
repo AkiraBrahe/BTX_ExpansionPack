@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_ArrowIV",
     "Name": "Arrow IV Ammo",
-    "UIName": "Standard",
     "Details": "High-caliber artillery missiles.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "ST"
   },
   "Type": "Normal",
   "Category": "ArrowIV",

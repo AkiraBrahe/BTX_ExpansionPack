@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_LRM_Thunder",
     "Name": "Thunder LRM Ammo",
-    "UIName": "Thunder",
     "Details": "Thunder missiles capable of capable of scattering powerful anti-personnel mines over a wide area.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "Thn"
   },
   "Type": "Normal",
   "Category": "LRM",

@@ -45,42 +45,6 @@ namespace BTX_ExpansionPack.Fixes.UI
             }
         }
 
-        /// <summary>
-        /// Improves the description of non-standard ammunition boxes.
-        /// </summary>
-        [HarmonyPatch(typeof(AmmunitionBoxDef), "FromJSON")]
-        [Obsolete("Move to CAC-C when possible")]
-        public static class AmmunitionBoxDef_FromJSON
-        {
-            [HarmonyPostfix]
-            [HarmonyPriority(Priority.Last)]
-            public static void Postfix(AmmunitionBoxDef __instance)
-            {
-                if (__instance?.Description?.UIName?.EndsWith(")") == true)
-                {
-                    string details = __instance.Description.Details;
-                    if (details == null) return;
-
-                    string halfText = "Ammo (Half) Bins each";
-                    string doubleText = "Ammo (Double) Bins each";
-                    string tripleText = "Ammo (Triple) Bins each";
-
-                    if (details.Contains(halfText))
-                    {
-                        __instance.Description.Details = details.Replace(halfText, "half-capacity bins each");
-                    }
-                    else if (details.Contains(doubleText))
-                    {
-                        __instance.Description.Details = details.Replace(doubleText, "double-capacity bins each");
-                    }
-                    else if (details.Contains(tripleText))
-                    {
-                        __instance.Description.Details = details.Replace(tripleText, "triple-capacity bins each");
-                    }
-                }
-            }
-        }
-
         #endregion
 
         #region Unique Mech Name Replacements
@@ -783,6 +747,184 @@ namespace BTX_ExpansionPack.Fixes.UI
                 }
             }
         }
+
+        #endregion
+
+        #region Ammunition Box Names & Descriptions
+
+        /// <summary>
+        /// Streamlines ammunition boxes names and improves their description.
+        /// </summary>
+        [HarmonyPatch(typeof(AmmunitionBoxDef), "FromJSON")]
+        public static class AmmunitionBoxDef_FromJSON
+        {
+            [HarmonyPostfix]
+            [HarmonyPriority(Priority.Last)]
+            public static void Postfix(AmmunitionBoxDef __instance)
+            {
+                if (__instance == null) return;
+
+                string id = $"Ammo_AmmunitionBox_Generic_{__instance.Description.Id}";
+                if (AmmoNames.TryGetValue(id, out (string Variant, string Name) box))
+                {
+                    // Streamline names
+                    if (box.Name == "Bomb Rack")
+                    {
+                        __instance.Description.UIName = $"{box.Name} ({box.Variant})";
+                        __instance.Description.Name = $"{box.Name} ({box.Variant})"; // e.g. "Bomb Rack (Infenro)"
+                    }
+                    else
+                    {
+                        var affix = box.Name != "ATM" && box.Variant == "Standard" ? "" : $" {box.Variant} Ammo";
+                        __instance.Description.UIName = $"{box.Name}{affix}";
+                        __instance.Description.Name = $"{box.Name}{affix}"; // e.g. "AC/5 Armor-Piercing Ammo"
+                    }
+
+                    // Improve descriptions
+                    string details = __instance.Description.Details;
+                    if (__instance.Description.Id.EndsWith("Half"))
+                    {
+                        __instance.Description.UIName += " (Half)";
+                        __instance.Description.Details = details.Replace("Ammo (Half) Bins each", "half-capacity bins each");
+
+                        if (__instance.Description.Id != "Ammo_AmmunitionBox_Generic_MG_Half")
+                        {
+                            __instance.ComponentTags.Add("ammo_nonstandard");
+                        }
+                    }
+                    else if (__instance.Description.Id.EndsWith("Double") || __instance.Description.Id.EndsWith("Triple"))
+                    {
+                        __instance.Description.UIName += " (Double)";
+                        __instance.Description.Details = details.Replace("Ammo (Double) Bins each", "double-capacity bins each");
+                        __instance.ComponentTags.Add("ammo_nonstandard");
+                    }
+                    else if (__instance.Description.Id.EndsWith("Triple"))
+                    {
+                        __instance.Description.UIName += " (Triple)";
+                        __instance.Description.Details = details.Replace("Ammo(Triple) Bins each", "triple -capacity bins each");
+                        __instance.ComponentTags.Add("ammo_nonstandard");
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Streamlines ammunition names and show their variant in the UI if enabled.
+        /// </summary>
+        [HarmonyPatch(typeof(AmmunitionDef), "FromJSON")]
+        public static class AmmunitionDef_FromJSON
+        {
+            [HarmonyPostfix]
+            [HarmonyPriority(Priority.Last)]
+            public static void Postfix(AmmunitionDef __instance)
+            {
+                if (__instance == null) return;
+
+                string id = $"Ammunition_{__instance.Description.Id}";
+                if (AmmoNames.TryGetValue(id, out (string Variant, string Name) box))
+                {
+                    if (box.Name == "Bomb Rack")
+                    {
+                        __instance.Description.Name = $"{box.Name} ({box.Variant})";
+                    }
+                    else
+                    {
+                        var prefix = box.Name != "ATM" && box.Variant == "Standard" ? "" : $"{box.Variant} ";
+                        __instance.Description.Name = $"{prefix}{box.Name} Ammo"; // e.g. "Armor-Piercing AC/5 Ammo"
+                    }
+
+                    if (__instance.Description.UIName != string.Empty && Main.Settings.UI.Battle.ShowFullAmmoVariantNames)
+                        __instance.Description.UIName = $"{box.Variant}"; // e.g. "Armor-Piercing" instead of "AP"
+                }
+            }
+        }
+
+        private static readonly Dictionary<string, (string Variant, string Name)> AmmoNames = new()
+        {
+            { "AC2", ("Standard", "AC/2") },
+            { "AC2AP", ("Armor-Piercing", "AC/2") },
+            { "AC2Precision", ("Precision", "AC/2") },
+            { "AC2Tracer", ("Tracer", "AC/2") },
+            { "AC5", ("Standard", "AC/5") },
+            { "AC5AP", ("Armor-Piercing", "AC/5") },
+            { "AC5Precision", ("Precision", "AC/5") },
+            { "AC5Tracer", ("Tracer", "AC/5") },
+            { "AC10", ("Standard", "AC/10") },
+            { "AC10AP", ("Armor-Piercing", "AC/10") },
+            { "AC10Precision", ("Precision", "AC/10") },
+            { "AC10Tracer", ("Tracer", "AC/10") },
+            { "AC20", ("Standard", "AC/20") },
+            { "AC20AP", ("Armor-Piercing", "AC/20") },
+            { "AC20Precision", ("Precision", "AC/20") },
+            { "AC20Tracer", ("Tracer", "AC/20") },
+            { "ArrowIV", ("Standard", "Arrow IV") },
+            { "ArrowIV_Homing", ("Homing", "Arrow IV") },
+            { "ArrowIV_Inferno", ("Inferno", "Arrow IV") },
+            { "ATM_ER", ("Extended-Range", "ATM") },
+            { "ATM_HE", ("High-Explosive", "ATM") },
+            { "ATM", ("Standard", "ATM") },
+            { "BombBay_AP", ("Armor-Piercing", "Bomb Rack") },
+            { "BombBay_HE", ("High-Explosive", "Bomb Rack") },
+            { "BombBay_Inferno", ("Inferno", "Bomb Rack") },
+            { "CM50", ("Standard", "Cruise Missile/50") },
+            { "ELRM", ("Standard", "Extended LRM") },
+            { "Flamer", ("Standard", "Flamer") },
+            { "Fluid_Corrosive", ("Corrosive", "Fluid Gun") },
+            { "Fluid_Inferno", ("Inferno", "Fluid Gun") },
+            { "Fluid_Oil", ("Oil Slick", "Fluid Gun") },
+            { "GAUSS", ("Standard", "Gauss Rifle") },
+            { "HGAUSS", ("Standard", "Heavy Gauss Rifle") },
+            { "HMG", ("Standard", "Heavy MG") },
+            { "RifleHeavy", ("Standard", "Heavy Rifle") },
+            { "HAG", ("Standard", "Hyper Assault Gauss Rifle") },
+            { "HVAC2", ("Standard", "Hyper-Velocity AC/2") },
+            { "HVAC5", ("Standard", "Hyper-Velocity AC/5") },
+            { "HVAC10", ("Standard", "Hyper-Velocity AC/10") },
+            { "iNarc_Explosive", ("Explosive", "iNarc Pod") },
+            { "iNarc_Haywire", ("Haywire", "iNarc Pod") },
+            { "iNarc", ("Homing", "iNarc Pod") },
+            { "LB2X", ("Cluster", "LB 2-X") },
+            { "LB5X", ("Cluster", "LB 5-X") },
+            { "LB10X", ("Cluster", "LB 10-X") },
+            { "LB20X", ("Cluster", "LB 20-X") },
+            { "LGAUSS", ("Standard", "Light Gauss Rifle") },
+            { "RifleLight", ("Standard", "Light Rifle") },
+            { "LongTom", ("Standard", "Long Tom") },
+            { "LongTom_Cluster", ("Cluster", "Long Tom") },
+            { "LRM", ("Standard", "LRM") },
+            { "LRM_DF", ("Dead-Fire", "LRM") },
+            { "LRM_Swarm-I", ("Improved Swarm", "LRM") },
+            { "LRM_Swarm", ("Swarm", "LRM") },
+            { "LRM_Thunder", ("Thunder", "LRM") },
+            { "LRM_Inferno", ("Thunder-Inferno", "LRM") },
+            { "MAGGAUSS", ("Standard", "Magshot Gauss Rifle") },
+            { "RifleMedium", ("Standard", "Medium Rifle") },
+            { "MG", ("Standard", "MG") },
+            { "Mortar_Airburst", ("Airburst", "Mortar") },
+            { "Mortar", ("Standard", "Mortar") },
+            { "Mortar_Shaped", ("Shaped Charge", "Mortar") },
+            { "MRM", ("Standard", "MRM") },
+            { "Narc_Explosive", ("Explosive", "Narc Pod") },
+            { "Narc", ("Homing", "Narc Pod") },
+            { "Plasma", ("Standard", "Plasma Rifle") },
+            { "RAILGUN", ("Standard", "Rail Gun") },
+            { "AC2RF", ("Standard", "Rapid-Fire AC/2") },
+            { "AC5RF", ("Standard", "Rapid-Fire AC/5") },
+            { "AC10RF", ("Standard", "Rapid-Fire AC/10") },
+            { "AC20RF", ("Standard", "Rapid-Fire AC/20") },
+            { "SBGAUSS", ("Standard", "Silver Bullet Gauss Rifle") },
+            { "Sniper", ("Standard", "Sniper") },
+            { "Sniper_Cluster", ("Cluster", "Sniper") },
+            { "SRM", ("Standard", "SRM") },
+            { "SRM_DF", ("Dead-Fire", "SRM") },
+            { "SRM_Inferno", ("Inferno", "SRM") },
+            { "Thumper", ("Standard", "Thumper") },
+            { "Thumper_Cluster", ("Cluster", "Thumper") },
+            { "Thunderbolt5", ("Standard", "Thunderbolt 5") },
+            { "Thunderbolt10", ("Standard", "Thunderbolt 10") },
+            { "Thunderbolt15", ("Standard", "Thunderbolt 15") },
+            { "Thunderbolt20", ("Standard", "Thunderbolt 20") },
+        };
 
         #endregion
     }

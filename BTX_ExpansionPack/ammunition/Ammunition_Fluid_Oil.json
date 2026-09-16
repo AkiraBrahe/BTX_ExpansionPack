@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_Fluid_Oil",
     "Name": "Oil Slick Fluid Gun Ammo",
-    "UIName": "Oil Slick",
     "Details": "Viscous liquid used to slow a target and make it flammable.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "OL"
   },
   "Type": "Normal",
   "Category": "Fluid",

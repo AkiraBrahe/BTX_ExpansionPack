@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_Mortar_Airburst",
     "Name": "Airburst Mortar Ammo",
-    "UIName": "Airburst",
     "Details": "Airburst mortar shells that separate into bomblets in mid-air to inflict damage on a single target.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "AB"
   },
   "Type": "Normal",
   "Category": "Mortar",

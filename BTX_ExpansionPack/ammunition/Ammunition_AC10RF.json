@@ -2,7 +2,6 @@
   "Description": {
     "Id": "Ammunition_AC10RF",
     "Name": "Rapid-Fire AC/10 Ammo",
-    "UIName": "Rapid-Fire",
     "Details": "Large caliber rounds capable of dealing heavy damage, and designed to be used in a Rapid-Fire AC/10.",
     "Icon": null,
     "Cost": 0,

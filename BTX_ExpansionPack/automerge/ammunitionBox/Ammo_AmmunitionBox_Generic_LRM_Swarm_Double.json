@@ -7,9 +7,9 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "LRM",
-    "UIName": "Swarm LRM Ammo (Double)",
+    "UIName": "LRM Swarm Ammo (Double)",
     "Id": "Ammo_AmmunitionBox_Generic_LRM_Swarm_Double",
-    "Name": "Swarm LRM Ammo",
+    "Name": "LRM Swarm Ammo",
     "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nSwarm missiles that mimic the splash damage capability of artillery shells by homing in on nearby targets when they miss their intended target.\n\nSwarm LRM ammo bins hold the same number of shots per ton as standard LRM ammunition bins. This double-capacity bin contains 300 rounds.",
     "Icon": "uixSvgIcon_ammoBox_Missile"
   },

@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_Mortar_Shaped",
     "Name": "Shaped Charge Mortar Ammo",
-    "UIName": "Shaped Charge",
     "Details": "Shaped Charge mortar shells capable of inflicting damage to a target's internal systems.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "SC"
   },
   "Type": "Normal",
   "Category": "Mortar",

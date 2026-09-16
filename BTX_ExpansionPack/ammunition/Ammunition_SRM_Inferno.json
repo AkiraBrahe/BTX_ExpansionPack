@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_SRM_Inferno",
     "Name": "Inferno SRM Ammo",
-    "UIName": "Inferno",
     "Details": "Short range fuel-air missile munitions, capable of dealing heat damage at close range via flammable chemicals with an adhesive compound to shower their targets with a burning gel.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "Inf"
   },
   "Type": "Normal",
   "Category": "SRM",

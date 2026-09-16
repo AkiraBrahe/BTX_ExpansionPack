@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_AC5AP",
     "Name": "Armor-Piercing AC/5 Ammo",
-    "UIName": "Armor-Piercing",
     "Details": "Moderate caliber armor-piercing rounds, suitable for long range fire in an AC/5.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "AP"
   },
   "Type": "Normal",
   "Category": "AC5",

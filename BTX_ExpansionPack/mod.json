@@ -29,7 +29,8 @@
     "UI": {
       "Battle": {
         "UseShortenedVehicleNames": true,
-        "ShowStandardVehicleVariant": true
+        "ShowStandardVehicleVariant": true,
+        "ShowFullAmmoVariantNames": true
       },
       "ContractIntel": {
         "IntelShowTarget": true,

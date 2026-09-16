@@ -203,19 +203,35 @@ namespace BTX_ExpansionPack
                 BTX_CAC_CompatibilityDll.ItemCollectionDef_FromCSV.Replaces["Gear_Mortar_MechMortar"].Amount = 1;
             }
 
-            // Update splits for new ammo bins and artillery weapons, remove non-salvageable SLDF weapons, and rename inventory blockers.
+            // Update splits for new ammo bins and artillery weapons, remove non-salvageable SLDF weapons, and add prefix to all armor items
             if (BTX_CAC_CompatibilityDll.Main.Splits != null)
             {
                 BTX_CAC_CompatibilityDll.Main.Splits.Remove("Ammo_AmmunitionBox_Generic_SRM_Inferno_Half");
 
                 var customSplits = new Dictionary<string, BTX_CAC_CompatibilityDll.WeaponAddonSplit>
                 {
+                    // Obsolete ammo bins -> New ammo bins
                     ["Ammo_AmmunitionBox_Generic_SRMInferno"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_SRMInferno_Half"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno_Half", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_SRMInferno_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_Arrow4"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4_Triple"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Triple", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_Arrow4_Homing"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Homing", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4_Homing_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Homing_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4_Homing_Triple"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Homing_Triple", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_Arrow4_Inferno"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4_Inferno_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Arrow4_Inferno_Triple"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno_Triple", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_LongTom_Cluster"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_LongTom_Cluster", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_LongTom_Cluster_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_LongTom_Cluster_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_LongTom_Cluster_Triple"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_LongTom_Cluster_Triple", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Sniper_Cluster"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_Sniper_Cluster", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Sniper_Cluster_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_Sniper_Cluster_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Thumper_Cluster"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_Thumper_Cluster", Link = false, WeaponType = ComponentType.AmmunitionBox },
+                    ["Ammo_AmmunitionBox_Generic_Thumper_Cluster_Half"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_Thumper_Cluster_Half", Link = false, WeaponType = ComponentType.AmmunitionBox },
+
+                    // Obsolete artillery weapons -> New artillery weapons
                     ["Weapon_MortarCAC_Arrow4"] = new() { WeaponId = "Weapon_Artillery_ArrowIV_0-STOCK", Link = false },
                     ["Weapon_MortarCAC_LongTom"] = new() { WeaponId = "Weapon_Artillery_LongTomCannon_0-STOCK", Link = false },
                     ["Weapon_MortarCAC_Sniper"] = new() { WeaponId = "Weapon_Artillery_SniperCannon_0-STOCK", Link = false },
@@ -223,6 +239,8 @@ namespace BTX_ExpansionPack
                     ["Weapon_RL_RL10_Sa_0-STOCK"] = new() { WeaponId = "Weapon_RL_PRL10_0-STOCK", Link = false },
                     ["Weapon_RL_RL15_Sa_0-STOCK"] = new() { WeaponId = "Weapon_RL_PRL10_0-STOCK", Link = false },
                     ["Weapon_RL_RL20_Sa_0-STOCK"] = new() { WeaponId = "Weapon_RL_PRL10_0-STOCK", Link = false },
+
+                    // Unified SLDF weapons
                     ["Weapon_Autocannon_LB10X_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Autocannon_LB10X_0-STOCK", Link = false },
                     ["Weapon_Autocannon_UAC5_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Autocannon_UAC5_0-STOCK", Link = false },
                     ["Weapon_Gauss_Gauss_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Gauss_Gauss_0-STOCK", Link = false },
@@ -238,6 +256,7 @@ namespace BTX_ExpansionPack
                     BTX_CAC_CompatibilityDll.Main.Splits[kvp.Key] = kvp.Value;
                 }
 
+                // Add prefix to all armor items
                 string[] armorTypes = ["EndoSteel", "FerroFibrous", "EndoFerroCombo"];
                 for (int i = 1; i <= 8; i++)
                 {

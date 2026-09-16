@@ -40,6 +40,7 @@ namespace BTX_ExpansionPack
     {
         public bool UseShortenedVehicleNames { get; set; } = true;
         public bool ShowStandardVehicleVariant { get; set; } = true;
+        public bool ShowFullAmmoVariantNames { get; set; } = true;
     }
 
     public class IntelSettings

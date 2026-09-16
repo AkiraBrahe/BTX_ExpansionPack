@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_Mortar",
     "Name": "Mortar Ammo",
-    "UIName": "Standard",
     "Details": "Standard mortar shells capable of inflicting damage on the target area.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "ST"
   },
   "Type": "Normal",
   "Category": "Mortar",

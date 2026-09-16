@@ -2,12 +2,23 @@
   "TargetIDs": [
     "Ammo_AmmunitionBox_Generic_SRMInferno",
     "Ammo_AmmunitionBox_Generic_SRMInferno_Half",
+    "Ammo_AmmunitionBox_Generic_SRMInferno_Double",
     "Ammo_AmmunitionBox_Generic_Arrow4",
+    "Ammo_AmmunitionBox_Generic_Arrow4_Double",
+    "Ammo_AmmunitionBox_Generic_Arrow4_Triple",
     "Ammo_AmmunitionBox_Generic_Arrow4_Homing",
+    "Ammo_AmmunitionBox_Generic_Arrow4_Homing_Double",
+    "Ammo_AmmunitionBox_Generic_Arrow4_Homing_Triple",
     "Ammo_AmmunitionBox_Generic_Arrow4_Inferno",
+    "Ammo_AmmunitionBox_Generic_Arrow4_Inferno_Double",
+    "Ammo_AmmunitionBox_Generic_Arrow4_Inferno_Triple",
     "Ammo_AmmunitionBox_Generic_LongTom_Cluster",
+    "Ammo_AmmunitionBox_Generic_LongTom_Cluster_Double",
+    "Ammo_AmmunitionBox_Generic_LongTom_Cluster_Triple",
     "Ammo_AmmunitionBox_Generic_Sniper_Cluster",
-    "Ammo_AmmunitionBox_Generic_Thumper_Cluster"
+    "Ammo_AmmunitionBox_Generic_Sniper_Cluster_Double",
+    "Ammo_AmmunitionBox_Generic_Thumper_Cluster",
+    "Ammo_AmmunitionBox_Generic_Thumper_Cluster_Half"
   ],
   "Instructions": [
     {

@@ -2,12 +2,12 @@
   "Description": {
     "Id": "Ammunition_ArrowIV_Inferno",
     "Name": "Inferno Arrow IV Ammo",
-    "UIName": "Inferno",
     "Details": "High-caliber artillery missiles.",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "Inf"
   },
   "Type": "Normal",
   "Category": "ArrowIV",
