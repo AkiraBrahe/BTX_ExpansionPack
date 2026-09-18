@@ -169,7 +169,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
     }
 
     [HarmonyPatch(typeof(CombatSelectionHandler), "AddFireState", [typeof(AbstractActor), typeof(ICombatant), typeof(CombatHUDAttackModeSelector.SelectedButton)])]
-    static class CombatSelectionHandler_AddFireState2
+    internal static class CombatSelectionHandler_AddFireState2
     {
         [HarmonyPrefix]
         public static void Prefix(ref bool __runOriginal, CombatSelectionHandler __instance, AbstractActor actor)

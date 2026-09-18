@@ -79,7 +79,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                     .MatchForward(false, new CodeMatch(OpCodes.Ldstr, "vehicledef_APC_Maxim_3052AP"))
                     .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
 
-                var jumpTarget = matcher.Operand;
+                object jumpTarget = matcher.Operand;
                 return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
                     .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
                     .InstructionEnumeration();

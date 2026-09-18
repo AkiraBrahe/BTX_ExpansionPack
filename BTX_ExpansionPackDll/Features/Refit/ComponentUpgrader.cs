@@ -12,10 +12,7 @@ namespace BTX_ExpansionPack.Features.Refit
     /// </summary>
     internal class ComponentUpgrader
     {
-        public static void Register()
-        {
-            Modifier_AmmoSwapper.SmartAmmoAdjust = SmartAmmoAdjust;
-        }
+        public static void Register() => Modifier_AmmoSwapper.SmartAmmoAdjust = SmartAmmoAdjust;
 
         private static void SmartAmmoAdjust(MechDef m, SimGameState s, UpgradeList l, float canFreeTonns, AmmoTracker ammo, MechDef fromData, FactionValue team)
         {

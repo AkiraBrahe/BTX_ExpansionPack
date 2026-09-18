@@ -5,7 +5,7 @@ namespace BTX_ExpansionPack.Features.Combat
 {
     internal class ThroughArmorCrits
     {
-        static bool loggedOnce = false;
+        private static bool loggedOnce = false;
 
         /// <summary>
         /// Changes all Gauss Rifle variants to deal through armor criticals.

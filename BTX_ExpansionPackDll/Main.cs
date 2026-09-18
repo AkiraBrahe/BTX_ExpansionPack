@@ -331,12 +331,12 @@ namespace BTX_ExpansionPack
 
         internal static void LoadCustomFactionTables()
         {
-            Assembly xotlAssembly = AppDomain.CurrentDomain.GetAssemblies()
+            var xotlAssembly = AppDomain.CurrentDomain.GetAssemblies()
                 .FirstOrDefault(a => a.GetName().Name == "FullXotlTables");
 
             if (xotlAssembly == null) return;
 
-            var xotlDir = Path.GetDirectoryName(xotlAssembly.Location);
+            string xotlDir = Path.GetDirectoryName(xotlAssembly.Location);
             var customTables = FactionTables.GenerateFromCustomFolder(Path.Combine(xotlDir, "XotlTablesV2"));
 
             FullXotlTables.Logger.Log("Adding custom faction tables from XotlTablesV2 folder...");

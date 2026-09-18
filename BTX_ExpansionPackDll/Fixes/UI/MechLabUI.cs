@@ -765,7 +765,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 if (__instance == null) return;
 
                 string id = $"Ammo_AmmunitionBox_Generic_{__instance.Description.Id}";
-                if (AmmoNames.TryGetValue(id, out (string Variant, string Name) box))
+                if (AmmoNames.TryGetValue(id, out var box))
                 {
                     // Streamline names
                     if (box.Name == "Bomb Rack")
@@ -775,7 +775,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                     }
                     else
                     {
-                        var affix = box.Name != "ATM" && box.Variant == "Standard" ? "" : $" {box.Variant} Ammo";
+                        string affix = box.Name != "ATM" && box.Variant == "Standard" ? "" : $" {box.Variant} Ammo";
                         __instance.Description.UIName = $"{box.Name}{affix}";
                         __instance.Description.Name = $"{box.Name}{affix}"; // e.g. "AC/5 Armor-Piercing Ammo"
                     }
@@ -821,7 +821,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                 if (__instance == null) return;
 
                 string id = $"Ammunition_{__instance.Description.Id}";
-                if (AmmoNames.TryGetValue(id, out (string Variant, string Name) box))
+                if (AmmoNames.TryGetValue(id, out var box))
                 {
                     if (box.Name == "Bomb Rack")
                     {
@@ -829,7 +829,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                     }
                     else
                     {
-                        var prefix = box.Name != "ATM" && box.Variant == "Standard" ? "" : $"{box.Variant} ";
+                        string prefix = box.Name != "ATM" && box.Variant == "Standard" ? "" : $"{box.Variant} ";
                         __instance.Description.Name = $"{prefix}{box.Name} Ammo"; // e.g. "Armor-Piercing AC/5 Ammo"
                     }
 

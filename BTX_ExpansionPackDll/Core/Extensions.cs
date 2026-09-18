@@ -272,22 +272,15 @@ namespace BTX_ExpansionPack.Core
         /// <summary>
         /// Determines if a weapon is an Arrow IV with homing ammo.
         /// </summary>
-        public static bool IsHomingArrowIV(this Weapon weapon)
-        {
-            return weapon != null &&
-                   weapon.mode()?.Id == "ARTY_Guided" &&
-                   weapon.ammo()?.Id == "Ammunition_ArrowIV_Homing";
-        }
+        public static bool IsHomingArrowIV(this Weapon weapon) => weapon != null
+            && weapon.mode()?.Id == "ARTY_Guided"
+            && weapon.ammo()?.Id == "Ammunition_ArrowIV_Homing";
 
         /// <summary>
         /// Determines if a target is TAGed.
         /// </summary>
-        public static bool IsTAGed(this ICombatant target)
-        {
-            return target != null && target.StatCollection != null &&
-                   target.StatCollection.GetValue<float>("TAGCount") +
-                   target.StatCollection.GetValue<float>("TAGCountClan") > 0f;
-        }
+        public static bool IsTAGed(this ICombatant target) => target?.StatCollection != null
+            && target.StatCollection.GetValue<float>("TAGCount") + target.StatCollection.GetValue<float>("TAGCountClan") > 0f;
 
         #endregion
 
@@ -541,11 +534,9 @@ namespace BTX_ExpansionPack.Core
         /// <summary>
         /// Determines if a unit is a VTOL or hover tank from its tags.
         /// </summary>
-        public static bool IsVTOLOrHoverTank(this AbstractActor unit)
-        {
-            return (unit is Mech mech && (mech.MechDef.MechTags.Contains("unit_vtol") || mech.MechDef.MechTags.Contains("unit_hover"))) ||
-                   (unit is Vehicle vehicle && (vehicle.VehicleDef.VehicleTags.Contains("unit_vtol") || vehicle.VehicleDef.VehicleTags.Contains("unit_hover")));
-        }
+        public static bool IsVTOLOrHoverTank(this AbstractActor unit) =>
+            (unit is Mech mech && (mech.MechDef.MechTags.Contains("unit_vtol") || mech.MechDef.MechTags.Contains("unit_hover")))
+            || (unit is Vehicle vehicle && (vehicle.VehicleDef.VehicleTags.Contains("unit_vtol") || vehicle.VehicleDef.VehicleTags.Contains("unit_hover")));
 
         #endregion
 

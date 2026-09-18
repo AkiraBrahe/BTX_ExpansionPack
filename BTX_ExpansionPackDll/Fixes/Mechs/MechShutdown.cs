@@ -26,9 +26,8 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 @this.RestartPassiveEffects(performAuraRefresh);
             }
         }
-    }
 
-    public static bool IgnoreShutdown(this MechComponent mechComponent)
+        public static bool IgnoreShutdown(this MechComponent mechComponent)
         {
             if (mechComponent.defId.StartsWith("Gear_Armor_"))
             {

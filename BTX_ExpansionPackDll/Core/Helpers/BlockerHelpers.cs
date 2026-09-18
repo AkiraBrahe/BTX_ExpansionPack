@@ -91,10 +91,7 @@ namespace BTX_ExpansionPack.Core.Helpers
         /// <summary>
         /// Gets the total number of inventory slots taken up by a list of blockers.
         /// </summary>
-        public static int GetTotalBlockerSlots(List<MechComponentRef> allBlockers)
-        {
-            return allBlockers == null || allBlockers.Count == 0
-                ? 0 : allBlockers.SelectMany(b => b.Def != null ? [b.Def.InventorySize] : new int[0]).Sum();
-        }
+        public static int GetTotalBlockerSlots(List<MechComponentRef> allBlockers) => allBlockers != null
+            && allBlockers.Count > 0 ? allBlockers.SelectMany(b => b.Def != null ? [b.Def.InventorySize] : new int[0]).Sum() : 0;
     }
 }
