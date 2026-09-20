@@ -28,15 +28,6 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_JumpJet_Generic_Assault",
       "ComponentDefType": "JumpJet",

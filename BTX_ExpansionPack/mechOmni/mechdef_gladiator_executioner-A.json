@@ -58,6 +58,14 @@
     },
     {
       "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
