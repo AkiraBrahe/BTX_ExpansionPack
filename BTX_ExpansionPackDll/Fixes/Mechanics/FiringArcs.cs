@@ -31,7 +31,7 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 }
 
                 // Special case: Directional torso mount
-                if (__instance.MechDef.Chassis.ChassisTags.Contains("mech_quirk_directionaltorsomount") == true)
+                if (__instance.MechDef.Chassis.ChassisTags.Contains(QuirkTags.DIRECTIONAL_TORSO_MOUNT))
                 {
                     __result = true;
                     __runOriginal = false;
@@ -97,9 +97,9 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                     return 40f;
 
                 var tags = mech.MechDef.Chassis.ChassisTags;
-                if (tags.Contains("mech_quirk_notorsotwist") == true)
+                if (tags.Contains(QuirkTags.NO_TORSO_TWIST))
                     return firingArc / 2f;
-                else if (tags.Contains("mech_quirk_extendedtorsotwist") == true)
+                else if (tags.Contains(QuirkTags.EXTENDED_TORSO_TWIST))
                     return firingArc * 2f;
             }
 

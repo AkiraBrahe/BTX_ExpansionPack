@@ -4,6 +4,7 @@ using CustAmmoCategories;
 using CustomComponents;
 using CustomUnits;
 using HBS.Collections;
+using Quirks.Quirks.MechEffects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -103,6 +104,42 @@ namespace BTX_ExpansionPack.Core
                 type = ArmorType.ClanFerroFibrous;
 
             return ArmorTypes[type];
+        }
+
+        #endregion
+
+        #region Quirk Info
+
+        /// <summary>
+        /// Retrieves the default quirks of a mech from BEX, or creates them if they don't exist.
+        /// </summary>
+        public static QuirkList GetOrSetDefaultQuirks(this MechDef mech)
+        {
+            string chassisId = mech.ChassisID;
+
+            if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirks))
+            {
+                quirks = new QuirkList();
+                MechQuirkInfo.MechQuirkStore[chassisId] = quirks;
+            }
+
+            return quirks;
+        }
+
+        /// <summary>
+        /// Retrieves the custom quirks of a mech, or creates them if they don't exist.
+        /// </summary>
+        public static CustomQuirkList GetOrSetCustomQuirks(this MechDef mech)
+        {
+            string chassisId = mech.ChassisID;
+
+            if (!CustomQuirkStore.TryGetValue(chassisId, out var customQuirks))
+            {
+                customQuirks = new CustomQuirkList();
+                CustomQuirkStore[chassisId] = customQuirks;
+            }
+
+            return customQuirks;
         }
 
         #endregion

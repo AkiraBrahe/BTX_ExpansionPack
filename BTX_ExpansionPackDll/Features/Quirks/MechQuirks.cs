@@ -1,14 +1,12 @@
 using BattleTech;
 using CustAmmoCategories;
 using CustomUnits;
-using Quirks;
-using Quirks.Quirks.MechEffects;
-using Quirks.Tooltips;
+using global::Quirks.Tooltips;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace BTX_ExpansionPack.Fixes.Mechs
+namespace BTX_ExpansionPack.Features.Quirks
 {
     /// <summary>
     /// Implements new mech quirks and fixes existing ones:
@@ -16,6 +14,7 @@ namespace BTX_ExpansionPack.Fixes.Mechs
     /// <item>Anti-Aircraft Targeting: +4 to hit airborne units</item>
     /// <item>Easy to Pilot: Gains +1 EVASIVE charge when moving, doesn't stack with Sure Footing</item>
     /// <item>Poor Performance: 'Mech can only sprint if it has moved last turn</item>
+    /// <item>Poor Workmanship: 'Mech takes more critical hits</item>
     /// </list>
     /// </summary>
     internal class MechQuirks
@@ -31,9 +30,9 @@ namespace BTX_ExpansionPack.Fixes.Mechs
             [HarmonyPostfix]
             public static void Postfix(ChassisDef chassisDef, ref string __result)
             {
-                if (chassisDef.ChassisTags.Contains("mech_quirk_antiaircraft"))
+                if (chassisDef.ChassisTags.Contains(QuirkTags.ANTI_AIRCRAFT))
                 {
-                    __result = __result.Replace("<color=#ffcc00><b>", "<color=#ffcc00><b>\nAnti-Aircraft Targeting: +4 to hit airborne units");
+                    __result += "\nAnti-Aircraft Targeting: +4 to hit airborne units";
                 }
             }
         }
@@ -52,13 +51,9 @@ namespace BTX_ExpansionPack.Fixes.Mechs
                 var altRep = mech.GameRep.GetComponent<AlternateMechRepresentation>();
                 if (altRep == null) return;
 
-                string chassisId = mech.MechDef.ChassisID;
-                if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirk))
-                {
-                    quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);
-                }
-                quirk.VTOL = altRep.state == AltRepState.Flying;
-                if (quirk.VTOL) Main.Logger.LogDebug($"[MechQuirks] {mech.DisplayName} is now flying and counts as valid airborne target.");
+                var quirks = mech.MechDef.GetOrSetDefaultQuirks();
+                quirks.VTOL = altRep.state == AltRepState.Flying;
+                if (quirks.VTOL) Main.Logger.LogDebug($"[MechQuirks] {mech.DisplayName} is now flying and counts as valid airborne target.");
             }
         }
 
@@ -86,7 +81,7 @@ namespace BTX_ExpansionPack.Fixes.Mechs
         /// <summary>
         /// Prevents the old Easy to Pilot quirk effect from being applied.
         /// </summary>
-        [HarmonyPatch(typeof(Quirks.Quirks.MechEffects.Mech_InitStats), "Postfix")]
+        [HarmonyPatch(typeof(global::Quirks.Quirks.MechEffects.Mech_InitStats), "Postfix")]
         public static class Mech_InitStats_Postfix
         {
             [HarmonyTranspiler]
@@ -110,34 +105,19 @@ namespace BTX_ExpansionPack.Fixes.Mechs
         public static class Mech_InitStats_EasyToPilot
         {
             [HarmonyPostfix]
+            [HarmonyWrapSafe]
             public static void Postfix(Mech __instance)
             {
                 var pilot = __instance.GetPilot();
                 if (pilot == null) return;
 
                 bool pilotHasSureFooting = pilot.Abilities.Exists(ability => ability.Def.Id == "AbilityDefP5");
-                if (__instance.MechDef.Chassis.ChassisTags.Contains("mech_quirk_easytopilot") && !pilotHasSureFooting)
+                if (__instance.MechDef.Chassis.ChassisTags.Contains(QuirkTags.EASY_TO_PILOT) && !pilotHasSureFooting)
                 {
                     var effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
-                    effectManager.CreateEffect(EasyToPilotEffect, "EasyToPilot", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
+                    effectManager.CreateEffect(CustomQuirkEffects.EasyToPilotEffect, "EasyToPilot", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
                 }
             }
-
-            internal static EffectData EasyToPilotEffect => new()
-            {
-                effectType = EffectType.StatisticEffect,
-                targetingData = QuirkStatusEffects.OnActivation,
-                Description = new DescriptionDef("TraitDefEvasiveChargeAddOne", "Increased Evasion", "Gains +[AMT] EVASIVE charge when moving", "uixSvgIcon_ability_mastertactician", 0, 0f, false, null, null, null),
-                durationData = QuirkStatusEffects.Duration,
-                statisticData = new StatisticEffectData
-                {
-                    statName = "EvasivePipsGainedAdditional",
-                    operation = StatCollection.StatOperation.Int_Add,
-                    modValue = "1",
-                    modType = "System.Int32"
-                },
-                nature = EffectNature.Buff
-            };
         }
 
         #endregion
@@ -151,16 +131,14 @@ namespace BTX_ExpansionPack.Fixes.Mechs
         public static class Mech_InitStats_ExposedActuators
         {
             [HarmonyPostfix]
+            [HarmonyWrapSafe]
             public static void Postfix(Mech __instance)
             {
-                if (__instance.MechDef.MechTags.Contains("unit_quad"))
+                var mechDef = __instance.MechDef;
+                if (mechDef.MechTags.Contains("unit_quad"))
                 {
-                    string chassisId = __instance.MechDef.ChassisID;
-                    if (!MechQuirkInfo.MechQuirkStore.TryGetValue(chassisId, out var quirk))
-                    {
-                        quirk = new QuirkList(); MechQuirkInfo.MechQuirkStore.Add(chassisId, quirk);
-                    }
-                    quirk.QuadMech = true;
+                    var quirks = mechDef.GetOrSetDefaultQuirks();
+                    quirks.QuadMech = true;
                 }
             }
         }
@@ -173,12 +151,12 @@ namespace BTX_ExpansionPack.Fixes.Mechs
         /// Adds the Poor Performance quirk effect to the tooltip.
         /// </summary>
         [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirksBad")]
-        public static class QuirkToolTips_DetailMechQuirksBad
+        public static class QuirkToolTips_DetailMechQuirksBad_PoorPerformance
         {
             [HarmonyPostfix]
             public static void Postfix(ChassisDef chassisDef, ref string __result)
             {
-                if (chassisDef.ChassisTags.Contains("mech_quirk_poor_performance"))
+                if (chassisDef.ChassisTags.Contains(QuirkTags.POOR_PERFORMANCE))
                 {
                     __result += "\nPoor Performance: 'Mech can only sprint if it has moved last turn";
                 }
@@ -186,29 +164,19 @@ namespace BTX_ExpansionPack.Fixes.Mechs
         }
 
         /// <summary>
-        /// Stores custom mech quirks that need to track state.
-        /// </summary>
-        private static readonly Dictionary<string, CustomQuirkList> CustomQuirkStore = [];
-        private class CustomQuirkList
-        {
-            public bool PoorPerformance = false;
-        }
-
-        /// <summary>
-        /// Marks mechs with the Poor Performance quirk in the custom quirk store.
+        /// Initializes the Poor Performance quirk effect in the custom quirk store.
         /// </summary>
         [HarmonyPatch(typeof(Mech), "InitStats")]
         public static class Mech_InitStats_PoorPerformance
         {
-            [HarmonyPostfix]
-            public static void Postfix(Mech __instance)
+            [HarmonyPrefix]
+            [HarmonyWrapSafe]
+            public static void Prefix(Mech __instance)
             {
-                if (__instance.MechDef.Chassis.ChassisTags.Contains("mech_quirk_poor_performance"))
-                {
-                    if (!CustomQuirkStore.ContainsKey(__instance.GUID))
-                        CustomQuirkStore[__instance.GUID] = new CustomQuirkList();
-                    CustomQuirkStore[__instance.GUID].PoorPerformance = true;
-                }
+                if (!__instance.MechDef.Chassis.ChassisTags.Contains(QuirkTags.POOR_PERFORMANCE)) return;
+
+                var customQuirks = __instance.MechDef.GetOrSetCustomQuirks();
+                customQuirks.PoorPerformance = true;
             }
         }
 
@@ -221,10 +189,48 @@ namespace BTX_ExpansionPack.Fixes.Mechs
             [HarmonyPostfix]
             public static void Postfix(Mech __instance, ref bool __result)
             {
-                if (CustomQuirkStore.TryGetValue(__instance.GUID, out var customQuirks) &&
-                    customQuirks.PoorPerformance && __instance.LastMoveDistance() < 24f)
+                var customQuirks = __instance.MechDef.GetOrSetCustomQuirks();
+                if (customQuirks.PoorPerformance && __instance.LastMoveDistance() < 24f)
                 {
                     __result = false;
+                }
+            }
+        }
+
+        #endregion
+
+        #region Poor Workmanship
+
+        /// <summary>
+        /// Adds the Poor Workmanship quirk effect to the tooltip.
+        /// </summary>
+        [HarmonyPatch(typeof(QuirkToolTips), "DetailMechQuirksBad")]
+        public static class QuirkToolTips_DetailMechQuirksBad_PoorWorkmanship
+        {
+            [HarmonyPostfix]
+            public static void Postfix(ChassisDef chassisDef, ref string __result)
+            {
+                if (chassisDef.ChassisTags.Contains(QuirkTags.POOR_WORKMANSHIP))
+                {
+                    __result += "\nPoor Workmanship: 'Mech takes more critical hits";
+                }
+            }
+        }
+
+        /// <summary>
+        /// Applies the Poor Workmanship quirk effect if the mech has the tag.
+        /// </summary>
+        [HarmonyPatch(typeof(Mech), "InitStats")]
+        public static class Mech_InitStats_PoorWorkmanship
+        {
+            [HarmonyPrefix]
+            [HarmonyWrapSafe]
+            public static void Prefix(Mech __instance)
+            {
+                if (__instance.MechDef.Chassis.ChassisTags.Contains(QuirkTags.POOR_WORKMANSHIP))
+                {
+                    var effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
+                    effectManager.CreateEffect(CustomQuirkEffects.PoorWorkmanshipEffect, "PoorWorkmanship", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
                 }
             }
         }

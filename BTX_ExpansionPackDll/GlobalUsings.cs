@@ -5,5 +5,6 @@ global using static BTX_ExpansionPack.Core.Data.ArmorData;
 global using static BTX_ExpansionPack.Core.Data.ArtilleryData;
 global using static BTX_ExpansionPack.Core.Data.HeatSinkData;
 global using static BTX_ExpansionPack.Core.Data.LanceData;
+global using static BTX_ExpansionPack.Core.Data.QuirkData;
 global using static BTX_ExpansionPack.Core.Data.StructureData;
 global using static BTX_ExpansionPack.Core.Globals;

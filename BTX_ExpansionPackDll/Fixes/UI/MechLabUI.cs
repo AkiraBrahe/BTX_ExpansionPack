@@ -226,6 +226,11 @@ namespace BTX_ExpansionPack.Fixes.UI
             text = Regex.Replace(text, @"<color=[^>]+>|<b>|</b>|</color>", "").Trim();
             if (string.IsNullOrEmpty(text)) return string.Empty;
 
+            // Sort quirks alphabetically for consistent ordering
+            var lines = text.Split('\n').ToList();
+            lines.Sort();
+            text = string.Join("\n", lines);
+
             string color = Main.Settings.UI.MechTooltips.UseDefaultColors ? defaultColor : overrideColor;
             return $"<color={color}>{text}</color>";
         }
@@ -245,8 +250,11 @@ namespace BTX_ExpansionPack.Fixes.UI
         }
 
         /// <summary>
-        /// Same logic as BEX but accomodate for new armor types and equipment from the Expansion Pack.
+        /// Formats the quirk section text for the mech chassis and armor.
         /// </summary>
+        /// <remarks>
+        /// Same logic as BEX but accomodate for new armor types and equipment from the Expansion Pack.
+        /// </remarks>
         internal static string DetailMechQuirksBuild(ChassisDef chassis, ArmorInfo armor)
         {
             var traits = new List<string>();
