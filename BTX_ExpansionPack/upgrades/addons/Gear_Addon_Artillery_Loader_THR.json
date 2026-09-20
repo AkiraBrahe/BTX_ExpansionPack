@@ -39,6 +39,7 @@
   "ComponentTags": {
     "items": [
       "BUILT-IN",
+      "not_critable",
       "CAC_C_ArtilleryLoader"
     ],
     "tagSetSourceFile": ""

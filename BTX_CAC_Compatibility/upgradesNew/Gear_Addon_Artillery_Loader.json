@@ -37,6 +37,7 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
+      "not_critable",
       "CAC_C_ArtilleryLoader"
     ],
     "tagSetSourceFile": ""

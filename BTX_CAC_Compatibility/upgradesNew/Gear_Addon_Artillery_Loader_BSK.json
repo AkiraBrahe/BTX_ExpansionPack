@@ -40,6 +40,7 @@
   "ComponentTags": {
     "items": [
       "BLACKLISTED",
+      "not_critable",
       "CAC_C_ArtilleryLoader"
     ],
     "tagSetSourceFile": ""
