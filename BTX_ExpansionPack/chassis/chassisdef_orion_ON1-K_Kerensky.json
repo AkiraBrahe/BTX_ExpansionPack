@@ -6,7 +6,7 @@
     "Manufacturer": "",
     "Model": "",
     "UIName": "Orion",
-    "Id": "chassisdef_orion_ON1-REV",
+    "Id": "chassisdef_orion_ON1-K_Kerensky",
     "Name": "Orion",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_orion"
@@ -212,7 +212,6 @@
       "mech_case_right",
       "ArmLimitLowerLeft",
       "ArmLimitLowerRight",
-      "mech_quirk_prototype",
       "mech_quirk_antiaircraft",
       "mech_quirk_easytomaintain",
       "mech_quirk_rugged1"

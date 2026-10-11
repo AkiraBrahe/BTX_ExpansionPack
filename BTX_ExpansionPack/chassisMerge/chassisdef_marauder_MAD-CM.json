@@ -5,7 +5,8 @@
       "chassis_DHS",
       "mech_quirk_commandmech",
       "mech_quirk_hyperextendingactuators",
-      "mech_quirk_narrowlowprofile"
+      "mech_quirk_narrowlowprofile",
+      "weapon_quirk_directionalmount"
     ],
     "tagSetSourceFile": ""
   }

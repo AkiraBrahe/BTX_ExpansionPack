@@ -15,7 +15,7 @@
     ],
     "tagSetSourceFile": ""
   },
-  "ChassisID": "chassisdef_orion_ON1-REV",
+  "ChassisID": "chassisdef_orion_ON1-K_Kerensky",
   "HeraldryID": "heraldrydef_sldf_OD",
   "Description": {
     "Cost": 7630000,
@@ -23,9 +23,9 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Orion (Kerensky)",
-    "Id": "mechdef_orion_ON1-REV",
-    "Name": "Orion",
+    "UIName": "Orion ON1-REV",
+    "Id": "mechdef_orion_ON1-K_Kerensky",
+    "Name": "“Revenant”",
     "Details": "PLACEHOLDER",
     "Icon": "uixTxrIcon_orion"
   },
