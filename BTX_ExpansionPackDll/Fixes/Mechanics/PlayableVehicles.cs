@@ -1,9 +1,6 @@
 using BattleTech;
 using CustAmmoCategories;
 using Extended_CE.Functionality;
-using FullXotlTables;
-using System.Collections.Generic;
-using System.Reflection.Emit;
 
 namespace BTX_ExpansionPack.Fixes.Mechanics
 {
@@ -63,26 +60,6 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                     return;
 
                 RunRules.PathNodeGrid_GetTerrainModifiedCost.Postfix(__instance, from, to, distanceAvailable, owningActor, __instance.moveType, ref __result, __instance.mapMetaData);
-            }
-        }
-
-        /// <summary>
-        /// Skips the logic that doubles the rarity of certain vehicles.
-        /// </summary>
-        [HarmonyPatch(typeof(XotlTable), "RequestUnit")]
-        public static class XotlTable_RequestUnit
-        {
-            [HarmonyTranspiler]
-            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
-            {
-                var matcher = new CodeMatcher(instructions, il)
-                    .MatchForward(false, new CodeMatch(OpCodes.Ldstr, "vehicledef_APC_Maxim_3052AP"))
-                    .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
-
-                object jumpTarget = matcher.Operand;
-                return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
-                    .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
-                    .InstructionEnumeration();
             }
         }
     }
