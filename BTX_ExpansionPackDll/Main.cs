@@ -210,7 +210,7 @@ namespace BTX_ExpansionPack
 
                 var customSplits = new Dictionary<string, BTX_CAC_CompatibilityDll.WeaponAddonSplit>
                 {
-                    // Obsolete ammo bins -> New ammo bins
+                    // Ammo bins
                     ["Ammo_AmmunitionBox_Generic_SRMInferno"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_SRMInferno_Half"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno_Half", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_SRMInferno_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_SRM_Inferno_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
@@ -223,15 +223,8 @@ namespace BTX_ExpansionPack
                     ["Ammo_AmmunitionBox_Generic_Arrow4_Inferno"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_Arrow4_Inferno_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
                     ["Ammo_AmmunitionBox_Generic_Arrow4_Inferno_Triple"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_ArrowIV_Inferno_Triple", Link = false, WeaponType = ComponentType.AmmunitionBox },
-                    ["Ammo_AmmunitionBox_Generic_LongTom_Cluster"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_LongTom_Cluster", Link = false, WeaponType = ComponentType.AmmunitionBox },
-                    ["Ammo_AmmunitionBox_Generic_LongTom_Cluster_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_LongTom_Cluster_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
-                    ["Ammo_AmmunitionBox_Generic_LongTom_Cluster_Triple"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_LongTom_Cluster_Triple", Link = false, WeaponType = ComponentType.AmmunitionBox },
-                    ["Ammo_AmmunitionBox_Generic_Sniper_Cluster"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_Sniper_Cluster", Link = false, WeaponType = ComponentType.AmmunitionBox },
-                    ["Ammo_AmmunitionBox_Generic_Sniper_Cluster_Double"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_Sniper_Cluster_Double", Link = false, WeaponType = ComponentType.AmmunitionBox },
-                    ["Ammo_AmmunitionBox_Generic_Thumper_Cluster"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_Thumper_Cluster", Link = false, WeaponType = ComponentType.AmmunitionBox },
-                    ["Ammo_AmmunitionBox_Generic_Thumper_Cluster_Half"] = new() { WeaponId = "Ammo_AmmunitionBox_Generic_Thumper_Cluster_Half", Link = false, WeaponType = ComponentType.AmmunitionBox },
 
-                    // Obsolete artillery weapons -> New artillery weapons
+                    // Artillery weapons & rocket launchers
                     ["Weapon_MortarCAC_Arrow4"] = new() { WeaponId = "Weapon_Artillery_ArrowIV_0-STOCK", Link = false },
                     ["Weapon_MortarCAC_LongTom"] = new() { WeaponId = "Weapon_Artillery_LongTomCannon_0-STOCK", Link = false },
                     ["Weapon_MortarCAC_Sniper"] = new() { WeaponId = "Weapon_Artillery_SniperCannon_0-STOCK", Link = false },
@@ -240,7 +233,7 @@ namespace BTX_ExpansionPack
                     ["Weapon_RL_RL15_Sa_0-STOCK"] = new() { WeaponId = "Weapon_RL_PRL10_0-STOCK", Link = false },
                     ["Weapon_RL_RL20_Sa_0-STOCK"] = new() { WeaponId = "Weapon_RL_PRL10_0-STOCK", Link = false },
 
-                    // Unified SLDF weapons
+                    // SLDF weapons
                     ["Weapon_Autocannon_LB10X_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Autocannon_LB10X_0-STOCK", Link = false },
                     ["Weapon_Autocannon_UAC5_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Autocannon_UAC5_0-STOCK", Link = false },
                     ["Weapon_Gauss_Gauss_Sa_0-STOCK"] = new() { WeaponId = "Weapon_Gauss_Gauss_0-STOCK", Link = false },
@@ -308,7 +301,6 @@ namespace BTX_ExpansionPack
                         foreach (string systemId in entry.Value)
                         {
                             factionShops[date][systemId] = FactionStores.StartingFactionStores[systemId].Faction;
-                            count++;
                         }
                     }
                 }
@@ -326,7 +318,7 @@ namespace BTX_ExpansionPack
                 }
             }
 
-            Logger.LogDebug($"[FactionStores] Added {count} new faction stores.");
+            Logger.LogDebug($"[FactionStores] Added {count} starting faction stores.");
         }
 
         internal static void LoadCustomFactionTables()

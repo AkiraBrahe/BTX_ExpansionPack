@@ -115,7 +115,7 @@ namespace BTX_ExpansionPack.Features.Quirks
                 if (__instance.MechDef.Chassis.ChassisTags.Contains(QuirkTags.EASY_TO_PILOT) && !pilotHasSureFooting)
                 {
                     var effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
-                    effectManager.CreateEffect(CustomQuirkEffects.EasyToPilotEffect, "EasyToPilot", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
+                    effectManager.CreateEffect(CustomQuirkEffects.EasyToPilotEffect, "EasyToPilotInitiative", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
                 }
             }
         }
@@ -230,7 +230,7 @@ namespace BTX_ExpansionPack.Features.Quirks
                 if (__instance.MechDef.Chassis.ChassisTags.Contains(QuirkTags.POOR_WORKMANSHIP))
                 {
                     var effectManager = UnityGameInstance.BattleTechGame.Combat.EffectManager;
-                    effectManager.CreateEffect(CustomQuirkEffects.PoorWorkmanshipEffect, "PoorWorkmanship", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
+                    effectManager.CreateEffect(CustomQuirkEffects.PoorWorkmanshipEffect, "PoorWorkmanshipCrits", UnityEngine.Random.Range(1, int.MaxValue), __instance, __instance, default, 0, false);
                 }
             }
         }

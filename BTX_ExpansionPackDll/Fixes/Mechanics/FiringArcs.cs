@@ -31,7 +31,8 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
                 }
 
                 // Special case: Directional torso mount
-                if (__instance.MechDef.Chassis.ChassisTags.Contains(QuirkTags.DIRECTIONAL_TORSO_MOUNT))
+                var chassisTags = __instance.MechDef.Chassis.ChassisTags;
+                if (chassisTags.Contains(QuirkTags.DIRECTIONAL_TORSO_MOUNT))
                 {
                     __result = true;
                     __runOriginal = false;

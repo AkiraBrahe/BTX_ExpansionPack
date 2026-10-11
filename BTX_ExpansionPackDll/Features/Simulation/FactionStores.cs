@@ -31,6 +31,7 @@ namespace BTX_ExpansionPack.Features.Simulation
             { "starsystemdef_Menke", ("Liao", true) },         // Vehicle-only until 3057
             { "starsystemdef_Mitchella", ("Outworld", true) },
             { "starsystemdef_Northwind", ("Davion", false) },
+            { "starsystemdef_Panpour", ("Davion", false) },
             { "starsystemdef_Proserpina", ("Kurita", true) },
             { "starsystemdef_Richvale", ("Steiner", true) },
             { "starsystemdef_Salem", ("Davion", true) },
@@ -104,7 +105,7 @@ namespace BTX_ExpansionPack.Features.Simulation
         }
 
         /// <summary>
-        /// Fix the faction store on the Alpheratz system so that it updates correctly over time.
+        /// Fix the faction stores on the Alpheratz and Wernke systems so that they update over time.
         /// </summary>
         [HarmonyPatch(typeof(StarSystem), "Rehydrate")]
         public static class StarSystem_Rehydrate
@@ -115,6 +116,10 @@ namespace BTX_ExpansionPack.Features.Simulation
                 if (__instance.SystemID.Equals("starsystemdef_Alpheratz"))
                 {
                     __instance.Def.FactionShopItems = [.. __instance.Def.FactionShopItems.Select(id => id == "itemCollection_factory_Alpheratz" ? "itemCollection_factoryHolder_Alpheratz" : id)];
+                }
+                else if (__instance.SystemID.Equals("starsystemdef_Wernke(Talon)"))
+                {
+                    __instance.Def.FactionShopItems = [.. __instance.Def.FactionShopItems.Select(id => id == "itemCollection_factory_Talon" ? "itemCollection_factoryHolder_Wernke" : id)];
                 }
             }
         }

@@ -3,6 +3,7 @@ using CustomUnits;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 
 namespace BTX_ExpansionPack.Utilities
@@ -10,6 +11,9 @@ namespace BTX_ExpansionPack.Utilities
     public static class MechDumper
     {
 
+        /// <summary>
+        /// Exports mech stats to a CSV file and checks for internal space issues (Shift + Click Mech Bay in dropship).
+        /// </summary>
         [HarmonyPatch(typeof(SimGameState), "SetSimRoomState")]
         public static class SimGameState_SetSimRoomState
         {
@@ -17,11 +21,18 @@ namespace BTX_ExpansionPack.Utilities
             {
                 if (state == DropshipLocation.MECH_BAY && Input.GetKey(KeyCode.LeftShift))
                 {
-                    ExportMechStats(__instance);
+                    // ExportMechStats(__instance); // Up-to-date mech stats are already exported
+                    CheckInternalSpace(__instance);
                 }
             }
         }
 
+        /// <summary>
+        /// Calculates mech stats (max tonnage, current tonnage, etc.) and exports them to a CSV file.
+        /// </summary>
+        /// <remarks>
+        /// The output CSV is used to sync the initial tonnage and assign proper tags based on heat and range ratings.
+        /// </remarks>
         public static void ExportMechStats(SimGameState simGame)
         {
             try
@@ -34,7 +45,7 @@ namespace BTX_ExpansionPack.Utilities
 
                 using (var writer = new StreamWriter(filePath))
                 {
-                    writer.WriteLine("MechID,VariantName,MaxTonnage,CalculatedInitialTonnage,CurrentInitialTonnage,Difference,HeatRating,RangeRating");
+                    writer.WriteLine("Mech ID,Variant Name,Max Tonnage,Calculated Initial Tonnage,Current Initial Tonnage,Difference,Heat Rating,Range Rating");
 
                     foreach (var kv in simGame.DataManager.MechDefs)
                     {
@@ -88,17 +99,73 @@ namespace BTX_ExpansionPack.Utilities
             {
                 Main.Logger.LogException(ex);
             }
+
+            static long GetArmorPointsTotal(MechDef m)
+            {
+                return GetArmorPointsInternal(m.Head.AssignedArmor) + GetArmorPointsInternal(m.CenterTorso.AssignedArmor) + GetArmorPointsInternal(m.CenterTorso.AssignedRearArmor)
+                    + GetArmorPointsInternal(m.LeftTorso.AssignedArmor) + GetArmorPointsInternal(m.LeftTorso.AssignedRearArmor)
+                    + GetArmorPointsInternal(m.RightTorso.AssignedArmor) + GetArmorPointsInternal(m.RightTorso.AssignedRearArmor)
+                    + GetArmorPointsInternal(m.LeftArm.AssignedArmor) + GetArmorPointsInternal(m.RightArm.AssignedArmor)
+                    + GetArmorPointsInternal(m.LeftLeg.AssignedArmor) + GetArmorPointsInternal(m.RightLeg.AssignedArmor);
+
+                static long GetArmorPointsInternal(float armorValue) => (long)Math.Round(armorValue * 1000.0f);
+            }
         }
 
-        private static long GetArmorPointsTotal(MechDef m)
+        /// <summary>
+        /// Checks if mechs have negative internal space, or enough space for more heat sinks in their inventory.
+        /// </summary>
+        public static void CheckInternalSpace(SimGameState simGame)
         {
-            return GetArmorPointsInternal(m.Head.AssignedArmor) + GetArmorPointsInternal(m.CenterTorso.AssignedArmor) + GetArmorPointsInternal(m.CenterTorso.AssignedRearArmor)
-                + GetArmorPointsInternal(m.LeftTorso.AssignedArmor) + GetArmorPointsInternal(m.LeftTorso.AssignedRearArmor)
-                + GetArmorPointsInternal(m.RightTorso.AssignedArmor) + GetArmorPointsInternal(m.RightTorso.AssignedRearArmor)
-                + GetArmorPointsInternal(m.LeftArm.AssignedArmor) + GetArmorPointsInternal(m.RightArm.AssignedArmor)
-                + GetArmorPointsInternal(m.LeftLeg.AssignedArmor) + GetArmorPointsInternal(m.RightLeg.AssignedArmor);
+            try
+            {
+                foreach (var kv in simGame.DataManager.MechDefs)
+                {
+                    if (kv.Value.IsVehicle())
+                        continue;
 
-            static long GetArmorPointsInternal(float armorValue) => (long)Math.Round(armorValue * 1000.0f);
+                    var mechDef = kv.Value;
+                    var chassis = mechDef.Chassis;
+
+                    bool hasDoubleHeatSinks = chassis.ChassisTags.Contains("chassis_DHS");
+                    int heatSinkingPerHS = hasDoubleHeatSinks ? 6 : 3;
+                    int heatSinkSize = hasDoubleHeatSinks ? chassis.ChassisTags.Contains("chassis_clan") ? 2 : 3 : 1;
+
+                    // Adjust for BEX heat dissipation
+                    int baseDissipation = 30 + chassis.Heatsinks;
+                    int extraDissipation = hasDoubleHeatSinks ? baseDissipation - Extended_CE.Core.Settings.DHSEngineCooling : chassis.Heatsinks;
+                    int extraHSCount = extraDissipation / heatSinkingPerHS;
+
+                    if (extraHSCount <= 0)
+                        continue;
+
+                    var freeSlots = allLocations.ToDictionary(l => l, l => mechDef.GetFreeSlotsInLoc([.. mechDef.inventory], l, heatSinkSize));
+                    int totalFreeSlots = freeSlots.Values.Sum();
+                    int possibleHSCount = 0;
+
+                    foreach (var loc in freeSlots)
+                    {
+                        if (loc.Value < 0)
+                        {
+                            Main.Logger.LogWarning($"[MechDumper] {mechDef.ChassisID} has negative free slots in {loc.Key}: {loc.Value}");
+                        }
+                        else if (extraHSCount > 0 && loc.Value >= heatSinkSize)
+                        {
+                            possibleHSCount++;
+                        }
+                    }
+
+                    if (possibleHSCount > 0)
+                    {
+                        Main.Logger.Log($"[MechDumper] {mechDef.ChassisID} ({mechDef.Name}) has {extraHSCount} more {(hasDoubleHeatSinks ? "double" : "single")} heat sinks inside the engine.");
+                        Main.Logger.Log($"[MechDumper] {mechDef.ChassisID} ({mechDef.Name}) has space for {possibleHSCount} {(hasDoubleHeatSinks ? "double" : "single")} heat sinks (total free slots: {totalFreeSlots}).");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Main.Logger.LogException(ex);
+            }
         }
     }
 }
