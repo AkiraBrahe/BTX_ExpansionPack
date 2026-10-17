@@ -1,3 +1,4 @@
+using BattleTech;
 using FullXotlTables;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,10 @@ namespace BTX_ExpansionPack.Features.Simulation
 {
     internal class FactionTables
     {
+        internal static XotlTable GetXotlTables() => FullXotlTables.Core.xotlTables;
+
+        #region Faction Table Generation
+
         /// <summary>
         /// Generates a custom faction table from CSV files in a specified folder.
         /// </summary>
@@ -121,9 +126,50 @@ namespace BTX_ExpansionPack.Features.Simulation
             return weightValueList;
         }
 
+        #endregion
 
+        #region Locals Table Override
+
+        /// <summary>
+        /// Redirects the local table name to a custom faction table if it exists for the current system owner. 
+        /// </summary>
+        [HarmonyPatch(typeof(XotlTable), nameof(XotlTable.GetLocalTableName))]
+        public static class XotlTable_GetLocalTableName
         {
+            [HarmonyPrefix]
+            public static bool Prefix(ref string __result)
+            {
+                var simulation = UnityGameInstance.BattleTechGame.Simulation;
+                if (simulation == null) return true;
 
+                string ownerName = simulation.CurSystem?.OwnerValue?.Name;
+                if (string.IsNullOrEmpty(ownerName)) return true;
+
+                // Temporary fallback until all RATs are implemented
+                if (ownerName is "WordOfBlake" or "Andurien")
+                {
+                    __result = "MarikF";
+                    return false;
+                }
+                else if (ownerName is "Arc-RoyalDC")
+                {
+                    __result = "SteinerF";
+                    return false;
+                }
+
+                // Prioritize local table when possible
+                string localTable = $"{ownerName}F";
+                __result = GetXotlTables().Factions.ContainsKey(localTable) ? localTable
+                    : GetXotlTables().Factions.ContainsKey(ownerName) ? ownerName : string.Empty;
+
+                Main.Logger.LogDebug($"[FactionTables] Using '{__result}' local table for {simulation.CurSystem?.Name} system (Owner: {ownerName})");
+                return false;
+            }
+        }
+
+        #endregion
+
+        #region Vehicle Rarity & Salvage Date Patches
 
         /// <summary>
         /// Various patches to the XotlTable.RequestUnit method:
@@ -210,5 +256,7 @@ namespace BTX_ExpansionPack.Features.Simulation
                     currentDate = dates[0];
             }
         }
+
+        #endregion
     }
 }

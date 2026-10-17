@@ -67,7 +67,7 @@ namespace BTX_ExpansionPack
                 ApplySettings();
                 ApplyCacOverrides();
                 SetupFactionStores();
-                // LoadCustomFactionTables();
+                SetupFactionTables();
             }
             catch (Exception ex)
             {
@@ -321,13 +321,14 @@ namespace BTX_ExpansionPack
             Logger.LogDebug($"[FactionStores] Added {count} starting faction stores.");
         }
 
-        internal static void LoadCustomFactionTables()
+        internal static void SetupFactionTables()
         {
             var xotlAssembly = AppDomain.CurrentDomain.GetAssemblies()
                 .FirstOrDefault(a => a.GetName().Name == "FullXotlTables");
 
             if (xotlAssembly == null) return;
 
+            // Add custom faction tables from the XotlTablesV2 folder
             string xotlDir = Path.GetDirectoryName(xotlAssembly.Location);
             var customTables = FactionTables.GenerateFromCustomFolder(Path.Combine(xotlDir, "XotlTablesV2"));
 
@@ -335,7 +336,7 @@ namespace BTX_ExpansionPack
 
             foreach (var faction in customTables.Factions)
             {
-                GetXotlTables().Factions[faction.Key] = faction.Value;
+                FactionTables.GetXotlTables().Factions[faction.Key] = faction.Value;
 
                 FullXotlTables.Logger.Log("Faction: " + faction.Key);
                 FullXotlTables.Logger.Log(" Number of Lights: " + faction.Value.Mechs.Lights.Count.ToString());
@@ -346,7 +347,17 @@ namespace BTX_ExpansionPack
 
             Logger.LogDebug($"[FactionTables] Loaded {customTables.Factions.Count} custom faction tables.");
 
-            static XotlTable GetXotlTables() => FullXotlTables.Core.xotlTables;
+            // Remove Locals tables as they are obsolete
+            if (customTables.Factions.Count > 0)
+            {
+                FullXotlTables.Logger.Log("Removing Locals faction tables...");
+
+                foreach (string factionId in FactionTables.GetXotlTables().Factions.Keys)
+                {
+                    if (factionId.EndsWith("Locals"))
+                        FactionTables.GetXotlTables().Factions.Remove(factionId);
+                }
+            }
         }
 
         [HarmonyPatch(typeof(MainMenu), "Init")]
