@@ -29,33 +29,33 @@ namespace BTX_ExpansionPack.Fixes.Targeting
                 return matcher
                     .InsertAndAdvance(
                         new CodeInstruction(OpCodes.Ldloc_0),
-                        new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(WeaponStrayHelper_MainStray), "GetPotentialStrayTargets")),
+                        new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(SwarmTargeting), nameof(GetPotentialStrayTargets))),
                         new CodeInstruction(OpCodes.Stloc_1))
                     .InstructionEnumeration();
             }
+        }
 
-            public static List<ICombatant> GetPotentialStrayTargets(AdvWeaponHitInfo advInfo)
+        public static List<ICombatant> GetPotentialStrayTargets(AdvWeaponHitInfo advInfo)
+        {
+            List<ICombatant> potentialTargets = [];
+
+            var combat = advInfo.Combat;
+            var weapon = advInfo.weapon;
+            var attacker = weapon.parent;
+
+            string iffTransponderDef = weapon.IFFTransponderDef();
+            if (string.IsNullOrEmpty(iffTransponderDef))
             {
-                List<ICombatant> potentialTargets = [];
-
-                var combat = advInfo.Combat;
-                var weapon = advInfo.weapon;
-                var attacker = weapon.parent;
-
-                string iffTransponderDef = weapon.IFFTransponderDef();
-                if (string.IsNullOrEmpty(iffTransponderDef))
-                {
-                    // Standard swarm: all units except attacker
-                    potentialTargets.AddRange(combat.GetAllCombatants().Where(c => c.GUID != attacker.GUID));
-                }
-                else
-                {
-                    // Improved swarm: only enemies
-                    potentialTargets.AddRange(combat.GetAllEnemiesOf(attacker));
-                }
-
-                return potentialTargets;
+                // Standard swarm: all units except attacker
+                potentialTargets.AddRange(combat.GetAllCombatants().Where(c => c.GUID != attacker.GUID));
             }
+            else
+            {
+                // Improved swarm: only enemies
+                potentialTargets.AddRange(combat.GetAllEnemiesOf(attacker));
+            }
+
+            return potentialTargets;
         }
     }
 }

@@ -60,10 +60,11 @@ namespace BTX_ExpansionPack.Fixes.Mechanics
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
                 return new CodeMatcher(instructions)
-                    .MatchForward(true,
+                    .MatchEndForward(
                         new CodeMatch(OpCodes.Ldarg_0),
                         new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(Weapon), "get_MaxRange")))
-                    .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CalcAMSAIDamageCoeff), nameof(GetAMSRange))))
+                    .SetInstructionAndAdvance(
+                        new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CalcAMSAIDamageCoeff), nameof(GetAMSRange))))
                     .InstructionEnumeration();
             }
 

@@ -38,6 +38,7 @@ namespace BTX_ExpansionPack.Fixes.UI
                     .InsertAndAdvance(new CodeInstruction(OpCodes.Dup))
                     .InsertAndAdvance(new CodeInstruction(OpCodes.Ldc_I4_0))
                     .InsertAndAdvance(new CodeInstruction(OpCodes.Callvirt, AccessTools.PropertySetter(typeof(LocalizableText), "fontStyle")))
+
                     .MatchForward(false,
                         new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s == "__/WEAPON ORDER/__"))
                     .SetOperandAndAdvance("__/CAC.WO.WEAPONS.HIGHLIGHT/__")
@@ -329,8 +330,7 @@ namespace BTX_ExpansionPack.Fixes.UI
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
                 return new CodeMatcher(instructions)
-                    .MatchForward(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s.StartsWith("chassis_compactgyro")))
+                    .MatchForward(false, new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s == "chassis_compactgyro"))
                     .SetOperandAndAdvance("mech_gyro_compact")
                     .InstructionEnumeration();
             }

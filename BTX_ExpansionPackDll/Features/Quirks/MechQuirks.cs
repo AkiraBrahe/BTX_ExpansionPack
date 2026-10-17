@@ -93,8 +93,8 @@ namespace BTX_ExpansionPack.Features.Quirks
 
                 object jumpTarget = matcher.Operand;
                 return matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
-                    .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
-                    .InstructionEnumeration();
+                              .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
+                              .InstructionEnumeration();
             }
         }
 

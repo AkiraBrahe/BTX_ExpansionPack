@@ -120,71 +120,95 @@ namespace BTX_ExpansionPack.Features.Simulation
             }
             return weightValueList;
         }
-    }
 
-    /// <summary>
-    /// Skips vehicle rarity doubling and shifts salvage requests ten years earlier.
-    /// </summary>
-    /// <remarks>
-    /// BEX uses fixed 3028 and 3025 dates for salvage rolls. Shifting both relative to the request date allows newer units in initial and chained salvage rolls.
-    /// </remarks>
-    [HarmonyPatch(typeof(XotlTable), "RequestUnit")]
-    public static class XotlTable_RequestUnit
-    {
-        private static DateTime GetSalvageDate(DateTime currentDate) => currentDate.AddYears(-10);
 
-        [HarmonyTranspiler]
-        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
         {
-            // Skip the logic that doubles the rarity of certain vehicles.
-            var matcher = new CodeMatcher(instructions, il)
-                .MatchForward(false, new CodeMatch(OpCodes.Ldstr, "vehicledef_APC_Maxim_3052AP"))
-                .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
 
-            object jumpTarget = matcher.Operand;
-            var patchedInstructions = matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
-                .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget))
-                .InstructionEnumeration();
 
-            // Patch both salvage dates to use the request date minus ten years.
-            int[] salvageYears = [3025, 3028];
-            var currentInstructions = patchedInstructions;
+        /// <summary>
+        /// Various patches to the XotlTable.RequestUnit method:
+        /// - Renames locals tables with the "F" affix for consistency with other faction tables.
+        /// - Skips vehicle rarity doubling so we can use A tables where available.
+        /// - Replaces salvage dates to allow newer units in salvage rolls.
+        /// </summary>
+        [HarmonyPatch(typeof(XotlTable), "RequestUnit")]
+        public static class XotlTable_RequestUnit
+        {
+            private static DateTime GetSalvageDate(DateTime currentDate) => currentDate.AddYears(-10);
 
-            foreach (int year in salvageYears)
+            [HarmonyTranspiler]
+            public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
             {
-                var salvageDateMatcher = new CodeMatcher(currentInstructions, il)
-                    .MatchForward(false,
-                        new CodeMatch(i => i.opcode == OpCodes.Ldc_I4 && Equals(i.operand, year)),
+                var matcher = new CodeMatcher(instructions, il);
+
+                // 1. Rename locals tables: change "Locals" to "F" in the EndsWith check
+                matcher.MatchForward(false,
+                        new CodeMatch(i => i.opcode == OpCodes.Ldstr && i.operand is string s && s == "Locals"),
+                        new CodeMatch(OpCodes.Callvirt, typeof(string).GetMethod("EndsWith", [typeof(string)])))
+                       .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Ldstr, "F"))
+                       .MatchForward(false, new CodeMatch(i => i.LoadsConstant(6)))
+                       .SetInstructionAndAdvance(new CodeInstruction(OpCodes.Ldc_I4, 1));
+
+                // 2. Skip vehicle rarity doubling: replace conditional branch with unconditional jump
+                matcher.MatchForward(false, new CodeMatch(OpCodes.Ldstr, "vehicledef_APC_Maxim_3052AP"))
+                       .MatchBack(false, new CodeMatch(i => i.opcode == OpCodes.Brfalse || i.opcode == OpCodes.Brfalse_S));
+
+                object jumpTarget = matcher.Operand;
+                matcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Pop))
+                       .InsertAndAdvance(new CodeInstruction(OpCodes.Br, jumpTarget));
+
+                // 3. Replace salvage dates: change fixed dates with call method to get the current date minus ten years
+                int patchedDates = 0;
+                while (true)
+                {
+                    matcher.Start().MatchForward(false,
+                        new CodeMatch(i => i.opcode == OpCodes.Ldloca_S || i.opcode == OpCodes.Ldloca),
+                        new CodeMatch(i => i.opcode == OpCodes.Ldc_I4 && i.operand is int year && (year == 3025 || year == 3028)),
                         new CodeMatch(OpCodes.Ldc_I4_1),
                         new CodeMatch(OpCodes.Ldc_I4_1),
-                        new CodeMatch(i => i.opcode == OpCodes.Newobj &&
+                        new CodeMatch(i => i.opcode == OpCodes.Call &&
                             i.operand is ConstructorInfo constructor &&
                             constructor.DeclaringType == typeof(DateTime)));
 
-                currentInstructions = salvageDateMatcher.SetInstructionAndAdvance(new CodeInstruction(OpCodes.Ldarg_1))
-                    .RemoveInstructions(3)
-                    .InsertAndAdvance(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(XotlTable_RequestUnit), nameof(GetSalvageDate))))
-                    .InstructionEnumeration();
+                    if (!matcher.IsValid)
+                        break;
+
+                    var localAddress = matcher.Instruction;
+                    var replacement = new CodeInstruction(OpCodes.Ldarg_1);
+                    replacement.labels.AddRange(localAddress.labels);
+                    replacement.blocks.AddRange(localAddress.blocks);
+
+                    var storeOpcode = localAddress.opcode == OpCodes.Ldloca_S ? OpCodes.Stloc_S : OpCodes.Stloc;
+                    object local = localAddress.operand;
+
+                    matcher.SetInstructionAndAdvance(replacement)
+                           .RemoveInstructions(4)
+                           .Insert(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(XotlTable_RequestUnit), nameof(GetSalvageDate))),
+                                   new CodeInstruction(storeOpcode, local));
+                    patchedDates++;
+                }
+
+                return patchedDates != 2
+                    ? throw new InvalidOperationException($"Expected to patch 2 salvage dates in XotlTable.RequestUnit, but patched {patchedDates}.")
+                    : matcher.InstructionEnumeration();
             }
-
-            return currentInstructions;
         }
-    }
 
-    /// <summary>
-    /// Clamps the current date to the first table date to avoid negative weights.
-    /// </summary>
-    /// <remarks>
-    /// This is a workaround for a bug in BEX that causes InterpolateWeight() to return a negative fraction when called with a date earlier than the first table date.
-    /// </remarks>
-    [HarmonyPatch(typeof(WeightedContainer), "InterpolateWeight")]
-    public static class WeightedContainer_InterpolateWeight
-    {
-        [HarmonyPrefix]
-        public static void Prefix(ref DateTime currentDate, List<DateTime> dates)
+        /// <summary>
+        /// Clamps the current date to the first table date to avoid negative weights.
+        /// </summary>
+        /// <remarks>
+        /// This is a workaround for a bug in BEX that causes InterpolateWeight() to return a negative fraction when called with a date earlier than the first table date.
+        /// </remarks>
+        [HarmonyPatch(typeof(WeightedContainer), "InterpolateWeight")]
+        public static class WeightedContainer_InterpolateWeight
         {
-            if (dates.Count > 0 && currentDate < dates[0])
-                currentDate = dates[0];
+            [HarmonyPrefix]
+            public static void Prefix(ref DateTime currentDate, List<DateTime> dates)
+            {
+                if (dates.Count > 0 && currentDate < dates[0])
+                    currentDate = dates[0];
+            }
         }
     }
 }

@@ -1,6 +1,5 @@
 using BattleTech;
 using BEXTimeline;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
@@ -147,7 +146,7 @@ namespace BTX_ExpansionPack.Features.Simulation
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
             {
                 return new CodeMatcher(instructions)
-                    .MatchStartForward(new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(string), "Substring", [typeof(int)])))
+                    .MatchForward(false, new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(string), "Substring", [typeof(int)])))
                     .Advance(-1).SetAndAdvance(OpCodes.Nop, null)
                     .SetAndAdvance(OpCodes.Call, AccessTools.Method(typeof(FactionStores), "SanitizeSystemDefId"))
                     .InstructionEnumeration();
@@ -157,13 +156,21 @@ namespace BTX_ExpansionPack.Features.Simulation
         public static string SanitizeSystemDefId(string systemDefId)
         {
             if (string.IsNullOrEmpty(systemDefId))
-                return String.Empty;
-
-            if (systemDefId.Equals("starsystemdef_TauCeti(NewEarth2116+)"))
-                return "NewEarth";
+                return string.Empty;
+            else if (SpecialSystemAliases.ContainsKey(systemDefId))
+                return SpecialSystemAliases[systemDefId];
 
             string systemName = systemDefId.Substring(14);
             return Regex.Replace(systemName, @"\s*\(.*\)", "");
         }
+
+        public static readonly Dictionary<string, string> SpecialSystemAliases = new()
+        {
+            { "starsystemdef_TauCeti(NewEarth2116+)", "NewEarth" },
+            { "starsystemdef_AlphaEridani(Achernar)", "Achernar" },
+            { "starsystemdef_Hope(Randis2988+)", "Randis" },
+            { "starsystemdef_NewSarna(Tsinghai)", "Tsinghai" },
+            { "starsystemdef_XantheIII", "Xanthe" }
+        };
     }
 }

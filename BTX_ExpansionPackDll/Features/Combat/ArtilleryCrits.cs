@@ -32,7 +32,7 @@ namespace BTX_ExpansionPack.Features.Combat
                 var matcher = new CodeMatcher(instructions);
 
                 object distance = matcher.MatchForward(false, new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Vector3), nameof(Vector3.Distance)))).Advance(1).Operand;
-                object realdistance = matcher.MatchForward(false, new CodeMatch(OpCodes.Ldloc_S, distance), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
+                object distanceToTarget = matcher.MatchForward(false, new CodeMatch(OpCodes.Ldloc_S, distance), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
                 object reachableLocations = matcher.MatchForward(false, new CodeMatch(OpCodes.Newobj, AccessTools.Constructor(typeof(HashSet<int>))), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
 
                 object mech = matcher.MatchForward(false, new CodeMatch(OpCodes.Isinst, typeof(Mech)), new CodeMatch(OpCodes.Stloc_S)).Advance(1).Operand;
@@ -44,7 +44,7 @@ namespace BTX_ExpansionPack.Features.Combat
                         new CodeMatch(OpCodes.Callvirt, AccessTools.Method(typeof(ICustomMech), nameof(ICustomMech.GetAOESpreadArmorLocations))))
                     .InsertAndAdvance(
                         new CodeInstruction(OpCodes.Ldloc_S, reachableLocations),
-                        new CodeInstruction(OpCodes.Ldloc_S, realdistance))
+                        new CodeInstruction(OpCodes.Ldloc_S, distanceToTarget))
                     .SetInstruction(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(ArtilleryCrits), nameof(GetDynamicAoESpread))))
 
                     .MatchForward(true,
@@ -52,7 +52,7 @@ namespace BTX_ExpansionPack.Features.Combat
                         new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(GetAOESpreadLocationsHelper), nameof(GetAOESpreadLocationsHelper.GetAOESpreadArmorLocations))))
                     .InsertAndAdvance(
                         new CodeInstruction(OpCodes.Ldloc_S, reachableLocations),
-                        new CodeInstruction(OpCodes.Ldloc_S, realdistance))
+                        new CodeInstruction(OpCodes.Ldloc_S, distanceToTarget))
                     .SetInstruction(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(ArtilleryCrits), nameof(GetDynamicAoESpread))))
                     .InstructionEnumeration();
             }
