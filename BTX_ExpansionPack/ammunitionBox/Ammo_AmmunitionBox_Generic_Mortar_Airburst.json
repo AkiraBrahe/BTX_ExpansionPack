@@ -7,9 +7,9 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "Mortar",
-    "UIName": "Airburst Mortar Ammo",
+    "UIName": "Mortar Airburst Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_Mortar_Airburst",
-    "Name": "Airburst Mortar Ammo",
+    "Name": "Mortar Airburst Ammo",
     "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nAirburst mortar shells separate into bomblets in mid-air to inflict damage on a single target.\n\nAirburst Mortar ammo bins each contain 24 rounds and may feed multiple weapons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },

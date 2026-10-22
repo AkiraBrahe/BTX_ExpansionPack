@@ -7,9 +7,9 @@
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "Mortar",
-    "UIName": "Shaped Charge Mortar Ammo",
+    "UIName": "Mortar Shaped Charge Ammo",
     "Id": "Ammo_AmmunitionBox_Generic_Mortar_Shaped",
-    "Name": "Shaped Charge Mortar Ammo",
+    "Name": "Mortar Shaped Charge Ammo",
     "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nShaped Charge mortar shells can penetrate armor and damage the internal systems of a single target.\n\nShaped Charge Mortar ammo bins each contain 24 rounds and may feed multiple weapons.",
     "Icon": "uixSvgIcon_ammoBox_Ballistic"
   },
