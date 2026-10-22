@@ -138,27 +138,9 @@ namespace BTX_ExpansionPack.Features.Vehicles
                     }
                 }
             }
-
-            private static bool IsMovementImpaired(AbstractActor unit, out int motiveStacks)
-            {
-                var motiveEffect = GetMotiveDebuffEffect(unit, "motiveSystemLoss", "CruiseSpeed");
-                if (motiveEffect != null && float.TryParse(motiveEffect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float modValue))
-                {
-                    motiveStacks = CalculateDebuffStacks(modValue, "CruiseSpeed");
-                    return motiveStacks > 0;
-                }
-
-                motiveStacks = 0;
-                return false;
-            }
-
-            private static bool IsStuck(AbstractActor unit)
-            {
-                var pathing = unit.Pathing;
-                var walkGrid = pathing?.getGrid(MoveType.Walking);
-                return walkGrid != null && walkGrid.GetSampledPathNodes().Count <= 1;
-            }
         }
+
+        #region Motive Debuff Helpers
 
         private static Effect GetMotiveDebuffEffect(AbstractActor actor, string effectId, string statName) =>
             actor.Combat.EffectManager.GetAllEffectsTargeting(actor)
@@ -175,5 +157,49 @@ namespace BTX_ExpansionPack.Features.Vehicles
             statName == "CruiseSpeed"
                 ? Extended_CE.Core.Settings.MotiveCritMovementLoss
                 : Extended_CE.Core.Settings.MotiveCritMovementLoss * 1.5f;
+
+        #endregion
+
+        #region Pathfinding Helpers
+
+        private static bool IsMovementImpaired(AbstractActor unit, out int motiveStacks)
+        {
+            var motiveEffect = GetMotiveDebuffEffect(unit, "motiveSystemLoss", "CruiseSpeed");
+            if (motiveEffect != null && float.TryParse(motiveEffect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float modValue))
+            {
+                motiveStacks = CalculateDebuffStacks(modValue, "CruiseSpeed");
+                return motiveStacks > 0;
+            }
+
+            motiveStacks = 0;
+            return false;
+        }
+
+        public static bool IsStuck(AbstractActor unit)
+        {
+            bool canWalk = HasNonStationaryWalkingDestination(unit);
+            bool canJump = unit is Mech mech && HasNonStationaryJumpDestination(mech);
+            return !canWalk && !canJump;
+        }
+
+        private static bool HasNonStationaryWalkingDestination(AbstractActor unit)
+        {
+            if (unit.Pathing == null)
+                return false;
+
+            var pathNodes = unit.Pathing.getGrid(MoveType.Walking)?.GetSampledPathNodes();
+            return pathNodes != null && pathNodes.Count > 1;
+        }
+
+        private static bool HasNonStationaryJumpDestination(Mech mech)
+        {
+            if (mech.Pathing == null || mech.JumpDistance <= 0f)
+                return false;
+
+            var pathNodes = mech.Pathing.getGrid(MoveType.Jumping)?.GetSampledPathNodes();
+            return pathNodes != null && pathNodes.Count > 1;
+        }
+
+        #endregion
     }
 }

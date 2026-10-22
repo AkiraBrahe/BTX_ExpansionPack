@@ -150,9 +150,9 @@ namespace BTX_ExpansionPack.Features.Simulation
                 if (contract?.Override == null) return;
 
                 var parentObject = ContractDescriptionField.transform.parent.gameObject;
-                var targetText = parentObject.FindComponent<LocalizableText>("txt_target");
-                var hostileText = parentObject.FindComponent<LocalizableText>("txt_hostile");
-                var variantText = parentObject.FindComponent<LocalizableText>("txt_variant");
+                var targetText = FindChildComponent<LocalizableText>(parentObject, "txt_target");
+                var hostileText = FindChildComponent<LocalizableText>(parentObject, "txt_hostile");
+                var variantText = FindChildComponent<LocalizableText>(parentObject, "txt_variant");
 
                 int siblingOffset = 1;
 
@@ -178,8 +178,12 @@ namespace BTX_ExpansionPack.Features.Simulation
                             $"{targetLabel}: <color=#F79B26>{targetFactionName}</color>",
                             parentObject.transform.GetSiblingIndex() + siblingOffset
                         );
-                        SetupFactionTooltip(targetText, contract.Override.targetTeam.faction);
+                        SetupFactionTooltip(targetText, targetId);
                         siblingOffset++;
+                    }
+                    else if (targetText != null)
+                    {
+                        targetText.gameObject.SetActive(false);
                     }
 
                     if (isThreeWayBattle)
@@ -211,12 +215,12 @@ namespace BTX_ExpansionPack.Features.Simulation
                         }
                         else if (hostileText != null)
                         {
-                            UnityEngine.Object.Destroy(hostileText.gameObject);
+                            hostileText.gameObject.SetActive(false);
                         }
                     }
-                    else
+                    else if (hostileText != null)
                     {
-                        UnityEngine.Object.Destroy(hostileText.gameObject);
+                        hostileText.gameObject.SetActive(false);
                     }
 
                     var minimap = parentObject.FindComponent<Image>("img_minimap_back");
@@ -227,6 +231,11 @@ namespace BTX_ExpansionPack.Features.Simulation
 
                         tooltip.SetDefaultStateData(TooltipUtilities.GetStateDataFromObject(mapName));
                     }
+                }
+                else
+                {
+                    if (targetText != null) targetText.gameObject.SetActive(false);
+                    if (hostileText != null) hostileText.gameObject.SetActive(false);
                 }
 
                 if (Main.Settings.UI.ContractIntel.IntelShowVariant)
@@ -246,9 +255,25 @@ namespace BTX_ExpansionPack.Features.Simulation
                     }
                     else if (variantText != null)
                     {
-                        UnityEngine.Object.Destroy(variantText.gameObject);
+                        variantText.gameObject.SetActive(false);
                     }
                 }
+                else if (variantText != null)
+                {
+                    variantText.gameObject.SetActive(false);
+                }
+            }
+
+            public static T FindChildComponent<T>(GameObject go, string name) where T : Component
+            {
+                foreach (var t in go.GetComponentsInChildren<T>())
+                {
+                    if (t.gameObject.name == name)
+                    {
+                        return t;
+                    }
+                }
+                return default(T);
             }
 
             private static string GetThreeWayBattleSecondaryFaction(Contract contract)
@@ -256,19 +281,19 @@ namespace BTX_ExpansionPack.Features.Simulation
                 if (contract.Override.chunkList == null)
                     return null;
 
-                bool hasHostileToAll = contract.Override.chunkList.Exists(chunk => chunk.name.Contains("Chunk_HostileAll") == true && chunk.enableChunkFromContract);
+                bool hasHostileToAll = contract.Override.chunkList.Exists(chunk => chunk != null && chunk.name != null && chunk.name.Contains("Chunk_HostileAll") && chunk.enableChunkFromContract);
                 if (hasHostileToAll)
                 {
                     return contract.Override.hostileToAllTeam.faction;
                 }
 
-                bool hasEnemyAlly = contract.Override.chunkList.Exists(chunk => chunk.name.Contains("Chunk_EnemyAlly") == true && chunk.enableChunkFromContract);
+                bool hasEnemyAlly = contract.Override.chunkList.Exists(chunk => chunk != null && chunk.name != null && chunk.name.Contains("Chunk_EnemyAlly") == true && chunk.enableChunkFromContract);
                 return hasEnemyAlly ? contract.Override.targetsAllyTeam.faction : null;
             }
 
-            private static LocalizableText SetupTextComponent(LocalizableText existing, GameObject parent, LocalizableText template, string name, string text, int siblingIndex)
+            private static LocalizableText SetupTextComponent(LocalizableText textField, GameObject parent, LocalizableText template, string name, string text, int siblingIndex)
             {
-                if (existing == null)
+                if (textField == null)
                 {
                     var newText = UnityEngine.Object.Instantiate(template.gameObject).GetComponent<LocalizableText>();
                     if (newText != null)
@@ -284,8 +309,9 @@ namespace BTX_ExpansionPack.Features.Simulation
                 }
                 else
                 {
-                    existing.SetText(text);
-                    return existing;
+                    textField.gameObject.SetActive(true);
+                    textField.SetText(text);
+                    return textField;
                 }
             }
 

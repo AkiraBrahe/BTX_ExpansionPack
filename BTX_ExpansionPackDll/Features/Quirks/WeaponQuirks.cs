@@ -115,26 +115,29 @@ namespace BTX_ExpansionPack.Features.Quirks
             {
                 if (weapon.parent is not Mech mech) return;
 
+                if (!CustomQuirkStore.TryGetValue(mech.MechDef.ChassisID, out var customQuirks))
+                    return;
+
                 var mountedLocation = weapon.mechComponentRef.MountedLocation;
                 switch (mountedLocation)
                 {
                     case ChassisLocations.LeftTorso:
                         {
-                            bool accurateLT = CustomQuirkStore[mech.GUID].AccurateLT;
+                            bool accurateLT = customQuirks.AccurateLT;
                             if (accurateLT)
                                 __result++;
                             break;
                         }
                     case ChassisLocations.RightTorso:
                         {
-                            bool accurateRTPPC = CustomQuirkStore[mech.GUID].AccurateRTPPC;
+                            bool accurateRTPPC = customQuirks.AccurateRTPPC;
                             if (accurateRTPPC && weapon.Type == WeaponType.PPC)
                                 __result++;
                             break;
                         }
                     case ChassisLocations.LeftLeg or ChassisLocations.RightLeg:
                         {
-                            bool accurateLegs = CustomQuirkStore[mech.GUID].AccurateLegs;
+                            bool accurateLegs = customQuirks.AccurateLegs;
                             if (accurateLegs)
                                 __result++;
                             break;
@@ -145,6 +148,8 @@ namespace BTX_ExpansionPack.Features.Quirks
 
         // TODO: Patch Mech_ResolveWeaponDamage, add ExposedWeaponLinkageRT (crit through armor)
         // The patch logic is quite complex; will try to add it later. 
+
+        // TODO: Check how to implement DirectionalMount (360° arcs to specific weapon(s)) by disabling non-directional weapons when firing in rear arcs
 
         #endregion
     }
