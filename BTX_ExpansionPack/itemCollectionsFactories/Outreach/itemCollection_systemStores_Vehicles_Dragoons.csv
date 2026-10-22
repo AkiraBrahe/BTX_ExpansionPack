@@ -14,5 +14,7 @@ vehicledef_BANDIT-E,Mech,1,1
 vehicledef_BANDIT-F,Mech,1,1
 vehicledef_BANDIT-G,Mech,1,1
 vehicledef_KESTREL,Mech,1,2
+vehicledef_KESTREL_ML,Mech,1,1
 vehicledef_KESTREL_SL,Mech,1,1
+vehicledef_KESTREL_SCOUT,Mech,1,1
 vehicledef_PEREGRINE,Mech,1,2
