@@ -1,17 +1,20 @@
 {
+  "Custom": {
+    "Sorter": 71
+  },
   "Category": "Energy",
   "Type": "PPC",
   "WeaponSubType": "PPCER",
   "MinRange": 0,
-  "MaxRange": 620,
+  "MaxRange": 585,
   "RangeSplit": [
-    440,
-    440,
-    620
+    195,
+    390,
+    585
   ],
   "ammoCategoryID": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 28,
+  "HeatGenerated": 39,
   "Damage": 60,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -30,7 +33,7 @@
   "WeaponEffectID": "WeaponEffect-Weapon_PPC",
   "Description": {
     "Cost": 4650000,
-    "Rarity": 100,
+    "Rarity": 99,
     "Purchasable": false,
     "Manufacturer": "Martinson Armaments",
     "Model": "Extended-Range PPC",
@@ -41,7 +44,7 @@
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "+ 4 Acc.",
-  "BonusValueB": "- 4 Heat",
+  "BonusValueB": "- 6 Heat",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "PPC",
@@ -93,7 +96,8 @@
       "component_type_variant3",
       "component_type_lostech",
       "range_very_long",
-      "ppc_capacitor_attachable"
+      "ppc_capacitor_attachable",
+      "energy_tts_attachable"
     ],
     "tagSetSourceFile": ""
   }
