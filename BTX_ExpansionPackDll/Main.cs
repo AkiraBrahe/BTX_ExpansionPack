@@ -329,20 +329,25 @@ namespace BTX_ExpansionPack
             if (xotlAssembly == null) return;
 
             // Add custom faction tables from the XotlTablesV2 folder
-            string xotlDir = Path.GetDirectoryName(xotlAssembly.Location);
-            var customTables = FactionTables.GenerateFromCustomFolder(Path.Combine(xotlDir, "XotlTablesV2"));
+            string xotlModDir = Path.GetDirectoryName(xotlAssembly.Location);
+            string customTablesDir = Path.Combine(xotlModDir, "XotlTablesV2");
+            if (!Directory.Exists(customTablesDir))
+            {
+                Directory.CreateDirectory(customTablesDir);
+            }
 
-            FullXotlTables.Logger.Log("Adding custom faction tables from XotlTablesV2 folder...");
+            var customTables = FactionTables.GenerateFromCustomFolder(customTablesDir);
+            FullXotlTables.Logger.Log($"Adding custom faction tables from XotlTablesV2 folder...");
 
             foreach (var faction in customTables.Factions)
             {
                 FactionTables.GetXotlTables().Factions[faction.Key] = faction.Value;
 
                 FullXotlTables.Logger.Log("Faction: " + faction.Key);
-                FullXotlTables.Logger.Log(" Number of Lights: " + faction.Value.Mechs.Lights.Count.ToString());
-                FullXotlTables.Logger.Log(" Number of Mediums: " + faction.Value.Mechs.Mediums.Count.ToString());
-                FullXotlTables.Logger.Log(" Number of Heavies: " + faction.Value.Mechs.Heavies.Count.ToString());
-                FullXotlTables.Logger.Log(" Number of Assaults: " + faction.Value.Mechs.Assaults.Count.ToString());
+                // FullXotlTables.Logger.Log(" Number of Lights: " + faction.Value.Mechs.Lights.Count.ToString());
+                // FullXotlTables.Logger.Log(" Number of Mediums: " + faction.Value.Mechs.Mediums.Count.ToString());
+                // FullXotlTables.Logger.Log(" Number of Heavies: " + faction.Value.Mechs.Heavies.Count.ToString());
+                // FullXotlTables.Logger.Log(" Number of Assaults: " + faction.Value.Mechs.Assaults.Count.ToString());
             }
 
             Logger.LogDebug($"[FactionTables] Loaded {customTables.Factions.Count} custom faction tables.");
@@ -352,12 +357,14 @@ namespace BTX_ExpansionPack
             {
                 FullXotlTables.Logger.Log("Removing Locals faction tables...");
 
-                foreach (string factionId in FactionTables.GetXotlTables().Factions.Keys)
+                foreach (string factionId in FactionTables.GetXotlTables().Factions.Keys.ToList())
                 {
                     if (factionId.EndsWith("Locals"))
                         FactionTables.GetXotlTables().Factions.Remove(factionId);
                 }
             }
+
+            FullXotlTables.Logger.Log("Done.");
         }
 
         [HarmonyPatch(typeof(MainMenu), "Init")]

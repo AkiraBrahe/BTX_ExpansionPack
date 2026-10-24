@@ -23,76 +23,83 @@ namespace BTX_ExpansionPack.Features.Simulation
         /// </remarks>
         public static XotlTable GenerateFromCustomFolder(string folderPath)
         {
-            string[] files = Directory.GetFiles(folderPath, "*.csv");
+            string[] files = Directory.GetFiles(folderPath, "*.csv", SearchOption.AllDirectories);
             var customTables = new XotlTable();
             foreach (string file in files)
             {
-                var factionTable = new FactionTable();
-                string key = null;
-                using (var sr = new StreamReader(file))
+                try
                 {
-                    if (sr != null)
+                    var factionTable = new FactionTable();
+                    string key = null;
+                    using (var sr = new StreamReader(file))
                     {
-                        string[] firstLine = sr.ReadLine().Split(',');
-                        bool hasBV = firstLine.Length > 1 && (string.IsNullOrEmpty(firstLine[0]) || firstLine[0] == "BV" || int.TryParse(firstLine[0], out _));
-                        key = hasBV ? firstLine[1] : firstLine[0];
-
-                        string[] ReadCsvLine()
+                        if (sr != null)
                         {
-                            string[] parts = sr.ReadLine().Split(',');
-                            return hasBV && parts.Length > 1 ? [.. parts.Skip(1)] : parts;
-                        }
+                            string[] firstLine = sr.ReadLine().Split(',');
+                            bool hasBV = firstLine.Length > 1 && (string.IsNullOrEmpty(firstLine[0]) || firstLine[0] == "BV");
+                            key = hasBV ? firstLine[1] : firstLine[0];
 
-                        string[] line = ReadCsvLine();
-                        while (!sr.EndOfStream)
-                        {
-                            line = ReadCsvLine();
-                            if (line[0].StartsWith("Collection:"))
+                            string[] ReadCsvLine()
                             {
-                                factionTable.Collection.Add(line[0].Split(':')[1], ReadWeightLine(line));
+                                string[] parts = sr.ReadLine().Split(',');
+                                return hasBV && parts.Length > 1 ? [.. parts.Skip(1)] : parts;
                             }
-                            else if (line[0].StartsWith("Salvage:"))
+
+                            string[] line = ReadCsvLine();
+                            while (!sr.EndOfStream)
                             {
-                                factionTable.Salvage.Add(line[0].Split(':')[1], ReadWeightLine(line));
-                            }
-                            else if (line[0].Contains("Dates"))
-                            {
-                                for (int index = 1; index < line.Length; index += 2)
-                                    factionTable.Dates.Add(DateTime.Parse(line[index]));
-                            }
-                            else if (line[0].Contains("Lights"))
-                            {
-                                while (!sr.EndOfStream && !line[0].Contains("Mediums"))
+                                line = ReadCsvLine();
+                                if (line[0].StartsWith("Collection:"))
                                 {
-                                    line = sr.ReadLine().Split(',');
-                                    if (line[0] != "" && !line[0].Contains("Mediums"))
-                                        factionTable.Mechs.Lights.Add(line[0], ReadWeightLine(line));
+                                    factionTable.Collection.Add(line[0].Split(':')[1], ReadWeightLine(line));
                                 }
-                                while (!sr.EndOfStream && !line[0].Contains("Heavies"))
+                                else if (line[0].StartsWith("Salvage:"))
                                 {
-                                    line = sr.ReadLine().Split(',');
-                                    if (line[0] != "" && !line[0].Contains("Heavies"))
-                                        factionTable.Mechs.Mediums.Add(line[0], ReadWeightLine(line));
+                                    factionTable.Salvage.Add(line[0].Split(':')[1], ReadWeightLine(line));
                                 }
-                                while (!sr.EndOfStream && !line[0].Contains("Assaults"))
+                                else if (line[0].Contains("Dates"))
                                 {
-                                    line = sr.ReadLine().Split(',');
-                                    if (line[0] != "" && !line[0].Contains("Assaults"))
-                                        factionTable.Mechs.Heavies.Add(line[0], ReadWeightLine(line));
+                                    for (int index = 1; index < line.Length; index += 2)
+                                        factionTable.Dates.Add(DateTime.Parse(line[index]));
                                 }
-                                while (!sr.EndOfStream)
+                                else if (line[0].Contains("Lights"))
                                 {
-                                    line = sr.ReadLine().Split(',');
-                                    if (line[0] != "")
-                                        factionTable.Mechs.Assaults.Add(line[0], ReadWeightLine(line));
+                                    while (!sr.EndOfStream && !line[0].Contains("Mediums"))
+                                    {
+                                        line = ReadCsvLine();
+                                        if (line[0] != "" && !line[0].Contains("Mediums"))
+                                            factionTable.Mechs.Lights.Add(line[0], ReadWeightLine(line));
+                                    }
+                                    while (!sr.EndOfStream && !line[0].Contains("Heavies"))
+                                    {
+                                        line = ReadCsvLine();
+                                        if (line[0] != "" && !line[0].Contains("Heavies"))
+                                            factionTable.Mechs.Mediums.Add(line[0], ReadWeightLine(line));
+                                    }
+                                    while (!sr.EndOfStream && !line[0].Contains("Assaults"))
+                                    {
+                                        line = ReadCsvLine();
+                                        if (line[0] != "" && !line[0].Contains("Assaults"))
+                                            factionTable.Mechs.Heavies.Add(line[0], ReadWeightLine(line));
+                                    }
+                                    while (!sr.EndOfStream)
+                                    {
+                                        line = ReadCsvLine();
+                                        if (line[0] != "")
+                                            factionTable.Mechs.Assaults.Add(line[0], ReadWeightLine(line));
+                                    }
                                 }
                             }
                         }
                     }
-                }
 
-                if (key != null)
-                    customTables.Factions.Add(key, factionTable);
+                    if (key != null)
+                        customTables.Factions.Add(key, factionTable);
+                }
+                catch (Exception ex)
+                {
+                    Main.Logger.LogError($"[SetupFactionTables] Failed to parse '{file}': {ex.Message}");
+                }
             }
 
             return customTables;
@@ -180,7 +187,7 @@ namespace BTX_ExpansionPack.Features.Simulation
         [HarmonyPatch(typeof(XotlTable), "RequestUnit")]
         public static class XotlTable_RequestUnit
         {
-            private static DateTime GetSalvageDate(DateTime currentDate) => currentDate.AddYears(-10);
+            public static DateTime GetSalvageDate(DateTime currentDate) => currentDate.AddYears(-10);
 
             [HarmonyTranspiler]
             public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
@@ -229,7 +236,7 @@ namespace BTX_ExpansionPack.Features.Simulation
 
                     matcher.SetInstructionAndAdvance(replacement)
                            .RemoveInstructions(4)
-                           .Insert(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(XotlTable_RequestUnit), nameof(GetSalvageDate))),
+                           .Insert(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(XotlTable_RequestUnit), "GetSalvageDate")),
                                    new CodeInstruction(storeOpcode, local));
                     patchedDates++;
                 }
