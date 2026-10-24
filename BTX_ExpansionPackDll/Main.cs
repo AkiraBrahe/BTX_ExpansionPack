@@ -5,7 +5,6 @@ using BattleTech.UI;
 using BattleTech.UI.Tooltips;
 using BTX_ExpansionPack.Features.Refit;
 using BTX_ExpansionPack.Features.Simulation;
-using FullXotlTables;
 using HBS.Logging;
 using Newtonsoft.Json;
 using System;
@@ -44,14 +43,14 @@ namespace BTX_ExpansionPack
                 UpdateDynamicDifficultyLances(MetadataDatabase.Instance);
                 ApplyHarmonyPatches();
                 RegisterModComponents();
-
-                Logger.Log("Mod initialized!");
             }
             catch (Exception ex)
             {
                 initSuccess = false;
                 Logger.LogError($"Failed during initialization: {ex.Message}");
             }
+
+            Logger.Log("Mod initialized!");
         }
 
         public static void FinishedLoading()
@@ -72,7 +71,7 @@ namespace BTX_ExpansionPack
             catch (Exception ex)
             {
                 initSuccess = false;
-                Logger.LogError("FinishedLoading encountered an error: " + ex.Message);
+                Logger.LogError($"Failed during post-loading setup: {ex.Message}");
             }
         }
 
@@ -85,64 +84,18 @@ namespace BTX_ExpansionPack
 
         internal static void ApplyHarmonyPatches()
         {
+            UnpatchConflictingMethods();
+
             try
             {
-                UnpatchMethods();
                 harmony.PatchAll(Assembly.GetExecutingAssembly());
                 Logger.LogDebug("[2/3] Successfully applied Harmony patches.");
             }
             catch (Exception ex)
             {
-                Logger.LogError($"Error unpatching conflicting mods: {ex.Message}");
+                initSuccess = false;
+                Logger.LogError($"Error applying Harmony patches: {ex.Message}");
             }
-        }
-
-        private static void UnpatchMethods()
-        {
-            // --- Abilifier ---
-            /* Custom Ability Tree */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Pilot), "InitAbilities"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "ca.gnivler.BattleTech.Abilifier");
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Dehydrate"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
-            /* Ability Ordering */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SGBarracksMWDetailPanel), "SetPilot"), HarmonyPatchType.Postfix, "ca.gnivler.BattleTech.Abilifier");
-
-            // --- BattleTech Extended ---
-            /* Firing Arc Quirks */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
-            /* Mech Tooltips */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(TooltipPrefab_Chassis), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(TooltipPrefab_Mech), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabMechInfoWidget), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
-            /* Pathfinding */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PathNodeGrid), "GetTerrainModifiedCost", [typeof(PathNode), typeof(PathNode), typeof(float)]), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
-            /* Temp Jump Jets */
-            harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
-            /* Weather Conditions */
-            harmony.Unpatch(AccessTools.PropertyGetter(typeof(Contract), "ShortDescription"), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
-
-            // --- CAC-C ---
-            /* Actuators */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "InitStats"), AccessTools.DeclaredMethod(typeof(BTX_CAC_CompatibilityDll.AbstractActor_InitStats), "Prefix"));
-            /* Drop Slots Fix */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
-            /* Inventory Blockers */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ChassisDef), "FromJSON"), AccessTools.DeclaredMethod(typeof(BTX_CAC_CompatibilityDll.MovableBlockers), "ChassisDef_FromJSON"));
-
-            // --- Custom Units ---
-            /* Location Labels */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(LanceMechEquipmentList), "SetLoadout", []), HarmonyPatchType.Postfix, "io.mission.customunits");
-            /* Piloting Expertise */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PilotGenerator), "GeneratePilots"), HarmonyPatchType.Postfix, "io.mission.customunits");
-
-            // --- Full Xotl Tables ---
-            /* Unit Selection */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(UnitSpawnPointOverride), "RequestUnit"), HarmonyPatchType.Prefix, "BattleTech.Haree.FullXotlTables");
-
-            // --- Mech Affinity ---
-            /* Stock Config Tooltip */
-            harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabStockInfoPopup), "StockMechDefLoaded"), HarmonyPatchType.Postfix, "ca.jwolf.MechAffinity");
         }
 
         internal static void RegisterModComponents()
@@ -151,6 +104,62 @@ namespace BTX_ExpansionPack
             MovableBlockers.Register();
 
             Logger.LogDebug("[3/3] Successfully registered mod components.");
+        }
+
+        private static void UnpatchConflictingMethods()
+        {
+            try
+            {
+                // --- Abilifier ---
+                /* Custom Ability Tree */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Pilot), "InitAbilities"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "ca.gnivler.BattleTech.Abilifier");
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Dehydrate"), HarmonyPatchType.Prefix, "ca.gnivler.BattleTech.Abilifier");
+                /* Ability Ordering */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SGBarracksMWDetailPanel), "SetPilot"), HarmonyPatchType.Postfix, "ca.gnivler.BattleTech.Abilifier");
+
+                // --- BattleTech Extended ---
+                /* Firing Arc Quirks */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "IsTargetPositionInFiringArc"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+                /* Mech Tooltips */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(TooltipPrefab_Chassis), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(TooltipPrefab_Mech), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabMechInfoWidget), "SetData"), HarmonyPatchType.Postfix, "BEX.BattleTech.MechQuirks");
+                /* Pathfinding */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PathNodeGrid), "GetTerrainModifiedCost", [typeof(PathNode), typeof(PathNode), typeof(float)]), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+                /* Temp Jump Jets */
+                harmony.Unpatch(AccessTools.Property(typeof(AbstractActor), "WorkingJumpjets").GetGetMethod(), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+                /* Weather Conditions */
+                harmony.Unpatch(AccessTools.PropertyGetter(typeof(Contract), "ShortDescription"), HarmonyPatchType.Postfix, "BEX.BattleTech.Extended_CE");
+
+                // --- CAC-C ---
+                /* Actuators */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(Mech), "InitStats"), AccessTools.DeclaredMethod(typeof(BTX_CAC_CompatibilityDll.AbstractActor_InitStats), "Prefix"));
+                /* Drop Slots Fix */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "InitCompanyStats"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(SimGameState), "Rehydrate"), HarmonyPatchType.Postfix, "com.github.mcb5637.BTX_CAC_Compatibility");
+                /* Inventory Blockers */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(ChassisDef), "FromJSON"), AccessTools.DeclaredMethod(typeof(BTX_CAC_CompatibilityDll.MovableBlockers), "ChassisDef_FromJSON"));
+
+                // --- Custom Units ---
+                /* Location Labels */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(LanceMechEquipmentList), "SetLoadout", []), HarmonyPatchType.Postfix, "io.mission.customunits");
+                /* Piloting Expertise */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(PilotGenerator), "GeneratePilots"), HarmonyPatchType.Postfix, "io.mission.customunits");
+
+                // --- Full Xotl Tables ---
+                /* Unit Selection */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(UnitSpawnPointOverride), "RequestUnit"), HarmonyPatchType.Prefix, "BattleTech.Haree.FullXotlTables");
+
+                // --- Mech Affinity ---
+                /* Stock Config Tooltip */
+                harmony.Unpatch(AccessTools.DeclaredMethod(typeof(MechLabStockInfoPopup), "StockMechDefLoaded"), HarmonyPatchType.Postfix, "ca.jwolf.MechAffinity");
+            }
+            catch (Exception ex)
+            {
+                initSuccess = false;
+                Logger.LogError($"Error unpatching conflicting methods: {ex.Message}");
+            }
         }
 
         internal static void ApplySettings()
