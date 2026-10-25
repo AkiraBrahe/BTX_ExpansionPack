@@ -14,7 +14,9 @@ namespace BTX_ExpansionPack.Features.Simulation
         internal static readonly Dictionary<string, (string Faction, bool VehicleOnly)> StartingFactionStores = new()
         {
             { "starsystemdef_Addicks", ("Davion", true) },
+            { "starsystemdef_AlphaEridani(Achernar)", ("Liao", false) },
             { "starsystemdef_Andurien", ("Marik", true) },
+            { "starsystemdef_Ashkum", ("Davion", false) },
             { "starsystemdef_Belladonna", ("Davion", true) },
             { "starsystemdef_BrokenWheel", ("Davion", true) },
             { "starsystemdef_Cahokia", ("Davion", false) },
@@ -56,8 +58,8 @@ namespace BTX_ExpansionPack.Features.Simulation
             { "3042-01-01T00:00:00", [ "starsystemdef_Alphard(MH)" ] },
             { "3050-01-01T00:00:00", [ "starsystemdef_Orestes" ] },
             { "3052-01-01T00:00:00", [ "starsystemdef_Ruchbah" ] },
-            { "3064-01-01T00:00:00", [ "starsystemdef_Bristol" ] },
-            { "3068-01-01T00:00:00", [ "starsystemdef_Arcturus", "starsystemdef_Benet", "starsystemdef_Irece", "starsystemdef_Melissia" ] }
+            { "3064-01-01T00:00:00", [ "starsystemdef_Bristol", "starsystemdef_Fronc"] },
+            { "3068-01-01T00:00:00", [ "starsystemdef_Arcturus", "starsystemdef_Irece", "starsystemdef_Melissia" ] }
         };
 
         #endregion

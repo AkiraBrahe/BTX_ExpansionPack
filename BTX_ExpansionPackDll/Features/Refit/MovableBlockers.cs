@@ -173,7 +173,7 @@ namespace BTX_ExpansionPack.Features.Refit
             while (slotsToRemove > 0)
             {
                 bool changed = false;
-                foreach (var location in repairPriorities.Values)
+                foreach (var location in RepairPriorities.Values)
                 {
                     var blocker = allBlockers.FirstOrDefault(b => b.MountedLocation == location);
                     if (blocker != null)
@@ -207,7 +207,7 @@ namespace BTX_ExpansionPack.Features.Refit
             if (slotsToAdd <= 0) return;
 
             // Step A: Check available free slots in each location
-            var distribution = allLocations.ToDictionary(loc => loc, loc => 0);
+            var distribution = AllLocations.ToDictionary(loc => loc, loc => 0);
             var freeSlots = distribution.Keys.ToDictionary(loc => loc, loc => mech.GetFreeSlotsInLoc([.. mech.Inventory], loc));
 
             int totalFreeSlots = freeSlots.Values.Sum();
@@ -277,8 +277,8 @@ namespace BTX_ExpansionPack.Features.Refit
                 } while (added && slotsToAdd > 0);
             }
 
-            Fill([.. sideLocations]);
-            Fill([.. coreLocations]);
+            Fill([.. SideLocations]);
+            Fill([.. CoreLocations]);
 
             if (slotsToAdd > 0)
             {
@@ -371,7 +371,7 @@ namespace BTX_ExpansionPack.Features.Refit
         {
             int slots = blocker.Def.InventorySize;
 
-            var priorityLocations = allLocations
+            var priorityLocations = AllLocations
                 .Where(loc => loc != drop_location)
                 .OrderBy(loc => mechDef.Inventory.Any(c => c.MountedLocation == loc && c.ComponentDefID.StartsWith(baseID)))
                 .ToList();
@@ -467,7 +467,7 @@ namespace BTX_ExpansionPack.Features.Refit
         /// </summary>
         private static void OptimizeBlockers(Queue<IChange> changes, MechDef mechDef, string baseID)
         {
-            foreach (var location in allLocations)
+            foreach (var location in AllLocations)
             {
                 int total = 0;
                 var items = new List<(int Size, MechComponentRef Ref, Change_Add Change, string ID)>();

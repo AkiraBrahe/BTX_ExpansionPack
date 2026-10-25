@@ -139,7 +139,7 @@ namespace BTX_ExpansionPack.Utilities
                     if (extraHSCount <= 0)
                         continue;
 
-                    var freeSlots = allLocations.ToDictionary(l => l, l => mechDef.GetFreeSlotsInLoc([.. mechDef.inventory], l, heatSinkSize));
+                    var freeSlots = AllLocations.ToDictionary(l => l, l => mechDef.GetFreeSlotsInLoc([.. mechDef.inventory], l, heatSinkSize));
                     int totalFreeSlots = freeSlots.Values.Sum();
                     int possibleHSCount = 0;
 

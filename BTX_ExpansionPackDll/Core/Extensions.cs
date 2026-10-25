@@ -338,12 +338,12 @@ namespace BTX_ExpansionPack.Core
             /// <summary>
             /// Checks if a unit is stuck (cannot move via walking or jumping).
             /// </summary>
-            public bool IsStuck() => !unit.HasNonStationaryWalkingDestination() && !unit.CanJump();
+            public bool IsStuck() => !unit.CanWalk() && !unit.CanJump();
 
             /// <summary>
-            /// Checks if a unit has a non-stationary walking destination.
+            /// Checks if a unit can walk (has a non-stationary walking destination).
             /// </summary>
-            public bool HasNonStationaryWalkingDestination()
+            public bool CanWalk()
             {
                 if (unit.Pathing == null)
                     return false;
@@ -355,7 +355,7 @@ namespace BTX_ExpansionPack.Core
             /// <summary>
             /// Checks if a unit can jump.
             /// </summary>
-            public bool CanJump() => unit is Mech mech && mech.JumpPathing != null && mech.JumpDistance > 0f;
+            public bool CanJump() => unit is Mech mech && mech.JumpDistance > 0f;
 
             /// <summary>
             /// Determines if a unit is essentially stationary.
@@ -538,10 +538,6 @@ namespace BTX_ExpansionPack.Core
                 unsafeRange = Mathf.Max(weapon.MinRange, weapon.ForbiddenRange());
                 return distance >= unsafeRange;
             }
-
-            #endregion
-
-            #region Homing Arrow IV
 
             /// <summary>
             /// Determines if a weapon is an Arrow IV with homing ammo.
