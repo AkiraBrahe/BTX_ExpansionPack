@@ -31,10 +31,9 @@ namespace BTX_ExpansionPack.Features.Combat
 
                     if (id != null && id.StartsWith("Weapon_Gauss_RailGun"))
                     {
-                        if (id == "Weapon_Gauss_RailGun_2-BS")
-                            __instance.Description.Details = "A Star League era relic using lost technology, the Rail Gun electromagnetically hurls massive metal projectiles. Those who assembled The General stripped the weapon of everything they could, which allowed it to be lightened to 25 tons, but at the expense of significantly worse heat dissipation. And there's no guarantee it's safe to fire...\n\nRail Guns explode if destroyed, taking the entire mounted location with them.";
-                        else
-                            __instance.Description.Details = "A Star League era relic using lost technology, the Rail Gun electromagnetically hurls massive metal projectiles. The staggering kinetic energy of its shells makes it an excellent armor-piercing weapon, easily penetrating the thickest plates to destroy internal systems. Like Gauss Rifles, Rail Guns cause instability when fired.\n\nRail Guns explode if destroyed, taking the entire mounted location with them.";
+                        __instance.Description.Details = id == "Weapon_Gauss_RailGun_2-BS"
+                            ? "A Star League era relic using lost technology, the Rail Gun electromagnetically hurls massive metal projectiles. Those who assembled The General stripped the weapon of everything they could, which allowed it to be lightened to 25 tons, but at the expense of significantly worse heat dissipation. And there's no guarantee it's safe to fire...\n\nRail Guns explode if destroyed, taking the entire mounted location with them."
+                            : "A Star League era relic using lost technology, the Rail Gun electromagnetically hurls massive metal projectiles. The staggering kinetic energy of its shells makes it an excellent armor-piercing weapon, easily penetrating the thickest plates to destroy internal systems. Like Gauss Rifles, Rail Guns cause instability when fired.\n\nRail Guns explode if destroyed, taking the entire mounted location with them.";
                     }
                     else if (id != null && id.StartsWith("Weapon_Gauss_Gauss") && !id.Contains("Magshot"))
                     {

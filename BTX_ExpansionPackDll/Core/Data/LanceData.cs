@@ -130,7 +130,7 @@ namespace BTX_ExpansionPack.Core.Data
 
         public class ArtilleryVehicleDef
         {
-            private static readonly int[] ReferenceYears = [3025, 3039, 3049, 3058, 3067, 3075];
+            private static readonly int[] ReferenceYears = [3025, 3039, 3050, 3058, 3067, 3075];
 
             public string DefId { get; set; }
             public int IntroYear { get; set; }
