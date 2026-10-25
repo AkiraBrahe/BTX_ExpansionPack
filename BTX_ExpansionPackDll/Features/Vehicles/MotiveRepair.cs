@@ -108,10 +108,14 @@ namespace BTX_ExpansionPack.Features.Vehicles
         public static class AITeam_getInvocationForCurrentUnit
         {
             [HarmonyPrefix]
-            public static void Prefix(AITeam __instance)
+            public static void Prefix(AITeam __instance, ref bool __runOriginal)
             {
+                if (!__runOriginal)
+                    return;
+
                 var unit = __instance.currentUnit;
-                if (unit == null || unit.HasMovedThisRound || unit.IsDead || unit.GetPilot() == null)
+                if (unit == null || unit.IsDead || unit.HasMovedThisRound || !unit.CanMove ||
+                    unit.IsInArtilleryMode() || unit.IsImmobile())
                     return;
 
                 // Handle vehicle-specific motive damage repair
@@ -127,9 +131,9 @@ namespace BTX_ExpansionPack.Features.Vehicles
                 }
 
                 // Handle any unit being physically stuck
-                if (IsStuck(unit))
+                if (unit.IsStuck())
                 {
-                    var carefulManeuvers = unit.GetPilot().Abilities.FirstOrDefault(x => x.Def.Id == "AbilityDef_CarefulManeuvers");
+                    var carefulManeuvers = unit.GetPilot()?.Abilities.FirstOrDefault(x => x.Def.Id == "AbilityDef_CarefulManeuvers");
                     if (carefulManeuvers != null && carefulManeuvers.IsAvailable)
                     {
                         Main.Logger.LogDebug($"[AI Tweaks] AI {unit.DisplayName} is stuck. Activating Careful Maneuvers.");
@@ -141,6 +145,19 @@ namespace BTX_ExpansionPack.Features.Vehicles
         }
 
         #region Motive Debuff Helpers
+
+        private static bool IsMovementImpaired(AbstractActor unit, out int motiveStacks)
+        {
+            var motiveEffect = GetMotiveDebuffEffect(unit, "motiveSystemLoss", "CruiseSpeed");
+            if (motiveEffect != null && float.TryParse(motiveEffect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float modValue))
+            {
+                motiveStacks = CalculateDebuffStacks(modValue, "CruiseSpeed");
+                return motiveStacks > 0;
+            }
+
+            motiveStacks = 0;
+            return false;
+        }
 
         private static Effect GetMotiveDebuffEffect(AbstractActor actor, string effectId, string statName) =>
             actor.Combat.EffectManager.GetAllEffectsTargeting(actor)
@@ -157,48 +174,6 @@ namespace BTX_ExpansionPack.Features.Vehicles
             statName == "CruiseSpeed"
                 ? Extended_CE.Core.Settings.MotiveCritMovementLoss
                 : Extended_CE.Core.Settings.MotiveCritMovementLoss * 1.5f;
-
-        #endregion
-
-        #region Pathfinding Helpers
-
-        private static bool IsMovementImpaired(AbstractActor unit, out int motiveStacks)
-        {
-            var motiveEffect = GetMotiveDebuffEffect(unit, "motiveSystemLoss", "CruiseSpeed");
-            if (motiveEffect != null && float.TryParse(motiveEffect.EffectData.statisticData.modValue, NumberStyles.Float, CultureInfo.InvariantCulture, out float modValue))
-            {
-                motiveStacks = CalculateDebuffStacks(modValue, "CruiseSpeed");
-                return motiveStacks > 0;
-            }
-
-            motiveStacks = 0;
-            return false;
-        }
-
-        public static bool IsStuck(AbstractActor unit)
-        {
-            bool canWalk = HasNonStationaryWalkingDestination(unit);
-            bool canJump = unit is Mech mech && HasNonStationaryJumpDestination(mech);
-            return !canWalk && !canJump;
-        }
-
-        private static bool HasNonStationaryWalkingDestination(AbstractActor unit)
-        {
-            if (unit.Pathing == null)
-                return false;
-
-            var pathNodes = unit.Pathing.getGrid(MoveType.Walking)?.GetSampledPathNodes();
-            return pathNodes != null && pathNodes.Count > 1;
-        }
-
-        private static bool HasNonStationaryJumpDestination(Mech mech)
-        {
-            if (mech.Pathing == null || mech.JumpDistance <= 0f)
-                return false;
-
-            var pathNodes = mech.Pathing.getGrid(MoveType.Jumping)?.GetSampledPathNodes();
-            return pathNodes != null && pathNodes.Count > 1;
-        }
 
         #endregion
     }

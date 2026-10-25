@@ -369,7 +369,7 @@ namespace BTX_ExpansionPack.Core
             public bool IsMissileThreatened()
             {
                 float predictedMissileDamage = 0f;
-                var detectedEnemies = unit.lance.team.GetDetectedEnemyUnits().Where(enemy => !enemy.IsDead);
+                var detectedEnemies = unit.lance.team.GetDetectedEnemyUnits().Where(enemy => enemy.CanMove);
 
                 foreach (var enemy in detectedEnemies)
                 {
@@ -574,6 +574,39 @@ namespace BTX_ExpansionPack.Core
         public static bool IsVTOLOrHoverTank(this AbstractActor unit) =>
             (unit is Mech mech && (mech.MechDef.MechTags.Contains("unit_vtol") || mech.MechDef.MechTags.Contains("unit_hover")))
             || (unit is Vehicle vehicle && (vehicle.VehicleDef.VehicleTags.Contains("unit_vtol") || vehicle.VehicleDef.VehicleTags.Contains("unit_hover")));
+
+        #endregion
+
+        #region Pathfinding
+
+        /// <summary>
+        /// Checks if a unit is immobile based on the irbtmu_immobile_unit stat.
+        /// </summary>
+        public static bool IsImmobile(this AbstractActor unit) =>
+            unit.StatCollection.ContainsStatistic("irbtmu_immobile_unit") &&
+            unit.StatCollection.GetValue<bool>("irbtmu_immobile_unit");
+
+        /// <summary>
+        /// Checks if a unit is stuck (cannot move via walking or jumping).
+        /// </summary>
+        public static bool IsStuck(this AbstractActor unit) => !unit.HasNonStationaryWalkingDestination() && !unit.CanJump();
+
+        /// <summary>
+        /// Checks if a unit has a non-stationary walking destination.
+        /// </summary>
+        private static bool HasNonStationaryWalkingDestination(this AbstractActor unit)
+        {
+            if (unit.Pathing == null)
+                return false;
+
+            var pathNodes = unit.Pathing.getGrid(MoveType.Walking)?.GetSampledPathNodes();
+            return pathNodes != null && pathNodes.Count > 1;
+        }
+
+        /// <summary>
+        /// Checks if a unit can jump.
+        /// </summary>
+        private static bool CanJump(this AbstractActor unit) => unit is Mech mech && mech.JumpPathing != null && mech.JumpDistance > 0f;
 
         #endregion
 
