@@ -329,33 +329,16 @@ namespace BTX_ExpansionPack.Core
             #region Movement and Pathfinding
 
             /// <summary>
-            /// Checks if a unit is immobile based on the irbtmu_immobile_unit stat.
+            /// Determines if a unit is unable to move due to shutdown, prone status, or immobility.
+            /// </summary>
+            public bool CanMove() => unit.CanMove || !unit.IsInArtilleryMode() || !unit.IsImmobile();
+
+            /// <summary>
+            /// Checks if a unit is immobile based on the "irbtmu_immobile_unit" stat.
             /// </summary>
             public bool IsImmobile() =>
                 unit.StatCollection.ContainsStatistic("irbtmu_immobile_unit") &&
                 unit.StatCollection.GetValue<bool>("irbtmu_immobile_unit");
-
-            /// <summary>
-            /// Checks if a unit is stuck (cannot move via walking or jumping).
-            /// </summary>
-            public bool IsStuck() => !unit.CanWalk() && !unit.CanJump();
-
-            /// <summary>
-            /// Checks if a unit can walk (has a non-stationary walking destination).
-            /// </summary>
-            public bool CanWalk()
-            {
-                if (unit.Pathing == null)
-                    return false;
-
-                var pathNodes = unit.Pathing.getGrid(MoveType.Walking)?.GetSampledPathNodes();
-                return pathNodes != null && pathNodes.Count > 1;
-            }
-
-            /// <summary>
-            /// Checks if a unit can jump.
-            /// </summary>
-            public bool CanJump() => unit is Mech mech && mech.JumpDistance > 0f;
 
             /// <summary>
             /// Determines if a unit is essentially stationary.

@@ -102,7 +102,7 @@ namespace BTX_ExpansionPack.Features.Vehicles
         }
 
         /// <summary>
-        /// Improves AI decision-making for movement-related abilities.
+        /// Activates the Motive Repair ability for AI vehicles when they are heavily impaired by motive system loss debuffs.
         /// </summary>
         [HarmonyPatch(typeof(AITeam), "getInvocationForCurrentUnit")]
         public static class AITeam_getInvocationForCurrentUnit
@@ -114,30 +114,16 @@ namespace BTX_ExpansionPack.Features.Vehicles
                     return;
 
                 var unit = __instance.currentUnit;
-                if (unit == null || unit.IsDead || unit.HasMovedThisRound || !unit.CanMove ||
-                    unit.IsInArtilleryMode() || unit.IsImmobile())
+                if (unit == null || !unit.FakeVehicle())
                     return;
 
-                // Handle vehicle-specific motive damage repair
-                if (unit.FakeVehicle() && IsMovementImpaired(unit, out int motiveStacks) && motiveStacks > 4)
+                if (unit.CanMove() && IsMovementImpaired(unit, out int motiveStacks) && motiveStacks > 4)
                 {
                     var motiveRepair = unit.ComponentAbilities.FirstOrDefault(x => x.Def.Id == "AbilityDef_MotiveRepair");
                     if (motiveRepair != null && motiveRepair.IsAvailable)
                     {
                         Main.Logger.LogDebug($"[AI Tweaks] AI {unit.DisplayName} has {motiveStacks} motive debuffs. Activating Motive Repair.");
                         motiveRepair.Activate(unit, unit);
-                        return;
-                    }
-                }
-
-                // Handle any unit being physically stuck
-                if (unit.IsStuck())
-                {
-                    var carefulManeuvers = unit.GetPilot()?.Abilities.FirstOrDefault(x => x.Def.Id == "AbilityDef_CarefulManeuvers");
-                    if (carefulManeuvers != null && carefulManeuvers.IsAvailable)
-                    {
-                        Main.Logger.LogDebug($"[AI Tweaks] AI {unit.DisplayName} is stuck. Activating Careful Maneuvers.");
-                        carefulManeuvers.Activate(unit, unit);
                         return;
                     }
                 }
